@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "title": "全球鸟类分布与生物多样性保护知识图谱",
+    "mode": "static-data",
+    "description": "前端演示用静态样例数据，包含 10 种代表性鸟类、地点、栖息地、保护等级与威胁因素。",
+    "updated_at": "2026-04-20"
+  },
+  "nodes": [
+    {
+      "id": "bird-red-crowned-crane",
+      "name": "丹顶鹤",
+      "englishName": "Red-crowned Crane",
+      "latinName": "Grus japonensis",
+      "type": "bird",
+      "status": "VU",
+      "summary": "东亚大型涉禽，依赖高质量湿地和浅水沼泽，是区域湿地健康的重要指示物种。",
+      "locations": ["扎龙湿地", "北海道", "朝鲜半岛"],
+      "habitats": ["湿地", "沼泽", "滩涂"],
+      "threats": ["湿地退化", "农业开发", "气候变化"],
+      "lat": 47.216,
+      "lng": 124.168
+    },
+    {
+      "id": "bird-crested-ibis",
+      "name": "朱鹮",
+      "englishName": "Crested Ibis",
+      "latinName": "Nipponia nippon",
+      "type": "bird",
+      "status": "EN",
+      "summary": "一度在野外接近消失，后依托人工繁育和重引入逐步恢复，是中国保护生物学的代表物种。",
+      "locations": ["陕西洋县", "佐渡岛", "韩国重引入区"],
+      "habitats": ["河谷稻田", "山地森林", "湿地"],
+      "threats": ["栖息地破坏", "农药污染", "小种群风险"],
+      "lat": 33.223,
+      "lng": 107.546
+    },
+    {
+      "id": "bird-chinese-merganser",
+      "name": "中华秋沙鸭",
+      "englishName": "Chinese Merganser",
+      "latinName": "Mergus squamatus",
+      "type": "bird",
+      "status": "EN",
+      "summary": "东亚稀有鸭类，对山地河流和成熟阔叶林依赖度高，繁殖地零散且敏感。",
+      "locations": ["长白山", "俄罗斯远东", "朝鲜北部"],
+      "habitats": ["山地河流", "成熟森林"],
+      "threats": ["河流干扰", "采伐破碎化", "人类活动扰动"],
+      "lat": 42.034,
+      "lng": 128.073
+    },
+    {
+      "id": "bird-spoon-billed-sandpiper",
+      "name": "勺嘴鹬",
+      "englishName": "Spoon-billed Sandpiper",
+      "latinName": "Calidris pygmaea",
+      "type": "bird",
+      "status": "CR",
+      "summary": "极危小型滨鸟，迁飞链高度依赖黄海与东南亚滩涂，种群数量极低。",
+      "locations": ["楚科奇海岸", "黄海滩涂", "米埔湿地"],
+      "habitats": ["海岸苔原", "潮间带泥滩"],
+      "threats": ["滩涂围垦", "迁飞地丧失", "猎捕压力"],
+      "lat": 22.494,
+      "lng": 114.042
+    },
+    {
+      "id": "bird-black-faced-spoonbill",
+      "name": "黑脸琵鹭",
+      "englishName": "Black-faced Spoonbill",
+      "latinName": "Platalea minor",
+      "type": "bird",
+      "status": "EN",
+      "summary": "东亚沿海旗舰水鸟，依赖海湾、泻湖和河口湿地，是跨国迁徙保护合作的重要物种。",
+      "locations": ["台江湿地", "米埔湿地", "朝鲜西海岸"],
+      "habitats": ["海岸湿地", "滩涂", "河口"],
+      "threats": ["滨海开发", "污染", "食物资源下降"],
+      "lat": 23.007,
+      "lng": 120.129
+    },
+    {
+      "id": "bird-california-condor",
+      "name": "加州神鹫",
+      "englishName": "California Condor",
+      "latinName": "Gymnogyps californianus",
+      "type": "bird",
+      "status": "CR",
+      "summary": "北美大型食腐鸟，经过长期圈养繁殖与放归后恢复中，但仍高度依赖持续管理。",
+      "locations": ["加州海岸山地", "大峡谷地区"],
+      "habitats": ["峡谷峭壁", "开阔山地"],
+      "threats": ["铅中毒", "电线碰撞", "低繁殖率"],
+      "lat": 35.365,
+      "lng": -120.848
+    },
+    {
+      "id": "bird-philippine-eagle",
+      "name": "菲律宾鹰",
+      "englishName": "Philippine Eagle",
+      "latinName": "Pithecophaga jefferyi",
+      "type": "bird",
+      "status": "CR",
+      "summary": "菲律宾雨林顶级掠食者，对原生低地和山地森林连通性要求极高。",
+      "locations": ["棉兰老山地", "吕宋森林残块"],
+      "habitats": ["热带雨林", "山地森林"],
+      "threats": ["森林砍伐", "非法猎捕", "巢区干扰"],
+      "lat": 7.101,
+      "lng": 125.274
+    },
+    {
+      "id": "bird-kakapo",
+      "name": "鸮鹦鹉",
+      "englishName": "Kakapo",
+      "latinName": "Strigops habroptilus",
+      "type": "bird",
+      "status": "CR",
+      "summary": "新西兰夜行性不会飞的鹦鹉，完全依赖离岸岛保护与人工监测，是岛屿保育经典案例。",
+      "locations": ["峡湾国家公园近海离岸岛"],
+      "habitats": ["温带森林", "灌丛"],
+      "threats": ["外来捕食者", "遗传瓶颈", "繁殖周期长"],
+      "lat": -45.417,
+      "lng": 167.718
+    },
+    {
+      "id": "bird-emperor-penguin",
+      "name": "帝企鹅",
+      "englishName": "Emperor Penguin",
+      "latinName": "Aptenodytes forsteri",
+      "type": "bird",
+      "status": "NT",
+      "summary": "南极标志性海鸟，对稳定海冰平台和海洋食物网变化高度敏感。",
+      "locations": ["罗斯海", "威德尔海"],
+      "habitats": ["海冰", "极地海域"],
+      "threats": ["海冰减少", "气候变暖", "食物网波动"],
+      "lat": -77.5,
+      "lng": 179.0
+    },
+    {
+      "id": "bird-grey-crowned-crane",
+      "name": "灰冠鹤",
+      "englishName": "Grey Crowned Crane",
+      "latinName": "Balearica regulorum",
+      "type": "bird",
+      "status": "EN",
+      "summary": "东非稀树草原和湿地的标志性鸟类，常因湿地丧失和捕捉贸易而衰退。",
+      "locations": ["维多利亚湖湿地", "乌干达草原湿地"],
+      "habitats": ["稀树草原", "湿地"],
+      "threats": ["湿地排水", "非法贸易", "农业扩张"],
+      "lat": -1.242,
+      "lng": 33.061
+    },
+    {
+      "id": "loc-zhalong",
+      "name": "扎龙湿地",
+      "type": "location",
+      "summary": "中国东北重要国际湿地，典型芦苇沼泽景观。",
+      "lat": 47.216,
+      "lng": 124.168
+    },
+    {
+      "id": "loc-yangxian",
+      "name": "陕西洋县",
+      "type": "location",
+      "summary": "朱鹮野外核心分布区及重引入扩散源头。",
+      "lat": 33.223,
+      "lng": 107.546
+    },
+    {
+      "id": "loc-changbai",
+      "name": "长白山",
+      "type": "location",
+      "summary": "中华秋沙鸭重要繁殖区域，山地河谷与森林镶嵌明显。",
+      "lat": 42.034,
+      "lng": 128.073
+    },
+    {
+      "id": "loc-maipo",
+      "name": "米埔湿地",
+      "type": "location",
+      "summary": "东亚-澳大利西亚迁飞通道关键停歇地。",
+      "lat": 22.494,
+      "lng": 114.042
+    },
+    {
+      "id": "loc-taijiang",
+      "name": "台江湿地",
+      "type": "location",
+      "summary": "黑脸琵鹭越冬与栖息的重要海岸湿地。",
+      "lat": 23.007,
+      "lng": 120.129
+    },
+    {
+      "id": "loc-big-sur",
+      "name": "加州海岸山地",
+      "type": "location",
+      "summary": "加州神鹫放归与活动核心区域之一。",
+      "lat": 35.365,
+      "lng": -120.848
+    },
+    {
+      "id": "loc-mindanao",
+      "name": "棉兰老山地",
+      "type": "location",
+      "summary": "菲律宾鹰的核心分布岛屿之一。",
+      "lat": 7.101,
+      "lng": 125.274
+    },
+    {
+      "id": "loc-fjordland",
+      "name": "峡湾国家公园近海离岸岛",
+      "type": "location",
+      "summary": "新西兰鸮鹦鹉保育管理常用离岸岛群。",
+      "lat": -45.417,
+      "lng": 167.718
+    },
+    {
+      "id": "loc-ross-sea",
+      "name": "罗斯海",
+      "type": "location",
+      "summary": "南极大型企鹅繁殖群的重要海冰区域。",
+      "lat": -77.5,
+      "lng": 179.0
+    },
+    {
+      "id": "loc-lake-victoria",
+      "name": "维多利亚湖湿地",
+      "type": "location",
+      "summary": "东非灰冠鹤活动频繁的湿地-农田复合景观。",
+      "lat": -1.242,
+      "lng": 33.061
+    },
+    {
+      "id": "hab-wetland",
+      "name": "湿地",
+      "type": "habitat",
+      "summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "hab-forest",
+      "name": "山地森林",
+      "type": "habitat",
+      "summary": "以成熟阔叶林和混交林为主的山地森林系统。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "hab-river",
+      "name": "山地河流",
+      "type": "habitat",
+      "summary": "冷水、清澈且流速较高的繁殖河流环境。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "hab-tidal-flat",
+      "name": "潮间带泥滩",
+      "type": "habitat",
+      "summary": "迁飞水鸟高度依赖的滨海觅食带。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "hab-coastal",
+      "name": "海岸湿地",
+      "type": "habitat",
+      "summary": "海湾、泻湖、盐沼与河口组成的复合湿地。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "hab-cliff",
+      "name": "峡谷峭壁",
+      "type": "habitat",
+      "summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "hab-rainforest",
+      "name": "热带雨林",
+      "type": "habitat",
+      "summary": "结构复杂、冠层完整的高生物多样性森林。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "hab-sea-ice",
+      "name": "海冰",
+      "type": "habitat",
+      "summary": "帝企鹅等极地鸟类繁殖与育雏的平台环境。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "hab-savanna",
+      "name": "稀树草原",
+      "type": "habitat",
+      "summary": "东非常见的开放草地与湿地边缘复合景观。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "status-cr",
+      "name": "CR",
+      "type": "status",
+      "summary": "IUCN 极危。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "status-en",
+      "name": "EN",
+      "type": "status",
+      "summary": "IUCN 濒危。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "status-vu",
+      "name": "VU",
+      "type": "status",
+      "summary": "IUCN 易危。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "status-nt",
+      "name": "NT",
+      "type": "status",
+      "summary": "IUCN 近危。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "threat-habitat-loss",
+      "name": "栖息地破坏",
+      "type": "threat",
+      "summary": "开发、采伐、围垦等活动导致适宜生境减少。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "threat-reclamation",
+      "name": "湿地围垦",
+      "type": "threat",
+      "summary": "滨海滩涂和内陆湿地被转化为建设或农业用地。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "threat-pollution",
+      "name": "污染",
+      "type": "threat",
+      "summary": "农药、工业污染与水体污染影响食物链安全。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "threat-climate",
+      "name": "气候变化",
+      "type": "threat",
+      "summary": "海冰、湿地水文和迁飞节律受到长期影响。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "threat-poaching",
+      "name": "非法猎捕",
+      "type": "threat",
+      "summary": "直接捕杀或非法贸易导致种群下降。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "threat-alien",
+      "name": "外来捕食者",
+      "type": "threat",
+      "summary": "岛屿鸟类常受猫、鼬、鼠等外来种影响。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "threat-lead",
+      "name": "铅中毒",
+      "type": "threat",
+      "summary": "食腐鸟类因食入铅弹残留而中毒。",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "threat-disturbance",
+      "name": "人类扰动",
+      "type": "threat",
+      "summary": "旅游、施工和高频活动影响繁殖或觅食。",
+      "lat": null,
+      "lng": null
+    }
+  ],
+  "links": [
+    { "source": "bird-red-crowned-crane", "target": "loc-zhalong", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-red-crowned-crane", "target": "hab-wetland", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-red-crowned-crane", "target": "status-vu", "relation": "has_status", "label": "保护等级" },
+    { "source": "bird-red-crowned-crane", "target": "threat-reclamation", "relation": "threatened_by", "label": "受威胁于" },
+    { "source": "bird-red-crowned-crane", "target": "threat-climate", "relation": "threatened_by", "label": "受威胁于" },
+
+    { "source": "bird-crested-ibis", "target": "loc-yangxian", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-crested-ibis", "target": "hab-wetland", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-crested-ibis", "target": "hab-forest", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-crested-ibis", "target": "status-en", "relation": "has_status", "label": "保护等级" },
+    { "source": "bird-crested-ibis", "target": "threat-habitat-loss", "relation": "threatened_by", "label": "受威胁于" },
+    { "source": "bird-crested-ibis", "target": "threat-pollution", "relation": "threatened_by", "label": "受威胁于" },
+
+    { "source": "bird-chinese-merganser", "target": "loc-changbai", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-chinese-merganser", "target": "hab-river", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-chinese-merganser", "target": "hab-forest", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-chinese-merganser", "target": "status-en", "relation": "has_status", "label": "保护等级" },
+    { "source": "bird-chinese-merganser", "target": "threat-habitat-loss", "relation": "threatened_by", "label": "受威胁于" },
+    { "source": "bird-chinese-merganser", "target": "threat-disturbance", "relation": "threatened_by", "label": "受威胁于" },
+
+    { "source": "bird-spoon-billed-sandpiper", "target": "loc-maipo", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-spoon-billed-sandpiper", "target": "hab-tidal-flat", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-spoon-billed-sandpiper", "target": "status-cr", "relation": "has_status", "label": "保护等级" },
+    { "source": "bird-spoon-billed-sandpiper", "target": "threat-reclamation", "relation": "threatened_by", "label": "受威胁于" },
+    { "source": "bird-spoon-billed-sandpiper", "target": "threat-poaching", "relation": "threatened_by", "label": "受威胁于" },
+
+    { "source": "bird-black-faced-spoonbill", "target": "loc-taijiang", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-black-faced-spoonbill", "target": "loc-maipo", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-black-faced-spoonbill", "target": "hab-coastal", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-black-faced-spoonbill", "target": "status-en", "relation": "has_status", "label": "保护等级" },
+    { "source": "bird-black-faced-spoonbill", "target": "threat-pollution", "relation": "threatened_by", "label": "受威胁于" },
+    { "source": "bird-black-faced-spoonbill", "target": "threat-habitat-loss", "relation": "threatened_by", "label": "受威胁于" },
+
+    { "source": "bird-california-condor", "target": "loc-big-sur", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-california-condor", "target": "hab-cliff", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-california-condor", "target": "status-cr", "relation": "has_status", "label": "保护等级" },
+    { "source": "bird-california-condor", "target": "threat-lead", "relation": "threatened_by", "label": "受威胁于" },
+    { "source": "bird-california-condor", "target": "threat-disturbance", "relation": "threatened_by", "label": "受威胁于" },
+
+    { "source": "bird-philippine-eagle", "target": "loc-mindanao", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-philippine-eagle", "target": "hab-rainforest", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-philippine-eagle", "target": "hab-forest", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-philippine-eagle", "target": "status-cr", "relation": "has_status", "label": "保护等级" },
+    { "source": "bird-philippine-eagle", "target": "threat-habitat-loss", "relation": "threatened_by", "label": "受威胁于" },
+    { "source": "bird-philippine-eagle", "target": "threat-poaching", "relation": "threatened_by", "label": "受威胁于" },
+
+    { "source": "bird-kakapo", "target": "loc-fjordland", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-kakapo", "target": "hab-forest", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-kakapo", "target": "status-cr", "relation": "has_status", "label": "保护等级" },
+    { "source": "bird-kakapo", "target": "threat-alien", "relation": "threatened_by", "label": "受威胁于" },
+    { "source": "bird-kakapo", "target": "threat-disturbance", "relation": "threatened_by", "label": "受威胁于" },
+
+    { "source": "bird-emperor-penguin", "target": "loc-ross-sea", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-emperor-penguin", "target": "hab-sea-ice", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-emperor-penguin", "target": "status-nt", "relation": "has_status", "label": "保护等级" },
+    { "source": "bird-emperor-penguin", "target": "threat-climate", "relation": "threatened_by", "label": "受威胁于" },
+
+    { "source": "bird-grey-crowned-crane", "target": "loc-lake-victoria", "relation": "distributed_in", "label": "分布于" },
+    { "source": "bird-grey-crowned-crane", "target": "hab-savanna", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-grey-crowned-crane", "target": "hab-wetland", "relation": "lives_in", "label": "栖息于" },
+    { "source": "bird-grey-crowned-crane", "target": "status-en", "relation": "has_status", "label": "保护等级" },
+    { "source": "bird-grey-crowned-crane", "target": "threat-reclamation", "relation": "threatened_by", "label": "受威胁于" },
+    { "source": "bird-grey-crowned-crane", "target": "threat-poaching", "relation": "threatened_by", "label": "受威胁于" }
+  ]
+}
+

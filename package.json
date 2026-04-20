@@ -1,0 +1,23 @@
+{
+  "name": "global-bird-knowledge-graph",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0",
+    "element-plus": "^2.10.0",
+    "leaflet": "^1.9.4",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.0.0"
+  }
+}
+
