@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:28:52",
+  "requested_title": "Sunda Teal",
+  "resolved_title": "Sunda teal",
+  "title_aliases": [
+    "Sunda Teal"
+  ],
+  "bird_id": "bird-爪哇灰鴨-d502f45c",
+  "raw_file": "bird-爪哇灰鴨-d502f45c.json",
+  "bird": {
+    "id": "bird-爪哇灰鴨-d502f45c",
+    "name": "爪哇灰鴨",
+    "english_name": "Sunda teal",
+    "latin_name": "Anas gibberifrons",
+    "summary": "爪哇灰鴨（學名：Anas gibberifron）是分佈於印尼與東帝汶的一種鴨，屬於鑽水鴨。本種原本包含安島灰鴨（分佈於孟加拉灣的島上）與灰鴨（分佈於澳洲與紐西蘭）兩種亞種，但現在這兩個亞種都被認為是獨立的物種，使的爪哇灰鴨成為單型種。2009年一項分子系统发生学研究以粒線體D…",
+    "lat": "-5",
+    "lng": "120"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-东帝汶-7f03b6c1",
+      "name": "东帝汶",
+      "summary": "東帝汶民主共和國（德頓語：Repúblika Demokrátika Timor-Leste；葡萄牙語：República Democrática de Timor-Leste），通称东帝汶（德頓語：Timor Lorosa'e；葡萄牙語…",
+      "lat": "-8.55",
+      "lng": "125.56"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-爪哇灰鴨-d502f45c",
+      "subject": "爪哇灰鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sunda teal (Anas gibberifrons), also known as the Bebek cokelat or Itik benjut, is a dabbling duck found in open wetlands in Indonesia and Timor-Leste",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-爪哇灰鴨-d502f45c",
+      "subject": "爪哇灰鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-东帝汶-7f03b6c1",
+      "object": "东帝汶",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sunda teal (Anas gibberifrons), also known as the Bebek cokelat or Itik benjut, is a dabbling duck found in open wetlands in Indonesia and Timor-Leste",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-爪哇灰鴨-d502f45c",
+      "subject": "爪哇灰鴨",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Sunda teal (Anas gibberifrons), also known as the Bebek cokelat or Itik benjut, is a dabbling duck found in open wetlands in Indonesia and Timor-Leste",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-爪哇灰鴨-d502f45c",
+      "subject": "爪哇灰鴨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

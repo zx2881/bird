@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:34:02",
+  "requested_title": "Philippine Megapode",
+  "resolved_title": "Philippine megapode",
+  "title_aliases": [
+    "Philippine Megapode"
+  ],
+  "bird_id": "bird-菲律宾冢雉-f4730e6c",
+  "raw_file": "bird-菲律宾冢雉-f4730e6c.json",
+  "bird": {
+    "id": "bird-菲律宾冢雉-f4730e6c",
+    "name": "菲律宾冢雉",
+    "english_name": "Philippine megapode",
+    "latin_name": "Megapodius cumingii",
+    "summary": "菲律宾塚雉（学名：Megapodius cumingii）是塚雉科塚雉属下的一种鸟类。它分布于菲律宾、婆罗洲东北部和苏拉威西岛。栖息地于亚热带或热带干燥森林、亚热带或热带湿润低地森林和亚热带或热带湿润山地森林之中。 描述 菲律宾塚雉背面呈棕色，腹面呈蓝灰色，眼睛周围有裸露的朱红…",
+    "lat": "13",
+    "lng": "122"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    },
+    {
+      "id": "loc-苏拉威西岛-6ebabd9a",
+      "name": "苏拉威西岛",
+      "summary": "苏拉威西岛（印尼語：Sulawesi）舊名西里伯或西里伯斯，《職方外紀》稱則勒伯（荷蘭語：Celebes），是印度尼西亚东部的一个大岛屿。 地理 苏拉威西岛按面积是世界第十一大岛，总面积为174,600平方公里，位于印度尼西亚东部，菲律宾…",
+      "lat": "-2",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-菲律宾冢雉-f4730e6c",
+      "subject": "菲律宾冢雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Philippines, northeastern Borneo, and Sulawesi",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-菲律宾冢雉-f4730e6c",
+      "subject": "菲律宾冢雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Philippines, northeastern Borneo, and Sulawesi",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-菲律宾冢雉-f4730e6c",
+      "subject": "菲律宾冢雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏拉威西岛-6ebabd9a",
+      "object": "苏拉威西岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Philippines, northeastern Borneo, and Sulawesi",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-菲律宾冢雉-f4730e6c",
+      "subject": "菲律宾冢雉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-菲律宾冢雉-f4730e6c",
+      "subject": "菲律宾冢雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Despite not being threatened, its population is declning due to habitat loss, introduced species which prey on its eggs, egg collection and hunting from humans",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-菲律宾冢雉-f4730e6c",
+      "subject": "菲律宾冢雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Despite not being threatened, its population is declning due to habitat loss, introduced species which prey on its eggs, egg collection and hunting from humans",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

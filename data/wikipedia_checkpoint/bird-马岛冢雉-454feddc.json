@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:33:42",
+  "requested_title": "Micronesian Megapode",
+  "resolved_title": "Micronesian megapode",
+  "title_aliases": [
+    "Micronesian Megapode"
+  ],
+  "bird_id": "bird-马岛冢雉-454feddc",
+  "raw_file": "bird-马岛冢雉-454feddc.json",
+  "bird": {
+    "id": "bird-马岛冢雉-454feddc",
+    "name": "马岛冢雉",
+    "english_name": "Micronesian megapode",
+    "latin_name": "Megapodius laperouse",
+    "summary": "马岛塚雉或密克罗尼西亚塚雉（学名：Megapodius laperouse）是一种生活在西太平洋的受威胁的塚雉。 描述 马岛塚雉是一种体型粗壮的中型鸟类，其身长可达38厘米。这种鸟羽毛多为深棕黑色，头部比身体颜色更浅，有浅灰色的羽冠、黄色的喙和暗黄色的后肢。其面部皮肤呈红色，透…",
+    "lat": "0",
+    "lng": "-160"
+  },
+  "locations": [
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-马岛冢雉-454feddc",
+      "subject": "马岛冢雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "laperouse (Gaimard, 1823)Marianas scrubfowl }} thumb|Micronesian megapode on the island of Sarigan The Micronesian megapode or Micronesian scrubfowl (Megapodius laperouse) is a megapode which inhabits islands of the Western Pacific Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-马岛冢雉-454feddc",
+      "subject": "马岛冢雉",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-马岛冢雉-454feddc",
+      "subject": "马岛冢雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Given the multiple threats across its range, it is likely to be suffering from a continuing decline. It seems that the only way for the species to be safe is to protect a few small islands and release a small population of megapodes there",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

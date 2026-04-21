@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:33:48",
+  "requested_title": "Nicobar Megapode",
+  "resolved_title": "Nicobar megapode",
+  "title_aliases": [
+    "Nicobar Megapode"
+  ],
+  "bird_id": "bird-nicobar-megapode-e1466432",
+  "raw_file": "bird-nicobar-megapode-e1466432.json",
+  "bird": {
+    "id": "bird-nicobar-megapode-e1466432",
+    "name": "Nicobar megapode",
+    "english_name": "Nicobar megapode",
+    "latin_name": "Megapodius nicobariensis",
+    "summary": "The Nicobar megapode or Nicobar scrubfowl (Megapodius nicobariensis) is a megapode found in some of the Nicobar Islands (India). Like other…",
+    "lat": "7.08333333",
+    "lng": "93.8"
+  },
+  "locations": [
+    {
+      "id": "loc-尼科巴群岛-e8a3a4cd",
+      "name": "尼科巴群岛",
+      "summary": "尼科巴群岛（Nicobar Islands，印地語：निकोबार द्वीपसमूह），印度洋中一群岛，位于孟加拉湾和安达曼海之间，北为安达曼群岛，南为印度尼西亚苏门答腊岛，目前与安达曼群岛同属印度安达曼-尼科巴群岛联邦直辖区管辖。群岛…",
+      "lat": "7.08333333",
+      "lng": "93.8"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-nicobar-megapode-e1466432",
+      "subject": "Nicobar megapode",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼科巴群岛-e8a3a4cd",
+      "object": "尼科巴群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "nicobariensis (Blyth, 1846) | range_map = NicobarMegapodeMap.png | range_map_caption = Distribution of Nicobar megapode, grey area shows the distribution range of other megapodes }} The Nicobar megapode or Nicobar scrubfowl (Megapodius nicobariensis) is a megapode found in some of the Nicobar Islands (India)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nicobar-megapode-e1466432",
+      "subject": "Nicobar megapode",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-nicobar-megapode-e1466432",
+      "subject": "Nicobar megapode",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Being restricted to small islands and threatened by hunting, the species is vulnerable to extinction",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

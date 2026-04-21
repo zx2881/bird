@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:28:59",
+  "requested_title": "Chestnut Teal",
+  "resolved_title": "Chestnut teal",
+  "title_aliases": [
+    "Chestnut Teal"
+  ],
+  "bird_id": "bird-栗胸鸭-eb0bf92f",
+  "raw_file": "bird-栗胸鸭-eb0bf92f.json",
+  "bird": {
+    "id": "bird-栗胸鸭-eb0bf92f",
+    "name": "栗胸鸭",
+    "english_name": "Chestnut teal",
+    "latin_name": "Anas castanea",
+    "summary": "栗胸鴨（學名：Anas castanea），也翻作板栗水鴨，是澳大利亞的一種鴨，屬於鑽水鴨。受到1974年國家公園和野生動物法案所保護。 描述 栗胸鴨體型較灰鴨稍大，顏色也較深，其中雄鴨頭部是綠色的，相當特殊，且頸、胸與腹部是栗色，身體為深棕色，雌鴨頭部則是棕色，頸部為白色，身…",
+    "lat": "-25",
+    "lng": "133"
+  },
+  "locations": [
+    {
+      "id": "loc-thomas-campbell-eyton-7c85e918",
+      "name": "Thomas Campbell Eyton",
+      "summary": "Thomas Campbell Eyton JP, DL (10 September 1809 – 25 October 1880) was an English naturalist whose fields were cattle,…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗胸鸭-eb0bf92f",
+      "subject": "栗胸鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-thomas-campbell-eyton-7c85e918",
+      "object": "Thomas Campbell Eyton",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut teal (Anas castanea) is a dabbling duck found in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗胸鸭-eb0bf92f",
+      "subject": "栗胸鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut teal (Anas castanea) is a dabbling duck found in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗胸鸭-eb0bf92f",
+      "subject": "栗胸鸭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

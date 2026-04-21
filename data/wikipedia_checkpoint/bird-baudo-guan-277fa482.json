@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:38:07",
+  "requested_title": "Baudo Guan",
+  "resolved_title": "Baudo guan",
+  "title_aliases": [
+    "Baudo Guan"
+  ],
+  "bird_id": "bird-baudo-guan-277fa482",
+  "raw_file": "bird-baudo-guan-277fa482.json",
+  "bird": {
+    "id": "bird-baudo-guan-277fa482",
+    "name": "Baudo guan",
+    "english_name": "Baudo guan",
+    "latin_name": "Penelope ortoni",
+    "summary": "The Baudó guan (Penelope ortoni) is a species of bird from the family Cracidae. It is restricted to humid forests in the west Andean foothi…",
+    "lat": "4",
+    "lng": "-72"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-皮欽查省-156d8509",
+      "name": "皮欽查省",
+      "summary": "皮欽查省（西班牙語：Provincia de Pichincha），是厄瓜多爾中部的一個省。面積9,484平方公里，2010年人口2,576,287人。首府基多是該國的首都。 1824年6月25日設省，2007年11月6日聖多明各-德洛斯…",
+      "lat": "-0.25",
+      "lng": "-78.58333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-baudo-guan-277fa482",
+      "subject": "Baudo guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Found in Colombia and in Ecuador, on the lower slopes and at the base of the west Andean foothills. There are no confirmed recent records of its presence anywhere south of Pichincha in Ecuador. Its living range and population size has certainly decreased significantly recently",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-baudo-guan-277fa482",
+      "subject": "Baudo guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Found in Colombia and in Ecuador, on the lower slopes and at the base of the west Andean foothills. There are no confirmed recent records of its presence anywhere south of Pichincha in Ecuador. Its living range and population size has certainly decreased significantly recently",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-baudo-guan-277fa482",
+      "subject": "Baudo guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-皮欽查省-156d8509",
+      "object": "皮欽查省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Found in Colombia and in Ecuador, on the lower slopes and at the base of the west Andean foothills. There are no confirmed recent records of its presence anywhere south of Pichincha in Ecuador. Its living range and population size has certainly decreased significantly recently",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-baudo-guan-277fa482",
+      "subject": "Baudo guan",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

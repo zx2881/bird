@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:31:51",
+  "requested_title": "Brown Teal",
+  "resolved_title": "Brown teal",
+  "title_aliases": [
+    "Brown Teal"
+  ],
+  "bird_id": "bird-褐鸭-da254653",
+  "raw_file": "bird-褐鸭-da254653.json",
+  "bird": {
+    "id": "bird-褐鸭-da254653",
+    "name": "褐鸭",
+    "english_name": "Brown teal",
+    "latin_name": "Anas chlorotis",
+    "summary": "褐鸭（台湾作棕腹鴨）（学名：Anas chlorotis），是雁形目鸭科的一种鸟类。 特征 褐鸭体重约499.09克，翼长约196.6毫米，嘴峰长约42.7毫米，喙宽度约18.2毫米，喙厚度约14.2毫米，跗蹠长约35.6毫米，尾长约77.8毫米。褐鸭在其分布区内为留鸟，其栖息…",
+    "lat": "-36.6",
+    "lng": "174.89"
+  },
+  "locations": [
+    {
+      "id": "loc-tiritiri-matangi-island-7a9061a2",
+      "name": "Tiritiri Matangi Island",
+      "summary": "Tiritiri Matangi Island is located in the Hauraki Gulf of New Zealand, 3.4 km (2.1 mi) east of the Whangaparāoa Peninsu…",
+      "lat": "-36.6",
+      "lng": "174.89"
+    },
+    {
+      "id": "loc-喬治-羅伯特-格雷-8bb7d23c",
+      "name": "喬治·羅伯特·格雷",
+      "summary": "喬治·羅伯特·格雷 FRS（英語：George Robert Gray，1808年7月8日—1872年5月6日）是一名英國的動物學家及作家，出任了大英博物館的鳥類部分主管近41年，並且是倫敦皇家昆蟲學會的先導者。其最重要的著作《Gener…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-褐鸭-da254653",
+      "subject": "褐鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-tiritiri-matangi-island-7a9061a2",
+      "object": "Tiritiri Matangi Island",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The brown teal (Anas chlorotis; ) is a species of dabbling duck of the genus Anas native to New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐鸭-da254653",
+      "subject": "褐鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-喬治-羅伯特-格雷-8bb7d23c",
+      "object": "喬治·羅伯特·格雷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The brown teal (Anas chlorotis; ) is a species of dabbling duck of the genus Anas native to New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐鸭-da254653",
+      "subject": "褐鸭",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-褐鸭-da254653",
+      "subject": "褐鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Formerly, it was widespread on the New Zealand mainland, but it disappeared there due to introduced predators like cats, dogs and rats, which easily preyed on this unwary, weakly flying bird",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:34:26",
+  "requested_title": "Melanesian Megapode",
+  "resolved_title": "Melanesian megapode",
+  "title_aliases": [
+    "Melanesian Megapode"
+  ],
+  "bird_id": "bird-melanesian-megapode-8abe705a",
+  "raw_file": "bird-melanesian-megapode-8abe705a.json",
+  "bird": {
+    "id": "bird-melanesian-megapode-8abe705a",
+    "name": "Melanesian megapode",
+    "english_name": "Melanesian megapode",
+    "latin_name": "Megapodius eremita",
+    "summary": "The Melanesian scrubfowl or Melanesian megapode (Megapodius eremita) is a megapode species that is endemic to islands within Melanesia. The…",
+    "lat": "-5",
+    "lng": "150.1"
+  },
+  "locations": [
+    {
+      "id": "loc-俾斯麦群岛-19ddf3e6",
+      "name": "俾斯麦群岛",
+      "summary": "俾斯麦群岛（英文：Bismarck Archipelago）是太平洋西南部一群岛，位于新几内亚岛东北，濒临俾斯麦海，由200多个岛屿组成，总陆地面积49700平方公里，主要岛屿有新不列颠岛、新爱尔兰岛等，人口31.4万人，现全部属于巴布亚…",
+      "lat": "-5",
+      "lng": "150.1"
+    },
+    {
+      "id": "loc-所羅門群島-群島-4708e5d6",
+      "name": "所羅門群島 (群島)",
+      "summary": "所羅門群島是太平洋西南面的群島，位於澳大利亞東北方的美拉尼西亞（Melanesia）地區。西隔所羅門海與新幾內亞、俾斯麥群島相鄰。 政治上分屬兩個政治實體： 所罗门群岛，領土範圍為大部分的索羅門群島（28,896 km²，660,121人…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-melanesian-megapode-8abe705a",
+      "subject": "Melanesian megapode",
+      "predicate": "distributed_in",
+      "object_id": "loc-俾斯麦群岛-19ddf3e6",
+      "object": "俾斯麦群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "All megapodes are found in Australasia, and, within this region, the Melanesian scrubfowl has an island distribution encompassing the Bismarck Archipelago and Solomon Islands. The Melanesian scrubfowl lives on small and large islands, and is fairly common (although more or less so throughout its range). The Melanesian scrubfowl moves between different habitat types required for breeding and for foraging",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-melanesian-megapode-8abe705a",
+      "subject": "Melanesian megapode",
+      "predicate": "distributed_in",
+      "object_id": "loc-所羅門群島-群島-4708e5d6",
+      "object": "所羅門群島 (群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "All megapodes are found in Australasia, and, within this region, the Melanesian scrubfowl has an island distribution encompassing the Bismarck Archipelago and Solomon Islands. The Melanesian scrubfowl lives on small and large islands, and is fairly common (although more or less so throughout its range). The Melanesian scrubfowl moves between different habitat types required for breeding and for foraging",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-melanesian-megapode-8abe705a",
+      "subject": "Melanesian megapode",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

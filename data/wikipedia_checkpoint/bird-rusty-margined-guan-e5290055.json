@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:38:53",
+  "requested_title": "Rusty-margined Guan",
+  "resolved_title": "Rusty-margined guan",
+  "title_aliases": [
+    "Rusty-margined Guan"
+  ],
+  "bird_id": "bird-rusty-margined-guan-e5290055",
+  "raw_file": "bird-rusty-margined-guan-e5290055.json",
+  "bird": {
+    "id": "bird-rusty-margined-guan-e5290055",
+    "name": "Rusty-margined guan",
+    "english_name": "Rusty-margined guan",
+    "latin_name": "Penelope superciliaris",
+    "summary": "The rusty-margined guan (Penelope superciliaris) is a species of bird in the family Cracidae, which includes the chachalacas, guans, and cu…",
+    "lat": "-34",
+    "lng": "-64"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-巴拉圭-029e9211",
+      "name": "巴拉圭",
+      "summary": "巴拉圭共和國（西班牙語：República del Paraguay、瓜拉尼語：Paraguái Tavakuairetã），通稱巴拉圭（西班牙語：Paraguay；瓜拉尼語：Paraguái），是位於南美洲的主權國家，也是位於南美洲的內…",
+      "lat": "-23",
+      "lng": "-58"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rusty-margined-guan-e5290055",
+      "subject": "Rusty-margined guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Bolivia, Brazil, and Paraguay.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-margined-guan-e5290055",
+      "subject": "Rusty-margined guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Bolivia, Brazil, and Paraguay.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-margined-guan-e5290055",
+      "subject": "Rusty-margined guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Bolivia, Brazil, and Paraguay.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-margined-guan-e5290055",
+      "subject": "Rusty-margined guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉圭-029e9211",
+      "object": "巴拉圭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Bolivia, Brazil, and Paraguay.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-margined-guan-e5290055",
+      "subject": "Rusty-margined guan",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-rusty-margined-guan-e5290055",
+      "subject": "Rusty-margined guan",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The IUCN has assessed the rusty-margined guan as being Near Threatened. It is reasonably common only in protected areas though even there poaching is a concern",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    }
+  ]
+}

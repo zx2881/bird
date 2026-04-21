@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:38:02",
+  "requested_title": "Bearded Guan",
+  "resolved_title": "Bearded guan",
+  "title_aliases": [
+    "Bearded Guan"
+  ],
+  "bird_id": "bird-bearded-guan-5a37f54e",
+  "raw_file": "bird-bearded-guan-5a37f54e.json",
+  "bird": {
+    "id": "bird-bearded-guan-5a37f54e",
+    "name": "Bearded guan",
+    "english_name": "Bearded guan",
+    "latin_name": "Penelope barbata",
+    "summary": "The bearded guan (Penelope barbata) is a species of bird in the family Cracidae, the chachalacas, guans, and curassows. It is found in Ecua…",
+    "lat": "-2",
+    "lng": "-77.5"
+  },
+  "locations": [
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bearded-guan-5a37f54e",
+      "subject": "Bearded guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bearded-guan-5a37f54e",
+      "subject": "Bearded guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bearded-guan-5a37f54e",
+      "subject": "Bearded guan",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-bearded-guan-5a37f54e",
+      "subject": "Bearded guan",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-bearded-guan-5a37f54e",
+      "subject": "Bearded guan",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-bearded-guan-5a37f54e",
+      "subject": "Bearded guan",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The greatest threat to the bearded guan (Penelope barbata) is deforestation for agriculture and mining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

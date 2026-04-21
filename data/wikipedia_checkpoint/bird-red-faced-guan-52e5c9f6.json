@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:38:55",
+  "requested_title": "Red-faced Guan",
+  "resolved_title": "Red-faced guan",
+  "title_aliases": [
+    "Red-faced Guan"
+  ],
+  "bird_id": "bird-red-faced-guan-52e5c9f6",
+  "raw_file": "bird-red-faced-guan-52e5c9f6.json",
+  "bird": {
+    "id": "bird-red-faced-guan-52e5c9f6",
+    "name": "Red-faced guan",
+    "english_name": "Red-faced guan",
+    "latin_name": "Penelope dabbenei",
+    "summary": "The red-faced guan (Penelope dabbenei) is a species of bird in the family Cracidae, the chachalacas, guans, and curassows. It is found in A…",
+    "lat": "-34",
+    "lng": "-64"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-faced-guan-52e5c9f6",
+      "subject": "Red-faced guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Bolivia.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-faced-guan-52e5c9f6",
+      "subject": "Red-faced guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Bolivia.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-faced-guan-52e5c9f6",
+      "subject": "Red-faced guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the cloudforest of the Yungas region and prefers extensive tracts of large trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-faced-guan-52e5c9f6",
+      "subject": "Red-faced guan",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-red-faced-guan-52e5c9f6",
+      "subject": "Red-faced guan",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The IUCN originally assessed the red-faced guan in 1988 as Threatened but since 2004 has rated it as being of Least Concern. Though it has a restricted range, it occurs in several protected areas and its generally remote and inaccessible habitat make for less hunting pressure than most other guans receive",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

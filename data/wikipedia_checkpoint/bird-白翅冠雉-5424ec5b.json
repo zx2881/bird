@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:39:52",
+  "requested_title": "White-winged Guan",
+  "resolved_title": "White-winged guan",
+  "title_aliases": [
+    "White-winged Guan"
+  ],
+  "bird_id": "bird-白翅冠雉-5424ec5b",
+  "raw_file": "bird-白翅冠雉-5424ec5b.json",
+  "bird": {
+    "id": "bird-白翅冠雉-5424ec5b",
+    "name": "白翅冠雉",
+    "english_name": "White-winged guan",
+    "latin_name": "Penelope albipennis",
+    "summary": "白翅冠雉（Penelope albipennis），又名白翼官鳥，是一種鳳冠雉。 白翅冠雉分佈在秘魯西北部的蘭巴耶克大區、卡哈馬卡大區及皮烏拉地區。牠們是一種大型鳥類，長達70厘米，外觀像火雞，頸幼頭細。牠們的羽毛呈深褐色，初級飛羽白色。頸上、上胸及翼底有淡色的斑點。喉嚨沒有羽…",
+    "lat": "-32",
+    "lng": "-70"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白翅冠雉-5424ec5b",
+      "subject": "白翅冠雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The 1876 specimen had been collected much further north than the current known area. The white-winged guan inhabits a very specialized landscape, small, forested ravines and nearby slopes on the west side of the Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白翅冠雉-5424ec5b",
+      "subject": "白翅冠雉",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-白翅冠雉-5424ec5b",
+      "subject": "白翅冠雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, habitat destruction and hunting remain as threats",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-白翅冠雉-5424ec5b",
+      "subject": "白翅冠雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, habitat destruction and hunting remain as threats",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:35:39",
+  "requested_title": "Black Guan",
+  "resolved_title": "Black guan",
+  "title_aliases": [
+    "Black Guan"
+  ],
+  "bird_id": "bird-black-guan-d8375ecb",
+  "raw_file": "bird-black-guan-d8375ecb.json",
+  "bird": {
+    "id": "bird-black-guan-d8375ecb",
+    "name": "Black guan",
+    "english_name": "Black guan",
+    "latin_name": "Chamaepetes unicolor",
+    "summary": "The black guan (Chamaepetes unicolor) is a species of bird in the chachalaca, guan, and curassow family Cracidae. It is found in Costa Rica…",
+    "lat": "10",
+    "lng": "-84"
+  },
+  "locations": [
+    {
+      "id": "loc-哥斯达黎加-6c4f73ad",
+      "name": "哥斯达黎加",
+      "summary": "哥斯达黎加共和國（西班牙語：República de Costa Rica），通稱哥斯达黎加（Costa Rica），是中美洲国家，北邻尼加拉瓜，南与巴拿马接壤，首都為聖荷西。 哥斯达黎加是当今世界上第一个裁撤军队的国家。目前哥斯大黎加是…",
+      "lat": "10",
+      "lng": "-84"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-talamancan-montane-forests-a57e7cc3",
+      "name": "Talamancan montane forests",
+      "summary": "The Talamancan montane forests ecoregion, in the tropical moist broadleaf forest biome, are in montane Costa Rica and w…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-guan-d8375ecb",
+      "subject": "Black guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥斯达黎加-6c4f73ad",
+      "object": "哥斯达黎加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-guan-d8375ecb",
+      "subject": "Black guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-guan-d8375ecb",
+      "subject": "Black guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits cloudforest in the Talamancan montane forest ecozone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-guan-d8375ecb",
+      "subject": "Black guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-talamancan-montane-forests-a57e7cc3",
+      "object": "Talamancan montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits cloudforest in the Talamancan montane forest ecozone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-guan-d8375ecb",
+      "subject": "Black guan",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits cloudforest in the Talamancan montane forest ecozone",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-black-guan-d8375ecb",
+      "subject": "Black guan",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:40:06",
+  "requested_title": "Yungas Guan",
+  "resolved_title": "Yungas guan",
+  "title_aliases": [
+    "Yungas Guan"
+  ],
+  "bird_id": "bird-yungas-guan-b1152623",
+  "raw_file": "bird-yungas-guan-b1152623.json",
+  "bird": {
+    "id": "bird-yungas-guan-b1152623",
+    "name": "Yungas guan",
+    "english_name": "Yungas guan",
+    "latin_name": "Penelope bridgesi",
+    "summary": "The Yungas guan (Penelope bridgesi) is a species of bird in the family Cracidae, the chachalacas, guans, and curassows. It is found in the…",
+    "lat": "-32",
+    "lng": "-70"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yungas-guan-b1152623",
+      "subject": "Yungas guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Andean foothills of Argentina and Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yungas-guan-b1152623",
+      "subject": "Yungas guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Andean foothills of Argentina and Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yungas-guan-b1152623",
+      "subject": "Yungas guan",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Andean foothills of Argentina and Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yungas-guan-b1152623",
+      "subject": "Yungas guan",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}
