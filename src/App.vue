@@ -232,7 +232,8 @@ const typeLabelMap = {
   location: '地点',
   habitat: '栖息地',
   status: '保护等级',
-  threat: '威胁因素'
+  threat: '威胁因素',
+  taxonomy: '分类单元'
 }
 
 const statusClassMap = {
@@ -247,7 +248,8 @@ const legendItems = [
   { label: '地点', color: '#0f766e' },
   { label: '栖息地', color: '#1d4ed8' },
   { label: '保护等级', color: '#7c3aed' },
-  { label: '威胁因素', color: '#dc2626' }
+  { label: '威胁因素', color: '#dc2626' },
+  { label: '分类单元', color: '#475569' }
 ]
 
 const categoryIndex = {
@@ -255,7 +257,8 @@ const categoryIndex = {
   location: 1,
   habitat: 2,
   status: 3,
-  threat: 4
+  threat: 4,
+  taxonomy: 5
 }
 
 let chartInstance
@@ -558,4 +561,3 @@ onBeforeUnmount(() => {
   mapInstance?.remove()
 })
 </script>
-

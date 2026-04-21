@@ -1,20 +1,37 @@
 # 全球鸟类分布与生物多样性保护知识图谱构建
 
-本项目基于你提供的两份需求文档搭建了一个完整框架，包含：
+本项目现在采用两层数据结构：
+
+- `data/*.csv` 是长期维护的主数据源
+- `public/knowledge.json` 是给前端直接读取的生成结果
+
+这样做的目的很直接：后续你只维护表格，不再手改大 JSON。
+
+## 1. 当前项目包含什么
 
 - `Vue 3 + Vite + Element Plus` 前端单页应用
 - `ECharts` 力导向知识图谱与 `Leaflet` 地图联动
-- `public/knowledge.json` 静态知识图谱样例数据
-- `Node` 简易后端三元组抽取测试接口
-- `pygbif` 抓取脚本示例，用于生成兼容的 `knowledge.json`
+- `data/` 目录下的 CSV 填表模式主数据源
+- `scripts/build_knowledge_json.py` 数据整合脚本
+- `scripts/download_bird_name_list.py` 的 AviList 标准鸟名下载脚本
+- `scripts/crawl_from_wikipedia.py` 的 Wikipedia 批量抓取脚本
+- `server/` 下的 Node 简易三元组测试接口
+- `scripts/fetch_gbif_data.py` 的 GBIF 分布抓取示例
 
-## 1. 目录结构
+## 2. 目录结构
 
 ```text
 .
+├─ data/
+│  ├─ birds.csv
+│  ├─ locations.csv
+│  └─ relations.csv
 ├─ public/
 │  └─ knowledge.json
 ├─ scripts/
+│  ├─ build_knowledge_json.py
+│  ├─ crawl_from_wikipedia.py
+│  ├─ download_bird_name_list.py
 │  └─ fetch_gbif_data.py
 ├─ server/
 │  ├─ data/
@@ -28,334 +45,493 @@
 │  └─ style.css
 ├─ index.html
 ├─ package.json
-├─ vite.config.js
-└─ README.md
+└─ vite.config.js
 ```
 
-## 2. 项目初始化指令
+## 3. 填表模式怎么工作
 
-如果你想从空目录重新创建同类项目，可以使用下面的命令：
+现在的数据流是：
 
-```bash
-npm create vite@latest global-bird-knowledge-graph -- --template vue
-cd global-bird-knowledge-graph
-npm install
-npm install element-plus echarts leaflet
-```
+1. 你维护 `data/birds.csv`
+2. 你维护 `data/locations.csv`
+3. 你维护 `data/relations.csv`
+4. 运行 `python scripts/build_knowledge_json.py`
+5. 自动生成前端读取的 `public/knowledge.json`
 
-当前目录里的 `package.json` 已经按这个思路配置好了，因此你在本项目中只需要执行：
+也就是：
 
-```bash
-npm install
-```
+- 表格是“主数据”
+- JSON 是“构建产物”
 
-## 3. 如何运行
+## 4. 三个 CSV 文件怎么填
 
-前端与后端建议分别开两个终端。
-
-终端 1，启动三元组测试后端：
-
-```bash
-npm run server
-```
-
-终端 2，启动 Vue 前端：
-
-```bash
-npm run dev
-```
-
-默认地址：
-
-- 前端：`http://localhost:5173`
-- 后端：`http://localhost:3001`
-
-`vite.config.js` 已经把 `/api` 代理到了 `3001` 端口，所以前端里可以直接请求 `/api/triples/test`。
-
-## 4. 前端代码说明
-
-### `package.json`
+### `data/birds.csv`
 
 作用：
 
-- 定义 Vue/Vite 的依赖
-- 安装 `Element Plus`、`ECharts`、`Leaflet`
-- 提供 `dev`、`build`、`preview`、`server` 四个脚本
+- 存鸟类实体本身的信息
+- 一行对应一个 Bird 节点
 
-### `vite.config.js`
+列说明：
 
-作用：
+- `id`: 鸟类唯一标识，建议固定不改，例如 `bird-red-crowned-crane`
+- `name`: 中文名
+- `english_name`: 英文名
+- `latin_name`: 拉丁学名
+- `summary`: 鸟类简介
+- `lat`: 鸟类代表坐标纬度
+- `lng`: 鸟类代表坐标经度
 
-- 注册 Vue 插件
-- 将开发服务器端口固定为 `5173`
-- 把 `/api` 请求代理到本地后端 `http://localhost:3001`
+示例：
 
-### `src/main.js`
+```csv
+id,name,english_name,latin_name,summary,lat,lng
+bird-siberian-crane,白鹤,Siberian Crane,Leucogeranus leucogeranus,大型涉禽，依赖湿地和浅水湖泊。,29.103,116.221
+```
 
-作用：
+说明：
 
-- 创建 Vue 应用实例
-- 全局注册 `Element Plus`
-- 引入 `Element Plus`、`Leaflet` 和自定义样式
+- `birds.csv` 只保存鸟类本身信息
+- `status`、`habitats`、`threats`、`locations` 不直接写在这里
+- 这些字段会由 `relations.csv` 自动聚合出来
 
-### `src/App.vue`
-
-这是前端核心页面，基本把你的布局要求全部落在了一个文件里，便于你继续扩展。
-
-主要分成四部分：
-
-1. 页面布局
-   - 顶部 `Header` 展示标题“全球鸟类多样性知识探索平台”
-   - 左侧 `30%` 为概览、搜索、实体详情、后端测试面板
-   - 右侧 `70%` 上方为 ECharts 力导向图，下方为 Leaflet 地图
-
-2. 静态知识图谱加载
-   - `loadKnowledge()` 从 `public/knowledge.json` 读取 `nodes` 和 `links`
-   - 初始默认选中第一种鸟类并同步地图定位
-
-3. 图谱与地图联动
-   - `initChart()` 初始化力导向图
-   - 点击图谱中的节点时，通过 `selectEntity()` 更新左侧详情
-   - 如果点中地点或带坐标的鸟类，`moveMap()` 会自动飞到对应位置并打点
-
-4. 后端三元组测试
-   - 点击“运行三元组抽取测试”后，请求 `/api/triples/test`
-   - 前端将返回的 `documents` 与 `triples` 直接展示在左侧表格中
-
-### `src/style.css`
+### `data/locations.csv`
 
 作用：
 
-- 统一定义颜色、阴影、玻璃态面板等全局变量
-- 实现左右双栏布局和上下分屏布局
-- 对图谱卡片、地图卡片、指标卡片、实体详情卡片进行视觉统一
-- 补充移动端响应式布局
+- 存地点实体信息
+- 一行对应一个 Location 节点
 
-视觉上没有走默认的白底后台风格，而是做了偏自然调查面板的暖色渐变和半透明卡片，便于后续继续迭代。
+列说明：
 
-## 5. 静态图谱数据说明
+- `id`: 地点唯一标识，例如 `loc-poyang-lake`
+- `name`: 地点名称
+- `summary`: 地点简介
+- `lat`: 纬度
+- `lng`: 经度
 
-### `public/knowledge.json`
+示例：
+
+```csv
+id,name,summary,lat,lng
+loc-poyang-lake,鄱阳湖,中国重要候鸟越冬地。,29.103,116.221
+```
+
+说明：
+
+- 地图联动依赖 `locations.csv` 的经纬度
+- 同一个地点必须复用同一个 `id`
+- 不要同时出现“鄱阳湖”“江西鄱阳湖”“Poyang Lake”三个重复节点
+
+### `data/relations.csv`
 
 作用：
 
-- 作为前端主数据源
-- 满足 `static-data` 模式
-- 提供 `nodes` 和 `links` 两个数组
+- 存三元组关系
+- 一行对应一个事实
+- 这是最接近 [三元组提取.md](C:/Users/29802/Documents/全球鸟类分布与生物多样性保护知识图谱构建/三元组提取.md) 的主表
 
-数据内容：
+列说明：
 
-- 10 个鸟类节点
-  - 丹顶鹤
-  - 朱鹮
-  - 中华秋沙鸭
-  - 勺嘴鹬
-  - 黑脸琵鹭
-  - 加州神鹫
-  - 菲律宾鹰
-  - 鸮鹦鹉
-  - 帝企鹅
-  - 灰冠鹤
-- 10 个地点节点
-- 8 个栖息地节点
-- 4 个保护等级节点
-- 8 个威胁因素节点
+- `subject_id`: 主语实体 id，工程字段，方便稳定构图
+- `subject`: 主语实体名
+- `predicate`: 关系类型
+- `object_id`: 宾语实体 id，工程字段，方便稳定构图
+- `object`: 宾语实体名
+- `subject_type`: 主语类型
+- `object_type`: 宾语类型
+- `evidence`: 证据语句
+- `object_summary`: 可选，用于给自动生成的宾语节点补简介
 
-字段设计：
+示例：
 
-- `id`: 节点唯一标识
-- `name`: 节点名称
-- `type`: 节点类型，前端依靠它决定颜色和行为
-- `lat` / `lng`: 所有节点都保留该属性；无空间意义的节点使用 `null`
-- 鸟类节点额外包含：
-  - `englishName`
-  - `latinName`
-  - `status`
-  - `summary`
-  - `locations`
-  - `habitats`
-  - `threats`
+```csv
+subject_id,subject,predicate,object_id,object,subject_type,object_type,evidence,object_summary
+bird-siberian-crane,白鹤,distributed_in,loc-poyang-lake,鄱阳湖,Bird,Location,白鹤主要分布于鄱阳湖。,
+bird-siberian-crane,白鹤,lives_in,hab-wetland,湿地,Bird,Habitat,白鹤栖息于湿地。,浅水、沼泽与植被斑块组成的高生产力生态系统。
+bird-siberian-crane,白鹤,has_status,status-cr,CR,Bird,Status,白鹤的保护等级为 CR。,IUCN 极危。
+bird-siberian-crane,白鹤,threatened_by,threat-climate-change,气候变化,Bird,Threat,白鹤面临气候变化威胁。,长期改变水文节律与生态系统稳定性的全球变化因素。
+```
 
-关系设计：
+### `relations.csv` 与 `三元组提取.md` 的关系
+
+这张表保留了原始 Schema 里的核心字段：
+
+- `subject`
+- `predicate`
+- `object`
+- `subject_type`
+- `object_type`
+- `evidence`
+
+另外我补了 3 个工程字段：
+
+- `subject_id`
+- `object_id`
+- `object_summary`
+
+原因很明确：
+
+- 前端画图必须依赖稳定 `id`
+- 只靠中文名称连接节点，后期很容易重名或改名
+- `object_summary` 让你在不新增第四张表的前提下，也能给 Habitat/Status/Threat 节点补说明
+
+## 5. 目前支持的关系类型
+
+`relations.csv` 里当前支持：
 
 - `distributed_in`
 - `lives_in`
 - `has_status`
 - `threatened_by`
+- `belongs_to`
 
-这里没有加入 `belongs_to`，原因是你给出的三元组 Schema 中并未为“科/目”定义独立实体类型。为了保持前后端 Schema 一致，当前演示版本先聚焦前四种关系。
+其中前四种已经在样例数据中使用。
 
-## 6. 后端代码说明
+关于 `belongs_to`：
 
-### `server/index.js`
+- 原始 `三元组提取.md` 里定义了 `belongs_to`
+- 但实体类型里没有单独给“科/目”定义类型
+- 这是原始 Schema 的一个空缺
 
-作用：
+这里我做了一个工程性补充：
 
-- 启动一个零依赖 Node HTTP 服务
-- 提供健康检查接口 `GET /api/health`
-- 提供演示抽取接口 `GET /api/triples/test`
-- 提供自定义文本抽取接口 `POST /api/triples/extract`
+- 如果你后续要使用 `belongs_to`
+- 建议在 `relations.csv` 中把 `object_type` 写成 `Taxon`
+- 构建脚本会把它映射成前端里的 `taxonomy` 节点
 
-这样做的好处是：
+这个补充是为了让前端图谱能够稳定渲染分类单元。
 
-- 不依赖 `express`
-- 安装成本低
-- 便于你以后替换成真正的知识抽取服务
+## 6. 构建脚本说明
 
-### `server/data/sample-docs.json`
-
-作用：
-
-- 存放少量“从网络资料整理后的测试文本”
-- 每条文档都带有 `source_url`
-- 供后端批量运行抽取逻辑
-
-当前内置了 4 条测试文本：
-
-- 丹顶鹤
-- 朱鹮
-- 勺嘴鹬
-- 黑脸琵鹭
-
-这些文本是根据公开网页资料整理的简化测试句，并不是完整转载原文。这样做是为了：
-
-- 保留网络来源
-- 满足你的“从网络寻找少量数据”要求
-- 同时避免把后端测试写成不可控的实时爬虫
-
-### `server/services/tripleExtractor.js`
+### `scripts/build_knowledge_json.py`
 
 作用：
 
-- 根据 `三元组提取.md` 的 Schema 进行规则抽取
-- 输出严格的 JSON 三元组数组
+- 读取 `data/birds.csv`
+- 读取 `data/locations.csv`
+- 读取 `data/relations.csv`
+- 验证关系、实体和名称是否一致
+- 自动生成 `public/knowledge.json`
 
-主要逻辑：
+脚本主要做了 5 件事：
 
-1. `splitSentences(text)`
-   - 先按中文句号、问号、感叹号切句
+1. 读取三张 CSV
+2. 先创建 Bird 和 Location 节点
+3. 再从 `relations.csv` 自动创建 Habitat / Status / Threat / Taxon 节点
+4. 自动为每只鸟聚合出：
+   - `locations`
+   - `habitats`
+   - `threats`
+   - `status`
+5. 输出前端需要的 `nodes + links` 结构
 
-2. `extractTriplesFromText(text)`
-   - 在每个句子中先识别主语鸟类
-   - 再根据关键词判断关系类型
-   - 从词表中抽取地点、栖息地、保护等级、威胁因素
+### 为什么这个脚本很重要
 
-3. `uniqueTriples(triples)`
-   - 去除重复三元组
+因为它会帮你提前发现填表错误，例如：
 
-当前提取策略是“演示型规则抽取”，优点是简单、可控、容易替换。后续如果你要做真正的抽取系统，可以把这里替换为：
+- 同一个 `object_id` 对应两个不同名称
+- `relations.csv` 里写了一个不存在的地点
+- `subject` 名称和 `birds.csv` 对不上
+- `predicate` 写错
 
-- LLM 抽取
-- spaCy / HanLP / LTP
-- 正则 + 词典 + 依存句法混合方案
+这种错误如果等到前端报错再查，会很慢；现在在构建阶段就能直接发现。
 
-## 7. pygbif 脚本说明
+## 7. 现有前端代码怎么配合这个模式
 
-### `scripts/fetch_gbif_data.py`
+### `src/App.vue`
 
 作用：
 
-- 演示如何调用 `pygbif.species.name_backbone()` 获取分类键
-- 演示如何调用 `pygbif.occurrences.search()` 拉取带坐标的 occurrence
-- 将 GBIF occurrence 坐标转换成前端需要的 `nodes + links` 结构
+- 仍然只读取 `public/knowledge.json`
+- 不直接读取 CSV
+- 所以你后面无需改动前端主逻辑，只需要先跑构建脚本
 
-脚本流程：
+当前页面功能不变：
 
-1. 在 `BIRD_SEEDS` 中维护 10 个目标物种
-2. 用 `name_backbone()` 获取每个物种的 `usageKey`
-3. 用 `occurrences.search()` 拉取坐标记录
-4. 抽取前几个 occurrence 转为地点节点
-5. 为每个鸟类节点补上本地配置的状态、栖息地和威胁关系
-6. 输出为 `knowledge.generated.json`
+- 左侧搜索和实体详情
+- 右侧知识图谱与地图联动
+- 点击鸟类看详情
+- 点击地点跳地图
+- 点击测试按钮调用后端三元组接口
 
-运行方式：
+另外我补上了 `taxonomy` 类型兼容，避免以后启用 `belongs_to` 时再返工。
 
-```bash
-pip install pygbif
-python scripts/fetch_gbif_data.py --limit 15 --output public/knowledge.generated.json
-```
+### `public/knowledge.json`
 
-注意：
+现在它不再是“主数据源”，而是“自动生成文件”。
 
-- GBIF 偏向分布记录，并不直接提供完整 IUCN 保护等级体系
-- 所以脚本里把状态、威胁和栖息地作为“本地补充字段”
-- 这正适合你当前“网页演示 + 知识图谱原型”阶段
+你后面应该：
 
-## 8. 本地预览与打包部署
+- 改 `data/*.csv`
+- 运行构建脚本
+- 让脚本覆盖 `public/knowledge.json`
 
-### 本地预览
+不建议长期手动编辑这个文件。
+
+## 8. 命令怎么用
+
+安装前端依赖：
 
 ```bash
 npm install
+```
+
+从 CSV 生成前端数据：
+
+```bash
+npm run build:data
+```
+
+启动后端测试服务：
+
+```bash
 npm run server
+```
+
+启动前端：
+
+```bash
 npm run dev
 ```
 
-打开浏览器访问 `http://localhost:5173`。
-
-### 打包前端
+生产打包：
 
 ```bash
 npm run build
 ```
 
-执行后会生成 `dist/` 文件夹，这就是可部署到静态服务器的前端产物。
-
-### 本地查看打包结果
+抓取 Wikipedia 并写入 `data/*.csv`：
 
 ```bash
-npm run preview
+npm run crawl:wikipedia -- --titles "Red-crowned Crane" "Crested Ibis" --build-json
 ```
 
-### 部署方式建议
+下载 AviList 标准鸟名并生成 `bird_titles.csv`：
 
-如果你只想部署静态图谱页面：
-
-- 直接将 `dist/` 上传到 Nginx、Apache 或任意静态托管平台
-
-如果你要保留三元组测试后端：
-
-1. 前端部署 `dist/`
-2. 后端部署 `server/` 到一台 Node 服务器
-3. 让反向代理把 `/api` 转发到 Node 服务
-
-Nginx 思路如下：
-
-```nginx
-server {
-    listen 80;
-    server_name your-domain.com;
-
-    location / {
-        root /var/www/bird-kg;
-        try_files $uri $uri/ /index.html;
-    }
-
-    location /api/ {
-        proxy_pass http://127.0.0.1:3001/api/;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-    }
-}
+```bash
+npm run download:bird-names
 ```
 
-## 9. 网络资料来源
+也可以指定输出路径：
 
-后端测试文本目前主要依据以下公开页面整理，检查日期为 `2026-04-20`：
+```bash
+python scripts/download_bird_name_list.py --output data/bird_titles.csv
+```
 
-- Red-crowned Crane: <https://en.wikipedia.org/wiki/Red-crowned_crane>
-- Crested Ibis: <https://en.wikipedia.org/wiki/Crested_ibis>
-- Spoon-billed Sandpiper: <https://en.wikipedia.org/wiki/Spoon-billed_sandpiper>
-- Black-faced Spoonbill: <https://en.wikipedia.org/wiki/Black-faced_spoonbill>
-- pygbif species API: <https://pygbif.readthedocs.io/en/latest/modules/species.html>
-- pygbif occurrences API: <https://pygbif.readthedocs.io/en/latest/modules/occurrences.html>
+也可以直接运行 Python：
 
-## 10. 下一步建议
+```bash
+python scripts/crawl_from_wikipedia.py --titles "California Condor" "Philippine Eagle" --build-json
+```
 
-这个版本已经可以作为“第一阶段框架”。你下一步可以继续做三件事：
+推荐日常顺序：
 
-1. 把 `tripleExtractor.js` 替换成真实的 LLM 抽取接口
-2. 把 `knowledge.json` 改造成从 Neo4j、ArangoDB 或 NebulaGraph 动态读取
-3. 在地图层加入迁飞路线、保护区边界和时间筛选
-#   b i r d  
- 
+```bash
+npm run build:data
+npm run dev
+```
+
+如果你修改了 `data/*.csv`，就重新执行一次：
+
+```bash
+npm run build:data
+```
+
+如果你是从 Wikipedia 新抓数据，建议直接执行：
+
+```bash
+npm run crawl:wikipedia -- --titles "Red-crowned Crane" --build-json
+```
+
+如果你要先批量准备标准鸟名，再喂给 Wikipedia 爬虫，建议顺序是：
+
+```bash
+npm run download:bird-names
+python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv --build-json
+```
+
+脚本会同时写入：
+
+- `data/birds.csv`
+- `data/locations.csv`
+- `data/relations.csv`
+- `data/wikipedia_raw/*.json`
+
+## 9. 现在这三张表里已经放了什么
+
+目前样例数据已经迁移进 `data/`：
+
+- `birds.csv`: 10 种代表性鸟类
+- `locations.csv`: 10 个代表性地点
+- `relations.csv`: 74 条关系事实
+
+构建后，前端读取的 [public/knowledge.json](C:/Users/29802/Documents/全球鸟类分布与生物多样性保护知识图谱构建/public/knowledge.json) 会自动包含：
+
+- Bird 节点
+- Location 节点
+- Habitat 节点
+- Status 节点
+- Threat 节点
+- 关系线 `links`
+
+## 10. 后端测试部分说明
+
+### `server/data/sample-docs.json`
+
+作用：
+
+- 存放从公开资料整理的少量测试文本
+- 用于演示三元组抽取，不作为前端主数据源
+
+### `server/services/tripleExtractor.js`
+
+作用：
+
+- 根据 [三元组提取.md](C:/Users/29802/Documents/全球鸟类分布与生物多样性保护知识图谱构建/三元组提取.md) 的 Schema 抽取规则化三元组
+
+这一层和 `data/*.csv` 的关系是：
+
+- `sample-docs.json` 更接近原始文本
+- `relations.csv` 更接近人工审核后的结构化主数据
+
+实际工作流建议是：
+
+1. 从资料收集原文
+2. 先抽取三元组
+3. 人工审核
+4. 再写入 `relations.csv`
+5. 最后生成前端 JSON
+
+## 11. GBIF 脚本说明
+
+### `scripts/fetch_gbif_data.py`
+
+作用：
+
+- 从 GBIF 抓带坐标的 occurrence 记录
+- 演示如何把外部分布点转成前端兼容数据
+
+它和填表模式的关系是：
+
+- 你可以先用它抓到分布点
+- 再把整理后的结果写回 `locations.csv` 和 `relations.csv`
+- 最后统一由 `build_knowledge_json.py` 出图谱
+
+所以长远看，`fetch_gbif_data.py` 是“采集工具”，`build_knowledge_json.py` 是“正式构建工具”。
+
+### `scripts/crawl_from_wikipedia.py`
+
+作用：
+
+- 调用 MediaWiki API 抓取英文 Wikipedia 鸟类页面
+- 自动获取中文标题、摘要、页面原文提取和部分坐标
+- 保存原始页面数据到 `data/wikipedia_raw/`
+- 根据规则抽取 `distributed_in`、`lives_in`、`has_status`、`threatened_by`、`belongs_to`
+- 自动写回 `data/birds.csv`、`data/locations.csv`、`data/relations.csv`
+
+输入方式：
+
+- `--titles "Red-crowned Crane" "Crested Ibis"`
+- `--input-file path/to/titles.txt`
+- `--input-file path/to/titles.csv`
+
+说明：
+
+- 抽取逻辑是规则型的，适合原型阶段批量整理
+- `relations.csv` 中保留 `evidence`，方便后续人工审核
+- 第一次抓取后，建议人工复核 `locations.csv` 和 `relations.csv`
+- 如果启用 `--build-json`，脚本结束后会自动刷新前端使用的 `public/knowledge.json`
+
+### `scripts/download_bird_name_list.py`
+
+作用：
+
+- 访问 AviList 官方 checklist 页面
+- 自动发现当前 `short` 或 `extended` xlsx 下载链接
+- 从官方 xlsx 中筛选 `Taxon_rank = species` 的标准鸟类名单
+- 输出可直接被 `crawl_from_wikipedia.py --input-file` 读取的 `bird_titles.csv`
+
+默认输出列：
+
+- `page_title`
+- `english_name`
+- `scientific_name`
+- `order`
+- `family`
+- `family_english_name`
+- `iucn_red_list_category`
+- `avibase_id`
+- `range`
+- `extinct_or_possibly_extinct`
+- `source_dataset`
+- `source_version`
+- `source_url`
+
+常用命令：
+
+```bash
+python scripts/download_bird_name_list.py
+python scripts/download_bird_name_list.py --variant extended
+python scripts/download_bird_name_list.py --output data/bird_titles.csv
+```
+
+说明：
+
+- 默认只保留 `species` 行
+- 默认排除已灭绝或可能灭绝物种
+- 输出的 `page_title` 默认等于 AviList 英文名，便于后续直接批量喂给 Wikipedia 爬虫
+
+## 12. 部署与预览
+
+本地预览：
+
+```bash
+npm run build:data
+npm run server
+npm run dev
+```
+
+打包前端：
+
+```bash
+npm run build
+```
+
+打包后产物在 `dist/`。
+
+如果只部署前端静态页面：
+
+- 上传 `dist/` 到静态服务器即可
+
+如果同时保留后端测试接口：
+
+1. 部署 `dist/`
+2. 部署 `server/`
+3. 通过反向代理把 `/api` 转给 Node 服务
+
+## 13. 推荐的数据维护习惯
+
+后期你填数据时，建议按这个原则来：
+
+- 鸟类本身的信息写到 `birds.csv`
+- 地点本身的信息写到 `locations.csv`
+- 事实关系写到 `relations.csv`
+- 所有文本证据都尽量保留在 `evidence`
+- 同一个实体只使用一个标准名称和一个稳定 `id`
+
+最容易出错的地方是：
+
+- 同一个地点写多个名字
+- 同一个 `id` 对应多个名称
+- 关系里引用了不存在的地点或鸟类
+
+现在脚本已经会帮你拦住这类错误。
+
+## 14. 下一步建议
+
+这个版本已经完成“填表模式”的第一版闭环。你下一步最值得做的是：
+
+1. 把更多物种逐步补进 `birds.csv`
+2. 把文献或网页证据整理进 `relations.csv`
+3. 需要时再把 `sample-docs.json -> relations.csv` 的人工审核流程做成半自动工具

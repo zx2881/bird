@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build:data": "python scripts/build_knowledge_json.py",
+    "crawl:wikipedia": "python scripts/crawl_from_wikipedia.py",
+    "download:bird-names": "python scripts/download_bird_name_list.py",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -20,4 +23,3 @@
     "vite": "^7.0.0"
   }
 }
-

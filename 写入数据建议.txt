@@ -1,0 +1,83 @@
+  如果你现在资源有限，怎么做最划算
+
+  我建议你分三阶段。
+
+  第一阶段，先跑通系统：
+
+  - birds.csv、locations.csv、relations.csv 可以先主要用 Wikipedia 填
+  - 目的是让结构完整、前端能跑、流程成型
+
+  第二阶段，补关键字段：
+
+  - locations.csv 的经纬度逐步改成更可靠来源
+  - relations.csv 里的 has_status 和 threatened_by 优先换成 IUCN/BirdLife/官方来源
+  - distributed_in 逐步结合 GBIF
+
+  最稳的做法不是先去 Wikipedia 批量找页面名，而是先拿一份权威鸟类名录做“标准名称底表”，再把这份底表喂给你的爬虫。
+
+  截至 2026-04-21，我建议你把 AviList v2025 作为第一主源。它是 2025-06-11 发布的统一全球鸟类名录，AviList 官方把它定义为当前统一全
+  球鸟类清单；USGS 对应论文页也明确写到，AviList 发布后，IOC World Bird List 和 Clements Checklist 已停止独立更新，BirdLife 也在向
+  AviList 对齐。对你这种“先批量拿准确鸟名，再去抓 Wikipedia”的场景，这比直接扫 Wikipedia 标题稳得多。
+
+  你可以按这个流程做：
+
+  1. 下载 AviList 的 Short 或 Extended xlsx。
+  2. 只保留你需要的层级，通常是“现生 species”，先不要把 subspecies 全带进来。
+  3. 至少保留两列：
+      - scientific_name
+      - english_name
+  4. 把它导成一个 csv，比如 data/bird_titles.csv。
+  5. 让你的爬虫直接吃这个文件。你现在的脚本已经支持 --input-file，而且会读 title / page_title / english_name 列，所以你只要给它
+     english_name 就能批量跑。
+
+  建议你的输入表先做成这样：
+
+  english_name,scientific_name
+  Red-crowned Crane,Grus japonensis
+  Crested Ibis,Nipponia nippon
+  Chinese Merganser,Mergus squamatus
+  Spoon-billed Sandpiper,Calidris pygmaea
+
+  然后直接跑：
+
+  python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv --build-json
+
+  或者：
+
+  npm run crawl:wikipedia -- --input-file data/bird_titles.csv --build-json
+
+  有两个关键原则你最好一开始就定死：
+
+  - 学名是主键
+    真正“准确”的其实不是中文名，也不是英文俗名，而是拉丁学名。后面你做去重、合并、跨库匹配，都应该优先靠 scientific_name。
+  - 英文名只是 Wikipedia 标题候选
+    因为 Wikipedia 页面标题通常更接近英文通名，但它不是稳定主键。真正落库时，还是用学名和你自己的 bird-* id。
+
+  如果你后面发现有些名称在 Wikipedia 上对不上，或者存在异名、旧名、拆分名，建议再加一层 GBIF name matching 做规范化。GBIF 官方 API
+  的 species / match / backbone 就是干这个的，适合做批量校名和异名归并。
+
+  如果你的目标不仅是“拿到名字”，还要后面补保护等级和威胁信息，那么推荐这样分工：
+
+  - AviList：主名称底表，解决“这只鸟到底叫什么”
+  - Wikipedia：抓摘要、页面原文、地点线索
+  - BirdLife / IUCN：补 has_status、threatened_by
+  - GBIF：补分布点和地理坐标
+
+  一句话说，你现在最应该做的是：
+
+  - 先从 AviList 批量拿标准英文名 + 学名
+  - 再把英文名喂给 crawl_from_wikipedia.py
+  - 后续再用 GBIF / BirdLife 做规范化和补全
+
+  你可以先用这些官方来源：
+
+  - AviList 首页: https://www.avilist.org/
+  - AviList v2025 下载页: https://www.avilist.org/checklist/
+  - AviList 组件说明: https://www.avilist.org/checklist/components-of-the-avilist-checklist/
+  - USGS 对 AviList 的说明: https://www.usgs.gov/publications/avilist-a-unified-global-bird-checklist
+  - BirdLife Taxonomy: https://datazone.birdlife.org/species/taxonomy
+  - GBIF API 文档: https://techdocs.gbif.org/en/openapi/
+  - eBird Taxonomy / Clements 说明: https://ebird.org/about/the-ebird-taxonomy
+
+  如果你愿意，我下一步可以直接帮你再写一个脚本，比如 download_bird_name_list.py，自动下载/整理 AviList 为你的 bird_titles.csv，这样
+  你就不用手工处理表了。
