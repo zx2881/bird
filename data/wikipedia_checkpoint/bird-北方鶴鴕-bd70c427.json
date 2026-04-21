@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:32:20",
+  "requested_title": "Northern Cassowary",
+  "resolved_title": "Northern cassowary",
+  "title_aliases": [
+    "Northern Cassowary"
+  ],
+  "bird_id": "bird-北方鶴鴕-bd70c427",
+  "raw_file": "bird-北方鶴鴕-bd70c427.json",
+  "bird": {
+    "id": "bird-北方鶴鴕-bd70c427",
+    "name": "北方鶴鴕",
+    "english_name": "Northern cassowary",
+    "latin_name": "Casuarius unappendiculatus",
+    "summary": "北方鶴鴕（學名：Casuarius unappendiculatus），又稱單垂鶴鴕，站立時身高可達1.6公尺，頸部為金色，這點跟雙垂鶴鴕不同，且體型亦比其小，這種鳥分佈在紐幾內亞北部。 参考资料",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-北方鶴鴕-bd70c427",
+      "subject": "北方鶴鴕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-北方鶴鴕-bd70c427",
+      "subject": "北方鶴鴕",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Although subject to ongoing habitat loss and overhunting in some areas, as of 2017, the northern cassowary is evaluated as Least concern on the IUCN Red List of Threatened Species, as population size estimates suggest that populations are actually larger than previously estimated",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-北方鶴鴕-bd70c427",
+      "subject": "北方鶴鴕",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, it is the most threatened of the three extant cassowary types as of 2022. Hunting is still considered the biggest threat. Native people use the bones and eggs, and take the chicks to be raised for meat",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

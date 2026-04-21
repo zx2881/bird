@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:51:50",
+  "requested_title": "Ashy-headed Goose",
+  "resolved_title": "Ashy-headed goose",
+  "title_aliases": [
+    "Ashy-headed Goose"
+  ],
+  "bird_id": "bird-灰头草雁-a98318e4",
+  "raw_file": "bird-灰头草雁-a98318e4.json",
+  "bird": {
+    "id": "bird-灰头草雁-a98318e4",
+    "name": "灰头草雁",
+    "english_name": "Ashy-headed goose",
+    "latin_name": "Chloephaga poliocephala",
+    "summary": "灰头草雁（学名：Chloephaga poliocephala），是雁形目鸭科的一种鸟类。 特征 灰头草雁体重约2007.14克，翼长约345.4毫米，嘴峰长约30.9毫米，喙宽度约14.1毫米，喙厚度约12毫米，跗蹠长约55.2毫米，尾长约119毫米。灰头草雁是部分迁徙的鸟类…",
+    "lat": "-34",
+    "lng": "-64"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰头草雁-a98318e4",
+      "subject": "灰头草雁",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Chile.{{cite web |url=https://www.worldbirdnames.org/new/bow/waterfowl/ |title=Screamers, ducks, geese, swans |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头草雁-a98318e4",
+      "subject": "灰头草雁",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Chile.{{cite web |url=https://www.worldbirdnames.org/new/bow/waterfowl/ |title=Screamers, ducks, geese, swans |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头草雁-a98318e4",
+      "subject": "灰头草雁",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In summer it primarily inhabits clearings in damp forests of southern beech (Nothofagus sp.) around lakes and marshes, on inland islands, near the coast, and on higher ground",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-灰头草雁-a98318e4",
+      "subject": "灰头草雁",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

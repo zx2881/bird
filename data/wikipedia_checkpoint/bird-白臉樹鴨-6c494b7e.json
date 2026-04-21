@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:40:48",
+  "requested_title": "White-faced Whistling Duck",
+  "resolved_title": "White-faced whistling duck",
+  "title_aliases": [
+    "White-faced Whistling Duck"
+  ],
+  "bird_id": "bird-白臉樹鴨-6c494b7e",
+  "raw_file": "bird-白臉樹鴨-6c494b7e.json",
+  "bird": {
+    "id": "bird-白臉樹鴨-6c494b7e",
+    "name": "白臉樹鴨",
+    "english_name": "White-faced whistling duck",
+    "latin_name": "Dendrocygna viduata",
+    "summary": "白臉樹鴨（Dendrocygna viduata）是分佈在撒哈拉以南非洲及南美洲的一種樹鴨屬。 生態 白臉樹鴨數量豐富。牠們主要是留鳥，但也會有達100公里以上的地區性移動。牠們會在地上築巢，每次會產8-12隻蛋，有時也會在樹上築巢。",
+    "lat": "23",
+    "lng": "13"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白臉樹鴨-6c494b7e",
+      "subject": "白臉樹鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-faced whistling duck (Dendrocygna viduata) is a whistling duck that breeds in sub-Saharan Africa and much of South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臉樹鴨-6c494b7e",
+      "subject": "白臉樹鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-faced whistling duck (Dendrocygna viduata) is a whistling duck that breeds in sub-Saharan Africa and much of South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臉樹鴨-6c494b7e",
+      "subject": "白臉樹鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-faced whistling duck (Dendrocygna viduata) is a whistling duck that breeds in sub-Saharan Africa and much of South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臉樹鴨-6c494b7e",
+      "subject": "白臉樹鴨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

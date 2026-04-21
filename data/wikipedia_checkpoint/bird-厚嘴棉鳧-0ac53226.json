@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:43:32",
+  "requested_title": "African Pygmy Goose",
+  "resolved_title": "African pygmy goose",
+  "title_aliases": [
+    "African Pygmy Goose"
+  ],
+  "bird_id": "bird-厚嘴棉鳧-0ac53226",
+  "raw_file": "bird-厚嘴棉鳧-0ac53226.json",
+  "bird": {
+    "id": "bird-厚嘴棉鳧-0ac53226",
+    "name": "厚嘴棉鳧",
+    "english_name": "African pygmy goose",
+    "latin_name": "Nettapus auritus",
+    "summary": "厚嘴棉凫（台湾作厚嘴棉鴨，學名：Nettapus auritus），是雁形目鸭科的一种鸟类。 特征 厚嘴棉凫体重约266克，翼长约149.6毫米，嘴峰长约27.8毫米，喙宽度约10.8毫米，喙厚度约12.4毫米，跗蹠长约24.8毫米，尾长约66.2毫米。厚嘴棉凫在其分布区内为留…",
+    "lat": "-20",
+    "lng": "47"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-厚嘴棉鳧-0ac53226",
+      "subject": "厚嘴棉鳧",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found across a wide area of sub-Saharan Africa and Madagascar. It lives in habitats of slow flowing or stagnant water with a cover of water lilies (mostly inland wetlands, but also open swamps, farm dens, river pools, and estuaries)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-厚嘴棉鳧-0ac53226",
+      "subject": "厚嘴棉鳧",
+      "predicate": "lives_in",
+      "object_id": "hab-coastal-wetland",
+      "object": "海岸湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can be found across a wide area of sub-Saharan Africa and Madagascar. It lives in habitats of slow flowing or stagnant water with a cover of water lilies (mostly inland wetlands, but also open swamps, farm dens, river pools, and estuaries)",
+      "object_summary": "海湾、泻湖、盐沼与河口组成的复合湿地。"
+    },
+    {
+      "subject_id": "bird-厚嘴棉鳧-0ac53226",
+      "subject": "厚嘴棉鳧",
+      "predicate": "lives_in",
+      "object_id": "hab-estuary",
+      "object": "河口",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can be found across a wide area of sub-Saharan Africa and Madagascar. It lives in habitats of slow flowing or stagnant water with a cover of water lilies (mostly inland wetlands, but also open swamps, farm dens, river pools, and estuaries)",
+      "object_summary": "淡水与海水交汇形成的高生产力边缘生态系统。"
+    },
+    {
+      "subject_id": "bird-厚嘴棉鳧-0ac53226",
+      "subject": "厚嘴棉鳧",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can be found across a wide area of sub-Saharan Africa and Madagascar. It lives in habitats of slow flowing or stagnant water with a cover of water lilies (mostly inland wetlands, but also open swamps, farm dens, river pools, and estuaries)",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-厚嘴棉鳧-0ac53226",
+      "subject": "厚嘴棉鳧",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can be found across a wide area of sub-Saharan Africa and Madagascar. It lives in habitats of slow flowing or stagnant water with a cover of water lilies (mostly inland wetlands, but also open swamps, farm dens, river pools, and estuaries)",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-厚嘴棉鳧-0ac53226",
+      "subject": "厚嘴棉鳧",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

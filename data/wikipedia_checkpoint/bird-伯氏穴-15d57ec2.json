@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:37:42",
+  "requested_title": "Berlepsch's Tinamou",
+  "resolved_title": "Berlepsch's tinamou",
+  "title_aliases": [
+    "Berlepsch's Tinamou"
+  ],
+  "bird_id": "bird-伯氏穴-15d57ec2",
+  "raw_file": "bird-伯氏穴-15d57ec2.json",
+  "bird": {
+    "id": "bird-伯氏穴-15d57ec2",
+    "name": "伯氏穴䳍",
+    "english_name": "Berlepsch's tinamou",
+    "latin_name": "Crypturellus berlepschi",
+    "summary": "伯氏穴䳍（台湾作巴勒氏穴䳍）（学名：Crypturellus berlepschi）是䳍科穴䳍屬的一种鸟类。 特征 伯氏穴䳍体重约516.83克，翼长约164.6毫米，嘴峰长约27.9毫米，喙宽度约5.3毫米，喙厚度约6.5毫米，跗蹠长约53.4毫米，尾长约54.2毫米。伯氏穴…",
+    "lat": "4",
+    "lng": "-72"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-伯氏穴-15d57ec2",
+      "subject": "伯氏穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2008) | range_map = Berlepschs Tinamou.svg }} Berlepsch's tinamou (Crypturellus berlepschi) is a type of ground bird found in moist forest in northwestern Colombia and northwestern Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-伯氏穴-15d57ec2",
+      "subject": "伯氏穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2008) | range_map = Berlepschs Tinamou.svg }} Berlepsch's tinamou (Crypturellus berlepschi) is a type of ground bird found in moist forest in northwestern Colombia and northwestern Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-伯氏穴-15d57ec2",
+      "subject": "伯氏穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2008) | range_map = Berlepschs Tinamou.svg }} Berlepsch's tinamou (Crypturellus berlepschi) is a type of ground bird found in moist forest in northwestern Colombia and northwestern Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-伯氏穴-15d57ec2",
+      "subject": "伯氏穴䳍",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

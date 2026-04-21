@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:44:11",
+  "requested_title": "White-headed Duck",
+  "resolved_title": "White-headed duck",
+  "title_aliases": [
+    "White-headed Duck"
+  ],
+  "bird_id": "bird-白头硬尾鸭-ea94af1a",
+  "raw_file": "bird-白头硬尾鸭-ea94af1a.json",
+  "bird": {
+    "id": "bird-白头硬尾鸭-ea94af1a",
+    "name": "白头硬尾鸭",
+    "english_name": "White-headed duck",
+    "latin_name": "Oxyura leucocephala",
+    "summary": "白頭硬尾鴨（学名：學名：Oxyura leucocephala），屬於鴨科，非常典型地群居型水鴨類。 保育狀況 牠們被列為《瀕危野生動植物種國際貿易公約》附錄二的物種，被限制出口及貿易。",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-北非-dbfa37f4",
+      "name": "北非",
+      "summary": "与撒哈拉以南非洲相对，北非（英语：North Africa或Northern Africa）即非洲大陆北部地区，习惯上为苏丹热带草原以北非洲广大区域。联合国定义的“北非”，是指撒哈拉沙漠以北地区，包括埃及、利比亚、阿尔及利亚、突尼斯、摩洛…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白头硬尾鸭-ea94af1a",
+      "subject": "白头硬尾鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-北非-dbfa37f4",
+      "object": "北非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "left|thumb|Egg, collection Museum Wiesbaden This duck breeds in Spain and North Africa, with a larger population in western and central Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头硬尾鸭-ea94af1a",
+      "subject": "白头硬尾鸭",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-白头硬尾鸭-ea94af1a",
+      "subject": "白头硬尾鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Populations are declining, mostly due to loss of habitat and pollution, and the International Union for Conservation of Nature has rated the bird's status as \"endangered\"",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    },
+    {
+      "subject_id": "bird-白头硬尾鸭-ea94af1a",
+      "subject": "白头硬尾鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Most of this decline is due to habitat loss and hunting, but interbreeding of the Spanish population with the introduced ruddy duck (Oxyura jamaicensis) is a more recent threat",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-白头硬尾鸭-ea94af1a",
+      "subject": "白头硬尾鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Most of this decline is due to habitat loss and hunting, but interbreeding of the Spanish population with the introduced ruddy duck (Oxyura jamaicensis) is a more recent threat",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

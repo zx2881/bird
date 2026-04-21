@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:39:25",
+  "requested_title": "Thicket Tinamou",
+  "resolved_title": "Thicket tinamou",
+  "title_aliases": [
+    "Thicket Tinamou"
+  ],
+  "bird_id": "bird-棕穴-f910e57d",
+  "raw_file": "bird-棕穴-f910e57d.json",
+  "bird": {
+    "id": "bird-棕穴-f910e57d",
+    "name": "棕穴䳍",
+    "english_name": "Thicket tinamou",
+    "latin_name": "Crypturellus cinnamomeus",
+    "summary": "棕穴䳍（学名：Crypturellus cinnamomeus）是䳍科穴䳍屬的一种鸟类。 特征 棕穴䳍体重约422克，翼长约156.7毫米，嘴峰长约26.6毫米，喙宽度约5.3毫米，喙厚度约4.9毫米，跗蹠长约45.2毫米，尾长约49.2毫米。棕穴䳍在其分布区内为留鸟，其栖息在…",
+    "lat": "23",
+    "lng": "-102"
+  },
+  "locations": [
+    {
+      "id": "loc-outram-bangs-ea626d83",
+      "name": "Outram Bangs",
+      "summary": "Outram Bangs (January 12, 1863 – September 22, 1932) was an American zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕穴-f910e57d",
+      "subject": "棕穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-outram-bangs-ea626d83",
+      "object": "Outram Bangs",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "praepes(Bangs & Peters, 1927) | synonyms_ref = | synonyms = Tinamus cinnamomeus Nothura cinnamomeus | range_map = Crypturellus cinnamomeus map.svg }} thumb|photograph The thicket tinamou or rufescent tinamou (Crypturellus cinnamomeus) is a type of tinamou commonly found in moist forests in subtropical and tropical central Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕穴-f910e57d",
+      "subject": "棕穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "praepes(Bangs & Peters, 1927) | synonyms_ref = | synonyms = Tinamus cinnamomeus Nothura cinnamomeus | range_map = Crypturellus cinnamomeus map.svg }} thumb|photograph The thicket tinamou or rufescent tinamou (Crypturellus cinnamomeus) is a type of tinamou commonly found in moist forests in subtropical and tropical central Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕穴-f910e57d",
+      "subject": "棕穴䳍",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This species prefers moist lowland forest, gallery forest, deciduous forest, and secondary forest in subtropical and tropical regions, but will be found in shrubland and drier forests up to altitude",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-棕穴-f910e57d",
+      "subject": "棕穴䳍",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

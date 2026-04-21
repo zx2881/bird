@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:45:02",
+  "requested_title": "Black Swan",
+  "resolved_title": "Black swan",
+  "title_aliases": [
+    "Black Swan"
+  ],
+  "bird_id": "bird-黑天鹅-51b20884",
+  "raw_file": "bird-黑天鹅-51b20884.json",
+  "bird": {
+    "id": "bird-黑天鹅-51b20884",
+    "name": "黑天鹅",
+    "english_name": "Black swan",
+    "latin_name": "Cygnus atratus",
+    "summary": "黑天鵝（學名：Cygnus atratus）是一種分類上屬於天鵝的大型水鳥（雁鴨科動物），主要在澳洲大陸東南和西南區域繁殖。在澳洲大陸境內，黑天鵝過著遷徙生活，遷徙模式因氣候條件而異。牠們的繁殖模式為單偶模式，且共同孵蛋及育幼。 牠們在1800年代被人們當作觀賞鳥引入全球各地，…",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑天鹅-51b20884",
+      "subject": "黑天鹅",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also favours permanent wetlands, including ornamental lakes, but can also be found in flooded pastures and tidal mudflats, and occasionally on the open sea near islands or the shore. The black swan was once thought to be sedentary, but is now known to be highly nomadic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑天鹅-51b20884",
+      "subject": "黑天鹅",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The black swan's preferred habitat extends across fresh, brackish and salt water lakes, swamps and rivers with underwater and emergent vegetation for food and nesting materials",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-黑天鹅-51b20884",
+      "subject": "黑天鹅",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also favours permanent wetlands, including ornamental lakes, but can also be found in flooded pastures and tidal mudflats, and occasionally on the open sea near islands or the shore. The black swan was once thought to be sedentary, but is now known to be highly nomadic",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-黑天鹅-51b20884",
+      "subject": "黑天鹅",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

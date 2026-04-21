@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:51:21",
+  "requested_title": "Wood Duck",
+  "resolved_title": "Wood duck",
+  "title_aliases": [
+    "Wood Duck"
+  ],
+  "bird_id": "bird-林鸳鸯-83f12ff1",
+  "raw_file": "bird-林鸳鸯-83f12ff1.json",
+  "bird": {
+    "id": "bird-林鸳鸯-83f12ff1",
+    "name": "林鸳鸯",
+    "english_name": "Wood duck",
+    "latin_name": "Aix sponsa",
+    "summary": "林鴛鴦（學名：Aix sponsa），又名樹鴛鴦、美洲鴛鴦、美洲木鴨，是鴛鴦屬的一種鳥類，棲息在北美地區，體長47至54 cm（19至21英寸），翼展66至73 cm（26至29英寸），以羽毛色彩艷麗而聞名。 保護 19世紀末，由於棲息地喪失和人類濫捕濫殺（食用或使用其羽毛製造…",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-林鸳鸯-83f12ff1",
+      "subject": "林鸳鸯",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sponsa | synonyms = Anas sponsa (Linnaeus, 1758)Lampronessa sponsa }} The wood duck or Carolina duck (Aix sponsa) is a partially migratory species of perching duck found in North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-林鸳鸯-83f12ff1",
+      "subject": "林鸳鸯",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-林鸳鸯-83f12ff1",
+      "subject": "林鸳鸯",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population of the wood duck was in serious decline in the late 19th century as a result of severe habitat loss and market hunting for both meat and plumage for the ladies' hat market in Europe",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-林鸳鸯-83f12ff1",
+      "subject": "林鸳鸯",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population of the wood duck was in serious decline in the late 19th century as a result of severe habitat loss and market hunting for both meat and plumage for the ladies' hat market in Europe",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

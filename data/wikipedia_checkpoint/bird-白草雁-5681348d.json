@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:51:46",
+  "requested_title": "Kelp Goose",
+  "resolved_title": "Kelp goose",
+  "title_aliases": [
+    "Kelp Goose"
+  ],
+  "bird_id": "bird-白草雁-5681348d",
+  "raw_file": "bird-白草雁-5681348d.json",
+  "bird": {
+    "id": "bird-白草雁-5681348d",
+    "name": "白草雁",
+    "english_name": "Kelp goose",
+    "latin_name": "Chloephaga hybrida",
+    "summary": "白草雁（学名：Chloephaga hybrida），是雁形目鸭科的一种鸟类。 特征 白草雁体重约2281.8克，翼长约358毫米，嘴峰长约34.2毫米，喙宽度约16.6毫米，喙厚度约13.5毫米，跗蹠长约53.5毫米，尾长约131.8毫米。白草雁是部分迁徙的鸟类，其栖息在开放…",
+    "lat": "-34",
+    "lng": "-64"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    },
+    {
+      "id": "loc-福克兰群岛-c4142579",
+      "name": "福克兰群岛",
+      "summary": "福克兰羣岛（英語：Falkland Islands，/ˈfɔːklənd, ˈfɔːl-, ˈfɒl-/），阿根廷称馬維納斯羣岛（西班牙語：Islas Malvinas，西班牙語發音：[ˈizlaz malˈβinas]），是位于南大西洋…",
+      "lat": "-51.73",
+      "lng": "-59.22"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白草雁-5681348d",
+      "subject": "白草雁",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Chile, and the Falkland Islands.{{cite web |url=https://www.worldbirdnames.org/new/bow/waterfowl/ |title=Screamers, ducks, geese, swans |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白草雁-5681348d",
+      "subject": "白草雁",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Chile, and the Falkland Islands.{{cite web |url=https://www.worldbirdnames.org/new/bow/waterfowl/ |title=Screamers, ducks, geese, swans |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白草雁-5681348d",
+      "subject": "白草雁",
+      "predicate": "distributed_in",
+      "object_id": "loc-福克兰群岛-c4142579",
+      "object": "福克兰群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Chile, and the Falkland Islands.{{cite web |url=https://www.worldbirdnames.org/new/bow/waterfowl/ |title=Screamers, ducks, geese, swans |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白草雁-5681348d",
+      "subject": "白草雁",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

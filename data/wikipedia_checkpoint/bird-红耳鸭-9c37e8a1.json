@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:44:37",
+  "requested_title": "Pink-eared Duck",
+  "resolved_title": "Pink-eared duck",
+  "title_aliases": [
+    "Pink-eared Duck"
+  ],
+  "bird_id": "bird-红耳鸭-9c37e8a1",
+  "raw_file": "bird-红耳鸭-9c37e8a1.json",
+  "bird": {
+    "id": "bird-红耳鸭-9c37e8a1",
+    "name": "红耳鸭",
+    "english_name": "Pink-eared duck",
+    "latin_name": "Malacorhynchus membranaceus",
+    "summary": "红耳鸭（学名：Malacorhynchus membranaceus），是雁形目鸭科的一种鸟类。 特征 红耳鸭体重约372.79克，翼长约183.7毫米，嘴峰长约67.6毫米，喙宽度约15.3毫米，喙厚度约17.2毫米，跗蹠长约31.8毫米，尾长约65.5毫米。红耳鸭是部分迁徙…",
+    "lat": "-25",
+    "lng": "133"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红耳鸭-9c37e8a1",
+      "subject": "红耳鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pink-eared duck (Malacorhynchus membranaceus) is a species of duck found in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红耳鸭-9c37e8a1",
+      "subject": "红耳鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pink-eared duck (Malacorhynchus membranaceus) is a species of duck found in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红耳鸭-9c37e8a1",
+      "subject": "红耳鸭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

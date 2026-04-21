@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:51:18",
+  "requested_title": "Mandarin Duck",
+  "resolved_title": "Mandarin duck",
+  "title_aliases": [
+    "Mandarin Duck"
+  ],
+  "bird_id": "bird-鸳鸯-c6b43b12",
+  "raw_file": "bird-鸳鸯-c6b43b12.json",
+  "bird": {
+    "id": "bird-鸳鸯-c6b43b12",
+    "name": "鸳鸯",
+    "english_name": "Mandarin duck",
+    "latin_name": "Aix galericulata",
+    "summary": "鸳鸯（學名：Aix galericulata），本名鸂（xī）鶒（chì），又稱匹鸟、邓木鸟或紫鴛鴦，是雁形目鸭科鸳鸯属的一种水鸟。亦經常出現在中國古代文學作品和神話傳説中。其中鴛指雄鳥，鴦指雌鳥。 历史 現今的鴛鴦本名為“鸂鶒”，因其常常是雌雄相伴活動，古人視作鴛鴦（赤麻鸭）…",
+    "lat": "53.6225",
+    "lng": "-2.86861111"
+  },
+  "locations": [
+    {
+      "id": "loc-martin-mere-71eb37bb",
+      "name": "Martin Mere",
+      "summary": "Martin Mere is a mere near Burscough, in Lancashire, England, on the West Lancashire Coastal Plain.",
+      "lat": "53.6225",
+      "lng": "-2.86861111"
+    },
+    {
+      "id": "loc-蘭開夏-d1935f99",
+      "name": "蘭開夏",
+      "summary": "蘭開夏（英語：Lancashire），又譯蘭開斯特郡，是英國英格蘭西北部的郡，包含2個城市。以人口計算，蘭卡斯特市是第1大城市、第1大自治市鎮（Borough），普雷斯頓是第2大城市（亦是郡治）、第4大自治市鎮，黑池是第1大鎮（Town）…",
+      "lat": "53.8",
+      "lng": "-2.6"
+    },
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-自然系统第十版-55ca7965",
+      "name": "自然系统第十版",
+      "summary": "《自然系统》第十版（英語：10th edition of Systema Naturae）是18世纪瑞典生物学家卡尔·林奈所撰写的生物学专著，于1758年和1759年分别出版上下两卷。林奈在书中为动物定义了二名法命名法则（此前他曾在175…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鸳鸯-c6b43b12",
+      "subject": "鸳鸯",
+      "predicate": "distributed_in",
+      "object_id": "loc-martin-mere-71eb37bb",
+      "object": "Martin Mere",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mandarin duck (Aix galericulata) is a perching duck species native to the East Palearctic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鸳鸯-c6b43b12",
+      "subject": "鸳鸯",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘭開夏-d1935f99",
+      "object": "蘭開夏",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mandarin duck (Aix galericulata) is a perching duck species native to the East Palearctic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鸳鸯-c6b43b12",
+      "subject": "鸳鸯",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mandarin duck (Aix galericulata) is a perching duck species native to the East Palearctic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鸳鸯-c6b43b12",
+      "subject": "鸳鸯",
+      "predicate": "distributed_in",
+      "object_id": "loc-自然系统第十版-55ca7965",
+      "object": "自然系统第十版",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mandarin duck (Aix galericulata) is a perching duck species native to the East Palearctic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鸳鸯-c6b43b12",
+      "subject": "鸳鸯",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In winter, it additionally occurs in marshes, flooded fields, and open rivers",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-鸳鸯-c6b43b12",
+      "subject": "鸳鸯",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-鸳鸯-c6b43b12",
+      "subject": "鸳鸯",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Mink, raccoon dogs, otters, polecats, Eurasian eagle-owls, and grass snakes are all predators of the mandarin duck. The greatest threat to the mandarin duck is habitat loss due to logging",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-鸳鸯-c6b43b12",
+      "subject": "鸳鸯",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Mink, raccoon dogs, otters, polecats, Eurasian eagle-owls, and grass snakes are all predators of the mandarin duck. The greatest threat to the mandarin duck is habitat loss due to logging",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

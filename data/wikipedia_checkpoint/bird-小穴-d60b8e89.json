@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:37:50",
+  "requested_title": "Little Tinamou",
+  "resolved_title": "Little tinamou",
+  "title_aliases": [
+    "Little Tinamou"
+  ],
+  "bird_id": "bird-小穴-d60b8e89",
+  "raw_file": "bird-小穴-d60b8e89.json",
+  "bird": {
+    "id": "bird-小穴-d60b8e89",
+    "name": "小穴䳍",
+    "english_name": "Little tinamou",
+    "latin_name": "Crypturellus soui",
+    "summary": "小穴䳍（学名：Crypturellus soui）是䳍科穴䳍屬的一种鸟类。 特征 小穴䳍体重约216.16克，翼长约127.5毫米，嘴峰长约24.2毫米，喙宽度约4.2毫米，喙厚度约3.9毫米，跗蹠长约36.4毫米，尾长约47.9毫米。小穴䳍在其分布区内为留鸟，其栖息在密集的高…",
+    "lat": "14.52555556",
+    "lng": "-75.81833333"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    },
+    {
+      "id": "loc-特立尼达岛-d831e578",
+      "name": "特立尼达岛",
+      "summary": "特立尼达岛（英語：Trinidad Island；西班牙語：Isla Trinidad），又称千里达岛，是特立尼达和多巴哥两主岛中较大者，位于西印度群岛最西南部，距南美洲大陆委内瑞拉海岸仅11公里。特立尼达岛面积4,768平方公里，是西印…",
+      "lat": "10.5",
+      "lng": "-61.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小穴-d60b8e89",
+      "subject": "小穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Central and South America, as well as on the Caribbean island of Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小穴-d60b8e89",
+      "subject": "小穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Central and South America, as well as on the Caribbean island of Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小穴-d60b8e89",
+      "subject": "小穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Central and South America, as well as on the Caribbean island of Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小穴-d60b8e89",
+      "subject": "小穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-特立尼达岛-d831e578",
+      "object": "特立尼达岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Central and South America, as well as on the Caribbean island of Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小穴-d60b8e89",
+      "subject": "小穴䳍",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

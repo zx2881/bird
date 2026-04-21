@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:38:54",
+  "requested_title": "Black-capped Tinamou",
+  "resolved_title": "Black-capped tinamou",
+  "title_aliases": [
+    "Black-capped Tinamou"
+  ],
+  "bird_id": "bird-黑顶穴-4d5f97a8",
+  "raw_file": "bird-黑顶穴-4d5f97a8.json",
+  "bird": {
+    "id": "bird-黑顶穴-4d5f97a8",
+    "name": "黑顶穴䳍",
+    "english_name": "Black-capped tinamou",
+    "latin_name": "Crypturellus atrocapillus",
+    "summary": "黑顶穴䳍（学名：Crypturellus atrocapillus）是䳍科穴䳍屬的一种鸟类。 特征 黑顶穴䳍体重约453克，翼长约165.7毫米，嘴峰长约32.3毫米，喙宽度约5.4毫米，喙厚度约5毫米，跗蹠长约52.6毫米，尾长约44.3毫米。黑顶穴䳍在其分布区内为留鸟，其栖…",
+    "lat": "-10",
+    "lng": "-76"
+  },
+  "locations": [
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑顶穴-4d5f97a8",
+      "subject": "黑顶穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in moist forest lowlands in subtropical and tropical regions up to altitude. This species is native to southeastern Peru and northern Bolivia. It has recently been recorded in Brazil.BORGES, L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑顶穴-4d5f97a8",
+      "subject": "黑顶穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in moist forest lowlands in subtropical and tropical regions up to altitude. This species is native to southeastern Peru and northern Bolivia. It has recently been recorded in Brazil.BORGES, L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑顶穴-4d5f97a8",
+      "subject": "黑顶穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in moist forest lowlands in subtropical and tropical regions up to altitude. This species is native to southeastern Peru and northern Bolivia. It has recently been recorded in Brazil.BORGES, L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑顶穴-4d5f97a8",
+      "subject": "黑顶穴䳍",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

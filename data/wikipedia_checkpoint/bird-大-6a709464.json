@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:37:21",
+  "requested_title": "Great Tinamou",
+  "resolved_title": "Great tinamou",
+  "title_aliases": [
+    "Great Tinamou"
+  ],
+  "bird_id": "bird-大-6a709464",
+  "raw_file": "bird-大-6a709464.json",
+  "bird": {
+    "id": "bird-大-6a709464",
+    "name": "大䳍",
+    "english_name": "Great tinamou",
+    "latin_name": "Tinamus major",
+    "summary": "大䳍（学名：Tinamus major），是䳍形目䳍科的一种鸟类。 特征 大䳍体重约1026.21克，翼长约241毫米，嘴峰长约38.5毫米，喙宽度约5.2毫米，喙厚度约5.9毫米，跗蹠长约64.4毫米，尾长约83.2毫米。大䳍在其分布区内为留鸟，其栖息在密集的高大的树木组成的…",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大-6a709464",
+      "subject": "大䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2008) | subdivision = See text | synonyms = * Tetrao major Gmelin, 1789 | range_map = Tinamus major map.svg }} The great tinamou (Tinamus major) is a species of tinamou ground bird native to Central and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大-6a709464",
+      "subject": "大䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2008) | subdivision = See text | synonyms = * Tetrao major Gmelin, 1789 | range_map = Tinamus major map.svg }} The great tinamou (Tinamus major) is a species of tinamou ground bird native to Central and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大-6a709464",
+      "subject": "大䳍",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Great tinamou lives in subtropical and tropical forest such as rainforest, lowland evergreen forest, river-edge forest, swamp forest and cloud forest at altitudes from",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-大-6a709464",
+      "subject": "大䳍",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

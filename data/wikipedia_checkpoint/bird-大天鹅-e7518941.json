@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:45:46",
+  "requested_title": "Whooper Swan",
+  "resolved_title": "Whooper swan",
+  "title_aliases": [
+    "Whooper Swan"
+  ],
+  "bird_id": "bird-大天鹅-e7518941",
+  "raw_file": "bird-大天鹅-e7518941.json",
+  "bird": {
+    "id": "bird-大天鹅-e7518941",
+    "name": "大天鹅",
+    "english_name": "Whooper swan",
+    "latin_name": "Cygnus cygnus",
+    "summary": "大天鹅（学名：Cygnus cygnus）又名鹄、黄嘴天鹅等，是天鵝屬的一種鳥類。 大天鹅是芬兰的国鸟，也是天鹅属的模式种。",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-大天鹅-e7518941",
+      "subject": "大天鹅",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Their preferred breeding habitat is wetland, but semi-domesticated birds will build a nest anywhere close to water",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-大天鹅-e7518941",
+      "subject": "大天鹅",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:39:19",
+  "requested_title": "Choco Tinamou",
+  "resolved_title": "Choco tinamou",
+  "title_aliases": [
+    "Choco Tinamou"
+  ],
+  "bird_id": "bird-乔科穴-5f3450c1",
+  "raw_file": "bird-乔科穴-5f3450c1.json",
+  "bird": {
+    "id": "bird-乔科穴-5f3450c1",
+    "name": "乔科穴䳍",
+    "english_name": "Choco tinamou",
+    "latin_name": "Crypturellus kerriae",
+    "summary": "乔科穴䳍（学名：Crypturellus kerriae）是䳍科穴䳍屬的一种鸟类。 特征 乔科穴䳍体重约443.4克，翼长约154.1毫米，嘴峰长约31.2毫米，喙宽度约5.1毫米，喙厚度约4.8毫米，跗蹠长约49.6毫米，尾长约54.2毫米。乔科穴䳍在其分布区内为留鸟，其栖息…",
+    "lat": "4",
+    "lng": "-72"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-乔科省-623c4f48",
+      "name": "乔科省",
+      "summary": "喬科省（Departamento del Chocó）是哥倫比亞西北部的一個省，是該國唯一既臨太平洋，又臨大西洋（加勒比海）的省，西北與巴拿馬接壤。面積46,530平方公里，2018年人口515,166人，以黑奴後裔和印第安人為主。首府基…",
+      "lat": "5.6953",
+      "lng": "-76.6611"
+    },
+    {
+      "id": "loc-達連省-7f7f5eae",
+      "name": "達連省",
+      "summary": "達連省（西班牙語：Provincia de Darién）是巴拿馬的一個省，位於該國東部，面向太平洋巴拿馬灣。面積11,897平方公里，是該國面積最大的省份。2006年估計人口44,575人。首府达帕马爾。该省东面与哥伦比亚接壤，西邻太平…",
+      "lat": "8.41666667",
+      "lng": "-78.15"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-乔科穴-5f3450c1",
+      "subject": "乔科穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2008) | synonyms = Crypturus kerriae | range_map = Crypturellus kerriae map.svg }} The Choco tinamou or Chocó tinamou (Crypturellus kerriae) is a type of tinamou found in lowland forest and montane forest in subtropical and tropical regions of Colombia and Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乔科穴-5f3450c1",
+      "subject": "乔科穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2008) | synonyms = Crypturus kerriae | range_map = Crypturellus kerriae map.svg }} The Choco tinamou or Chocó tinamou (Crypturellus kerriae) is a type of tinamou found in lowland forest and montane forest in subtropical and tropical regions of Colombia and Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乔科穴-5f3450c1",
+      "subject": "乔科穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-乔科省-623c4f48",
+      "object": "乔科省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in northwestern Chocó Department Colombia, and southern Darién Department Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乔科穴-5f3450c1",
+      "subject": "乔科穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-達連省-7f7f5eae",
+      "object": "達連省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in northwestern Chocó Department Colombia, and southern Darién Department Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乔科穴-5f3450c1",
+      "subject": "乔科穴䳍",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "(2008) | synonyms = Crypturus kerriae | range_map = Crypturellus kerriae map.svg }} The Choco tinamou or Chocó tinamou (Crypturellus kerriae) is a type of tinamou found in lowland forest and montane forest in subtropical and tropical regions of Colombia and Panama",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-乔科穴-5f3450c1",
+      "subject": "乔科穴䳍",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-乔科穴-5f3450c1",
+      "subject": "乔科穴䳍",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The biggest threats are hunting, and the on-hold transportation plans",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

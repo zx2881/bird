@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:44:21",
+  "requested_title": "Blue-billed Duck",
+  "resolved_title": "Blue-billed duck",
+  "title_aliases": [
+    "Blue-billed Duck"
+  ],
+  "bird_id": "bird-澳洲硬尾鸭-72f14a28",
+  "raw_file": "bird-澳洲硬尾鸭-72f14a28.json",
+  "bird": {
+    "id": "bird-澳洲硬尾鸭-72f14a28",
+    "name": "澳洲硬尾鸭",
+    "english_name": "Blue-billed duck",
+    "latin_name": "Oxyura australis",
+    "summary": "澳洲硬尾鸭（台湾作藍嘴硬尾鴨）（学名：Oxyura australis），是雁形目鸭科的一种鸟类。 特征 澳洲硬尾鸭体重约798克，翼长约154毫米，嘴峰长约44.2毫米，喙宽度约19.4毫米，喙厚度约12.1毫米，跗蹠长约33.2毫米，尾长约61.5毫米。澳洲硬尾鸭是部分迁徙…",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-national-photographic-index-of-australian-wildlife-b9496816",
+      "name": "National Photographic Index of Australian Wildlife",
+      "summary": "The National Photographic Index of Australian Wildlife was founded as a project of the Australian Museum on 3 June 1969…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-澳洲硬尾鸭-72f14a28",
+      "subject": "澳洲硬尾鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The duck is endemic to Australia's temperate regions, inhabiting natural inland wetlands and also artificial wetlands, such as sewage ponds, in large numbers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-澳洲硬尾鸭-72f14a28",
+      "subject": "澳洲硬尾鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-national-photographic-index-of-australian-wildlife-b9496816",
+      "object": "National Photographic Index of Australian Wildlife",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "For the rest of the year, during breeding season, the blue-billed duck prefers deep, freshwater swamps, with dense vegetation including cumbungi Typha orientalis (broadleaf cumbungi) and Typha domingensis (narrow-leaved cumbungi); although it has appeared in lignum swamps in more coastal areas, especially in drier seasons. They have also occasionally been found in large rivers and saline water bodies such as billabongs",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-澳洲硬尾鸭-72f14a28",
+      "subject": "澳洲硬尾鸭",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The duck is endemic to Australia's temperate regions, inhabiting natural inland wetlands and also artificial wetlands, such as sewage ponds, in large numbers",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-澳洲硬尾鸭-72f14a28",
+      "subject": "澳洲硬尾鸭",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "For the rest of the year, during breeding season, the blue-billed duck prefers deep, freshwater swamps, with dense vegetation including cumbungi Typha orientalis (broadleaf cumbungi) and Typha domingensis (narrow-leaved cumbungi); although it has appeared in lignum swamps in more coastal areas, especially in drier seasons. They have also occasionally been found in large rivers and saline water bodies such as billabongs",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-澳洲硬尾鸭-72f14a28",
+      "subject": "澳洲硬尾鸭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-澳洲硬尾鸭-72f14a28",
+      "subject": "澳洲硬尾鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-wetland-drainage",
+      "object": "湿地排水",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Major threats include drainage of deep permanent wetlands, or their degradation as a result of introduced fish, peripheral cattle grazing, salinization, and lowering of ground water",
+      "object_summary": "湿地被排干转为农业或建设用地。"
+    },
+    {
+      "subject_id": "bird-澳洲硬尾鸭-72f14a28",
+      "subject": "澳洲硬尾鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-wetland-drainage",
+      "object": "湿地排水",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "These are: the regulation of wetland ecosystems through drainage, flood mitigation and water harvesting; and vegetation loss due to clearing, overgrazing and salinity. Both result in smaller habitat sizes suitable to water birds",
+      "object_summary": "湿地被排干转为农业或建设用地。"
+    },
+    {
+      "subject_id": "bird-澳洲硬尾鸭-72f14a28",
+      "subject": "澳洲硬尾鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Australian population of blue-billed ducks is estimated to be 12 000, although the creation of artificial wetlands such as water treatment works disguise the number occurring in natural wetlands. The blue-billed duck's vulnerable status has been de-listed for the Environmental Protection and Biodiversity Conservation Act 1999, although they are currently recognized as vulnerable in NSW, according to the Department of Environment and Climate Change NSW. The blue-billed duck is listed as \"threatened\" on the Victorian Flora and Fauna Guarantee Act (1988). Under this Act, an Action Statement for the recovery and future management of this species has been prepared. In Victoria, the blue-billed duck is also listed as endangered on the 2007 advisory list of threatened vertebrate fauna within the state",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

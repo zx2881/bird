@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:40:56",
+  "requested_title": "West Indian Whistling Duck",
+  "resolved_title": "West Indian whistling duck",
+  "title_aliases": [
+    "West Indian Whistling Duck"
+  ],
+  "bird_id": "bird-黑嘴樹鴨-a50543e3",
+  "raw_file": "bird-黑嘴樹鴨-a50543e3.json",
+  "bird": {
+    "id": "bird-黑嘴樹鴨-a50543e3",
+    "name": "黑嘴樹鴨",
+    "english_name": "West Indian whistling duck",
+    "latin_name": "Dendrocygna arborea",
+    "summary": "黑嘴樹鴨（學名：Dendrocygna arborea）是鴨科樹鴨屬的鳥類，已知僅分布於加勒比地區。 特徵 黑嘴樹鴨是樹鴨屬中最大及最深色的，長48-58厘米。牠們的喙是黑色的，頭部及腳都很長。牠們的前頸淡色，面部呈淺褐色。冠、背部、胸部及雙翼呈深褐色至黑色，身體的其他部份是白…",
+    "lat": "14.52555556",
+    "lng": "-75.81833333"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-自然系统第十版-55ca7965",
+      "name": "自然系统第十版",
+      "summary": "《自然系统》第十版（英語：10th edition of Systema Naturae）是18世纪瑞典生物学家卡尔·林奈所撰写的生物学专著，于1758年和1759年分别出版上下两卷。林奈在书中为动物定义了二名法命名法则（此前他曾在175…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑嘴樹鴨-a50543e3",
+      "subject": "黑嘴樹鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The West Indian whistling duck (Dendrocygna arborea) is a whistling duck that breeds in the Caribbean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑嘴樹鴨-a50543e3",
+      "subject": "黑嘴樹鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-自然系统第十版-55ca7965",
+      "object": "自然系统第十版",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The West Indian whistling duck (Dendrocygna arborea) is a whistling duck that breeds in the Caribbean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑嘴樹鴨-a50543e3",
+      "subject": "黑嘴樹鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The West Indian whistling duck (Dendrocygna arborea) is a whistling duck that breeds in the Caribbean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑嘴樹鴨-a50543e3",
+      "subject": "黑嘴樹鴨",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

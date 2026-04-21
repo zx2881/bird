@@ -264,7 +264,8 @@ def build_output_rows(rows: Iterable[Dict[str, str]], source_url: str, source_ve
 
 def write_csv(path: Path, headers: List[str], rows: List[Dict[str, str]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8", newline="") as file:
+    # Write UTF-8 BOM so Excel/WPS on Windows opens Chinese text correctly.
+    with path.open("w", encoding="utf-8-sig", newline="") as file:
         writer = csv.DictWriter(file, fieldnames=headers)
         writer.writeheader()
         writer.writerows(rows)

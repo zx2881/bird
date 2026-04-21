@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:37:53",
+  "requested_title": "Tepui Tinamou",
+  "resolved_title": "Tepui tinamou",
+  "title_aliases": [
+    "Tepui Tinamou"
+  ],
+  "bird_id": "bird-灰喉穴-820707a3",
+  "raw_file": "bird-灰喉穴-820707a3.json",
+  "bird": {
+    "id": "bird-灰喉穴-820707a3",
+    "name": "灰喉穴䳍",
+    "english_name": "Tepui tinamou",
+    "latin_name": "Crypturellus ptaritepui",
+    "summary": "灰喉穴䳍（学名：Crypturellus ptaritepui）是䳍科穴䳍屬的一种鸟类。 特征 灰喉穴䳍体重约443.4克，翼长约136毫米，嘴峰长约29.6毫米，喙宽度约4.6毫米，喙厚度约5.8毫米，跗蹠长约51.2毫米，尾长约54.2毫米。灰喉穴䳍在其分布区内为留鸟，其栖…",
+    "lat": "7",
+    "lng": "-65"
+  },
+  "locations": [
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰喉穴-820707a3",
+      "subject": "灰喉穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2008) | range_map = Crypturellus ptaritepui map.svg }} The tepui tinamou (Crypturellus ptaritepui) is a type of ground bird found in montane moist forest on tepuis, in southeastern Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰喉穴-820707a3",
+      "subject": "灰喉穴䳍",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It was found in between in elevation, and its preferred habitat is tropical moist montane forest or tropical moist shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-灰喉穴-820707a3",
+      "subject": "灰喉穴䳍",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It was found in between in elevation, and its preferred habitat is tropical moist montane forest or tropical moist shrubland",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-灰喉穴-820707a3",
+      "subject": "灰喉穴䳍",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

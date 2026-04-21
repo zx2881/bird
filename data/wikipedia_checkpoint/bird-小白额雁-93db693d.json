@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:50:17",
+  "requested_title": "Lesser White-fronted Goose",
+  "resolved_title": "Lesser white-fronted goose",
+  "title_aliases": [
+    "Lesser White-fronted Goose"
+  ],
+  "bird_id": "bird-小白额雁-93db693d",
+  "raw_file": "bird-小白额雁-93db693d.json",
+  "bird": {
+    "id": "bird-小白额雁-93db693d",
+    "name": "小白额雁",
+    "english_name": "Lesser white-fronted goose",
+    "latin_name": "Anser erythropus",
+    "summary": "小白额雁（学名：Anser erythropus），又名弱雁，为雁鴨科雁屬下的一个种。 生态环境 小白额雁常结群活动，可见于湖泊、沼泽、鱼塘、虾池以及河流平缓水面开阔处，栖息于近水的草地农田等处。",
+    "lat": "63",
+    "lng": "17"
+  },
+  "locations": [
+    {
+      "id": "loc-芬諾斯堪底亞-838029a5",
+      "name": "芬諾斯堪底亞",
+      "summary": "芬諾斯堪底亞或稱芬諾-斯堪地納維亞，指科拉半島、斯堪地那維亞半島、卡累利阿及芬蘭地區的地質及地理名詞。地理上，該詞亦指挪威、瑞典及芬蘭等地的芬諾斯堪地盾，而該地盾為波羅的地盾的一部分。 在文化方面，芬諾斯堪底亞指歷史上較相近的薩米人、芬蘭…",
+      "lat": "63",
+      "lng": "17"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小白额雁-93db693d",
+      "subject": "小白额雁",
+      "predicate": "distributed_in",
+      "object_id": "loc-芬諾斯堪底亞-838029a5",
+      "object": "芬諾斯堪底亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the northernmost Palearctic, but it is a scarce breeder in Europe, with a reintroduction attempt in Fennoscandia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小白额雁-93db693d",
+      "subject": "小白额雁",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -6,11 +6,13 @@
   - data/locations.csv
   - data/relations.csv
   - data/wikipedia_raw/*.json
+  - data/wikipedia_checkpoint/*.json
 
 说明:
 1. birds.csv 和 locations.csv 作为实体主表。
 2. relations.csv 尽量遵循“三元组提取.md”的 schema，并补充 subject_id/object_id/object_summary 工程字段。
-3. 抽取逻辑是规则型、可复核的 best-effort 方案，适合原型阶段批量整理 Wikipedia 数据。
+3. wikipedia_checkpoint/ 用于断点续跑；已完成标题会自动跳过，中断后可从 checkpoint 恢复到 CSV。
+4. 抽取逻辑是规则型、可复核的 best-effort 方案，适合原型阶段批量整理 Wikipedia 数据。
 
 示例:
   python scripts/crawl_from_wikipedia.py --titles "Red-crowned Crane" "Crested Ibis" --build-json
@@ -38,7 +40,9 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA_DIR = ROOT / "data"
 DEFAULT_RAW_DIR = DEFAULT_DATA_DIR / "wikipedia_raw"
+DEFAULT_CHECKPOINT_DIR = DEFAULT_DATA_DIR / "wikipedia_checkpoint"
 BUILD_SCRIPT = ROOT / "scripts" / "build_knowledge_json.py"
+CHECKPOINT_VERSION = 1
 
 BIRDS_HEADERS = ["id", "name", "english_name", "latin_name", "summary", "lat", "lng"]
 LOCATIONS_HEADERS = ["id", "name", "summary", "lat", "lng"]
@@ -313,6 +317,26 @@ class WikiCrawler:
         return bundle
 
 
+def normalize_title_key(title: str) -> str:
+    return re.sub(r"\s+", " ", title.strip()).casefold()
+
+
+def merge_title_aliases(*title_groups: Sequence[str]) -> List[str]:
+    merged: List[str] = []
+    seen = set()
+    for group in title_groups:
+        for title in group:
+            cleaned = re.sub(r"\s+", " ", (title or "").strip())
+            if not cleaned:
+                continue
+            key = normalize_title_key(cleaned)
+            if key in seen:
+                continue
+            seen.add(key)
+            merged.append(cleaned)
+    return merged
+
+
 def slugify(text: str) -> str:
     text = text.strip().lower()
     text = re.sub(r"\s+", "-", text)
@@ -557,13 +581,20 @@ def load_csv_rows(path: Path, headers: Sequence[str]) -> List[Dict[str, str]]:
     return normalized_rows
 
 
+def normalize_structured_row(row: Dict, headers: Sequence[str]) -> Dict[str, str]:
+    return {header: str(row.get(header, "") or "").strip() for header in headers}
+
+
 def write_csv_rows(path: Path, headers: Sequence[str], rows: Iterable[Dict[str, str]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8", newline="") as file:
+    temp_path = path.with_suffix(path.suffix + ".tmp")
+    # Write UTF-8 BOM so Excel/WPS on Windows opens Chinese text correctly.
+    with temp_path.open("w", encoding="utf-8-sig", newline="") as file:
         writer = csv.DictWriter(file, fieldnames=list(headers))
         writer.writeheader()
         for row in rows:
             writer.writerow({header: row.get(header, "") for header in headers})
+    temp_path.replace(path)
 
 
 def merge_row(existing: Dict[str, str], incoming: Dict[str, str], overwrite: bool = False) -> Dict[str, str]:
@@ -578,17 +609,27 @@ def merge_row(existing: Dict[str, str], incoming: Dict[str, str], overwrite: boo
     return merged
 
 
-def upsert_rows(rows: List[Dict[str, str]], new_rows: Iterable[Dict[str, str]], key_fields: Sequence[str], overwrite: bool = False) -> List[Dict[str, str]]:
+def upsert_rows(
+    rows: List[Dict[str, str]],
+    new_rows: Iterable[Dict[str, str]],
+    key_fields: Sequence[str],
+    overwrite: bool = False,
+) -> Tuple[List[Dict[str, str]], bool]:
     indexed = {tuple(row[field] for field in key_fields): dict(row) for row in rows}
     order = [tuple(row[field] for field in key_fields) for row in rows]
+    changed = False
     for new_row in new_rows:
         key = tuple(new_row[field] for field in key_fields)
         if key in indexed:
-            indexed[key] = merge_row(indexed[key], new_row, overwrite=overwrite)
+            merged_row = merge_row(indexed[key], new_row, overwrite=overwrite)
+            if merged_row != indexed[key]:
+                changed = True
+            indexed[key] = merged_row
         else:
             indexed[key] = dict(new_row)
             order.append(key)
-    return [indexed[key] for key in order]
+            changed = True
+    return [indexed[key] for key in order], changed
 
 
 def load_titles(args: argparse.Namespace) -> List[str]:
@@ -660,6 +701,27 @@ def build_raw_payload(en_bundle: PageBundle, zh_bundle: Optional[PageBundle], st
             "status": status,
             "taxon_name": taxon_name,
         },
+    }
+
+
+def build_checkpoint_payload(
+    requested_title: str,
+    bird_row: Dict[str, str],
+    location_rows: List[Dict[str, str]],
+    relations: List[Dict[str, str]],
+    raw_file: Path,
+) -> Dict:
+    return {
+        "version": CHECKPOINT_VERSION,
+        "saved_at": datetime.now().isoformat(timespec="seconds"),
+        "requested_title": requested_title,
+        "resolved_title": bird_row["english_name"],
+        "title_aliases": merge_title_aliases([requested_title, bird_row["english_name"]]),
+        "bird_id": bird_row["id"],
+        "raw_file": raw_file.name,
+        "bird": bird_row,
+        "locations": location_rows,
+        "relations": relations,
     }
 
 
@@ -839,10 +901,122 @@ def crawl_one_title(crawler: WikiCrawler, title: str) -> Tuple[Dict[str, str], L
     return bird_row, location_rows, relations, raw_payload
 
 
-def save_raw_payload(raw_dir: Path, bird_id: str, payload: Dict) -> None:
+def write_json_payload(path: Path, payload: Dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp_path = path.with_suffix(path.suffix + ".tmp")
+    temp_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    temp_path.replace(path)
+
+
+def save_raw_payload(raw_dir: Path, bird_id: str, payload: Dict) -> Path:
     raw_dir.mkdir(parents=True, exist_ok=True)
     path = raw_dir / f"{bird_id}.json"
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_json_payload(path, payload)
+    return path
+
+
+def load_json_payload(path: Path) -> Dict:
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        raise RuntimeError(f"JSON 解析失败: {path}") from error
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"JSON 顶层结构必须为对象: {path}")
+    return payload
+
+
+def save_checkpoint(checkpoint_dir: Path, bird_id: str, payload: Dict) -> Path:
+    checkpoint_dir.mkdir(parents=True, exist_ok=True)
+    path = checkpoint_dir / f"{bird_id}.json"
+    if path.exists():
+        existing_payload = load_json_payload(path)
+        payload["title_aliases"] = merge_title_aliases(
+            existing_payload.get("title_aliases", []),
+            [existing_payload.get("requested_title", ""), existing_payload.get("resolved_title", "")],
+            payload.get("title_aliases", []),
+            [payload.get("requested_title", ""), payload.get("resolved_title", "")],
+        )
+    write_json_payload(path, payload)
+    return path
+
+
+def load_checkpoints(checkpoint_dir: Path) -> List[Dict]:
+    if not checkpoint_dir.exists():
+        return []
+
+    checkpoints: List[Dict] = []
+    for path in sorted(checkpoint_dir.glob("*.json")):
+        payload = load_json_payload(path)
+        version = payload.get("version")
+        if version not in (None, CHECKPOINT_VERSION):
+            raise RuntimeError(f"不支持的 checkpoint 版本: {path}")
+        payload["_checkpoint_path"] = str(path)
+        checkpoints.append(payload)
+    return checkpoints
+
+
+def recover_rows_from_checkpoints(
+    checkpoints: Sequence[Dict],
+    birds_rows: List[Dict[str, str]],
+    locations_rows: List[Dict[str, str]],
+    relations_rows: List[Dict[str, str]],
+) -> Tuple[List[Dict[str, str]], List[Dict[str, str]], List[Dict[str, str]], bool]:
+    checkpoint_birds: List[Dict[str, str]] = []
+    checkpoint_locations: List[Dict[str, str]] = []
+    checkpoint_relations: List[Dict[str, str]] = []
+
+    for checkpoint in checkpoints:
+        bird = checkpoint.get("bird")
+        if isinstance(bird, dict) and bird.get("id"):
+            checkpoint_birds.append(normalize_structured_row(bird, BIRDS_HEADERS))
+
+        for location in checkpoint.get("locations", []):
+            if isinstance(location, dict) and location.get("id"):
+                checkpoint_locations.append(normalize_structured_row(location, LOCATIONS_HEADERS))
+
+        for relation in checkpoint.get("relations", []):
+            if isinstance(relation, dict) and relation.get("subject_id") and relation.get("object_id"):
+                checkpoint_relations.append(normalize_structured_row(relation, RELATIONS_HEADERS))
+
+    birds_rows, birds_changed = upsert_rows(birds_rows, checkpoint_birds, key_fields=["id"], overwrite=False)
+    locations_rows, locations_changed = upsert_rows(locations_rows, checkpoint_locations, key_fields=["id"], overwrite=False)
+    relations_rows, relations_changed = upsert_rows(
+        relations_rows,
+        checkpoint_relations,
+        key_fields=["subject_id", "predicate", "object_id"],
+        overwrite=False,
+    )
+    return birds_rows, locations_rows, relations_rows, birds_changed or locations_changed or relations_changed
+
+
+def build_completed_title_keys(existing_birds: Sequence[Dict[str, str]], checkpoints: Sequence[Dict]) -> set[str]:
+    completed = set()
+    for row in existing_birds:
+        english_name = row.get("english_name", "")
+        if english_name:
+            completed.add(normalize_title_key(english_name))
+
+    for checkpoint in checkpoints:
+        for title in merge_title_aliases(
+            checkpoint.get("title_aliases", []),
+            [checkpoint.get("requested_title", ""), checkpoint.get("resolved_title", "")],
+            [checkpoint.get("bird", {}).get("english_name", "")] if isinstance(checkpoint.get("bird"), dict) else [],
+        ):
+            completed.add(normalize_title_key(title))
+    return completed
+
+
+def persist_tables(
+    birds_path: Path,
+    locations_path: Path,
+    relations_path: Path,
+    birds_rows: List[Dict[str, str]],
+    locations_rows: List[Dict[str, str]],
+    relations_rows: List[Dict[str, str]],
+) -> None:
+    write_csv_rows(birds_path, BIRDS_HEADERS, birds_rows)
+    write_csv_rows(locations_path, LOCATIONS_HEADERS, locations_rows)
+    write_csv_rows(relations_path, RELATIONS_HEADERS, relations_rows)
 
 
 def maybe_build_json(build_json: bool) -> None:
@@ -862,7 +1036,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--input-file", help="可选，提供标题输入文件；支持 txt 每行一个标题，或 csv 的 title/page_title/english_name 列")
     parser.add_argument("--data-dir", default=str(DEFAULT_DATA_DIR), help="CSV 数据目录，默认 data/")
     parser.add_argument("--raw-dir", default=str(DEFAULT_RAW_DIR), help="原始页面 JSON 输出目录，默认 data/wikipedia_raw/")
-    parser.add_argument("--overwrite", action="store_true", help="若同一 id 已存在，则用新抓取值覆盖非空字段")
+    parser.add_argument("--checkpoint-dir", default=str(DEFAULT_CHECKPOINT_DIR), help="断点 checkpoint 目录，默认 data/wikipedia_checkpoint/")
+    parser.add_argument("--overwrite", action="store_true", help="强制重抓已完成标题，并用新抓取值覆盖同一 id 的非空字段")
     parser.add_argument("--build-json", action="store_true", help="抓取结束后自动执行 build_knowledge_json.py")
     parser.add_argument("--delay", type=float, default=0.3, help="请求间隔秒数，默认 0.3")
     return parser.parse_args()
@@ -876,44 +1051,70 @@ def main() -> None:
 
     data_dir = Path(args.data_dir)
     raw_dir = Path(args.raw_dir)
+    checkpoint_dir = Path(args.checkpoint_dir)
     birds_path = data_dir / "birds.csv"
     locations_path = data_dir / "locations.csv"
     relations_path = data_dir / "relations.csv"
 
-    existing_birds = load_csv_rows(birds_path, BIRDS_HEADERS)
-    existing_locations = load_csv_rows(locations_path, LOCATIONS_HEADERS)
-    existing_relations = load_csv_rows(relations_path, RELATIONS_HEADERS)
+    birds_rows = load_csv_rows(birds_path, BIRDS_HEADERS)
+    locations_rows = load_csv_rows(locations_path, LOCATIONS_HEADERS)
+    relations_rows = load_csv_rows(relations_path, RELATIONS_HEADERS)
+    checkpoints = load_checkpoints(checkpoint_dir)
+    birds_rows, locations_rows, relations_rows, restored_from_checkpoint = recover_rows_from_checkpoints(
+        checkpoints,
+        birds_rows,
+        locations_rows,
+        relations_rows,
+    )
+    if restored_from_checkpoint:
+        persist_tables(birds_path, locations_path, relations_path, birds_rows, locations_rows, relations_rows)
+        print("[resume] 已从 checkpoint 补齐本地 CSV 数据")
+
+    completed_title_keys = build_completed_title_keys(birds_rows, checkpoints)
 
     crawler = WikiCrawler(delay=args.delay)
-
-    new_birds: List[Dict[str, str]] = []
-    new_locations: List[Dict[str, str]] = []
-    new_relations: List[Dict[str, str]] = []
+    crawled_count = 0
+    skipped_count = 0
 
     for title in titles:
+        title_key = normalize_title_key(title)
+        if title_key in completed_title_keys and not args.overwrite:
+            skipped_count += 1
+            print(f"[skip] {title}")
+            continue
+
         print(f"[crawl] {title}")
         bird_row, location_rows, relations, raw_payload = crawl_one_title(crawler, title)
-        save_raw_payload(raw_dir, bird_row["id"], raw_payload)
-        new_birds.append(bird_row)
-        new_locations.extend(location_rows)
-        new_relations.extend(relations)
+        raw_path = save_raw_payload(raw_dir, bird_row["id"], raw_payload)
+        checkpoint_payload = build_checkpoint_payload(title, bird_row, location_rows, relations, raw_path)
+        save_checkpoint(checkpoint_dir, bird_row["id"], checkpoint_payload)
 
-    merged_birds = upsert_rows(existing_birds, new_birds, key_fields=["id"], overwrite=args.overwrite)
-    merged_locations = upsert_rows(existing_locations, new_locations, key_fields=["id"], overwrite=args.overwrite)
-    merged_relations = upsert_rows(
-        existing_relations,
-        new_relations,
-        key_fields=["subject_id", "predicate", "object_id"],
-        overwrite=args.overwrite,
-    )
+        birds_rows, birds_changed = upsert_rows(birds_rows, [bird_row], key_fields=["id"], overwrite=args.overwrite)
+        locations_rows, locations_changed = upsert_rows(
+            locations_rows,
+            location_rows,
+            key_fields=["id"],
+            overwrite=args.overwrite,
+        )
+        relations_rows, relations_changed = upsert_rows(
+            relations_rows,
+            relations,
+            key_fields=["subject_id", "predicate", "object_id"],
+            overwrite=args.overwrite,
+        )
+        if birds_changed or locations_changed or relations_changed:
+            persist_tables(birds_path, locations_path, relations_path, birds_rows, locations_rows, relations_rows)
 
-    write_csv_rows(birds_path, BIRDS_HEADERS, merged_birds)
-    write_csv_rows(locations_path, LOCATIONS_HEADERS, merged_locations)
-    write_csv_rows(relations_path, RELATIONS_HEADERS, merged_relations)
+        completed_title_keys.update(normalize_title_key(item) for item in merge_title_aliases([title, bird_row["english_name"]]))
+        crawled_count += 1
 
-    print(f"birds.csv 行数: {len(merged_birds)}")
-    print(f"locations.csv 行数: {len(merged_locations)}")
-    print(f"relations.csv 行数: {len(merged_relations)}")
+    print(f"本次新增抓取标题数: {crawled_count}")
+    print(f"本次自动跳过标题数: {skipped_count}")
+    print(f"checkpoint 文件数: {len(list(checkpoint_dir.glob('*.json'))) if checkpoint_dir.exists() else 0}")
+
+    print(f"birds.csv 行数: {len(birds_rows)}")
+    print(f"locations.csv 行数: {len(locations_rows)}")
+    print(f"relations.csv 行数: {len(relations_rows)}")
 
     maybe_build_json(args.build_json)
 

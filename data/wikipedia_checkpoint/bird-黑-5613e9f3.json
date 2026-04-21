@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:37:15",
+  "requested_title": "Black Tinamou",
+  "resolved_title": "Black tinamou",
+  "title_aliases": [
+    "Black Tinamou"
+  ],
+  "bird_id": "bird-黑-5613e9f3",
+  "raw_file": "bird-黑-5613e9f3.json",
+  "bird": {
+    "id": "bird-黑-5613e9f3",
+    "name": "黑䳍",
+    "english_name": "Black tinamou",
+    "latin_name": "Tinamus osgoodi",
+    "summary": "黑䳍（学名：Tinamus osgoodi），是䳍形目䳍科的一种鸟类。 特征 黑䳍体重约1285克，翼长约232毫米，嘴峰长约45.6毫米，喙宽度约7.1毫米，喙厚度约7.9毫米，跗蹠长约70.6毫米，尾长约69.7毫米。黑䳍在其分布区内为留鸟，其栖息在密集的高大的树木组成的森…",
+    "lat": "-32",
+    "lng": "-70"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑-5613e9f3",
+      "subject": "黑䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "herskovitzi Blake, 1953 | range_map = Tinamus osgoodi map.svg }} The black tinamou (Tinamus osgoodi) is a species of ground bird found in humid foothill and montane forest in the Andes of South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑-5613e9f3",
+      "subject": "黑䳍",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "herskovitzi Blake, 1953 | range_map = Tinamus osgoodi map.svg }} The black tinamou (Tinamus osgoodi) is a species of ground bird found in humid foothill and montane forest in the Andes of South America",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-黑-5613e9f3",
+      "subject": "黑䳍",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-黑-5613e9f3",
+      "subject": "黑䳍",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "(2004) The black tinamou is threatened by deforestation or loss of habitat caused by human settlement expansion, agricultural expansion, road-building, oil exploration in Peru, and it is hunted for food. Even within reserves, hunting and habitat loss are ongoing",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-黑-5613e9f3",
+      "subject": "黑䳍",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "(2004) The black tinamou is threatened by deforestation or loss of habitat caused by human settlement expansion, agricultural expansion, road-building, oil exploration in Peru, and it is hunted for food. Even within reserves, hunting and habitat loss are ongoing",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-黑-5613e9f3",
+      "subject": "黑䳍",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "(2004) The black tinamou is threatened by deforestation or loss of habitat caused by human settlement expansion, agricultural expansion, road-building, oil exploration in Peru, and it is hunted for food. Even within reserves, hunting and habitat loss are ongoing",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

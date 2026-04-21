@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:39:39",
+  "requested_title": "Small-billed Tinamou",
+  "resolved_title": "Small-billed tinamou",
+  "title_aliases": [
+    "Small-billed Tinamou"
+  ],
+  "bird_id": "bird-小嘴穴-49241c01",
+  "raw_file": "bird-小嘴穴-49241c01.json",
+  "bird": {
+    "id": "bird-小嘴穴-49241c01",
+    "name": "小嘴穴䳍",
+    "english_name": "Small-billed tinamou",
+    "latin_name": "Crypturellus parvirostris",
+    "summary": "小嘴穴䳍（学名：Crypturellus parvirostris）是䳍科穴䳍屬的一种鸟类。 特征 小嘴穴䳍体重约198.99克，翼长约111.1毫米，嘴峰长约19.3毫米，喙宽度约4.3毫米，喙厚度约4.2毫米，跗蹠长约25.7毫米，尾长约37.3毫米。小嘴穴䳍在其分布区内为…",
+    "lat": "-2.3096",
+    "lng": "-54.8881"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-格奥尔格-瓦格勒-9f847863",
+      "name": "约翰·格奥尔格·瓦格勒",
+      "summary": "约翰·格奥尔格·瓦格勒（德語：Johann Georg Wagler，1800年3月28日—1832年8月23日）是德国爬虫两栖类学家和鸟类学家。 生平 瓦格勒于1800年3月28日出生在纽伦堡，父亲是市法院的法官。他在青年时代就热爱自然…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小嘴穴-49241c01",
+      "subject": "小嘴穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-格奥尔格-瓦格勒-9f847863",
+      "object": "约翰·格奥尔格·瓦格勒",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The small-billed tinamou (Crypturellus parvirostris) is a type of tinamou commonly found in dry savanna in Amazonian South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小嘴穴-49241c01",
+      "subject": "小嘴穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The small-billed tinamou (Crypturellus parvirostris) is a type of tinamou commonly found in dry savanna in Amazonian South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小嘴穴-49241c01",
+      "subject": "小嘴穴䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The small-billed tinamou (Crypturellus parvirostris) is a type of tinamou commonly found in dry savanna in Amazonian South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小嘴穴-49241c01",
+      "subject": "小嘴穴䳍",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The small-billed tinamou (Crypturellus parvirostris) is a type of tinamou commonly found in dry savanna in Amazonian South America",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-小嘴穴-49241c01",
+      "subject": "小嘴穴䳍",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

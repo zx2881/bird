@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:40:53",
+  "requested_title": "Black-bellied Whistling Duck",
+  "resolved_title": "Black-bellied whistling duck",
+  "title_aliases": [
+    "Black-bellied Whistling Duck"
+  ],
+  "bird_id": "bird-紅嘴樹鴨-f6cf853b",
+  "raw_file": "bird-紅嘴樹鴨-f6cf853b.json",
+  "bird": {
+    "id": "bird-紅嘴樹鴨-f6cf853b",
+    "name": "紅嘴樹鴨",
+    "english_name": "Black-bellied whistling duck",
+    "latin_name": "Dendrocygna autumnalis",
+    "summary": "紅嘴樹鴨（Dendrocygna autumnalis）是分佈在美國南端及中美洲熱帶至南美洲中南部的樹鴨屬。 特徵 紅嘴樹鴨長48-53厘米，頭部、喙及雙腳都很長。牠們的喙是紅色的，頭部呈淡灰色，身體大部份、頸背及冠都呈栗褐色，腹部及尾巴是黑色的。面部及上頸是灰色的，有很幼及白…",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紅嘴樹鴨-f6cf853b",
+      "subject": "紅嘴樹鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It has been recorded in every eastern state and adjacent Canadian province. Since it is one of only two whistling duck species native to North America, it is occasionally just known as the \"whistling duck\" or \"Mexican squealer\" in the southern USA",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅嘴樹鴨-f6cf853b",
+      "subject": "紅嘴樹鴨",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The habitat is quite shallow freshwater ponds, lakes, and marshes, cultivated land or reservoirs with plentiful vegetation, where this duck feeds mainly at night on seeds and other plant food",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-紅嘴樹鴨-f6cf853b",
+      "subject": "紅嘴樹鴨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

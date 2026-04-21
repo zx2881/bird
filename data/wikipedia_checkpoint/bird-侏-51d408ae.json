@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:34:19",
+  "requested_title": "Dwarf Tinamou",
+  "resolved_title": "Dwarf tinamou",
+  "title_aliases": [
+    "Dwarf Tinamou"
+  ],
+  "bird_id": "bird-侏-51d408ae",
+  "raw_file": "bird-侏-51d408ae.json",
+  "bird": {
+    "id": "bird-侏-51d408ae",
+    "name": "侏䳍",
+    "english_name": "Dwarf tinamou",
+    "latin_name": "Taoniscus nanus",
+    "summary": "侏䳍（学名：Taoniscus nanus），是䳍形目䳍科侏䳍属的唯一物种。 特征 侏䳍体重约43克，翼长约76.6毫米，嘴峰长约14.8毫米，喙宽度约3.1毫米，喙厚度约3.1毫米，跗蹠长约18.4毫米，尾长约34.8毫米。侏䳍在其分布区内为留鸟，其栖息在半开放的草原环境中，…",
+    "lat": "-10",
+    "lng": "-52"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-侏-51d408ae",
+      "subject": "侏䳍",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The dwarf tinamou is found in the arid scrub grasslands, around in elevation, restricted to the Cerrado region of interior southeastern BrazilClements, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-侏-51d408ae",
+      "subject": "侏䳍",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The dwarf tinamou is found in the arid scrub grasslands, around in elevation, restricted to the Cerrado region of interior southeastern BrazilClements, J",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-侏-51d408ae",
+      "subject": "侏䳍",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-侏-51d408ae",
+      "subject": "侏䳍",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The dwarf tinamou is currently threatened by the ongoing habitat loss caused by mechanised agriculture, intensive cattle-ranching, afforestation, invasive grasses, excessive use of pesticides and annual burning",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-侏-51d408ae",
+      "subject": "侏䳍",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The dwarf tinamou is currently threatened by the ongoing habitat loss caused by mechanised agriculture, intensive cattle-ranching, afforestation, invasive grasses, excessive use of pesticides and annual burning",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

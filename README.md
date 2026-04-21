@@ -357,6 +357,14 @@ python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv --build
 - `data/locations.csv`
 - `data/relations.csv`
 - `data/wikipedia_raw/*.json`
+- `data/wikipedia_checkpoint/*.json`
+
+`crawl_from_wikipedia.py` 现在支持断点续跑：
+
+- 每处理完一个标题就会立刻落盘到 CSV 和 checkpoint
+- 再次运行时会自动跳过已经完成的标题
+- 如果上次运行中断，会先从 `data/wikipedia_checkpoint/` 补齐 CSV，再继续后面的标题
+- 如果你确实要强制重抓，传 `--overwrite`
 
 ## 9. 现在这三张表里已经放了什么
 

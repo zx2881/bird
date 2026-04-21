@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T12:33:04",
+  "requested_title": "Lesser Rhea",
+  "resolved_title": "Darwin's rhea",
+  "title_aliases": [
+    "Lesser Rhea",
+    "Darwin's rhea"
+  ],
+  "bird_id": "bird-小美洲鸵-5f44f537",
+  "raw_file": "bird-小美洲鸵-5f44f537.json",
+  "bird": {
+    "id": "bird-小美洲鸵-5f44f537",
+    "name": "小美洲鸵",
+    "english_name": "Darwin's rhea",
+    "latin_name": "Rhea pennata",
+    "summary": "小美洲鴕（Rhea pennata），又名達爾文鶆䴈，是美洲鸵属两个现存物種中较小的一个。 特徵 小美洲鴕高90-100厘米，重15-25公斤。牠們的翼較其他鴕鳥大，故奔跑得很好。牠們最高速可達每小時60公里，可以脫離掠食者的追捕。牠們的爪很鋒利，是很有效的武器。牠們的羽毛有褐…",
+    "lat": "-19",
+    "lng": "-68"
+  },
+  "locations": [
+    {
+      "id": "loc-阿尔蒂普拉诺高原-8a676b92",
+      "name": "阿尔蒂普拉诺高原",
+      "summary": "阿尔蒂普拉诺高原（西班牙語：Altiplano，意为高地平原）也稱為玻利维亚高原，位於南美洲中部安第斯山脉最宽广处，是世界上继青藏高原之后的又一片平均海拔超过3,000米的大高原，南美洲最大湖的的喀喀湖是其最为著名的地理特色。 阿尔蒂普拉…",
+      "lat": "-19",
+      "lng": "-68"
+    },
+    {
+      "id": "loc-巴塔哥尼亞-65e27f32",
+      "name": "巴塔哥尼亞",
+      "summary": "巴塔哥尼亞（西班牙語：Patagonia，西班牙語發音：[pataˈɣonja]）位于南美洲南端，一般是指科羅拉多河以南（或以南緯40度為界）的地區，包括安第斯山脉的南端，主要位于阿根廷境內，小部分屬於智利。明《坤輿萬國全圖》謂之「巴大溫…",
+      "lat": "-41",
+      "lng": "-68"
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小美洲鸵-5f44f537",
+      "subject": "小美洲鸵",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔蒂普拉诺高原-8a676b92",
+      "object": "阿尔蒂普拉诺高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Altiplano and Patagonia in South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小美洲鸵-5f44f537",
+      "subject": "小美洲鸵",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴塔哥尼亞-65e27f32",
+      "object": "巴塔哥尼亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Altiplano and Patagonia in South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小美洲鸵-5f44f537",
+      "subject": "小美洲鸵",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Altiplano and Patagonia in South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小美洲鸵-5f44f537",
+      "subject": "小美洲鸵",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Darwin's rhea lives in areas of open scrub in the grasslands of Patagonia and on the Andean plateau (the Altiplano), through the countries of Argentina, Bolivia, Chile, and Peru. All subspecies prefer grasslands, brushlands and marshland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-小美洲鸵-5f44f537",
+      "subject": "小美洲鸵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-小美洲鸵-5f44f537",
+      "subject": "小美洲鸵",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its range is estimated at . The situation for the two former northern subspecies is more worrying, with their combined population estimated as being possibly as low as in the hundreds. However, they are classified as Rhea tarapacensis by the IUCN, which regards it as being near threatened, with the primary threats being hunting, egg-collecting, and fragmentation of its habitat due to conversion to farmland or pastures for cattle-grazing. Patagonia National Park in Chile's Aysén Region hosts the Centro de Reproducción para la Conservación del Ñandú ('Reproduction Centre for Darwin's rhea Conservation'). The centre is run by Tompkins Conservation with the support of the National Forest Corporation",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}
