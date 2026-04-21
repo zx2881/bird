@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:38:22",
+  "requested_title": "Fuegian Steamer Duck",
+  "resolved_title": "Fuegian steamer duck",
+  "title_aliases": [
+    "Fuegian Steamer Duck"
+  ],
+  "bird_id": "bird-灰船鸭-c1af5068",
+  "raw_file": "bird-灰船鸭-c1af5068.json",
+  "bird": {
+    "id": "bird-灰船鸭-c1af5068",
+    "name": "灰船鸭",
+    "english_name": "Fuegian steamer duck",
+    "latin_name": "Tachyeres pteneres",
+    "summary": "灰船鸭（学名：Tachyeres pteneres），是雁形目鸭科的一种不會飛的鳥。 特征 灰船鸭体重约4737.59克，翼长约260.8毫米，嘴峰长约60.1毫米，喙宽度约31.4毫米，喙厚度约24.6毫米，跗蹠长约62.3毫米，尾长约94.6毫米。灰船鸭是部分迁徙的鸟类，其…",
+    "lat": "-34",
+    "lng": "-71"
+  },
+  "locations": [
+    {
+      "id": "loc-johann-reinhold-forster-0321138b",
+      "name": "Johann Reinhold Forster",
+      "summary": "Johann Reinhold Forster (German: [ˈfɔʁstɐ]; 22 October 1729 – 9 December 1798) was a German Reformed pastor and natural…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    },
+    {
+      "id": "loc-奇洛埃群島-56642632",
+      "name": "奇洛埃群島",
+      "summary": "奇洛埃群島（西班牙語：Archipiélago de Chiloé，發音：[tʃiloˈe]，当地发音：[ʃiloˈe]）是智利沿岸的群島，查考海峽把群島從智利大陸分隔， 主要島嶼有奇洛埃島、萊穆伊島、金查奧島和瓜佛島，2002年人口15…",
+      "lat": "-42.6",
+      "lng": "-73.95"
+    },
+    {
+      "id": "loc-火地群岛-1862489f",
+      "name": "火地群岛",
+      "summary": "火地群岛（西班牙語：Archipiélago de Tierra del Fuego）是南美洲最南端的一个群岛，由主岛火地岛及周边小岛组成，总面积73,753平方公里。其主岛火地岛西半部以及其西、南部的全部岛屿均归属于智利境內麦哲伦-智利…",
+      "lat": "-54",
+      "lng": "-70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰船鸭-c1af5068",
+      "subject": "灰船鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-johann-reinhold-forster-0321138b",
+      "object": "Johann Reinhold Forster",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The flightless steamer-duck (Tachyeres pteneres), Magellanic flightless steamer-duck, or Fuegian steamer duck, is a flightless duck native to South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰船鸭-c1af5068",
+      "subject": "灰船鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the rocky coasts and coastal islands from southern Chile and Chiloé to Tierra del Fuego, switching to the adjacent sheltered bays and lakes further inland when breeding",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰船鸭-c1af5068",
+      "subject": "灰船鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-奇洛埃群島-56642632",
+      "object": "奇洛埃群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the rocky coasts and coastal islands from southern Chile and Chiloé to Tierra del Fuego, switching to the adjacent sheltered bays and lakes further inland when breeding",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰船鸭-c1af5068",
+      "subject": "灰船鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-火地群岛-1862489f",
+      "object": "火地群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the rocky coasts and coastal islands from southern Chile and Chiloé to Tierra del Fuego, switching to the adjacent sheltered bays and lakes further inland when breeding",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰船鸭-c1af5068",
+      "subject": "灰船鸭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

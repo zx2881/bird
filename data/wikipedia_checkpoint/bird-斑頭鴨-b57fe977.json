@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:28:29",
+  "requested_title": "Andean Teal",
+  "resolved_title": "Andean teal",
+  "title_aliases": [
+    "Andean Teal"
+  ],
+  "bird_id": "bird-斑頭鴨-b57fe977",
+  "raw_file": "bird-斑頭鴨-b57fe977.json",
+  "bird": {
+    "id": "bird-斑頭鴨-b57fe977",
+    "name": "斑頭鴨",
+    "english_name": "Andean teal",
+    "latin_name": "Anas andium",
+    "summary": "斑頭鴨（學名：Anas andium）是南美洲的一種鴨，是一種鑽水鴨，分佈於哥倫比亞、委內瑞拉與厄瓜多等國的安地斯高地，偏好棲息於靜止的水體中。 分類 斑頭鴨有時與黃嘴鴨被認為是同種，都屬於A.",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-palustrine-wetland-5253c0e0",
+      "name": "Palustrine wetland",
+      "summary": "Palustrine wetlands include any inland wetland that contains ocean-derived salts in concentrations of less than 0.5 par…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-河流-f3845624",
+      "name": "河流",
+      "summary": "河流（江、河）是自然汇入海洋、湖泊的流水，通常为淡水。在少数情况下，河流流入地下或者在汇入另一水体之前便干涸。河流有時會匯入另一條河流。较小的河流可能会被称作溪流、支流等。 河流是水循环的一环。河流中的水主要来自其流域降水形成的地表径流和…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-斑頭鴨-b57fe977",
+      "subject": "斑頭鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits freshwater wetlands, preferring palustrine habitat to rivers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斑頭鴨-b57fe977",
+      "subject": "斑頭鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-palustrine-wetland-5253c0e0",
+      "object": "Palustrine wetland",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits freshwater wetlands, preferring palustrine habitat to rivers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斑頭鴨-b57fe977",
+      "subject": "斑頭鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-河流-f3845624",
+      "object": "河流",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits freshwater wetlands, preferring palustrine habitat to rivers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斑頭鴨-b57fe977",
+      "subject": "斑頭鴨",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits freshwater wetlands, preferring palustrine habitat to rivers",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-斑頭鴨-b57fe977",
+      "subject": "斑頭鴨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

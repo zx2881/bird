@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:38:56",
+  "requested_title": "Garganey",
+  "resolved_title": "Garganey",
+  "title_aliases": [
+    "Garganey"
+  ],
+  "bird_id": "bird-白眉鸭-c50d4eea",
+  "raw_file": "bird-白眉鸭-c50d4eea.json",
+  "bird": {
+    "id": "bird-白眉鸭-c50d4eea",
+    "name": "白眉鸭",
+    "english_name": "Garganey",
+    "latin_name": "Spatula querquedula",
+    "summary": "白眉鸭（学名：Spatula querquedula）为鸭科匙嘴鸭属的鸟类，俗名溪的鸭、巡凫、小石鸭。是一種小型涉禽鴨。它在歐洲大部分地區和古北界繁殖，但屬於遷徙性侯鳥，整個種群會在北半球的冬季遷徙到非洲、印度（尤其是桑特拉加奇）、孟加拉國（錫爾赫特地區的自然水庫）和澳大拉西亞…",
+    "lat": "22.58017",
+    "lng": "88.26963"
+  },
+  "locations": [
+    {
+      "id": "loc-santragachhi-44d402a8",
+      "name": "Santragachhi",
+      "summary": "Santragachi is a neighbourhood in Howrah of Howrah district in the Indian state of West Bengal.",
+      "lat": "22.58017",
+      "lng": "88.26963"
+    },
+    {
+      "id": "loc-錫爾赫特-9b5a98a6",
+      "name": "錫爾赫特",
+      "summary": "锡尔赫特（孟加拉語：সিলেট，發音：[sileʈ] ；英語：Sylhet；又译锡莱特）為錫爾赫特專區及錫爾赫特縣的首府及主要城市，位於孟加拉國東北部，於2009年3月取得孟加拉都會城市(metropolitan city)的地位。錫爾赫…",
+      "lat": "24.9",
+      "lng": "91.86666667"
+    },
+    {
+      "id": "loc-澳大拉西亞-3d7bd98e",
+      "name": "澳大拉西亞",
+      "summary": "澳大拉西亚（英語：Australasia）一般指大洋洲的一个地区，包含了澳大利亚、新西兰和邻近的太平洋岛屿。 澳大拉西亚一詞是由法国學者布羅塞於1756年出版的《到南方陸地航行的歷史》（Histoire des navigations a…",
+      "lat": "-28.10888889",
+      "lng": "146.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白眉鸭-c50d4eea",
+      "subject": "白眉鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-santragachhi-44d402a8",
+      "object": "Santragachhi",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in much of Europe and across the Palearctic, but is strictly migratory, with the entire population moving to Africa, India (in particular Santragachi), Bangladesh (in the natural reservoirs of Sylhet district) and Australasia during the winter of the Northern hemisphere, where large flocks can occur",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眉鸭-c50d4eea",
+      "subject": "白眉鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-錫爾赫特-9b5a98a6",
+      "object": "錫爾赫特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in much of Europe and across the Palearctic, but is strictly migratory, with the entire population moving to Africa, India (in particular Santragachi), Bangladesh (in the natural reservoirs of Sylhet district) and Australasia during the winter of the Northern hemisphere, where large flocks can occur",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眉鸭-c50d4eea",
+      "subject": "白眉鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大拉西亞-3d7bd98e",
+      "object": "澳大拉西亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in much of Europe and across the Palearctic, but is strictly migratory, with the entire population moving to Africa, India (in particular Santragachi), Bangladesh (in the natural reservoirs of Sylhet district) and Australasia during the winter of the Northern hemisphere, where large flocks can occur",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眉鸭-c50d4eea",
+      "subject": "白眉鸭",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Their breeding habitat is grassland adjacent to shallow marshes and steppe lakes",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-白眉鸭-c50d4eea",
+      "subject": "白眉鸭",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Their breeding habitat is grassland adjacent to shallow marshes and steppe lakes",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-白眉鸭-c50d4eea",
+      "subject": "白眉鸭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

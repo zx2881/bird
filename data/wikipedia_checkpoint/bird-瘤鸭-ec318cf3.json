@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:33:26",
+  "requested_title": "Knob-billed Duck",
+  "resolved_title": "Knob-billed duck",
+  "title_aliases": [
+    "Knob-billed Duck"
+  ],
+  "bird_id": "bird-瘤鸭-ec318cf3",
+  "raw_file": "bird-瘤鸭-ec318cf3.json",
+  "bird": {
+    "id": "bird-瘤鸭-ec318cf3",
+    "name": "瘤鸭",
+    "english_name": "Knob-billed duck",
+    "latin_name": "Sarkidiornis melanotos",
+    "summary": "瘤鸭（学名：Sarkidiornis melanotos）为鸭科瘤鸭属的鸟类。分布于非洲、马达加斯加、斯里兰卡、印度、孟加拉、缅甸、泰国、中南半岛、南美洲以及中国大陆的福建等地，多生活于森林附近的湖沼以及河流。该物种的模式产地在斯里兰卡。 亚种 瘤鸭指名亚种（学名：Sarkid…",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-湖泊-0d5da6a5",
+      "name": "湖泊",
+      "summary": "湖泊（lake）是内陆洼地中相对静止、有一定面积，不与海洋发生直接联系的水体。全世界共有约1.17亿个湖泊，共覆盖了地球近500万平方公里。 從地球歷史上來看，湖泊只是暫時存在的水體，會受到泥沙淤積而慢慢陸化；除了少數古老湖泊，如貝加爾湖…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-瘤鸭-ec318cf3",
+      "subject": "瘤鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-湖泊-0d5da6a5",
+      "object": "湖泊",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in still freshwater swamps and lakes in the tropics",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-瘤鸭-ec318cf3",
+      "subject": "瘤鸭",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It breeds in still freshwater swamps and lakes in the tropics",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-瘤鸭-ec318cf3",
+      "subject": "瘤鸭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

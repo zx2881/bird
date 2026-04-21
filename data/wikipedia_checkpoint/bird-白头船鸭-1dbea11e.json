@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:38:30",
+  "requested_title": "Chubut Steamer Duck",
+  "resolved_title": "Chubut steamer duck",
+  "title_aliases": [
+    "Chubut Steamer Duck"
+  ],
+  "bird_id": "bird-白头船鸭-1dbea11e",
+  "raw_file": "bird-白头船鸭-1dbea11e.json",
+  "bird": {
+    "id": "bird-白头船鸭-1dbea11e",
+    "name": "白头船鸭",
+    "english_name": "Chubut steamer duck",
+    "latin_name": "Tachyeres leucocephalus",
+    "summary": "白头船鸭（学名：Tachyeres leucocephalus），是雁形目鸭科的一种鸟类。 特征 白头船鸭体重约3013克，翼长约275毫米，嘴峰长约61.5毫米，喙宽度约27.4毫米，喙厚度约22.5毫米，跗蹠长约63毫米，尾长约165毫米。白头船鸭是部分迁徙的鸟类，其栖息在…",
+    "lat": "-41.5",
+    "lng": "-64.5"
+  },
+  "locations": [
+    {
+      "id": "loc-圣马蒂亚斯湾-47d5ad21",
+      "name": "圣马蒂亚斯湾",
+      "summary": "圣马蒂亚斯湾（西班牙語：Golfo San Matías）是阿根廷大西洋海岸一个海湾，北部和西部为内格罗河省，南为丘布特省的瓦尔德斯半岛，东与大西洋相通。沿岸主要城市为西圣安东尼奥（San Antonio Oeste）。海湾内渔业资源丰富。",
+      "lat": "-41.5",
+      "lng": "-64.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白头船鸭-1dbea11e",
+      "subject": "白头船鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣马蒂亚斯湾-47d5ad21",
+      "object": "圣马蒂亚斯湾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "However it is now known to have a larger range from the southern portion of the San Matías Gulf to Islote Chato. The crucial populations for this species are found in Bahía San Gregorio (Argentina) [1], Bahía Melo [2], and Caleta Malaspina[3]. These three crucial populations are all located in the San Jorge Gulf",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头船鸭-1dbea11e",
+      "subject": "白头船鸭",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-白头船鸭-1dbea11e",
+      "subject": "白头船鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Chubut steamer Ducks face many threats such as oil exploration, habitat destruction, predation, and invasive species. Other forms of threats they face are from guano, macroalgae and egg harvesting. There have been three major oil spills in the past 30 years that affected the ducks breeding areas by directly being coated with oil and polluting the substrate that the ducks make their nests on. The three main invasive species affecting the Chubut steamer ducks are Carcinus maenas (Green Crab), Wakame (Asian Kelp or Undaria pinnatifida) and Balanus glandula (Acorn Barnacle). These invasive species indirectly affect the duck by altering the environment that it lives in. Sub-marine predators of this species include the South American sea lion (Otaria byronia) and Killer whale (Orcinus orca).{{cite journal |last1=STRANECK |first1=ROBERTO |last2=LIVEZEY |first2=BRADLEY C",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

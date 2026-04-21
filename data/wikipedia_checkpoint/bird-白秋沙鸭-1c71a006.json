@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:32:48",
+  "requested_title": "Smew",
+  "resolved_title": "Smew",
+  "title_aliases": [
+    "Smew"
+  ],
+  "bird_id": "bird-白秋沙鸭-1c71a006",
+  "raw_file": "bird-白秋沙鸭-1c71a006.json",
+  "bird": {
+    "id": "bird-白秋沙鸭-1c71a006",
+    "name": "白秋沙鸭",
+    "english_name": "Smew",
+    "latin_name": "Mergellus albellus",
+    "summary": "白秋沙鴨（Mergellus albellus），或簡稱白秋沙，又名斑頭秋沙鴨、斑頭秋沙或小秋沙，是一種小型潜鸭，介乎秋沙鴨屬及鵲鴨屬之間，會與鵲鴨混種。牠們是小秋沙屬下的唯一種。 2022年，“中国鸟类名录”10.0版将白秋沙鸭的中文名恢复为传统中文名斑头秋沙鸭。",
+    "lat": "66.66666667",
+    "lng": "171"
+  },
+  "locations": [
+    {
+      "id": "loc-楚科奇自治区-00fe126b",
+      "name": "楚科奇自治区",
+      "summary": "楚科奇自治區（俄語：Чуко́тский автоно́мный о́круг，羅馬化：Chukotsky avtonomny okrug；楚科奇語：Чукоткакэн автономныкэн округ），通稱楚科奇（Чуко́тк…",
+      "lat": "66.66666667",
+      "lng": "171"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白秋沙鸭-1c71a006",
+      "subject": "白秋沙鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-楚科奇自治区-00fe126b",
+      "object": "楚科奇自治区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species breeds in the Palearctic in the northern taiga from northern Scandinavia east to Chukotka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白秋沙鸭-1c71a006",
+      "subject": "白秋沙鸭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

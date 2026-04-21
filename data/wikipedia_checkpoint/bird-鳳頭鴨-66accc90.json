@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:38:04",
+  "requested_title": "Crested Duck",
+  "resolved_title": "Crested duck",
+  "title_aliases": [
+    "Crested Duck"
+  ],
+  "bird_id": "bird-鳳頭鴨-66accc90",
+  "raw_file": "bird-鳳頭鴨-66accc90.json",
+  "bird": {
+    "id": "bird-鳳頭鴨-66accc90",
+    "name": "鳳頭鴨",
+    "english_name": "Crested duck",
+    "latin_name": "Lophonetta specularioides",
+    "summary": "冠鸭（台湾作鳳頭鴨）（Lophonetta specularioides）是一種原生於南美洲的鴨科單型屬物种。 由於鳳頭鴨的英語名稱（英語：Crested Duck）跟冠麻鴨（英語：Crested Shelduck）非常相似，有香港傳媒在報導新聞時會把兩者混淆；但事實上，新聞報…",
+    "lat": "-51",
+    "lng": "-73"
+  },
+  "locations": [
+    {
+      "id": "loc-百內山脈-df52ed42",
+      "name": "百內山脈",
+      "summary": "百內山脈（西班牙語：Cordillera Paine）是智利的山脈，位於該國南部烏爾蒂馬埃斯佩蘭薩省，處於蓬塔阿雷納斯以北280公里，由百內國家公園負責管轄，最高點海拔高度3,050米。 參考資料 p.",
+      "lat": "-51",
+      "lng": "-73"
+    },
+    {
+      "id": "loc-约瑟夫-哈维-赖利-e7704eb7",
+      "name": "约瑟夫·哈维·赖利",
+      "summary": "约瑟夫·哈维·赖利（英語：Joseph Harvey Riley，1873年9月19日—1941年12月17日）是美国的一位鸟类学家。 赖利出生于弗吉尼亚州的福尔斯彻奇市。从1896年起直至其逝世，他一直是史密森尼学会的雇员。1932年，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鳳頭鴨-66accc90",
+      "subject": "鳳頭鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-百內山脈-df52ed42",
+      "object": "百內山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crested duck or South American crested duckBurridge, John T",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鳳頭鴨-66accc90",
+      "subject": "鳳頭鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-约瑟夫-哈维-赖利-e7704eb7",
+      "object": "约瑟夫·哈维·赖利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crested duck or South American crested duckBurridge, John T",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鳳頭鴨-66accc90",
+      "subject": "鳳頭鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "14 (Lophonetta specularioides) is a species of duck native to South America, belonging to the monotypic genus Lophonetta",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鳳頭鴨-66accc90",
+      "subject": "鳳頭鴨",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The two subspecies co-occur in a zone of intermediate elevational habitats in Mendoza, Argentina and Talca, Chile. The crested duck is found in lakes, marshes, and grassy areas from shallow coastal bays to high elevation lakes",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-鳳頭鴨-66accc90",
+      "subject": "鳳頭鴨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

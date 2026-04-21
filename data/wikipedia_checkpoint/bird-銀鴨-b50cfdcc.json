@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:40:14",
+  "requested_title": "Silver Teal",
+  "resolved_title": "Silver teal",
+  "title_aliases": [
+    "Silver Teal"
+  ],
+  "bird_id": "bird-銀鴨-b50cfdcc",
+  "raw_file": "bird-銀鴨-b50cfdcc.json",
+  "bird": {
+    "id": "bird-銀鴨-b50cfdcc",
+    "name": "銀鴨",
+    "english_name": "Silver teal",
+    "latin_name": "Spatula versicolor",
+    "summary": "銀鴨（學名：Spatula versicolor）是一種南美洲常見的鑽水鴨，棲息於淡水湖泊、沼澤中，以水生植物與無脊椎動物為食。其种加词“versicolor”意为“颜色多样的”。 形態 銀鴨體長38-43公分，最明顯的特徵是頭部從眼睛下方至頭頂均為黑色，且喙為淺藍色，喙的兩側…",
+    "lat": "-10",
+    "lng": "-52"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-銀鴨-b50cfdcc",
+      "subject": "銀鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銀鴨-b50cfdcc",
+      "subject": "銀鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2007) The southernmost birds migrate to southern Brazil in the winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銀鴨-b50cfdcc",
+      "subject": "銀鴨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:33:50",
+  "requested_title": "Blue Duck",
+  "resolved_title": "Blue duck",
+  "title_aliases": [
+    "Blue Duck"
+  ],
+  "bird_id": "bird-山蓝鸭-dab89d6d",
+  "raw_file": "bird-山蓝鸭-dab89d6d.json",
+  "bird": {
+    "id": "bird-山蓝鸭-dab89d6d",
+    "name": "山蓝鸭",
+    "english_name": "Blue duck",
+    "latin_name": "Hymenolaimus malacorhynchos",
+    "summary": "山鸭（台湾作山藍鴨）（学名：Hymenolaimus malacorhynchos；英语：Blue Duck、Mountain Duck、Blue Mountain Duck；毛利语：Whio）是鸭科山藍鴨屬（Hymenolaimus）的唯一一种生物，仅见于新西兰，新西兰十元纸…",
+    "lat": "-41.011597",
+    "lng": "175.170107"
+  },
+  "locations": [
+    {
+      "id": "loc-akatarawa-valley-48a73ed8",
+      "name": "Akatarawa Valley",
+      "summary": "The Akatarawa Valley is a valley in the Tararua Range of New Zealand's North Island.",
+      "lat": "-41.011597",
+      "lng": "175.170107"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-山蓝鸭-dab89d6d",
+      "subject": "山蓝鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-akatarawa-valley-48a73ed8",
+      "object": "Akatarawa Valley",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "{{speciesbox | name = Blue duck | status = EN | status_system = IUCN3.1 | status_ref = | image = Whio (Blue Duck) at Staglands, Akatarawa, New Zealand.jpg | image_caption = Blue duck at Staglands, Akatarawa Valley | genus = Hymenolaimus | parent_authority = [[George Robert Gray|G.R",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山蓝鸭-dab89d6d",
+      "subject": "山蓝鸭",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

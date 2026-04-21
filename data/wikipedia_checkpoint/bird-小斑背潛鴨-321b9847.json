@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:36:56",
+  "requested_title": "Lesser Scaup",
+  "resolved_title": "Lesser scaup",
+  "title_aliases": [
+    "Lesser Scaup"
+  ],
+  "bird_id": "bird-小斑背潛鴨-321b9847",
+  "raw_file": "bird-小斑背潛鴨-321b9847.json",
+  "bird": {
+    "id": "bird-小斑背潛鴨-321b9847",
+    "name": "小斑背潛鴨",
+    "english_name": "Lesser scaup",
+    "latin_name": "Aythya affinis",
+    "summary": "小潜鸭（台湾作小斑背潛鴨）（學名：Aythya affinis），是一種產於北美的小型雁鴨科潛鴨屬鳥類，冬天會向南遷徙到中美洲。本種與斑背潛鴨（A. marila）關係接近，兩者同屬於一個複合種 。",
+    "lat": "44.12555556",
+    "lng": "-123.10555556"
+  },
+  "locations": [
+    {
+      "id": "loc-mckenzie-river-oregon-858cef8d",
+      "name": "McKenzie River (Oregon)",
+      "summary": "The McKenzie River is a 90-mile (145 km) tributary of the Willamette River in western Oregon in the United States.",
+      "lat": "44.12555556",
+      "lng": "-123.10555556"
+    },
+    {
+      "id": "loc-old-crow-flats-aaadfa5a",
+      "name": "Old Crow Flats",
+      "summary": "Old Crow Flats (Van Tat in the Gwichʼin language) is a 6,170 km2 (2,382 sq mi) wetland complex in northern Yukon, Canad…",
+      "lat": "67.441",
+      "lng": "-139.82"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小斑背潛鴨-321b9847",
+      "subject": "小斑背潛鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-mckenzie-river-oregon-858cef8d",
+      "object": "McKenzie River (Oregon)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Notable breeding concentrations, with more than half a million birds at the height of the season, can be found in Alaska, in the woodlands of the McKenzie River valley and on the Old Crow Flats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小斑背潛鴨-321b9847",
+      "subject": "小斑背潛鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-old-crow-flats-aaadfa5a",
+      "object": "Old Crow Flats",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Notable breeding concentrations, with more than half a million birds at the height of the season, can be found in Alaska, in the woodlands of the McKenzie River valley and on the Old Crow Flats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小斑背潛鴨-321b9847",
+      "subject": "小斑背潛鴨",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Notable breeding concentrations, with more than half a million birds at the height of the season, can be found in Alaska, in the woodlands of the McKenzie River valley and on the Old Crow Flats",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-小斑背潛鴨-321b9847",
+      "subject": "小斑背潛鴨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

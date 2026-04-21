@@ -19,7 +19,7 @@
         <section class="sidebar-section">
           <div class="section-heading">
             <h2>概览</h2>
-            <p>10 种鸟类静态样例</p>
+            <p>{{ overviewCaption }}</p>
           </div>
           <div class="summary-grid">
             <article class="metric-card">
@@ -181,13 +181,84 @@
           <div class="section-heading compact">
             <div>
               <h2>鸟类知识图谱</h2>
-              <p>点击鸟类查看详情，点击地点联动地图</p>
+              <p>{{ graphSummary }}</p>
             </div>
             <div class="legend">
               <span v-for="item in legendItems" :key="item.label">
                 <i :style="{ backgroundColor: item.color }"></i>{{ item.label }}
               </span>
             </div>
+          </div>
+          <div class="graph-toolbar">
+            <div class="graph-toolbar-group">
+              <span class="control-label">视图模式</span>
+              <div class="pill-group">
+                <button
+                  v-for="option in graphModeOptions"
+                  :key="option.value"
+                  type="button"
+                  class="control-pill"
+                  :class="{ 'is-active': graphMode === option.value }"
+                  @click="graphMode = option.value"
+                >
+                  {{ option.label }}
+                </button>
+              </div>
+            </div>
+
+            <div class="graph-toolbar-group">
+              <span class="control-label">鸟类密度</span>
+              <div class="pill-group">
+                <button
+                  v-for="option in graphLimitOptions"
+                  :key="option.value"
+                  type="button"
+                  class="control-pill"
+                  :class="{ 'is-active': graphBirdLimit === option.value }"
+                  @click="graphBirdLimit = option.value"
+                >
+                  {{ option.label }}
+                </button>
+              </div>
+            </div>
+
+            <div class="graph-toolbar-group">
+              <span class="control-label">标签策略</span>
+              <div class="pill-group">
+                <button
+                  v-for="option in labelModeOptions"
+                  :key="option.value"
+                  type="button"
+                  class="control-pill"
+                  :class="{ 'is-active': labelMode === option.value }"
+                  @click="labelMode = option.value"
+                >
+                  {{ option.label }}
+                </button>
+              </div>
+            </div>
+
+            <div class="graph-toolbar-group wide">
+              <span class="control-label">外圈实体</span>
+              <div class="pill-group">
+                <button
+                  v-for="item in filterableTypeItems"
+                  :key="item.type"
+                  type="button"
+                  class="control-pill"
+                  :class="{ 'is-active': activeContextTypes.includes(item.type) }"
+                  @click="toggleContextType(item.type)"
+                >
+                  {{ item.label }}
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="graph-stat-strip">
+            <span class="graph-stat-chip">显示 {{ graphSnapshot.nodes.length }} / {{ knowledge.nodes.length }} 个节点</span>
+            <span class="graph-stat-chip">显示 {{ graphSnapshot.links.length }} / {{ knowledge.links.length }} 条关系</span>
+            <span class="graph-stat-chip">{{ graphModeHint }}</span>
+            <button type="button" class="graph-reset" @click="resetGraphControls">重置图谱视图</button>
           </div>
           <div ref="graphRef" class="graph-canvas"></div>
         </section>
@@ -208,17 +279,21 @@
 </template>
 
 <script setup>
-import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import * as echarts from 'echarts'
 import L from 'leaflet'
 
 const graphRef = ref(null)
 const mapRef = ref(null)
 
-const knowledge = ref({ nodes: [], links: [] })
+const knowledge = ref({ meta: null, nodes: [], links: [] })
 const selectedEntity = ref(null)
 const searchKeyword = ref('')
 const activeLocation = ref(null)
+const graphMode = ref('overview')
+const graphBirdLimit = ref(80)
+const labelMode = ref('smart')
+const activeContextTypes = ref(['location', 'habitat', 'status', 'threat'])
 const tripleState = ref({
   loading: false,
   error: '',
@@ -244,32 +319,93 @@ const statusClassMap = {
 }
 
 const legendItems = [
-  { label: '鸟类', color: '#f97316' },
-  { label: '地点', color: '#0f766e' },
-  { label: '栖息地', color: '#1d4ed8' },
-  { label: '保护等级', color: '#7c3aed' },
-  { label: '威胁因素', color: '#dc2626' },
-  { label: '分类单元', color: '#475569' }
+  { type: 'bird', label: '鸟类', color: '#f97316' },
+  { type: 'location', label: '地点', color: '#0f766e' },
+  { type: 'habitat', label: '栖息地', color: '#1d4ed8' },
+  { type: 'status', label: '保护等级', color: '#7c3aed' },
+  { type: 'threat', label: '威胁因素', color: '#dc2626' },
+  { type: 'taxonomy', label: '分类单元', color: '#475569' }
 ]
 
-const categoryIndex = {
-  bird: 0,
-  location: 1,
-  habitat: 2,
-  status: 3,
-  threat: 4,
-  taxonomy: 5
-}
+const graphModeOptions = [
+  { value: 'overview', label: '全局概览' },
+  { value: 'focus', label: '实体聚焦' }
+]
+
+const graphLimitOptions = [
+  { value: 40, label: '40' },
+  { value: 80, label: '80' },
+  { value: 160, label: '160' },
+  { value: 0, label: '全部' }
+]
+
+const labelModeOptions = [
+  { value: 'smart', label: '智能标签' },
+  { value: 'birds', label: '仅鸟类' },
+  { value: 'all', label: '全部显示' }
+]
+
+const filterableTypeItems = legendItems.filter((item) => item.type !== 'bird')
+const categoryIndex = legendItems.reduce((memo, item, index) => {
+  memo[item.type] = index
+  return memo
+}, {})
 
 let chartInstance
 let mapInstance
 let mapMarker
 
+const graphIndexes = computed(() => {
+  const nodeMap = new Map()
+  const linksByNode = new Map()
+  const degreeMap = new Map()
+
+  knowledge.value.nodes.forEach((node) => {
+    nodeMap.set(node.id, node)
+    linksByNode.set(node.id, [])
+    degreeMap.set(node.id, 0)
+  })
+
+  knowledge.value.links.forEach((link, index) => {
+    const enrichedLink = {
+      ...link,
+      key: `${link.source}__${link.relation}__${link.target}__${index}`
+    }
+
+    if (!linksByNode.has(link.source)) {
+      linksByNode.set(link.source, [])
+      degreeMap.set(link.source, 0)
+    }
+    if (!linksByNode.has(link.target)) {
+      linksByNode.set(link.target, [])
+      degreeMap.set(link.target, 0)
+    }
+
+    linksByNode.get(link.source).push(enrichedLink)
+    linksByNode.get(link.target).push(enrichedLink)
+    degreeMap.set(link.source, (degreeMap.get(link.source) ?? 0) + 1)
+    degreeMap.set(link.target, (degreeMap.get(link.target) ?? 0) + 1)
+  })
+
+  return { nodeMap, linksByNode, degreeMap }
+})
+
 const birdNodes = computed(() => knowledge.value.nodes.filter((item) => item.type === 'bird'))
 const searchableNodes = computed(() =>
   knowledge.value.nodes.filter((item) => item.type === 'bird' || item.type === 'location')
 )
-const quickBirds = computed(() => birdNodes.value.slice(0, 4))
+
+const rankedBirds = computed(() =>
+  [...birdNodes.value].sort((left, right) => {
+    const degreeDiff = getNodeDegree(right.id) - getNodeDegree(left.id)
+    if (degreeDiff !== 0) {
+      return degreeDiff
+    }
+    return left.name.localeCompare(right.name, 'zh-Hans-CN')
+  })
+)
+
+const quickBirds = computed(() => rankedBirds.value.slice(0, 6))
 
 const metrics = computed(() => {
   const counts = {
@@ -277,7 +413,8 @@ const metrics = computed(() => {
     location: 0,
     habitat: 0,
     status: 0,
-    threat: 0
+    threat: 0,
+    taxonomy: 0
   }
 
   knowledge.value.nodes.forEach((node) => {
@@ -289,6 +426,14 @@ const metrics = computed(() => {
   return counts
 })
 
+const overviewCaption = computed(() => {
+  if (!knowledge.value.nodes.length) {
+    return '正在载入静态知识图谱'
+  }
+
+  return `${metrics.value.bird} 种鸟类 · ${metrics.value.location} 个地点 · ${knowledge.value.links.length} 条关系`
+})
+
 const relatedFacts = computed(() => {
   if (!selectedEntity.value) {
     return []
@@ -296,6 +441,7 @@ const relatedFacts = computed(() => {
 
   return knowledge.value.links
     .filter((link) => link.source === selectedEntity.value.id || link.target === selectedEntity.value.id)
+    .slice(0, 12)
     .map((link) => {
       const source = getNodeById(link.source)
       const target = getNodeById(link.target)
@@ -319,8 +465,94 @@ const activeCoordinateText = computed(() => {
   return formatCoordinates(activeLocation.value)
 })
 
+const graphSnapshot = computed(() => {
+  const enabledContextTypes = new Set(activeContextTypes.value)
+  const selectedId = selectedEntity.value?.id ?? ''
+
+  let visibleNodeIds =
+    graphMode.value === 'focus'
+      ? buildFocusNodeIds(enabledContextTypes)
+      : buildOverviewNodeIds(enabledContextTypes)
+
+  if (!visibleNodeIds.size && rankedBirds.value.length) {
+    visibleNodeIds = buildFallbackNodeIds(enabledContextTypes)
+  }
+
+  const visibleLinks = knowledge.value.links.filter((link) => {
+    if (!visibleNodeIds.has(link.source) || !visibleNodeIds.has(link.target)) {
+      return false
+    }
+
+    const source = getNodeById(link.source)
+    const target = getNodeById(link.target)
+    if (!source || !target) {
+      return false
+    }
+
+    const sourceEnabled = source.type === 'bird' || enabledContextTypes.has(source.type) || source.id === selectedId
+    const targetEnabled = target.type === 'bird' || enabledContextTypes.has(target.type) || target.id === selectedId
+    return sourceEnabled && targetEnabled
+  })
+
+  const visibleNodes = knowledge.value.nodes.filter((node) => visibleNodeIds.has(node.id))
+
+  const visibleNodeIdSet = new Set(visibleNodes.map((node) => node.id))
+  const filteredLinks = visibleLinks.filter(
+    (link) => visibleNodeIdSet.has(link.source) && visibleNodeIdSet.has(link.target)
+  )
+
+  const focusNeighborIds = new Set()
+  if (selectedId) {
+    focusNeighborIds.add(selectedId)
+    filteredLinks.forEach((link) => {
+      if (link.source === selectedId) {
+        focusNeighborIds.add(link.target)
+      }
+      if (link.target === selectedId) {
+        focusNeighborIds.add(link.source)
+      }
+    })
+  }
+
+  return {
+    nodes: visibleNodes,
+    links: filteredLinks,
+    selectedId,
+    focusNeighborIds
+  }
+})
+
+const graphSummary = computed(() => {
+  if (!knowledge.value.nodes.length) {
+    return '正在加载图谱数据。'
+  }
+
+  const scopeText =
+    graphMode.value === 'focus'
+      ? `聚焦 ${selectedEntity.value?.name ?? '当前实体'} 的局部关系`
+      : `按关联度展示 ${graphBirdLimit.value === 0 ? '全部' : `前 ${graphBirdLimit.value}`} 个鸟类簇`
+
+  return `${scopeText} · ${graphSnapshot.value.nodes.length}/${knowledge.value.nodes.length} 节点 · ${graphSnapshot.value.links.length}/${knowledge.value.links.length} 关系`
+})
+
+const graphModeHint = computed(() => {
+  if (graphMode.value === 'focus') {
+    return '当前模式会突出选中实体及其一跳上下文'
+  }
+
+  if (graphBirdLimit.value === 0) {
+    return '已展示全部鸟类簇，适合高性能设备'
+  }
+
+  return '概览模式按关联度筛选高价值节点，避免全量拥挤'
+})
+
 function getNodeById(id) {
-  return knowledge.value.nodes.find((node) => node.id === id)
+  return graphIndexes.value.nodeMap.get(id)
+}
+
+function getNodeDegree(id) {
+  return graphIndexes.value.degreeMap.get(id) ?? 0
 }
 
 function formatList(values) {
@@ -333,6 +565,14 @@ function formatCoordinates(entity) {
   }
 
   return `${Number(entity.lat).toFixed(2)}, ${Number(entity.lng).toFixed(2)}`
+}
+
+function truncateLabel(text, maxLength = 12) {
+  if (!text) {
+    return ''
+  }
+
+  return text.length > maxLength ? `${text.slice(0, maxLength - 1)}…` : text
 }
 
 function querySuggestions(queryString, callback) {
@@ -355,14 +595,25 @@ function selectEntity(entity) {
   selectedEntity.value = entity
   searchKeyword.value = entity.name
 
-  if (entity.type === 'location') {
-    moveMap(entity)
-    return
-  }
-
   if (entity.lat !== null && entity.lat !== undefined && entity.lng !== null && entity.lng !== undefined) {
     moveMap(entity)
   }
+}
+
+function toggleContextType(type) {
+  if (activeContextTypes.value.includes(type)) {
+    activeContextTypes.value = activeContextTypes.value.filter((item) => item !== type)
+    return
+  }
+
+  activeContextTypes.value = [...activeContextTypes.value, type]
+}
+
+function resetGraphControls() {
+  graphMode.value = 'overview'
+  graphBirdLimit.value = 80
+  labelMode.value = 'smart'
+  activeContextTypes.value = ['location', 'habitat', 'status', 'threat']
 }
 
 function moveMap(entity) {
@@ -385,21 +636,172 @@ function moveMap(entity) {
   mapMarker.bindPopup(`<strong>${entity.name}</strong><br/>${typeLabelMap[entity.type] ?? entity.type}`).openPopup()
 }
 
+function getIncidentLinks(nodeId) {
+  return graphIndexes.value.linksByNode.get(nodeId) ?? []
+}
+
+function getLinkOtherNodeId(link, nodeId) {
+  return link.source === nodeId ? link.target : link.source
+}
+
+function collectBirdContext(nodeId, visibleNodeIds, enabledContextTypes) {
+  if (!getNodeById(nodeId)) {
+    return
+  }
+
+  visibleNodeIds.add(nodeId)
+
+  getIncidentLinks(nodeId).forEach((link) => {
+    const otherId = getLinkOtherNodeId(link, nodeId)
+    const otherNode = getNodeById(otherId)
+    if (!otherNode) {
+      return
+    }
+
+    if (otherNode.type === 'bird' || enabledContextTypes.has(otherNode.type) || otherNode.id === selectedEntity.value?.id) {
+      visibleNodeIds.add(otherId)
+    }
+  })
+}
+
+function buildFallbackNodeIds(enabledContextTypes) {
+  const visibleNodeIds = new Set()
+  const fallbackBird = rankedBirds.value[0]
+  if (!fallbackBird) {
+    return visibleNodeIds
+  }
+
+  collectBirdContext(fallbackBird.id, visibleNodeIds, enabledContextTypes)
+  return visibleNodeIds
+}
+
+function buildOverviewNodeIds(enabledContextTypes) {
+  const visibleNodeIds = new Set()
+  const selected = selectedEntity.value
+  const birdLimit = graphBirdLimit.value === 0 ? rankedBirds.value.length : graphBirdLimit.value
+  const seedBirdIds = new Set(rankedBirds.value.slice(0, birdLimit).map((bird) => bird.id))
+
+  if (selected) {
+    visibleNodeIds.add(selected.id)
+    if (selected.type === 'bird') {
+      seedBirdIds.add(selected.id)
+    } else {
+      getIncidentLinks(selected.id).forEach((link) => {
+        const otherNode = getNodeById(getLinkOtherNodeId(link, selected.id))
+        if (otherNode?.type === 'bird') {
+          seedBirdIds.add(otherNode.id)
+        }
+      })
+    }
+  }
+
+  seedBirdIds.forEach((birdId) => collectBirdContext(birdId, visibleNodeIds, enabledContextTypes))
+  return visibleNodeIds
+}
+
+function buildFocusNodeIds(enabledContextTypes) {
+  const visibleNodeIds = new Set()
+  const seedNode = selectedEntity.value ?? rankedBirds.value[0]
+
+  if (!seedNode) {
+    return visibleNodeIds
+  }
+
+  visibleNodeIds.add(seedNode.id)
+
+  if (seedNode.type === 'bird') {
+    collectBirdContext(seedNode.id, visibleNodeIds, enabledContextTypes)
+    return visibleNodeIds
+  }
+
+  const linkedBirdIds = new Set()
+  getIncidentLinks(seedNode.id).forEach((link) => {
+    const otherId = getLinkOtherNodeId(link, seedNode.id)
+    const otherNode = getNodeById(otherId)
+    if (!otherNode) {
+      return
+    }
+
+    if (otherNode.type === 'bird' || enabledContextTypes.has(otherNode.type)) {
+      visibleNodeIds.add(otherNode.id)
+    }
+
+    if (otherNode.type === 'bird') {
+      linkedBirdIds.add(otherNode.id)
+    }
+  })
+
+  linkedBirdIds.forEach((birdId) => collectBirdContext(birdId, visibleNodeIds, enabledContextTypes))
+  return visibleNodeIds
+}
+
+function shouldShowNodeLabel(node, visibleCount, focusNeighborIds) {
+  if (labelMode.value === 'all') {
+    return true
+  }
+
+  if (labelMode.value === 'birds') {
+    return node.type === 'bird'
+  }
+
+  if (focusNeighborIds.has(node.id)) {
+    return true
+  }
+
+  const degree = getNodeDegree(node.id)
+  if (node.type === 'bird') {
+    if (visibleCount <= 70) {
+      return true
+    }
+    return degree >= 4
+  }
+
+  if (node.type === 'location') {
+    return visibleCount <= 60 && degree >= 3
+  }
+
+  return visibleCount <= 32 && degree >= 4
+}
+
+function getNodeSymbolSize(node, visibleCount) {
+  const densityScale = visibleCount > 260 ? 0.62 : visibleCount > 170 ? 0.74 : visibleCount > 90 ? 0.86 : 1
+  const base = {
+    bird: 52,
+    location: 34,
+    habitat: 28,
+    status: 24,
+    threat: 24,
+    taxonomy: 22
+  }[node.type] ?? 26
+  const degreeBoost = Math.min(node.type === 'bird' ? 20 : 12, getNodeDegree(node.id) * (node.type === 'bird' ? 1.6 : 0.9))
+  return Math.max(16, Math.round((base + degreeBoost) * densityScale))
+}
+
 async function loadKnowledge() {
   const response = await fetch('/knowledge.json')
   const data = await response.json()
   knowledge.value = data
 
-  if (birdNodes.value.length) {
-    selectedEntity.value = birdNodes.value[0]
-    activeLocation.value = birdNodes.value[0]
+  if (rankedBirds.value.length) {
+    const featuredBird = rankedBirds.value[0]
+    selectedEntity.value = featuredBird
+    activeLocation.value = featuredBird
   }
 }
 
 function buildGraphOption() {
+  const snapshot = graphSnapshot.value
+  const visibleCount = snapshot.nodes.length
+  const selectedId = snapshot.selectedId
+  const repulsion = visibleCount > 240 ? 150 : visibleCount > 140 ? 210 : 280
+  const edgeLength = visibleCount > 240 ? [45, 90] : visibleCount > 140 ? [60, 120] : [90, 170]
+  const gravity = visibleCount > 220 ? 0.2 : visibleCount > 120 ? 0.14 : 0.08
+
   return {
     backgroundColor: 'transparent',
-    animationDuration: 900,
+    animationDuration: visibleCount > 220 ? 320 : 820,
+    animationDurationUpdate: 420,
+    animationEasingUpdate: 'quinticInOut',
     tooltip: {
       trigger: 'item',
       formatter: (params) => {
@@ -408,9 +810,10 @@ function buildGraphOption() {
         }
 
         const node = params.data
+        const degree = getNodeDegree(node.id)
         return [
           `<strong>${node.name}</strong>`,
-          `${typeLabelMap[node.type] ?? node.type}`,
+          `${typeLabelMap[node.type] ?? node.type} · 关联 ${degree} 条`,
           node.latinName ? `学名：${node.latinName}` : '',
           node.summary ? node.summary : ''
         ]
@@ -424,58 +827,105 @@ function buildGraphOption() {
         layout: 'force',
         roam: true,
         draggable: true,
+        layoutAnimation: visibleCount < 240,
         force: {
-          repulsion: 260,
-          edgeLength: [90, 170],
-          gravity: 0.08
+          repulsion,
+          edgeLength,
+          gravity,
+          friction: 0.12
         },
         emphasis: {
           focus: 'adjacency',
+          scale: true,
           lineStyle: {
-            width: 3
+            width: 3,
+            opacity: 1
           }
         },
-        label: {
-          show: true,
-          position: 'right',
-          formatter: '{b}',
-          fontSize: 12,
-          color: '#12303b'
+        blur: {
+          itemStyle: {
+            opacity: 0.12
+          },
+          lineStyle: {
+            opacity: 0.04
+          },
+          label: {
+            show: false
+          }
+        },
+        labelLayout: {
+          hideOverlap: true
         },
         lineStyle: {
           color: 'source',
-          width: 1.8,
-          curveness: 0.14,
-          opacity: 0.75
+          width: 1,
+          curveness: visibleCount > 180 ? 0.08 : 0.13,
+          opacity: 0.18
         },
         categories: legendItems.map((item) => ({ name: item.label })),
-        data: knowledge.value.nodes.map((node) => ({
-          ...node,
-          category: categoryIndex[node.type] ?? 0,
-          symbolSize:
-            {
-              bird: 58,
-              location: 42,
-              habitat: 36,
-              status: 32,
-              threat: 34
-            }[node.type] ?? 36,
-          itemStyle: {
-            color: legendItems[categoryIndex[node.type] ?? 0].color,
-            borderColor: '#f7f5ef',
-            borderWidth: 2
+        data: snapshot.nodes.map((node) => {
+          const color = legendItems[categoryIndex[node.type] ?? 0].color
+          const isSelected = node.id === selectedId
+          const isNeighbor = snapshot.focusNeighborIds.has(node.id) && !isSelected
+          const muted = graphMode.value === 'focus' && selectedId && !snapshot.focusNeighborIds.has(node.id)
+          const showLabel = shouldShowNodeLabel(node, visibleCount, snapshot.focusNeighborIds)
+
+          return {
+            ...node,
+            value: getNodeDegree(node.id),
+            category: categoryIndex[node.type] ?? 0,
+            symbolSize: getNodeSymbolSize(node, visibleCount),
+            label: {
+              show: showLabel,
+              position: 'right',
+              formatter: truncateLabel(node.name, visibleCount > 180 ? 9 : 12),
+              fontSize: isSelected ? 14 : visibleCount > 170 ? 10 : 11,
+              fontWeight: isSelected ? 700 : 500,
+              color: '#12303b',
+              backgroundColor: isSelected ? 'rgba(255, 248, 240, 0.94)' : isNeighbor ? 'rgba(255, 255, 255, 0.78)' : 'transparent',
+              padding: isSelected || isNeighbor ? [4, 6] : 0,
+              borderRadius: 8
+            },
+            itemStyle: {
+              color,
+              opacity: muted ? 0.22 : node.type === 'bird' ? 0.95 : 0.84,
+              borderColor: isSelected ? '#fff7ed' : isNeighbor ? '#ffffff' : 'rgba(255, 255, 255, 0.76)',
+              borderWidth: isSelected ? 4 : isNeighbor ? 3 : 1.5,
+              shadowBlur: isSelected ? 24 : isNeighbor ? 12 : 0,
+              shadowColor: isSelected ? 'rgba(15, 118, 110, 0.3)' : 'transparent'
+            }
           }
-        })),
-        links: knowledge.value.links.map((link) => ({
-          source: link.source,
-          target: link.target,
-          relationLabel: link.label ?? link.relation,
-          sourceName: getNodeById(link.source)?.name ?? link.source,
-          targetName: getNodeById(link.target)?.name ?? link.target
-        }))
+        }),
+        links: snapshot.links.map((link) => {
+          const isSelectedEdge = link.source === selectedId || link.target === selectedId
+          const isFocusEdge =
+            snapshot.focusNeighborIds.has(link.source) && snapshot.focusNeighborIds.has(link.target)
+
+          return {
+            source: link.source,
+            target: link.target,
+            relationLabel: link.label ?? link.relation,
+            sourceName: getNodeById(link.source)?.name ?? link.source,
+            targetName: getNodeById(link.target)?.name ?? link.target,
+            lineStyle: {
+              color: isSelectedEdge ? '#0f766e' : 'rgba(18, 48, 59, 0.22)',
+              width: isSelectedEdge ? 2.8 : isFocusEdge ? 1.3 : 0.9,
+              opacity: isSelectedEdge ? 0.92 : graphMode.value === 'focus' ? 0.26 : visibleCount > 180 ? 0.12 : 0.22,
+              curveness: visibleCount > 180 ? 0.08 : 0.13
+            }
+          }
+        })
       }
     ]
   }
+}
+
+function refreshGraph() {
+  if (!chartInstance) {
+    return
+  }
+
+  chartInstance.setOption(buildGraphOption(), true)
 }
 
 function initChart() {
@@ -485,7 +935,7 @@ function initChart() {
 
   chartInstance?.dispose()
   chartInstance = echarts.init(graphRef.value)
-  chartInstance.setOption(buildGraphOption())
+  refreshGraph()
   chartInstance.on('click', (params) => {
     if (params.dataType !== 'node') {
       return
@@ -541,6 +991,21 @@ function handleResize() {
   chartInstance?.resize()
   mapInstance?.invalidateSize()
 }
+
+watch(
+  [
+    () => knowledge.value.nodes.length,
+    () => knowledge.value.links.length,
+    () => selectedEntity.value?.id ?? '',
+    graphMode,
+    graphBirdLimit,
+    labelMode,
+    () => activeContextTypes.value.join('|')
+  ],
+  () => {
+    refreshGraph()
+  }
+)
 
 onMounted(async () => {
   await loadKnowledge()

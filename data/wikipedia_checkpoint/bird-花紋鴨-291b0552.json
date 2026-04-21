@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:37:52",
+  "requested_title": "Salvadori's Teal",
+  "resolved_title": "Salvadori's teal",
+  "title_aliases": [
+    "Salvadori's Teal"
+  ],
+  "bird_id": "bird-花紋鴨-291b0552",
+  "raw_file": "bird-花紋鴨-291b0552.json",
+  "bird": {
+    "id": "bird-花紋鴨-291b0552",
+    "name": "花紋鴨",
+    "english_name": "Salvadori's teal",
+    "latin_name": "Salvadorina waigiuensis",
+    "summary": "花紋鴨（學名：Salvadorina waigiuensis）又名薩爾瓦多水鴨，是新幾內亞的一種特有種鳥類，屬於單型屬花紋鴨屬（Salvadorina），即該屬只有花紋鴨一種物種。花紋鴨偏好棲息於流動快速的河流中，但也可能在靜水中被發現，IUCN將其列為易危物種，其數量可能因棲…",
+    "lat": "-6",
+    "lng": "142"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-衛吉島-fd8874dc",
+      "name": "衛吉島",
+      "summary": "衛吉島是印度尼西亞的島嶼，位於西巴布亞省，屬於拉賈安帕特群島四大島嶼之一，面積3,155平方公里，最高點接近海拔1,000米，群島其他主要島嶼有米蘇爾島、薩拉瓦蒂島和巴丹塔島。行政上由拉贾安帕特县管理，县治瓦伊赛位于岛南部，有马林达机场。",
+      "lat": "-0.2",
+      "lng": "130.83333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-花紋鴨-291b0552",
+      "subject": "花紋鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Salvadori's teal is endemic to New Guinea; although the type specimen was reportedly collected on the Indonesian island of Waigeo, there is some doubt over the veracity of that claim, as the species is not now found there. Resident at elevations ranging from , Salvadori's teal prefers swiftly flowing rivers and streams, though it is also occasionally found in stagnant lakes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-花紋鴨-291b0552",
+      "subject": "花紋鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-衛吉島-fd8874dc",
+      "object": "衛吉島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Salvadori's teal is endemic to New Guinea; although the type specimen was reportedly collected on the Indonesian island of Waigeo, there is some doubt over the veracity of that claim, as the species is not now found there. Resident at elevations ranging from , Salvadori's teal prefers swiftly flowing rivers and streams, though it is also occasionally found in stagnant lakes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-花紋鴨-291b0552",
+      "subject": "花紋鴨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-花紋鴨-291b0552",
+      "subject": "花紋鴨",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Hunting, habitat degradation and predation by dogs are among the threats this species faces, and competition with introduced sport fish may also cause problems",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-花紋鴨-291b0552",
+      "subject": "花紋鴨",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Hunting, habitat degradation and predation by dogs are among the threats this species faces, and competition with introduced sport fish may also cause problems",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

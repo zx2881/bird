@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:36:32",
+  "requested_title": "Canvasback",
+  "resolved_title": "Canvasback",
+  "title_aliases": [
+    "Canvasback"
+  ],
+  "bird_id": "bird-帆背潛鴨-cb027184",
+  "raw_file": "bird-帆背潛鴨-cb027184.json",
+  "bird": {
+    "id": "bird-帆背潛鴨-cb027184",
+    "name": "帆背潛鴨",
+    "english_name": "Canvasback",
+    "latin_name": "Aythya valisineria",
+    "summary": "帆背潛鴨（学名：Aythya valisineria），又名美洲磯雁，为鴨科潛鴨屬下的一个种。是一種潛水鴨，是北美洲發現的最大鴨類。 分類 蘇格蘭裔美國博物學家亞歷山大·威爾遜於1814年描述了帆背潛鴨。屬名來源於希臘語aithuia，是包括赫西丘斯和亞里士多德在內的作家提到的…",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-alexander-wilson-ornithologist-ebfffab1",
+      "name": "Alexander Wilson (ornithologist)",
+      "summary": "Alexander Wilson (July 6, 1766 – August 23, 1813) was a Scottish-American poet, ornithologist, naturalist, and illustra…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-帆背潛鴨-cb027184",
+      "subject": "帆背潛鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-alexander-wilson-ornithologist-ebfffab1",
+      "object": "Alexander Wilson (ornithologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The canvasback (Aythya valisineria) is a species of diving duck, the largest found in North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-帆背潛鴨-cb027184",
+      "subject": "帆背潛鴨",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Brackish estuarine bays and marshes with abundant submergent vegetation and invertebrates are ideal wintering habitat for canvasbacks. A small number of birds are also known to have crossed the Atlantic, with several sightings being recorded in the United Kingdom",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-帆背潛鴨-cb027184",
+      "subject": "帆背潛鴨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

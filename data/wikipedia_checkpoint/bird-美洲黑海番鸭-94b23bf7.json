@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:32:10",
+  "requested_title": "Black Scoter",
+  "resolved_title": "Black scoter",
+  "title_aliases": [
+    "Black Scoter"
+  ],
+  "bird_id": "bird-美洲黑海番鸭-94b23bf7",
+  "raw_file": "bird-美洲黑海番鸭-94b23bf7.json",
+  "bird": {
+    "id": "bird-美洲黑海番鸭-94b23bf7",
+    "name": "美洲黑海番鸭",
+    "english_name": "Black scoter",
+    "latin_name": "Melanitta americana",
+    "summary": "黑海番鸭（香港作黑海番鴨，台湾作美洲黑海番鸭）（学名：Melanitta americana），为鸭科海番鸭属的鸟类。分布于西伯利亚东北部及附近岛屿、北美洲、朝鲜、日本以及中国大陆的江苏、福建、重庆、上海、香港等地。该物种的模式产地在加拿大哈得孙海湾。该物种原为普通海番鸭的北方…",
+    "lat": "60",
+    "lng": "-86"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-拉布拉多-9139535f",
+      "name": "拉布拉多",
+      "summary": "拉布拉多（英語及法語：Labrador；伊努克提圖特語：Nunatsuak）是加拿大一個地區，位處大西洋沿岸，與一海之隔的紐芬蘭島組成加拿大的紐芬蘭與拉布拉多省。拉布拉多是該省的陸地部分，位於拉布拉多半島的東北部。 根據2006年的人口普…",
+      "lat": "54",
+      "lng": "-62"
+    },
+    {
+      "id": "loc-纽芬兰岛-015c7398",
+      "name": "纽芬兰岛",
+      "summary": "纽芬兰岛（英語：Newfoundland，/ˈnjuːfən(d)lənd, -lænd, njuːˈfaʊnd-/，當地 /ˌnjuːfəndˈlænd/，法語：Terre-Neuve，意指「新尋獲之地」），是一位於北大西洋的大型島嶼，…",
+      "lat": "48.54166667",
+      "lng": "-56.125"
+    },
+    {
+      "id": "loc-哈得孙湾-0d768400",
+      "name": "哈得孙湾",
+      "summary": "哈得孙湾（英語：Hudson Bay；或称哈德逊湾、哈德森湾），位于加拿大东北部巴芬岛与拉布拉多半岛西侧的大型海湾。海湾处于努纳武特地区，水体面积123万平方千米。平均水深100米。哈得孙湾是世界上面积最大的内海。而气象层面上，哈得孙湾可…",
+      "lat": "60",
+      "lng": "-86"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-美洲黑海番鸭-94b23bf7",
+      "subject": "美洲黑海番鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black scoter breeds in the far north of North America in Labrador and Newfoundland to the southeast and northwest of Hudson Bay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲黑海番鸭-94b23bf7",
+      "subject": "美洲黑海番鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-拉布拉多-9139535f",
+      "object": "拉布拉多",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black scoter breeds in the far north of North America in Labrador and Newfoundland to the southeast and northwest of Hudson Bay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲黑海番鸭-94b23bf7",
+      "subject": "美洲黑海番鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-纽芬兰岛-015c7398",
+      "object": "纽芬兰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black scoter breeds in the far north of North America in Labrador and Newfoundland to the southeast and northwest of Hudson Bay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲黑海番鸭-94b23bf7",
+      "subject": "美洲黑海番鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-哈得孙湾-0d768400",
+      "object": "哈得孙湾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black scoter breeds in the far north of North America in Labrador and Newfoundland to the southeast and northwest of Hudson Bay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲黑海番鸭-94b23bf7",
+      "subject": "美洲黑海番鸭",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

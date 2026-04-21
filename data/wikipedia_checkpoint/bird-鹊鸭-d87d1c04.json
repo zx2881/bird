@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:32:42",
+  "requested_title": "Common Goldeneye",
+  "resolved_title": "Common goldeneye",
+  "title_aliases": [
+    "Common Goldeneye"
+  ],
+  "bird_id": "bird-鹊鸭-d87d1c04",
+  "raw_file": "bird-鹊鸭-d87d1c04.json",
+  "bird": {
+    "id": "bird-鹊鸭-d87d1c04",
+    "name": "鹊鸭",
+    "english_name": "Common goldeneye",
+    "latin_name": "Bucephala clangula",
+    "summary": "鹊鸭（学名：Bucephala clangula）为鸭科鹊鸭属的鸟类，俗名金眼鸭、喜鹊鸭、白脸鸭。是一種中型海鴨，屬於鵲鴨屬（Bucephala），鴨科。牠的最接近的親戚是類似的巴氏鵲鴨。 這個屬名來自古希臘語boukephalos （\"牛頭\", 由bous, \"牛 \"和kep…",
+    "lat": "60",
+    "lng": "-110"
+  },
+  "locations": [
+    {
+      "id": "loc-加拿大-25b69dbf",
+      "name": "加拿大",
+      "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢…",
+      "lat": "60",
+      "lng": "-110"
+    },
+    {
+      "id": "loc-蘇格蘭-1cb3b14b",
+      "name": "蘇格蘭",
+      "summary": "蘇格蘭（英語、低地蘇格蘭語：Scotland，英語：/ˈskɒt.lənd/），又稱為阿尔巴（蘇格蘭蓋爾語：Alba，發音：[ˈal̪ˠapə] ），是一個西歐國家，为英國的一個構成國。蘇格蘭位於大不列顛島北部，英格兰之北，被大西洋環繞包…",
+      "lat": "57",
+      "lng": "-4"
+    },
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鹊鸭-d87d1c04",
+      "subject": "鹊鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大-25b69dbf",
+      "object": "加拿大",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in the lakes and rivers of boreal forests across Canada and the northern United States, Scotland, Scandinavia, the Baltic States, and northern Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鹊鸭-d87d1c04",
+      "subject": "鹊鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇格蘭-1cb3b14b",
+      "object": "蘇格蘭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in the lakes and rivers of boreal forests across Canada and the northern United States, Scotland, Scandinavia, the Baltic States, and northern Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鹊鸭-d87d1c04",
+      "subject": "鹊鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in the lakes and rivers of boreal forests across Canada and the northern United States, Scotland, Scandinavia, the Baltic States, and northern Russia",
+      "object_summary": ""
+    }
+  ]
+}

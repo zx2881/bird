@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:34:19",
+  "requested_title": "Red-crested Pochard",
+  "resolved_title": "Red-crested pochard",
+  "title_aliases": [
+    "Red-crested Pochard"
+  ],
+  "bird_id": "bird-赤嘴潜鸭-8dcb9db1",
+  "raw_file": "bird-赤嘴潜鸭-8dcb9db1.json",
+  "bird": {
+    "id": "bird-赤嘴潜鸭-8dcb9db1",
+    "name": "赤嘴潜鸭",
+    "english_name": "Red-crested pochard",
+    "latin_name": "Netta rufina",
+    "summary": "赤嘴潜鸭（学名：Netta rufina）为鸭科狭嘴潜鸭属的鸟类，俗名大红头。是一種大型的潛水鴨。其學名源自希臘語 Netta “鴨”，以及拉丁語 rufina，意為“金紅色”（來自 rufus，“紅潤”）。 分布與棲地 分布于亚洲、欧洲、印度、非洲，包括中国大陆的内蒙古、新疆…",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-草沼-e1caf9f8",
+      "name": "草沼",
+      "summary": "草沼即草本沼泽（英語：marsh），也叫草泽，是一种主要生长草本植物的湿地，多半可以發現在湖岸或河岸邊，介於水生與陸生生態系統的過渡，一般未被淹没，但土壤维持水浸状态。优势植物有苔草、莎草和灯芯草等，另外也會有低矮的灌木生長。和草沼不同，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-赤嘴潜鸭-8dcb9db1",
+      "subject": "赤嘴潜鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-草沼-e1caf9f8",
+      "object": "草沼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The scientific name is derived from Greek Netta \"duck\", and Latin rufina, \"golden-red\" (from rufus, \"ruddy\"). Its breeding habitat is lowland marshes and lakes in southern Europe and it extends from the steppe and semi-desert areas on the Black Sea to Central Asia and Mongolia, wintering in the Indian subcontinent and Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤嘴潜鸭-8dcb9db1",
+      "subject": "赤嘴潜鸭",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The scientific name is derived from Greek Netta \"duck\", and Latin rufina, \"golden-red\" (from rufus, \"ruddy\"). Its breeding habitat is lowland marshes and lakes in southern Europe and it extends from the steppe and semi-desert areas on the Black Sea to Central Asia and Mongolia, wintering in the Indian subcontinent and Africa",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-赤嘴潜鸭-8dcb9db1",
+      "subject": "赤嘴潜鸭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

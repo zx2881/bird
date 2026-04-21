@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T21:26:12",
+  "requested_title": "White-cheeked Pintail",
+  "resolved_title": "White-cheeked pintail",
+  "title_aliases": [
+    "White-cheeked Pintail"
+  ],
+  "bird_id": "bird-白臉針尾鴨-4a4a2898",
+  "raw_file": "bird-白臉針尾鴨-4a4a2898.json",
+  "bird": {
+    "id": "bird-白臉針尾鴨-4a4a2898",
+    "name": "白臉針尾鴨",
+    "english_name": "White-cheeked pintail",
+    "latin_name": "Anas bahamensis",
+    "summary": "白臉針尾鴨（學名：Anas bahamensis）又名巴哈馬針尾鴨，是一種鑽水鴨，最早由瑞典生物學家卡爾·林奈於1758年在其著作《自然系統第十版》中描述發表。 外形 白臉針尾鴨體長為38-51公分，身體與頭頂為棕色，與臉部與喉部的白色呈鮮明對比是其特徵。喙的基部是紅色，其他部…",
+    "lat": "14.52555556",
+    "lng": "-75.81833333"
+  },
+  "locations": [
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    },
+    {
+      "id": "loc-加拉帕戈斯群岛-cf5a247b",
+      "name": "加拉帕戈斯群岛",
+      "summary": "加拉帕戈斯群岛（西班牙語：islas Galápagos，台湾译加拉巴哥群島），又称科隆群岛（西班牙語：archipiélago de Colón，其为厄瓜多尔官方名称），是东太平洋接近赤道的火山群岛，由厄瓜多尔加拉帕戈斯省所轄，面积79…",
+      "lat": "-0.5",
+      "lng": "-90.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白臉針尾鴨-4a4a2898",
+      "subject": "白臉針尾鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Caribbean, South America, and the Galápagos Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臉針尾鴨-4a4a2898",
+      "subject": "白臉針尾鴨",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拉帕戈斯群岛-cf5a247b",
+      "object": "加拉帕戈斯群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Caribbean, South America, and the Galápagos Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臉針尾鴨-4a4a2898",
+      "subject": "白臉針尾鴨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

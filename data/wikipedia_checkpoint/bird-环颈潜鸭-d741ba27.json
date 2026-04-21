@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:36:35",
+  "requested_title": "Ring-necked Duck",
+  "resolved_title": "Ring-necked duck",
+  "title_aliases": [
+    "Ring-necked Duck"
+  ],
+  "bird_id": "bird-环颈潜鸭-d741ba27",
+  "raw_file": "bird-环颈潜鸭-d741ba27.json",
+  "bird": {
+    "id": "bird-环颈潜鸭-d741ba27",
+    "name": "环颈潜鸭",
+    "english_name": "Ring-necked duck",
+    "latin_name": "Aythya collaris",
+    "summary": "环颈潜鸭（學名：Aythya collaris）是北美洲的一種潛水鴨，屬於潛鴨屬，常見於淡水湖泊與池塘中。其種小名collaris來源自拉丁文的collum，意指脖子。 外形 环颈潜鸭是中小型的潛水鴨，得名自頸部一圈肉桂色的環紋，但通常不明顯，要趨近觀察才能看到。雄鴨與相似的物…",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-海鳥-4f6bf339",
+      "name": "海鳥",
+      "summary": "海鳥是一種能夠適應海洋氣候環境的鳥類，而無論於生活習慣、生理運行等皆與其他鳥類大有不同。其有著強烈的趨同演化，因此所有海鳥的生態職位均十分類似。而海鳥最初出現於白堊紀之時，距今有近億年，但是與現代海鳥之關係並不大。若果論及現代海鳥之遠祖，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-环颈潜鸭-d741ba27",
+      "subject": "环颈潜鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "collaris |synonyms=*Anas collaris Donovan, 1809 *Nyroca collaris (Donovan, 1809) |synonyms_ref= }} The ring-necked duck (Aythya collaris) is a diving duck from North America commonly found in freshwater ponds and lakes. The scientific name is derived from Greek , an unidentified seabird mentioned by authors including Hesychius and Aristotle, and Latin collaris, \"of the neck\" from collum, \"neck\"",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-环颈潜鸭-d741ba27",
+      "subject": "环颈潜鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-海鳥-4f6bf339",
+      "object": "海鳥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "collaris |synonyms=*Anas collaris Donovan, 1809 *Nyroca collaris (Donovan, 1809) |synonyms_ref= }} The ring-necked duck (Aythya collaris) is a diving duck from North America commonly found in freshwater ponds and lakes. The scientific name is derived from Greek , an unidentified seabird mentioned by authors including Hesychius and Aristotle, and Latin collaris, \"of the neck\" from collum, \"neck\"",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-环颈潜鸭-d741ba27",
+      "subject": "环颈潜鸭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

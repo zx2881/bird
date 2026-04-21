@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:33:10",
+  "requested_title": "Scaly-sided Merganser",
+  "resolved_title": "Scaly-sided merganser",
+  "title_aliases": [
+    "Scaly-sided Merganser"
+  ],
+  "bird_id": "bird-中华秋沙鸭-e597b5a6",
+  "raw_file": "bird-中华秋沙鸭-e597b5a6.json",
+  "bird": {
+    "id": "bird-中华秋沙鸭-e597b5a6",
+    "name": "中华秋沙鸭",
+    "english_name": "Scaly-sided merganser",
+    "latin_name": "Mergus squamatus",
+    "summary": "中华秋沙鸭（学名：Mergus squamatus）为鸭科秋沙鸭属的鸟类，也称鳞胁秋沙鸭、唐秋沙。1989年被列为中国国家一级保护动物，是当时鸭科鸟类中唯一一种，也经常被称为“国鸭”。 分布 分布于俄罗斯西伯利亚以及中国的黑龙江、吉林、河北、珠江大广海湾及长江以南等地，日本、韩…",
+    "lat": "43",
+    "lng": "125"
+  },
+  "locations": [
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    },
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir）是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶以来至今属于俄罗斯，相當於該國領土总面积的75％，但仅占该国…",
+      "lat": "61",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-中华秋沙鸭-e597b5a6",
+      "subject": "中华秋沙鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It lives in Manchuria and extreme Southeast Siberia, breeding in the north and wintering in the south",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-中华秋沙鸭-e597b5a6",
+      "subject": "中华秋沙鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It lives in Manchuria and extreme Southeast Siberia, breeding in the north and wintering in the south",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-中华秋沙鸭-e597b5a6",
+      "subject": "中华秋沙鸭",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-中华秋沙鸭-e597b5a6",
+      "subject": "中华秋沙鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Current threats include illegal hunting, entanglement in (ghost) fishing nets and river pollution, as well as ongoing destruction of forest",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    },
+    {
+      "subject_id": "bird-中华秋沙鸭-e597b5a6",
+      "subject": "中华秋沙鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Current threats include illegal hunting, entanglement in (ghost) fishing nets and river pollution, as well as ongoing destruction of forest",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    },
+    {
+      "subject_id": "bird-中华秋沙鸭-e597b5a6",
+      "subject": "中华秋沙鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Current threats include illegal hunting, entanglement in (ghost) fishing nets and river pollution, as well as ongoing destruction of forest",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-中华秋沙鸭-e597b5a6",
+      "subject": "中华秋沙鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Threats include sand mining, fishing, riparian vegetation destruction, habitat fragmentation, and water pollution",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:36:44",
+  "requested_title": "Tufted Duck",
+  "resolved_title": "Tufted duck",
+  "title_aliases": [
+    "Tufted Duck"
+  ],
+  "bird_id": "bird-凤头潜鸭-02eba724",
+  "raw_file": "bird-凤头潜鸭-02eba724.json",
+  "bird": {
+    "id": "bird-凤头潜鸭-02eba724",
+    "name": "凤头潜鸭",
+    "english_name": "Tufted duck",
+    "latin_name": "Aythya fuligula",
+    "summary": "凤头潜鸭（Tufted Duck，学名：Aythya fuligula）是一種中等大小的潛鴨，又名泽凫、凤头鸭子、黑头四鸭。 生态环境 凤头潜鸭常活动于内陆的河流、池塘和其他开阔水面，夜间栖息于岸边的软泥滩，或者在离岸不远的水面上漂浮，他们喜欢比较清澈的深水环境，在浅水和污染比…",
+    "lat": "",
+    "lng": ""
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-自然系统第十版-55ca7965",
+      "name": "自然系统第十版",
+      "summary": "《自然系统》第十版（英語：10th edition of Systema Naturae）是18世纪瑞典生物学家卡尔·林奈所撰写的生物学专著，于1758年和1759年分别出版上下两卷。林奈在书中为动物定义了二名法命名法则（此前他曾在175…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-凤头潜鸭-02eba724",
+      "subject": "凤头潜鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2021 |title=Aythya fuligula (Europe assessment) |volume=2021 |article-number=e.T22680391A166205462 |doi=10.2305/IUCN.UK.2021-3.RLTS.T22680391A166205462.en |access-date=12 November 2021}} (Europe) | image = Tufted Duck 09 05 2025 02.jpg | image_caption = Male | image2 = Tufted Duck 09 05 2025 01.jpg | image2_caption = Femalethumb|Sounds | genus = Aythya | species = fuligula | authority = (Linnaeus, 1758) | range_map = AythyaFuligulaIUCNver2018 2.png | range_map_caption = Global distribution map | synonyms = Anas fuligula }} thumb|Tufted duck The tufted duck (or tufted pochard) (Aythya fuligula) is a small diving duck with a population of nearly one million birds, found in northern Eurasia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-凤头潜鸭-02eba724",
+      "subject": "凤头潜鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-自然系统第十版-55ca7965",
+      "object": "自然系统第十版",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2021 |title=Aythya fuligula (Europe assessment) |volume=2021 |article-number=e.T22680391A166205462 |doi=10.2305/IUCN.UK.2021-3.RLTS.T22680391A166205462.en |access-date=12 November 2021}} (Europe) | image = Tufted Duck 09 05 2025 02.jpg | image_caption = Male | image2 = Tufted Duck 09 05 2025 01.jpg | image2_caption = Femalethumb|Sounds | genus = Aythya | species = fuligula | authority = (Linnaeus, 1758) | range_map = AythyaFuligulaIUCNver2018 2.png | range_map_caption = Global distribution map | synonyms = Anas fuligula }} thumb|Tufted duck The tufted duck (or tufted pochard) (Aythya fuligula) is a small diving duck with a population of nearly one million birds, found in northern Eurasia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-凤头潜鸭-02eba724",
+      "subject": "凤头潜鸭",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Their breeding habitat is close to marshes and lakes with plenty of vegetation to conceal the nest",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-凤头潜鸭-02eba724",
+      "subject": "凤头潜鸭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

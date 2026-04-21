@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "saved_at": "2026-04-21T13:31:39",
+  "requested_title": "Steller's Eider",
+  "resolved_title": "Steller's eider",
+  "title_aliases": [
+    "Steller's Eider"
+  ],
+  "bird_id": "bird-小绒鸭-d5f24b1c",
+  "raw_file": "bird-小绒鸭-d5f24b1c.json",
+  "bird": {
+    "id": "bird-小绒鸭-d5f24b1c",
+    "name": "小绒鸭",
+    "english_name": "Steller's eider",
+    "latin_name": "Polysticta stelleri",
+    "summary": "小绒鸭（学名：Polysticta stelleri）为鸭科小绒鸭属下唯一的一種鸟类，俗名绒鸭。分布于西伯利亚东部北极海岸、阿拉斯加海岸及附近岛屿、芬兰、挪威、勘察加半岛、阿留申半岛、千岛群岛、朝鲜半岛海岸以及中国大陆的东北。多栖息于苔原冻土、冰封海面以及清水海岸。该物种的模式…",
+    "lat": "61",
+    "lng": "-164"
+  },
+  "locations": [
+    {
+      "id": "loc-育空-柯斯科克溫三角洲-92927142",
+      "name": "育空-柯斯科克溫三角洲",
+      "summary": "育空-柯斯科克溫三角洲（Yukon–Kuskokwim Delta）是美国阿拉斯加州西海岸育空河和卡斯科奎姆河白令海入海口附近的一個河流三角洲。它的面积约为129,500平方公里，是世界上最大的三角洲之一。它比密西西比河三角洲面積更大，并…",
+      "lat": "61",
+      "lng": "-164"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小绒鸭-d5f24b1c",
+      "subject": "小绒鸭",
+      "predicate": "distributed_in",
+      "object_id": "loc-育空-柯斯科克溫三角洲-92927142",
+      "object": "育空-柯斯科克溫三角洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "* The Russian-Atlantic population breeds west of the Khatanga River in western Siberia, and winters in the Barents and Baltic seas. * The Russian-Pacific population breeds east of the Khatanga River, and winters in the southern Bering Sea and northern Pacific Ocean. * The Alaska-breeding population nests on the Arctic Coastal Plain and in exceptionally small numbers in the Yukon–Kuskokwim Delta, and winters in the southern Bering Sea and northern Pacific ocean. Less than 1% of the world's Steller's eiders nest in Alaska. Some non-breeding populations will also spend their summers in northern Norway, on the east coast of Russia and adjacent waters, and south-west Alaska",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小绒鸭-d5f24b1c",
+      "subject": "小绒鸭",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "thumb|Marshy tundra, Alaska, USADuring the winter, Steller's eiders occupy coastal bays and lagoons that offer suitable forage while occasionally feeding in deeper waters that remain adequately sheltered. They nest in marshy tundra along the coast, in areas dominated by water sedge and pendant grass. Within the marshy tundra, they designate specific areas to build their nest, preferring elevated surfaces covered by shallow vegetation such as mosses and grasses. Their moulting habitat consists of relatively shallow coastal lagoons that offer viable eelgrass and tidal flats for foraging and beaches and sandbars to rest while they remain flightless",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-小绒鸭-d5f24b1c",
+      "subject": "小绒鸭",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-小绒鸭-d5f24b1c",
+      "subject": "小绒鸭",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It has been attributed to changes to the Arctic climate, increased predation rates, hunting and consumption of lead shot, and disease. Since their listing, additional threats such as exposure to oil and other contaminants have been identified",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}
