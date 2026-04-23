@@ -5,12 +5,8 @@
         <p class="eyebrow">Global Avian Biodiversity Graph</p>
         <h1>全球鸟类多样性知识探索平台</h1>
         <p class="subtitle">
-          以静态知识图谱为前端核心，结合地图浏览与三元组抽取测试，快速验证全球鸟类分布与保护知识框架。
+          以静态知识图谱与地图浏览为前端核心，快速探索全球鸟类分布与保护知识框架。
         </p>
-      </div>
-      <div class="header-badge">
-        <span>模式</span>
-        <strong>static-data + triple-test</strong>
       </div>
     </header>
 
@@ -132,48 +128,6 @@
           </div>
         </section>
 
-        <section class="sidebar-section">
-          <div class="section-heading">
-            <h2>后端测试</h2>
-            <p>按 `三元组提取.md` 的关系模式返回 JSON</p>
-          </div>
-
-          <div class="test-toolbar">
-            <el-button type="primary" @click="runTripleTest" :loading="tripleState.loading">
-              运行三元组抽取测试
-            </el-button>
-            <span class="test-hint">{{ tripleState.message }}</span>
-          </div>
-
-          <el-alert
-            v-if="tripleState.error"
-            type="warning"
-            :closable="false"
-            show-icon
-            :title="tripleState.error"
-          />
-
-          <div v-if="tripleState.documents.length" class="doc-list">
-            <article v-for="doc in tripleState.documents" :key="doc.id" class="doc-card">
-              <h3>{{ doc.title }}</h3>
-              <p>{{ doc.text }}</p>
-              <a :href="doc.source_url" target="_blank" rel="noreferrer">来源链接</a>
-            </article>
-          </div>
-
-          <el-table
-            v-if="tripleState.triples.length"
-            :data="tripleState.triples"
-            height="280"
-            stripe
-            class="triple-table"
-          >
-            <el-table-column prop="subject" label="主语" min-width="110" />
-            <el-table-column prop="predicate" label="关系" min-width="120" />
-            <el-table-column prop="object" label="宾语" min-width="110" />
-            <el-table-column prop="evidence" label="证据" min-width="240" show-overflow-tooltip />
-          </el-table>
-        </section>
       </aside>
 
       <section class="workspace">
@@ -294,13 +248,6 @@ const graphMode = ref('overview')
 const graphBirdLimit = ref(80)
 const labelMode = ref('smart')
 const activeContextTypes = ref(['location', 'habitat', 'status', 'threat'])
-const tripleState = ref({
-  loading: false,
-  error: '',
-  message: '点击按钮调用本地后端测试接口。',
-  triples: [],
-  documents: []
-})
 
 const typeLabelMap = {
   bird: '鸟类',
@@ -318,13 +265,51 @@ const statusClassMap = {
   NT: 'is-neutral'
 }
 
+const graphTheme = {
+  background: 'rgba(6, 19, 31, 0.76)',
+  label: '#e2e8f0',
+  labelMuted: 'rgba(226, 232, 240, 0.76)',
+  labelChip: 'rgba(8, 20, 35, 0.78)',
+  tooltipBackground: 'rgba(8, 20, 35, 0.96)',
+  tooltipBorder: 'rgba(125, 211, 252, 0.24)',
+  textBorder: 'rgba(5, 15, 26, 0.92)',
+  linkMuted: 'rgba(148, 163, 184, 0.16)'
+}
+
+const nodeVisualMap = {
+  bird: {
+    color: 'rgba(125, 211, 252, 0.72)',
+    border: 'rgba(224, 242, 254, 0.52)'
+  },
+  location: {
+    color: 'rgba(110, 231, 183, 0.72)',
+    border: 'rgba(220, 252, 231, 0.52)'
+  },
+  habitat: {
+    color: 'rgba(249, 168, 212, 0.72)',
+    border: 'rgba(253, 242, 248, 0.5)'
+  },
+  status: {
+    color: 'rgba(252, 211, 77, 0.72)',
+    border: 'rgba(254, 249, 195, 0.5)'
+  },
+  threat: {
+    color: 'rgba(251, 113, 133, 0.72)',
+    border: 'rgba(255, 228, 230, 0.52)'
+  },
+  taxonomy: {
+    color: 'rgba(196, 181, 253, 0.72)',
+    border: 'rgba(237, 233, 254, 0.52)'
+  }
+}
+
 const legendItems = [
-  { type: 'bird', label: '鸟类', color: '#f97316' },
-  { type: 'location', label: '地点', color: '#0f766e' },
-  { type: 'habitat', label: '栖息地', color: '#1d4ed8' },
-  { type: 'status', label: '保护等级', color: '#7c3aed' },
-  { type: 'threat', label: '威胁因素', color: '#dc2626' },
-  { type: 'taxonomy', label: '分类单元', color: '#475569' }
+  { type: 'bird', label: '鸟类', color: nodeVisualMap.bird.color },
+  { type: 'location', label: '地点', color: nodeVisualMap.location.color },
+  { type: 'habitat', label: '栖息地', color: nodeVisualMap.habitat.color },
+  { type: 'status', label: '保护等级', color: nodeVisualMap.status.color },
+  { type: 'threat', label: '威胁因素', color: nodeVisualMap.threat.color },
+  { type: 'taxonomy', label: '分类单元', color: nodeVisualMap.taxonomy.color }
 ]
 
 const graphModeOptions = [
@@ -350,6 +335,7 @@ const categoryIndex = legendItems.reduce((memo, item, index) => {
   memo[item.type] = index
   return memo
 }, {})
+const graphColors = ['#a3d2ca', '#056676', '#ea2c62', '#16a596', '#03c4a1', '#f5a25d', '#8cd282', '#32e0c4']
 
 let chartInstance
 let mapInstance
@@ -502,7 +488,7 @@ const graphSnapshot = computed(() => {
   )
 
   const focusNeighborIds = new Set()
-  if (selectedId) {
+  if (selectedId && visibleNodeIdSet.has(selectedId)) {
     focusNeighborIds.add(selectedId)
     filteredLinks.forEach((link) => {
       if (link.source === selectedId) {
@@ -537,7 +523,7 @@ const graphSummary = computed(() => {
 
 const graphModeHint = computed(() => {
   if (graphMode.value === 'focus') {
-    return '当前模式会突出选中实体及其一跳上下文'
+    return '参考示例图谱，聚焦当前实体及其一跳关系'
   }
 
   if (graphBirdLimit.value === 0) {
@@ -575,6 +561,26 @@ function truncateLabel(text, maxLength = 12) {
   return text.length > maxLength ? `${text.slice(0, maxLength - 1)}…` : text
 }
 
+function getNodeVisual(type) {
+  return nodeVisualMap[type] ?? nodeVisualMap.taxonomy
+}
+
+function getLabelMaxLength(visibleCount, isSelected) {
+  if (isSelected) {
+    return visibleCount > 180 ? 12 : 16
+  }
+
+  if (visibleCount > 220) {
+    return 7
+  }
+
+  if (visibleCount > 120) {
+    return 9
+  }
+
+  return 12
+}
+
 function querySuggestions(queryString, callback) {
   const keyword = queryString.trim().toLowerCase()
   const matches = !keyword
@@ -598,6 +604,14 @@ function selectEntity(entity) {
   if (entity.lat !== null && entity.lat !== undefined && entity.lng !== null && entity.lng !== undefined) {
     moveMap(entity)
   }
+}
+
+function handleNodeClick(nodeId) {
+  const node = getNodeById(nodeId)
+  if (!node) {
+    return
+  }
+  selectEntity(node)
 }
 
 function toggleContextType(type) {
@@ -736,44 +750,44 @@ function buildFocusNodeIds(enabledContextTypes) {
 }
 
 function shouldShowNodeLabel(node, visibleCount, focusNeighborIds) {
+  if (focusNeighborIds.has(node.id)) {
+    return true
+  }
+
   if (labelMode.value === 'all') {
     return true
   }
 
   if (labelMode.value === 'birds') {
-    return node.type === 'bird'
-  }
-
-  if (focusNeighborIds.has(node.id)) {
-    return true
+    return node.type === 'bird' && (visibleCount <= 160 || getNodeDegree(node.id) >= 5)
   }
 
   const degree = getNodeDegree(node.id)
   if (node.type === 'bird') {
-    if (visibleCount <= 70) {
+    if (visibleCount <= 54) {
       return true
     }
-    return degree >= 4
+    return degree >= 6
   }
 
   if (node.type === 'location') {
-    return visibleCount <= 60 && degree >= 3
+    return visibleCount <= 42 && degree >= 4
   }
 
-  return visibleCount <= 32 && degree >= 4
+  return visibleCount <= 28 && degree >= 5
 }
 
 function getNodeSymbolSize(node, visibleCount) {
-  const densityScale = visibleCount > 260 ? 0.62 : visibleCount > 170 ? 0.74 : visibleCount > 90 ? 0.86 : 1
+  const densityScale = visibleCount > 260 ? 0.56 : visibleCount > 170 ? 0.68 : visibleCount > 90 ? 0.82 : 1
   const base = {
-    bird: 52,
-    location: 34,
-    habitat: 28,
-    status: 24,
-    threat: 24,
-    taxonomy: 22
+    bird: 50,
+    location: 30,
+    habitat: 25,
+    status: 23,
+    threat: 23,
+    taxonomy: 21
   }[node.type] ?? 26
-  const degreeBoost = Math.min(node.type === 'bird' ? 20 : 12, getNodeDegree(node.id) * (node.type === 'bird' ? 1.6 : 0.9))
+  const degreeBoost = Math.min(node.type === 'bird' ? 16 : 9, getNodeDegree(node.id) * (node.type === 'bird' ? 1.35 : 0.75))
   return Math.max(16, Math.round((base + degreeBoost) * densityScale))
 }
 
@@ -789,33 +803,111 @@ async function loadKnowledge() {
   }
 }
 
+function formatGraphData(snapshot) {
+  const visibleCount = snapshot.nodes.length
+  const categoryColorMap = new Map(
+    legendItems.map((item, index) => [
+      item.type,
+      graphColors[index % graphColors.length] ?? item.color
+    ])
+  )
+
+  const seriesData = snapshot.nodes.map((node) => {
+    const visual = getNodeVisual(node.type)
+    const isSelected = node.id === snapshot.selectedId
+    const isNeighbor = snapshot.focusNeighborIds.has(node.id) && !isSelected
+    const muted = snapshot.selectedId && !snapshot.focusNeighborIds.has(node.id)
+    const labelMaxLength = getLabelMaxLength(visibleCount, isSelected)
+
+    return {
+      ...node,
+      id: String(node.id),
+      value: getNodeDegree(node.id),
+      category: categoryIndex[node.type] ?? 0,
+      symbolSize: getNodeSymbolSize(node, visibleCount),
+      draggable: true,
+      itemStyle: {
+        color: categoryColorMap.get(node.type) ?? visual.color,
+        borderColor: isSelected ? '#ffffff' : isNeighbor ? visual.border : 'rgba(255, 255, 255, 0.42)',
+        borderWidth: isSelected ? 2.4 : isNeighbor ? 1.8 : 1,
+        opacity: muted ? 0.22 : 0.94
+      },
+      label: {
+        show: shouldShowNodeLabel(node, visibleCount, snapshot.focusNeighborIds),
+        position: 'right',
+        formatter: truncateLabel(node.name, labelMaxLength),
+        fontSize: isSelected ? 14 : 11,
+        fontWeight: isSelected ? 700 : 500,
+        color: graphTheme.label
+      }
+    }
+  })
+
+  const seriesLinks = snapshot.links.map((link) => {
+    const isFocusEdge =
+      snapshot.focusNeighborIds.has(link.source) && snapshot.focusNeighborIds.has(link.target)
+
+    return {
+      source: String(link.source),
+      target: String(link.target),
+      name: link.label ?? link.relation ?? '',
+      relationLabel: link.label ?? link.relation,
+      sourceName: getNodeById(link.source)?.name ?? link.source,
+      targetName: getNodeById(link.target)?.name ?? link.target,
+      lineStyle: {
+        width: isFocusEdge ? 2 : 1.2,
+        opacity: snapshot.selectedId ? (isFocusEdge ? 0.82 : 0.16) : 0.4
+      }
+    }
+  })
+
+  const categories = legendItems.map((item, index) => ({
+    name: item.label,
+    itemStyle: {
+      color: graphColors[index % graphColors.length] ?? item.color
+    }
+  }))
+
+  return {
+    seriesData,
+    seriesLinks,
+    categories
+  }
+}
+
 function buildGraphOption() {
   const snapshot = graphSnapshot.value
   const visibleCount = snapshot.nodes.length
-  const selectedId = snapshot.selectedId
-  const repulsion = visibleCount > 240 ? 150 : visibleCount > 140 ? 210 : 280
-  const edgeLength = visibleCount > 240 ? [45, 90] : visibleCount > 140 ? [60, 120] : [90, 170]
-  const gravity = visibleCount > 220 ? 0.2 : visibleCount > 120 ? 0.14 : 0.08
+  const { seriesData, seriesLinks, categories } = formatGraphData(snapshot)
+  const repulsion = visibleCount > 240 ? 240 : visibleCount > 140 ? 320 : 420
+  const edgeLength = visibleCount > 240 ? 40 : visibleCount > 140 ? 55 : 72
 
   return {
-    backgroundColor: 'transparent',
-    animationDuration: visibleCount > 220 ? 320 : 820,
-    animationDurationUpdate: 420,
+    backgroundColor: graphTheme.background,
+    animationDurationUpdate: 500,
     animationEasingUpdate: 'quinticInOut',
     tooltip: {
       trigger: 'item',
+      confine: true,
+      backgroundColor: graphTheme.tooltipBackground,
+      borderColor: graphTheme.tooltipBorder,
+      borderWidth: 1,
+      textStyle: {
+        color: '#f8fafc',
+        fontSize: 12,
+        lineHeight: 18
+      },
       formatter: (params) => {
         if (params.dataType === 'edge') {
           return `${params.data.sourceName} → ${params.data.relationLabel} → ${params.data.targetName}`
         }
 
         const node = params.data
-        const degree = getNodeDegree(node.id)
         return [
           `<strong>${node.name}</strong>`,
-          `${typeLabelMap[node.type] ?? node.type} · 关联 ${degree} 条`,
+          `${typeLabelMap[node.type] ?? node.type} · 关联 ${getNodeDegree(node.id)} 条`,
           node.latinName ? `学名：${node.latinName}` : '',
-          node.summary ? node.summary : ''
+          node.summary ?? ''
         ]
           .filter(Boolean)
           .join('<br/>')
@@ -825,96 +917,57 @@ function buildGraphOption() {
       {
         type: 'graph',
         layout: 'force',
+        legendHoverLink: true,
+        hoverAnimation: true,
+        focusNodeAdjacency: true,
         roam: true,
         draggable: true,
-        layoutAnimation: visibleCount < 240,
+        progressive: 200,
+        progressiveThreshold: 500,
+        edgeSymbol: ['none', 'arrow'],
+        edgeSymbolSize: [0, 8],
         force: {
-          repulsion,
           edgeLength,
-          gravity,
-          friction: 0.12
+          repulsion,
+          gravity: 0.08
+        },
+        edgeLabel: {
+          show: visibleCount <= 80,
+          position: 'middle',
+          fontSize: 11,
+          color: graphTheme.labelMuted,
+          formatter: ({ data }) => data?.name ?? ''
+        },
+        itemStyle: {
+          color: '#00FAE1',
+          cursor: 'pointer'
+        },
+        lineStyle: {
+          color: 'rgba(148, 163, 184, 0.38)',
+          width: 1.2,
+          opacity: 0.45
+        },
+        label: {
+          show: visibleCount <= 160,
+          fontSize: 12,
+          color: graphTheme.label,
+          position: 'right'
         },
         emphasis: {
           focus: 'adjacency',
-          scale: true,
           lineStyle: {
-            width: 3,
-            opacity: 1
-          }
-        },
-        blur: {
+            width: 2.2,
+            opacity: 0.9
+          },
           itemStyle: {
-            opacity: 0.12
-          },
-          lineStyle: {
-            opacity: 0.04
-          },
-          label: {
-            show: false
+            borderWidth: 2.6
           }
         },
-        labelLayout: {
-          hideOverlap: true
-        },
-        lineStyle: {
-          color: 'source',
-          width: 1,
-          curveness: visibleCount > 180 ? 0.08 : 0.13,
-          opacity: 0.18
-        },
-        categories: legendItems.map((item) => ({ name: item.label })),
-        data: snapshot.nodes.map((node) => {
-          const color = legendItems[categoryIndex[node.type] ?? 0].color
-          const isSelected = node.id === selectedId
-          const isNeighbor = snapshot.focusNeighborIds.has(node.id) && !isSelected
-          const muted = graphMode.value === 'focus' && selectedId && !snapshot.focusNeighborIds.has(node.id)
-          const showLabel = shouldShowNodeLabel(node, visibleCount, snapshot.focusNeighborIds)
-
-          return {
-            ...node,
-            value: getNodeDegree(node.id),
-            category: categoryIndex[node.type] ?? 0,
-            symbolSize: getNodeSymbolSize(node, visibleCount),
-            label: {
-              show: showLabel,
-              position: 'right',
-              formatter: truncateLabel(node.name, visibleCount > 180 ? 9 : 12),
-              fontSize: isSelected ? 14 : visibleCount > 170 ? 10 : 11,
-              fontWeight: isSelected ? 700 : 500,
-              color: '#12303b',
-              backgroundColor: isSelected ? 'rgba(255, 248, 240, 0.94)' : isNeighbor ? 'rgba(255, 255, 255, 0.78)' : 'transparent',
-              padding: isSelected || isNeighbor ? [4, 6] : 0,
-              borderRadius: 8
-            },
-            itemStyle: {
-              color,
-              opacity: muted ? 0.22 : node.type === 'bird' ? 0.95 : 0.84,
-              borderColor: isSelected ? '#fff7ed' : isNeighbor ? '#ffffff' : 'rgba(255, 255, 255, 0.76)',
-              borderWidth: isSelected ? 4 : isNeighbor ? 3 : 1.5,
-              shadowBlur: isSelected ? 24 : isNeighbor ? 12 : 0,
-              shadowColor: isSelected ? 'rgba(15, 118, 110, 0.3)' : 'transparent'
-            }
-          }
-        }),
-        links: snapshot.links.map((link) => {
-          const isSelectedEdge = link.source === selectedId || link.target === selectedId
-          const isFocusEdge =
-            snapshot.focusNeighborIds.has(link.source) && snapshot.focusNeighborIds.has(link.target)
-
-          return {
-            source: link.source,
-            target: link.target,
-            relationLabel: link.label ?? link.relation,
-            sourceName: getNodeById(link.source)?.name ?? link.source,
-            targetName: getNodeById(link.target)?.name ?? link.target,
-            lineStyle: {
-              color: isSelectedEdge ? '#0f766e' : 'rgba(18, 48, 59, 0.22)',
-              width: isSelectedEdge ? 2.8 : isFocusEdge ? 1.3 : 0.9,
-              opacity: isSelectedEdge ? 0.92 : graphMode.value === 'focus' ? 0.26 : visibleCount > 180 ? 0.12 : 0.22,
-              curveness: visibleCount > 180 ? 0.08 : 0.13
-            }
-          }
-        })
+        symbolSize: 24,
+        links: seriesLinks,
+        data: seriesData,
+        categories,
+        cursor: 'pointer'
       }
     ]
   }
@@ -925,7 +978,10 @@ function refreshGraph() {
     return
   }
 
-  chartInstance.setOption(buildGraphOption(), true)
+  chartInstance.setOption(buildGraphOption(), {
+    notMerge: true,
+    lazyUpdate: true
+  })
 }
 
 function initChart() {
@@ -935,17 +991,13 @@ function initChart() {
 
   chartInstance?.dispose()
   chartInstance = echarts.init(graphRef.value)
-  refreshGraph()
   chartInstance.on('click', (params) => {
-    if (params.dataType !== 'node') {
+    if (params.dataType !== 'node' || !params.data?.id) {
       return
     }
-
-    const node = getNodeById(params.data.id)
-    if (node) {
-      selectEntity(node)
-    }
+    handleNodeClick(params.data.id)
   })
+  refreshGraph()
 }
 
 function initMap() {
@@ -962,29 +1014,6 @@ function initMap() {
     maxZoom: 18,
     attribution: '&copy; OpenStreetMap contributors'
   }).addTo(mapInstance)
-}
-
-async function runTripleTest() {
-  tripleState.value.loading = true
-  tripleState.value.error = ''
-  tripleState.value.message = '正在请求本地后端...'
-
-  try {
-    const response = await fetch('/api/triples/test')
-    if (!response.ok) {
-      throw new Error(`接口返回 ${response.status}`)
-    }
-
-    const payload = await response.json()
-    tripleState.value.documents = payload.documents ?? []
-    tripleState.value.triples = payload.triples ?? []
-    tripleState.value.message = `已完成 ${payload.documents?.length ?? 0} 段文本抽取，共返回 ${payload.triples?.length ?? 0} 条三元组。`
-  } catch (error) {
-    tripleState.value.error = '未连接到本地后端。请先执行 npm run server，再重新测试。'
-    tripleState.value.message = '当前仅前端静态图谱可用。'
-  } finally {
-    tripleState.value.loading = false
-  }
 }
 
 function handleResize() {
