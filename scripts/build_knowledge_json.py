@@ -97,6 +97,201 @@ def default_summary(name: str, object_type: str) -> str:
     return templates.get(object_type, f"依据 relations.csv 自动生成的实体节点：{name}。")
 
 
+STATUS_LABELS = {
+    "EX": "灭绝",
+    "EW": "野外灭绝",
+    "CR": "极危",
+    "EN": "濒危",
+    "VU": "易危",
+    "NT": "近危",
+    "LC": "无危",
+    "DD": "数据缺乏",
+    "NE": "未评估",
+}
+
+SUMMARY_SECTION_MARKERS = (
+    "特征",
+    "特徵",
+    "参考资料",
+    "參考資料",
+    "生平",
+    "分布与栖息地",
+    "分布及栖息地",
+)
+
+FOREIGN_LANGUAGE_MARKERS = (
+    "英语",
+    "英語",
+    "法语",
+    "法語",
+    "西班牙语",
+    "西班牙語",
+    "葡萄牙语",
+    "葡萄牙語",
+    "德语",
+    "德語",
+    "阿拉伯语",
+    "阿拉伯語",
+)
+
+
+def normalize_summary_text(text: str) -> str:
+    normalized = re.sub(r"\s+", " ", (text or "").replace("\u00a0", " ")).strip()
+    normalized = re.sub(r"\s*([，。；：])", r"\1", normalized)
+    return normalized
+
+
+def preview_names(values: List[str], limit: int = 3, unit: str = "项") -> str:
+    items = compact(values)
+    if not items:
+        return ""
+    shown = "、".join(items[:limit])
+    if len(items) <= limit:
+        return shown
+    return f"{shown}等{len(items)}{unit}"
+
+
+def status_text(code: str) -> str:
+    if not code:
+        return ""
+    label = STATUS_LABELS.get(code.upper(), code.upper())
+    return f"{label}（{code.upper()}）"
+
+
+def should_preview_locations(values: List[str]) -> bool:
+    items = compact(values)
+    if not items or len(items) > 3:
+        return False
+    for item in items:
+        if len(item) > 18:
+            return False
+        if re.search(r"[A-Za-z]{10,}", item):
+            return False
+        if any(marker in item for marker in (",", "Act", "Protection", "Department", "edition")):
+            return False
+    return True
+
+
+def needs_summary_completion(summary: str, node_type: str) -> bool:
+    text = normalize_summary_text(summary)
+    if not text:
+        return True
+    if text.startswith("依据 relations.csv 自动生成"):
+        return True
+    if re.search(r"(…|\.{3,})\s*$", text):
+        return True
+    if any(marker in text for marker in SUMMARY_SECTION_MARKERS):
+        return True
+    if node_type == "bird" and len(text) > 90:
+        return True
+    if node_type == "location" and (len(text) > 80 or any(marker in text for marker in FOREIGN_LANGUAGE_MARKERS)):
+        return True
+    if node_type in {"habitat", "status", "threat", "taxonomy"} and len(text) < 10:
+        return True
+    return False
+
+
+def synthesize_bird_summary(node: Dict) -> str:
+    aliases = []
+    if node.get("englishName"):
+        aliases.append(node["englishName"])
+    if node.get("latinName"):
+        aliases.append(f"学名 {node['latinName']}")
+
+    if aliases:
+        lead = f"{node['name']}（{'，'.join(aliases)}）"
+    else:
+        lead = node["name"]
+
+    clauses = []
+    if node.get("status"):
+        clauses.append(f"在图谱中标记为{status_text(node['status'])}物种")
+    if node.get("locations"):
+        location_names = compact(node["locations"])
+        if should_preview_locations(location_names):
+            clauses.append(f"主要分布于{preview_names(location_names, unit='处地点')}")
+        else:
+            clauses.append(f"已关联{len(location_names)}个分布地点节点")
+    if node.get("habitats"):
+        clauses.append(f"常见栖息地包括{preview_names(node['habitats'])}")
+    if node.get("threats"):
+        clauses.append(f"主要威胁包括{preview_names(node['threats'])}")
+
+    if not clauses:
+        clauses.append("是图谱中的鸟类节点")
+    return f"{lead}，{'，'.join(clauses)}。"
+
+
+def synthesize_location_summary(node: Dict, bird_names: List[str]) -> str:
+    if bird_names:
+        return (
+            f"{node['name']}是图谱中的地点节点，当前关联{len(compact(bird_names))}种鸟类，"
+            f"包括{preview_names(bird_names, unit='种鸟类')}，主要用于表示这些物种的分布地、停歇地或观测地。"
+        )
+
+    if node.get("lat") is not None and node.get("lng") is not None:
+        return (
+            f"{node['name']}是图谱中的地点节点，已记录坐标"
+            f"（{node['lat']:.3f}, {node['lng']:.3f}），用于承载鸟类分布关系。"
+        )
+
+    return f"{node['name']}是图谱中的地点节点，用于表示鸟类的分布地、停歇地或相关地理单元。"
+
+
+def synthesize_relation_summary(node: Dict, bird_names: List[str]) -> str:
+    count = len(compact(bird_names))
+    examples = preview_names(bird_names, unit="种鸟类")
+
+    if node["type"] == "habitat":
+        if count:
+            return f"{node['name']}是图谱中的栖息地类型节点，当前关联{count}种鸟类，如{examples}，表示这些物种常在该生境觅食、繁殖或停歇。"
+        return f"{node['name']}是图谱中的栖息地类型节点，用于表示鸟类偏好的典型生境。"
+
+    if node["type"] == "threat":
+        if count:
+            return f"{node['name']}是图谱中的威胁因素节点，当前关联{count}种鸟类，如{examples}，表示该因素会影响栖息地质量、繁殖成功率或种群存续。"
+        return f"{node['name']}是图谱中的威胁因素节点，用于表示影响鸟类存续的生态压力。"
+
+    if node["type"] == "status":
+        label = STATUS_LABELS.get(node["name"], node["name"])
+        if count:
+            return f"{node['name']}表示 IUCN {label}等级，当前关联{count}种鸟类，如{examples}。"
+        return f"{node['name']}表示 IUCN {label}等级，用于描述鸟类受威胁程度。"
+
+    if node["type"] == "taxonomy":
+        if count:
+            return f"{node['name']}是图谱中的分类单元节点，当前关联{count}种鸟类，如{examples}。"
+        return f"{node['name']}是图谱中的分类单元节点，用于组织鸟类分类关系。"
+
+    return node["summary"]
+
+
+def complete_node_summaries(nodes: Dict[str, Dict], incoming_birds: Dict[str, List[str]]) -> None:
+    for node in nodes.values():
+        current_summary = normalize_summary_text(node.get("summary", ""))
+        bird_names = incoming_birds.get(node["id"], [])
+
+        if node["type"] == "bird":
+            if needs_summary_completion(current_summary, "bird"):
+                node["summary"] = synthesize_bird_summary(node)
+            else:
+                node["summary"] = current_summary
+            continue
+
+        if node["type"] == "location":
+            if needs_summary_completion(current_summary, "location"):
+                node["summary"] = synthesize_location_summary(node, bird_names)
+            else:
+                node["summary"] = current_summary
+            continue
+
+        if node["type"] in {"habitat", "status", "threat", "taxonomy"}:
+            if needs_summary_completion(current_summary, node["type"]):
+                node["summary"] = synthesize_relation_summary(node, bird_names)
+            else:
+                node["summary"] = current_summary
+
+
 def require_columns(path: Path, rows: List[Dict[str, str]], expected: List[str]) -> None:
     if not rows:
         raise ValueError(f"{path.name} 为空，无法生成知识图谱。")
@@ -159,6 +354,7 @@ def build_graph() -> Dict:
         locations_by_name[node["name"]] = node
 
     relation_targets: Dict[str, Dict] = {}
+    incoming_birds = defaultdict(list)
     grouped_values = defaultdict(lambda: defaultdict(list))
 
     for index, row in enumerate(relations_rows, start=2):
@@ -227,6 +423,7 @@ def build_graph() -> Dict:
                 "evidence": row["evidence"],
             }
         )
+        incoming_birds[resolved_object_id].append(subject_node["name"])
         grouped_values[subject_node["id"]][predicate].append(object_name)
 
     for bird in birds_by_id.values():
@@ -241,6 +438,8 @@ def build_graph() -> Dict:
             if primary_location:
                 bird["lat"] = primary_location["lat"]
                 bird["lng"] = primary_location["lng"]
+
+    complete_node_summaries(nodes, incoming_birds)
 
     return {
         "meta": {
