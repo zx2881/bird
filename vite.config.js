@@ -4,14 +4,10 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   server: {
+    host: '0.0.0.0',
     port: 5173,
-    proxy: {
-      '/api': {
-        target: 'http://localhost:3001',
-        changeOrigin: true
-      }
-    },
-    allowedHosts:['frp-few.com']
+    // Allow the FRP root domain and any generated subdomain such as demo.frp-few.com.
+    allowedHosts: ['.frp-few.com']
   }
 })
 

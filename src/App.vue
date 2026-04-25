@@ -341,6 +341,8 @@ let chartInstance
 let mapInstance
 let mapMarker
 let graphRefreshFrame = 0
+let selectionRefreshFrame = 0
+let lastRenderedGraphSignature = ''
 
 const MAX_OVERVIEW_LOCATION_NODES = 140
 const OVERVIEW_LOCATION_MIN_DEGREE = 2
@@ -881,6 +883,12 @@ async function loadKnowledge() {
   }
 }
 
+function getGraphStructureSignature(snapshot) {
+  const nodePart = snapshot.nodes.map((node) => String(node.id)).join('|')
+  const linkPart = snapshot.links.map((link) => `${link.source}->${link.target}:${link.relation}`).join('|')
+  return `${graphMode.value}::${nodePart}::${linkPart}`
+}
+
 function formatGraphData(snapshot) {
   const visibleCount = snapshot.nodes.length
   const categoryColorMap = new Map(
@@ -958,101 +966,140 @@ function buildGraphOption() {
   const visibleCount = snapshot.nodes.length
   const { seriesData, seriesLinks, categories } = formatGraphData(snapshot)
   const isLargeGraph = visibleCount > 260
-  const repulsion = visibleCount > 240 ? 240 : visibleCount > 140 ? 320 : 420
-  const edgeLength = visibleCount > 240 ? 40 : visibleCount > 140 ? 55 : 72
+
+  const obsidianNodeColorMap = {
+    bird: '#7f8fa6',
+    location: '#6f9e98',
+    habitat: '#8da56b',
+    status: '#b59a62',
+    threat: '#9f727a',
+    taxonomy: '#8b84ab'
+  }
+
+  const obsidianNodes = seriesData.map((node) => {
+    return {
+      ...node,
+      symbol: 'circle',
+      symbolSize: Math.max(10, Math.min(Math.round((node.symbolSize ?? 16) * 0.42), 20)),
+      itemStyle: {
+        color: obsidianNodeColorMap[node.type] ?? '#8b949e',
+        borderWidth: 0,
+        shadowBlur: 0,
+        shadowOffsetX: 0,
+        shadowOffsetY: 0,
+        opacity: 1
+      },
+      label: {
+        show: true,
+        formatter: node.name,
+        color: 'rgba(255, 255, 255, 0.9)',
+        fontSize: 10,
+        fontWeight: 400,
+        position: 'bottom',
+        distance: 8,
+        align: 'center'
+      }
+    }
+  })
+
+  const obsidianLinks = seriesLinks.map((link) => {
+    return {
+      ...link,
+      lineStyle: {
+        color: 'rgba(255, 255, 255, 0.08)',
+        width: 1,
+        opacity: 1,
+        curveness: 0
+      },
+      label: {
+        show: false
+      }
+    }
+  })
 
   return {
-    backgroundColor: graphTheme.background,
+    backgroundColor: '#1a1a1a',
     animation: !isLargeGraph,
-    animationDuration: isLargeGraph ? 0 : visibleCount > 220 ? 320 : 820,
-    animationDurationUpdate: isLargeGraph ? 0 : 500,
-    animationEasingUpdate: 'quinticInOut',
+    animationDuration: isLargeGraph ? 0 : 600,
+    animationDurationUpdate: isLargeGraph ? 0 : 280,
+    animationEasingUpdate: 'cubicOut',
     tooltip: {
-      trigger: 'item',
-      confine: true,
-      backgroundColor: graphTheme.tooltipBackground,
-      borderColor: graphTheme.tooltipBorder,
-      borderWidth: 1,
-      enterable: false,
-      transitionDuration: 0,
-      textStyle: {
-        color: '#f8fafc',
-        fontSize: 12,
-        lineHeight: 18
-      },
-      formatter: (params) => {
-        if (params.dataType === 'edge') {
-          return `${params.data.sourceName} → ${params.data.relationLabel} → ${params.data.targetName}`
-        }
-
-        const node = params.data
-        return [
-          `<strong>${node.name}</strong>`,
-          `${typeLabelMap[node.type] ?? node.type} · 关联 ${getNodeDegree(node.id)} 条`,
-          node.latinName ? `学名：${node.latinName}` : '',
-          node.summary ?? ''
-        ]
-          .filter(Boolean)
-          .join('<br/>')
-      }
+      show: false
     },
     series: [
       {
+        id: 'knowledge-graph',
         type: 'graph',
         layout: 'force',
-        legendHoverLink: true,
-        hoverAnimation: true,
-        focusNodeAdjacency: true,
+        legendHoverLink: false,
+        hoverAnimation: false,
+        focusNodeAdjacency: 'allEdges',
         roam: true,
         draggable: true,
         progressive: 200,
         progressiveThreshold: 500,
-        edgeSymbol: ['none', 'arrow'],
-        edgeSymbolSize: [0, 8],
-        layoutAnimation: visibleCount < 160,
+        edgeSymbol: ['none', 'none'],
+        layoutAnimation: visibleCount < 320,
         force: {
-          edgeLength,
-          repulsion,
-          gravity: 0.08
-        },
-        edgeLabel: {
-          show: visibleCount <= 80,
-          position: 'middle',
-          fontSize: 11,
-          color: graphTheme.labelMuted,
-          formatter: ({ data }) => data?.name ?? ''
+          gravity: 0.01,
+          repulsion: [250, 400],
+          friction: 0.8,
+          edgeLength: [50, 200]
         },
         itemStyle: {
-          color: '#00FAE1',
+          shadowBlur: 0,
+          opacity: 1,
           cursor: 'pointer'
         },
         lineStyle: {
-          color: 'rgba(148, 163, 184, 0.38)',
-          width: 1.2,
-          opacity: 0.45
+          color: 'rgba(255, 255, 255, 0.08)',
+          width: 1,
+          opacity: 1,
+          curveness: 0
         },
         label: {
-          show: visibleCount <= 160,
-          fontSize: 12,
-          color: graphTheme.label,
-          position: 'right'
+          show: false
+        },
+        edgeLabel: {
+          show: false
         },
         emphasis: {
           focus: 'adjacency',
-          lineStyle: {
-            width: 2.2,
-            opacity: 0.9
-          },
+          scale: false,
           itemStyle: {
-            borderWidth: 2.6
+            opacity: 1,
+            shadowBlur: 0,
+            borderWidth: 0
+          },
+          lineStyle: {
+            opacity: 1,
+            width: 1.15
+          },
+          label: {
+            show: true,
+            color: '#ffffff',
+            fontSize: 10,
+            fontWeight: 500,
+            position: 'bottom',
+            distance: 8
+          }
+        },
+        blur: {
+          itemStyle: {
+            opacity: 0.12
+          },
+          lineStyle: {
+            opacity: 0.08
+          },
+          label: {
+            color: 'rgba(255, 255, 255, 0.18)'
           }
         },
         labelLayout: {
           hideOverlap: true
         },
-        symbolSize: 24,
-        links: seriesLinks,
-        data: seriesData,
+        data: obsidianNodes,
+        links: obsidianLinks,
         categories,
         cursor: 'pointer'
       }
@@ -1065,10 +1112,137 @@ function refreshGraph() {
     return
   }
 
+  const snapshot = graphSnapshot.value
+  lastRenderedGraphSignature = getGraphStructureSignature(snapshot)
+
   chartInstance.setOption(buildGraphOption(), {
     notMerge: true,
     lazyUpdate: true
   })
+}
+
+function refreshGraphSelectionVisual() {
+  if (!chartInstance) {
+    return
+  }
+
+  const snapshot = graphSnapshot.value
+  const nextSignature = getGraphStructureSignature(snapshot)
+  if (nextSignature !== lastRenderedGraphSignature) {
+    scheduleGraphRefresh()
+    return
+  }
+
+  const visibleCount = snapshot.nodes.length
+  const { seriesData, seriesLinks } = formatGraphData(snapshot)
+  const selectedId = snapshot.selectedId ? String(snapshot.selectedId) : ''
+
+  const obsidianNodeColorMap = {
+    bird: '#7f8fa6',
+    location: '#6f9e98',
+    habitat: '#8da56b',
+    status: '#b59a62',
+    threat: '#9f727a',
+    taxonomy: '#8b84ab'
+  }
+
+  const currentSeries = chartInstance.getOption()?.series?.find((series) => series.id === 'knowledge-graph')
+  const currentNodePositions = new Map(
+    (currentSeries?.data ?? [])
+      .filter((node) => node?.id !== undefined && Number.isFinite(node?.x) && Number.isFinite(node?.y))
+      .map((node) => [String(node.id), { x: node.x, y: node.y }])
+  )
+
+  const nodes = seriesData.map((node) => {
+    const isSelected = String(node.id) === selectedId
+    const currentPosition = currentNodePositions.get(String(node.id))
+
+    return {
+      ...node,
+      symbol: 'circle',
+      symbolSize: Math.max(10, Math.min(Math.round((node.symbolSize ?? 16) * 0.42), 20)),
+      itemStyle: {
+        color: obsidianNodeColorMap[node.type] ?? '#8b949e',
+        borderWidth: 0,
+        shadowBlur: 0,
+        shadowOffsetX: 0,
+        shadowOffsetY: 0,
+        opacity: 1
+      },
+      label: {
+        show: true,
+        formatter: node.name,
+        color: 'rgba(255, 255, 255, 0.9)',
+        fontSize: 10,
+        fontWeight: 400,
+        position: 'bottom',
+        distance: 8,
+        align: 'center'
+      },
+      ...(isSelected
+        ? {
+            x: 0,
+            y: 0,
+            fixed: true
+          }
+        : currentPosition
+          ? {
+              x: currentPosition.x,
+              y: currentPosition.y,
+              fixed: true
+            }
+          : {})
+    }
+  })
+
+  const links = seriesLinks.map((link) => {
+    return {
+      ...link,
+      lineStyle: {
+        color: 'rgba(255, 255, 255, 0.08)',
+        width: 1,
+        opacity: 1,
+        curveness: 0
+      },
+      label: {
+        show: false
+      }
+    }
+  })
+
+  chartInstance.setOption(
+    {
+      animation: false,
+      animationDuration: 0,
+      animationDurationUpdate: 0,
+      animationEasingUpdate: 'linear',
+      series: [
+        {
+          id: 'knowledge-graph',
+          layoutAnimation: false,
+          data: nodes,
+          links
+        }
+      ]
+    },
+    {
+      notMerge: false,
+      lazyUpdate: true
+    }
+  )
+  centerGraphViewport()
+}
+
+function centerGraphViewport() {
+  const graphModel = chartInstance?.getModel()?.getSeriesByIndex(0)
+  const graphView = chartInstance?._chartsViews?.find((view) => view.__model?.id === graphModel?.id)
+  const roamController = graphView?.group
+  if (!roamController) {
+    return
+  }
+
+  roamController.attr({ x: 0, y: 0, scaleX: 1, scaleY: 1 })
+  chartInstance.resize()
 }
 
 function scheduleGraphRefresh() {
@@ -1083,6 +1257,21 @@ function scheduleGraphRefresh() {
   graphRefreshFrame = window.requestAnimationFrame(() => {
     graphRefreshFrame = 0
     refreshGraph()
+  })
+}
+
+function scheduleSelectionRefresh() {
+  if (!chartInstance) {
+    return
+  }
+
+  if (selectionRefreshFrame) {
+    window.cancelAnimationFrame(selectionRefreshFrame)
+  }
+
+  selectionRefreshFrame = window.requestAnimationFrame(() => {
+    selectionRefreshFrame = 0
+    refreshGraphSelectionVisual()
   })
 }
 
@@ -1102,6 +1291,15 @@ function initChart() {
       return
     }
     handleNodeClick(params.data.id)
+  })
+  chartInstance.on('globalout', () => {
+    if (!chartInstance) {
+      return
+    }
+    chartInstance.dispatchAction({
+      type: 'downplay',
+      seriesIndex: 0
+    })
   })
   refreshGraph()
 }
@@ -1131,7 +1329,6 @@ watch(
   [
     () => knowledge.value.nodes.length,
     () => knowledge.value.links.length,
-    () => selectedEntity.value?.id ?? '',
     graphMode,
     graphBirdLimit,
     labelMode,
@@ -1139,6 +1336,18 @@ watch(
   ],
   () => {
     scheduleGraphRefresh()
+  }
+)
+
+watch(
+  () => selectedEntity.value?.id ?? '',
+  () => {
+    if (graphMode.value === 'focus') {
+      scheduleGraphRefresh()
+      return
+    }
+
+    scheduleSelectionRefresh()
   }
 )
 
@@ -1159,6 +1368,9 @@ onBeforeUnmount(() => {
   window.removeEventListener('resize', handleResize)
   if (graphRefreshFrame) {
     window.cancelAnimationFrame(graphRefreshFrame)
+  }
+  if (selectionRefreshFrame) {
+    window.cancelAnimationFrame(selectionRefreshFrame)
   }
   chartInstance?.dispose()
   mapInstance?.remove()
