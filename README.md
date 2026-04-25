@@ -15,7 +15,6 @@
 - `scripts/build_knowledge_json.py` 数据整合脚本
 - `scripts/download_bird_name_list.py` 的 AviList 标准鸟名下载脚本
 - `scripts/crawl_from_wikipedia.py` 的 Wikipedia 批量抓取脚本
-- `server/` 下的 Node 简易三元组测试接口
 - `scripts/fetch_gbif_data.py` 的 GBIF 分布抓取示例
 
 ## 2. 目录结构
@@ -33,12 +32,6 @@
 │  ├─ crawl_from_wikipedia.py
 │  ├─ download_bird_name_list.py
 │  └─ fetch_gbif_data.py
-├─ server/
-│  ├─ data/
-│  │  └─ sample-docs.json
-│  ├─ services/
-│  │  └─ tripleExtractor.js
-│  └─ index.js
 ├─ src/
 │  ├─ App.vue
 │  ├─ main.js
@@ -253,7 +246,6 @@ bird-siberian-crane,白鹤,threatened_by,threat-climate-change,气候变化,Bird
 - 右侧知识图谱与地图联动
 - 点击鸟类看详情
 - 点击地点跳地图
-- 点击测试按钮调用后端三元组接口
 
 另外我补上了 `taxonomy` 类型兼容，避免以后启用 `belongs_to` 时再返工。
 
@@ -281,12 +273,6 @@ npm install
 
 ```bash
 npm run build:data
-```
-
-启动后端测试服务：
-
-```bash
-npm run server
 ```
 
 启动前端：
@@ -383,34 +369,6 @@ python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv --build
 - Threat 节点
 - 关系线 `links`
 
-## 10. 后端测试部分说明
-
-### `server/data/sample-docs.json`
-
-作用：
-
-- 存放从公开资料整理的少量测试文本
-- 用于演示三元组抽取，不作为前端主数据源
-
-### `server/services/tripleExtractor.js`
-
-作用：
-
-- 根据 [三元组提取.md](C:/Users/29802/Documents/全球鸟类分布与生物多样性保护知识图谱构建/三元组提取.md) 的 Schema 抽取规则化三元组
-
-这一层和 `data/*.csv` 的关系是：
-
-- `sample-docs.json` 更接近原始文本
-- `relations.csv` 更接近人工审核后的结构化主数据
-
-实际工作流建议是：
-
-1. 从资料收集原文
-2. 先抽取三元组
-3. 人工审核
-4. 再写入 `relations.csv`
-5. 最后生成前端 JSON
-
 ## 11. GBIF 脚本说明
 
 ### `scripts/fetch_gbif_data.py`
@@ -496,7 +454,6 @@ python scripts/download_bird_name_list.py --output data/bird_titles.csv
 
 ```bash
 npm run build:data
-npm run server
 npm run dev
 ```
 
@@ -511,12 +468,6 @@ npm run build
 如果只部署前端静态页面：
 
 - 上传 `dist/` 到静态服务器即可
-
-如果同时保留后端测试接口：
-
-1. 部署 `dist/`
-2. 部署 `server/`
-3. 通过反向代理把 `/api` 转给 Node 服务
 
 ## 13. 推荐的数据维护习惯
 
@@ -542,4 +493,3 @@ npm run build
 
 1. 把更多物种逐步补进 `birds.csv`
 2. 把文献或网页证据整理进 `relations.csv`
-3. 需要时再把 `sample-docs.json -> relations.csv` 的人工审核流程做成半自动工具
