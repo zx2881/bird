@@ -1,15 +1,5 @@
 <template>
   <div class="shell">
-    <header class="app-header">
-      <div>
-        <p class="eyebrow">Global Avian Biodiversity Graph</p>
-        <h1>全球鸟类多样性知识探索平台</h1>
-        <p class="subtitle">
-          以静态知识图谱与地图浏览为前端核心，快速探索全球鸟类分布与保护知识框架。
-        </p>
-      </div>
-    </header>
-
     <main class="app-main">
       <aside class="sidebar panel">
         <section class="sidebar-section">
@@ -604,6 +594,7 @@ function handleNodeClick(nodeId) {
   if (!node) {
     return
   }
+  graphMode.value = 'focus'
   selectEntity(node)
 }
 
@@ -687,7 +678,14 @@ function collectVisibleLinks(visibleNodeIds, enabledContextTypes, selectedId) {
 function pruneOverviewNodeIds(visibleNodeIds, visibleLinks, selectedId) {
   const finalNodeIds = new Set()
   const selectedNeighborIds = new Set()
-  const rankedLocationIds = []
+  const preservedTypeLimits = {
+    location: MAX_OVERVIEW_LOCATION_NODES,
+    habitat: 90,
+    status: 70,
+    threat: 90,
+    taxonomy: 70
+  }
+  const rankedNodeIdsByType = new Map()
 
   if (selectedId) {
     visibleLinks.forEach((link) => {
@@ -706,7 +704,7 @@ function pruneOverviewNodeIds(visibleNodeIds, visibleLinks, selectedId) {
       return
     }
 
-    if (node.type !== 'location') {
+    if (!preservedTypeLimits[node.type]) {
       finalNodeIds.add(nodeId)
       return
     }
@@ -716,24 +714,31 @@ function pruneOverviewNodeIds(visibleNodeIds, visibleLinks, selectedId) {
       return
     }
 
-    if (getNodeDegree(nodeId) >= OVERVIEW_LOCATION_MIN_DEGREE) {
-      rankedLocationIds.push(nodeId)
+    if (getNodeDegree(nodeId) < OVERVIEW_LOCATION_MIN_DEGREE) {
+      return
     }
+
+    if (!rankedNodeIdsByType.has(node.type)) {
+      rankedNodeIdsByType.set(node.type, [])
+    }
+    rankedNodeIdsByType.get(node.type).push(nodeId)
   })
 
-  rankedLocationIds
-    .sort((leftId, rightId) => {
-      const degreeDiff = getNodeDegree(rightId) - getNodeDegree(leftId)
-      if (degreeDiff !== 0) {
-        return degreeDiff
-      }
+  rankedNodeIdsByType.forEach((nodeIds, type) => {
+    nodeIds
+      .sort((leftId, rightId) => {
+        const degreeDiff = getNodeDegree(rightId) - getNodeDegree(leftId)
+        if (degreeDiff !== 0) {
+          return degreeDiff
+        }
 
-      const leftNode = getNodeById(leftId)
-      const rightNode = getNodeById(rightId)
-      return (leftNode?.name ?? '').localeCompare(rightNode?.name ?? '', 'zh-Hans-CN')
-    })
-    .slice(0, MAX_OVERVIEW_LOCATION_NODES)
-    .forEach((nodeId) => finalNodeIds.add(nodeId))
+        const leftNode = getNodeById(leftId)
+        const rightNode = getNodeById(rightId)
+        return (leftNode?.name ?? '').localeCompare(rightNode?.name ?? '', 'zh-Hans-CN')
+      })
+      .slice(0, preservedTypeLimits[type] ?? nodeIds.length)
+      .forEach((nodeId) => finalNodeIds.add(nodeId))
+  })
 
   return finalNodeIds
 }
@@ -803,12 +808,6 @@ function buildFocusNodeIds(enabledContextTypes) {
 
   visibleNodeIds.add(seedNode.id)
 
-  if (seedNode.type === 'bird') {
-    collectBirdContext(seedNode.id, visibleNodeIds, enabledContextTypes)
-    return visibleNodeIds
-  }
-
-  const linkedBirdIds = new Set()
   getIncidentLinks(seedNode.id).forEach((link) => {
     const otherId = getLinkOtherNodeId(link, seedNode.id)
     const otherNode = getNodeById(otherId)
@@ -819,13 +818,8 @@ function buildFocusNodeIds(enabledContextTypes) {
     if (otherNode.type === 'bird' || enabledContextTypes.has(otherNode.type)) {
       visibleNodeIds.add(otherNode.id)
     }
-
-    if (otherNode.type === 'bird') {
-      linkedBirdIds.add(otherNode.id)
-    }
   })
 
-  linkedBirdIds.forEach((birdId) => collectBirdContext(birdId, visibleNodeIds, enabledContextTypes))
   return visibleNodeIds
 }
 
@@ -858,17 +852,21 @@ function shouldShowNodeLabel(node, visibleCount, focusNeighborIds) {
 }
 
 function getNodeSymbolSize(node, visibleCount) {
-  const densityScale = visibleCount > 260 ? 0.56 : visibleCount > 170 ? 0.68 : visibleCount > 90 ? 0.82 : 1
+  const densityScale = visibleCount > 260 ? 0.88 : visibleCount > 170 ? 0.93 : 1
   const base = {
-    bird: 50,
-    location: 30,
-    habitat: 25,
-    status: 23,
-    threat: 23,
-    taxonomy: 21
-  }[node.type] ?? 26
-  const degreeBoost = Math.min(node.type === 'bird' ? 16 : 9, getNodeDegree(node.id) * (node.type === 'bird' ? 1.35 : 0.75))
-  return Math.max(16, Math.round((base + degreeBoost) * densityScale))
+    bird: 17,
+    location: 14,
+    habitat: 13,
+    status: 12,
+    threat: 12,
+    taxonomy: 12
+  }[node.type] ?? 12
+  const degreeBoost =
+    node.type === 'bird'
+      ? Math.min(2.2, getNodeDegree(node.id) * 0.12)
+      : Math.min(1.4, getNodeDegree(node.id) * 0.08)
+
+  return Math.max(10, Math.min(20, Math.round((base + degreeBoost) * densityScale)))
 }
 
 async function loadKnowledge() {
@@ -889,6 +887,30 @@ function getGraphStructureSignature(snapshot) {
   return `${graphMode.value}::${nodePart}::${linkPart}`
 }
 
+function getNodeLayoutPosition({
+  nodeId,
+  typeIndex,
+  typeCount,
+  typeRank,
+  typeSize,
+  globalIndex,
+  totalNodes
+}) {
+  const goldenAngle = 2.399963229728653
+  const seed = String(nodeId).split('').reduce((acc, char) => acc + char.charCodeAt(0), 0)
+  const globalRatio = Math.sqrt((globalIndex + 0.5) / Math.max(totalNodes, 1))
+  const typeRatio = Math.sqrt((typeRank + 0.5) / Math.max(typeSize, 1))
+  const sectorOffset = ((typeIndex + 0.5) / Math.max(typeCount, 1)) * Math.PI * 2
+  const jitter = ((seed % 97) / 96 - 0.5) * (Math.PI / Math.max(18, typeCount * 6))
+  const angle = goldenAngle * globalIndex + sectorOffset + jitter
+  const radius = 90 + (globalRatio * 0.55 + typeRatio * 0.45) * 340
+
+  return {
+    x: Math.cos(angle) * radius,
+    y: Math.sin(angle) * radius
+  }
+}
+
 function formatGraphData(snapshot) {
   const visibleCount = snapshot.nodes.length
   const categoryColorMap = new Map(
@@ -898,20 +920,61 @@ function formatGraphData(snapshot) {
     ])
   )
 
-  const seriesData = snapshot.nodes.map((node) => {
+  const nodeGroups = new Map()
+  snapshot.nodes.forEach((node) => {
+    if (!nodeGroups.has(node.type)) {
+      nodeGroups.set(node.type, [])
+    }
+    nodeGroups.get(node.type).push(node)
+  })
+  const orderedTypes = [...nodeGroups.keys()].sort((left, right) => left.localeCompare(right))
+  const typeCount = orderedTypes.length || 1
+  const typeMetaByNodeId = new Map()
+
+  orderedTypes.forEach((type, typeIndex) => {
+    const group = nodeGroups.get(type) ?? []
+    group.forEach((node, typeRank) => {
+      typeMetaByNodeId.set(node.id, {
+        typeIndex,
+        typeCount,
+        typeRank,
+        typeSize: group.length
+      })
+    })
+  })
+
+  const symbolSizeById = new Map()
+  const seriesData = snapshot.nodes.map((node, globalIndex) => {
     const visual = getNodeVisual(node.type)
     const isSelected = node.id === snapshot.selectedId
     const isNeighbor = snapshot.focusNeighborIds.has(node.id) && !isSelected
     const muted = snapshot.selectedId && !snapshot.focusNeighborIds.has(node.id)
     const labelMaxLength = getLabelMaxLength(visibleCount, isSelected)
+    const typeMeta = typeMetaByNodeId.get(node.id) ?? {
+      typeIndex: 0,
+      typeCount: 1,
+      typeRank: globalIndex,
+      typeSize: snapshot.nodes.length || 1
+    }
+    const position = getNodeLayoutPosition({
+      nodeId: node.id,
+      ...typeMeta,
+      globalIndex,
+      totalNodes: snapshot.nodes.length
+    })
+    const symbolSize = getNodeSymbolSize(node, visibleCount)
+    symbolSizeById.set(node.id, symbolSize)
 
     return {
       ...node,
       id: String(node.id),
+      x: position.x,
+      y: position.y,
+      fixed: false,
       value: getNodeDegree(node.id),
       category: categoryIndex[node.type] ?? 0,
-      symbolSize: getNodeSymbolSize(node, visibleCount),
-      draggable: true,
+      symbolSize,
+      draggable: false,
       itemStyle: {
         color: categoryColorMap.get(node.type) ?? visual.color,
         borderColor: isSelected ? '#ffffff' : isNeighbor ? visual.border : 'rgba(255, 255, 255, 0.42)',
@@ -932,6 +995,9 @@ function formatGraphData(snapshot) {
   const seriesLinks = snapshot.links.map((link) => {
     const isFocusEdge =
       snapshot.focusNeighborIds.has(link.source) && snapshot.focusNeighborIds.has(link.target)
+    const sourceSize = symbolSizeById.get(link.source) ?? 12
+    const targetSize = symbolSizeById.get(link.target) ?? 12
+    const baseWidth = Math.max(0.7, Math.min(1.25, 0.055 * Math.sqrt(sourceSize * targetSize)))
 
     return {
       source: String(link.source),
@@ -941,8 +1007,8 @@ function formatGraphData(snapshot) {
       sourceName: getNodeById(link.source)?.name ?? link.source,
       targetName: getNodeById(link.target)?.name ?? link.target,
       lineStyle: {
-        width: isFocusEdge ? 2 : 1.2,
-        opacity: snapshot.selectedId ? (isFocusEdge ? 0.82 : 0.16) : 0.4
+        width: isFocusEdge ? Math.min(1.6, baseWidth + 0.35) : baseWidth,
+        opacity: snapshot.selectedId ? (isFocusEdge ? 0.85 : 0.14) : 0.34
       }
     }
   })
@@ -980,10 +1046,12 @@ function buildGraphOption() {
     return {
       ...node,
       symbol: 'circle',
-      symbolSize: Math.max(10, Math.min(Math.round((node.symbolSize ?? 16) * 0.42), 20)),
+      symbolSize: node.symbolSize,
+      draggable: false,
       itemStyle: {
         color: obsidianNodeColorMap[node.type] ?? '#8b949e',
         borderWidth: 0,
+        borderColor: 'transparent',
         shadowBlur: 0,
         shadowOffsetX: 0,
         shadowOffsetY: 0,
@@ -1007,8 +1075,8 @@ function buildGraphOption() {
       ...link,
       lineStyle: {
         color: 'rgba(255, 255, 255, 0.08)',
-        width: 1,
-        opacity: 1,
+        width: link.lineStyle?.width ?? 1,
+        opacity: link.lineStyle?.opacity ?? 1,
         curveness: 0
       },
       label: {
@@ -1035,21 +1103,25 @@ function buildGraphOption() {
         hoverAnimation: false,
         focusNodeAdjacency: 'allEdges',
         roam: true,
-        draggable: true,
+        draggable: false,
         progressive: 200,
         progressiveThreshold: 500,
         edgeSymbol: ['none', 'none'],
-        layoutAnimation: visibleCount < 320,
+        layoutAnimation: true,
         force: {
+          repulsion: [1400, 2600],
+          edgeLength: [140, 280],
           gravity: 0.01,
-          repulsion: [250, 400],
-          friction: 0.8,
-          edgeLength: [50, 200]
+          friction: 0.78,
+          layoutAnimation: true,
+          preventOverlap: true
         },
         itemStyle: {
           shadowBlur: 0,
           opacity: 1,
-          cursor: 'pointer'
+          cursor: 'pointer',
+          borderWidth: 0,
+          borderColor: 'transparent'
         },
         lineStyle: {
           color: 'rgba(255, 255, 255, 0.08)',
@@ -1064,12 +1136,13 @@ function buildGraphOption() {
           show: false
         },
         emphasis: {
-          focus: 'adjacency',
+          focus: 'none',
           scale: false,
           itemStyle: {
             opacity: 1,
             shadowBlur: 0,
-            borderWidth: 0
+            borderWidth: 0,
+            borderColor: 'transparent'
           },
           lineStyle: {
             opacity: 1,
@@ -1086,13 +1159,13 @@ function buildGraphOption() {
         },
         blur: {
           itemStyle: {
-            opacity: 0.12
+            opacity: 1
           },
           lineStyle: {
-            opacity: 0.08
+            opacity: 1
           },
           label: {
-            color: 'rgba(255, 255, 255, 0.18)'
+            color: 'rgba(255, 255, 255, 0.9)'
           }
         },
         labelLayout: {
@@ -1135,7 +1208,6 @@ function refreshGraphSelectionVisual() {
 
   const visibleCount = snapshot.nodes.length
   const { seriesData, seriesLinks } = formatGraphData(snapshot)
-  const selectedId = snapshot.selectedId ? String(snapshot.selectedId) : ''
 
   const obsidianNodeColorMap = {
     bird: '#7f8fa6',
@@ -1154,16 +1226,16 @@ function refreshGraphSelectionVisual() {
   )
 
   const nodes = seriesData.map((node) => {
-    const isSelected = String(node.id) === selectedId
     const currentPosition = currentNodePositions.get(String(node.id))
 
     return {
       ...node,
       symbol: 'circle',
-      symbolSize: Math.max(10, Math.min(Math.round((node.symbolSize ?? 16) * 0.42), 20)),
+      symbolSize: node.symbolSize,
       itemStyle: {
         color: obsidianNodeColorMap[node.type] ?? '#8b949e',
         borderWidth: 0,
+        borderColor: 'transparent',
         shadowBlur: 0,
         shadowOffsetX: 0,
         shadowOffsetY: 0,
@@ -1179,19 +1251,13 @@ function refreshGraphSelectionVisual() {
         distance: 8,
         align: 'center'
       },
-      ...(isSelected
+      ...(currentPosition
         ? {
-            x: 0,
-            y: 0,
-            fixed: true
+            x: currentPosition.x,
+            y: currentPosition.y,
+            fixed: false
           }
-        : currentPosition
-          ? {
-              x: currentPosition.x,
-              y: currentPosition.y,
-              fixed: true
-            }
-          : {})
+        : {})
     }
   })
 
@@ -1200,8 +1266,8 @@ function refreshGraphSelectionVisual() {
       ...link,
       lineStyle: {
         color: 'rgba(255, 255, 255, 0.08)',
-        width: 1,
-        opacity: 1,
+        width: link.lineStyle?.width ?? 1,
+        opacity: link.lineStyle?.opacity ?? 1,
         curveness: 0
       },
       label: {
@@ -1230,19 +1296,6 @@ function refreshGraphSelectionVisual() {
       lazyUpdate: true
     }
   )
-  centerGraphViewport()
-}
-
-function centerGraphViewport() {
-  const graphModel = chartInstance?.getModel()?.getSeriesByIndex(0)
-  const graphView = chartInstance?._chartsViews?.find((view) => view.__model?.id === graphModel?.id)
-  const roamController = graphView?.group
-  if (!roamController) {
-    return
-  }
-
-  roamController.attr({ x: 0, y: 0, scaleX: 1, scaleY: 1 })
-  chartInstance.resize()
 }
 
 function scheduleGraphRefresh() {
@@ -1283,7 +1336,7 @@ function initChart() {
   chartInstance?.dispose()
   chartInstance = echarts.init(graphRef.value, null, {
     renderer: 'canvas',
-    useDirtyRect: true,
+    useDirtyRect: false,
     devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5)
   })
   chartInstance.on('click', (params) => {
