@@ -974,7 +974,7 @@ function formatGraphData(snapshot) {
       value: getNodeDegree(node.id),
       category: categoryIndex[node.type] ?? 0,
       symbolSize,
-      draggable: false,
+      draggable: true,
       itemStyle: {
         color: categoryColorMap.get(node.type) ?? visual.color,
         borderColor: isSelected ? '#ffffff' : isNeighbor ? visual.border : 'rgba(255, 255, 255, 0.42)',
@@ -1047,7 +1047,7 @@ function buildGraphOption() {
       ...node,
       symbol: 'circle',
       symbolSize: node.symbolSize,
-      draggable: false,
+      draggable: true,
       itemStyle: {
         color: obsidianNodeColorMap[node.type] ?? '#8b949e',
         borderWidth: 0,
@@ -1103,7 +1103,7 @@ function buildGraphOption() {
         hoverAnimation: false,
         focusNodeAdjacency: 'allEdges',
         roam: true,
-        draggable: false,
+        draggable: true,
         progressive: 200,
         progressiveThreshold: 500,
         edgeSymbol: ['none', 'none'],
