@@ -37,3 +37,4 @@ export default defineConfig({
     allowedHosts: ['.frp-few.com']
   }
 })
+base: './'
