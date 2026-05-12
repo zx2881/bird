@@ -3,6 +3,9 @@ import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  // 1. 核心路径配置：确保 GitHub Pages 能找到资源
+  base: '/bird/', 
+
   plugins: [
     vue(),
     VitePWA({
@@ -25,7 +28,10 @@ export default defineConfig({
           {
             urlPattern: /^https:\/\/picsum\.photos\/.*/,
             handler: 'CacheFirst',
-            options: { cacheName: 'bird-images', expiration: { maxEntries: 100, maxAgeSeconds: 86400 * 30 } }
+            options: { 
+              cacheName: 'bird-images', 
+              expiration: { maxEntries: 100, maxAgeSeconds: 86400 * 30 } 
+            }
           }
         ]
       }
@@ -34,7 +40,6 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5173,
-    allowedHosts: ['.frp-few.com']
+    allowedHosts: ['.frp-few.com'] 
   }
 })
-base: './'
