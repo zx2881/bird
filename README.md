@@ -31,6 +31,7 @@
 │  ├─ build_knowledge_json.py
 │  ├─ crawl_from_wikipedia.py
 │  ├─ download_bird_name_list.py
+│  ├─ fetch_bird_images.py
 │  └─ fetch_gbif_data.py
 ├─ src/
 │  ├─ App.vue
@@ -74,12 +75,13 @@
 - `summary`: 鸟类简介
 - `lat`: 鸟类代表坐标纬度
 - `lng`: 鸟类代表坐标经度
+- `image_url`: （可选）鸟类图片 URL，由 Wikipedia 抓取脚本自动填充
 
 示例：
 
 ```csv
-id,name,english_name,latin_name,summary,lat,lng
-bird-siberian-crane,白鹤,Siberian Crane,Leucogeranus leucogeranus,大型涉禽，依赖湿地和浅水湖泊。,29.103,116.221
+id,name,english_name,latin_name,summary,lat,lng,image_url
+bird-siberian-crane,白鹤,Siberian Crane,Leucogeranus leucogeranus,大型涉禽，依赖湿地和浅水湖泊。,29.103,116.221,
 ```
 
 说明：
@@ -293,6 +295,12 @@ npm run build
 npm run crawl:wikipedia -- --titles "Red-crowned Crane" "Crested Ibis" --build-json
 ```
 
+如需通过代理访问 Wikipedia：
+
+```bash
+npm run crawl:wikipedia -- --titles "Red-crowned Crane" --proxy http://127.0.0.1:7890 --build-json
+```
+
 下载 AviList 标准鸟名并生成 `bird_titles.csv`：
 
 ```bash
@@ -392,6 +400,7 @@ python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv --build
 
 - 调用 MediaWiki API 抓取英文 Wikipedia 鸟类页面
 - 自动获取中文标题、摘要、页面原文提取和部分坐标
+- 通过 `prop=pageimages` 自动获取 Wikipedia 页面题图 URL（800px 缩略图），写入 `birds.csv` 的 `image_url` 列
 - 保存原始页面数据到 `data/wikipedia_raw/`
 - 根据规则抽取 `distributed_in`、`lives_in`、`has_status`、`threatened_by`、`belongs_to`
 - 自动写回 `data/birds.csv`、`data/locations.csv`、`data/relations.csv`
@@ -408,6 +417,39 @@ python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv --build
 - `relations.csv` 中保留 `evidence`，方便后续人工审核
 - 第一次抓取后，建议人工复核 `locations.csv` 和 `relations.csv`
 - 如果启用 `--build-json`，脚本结束后会自动刷新前端使用的 `public/knowledge.json`
+
+### 鸟类图片获取
+
+`crawl_from_wikipedia.py` 在抓取时通过 MediaWiki API 的 `prop=pageimages` 参数自动获取 Wikipedia 页面题图（800px 缩略图），存入 `birds.csv` 的 `image_url` 列。前端会在 `image_url` 有值时展示真实鸟类图片，无值时降级为随机占位图。
+
+**为已有鸟类补图：**
+
+如果 `birds.csv` 中已有数据但缺少 `image_url`，使用 `--overwrite` 参数重新抓取即可自动补图：
+
+```bash
+python scripts/crawl_from_wikipedia.py --titles "Red-crowned Crane" --overwrite --build-json
+```
+
+或者批量补图：
+
+```bash
+python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv --overwrite --build-json
+```
+
+`--overwrite` 会用新抓取的非空字段覆盖已有数据，原有 `summary`、`lat`、`lng` 等字段不受影响。
+
+**仅批量补图（推荐）：**
+
+如果只缺图片不想重新抓取完整页面，可用专用的图片获取脚本，每批 50 个标题批量查询，速度极快：
+
+```bash
+npm run fetch:bird-images
+# 或带代理
+python scripts/fetch_bird_images.py --proxy http://127.0.0.1:7890
+```
+
+脚本读取 `birds.csv` 中所有 `image_url` 为空的鸟类，通过 Wikipedia `prop=pageimages` API 批量获取题图 URL 并写回 CSV，最后需执行 `npm run build:data` 刷新前端数据。
+
 
 ### `scripts/download_bird_name_list.py`
 

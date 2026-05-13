@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build:data": "python scripts/build_knowledge_json.py",
+    "fetch:bird-images": "python scripts/fetch_bird_images.py",
     "crawl:wikipedia": "python scripts/crawl_from_wikipedia.py",
     "download:bird-names": "python scripts/download_bird_name_list.py",
     "dev": "vite",

@@ -27,7 +27,9 @@ const svgContainer = ref(null)
 
 const tooltip = reactive({ show: false, name: '', latin: '', status: '', color: '#006400', degree: 0, style: {} })
 
-const IUCN_COLOR = { CR: '#FF0000', EN: '#FFA500', VU: '#FFD700', NT: '#90EE90', LC: '#006400' }
+const IUCN_COLOR = { CR: '#ef4444', EN: '#f97316', VU: '#eab308', NT: '#22c55e', LC: '#16a34a' }
+const NODE_COLOR = '#4f8cf7'
+const NODE_STROKE = '#fff'
 
 let svg, gMain, zoomBehavior, simNodes, simEdges, nodeGroup, edgeGroup, labelGroup
 
@@ -157,14 +159,25 @@ function render() {
     // 入场合：边从透明渐入
     .attr('opacity', 0).transition().delay((d, i) => i * 0.5).duration(300).attr('opacity', 1)
 
-  // ── 8. 绘制节点 ──
+  // ── 8. 绘制节点（带阴影光晕） ──
   nodeGroup = gMain.append('g').attr('class', 'nodes')
-  const circles = nodeGroup.selectAll('circle').data(simNodes).join('circle')
+  // 先添加光晕
+  nodeGroup.selectAll('circle.glow').data(simNodes).join('circle')
+    .attr('class', 'glow')
+    .attr('r', d => d.nodeSize + 4)
+    .attr('fill', d => d.nodeColor)
+    .attr('opacity', 0.15)
+    .attr('cx', d => d.x).attr('cy', d => d.y)
+    .style('pointer-events', 'none')
+  // 主节点
+  const circles = nodeGroup.selectAll('circle.main').data(simNodes).join('circle')
+    .attr('class', 'main')
     .attr('r', d => d.nodeSize).attr('fill', d => d.nodeColor)
-    .attr('stroke', '#FFFFFF').attr('stroke-width', 1.2)
+    .attr('stroke', '#FFFFFF').attr('stroke-width', 2)
     .attr('cx', d => d.x).attr('cy', d => d.y)
     .attr('opacity', 1).style('cursor', 'pointer')
-    .style('transition', 'opacity 0.2s')
+    .style('filter', 'drop-shadow(0 2px 4px rgba(0,0,0,0.15))')
+    .style('transition', 'opacity 0.2s, r 0.2s')
 
   // ── 9. 节点名称标签（在所有节点旁显示） ──
   labelGroup = gMain.append('g').attr('class', 'labels')
@@ -206,8 +219,12 @@ function render() {
 
     circles.transition().duration(200)
       .attr('opacity', n => neighbors.has(n.id) ? 1 : 0.12)
-      .attr('stroke-width', n => n.id === d.id ? 3 : 1.2)
+      .attr('stroke-width', n => n.id === d.id ? 4 : 2)
       .attr('stroke', n => n.id === d.id ? '#333' : '#FFF')
+
+    nodeGroup.selectAll('circle.glow').transition().duration(200)
+      .attr('opacity', n => neighbors.has(n.id) ? 0.25 : 0.02)
+      .attr('r', n => neighbors.has(n.id) ? (n.nodeSize + 6) : (n.nodeSize + 4))
 
     labelGroup.selectAll('text').transition().duration(200)
       .attr('opacity', n => neighbors.has(n.id) ? 1 : 0.08)
@@ -276,8 +293,9 @@ function render() {
 
 function resetHighlight() {
   const isDark = document.documentElement.getAttribute('data-theme') === 'dark'
-  nodeGroup.selectAll('circle').transition().duration(200)
-    .attr('opacity', 1).attr('stroke-width', 1.2).attr('stroke', '#FFF')
+  nodeGroup.selectAll('circle.main').transition().duration(200)
+    .attr('opacity', 1).attr('stroke-width', 2).attr('stroke', '#FFF')
+  nodeGroup.selectAll('circle.glow').transition().duration(200).attr('opacity', 0.15)
   labelGroup.selectAll('text').transition().duration(200).attr('opacity', 0.85)
   edgeGroup.selectAll('line').transition().duration(200)
     .attr('stroke-opacity', isDark ? 0.25 : 0.3).attr('stroke-width', 0.5)
@@ -289,7 +307,8 @@ function applySearchHighlight() {
   const defEdgeOpacity = isDark ? 0.25 : 0.3
   const q = (props.searchQuery || '').trim().toLowerCase()
   if (!q) {
-    nodeGroup.selectAll('circle').attr('opacity', 1)
+    nodeGroup.selectAll('circle.main').attr('opacity', 1)
+    nodeGroup.selectAll('circle.glow').attr('opacity', 0.15)
     labelGroup.selectAll('text').attr('opacity', 0.85)
     edgeGroup.selectAll('line').attr('stroke-opacity', defEdgeOpacity).attr('stroke-width', 0.5)
     return
@@ -301,10 +320,14 @@ function applySearchHighlight() {
   })
   if (!matchIds.size) return
 
-  nodeGroup.selectAll('circle')
+  nodeGroup.selectAll('circle.main')
     .attr('opacity', n => matchIds.has(n.id) ? 1 : 0.08)
-    .attr('stroke-width', n => matchIds.has(n.id) ? 2.5 : 0.5)
+    .attr('stroke-width', n => matchIds.has(n.id) ? 3 : 0.5)
     .attr('stroke', n => matchIds.has(n.id) ? '#FF6600' : '#FFF')
+
+  nodeGroup.selectAll('circle.glow')
+    .attr('opacity', n => matchIds.has(n.id) ? 0.3 : 0.01)
+    .attr('r', n => matchIds.has(n.id) ? (n.nodeSize + 6) : (n.nodeSize + 4))
 
   labelGroup.selectAll('text')
     .attr('opacity', n => matchIds.has(n.id) ? 1 : 0.04)
@@ -400,14 +423,15 @@ onBeforeUnmount(() => {
 .academic-root { width: 100%; height: 100%; position: relative; }
 .academic-svg-container { width: 100%; height: 100%; min-height: 520px; }
 .academic-tooltip {
-  position: absolute; z-index: 20; pointer-events: none; padding: 10px 14px;
-  border-radius: 10px; background: rgba(255, 255, 255, 0.95);
-  border: 1px solid #ddd; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif; white-space: nowrap;
+  position: absolute; z-index: 20; pointer-events: none; padding: 12px 16px;
+  border-radius: 14px; background: var(--card-bg, rgba(255, 255, 255, 0.97));
+  border: 1px solid var(--panel-border); box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+  font-family: inherit; white-space: nowrap;
 }
-.tooltip-title { font-weight: 700; font-size: 14px; color: #222; }
-.tooltip-latin { font-size: 12px; font-style: italic; color: #666; margin-top: 2px; }
+.tooltip-title { font-weight: 700; font-size: 14px; color: var(--heading-color); }
+.tooltip-latin { font-size: 12px; font-style: italic; color: var(--text-secondary); margin-top: 2px; }
 .tooltip-row { display: flex; align-items: center; gap: 10px; margin-top: 6px; }
-.tooltip-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; color: #fff; }
-.tooltip-stat { font-size: 11px; color: #888; }
+.tooltip-badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 700; color: #fff; }
+.tooltip-stat { font-size: 11px; color: var(--text-secondary); }
 </style>

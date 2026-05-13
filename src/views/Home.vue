@@ -97,7 +97,11 @@
         </div>
 
         <div ref="containerRef" class="graph-canvas">
-          <Transition name="graph-fade" mode="out-in">
+          <div v-if="!store.loaded" class="graph-loading">
+            <div class="loading-spinner"></div>
+            <p>正在加载图谱数据…</p>
+          </div>
+          <Transition v-else name="graph-fade" mode="out-in">
             <!-- 探索模式：Sigma.js 画布 -->
             <SigmaCanvas v-if="graphMode === 'explore'"
               :bird-limit="graphBirdLimit"
@@ -120,6 +124,7 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
+import { useDebounceFn } from '@vueuse/core'
 import { useGraphStore } from '../stores/graphStore.js'
 import { useUIStore } from '../stores/uiStore.js'
 import SigmaCanvas from '../graph/SigmaCanvas.vue'
@@ -176,14 +181,14 @@ const academicSummary = computed(() => {
   return `${birds} 种鸟类 · IUCN 保护等级着色 · 力导向布局`
 })
 
-function handleSearch() {
+const handleSearch = useDebounceFn(() => {
   const q = searchQuery.value.trim().toLowerCase()
   if (!q) { searchResults.value = []; return }
   searchResults.value = store.nodes.filter(n => n.type === 'bird').filter(n => {
     const fields = [n.name, n.englishName, n.latinName].filter(Boolean)
     return fields.some(f => f.toLowerCase().includes(q))
   }).slice(0, 8)
-}
+}, 200)
 
 function goToBird(item) {
   if (item.type === 'bird') router.push(`/bird/${item.id}`)
@@ -227,13 +232,14 @@ onMounted(async () => {
 .search-section { position: relative; width: 100%; max-width: 680px; }
 .search-wrapper { position: relative; display: flex; align-items: center; }
 .search-icon { position: absolute; left: 20px; width: 22px; height: 22px; color: rgba(18, 48, 59, 0.4); pointer-events: none; }
-.search-input { width: 100%; padding: 18px 24px 18px 56px; border: 2px solid rgba(15, 118, 110, 0.2); border-radius: 999px; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); font-size: 17px; outline: none; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(31, 64, 76, 0.08); }
-.search-input:focus { border-color: #0f766e; box-shadow: 0 8px 32px rgba(15, 118, 110, 0.15); }
-.search-dropdown { position: absolute; top: 100%; left: 0; right: 0; margin-top: 8px; border-radius: 20px; background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(20px); border: 1px solid rgba(18, 48, 59, 0.1); box-shadow: 0 20px 45px rgba(31, 64, 76, 0.15); overflow: hidden; z-index: 100; }
+.search-input { width: 100%; padding: 18px 24px 18px 56px; border: 2px solid rgba(15, 118, 110, 0.2); border-radius: 999px; background: var(--card-bg); backdrop-filter: blur(10px); font-size: 17px; outline: none; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(31, 64, 76, 0.08); color: var(--text-color); }
+.search-input:focus { border-color: var(--accent); box-shadow: 0 8px 32px rgba(15, 118, 110, 0.15); }
+.search-input::placeholder { color: var(--text-secondary); }
+.search-dropdown { position: absolute; top: 100%; left: 0; right: 0; margin-top: 8px; border-radius: 20px; background: var(--card-bg); backdrop-filter: blur(20px); border: 1px solid var(--panel-border); box-shadow: var(--shadow); overflow: hidden; z-index: 100; }
 .search-result-item { padding: 14px 20px; cursor: pointer; transition: background 0.15s ease; }
-.search-result-item:hover { background: rgba(15, 118, 110, 0.08); }
-.result-name { font-weight: 600; color: #12303b; }
-.result-meta { font-size: 12px; color: rgba(18, 48, 59, 0.55); margin-top: 2px; }
+.search-result-item:hover { background: var(--accent-soft); }
+.result-name { font-weight: 600; color: var(--heading-color); }
+.result-meta { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
 
 .home-layout { display: flex; gap: 18px; }
 .home-sidebar { width: 280px; flex-shrink: 0; display: flex; flex-direction: column; gap: 14px; }
@@ -302,6 +308,18 @@ onMounted(async () => {
 .export-btn:hover { background: var(--accent-soft); border-color: var(--accent); }
 .highlight-btn { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 700; }
 .highlight-btn:hover { opacity: 0.9; }
+
+.graph-loading {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 100%; min-height: 400px; gap: 16px; color: var(--graph-muted);
+}
+.loading-spinner {
+  width: 40px; height: 40px; border-radius: 50%;
+  border: 3px solid var(--panel-border);
+  border-top-color: var(--accent);
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
 
 @media (max-width: 960px) {
   .home-layout { flex-direction: column; }

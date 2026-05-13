@@ -3,7 +3,11 @@
     <div v-if="tooltip.visible" class="sigma-tooltip" :style="tooltip.style">
       <div class="tooltip-name">{{ tooltip.name }}</div>
       <div class="tooltip-type">{{ tooltip.type }}</div>
-      <div v-if="tooltip.degree != null" class="tooltip-degree">{{ tooltip.degree }} 条关联</div>
+      <div v-if="tooltip.latin" class="tooltip-latin">{{ tooltip.latin }}</div>
+      <div class="tooltip-footer">
+        <span v-if="tooltip.degree != null" class="tooltip-degree">{{ tooltip.degree }} 条关联</span>
+        <span v-if="tooltip.status" class="tooltip-badge" :class="'badge-' + tooltip.status.toLowerCase()">{{ tooltip.status }}</span>
+      </div>
     </div>
   </div>
 </template>
@@ -32,22 +36,32 @@ let graph = null
 let resizeObserver = null
 let hoveredNode = null
 
-const tooltip = reactive({ visible: false, name: '', type: '', degree: null, style: {} })
+const tooltip = reactive({ visible: false, name: '', type: '', degree: null, latin: '', status: '', style: {} })
 
 const palette = {
   light: {
-    bird: '#5a6b7f', location: '#4d7a74', habitat: '#6b8a4e',
-    status: '#937a48', threat: '#7a555d', taxonomy: '#6e6791',
-    edge: 'rgba(30, 41, 59, 0.25)', edgeActive: 'rgba(15, 118, 110, 0.55)',
-    edgePath: 'rgba(251, 191, 36, 0.7)',
-    label: '#1e293b', bg: '#ffffff'
+    bird: '#4f8cf7', location: '#22c55e', habitat: '#f59e0b',
+    status: '#8b5cf6', threat: '#ef4444', taxonomy: '#ec4899',
+    birdStroke: '#3b72d3', locationStroke: '#16a34a', habitatStroke: '#d97706',
+    statusStroke: '#7c3aed', threatStroke: '#dc2626', taxonomyStroke: '#db2777',
+    edge: 'rgba(30, 41, 59, 0.5)', edgeActive: 'rgba(79, 140, 247, 0.75)',
+    edgePath: 'rgba(217, 119, 6, 0.9)',
+    label: '#0f172a', bg: '#ffffff',
+    tooltipBg: 'rgba(255, 255, 255, 0.97)',
+    tooltipBorder: 'rgba(79, 140, 247, 0.2)',
+    tooltipShadow: '0 12px 40px rgba(0, 0, 0, 0.12)'
   },
   dark: {
-    bird: '#94a3b8', location: '#6f9e98', habitat: '#8da56b',
-    status: '#b59a62', threat: '#9f727a', taxonomy: '#8b84ab',
-    edge: 'rgba(255, 255, 255, 0.12)', edgeActive: 'rgba(94, 234, 212, 0.4)',
-    edgePath: 'rgba(251, 191, 36, 0.7)',
-    label: '#f1f5f9', bg: 'transparent'
+    bird: '#93c5fd', location: '#6ee7b7', habitat: '#fde68a',
+    status: '#c4b5fd', threat: '#fca5a5', taxonomy: '#f9a8d4',
+    birdStroke: '#60a5fa', locationStroke: '#34d399', habitatStroke: '#fbbf24',
+    statusStroke: '#a78bfa', threatStroke: '#f87171', taxonomyStroke: '#f472b6',
+    edge: 'rgba(226, 232, 240, 0.3)', edgeActive: 'rgba(147, 197, 253, 0.7)',
+    edgePath: 'rgba(251, 191, 36, 0.9)',
+    label: '#ffffff', bg: 'transparent',
+    tooltipBg: 'rgba(15, 23, 42, 0.96)',
+    tooltipBorder: 'rgba(147, 197, 253, 0.2)',
+    tooltipShadow: '0 12px 40px rgba(0, 0, 0, 0.5)'
   }
 }
 
@@ -162,36 +176,61 @@ function initSigma() {
   buildGraph()
   if (sigma) { sigma.kill(); sigma = null }
 
+  const col = c()
+
   sigma = new Sigma(graph, el, {
     renderEdgeLabels: false,
     labelFont: 'Alegreya Sans, sans-serif',
-    labelSize: 11,
-    labelColor: { color: props.darkMode ? '#e2e8f0' : '#1e293b' },
-    defaultEdgeColor: c().edge,
+    labelSize: 13,
+    labelWeight: '700',
+    labelRenderedSizeThreshold: 4,
+    labelColor: { color: props.darkMode ? '#ffffff' : '#0f172a' },
+    labelStroke: props.darkMode ? '#0f172a' : '#ffffff',
+    labelStrokeWidth: props.darkMode ? 4 : 2,
+    defaultEdgeColor: col.edge,
     defaultEdgeType: 'arrow',
     edgeLabelSize: 9,
     zIndex: true,
-    // nodeReducer applies hover effect per-frame
+    enableEdgeEvents: true,
     nodeReducer: (nid, data) => {
+      const node = store.getNodeById(nid)
+      const type = node?.type || 'bird'
+      const color = col[type] || col.bird
+      const stroke = col[type + 'Stroke'] || col.birdStroke
       if (hoveredNode === nid) {
-        return { ...data, size: (data.size || 8) * 2, label: store.getNodeById(nid)?.name || data.label }
+        return {
+          ...data, color, size: (data.size || 8) * 2.5,
+          label: node?.name || data.label,
+          borderColor: '#fff', borderSize: 4,
+          forceLabel: true
+        }
       }
       if (hoveredNode && nid !== hoveredNode) {
         const connected = graph.edges(hoveredNode).some(e => {
           const [s, t] = graph.extremities(e)
           return s === nid || t === nid
         })
-        if (!connected) return { ...data, size: Math.max(3, (data.size || 8) * 0.4), label: data.label }
+        if (!connected) {
+          return {
+            ...data, color, size: Math.max(2, (data.size || 8) * 0.2),
+            borderColor: stroke, borderSize: 0.3
+          }
+        }
+        return {
+          ...data, color, size: (data.size || 8) * 0.85,
+          borderColor: stroke, borderSize: 1.5,
+          label: node?.name || data.label
+        }
       }
-      return data
+      return { ...data, color, borderColor: stroke, borderSize: 1 }
     },
     edgeReducer: (eid, data) => {
       if (hoveredNode) {
         const [s, t] = graph.extremities(eid)
         if (s === hoveredNode || t === hoveredNode) {
-          return { ...data, color: c().edgeActive, size: 2 }
+          return { ...data, color: col.edgeActive, size: 4 }
         }
-        return { ...data, size: (data.size || 1) * 0.2 }
+        return { ...data, size: (data.size || 1) * 0.08, color: col.edge }
       }
       return data
     }
@@ -210,6 +249,8 @@ function initSigma() {
       tooltip.name = n.name || n.id
       tooltip.type = typeLabel(n.type)
       tooltip.degree = store.getNodeDegree(n.id)
+      tooltip.latin = n.latinName || ''
+      tooltip.status = n.status || ''
     }
     sigma.refresh()
   })
@@ -294,14 +335,19 @@ onBeforeUnmount(() => {
 
 .sigma-tooltip {
   position: absolute; z-index: 10; pointer-events: none;
-  padding: 8px 12px; border-radius: 10px;
-  background: var(--card-bg, rgba(255, 255, 255, 0.92));
-  border: 1px solid var(--panel-border, rgba(18, 48, 59, 0.1));
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  backdrop-filter: blur(8px);
+  padding: 12px 16px; border-radius: 14px;
+  background: var(--card-bg, rgba(255, 255, 255, 0.97));
+  border: 1px solid var(--panel-border, rgba(79, 140, 247, 0.2));
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(12px);
   white-space: nowrap;
+  min-width: 120px;
 }
-.tooltip-name { font-weight: 700; font-size: 14px; color: var(--heading-color, #12303b); }
-.tooltip-type { font-size: 11px; color: var(--text-secondary, rgba(18, 48, 59, 0.55)); margin-top: 1px; }
-.tooltip-degree { font-size: 11px; color: var(--accent, #0f766e); margin-top: 2px; }
+.tooltip-name { font-weight: 700; font-size: 15px; color: var(--heading-color, #12303b); }
+.tooltip-type { font-size: 11px; color: var(--text-secondary, rgba(18, 48, 59, 0.55)); margin-top: 2px; text-transform: uppercase; letter-spacing: 0.05em; }
+.tooltip-latin { font-size: 12px; font-style: italic; color: var(--text-secondary, rgba(18, 48, 59, 0.5)); margin-top: 3px; padding-top: 6px; border-top: 1px solid rgba(0,0,0,0.06); }
+.tooltip-footer { display: flex; align-items: center; gap: 8px; margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(0,0,0,0.06); }
+.tooltip-degree { font-size: 11px; color: var(--accent, #4f8cf7); font-weight: 600; }
+.tooltip-badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 10px; font-weight: 700; color: #fff; letter-spacing: 0.03em; }
+.badge-cr { background: #ef4444; } .badge-en { background: #f97316; } .badge-vu { background: #eab308; color: #1e293b; } .badge-nt { background: #22c55e; } .badge-lc { background: #16a34a; }
 </style>

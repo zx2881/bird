@@ -17,12 +17,17 @@
       <div v-if="activeTab === 'birds'" class="bird-grid">
         <div v-for="bird in filteredBirds" :key="bird.id" class="bird-card" @click="goToBird(bird)">
           <div class="bird-card-img">
-            <img :src="`https://picsum.photos/seed/${bird.id}/300/200`" :alt="bird.name" loading="lazy" />
-            <span v-if="bird.status" class="bird-card-status" :class="statusClass(bird.status)">{{ bird.status }}</span>
+            <div class="bird-card-img-bg" :style="{ background: statusGradient(bird.status) }"></div>
+            <img :src="bird.imageUrl || `https://picsum.photos/seed/${bird.id}/300/200`" :alt="bird.name" loading="lazy" @error="onImgError" />
+            <span v-if="bird.status" class="bird-card-status" :class="statusClass(bird.status)">{{ statusLabel(bird.status) }}</span>
           </div>
           <div class="bird-card-body">
             <h3 class="bird-card-name">{{ bird.name }}</h3>
-            <p class="bird-card-english">{{ bird.englishName }}</p>
+            <p class="bird-card-english">{{ bird.englishName || bird.latinName || '' }}</p>
+            <div class="bird-card-meta">
+              <span v-if="bird.locations?.length" class="bird-card-meta-item">{{ bird.locations.length }} 个分布</span>
+              <span v-if="bird.habitats?.length" class="bird-card-meta-item">{{ bird.habitats.length }} 种栖息地</span>
+            </div>
           </div>
         </div>
         <div v-if="!filteredBirds.length" class="empty-state">没有匹配的鸟类</div>
@@ -108,6 +113,22 @@ function isHighlighted(group) {
 function statusClass(status) {
   return { CR: 'status-cr', EN: 'status-en', VU: 'status-vu', NT: 'status-nt', LC: 'status-lc' }[status] || 'status-lc'
 }
+function statusLabel(status) {
+  return { CR: '极危', EN: '濒危', VU: '易危', NT: '近危', LC: '无危' }[status] || status
+}
+function statusGradient(status) {
+  const g = {
+    CR: 'linear-gradient(135deg, #fecaca, #ef4444)',
+    EN: 'linear-gradient(135deg, #fed7aa, #f97316)',
+    VU: 'linear-gradient(135deg, #fef08a, #eab308)',
+    NT: 'linear-gradient(135deg, #bbf7d0, #22c55e)',
+    LC: 'linear-gradient(135deg, #bbf7d0, #16a34a)'
+  }
+  return g[status] || 'linear-gradient(135deg, #e2e8f0, #94a3b8)'
+}
+function onImgError(e) {
+  e.target.style.display = 'none'
+}
 function goToBird(bird) { router.push(`/bird/${bird.id}`) }
 function goToBirdById(id) { router.push(`/bird/${id}`) }
 
@@ -127,16 +148,36 @@ onMounted(async () => {
 .tab-btn { padding: 10px 24px; border: none; border-radius: 999px; background: transparent; color: var(--text-secondary); font-size: 14px; cursor: pointer; transition: all 0.2s ease; }
 .tab-btn:hover { background: rgba(15, 118, 110, 0.08); }
 .tab-active { background: #0f766e !important; color: #fff !important; font-weight: 600; }
-.bird-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; }
-.bird-card { border-radius: 20px; overflow: hidden; background: var(--card-bg); border: 1px solid var(--panel-border); box-shadow: 0 10px 30px rgba(31, 64, 76, 0.08); cursor: pointer; transition: all 0.25s ease; }
-.bird-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
-.bird-card-img { position: relative; width: 100%; height: 160px; overflow: hidden; background: #e2e8f0; }
-.bird-card-img img { width: 100%; height: 100%; object-fit: cover; }
-.bird-card-status { position: absolute; top: 10px; right: 10px; padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; color: #fff; }
-.status-cr { background: #dc2626; } .status-en { background: #b45309; } .status-vu { background: #ea580c; } .status-nt { background: #ca8a04; } .status-lc { background: #16a34a; }
-.bird-card-body { padding: 14px 16px; }
-.bird-card-name { margin: 0; font-size: 16px; color: var(--heading-color); }
-.bird-card-english { margin: 4px 0 0; font-size: 12px; color: var(--text-secondary); }
+.bird-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+.bird-card {
+  border-radius: 20px; overflow: hidden; background: var(--card-bg);
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 4px 16px rgba(31, 64, 76, 0.06);
+  cursor: pointer; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+.bird-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(31, 64, 76, 0.12);
+  border-color: var(--accent);
+}
+.bird-card-img { position: relative; width: 100%; height: 170px; overflow: hidden; background: #e2e8f0; }
+.bird-card-img-bg { position: absolute; inset: 0; opacity: 0.3; }
+.bird-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+.bird-card:hover .bird-card-img img { transform: scale(1.08); }
+.bird-card-status {
+  position: absolute; top: 12px; right: 12px; padding: 4px 12px;
+  border-radius: 999px; font-size: 11px; font-weight: 700; color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.03em;
+}
+.status-cr { background: #ef4444; } .status-en { background: #f97316; } .status-vu { background: #eab308; color: #1e293b; } .status-nt { background: #22c55e; } .status-lc { background: #16a34a; }
+.bird-card-body { padding: 16px 18px; }
+.bird-card-name { margin: 0; font-size: 17px; font-weight: 700; color: var(--heading-color); line-height: 1.3; }
+.bird-card-english { margin: 4px 0 0; font-size: 12px; color: var(--text-secondary); font-style: italic; }
+.bird-card-meta { display: flex; gap: 12px; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--panel-border); }
+.bird-card-meta-item { font-size: 11px; color: var(--text-secondary); background: var(--accent-soft); padding: 2px 10px; border-radius: 999px; }
 .relations-list { display: flex; flex-direction: column; gap: 8px; }
 .relation-item { display: flex; align-items: center; gap: 12px; padding: 14px 18px; border-radius: 16px; background: var(--card-bg); border: 1px solid var(--panel-border); transition: all 0.2s ease; }
 .relation-item:hover { background: var(--card-bg); box-shadow: 0 4px 12px rgba(31, 64, 76, 0.08); }

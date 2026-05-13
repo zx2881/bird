@@ -34,7 +34,7 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlencode
-from urllib.request import Request, urlopen
+from urllib.request import ProxyHandler, Request, build_opener, install_opener, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -44,7 +44,7 @@ DEFAULT_CHECKPOINT_DIR = DEFAULT_DATA_DIR / "wikipedia_checkpoint"
 BUILD_SCRIPT = ROOT / "scripts" / "build_knowledge_json.py"
 CHECKPOINT_VERSION = 1
 
-BIRDS_HEADERS = ["id", "name", "english_name", "latin_name", "summary", "lat", "lng"]
+BIRDS_HEADERS = ["id", "name", "english_name", "latin_name", "summary", "lat", "lng", "image_url"]
 LOCATIONS_HEADERS = ["id", "name", "summary", "lat", "lng"]
 RELATIONS_HEADERS = [
     "subject_id",
@@ -233,12 +233,18 @@ class PageBundle:
     coordinates: Tuple[Optional[float], Optional[float]]
     page_id: Optional[int]
     canonical_url: str
+    image_url: str = ""
 
 
 class WikiCrawler:
-    def __init__(self, delay: float = 0.3) -> None:
+    def __init__(self, delay: float = 0.3, proxy: str = "") -> None:
         self.delay = delay
         self.page_cache: Dict[Tuple[str, str, bool], PageBundle] = {}
+        self.opener = None
+        if proxy:
+            proxy_handler = ProxyHandler({"https": proxy})
+            self.opener = build_opener(proxy_handler)
+            install_opener(self.opener)
 
     def fetch_page_bundle(self, title: str, wiki: str = "en", include_wikitext: bool = True) -> PageBundle:
         cache_key = (wiki, title, include_wikitext)
@@ -251,12 +257,13 @@ class WikiCrawler:
             "formatversion": "2",
             "redirects": "1",
             "titles": title,
-            "prop": "extracts|coordinates|langlinks" + ("|revisions" if include_wikitext else ""),
+            "prop": "extracts|coordinates|langlinks|pageimages" + ("|revisions" if include_wikitext else ""),
             "explaintext": "1",
             "exsectionformat": "plain",
             "exlimit": "1",
             "lllang": "zh",
             "lllimit": "1",
+            "pithumbsize": "800",
         }
         if include_wikitext:
             params["rvprop"] = "content"
@@ -272,8 +279,24 @@ class WikiCrawler:
         )
 
         try:
-            with urlopen(request, timeout=30) as response:
-                payload = json.loads(response.read().decode("utf-8"))
+            opener = self.opener if self.opener else None
+            max_retries = 3
+            for attempt in range(max_retries):
+                try:
+                    if opener:
+                        with opener.open(request, timeout=30) as response:
+                            payload = json.loads(response.read().decode("utf-8"))
+                    else:
+                        with urlopen(request, timeout=30) as response:
+                            payload = json.loads(response.read().decode("utf-8"))
+                    break
+                except HTTPError as error:
+                    if error.code == 429 and attempt < max_retries - 1:
+                        wait = (attempt + 1) * 5
+                        print(f"  [retry] 429 限流，{wait}s 后重试 ({attempt + 1}/{max_retries - 1})")
+                        time.sleep(wait)
+                        continue
+                    raise
         except HTTPError as error:
             raise RuntimeError(f"{wiki} Wikipedia 请求失败: {error.code} {error.reason}") from error
         except URLError as error:
@@ -299,6 +322,8 @@ class WikiCrawler:
         lng = coords[0].get("lon") if coords else None
         langlinks = page.get("langlinks", [])
         zh_title = langlinks[0].get("title", "") if langlinks else ""
+        thumbnail = page.get("thumbnail", {})
+        image_url = thumbnail.get("source", "") if thumbnail else ""
         resolved_title = page.get("title", title)
         bundle = PageBundle(
             wiki=wiki,
@@ -310,6 +335,7 @@ class WikiCrawler:
             coordinates=(lat, lng),
             page_id=page.get("pageid"),
             canonical_url=f"https://{wiki}.wikipedia.org/wiki/{quote(resolved_title.replace(' ', '_'))}",
+            image_url=image_url,
         )
         self.page_cache[cache_key] = bundle
         if self.delay:
@@ -666,6 +692,7 @@ def build_bird_row(en_bundle: PageBundle, zh_bundle: Optional[PageBundle]) -> Di
         "summary": first_sentences(summary_source, limit=2, max_length=140),
         "lat": "" if lat is None else f"{lat}",
         "lng": "" if lng is None else f"{lng}",
+        "image_url": en_bundle.image_url or "",
     }
 
 
@@ -684,6 +711,7 @@ def build_raw_payload(en_bundle: PageBundle, zh_bundle: Optional[PageBundle], st
                 "lng": en_bundle.coordinates[1],
             },
             "zh_title": en_bundle.zh_title,
+            "image_url": en_bundle.image_url,
         },
         "zh": None
         if not zh_bundle
@@ -1040,6 +1068,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--overwrite", action="store_true", help="强制重抓已完成标题，并用新抓取值覆盖同一 id 的非空字段")
     parser.add_argument("--build-json", action="store_true", help="抓取结束后自动执行 build_knowledge_json.py")
     parser.add_argument("--delay", type=float, default=0.3, help="请求间隔秒数，默认 0.3")
+    parser.add_argument("--proxy", type=str, default="", help="HTTPS 代理地址，例如 http://127.0.0.1:7890")
     return parser.parse_args()
 
 
@@ -1072,7 +1101,7 @@ def main() -> None:
 
     completed_title_keys = build_completed_title_keys(birds_rows, checkpoints)
 
-    crawler = WikiCrawler(delay=args.delay)
+    crawler = WikiCrawler(delay=args.delay, proxy=args.proxy)
     crawled_count = 0
     skipped_count = 0
 

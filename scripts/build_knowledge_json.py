@@ -333,6 +333,7 @@ def build_graph() -> Dict:
             "threats": [],
             "lat": parse_float(row["lat"]),
             "lng": parse_float(row["lng"]),
+            "imageUrl": row.get("image_url", "").strip(),
         }
         nodes[node["id"]] = node
         birds_by_id[node["id"]] = node
