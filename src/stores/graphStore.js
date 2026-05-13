@@ -42,7 +42,10 @@ export const useGraphStore = defineStore('graph', () => {
     if (loaded.value) return
     loading.value = true
     try {
-      const res = await fetch('/knowledge.json')
+      const res = await fetch(`${import.meta.env.BASE_URL}knowledge.json`)// 关键修改点：使用 import.meta.env.BASE_URL 来构建正确的路径
+      if (!res.ok) {
+        throw new Error(`Failed to load knowledge.json: ${res.status} ${res.statusText}`)
+      }
       const data = await res.json()
       meta.value = data.meta
       nodes.value = data.nodes
