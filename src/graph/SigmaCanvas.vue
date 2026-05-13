@@ -38,16 +38,16 @@ const palette = {
   light: {
     bird: '#5a6b7f', location: '#4d7a74', habitat: '#6b8a4e',
     status: '#937a48', threat: '#7a555d', taxonomy: '#6e6791',
-    edge: 'rgba(30, 41, 59, 0.15)', edgeActive: 'rgba(15, 118, 110, 0.5)',
+    edge: 'rgba(30, 41, 59, 0.25)', edgeActive: 'rgba(15, 118, 110, 0.55)',
     edgePath: 'rgba(251, 191, 36, 0.7)',
     label: '#1e293b', bg: '#ffffff'
   },
   dark: {
     bird: '#94a3b8', location: '#6f9e98', habitat: '#8da56b',
     status: '#b59a62', threat: '#9f727a', taxonomy: '#8b84ab',
-    edge: 'rgba(255, 255, 255, 0.08)', edgeActive: 'rgba(94, 234, 212, 0.35)',
+    edge: 'rgba(255, 255, 255, 0.12)', edgeActive: 'rgba(94, 234, 212, 0.4)',
     edgePath: 'rgba(251, 191, 36, 0.7)',
-    label: '#e2e8f0', bg: 'transparent'
+    label: '#f1f5f9', bg: 'transparent'
   }
 }
 
@@ -176,13 +176,13 @@ function initSigma() {
       if (hoveredNode === nid) {
         return { ...data, size: (data.size || 8) * 2, label: store.getNodeById(nid)?.name || data.label }
       }
-    if (hoveredNode && nid !== hoveredNode) {
+      if (hoveredNode && nid !== hoveredNode) {
         const connected = graph.edges(hoveredNode).some(e => {
-            const [s, t] = graph.extremities(e)
-            return s === nid || t === nid
+          const [s, t] = graph.extremities(e)
+          return s === nid || t === nid
         })
-        if (!connected) return { ...data, size: Math.max(3, (data.size || 8) * 0.4), label: '' }
-    }
+        if (!connected) return { ...data, size: Math.max(3, (data.size || 8) * 0.4), label: data.label }
+      }
       return data
     },
     edgeReducer: (eid, data) => {

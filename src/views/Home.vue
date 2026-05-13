@@ -97,18 +97,20 @@
         </div>
 
         <div ref="containerRef" class="graph-canvas">
-          <!-- 探索模式：Sigma.js 画布 -->
-          <SigmaCanvas v-if="graphMode === 'explore'"
-            :bird-limit="graphBirdLimit"
-            :label-mode="labelMode"
-            :focus-entity-id="focusEntityId"
-            :active-types="activeContextTypes"
-            :highlight-path="highlightPath"
-            :dark-mode="uiStore.darkMode"
-            @node-click="handleNodeClick"
-          />
-          <!-- 学术模式：D3 发表级学术网络图 -->
-          <AcademicGraph v-if="graphMode === 'academic'" ref="academicGraphRef" />
+          <Transition name="graph-fade" mode="out-in">
+            <!-- 探索模式：Sigma.js 画布 -->
+            <SigmaCanvas v-if="graphMode === 'explore'"
+              :bird-limit="graphBirdLimit"
+              :label-mode="labelMode"
+              :focus-entity-id="focusEntityId"
+              :active-types="activeContextTypes"
+              :highlight-path="highlightPath"
+              :dark-mode="uiStore.darkMode"
+              @node-click="handleNodeClick"
+            />
+            <!-- 学术模式：D3 发表级学术网络图 -->
+            <AcademicGraph v-else ref="academicGraphRef" :search-query="searchQuery" />
+          </Transition>
         </div>
       </section>
     </div>
@@ -277,6 +279,21 @@ onMounted(async () => {
 .reset-btn { margin-left: 4px; background: var(--graph-pill-bg); border-color: var(--graph-pill-border); }
 
 .graph-canvas { width: 100%; flex: 1; min-height: 520px; border-radius: 16px; overflow: hidden; border: 1px solid var(--graph-canvas-border); position: relative; }
+
+/* ── 动效 ── */
+.home-page { animation: pageIn 0.4s ease-out; }
+@keyframes pageIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+.graph-panel { animation: panelIn 0.5s ease-out; }
+@keyframes panelIn { from { opacity: 0; transform: scale(0.98); } to { opacity: 1; transform: scale(1); } }
+
+.graph-canvas { transition: border-color 0.3s ease; }
+.graph-fade-enter-active, .graph-fade-leave-active { transition: opacity 0.25s ease, transform 0.25s ease; }
+.graph-fade-enter-from { opacity: 0; transform: scale(0.97); }
+.graph-fade-leave-to { opacity: 0; transform: scale(0.97); }
+
+.pill { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
+.pill:active { transform: scale(0.95); }
 
 .export-panel { padding: 16px; }
 .analyzer-title { margin: 0 0 12px; font-size: 15px; color: var(--heading-color); }

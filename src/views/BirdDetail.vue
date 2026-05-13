@@ -9,6 +9,7 @@
       </div>
     </div>
     <div class="detail-content-area" :class="{ 'detail-modal': layoutMode === 'modal' }">
+      <button class="back-btn" @click="router.back()">← 返回</button>
       <div v-if="bird" class="detail-card-inner">
         <div class="detail-top-bar">
           <div v-if="layoutMode === 'modal'" class="modal-backdrop-bg"></div>
@@ -177,6 +178,8 @@ onBeforeUnmount(() => { detailMapInstance?.remove() })
 .rel-label { font-size: 12px; color: var(--text-secondary); }
 .rel-bird { font-weight: 600; color: var(--accent); }
 .no-relations { color: var(--text-secondary); font-size: 14px; }
+.back-btn { display: inline-flex; align-items: center; gap: 4px; padding: 8px 16px; margin-bottom: 12px; border: 1px solid var(--panel-border); border-radius: 999px; background: var(--nav-bg); color: var(--text-color); font-size: 13px; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+.back-btn:hover { background: var(--accent-soft); border-color: var(--accent); }
 .loading-state { padding: 60px; text-align: center; color: var(--text-secondary); }
 @media (max-width: 860px) {
   .detail-page.panel { flex-direction: column; }

@@ -117,8 +117,14 @@ function initEndangermentChart() {
 }
 
 function initOverviewMap() {
-  if (!overviewMapRef.value || mapInstance) return
-  mapInstance = L.map(overviewMapRef.value, { zoomControl: true, worldCopyJump: true }).setView([20, 110], 2)
+  const el = overviewMapRef.value
+  if (!el || mapInstance) return
+  // 确保容器有尺寸后再初始化
+  if (el.clientWidth === 0 || el.clientHeight === 0) {
+    setTimeout(initOverviewMap, 200)
+    return
+  }
+  mapInstance = L.map(el, { zoomControl: true, worldCopyJump: true }).setView([20, 110], 2)
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18,
     attribution: '&copy; OpenStreetMap contributors' }).addTo(mapInstance)
   markersLayer = L.layerGroup().addTo(mapInstance)
@@ -131,6 +137,8 @@ function initOverviewMap() {
     marker.on('click', () => router.push(`/bird/${bird.id}`))
     markersLayer.addLayer(marker)
   })
+  // 首次加载后通知地图重算尺寸
+  setTimeout(() => mapInstance?.invalidateSize(), 300)
 }
 
 function handleResize() {

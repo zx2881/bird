@@ -12,32 +12,35 @@
       <button class="tab-btn" :class="{ 'tab-active': activeTab === 'birds' }" @click="activeTab = 'birds'">鸟类一览</button>
       <button class="tab-btn" :class="{ 'tab-active': activeTab === 'relations' }" @click="activeTab = 'relations'">关系一览</button>
     </div>
-    <div v-if="activeTab === 'birds'" class="bird-grid">
-      <div v-for="bird in filteredBirds" :key="bird.id" class="bird-card" @click="goToBird(bird)">
-        <div class="bird-card-img">
-          <img :src="`https://picsum.photos/seed/${bird.id}/300/200`" :alt="bird.name" loading="lazy" />
-          <span v-if="bird.status" class="bird-card-status" :class="statusClass(bird.status)">{{ bird.status }}</span>
+    <div v-if="!store.loaded" class="empty-state">正在加载数据…</div>
+    <template v-else>
+      <div v-if="activeTab === 'birds'" class="bird-grid">
+        <div v-for="bird in filteredBirds" :key="bird.id" class="bird-card" @click="goToBird(bird)">
+          <div class="bird-card-img">
+            <img :src="`https://picsum.photos/seed/${bird.id}/300/200`" :alt="bird.name" loading="lazy" />
+            <span v-if="bird.status" class="bird-card-status" :class="statusClass(bird.status)">{{ bird.status }}</span>
+          </div>
+          <div class="bird-card-body">
+            <h3 class="bird-card-name">{{ bird.name }}</h3>
+            <p class="bird-card-english">{{ bird.englishName }}</p>
+          </div>
         </div>
-        <div class="bird-card-body">
-          <h3 class="bird-card-name">{{ bird.name }}</h3>
-          <p class="bird-card-english">{{ bird.englishName }}</p>
+        <div v-if="!filteredBirds.length" class="empty-state">没有匹配的鸟类</div>
+      </div>
+      <div v-if="activeTab === 'relations'" class="relations-list">
+        <div v-for="(group, idx) in filteredRelations" :key="idx" class="relation-item" :class="{ 'relation-highlight': isHighlighted(group) }">
+          <span class="relation-source" @click="goToBirdById(group.source.id)">{{ group.source.name }}</span>
+          <span class="relation-arrow">
+            <span class="relation-label">{{ group.link.label || group.link.relation }}</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </span>
+          <span class="relation-target" @click="goToBirdById(group.target.id)">{{ group.target.name }}</span>
         </div>
+        <div v-if="!filteredRelations.length" class="empty-state">没有匹配的关系</div>
       </div>
-      <div v-if="!filteredBirds.length" class="empty-state">没有匹配的鸟类</div>
-    </div>
-    <div v-if="activeTab === 'relations'" class="relations-list">
-      <div v-for="(group, idx) in filteredRelations" :key="idx" class="relation-item" :class="{ 'relation-highlight': isHighlighted(group) }">
-        <span class="relation-source" @click="goToBirdById(group.source.id)">{{ group.source.name }}</span>
-        <span class="relation-arrow">
-          <span class="relation-label">{{ group.link.label || group.link.relation }}</span>
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
-          </svg>
-        </span>
-        <span class="relation-target" @click="goToBirdById(group.target.id)">{{ group.target.name }}</span>
-      </div>
-      <div v-if="!filteredRelations.length" class="empty-state">没有匹配的关系</div>
-    </div>
+    </template>
   </div>
 </template>
 
