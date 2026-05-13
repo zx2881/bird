@@ -30,7 +30,9 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  // 关键修改点：传入 import.meta.env.BASE_URL
+  // 这会自动读取你 vite.config.js 里的 base: '/bird/'
+  history: createWebHistory(import.meta.env.BASE_URL), 
   routes
 })
 
