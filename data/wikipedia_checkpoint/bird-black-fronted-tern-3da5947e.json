@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:03:05",
+  "requested_title": "Black-fronted Tern",
+  "resolved_title": "Black-fronted tern",
+  "title_aliases": [
+    "Black-fronted Tern"
+  ],
+  "bird_id": "bird-black-fronted-tern-3da5947e",
+  "raw_file": "bird-black-fronted-tern-3da5947e.json",
+  "bird": {
+    "id": "bird-black-fronted-tern-3da5947e",
+    "name": "Black-fronted tern",
+    "english_name": "Black-fronted tern",
+    "latin_name": "Chlidonias albostriatus",
+    "summary": "The black-fronted tern (Chlidonias albostriatus), sea martin, ploughboy, or tarapiroe (Māori), is a medium-small tern endemic to New Zealan…",
+    "lat": "-39",
+    "lng": "176",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Black-fronted_Tern_0A2A8159.jpg/960px-Black-fronted_Tern_0A2A8159.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北島-紐西蘭-9849287a",
+      "name": "北島 (紐西蘭)",
+      "summary": "The North Island (co-officially Te Ika-a-Māui from Māori) is one of the two main islands of New Zealand, separated from…",
+      "lat": "-39",
+      "lng": "176"
+    },
+    {
+      "id": "loc-南島-新西蘭-1f549b28",
+      "name": "南島 (新西蘭)",
+      "summary": "南島（英語：South Island；毛利語：Te Wai Pounamu）是组成紐西蘭的兩個主要岛屿之一，与北島被库克海峡隔断。新西兰首都惠灵顿即在南岛对岸，福沃海峡在南面，使之与斯图尔特岛分开。西面为塔斯曼海，东面为南太平洋。該島的毛…",
+      "lat": "-43.6",
+      "lng": "170.4"
+    },
+    {
+      "id": "loc-斯圖爾特島-5edbac82",
+      "name": "斯圖爾特島",
+      "summary": "斯圖爾特島（英語：Stewart Island；毛利語：Rakiura）是紐西蘭的第三大島，位於南島南方大約30公里，與南島相隔福沃海峽遙望因沃卡格爾的布拉夫港（Bluff）。這座東西寬約四十公里，人口不到五百人的島嶼，之所以吸引人，就在…",
+      "lat": "-47",
+      "lng": "167.84"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-fronted-tern-3da5947e",
+      "subject": "Black-fronted tern",
+      "predicate": "distributed_in",
+      "object_id": "loc-北島-紐西蘭-9849287a",
+      "object": "北島 (紐西蘭)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Black-fronted terns can be found in coastal habitats from the southern tip of the North Island to the eastern South Island as well as Stewart Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-fronted-tern-3da5947e",
+      "subject": "Black-fronted tern",
+      "predicate": "distributed_in",
+      "object_id": "loc-南島-新西蘭-1f549b28",
+      "object": "南島 (新西蘭)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Black-fronted terns can be found in coastal habitats from the southern tip of the North Island to the eastern South Island as well as Stewart Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-fronted-tern-3da5947e",
+      "subject": "Black-fronted tern",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯圖爾特島-5edbac82",
+      "object": "斯圖爾特島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Black-fronted terns can be found in coastal habitats from the southern tip of the North Island to the eastern South Island as well as Stewart Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-fronted-tern-3da5947e",
+      "subject": "Black-fronted tern",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-black-fronted-tern-3da5947e",
+      "subject": "Black-fronted tern",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Black-fronted terns are vulnerable to a range of threats, including predation by introduced mammals, habitat loss (land use changes and weed encroachment), resource abstraction (gravel and water), human disturbance, and climate change",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-black-fronted-tern-3da5947e",
+      "subject": "Black-fronted tern",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Black-fronted terns are vulnerable to a range of threats, including predation by introduced mammals, habitat loss (land use changes and weed encroachment), resource abstraction (gravel and water), human disturbance, and climate change",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    },
+    {
+      "subject_id": "bird-black-fronted-tern-3da5947e",
+      "subject": "Black-fronted tern",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Black-fronted terns are vulnerable to a range of threats, including predation by introduced mammals, habitat loss (land use changes and weed encroachment), resource abstraction (gravel and water), human disturbance, and climate change",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

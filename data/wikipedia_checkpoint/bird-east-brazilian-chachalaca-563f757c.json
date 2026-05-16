@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:21:03",
+  "requested_title": "East Brazilian Chachalaca",
+  "resolved_title": "East Brazilian chachalaca",
+  "title_aliases": [
+    "East Brazilian Chachalaca"
+  ],
+  "bird_id": "bird-east-brazilian-chachalaca-563f757c",
+  "raw_file": "bird-east-brazilian-chachalaca-563f757c.json",
+  "bird": {
+    "id": "bird-east-brazilian-chachalaca-563f757c",
+    "name": "East Brazilian chachalaca",
+    "english_name": "East Brazilian chachalaca",
+    "latin_name": "Ortalis araucuan",
+    "summary": "The East Brazilian chachalaca (Ortalis araucuan) is a species of bird in the family Cracidae, the chachalacas, guans, and curassows. It is…",
+    "lat": "-5.74",
+    "lng": "-36.55",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Ortalis_%28guttata%29_araucuan_%282818916890%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-北里奥格兰德州-f4a64aa6",
+      "name": "北里奥格兰德州",
+      "summary": "北里奥格兰德州（葡萄牙語：Rio Grande do Norte）或称北大河州，是巴西的一個州，位於巴西東北部的海岸，共拥有167个城市，面积52,796.791 km²，人口300多万人，其中73%聚集在市区，州府纳塔尔，意为圣诞节，為…",
+      "lat": "-5.74",
+      "lng": "-36.55"
+    },
+    {
+      "id": "loc-圣埃斯皮里图州-b4d4ca04",
+      "name": "圣埃斯皮里图州",
+      "summary": "Espírito Santo (Portuguese: [(i)sˈpiɾitu ˈsɐ̃tu] ; lit.",
+      "lat": "-20.25",
+      "lng": "-40.28"
+    },
+    {
+      "id": "loc-米纳斯吉拉斯州-f090fcd8",
+      "name": "米纳斯吉拉斯州",
+      "summary": "米纳斯吉拉斯州（葡萄牙語：Minas Gerais，[ˈminɐz ʒeˈɾajs] ；直译：「一般〔普通〕的矿山」）是巴西东南部一个州，人口约两千万。是巴西第二人口大州，国内生产总值也排名全国第三。该州以山、瀑布、历史名城、宝石，以及盛…",
+      "lat": "-19.78222222",
+      "lng": "-43.95138889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-east-brazilian-chachalaca-563f757c",
+      "subject": "East Brazilian chachalaca",
+      "predicate": "distributed_in",
+      "object_id": "loc-北里奥格兰德州-f4a64aa6",
+      "object": "北里奥格兰德州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The East Brazilian chachalaca is found in a fairly narrow strip of far eastern Brazil, from Rio Grande do Norte south into Espírito Santo and Minas Gerais",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-east-brazilian-chachalaca-563f757c",
+      "subject": "East Brazilian chachalaca",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣埃斯皮里图州-b4d4ca04",
+      "object": "圣埃斯皮里图州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The East Brazilian chachalaca is found in a fairly narrow strip of far eastern Brazil, from Rio Grande do Norte south into Espírito Santo and Minas Gerais",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-east-brazilian-chachalaca-563f757c",
+      "subject": "East Brazilian chachalaca",
+      "predicate": "distributed_in",
+      "object_id": "loc-米纳斯吉拉斯州-f090fcd8",
+      "object": "米纳斯吉拉斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The East Brazilian chachalaca is found in a fairly narrow strip of far eastern Brazil, from Rio Grande do Norte south into Espírito Santo and Minas Gerais",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-east-brazilian-chachalaca-563f757c",
+      "subject": "East Brazilian chachalaca",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-east-brazilian-chachalaca-563f757c",
+      "subject": "East Brazilian chachalaca",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It appears to tolerate human activity and human-altered habitat but does face some pressure from habitat destruction and hunting",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-east-brazilian-chachalaca-563f757c",
+      "subject": "East Brazilian chachalaca",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It appears to tolerate human activity and human-altered habitat but does face some pressure from habitat destruction and hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

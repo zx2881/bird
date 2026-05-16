@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:28:19",
+  "requested_title": "Stone Partridge",
+  "resolved_title": "Stone partridge",
+  "title_aliases": [
+    "Stone Partridge"
+  ],
+  "bird_id": "bird-stone-partridge-949f6b7a",
+  "raw_file": "bird-stone-partridge-949f6b7a.json",
+  "bird": {
+    "id": "bird-stone-partridge-949f6b7a",
+    "name": "Stone partridge",
+    "english_name": "Stone partridge",
+    "latin_name": "Ptilopachus petrosus",
+    "summary": "The stone partridge (Ptilopachus petrosus) is a bird of the New World quail family. This largely brown bird, which commonly holds its tail…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Stone_Partridge.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-冈比亚-62ab57ad",
+      "name": "冈比亚",
+      "summary": "甘比亞共和国（英語：Republic of The Gambia） 通稱甘比亞（英語：The Gambia），是位於西非的國家，陸上被塞内加爾環繞，面积11,295平方公里，是非洲大陆最小的國家。甘比亞河貫通國家中央，流往大西洋。1965…",
+      "lat": "13.45",
+      "lng": "-16.575"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-stone-partridge-949f6b7a",
+      "subject": "Stone partridge",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This largely brown bird, which commonly holds its tail raised, is found in scrubland and lightly wooded habitats, often near rocks, from Kenya and Ethiopia to Gambia (a large part if its range is in the Sudanian Savanna)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stone-partridge-949f6b7a",
+      "subject": "Stone partridge",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This largely brown bird, which commonly holds its tail raised, is found in scrubland and lightly wooded habitats, often near rocks, from Kenya and Ethiopia to Gambia (a large part if its range is in the Sudanian Savanna)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stone-partridge-949f6b7a",
+      "subject": "Stone partridge",
+      "predicate": "distributed_in",
+      "object_id": "loc-冈比亚-62ab57ad",
+      "object": "冈比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This largely brown bird, which commonly holds its tail raised, is found in scrubland and lightly wooded habitats, often near rocks, from Kenya and Ethiopia to Gambia (a large part if its range is in the Sudanian Savanna)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stone-partridge-949f6b7a",
+      "subject": "Stone partridge",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This largely brown bird, which commonly holds its tail raised, is found in scrubland and lightly wooded habitats, often near rocks, from Kenya and Ethiopia to Gambia (a large part if its range is in the Sudanian Savanna)",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-stone-partridge-949f6b7a",
+      "subject": "Stone partridge",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This largely brown bird, which commonly holds its tail raised, is found in scrubland and lightly wooded habitats, often near rocks, from Kenya and Ethiopia to Gambia (a large part if its range is in the Sudanian Savanna)",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-stone-partridge-949f6b7a",
+      "subject": "Stone partridge",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

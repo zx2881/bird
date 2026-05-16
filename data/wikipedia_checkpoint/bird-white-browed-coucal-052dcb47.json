@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:34:03",
+  "requested_title": "White-browed Coucal",
+  "resolved_title": "White-browed coucal",
+  "title_aliases": [
+    "White-browed Coucal"
+  ],
+  "bird_id": "bird-white-browed-coucal-052dcb47",
+  "raw_file": "bird-white-browed-coucal-052dcb47.json",
+  "bird": {
+    "id": "bird-white-browed-coucal-052dcb47",
+    "name": "White-browed coucal",
+    "english_name": "White-browed coucal",
+    "latin_name": "Centropus superciliosus",
+    "summary": "The white-browed coucal or lark-heeled cuckoo (Centropus superciliosus), is a species of cuckoo in the family Cuculidae. It is found in sub…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Centropus_superciliosus_-Tanzania-8.jpg/960px-Centropus_superciliosus_-Tanzania-8.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-岸-4d4f1e5c",
+      "name": "岸",
+      "summary": "岸（又稱濱），分為海岸、湖岸及河岸，是在水面和陆地接触处，经波浪、潮汐、海流等作用下形成的滨水地带，其中有眾多沉積物堆積而形成的岸稱為灘。 海水作用 波浪，經常造成侵蝕 海流，經常造成堆積 潮汐 海岸類型 依構成物質區分 可分為岩岸與沙岸…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-browed-coucal-052dcb47",
+      "subject": "White-browed coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-岸-4d4f1e5c",
+      "object": "岸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits areas with thick cover afforded by rank undergrowth and scrub, including in suitable coastal regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-coucal-052dcb47",
+      "subject": "White-browed coucal",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

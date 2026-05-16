@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:33:21",
+  "requested_title": "Buru Mountain Pigeon",
+  "resolved_title": "Buru mountain pigeon",
+  "title_aliases": [
+    "Buru Mountain Pigeon"
+  ],
+  "bird_id": "bird-長尾山鳩-e825bcd5",
+  "raw_file": "bird-長尾山鳩-e825bcd5.json",
+  "bird": {
+    "id": "bird-長尾山鳩-e825bcd5",
+    "name": "長尾山鳩",
+    "english_name": "Buru mountain pigeon",
+    "latin_name": "Gymnophaps mada",
+    "summary": "長尾山鳩（學名：Gymnophaps mada）是鳩鴿科山鳩屬的一種鳥，為印尼特有種，僅分布於布魯島的山地與低地樹林中。本種與斯蘭島的斯兰山鸠過去被認為是同種，後來因外觀差異而被拆分為兩種。本種以果實為食，繁殖季為10月至12月。本種略有兩性異形，雌性體型較小，胸部顏色偏向酒紅…",
+    "lat": "-3.425",
+    "lng": "126.6675",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Gymnophaps_mada_247571885.jpg/960px-Gymnophaps_mada_247571885.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-布魯島-4739164a",
+      "name": "布魯島",
+      "summary": "布魯島（印尼語：Pulau Buru），清代書籍譯作武羅、木魯、布盧，又譯務羅、未羅、普路、布襦、部魯，是印度尼西亞摩鹿加省的熱帶小島，位於安汶島和斯蘭島以西，面積8,473平方公里，是摩鹿加群島的第三大島嶼，2012年人口約206,84…",
+      "lat": "-3.425",
+      "lng": "126.6675"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-長尾山鳩-e825bcd5",
+      "subject": "長尾山鳩",
+      "predicate": "distributed_in",
+      "object_id": "loc-布魯島-4739164a",
+      "object": "布魯島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia and inhabits montane forest and disturbed lowland forest on Buru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-長尾山鳩-e825bcd5",
+      "subject": "長尾山鳩",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is endemic to Indonesia and inhabits montane forest and disturbed lowland forest on Buru",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-長尾山鳩-e825bcd5",
+      "subject": "長尾山鳩",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It mainly inhabits hill and montane forests, and occasionally visits lowland disturbed forests to feed",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-長尾山鳩-e825bcd5",
+      "subject": "長尾山鳩",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

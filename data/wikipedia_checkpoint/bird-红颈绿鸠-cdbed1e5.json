@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:09:04",
+  "requested_title": "Pink-necked Green Pigeon",
+  "resolved_title": "Pink-necked green pigeon",
+  "title_aliases": [
+    "Pink-necked Green Pigeon"
+  ],
+  "bird_id": "bird-红颈绿鸠-cdbed1e5",
+  "raw_file": "bird-红颈绿鸠-cdbed1e5.json",
+  "bird": {
+    "id": "bird-红颈绿鸠-cdbed1e5",
+    "name": "红颈绿鸠",
+    "english_name": "Pink-necked green pigeon",
+    "latin_name": "Treron vernans",
+    "summary": "红颈绿鸠（学名：Treron vernans）是鸠鸽科绿鸠属的一种。分布于东南亚，包括柬埔寨、印度尼西亚、汶莱、马来西亚、缅甸、菲律宾、新加坡、泰国和越南等。它们的自然栖息地是热带及副热带低地雨林、红树林和山地森林。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Treron_vernans_male_-_Kent_Ridge_Park.jpg/960px-Treron_vernans_male_-_Kent_Ridge_Park.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红颈绿鸠-cdbed1e5",
+      "subject": "红颈绿鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occupies a variety of habitats, including primary forest, forest edge, secondary forest, and coastal mangroves. It favours more open environments and where it is found in association with denser forest it is typically on the edges. It is also readily found in human dominated environments such as gardens, plantations and farmland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红颈绿鸠-cdbed1e5",
+      "subject": "红颈绿鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occupies a variety of habitats, including primary forest, forest edge, secondary forest, and coastal mangroves. It favours more open environments and where it is found in association with denser forest it is typically on the edges. It is also readily found in human dominated environments such as gardens, plantations and farmland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红颈绿鸠-cdbed1e5",
+      "subject": "红颈绿鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-红颈绿鸠-cdbed1e5",
+      "subject": "红颈绿鸠",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "|journal=Raffles Bulletin of Zoology |date=2012 |volume=Supplement 25 |pages=89–196 |url=https://www.researchgate.net/publication/256094237}} In spite of suffering some hunting pressure in Thailand, Malaysia and Sumatra, and being targeted by the cage bird trade, it remains common there and across most of its range. Because it is not considered to be in any danger of extinction it has been evaluated as least concern by the IUCN Red List of Threatened Species",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

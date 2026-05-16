@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:34:04",
+  "requested_title": "Nahan's Partridge",
+  "resolved_title": "Nahan's partridge",
+  "title_aliases": [
+    "Nahan's Partridge"
+  ],
+  "bird_id": "bird-nahan-s-partridge-bf71e571",
+  "raw_file": "bird-nahan-s-partridge-bf71e571.json",
+  "bird": {
+    "id": "bird-nahan-s-partridge-bf71e571",
+    "name": "Nahan's partridge",
+    "english_name": "Nahan's partridge",
+    "latin_name": "Ptilopachus nahani",
+    "summary": "Nahan's partridge (Ptilopachus nahani), also known as the Nahan's francolin, is a bird traditionally placed in the family Phasianidae. As s…",
+    "lat": "1",
+    "lng": "32",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Ptilopachus_nahani_248349948.jpg/960px-Ptilopachus_nahani_248349948.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-乌干达-8bd6d93b",
+      "name": "乌干达",
+      "summary": "烏干達共和國（斯瓦希里語：Jamhuri ya Uganda，英語：Republic of Uganda），通稱烏干達，是位於東非的內陸國家。 烏干達名稱來自於過去班圖人建立的布干達王國。歐洲列強在十九世紀後葉進入東非內陸後，烏干達在18…",
+      "lat": "1",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-nahan-s-partridge-bf71e571",
+      "subject": "Nahan's partridge",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌干达-8bd6d93b",
+      "object": "乌干达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This endangered species is found in the rainforests in northeastern DR Congo and western Uganda,McGowan, P",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nahan-s-partridge-bf71e571",
+      "subject": "Nahan's partridge",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

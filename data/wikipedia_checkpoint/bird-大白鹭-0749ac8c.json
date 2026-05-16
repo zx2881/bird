@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:02:12",
+  "requested_title": "Great Egret",
+  "resolved_title": "Great egret",
+  "title_aliases": [
+    "Great Egret"
+  ],
+  "bird_id": "bird-大白鹭-0749ac8c",
+  "raw_file": "bird-大白鹭-0749ac8c.json",
+  "bird": {
+    "id": "bird-大白鹭-0749ac8c",
+    "name": "大白鹭",
+    "english_name": "Great egret",
+    "latin_name": "Ardea alba",
+    "summary": "大白鷺（学名：Ardea alba），别名白鹭鸶、鹭鸶、风漂公子、白漂鸟、冬庄。鹭科蒼鷺屬的一种。其种加词“alba”意为“白色的”。 生态环境 稻田、沙滩、泥滩及沿海小溪流，成散群出現。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Great_Egret_%28Ardea_alba%29_in_Breeding_Plumage%2C_Cape_May_County%2C_New_Jersey%2C_USA_%28cropped%29.png/960px-Great_Egret_%28Ardea_alba%29_in_Breeding_Plumage%2C_Cape_May_County%2C_New_Jersey%2C_USA_%28cropped%29.png"
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大白鹭-0749ac8c",
+      "subject": "大白鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Egg in the collection of Museum Wiesbaden The great egret breeds in colonies in trees close to large lakes with reed beds or other extensive wetlands, preferably at height of . It begins to breed at 2–3 years of age by forming monogamous pairs each season",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大白鹭-0749ac8c",
+      "subject": "大白鹭",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "thumb|Egg in the collection of Museum Wiesbaden The great egret breeds in colonies in trees close to large lakes with reed beds or other extensive wetlands, preferably at height of . It begins to breed at 2–3 years of age by forming monogamous pairs each season",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-大白鹭-0749ac8c",
+      "subject": "大白鹭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-大白鹭-0749ac8c",
+      "subject": "大白鹭",
+      "predicate": "threatened_by",
+      "object_id": "threat-wetland-degradation",
+      "object": "湿地退化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, in some parts of the southern United States, its numbers have declined due to habitat loss, particularly wetland degradation through drainage, grazing, clearing, burning, increased salinity, groundwater extraction and invasion by exotic plants",
+      "object_summary": "湿地水文和植被结构被改变导致适宜生境下降。"
+    },
+    {
+      "subject_id": "bird-大白鹭-0749ac8c",
+      "subject": "大白鹭",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, in some parts of the southern United States, its numbers have declined due to habitat loss, particularly wetland degradation through drainage, grazing, clearing, burning, increased salinity, groundwater extraction and invasion by exotic plants",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-大白鹭-0749ac8c",
+      "subject": "大白鹭",
+      "predicate": "threatened_by",
+      "object_id": "threat-wetland-drainage",
+      "object": "湿地排水",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, in some parts of the southern United States, its numbers have declined due to habitat loss, particularly wetland degradation through drainage, grazing, clearing, burning, increased salinity, groundwater extraction and invasion by exotic plants",
+      "object_summary": "湿地被排干转为农业或建设用地。"
+    }
+  ]
+}

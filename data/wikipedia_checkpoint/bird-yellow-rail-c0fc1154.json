@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:39:14",
+  "requested_title": "Yellow Rail",
+  "resolved_title": "Yellow rail",
+  "title_aliases": [
+    "Yellow Rail"
+  ],
+  "bird_id": "bird-yellow-rail-c0fc1154",
+  "raw_file": "bird-yellow-rail-c0fc1154.json",
+  "bird": {
+    "id": "bird-yellow-rail-c0fc1154",
+    "name": "Yellow rail",
+    "english_name": "Yellow rail",
+    "latin_name": "Coturnicops noveboracensis",
+    "summary": "The yellow rail (Coturnicops noveboracensis) is a small secretive marsh bird of the family Rallidae that is found in North America. Taxonom…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yellow_Rail.jpg/960px-Yellow_Rail.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-edward-william-nelson-2e4eef24",
+      "name": "Edward William Nelson",
+      "summary": "Edward William Nelson (May 8, 1855 – May 19, 1934) was an American naturalist and ethnologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-rail-c0fc1154",
+      "subject": "Yellow rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-edward-william-nelson-2e4eef24",
+      "object": "Edward William Nelson",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "goldmani|(Nelson, 1904) }} | range_map = Coturnicops noveboracensis map.svg | range_map_caption = }} The yellow rail (Coturnicops noveboracensis) is a small secretive marsh bird of the family Rallidae that is found in North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-rail-c0fc1154",
+      "subject": "Yellow rail",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "goldmani|(Nelson, 1904) }} | range_map = Coturnicops noveboracensis map.svg | range_map_caption = }} The yellow rail (Coturnicops noveboracensis) is a small secretive marsh bird of the family Rallidae that is found in North America",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-yellow-rail-c0fc1154",
+      "subject": "Yellow rail",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The nominate subspecies' breeding habitat is wet meadows, fens and shallow marshes across Canada east of the Rockies; also the northeastern United States and the entire northern Canada–US border Great Plains to the Great Lakes",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-yellow-rail-c0fc1154",
+      "subject": "Yellow rail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:52:07",
+  "requested_title": "Cape Spurfowl",
+  "resolved_title": "Cape spurfowl",
+  "title_aliases": [
+    "Cape Spurfowl"
+  ],
+  "bird_id": "bird-cape-spurfowl-fb1f87aa",
+  "raw_file": "bird-cape-spurfowl-fb1f87aa.json",
+  "bird": {
+    "id": "bird-cape-spurfowl-fb1f87aa",
+    "name": "Cape spurfowl",
+    "english_name": "Cape spurfowl",
+    "latin_name": "Pternistis capensis",
+    "summary": "The Cape spurfowl or Cape francolin (Pternistis capensis) is a gamebird in the pheasant family Phasianidae. It is endemic to southern Afric…",
+    "lat": "-34",
+    "lng": "20",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Francolinus_capensis_-Kirstenbosch_National_Botanical_Garden%2C_South_Africa-8%2C_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-西開普省-419c63c3",
+      "name": "西開普省",
+      "summary": "西開普省（阿非利卡語：Wes-Kaap，英語：Western Cape，科薩語：iNtshona-Koloni），是南非九個省之一，前身為開普省的西部。西開普省位于南非的西南端，面積129,449平方公里，是南非面積第四大的省份。2018…",
+      "lat": "-34",
+      "lng": "20"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cape-spurfowl-fb1f87aa",
+      "subject": "Cape spurfowl",
+      "predicate": "distributed_in",
+      "object_id": "loc-西開普省-419c63c3",
+      "object": "西開普省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Western Cape province of South Africa, and locally northwards to southern Namibia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-spurfowl-fb1f87aa",
+      "subject": "Cape spurfowl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

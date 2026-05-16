@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:18:52",
+  "requested_title": "Black-billed Cuckoo",
+  "resolved_title": "Black-billed cuckoo",
+  "title_aliases": [
+    "Black-billed Cuckoo"
+  ],
+  "bird_id": "bird-black-billed-cuckoo-cfe061cc",
+  "raw_file": "bird-black-billed-cuckoo-cfe061cc.json",
+  "bird": {
+    "id": "bird-black-billed-cuckoo-cfe061cc",
+    "name": "Black-billed cuckoo",
+    "english_name": "Black-billed cuckoo",
+    "latin_name": "Coccyzus erythropthalmus",
+    "summary": "The black-billed cuckoo (Coccyzus erythropthalmus) is a New World species in the Cuculidae (cuckoo) family. The scientific name is from Anc…",
+    "lat": "44.15",
+    "lng": "-113.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Black-billed-cuckoo2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-洛磯山脈-da6663da",
+      "name": "洛磯山脈",
+      "summary": "洛磯山脈（英語：Rocky Mountains）是北美洲西部科迪勒拉山系最东端的主要山脈，和其平行的有太平洋海岸山脈、喀斯喀特山脈及內華達山脈。 美国和加拿大对落基山脉的具体地理定义有所不同。加拿大定义仅从西部不列颠哥伦比亚省北部的利亚德…",
+      "lat": "44.15",
+      "lng": "-113.8"
+    },
+    {
+      "id": "loc-艾伯塔省-0278f3ba",
+      "name": "艾伯塔省",
+      "summary": "艾伯塔省（英語：Alberta）位于加拿大西部，是加拿大草原三省之一。其西邻不列颠哥伦比亚省，东接萨斯喀彻温省，北靠西北地区，南与美国蒙大拿州接壤。该省与萨斯喀彻温省同为加拿大仅有的两个内陆省份。阿尔伯塔省地势西高东低，西部边缘紧邻落基山…",
+      "lat": "54.5",
+      "lng": "-115"
+    },
+    {
+      "id": "loc-曼尼托巴省-ddd2e0d9",
+      "name": "曼尼托巴省",
+      "summary": "Manitoba is a province of Canada at the longitudinal centre of the country.",
+      "lat": "55",
+      "lng": "-97"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-billed-cuckoo-cfe061cc",
+      "subject": "Black-billed cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-洛磯山脈-da6663da",
+      "object": "洛磯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "When breeding, the species is distributed in wooded areas across much of the United States, east of the Rockies",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-cuckoo-cfe061cc",
+      "subject": "Black-billed cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-艾伯塔省-0278f3ba",
+      "object": "艾伯塔省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They can also be found in the southern regions of Alberta, Saskatchewan, Manitoba, Ontario, and Quebec",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-cuckoo-cfe061cc",
+      "subject": "Black-billed cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-曼尼托巴省-ddd2e0d9",
+      "object": "曼尼托巴省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They can also be found in the southern regions of Alberta, Saskatchewan, Manitoba, Ontario, and Quebec",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-cuckoo-cfe061cc",
+      "subject": "Black-billed cuckoo",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The chosen habitat must also have a water source nearby such as a lake, river, marsh, or pond",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-black-billed-cuckoo-cfe061cc",
+      "subject": "Black-billed cuckoo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

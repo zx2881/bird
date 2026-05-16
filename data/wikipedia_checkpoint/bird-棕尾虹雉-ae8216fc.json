@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:54:03",
+  "requested_title": "Himalayan Monal",
+  "resolved_title": "Himalayan monal",
+  "title_aliases": [
+    "Himalayan Monal"
+  ],
+  "bird_id": "bird-棕尾虹雉-ae8216fc",
+  "raw_file": "bird-棕尾虹雉-ae8216fc.json",
+  "bird": {
+    "id": "bird-棕尾虹雉-ae8216fc",
+    "name": "棕尾虹雉",
+    "english_name": "Himalayan monal",
+    "latin_name": "Lophophorus impejanus",
+    "summary": "棕尾虹雉（學名：Lophophorus impejanus），俗稱九色鳥，是屬於雉科虹雉属的鳥類。主要生活在喜馬拉雅山脈南側，是尼泊尔的国鸟。 生态环境 棕尾虹雉与其他虹雉属鸟类一样，活动于海拔2400-4500米（主要聚集于海拔2700-3700米的地区）的针阔混交林、针叶林…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Himalayan_Monal_at_Sagarmatha_National_Park%2C_Nepal.jpg/960px-Himalayan_Monal_at_Sagarmatha_National_Park%2C_Nepal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕尾虹雉-ae8216fc",
+      "subject": "棕尾虹雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Himalayan monal (Lophophorus impejanus), also called Impeyan monal, is a landfowl native to Himalayan forests and shrublands at elevations of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕尾虹雉-ae8216fc",
+      "subject": "棕尾虹雉",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Himalayan monal's native range extends from Afghanistan and Pakistan through the Himalayas in Nepal, India, southern Tibet and Bhutan. In Pakistan, it is common in the Khyber Pakhtunkhwa province and has also been recorded in Kaghan, Palas Valley and Azad Kashmir. In India, it has been recorded throughout the Indian Himalayan Region from Jammu and Kashmir to Arunachal Pradesh. It lives in upper temperate oak-conifer forests interspersed with open grassy slopes, cliffs and alpine meadows between , where it is most common between",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-棕尾虹雉-ae8216fc",
+      "subject": "棕尾虹雉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-棕尾虹雉-ae8216fc",
+      "subject": "棕尾虹雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "thumb|left|Himalayan monal eggs collection in Museum Wiesbaden In some areas, the Himalayan monal is threatened due to poaching and other anthropogenic factors",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    }
+  ]
+}

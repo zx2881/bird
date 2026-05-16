@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:40:21",
+  "requested_title": "Ferruginous Partridge",
+  "resolved_title": "Ferruginous partridge",
+  "title_aliases": [
+    "Ferruginous Partridge"
+  ],
+  "bird_id": "bird-銹紅林鷓鴣-b61ada0a",
+  "raw_file": "bird-銹紅林鷓鴣-b61ada0a.json",
+  "bird": {
+    "id": "bird-銹紅林鷓鴣-b61ada0a",
+    "name": "銹紅林鷓鴣",
+    "english_name": "Ferruginous partridge",
+    "latin_name": "Caloperdix oculeus",
+    "summary": "銹紅林鷓鴣（學名 : Caloperdix oculeus）是一種雉科鳥類品種；生物分類學上屬於單型屬Caloperdix。被發現於印尼、馬來西亞、緬甸與泰國。其天然棲息地在亞熱帶或熱帶的乾燥森林，或是熱帶的潮濕低地森林。牠們受到棲息地破壞的威脅。 參考",
+    "lat": "22",
+    "lng": "96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ferruginous_Partridge_Caloperdix_oculeus.jpg/960px-Ferruginous_Partridge_Caloperdix_oculeus.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    },
+    {
+      "id": "loc-泰国-6e4d220d",
+      "name": "泰国",
+      "summary": "泰王国（泰語：ราชอาณาจักรไทย，皇家轉寫：Ratcha-anachak Thai），通稱泰国（泰語：ประเทศไทย，皇家轉寫：Prathet Thai），舊称暹罗（泰語：สยาม，皇家轉寫：Sayam），是东南亚的君主立宪…",
+      "lat": "15",
+      "lng": "101"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "name": "熱帶和亞熱帶旱生闊葉林",
+      "summary": "热带及亚热带旱生阔叶林（英語：tropical and subtropical dry broadleaf forests），简称旱生林（dry forest）是一种WWF定义的栖地生境并用来命名以此为代表的生物群系。其所需的气候类型较常…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-銹紅林鷓鴣-b61ada0a",
+      "subject": "銹紅林鷓鴣",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia, Malaysia, Myanmar, and Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銹紅林鷓鴣-b61ada0a",
+      "subject": "銹紅林鷓鴣",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰国-6e4d220d",
+      "object": "泰国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia, Malaysia, Myanmar, and Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銹紅林鷓鴣-b61ada0a",
+      "subject": "銹紅林鷓鴣",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "object": "熱帶和亞熱帶旱生闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The ferruginous partridge is found in a variety of habitats, including tropical dry forest and tropical moist lowland forest, secondary scrub and secondary bamboo growth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銹紅林鷓鴣-b61ada0a",
+      "subject": "銹紅林鷓鴣",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The ferruginous partridge is found in a variety of habitats, including tropical dry forest and tropical moist lowland forest, secondary scrub and secondary bamboo growth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銹紅林鷓鴣-b61ada0a",
+      "subject": "銹紅林鷓鴣",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-銹紅林鷓鴣-b61ada0a",
+      "subject": "銹紅林鷓鴣",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The ferruginous partridge is believed to be declining across its range due to habitat loss, and has therefore been assessed as near threatened with extinction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

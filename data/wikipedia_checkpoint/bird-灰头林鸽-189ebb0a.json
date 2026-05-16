@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:00:22",
+  "requested_title": "Nilgiri Wood Pigeon",
+  "resolved_title": "Nilgiri wood pigeon",
+  "title_aliases": [
+    "Nilgiri Wood Pigeon"
+  ],
+  "bird_id": "bird-灰头林鸽-189ebb0a",
+  "raw_file": "bird-灰头林鸽-189ebb0a.json",
+  "bird": {
+    "id": "bird-灰头林鸽-189ebb0a",
+    "name": "灰头林鸽",
+    "english_name": "Nilgiri wood pigeon",
+    "latin_name": "Columba elphinstonii",
+    "summary": "灰头林鸽（学名：Columba elphinstonii）是鸽形目鸠鸽科鸽属的一种鸟类，分布于印度西南部地区。 特征 灰头林鸽体长约36至42厘米，体重约379克。头部呈蓝灰色，向下逐渐过渡为颜色更深的颈部与胸部；腹部及尾下覆羽混有棕色调。后颈由黑色羽毛组成，羽端具白色斑点，形…",
+    "lat": "10.16972222",
+    "lng": "77.06111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Nilgiri_wood_pigeon.jpg/960px-Nilgiri_wood_pigeon.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-威廉-亨利-赛克斯-571f524c",
+      "name": "威廉·亨利·赛克斯",
+      "summary": "威廉·亨利·赛克斯（英語：William Henry Sykes，1790年1月25日—1872年6月16日）是一位英国政治家、鸟类学家和印度学家，曾担任皇家统计学会会长和皇家亚洲学会主席。 参考文献 外部链接 1803年至2005年議事…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西高止山脉-2da8035f",
+      "name": "西高止山脉",
+      "summary": "西高止山脉（Western Ghats，卡纳达语：ಸಹ್ಯಾದ್ರಿ）是印度南部的一座山脉，位于德干高原的西部，呈南北走向，长度约1600公里，海拔平均为900米，纵穿马哈拉施特拉邦、卡纳塔克邦和喀拉拉邦。西高止山脉东坡平缓，西坡陡峭。…",
+      "lat": "10.16972222",
+      "lng": "77.06111111"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰头林鸽-189ebb0a",
+      "subject": "灰头林鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-威廉-亨利-赛克斯-571f524c",
+      "object": "威廉·亨利·赛克斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Nilgiri wood pigeon (Columba elphinstonii) is a large pigeon found in the moist deciduous forests and sholas of the Western Ghats in southwestern India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头林鸽-189ebb0a",
+      "subject": "灰头林鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-西高止山脉-2da8035f",
+      "object": "西高止山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Nilgiri wood pigeon (Columba elphinstonii) is a large pigeon found in the moist deciduous forests and sholas of the Western Ghats in southwestern India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头林鸽-189ebb0a",
+      "subject": "灰头林鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Nilgiri wood pigeon (Columba elphinstonii) is a large pigeon found in the moist deciduous forests and sholas of the Western Ghats in southwestern India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头林鸽-189ebb0a",
+      "subject": "灰头林鸽",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

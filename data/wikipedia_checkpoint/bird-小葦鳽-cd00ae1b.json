@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:53:19",
+  "requested_title": "Little Bittern",
+  "resolved_title": "Little bittern",
+  "title_aliases": [
+    "Little Bittern"
+  ],
+  "bird_id": "bird-小葦鳽-cd00ae1b",
+  "raw_file": "bird-小葦鳽-cd00ae1b.json",
+  "bird": {
+    "id": "bird-小葦鳽-cd00ae1b",
+    "name": "小葦鳽",
+    "english_name": "Little bittern",
+    "latin_name": "Botaurus minutus",
+    "summary": "小葦鳽（学名：Ixobrychus minutus）为鹭科葦鳽屬的鸟类。分布于亚洲中部、欧洲中部及南部、非洲、印度、马达加斯加岛、澳大利亚、新西兰以及中国大陆的新疆等地，一般生活于沼泽及湖边以及营巢于沼泽草丛中或树上。该物种的模式产地在瑞士。 其种加词“minutus”意为“小…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Zwergdommel.jpg/960px-Zwergdommel.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小葦鳽-cd00ae1b",
+      "subject": "小葦鳽",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The little bittern is native to the Old World, breeding in Africa, central and southern Europe, western and southern Asia, and Madagascar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小葦鳽-cd00ae1b",
+      "subject": "小葦鳽",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The little bittern is native to the Old World, breeding in Africa, central and southern Europe, western and southern Asia, and Madagascar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小葦鳽-cd00ae1b",
+      "subject": "小葦鳽",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:30:38",
+  "requested_title": "Western Crowned Pigeon",
+  "resolved_title": "Western crowned pigeon",
+  "title_aliases": [
+    "Western Crowned Pigeon"
+  ],
+  "bird_id": "bird-藍鳳冠鳩-0136898e",
+  "raw_file": "bird-藍鳳冠鳩-0136898e.json",
+  "bird": {
+    "id": "bird-藍鳳冠鳩-0136898e",
+    "name": "藍鳳冠鳩",
+    "english_name": "Western crowned pigeon",
+    "latin_name": "Goura cristata",
+    "summary": "蓝凤冠鸠（學名：Goura cristata）是鸽形目内体型最大物种之一。体长可达70厘米，雌性与雄性外形非常相似。拥有蓝色头冠，羽毛一般为蓝紫色，有时也有黑色羽毛甚至全身黑色。生活在新几内亚等印度尼西亚群岛。多活动在沼泽地和雨林中，通常以2到10只的为单位群体活动，水果和植物…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Western_Crowned_Pigeon_%28Goura_cristata%29_in_TMII_Birdpark.jpg/960px-Western_Crowned_Pigeon_%28Goura_cristata%29_in_TMII_Birdpark.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-藍鳳冠鳩-0136898e",
+      "subject": "藍鳳冠鳩",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The western crowned pigeon is found in and is endemic to the lowland rainforests of northwestern New Guinea; the other species of crowned pigeon inhabit different regions of the island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藍鳳冠鳩-0136898e",
+      "subject": "藍鳳冠鳩",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-藍鳳冠鳩-0136898e",
+      "subject": "藍鳳冠鳩",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to ongoing habitat loss, limited range and overhunting in some areas, the western crowned pigeon is evaluated as Vulnerable on the IUCN Red List of Threatened Species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

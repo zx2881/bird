@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:30:25",
+  "requested_title": "Red-legged Cormorant",
+  "resolved_title": "Red-legged cormorant",
+  "title_aliases": [
+    "Red-legged Cormorant"
+  ],
+  "bird_id": "bird-红腿鸬鹚-7135c069",
+  "raw_file": "bird-红腿鸬鹚-7135c069.json",
+  "bird": {
+    "id": "bird-红腿鸬鹚-7135c069",
+    "name": "红腿鸬鹚",
+    "english_name": "Red-legged cormorant",
+    "latin_name": "Poikilocarbo gaimardi",
+    "summary": "红腿鸬鹚（学名：Poikilocarbo gaimardi），是鲣鸟目鸬鹚科的一种鸟类，属于单型的红腿鸬鹚属（学名：Poikilocarbo）。 特征 红腿鸬鹚体重约1358.34克，翼长约24.65厘米，喙宽度约9毫米，喙厚度约12.5毫米，嘴峰长约65.5毫米，跗蹠长约54…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cormoran_gris_en_Puesto_del_japones.jpg/960px-Cormoran_gris_en_Puesto_del_japones.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红腿鸬鹚-7135c069",
+      "subject": "红腿鸬鹚",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-legged cormorant is native to the coast of South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红腿鸬鹚-7135c069",
+      "subject": "红腿鸬鹚",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

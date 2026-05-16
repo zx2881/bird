@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:45:38",
+  "requested_title": "Black Crake",
+  "resolved_title": "Black crake",
+  "title_aliases": [
+    "Black Crake"
+  ],
+  "bird_id": "bird-black-crake-2ebd8ca8",
+  "raw_file": "bird-black-crake-2ebd8ca8.json",
+  "bird": {
+    "id": "bird-black-crake-2ebd8ca8",
+    "name": "Black crake",
+    "english_name": "Black crake",
+    "latin_name": "Zapornia flavirostra",
+    "summary": "The black crake (Zapornia flavirostra) is a waterbird in the rail and crake family, Rallidae. It breeds in most of sub-Saharan Africa excep…",
+    "lat": "23",
+    "lng": "13",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Black_Crake_-_Uganda.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-crake-2ebd8ca8",
+      "subject": "Black crake",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in most of sub-Saharan Africa except in very arid areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-crake-2ebd8ca8",
+      "subject": "Black crake",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The habitat of this common to abundant species is freshwater marshes of all types, as long as there is some vegetation to provide cover",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-black-crake-2ebd8ca8",
+      "subject": "Black crake",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-black-crake-2ebd8ca8",
+      "subject": "Black crake",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It has benefited from human activity in the form of deforestation, and is rarely hunted because of its unpalatable flesh",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:29:17",
+  "requested_title": "Crested Pigeon",
+  "resolved_title": "Crested pigeon",
+  "title_aliases": [
+    "Crested Pigeon"
+  ],
+  "bird_id": "bird-冠鳩-d10e6a04",
+  "raw_file": "bird-冠鳩-d10e6a04.json",
+  "bird": {
+    "id": "bird-冠鳩-d10e6a04",
+    "name": "冠鳩",
+    "english_name": "Crested pigeon",
+    "latin_name": "Ocyphaps lophotes",
+    "summary": "冠鸠（学名：Ocyphaps lophotes）是冠鸠属的唯一物种，属于鸽形目鸠鸽科，是一种生活在澳洲大陆的鸟。除澳大利亚北部靠赤道地区外它在整个澳大利亚生活，长30至34厘米。 分布 这种鸟栖息在草地、灌木丛和林地中海，但在河边、园子、牧场、运动场和高尔夫球场上也可以看到它。…",
+    "lat": "-26",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ocyphaps_lophotes_-_Lake_Parramatta_Reserve.jpg/960px-Ocyphaps_lophotes_-_Lake_Parramatta_Reserve.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西澳大利亚州-2d3ebb38",
+      "name": "西澳大利亚州",
+      "summary": "西澳大利亚州（英語：Western Australia，缩写为WA），簡稱西澳，是澳大利亚联邦的州，位於澳大利亚西部，今劃分為142個地方政府區域，幅員廣達2,525,500平方公里，佔全國總面積1/3，是澳洲面積最廣大之州，亦全球面積僅…",
+      "lat": "-26",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-冠鳩-d10e6a04",
+      "subject": "冠鳩",
+      "predicate": "distributed_in",
+      "object_id": "loc-西澳大利亚州-2d3ebb38",
+      "object": "西澳大利亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Their habitat has expanded rapidly since settlement has produced pastoral lands (previously they were only found in inland and Western Australia). Foraging for grains, they have adapted to grain farming areas, often feeding on the noxious weed of Echium plantagineum",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-冠鳩-d10e6a04",
+      "subject": "冠鳩",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The crested pigeon is found in lightly wooded grasslands in both rural and urban areas, but they can also be seen at watercourses, homestead gardens, pastoral areas, sports grounds, and golf courses",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-冠鳩-d10e6a04",
+      "subject": "冠鳩",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

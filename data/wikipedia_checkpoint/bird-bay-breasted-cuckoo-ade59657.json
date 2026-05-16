@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:44:09",
+  "requested_title": "Bay-breasted Cuckoo",
+  "resolved_title": "Bay-breasted cuckoo",
+  "title_aliases": [
+    "Bay-breasted Cuckoo"
+  ],
+  "bird_id": "bird-bay-breasted-cuckoo-ade59657",
+  "raw_file": "bird-bay-breasted-cuckoo-ade59657.json",
+  "bird": {
+    "id": "bird-bay-breasted-cuckoo-ade59657",
+    "name": "Bay-breasted cuckoo",
+    "english_name": "Bay-breasted cuckoo",
+    "latin_name": "Coccyzus rufigularis",
+    "summary": "The bay-breasted cuckoo (Coccyzus rufigularis) is an Endangered species of bird in the tribe Phaenicophaeini, subfamily Cuculinae of the cu…",
+    "lat": "19",
+    "lng": "-70.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Coccyzus_rufigularis_1199518_%28cropped%29.jpg/960px-Coccyzus_rufigularis_1199518_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-hispaniolan-dry-forests-a6589008",
+      "name": "Hispaniolan dry forests",
+      "summary": "The Hispaniolan dry forests are a tropical dry broadleaf forest ecoregion on the island of Hispaniola (split between th…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-hispaniolan-moist-forests-f45c8144",
+      "name": "Hispaniolan moist forests",
+      "summary": "The Hispaniolan moist forests are a tropical moist broadleaf forest ecoregion on the island of Hispaniola.",
+      "lat": "19",
+      "lng": "-70.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bay-breasted-cuckoo-ade59657",
+      "subject": "Bay-breasted cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-dry-forests-a6589008",
+      "object": "Hispaniolan dry forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in several forest types, but mostly in the narrow transition zone between dry and moist areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bay-breasted-cuckoo-ade59657",
+      "subject": "Bay-breasted cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-moist-forests-f45c8144",
+      "object": "Hispaniolan moist forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in several forest types, but mostly in the narrow transition zone between dry and moist areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bay-breasted-cuckoo-ade59657",
+      "subject": "Bay-breasted cuckoo",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

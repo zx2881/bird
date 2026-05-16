@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:35:11",
+  "requested_title": "American Coot",
+  "resolved_title": "American coot",
+  "title_aliases": [
+    "American Coot"
+  ],
+  "bird_id": "bird-american-coot-7d374258",
+  "raw_file": "bird-american-coot-7d374258.json",
+  "bird": {
+    "id": "bird-american-coot-7d374258",
+    "name": "American coot",
+    "english_name": "American coot",
+    "latin_name": "Fulica americana",
+    "summary": "The American coot (Fulica americana), also known as a mud hen or pouldeau, is a bird of the family Rallidae. Though commonly mistaken for d…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/American_coot_in_Prospect_Park_%2806152%29.jpg/960px-American_coot_in_Prospect_Park_%2806152%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-american-coot-7d374258",
+      "subject": "American coot",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Unlike the webbed feet of ducks, coots have broad, lobed scales on their lower legs and toes that fold back with each step to facilitate walking on dry land. Coots live near water, typically inhabiting wetlands and open water bodies in North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-american-coot-7d374258",
+      "subject": "American coot",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Unlike the webbed feet of ducks, coots have broad, lobed scales on their lower legs and toes that fold back with each step to facilitate walking on dry land. Coots live near water, typically inhabiting wetlands and open water bodies in North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-american-coot-7d374258",
+      "subject": "American coot",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Unlike the webbed feet of ducks, coots have broad, lobed scales on their lower legs and toes that fold back with each step to facilitate walking on dry land. Coots live near water, typically inhabiting wetlands and open water bodies in North America",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-american-coot-7d374258",
+      "subject": "American coot",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "thumb|The American coot is regularly found in sizable flocks. American coots are found near water reed-ringed lakes and ponds, open marshes, and sluggish rivers",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-american-coot-7d374258",
+      "subject": "American coot",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They prefer freshwater environments but may temporarily live in saltwater environments during the winter months. The American coot's breeding habitat extends from marshes in southern Quebec to the Pacific coast of North America and as far south as northern South America",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-american-coot-7d374258",
+      "subject": "American coot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

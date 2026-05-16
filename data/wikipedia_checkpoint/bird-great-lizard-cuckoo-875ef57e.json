@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:20:14",
+  "requested_title": "Great Lizard Cuckoo",
+  "resolved_title": "Great lizard cuckoo",
+  "title_aliases": [
+    "Great Lizard Cuckoo"
+  ],
+  "bird_id": "bird-great-lizard-cuckoo-875ef57e",
+  "raw_file": "bird-great-lizard-cuckoo-875ef57e.json",
+  "bird": {
+    "id": "bird-great-lizard-cuckoo-875ef57e",
+    "name": "Great lizard cuckoo",
+    "english_name": "Great lizard cuckoo",
+    "latin_name": "Coccyzus merlini",
+    "summary": "The great lizard cuckoo (Coccyzus merlini) is a species of bird in the tribe Phaenicophaeini, subfamily Cuculinae of the cuckoo family Cucu…",
+    "lat": "25",
+    "lng": "-77.4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Great_lizard-cuckoo_%28Saurothera_merlini_santamariae%29.JPG/960px-Great_lizard-cuckoo_%28Saurothera_merlini_santamariae%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-巴哈马-deb0f718",
+      "name": "巴哈马",
+      "summary": "巴哈馬國（英語：Commonwealth of The Bahamas），通称巴哈马（英語：The Bahamas，/bəˈhɑːməz/），是位於大西洋西侧廬卡雅群島上的一个島國，全國包含700座岛屿（以及小岛屿）和珊瑚礁。地處美国佛罗…",
+      "lat": "25",
+      "lng": "-77.4"
+    },
+    {
+      "id": "loc-古巴-b585ac9f",
+      "name": "古巴",
+      "summary": "古巴共和国（西班牙語：República de Cuba），通称古巴（Cuba），是美洲西印度群島西部的社会主义国家，介於北緯19°與24°、西經74°與85°之間。該國地處墨西哥灣口，西隔尤卡坦海峡與墨西哥尤卡坦半岛相望，南鄰牙買加和開…",
+      "lat": "22",
+      "lng": "-80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-great-lizard-cuckoo-875ef57e",
+      "subject": "Great lizard cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴哈马-deb0f718",
+      "object": "巴哈马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Bahamas and Cuba.{{cite web |url=https://www.worldbirdnames.org/new/bow/turacos/ |title=Turacos, bustards, cuckoos, mesites, sandgrouse |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-great-lizard-cuckoo-875ef57e",
+      "subject": "Great lizard cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-古巴-b585ac9f",
+      "object": "古巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Bahamas and Cuba.{{cite web |url=https://www.worldbirdnames.org/new/bow/turacos/ |title=Turacos, bustards, cuckoos, mesites, sandgrouse |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-great-lizard-cuckoo-875ef57e",
+      "subject": "Great lizard cuckoo",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "bahamensis is similarly non-selective, inhabiting semi-deciduous, deciduous, and pine forest (especially forests with many vines), scrublands, and coffee plantations. thumb|right|Back view",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-great-lizard-cuckoo-875ef57e",
+      "subject": "Great lizard cuckoo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-great-lizard-cuckoo-875ef57e",
+      "subject": "Great lizard cuckoo",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Identified potential threats include road construction, agricultural development, fires, feral cats and rats, and sea level rise due to climate change",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

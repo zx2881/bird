@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:09:12",
+  "requested_title": "Orange-breasted Green Pigeon",
+  "resolved_title": "Orange-breasted green pigeon",
+  "title_aliases": [
+    "Orange-breasted Green Pigeon"
+  ],
+  "bird_id": "bird-橙胸绿鸠-9bb41467",
+  "raw_file": "bird-橙胸绿鸠-9bb41467.json",
+  "bird": {
+    "id": "bird-橙胸绿鸠-9bb41467",
+    "name": "橙胸绿鸠",
+    "english_name": "Orange-breasted green pigeon",
+    "latin_name": "Treron bicinctus",
+    "summary": "橙胸绿鸠（学名：Treron bicinctus）为鸠鸽科绿鸠属的鸟类，俗名橙胸鸠、赤胸绿鸠。分布範圍西起巴基斯坦、印度、斯里兰卡，东至中南半岛、海南島、台灣，南抵马来半岛及爪哇岛，多栖息于热带雨林中以及栖息于树顶的秃枝上。该物种的模式产地在印度代利杰以南的海岸。 描述 外觀上…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Orange-breasted_green_pigeon_%28Treron_bicinctus_leggei%29_male.jpg/960px-Orange-breasted_green_pigeon_%28Treron_bicinctus_leggei%29_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橙胸绿鸠-9bb41467",
+      "subject": "橙胸绿鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Jerdon|Jerdon]], 1840) | synonyms = Treron bicinctaOsmotreron bicinctaVinago bicinctaDendrophasa bicincta }} thumb|Orange-breasted Green Pigeon (Treron bicinctus) from Ezhimala The orange-breasted green pigeon (Treron bicinctus) is a pigeon found across tropical Asia south of the Himalaya across parts of the Indian subcontinent and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙胸绿鸠-9bb41467",
+      "subject": "橙胸绿鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Jerdon|Jerdon]], 1840) | synonyms = Treron bicinctaOsmotreron bicinctaVinago bicinctaDendrophasa bicincta }} thumb|Orange-breasted Green Pigeon (Treron bicinctus) from Ezhimala The orange-breasted green pigeon (Treron bicinctus) is a pigeon found across tropical Asia south of the Himalaya across parts of the Indian subcontinent and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙胸绿鸠-9bb41467",
+      "subject": "橙胸绿鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:28:16",
+  "requested_title": "Oilbird",
+  "resolved_title": "Oilbird",
+  "title_aliases": [
+    "Oilbird"
+  ],
+  "bird_id": "bird-油鸱-b491d722",
+  "raw_file": "bird-油鸱-b491d722.json",
+  "bird": {
+    "id": "bird-油鸱-b491d722",
+    "name": "油鸱",
+    "english_name": "Oilbird",
+    "latin_name": "Steatornis caripensis",
+    "summary": "油夜鹰（台湾作油鴟（chī），学名：Steatornis caripensis），是单型科油鸱科中的唯一一种，为南美洲特有种。 体长41–48厘米，双翼展开宽达0.91米。喙强壮有力，末端带钩。爪很小。通体大部分红棕色，颈背和翅膀带有白色斑点。栖息于洞穴中，拥有回声定位功能。夜…",
+    "lat": "14.52555556",
+    "lng": "-75.81833333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Oilbirds.jpg/960px-Oilbirds.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    },
+    {
+      "id": "loc-特立尼达岛-d831e578",
+      "name": "特立尼达岛",
+      "summary": "特立尼达岛（英語：Trinidad Island；西班牙語：Isla Trinidad），又称千里达岛，是特立尼达和多巴哥两主岛中较大者，位于西印度群岛最西南部，距南美洲大陆委内瑞拉海岸仅11公里。特立尼达岛面积4,768平方公里，是西印…",
+      "lat": "10.5",
+      "lng": "-61.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-油鸱-b491d722",
+      "subject": "油鸱",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb| Steatornis caripensis – MHNT The oilbird (Steatornis caripensis), locally known as the , is a bird species found in the northern areas of South America including the Caribbean island of Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-油鸱-b491d722",
+      "subject": "油鸱",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb| Steatornis caripensis – MHNT The oilbird (Steatornis caripensis), locally known as the , is a bird species found in the northern areas of South America including the Caribbean island of Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-油鸱-b491d722",
+      "subject": "油鸱",
+      "predicate": "distributed_in",
+      "object_id": "loc-特立尼达岛-d831e578",
+      "object": "特立尼达岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb| Steatornis caripensis – MHNT The oilbird (Steatornis caripensis), locally known as the , is a bird species found in the northern areas of South America including the Caribbean island of Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-油鸱-b491d722",
+      "subject": "油鸱",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

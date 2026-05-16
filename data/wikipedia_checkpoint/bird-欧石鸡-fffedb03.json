@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:47:06",
+  "requested_title": "Rock Partridge",
+  "resolved_title": "Rock partridge",
+  "title_aliases": [
+    "Rock Partridge"
+  ],
+  "bird_id": "bird-欧石鸡-fffedb03",
+  "raw_file": "bird-欧石鸡-fffedb03.json",
+  "bird": {
+    "id": "bird-欧石鸡-fffedb03",
+    "name": "欧石鸡",
+    "english_name": "Rock partridge",
+    "latin_name": "Alectoris graeca",
+    "summary": "欧石鸡（Alectoris graeca），鸟纲鸡形目雉科石鸡属的一个种。全身体羽灰色，其显著特征为从前额起至上胸的黑色花纹。主要分布于欧亚大陆。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Steinhuhn_Alectoris_graeca.jpg/960px-Steinhuhn_Alectoris_graeca.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-欧石鸡-fffedb03",
+      "subject": "欧石鸡",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-欧石鸡-fffedb03",
+      "subject": "欧石鸡",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species is declining in parts of its range due to habitat loss and over-hunting",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-欧石鸡-fffedb03",
+      "subject": "欧石鸡",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species is declining in parts of its range due to habitat loss and over-hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

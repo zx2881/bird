@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:42:13",
+  "requested_title": "Lesser Swallow-tailed Swift",
+  "resolved_title": "Lesser swallow-tailed swift",
+  "title_aliases": [
+    "Lesser Swallow-tailed Swift"
+  ],
+  "bird_id": "bird-lesser-swallow-tailed-swift-c3786abb",
+  "raw_file": "bird-lesser-swallow-tailed-swift-c3786abb.json",
+  "bird": {
+    "id": "bird-lesser-swallow-tailed-swift-c3786abb",
+    "name": "Lesser swallow-tailed swift",
+    "english_name": "Lesser swallow-tailed swift",
+    "latin_name": "Panyptila cayennensis",
+    "summary": "The lesser swallow-tailed swift or Cayenne swift (Panyptila cayennensis) is a species of bird in subfamily Apodinae of the swift family Apo…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Panyptila_cayennensis_-NW_Ecuador-4.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lesser-swallow-tailed-swift-c3786abb",
+      "subject": "Lesser swallow-tailed swift",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the edges and clearing of lowland tropical evergreen forest and secondary forest, cultivated areas, river corridors, and human-populated areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-swallow-tailed-swift-c3786abb",
+      "subject": "Lesser swallow-tailed swift",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the edges and clearing of lowland tropical evergreen forest and secondary forest, cultivated areas, river corridors, and human-populated areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-swallow-tailed-swift-c3786abb",
+      "subject": "Lesser swallow-tailed swift",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

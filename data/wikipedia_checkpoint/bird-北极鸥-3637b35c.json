@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:23:53",
+  "requested_title": "Glaucous Gull",
+  "resolved_title": "Glaucous gull",
+  "title_aliases": [
+    "Glaucous Gull"
+  ],
+  "bird_id": "bird-北极鸥-3637b35c",
+  "raw_file": "bird-北极鸥-3637b35c.json",
+  "bird": {
+    "id": "bird-北极鸥-3637b35c",
+    "name": "北极鸥",
+    "english_name": "Glaucous gull",
+    "latin_name": "Larus hyperboreus",
+    "summary": "The glaucous gull (Larus hyperboreus) is a large gull, the second-largest gull in the world. The genus name is from Latin larus, which appe…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Glacous_Gull_on_ice.jpg/960px-Glacous_Gull_on_ice.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北半球-6e1922ec",
+      "name": "北半球",
+      "summary": "北半球（英語：Northern Hemisphere）是指地球赤道以北的半球。北半球表面有60.7%是水，佔地球的42.9%；39.3%是陸地，佔地球的67.3%。 北半球的陸地包含了亞洲大部份、歐洲全部、非洲北半部、北美洲全部、南美洲北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北极鸥-3637b35c",
+      "subject": "北极鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-北半球-6e1922ec",
+      "object": "北半球",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This gull breeds in Arctic regions of the Northern Hemisphere and winters south to shores of the Holarctic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北极鸥-3637b35c",
+      "subject": "北极鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

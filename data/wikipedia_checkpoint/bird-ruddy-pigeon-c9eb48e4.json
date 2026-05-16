@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:07:10",
+  "requested_title": "Ruddy Pigeon",
+  "resolved_title": "Ruddy pigeon",
+  "title_aliases": [
+    "Ruddy Pigeon"
+  ],
+  "bird_id": "bird-ruddy-pigeon-c9eb48e4",
+  "raw_file": "bird-ruddy-pigeon-c9eb48e4.json",
+  "bird": {
+    "id": "bird-ruddy-pigeon-c9eb48e4",
+    "name": "Ruddy pigeon",
+    "english_name": "Ruddy pigeon",
+    "latin_name": "Patagioenas subvinacea",
+    "summary": "The ruddy pigeon (Patagioenas subvinacea) is a largish pigeon which breeds from Costa Rica south to western Ecuador, Bolivia, and central B…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Patagioenas_subvinacea_-NW_Ecuador-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-平均海拔-ddd8aa74",
+      "name": "平均海拔",
+      "summary": "平均海拔（英語：Above mean sea level，缩写：AMSL）又称为海拔高度，是指以平均海平面高度作为高程基准面起测定的地面或空中高度，对地理测量，飞行控制，电台设定，气象研究都有决定性作用。 所谓平均海平面高度实际是并不存在…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-niels-krabbe-fe386989",
+      "name": "Niels Krabbe",
+      "summary": "Niels Kaare Krabbe (born 1 July 1951) is a Danish ornithologist and bird conservationist for many years based at the Ve…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ruddy-pigeon-c9eb48e4",
+      "subject": "Ruddy pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-平均海拔-ddd8aa74",
+      "object": "平均海拔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "subvinacea. thumb|left In Central America it is found in highland forest canopy and semi-open woodland from 1500&nbsp;m (5000&nbsp;ft) ASL to the timberline",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ruddy-pigeon-c9eb48e4",
+      "subject": "Ruddy pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In South America it occurs in the canopy of humid forest from near sea-level to 1500&nbsp;m (5000&nbsp;ft) ASL, occasionally higher; exceptionally, they may range up to 3000&nbsp;m ASL or more.Krabbe, Niels; Flórez, Pablo; Suárez, Gustavo; Castaño, José; Arango, Juan David & Duque, Arley (2006) The birds of Páramo de Frontino, western Andes of Colombia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ruddy-pigeon-c9eb48e4",
+      "subject": "Ruddy pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-niels-krabbe-fe386989",
+      "object": "Niels Krabbe",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In South America it occurs in the canopy of humid forest from near sea-level to 1500&nbsp;m (5000&nbsp;ft) ASL, occasionally higher; exceptionally, they may range up to 3000&nbsp;m ASL or more.Krabbe, Niels; Flórez, Pablo; Suárez, Gustavo; Castaño, José; Arango, Juan David & Duque, Arley (2006) The birds of Páramo de Frontino, western Andes of Colombia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ruddy-pigeon-c9eb48e4",
+      "subject": "Ruddy pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-ruddy-pigeon-c9eb48e4",
+      "subject": "Ruddy pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "PDF fulltext It is not uncommon across its wide range but due to projected deforestation is thus classified as a Least Concern species by the IUCN. It is normally seen in pairs as it forages in the tree tops for fruits and berries&mdash;being particularly fond of mistletoe fruit &ndash; but may occasionally be seen on tracks and roadside seeking grit",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

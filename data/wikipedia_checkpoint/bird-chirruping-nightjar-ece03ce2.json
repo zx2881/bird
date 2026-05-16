@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:26:10",
+  "requested_title": "Chirruping Nightjar",
+  "resolved_title": "Chirruping nightjar",
+  "title_aliases": [
+    "Chirruping Nightjar"
+  ],
+  "bird_id": "bird-chirruping-nightjar-ece03ce2",
+  "raw_file": "bird-chirruping-nightjar-ece03ce2.json",
+  "bird": {
+    "id": "bird-chirruping-nightjar-ece03ce2",
+    "name": "Chirruping nightjar",
+    "english_name": "Chirruping nightjar",
+    "latin_name": "Caprimulgus griseatus",
+    "summary": "The chirruping nightjar or kayumanggi nightjar (Caprimulgus griseatus) is a species of nightjar found in the Philippines. This species was…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Caprimulgus_griseatus_-_Forest_Botial-Jarvis_-_261946624.jpeg/960px-Caprimulgus_griseatus_-_Forest_Botial-Jarvis_-_261946624.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-arthur-hay-9th-marquess-of-tweeddale-62aa9c8e",
+      "name": "Arthur Hay, 9th Marquess of Tweeddale",
+      "summary": "Colonel Arthur Hay, 9th Marquess of Tweeddale, (9 November 1824 – 29 December 1878), known before 1862 as Lord Arthur H…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chirruping-nightjar-ece03ce2",
+      "subject": "Chirruping nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-arthur-hay-9th-marquess-of-tweeddale-62aa9c8e",
+      "object": "Arthur Hay, 9th Marquess of Tweeddale",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chirruping nightjar or kayumanggi nightjar (Caprimulgus griseatus) is a species of nightjar found in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chirruping-nightjar-ece03ce2",
+      "subject": "Chirruping nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chirruping nightjar or kayumanggi nightjar (Caprimulgus griseatus) is a species of nightjar found in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chirruping-nightjar-ece03ce2",
+      "subject": "Chirruping nightjar",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in grassland, open woodland, forest with scrubby outcrops, farmland, riverbanks and dried riverbeds",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-chirruping-nightjar-ece03ce2",
+      "subject": "Chirruping nightjar",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, like most species in the Philippines, its population is still likely on the decline due to rapid urbanization and habitat degradation.{{Cite journal |last1=Cleere |first1=Nigel |last2=Boesman |first2=Peter F",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

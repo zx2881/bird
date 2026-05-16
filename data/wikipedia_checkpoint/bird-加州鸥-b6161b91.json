@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:24:17",
+  "requested_title": "California Gull",
+  "resolved_title": "California gull",
+  "title_aliases": [
+    "California Gull"
+  ],
+  "bird_id": "bird-加州鸥-b6161b91",
+  "raw_file": "bird-加州鸥-b6161b91.json",
+  "bird": {
+    "id": "bird-加州鸥-b6161b91",
+    "name": "加州鸥",
+    "english_name": "California gull",
+    "latin_name": "Larus californicus",
+    "summary": "加州鸥（Larus californicus）是一种中等体型的鷗。該物種的繁殖栖息地位於北美洲西部内陆的湖泊和沼泽，範圍涵蓋西北地区、加拿大南部以及加利福尼亚东部和科罗拉多州。它们以群居方式筑巢。雌鸟通常会产下2或3个蛋。雄鳥和雌鳥轮流喂养雏鸟。 参考文献 外部链接 Patux…",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/CaliforniaGull.jpg/960px-CaliforniaGull.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-加州鸥-b6161b91",
+      "subject": "加州鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "California gulls are migratory, with most moving to the Pacific coast in winter, during which time they can regularly be found in western California",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-加州鸥-b6161b91",
+      "subject": "加州鸥",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The breeding habitat of the California gull are lakes and marshes in interior western North America from the Northwest Territories, Canada south to eastern California and Colorado. They nest in colonies, sometimes with other birds",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-加州鸥-b6161b91",
+      "subject": "加州鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

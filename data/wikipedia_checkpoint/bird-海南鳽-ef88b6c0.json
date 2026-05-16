@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:54:18",
+  "requested_title": "White-eared Night Heron",
+  "resolved_title": "White-eared night heron",
+  "title_aliases": [
+    "White-eared Night Heron"
+  ],
+  "bird_id": "bird-海南鳽-ef88b6c0",
+  "raw_file": "bird-海南鳽-ef88b6c0.json",
+  "bird": {
+    "id": "bird-海南鳽-ef88b6c0",
+    "name": "海南鳽",
+    "english_name": "White-eared night heron",
+    "latin_name": "Oroanassa magnifica",
+    "summary": "海南鳽（學名：Oroanassa magnifica），又名海南虎斑鳽、海南麻鷺，为鹭科海南𫛚属（學名：Oroanassa）的唯一物種，有時亦有「鳥中大熊貓」的稱號。分布于中国海南、广西、安徽、福建、浙江等地和越南，一般生活于山间河谷及附近水域。该物种的模式产地在海南五指山。…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/NycticoraxMagnificaGronvold.jpg/960px-NycticoraxMagnificaGronvold.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-越南-29eeb04d",
+      "name": "越南",
+      "summary": "越南社会主义共和国（越南語：Cộng hòa Xã hội chủ nghĩa Việt Nam／共和社會主義越南，），通称越南（越南語：Việt Nam），是位于东南亚中南半岛东端的社会主义国家。北接中国，西邻柬埔寨与老挝，全国人口约逾…",
+      "lat": "16",
+      "lng": "108"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-海南鳽-ef88b6c0",
+      "subject": "海南鳽",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was once thought to be only found in southern China and in northern Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-海南鳽-ef88b6c0",
+      "subject": "海南鳽",
+      "predicate": "distributed_in",
+      "object_id": "loc-越南-29eeb04d",
+      "object": "越南",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was once thought to be only found in southern China and in northern Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-海南鳽-ef88b6c0",
+      "subject": "海南鳽",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-海南鳽-ef88b6c0",
+      "subject": "海南鳽",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In 2018, it was also reported in Valmiki National Park, India and in 2025, it was once again camera-trapped in Namdapha National Park, India. It was discovered in the Sundarbans in Bangladesh in 2022. It is threatened by habitat loss and habitat fragmentation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-海南鳽-ef88b6c0",
+      "subject": "海南鳽",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Because of this, the white-eared night heron was downlisted to Near Threatened in 2025. It is threatened by deforestation, hunting, overfishing and water pollution. It has been discovered in many new localities, but the population is probably declining because of the threats. The species is listed as a Class II protected species in China. It occurs in protected areas in China and Vietnam, such as the and Ba Be National Park",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    },
+    {
+      "subject_id": "bird-海南鳽-ef88b6c0",
+      "subject": "海南鳽",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Because of this, the white-eared night heron was downlisted to Near Threatened in 2025. It is threatened by deforestation, hunting, overfishing and water pollution. It has been discovered in many new localities, but the population is probably declining because of the threats. The species is listed as a Class II protected species in China. It occurs in protected areas in China and Vietnam, such as the and Ba Be National Park",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-海南鳽-ef88b6c0",
+      "subject": "海南鳽",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Because of this, the white-eared night heron was downlisted to Near Threatened in 2025. It is threatened by deforestation, hunting, overfishing and water pollution. It has been discovered in many new localities, but the population is probably declining because of the threats. The species is listed as a Class II protected species in China. It occurs in protected areas in China and Vietnam, such as the and Ba Be National Park",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

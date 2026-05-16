@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:12:21",
+  "requested_title": "Slender-billed Gull",
+  "resolved_title": "Slender-billed gull",
+  "title_aliases": [
+    "Slender-billed Gull"
+  ],
+  "bird_id": "bird-細嘴鷗-01fdee93",
+  "raw_file": "bird-細嘴鷗-01fdee93.json",
+  "bird": {
+    "id": "bird-細嘴鷗-01fdee93",
+    "name": "細嘴鷗",
+    "english_name": "Slender-billed gull",
+    "latin_name": "Chroicocephalus genei",
+    "summary": "細嘴鷗（Slender-billed Gull，學名：Chroicocephalus genei）是屬於鷗科的一種雀鳥。 形態 眼睛虹膜白色，眼後黑點不明顯。嘴及腳紅色，身白色而帶點粉紅。背及覆羽呈淺灰色。體長42厘米。",
+    "lat": "35",
+    "lng": "18",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Slender-billed_gull_%28Chroicocephalus_genei%29_Bahrain.jpg/960px-Slender-billed_gull_%28Chroicocephalus_genei%29_Bahrain.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-地中海-19a872a9",
+      "name": "地中海",
+      "summary": "地中海是一個位於歐洲南面、非洲北面以及亞洲西面的陸間海。东西长约4,000公里，南北最宽处大约为1,800公里，面積251.6万平方公里，是地球上最大的陸間海。地中海的平均深度是1,500米，最深處为5,267米。 地中海西部通过直布羅陀…",
+      "lat": "35",
+      "lng": "18"
+    },
+    {
+      "id": "loc-印度洋-aaea0acf",
+      "name": "印度洋",
+      "summary": "印度洋（英語：Indian Ocean），位于亚洲、非洲、大洋洲和南极洲之间，印度位在印度洋北部的中央位置，這也是印度洋名稱的由來，印度洋大部分在南半球。總面积7491万平方公里，约占世界海洋总面积的21.1%，是世界第三大洋。印度洋的範…",
+      "lat": "-20",
+      "lng": "80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-細嘴鷗-01fdee93",
+      "subject": "細嘴鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-地中海-19a872a9",
+      "object": "地中海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The slender-billed gull breeds in lagoons and lakes around the Mediterranean Sea and in similar locations in countries bordering the northwestern part of the Indian Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-細嘴鷗-01fdee93",
+      "subject": "細嘴鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度洋-aaea0acf",
+      "object": "印度洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The slender-billed gull breeds in lagoons and lakes around the Mediterranean Sea and in similar locations in countries bordering the northwestern part of the Indian Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-細嘴鷗-01fdee93",
+      "subject": "細嘴鷗",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

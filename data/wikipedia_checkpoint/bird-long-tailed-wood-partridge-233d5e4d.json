@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:30:14",
+  "requested_title": "Long-tailed Wood Partridge",
+  "resolved_title": "Long-tailed wood partridge",
+  "title_aliases": [
+    "Long-tailed Wood Partridge"
+  ],
+  "bird_id": "bird-long-tailed-wood-partridge-233d5e4d",
+  "raw_file": "bird-long-tailed-wood-partridge-233d5e4d.json",
+  "bird": {
+    "id": "bird-long-tailed-wood-partridge-233d5e4d",
+    "name": "Long-tailed wood partridge",
+    "english_name": "Long-tailed wood partridge",
+    "latin_name": "Dendrortyx macroura",
+    "summary": "The long-tailed wood partridge (Dendrortyx macroura) is a bird species in the family Odontophoridae, the New World quail. It is found only…",
+    "lat": "17.055",
+    "lng": "-96.655",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Dendrortyx_macrourus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17100207.png/960px-Dendrortyx_macrourus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17100207.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-瓦哈卡州-e005144e",
+      "name": "瓦哈卡州",
+      "summary": "瓦哈卡州（西班牙語：Oaxaca，發音：[waˈχaka] ）是墨西哥合眾國的一個州，位於該國的南部，臨太平洋。2005年估計人口為 3,506,821人。首府瓦哈卡市。 历史 名称 瓦哈卡的州名来自其首府瓦哈卡市的名称。这个名字来自纳瓦…",
+      "lat": "17.055",
+      "lng": "-96.655"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-long-tailed-wood-partridge-233d5e4d",
+      "subject": "Long-tailed wood partridge",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦哈卡州-e005144e",
+      "object": "瓦哈卡州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "oaxacae, Oaxaca (southern Mexico) The long-tailed wood partridge inhabits humid pine-oak, pine, fir, and montane evergreen forests with dense understories",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-long-tailed-wood-partridge-233d5e4d",
+      "subject": "Long-tailed wood partridge",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-long-tailed-wood-partridge-233d5e4d",
+      "subject": "Long-tailed wood partridge",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The IUCN has assessed the long-tailed wood partridge as being of Least Concern. However, its main threat is \"habitat loss by land use and land cover change caused by human activities.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

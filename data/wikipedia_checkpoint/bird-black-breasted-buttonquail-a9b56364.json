@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:44:40",
+  "requested_title": "Black-breasted Buttonquail",
+  "resolved_title": "Black-breasted buttonquail",
+  "title_aliases": [
+    "Black-breasted Buttonquail"
+  ],
+  "bird_id": "bird-black-breasted-buttonquail-a9b56364",
+  "raw_file": "bird-black-breasted-buttonquail-a9b56364.json",
+  "bird": {
+    "id": "bird-black-breasted-buttonquail-a9b56364",
+    "name": "Black-breasted buttonquail",
+    "english_name": "Black-breasted buttonquail",
+    "latin_name": "Turnix melanogaster",
+    "summary": "The black-breasted buttonquail (Turnix melanogaster) is a rare buttonquail endemic to eastern Australia. As with other buttonquails, it is…",
+    "lat": "-24.92638889",
+    "lng": "149.41555556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black-breasted_Button-quail_male_inskip.JPG/960px-Black-breasted_Button-quail_male_inskip.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-palmgrove-national-park-f93004c5",
+      "name": "Palmgrove National Park",
+      "summary": "Palmgrove is a national park in south-central Queensland, Australia.",
+      "lat": "-24.92638889",
+      "lng": "149.41555556"
+    },
+    {
+      "id": "loc-重点鸟区-0b8dda42",
+      "name": "重点鸟区",
+      "summary": "重点鸟类和生物多样性区域（英語：Important Bird and Biodiversity Area）又称重点鸟区（Important Bird Area）、重要鸟区、重要鸟类栖息地、重点鸟类栖息地，是国际鸟盟策划并推动的一项保护工作…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-breasted-buttonquail-a9b56364",
+      "subject": "Black-breasted buttonquail",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-breasted buttonquail is usually found in rainforests, foraging on the ground for invertebrates in large areas of thick leaf litter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-breasted-buttonquail-a9b56364",
+      "subject": "Black-breasted buttonquail",
+      "predicate": "distributed_in",
+      "object_id": "loc-palmgrove-national-park-f93004c5",
+      "object": "Palmgrove National Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| last5=Murray | title=Distribution of Black-breasted Button-quail Turnix melanogaster in the Great Sandy Region, Queensland and associations with vegetation communities | journal= Emu – Austral Ornithology | doi=10.1080/01584197.2022.2047733 | date= March 2022| volume= 122 | issue= 1 | pages= 71–76| bibcode= 2022EmuAO.122...71W | s2cid= 247534104 }} It is found in Palmgrove National Park, which has been identified by BirdLife International as an Important Bird Area for the species. The black-breasted buttonquail was once populous on Inskip Point, with the area a destination for birdwatchers wanting to see this species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-breasted-buttonquail-a9b56364",
+      "subject": "Black-breasted buttonquail",
+      "predicate": "distributed_in",
+      "object_id": "loc-重点鸟区-0b8dda42",
+      "object": "重点鸟区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| last5=Murray | title=Distribution of Black-breasted Button-quail Turnix melanogaster in the Great Sandy Region, Queensland and associations with vegetation communities | journal= Emu – Austral Ornithology | doi=10.1080/01584197.2022.2047733 | date= March 2022| volume= 122 | issue= 1 | pages= 71–76| bibcode= 2022EmuAO.122...71W | s2cid= 247534104 }} It is found in Palmgrove National Park, which has been identified by BirdLife International as an Important Bird Area for the species. The black-breasted buttonquail was once populous on Inskip Point, with the area a destination for birdwatchers wanting to see this species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-breasted-buttonquail-a9b56364",
+      "subject": "Black-breasted buttonquail",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

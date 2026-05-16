@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:06:06",
+  "requested_title": "Common Emerald Dove",
+  "resolved_title": "Common emerald dove",
+  "title_aliases": [
+    "Common Emerald Dove"
+  ],
+  "bird_id": "bird-绿翅金鸠-254a6be3",
+  "raw_file": "bird-绿翅金鸠-254a6be3.json",
+  "bird": {
+    "id": "bird-绿翅金鸠-254a6be3",
+    "name": "绿翅金鸠",
+    "english_name": "Common emerald dove",
+    "latin_name": "Chalcophaps indica",
+    "summary": "The emerald dove or common emerald dove (Chalcophaps indica), also called Asian emerald dove and grey-capped emerald dove, is a widespread…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Asian_Emerald_Dove_0A2A7379.jpg/960px-Asian_Emerald_Dove_0A2A7379.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-自然系统第十版-55ca7965",
+      "name": "自然系统第十版",
+      "summary": "《自然系统》第十版（英語：10th edition of Systema Naturae）是18世纪瑞典生物学家卡尔·林奈所撰写的生物学专著，于1758年和1759年分别出版上下两卷。林奈在书中为动物定义了二名法命名法则（此前他曾在175…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-绿翅金鸠-254a6be3",
+      "subject": "绿翅金鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-自然系统第十版-55ca7965",
+      "object": "自然系统第十版",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The emerald dove or common emerald dove (Chalcophaps indica), also called Asian emerald dove and grey-capped emerald dove, is a widespread resident breeding pigeon native to the tropical and subtropical parts of the Indian subcontinent and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿翅金鸠-254a6be3",
+      "subject": "绿翅金鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The emerald dove or common emerald dove (Chalcophaps indica), also called Asian emerald dove and grey-capped emerald dove, is a widespread resident breeding pigeon native to the tropical and subtropical parts of the Indian subcontinent and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿翅金鸠-254a6be3",
+      "subject": "绿翅金鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

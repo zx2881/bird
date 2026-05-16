@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:18:08",
+  "requested_title": "Short-billed Gull",
+  "resolved_title": "Short-billed gull",
+  "title_aliases": [
+    "Short-billed Gull"
+  ],
+  "bird_id": "bird-美洲海鸥-570f8558",
+  "raw_file": "bird-美洲海鸥-570f8558.json",
+  "bird": {
+    "id": "bird-美洲海鸥-570f8558",
+    "name": "美洲海鸥",
+    "english_name": "Short-billed gull",
+    "latin_name": "Larus brachyrhynchus",
+    "summary": "美洲海鸥（学名：Larus brachyrhynchus），是鸻形目鸥科的一种鸟类。 特征 美洲海鸥体重约412.5克，翼长约351毫米，嘴峰长约47.8毫米，喙宽度约5.5毫米，喙厚度约10.1毫米，跗蹠长约49.4毫米，尾长约133.8毫米。美洲海鸥是候鸟，其栖息在开放的海…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Larus_brachyrhynchus%2C_Potter%27s_Marsh%2C_Anchorage%2C_Alaska.jpg/960px-Larus_brachyrhynchus%2C_Potter%27s_Marsh%2C_Anchorage%2C_Alaska.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-約翰-理查森-博物學家-bdc87e3e",
+      "name": "約翰·理查森 (博物學家)",
+      "summary": "約翰·理查森爵士（英語：Sir John Richardson，1787年11月5日—1865年6月5日）是一位蘇格蘭博物學家，以及極地探險家。 約翰·理查森出生於蘇格蘭鄧弗里斯，曾參與約翰·富蘭克林領導的1819年至1822年銅礦遠征，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-美洲海鸥-570f8558",
+      "subject": "美洲海鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-約翰-理查森-博物學家-bdc87e3e",
+      "object": "約翰·理查森 (博物學家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The short-billed gull (Larus brachyrhynchus) is a species of gull that breeds in northwestern North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲海鸥-570f8558",
+      "subject": "美洲海鸥",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The short-billed gull breeds in colonies along coastal areas and inland wetlands, mainly in Alaska and Northwest Canada",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    }
+  ]
+}

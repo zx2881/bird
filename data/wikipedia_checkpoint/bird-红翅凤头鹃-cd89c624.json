@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:13:17",
+  "requested_title": "Chestnut-winged Cuckoo",
+  "resolved_title": "Chestnut-winged cuckoo",
+  "title_aliases": [
+    "Chestnut-winged Cuckoo"
+  ],
+  "bird_id": "bird-红翅凤头鹃-cd89c624",
+  "raw_file": "bird-红翅凤头鹃-cd89c624.json",
+  "bird": {
+    "id": "bird-红翅凤头鹃-cd89c624",
+    "name": "红翅凤头鹃",
+    "english_name": "Chestnut-winged cuckoo",
+    "latin_name": "Clamator coromandus",
+    "summary": "红翅凤头鹃（学名：Clamator coromandus），又名冠郭公、栗翅鳳鵑、红翅凤头郭公，为杜鹃科鳳鵑屬的鸟类。是一種分布於東南亞和南亞部分地區的杜鵑。它擁有深色有光澤的上半部、黑色頭部並帶有長冠、栗色翅膀、長而漸層的光澤黑色尾巴、棕紅色喉部、暗色腹部，以及一條狹窄的白色…",
+    "lat": "26.17222222",
+    "lng": "91.74583333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Chestnut-winged_Cuckoo_by_Rejaul_Karim.jpg/960px-Chestnut-winged_Cuckoo_by_Rejaul_Karim.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-古瓦哈蒂-e20d3206",
+      "name": "古瓦哈蒂",
+      "summary": "古瓦哈蒂（阿萨姆语：গুৱাহাটী）是印度阿萨姆邦的最大城市，位於布拉馬普特拉河與西隆山脈之间，总人口808,021人。 古瓦哈蒂有許多印度教寺院，最出名的名胜古迹是卡摩加耶庙（kâmâkhyâ）。這是印度教性力派和怛特罗密教信徒的重要…",
+      "lat": "26.17222222",
+      "lng": "91.74583333"
+    },
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-point-calimere-61781445",
+      "name": "Point Calimere",
+      "summary": "Kodiakkarai also called Point Calimere or Cape Calimere, is a low headland of the Coromandel Coast, in the Nagapattinam…",
+      "lat": "10.2845",
+      "lng": "79.82411111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红翅凤头鹃-cd89c624",
+      "subject": "红翅凤头鹃",
+      "predicate": "distributed_in",
+      "object_id": "loc-古瓦哈蒂-e20d3206",
+      "object": "古瓦哈蒂",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut-winged cuckoo or red-winged crested cuckoo (Clamator coromandus) is a cuckoo found in Southeast Asia and parts of South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红翅凤头鹃-cd89c624",
+      "subject": "红翅凤头鹃",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut-winged cuckoo or red-winged crested cuckoo (Clamator coromandus) is a cuckoo found in Southeast Asia and parts of South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红翅凤头鹃-cd89c624",
+      "subject": "红翅凤头鹃",
+      "predicate": "distributed_in",
+      "object_id": "loc-point-calimere-61781445",
+      "object": "Point Calimere",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Soc.|volume=52|issue=1|page=210| url=https://www.biodiversitylibrary.org/page/48184060 }} In mid-October, they are found in numbers at Point Calimere, possibly into Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红翅凤头鹃-cd89c624",
+      "subject": "红翅凤头鹃",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

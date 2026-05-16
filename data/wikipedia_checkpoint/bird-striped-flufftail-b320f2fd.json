@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:15:18",
+  "requested_title": "Striped Flufftail",
+  "resolved_title": "Striped flufftail",
+  "title_aliases": [
+    "Striped Flufftail"
+  ],
+  "bird_id": "bird-striped-flufftail-b320f2fd",
+  "raw_file": "bird-striped-flufftail-b320f2fd.json",
+  "bird": {
+    "id": "bird-striped-flufftail-b320f2fd",
+    "name": "Striped flufftail",
+    "english_name": "Striped flufftail",
+    "latin_name": "Sarothrura affinis",
+    "summary": "The striped flufftail (Sarothrura affinis) is a species of bird in the flufftail family Sarothruridae. It is also known as the red-tailed f…",
+    "lat": "-34.16666667",
+    "lng": "18.375",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sarothrura_affinis_affinis_1838.jpg/960px-Sarothrura_affinis_affinis_1838.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安东-赖歇诺-43b8e534",
+      "name": "安东·赖歇诺",
+      "summary": "安东·赖歇诺（德語：Anton Reichenow，1847年8月1日—1941年7月6日）是德国鳥類學家和爬虫两栖类学家。 生平 安东·赖歇诺是德国鸟类研究学家吉恩·路易斯·卡巴尼斯的女婿，1874年至1921年在柏林自然博物馆长期工作…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-凡波斯-b26c163a",
+      "name": "凡波斯",
+      "summary": "凡波斯（南非語：fynbos，荷蘭語發音：[ˈfəinbɒs]，英語化發音：/ˈfeɪnbɒs/），指南非西開普省及東開普省沿海山區的天然灌木植被帶，屬於地中海型氣候冬季多雨區的硬葉植被。凡波斯是開普植物區的主體，生態上歸入地中海森林、疏…",
+      "lat": "-34.16666667",
+      "lng": "18.375"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-striped-flufftail-b320f2fd",
+      "subject": "Striped flufftail",
+      "predicate": "distributed_in",
+      "object_id": "loc-安东-赖歇诺-43b8e534",
+      "object": "安东·赖歇诺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "antonii, named for German ornithologist Anton Reichenow, is found in eastern Zimbabwe and Mozambique, Malawi, southern Tanzania, Kenya and the south of South Sudan.Taylor, B",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-striped-flufftail-b320f2fd",
+      "subject": "Striped flufftail",
+      "predicate": "distributed_in",
+      "object_id": "loc-凡波斯-b26c163a",
+      "object": "凡波斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In South Africa, at lower altitudes, it is found in fynbos. left|thumb The striped flufftail feeds on a range of insects including beetles, caterpillars, ants, termites, flies, crickets and bugs, as well as spiders and seeds",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-striped-flufftail-b320f2fd",
+      "subject": "Striped flufftail",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species is mostly found in alpine grasslands, usually near water, and requires good cover with some clear ground",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-striped-flufftail-b320f2fd",
+      "subject": "Striped flufftail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

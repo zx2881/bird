@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:37:04",
+  "requested_title": "Rothschild's Swift",
+  "resolved_title": "Rothschild's swift",
+  "title_aliases": [
+    "Rothschild's Swift"
+  ],
+  "bird_id": "bird-rothschild-s-swift-62a01db3",
+  "raw_file": "bird-rothschild-s-swift-62a01db3.json",
+  "bird": {
+    "id": "bird-rothschild-s-swift-62a01db3",
+    "name": "Rothschild's swift",
+    "english_name": "Rothschild's swift",
+    "latin_name": "Cypseloides rothschildi",
+    "summary": "Rothschild's swift (Cypseloides rothschildi) is a Near Threatened species of bird in subfamily Cypseloidinae of the swift family Apodidae.…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Rothschild%27s_Swift_imported_from_iNaturalist_photo_30742162_on_21_April_2022.jpg/960px-Rothschild%27s_Swift_imported_from_iNaturalist_photo_30742162_on_21_April_2022.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rothschild-s-swift-62a01db3",
+      "subject": "Rothschild's swift",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Available at: http://datazone.birdlife.org/userfiles/file/Species/Taxonomy/HBW-BirdLife_Checklist_v6_Dec21.zip retrieved August 7, 2022 It is found in Argentina and Bolivia.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rothschild-s-swift-62a01db3",
+      "subject": "Rothschild's swift",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Available at: http://datazone.birdlife.org/userfiles/file/Species/Taxonomy/HBW-BirdLife_Checklist_v6_Dec21.zip retrieved August 7, 2022 It is found in Argentina and Bolivia.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rothschild-s-swift-62a01db3",
+      "subject": "Rothschild's swift",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

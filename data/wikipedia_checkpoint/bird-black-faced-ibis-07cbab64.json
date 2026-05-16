@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:37:03",
+  "requested_title": "Black-faced Ibis",
+  "resolved_title": "Black-faced ibis",
+  "title_aliases": [
+    "Black-faced Ibis"
+  ],
+  "bird_id": "bird-black-faced-ibis-07cbab64",
+  "raw_file": "bird-black-faced-ibis-07cbab64.json",
+  "bird": {
+    "id": "bird-black-faced-ibis-07cbab64",
+    "name": "Black-faced ibis",
+    "english_name": "Black-faced ibis",
+    "latin_name": "Theristicus melanopis",
+    "summary": "The black-faced ibis (Theristicus melanopis) is a species of bird in the family Threskiornithidae. It is found in grassland and fields in s…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Black-faced_ibis_%28Theristicus_melanopis%29_Tricao.jpg/960px-Black-faced_ibis_%28Theristicus_melanopis%29_Tricao.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-faced-ibis-07cbab64",
+      "subject": "Black-faced ibis",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in grassland and fields in southern and western South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-faced-ibis-07cbab64",
+      "subject": "Black-faced ibis",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-faced ibis is mainly found in southern South America, ranging throughout most of southern and central Argentina and Chile, where it occurs from sea-level to an altitude of approximately",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-faced-ibis-07cbab64",
+      "subject": "Black-faced ibis",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-faced ibis is mainly found in southern South America, ranging throughout most of southern and central Argentina and Chile, where it occurs from sea-level to an altitude of approximately",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-faced-ibis-07cbab64",
+      "subject": "Black-faced ibis",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in grassland and fields in southern and western South America",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-black-faced-ibis-07cbab64",
+      "subject": "Black-faced ibis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

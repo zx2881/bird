@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:03:10",
+  "requested_title": "Hyacinth Visorbearer",
+  "resolved_title": "Hyacinth visorbearer",
+  "title_aliases": [
+    "Hyacinth Visorbearer"
+  ],
+  "bird_id": "bird-紫蓝妆脸蜂鸟-2a287933",
+  "raw_file": "bird-紫蓝妆脸蜂鸟-2a287933.json",
+  "bird": {
+    "id": "bird-紫蓝妆脸蜂鸟-2a287933",
+    "name": "紫蓝妆脸蜂鸟",
+    "english_name": "Hyacinth visorbearer",
+    "latin_name": "Augastes scutatus",
+    "summary": "紫蓝妆脸蜂鸟（台湾作紫藍黑臉蜂鳥，学名：Augastes scutatus），是雨燕目蜂鸟科的一种鸟类。 紫蓝妆脸蜂鸟体重约3克，翼长约53.4毫米，嘴峰长约18.2毫米，喙宽度约1.6毫米，喙厚度约1.7毫米，跗蹠长约4.5毫米，尾长约32.6毫米。紫蓝妆脸蜂鸟在其分布区内为…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Beija-flor-de-gravata-verde_%28Augastes_scutatus%29.jpg/960px-Beija-flor-de-gravata-verde_%28Augastes_scutatus%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫蓝妆脸蜂鸟-2a287933",
+      "subject": "紫蓝妆脸蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is usually found in gallery forest and bushy areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫蓝妆脸蜂鸟-2a287933",
+      "subject": "紫蓝妆脸蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits ravines in montane forest at elevations between about",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-紫蓝妆脸蜂鸟-2a287933",
+      "subject": "紫蓝妆脸蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

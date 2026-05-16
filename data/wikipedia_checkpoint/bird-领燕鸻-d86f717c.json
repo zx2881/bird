@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:50:10",
+  "requested_title": "Collared Pratincole",
+  "resolved_title": "Collared pratincole",
+  "title_aliases": [
+    "Collared Pratincole"
+  ],
+  "bird_id": "bird-领燕鸻-d86f717c",
+  "raw_file": "bird-领燕鸻-d86f717c.json",
+  "bird": {
+    "id": "bird-领燕鸻-d86f717c",
+    "name": "领燕鸻",
+    "english_name": "Collared pratincole",
+    "latin_name": "Glareola pratincola",
+    "summary": "领燕鸻（学名：Glareola pratincola），是鸻形目燕鸻科的一种鸟类。 特征 领燕鸻体重约84.9克，翼长约181.6毫米，嘴峰长约20.1毫米，喙宽度约4.9毫米，喙厚度约6毫米，跗蹠长约30.9毫米，尾长约106毫米。领燕鸻是候鸟，其栖息在开放的草原环境中，食性…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Glareola_pratincola_on_ground.jpg/960px-Glareola_pratincola_on_ground.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-领燕鸻-d86f717c",
+      "subject": "领燕鸻",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "As with other pratincoles, it is native to the Old World",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-领燕鸻-d86f717c",
+      "subject": "领燕鸻",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

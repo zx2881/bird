@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:32:18",
+  "requested_title": "Yellow-billed Loon",
+  "resolved_title": "Yellow-billed loon",
+  "title_aliases": [
+    "Yellow-billed Loon"
+  ],
+  "bird_id": "bird-白嘴潜鸟-da816851",
+  "raw_file": "bird-白嘴潜鸟-da816851.json",
+  "bird": {
+    "id": "bird-白嘴潜鸟-da816851",
+    "name": "白嘴潜鸟",
+    "english_name": "Yellow-billed loon",
+    "latin_name": "Gavia adamsii",
+    "summary": "黄嘴潜鸟（台湾作白嘴潛鳥）（学名：Gavia adamsii），是潜鸟科中体型最大的一种，体长77-100厘米，平均体重为5.3公斤，翼展为135-160厘米。 体貌 嘴上扬，上颚有浅色中线，头较上身色浅。有白色颈环。头和身体呈流线型，有利于潜水捕鱼，在岸上则十分笨拙。虹膜呈红…",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Yellow-billed_Loon_Chipp_South_8-12-13_Ryan_Askren.jpg/960px-Yellow-billed_Loon_Chipp_South_8-12-13_Ryan_Askren.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-岸-4d4f1e5c",
+      "name": "岸",
+      "summary": "岸（又稱濱），分為海岸、湖岸及河岸，是在水面和陆地接触处，经波浪、潮汐、海流等作用下形成的滨水地带，其中有眾多沉積物堆積而形成的岸稱為灘。 海水作用 波浪，經常造成侵蝕 海流，經常造成堆積 潮汐 海岸類型 依構成物質區分 可分為岩岸與沙岸…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    },
+    {
+      "id": "loc-挪威-1a348e97",
+      "name": "挪威",
+      "summary": "挪威（挪威语、書面挪威語：Norge；新挪威語：Noreg），全称挪威王国（挪威語：Kongeriket Norge；書面挪威語：Kongeriket Norg；新挪威語：Kongeriket Noreg）。是一个位于斯堪的纳维亚半岛的沿…",
+      "lat": "61",
+      "lng": "8"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白嘴潜鸟-da816851",
+      "subject": "白嘴潜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-岸-4d4f1e5c",
+      "object": "岸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Arctic and winters mainly at sea along the coasts of the northern Pacific Ocean and northwestern Norway; it also sometimes overwinters on large inland lakes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白嘴潜鸟-da816851",
+      "subject": "白嘴潜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Arctic and winters mainly at sea along the coasts of the northern Pacific Ocean and northwestern Norway; it also sometimes overwinters on large inland lakes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白嘴潜鸟-da816851",
+      "subject": "白嘴潜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-挪威-1a348e97",
+      "object": "挪威",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Arctic and winters mainly at sea along the coasts of the northern Pacific Ocean and northwestern Norway; it also sometimes overwinters on large inland lakes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白嘴潜鸟-da816851",
+      "subject": "白嘴潜鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

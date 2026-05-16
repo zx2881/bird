@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:24:17",
+  "requested_title": "African Rail",
+  "resolved_title": "African rail",
+  "title_aliases": [
+    "African Rail"
+  ],
+  "bird_id": "bird-african-rail-f6864d6b",
+  "raw_file": "bird-african-rail-f6864d6b.json",
+  "bird": {
+    "id": "bird-african-rail-f6864d6b",
+    "name": "African rail",
+    "english_name": "African rail",
+    "latin_name": "Rallus caerulescens",
+    "summary": "The African rail (Rallus caerulescens), sometimes also Kaffir rail, is a small wetland bird of the rail family that is found in eastern and…",
+    "lat": "-29.61666667",
+    "lng": "30.38333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/African_Rail_%28Rallus_caerulescens%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-彼得马里茨堡-6e2908d9",
+      "name": "彼得马里茨堡",
+      "summary": "彼得马里茨堡（阿非利卡語：Pietermaritzburg）是南非夸祖鲁-纳塔尔省的首府，位于南非东部，人口为223,519人，主要语言为英语和祖鲁语，还有少部分南非荷兰语和科萨语，拥有彼得马里茨堡机场。也稱馬利茲堡（英文：Maritzb…",
+      "lat": "-29.61666667",
+      "lng": "30.38333333"
+    },
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-african-rail-f6864d6b",
+      "subject": "African rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-彼得马里茨堡-6e2908d9",
+      "object": "彼得马里茨堡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The African rail (Rallus caerulescens), sometimes also Kaffir rail, is a small wetland bird of the rail family that is found in eastern and southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-african-rail-f6864d6b",
+      "subject": "African rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The African rail (Rallus caerulescens), sometimes also Kaffir rail, is a small wetland bird of the rail family that is found in eastern and southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-african-rail-f6864d6b",
+      "subject": "African rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The African rail (Rallus caerulescens), sometimes also Kaffir rail, is a small wetland bird of the rail family that is found in eastern and southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-african-rail-f6864d6b",
+      "subject": "African rail",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The African rail (Rallus caerulescens), sometimes also Kaffir rail, is a small wetland bird of the rail family that is found in eastern and southern Africa",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-african-rail-f6864d6b",
+      "subject": "African rail",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its breeding habitat is marshes and reedbeds across eastern and southern Africa from Ethiopia to South Africa",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-african-rail-f6864d6b",
+      "subject": "African rail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

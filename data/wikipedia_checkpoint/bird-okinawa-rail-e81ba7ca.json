@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:29:15",
+  "requested_title": "Okinawa Rail",
+  "resolved_title": "Okinawa rail",
+  "title_aliases": [
+    "Okinawa Rail"
+  ],
+  "bird_id": "bird-okinawa-rail-e81ba7ca",
+  "raw_file": "bird-okinawa-rail-e81ba7ca.json",
+  "bird": {
+    "id": "bird-okinawa-rail-e81ba7ca",
+    "name": "Okinawa rail",
+    "english_name": "Okinawa rail",
+    "latin_name": "Gallirallus okinawae",
+    "summary": "The Okinawa rail (Gallirallus okinawae) is a species of bird in the rail family, Rallidae. It is endemic to Okinawa Island in Japan where i…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Okinawa_Rail_imported_from_iNaturalist_photo_388492786_on_12_June_2024.jpg/960px-Okinawa_Rail_imported_from_iNaturalist_photo_388492786_on_12_June_2024.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-okinawa-rail-e81ba7ca",
+      "subject": "Okinawa rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in subtropical moist forests and in neighboring habitats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-okinawa-rail-e81ba7ca",
+      "subject": "Okinawa rail",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In winter, some birds move lower down or move a little further south of the breeding range. It mainly occurs in evergreen broad-leaved forest but also occurs in marshes, grassland and cultivated land close to forested areas and water",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-okinawa-rail-e81ba7ca",
+      "subject": "Okinawa rail",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In winter, some birds move lower down or move a little further south of the breeding range. It mainly occurs in evergreen broad-leaved forest but also occurs in marshes, grassland and cultivated land close to forested areas and water",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-okinawa-rail-e81ba7ca",
+      "subject": "Okinawa rail",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-okinawa-rail-e81ba7ca",
+      "subject": "Okinawa rail",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is classified as an endangered species and is threatened by habitat loss and introduced predators",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-okinawa-rail-e81ba7ca",
+      "subject": "Okinawa rail",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is classified as an endangered species and is threatened by habitat loss and introduced predators",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    },
+    {
+      "subject_id": "bird-okinawa-rail-e81ba7ca",
+      "subject": "Okinawa rail",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Downloaded on 15 October 2008. It is threatened by the loss and fragmentation of its forest habitat due to logging, agriculture and the building of roads, dams and golf courses",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

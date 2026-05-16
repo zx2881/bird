@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:53:12",
+  "requested_title": "Brown Skua",
+  "resolved_title": "Brown skua",
+  "title_aliases": [
+    "Brown Skua"
+  ],
+  "bird_id": "bird-棕色贼鸥-c1a84af3",
+  "raw_file": "bird-棕色贼鸥-c1a84af3.json",
+  "bird": {
+    "id": "bird-棕色贼鸥-c1a84af3",
+    "name": "棕色贼鸥",
+    "english_name": "Brown skua",
+    "latin_name": "Stercorarius antarcticus",
+    "summary": "棕色贼鸥（學名：Stercorarius antarcticus）是一种大型海鸟，詞類物種主要在亚南极和南极地区繁殖。它以魚、企鹅雏鸟和其他海鳥、小型哺乳动物、鸡蛋和腐肉为食。根據2016年的一项研究报告表示，棕色贼鸥可能具有较高的认知能力。 参考文献",
+    "lat": "-90",
+    "lng": "0",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Stercorarius_antarcticus_-Godthul%2C_South_Georgia%2C_British_Overseas_Territories%2C_UK_-landing-8.jpg/960px-Stercorarius_antarcticus_-Godthul%2C_South_Georgia%2C_British_Overseas_Territories%2C_UK_-landing-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-gregory-mathews-1867f775",
+      "name": "Gregory Mathews",
+      "summary": "Gregory Macalister Mathews CBE FRSE FZS FLS (10 September 1876 – 27 March 1949) was an Australian-born amateur ornithol…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-海鳥-4f6bf339",
+      "name": "海鳥",
+      "summary": "海鳥是一種能夠適應海洋氣候環境的鳥類，而無論於生活習慣、生理運行等皆與其他鳥類大有不同。其有著強烈的趨同演化，因此所有海鳥的生態職位均十分類似。而海鳥最初出現於白堊紀之時，距今有近億年，但是與現代海鳥之關係並不大。若果論及現代海鳥之遠祖，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南极地区-bded716d",
+      "name": "南极地区",
+      "summary": "南极地区（英语：Antarctic）是地球南面的极地，通常指南极圈以南的地区，即绝大部分的南极洲，广义上包含南极洲及其附近的岛屿。 地理 根据南极条约体系的定义，南极地区是指南纬60°以南的一切。条约区域包括南极洲和巴伦尼群岛、彼得一世岛…",
+      "lat": "-90",
+      "lng": "0"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕色贼鸥-c1a84af3",
+      "subject": "棕色贼鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-gregory-mathews-1867f775",
+      "object": "Gregory Mathews",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "lonnbergi – (Mathews, 1912) | range_map = Catharacta antarctica map.svg }} The brown skua (Stercorarius antarcticus), also known as the Antarctic skua, Subantarctic skua, southern great skua, southern skua, or hākoakoa (Māori), is a large seabird that breeds in the subantarctic and Antarctic zones and moves farther north when not breeding",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕色贼鸥-c1a84af3",
+      "subject": "棕色贼鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-海鳥-4f6bf339",
+      "object": "海鳥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "lonnbergi – (Mathews, 1912) | range_map = Catharacta antarctica map.svg }} The brown skua (Stercorarius antarcticus), also known as the Antarctic skua, Subantarctic skua, southern great skua, southern skua, or hākoakoa (Māori), is a large seabird that breeds in the subantarctic and Antarctic zones and moves farther north when not breeding",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕色贼鸥-c1a84af3",
+      "subject": "棕色贼鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-南极地区-bded716d",
+      "object": "南极地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "lonnbergi – (Mathews, 1912) | range_map = Catharacta antarctica map.svg }} The brown skua (Stercorarius antarcticus), also known as the Antarctic skua, Subantarctic skua, southern great skua, southern skua, or hākoakoa (Māori), is a large seabird that breeds in the subantarctic and Antarctic zones and moves farther north when not breeding",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕色贼鸥-c1a84af3",
+      "subject": "棕色贼鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

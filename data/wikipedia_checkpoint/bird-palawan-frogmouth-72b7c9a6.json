@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:33:09",
+  "requested_title": "Palawan Frogmouth",
+  "resolved_title": "Palawan frogmouth",
+  "title_aliases": [
+    "Palawan Frogmouth"
+  ],
+  "bird_id": "bird-palawan-frogmouth-72b7c9a6",
+  "raw_file": "bird-palawan-frogmouth-72b7c9a6.json",
+  "bird": {
+    "id": "bird-palawan-frogmouth-72b7c9a6",
+    "name": "Palawan frogmouth",
+    "english_name": "Palawan frogmouth",
+    "latin_name": "Batrachostomus chaseni",
+    "summary": "The Palawan frogmouth (Batrachostomus chaseni) is a species of bird in the family Podargidae. It is found on Palawan in the Philippines.",
+    "lat": "9.74361111",
+    "lng": "118.66111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Palawan_Frogmouth2_%28cropped%29.jpg/960px-Palawan_Frogmouth2_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "name": "Iwahig Prison and Penal Farm",
+      "summary": "Iwahig Prison and Penal Farm in Puerto Princesa, Palawan, Philippines is one of seven operating units of the Bureau of…",
+      "lat": "9.74361111",
+      "lng": "118.66111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-palawan-frogmouth-72b7c9a6",
+      "subject": "Palawan frogmouth",
+      "predicate": "distributed_in",
+      "object_id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "object": "Iwahig Prison and Penal Farm",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in just one protected area in the Iwahig Prison and Penal Farm",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-palawan-frogmouth-72b7c9a6",
+      "subject": "Palawan frogmouth",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, Palawan's forests are under threat due to illegal logging, deforestation and mining and it is reasonable to believe that this bird's population is declining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

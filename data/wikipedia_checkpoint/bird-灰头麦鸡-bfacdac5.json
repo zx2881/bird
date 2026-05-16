@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:07:10",
+  "requested_title": "Grey-headed Lapwing",
+  "resolved_title": "Grey-headed lapwing",
+  "title_aliases": [
+    "Grey-headed Lapwing"
+  ],
+  "bird_id": "bird-灰头麦鸡-bfacdac5",
+  "raw_file": "bird-灰头麦鸡-bfacdac5.json",
+  "bird": {
+    "id": "bird-灰头麦鸡-bfacdac5",
+    "name": "灰头麦鸡",
+    "english_name": "Grey-headed lapwing",
+    "latin_name": "Vanellus cinereus",
+    "summary": "灰头麦鸡（学名：Vanellus cinereus）-为鸻科麦鸡属的鸟类。主要繁殖於中國東北和日本。大陸的族群在東南亞北部過冬，從印度東北部到柬埔寨。而日本的族群至少部分會在本州南部過冬。在中国大陆，分布于华北、华南等地。该物种的模式产地在印度。 此物種曾作為迷鳥出現在俄羅斯、…",
+    "lat": "36",
+    "lng": "138",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Vanellus_cinereus.JPG/960px-Vanellus_cinereus.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-愛德華-布萊思-840f1191",
+      "name": "愛德華·布萊思",
+      "summary": "愛德華·布萊思（英語：Edward Blyth，1810年12月23日—1873年12月27日）是一位英國動物學家，其一生中的絕大部分時間都在印度加爾各答的孟加拉亞洲學會博物館內擔任策展人。 布萊思於1810年生於倫敦，於1841年移居至…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中国东北地区-cb57c10c",
+      "name": "中国东北地区",
+      "summary": "中国东北地区，简称中国东北或东北，清初称盛京统部，雍正之后已普遍称东三省，近代曾經被称作關東、滿洲，是中国的一個地理大区。 現在中華人民共和國的东北地区，廣義上指辽宁省、吉林省、黑龙江省以及内蒙古自治区的呼伦贝尔市、兴安盟、赤峰市、通辽市…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-日本-4dbed2e6",
+      "name": "日本",
+      "summary": "日本國（日語：日本国〔日本國〕／にっぽんこく／にほんこく，羅馬化：nippon koku/nihon koku），通稱日本，是位於東亞的島嶼國家。國土全境由北海道、本州、四國、九州等本土四島為基礎的14,125座島嶼組成，周圍被太平洋及鄂…",
+      "lat": "36",
+      "lng": "138"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰头麦鸡-bfacdac5",
+      "subject": "灰头麦鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-愛德華-布萊思-840f1191",
+      "object": "愛德華·布萊思",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-headed lapwing (Vanellus cinereus) is a lapwing species which breeds in northeast China and Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头麦鸡-bfacdac5",
+      "subject": "灰头麦鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-中国东北地区-cb57c10c",
+      "object": "中国东北地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-headed lapwing (Vanellus cinereus) is a lapwing species which breeds in northeast China and Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头麦鸡-bfacdac5",
+      "subject": "灰头麦鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本-4dbed2e6",
+      "object": "日本",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-headed lapwing (Vanellus cinereus) is a lapwing species which breeds in northeast China and Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头麦鸡-bfacdac5",
+      "subject": "灰头麦鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

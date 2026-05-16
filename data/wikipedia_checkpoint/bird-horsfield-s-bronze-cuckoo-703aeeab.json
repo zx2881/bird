@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:46:20",
+  "requested_title": "Horsfield's Bronze Cuckoo",
+  "resolved_title": "Horsfield's bronze cuckoo",
+  "title_aliases": [
+    "Horsfield's Bronze Cuckoo"
+  ],
+  "bird_id": "bird-horsfield-s-bronze-cuckoo-703aeeab",
+  "raw_file": "bird-horsfield-s-bronze-cuckoo-703aeeab.json",
+  "bird": {
+    "id": "bird-horsfield-s-bronze-cuckoo-703aeeab",
+    "name": "Horsfield's bronze cuckoo",
+    "english_name": "Horsfield's bronze cuckoo",
+    "latin_name": "Chalcites basalis",
+    "summary": "Horsfield's bronze cuckoo (Chalcites basalis) is a small cuckoo in the family Cuculidae. Its size averages 22 g (0.78 oz) and is distinguis…",
+    "lat": "-36.86027778",
+    "lng": "174.77777778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Horsfield%27s_Bronze_Cuckoo_0A2A3435.jpg/960px-Horsfield%27s_Bronze_Cuckoo_0A2A3435.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-奥克兰战争纪念博物馆-8b2f04e9",
+      "name": "奥克兰战争纪念博物馆",
+      "summary": "奧克蘭戰爭紀念博物館（Auckland War Memorial Museum）是新西蘭最重要的博物館之一，1929年11月28日開幕。其收藏集中於新西蘭歷史、自然史以及軍事史。 奧克蘭戰爭紀念博物館也是奧克蘭的一座地標，新古典主義風格建…",
+      "lat": "-36.86027778",
+      "lng": "174.77777778"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-horsfield-s-bronze-cuckoo-703aeeab",
+      "subject": "Horsfield's bronze cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-奥克兰战争纪念博物馆-8b2f04e9",
+      "object": "奥克兰战争纪念博物馆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is native to Australia and South East Asia, found in Indonesia, Papua New Guinea, Malaysia, and southern Thailand. In 2024, the first known specimen was recorded in New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-horsfield-s-bronze-cuckoo-703aeeab",
+      "subject": "Horsfield's bronze cuckoo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

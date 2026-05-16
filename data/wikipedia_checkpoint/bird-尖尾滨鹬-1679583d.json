@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:35:07",
+  "requested_title": "Sharp-tailed Sandpiper",
+  "resolved_title": "Sharp-tailed sandpiper",
+  "title_aliases": [
+    "Sharp-tailed Sandpiper"
+  ],
+  "bird_id": "bird-尖尾滨鹬-1679583d",
+  "raw_file": "bird-尖尾滨鹬-1679583d.json",
+  "bird": {
+    "id": "bird-尖尾滨鹬-1679583d",
+    "name": "尖尾滨鹬",
+    "english_name": "Sharp-tailed sandpiper",
+    "latin_name": "Calidris acuminata",
+    "summary": "尖尾滨鹬（学名：Calidris acuminata）为鹬科滨鹬属的鸟类。是一種小到中等的遷徙性涉禽或岸鳥，主要在夏季繁殖期（6月到8月）出現在西伯利亞，而在冬季（9月到3月）則遷徙到澳大利亞。在中国大陆，分布于华东等地。该物种的模式产地在爪哇。 分類學 屬名calidris…",
+    "lat": "-28.10888889",
+    "lng": "146.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Calidris_acuminata_%28s4%29.JPG/960px-Calidris_acuminata_%28s4%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大拉西亞-3d7bd98e",
+      "name": "澳大拉西亞",
+      "summary": "澳大拉西亚（英語：Australasia）一般指大洋洲的一个地区，包含了澳大利亚、新西兰和邻近的太平洋岛屿。 澳大拉西亚一詞是由法国學者布羅塞於1756年出版的《到南方陸地航行的歷史》（Histoire des navigations a…",
+      "lat": "-28.10888889",
+      "lng": "146.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-尖尾滨鹬-1679583d",
+      "subject": "尖尾滨鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大拉西亞-3d7bd98e",
+      "object": "澳大拉西亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They have a complex migration, with adults departing Siberia in July and juveniles in August to head south, with the majority of the population wintering in Australasia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-尖尾滨鹬-1679583d",
+      "subject": "尖尾滨鹬",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-尖尾滨鹬-1679583d",
+      "subject": "尖尾滨鹬",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is currently listed as vulnerable globally by the IUCN in 2021, with an estimated number of 60,000 to 120,000 mature individuals and a decreasing population trend. The major threats to the species are habitat loss, with the staging areas used in migration being reduced through reclamation of land for aquaculture or degraded from human activities",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-尖尾滨鹬-1679583d",
+      "subject": "尖尾滨鹬",
+      "predicate": "threatened_by",
+      "object_id": "threat-reclamation",
+      "object": "滩涂围垦",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is currently listed as vulnerable globally by the IUCN in 2021, with an estimated number of 60,000 to 120,000 mature individuals and a decreasing population trend. The major threats to the species are habitat loss, with the staging areas used in migration being reduced through reclamation of land for aquaculture or degraded from human activities",
+      "object_summary": "滨海滩涂被转化为建设或农业用地。"
+    }
+  ]
+}

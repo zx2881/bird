@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:13:15",
+  "requested_title": "Malayan Crestless Fireback",
+  "resolved_title": "Malayan crestless fireback",
+  "title_aliases": [
+    "Malayan Crestless Fireback"
+  ],
+  "bird_id": "bird-malayan-crestless-fireback-79e67395",
+  "raw_file": "bird-malayan-crestless-fireback-79e67395.json",
+  "bird": {
+    "id": "bird-malayan-crestless-fireback-79e67395",
+    "name": "Malayan crestless fireback",
+    "english_name": "Malayan crestless fireback",
+    "latin_name": "Lophura erythrophthalma",
+    "summary": "The Malayan crestless fireback or Malay crestless fireback (Lophura erythrophthalma) is a member of the family Phasianidae. It was previous…",
+    "lat": "7",
+    "lng": "100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lophura_erythrophthalma_%2812737744943%29.jpg/960px-Lophura_erythrophthalma_%2812737744943%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-malayan-crestless-fireback-79e67395",
+      "subject": "Malayan crestless fireback",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "K.|last2=McGowan|first3=Guy M.|last3=Kirwan|first4=Nigel|last4=Collar|first5=David|last5=Christie|url-access=subscription}} The Malayan crestless fireback is found in the Malay Peninsula and Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malayan-crestless-fireback-79e67395",
+      "subject": "Malayan crestless fireback",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "K.|last2=McGowan|first3=Guy M.|last3=Kirwan|first4=Nigel|last4=Collar|first5=David|last5=Christie|url-access=subscription}} The Malayan crestless fireback is found in the Malay Peninsula and Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malayan-crestless-fireback-79e67395",
+      "subject": "Malayan crestless fireback",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

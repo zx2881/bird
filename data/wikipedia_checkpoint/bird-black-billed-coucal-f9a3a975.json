@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:36:09",
+  "requested_title": "Black-billed Coucal",
+  "resolved_title": "Black-billed coucal",
+  "title_aliases": [
+    "Black-billed Coucal"
+  ],
+  "bird_id": "bird-black-billed-coucal-f9a3a975",
+  "raw_file": "bird-black-billed-coucal-f9a3a975.json",
+  "bird": {
+    "id": "bird-black-billed-coucal-f9a3a975",
+    "name": "Black-billed coucal",
+    "english_name": "Black-billed coucal",
+    "latin_name": "Centropus bernsteini",
+    "summary": "The black-billed coucal or lesser black coucal (Centropus bernsteini) is a species of cuckoo in the family Cuculidae. It is found in New Gu…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lesser_Black_Coucal._Centropus_bernsteini_%2848814736703%29_%28cropped%29.jpg/960px-Lesser_Black_Coucal._Centropus_bernsteini_%2848814736703%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-billed-coucal-f9a3a975",
+      "subject": "Black-billed coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-coucal-f9a3a975",
+      "subject": "Black-billed coucal",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

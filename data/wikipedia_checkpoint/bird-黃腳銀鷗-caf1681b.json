@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:19:20",
+  "requested_title": "Caspian Gull",
+  "resolved_title": "Caspian gull",
+  "title_aliases": [
+    "Caspian Gull"
+  ],
+  "bird_id": "bird-黃腳銀鷗-caf1681b",
+  "raw_file": "bird-黃腳銀鷗-caf1681b.json",
+  "bird": {
+    "id": "bird-黃腳銀鷗-caf1681b",
+    "name": "黃腳銀鷗",
+    "english_name": "Caspian gull",
+    "latin_name": "Larus cachinnans",
+    "summary": "黃腳銀鷗（学名：Larus cachinnans）为鷗科鷗屬下的一个种。 2022年，为减少因一系列分类变化后造成的混乱，同时也与其分布范围符合，“中国鸟类名录”10.0版将黄脚银鸥的中文名修改为里海银鸥。",
+    "lat": "52",
+    "lng": "20",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Caspian_gull_%28Larus_cachinnans%29_summer_Danube_delta.jpg/960px-Caspian_gull_%28Larus_cachinnans%29_summer_Danube_delta.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-波兰-c1c47786",
+      "name": "波兰",
+      "summary": "波兰共和国（波蘭語：Rzeczpospolita Polska），通称波兰（Polska），是位於中欧和东欧的國家，首都及最大城市为华沙。国土面積313,933平方公里，位居歐洲第十；人口約3,763萬人，位居歐洲第九、欧盟第五。波蘭南邊…",
+      "lat": "52",
+      "lng": "20"
+    },
+    {
+      "id": "loc-德国-ce409783",
+      "name": "德国",
+      "summary": "德意志聯邦共和國（德語：Bundesrepublik Deutschland，發音：[ˈbʊndəsʁepuˌbliːk ˈdɔʏtʃlant] ），通稱德國（Deutschland），是位於西歐的聯邦共和國，由16个邦组成，首都暨最大城…",
+      "lat": "51",
+      "lng": "9"
+    },
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    },
+    {
+      "id": "loc-乌克兰-6a9bbb8a",
+      "name": "乌克兰",
+      "summary": "乌克兰（烏克蘭語：Україна，羅馬化：Ukraina，發音：[ʊkrɐˈjinɐ] ）是位於東歐的共和制國家，南接黑海，東連俄羅斯，北與白羅斯毗邻，西與波蘭、斯洛伐克、匈牙利、羅馬尼亞和摩尔多瓦諸國相連。全國劃分為24個州，1個自治共…",
+      "lat": "50.45",
+      "lng": "30.51666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黃腳銀鷗-caf1681b",
+      "subject": "黃腳銀鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-波兰-c1c47786",
+      "object": "波兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Europe, it has been spreading north and west and now breeds in Poland, eastern Germany, southern Russia and all year round in Ukraine",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃腳銀鷗-caf1681b",
+      "subject": "黃腳銀鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-德国-ce409783",
+      "object": "德国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Europe, it has been spreading north and west and now breeds in Poland, eastern Germany, southern Russia and all year round in Ukraine",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃腳銀鷗-caf1681b",
+      "subject": "黃腳銀鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Europe, it has been spreading north and west and now breeds in Poland, eastern Germany, southern Russia and all year round in Ukraine",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃腳銀鷗-caf1681b",
+      "subject": "黃腳銀鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌克兰-6a9bbb8a",
+      "object": "乌克兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Europe, it has been spreading north and west and now breeds in Poland, eastern Germany, southern Russia and all year round in Ukraine",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃腳銀鷗-caf1681b",
+      "subject": "黃腳銀鷗",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

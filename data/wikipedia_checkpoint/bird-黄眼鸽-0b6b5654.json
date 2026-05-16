@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:18:22",
+  "requested_title": "African Olive Pigeon",
+  "resolved_title": "African olive pigeon",
+  "title_aliases": [
+    "African Olive Pigeon"
+  ],
+  "bird_id": "bird-黄眼鸽-0b6b5654",
+  "raw_file": "bird-黄眼鸽-0b6b5654.json",
+  "bird": {
+    "id": "bird-黄眼鸽-0b6b5654",
+    "name": "黄眼鸽",
+    "english_name": "African olive pigeon",
+    "latin_name": "Columba arquatrix",
+    "summary": "黄眼鸽（学名：Columba arquatrix），是鸽形目鸠鸽科鸽属的一种鸟类。广泛分布于东非和南部非洲，从埃塞俄比亚至南非，以及西部安哥拉、沙特阿拉伯西南部和北也门。因为眼周具明显黄色裸露皮肤，因此得名。 特征 黄眼鸽体型较大，成鸟体长约37至42厘米，体重约300至450…",
+    "lat": "-12.5",
+    "lng": "18.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Columba_arquatrix_140351819.jpg/960px-Columba_arquatrix_140351819.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    },
+    {
+      "id": "loc-沙特阿拉伯-bb57c647",
+      "name": "沙特阿拉伯",
+      "summary": "沙烏地阿拉伯王國（阿拉伯語：المملكة العربية السعودية，羅馬化：al-Mamlakah ʿArabīyah as-Suʿūdīyah，），簡稱沙烏地阿拉伯或沙烏地（السُّعُودِيَّة），是位於西亞阿拉伯半島…",
+      "lat": "24",
+      "lng": "45"
+    },
+    {
+      "id": "loc-也门-80b75a25",
+      "name": "也门",
+      "summary": "也門共和國（阿拉伯語：الجمهورية اليمنية，al-Jumhūriyyah al-Yamaniyyah），通稱葉門（阿拉伯語：اليمن，羅馬化：al-Yaman），為西亞國家，阿拉伯海、紅海邊緣，與阿曼、沙烏地阿拉伯接壤，首…",
+      "lat": "15.34833333",
+      "lng": "44.20638889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄眼鸽-0b6b5654",
+      "subject": "黄眼鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Populations also are found in western Angola, southwestern Saudi Arabia and northern Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄眼鸽-0b6b5654",
+      "subject": "黄眼鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-沙特阿拉伯-bb57c647",
+      "object": "沙特阿拉伯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Populations also are found in western Angola, southwestern Saudi Arabia and northern Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄眼鸽-0b6b5654",
+      "subject": "黄眼鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-也门-80b75a25",
+      "object": "也门",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Populations also are found in western Angola, southwestern Saudi Arabia and northern Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄眼鸽-0b6b5654",
+      "subject": "黄眼鸽",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

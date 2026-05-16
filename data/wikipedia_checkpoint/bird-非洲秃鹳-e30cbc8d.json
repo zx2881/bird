@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:08:08",
+  "requested_title": "Marabou Stork",
+  "resolved_title": "Marabou stork",
+  "title_aliases": [
+    "Marabou Stork"
+  ],
+  "bird_id": "bird-非洲秃鹳-e30cbc8d",
+  "raw_file": "bird-非洲秃鹳-e30cbc8d.json",
+  "bird": {
+    "id": "bird-非洲秃鹳-e30cbc8d",
+    "name": "非洲秃鹳",
+    "english_name": "Marabou stork",
+    "latin_name": "Leptoptilos crumenifer",
+    "summary": "禿鸛（學名：Leptoptilos crumenifer），又称非洲秃鹳，為鸛科禿鸛屬的鳥類，是最大型的鸛之一，分布於大部分撒哈拉以南非洲地區，通常棲息在稀樹草原或潮濕的內陸環境，有時也包含人類密集活動的區域。 特徵 禿鸛是大型的鳥類，最大的標本高達1.5米，重超過9公斤，翼展…",
+    "lat": "1",
+    "lng": "32",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Marabou_stork_%28Leptoptilos_crumenifer%29.jpg/960px-Marabou_stork_%28Leptoptilos_crumenifer%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-乌干达-8bd6d93b",
+      "name": "乌干达",
+      "summary": "烏干達共和國（斯瓦希里語：Jamhuri ya Uganda，英語：Republic of Uganda），通稱烏干達，是位於東非的內陸國家。 烏干達名稱來自於過去班圖人建立的布干達王國。歐洲列強在十九世紀後葉進入東非內陸後，烏干達在18…",
+      "lat": "1",
+      "lng": "32"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-非洲秃鹳-e30cbc8d",
+      "subject": "非洲秃鹳",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌干达-8bd6d93b",
+      "object": "乌干达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The marabou stork (Leptoptilos crumenifer) is a large wading bird in the stork family Ciconiidae native to sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲秃鹳-e30cbc8d",
+      "subject": "非洲秃鹳",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The marabou stork (Leptoptilos crumenifer) is a large wading bird in the stork family Ciconiidae native to sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲秃鹳-e30cbc8d",
+      "subject": "非洲秃鹳",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The marabou stork (Leptoptilos crumenifer) is a large wading bird in the stork family Ciconiidae native to sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲秃鹳-e30cbc8d",
+      "subject": "非洲秃鹳",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

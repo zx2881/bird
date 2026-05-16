@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:16:15",
+  "requested_title": "Pheasant-tailed Jacana",
+  "resolved_title": "Pheasant-tailed jacana",
+  "title_aliases": [
+    "Pheasant-tailed Jacana"
+  ],
+  "bird_id": "bird-水雉-1f55000b",
+  "raw_file": "bird-水雉-1f55000b.json",
+  "bird": {
+    "id": "bird-水雉-1f55000b",
+    "name": "水雉",
+    "english_name": "Pheasant-tailed jacana",
+    "latin_name": "Hydrophasianus chirurgus",
+    "summary": "水雉（學名：Hydrophasianus chirurgus），又名雉尾水雉（英語：Pheasant-tailed Jacana）、長尾水雉等，俗稱菱角鳥，是一個生物學分類上屬於水雉科的物種。該物種的一般分佈地區包括印度次大陸、中國大陸、臺灣島、中南半島、菲律賓群島、婆羅洲等，…",
+    "lat": "15.34833333",
+    "lng": "44.20638889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Pheasant-tailed_jacanas_%28Hydrophasianus_chirurgus%29_pair_cr.jpg/960px-Pheasant-tailed_jacanas_%28Hydrophasianus_chirurgus%29_pair_cr.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-也门-80b75a25",
+      "name": "也门",
+      "summary": "也門共和國（阿拉伯語：الجمهورية اليمنية，al-Jumhūriyyah al-Yamaniyyah），通稱葉門（阿拉伯語：اليمن，羅馬化：al-Yaman），為西亞國家，阿拉伯海、紅海邊緣，與阿曼、沙烏地阿拉伯接壤，首…",
+      "lat": "15.34833333",
+      "lng": "44.20638889"
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-水雉-1f55000b",
+      "subject": "水雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-也门-80b75a25",
+      "object": "也门",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in tropical Asia from Yemen in the west to the Philippines in the east and move seasonally in parts of their range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-水雉-1f55000b",
+      "subject": "水雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in tropical Asia from Yemen in the west to the Philippines in the east and move seasonally in parts of their range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-水雉-1f55000b",
+      "subject": "水雉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

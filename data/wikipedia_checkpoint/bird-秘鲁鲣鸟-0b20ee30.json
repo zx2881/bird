@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:27:14",
+  "requested_title": "Peruvian Booby",
+  "resolved_title": "Peruvian booby",
+  "title_aliases": [
+    "Peruvian Booby"
+  ],
+  "bird_id": "bird-秘鲁鲣鸟-0b20ee30",
+  "raw_file": "bird-秘鲁鲣鸟-0b20ee30.json",
+  "bird": {
+    "id": "bird-秘鲁鲣鸟-0b20ee30",
+    "name": "秘鲁鲣鸟",
+    "english_name": "Peruvian booby",
+    "latin_name": "Sula variegata",
+    "summary": "秘魯鰹鳥（學名：Sula variegata）是一種秘魯的特有種雀鳥，主要分佈於南美洲西岸，由最南端的Punta Pariñas至到智利的康塞普西翁 。秘魯鰹鳥是棲息在秘魯海岸上第二多的海鳥，也是第二重要的海鳥糞生產者。二十世紀中中期，秘魯鰹鳥的數目達到3百萬。 在1982–8…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/PeruvianBooby.jpg/960px-PeruvianBooby.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海鳥-4f6bf339",
+      "name": "海鳥",
+      "summary": "海鳥是一種能夠適應海洋氣候環境的鳥類，而無論於生活習慣、生理運行等皆與其他鳥類大有不同。其有著強烈的趨同演化，因此所有海鳥的生態職位均十分類似。而海鳥最初出現於白堊紀之時，距今有近億年，但是與現代海鳥之關係並不大。若果論及現代海鳥之遠祖，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-秘鲁鲣鸟-0b20ee30",
+      "subject": "秘鲁鲣鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-海鳥-4f6bf339",
+      "object": "海鳥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the most abundant seabird species that inhabits the Peruvian coast and the second most important guano-producing seabird",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-秘鲁鲣鸟-0b20ee30",
+      "subject": "秘鲁鲣鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

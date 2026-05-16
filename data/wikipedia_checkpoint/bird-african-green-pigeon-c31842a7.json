@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:13:06",
+  "requested_title": "African Green Pigeon",
+  "resolved_title": "African green pigeon",
+  "title_aliases": [
+    "African Green Pigeon"
+  ],
+  "bird_id": "bird-african-green-pigeon-c31842a7",
+  "raw_file": "bird-african-green-pigeon-c31842a7.json",
+  "bird": {
+    "id": "bird-african-green-pigeon-c31842a7",
+    "name": "African green pigeon",
+    "english_name": "African green pigeon",
+    "latin_name": "Treron calvus",
+    "summary": "The African green pigeon (Treron calvus) is a species of bird in the family Columbidae, and one of 5 green pigeon species in the Afrotropic…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/African_green_pigeon_%28Treron_calvus_sharpei%29.jpg/960px-African_green_pigeon_%28Treron_calvus_sharpei%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-african-green-pigeon-c31842a7",
+      "subject": "African green pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species has a wide range in Sub-Saharan Africa with around 17 accepted races",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-african-green-pigeon-c31842a7",
+      "subject": "African green pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

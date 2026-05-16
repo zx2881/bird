@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:59:10",
+  "requested_title": "Bannerman's Shearwater",
+  "resolved_title": "Bannerman's shearwater",
+  "title_aliases": [
+    "Bannerman's Shearwater"
+  ],
+  "bird_id": "bird-bannerman-s-shearwater-c59d6165",
+  "raw_file": "bird-bannerman-s-shearwater-c59d6165.json",
+  "bird": {
+    "id": "bird-bannerman-s-shearwater-c59d6165",
+    "name": "Bannerman's shearwater",
+    "english_name": "Bannerman's shearwater",
+    "latin_name": "Puffinus bannermani",
+    "summary": "Bannerman's shearwater (Puffinus bannermani) is a seabird in the family Procellariidae formerly considered conspecific with Audubon's shear…",
+    "lat": "24.76666667",
+    "lng": "141.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Bannerman%27s_Shearwater_Puffinus_bannermani_off_Ogasawara%2C_Tokyo%2C_Japan.jpg/960px-Bannerman%27s_Shearwater_Puffinus_bannermani_off_Ogasawara%2C_Tokyo%2C_Japan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-火山列岛-日本-dcbfcc58",
+      "name": "火山列岛 (日本)",
+      "summary": "火山列岛（日語：火山列島，羅馬化：Kazan Rettō）是日本治下的一个群岛，由3个小火山岛组成，属于小笠原群岛。它位于小笠原群岛之南部，隶属东京都小笠原村。 火山列岛包含以下岛屿： 北硫磺島（日語：北硫黄島） 硫磺岛（日語：硫黄島）…",
+      "lat": "24.76666667",
+      "lng": "141.3"
+    },
+    {
+      "id": "loc-小笠原群岛-48ae1de2",
+      "name": "小笠原群岛",
+      "summary": "小笠原群岛（日語：小笠原群島），是日本在西太平洋的一個群岛，位于东京以南1,000多公里，行政區劃属东京都小笠原村管辖。群岛由30多个小岛组成，其中著名的有父岛、母岛和硫磺岛等島嶼，總面积104.41平方公里。另外，距離東京市區1,848…",
+      "lat": "26.99805556",
+      "lng": "142.21805556"
+    },
+    {
+      "id": "loc-日本-4dbed2e6",
+      "name": "日本",
+      "summary": "日本國（日語：日本国〔日本國〕／にっぽんこく／にほんこく，羅馬化：nippon koku/nihon koku），通稱日本，是位於東亞的島嶼國家。國土全境由北海道、本州、四國、九州等本土四島為基礎的14,125座島嶼組成，周圍被太平洋及鄂…",
+      "lat": "36",
+      "lng": "138"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bannerman-s-shearwater-c59d6165",
+      "subject": "Bannerman's shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-火山列岛-日本-dcbfcc58",
+      "object": "火山列岛 (日本)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Little is known of this species other than that it breeds in the Volcano Islands in the Ogasawara Group to the southwest of Japan and doesn't seem to range far from this area",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bannerman-s-shearwater-c59d6165",
+      "subject": "Bannerman's shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-小笠原群岛-48ae1de2",
+      "object": "小笠原群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Little is known of this species other than that it breeds in the Volcano Islands in the Ogasawara Group to the southwest of Japan and doesn't seem to range far from this area",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bannerman-s-shearwater-c59d6165",
+      "subject": "Bannerman's shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本-4dbed2e6",
+      "object": "日本",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Little is known of this species other than that it breeds in the Volcano Islands in the Ogasawara Group to the southwest of Japan and doesn't seem to range far from this area",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bannerman-s-shearwater-c59d6165",
+      "subject": "Bannerman's shearwater",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

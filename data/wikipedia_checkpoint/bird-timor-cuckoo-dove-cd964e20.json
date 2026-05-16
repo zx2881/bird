@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:01:50",
+  "requested_title": "Timor Cuckoo-Dove",
+  "resolved_title": "Timor cuckoo-dove",
+  "title_aliases": [
+    "Timor Cuckoo-Dove"
+  ],
+  "bird_id": "bird-timor-cuckoo-dove-cd964e20",
+  "raw_file": "bird-timor-cuckoo-dove-cd964e20.json",
+  "bird": {
+    "id": "bird-timor-cuckoo-dove-cd964e20",
+    "name": "Timor cuckoo-dove",
+    "english_name": "Timor cuckoo-dove",
+    "latin_name": "Macropygia magna",
+    "summary": "The Timor cuckoo-dove (Macropygia magna) is a species of bird in the family Columbidae. It is found in Timor, Wetar, and the eastern Lesser…",
+    "lat": "-9.23333333",
+    "lng": "124.93333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Timor_Cuckoo-Dove_imported_from_iNaturalist_photo_332870006_on_3_May_2024.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-帝汶島-c352d922",
+      "name": "帝汶島",
+      "summary": "帝汶島（印尼語：Pulau Timor，葡萄牙語：Ilha de Timor）是位於馬來群島南端的島嶼，為小巽他群島中面積最大者，總面積約30,777平方公里。該島地處東南亞海域，座標約為9°14′S 124°56′E，北臨弗洛勒斯海，南…",
+      "lat": "-9.23333333",
+      "lng": "124.93333333"
+    },
+    {
+      "id": "loc-韋塔島-4c98348b",
+      "name": "韋塔島",
+      "summary": "Wetar is a tropical island which belongs to the Indonesian province of Maluku and is the largest island of the Maluku B…",
+      "lat": "-7.8",
+      "lng": "126.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-timor-cuckoo-dove-cd964e20",
+      "subject": "Timor cuckoo-dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-帝汶島-c352d922",
+      "object": "帝汶島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Timor, Wetar, and the eastern Lesser Sunda Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-timor-cuckoo-dove-cd964e20",
+      "subject": "Timor cuckoo-dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-韋塔島-4c98348b",
+      "object": "韋塔島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Timor, Wetar, and the eastern Lesser Sunda Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-timor-cuckoo-dove-cd964e20",
+      "subject": "Timor cuckoo-dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

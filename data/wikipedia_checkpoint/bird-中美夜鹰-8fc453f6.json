@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:14:05",
+  "requested_title": "Least Poorwill",
+  "resolved_title": "Least poorwill",
+  "title_aliases": [
+    "Least Poorwill"
+  ],
+  "bird_id": "bird-中美夜鹰-8fc453f6",
+  "raw_file": "bird-中美夜鹰-8fc453f6.json",
+  "bird": {
+    "id": "bird-中美夜鹰-8fc453f6",
+    "name": "中美夜鹰",
+    "english_name": "Least poorwill",
+    "latin_name": "Siphonorhis brewsteri",
+    "summary": "中美夜鹰（学名：Siphonorhis bresteri）是夜鹰科中美夜鹰属的一种鸟，也是该属中唯一确认仍然存在的物种。该物种分布于多米尼加和海地。 分类 中美夜鹰此前被视为与牙买加夜鹰是同一物种，拆分后的牙买加夜鹰可能已经灭绝。中美夜鹰有两个亚种：S.",
+    "lat": "18.83333333",
+    "lng": "-73.08333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Siphonorhis_brewsteri_-_Kevin_Brix_-_652409183.jpeg/960px-Siphonorhis_brewsteri_-_Kevin_Brix_-_652409183.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-戈納夫島-b4e0ab08",
+      "name": "戈納夫島",
+      "summary": "戈納夫島是海地的島嶼，位於太子港西北面的戈納夫灣，島嶼長60公里、闊15公里，面積743平方公里，是伊斯帕尼奧拉島附近面積最大的小島，島上最高點778米，2003年人口75,548，該島曾經是海盜的基地。 由于常年乱砍滥伐，戈纳夫岛上的植…",
+      "lat": "18.83333333",
+      "lng": "-73.08333333"
+    },
+    {
+      "id": "loc-hispaniolan-dry-forests-a6589008",
+      "name": "Hispaniolan dry forests",
+      "summary": "The Hispaniolan dry forests are a tropical dry broadleaf forest ecoregion on the island of Hispaniola (split between th…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-hispaniolan-pine-forests-509c829e",
+      "name": "Hispaniolan pine forests",
+      "summary": "The Hispaniolan pine forests are a subtropical coniferous forest ecoregion found on the Caribbean island of Hispaniola,…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-中美夜鹰-8fc453f6",
+      "subject": "中美夜鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-戈納夫島-b4e0ab08",
+      "object": "戈納夫島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "gonavensis is found only on Haiti's Ile de la Gonâve. The least poorwill mostly inhabits the Hispaniolan dry forests, arid to semi-arid landscapes composed of limestone woodland and areas of cactus and thorn scrub",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-中美夜鹰-8fc453f6",
+      "subject": "中美夜鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-dry-forests-a6589008",
+      "object": "Hispaniolan dry forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "gonavensis is found only on Haiti's Ile de la Gonâve. The least poorwill mostly inhabits the Hispaniolan dry forests, arid to semi-arid landscapes composed of limestone woodland and areas of cactus and thorn scrub",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-中美夜鹰-8fc453f6",
+      "subject": "中美夜鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-pine-forests-509c829e",
+      "object": "Hispaniolan pine forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in Hispaniolan moist forests|deciduous, broadleaf]] and coniferous forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-中美夜鹰-8fc453f6",
+      "subject": "中美夜鹰",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-中美夜鹰-8fc453f6",
+      "subject": "中美夜鹰",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The primary threats are habitat destruction and predation by introduced mongooses and rats",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

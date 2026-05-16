@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:32:21",
+  "requested_title": "Sira Curassow",
+  "resolved_title": "Sira curassow",
+  "title_aliases": [
+    "Sira Curassow"
+  ],
+  "bird_id": "bird-sira-curassow-0fc3ac7b",
+  "raw_file": "bird-sira-curassow-0fc3ac7b.json",
+  "bird": {
+    "id": "bird-sira-curassow-0fc3ac7b",
+    "name": "Sira curassow",
+    "english_name": "Sira curassow",
+    "latin_name": "Pauxi koepckeae",
+    "summary": "The Sira curassow (Pauxi koepckeae) is a species of bird in the family Cracidae. It is found in the Cerros del Sira in central Peru.",
+    "lat": "-9.87384",
+    "lng": "-74.512024",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Pauxi_koepckeae_map.svg/960px-Pauxi_koepckeae_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-el-sira-communal-reserve-b1e59d4d",
+      "name": "El Sira Communal Reserve",
+      "summary": "El Sira Communal Reserve (Spanish: Reserva Comunal El Sira) is a protected area in Peru created to preserve the biodive…",
+      "lat": "-9.87384",
+      "lng": "-74.512024"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sira-curassow-0fc3ac7b",
+      "subject": "Sira curassow",
+      "predicate": "distributed_in",
+      "object_id": "loc-el-sira-communal-reserve-b1e59d4d",
+      "object": "El Sira Communal Reserve",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cerros del Sira in central Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sira-curassow-0fc3ac7b",
+      "subject": "Sira curassow",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cerros del Sira in central Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sira-curassow-0fc3ac7b",
+      "subject": "Sira curassow",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-sira-curassow-0fc3ac7b",
+      "subject": "Sira curassow",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Sira curassow is listed as critically endangered by BirdLife International for the IUCN as they believe it is threatened by habitat destruction and is hunted for meat",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-sira-curassow-0fc3ac7b",
+      "subject": "Sira curassow",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The birds population is believed by BirdLife International in 2016 to be below 250 individuals, citing the 2014 IUCN assessment by Gastañaga for BirdLife International (no longer available online). In the 2016 IUCN assessment by BirdLife International Gastañaga in her 2011 study is said to have estimated the population to be 400. This is not actually stated in her report, instead it is estimated that outside of breeding season the birds occur at a density of less than one bird per over an area encompassing at least the four known areas of occurrence, within of each other (thus a minimum of , thus maximum of 900 birds). The 2016 IUCN assessment estimates that the extent of occurrence is (apparently all within the El Sira Communal Reserve), although it is unclear where this number comes from. Because of the difference between the stated populations in 2011 and 2014, the 2016 IUCN assessment assumes the population is experiencing a 'decreasing trend'. According to BirdLife International, the greatest threat to the species is occasional traditional hunting by the local Asháninka people",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

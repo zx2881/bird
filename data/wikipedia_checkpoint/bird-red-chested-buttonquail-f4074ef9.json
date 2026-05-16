@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:42:55",
+  "requested_title": "Red-chested Buttonquail",
+  "resolved_title": "Red-chested buttonquail",
+  "title_aliases": [
+    "Red-chested Buttonquail"
+  ],
+  "bird_id": "bird-red-chested-buttonquail-f4074ef9",
+  "raw_file": "bird-red-chested-buttonquail-f4074ef9.json",
+  "bird": {
+    "id": "bird-red-chested-buttonquail-f4074ef9",
+    "name": "Red-chested buttonquail",
+    "english_name": "Red-chested buttonquail",
+    "latin_name": "Turnix pyrrhothorax",
+    "summary": "The red-chested buttonquail (Turnix pyrrhothorax) is a species of bird in the family Turnicidae. It is endemic to Australia.",
+    "lat": "-42",
+    "lng": "147",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Turnix_pyrrhothorax_176221267.jpg/960px-Turnix_pyrrhothorax_176221267.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塔斯馬尼亞州-a7b95e28",
+      "name": "塔斯馬尼亞州",
+      "summary": "塔斯馬尼亞州（Tasmania，發音：/tæzˈmeɪniə/；帕拉瓦卡尼語：Lutruwita），簡稱塔州，是澳大利亞唯一的島嶼州，原名范迪門地（Van Diemen's Land，又譯萬迪門蘭）。該州位於澳大利亞大陸東南方約240公里…",
+      "lat": "-42",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-chested-buttonquail-f4074ef9",
+      "subject": "Red-chested buttonquail",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔斯馬尼亞州-a7b95e28",
+      "object": "塔斯馬尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are not found in Tasmania. The species' preferred habitat is in dense grasslands, and open, grassy, woodland of Acacia (Fabaceae), river red gum (Eucalyptus camaldulensis) and Black box (E",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-chested-buttonquail-f4074ef9",
+      "subject": "Red-chested buttonquail",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They are not found in Tasmania. The species' preferred habitat is in dense grasslands, and open, grassy, woodland of Acacia (Fabaceae), river red gum (Eucalyptus camaldulensis) and Black box (E",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-red-chested-buttonquail-f4074ef9",
+      "subject": "Red-chested buttonquail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

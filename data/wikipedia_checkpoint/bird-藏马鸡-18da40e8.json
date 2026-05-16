@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:11:10",
+  "requested_title": "Tibetan Eared Pheasant",
+  "resolved_title": "Tibetan eared pheasant",
+  "title_aliases": [
+    "Tibetan Eared Pheasant"
+  ],
+  "bird_id": "bird-藏马鸡-18da40e8",
+  "raw_file": "bird-藏马鸡-18da40e8.json",
+  "bird": {
+    "id": "bird-藏马鸡-18da40e8",
+    "name": "藏马鸡",
+    "english_name": "Tibetan eared pheasant",
+    "latin_name": "Crossoptilon harmani",
+    "summary": "藏马鸡（学名：Crossoptilon harmani），又名哈曼马鸡，是鸡形目雉科马鸡属鸟类，分布于西藏等地。该物种的模式产地在西藏拉萨以东220公里。也是唯一在中国之外的地区有分布的马鸡属鸟类。 分布 藏马鸡分布在西藏境内喜马拉雅山东北麓和念青唐古拉山脉，近些年在印度北部阿…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tibetan_eared-pheasant_%28Crossoptilon_harmani%29_01.jpg/960px-Tibetan_eared-pheasant_%28Crossoptilon_harmani%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-藏马鸡-18da40e8",
+      "subject": "藏马鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=1881|title= On a new Crossoptilon| journal=Ibis |volume=4|pages= 399–401|url= https://www.biodiversitylibrary.org/page/16251672}} | synonyms = }} The Tibetan eared pheasant (Crossoptilon harmani), also called Elwes' eared pheasant, is a species of bird in the family Phasianidae found in southeast Tibet and adjacent northern India, usually between elevation, but has been seen down to in winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藏马鸡-18da40e8",
+      "subject": "藏马鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-藏马鸡-18da40e8",
+      "subject": "藏马鸡",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Seen in bushy and grassy clearings, rhododendron thickets, and tall dense scrub in valleys, these birds are threatened by habitat destruction and hunting",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-藏马鸡-18da40e8",
+      "subject": "藏马鸡",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Seen in bushy and grassy clearings, rhododendron thickets, and tall dense scrub in valleys, these birds are threatened by habitat destruction and hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

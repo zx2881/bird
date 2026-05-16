@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:16:33",
+  "requested_title": "Grey-headed Chachalaca",
+  "resolved_title": "Grey-headed chachalaca",
+  "title_aliases": [
+    "Grey-headed Chachalaca"
+  ],
+  "bird_id": "bird-grey-headed-chachalaca-7f3a56d1",
+  "raw_file": "bird-grey-headed-chachalaca-7f3a56d1.json",
+  "bird": {
+    "id": "bird-grey-headed-chachalaca-7f3a56d1",
+    "name": "Grey-headed chachalaca",
+    "english_name": "Grey-headed chachalaca",
+    "latin_name": "Ortalis cinereiceps",
+    "summary": "The grey-headed chachalaca (Ortalis cinereiceps) is a member of an ancient group of birds in the family Cracidae, which includes chachalaca…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Gray-headed_chachalacas_%2834008%29.jpg/960px-Gray-headed_chachalacas_%2834008%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "A secondary forest (or second-growth forest) is a forest or woodland area which has regenerated through largely natural…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-headed-chachalaca-7f3a56d1",
+      "subject": "Grey-headed chachalaca",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits a variety of humid landscapes characterized by dense vegetation such as thickets, secondary forest, brushy abandoned fields, and thinned forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-headed-chachalaca-7f3a56d1",
+      "subject": "Grey-headed chachalaca",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

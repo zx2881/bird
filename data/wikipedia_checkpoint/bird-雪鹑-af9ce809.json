@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:49:49",
+  "requested_title": "Snow Partridge",
+  "resolved_title": "Snow partridge",
+  "title_aliases": [
+    "Snow Partridge"
+  ],
+  "bird_id": "bird-雪鹑-af9ce809",
+  "raw_file": "bird-雪鹑-af9ce809.json",
+  "bird": {
+    "id": "bird-雪鹑-af9ce809",
+    "name": "雪鹑",
+    "english_name": "Snow partridge",
+    "latin_name": "Lerwa lerwa",
+    "summary": "雪鹑（学名：Lerwa lerwa）是鸡形目雉科雪鹑属的鸟类。 雪鹑主要分布在喜马拉雅山脉、青藏高原至中国的中南部，海拔3000—5000米的高山草甸及碎石地带较常风。主要以植物为食，同时也吃昆虫。",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Snow_Partridge_Tungnath_Uttarakhand_India_01.12.2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia.",
+      "lat": "30",
+      "lng": "70"
+    },
+    {
+      "id": "loc-阿鲁纳恰尔邦-5df417bf",
+      "name": "阿鲁纳恰尔邦",
+      "summary": "阿鲁纳恰尔邦（印地語：अरुणाचल प्रदेश，英語：Arunachal Pradesh），又譯阿鲁纳查尔、阿倫納曹，是印度的一個邦，原為東北邊境特區（NEFA），與南部的阿薩姆邦和那加蘭邦接壤，西临不丹、東接緬甸，北与中华人民共和国…",
+      "lat": "27.06",
+      "lng": "93.37"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-雪鹑-af9ce809",
+      "subject": "雪鹑",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "alt=SnowPartridgeAtTungnathUttarakhandIndia|thumb|left Snow partridge is found in the Himalayas from Pakistan to Arunachal Pradesh along the higher ranges, mainly 3000 to 5000 m (rarely below 2000 m) altitude",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雪鹑-af9ce809",
+      "subject": "雪鹑",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "alt=SnowPartridgeAtTungnathUttarakhandIndia|thumb|left Snow partridge is found in the Himalayas from Pakistan to Arunachal Pradesh along the higher ranges, mainly 3000 to 5000 m (rarely below 2000 m) altitude",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雪鹑-af9ce809",
+      "subject": "雪鹑",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿鲁纳恰尔邦-5df417bf",
+      "object": "阿鲁纳恰尔邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "alt=SnowPartridgeAtTungnathUttarakhandIndia|thumb|left Snow partridge is found in the Himalayas from Pakistan to Arunachal Pradesh along the higher ranges, mainly 3000 to 5000 m (rarely below 2000 m) altitude",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雪鹑-af9ce809",
+      "subject": "雪鹑",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

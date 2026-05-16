@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:44:22",
+  "requested_title": "Chestnut-headed Partridge",
+  "resolved_title": "Chestnut-headed partridge",
+  "title_aliases": [
+    "Chestnut-headed Partridge"
+  ],
+  "bird_id": "bird-栗头山鹧鸪-c461babb",
+  "raw_file": "bird-栗头山鹧鸪-c461babb.json",
+  "bird": {
+    "id": "bird-栗头山鹧鸪-c461babb",
+    "name": "栗头山鹧鸪",
+    "english_name": "Chestnut-headed partridge",
+    "latin_name": "Arborophila cambodiana",
+    "summary": "栗头山鹧鸪（学名：Arborophila cambodiana），是鸡形目雉科的一种鸟类。 特征 栗头山鹧鸪体重约285.87克，翼长约142.3毫米，嘴峰长约23毫米，喙宽度约5.8毫米，喙厚度约7.7毫米，跗蹠长约38.8毫米，尾长约52毫米。栗头山鹧鸪在其分布区内为留鸟，…",
+    "lat": "12",
+    "lng": "103.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Arborophila_cambodiana_diversa_133527500.jpg/960px-Arborophila_cambodiana_diversa_133527500.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-柬埔寨-9e7f3482",
+      "name": "柬埔寨",
+      "summary": "柬埔寨王國（高棉語：ព្រះរាជាណាចក្រកម្ពុជា，羅馬化：Preăh Réachéanachâk Kâmpŭchéa），通稱柬埔寨（高棉語：កម្ពុជា，羅馬化：Kâmpŭchéa），是位於東南亞中南半島的君主立憲制國家，…",
+      "lat": "12.5",
+      "lng": "105"
+    },
+    {
+      "id": "loc-豆蔻山脈-2948a02c",
+      "name": "豆蔻山脈",
+      "summary": "豆蔻山脉（高棉語：ជួរភ្នំក្រវាញ，泰語：เขาบรรทัด），是一处位于东南亚中南半岛的一处山脉，主要部分位于柬埔寨西南部，一部分延伸到泰国境内。最高点奥拉山海拔1771米，也是柬埔寨的最高峰。 外部链接 World Wild…",
+      "lat": "12",
+      "lng": "103.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗头山鹧鸪-c461babb",
+      "subject": "栗头山鹧鸪",
+      "predicate": "distributed_in",
+      "object_id": "loc-柬埔寨-9e7f3482",
+      "object": "柬埔寨",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in highland forest in Cambodia, specifically the Cardamom Mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗头山鹧鸪-c461babb",
+      "subject": "栗头山鹧鸪",
+      "predicate": "distributed_in",
+      "object_id": "loc-豆蔻山脈-2948a02c",
+      "object": "豆蔻山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in highland forest in Cambodia, specifically the Cardamom Mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗头山鹧鸪-c461babb",
+      "subject": "栗头山鹧鸪",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

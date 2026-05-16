@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:39:16",
+  "requested_title": "Black Spinetail",
+  "resolved_title": "Black spinetail",
+  "title_aliases": [
+    "Black Spinetail"
+  ],
+  "bird_id": "bird-black-spinetail-56c1f064",
+  "raw_file": "bird-black-spinetail-56c1f064.json",
+  "bird": {
+    "id": "bird-black-spinetail-56c1f064",
+    "name": "Black spinetail",
+    "english_name": "Black spinetail",
+    "latin_name": "Telacanthura melanopygia",
+    "summary": "The black spinetail (Telacanthura melanopygia) is a species of swift in the family Apodidae. It is native to the African tropical rainfores…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Telacanthura_melanopygia_-_Jan_Ebr_and_Ivana_Ebrov%C3%A1_-_345851002.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-spinetail-56c1f064",
+      "subject": "Black spinetail",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-spinetail-56c1f064",
+      "subject": "Black spinetail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

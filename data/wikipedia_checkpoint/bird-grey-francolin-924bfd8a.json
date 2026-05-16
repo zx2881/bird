@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:31:35",
+  "requested_title": "Grey Francolin",
+  "resolved_title": "Grey francolin",
+  "title_aliases": [
+    "Grey Francolin"
+  ],
+  "bird_id": "bird-grey-francolin-924bfd8a",
+  "raw_file": "bird-grey-francolin-924bfd8a.json",
+  "bird": {
+    "id": "bird-grey-francolin-924bfd8a",
+    "name": "Grey francolin",
+    "english_name": "Grey francolin",
+    "latin_name": "Ortygornis pondicerianus",
+    "summary": "The grey francolin (Ortygornis pondicerianus) is a species of francolin found in the plains and drier parts of the Indian subcontinent and…",
+    "lat": "18.29944444",
+    "lng": "74.75444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Grey_Francolin_in_Bhigwan_August_2025_by_Tisha_Mukherjee_04.jpg/960px-Grey_Francolin_in_Bhigwan_August_2025_by_Tisha_Mukherjee_04.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-bhigwan-4effd472",
+      "name": "Bhigwan",
+      "summary": "Bhigwan is a town on the border of the Ahilyanagar, Pune and Solapur districts in the Indian state of Maharashtra.",
+      "lat": "18.29944444",
+      "lng": "74.75444444"
+    },
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-francolin-924bfd8a",
+      "subject": "Grey francolin",
+      "predicate": "distributed_in",
+      "object_id": "loc-bhigwan-4effd472",
+      "object": "Bhigwan",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey francolin (Ortygornis pondicerianus) is a species of francolin found in the plains and drier parts of the Indian subcontinent and Iran",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-francolin-924bfd8a",
+      "subject": "Grey francolin",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey francolin (Ortygornis pondicerianus) is a species of francolin found in the plains and drier parts of the Indian subcontinent and Iran",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-francolin-924bfd8a",
+      "subject": "Grey francolin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

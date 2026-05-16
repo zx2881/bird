@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:33:16",
+  "requested_title": "Pelagic Cormorant",
+  "resolved_title": "Pelagic cormorant",
+  "title_aliases": [
+    "Pelagic Cormorant"
+  ],
+  "bird_id": "bird-海鸬鹚-8ac41120",
+  "raw_file": "bird-海鸬鹚-8ac41120.json",
+  "bird": {
+    "id": "bird-海鸬鹚-8ac41120",
+    "name": "海鸬鹚",
+    "english_name": "Pelagic cormorant",
+    "latin_name": "Urile pelagicus",
+    "summary": "海鸬鹚（学名：Phalacrocorax pelagicus）为鸬鹚科鸬鹚属的鸟类，俗名乌鹈。 特征 体长约0.7米；身体羽毛为黑色，带有紫色光泽，生殖期头上生两冠状羽毛；绿色眼睛，裸出的面部和喉部棕褐色，蹼为紫色。",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Phalacrocorax_pelagicus.jpg/960px-Phalacrocorax_pelagicus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海鳥-4f6bf339",
+      "name": "海鳥",
+      "summary": "海鳥是一種能夠適應海洋氣候環境的鳥類，而無論於生活習慣、生理運行等皆與其他鳥類大有不同。其有著強烈的趨同演化，因此所有海鳥的生態職位均十分類似。而海鳥最初出現於白堊紀之時，距今有近億年，但是與現代海鳥之關係並不大。若果論及現代海鳥之遠祖，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    },
+    {
+      "id": "loc-洋-962067f7",
+      "name": "洋",
+      "summary": "洋即大洋，是地球海洋的主体，为海洋的中心部分。世界大洋的总面积约占海洋面积的89%。大洋的水深一般在3,000米以上，最深处可达1万多米。大洋离陆地远，不受陆地的影响，其水文和盐度的变化不大，每个大洋都有自己独特的洋流和潮汐系统。大洋的水…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-海鸬鹚-8ac41120",
+      "subject": "海鸬鹚",
+      "predicate": "distributed_in",
+      "object_id": "loc-海鳥-4f6bf339",
+      "object": "海鳥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This seabird lives along the coasts of the northern Pacific; during winter it can also be found in the open ocean. Pelagic cormorants have relatively short wings due to their need for economical movement underwater, and consequently have the highest flight costs of any bird.<ref name = \"Elliott et al",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-海鸬鹚-8ac41120",
+      "subject": "海鸬鹚",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This seabird lives along the coasts of the northern Pacific; during winter it can also be found in the open ocean. Pelagic cormorants have relatively short wings due to their need for economical movement underwater, and consequently have the highest flight costs of any bird.<ref name = \"Elliott et al",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-海鸬鹚-8ac41120",
+      "subject": "海鸬鹚",
+      "predicate": "distributed_in",
+      "object_id": "loc-洋-962067f7",
+      "object": "洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This seabird lives along the coasts of the northern Pacific; during winter it can also be found in the open ocean. Pelagic cormorants have relatively short wings due to their need for economical movement underwater, and consequently have the highest flight costs of any bird.<ref name = \"Elliott et al",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-海鸬鹚-8ac41120",
+      "subject": "海鸬鹚",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

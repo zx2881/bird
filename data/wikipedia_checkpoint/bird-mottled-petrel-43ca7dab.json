@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:05:55",
+  "requested_title": "Mottled Petrel",
+  "resolved_title": "Mottled petrel",
+  "title_aliases": [
+    "Mottled Petrel"
+  ],
+  "bird_id": "bird-mottled-petrel-43ca7dab",
+  "raw_file": "bird-mottled-petrel-43ca7dab.json",
+  "bird": {
+    "id": "bird-mottled-petrel-43ca7dab",
+    "name": "Mottled petrel",
+    "english_name": "Mottled petrel",
+    "latin_name": "Pterodroma inexpectata",
+    "summary": "The mottled petrel (Pterodroma inexpectata) or kōrure is a species of seabird and a member of the gadfly petrels. It usually attains 33 to…",
+    "lat": "-42",
+    "lng": "173",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Mottled_Petrel_0A2A3403.jpg/960px-Mottled_Petrel_0A2A3403.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新西兰-f3c9507e",
+      "name": "新西兰",
+      "summary": "新西兰（英語：New Zealand）又称奥特亚罗瓦（毛利語：Aotearoa，直译：「长白云之乡」），位於太平洋西南部的主權島國，是英联邦新西蘭王國的主體部分，首都為惠灵顿，最大的城市為奧克蘭。紐西蘭主要由兩大島嶼組成：北島（Te Ik…",
+      "lat": "-42",
+      "lng": "173"
+    },
+    {
+      "id": "loc-白令海-d784cf1e",
+      "name": "白令海",
+      "summary": "白令海（Bering Sea），或譯為白林海。是指太平洋北部被阿拉斯加半岛、阿留申群岛、堪察加半岛、西伯利亚和阿拉斯加围成的一片水域，北端通过白令海峡与北冰洋相连。白令海得名于最先发现它的欧洲探险家维图斯·白令。在最近一次的冰河時期，海平…",
+      "lat": "58",
+      "lng": "-178"
+    },
+    {
+      "id": "loc-阿留申群島-51e97f93",
+      "name": "阿留申群島",
+      "summary": "阿留申群島（英語：Aleutian Islands，可能來自楚科奇語：aliat，為島嶼的意思）位於白令海與北太平洋之間，自阿拉斯加半島向西伸延至堪察加半島。屬於阿拉斯加半島上阿留申山脈的延伸。由超過三百個細小的火山島（當中有57座火山）…",
+      "lat": "52.2",
+      "lng": "-174.2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mottled-petrel-43ca7dab",
+      "subject": "Mottled petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-新西兰-f3c9507e",
+      "object": "新西兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a transequatorial migrant, breeding in the islands of New Zealand, and migrating to the Bering Sea, concentrating in the Gulf of Alaska and the Aleutian Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mottled-petrel-43ca7dab",
+      "subject": "Mottled petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-白令海-d784cf1e",
+      "object": "白令海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a transequatorial migrant, breeding in the islands of New Zealand, and migrating to the Bering Sea, concentrating in the Gulf of Alaska and the Aleutian Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mottled-petrel-43ca7dab",
+      "subject": "Mottled petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿留申群島-51e97f93",
+      "object": "阿留申群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a transequatorial migrant, breeding in the islands of New Zealand, and migrating to the Bering Sea, concentrating in the Gulf of Alaska and the Aleutian Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mottled-petrel-43ca7dab",
+      "subject": "Mottled petrel",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

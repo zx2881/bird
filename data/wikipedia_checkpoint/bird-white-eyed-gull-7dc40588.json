@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:16:17",
+  "requested_title": "White-eyed Gull",
+  "resolved_title": "White-eyed gull",
+  "title_aliases": [
+    "White-eyed Gull"
+  ],
+  "bird_id": "bird-white-eyed-gull-7dc40588",
+  "raw_file": "bird-white-eyed-gull-7dc40588.json",
+  "bird": {
+    "id": "bird-white-eyed-gull-7dc40588",
+    "name": "White-eyed gull",
+    "english_name": "White-eyed gull",
+    "latin_name": "Ichthyaetus leucophthalmus",
+    "summary": "The white-eyed gull (Ichthyaetus leucophthalmus) is a small gull that is endemic to the Red Sea. Its closest relative is the sooty gull.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/White-eyed_gull_at_the_Red_Sea_2.jpg/960px-White-eyed_gull_at_the_Red_Sea_2.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-white-eyed-gull-7dc40588",
+      "subject": "White-eyed gull",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-white-eyed-gull-7dc40588",
+      "subject": "White-eyed gull",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is classed as Least Concern by the IUCN; human pressure and oil pollution are deemed the major threats",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    }
+  ]
+}

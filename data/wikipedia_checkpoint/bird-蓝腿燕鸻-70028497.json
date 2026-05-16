@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:50:16",
+  "requested_title": "Egyptian Plover",
+  "resolved_title": "Egyptian plover",
+  "title_aliases": [
+    "Egyptian Plover"
+  ],
+  "bird_id": "bird-蓝腿燕鸻-70028497",
+  "raw_file": "bird-蓝腿燕鸻-70028497.json",
+  "bird": {
+    "id": "bird-蓝腿燕鸻-70028497",
+    "name": "蓝腿燕鸻",
+    "english_name": "Egyptian plover",
+    "latin_name": "Pluvianus aegyptius",
+    "summary": "埃及鴴（學名：Pluvianus aegyptius），又名埃及鸻、埃及燕鴴、牙籤鳥，是埃及鴴科下唯一的鳥類。牠們最早於在1750年附近在埃及被發現，因而得名「aegyptius」，但現已不存於該地。主要以昆蟲或軟體動物為食，現分佈於塞內加爾至衣索比亞之間的熱帶河流低地地區。…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flickr_-_Rainbirder_-_Egyptian_Plover_%28Pluvianus_aegyptius%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝腿燕鸻-70028497",
+      "subject": "蓝腿燕鸻",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a band across Sub-Saharan Africa from Senegal in the west to Ethiopia in the east and south to parts of the Democratic Republic of the Congo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝腿燕鸻-70028497",
+      "subject": "蓝腿燕鸻",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

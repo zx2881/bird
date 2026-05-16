@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:29:01",
+  "requested_title": "Great Potoo",
+  "resolved_title": "Great potoo",
+  "title_aliases": [
+    "Great Potoo"
+  ],
+  "bird_id": "bird-great-potoo-45f854b2",
+  "raw_file": "bird-great-potoo-45f854b2.json",
+  "bird": {
+    "id": "bird-great-potoo-45f854b2",
+    "name": "Great potoo",
+    "english_name": "Great potoo",
+    "latin_name": "Nyctibius grandis",
+    "summary": "The great potoo or grand potoo (Nyctibius grandis) is the largest potoo species and is widely distributed in Central and South America. Muc…",
+    "lat": "-15.56666667",
+    "lng": "-56.075",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Nyctibius_grandis_-_Great_Potoo%3B_Apiac%C3%A1s%2C_Mato_Grosso%2C_Brazil.jpg/960px-Nyctibius_grandis_-_Great_Potoo%3B_Apiac%C3%A1s%2C_Mato_Grosso%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马托格罗索州-b9e0d0d4",
+      "name": "马托格罗索州",
+      "summary": "马托格罗索州（葡萄牙語：Mato Grosso）是巴西西部的一个州，首府库亚巴。面积为903,357平方公里。人口2,856,999人。为巴西第三大州。为世界上仅存的大片未开发地区之一。自西北方向起顺时针分别与朗多尼亚州、亚马孙州、帕拉州…",
+      "lat": "-15.56666667",
+      "lng": "-56.075"
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-great-potoo-45f854b2",
+      "subject": "Great potoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-马托格罗索州-b9e0d0d4",
+      "object": "马托格罗索州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The great potoo or grand potoo (Nyctibius grandis) is the largest potoo species and is widely distributed in Central and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-great-potoo-45f854b2",
+      "subject": "Great potoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The great potoo or grand potoo (Nyctibius grandis) is the largest potoo species and is widely distributed in Central and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-great-potoo-45f854b2",
+      "subject": "Great potoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The great potoo or grand potoo (Nyctibius grandis) is the largest potoo species and is widely distributed in Central and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-great-potoo-45f854b2",
+      "subject": "Great potoo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

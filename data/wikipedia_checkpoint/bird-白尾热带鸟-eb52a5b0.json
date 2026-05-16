@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:28:16",
+  "requested_title": "White-tailed Tropicbird",
+  "resolved_title": "White-tailed tropicbird",
+  "title_aliases": [
+    "White-tailed Tropicbird"
+  ],
+  "bird_id": "bird-白尾热带鸟-eb52a5b0",
+  "raw_file": "bird-白尾热带鸟-eb52a5b0.json",
+  "bird": {
+    "id": "bird-白尾热带鸟-eb52a5b0",
+    "name": "白尾热带鸟",
+    "english_name": "White-tailed tropicbird",
+    "latin_name": "Phaethon lepturus",
+    "summary": "白尾鹲（学名：Phaethon lepturus）为鹲科熱帶鳥屬的鸟类，俗名白尾热带鸟、长尾热带鸟。是一種 熱帶鳥。它是熱帶海洋中三種密切相關的海鳥中最小的一種，也是鸏形目（Phaethontiformes）中最小的成員。 它分布於大西洋、西部 太平洋 和 印度洋的熱帶和亞熱帶…",
+    "lat": "0",
+    "lng": "-25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Phaethon_lepturus_%28Warwick%2C_Bermuda%29_%28cropped%29.jpg/960px-Phaethon_lepturus_%28Warwick%2C_Bermuda%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大西洋-ac6cdd86",
+      "name": "大西洋",
+      "summary": "大西洋，即亚特兰蒂斯洋（英語：Atlantic Ocean），是世界第二大洋。原面積8221萬7千平方公里，在南冰洋確立後，面積調整為7676萬2千平方公里。平均深度3,646米，最深處波多黎各海沟深達8,605米。從赤道南北分為北大西洋…",
+      "lat": "0",
+      "lng": "-25"
+    },
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    },
+    {
+      "id": "loc-印度洋-aaea0acf",
+      "name": "印度洋",
+      "summary": "印度洋（英語：Indian Ocean），位于亚洲、非洲、大洋洲和南极洲之间，印度位在印度洋北部的中央位置，這也是印度洋名稱的由來，印度洋大部分在南半球。總面积7491万平方公里，约占世界海洋总面积的21.1%，是世界第三大洋。印度洋的範…",
+      "lat": "-20",
+      "lng": "80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白尾热带鸟-eb52a5b0",
+      "subject": "白尾热带鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋-ac6cdd86",
+      "object": "大西洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the tropical Atlantic, western Pacific and Indian Oceans",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾热带鸟-eb52a5b0",
+      "subject": "白尾热带鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the tropical Atlantic, western Pacific and Indian Oceans",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾热带鸟-eb52a5b0",
+      "subject": "白尾热带鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度洋-aaea0acf",
+      "object": "印度洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the tropical Atlantic, western Pacific and Indian Oceans",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾热带鸟-eb52a5b0",
+      "subject": "白尾热带鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

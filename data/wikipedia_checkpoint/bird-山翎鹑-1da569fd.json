@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:29:33",
+  "requested_title": "Mountain Quail",
+  "resolved_title": "Mountain quail",
+  "title_aliases": [
+    "Mountain Quail"
+  ],
+  "bird_id": "bird-山翎鹑-1da569fd",
+  "raw_file": "bird-山翎鹑-1da569fd.json",
+  "bird": {
+    "id": "bird-山翎鹑-1da569fd",
+    "name": "山翎鹑",
+    "english_name": "Mountain quail",
+    "latin_name": "Oreortyx pictus",
+    "summary": "山翎鹑（台湾作山鶉，学名：Oreortyx pictus），是鸡形目齿鹑科的一种鸟类，属于单型的山翎鹑属（学名：Oreortyx）。 特征 山翎鹑体重约233克，翼长约13.40厘米，喙宽度约6.6毫米，喙厚度约8毫米，嘴峰长约15.4毫米，跗蹠长约35毫米，尾长约73毫米。",
+    "lat": "44.15",
+    "lng": "-113.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Oreortyx_pictus.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-洛磯山脈-da6663da",
+      "name": "洛磯山脈",
+      "summary": "洛磯山脈（英語：Rocky Mountains）是北美洲西部科迪勒拉山系最东端的主要山脈，和其平行的有太平洋海岸山脈、喀斯喀特山脈及內華達山脈。 美国和加拿大对落基山脉的具体地理定义有所不同。加拿大定义仅从西部不列颠哥伦比亚省北部的利亚德…",
+      "lat": "44.15",
+      "lng": "-113.8"
+    },
+    {
+      "id": "loc-不列颠哥伦比亚省-3432d47b",
+      "name": "不列颠哥伦比亚省",
+      "summary": "British Columbia is the westernmost province of Canada.",
+      "lat": "54",
+      "lng": "-125"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-山翎鹑-1da569fd",
+      "subject": "山翎鹑",
+      "predicate": "distributed_in",
+      "object_id": "loc-洛磯山脈-da6663da",
+      "object": "洛磯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits mountainous chaparral west of the Rocky Mountains, from British Columbia in Canada, and some areas of [[Washington (U.S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山翎鹑-1da569fd",
+      "subject": "山翎鹑",
+      "predicate": "distributed_in",
+      "object_id": "loc-不列颠哥伦比亚省-3432d47b",
+      "object": "不列颠哥伦比亚省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits mountainous chaparral west of the Rocky Mountains, from British Columbia in Canada, and some areas of [[Washington (U.S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山翎鹑-1da569fd",
+      "subject": "山翎鹑",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -204,6 +204,10 @@ def synthesize_bird_summary(node: Dict) -> str:
         lead = node["name"]
 
     clauses = []
+    if node.get("orderCn") or node.get("order"):
+        order_text = node.get("orderCn") or node.get("order", "")
+        if order_text:
+            clauses.append(f"分类上属于{order_text}")
     if node.get("status"):
         clauses.append(f"在图谱中标记为{status_text(node['status'])}物种")
     if node.get("locations"):
@@ -334,6 +338,10 @@ def build_graph() -> Dict:
             "lat": parse_float(row["lat"]),
             "lng": parse_float(row["lng"]),
             "imageUrl": row.get("image_url", "").strip(),
+            "order": row.get("order", "").strip(),
+            "family": row.get("family", "").strip(),
+            "orderCn": row.get("order_cn", "").strip(),
+            "familyCn": row.get("family_cn", "").strip(),
         }
         nodes[node["id"]] = node
         birds_by_id[node["id"]] = node

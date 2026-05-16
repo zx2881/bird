@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:49:11",
+  "requested_title": "Orange-fronted Fruit Dove",
+  "resolved_title": "Orange-fronted fruit dove",
+  "title_aliases": [
+    "Orange-fronted Fruit Dove"
+  ],
+  "bird_id": "bird-橙额果鸠-7d371d06",
+  "raw_file": "bird-橙额果鸠-7d371d06.json",
+  "bird": {
+    "id": "bird-橙额果鸠-7d371d06",
+    "name": "橙额果鸠",
+    "english_name": "Orange-fronted fruit dove",
+    "latin_name": "Ptilinopus aurantiifrons",
+    "summary": "橙额果鸠（学名：Ptilinopus aurantiifrons），是鸽形目鸠鸽科的一种鸟类。 特征 橙额果鸠体重约152克，翼长约128毫米，嘴峰长约18.6毫米，喙宽度约4.7毫米，喙厚度约4.4毫米，跗蹠长约23.1毫米，尾长约60.8毫米。橙额果鸠在其分布区内为留鸟，其…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Ptilinopus_aurantiifrons_-Berlin_Zoo-8a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橙额果鸠-7d371d06",
+      "subject": "橙额果鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Orange-fronted fruit doves are found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙额果鸠-7d371d06",
+      "subject": "橙额果鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

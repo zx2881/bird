@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:47:16",
+  "requested_title": "Wedge-rumped Storm Petrel",
+  "resolved_title": "Wedge-rumped storm petrel",
+  "title_aliases": [
+    "Wedge-rumped Storm Petrel"
+  ],
+  "bird_id": "bird-wedge-rumped-storm-petrel-789a22b3",
+  "raw_file": "bird-wedge-rumped-storm-petrel-789a22b3.json",
+  "bird": {
+    "id": "bird-wedge-rumped-storm-petrel-789a22b3",
+    "name": "Wedge-rumped storm petrel",
+    "english_name": "Wedge-rumped storm petrel",
+    "latin_name": "Hydrobates tethys",
+    "summary": "The wedge-rumped storm petrel (Hydrobates tethys) is a storm petrel. It breeds in the Galápagos Islands and on the coast of Peru.",
+    "lat": "-0.5",
+    "lng": "-90.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Galapagos_storm_petrel.jpg/960px-Galapagos_storm_petrel.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加拉帕戈斯群岛-cf5a247b",
+      "name": "加拉帕戈斯群岛",
+      "summary": "加拉帕戈斯群岛（西班牙語：islas Galápagos，台湾译加拉巴哥群島），又称科隆群岛（西班牙語：archipiélago de Colón，其为厄瓜多尔官方名称），是东太平洋接近赤道的火山群岛，由厄瓜多尔加拉帕戈斯省所轄，面积79…",
+      "lat": "-0.5",
+      "lng": "-90.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-wedge-rumped-storm-petrel-789a22b3",
+      "subject": "Wedge-rumped storm petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拉帕戈斯群岛-cf5a247b",
+      "object": "加拉帕戈斯群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Galápagos Islands and on the coast of Peru. It was formerly defined in the genus Oceanodroma before that genus was synonymized with Hydrobates",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-wedge-rumped-storm-petrel-789a22b3",
+      "subject": "Wedge-rumped storm petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Galápagos Islands and on the coast of Peru. It was formerly defined in the genus Oceanodroma before that genus was synonymized with Hydrobates",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-wedge-rumped-storm-petrel-789a22b3",
+      "subject": "Wedge-rumped storm petrel",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:02:34",
+  "requested_title": "Silvery Grebe",
+  "resolved_title": "Silvery grebe",
+  "title_aliases": [
+    "Silvery Grebe"
+  ],
+  "bird_id": "bird-silvery-grebe-4969c34d",
+  "raw_file": "bird-silvery-grebe-4969c34d.json",
+  "bird": {
+    "id": "bird-silvery-grebe-4969c34d",
+    "name": "Silvery grebe",
+    "english_name": "Silvery grebe",
+    "latin_name": "Podiceps occipitalis",
+    "summary": "The silvery grebe (Podiceps occipitalis) is a species of grebe in the family Podicipedidae. It is found in the western and southern part of…",
+    "lat": "-41",
+    "lng": "-68",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Podiceps_occipitalis_103079512.jpg/960px-Podiceps_occipitalis_103079512.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴塔哥尼亞-65e27f32",
+      "name": "巴塔哥尼亞",
+      "summary": "Patagonia (Spanish pronunciation: [pataˈɣonja]) is a geographical region in southern South America that spans parts of…",
+      "lat": "-41",
+      "lng": "-68"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-silvery-grebe-4969c34d",
+      "subject": "Silvery grebe",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴塔哥尼亞-65e27f32",
+      "object": "巴塔哥尼亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Patagonia, it sometimes inhabits saline lakes where it can be found in the company of flamingoes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-silvery-grebe-4969c34d",
+      "subject": "Silvery grebe",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the western and southern part of South America where it inhabits lakes and other types of open wetlands",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-silvery-grebe-4969c34d",
+      "subject": "Silvery grebe",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-silvery-grebe-4969c34d",
+      "subject": "Silvery grebe",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This is primarily due to habitat loss, but also hunting and introduced species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-silvery-grebe-4969c34d",
+      "subject": "Silvery grebe",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This is primarily due to habitat loss, but also hunting and introduced species",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

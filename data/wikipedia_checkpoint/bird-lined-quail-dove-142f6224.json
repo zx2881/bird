@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:55:14",
+  "requested_title": "Lined Quail-Dove",
+  "resolved_title": "Lined quail-dove",
+  "title_aliases": [
+    "Lined Quail-Dove"
+  ],
+  "bird_id": "bird-lined-quail-dove-142f6224",
+  "raw_file": "bird-lined-quail-dove-142f6224.json",
+  "bird": {
+    "id": "bird-lined-quail-dove-142f6224",
+    "name": "Lined quail-dove",
+    "english_name": "Lined quail-dove",
+    "latin_name": "Zentrygon linearis",
+    "summary": "The lined quail-dove (Zentrygon linearis) is a species of bird in the family Columbidae. It is found in Colombia, Trinidad and Tobago, and…",
+    "lat": "7",
+    "lng": "-65",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Zentrygon_linearis.jpg/960px-Zentrygon_linearis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    },
+    {
+      "id": "loc-莫納加斯州-27daa75d",
+      "name": "莫納加斯州",
+      "summary": "莫納加斯州（西班牙語：Estado Monagas）是委內瑞拉東部的一個州，東北臨帕里亞灣。面積28,900平方公里，2007年人口855,300人。首府馬圖林。 1909年建州。下分十三個自治市。州名紀念第十一、三任總統何塞·塔德奧·莫…",
+      "lat": "9.43",
+      "lng": "-63.08"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lined-quail-dove-142f6224",
+      "subject": "Lined quail-dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Trinidad and Tobago, and Venezuela.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lined-quail-dove-142f6224",
+      "subject": "Lined quail-dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫納加斯州-27daa75d",
+      "object": "莫納加斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "trinitatis is found in Venezuela's northern Monagas and Sucre states and Trinidad and Tobago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lined-quail-dove-142f6224",
+      "subject": "Lined quail-dove",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits tropical lowland and evergreen montane forests from sea level to",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-lined-quail-dove-142f6224",
+      "subject": "Lined quail-dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-lined-quail-dove-142f6224",
+      "subject": "Lined quail-dove",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Deforestation is a threat",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

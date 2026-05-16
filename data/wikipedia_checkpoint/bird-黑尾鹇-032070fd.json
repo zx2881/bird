@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T09:56:19",
+  "requested_title": "Salvadori's Pheasant",
+  "resolved_title": "Salvadori's pheasant",
+  "title_aliases": [
+    "Salvadori's Pheasant"
+  ],
+  "bird_id": "bird-黑尾鹇-032070fd",
+  "raw_file": "bird-黑尾鹇-032070fd.json",
+  "bird": {
+    "id": "bird-黑尾鹇-032070fd",
+    "name": "黑尾鹇",
+    "english_name": "Salvadori's pheasant",
+    "latin_name": "Lophura inornata",
+    "summary": "黑尾鹇（学名：Lophura inornata），是鸡形目雉科的一种鸟类。 黑尾鹇体重约685克，翼长约209.3毫米，嘴峰长约33.9毫米，喙宽度约10.7毫米，喙厚度约11.7毫米，跗蹠长约69毫米，尾长约137.5毫米。黑尾鹇在其分布区内为留鸟，其栖息在密集的高大树木组成…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Salvadori%27s_Pheasant_0A2A3306.jpg/960px-Salvadori%27s_Pheasant_0A2A3306.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-托馬索-薩爾瓦多里-8e61e436",
+      "name": "托馬索·薩爾瓦多里",
+      "summary": "托馬索·薩爾瓦多里，全稱阿代拉多·托馬索·薩爾瓦多里·帕萊奧蒂伯爵（Count Adelardo Tommaso Salvadori Paleotti，1835年9月30日—1923年10月9日）是一位義大利動物學家與鳥類學家。 生平簡介…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑尾鹇-032070fd",
+      "subject": "黑尾鹇",
+      "predicate": "distributed_in",
+      "object_id": "loc-托馬索-薩爾瓦多里-8e61e436",
+      "object": "托馬索·薩爾瓦多里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Salvadori's pheasant (Lophura inornata) is a landfowl bird of genus Lophura, native to Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑尾鹇-032070fd",
+      "subject": "黑尾鹇",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Salvadori's pheasant (Lophura inornata) is a landfowl bird of genus Lophura, native to Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑尾鹇-032070fd",
+      "subject": "黑尾鹇",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the mountain rainforests of Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑尾鹇-032070fd",
+      "subject": "黑尾鹇",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-黑尾鹇-032070fd",
+      "subject": "黑尾鹇",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species is classified as \"near threatened\" by the IUCN because of the reduction in its population size caused by the destruction of its habitat and hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

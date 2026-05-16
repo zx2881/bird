@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:34:09",
+  "requested_title": "Seram Mountain Pigeon",
+  "resolved_title": "Seram mountain pigeon",
+  "title_aliases": [
+    "Seram Mountain Pigeon"
+  ],
+  "bird_id": "bird-seram-mountain-pigeon-8e09f56b",
+  "raw_file": "bird-seram-mountain-pigeon-8e09f56b.json",
+  "bird": {
+    "id": "bird-seram-mountain-pigeon-8e09f56b",
+    "name": "Seram mountain pigeon",
+    "english_name": "Seram mountain pigeon",
+    "latin_name": "Gymnophaps stalkeri",
+    "summary": "The Seram mountain pigeon (Gymnophaps stalkeri) is a species of bird in the pigeon family Columbidae that is endemic to the island of Seram…",
+    "lat": "-3.13333333",
+    "lng": "129.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gymnophaps_stalkeri_265390794.jpg/960px-Gymnophaps_stalkeri_265390794.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-威廉-羅伯特-奧格爾維-格蘭特-af0ec995",
+      "name": "威廉·羅伯特·奧格爾維-格蘭特",
+      "summary": "William Robert Ogilvie-Grant (25 March 1863 – 26 July 1924) was a Scottish ornithologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-斯兰岛-1a93c673",
+      "name": "斯兰岛",
+      "summary": "斯兰岛（印尼語：Pulau Seram），又译为塞兰岛（Ceram、Seran或Serang），印度尼西亚摩鹿加群岛主要岛屿之一，位于哈马黑拉岛以南，紧邻安汶岛，属马鲁古省管辖，分属三个县：自西向东分别是西斯兰县、中马鲁古县和东斯兰县。该…",
+      "lat": "-3.13333333",
+      "lng": "129.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-seram-mountain-pigeon-8e09f56b",
+      "subject": "Seram mountain pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-威廉-羅伯特-奧格爾維-格蘭特-af0ec995",
+      "object": "威廉·羅伯特·奧格爾維-格蘭特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Seram mountain pigeon (Gymnophaps stalkeri) is a species of bird in the pigeon family Columbidae that is endemic to the island of Seram in Indonesia, where it inhabits hill forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-seram-mountain-pigeon-8e09f56b",
+      "subject": "Seram mountain pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯兰岛-1a93c673",
+      "object": "斯兰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Seram mountain pigeon (Gymnophaps stalkeri) is a species of bird in the pigeon family Columbidae that is endemic to the island of Seram in Indonesia, where it inhabits hill forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-seram-mountain-pigeon-8e09f56b",
+      "subject": "Seram mountain pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

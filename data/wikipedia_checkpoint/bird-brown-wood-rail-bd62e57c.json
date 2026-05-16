@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:18:28",
+  "requested_title": "Brown Wood Rail",
+  "resolved_title": "Brown wood rail",
+  "title_aliases": [
+    "Brown Wood Rail"
+  ],
+  "bird_id": "bird-brown-wood-rail-bd62e57c",
+  "raw_file": "bird-brown-wood-rail-bd62e57c.json",
+  "bird": {
+    "id": "bird-brown-wood-rail-bd62e57c",
+    "name": "Brown wood rail",
+    "english_name": "Brown wood rail",
+    "latin_name": "Aramides wolfi",
+    "summary": "The brown wood rail (Aramides wolfi) is a Vulnerable species of bird in the subfamily Rallinae of the rail, crake, and coot family Rallidae…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Brown_wood-rail_%28cropped%29.png"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-wood-rail-bd62e57c",
+      "subject": "Brown wood rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Available at: http://datazone.birdlife.org/userfiles/file/Species/Taxonomy/HBW-BirdLife_Checklist_v6_Dec21.zip retrieved August 7, 2022 It is found in Colombia and Ecuador.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-wood-rail-bd62e57c",
+      "subject": "Brown wood rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Available at: http://datazone.birdlife.org/userfiles/file/Species/Taxonomy/HBW-BirdLife_Checklist_v6_Dec21.zip retrieved August 7, 2022 It is found in Colombia and Ecuador.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-wood-rail-bd62e57c",
+      "subject": "Brown wood rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "131(3): 210–212 It inhabits a variety of wet and dry landscapes including mangroves, freshwater marsh, swampy woodland, river bottoms, and mature and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-wood-rail-bd62e57c",
+      "subject": "Brown wood rail",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "131(3): 210–212 It inhabits a variety of wet and dry landscapes including mangroves, freshwater marsh, swampy woodland, river bottoms, and mature and secondary forest",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-brown-wood-rail-bd62e57c",
+      "subject": "Brown wood rail",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-brown-wood-rail-bd62e57c",
+      "subject": "Brown wood rail",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its estimated population of 1000 to 2500 mature individuals is believed to be decreasing due to \"rapid rates of habitat destruction\". \"There is an urgent need for further investigation of its status and natural history.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

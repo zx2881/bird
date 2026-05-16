@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:41:37",
+  "requested_title": "Sooty Albatross",
+  "resolved_title": "Sooty albatross",
+  "title_aliases": [
+    "Sooty Albatross"
+  ],
+  "bird_id": "bird-sooty-albatross-6feb4eca",
+  "raw_file": "bird-sooty-albatross-6feb4eca.json",
+  "bird": {
+    "id": "bird-sooty-albatross-6feb4eca",
+    "name": "Sooty albatross",
+    "english_name": "Sooty albatross",
+    "latin_name": "Phoebetria fusca",
+    "summary": "The sooty albatross (Phoebetria fusca), also known to sailors as the Quaker, is a species of marine bird belonging to the albatross family…",
+    "lat": "0",
+    "lng": "-25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sooty_Albatross_CW.jpg/960px-Sooty_Albatross_CW.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大西洋-ac6cdd86",
+      "name": "大西洋",
+      "summary": "大西洋，即亚特兰蒂斯洋（英語：Atlantic Ocean），是世界第二大洋。原面積8221萬7千平方公里，在南冰洋確立後，面積調整為7676萬2千平方公里。平均深度3,646米，最深處波多黎各海沟深達8,605米。從赤道南北分為北大西洋…",
+      "lat": "0",
+      "lng": "-25"
+    },
+    {
+      "id": "loc-印度洋-aaea0acf",
+      "name": "印度洋",
+      "summary": "印度洋（英語：Indian Ocean），位于亚洲、非洲、大洋洲和南极洲之间，印度位在印度洋北部的中央位置，這也是印度洋名稱的由來，印度洋大部分在南半球。總面积7491万平方公里，约占世界海洋总面积的21.1%，是世界第三大洋。印度洋的範…",
+      "lat": "-20",
+      "lng": "80"
+    },
+    {
+      "id": "loc-南冰洋-48c053c3",
+      "name": "南冰洋",
+      "summary": "南冰洋（英語：Southern Ocean），亦称南极海（Antarctic Sea）、南大洋（Austral Ocean）或南极洋（Antarctic Ocean），是围绕南极洲的海洋，也是太平洋、大西洋和印度洋南端汇合而成的海域，大致…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sooty-albatross-6feb4eca",
+      "subject": "Sooty albatross",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋-ac6cdd86",
+      "object": "大西洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the southern Atlantic Ocean, the southern Indian Ocean, and the Southern Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sooty-albatross-6feb4eca",
+      "subject": "Sooty albatross",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度洋-aaea0acf",
+      "object": "印度洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the southern Atlantic Ocean, the southern Indian Ocean, and the Southern Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sooty-albatross-6feb4eca",
+      "subject": "Sooty albatross",
+      "predicate": "distributed_in",
+      "object_id": "loc-南冰洋-48c053c3",
+      "object": "南冰洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the southern Atlantic Ocean, the southern Indian Ocean, and the Southern Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sooty-albatross-6feb4eca",
+      "subject": "Sooty albatross",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Sooty albatrosses build their nests on ledges of coastal and inland cliffs. They typically breed in groups of 5-60 nests but can live in solidarity",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-sooty-albatross-6feb4eca",
+      "subject": "Sooty albatross",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-sooty-albatross-6feb4eca",
+      "subject": "Sooty albatross",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Similar to almost all (if not all) seabirds and marine species, the sooty albatross is affected by pollution of plastics, oils, and chemicals. Long-line fishing is one of the biggest threats to albatrosses across the world, and the sooty albatross is not an exception",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:53:10",
+  "requested_title": "American Avocet",
+  "resolved_title": "American avocet",
+  "title_aliases": [
+    "American Avocet"
+  ],
+  "bird_id": "bird-美洲反嘴鹬-6d97c2d8",
+  "raw_file": "bird-美洲反嘴鹬-6d97c2d8.json",
+  "bird": {
+    "id": "bird-美洲反嘴鹬-6d97c2d8",
+    "name": "美洲反嘴鹬",
+    "english_name": "American avocet",
+    "latin_name": "Recurvirostra americana",
+    "summary": "美洲反嘴鹬（学名：Recurvirostra americana）为鸻形目長腳鷸科下的一个迁徙鸟种，分布于北美洲 。 参考文献 外部連結",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/American_Avocet1.jpg/960px-American_Avocet1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-美洲反嘴鹬-6d97c2d8",
+      "subject": "美洲反嘴鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Calls recorded in Palo Alto, California The American avocet (Recurvirostra americana) is a large wader in the avocet and stilt family, Recurvirostridae, found in North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲反嘴鹬-6d97c2d8",
+      "subject": "美洲反嘴鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The breeding habitat consists of marshes, beaches, prairie ponds, and shallow lakes in the mid-west, as far north as southern Canada. These breeding grounds are largely in areas just east of the rocky mountains including parts of Alberta, Saskatchewan, Montana, Idaho, Washington, Utah, North and South Dakota, Nebraska, Colorado, and even down to parts of New Mexico, Oklahoma and Texas. Their migration route lands them in almost every state in the western United States",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-美洲反嘴鹬-6d97c2d8",
+      "subject": "美洲反嘴鹬",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-美洲反嘴鹬-6d97c2d8",
+      "subject": "美洲反嘴鹬",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Although the effects are highly contested, these increased concentrations have potential negative effects on American avocet breeding success, especially because Avocet chicks are more susceptible to environmental disruptions than adults. The avocet also faces habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

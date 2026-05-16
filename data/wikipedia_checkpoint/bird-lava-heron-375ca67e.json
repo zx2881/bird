@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:59:31",
+  "requested_title": "Lava Heron",
+  "resolved_title": "Lava heron",
+  "title_aliases": [
+    "Lava Heron"
+  ],
+  "bird_id": "bird-lava-heron-375ca67e",
+  "raw_file": "bird-lava-heron-375ca67e.json",
+  "bird": {
+    "id": "bird-lava-heron-375ca67e",
+    "name": "Lava heron",
+    "english_name": "Lava heron",
+    "latin_name": "Butorides sundevalli",
+    "summary": "The lava heron (Butorides sundevalli), also known as the Galápagos heron, is a species of heron endemic to the Galápagos Islands of Ecuador…",
+    "lat": "-0.56027778",
+    "lng": "-91.04083333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lavaheron-santafe.jpg/960px-Lavaheron-santafe.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加拉帕戈斯省-9a9919ad",
+      "name": "加拉帕戈斯省",
+      "summary": "Galápagos (Spanish pronunciation: [ɡaˈlapaɣos]) is a province of Ecuador in the country's Insular region, located appro…",
+      "lat": "-0.56027778",
+      "lng": "-91.04083333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lava-heron-375ca67e",
+      "subject": "Lava heron",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拉帕戈斯省-9a9919ad",
+      "object": "加拉帕戈斯省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "These highly territorial birds are found in intertidal zones and mangrove swamps on all of the islands of Galápagos Province",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lava-heron-375ca67e",
+      "subject": "Lava heron",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "These highly territorial birds are found in intertidal zones and mangrove swamps on all of the islands of Galápagos Province",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    }
+  ]
+}

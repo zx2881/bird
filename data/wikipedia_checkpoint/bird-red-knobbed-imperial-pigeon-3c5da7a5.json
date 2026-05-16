@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:37:18",
+  "requested_title": "Red-knobbed Imperial Pigeon",
+  "resolved_title": "Red-knobbed imperial pigeon",
+  "title_aliases": [
+    "Red-knobbed Imperial Pigeon"
+  ],
+  "bird_id": "bird-red-knobbed-imperial-pigeon-3c5da7a5",
+  "raw_file": "bird-red-knobbed-imperial-pigeon-3c5da7a5.json",
+  "bird": {
+    "id": "bird-red-knobbed-imperial-pigeon-3c5da7a5",
+    "name": "Red-knobbed imperial pigeon",
+    "english_name": "Red-knobbed imperial pigeon",
+    "latin_name": "Ducula rubricera",
+    "summary": "The red-knobbed imperial pigeon (Ducula rubricera) is a bird species in the family Columbidae. It is found in Bismarck Archipelago and the…",
+    "lat": "-5",
+    "lng": "150.1",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Red-knobbed_imperial_pigeon.jpg/960px-Red-knobbed_imperial_pigeon.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-俾斯麦群岛-19ddf3e6",
+      "name": "俾斯麦群岛",
+      "summary": "俾斯麦群岛（英文：Bismarck Archipelago）是太平洋西南部一群岛，位于新几内亚岛东北，濒临俾斯麦海，由200多个岛屿组成，总陆地面积49700平方公里，主要岛屿有新不列颠岛、新爱尔兰岛等，人口31.4万人，现全部属于巴布亚…",
+      "lat": "-5",
+      "lng": "150.1"
+    },
+    {
+      "id": "loc-所羅門群島-群島-4708e5d6",
+      "name": "所羅門群島 (群島)",
+      "summary": "所羅門群島是太平洋西南面的群島，位於澳大利亞東北方的美拉尼西亞（Melanesia）地區。西隔所羅門海與新幾內亞、俾斯麥群島相鄰。 政治上分屬兩個政治實體： 所罗门群岛，領土範圍為大部分的索羅門群島（28,896 km²，660,121人…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-knobbed-imperial-pigeon-3c5da7a5",
+      "subject": "Red-knobbed imperial pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-俾斯麦群岛-19ddf3e6",
+      "object": "俾斯麦群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bismarck Archipelago and the Solomon Islands archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-knobbed-imperial-pigeon-3c5da7a5",
+      "subject": "Red-knobbed imperial pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-所羅門群島-群島-4708e5d6",
+      "object": "所羅門群島 (群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bismarck Archipelago and the Solomon Islands archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-knobbed-imperial-pigeon-3c5da7a5",
+      "subject": "Red-knobbed imperial pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

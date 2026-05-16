@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:27:10",
+  "requested_title": "Red-billed Ground Cuckoo",
+  "resolved_title": "Red-billed ground cuckoo",
+  "title_aliases": [
+    "Red-billed Ground Cuckoo"
+  ],
+  "bird_id": "bird-red-billed-ground-cuckoo-edfc4647",
+  "raw_file": "bird-red-billed-ground-cuckoo-edfc4647.json",
+  "bird": {
+    "id": "bird-red-billed-ground-cuckoo-edfc4647",
+    "name": "Red-billed ground cuckoo",
+    "english_name": "Red-billed ground cuckoo",
+    "latin_name": "Neomorphus pucheranii",
+    "summary": "The red-billed ground cuckoo (Neomorphus pucheranii) is a species of cuckoo in the tribe Neomorphini of subfamily Crotophaginae. It is foun…",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/F_de_Castelnau-oiseauxPl7.jpg/960px-F_de_Castelnau-oiseauxPl7.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-billed-ground-cuckoo-edfc4647",
+      "subject": "Red-billed ground cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brazil, Colombia, Peru, and possibly Ecuador.{{cite web |url=https://www.worldbirdnames.org/new/bow/turacos/ |title=Turacos, bustards, cuckoos, mesites, sandgrouse |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-billed-ground-cuckoo-edfc4647",
+      "subject": "Red-billed ground cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brazil, Colombia, Peru, and possibly Ecuador.{{cite web |url=https://www.worldbirdnames.org/new/bow/turacos/ |title=Turacos, bustards, cuckoos, mesites, sandgrouse |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-billed-ground-cuckoo-edfc4647",
+      "subject": "Red-billed ground cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brazil, Colombia, Peru, and possibly Ecuador.{{cite web |url=https://www.worldbirdnames.org/new/bow/turacos/ |title=Turacos, bustards, cuckoos, mesites, sandgrouse |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-billed-ground-cuckoo-edfc4647",
+      "subject": "Red-billed ground cuckoo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-red-billed-ground-cuckoo-edfc4647",
+      "subject": "Red-billed ground cuckoo",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. \"However, the reliance of Red-billed Ground-Cuckoo on tropical evergreen forest suggests that it could be susceptible to loss of habitat through deforestation and forest fragmentation.\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:25:19",
+  "requested_title": "Madagascar Snipe",
+  "resolved_title": "Madagascar snipe",
+  "title_aliases": [
+    "Madagascar Snipe"
+  ],
+  "bird_id": "bird-madagascar-snipe-67b04846",
+  "raw_file": "bird-madagascar-snipe-67b04846.json",
+  "bird": {
+    "id": "bird-madagascar-snipe-67b04846",
+    "name": "Madagascar snipe",
+    "english_name": "Madagascar snipe",
+    "latin_name": "Gallinago macrodactyla",
+    "summary": "The Madagascar snipe (Gallinago macrodactyla) is a small stocky wader. It breeds only in the humid eastern half of Madagascar, from sea-lev…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Gallinago_macrodactyla_455072712.jpg/960px-Gallinago_macrodactyla_455072712.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-madagascar-snipe-67b04846",
+      "subject": "Madagascar snipe",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-madagascar-snipe-67b04846",
+      "subject": "Madagascar snipe",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is also threatened by hunting for food, for subsistence use or local trade",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

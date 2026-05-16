@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:25:11",
+  "requested_title": "Sumatran Peacock-Pheasant",
+  "resolved_title": "Bronze-tailed peacock-pheasant",
+  "title_aliases": [
+    "Sumatran Peacock-Pheasant",
+    "Bronze-tailed peacock-pheasant"
+  ],
+  "bird_id": "bird-銅尾孔雀雉-318649fc",
+  "raw_file": "bird-銅尾孔雀雉-318649fc.json",
+  "bird": {
+    "id": "bird-銅尾孔雀雉-318649fc",
+    "name": "銅尾孔雀雉",
+    "english_name": "Bronze-tailed peacock-pheasant",
+    "latin_name": "Polyplectron chalcurum",
+    "summary": "銅尾孔雀雉（學名：Polyplectron chalcurum）是印尼的一種雉。 特徵 銅尾孔雀雉的身形細小，只有56厘米長，呈深褐色，腳深灰色，頭部細小，尾巴有16條長窄的羽毛。尾羽呈栗褐色，末端有金屬紫色條紋。雄鳥的尾巴較長，腳上有兩距，瞳孔呈黃色；雌鳥沒有距，瞳孔呈深褐色。",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bronze-tailed_Peacock-pheasant_0A2A6154.jpg/960px-Bronze-tailed_Peacock-pheasant_0A2A6154.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-銅尾孔雀雉-318649fc",
+      "subject": "銅尾孔雀雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "An Indonesian endemic, the bronze-tailed peacock-pheasant inhabits to mountain forests of west Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銅尾孔雀雉-318649fc",
+      "subject": "銅尾孔雀雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "An Indonesian endemic, the bronze-tailed peacock-pheasant inhabits to mountain forests of west Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銅尾孔雀雉-318649fc",
+      "subject": "銅尾孔雀雉",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "An Indonesian endemic, the bronze-tailed peacock-pheasant inhabits to mountain forests of west Sumatra",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-銅尾孔雀雉-318649fc",
+      "subject": "銅尾孔雀雉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

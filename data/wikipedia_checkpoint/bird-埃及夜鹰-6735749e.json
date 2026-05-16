@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:22:13",
+  "requested_title": "Egyptian Nightjar",
+  "resolved_title": "Egyptian nightjar",
+  "title_aliases": [
+    "Egyptian Nightjar"
+  ],
+  "bird_id": "bird-埃及夜鹰-6735749e",
+  "raw_file": "bird-埃及夜鹰-6735749e.json",
+  "bird": {
+    "id": "bird-埃及夜鹰-6735749e",
+    "name": "埃及夜鹰",
+    "english_name": "Egyptian nightjar",
+    "latin_name": "Caprimulgus aegyptius",
+    "summary": "埃及夜鹰（学名：Caprimulgus aegyptius）为夜鹰科夜鹰属的鸟类。在中国大陆，分布于新疆等地。该物种的模式产地在埃及。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Egyptian_nightjar.png/960px-Egyptian_nightjar.png"
+  },
+  "locations": [
+    {
+      "id": "loc-欣里希-利希滕施泰因-04aece48",
+      "name": "欣里希·利希滕施泰因",
+      "summary": "马丁·欣里希·卡尔·利希滕施泰因（德語：Martin Hinrich Carl Lichtenstein，1780年1月10日—1857年9月2日）是德国医生、探险家、植物学家和动物学家。 生平 利希滕施泰因出生于汉堡市，曾在耶拿大学和黑…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-埃及夜鹰-6735749e",
+      "subject": "埃及夜鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-欣里希-利希滕施泰因-04aece48",
+      "object": "欣里希·利希滕施泰因",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Egyptian nightjar (Caprimulgus aegyptius) is a medium-small nightjar which occurs in south west Asia and north Africa and winters in tropical Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-埃及夜鹰-6735749e",
+      "subject": "埃及夜鹰",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-埃及夜鹰-6735749e",
+      "subject": "埃及夜鹰",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This is a fairly common species with a wide distribution which faces no obvious threats apart from habitat destruction, so the International Union for Conservation of Nature has rated its conservation status as being of \"least concern\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

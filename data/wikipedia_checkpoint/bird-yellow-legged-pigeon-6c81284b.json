@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:16:22",
+  "requested_title": "Yellow-legged Pigeon",
+  "resolved_title": "Yellow-legged pigeon",
+  "title_aliases": [
+    "Yellow-legged Pigeon"
+  ],
+  "bird_id": "bird-yellow-legged-pigeon-6c81284b",
+  "raw_file": "bird-yellow-legged-pigeon-6c81284b.json",
+  "bird": {
+    "id": "bird-yellow-legged-pigeon-6c81284b",
+    "name": "Yellow-legged pigeon",
+    "english_name": "Yellow-legged pigeon",
+    "latin_name": "Columba pallidiceps",
+    "summary": "The yellow-legged pigeon (Columba pallidiceps) is a bird species in the family Columbidae. It is found in the Bismarck and Solomon archipel…",
+    "lat": "-5",
+    "lng": "150.1",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-俾斯麦群岛-19ddf3e6",
+      "name": "俾斯麦群岛",
+      "summary": "俾斯麦群岛（英文：Bismarck Archipelago）是太平洋西南部一群岛，位于新几内亚岛东北，濒临俾斯麦海，由200多个岛屿组成，总陆地面积49700平方公里，主要岛屿有新不列颠岛、新爱尔兰岛等，人口31.4万人，现全部属于巴布亚…",
+      "lat": "-5",
+      "lng": "150.1"
+    },
+    {
+      "id": "loc-所羅門群島-群島-4708e5d6",
+      "name": "所羅門群島 (群島)",
+      "summary": "所羅門群島是太平洋西南面的群島，位於澳大利亞東北方的美拉尼西亞（Melanesia）地區。西隔所羅門海與新幾內亞、俾斯麥群島相鄰。 政治上分屬兩個政治實體： 所罗门群岛，領土範圍為大部分的索羅門群島（28,896 km²，660,121人…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-legged-pigeon-6c81284b",
+      "subject": "Yellow-legged pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-俾斯麦群岛-19ddf3e6",
+      "object": "俾斯麦群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Bismarck and Solomon archipelagos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-legged-pigeon-6c81284b",
+      "subject": "Yellow-legged pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-所羅門群島-群島-4708e5d6",
+      "object": "所羅門群島 (群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Bismarck and Solomon archipelagos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-legged-pigeon-6c81284b",
+      "subject": "Yellow-legged pigeon",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-yellow-legged-pigeon-6c81284b",
+      "subject": "Yellow-legged pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

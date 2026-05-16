@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:01:05",
+  "requested_title": "Little Tern",
+  "resolved_title": "Little tern",
+  "title_aliases": [
+    "Little Tern"
+  ],
+  "bird_id": "bird-白额燕鸥-f4d41109",
+  "raw_file": "bird-白额燕鸥-f4d41109.json",
+  "bird": {
+    "id": "bird-白额燕鸥-f4d41109",
+    "name": "白额燕鸥",
+    "english_name": "Little tern",
+    "latin_name": "Sternula albifrons",
+    "summary": "白额燕鸥（学名：Sternula albifrons），又名小燕鸥，为鸥科小燕鷗屬的鸟类。该物种的模式产地在荷兰。 分類 該物種首次由德國博物學家彼得·西蒙·帕拉斯於1764年描述，並賦予雙名法Sterna albifrons。",
+    "lat": "-30",
+    "lng": "25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%D0%9A%D1%80%D1%8F%D1%87%D0%BE%D0%BA_%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9.jpg/960px-%D0%9A%D1%80%D1%8F%D1%87%D0%BE%D0%BA_%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白额燕鸥-f4d41109",
+      "subject": "白额燕鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is strongly migratory, wintering in the subtropical and tropical oceans as far south as South Africa and Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白额燕鸥-f4d41109",
+      "subject": "白额燕鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is strongly migratory, wintering in the subtropical and tropical oceans as far south as South Africa and Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白额燕鸥-f4d41109",
+      "subject": "白额燕鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

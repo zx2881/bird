@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:17:05",
+  "requested_title": "Tawny-collared Nightjar",
+  "resolved_title": "Tawny-collared nightjar",
+  "title_aliases": [
+    "Tawny-collared Nightjar"
+  ],
+  "bird_id": "bird-tawny-collared-nightjar-acc6b2e6",
+  "raw_file": "bird-tawny-collared-nightjar-acc6b2e6.json",
+  "bird": {
+    "id": "bird-tawny-collared-nightjar-acc6b2e6",
+    "name": "Tawny-collared nightjar",
+    "english_name": "Tawny-collared nightjar",
+    "latin_name": "Antrostomus salvini",
+    "summary": "The tawny-collared nightjar (Antrostomus salvini) is a species of nightjar in the family Caprimulgidae. It is endemic to Mexico.",
+    "lat": "25.56666667",
+    "lng": "-99.96666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Antrostomus_salvini_344449.jpg/960px-Antrostomus_salvini_344449.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新萊昂州-49ad721b",
+      "name": "新萊昂州",
+      "summary": "Nuevo León, officially the Free and Sovereign State of Nuevo León, is a state in northeastern Mexico.",
+      "lat": "25.56666667",
+      "lng": "-99.96666667"
+    },
+    {
+      "id": "loc-塔毛利帕斯州-01463cbf",
+      "name": "塔毛利帕斯州",
+      "summary": "Tamaulipas, officially the Free and Sovereign State of Tamaulipas, is a state in Mexico; it is one of the 31 states whi…",
+      "lat": "24.28333333",
+      "lng": "-98.56666667"
+    },
+    {
+      "id": "loc-韋拉克魯斯州-51279fa6",
+      "name": "韋拉克魯斯州",
+      "summary": "韋拉克魯斯州（西班牙語：Veracruz，西班牙語發音：[beɾaˈkɾus]）是墨西哥的一個州，位於該國中部偏東，東部面向墨西哥灣。人口僅次於墨西哥州和聯邦區，居全國第三，首府哈拉帕。 正式州名為Veracruz de Ignacio…",
+      "lat": "19.5272",
+      "lng": "-96.9225"
+    },
+    {
+      "id": "loc-thorn-forest-4be049cb",
+      "name": "Thorn forest",
+      "summary": "A thorn forest is a dense scrubland with vegetation characteristic of dry subtropical and warm temperate areas with mon…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tawny-collared-nightjar-acc6b2e6",
+      "subject": "Tawny-collared nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-新萊昂州-49ad721b",
+      "object": "新萊昂州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tawn-collared nightjar is found in northeastern Mexico, from Nuevo León and Tamaulipas south to Veracruz",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-collared-nightjar-acc6b2e6",
+      "subject": "Tawny-collared nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔毛利帕斯州-01463cbf",
+      "object": "塔毛利帕斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tawn-collared nightjar is found in northeastern Mexico, from Nuevo León and Tamaulipas south to Veracruz",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-collared-nightjar-acc6b2e6",
+      "subject": "Tawny-collared nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-韋拉克魯斯州-51279fa6",
+      "object": "韋拉克魯斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tawn-collared nightjar is found in northeastern Mexico, from Nuevo León and Tamaulipas south to Veracruz",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-collared-nightjar-acc6b2e6",
+      "subject": "Tawny-collared nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-thorn-forest-4be049cb",
+      "object": "Thorn forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits arid to semihumid landscapes including brushy woodland, thorn forest, and dense scrublands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-collared-nightjar-acc6b2e6",
+      "subject": "Tawny-collared nightjar",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits arid to semihumid landscapes including brushy woodland, thorn forest, and dense scrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-tawny-collared-nightjar-acc6b2e6",
+      "subject": "Tawny-collared nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

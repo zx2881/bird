@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:17:09",
+  "requested_title": "Pale-capped Pigeon",
+  "resolved_title": "Pale-capped pigeon",
+  "title_aliases": [
+    "Pale-capped Pigeon"
+  ],
+  "bird_id": "bird-紫林鸽-838e5762",
+  "raw_file": "bird-紫林鸽-838e5762.json",
+  "bird": {
+    "id": "bird-紫林鸽-838e5762",
+    "name": "紫林鸽",
+    "english_name": "Pale-capped pigeon",
+    "latin_name": "Columba punicea",
+    "summary": "紫林鸽（学名：Columba punicea）为鸠鸽科鸽属的鸟类。分布于巴基斯坦、印度、孟加拉、缅甸、老挝、泰国、越南、南抵马来半岛的北部以及中国大陆的西藏、海南等地，多栖息于次生林区边缘以及或隐匿树叶稠密处。该物种的模式产地在缅甸。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Pale-capped_Pigeon_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫林鸽-838e5762",
+      "subject": "紫林鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bengal|volume= 11|pages=444–470}} | synonyms = Alsocomus puniceus }} The pale-capped pigeon (Columba punicea), also known as the purple wood pigeon, is a species of large pigeon that is found patchily distributed in parts of the Indian subcontinent and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫林鸽-838e5762",
+      "subject": "紫林鸽",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

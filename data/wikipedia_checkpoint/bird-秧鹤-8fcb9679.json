@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:00:24",
+  "requested_title": "Limpkin",
+  "resolved_title": "Limpkin",
+  "title_aliases": [
+    "Limpkin"
+  ],
+  "bird_id": "bird-秧鹤-8fcb9679",
+  "raw_file": "bird-秧鹤-8fcb9679.json",
+  "bird": {
+    "id": "bird-秧鹤-8fcb9679",
+    "name": "秧鹤",
+    "english_name": "Limpkin",
+    "latin_name": "Aramus guarauna",
+    "summary": "秧鶴（學名：Aramus guarauna）是鶴形目秧鶴科現存唯一的物種，分布於北美中南部至南美洲南部。 秧鹤是一种长相像秧鸡但骨骼更像鹤的鸟类。主要生活在美洲温暖的湿地里，从佛罗里达到阿根廷都有分布。主要以软体动物如蜗牛为食。",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Limpkin%2C_Florida_05.jpg/960px-Limpkin%2C_Florida_05.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-草沼-e1caf9f8",
+      "name": "草沼",
+      "summary": "草沼即草本沼泽（英語：marsh），也叫草泽，是一种主要生长草本植物的湿地，多半可以發現在湖岸或河岸邊，介於水生與陸生生態系統的過渡，一般未被淹没，但土壤维持水浸状态。优势植物有苔草、莎草和灯芯草等，另外也會有低矮的灌木生長。和草沼不同，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-秧鹤-8fcb9679",
+      "subject": "秧鹤",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In South America, it occurs widely east of the Andes; west of them its range extends only to the Equator. It inhabits freshwater marshes and swamps, often with tall reeds, as well as mangroves. In the Caribbean, it also inhabits dry brushland. In Mexico and northern Central America, it occurs at altitudes up to . In Florida, the distribution of apple snails is the best predictor of where limpkins can be found. The limpkin undertakes some localized migrations, although the extent of these is not fully understood",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-秧鹤-8fcb9679",
+      "subject": "秧鹤",
+      "predicate": "distributed_in",
+      "object_id": "loc-草沼-e1caf9f8",
+      "object": "草沼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In South America, it occurs widely east of the Andes; west of them its range extends only to the Equator. It inhabits freshwater marshes and swamps, often with tall reeds, as well as mangroves. In the Caribbean, it also inhabits dry brushland. In Mexico and northern Central America, it occurs at altitudes up to . In Florida, the distribution of apple snails is the best predictor of where limpkins can be found. The limpkin undertakes some localized migrations, although the extent of these is not fully understood",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-秧鹤-8fcb9679",
+      "subject": "秧鹤",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In South America, it occurs widely east of the Andes; west of them its range extends only to the Equator. It inhabits freshwater marshes and swamps, often with tall reeds, as well as mangroves. In the Caribbean, it also inhabits dry brushland. In Mexico and northern Central America, it occurs at altitudes up to . In Florida, the distribution of apple snails is the best predictor of where limpkins can be found. The limpkin undertakes some localized migrations, although the extent of these is not fully understood",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-秧鹤-8fcb9679",
+      "subject": "秧鹤",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

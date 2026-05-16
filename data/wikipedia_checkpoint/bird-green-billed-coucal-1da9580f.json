@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:30:09",
+  "requested_title": "Green-billed Coucal",
+  "resolved_title": "Green-billed coucal",
+  "title_aliases": [
+    "Green-billed Coucal"
+  ],
+  "bird_id": "bird-green-billed-coucal-1da9580f",
+  "raw_file": "bird-green-billed-coucal-1da9580f.json",
+  "bird": {
+    "id": "bird-green-billed-coucal-1da9580f",
+    "name": "Green-billed coucal",
+    "english_name": "Green-billed coucal",
+    "latin_name": "Centropus chlororhynchos",
+    "summary": "The green-billed coucal (Centropus chlororhynchos) is a member of the cuckoos. It is endemic to Sri Lanka's wet zone and listed as Vulnerab…",
+    "lat": "7",
+    "lng": "81",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Green-billed_coucal.jpg/960px-Green-billed_coucal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-斯里蘭卡-b7d5c4b5",
+      "name": "斯里蘭卡",
+      "summary": "斯里兰卡民主社会主义共和国（僧伽羅語：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；坦米爾語：இலங்கை சனநாயக சோஷலிசக் குடியரசு；英語：Democratic Social…",
+      "lat": "7",
+      "lng": "81"
+    },
+    {
+      "id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "name": "國際自然保護聯盟瀕危物種紅色名錄",
+      "summary": "國際自然保護聯盟瀕危物種紅色名錄（或稱IUCN紅色名錄，簡稱紅皮書）於1963年開始編製，是全球動植物物種保護現狀最全面的名錄。此名錄由國際自然保護聯盟編製及維護。 IUCN紅色名錄是根據嚴格準則去評估數以千計物種及亞種的絕種風險所編製而…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-billed-coucal-1da9580f",
+      "subject": "Green-billed coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯里蘭卡-b7d5c4b5",
+      "object": "斯里蘭卡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Sri Lanka's wet zone and listed as Vulnerable on the IUCN Red List, as the small population declined due to forest destruction and fragmentation. It inhabits the tall rainforests of southwest Sri Lanka and nests in bushes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-billed-coucal-1da9580f",
+      "subject": "Green-billed coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "object": "國際自然保護聯盟瀕危物種紅色名錄",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Sri Lanka's wet zone and listed as Vulnerable on the IUCN Red List, as the small population declined due to forest destruction and fragmentation. It inhabits the tall rainforests of southwest Sri Lanka and nests in bushes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-billed-coucal-1da9580f",
+      "subject": "Green-billed coucal",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-green-billed-coucal-1da9580f",
+      "subject": "Green-billed coucal",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is endemic to Sri Lanka's wet zone and listed as Vulnerable on the IUCN Red List, as the small population declined due to forest destruction and fragmentation. It inhabits the tall rainforests of southwest Sri Lanka and nests in bushes",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

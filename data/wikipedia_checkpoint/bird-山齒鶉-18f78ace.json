@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:31:07",
+  "requested_title": "Northern Bobwhite",
+  "resolved_title": "Northern bobwhite",
+  "title_aliases": [
+    "Northern Bobwhite"
+  ],
+  "bird_id": "bird-山齒鶉-18f78ace",
+  "raw_file": "bird-山齒鶉-18f78ace.json",
+  "bird": {
+    "id": "bird-山齒鶉-18f78ace",
+    "name": "山齒鶉",
+    "english_name": "Northern bobwhite",
+    "latin_name": "Colinus virginianus",
+    "summary": "The northern bobwhite (Colinus virginianus), also known as the Virginia quail or (in its home range) bobwhite quail, is a ground-dwelling b…",
+    "lat": "19",
+    "lng": "-71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Virginiawachtel_2007-06-16_065.jpg/960px-Virginiawachtel_2007-06-16_065.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-阿巴拉契亚山脉-22522e02",
+      "name": "阿巴拉契亚山脉",
+      "summary": "阿巴拉契亚山脉（英語：Appalachian Mountains，發音：/ˌæpəˈleɪʃ(i)ən/ AP-ə-LAY-sh(ee-)ən），又譯阿帕拉契山脉，是北美洲东部的一座山系。南起美国的阿拉巴马州，北至加拿大的纽芬兰和拉布拉多…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-伊斯帕尼奥拉岛-4e46d7cc",
+      "name": "伊斯帕尼奥拉岛",
+      "summary": "伊斯帕尼奥拉島（西班牙語：Isla de La Española；法語：Île d’Hispaniola；海地克里奧爾語：Ispayola，意即西班牙島），泰諾人稱海地島（泰諾語：Haiti，直译：「群山之地」），是加勒比地區大安的列斯群…",
+      "lat": "19",
+      "lng": "-71"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-山齒鶉-18f78ace",
+      "subject": "山齒鶉",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿巴拉契亚山脉-22522e02",
+      "object": "阿巴拉契亚山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is absent from the southern tip of Florida (where the extinct Key West bobwhite subspecies once lived) and the highest elevations of the Appalachian Mountains, but occurs in eastern Mexico and in Cuba, and has been introduced to Hispaniola (both the Dominican Republic and Haiti), the Bahamas, the Turks and Caicos Islands, the U.S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山齒鶉-18f78ace",
+      "subject": "山齒鶉",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊斯帕尼奥拉岛-4e46d7cc",
+      "object": "伊斯帕尼奥拉岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is absent from the southern tip of Florida (where the extinct Key West bobwhite subspecies once lived) and the highest elevations of the Appalachian Mountains, but occurs in eastern Mexico and in Cuba, and has been introduced to Hispaniola (both the Dominican Republic and Haiti), the Bahamas, the Turks and Caicos Islands, the U.S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山齒鶉-18f78ace",
+      "subject": "山齒鶉",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-山齒鶉-18f78ace",
+      "subject": "山齒鶉",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Habitat degradation has contributed to the northern bobwhite population in eastern North America declining by roughly 85% from 1966 to 2014. This population decline is apparently range-wide and continuing. There are 20 subspecies of northern bobwhite, many of which are hunted extensively as game birds",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

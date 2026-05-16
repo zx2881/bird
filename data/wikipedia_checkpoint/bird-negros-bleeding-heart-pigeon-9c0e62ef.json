@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:17:17",
+  "requested_title": "Negros Bleeding-heart",
+  "resolved_title": "Negros bleeding-heart pigeon",
+  "title_aliases": [
+    "Negros Bleeding-heart",
+    "Negros bleeding-heart pigeon"
+  ],
+  "bird_id": "bird-negros-bleeding-heart-pigeon-9c0e62ef",
+  "raw_file": "bird-negros-bleeding-heart-pigeon-9c0e62ef.json",
+  "bird": {
+    "id": "bird-negros-bleeding-heart-pigeon-9c0e62ef",
+    "name": "Negros bleeding-heart pigeon",
+    "english_name": "Negros bleeding-heart pigeon",
+    "latin_name": "Gallicolumba keayi",
+    "summary": "The Negros bleeding-heart (Gallicolumba keayi) is a species of ground-dwelling dove endemic to the islands of Negros and Panay in the Phili…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Negros_Bleeding-heart.jpg/960px-Negros_Bleeding-heart.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-negros-bleeding-heart-pigeon-9c0e62ef",
+      "subject": "Negros bleeding-heart pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits tropical moist lowland forests and has an extremely small, severely fragmented population",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-negros-bleeding-heart-pigeon-9c0e62ef",
+      "subject": "Negros bleeding-heart pigeon",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-negros-bleeding-heart-pigeon-9c0e62ef",
+      "subject": "Negros bleeding-heart pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Critically endangered, its population is declining due to deforestation and trapping for both bushmeat and the illegal wildlife trade",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-negros-bleeding-heart-pigeon-9c0e62ef",
+      "subject": "Negros bleeding-heart pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "They are threatened by hunting for food, trapping for the pet trade and habitat loss . The increasing rate of forest loss on the two islands suggests that the species will continue to decline",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-negros-bleeding-heart-pigeon-9c0e62ef",
+      "subject": "Negros bleeding-heart pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "They are threatened by hunting for food, trapping for the pet trade and habitat loss . The increasing rate of forest loss on the two islands suggests that the species will continue to decline",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

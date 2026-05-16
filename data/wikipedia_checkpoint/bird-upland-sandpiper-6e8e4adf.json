@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:18:15",
+  "requested_title": "Upland Sandpiper",
+  "resolved_title": "Upland sandpiper",
+  "title_aliases": [
+    "Upland Sandpiper"
+  ],
+  "bird_id": "bird-upland-sandpiper-6e8e4adf",
+  "raw_file": "bird-upland-sandpiper-6e8e4adf.json",
+  "bird": {
+    "id": "bird-upland-sandpiper-6e8e4adf",
+    "name": "Upland sandpiper",
+    "english_name": "Upland sandpiper",
+    "latin_name": "Bartramia longicauda",
+    "summary": "The upland sandpiper (Bartramia longicauda) is a large sandpiper, closely related to the curlews. Older names are the upland plover and Bar…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Bartramia_longicauda_Orangeburg_1.jpg/960px-Bartramia_longicauda_Orangeburg_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-乌拉圭-7f36b385",
+      "name": "乌拉圭",
+      "summary": "乌拉圭东岸共和国（西班牙語：República Oriental del Uruguay），通称乌拉圭（西班牙語：Uruguay），南美洲东南部国家，西邻阿根廷，东与北邻巴西，南濒拉普拉塔河，东南濒大西洋。乌拉圭人口342万，其中近180…",
+      "lat": "-33",
+      "lng": "-57"
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-upland-sandpiper-6e8e4adf",
+      "subject": "Upland sandpiper",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They winter in northeastern Argentina, Uruguay and southern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-upland-sandpiper-6e8e4adf",
+      "subject": "Upland sandpiper",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌拉圭-7f36b385",
+      "object": "乌拉圭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They winter in northeastern Argentina, Uruguay and southern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-upland-sandpiper-6e8e4adf",
+      "subject": "Upland sandpiper",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They winter in northeastern Argentina, Uruguay and southern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-upland-sandpiper-6e8e4adf",
+      "subject": "Upland sandpiper",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-upland-sandpiper-6e8e4adf",
+      "subject": "Upland sandpiper",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The numbers of these birds increased as forests were cleared in the early 19th century, but declined sharply in the late 19th century due to hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:45:15",
+  "requested_title": "Band-bellied Crake",
+  "resolved_title": "Band-bellied crake",
+  "title_aliases": [
+    "Band-bellied Crake"
+  ],
+  "bird_id": "bird-斑胁田鸡-cad2d410",
+  "raw_file": "bird-斑胁田鸡-cad2d410.json",
+  "bird": {
+    "id": "bird-斑胁田鸡-cad2d410",
+    "name": "斑胁田鸡",
+    "english_name": "Band-bellied crake",
+    "latin_name": "Zapornia paykullii",
+    "summary": "斑胁田鸡（学名：Zapornia paykullii），是鹤形目秧鸡科田鸡属的一种鸟类。 特征 斑胁田鸡体重约111克，翼长约126.4毫米，嘴峰长约28.5毫米，喙宽度约3.7毫米，喙厚度约7.3毫米，跗蹠长约35.8毫米，尾长约53.4毫米。斑胁田鸡是候鸟，其栖息在半开放的…",
+    "lat": "43",
+    "lng": "125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Mandarin_v%C3%ADzicsibe.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    },
+    {
+      "id": "loc-朝鮮-地區-db3706d8",
+      "name": "朝鮮 (地區)",
+      "summary": "朝鮮，又稱韓、高丽等，是东亚的一个地区，位于欧亚大陆东端，包含朝鲜半岛（韓半岛）、济州岛及朝鲜半岛附近的几个岛屿。東北接壤俄罗斯，北面接壤中國，通過朝鲜海峡和日本海與日本隔海相望。其位处汉字文化圈内，传统上深受汉文化影响，但也在建筑、音乐…",
+      "lat": "38.31666667",
+      "lng": "127.23333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-斑胁田鸡-cad2d410",
+      "subject": "斑胁田鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Manchuria, eastern China and northern Korea ; it winters throughout Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斑胁田鸡-cad2d410",
+      "subject": "斑胁田鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-朝鮮-地區-db3706d8",
+      "object": "朝鮮 (地區)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Manchuria, eastern China and northern Korea ; it winters throughout Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斑胁田鸡-cad2d410",
+      "subject": "斑胁田鸡",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-斑胁田鸡-cad2d410",
+      "subject": "斑胁田鸡",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is getting rare due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

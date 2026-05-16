@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:07:16",
+  "requested_title": "Banded Lapwing",
+  "resolved_title": "Banded lapwing",
+  "title_aliases": [
+    "Banded Lapwing"
+  ],
+  "bird_id": "bird-banded-lapwing-7d93842c",
+  "raw_file": "bird-banded-lapwing-7d93842c.json",
+  "bird": {
+    "id": "bird-banded-lapwing-7d93842c",
+    "name": "Banded lapwing",
+    "english_name": "Banded lapwing",
+    "latin_name": "Vanellus tricolor",
+    "summary": "The banded lapwing (Vanellus tricolor) is a small to medium-sized shorebird, found in small parties or large flocks on bare ground in open…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Vanellus_tricolor_-_Gretna.jpg/960px-Vanellus_tricolor_-_Gretna.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "name": "路易·皮埃尔·维埃约",
+      "summary": "路易·皮埃尔·维埃约（法語：Louis Pierre Vieillot，1748年5月10日—1830年8月24日）是法国的鳥類學家。 维埃约是第一批用卡尔·林奈式二名法科学描述鸟类的研究者之一。至少有26个他命名的鸟类至今仍在学术界使用…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-banded-lapwing-7d93842c",
+      "subject": "Banded lapwing",
+      "predicate": "distributed_in",
+      "object_id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "object": "路易·皮埃尔·维埃约",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The banded lapwing (Vanellus tricolor) is a small to medium-sized shorebird, found in small parties or large flocks on bare ground in open grasslands, agricultural land and open savannah. It is native to Australia and in the past considered as a game bird for hunting. Population estimate is 25 000 - 1 000 000. Other names include banded, black-breasted, brown flock and plain plover",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-banded-lapwing-7d93842c",
+      "subject": "Banded lapwing",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The banded lapwing (Vanellus tricolor) is a small to medium-sized shorebird, found in small parties or large flocks on bare ground in open grasslands, agricultural land and open savannah. It is native to Australia and in the past considered as a game bird for hunting. Population estimate is 25 000 - 1 000 000. Other names include banded, black-breasted, brown flock and plain plover",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-banded-lapwing-7d93842c",
+      "subject": "Banded lapwing",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

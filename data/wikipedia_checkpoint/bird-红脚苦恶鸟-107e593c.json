@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:45:19",
+  "requested_title": "Brown Crake",
+  "resolved_title": "Brown crake",
+  "title_aliases": [
+    "Brown Crake"
+  ],
+  "bird_id": "bird-红脚苦恶鸟-107e593c",
+  "raw_file": "bird-红脚苦恶鸟-107e593c.json",
+  "bird": {
+    "id": "bird-红脚苦恶鸟-107e593c",
+    "name": "红脚苦恶鸟",
+    "english_name": "Brown crake",
+    "latin_name": "Zapornia akool",
+    "summary": "红脚苦恶鸟（学名：Zapornia akool），又称红脚田鸡，是鹤形目秧鸡科的一种鸟类。 原为Amaurornis akool (Sykes, 1832)，现接受名为Zapornia akool (Sykes, 1832)。",
+    "lat": "18.29944444",
+    "lng": "74.75444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg/960px-Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-bhigwan-4effd472",
+      "name": "Bhigwan",
+      "summary": "Bhigwan is a town on the border of the Ahilyanagar, Pune and Solapur districts in the Indian state of Maharashtra.",
+      "lat": "18.29944444",
+      "lng": "74.75444444"
+    },
+    {
+      "id": "loc-威廉-亨利-赛克斯-571f524c",
+      "name": "威廉·亨利·赛克斯",
+      "summary": "威廉·亨利·赛克斯（英語：William Henry Sykes，1790年1月25日—1872年6月16日）是一位英国政治家、鸟类学家和印度学家，曾担任皇家统计学会会长和皇家亚洲学会主席。 参考文献 外部链接 1803年至2005年議事…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红脚苦恶鸟-107e593c",
+      "subject": "红脚苦恶鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-bhigwan-4effd472",
+      "object": "Bhigwan",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The brown crake (Zapornia akool), or brown bush-hen, is a waterbird in the rail and crake family (Rallidae) found in South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红脚苦恶鸟-107e593c",
+      "subject": "红脚苦恶鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-威廉-亨利-赛克斯-571f524c",
+      "object": "威廉·亨利·赛克斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The brown crake (Zapornia akool), or brown bush-hen, is a waterbird in the rail and crake family (Rallidae) found in South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红脚苦恶鸟-107e593c",
+      "subject": "红脚苦恶鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

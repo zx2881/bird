@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:53:19",
+  "requested_title": "Buff-throated Monal-Partridge",
+  "resolved_title": "Buff-throated monal-partridge",
+  "title_aliases": [
+    "Buff-throated Monal-Partridge"
+  ],
+  "bird_id": "bird-四川雉鹑-d4f362e0",
+  "raw_file": "bird-四川雉鹑-d4f362e0.json",
+  "bird": {
+    "id": "bird-四川雉鹑-d4f362e0",
+    "name": "四川雉鹑",
+    "english_name": "Buff-throated monal-partridge",
+    "latin_name": "Tetraophasis szechenyii",
+    "summary": "四川雉鹑（学名：Tetraophasis szechenyii）为雉科雉鹑属的鸟类，是中国的特有物种。分布于四川、青海、云南、西藏等地，一般栖息于针叶林以及杜鹃灌丛。该物种的模式产地在四川西部。 参考文献",
+    "lat": "35",
+    "lng": "96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Buff-throated_Partridge_07.jpg/960px-Buff-throated_Partridge_07.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-青海省-9c801d60",
+      "name": "青海省",
+      "summary": "青海省，简称青，为中国一级行政区，位于中国西部、青藏高原东北部。因境内有全中国最大的内陆咸水湖——青海湖而得名，省会是西宁。青海是长江、黄河、澜沧江的发源地，故被称为“三江源”。省人民政府驻西宁市城中区西大街12号。 历史 早在2萬年前青…",
+      "lat": "35",
+      "lng": "96"
+    },
+    {
+      "id": "loc-云南省-f689e1a8",
+      "name": "云南省",
+      "summary": "云南省，简称云或滇，因清代境內有迤东道、迤西道、迤南道三迤，故又簡稱迤，是中华人民共和国西南边疆地区的省份。云南地形复杂多变，以高原与山地为主，海拔落差大，呈“西北高、东南低”地势格局。气候类型多样，从高原气候到热带、亚热带气候均有分布，…",
+      "lat": "25.04944444",
+      "lng": "102.70888889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-四川雉鹑-d4f362e0",
+      "subject": "四川雉鹑",
+      "predicate": "distributed_in",
+      "object_id": "loc-青海省-9c801d60",
+      "object": "青海省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The buff-throated monal-partridge is endemic to the high mountains (3350–4600 m) of western China, and is distributed in southeastern Tibet, southern Qinghai, western Sichuan and northwestern Yunnan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-四川雉鹑-d4f362e0",
+      "subject": "四川雉鹑",
+      "predicate": "distributed_in",
+      "object_id": "loc-云南省-f689e1a8",
+      "object": "云南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The buff-throated monal-partridge is endemic to the high mountains (3350–4600 m) of western China, and is distributed in southeastern Tibet, southern Qinghai, western Sichuan and northwestern Yunnan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-四川雉鹑-d4f362e0",
+      "subject": "四川雉鹑",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-四川雉鹑-d4f362e0",
+      "subject": "四川雉鹑",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Even though this species is in the Least Concern category by the current IUCN Red List; under the Red Book of China, it is currently considered as endangered and listed in Category I of the nationally protected animals. With Sichuan and Yunnan rapidly modernizing since the mid 70s, deforestation needs to be studied as a potential threat to this species",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

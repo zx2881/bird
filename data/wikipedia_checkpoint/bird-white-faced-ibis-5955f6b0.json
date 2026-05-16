@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:38:10",
+  "requested_title": "White-faced Ibis",
+  "resolved_title": "White-faced ibis",
+  "title_aliases": [
+    "White-faced Ibis"
+  ],
+  "bird_id": "bird-white-faced-ibis-5955f6b0",
+  "raw_file": "bird-white-faced-ibis-5955f6b0.json",
+  "bird": {
+    "id": "bird-white-faced-ibis-5955f6b0",
+    "name": "White-faced ibis",
+    "english_name": "White-faced ibis",
+    "latin_name": "Plegadis chihi",
+    "summary": "The white-faced ibis (Plegadis chihi) is a wading bird in the ibis family, Threskiornithidae. This species breeds colonially in marshes, us…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Adult_white-faced_ibis_%28Plegadis_chihi%29-4026.jpg/960px-Adult_white-faced_ibis_%28Plegadis_chihi%29-4026.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-faced-ibis-5955f6b0",
+      "subject": "White-faced ibis",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-faced ibis occurs in Canada, the United States, and Central America, and a second subspecies inhabits the southern half of South America, east of the Andes Mountains. In 2012, the total population size was estimated to be 1.2 million individuals, and increasing",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-faced-ibis-5955f6b0",
+      "subject": "White-faced ibis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-white-faced-ibis-5955f6b0",
+      "subject": "White-faced ibis",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Studies completed in Utah in the 1960s (before this species was added to the Migratory Bird Treaty Act) showed that 82.9% of recorded deaths in banded birds were a result of being shot. However, the main causes of the decline of this species previously were pesticides and habitat destruction. The pesticide DDT caused eggshells to be so thin and fragile that parent white-faced ibises crushed the eggs when they were incubating them. Also, since this species is so dependent on wetlands and marshes for both feeding and nesting, changes to water systems such as pollution and man-made draining of water habitats had devastating impacts on members of this species in the past. In order to correct these damages, DDT was banned in 1970 and various programs were created to better maintain and protect wetland nesting habitats.D",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-white-faced-ibis-5955f6b0",
+      "subject": "White-faced ibis",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Studies completed in Utah in the 1960s (before this species was added to the Migratory Bird Treaty Act) showed that 82.9% of recorded deaths in banded birds were a result of being shot. However, the main causes of the decline of this species previously were pesticides and habitat destruction. The pesticide DDT caused eggshells to be so thin and fragile that parent white-faced ibises crushed the eggs when they were incubating them. Also, since this species is so dependent on wetlands and marshes for both feeding and nesting, changes to water systems such as pollution and man-made draining of water habitats had devastating impacts on members of this species in the past. In order to correct these damages, DDT was banned in 1970 and various programs were created to better maintain and protect wetland nesting habitats.D",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    },
+    {
+      "subject_id": "bird-white-faced-ibis-5955f6b0",
+      "subject": "White-faced ibis",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Studies completed in Utah in the 1960s (before this species was added to the Migratory Bird Treaty Act) showed that 82.9% of recorded deaths in banded birds were a result of being shot. However, the main causes of the decline of this species previously were pesticides and habitat destruction. The pesticide DDT caused eggshells to be so thin and fragile that parent white-faced ibises crushed the eggs when they were incubating them. Also, since this species is so dependent on wetlands and marshes for both feeding and nesting, changes to water systems such as pollution and man-made draining of water habitats had devastating impacts on members of this species in the past. In order to correct these damages, DDT was banned in 1970 and various programs were created to better maintain and protect wetland nesting habitats.D",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

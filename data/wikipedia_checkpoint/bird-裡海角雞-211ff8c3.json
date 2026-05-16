@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:35:07",
+  "requested_title": "Caspian Snowcock",
+  "resolved_title": "Caspian snowcock",
+  "title_aliases": [
+    "Caspian Snowcock"
+  ],
+  "bird_id": "bird-裡海角雞-211ff8c3",
+  "raw_file": "bird-裡海角雞-211ff8c3.json",
+  "bird": {
+    "id": "bird-裡海角雞-211ff8c3",
+    "name": "裡海角雞",
+    "english_name": "Caspian snowcock",
+    "latin_name": "Tetraogallus caspius",
+    "summary": "裡海角雞（學名：Tetraogallus caspius），又名裡海雪雉或裡海雪雞，是一種雪雞。 裡海角雞分佈在土耳其東部及阿美尼亞的山脈，並橫跨伊朗北部的阿爾波茲山脈。牠們棲息在海拔1800-3000米的地方，都是荒蕪的石地長有一些山區草叢。牠們會在地上築巢，每次生6-9隻蛋…",
+    "lat": "35.95555556",
+    "lng": "52.11",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Tetraogallus_caspius_431003548.png/960px-Tetraogallus_caspius_431003548.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-土耳其-5e126298",
+      "name": "土耳其",
+      "summary": "土耳其共和国（土耳其語：Türkiye Cumhuriyeti，發音：[ˈtyɾcije dʒumˈhuːɾijeti] ），通稱土耳其（Türkiye），是橫跨欧亚两洲的共和國，其國土包括西亞的安納托利亞半岛、以及东南欧巴尔干半岛的东色…",
+      "lat": "39.91666667",
+      "lng": "32.85"
+    },
+    {
+      "id": "loc-阿塞拜疆-8e40d268",
+      "name": "阿塞拜疆",
+      "summary": "阿塞拜疆共和国（阿塞拜疆語：Azərbaycan Respublikası），通称亞塞拜然（阿塞拜疆語：Azərbaycan），是一个位于東歐和西亞交界处以及外高加索东部的跨大陆国家，所处地区是连接东欧和西亚的十字路口 ，东临裏海，南接伊…",
+      "lat": "40.3",
+      "lng": "47.7"
+    },
+    {
+      "id": "loc-厄尔布尔士山脉-b502a796",
+      "name": "厄尔布尔士山脉",
+      "summary": "厄爾布爾士山脈（Alborz， 波斯語：البرز，波斯語: البرز‎，也被拼寫為Alburz，Elburz，或是Elborz），是位於伊朗北部的巨大山脈，從亞塞拜然邊界，一路沿著西部和整個裏海南岸延伸，向東北延伸，最終在大呼羅珊的北…",
+      "lat": "35.95555556",
+      "lng": "52.11"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-裡海角雞-211ff8c3",
+      "subject": "裡海角雞",
+      "predicate": "distributed_in",
+      "object_id": "loc-土耳其-5e126298",
+      "object": "土耳其",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the mountains of eastern Turkey, Armenia, Azerbaijan and throughout the Alborz Mountains of Northern Iran",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-裡海角雞-211ff8c3",
+      "subject": "裡海角雞",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿塞拜疆-8e40d268",
+      "object": "阿塞拜疆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the mountains of eastern Turkey, Armenia, Azerbaijan and throughout the Alborz Mountains of Northern Iran",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-裡海角雞-211ff8c3",
+      "subject": "裡海角雞",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄尔布尔士山脉-b502a796",
+      "object": "厄尔布尔士山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the mountains of eastern Turkey, Armenia, Azerbaijan and throughout the Alborz Mountains of Northern Iran",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-裡海角雞-211ff8c3",
+      "subject": "裡海角雞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

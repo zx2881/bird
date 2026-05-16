@@ -15,6 +15,7 @@
 - `scripts/build_knowledge_json.py` 数据整合脚本
 - `scripts/download_bird_name_list.py` 的 AviList 标准鸟名下载脚本
 - `scripts/crawl_from_wikipedia.py` 的 Wikipedia 批量抓取脚本
+- `scripts/fetch_taxonomy.py` 的 Wikidata 分类标签获取脚本
 - `scripts/fetch_gbif_data.py` 的 GBIF 分布抓取示例
 
 ## 2. 目录结构
@@ -32,6 +33,7 @@
 │  ├─ crawl_from_wikipedia.py
 │  ├─ download_bird_name_list.py
 │  ├─ fetch_bird_images.py
+│  ├─ fetch_taxonomy.py
 │  └─ fetch_gbif_data.py
 ├─ src/
 │  ├─ App.vue
@@ -76,6 +78,10 @@
 - `lat`: 鸟类代表坐标纬度
 - `lng`: 鸟类代表坐标经度
 - `image_url`: （可选）鸟类图片 URL，由 Wikipedia 抓取脚本自动填充
+- `order`: （可选）目（英文科学名），由 `fetch_taxonomy.py` 自动填充
+- `family`: （可选）科（英文科学名），由 `fetch_taxonomy.py` 自动填充
+- `order_cn`: （可选）目（中文名）
+- `family_cn`: （可选）科（中文名）
 
 示例：
 
@@ -449,6 +455,70 @@ python scripts/fetch_bird_images.py --proxy http://127.0.0.1:7890
 ```
 
 脚本读取 `birds.csv` 中所有 `image_url` 为空的鸟类，通过 Wikipedia `prop=pageimages` API 批量获取题图 URL 并写回 CSV，最后需执行 `npm run build:data` 刷新前端数据。
+
+
+### `scripts/fetch_taxonomy.py`
+
+作用：
+
+- 通过 Wikidata API 获取每个鸟类的完整分类信息（界门纲目科属种）
+- 自动抽取"目"和"科"两层级的英文/中文名称
+- 回填到 `birds.csv` 的 `order`、`family`、`order_cn`、`family_cn` 列
+- 同时生成 `belongs_to` 关系到 `relations.csv`
+
+数据流：
+
+1. 读取 `birds.csv` 中的 `english_name`
+2. 通过 en.wikipedia API 获取 Wikidata QID
+3. 沿 Wikidata 的 P171（上级分类）链条向上遍历
+4. 收集各层级的英文/中文标签
+5. 写入 `birds.csv` 和 `relations.csv`
+
+常用命令：
+
+```bash
+# 获取所有鸟类的分类标签
+python scripts/fetch_taxonomy.py
+
+# 强制重取并刷新前端数据
+python scripts/fetch_taxonomy.py --overwrite --build-json
+
+# 通过代理访问
+python scripts/fetch_taxonomy.py --proxy http://127.0.0.1:7890 --delay 0.5
+```
+
+说明：
+
+- 脚本支持断点续跑：已有分类信息的鸟类会自动跳过
+- 界(Animalia 动物界)/门(Chordata 脊索动物门)/纲(Aves 鸟纲) 对所有鸟类恒定，不会重复写入
+- 生成的关系中 `object_type` 为 `Taxon`，前端会映射为 `taxonomy` 节点
+- 接口调用遵守 Wikidata 限速要求，默认 0.5s 延迟
+
+
+### GBIF / 中国观鸟记录中心坐标获取
+
+项目根目录下的 `gbif_coord_fetcher.py` 和 `china_bird_coord_fetcher.py` 现已默认读写 `data/birds.csv`（而非 `knowledge.json`），确保坐标补全不会在 `build:data` 时丢失。
+
+常用命令：
+
+```bash
+# GBIF 全球搜索，只填补空坐标（默认写入 data/birds.csv）
+python gbif_coord_fetcher.py --null-only
+
+# 中国观鸟记录中心（需要 Token）
+python china_bird_coord_fetcher.py --token YOUR_TOKEN --null-only
+```
+
+推荐工作流：坐标补全后执行 `npm run build:data` 刷新前端 JSON。
+
+
+### 主爬虫改进（v0.2）
+
+以下改进已合入 `scripts/crawl_from_wikipedia.py`：
+
+- **单鸟失败不再终止整批**：主循环添加 `try/except`，某个标题出错后记录错误继续下一个
+- **威胁关系去重优化**：`threatened_by` 去重键从 `(object_id, evidence)` 改为 `object_id`，避免同一威胁因不同证据语句产生重复条目
+- **分类列预留**：`birds.csv` 新增 `order`、`family`、`order_cn`、`family_cn` 四列，由 `fetch_taxonomy.py` 填充
 
 
 ### `scripts/download_bird_name_list.py`

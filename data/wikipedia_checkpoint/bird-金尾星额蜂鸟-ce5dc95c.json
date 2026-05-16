@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:17:08",
+  "requested_title": "Golden-tailed Starfrontlet",
+  "resolved_title": "Golden-tailed starfrontlet",
+  "title_aliases": [
+    "Golden-tailed Starfrontlet"
+  ],
+  "bird_id": "bird-金尾星额蜂鸟-ce5dc95c",
+  "raw_file": "bird-金尾星额蜂鸟-ce5dc95c.json",
+  "bird": {
+    "id": "bird-金尾星额蜂鸟-ce5dc95c",
+    "name": "金尾星额蜂鸟",
+    "english_name": "Golden-tailed starfrontlet",
+    "latin_name": "Coeligena eos",
+    "summary": "The golden-tailed starfrontlet (Coeligena eos) is a species of hummingbird in the \"brilliants\", tribe Heliantheini in subfamily Lesbiinae.…",
+    "lat": "7.94",
+    "lng": "-72.12",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Coeligena_bonapartei_eos_%283412277581%29_%282%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塔奇拉州-f10a6506",
+      "name": "塔奇拉州",
+      "summary": "塔奇拉州（西班牙語：Estado Táchira）是委內瑞拉西南部的一個州，位於安第斯山脈上，西鄰哥倫比亞。面積11,100平方公里，2007年人口1,177,300人。首府聖克里斯托瓦爾。 1899年建州。下分二十九個自治市。",
+      "lat": "7.94",
+      "lng": "-72.12"
+    },
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金尾星额蜂鸟-ce5dc95c",
+      "subject": "金尾星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔奇拉州-f10a6506",
+      "object": "塔奇拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The golden-tailed starfrontlet is found in the Andes of western Venezuela between the states of Lara and Táchira",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金尾星额蜂鸟-ce5dc95c",
+      "subject": "金尾星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in dwarf forest and more open landscapes with scattered vegetation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金尾星额蜂鸟-ce5dc95c",
+      "subject": "金尾星额蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It primarily inhabits the interior and edges of humid montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-金尾星额蜂鸟-ce5dc95c",
+      "subject": "金尾星额蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

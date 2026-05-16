@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:48:07",
+  "requested_title": "Townsend's Storm Petrel",
+  "resolved_title": "Townsend's storm petrel",
+  "title_aliases": [
+    "Townsend's Storm Petrel"
+  ],
+  "bird_id": "bird-townsend-s-storm-petrel-5070655a",
+  "raw_file": "bird-townsend-s-storm-petrel-5070655a.json",
+  "bird": {
+    "id": "bird-townsend-s-storm-petrel-5070655a",
+    "name": "Townsend's storm petrel",
+    "english_name": "Townsend's storm petrel",
+    "latin_name": "Hydrobates socorroensis",
+    "summary": "Townsend's storm petrel (Hydrobates socorroensis) is a species of seabird in the family Hydrobatidae. It breeds in the summer on rocks and…",
+    "lat": "37",
+    "lng": "-120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Townsend%27s_storm_petrel_%28Hydrobates_socorroensis%29_01.jpg/960px-Townsend%27s_storm_petrel_%28Hydrobates_socorroensis%29_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加利福尼亚州-9068131e",
+      "name": "加利福尼亚州",
+      "summary": "加利福尼亚州（英語：State of California），簡稱加州，是美国西部太平洋沿岸的一个州。面積列美國第三；人口為3,918萬，列美國各州第一。州首府是萨克拉门托。在地理、地貌、物產、人口構成方面都具有多样化的特點。加州有一别名…",
+      "lat": "37",
+      "lng": "-120"
+    },
+    {
+      "id": "loc-美国-1efc9783",
+      "name": "美国",
+      "summary": "美利堅合眾國（英語：United States of America，縮寫：USA），简称美国、美利堅（英語：America）或合眾國（United States，縮寫：US），是位於北美洲的聯邦制共和國。其由50個州、首都华盛顿哥伦比亚…",
+      "lat": "40",
+      "lng": "-100"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-townsend-s-storm-petrel-5070655a",
+      "subject": "Townsend's storm petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-加利福尼亚州-9068131e",
+      "object": "加利福尼亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It ranges in the Eastern Pacific Ocean north to southern California in the United States and south to 10°N latitude",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-townsend-s-storm-petrel-5070655a",
+      "subject": "Townsend's storm petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-美国-1efc9783",
+      "object": "美国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It ranges in the Eastern Pacific Ocean north to southern California in the United States and south to 10°N latitude",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-townsend-s-storm-petrel-5070655a",
+      "subject": "Townsend's storm petrel",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

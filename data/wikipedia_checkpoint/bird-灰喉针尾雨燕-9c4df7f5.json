@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:37:36",
+  "requested_title": "Silver-backed Needletail",
+  "resolved_title": "Silver-backed needletail",
+  "title_aliases": [
+    "Silver-backed Needletail"
+  ],
+  "bird_id": "bird-灰喉针尾雨燕-9c4df7f5",
+  "raw_file": "bird-灰喉针尾雨燕-9c4df7f5.json",
+  "bird": {
+    "id": "bird-灰喉针尾雨燕-9c4df7f5",
+    "name": "灰喉针尾雨燕",
+    "english_name": "Silver-backed needletail",
+    "latin_name": "Hirundapus cochinchinensis",
+    "summary": "The silver-backed needletail (Hirundapus cochinchinensis) is a species of swift in the family Apodidae. It is found in Southeast Asia, Suma…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Silver-backedNeedletail.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    },
+    {
+      "id": "loc-中華民國-e9cfdf77",
+      "name": "中華民國",
+      "summary": "中華民國是位於東亞的民主共和國政权，曾在国际上广泛代表中國，現今多通稱「臺灣」。1912年建國時以前清之中國既有領土為疆域，經歷国共内战失利1949年政府遷臺，現有效管轄範圍包括臺灣本島、澎湖群島及其附屬島嶼，以及中國大陸福建沿岸的金門群…",
+      "lat": "24",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰喉针尾雨燕-9c4df7f5",
+      "subject": "灰喉针尾雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Southeast Asia, Sumatra, Java and Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰喉针尾雨燕-9c4df7f5",
+      "subject": "灰喉针尾雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Southeast Asia, Sumatra, Java and Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰喉针尾雨燕-9c4df7f5",
+      "subject": "灰喉针尾雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-中華民國-e9cfdf77",
+      "object": "中華民國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Southeast Asia, Sumatra, Java and Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰喉针尾雨燕-9c4df7f5",
+      "subject": "灰喉针尾雨燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

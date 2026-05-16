@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:55:12",
+  "requested_title": "Buff-fronted Quail-Dove",
+  "resolved_title": "Buff-fronted quail-dove",
+  "title_aliases": [
+    "Buff-fronted Quail-Dove"
+  ],
+  "bird_id": "bird-buff-fronted-quail-dove-f711003e",
+  "raw_file": "bird-buff-fronted-quail-dove-f711003e.json",
+  "bird": {
+    "id": "bird-buff-fronted-quail-dove-f711003e",
+    "name": "Buff-fronted quail-dove",
+    "english_name": "Buff-fronted quail-dove",
+    "latin_name": "Zentrygon costaricensis",
+    "summary": "The buff-fronted quail-dove (Zentrygon costaricensis) or Costa Rican quail-dove, is a species of bird in the family Columbidae. It is nativ…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Geotrygon_costaricensis%2C_Monteverde%2C_Costa_Rica.jpg/960px-Geotrygon_costaricensis%2C_Monteverde%2C_Costa_Rica.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-talamancan-montane-forests-a57e7cc3",
+      "name": "Talamancan montane forests",
+      "summary": "The Talamancan montane forests ecoregion, in the tropical moist broadleaf forest biome, are in montane Costa Rica and w…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-buff-fronted-quail-dove-f711003e",
+      "subject": "Buff-fronted quail-dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-talamancan-montane-forests-a57e7cc3",
+      "object": "Talamancan montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Talamancan montane forests.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-fronted-quail-dove-f711003e",
+      "subject": "Buff-fronted quail-dove",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the Talamancan montane forest ecoregion",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-buff-fronted-quail-dove-f711003e",
+      "subject": "Buff-fronted quail-dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

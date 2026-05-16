@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:46:10",
+  "requested_title": "Baillon's Crake",
+  "resolved_title": "Baillon's crake",
+  "title_aliases": [
+    "Baillon's Crake"
+  ],
+  "bird_id": "bird-小田鸡-56c850e8",
+  "raw_file": "bird-小田鸡-56c850e8.json",
+  "bird": {
+    "id": "bird-小田鸡-56c850e8",
+    "name": "小田鸡",
+    "english_name": "Baillon's crake",
+    "latin_name": "Zapornia pusilla",
+    "summary": "小田鸡（台湾作小秧雞）（学名：Zapornia pusilla），为秧鸡科小田鸡属的小型水鸟，分布于歐亞非大陸大部分地區、新幾內亞、澳洲、紐西蘭與其鄰近島嶼。该物种的模式产地在西伯利亚外貝加爾。 分佈 牠們的繁殖棲地位於歐洲的莎草科植物區域，主要在東部和整個古北界。牠們曾經在1…",
+    "lat": "-28.10888889",
+    "lng": "146.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Porzana_pusilla_-_Mount_Annan_Botanical_Garden.jpg/960px-Porzana_pusilla_-_Mount_Annan_Botanical_Garden.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南亚-1fa6ecaf",
+      "name": "南亚",
+      "summary": "南亚（英語：South Asia）是術語，以替換百年老詞「印度次大陸」，這老詞用來代表亞洲大陸的南部地區，主要是位於印度板塊和向南投射到印度洋的地方，當中包括8個主權國家：印度、巴基斯坦、孟加拉、斯里蘭卡、馬爾代夫、不丹、尼泊爾、阿富汗（…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大拉西亞-3d7bd98e",
+      "name": "澳大拉西亞",
+      "summary": "澳大拉西亚（英語：Australasia）一般指大洋洲的一个地区，包含了澳大利亚、新西兰和邻近的太平洋岛屿。 澳大拉西亚一詞是由法国學者布羅塞於1756年出版的《到南方陸地航行的歷史》（Histoire des navigations a…",
+      "lat": "-28.10888889",
+      "lng": "146.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小田鸡-56c850e8",
+      "subject": "小田鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-南亚-1fa6ecaf",
+      "object": "南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is migratory, wintering in East Africa and South Asia, as well as being a resident breeder in Africa and Australasia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小田鸡-56c850e8",
+      "subject": "小田鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大拉西亞-3d7bd98e",
+      "object": "澳大拉西亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is migratory, wintering in East Africa and South Asia, as well as being a resident breeder in Africa and Australasia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小田鸡-56c850e8",
+      "subject": "小田鸡",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Their breeding habitat is sedge beds and swamps, ranging from Eastern Europe to Honshu in Japan",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-小田鸡-56c850e8",
+      "subject": "小田鸡",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The total breeding population in Europe as of 2016 was suspected to be 4,000 to 9,000 individuals. They used to breed in Great Britain up to the mid-19th century, but the Hungarian population declined in the 20th century due to wetland drainage. There has been a recovery in north-western Europe in recent years, with the recolonisation of Germany and the Netherlands, and breeding suspected in Britain; an Irish record in 2012 was the first there since the 1850s. They nest in dry locations in wet sedge bogs, laying 4–8 eggs",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-小田鸡-56c850e8",
+      "subject": "小田鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

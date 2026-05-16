@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:07:23",
+  "requested_title": "Black-bellied Bustard",
+  "resolved_title": "Black-bellied bustard",
+  "title_aliases": [
+    "Black-bellied Bustard"
+  ],
+  "bird_id": "bird-black-bellied-bustard-006f74fd",
+  "raw_file": "bird-black-bellied-bustard-006f74fd.json",
+  "bird": {
+    "id": "bird-black-bellied-bustard-006f74fd",
+    "name": "Black-bellied bustard",
+    "english_name": "Black-bellied bustard",
+    "latin_name": "Lissotis melanogaster",
+    "summary": "The black-bellied bustard (Lissotis melanogaster), also known as the black-bellied korhaan, is an African ground-dwelling bird in the busta…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Black-bellied_bustard.jpg/960px-Black-bellied_bustard.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-bellied-bustard-006f74fd",
+      "subject": "Black-bellied bustard",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in savanna, cultivated fields and tall open grassland in sub-Saharan Africa. This species is also found in the areas of S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-bellied-bustard-006f74fd",
+      "subject": "Black-bellied bustard",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in savanna, cultivated fields and tall open grassland in sub-Saharan Africa. This species is also found in the areas of S",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-black-bellied-bustard-006f74fd",
+      "subject": "Black-bellied bustard",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

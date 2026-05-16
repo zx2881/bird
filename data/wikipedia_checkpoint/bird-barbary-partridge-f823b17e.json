@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:40:11",
+  "requested_title": "Barbary Partridge",
+  "resolved_title": "Barbary partridge",
+  "title_aliases": [
+    "Barbary Partridge"
+  ],
+  "bird_id": "bird-barbary-partridge-f823b17e",
+  "raw_file": "bird-barbary-partridge-f823b17e.json",
+  "bird": {
+    "id": "bird-barbary-partridge-f823b17e",
+    "name": "Barbary partridge",
+    "english_name": "Barbary partridge",
+    "latin_name": "Alectoris barbara",
+    "summary": "The Barbary partridge (Alectoris barbara) is a gamebird in the pheasant family (Phasianidae) of the order Galliformes. It is native to Nort…",
+    "lat": "36.14",
+    "lng": "-5.35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Alectoris_barbara_Tenerife.jpg/960px-Alectoris_barbara_Tenerife.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北非-dbfa37f4",
+      "name": "北非",
+      "summary": "与撒哈拉以南非洲相对，北非（英语：North Africa或Northern Africa）即非洲大陆北部地区，习惯上为苏丹热带草原以北非洲广大区域。联合国定义的“北非”，是指撒哈拉沙漠以北地区，包括埃及、利比亚、阿尔及利亚、突尼斯、摩洛…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-直布罗陀-4a97da40",
+      "name": "直布罗陀",
+      "summary": "直布罗陀（英語：Gibraltar，/dʒɪˈbrɔːltər/ jih-BRAWL-tər ，西班牙語發音：[xiβɾalˈtaɾ] ）是英國官方承認的第14個英國海外領土，也是最小的一個，位于伊比利亚半岛的末端，是通往地中海的入口。…",
+      "lat": "36.14",
+      "lng": "-5.35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-barbary-partridge-f823b17e",
+      "subject": "Barbary partridge",
+      "predicate": "distributed_in",
+      "object_id": "loc-北非-dbfa37f4",
+      "object": "北非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Barbary partridge has its native range in North Africa, but has been introduced to Gibraltar (ssp",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-barbary-partridge-f823b17e",
+      "subject": "Barbary partridge",
+      "predicate": "distributed_in",
+      "object_id": "loc-直布罗陀-4a97da40",
+      "object": "直布罗陀",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Barbary partridge has its native range in North Africa, but has been introduced to Gibraltar (ssp",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-barbary-partridge-f823b17e",
+      "subject": "Barbary partridge",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

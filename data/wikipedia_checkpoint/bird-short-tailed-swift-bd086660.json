@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:41:11",
+  "requested_title": "Short-tailed Swift",
+  "resolved_title": "Short-tailed swift",
+  "title_aliases": [
+    "Short-tailed Swift"
+  ],
+  "bird_id": "bird-short-tailed-swift-bd086660",
+  "raw_file": "bird-short-tailed-swift-bd086660.json",
+  "bird": {
+    "id": "bird-short-tailed-swift-bd086660",
+    "name": "Short-tailed swift",
+    "english_name": "Short-tailed swift",
+    "latin_name": "Chaetura brachyura",
+    "summary": "The short-tailed swift (Chaetura brachyura) is a bird in the Apodidae, or swift family. Taxonomy The species was first formally described a…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Chaetura_brachyura_-_Short-tailed_Swift.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-平均海拔-ddd8aa74",
+      "name": "平均海拔",
+      "summary": "平均海拔（英語：Above mean sea level，缩写：AMSL）又称为海拔高度，是指以平均海平面高度作为高程基准面起测定的地面或空中高度，对地理测量，飞行控制，电台设定，气象研究都有决定性作用。 所谓平均海平面高度实际是并不存在…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-short-tailed-swift-bd086660",
+      "subject": "Short-tailed swift",
+      "predicate": "distributed_in",
+      "object_id": "loc-平均海拔-ddd8aa74",
+      "object": "平均海拔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It rarely occurs over 800 m ASL even in the hottest parts of its range and in mountainous or hilly terrain it inhabits,Laverde-R",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-short-tailed-swift-bd086660",
+      "subject": "Short-tailed swift",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "et al. (2005) but has been recorded as high as 1,300 m ASL. It is found in a range of habitats including savanna, open woodland, and cultivation",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-short-tailed-swift-bd086660",
+      "subject": "Short-tailed swift",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

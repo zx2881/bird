@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:13:11",
+  "requested_title": "Brown-headed Gull",
+  "resolved_title": "Brown-headed gull",
+  "title_aliases": [
+    "Brown-headed Gull"
+  ],
+  "bird_id": "bird-棕头鸥-a1d82637",
+  "raw_file": "bird-棕头鸥-a1d82637.json",
+  "bird": {
+    "id": "bird-棕头鸥-a1d82637",
+    "name": "棕头鸥",
+    "english_name": "Brown-headed gull",
+    "latin_name": "Chroicocephalus brunnicephalus",
+    "summary": "棕头鸥（学名：Larus brunnicephalus）为鸥科鸥属的鸟类。在中国大陆，分布于新疆、青海、甘肃、西藏、四川、山西、河北、云南、广东等地。该物种的模式产地在印度次大陸西海岸。 参考文献",
+    "lat": "39",
+    "lng": "71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Brown-headed_Gull._in_breeding_plumage.jpg/960px-Brown-headed_Gull._in_breeding_plumage.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中亚-88133474",
+      "name": "中亚",
+      "summary": "中亚（英語：Central Asia；俄語：Средняя Азия / Центральная Азия）即亚洲中部，在地理上是指西至里海，东到中国新疆，南到阿富汗，北到俄罗斯的广大区域。而根据长期占据这片区域大部分领土的前苏联官方定义…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-塔吉克斯坦-f4554825",
+      "name": "塔吉克斯坦",
+      "summary": "塔吉克斯坦共和国（塔吉克語：Ҷумҳурии Тоҷикистон/Çumhurii Toçikiston；俄語：Республика Таджикистан），简称塔吉克斯坦，是一个位于中亚地区的内陆国，与阿富汗、烏茲別克斯坦、吉尔吉斯…",
+      "lat": "39",
+      "lng": "71"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕头鸥-a1d82637",
+      "subject": "棕头鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-中亚-88133474",
+      "object": "中亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Jerdon|Jerdon]], 1840) west coast of Indian Peninsula | synonyms = Larus brunnicephalus }} The brown-headed gull (Chroicocephalus brunnicephalus) is a small gull which breeds in the high plateaus of central Asia from Tajikistan to Ordos in Inner Mongolia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头鸥-a1d82637",
+      "subject": "棕头鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔吉克斯坦-f4554825",
+      "object": "塔吉克斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Jerdon|Jerdon]], 1840) west coast of Indian Peninsula | synonyms = Larus brunnicephalus }} The brown-headed gull (Chroicocephalus brunnicephalus) is a small gull which breeds in the high plateaus of central Asia from Tajikistan to Ordos in Inner Mongolia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头鸥-a1d82637",
+      "subject": "棕头鸥",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This gull breeds in colonies in large reedbeds or marshes, or on islands in lakes, nesting on the ground",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-棕头鸥-a1d82637",
+      "subject": "棕头鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

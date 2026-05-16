@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:07:17",
+  "requested_title": "Purple-throated Carib",
+  "resolved_title": "Purple-throated carib",
+  "title_aliases": [
+    "Purple-throated Carib"
+  ],
+  "bird_id": "bird-紫喉加利蜂鳥-233a31a8",
+  "raw_file": "bird-紫喉加利蜂鳥-233a31a8.json",
+  "bird": {
+    "id": "bird-紫喉加利蜂鳥-233a31a8",
+    "name": "紫喉加利蜂鳥",
+    "english_name": "Purple-throated carib",
+    "latin_name": "Eulampis jugularis",
+    "summary": "紫喉蜂鸟（台湾作紫喉加利蜂鳥，学名：Eulampis jugularis），是雨燕目蜂鸟科的一种鸟类。 紫喉蜂鸟体重约8.85克，翼长约71.7毫米，嘴峰长约27.5毫米，喙宽度约2.6毫米，喙厚度约2.1毫米，跗蹠长约6毫米，尾长约38.6毫米。紫喉蜂鸟在其分布区内为留鸟，其…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Purple-throated_carib_hummingbird.jpg/960px-Purple-throated_carib_hummingbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫喉加利蜂鳥-233a31a8",
+      "subject": "紫喉加利蜂鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the interior and edges of primary and secondary forest, mostly at elevations between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫喉加利蜂鳥-233a31a8",
+      "subject": "紫喉加利蜂鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the interior and edges of primary and secondary forest, mostly at elevations between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫喉加利蜂鳥-233a31a8",
+      "subject": "紫喉加利蜂鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

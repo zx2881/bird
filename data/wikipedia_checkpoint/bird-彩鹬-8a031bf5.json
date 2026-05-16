@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:16:05",
+  "requested_title": "Greater Painted-snipe",
+  "resolved_title": "Greater painted-snipe",
+  "title_aliases": [
+    "Greater Painted-snipe"
+  ],
+  "bird_id": "bird-彩鹬-8a031bf5",
+  "raw_file": "bird-彩鹬-8a031bf5.json",
+  "bird": {
+    "id": "bird-彩鹬-8a031bf5",
+    "name": "彩鹬",
+    "english_name": "Greater painted-snipe",
+    "latin_name": "Rostratula benghalensis",
+    "summary": "The greater painted-snipe (Rostratula benghalensis) is a species of wader in the small painted-snipe family Rostratulidae. It widely distri…",
+    "lat": "-4.58333333",
+    "lng": "55.66666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Greater_Painted-snipe_%28Rostratula_benghalensis%29_male%2C_Kruger_NP_%2853247730001%29.jpg/960px-Greater_Painted-snipe_%28Rostratula_benghalensis%29_male%2C_Kruger_NP_%2853247730001%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塞舌尔-ad0b587d",
+      "name": "塞舌尔",
+      "summary": "塞舌爾共和國（塞舌尔克里奥尔语：Repiblik Sesel；法語：République des Seychelles；英語：Republic of Seychelles），通稱塞席爾，是位於坦桑尼亞以東、印度洋中西部的一個群岛国家。塞舌…",
+      "lat": "-4.58333333",
+      "lng": "55.66666667"
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-彩鹬-8a031bf5",
+      "subject": "彩鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞舌尔-ad0b587d",
+      "object": "塞舌尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Greater painted-snipe are very widely distributed; in mainland Africa as well as Madagascar and the Seychelles; in India, and Southeast Asia. Within Africa, they are found in the Nile River Valley and in the non-rainforested areas of Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-彩鹬-8a031bf5",
+      "subject": "彩鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Greater painted-snipe are very widely distributed; in mainland Africa as well as Madagascar and the Seychelles; in India, and Southeast Asia. Within Africa, they are found in the Nile River Valley and in the non-rainforested areas of Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-彩鹬-8a031bf5",
+      "subject": "彩鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It widely distributed across Africa and southern Asia and is found in a variety of wetland habitats, including swamps and the edges of larger water bodies such as lakes and rivers",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-彩鹬-8a031bf5",
+      "subject": "彩鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It widely distributed across Africa and southern Asia and is found in a variety of wetland habitats, including swamps and the edges of larger water bodies such as lakes and rivers",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-彩鹬-8a031bf5",
+      "subject": "彩鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They are notably absent from the eastern portion of Somalia, from the desert areas of Namibia, and from parts of Botswana and South Africa. Despite their wide distribution, they are uncommon within their range. There are between 31,000 and 1,000,000 mature individuals alive, according to BirdLife International. Although this species inhabits a variety of wetland habitats, it prefers muddy areas with available cover (i.e., vegetation)",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-彩鹬-8a031bf5",
+      "subject": "彩鹬",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

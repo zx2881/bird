@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:00:40",
+  "requested_title": "Javan Pond Heron",
+  "resolved_title": "Javan pond heron",
+  "title_aliases": [
+    "Javan Pond Heron"
+  ],
+  "bird_id": "bird-爪哇池鷺-ba52252a",
+  "raw_file": "bird-爪哇池鷺-ba52252a.json",
+  "bird": {
+    "id": "bird-爪哇池鷺-ba52252a",
+    "name": "爪哇池鷺",
+    "english_name": "Javan pond heron",
+    "latin_name": "Ardeola speciosa",
+    "summary": "爪哇池鷺（學名：Ardeola speciosa）是一種鷺科的涉水鳥，分佈於東南亞的淡水和鹹水濕地中。牠的飲食包括昆蟲、魚和蟹。 其种加词“speciosa”意为“外表美丽的”。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Ardeola_speciosa.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-爪哇池鷺-ba52252a",
+      "subject": "爪哇池鷺",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Javan pond heron (Ardeola speciosa) is a wading bird of the heron family, found in shallow fresh and salt-water wetlands in Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-爪哇池鷺-ba52252a",
+      "subject": "爪哇池鷺",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Javan pond heron (Ardeola speciosa) is a wading bird of the heron family, found in shallow fresh and salt-water wetlands in Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-爪哇池鷺-ba52252a",
+      "subject": "爪哇池鷺",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Javan pond heron (Ardeola speciosa) is a wading bird of the heron family, found in shallow fresh and salt-water wetlands in Southeast Asia",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-爪哇池鷺-ba52252a",
+      "subject": "爪哇池鷺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

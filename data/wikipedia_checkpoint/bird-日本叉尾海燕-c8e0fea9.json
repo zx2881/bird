@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:48:05",
+  "requested_title": "Matsudaira's Storm Petrel",
+  "resolved_title": "Matsudaira's storm petrel",
+  "title_aliases": [
+    "Matsudaira's Storm Petrel"
+  ],
+  "bird_id": "bird-日本叉尾海燕-c8e0fea9",
+  "raw_file": "bird-日本叉尾海燕-c8e0fea9.json",
+  "bird": {
+    "id": "bird-日本叉尾海燕-c8e0fea9",
+    "name": "日本叉尾海燕",
+    "english_name": "Matsudaira's storm petrel",
+    "latin_name": "Hydrobates matsudairae",
+    "summary": "日本叉尾海燕（學名：Hydrobates matsudairae，台湾作煙黑叉尾海燕）是鹱形目海燕科的一种鸟类。 特征 日本叉尾海燕体重约62克，翼长约185毫米，嘴峰长约20.1毫米，喙宽度约3.4毫米，喙厚度约4.8毫米，跗蹠长约25.2毫米，尾长约91毫米。日本叉尾海燕是…",
+    "lat": "24.76666667",
+    "lng": "141.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/012016-IMG_5713_Matsudaira%27s_Storm-Petrel_%28Oceanodroma_matsudairae%29_%288005427860%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-火山列岛-日本-dcbfcc58",
+      "name": "火山列岛 (日本)",
+      "summary": "火山列岛（日語：火山列島，羅馬化：Kazan Rettō）是日本治下的一个群岛，由3个小火山岛组成，属于小笠原群岛。它位于小笠原群岛之南部，隶属东京都小笠原村。 火山列岛包含以下岛屿： 北硫磺島（日語：北硫黄島） 硫磺岛（日語：硫黄島）…",
+      "lat": "24.76666667",
+      "lng": "141.3"
+    },
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-日本叉尾海燕-c8e0fea9",
+      "subject": "日本叉尾海燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-火山列岛-日本-dcbfcc58",
+      "object": "火山列岛 (日本)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds solely in the Volcano Islands in the northwest Pacific Ocean, and winters in the Indian Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本叉尾海燕-c8e0fea9",
+      "subject": "日本叉尾海燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds solely in the Volcano Islands in the northwest Pacific Ocean, and winters in the Indian Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本叉尾海燕-c8e0fea9",
+      "subject": "日本叉尾海燕",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

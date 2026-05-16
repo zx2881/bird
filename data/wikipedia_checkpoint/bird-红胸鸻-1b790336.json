@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:08:35",
+  "requested_title": "Caspian Plover",
+  "resolved_title": "Caspian plover",
+  "title_aliases": [
+    "Caspian Plover"
+  ],
+  "bird_id": "bird-红胸鸻-1b790336",
+  "raw_file": "bird-红胸鸻-1b790336.json",
+  "bird": {
+    "id": "bird-红胸鸻-1b790336",
+    "name": "红胸鸻",
+    "english_name": "Caspian plover",
+    "latin_name": "Anarhynchus asiaticus",
+    "summary": "红胸鸻（学名：Charadrius asiaticus）为鸻形目鸻科鸻属的一种鸟类。在中国大陆，分布于新疆、内蒙古、辽宁、东部沿海、四川等地。该物种的模式产地在西伯利亚。 参考文献",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Wermutregenpfeifer_%28Charadrius_asiaticus%29_206737679.jpg/960px-Wermutregenpfeifer_%28Charadrius_asiaticus%29_206737679.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红胸鸻-1b790336",
+      "subject": "红胸鸻",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The specific asiaticus is Latin and means \"Asian\", although in binomials it usually means the type locality was India. This plover breeds in western and central Asia and migrates southward to eastern and southern Africa to escape the northern winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红胸鸻-1b790336",
+      "subject": "红胸鸻",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

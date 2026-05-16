@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:14:09",
+  "requested_title": "Little Cuckoo",
+  "resolved_title": "Little cuckoo",
+  "title_aliases": [
+    "Little Cuckoo"
+  ],
+  "bird_id": "bird-little-cuckoo-2e86b57d",
+  "raw_file": "bird-little-cuckoo-2e86b57d.json",
+  "bird": {
+    "id": "bird-little-cuckoo-2e86b57d",
+    "name": "Little cuckoo",
+    "english_name": "Little cuckoo",
+    "latin_name": "Coccycua minuta",
+    "summary": "The little cuckoo (Coccycua minuta) is a species of bird in the cuckoo family (Cuculidae) from South America and Panama. It was formerly pl…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Coccycua_minuta_Little_Cuckoo%3B_Miranda%2C_Mato_Grosso_do_Sul%2C_Brazil.jpg/960px-Coccycua_minuta_Little_Cuckoo%3B_Miranda%2C_Mato_Grosso_do_Sul%2C_Brazil.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-little-cuckoo-2e86b57d",
+      "subject": "Little cuckoo",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The little cuckoo is found in mangrove swamps, and scrubby woodland near water",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-little-cuckoo-2e86b57d",
+      "subject": "Little cuckoo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

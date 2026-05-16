@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:44:17",
+  "requested_title": "Bates's Swift",
+  "resolved_title": "Bates's swift",
+  "title_aliases": [
+    "Bates's Swift"
+  ],
+  "bird_id": "bird-bates-s-swift-677e4e19",
+  "raw_file": "bird-bates-s-swift-677e4e19.json",
+  "bird": {
+    "id": "bird-bates-s-swift-677e4e19",
+    "name": "Bates's swift",
+    "english_name": "Bates's swift",
+    "latin_name": "Apus batesi",
+    "summary": "Bates's swift (Apus batesi) is a species of small swift in the family Apodidae which is found in western Africa. Description Bates's swift…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Apus_batesi_-_Jan_Ebr_and_Ivana_Ebrov%C3%A1_-_344502522.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "name": "理查德·鮑德勒·夏普",
+      "summary": "理查德·鮑德勒·夏普（英語：Richard Bowdler Sharpe，1847年11月22日—1909年12月25日）是一位英國動物學家兼鳥類學家，於大英博物館擔任鳥類標本的策展人。在其職涯裡，夏普出版了一些有關鳥類的專著，並整理出博…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bates-s-swift-677e4e19",
+      "subject": "Bates's swift",
+      "predicate": "distributed_in",
+      "object_id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "object": "理查德·鮑德勒·夏普",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bates's swift (Apus batesi) is a species of small swift in the family Apodidae which is found in western Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bates-s-swift-677e4e19",
+      "subject": "Bates's swift",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Bates's swift is a rainforest species and is found in areas close to cliffs and crags",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-bates-s-swift-677e4e19",
+      "subject": "Bates's swift",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

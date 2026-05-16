@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:26:08",
+  "requested_title": "Puna Snipe",
+  "resolved_title": "Puna snipe",
+  "title_aliases": [
+    "Puna Snipe"
+  ],
+  "bird_id": "bird-puna-snipe-dff0a687",
+  "raw_file": "bird-puna-snipe-dff0a687.json",
+  "bird": {
+    "id": "bird-puna-snipe-dff0a687",
+    "name": "Puna snipe",
+    "english_name": "Puna snipe",
+    "latin_name": "Gallinago andina",
+    "summary": "The puna snipe (Gallinago andina) is a bird in tribe Scolopancinai and subfamily Scolopacinae of family Scolopacidae, the sandpipers and re…",
+    "lat": "41.866269",
+    "lng": "-87.616997",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gallinago_andina%2C_Huancabamba%2C_Pasco%2C_Peru_1.jpg/960px-Gallinago_andina%2C_Huancabamba%2C_Pasco%2C_Peru_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-american-ornithological-society-5fde31a2",
+      "name": "American Ornithological Society",
+      "summary": "The American Ornithological Society (AOS) is an ornithological organization based in the United States.",
+      "lat": "41.866269",
+      "lng": "-87.616997"
+    },
+    {
+      "id": "loc-安托法加斯塔大区-a5631950",
+      "name": "安托法加斯塔大区",
+      "summary": "安托法加斯塔区（西班牙語：Región de Antofagasta）是智利16个大区之一，北邻塔拉帕卡大区，南邻阿塔卡马大区。该区下设托科皮亚、洛阿和安托法加斯塔三省。 當地是1879年太平洋戰爭後由玻利維亞割讓得來的。",
+      "lat": "-23.6469",
+      "lng": "-70.3983"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-puna-snipe-dff0a687",
+      "subject": "Puna snipe",
+      "predicate": "distributed_in",
+      "object_id": "loc-american-ornithological-society-5fde31a2",
+      "object": "American Ornithological Society",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of puna snipe is found in the Andes of Peru, northern Chile, Bolivia, and northwestern Argentina. Undocumented sight records in Ecuador lead the South American Classification Committee of the American Ornithological Society to class it as hypothetical in that country.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-puna-snipe-dff0a687",
+      "subject": "Puna snipe",
+      "predicate": "distributed_in",
+      "object_id": "loc-安托法加斯塔大区-a5631950",
+      "object": "安托法加斯塔大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "innotata is found only in northern Chiles's Antofagasta Region. The puna snipe inhabits the puna grassland zone of the Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-puna-snipe-dff0a687",
+      "subject": "Puna snipe",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "innotata is found only in northern Chiles's Antofagasta Region. The puna snipe inhabits the puna grassland zone of the Andes",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-puna-snipe-dff0a687",
+      "subject": "Puna snipe",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

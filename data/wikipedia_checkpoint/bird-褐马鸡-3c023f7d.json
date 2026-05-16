@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:12:05",
+  "requested_title": "Brown Eared Pheasant",
+  "resolved_title": "Brown eared pheasant",
+  "title_aliases": [
+    "Brown Eared Pheasant"
+  ],
+  "bird_id": "bird-褐马鸡-3c023f7d",
+  "raw_file": "bird-褐马鸡-3c023f7d.json",
+  "bird": {
+    "id": "bird-褐马鸡-3c023f7d",
+    "name": "褐马鸡",
+    "english_name": "Brown eared pheasant",
+    "latin_name": "Crossoptilon mantchuricum",
+    "summary": "The brown eared pheasant (Crossoptilon mantchuricum) is a large pheasant, 83–110 cm in length. The body is dark brown overall, with the hea…",
+    "lat": "37.7",
+    "lng": "112.4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Crossoptilon_mantchuricum_-USA_-captive-8a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-山西省-f92bbb5a",
+      "name": "山西省",
+      "summary": "山西省，简称晋，中華人民共和國华北地区的一個省份，地处黄土高原之上，得名于太行山以西的地理位置，省会太原市，共辖11个地级市。山西位于黄河流域，东有太行山、西有吕梁山两大天然屏障，故被称作「表里山河」。省內土地豐足、矿产資源豐富。历史上经…",
+      "lat": "37.7",
+      "lng": "112.4"
+    },
+    {
+      "id": "loc-吕梁山-98af3876",
+      "name": "吕梁山",
+      "summary": "吕梁山是山西省境内黄土高原上的一座山脉，由北而南位處山西省西部忻州市、太原市、吕梁市、临汾市境内，是黄河与其支流汾河的分水岭，一般海拔在1000米左右，其主峰关帝山，海拔2831公尺，位於交城縣、方山縣之間。 地貌 吕梁山区多为典型的黄土…",
+      "lat": "37.8985",
+      "lng": "111.4919"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-褐马鸡-3c023f7d",
+      "subject": "褐马鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-山西省-f92bbb5a",
+      "object": "山西省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The brown eared pheasant is distributed in the Xiaowutai Mountains in northwestern Hebei, and in the northwestern Shanxi and Lüliang Mountains regions of China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐马鸡-3c023f7d",
+      "subject": "褐马鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-吕梁山-98af3876",
+      "object": "吕梁山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The brown eared pheasant is distributed in the Xiaowutai Mountains in northwestern Hebei, and in the northwestern Shanxi and Lüliang Mountains regions of China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐马鸡-3c023f7d",
+      "subject": "褐马鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

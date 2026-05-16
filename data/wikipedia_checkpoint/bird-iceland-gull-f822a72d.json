@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:24:26",
+  "requested_title": "Iceland Gull",
+  "resolved_title": "Iceland gull",
+  "title_aliases": [
+    "Iceland Gull"
+  ],
+  "bird_id": "bird-iceland-gull-f822a72d",
+  "raw_file": "bird-iceland-gull-f822a72d.json",
+  "bird": {
+    "id": "bird-iceland-gull-f822a72d",
+    "name": "Iceland gull",
+    "english_name": "Iceland gull",
+    "latin_name": "Larus glaucoides",
+    "summary": "The Iceland gull (Larus glaucoides) is a medium-sized gull that breeds in the Arctic regions of Canada and Greenland, but not in Iceland (a…",
+    "lat": "72",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Larus_glaucoides_IthacaNY.jpg/960px-Larus_glaucoides_IthacaNY.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-格陵兰-d99a3bdb",
+      "name": "格陵兰",
+      "summary": "格陵蘭島（格陵蘭語：Kalaallit Nunaat，發音：[kalaːɬːit nʉnaːt]；丹麥語：Grønland，發音：[ˈkʁɶnˌlænˀ]）是丹麥王國框架內之自治領地。格陵蘭島是世界最大島嶼，位於北美洲東北，介乎北冰洋與大…",
+      "lat": "72",
+      "lng": "-40"
+    },
+    {
+      "id": "loc-冰岛-feed6a95",
+      "name": "冰岛",
+      "summary": "冰岛（冰島語：Ísland，發音：[ˈistlant] ）是北欧的一个共和制岛国，位于北大西洋和北冰洋交汇处。冰岛国土面积为10.3万平方公里，人口为39万，儘管面積不大，卻是欧洲人口密度最低的国家，也是世界范围内人口密度很小的国家之一。…",
+      "lat": "65",
+      "lng": "-18"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-iceland-gull-f822a72d",
+      "subject": "Iceland gull",
+      "predicate": "distributed_in",
+      "object_id": "loc-格陵兰-d99a3bdb",
+      "object": "格陵兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thayeri]]|Brooks, WS, 1915 }} | range_map = Larus glaucoides map.svg | range_map_caption = Distribution }} thumb|Adult Thayer's gull in non-breeding plumage The Iceland gull (Larus glaucoides) is a medium-sized gull that breeds in the Arctic regions of Canada and Greenland, but not in Iceland (as its name suggests), where it is only seen during winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-iceland-gull-f822a72d",
+      "subject": "Iceland gull",
+      "predicate": "distributed_in",
+      "object_id": "loc-冰岛-feed6a95",
+      "object": "冰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thayeri]]|Brooks, WS, 1915 }} | range_map = Larus glaucoides map.svg | range_map_caption = Distribution }} thumb|Adult Thayer's gull in non-breeding plumage The Iceland gull (Larus glaucoides) is a medium-sized gull that breeds in the Arctic regions of Canada and Greenland, but not in Iceland (as its name suggests), where it is only seen during winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-iceland-gull-f822a72d",
+      "subject": "Iceland gull",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

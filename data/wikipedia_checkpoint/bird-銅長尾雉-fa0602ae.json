@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:08:15",
+  "requested_title": "Copper Pheasant",
+  "resolved_title": "Copper pheasant",
+  "title_aliases": [
+    "Copper Pheasant"
+  ],
+  "bird_id": "bird-銅長尾雉-fa0602ae",
+  "raw_file": "bird-銅長尾雉-fa0602ae.json",
+  "bird": {
+    "id": "bird-銅長尾雉-fa0602ae",
+    "name": "銅長尾雉",
+    "english_name": "Copper pheasant",
+    "latin_name": "Syrmaticus soemmerringii",
+    "summary": "The copper pheasant (Syrmaticus soemmerringii), also known as Soemmerring's pheasant or yamadori (ヤマドリ), is a pheasant endemic to the Japan…",
+    "lat": "36",
+    "lng": "138",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Stavenn_Syrmaticus_soemmerringii_ijimae.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-本州-d7e89749",
+      "name": "本州",
+      "summary": "本州（日語：本州／ほんしゅう，羅馬化：Honshū，）是日本本土四島之一，也是日本最大岛、以及世界第7大島，位處日本列島的中心，向北与北海道岛隔津轻海峡相望，向南与四国岛隔濑户内海相对，向西南与九州岛以关门海峡和丰后水道相隔。身為島國日本…",
+      "lat": "36",
+      "lng": "138"
+    },
+    {
+      "id": "loc-九州-日本-8b131406",
+      "name": "九州 (日本)",
+      "summary": "九州（日語：九州／きゅうしゅう，羅馬化：Kyūshū，）是位於日本西南部的島，為日本本土四島之一，也是日本的第三大島、世界第37大島，面積36,782.37平方公里（2016年10月1日統計），次於本州和北海道，比四國大。古名筑紫島（《古…",
+      "lat": "33",
+      "lng": "131"
+    },
+    {
+      "id": "loc-四國-76da4142",
+      "name": "四國",
+      "summary": "四国岛（日語：四国／しこく，羅馬化：Shikoku，發音：[ɕikokɯ] ）是日本四大本土島嶼之一，位於九州東北、本州西南方，居於日本國土的西部偏中處。全島面積18,297.78平方公里，是日本本土四島中面積最小的，在世界各島嶼面積則排…",
+      "lat": "33.75",
+      "lng": "133.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-銅長尾雉-fa0602ae",
+      "subject": "銅長尾雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-本州-d7e89749",
+      "object": "本州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The copper pheasant is distributed in and endemic to the hill and mountain forests of the Honshū, Kyūshū, and Shikoku islands at elevations of up to . It typically confines itself to deciduous forest floors with extensive vegetation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銅長尾雉-fa0602ae",
+      "subject": "銅長尾雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-九州-日本-8b131406",
+      "object": "九州 (日本)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The copper pheasant is distributed in and endemic to the hill and mountain forests of the Honshū, Kyūshū, and Shikoku islands at elevations of up to . It typically confines itself to deciduous forest floors with extensive vegetation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銅長尾雉-fa0602ae",
+      "subject": "銅長尾雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-四國-76da4142",
+      "object": "四國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The copper pheasant is distributed in and endemic to the hill and mountain forests of the Honshū, Kyūshū, and Shikoku islands at elevations of up to . It typically confines itself to deciduous forest floors with extensive vegetation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-銅長尾雉-fa0602ae",
+      "subject": "銅長尾雉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-銅長尾雉-fa0602ae",
+      "subject": "銅長尾雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its population has been in consistent decline since the 1970s due to factors including habitat destruction and predation, but the most widely cited cause is overhunting",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-銅長尾雉-fa0602ae",
+      "subject": "銅長尾雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "ijimae being listed as \"Near Threatened\" on the Japanese Red List. In 1995, an IUCN report called for the continued monitoring of the species, citing over-hunting and a lack of knowledge about the species' behaviour as a reason to study and protect them. Threats to the species include non-native predation, overhunting, and habitat destruction. Feral dogs and cats disturb nesting sites, further negatively impacting the species. However, overhunting is widely considered as the greatest threat to the species. Throughout the twentieth century half a million to 800,000 copper pheasants were killed by hunters every year",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

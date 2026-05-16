@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:09:19",
+  "requested_title": "Grey-fronted Green Pigeon",
+  "resolved_title": "Grey-fronted green pigeon",
+  "title_aliases": [
+    "Grey-fronted Green Pigeon"
+  ],
+  "bird_id": "bird-grey-fronted-green-pigeon-8658aaf6",
+  "raw_file": "bird-grey-fronted-green-pigeon-8658aaf6.json",
+  "bird": {
+    "id": "bird-grey-fronted-green-pigeon-8658aaf6",
+    "name": "Grey-fronted green pigeon",
+    "english_name": "Grey-fronted green pigeon",
+    "latin_name": "Treron affinis",
+    "summary": "The grey-fronted green pigeon (Treron affinis) is a pigeon in the genus Treron. It is found in the forests of the Western Ghats in India.",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Treron_pompadora_affinis.JPG/960px-Treron_pompadora_affinis.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-fronted-green-pigeon-8658aaf6",
+      "subject": "Grey-fronted green pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the forests of the Western Ghats in India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-fronted-green-pigeon-8658aaf6",
+      "subject": "Grey-fronted green pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

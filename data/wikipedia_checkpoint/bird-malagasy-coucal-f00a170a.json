@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:10:52",
+  "requested_title": "Malagasy Coucal",
+  "resolved_title": "Malagasy coucal",
+  "title_aliases": [
+    "Malagasy Coucal"
+  ],
+  "bird_id": "bird-malagasy-coucal-f00a170a",
+  "raw_file": "bird-malagasy-coucal-f00a170a.json",
+  "bird": {
+    "id": "bird-malagasy-coucal-f00a170a",
+    "name": "Malagasy coucal",
+    "english_name": "Malagasy coucal",
+    "latin_name": "Centropus toulou",
+    "summary": "The Malagasy coucal or Madagascar coucal (Centropus toulou) is a species of cuckoo in the family Cuculidae. It is found in Madagascar and i…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Malagasy_Coucal%2C_Ankarafantsika%2C_Madagascar.jpg/960px-Malagasy_Coucal%2C_Ankarafantsika%2C_Madagascar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    },
+    {
+      "id": "loc-塞舌尔-ad0b587d",
+      "name": "塞舌尔",
+      "summary": "塞舌爾共和國（塞舌尔克里奥尔语：Repiblik Sesel；法語：République des Seychelles；英語：Republic of Seychelles），通稱塞席爾，是位於坦桑尼亞以東、印度洋中西部的一個群岛国家。塞舌…",
+      "lat": "-4.58333333",
+      "lng": "55.66666667"
+    },
+    {
+      "id": "loc-阿尔达布拉环礁-7ad55991",
+      "name": "阿尔达布拉环礁",
+      "summary": "阿尔达布拉环礁（Aldabra Atoll），是世界第二大珊瑚环礁，印度洋上塞席爾共和國外岛中阿爾達布拉群島的一部分。由于地理位置极其孤立而无人居住，阿尔达布拉环礁几乎完全没有受到人类的破坏。有阿尔达布拉象龟等独特生物，1982年列入联合…",
+      "lat": "-9.41666667",
+      "lng": "46.35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-malagasy-coucal-f00a170a",
+      "subject": "Malagasy coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Madagascar and in the Seychelles, where it occurs on Aldabra and was formerly present on Assumption Island and Cosmoledo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malagasy-coucal-f00a170a",
+      "subject": "Malagasy coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞舌尔-ad0b587d",
+      "object": "塞舌尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Madagascar and in the Seychelles, where it occurs on Aldabra and was formerly present on Assumption Island and Cosmoledo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malagasy-coucal-f00a170a",
+      "subject": "Malagasy coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔达布拉环礁-7ad55991",
+      "object": "阿尔达布拉环礁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Madagascar and in the Seychelles, where it occurs on Aldabra and was formerly present on Assumption Island and Cosmoledo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malagasy-coucal-f00a170a",
+      "subject": "Malagasy coucal",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in a range of habitats including among undergrowth in both primary and secondary forests, woodland edges, clearings, palm groves, reedbeds, marshes, mangroves, rough grassland, paddifields and gardens at altitudes of up to . There are two subspecies, *Centropus toulou toulou: Madagascar *Centropus toulou insularis: Aldabra",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-malagasy-coucal-f00a170a",
+      "subject": "Malagasy coucal",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in a range of habitats including among undergrowth in both primary and secondary forests, woodland edges, clearings, palm groves, reedbeds, marshes, mangroves, rough grassland, paddifields and gardens at altitudes of up to . There are two subspecies, *Centropus toulou toulou: Madagascar *Centropus toulou insularis: Aldabra",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-malagasy-coucal-f00a170a",
+      "subject": "Malagasy coucal",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

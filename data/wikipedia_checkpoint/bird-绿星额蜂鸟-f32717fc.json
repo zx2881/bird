@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:14:36",
+  "requested_title": "Green Inca",
+  "resolved_title": "Green inca",
+  "title_aliases": [
+    "Green Inca"
+  ],
+  "bird_id": "bird-绿星额蜂鸟-f32717fc",
+  "raw_file": "bird-绿星额蜂鸟-f32717fc.json",
+  "bird": {
+    "id": "bird-绿星额蜂鸟-f32717fc",
+    "name": "绿星额蜂鸟",
+    "english_name": "Green inca",
+    "latin_name": "Coeligena conradii",
+    "summary": "绿星额蜂鸟（学名：Coeligena conradii）是蜂鸟科星额蜂鸟属的一种。它分布于哥伦比亚至委内瑞拉西北部特鲁希略省和梅里達一带的东安第斯山脉地区，在其分布范围内为留鸟。 分类 世界鸟类学家联合会（IOC）、Clements、世界鸟类手册（HBW）都承认锈胸星额蜂鸟是独…",
+    "lat": "9.417",
+    "lng": "-70.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Coeligena_torquata_conradii_%2825872651432%29.jpg/960px-Coeligena_torquata_conradii_%2825872651432%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-特鲁希略州-0375b35b",
+      "name": "特鲁希略州",
+      "summary": "特魯希略州（西班牙語：Estado Trujillo）是委內瑞拉西部的一個州，西北臨馬拉開波湖。面積7,400平方公里，2007年人口711,400人。首府特魯希略。 1899年建州。下分二十個自治市。",
+      "lat": "9.417",
+      "lng": "-70.5"
+    },
+    {
+      "id": "loc-塔奇拉州-f10a6506",
+      "name": "塔奇拉州",
+      "summary": "Táchira State (Spanish: Estado Táchira, IPA: [esˈtaðo ˈtatʃiɾa]) is one of the 23 states of Venezuela.",
+      "lat": "7.94",
+      "lng": "-72.12"
+    },
+    {
+      "id": "loc-北桑坦德省-ca34fa4d",
+      "name": "北桑坦德省",
+      "summary": "北桑坦德省（Norte de Santander）是哥倫比亞东北部的省份，面积为21648平方千米，2018年人口为1,391,366，省會库库塔。 参考来源",
+      "lat": "7.9",
+      "lng": "-72.5"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-绿星额蜂鸟-f32717fc",
+      "subject": "绿星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-特鲁希略州-0375b35b",
+      "object": "特鲁希略州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green inca is found in the Andes of northwestern Venezuela between the states of Trujillo and Táchira and in northern Colombia's Norte de Santander Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿星额蜂鸟-f32717fc",
+      "subject": "绿星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔奇拉州-f10a6506",
+      "object": "塔奇拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green inca is found in the Andes of northwestern Venezuela between the states of Trujillo and Táchira and in northern Colombia's Norte de Santander Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿星额蜂鸟-f32717fc",
+      "subject": "绿星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-北桑坦德省-ca34fa4d",
+      "object": "北桑坦德省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green inca is found in the Andes of northwestern Venezuela between the states of Trujillo and Táchira and in northern Colombia's Norte de Santander Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿星额蜂鸟-f32717fc",
+      "subject": "绿星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the interior and edges of humid montane cloudforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿星额蜂鸟-f32717fc",
+      "subject": "绿星额蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

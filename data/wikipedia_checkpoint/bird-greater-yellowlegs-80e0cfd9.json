@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:30:06",
+  "requested_title": "Greater Yellowlegs",
+  "resolved_title": "Greater yellowlegs",
+  "title_aliases": [
+    "Greater Yellowlegs"
+  ],
+  "bird_id": "bird-greater-yellowlegs-80e0cfd9",
+  "raw_file": "bird-greater-yellowlegs-80e0cfd9.json",
+  "bird": {
+    "id": "bird-greater-yellowlegs-80e0cfd9",
+    "name": "Greater yellowlegs",
+    "english_name": "Greater yellowlegs",
+    "latin_name": "Tringa melanoleuca",
+    "summary": "The greater yellowlegs (Tringa melanoleuca) is a large shorebird in the family Scolopacidae. It breeds in central Canada and southern Alask…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Greater_yellowlegs_%28Tringa_melanoleuca%29_foraging_at_Huntley_Meadows%2C_Alexandria%2C_Virginia%2C_USA.png/960px-Greater_yellowlegs_%28Tringa_melanoleuca%29_foraging_at_Huntley_Meadows%2C_Alexandria%2C_Virginia%2C_USA.png"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-greater-yellowlegs-80e0cfd9",
+      "subject": "Greater yellowlegs",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in central Canada and southern Alaska and winters in southern North America, Central America, the West Indies and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-greater-yellowlegs-80e0cfd9",
+      "subject": "Greater yellowlegs",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Their breeding habitat is bogs and marshes in the boreal forest region of Canada and Alaska",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-greater-yellowlegs-80e0cfd9",
+      "subject": "Greater yellowlegs",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

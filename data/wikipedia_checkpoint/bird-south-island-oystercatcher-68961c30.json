@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:57:15",
+  "requested_title": "South Island Oystercatcher",
+  "resolved_title": "South Island oystercatcher",
+  "title_aliases": [
+    "South Island Oystercatcher"
+  ],
+  "bird_id": "bird-south-island-oystercatcher-68961c30",
+  "raw_file": "bird-south-island-oystercatcher-68961c30.json",
+  "bird": {
+    "id": "bird-south-island-oystercatcher-68961c30",
+    "name": "South Island oystercatcher",
+    "english_name": "South Island oystercatcher",
+    "latin_name": "Haematopus finschi",
+    "summary": "The South Island oystercatcher or South Island pied oystercatcher (Haematopus finschi) is one of two common oystercatcher species found in…",
+    "lat": "-42",
+    "lng": "173",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Haematopus_finschi_-_Point_Chevalier.jpg/960px-Haematopus_finschi_-_Point_Chevalier.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新西兰-f3c9507e",
+      "name": "新西兰",
+      "summary": "新西兰（英語：New Zealand）又称奥特亚罗瓦（毛利語：Aotearoa，直译：「长白云之乡」），位於太平洋西南部的主權島國，是英联邦新西蘭王國的主體部分，首都為惠灵顿，最大的城市為奧克蘭。紐西蘭主要由兩大島嶼組成：北島（Te Ik…",
+      "lat": "-42",
+      "lng": "173"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-south-island-oystercatcher-68961c30",
+      "subject": "South Island oystercatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-新西兰-f3c9507e",
+      "object": "新西兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The South Island oystercatcher or South Island pied oystercatcher (Haematopus finschi) is one of two common oystercatcher species found in New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-south-island-oystercatcher-68961c30",
+      "subject": "South Island oystercatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-intertidal-mudflat",
+      "object": "潮间带泥滩",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Non-breeding habitat includes coastal estuaries, bays, beaches, sand flats, and intertidal mudflats",
+      "object_summary": "迁飞水鸟高度依赖的滨海泥滩和浅滩系统。"
+    },
+    {
+      "subject_id": "bird-south-island-oystercatcher-68961c30",
+      "subject": "South Island oystercatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-coastal-wetland",
+      "object": "海岸湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Non-breeding habitat includes coastal estuaries, bays, beaches, sand flats, and intertidal mudflats",
+      "object_summary": "海湾、泻湖、盐沼与河口组成的复合湿地。"
+    },
+    {
+      "subject_id": "bird-south-island-oystercatcher-68961c30",
+      "subject": "South Island oystercatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-estuary",
+      "object": "河口",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Non-breeding habitat includes coastal estuaries, bays, beaches, sand flats, and intertidal mudflats",
+      "object_summary": "淡水与海水交汇形成的高生产力边缘生态系统。"
+    },
+    {
+      "subject_id": "bird-south-island-oystercatcher-68961c30",
+      "subject": "South Island oystercatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Non-breeding habitat includes coastal estuaries, bays, beaches, sand flats, and intertidal mudflats",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-south-island-oystercatcher-68961c30",
+      "subject": "South Island oystercatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-south-island-oystercatcher-68961c30",
+      "subject": "South Island oystercatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population of this species declined, mainly because of hunting, during the late 19th century and early 20th century but, with legal protection since 1940, has since been increasing",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

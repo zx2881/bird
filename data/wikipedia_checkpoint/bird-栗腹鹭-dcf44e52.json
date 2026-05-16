@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:49:16",
+  "requested_title": "Agami Heron",
+  "resolved_title": "Agami heron",
+  "title_aliases": [
+    "Agami Heron"
+  ],
+  "bird_id": "bird-栗腹鹭-dcf44e52",
+  "raw_file": "bird-栗腹鹭-dcf44e52.json",
+  "bird": {
+    "id": "bird-栗腹鹭-dcf44e52",
+    "name": "栗腹鹭",
+    "english_name": "Agami heron",
+    "latin_name": "Agamia agami",
+    "summary": "栗腹鹭（學名：Agamia agami），是鹈形目鹭科栗腹鹭属（Agamia）下唯一一種鳥類。這個物種分佈於中南美洲的墨西哥南部的热带地区至玻利维亚北部和巴西西部的亚马逊地区之間的森林中。目前其物種狀態被評為近危。 這個物種由德國博物學家约翰·弗里德里希·格梅林於1789年《自…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Agami_Heron_%28Agamia_agami%29.jpg/960px-Agami_Heron_%28Agamia_agami%29.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-栗腹鹭-dcf44e52",
+      "subject": "栗腹鹭",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The agami heron's habitat encompasses swamp forests, mangroves, forest streams and freshwater wetlands",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-栗腹鹭-dcf44e52",
+      "subject": "栗腹鹭",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The agami heron's habitat encompasses swamp forests, mangroves, forest streams and freshwater wetlands",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-栗腹鹭-dcf44e52",
+      "subject": "栗腹鹭",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-栗腹鹭-dcf44e52",
+      "subject": "栗腹鹭",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In Brazil it is sometimes called Soco beija-flor, meaning 'hummingbird heron', thanks to its unique coloration pattern. The agami heron is listed as Near Threatened by the IUCN, due to predictions of future habitat destruction within its range",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

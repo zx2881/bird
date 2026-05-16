@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:49:10",
+  "requested_title": "Beach Stone-curlew",
+  "resolved_title": "Beach stone-curlew",
+  "title_aliases": [
+    "Beach Stone-curlew"
+  ],
+  "bird_id": "bird-澳洲石鸻-a1c5c787",
+  "raw_file": "bird-澳洲石鸻-a1c5c787.json",
+  "bird": {
+    "id": "bird-澳洲石鸻-a1c5c787",
+    "name": "澳洲石鸻",
+    "english_name": "Beach stone-curlew",
+    "latin_name": "Esacus magnirostris",
+    "summary": "澳洲石鸻（学名：Esacus magnirostris）一种分布于澳大利亚及东南亚沿海地带的大型鸟类，隶属于石鸻科大石鸻属。 澳洲石鸻高55 cm（22英寸），重1公斤（2.2磅），是世界上最大的滨鸟之一。雄性平均体重为1,032 g（2.275磅），雌性1,000 g（2.2…",
+    "lat": "-28.10888889",
+    "lng": "146.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Beach_Stone-Curlew_%28Esacus_magnirostris%29%2C_Long_Reef%2C_New_South_Wales%2C_Australia.jpg/960px-Beach_Stone-Curlew_%28Esacus_magnirostris%29%2C_Long_Reef%2C_New_South_Wales%2C_Australia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大拉西亞-3d7bd98e",
+      "name": "澳大拉西亞",
+      "summary": "澳大拉西亚（英語：Australasia）一般指大洋洲的一个地区，包含了澳大利亚、新西兰和邻近的太平洋岛屿。 澳大拉西亚一詞是由法国學者布羅塞於1756年出版的《到南方陸地航行的歷史》（Histoire des navigations a…",
+      "lat": "-28.10888889",
+      "lng": "146.3"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-澳洲石鸻-a1c5c787",
+      "subject": "澳洲石鸻",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大拉西亞-3d7bd98e",
+      "object": "澳大拉西亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "recurvirostris]] range|outline=gray}} }} The beach stone-curlew (Esacus magnirostris) also known as beach thick-knee is a large, ground-dwelling bird that occurs in Australasia, the islands of South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-澳洲石鸻-a1c5c787",
+      "subject": "澳洲石鸻",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "recurvirostris]] range|outline=gray}} }} The beach stone-curlew (Esacus magnirostris) also known as beach thick-knee is a large, ground-dwelling bird that occurs in Australasia, the islands of South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-澳洲石鸻-a1c5c787",
+      "subject": "澳洲石鸻",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

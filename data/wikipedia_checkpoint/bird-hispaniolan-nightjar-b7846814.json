@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:16:15",
+  "requested_title": "Hispaniolan Nightjar",
+  "resolved_title": "Hispaniolan nightjar",
+  "title_aliases": [
+    "Hispaniolan Nightjar"
+  ],
+  "bird_id": "bird-hispaniolan-nightjar-b7846814",
+  "raw_file": "bird-hispaniolan-nightjar-b7846814.json",
+  "bird": {
+    "id": "bird-hispaniolan-nightjar-b7846814",
+    "name": "Hispaniolan nightjar",
+    "english_name": "Hispaniolan nightjar",
+    "latin_name": "Antrostomus ekmani",
+    "summary": "The Hispaniolan nightjar (Antrostomus ekmani) is a nightjar species endemic to the Caribbean island of Hispaniola, which is shared by the D…",
+    "lat": "19",
+    "lng": "-70.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Antrostomus_ekmani_-_Esteban_Pelaez_-_390241090.jpeg/960px-Antrostomus_ekmani_-_Esteban_Pelaez_-_390241090.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-hispaniolan-moist-forests-f45c8144",
+      "name": "Hispaniolan moist forests",
+      "summary": "The Hispaniolan moist forests are a tropical moist broadleaf forest ecoregion on the island of Hispaniola.",
+      "lat": "19",
+      "lng": "-70.7"
+    },
+    {
+      "id": "loc-hispaniolan-dry-forests-a6589008",
+      "name": "Hispaniolan dry forests",
+      "summary": "The Hispaniolan dry forests are a tropical dry broadleaf forest ecoregion on the island of Hispaniola (split between th…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-hispaniolan-pine-forests-509c829e",
+      "name": "Hispaniolan pine forests",
+      "summary": "The Hispaniolan pine forests are a subtropical coniferous forest ecoregion found on the Caribbean island of Hispaniola,…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hispaniolan-nightjar-b7846814",
+      "subject": "Hispaniolan nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-moist-forests-f45c8144",
+      "object": "Hispaniolan moist forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mostly inhabits broadleaf forests at middle elevations, as well as low elevation thorn scrub and higher elevation pine forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hispaniolan-nightjar-b7846814",
+      "subject": "Hispaniolan nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-dry-forests-a6589008",
+      "object": "Hispaniolan dry forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mostly inhabits broadleaf forests at middle elevations, as well as low elevation thorn scrub and higher elevation pine forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hispaniolan-nightjar-b7846814",
+      "subject": "Hispaniolan nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-pine-forests-509c829e",
+      "object": "Hispaniolan pine forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mostly inhabits broadleaf forests at middle elevations, as well as low elevation thorn scrub and higher elevation pine forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hispaniolan-nightjar-b7846814",
+      "subject": "Hispaniolan nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-hispaniolan-nightjar-b7846814",
+      "subject": "Hispaniolan nightjar",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Though its population is unknown, it is believed to be stable, and no immediate threats have been identified. However, \"destruction of habitat undoubtably would affect this species, and introduced predators also are a potential threat.\"",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

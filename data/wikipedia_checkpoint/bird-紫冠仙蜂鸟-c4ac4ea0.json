@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:05:06",
+  "requested_title": "Purple-crowned Fairy",
+  "resolved_title": "Purple-crowned fairy",
+  "title_aliases": [
+    "Purple-crowned Fairy"
+  ],
+  "bird_id": "bird-紫冠仙蜂鸟-c4ac4ea0",
+  "raw_file": "bird-紫冠仙蜂鸟-c4ac4ea0.json",
+  "bird": {
+    "id": "bird-紫冠仙蜂鸟-c4ac4ea0",
+    "name": "紫冠仙蜂鸟",
+    "english_name": "Purple-crowned fairy",
+    "latin_name": "Heliothryx barroti",
+    "summary": "紫冠仙蜂鸟（学名：Heliothryx barroti）是雨燕目蜂鸟科的一种鸟类。 紫冠仙蜂鸟体重约5.5克，翼长约63.8毫米，嘴峰长约21.9毫米，喙宽度约2.2毫米，喙厚度约2.2毫米，跗蹠长约4.5毫米，尾长约57毫米。紫冠仙蜂鸟在其分布区内为留鸟，其栖息在密集的高大树…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Heliothryx_barroti_on_nest.jpg/960px-Heliothryx_barroti_on_nest.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫冠仙蜂鸟-c4ac4ea0",
+      "subject": "紫冠仙蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the canopy and edges of humid lowland forest, shady plantations, and mature secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫冠仙蜂鸟-c4ac4ea0",
+      "subject": "紫冠仙蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

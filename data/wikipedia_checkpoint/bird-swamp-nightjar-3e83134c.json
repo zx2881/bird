@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:25:07",
+  "requested_title": "Swamp Nightjar",
+  "resolved_title": "Swamp nightjar",
+  "title_aliases": [
+    "Swamp Nightjar"
+  ],
+  "bird_id": "bird-swamp-nightjar-3e83134c",
+  "raw_file": "bird-swamp-nightjar-3e83134c.json",
+  "bird": {
+    "id": "bird-swamp-nightjar-3e83134c",
+    "name": "Swamp nightjar",
+    "english_name": "Swamp nightjar",
+    "latin_name": "Caprimulgus natalensis",
+    "summary": "The swamp nightjar or Natal nightjar (Caprimulgus natalensis) is a crepuscular and nocturnal bird in the nightjar family found in Africa. D…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CaprimulgusAccraeGronvold.jpg/960px-CaprimulgusAccraeGronvold.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "name": "Andrew Smith (zoologist)",
+      "summary": "Sir Andrew Smith (3 December 1797 – 11 August 1872) was a British surgeon, explorer, ethnologist and zoologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-swamp-nightjar-3e83134c",
+      "subject": "Swamp nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "object": "Andrew Smith (zoologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The swamp nightjar or Natal nightjar (Caprimulgus natalensis) is a crepuscular and nocturnal bird in the nightjar family found in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-swamp-nightjar-3e83134c",
+      "subject": "Swamp nightjar",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The swamp nightjar or Natal nightjar (Caprimulgus natalensis) is a crepuscular and nocturnal bird in the nightjar family found in Africa",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-swamp-nightjar-3e83134c",
+      "subject": "Swamp nightjar",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The swamp nightjar can be found in swamps, marshes and bogs, but also in forest edges",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-swamp-nightjar-3e83134c",
+      "subject": "Swamp nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

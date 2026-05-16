@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:18:12",
+  "requested_title": "White-naped Pigeon",
+  "resolved_title": "White-naped pigeon",
+  "title_aliases": [
+    "White-naped Pigeon"
+  ],
+  "bird_id": "bird-白枕鸽-c7f2353b",
+  "raw_file": "bird-白枕鸽-c7f2353b.json",
+  "bird": {
+    "id": "bird-白枕鸽-c7f2353b",
+    "name": "白枕鸽",
+    "english_name": "White-naped pigeon",
+    "latin_name": "Columba albinucha",
+    "summary": "白枕鸽（学名：Columba albinucha）为一种鸽形目鸠鸽科鸽属的鸟类。因鸟的后颈为白色而得名。通常分布于刚果民主共和国东部、乌干达西部、卢旺达和布隆迪。 特征 成年白枕鸽应长约34厘米，体重约280至290克。雄鸟的后颈为白色，雌鸟为灰色。喙底部为黑色，尖端为红黄色，…",
+    "lat": "8.66666667",
+    "lng": "22.41666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Columba_albinucha_-_Robin_Fjellstr%C3%B6m_-_632570348.jpeg/960px-Columba_albinucha_-_Robin_Fjellstr%C3%B6m_-_632570348.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴門達高原-7edb036b",
+      "name": "巴門達高原",
+      "summary": "巴門達高原是非洲中西部國家喀麥隆的高原，受赤道多雨氣候影響，每年平均降雨量1,000至2,000毫米，是薩納加河主要支流的發源地。",
+      "lat": "6.5",
+      "lng": "10.5"
+    },
+    {
+      "id": "loc-阿達馬瓦高原-d689f2cc",
+      "name": "阿達馬瓦高原",
+      "summary": "阿達馬瓦高原（Adamawa Plateau）是非洲中西部的一片高原，範圍橫跨喀麥隆、尼日利亞及中非共和國，平均海拔1,000米，最高海拔2,650米，為貝努埃河之發源地。 阿達馬瓦高原以火成岩為主，有不少火山口和小湖泊。該處出產錫礦和鋁…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-邦戈山-cb273a25",
+      "name": "邦戈山",
+      "summary": "邦戈山（法語：massif des Bongo）是中部非洲國家中非共和國東北部的山脈，毗鄰與蘇丹接壤的邊境，是基爾河的發源地，也是尼羅河和剛果河的分水嶺，該山脈最高點海拔高度1,368米。",
+      "lat": "8.66666667",
+      "lng": "22.41666667"
+    },
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白枕鸽-c7f2353b",
+      "subject": "白枕鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴門達高原-7edb036b",
+      "object": "巴門達高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, the Adamawa and Bongo massifs and the Albertine Rift montane forests on the other",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白枕鸽-c7f2353b",
+      "subject": "白枕鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿達馬瓦高原-d689f2cc",
+      "object": "阿達馬瓦高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, the Adamawa and Bongo massifs and the Albertine Rift montane forests on the other",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白枕鸽-c7f2353b",
+      "subject": "白枕鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-邦戈山-cb273a25",
+      "object": "邦戈山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, the Adamawa and Bongo massifs and the Albertine Rift montane forests on the other",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白枕鸽-c7f2353b",
+      "subject": "白枕鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, the Adamawa and Bongo massifs and the Albertine Rift montane forests on the other",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白枕鸽-c7f2353b",
+      "subject": "白枕鸽",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-白枕鸽-c7f2353b",
+      "subject": "白枕鸽",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

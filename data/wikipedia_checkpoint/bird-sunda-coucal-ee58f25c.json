@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:34:10",
+  "requested_title": "Sunda Coucal",
+  "resolved_title": "Sunda coucal",
+  "title_aliases": [
+    "Sunda Coucal"
+  ],
+  "bird_id": "bird-sunda-coucal-ee58f25c",
+  "raw_file": "bird-sunda-coucal-ee58f25c.json",
+  "bird": {
+    "id": "bird-sunda-coucal-ee58f25c",
+    "name": "Sunda coucal",
+    "english_name": "Sunda coucal",
+    "latin_name": "Centropus nigrorufus",
+    "summary": "The Sunda coucal (Centropus nigrorufus), also known as the Javanese lathe, is a cuckoo species in the family Cuculidae that is endemic to J…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Centropus_nigrorufus_at_mangrove_surabaya.jpg/960px-Centropus_nigrorufus_at_mangrove_surabaya.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-淡水沼澤森林-6a15d7ce",
+      "name": "淡水沼澤森林",
+      "summary": "淡水沼澤森林（Freshwater swamp forests），又稱為洪溢林（flooded forests），為常年或季節性被淡水淹沒的森林，通常發生於河川下游或是淡水湖附近。淡水沼澤森林在不同的氣候地區均能發現，包括北方生態系、溫帶…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sunda-coucal-ee58f25c",
+      "subject": "Sunda coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-淡水沼澤森林-6a15d7ce",
+      "object": "淡水沼澤森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits mangroves, freshwater swamp forests and grasslands near brackish water",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sunda-coucal-ee58f25c",
+      "subject": "Sunda coucal",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits mangroves, freshwater swamp forests and grasslands near brackish water",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-sunda-coucal-ee58f25c",
+      "subject": "Sunda coucal",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits mangroves, freshwater swamp forests and grasslands near brackish water",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-sunda-coucal-ee58f25c",
+      "subject": "Sunda coucal",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-sunda-coucal-ee58f25c",
+      "subject": "Sunda coucal",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It has been listed as Vulnerable on the IUCN Red List since 1994, as the small population is threatened by habitat destruction and trapping. It feeds on grasshoppers, ground beetles, moths, geckos, snakes and frogs; it was also observed while picking rice seeds in a paddy field.{{cite journal |author=Budi, N.S",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-sunda-coucal-ee58f25c",
+      "subject": "Sunda coucal",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It has been listed as Vulnerable on the IUCN Red List since 1994, as the small population is threatened by habitat destruction and trapping. It feeds on grasshoppers, ground beetles, moths, geckos, snakes and frogs; it was also observed while picking rice seeds in a paddy field.{{cite journal |author=Budi, N.S",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

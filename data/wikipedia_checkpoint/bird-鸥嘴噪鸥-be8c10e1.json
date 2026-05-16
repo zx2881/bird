@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:02:17",
+  "requested_title": "Gull-billed Tern",
+  "resolved_title": "Gull-billed tern",
+  "title_aliases": [
+    "Gull-billed Tern"
+  ],
+  "bird_id": "bird-鸥嘴噪鸥-be8c10e1",
+  "raw_file": "bird-鸥嘴噪鸥-be8c10e1.json",
+  "bird": {
+    "id": "bird-鸥嘴噪鸥-be8c10e1",
+    "name": "鸥嘴噪鸥",
+    "english_name": "Gull-billed tern",
+    "latin_name": "Gelochelidon nilotica",
+    "summary": "鸥嘴噪鸥（學名：Gelochelidon nilotica，台湾作鷗嘴燕鷗）为鸥科噪鸥属的鸟类。這種燕鷗分布廣泛，在歐洲、亞洲、西北非和美洲的零星地區繁殖。澳洲鷗嘴燕鷗之前被視為其一個亞種。该物种的模式产地在埃及。 分類 鷗嘴燕鷗於1789年由德國博物學家約翰·弗里德里希·格梅…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Gelochelidon_nilotica_vanrossemi.jpg/960px-Gelochelidon_nilotica_vanrossemi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鸥嘴噪鸥-be8c10e1",
+      "subject": "鸥嘴噪鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in warmer parts of the world in southern Europe, temperate and eastern Asia, both coasts of North America, eastern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鸥嘴噪鸥-be8c10e1",
+      "subject": "鸥嘴噪鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in warmer parts of the world in southern Europe, temperate and eastern Asia, both coasts of North America, eastern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鸥嘴噪鸥-be8c10e1",
+      "subject": "鸥嘴噪鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

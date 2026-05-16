@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:01:35",
+  "requested_title": "Slender-billed Prion",
+  "resolved_title": "Slender-billed prion",
+  "title_aliases": [
+    "Slender-billed Prion"
+  ],
+  "bird_id": "bird-slender-billed-prion-fe76615b",
+  "raw_file": "bird-slender-billed-prion-fe76615b.json",
+  "bird": {
+    "id": "bird-slender-billed-prion-fe76615b",
+    "name": "Slender-billed prion",
+    "english_name": "Slender-billed prion",
+    "latin_name": "Pachyptila belcheri",
+    "summary": "The slender-billed prion (Pachyptila belcheri) or thin-billed prion, is a species of petrel, a seabird in the family Procellariidae. It is…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Slender-billed_Prion_Close.jpg/960px-Slender-billed_Prion_Close.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-洋-962067f7",
+      "name": "洋",
+      "summary": "The ocean is the body of salt water that covers approximately 70.8% of Earth.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-slender-billed-prion-fe76615b",
+      "subject": "Slender-billed prion",
+      "predicate": "distributed_in",
+      "object_id": "loc-洋-962067f7",
+      "object": "洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the southern oceans",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slender-billed-prion-fe76615b",
+      "subject": "Slender-billed prion",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

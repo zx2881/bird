@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:09:06",
+  "requested_title": "Lady Amherst's Pheasant",
+  "resolved_title": "Lady Amherst's pheasant",
+  "title_aliases": [
+    "Lady Amherst's Pheasant"
+  ],
+  "bird_id": "bird-白腹锦鸡-bad0b28c",
+  "raw_file": "bird-白腹锦鸡-bad0b28c.json",
+  "bird": {
+    "id": "bird-白腹锦鸡-bad0b28c",
+    "name": "白腹锦鸡",
+    "english_name": "Lady Amherst's pheasant",
+    "latin_name": "Chrysolophus amherstiae",
+    "summary": "白腹锦鸡（学名：Chrysolophus amherstiae），俗稱笋鸡、衾鸡、铜鸡、宽宽鸡、花箐鸡（雄）、麻箐鸡（雌），是一類中等体形的鳥类，计入尾羽雄性体长可达1.2－1.4米，本物种雄雌异形异色，外貌變化較大。 拉丁學名 屬名來自古希臘語khrusolophos，“金色…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Chrysolophus_amherstiae_18092009.jpg/960px-Chrysolophus_amherstiae_18092009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白腹锦鸡-bad0b28c",
+      "subject": "白腹锦鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is native to southwestern China and far northern Myanmar, but has been introduced elsewhere",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腹锦鸡-bad0b28c",
+      "subject": "白腹锦鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is native to southwestern China and far northern Myanmar, but has been introduced elsewhere",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腹锦鸡-bad0b28c",
+      "subject": "白腹锦鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:22:19",
+  "requested_title": "Golden Nightjar",
+  "resolved_title": "Golden nightjar",
+  "title_aliases": [
+    "Golden Nightjar"
+  ],
+  "bird_id": "bird-golden-nightjar-37b144b7",
+  "raw_file": "bird-golden-nightjar-37b144b7.json",
+  "bird": {
+    "id": "bird-golden-nightjar-37b144b7",
+    "name": "Golden nightjar",
+    "english_name": "Golden nightjar",
+    "latin_name": "Caprimulgus eximius",
+    "summary": "The golden nightjar (Caprimulgus eximius) is a species of nightjar in the family Caprimulgidae. It is found in Sahel region in northern Sub…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/CaprimulgusEximusKeulemans.jpg/960px-CaprimulgusEximusKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-nightjar-37b144b7",
+      "subject": "Golden nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sahel region in northern Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-nightjar-37b144b7",
+      "subject": "Golden nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

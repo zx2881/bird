@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:05:11",
+  "requested_title": "White-tufted Grebe",
+  "resolved_title": "White-tufted grebe",
+  "title_aliases": [
+    "White-tufted Grebe"
+  ],
+  "bird_id": "bird-白簇鸊鷉-97cc9126",
+  "raw_file": "bird-白簇鸊鷉-97cc9126.json",
+  "bird": {
+    "id": "bird-白簇鸊鷉-97cc9126",
+    "name": "白簇鸊鷉",
+    "english_name": "White-tufted grebe",
+    "latin_name": "Rollandia rolland",
+    "summary": "白簇鸊鷉（学名：Rollandia rolland）为鸊鷉科南美鸊鷉屬的的鸟类, 分布于南美洲 。 参考文献 外部連結",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/White-tufted_grebe_%28Rollandia_rolland%29.jpg/960px-White-tufted_grebe_%28Rollandia_rolland%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白簇鸊鷉-97cc9126",
+      "subject": "白簇鸊鷉",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Found in the southern and western South America, its natural habitat is freshwater lakes, ponds and sluggish rivers and streams",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白簇鸊鷉-97cc9126",
+      "subject": "白簇鸊鷉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-白簇鸊鷉-97cc9126",
+      "subject": "白簇鸊鷉",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "morrisoni) has a small population that has significantly declined and it is considered threatened, largely for the same reasons as in the Junin grebe (Podiceps taczanowskii).{{cite journal| last=Dinesen | first=L",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

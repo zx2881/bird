@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:56:18",
+  "requested_title": "Dwarf Fruit Dove",
+  "resolved_title": "Dwarf fruit dove",
+  "title_aliases": [
+    "Dwarf Fruit Dove"
+  ],
+  "bird_id": "bird-dwarf-fruit-dove-286d1ff4",
+  "raw_file": "bird-dwarf-fruit-dove-286d1ff4.json",
+  "bird": {
+    "id": "bird-dwarf-fruit-dove-286d1ff4",
+    "name": "Dwarf fruit dove",
+    "english_name": "Dwarf fruit dove",
+    "latin_name": "Ptilinopus nainus",
+    "summary": "The dwarf fruit dove (Ptilinopus nainus) is a species of bird in the family Columbidae. It is found in lowland and foothill forest in New G…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Dwarf_Fruit_Dove._Ptilinopus_nainus_%2848694013797%29_%28cropped%29.jpg/960px-Dwarf_Fruit_Dove._Ptilinopus_nainus_%2848694013797%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-拉賈安帕特群島-b291ee07",
+      "name": "拉賈安帕特群島",
+      "summary": "拉賈安帕特群島，又稱四王群島 (Raja Ampat)，是印度尼西亞的群島，位於西巴布亞省多貝拉伊半島對開海域，由超過1,500個小型島嶼、珊瑚礁和淺灘組成，環繞米蘇爾島、薩拉瓦蒂島、巴丹塔島和衛吉島四個主要島嶼和科菲奥岛，群島範圍陸地和…",
+      "lat": "-0.2333115",
+      "lng": "130.5078908"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dwarf-fruit-dove-286d1ff4",
+      "subject": "Dwarf fruit dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in lowland and foothill forest in New Guinea and the Raja Ampat Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dwarf-fruit-dove-286d1ff4",
+      "subject": "Dwarf fruit dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-拉賈安帕特群島-b291ee07",
+      "object": "拉賈安帕特群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in lowland and foothill forest in New Guinea and the Raja Ampat Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dwarf-fruit-dove-286d1ff4",
+      "subject": "Dwarf fruit dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

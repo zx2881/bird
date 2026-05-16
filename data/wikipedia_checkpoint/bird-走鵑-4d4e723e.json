@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:24:13",
+  "requested_title": "Greater Roadrunner",
+  "resolved_title": "Greater roadrunner",
+  "title_aliases": [
+    "Greater Roadrunner"
+  ],
+  "bird_id": "bird-走鵑-4d4e723e",
+  "raw_file": "bird-走鵑-4d4e723e.json",
+  "bird": {
+    "id": "bird-走鵑-4d4e723e",
+    "name": "走鵑",
+    "english_name": "Greater roadrunner",
+    "latin_name": "Geococcyx californianus",
+    "summary": "走鵑（學名：Geococcyx californianus），英文名稱「road runner」字意為在路上賽跑者。亦稱灌叢雞（chaparralcock），是鵑形目杜鵑科的地棲性鳥類。是北美最大的杜鹃鸟。 特徵 走鵑為兩種地棲杜鵑的統稱，尤指美國西南部和墨西哥荒漠區的加州走鵑…",
+    "lat": "37",
+    "lng": "-111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Greater_Roadrunner_Tingley_Beach.jpg/960px-Greater_Roadrunner_Tingley_Beach.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-美國西南部-f5b57e7d",
+      "name": "美國西南部",
+      "summary": "美國西南部（英語：Southwestern United States、American Southwest或The Southwest）是美國西部的一個區域，比北部溫暖，但比東部乾燥。西南地区的人口分布比鄰近區域較為稀疏（以至于其城市也…",
+      "lat": "37",
+      "lng": "-111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-走鵑-4d4e723e",
+      "subject": "走鵑",
+      "predicate": "distributed_in",
+      "object_id": "loc-美國西南部-f5b57e7d",
+      "object": "美國西南部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The greater roadrunner is found in the Aridoamerica ecoregion, within the Southwestern United States and northern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-走鵑-4d4e723e",
+      "subject": "走鵑",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

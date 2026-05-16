@@ -44,7 +44,7 @@ DEFAULT_CHECKPOINT_DIR = DEFAULT_DATA_DIR / "wikipedia_checkpoint"
 BUILD_SCRIPT = ROOT / "scripts" / "build_knowledge_json.py"
 CHECKPOINT_VERSION = 1
 
-BIRDS_HEADERS = ["id", "name", "english_name", "latin_name", "summary", "lat", "lng", "image_url"]
+BIRDS_HEADERS = ["id", "name", "english_name", "latin_name", "summary", "lat", "lng", "image_url", "order", "family", "order_cn", "family_cn"]
 LOCATIONS_HEADERS = ["id", "name", "summary", "lat", "lng"]
 RELATIONS_HEADERS = [
     "subject_id",
@@ -863,7 +863,7 @@ def collect_threat_relations(subject_row: Dict[str, str], sections: Dict[str, st
             if not THREAT_SENTENCE_RE.search(evidence):
                 continue
             for object_id, object_name, object_summary in infer_threats(evidence):
-                key = (object_id, evidence)
+                key = object_id
                 if key in seen:
                     continue
                 seen.add(key)
@@ -1113,29 +1113,33 @@ def main() -> None:
             continue
 
         print(f"[crawl] {title}")
-        bird_row, location_rows, relations, raw_payload = crawl_one_title(crawler, title)
-        raw_path = save_raw_payload(raw_dir, bird_row["id"], raw_payload)
-        checkpoint_payload = build_checkpoint_payload(title, bird_row, location_rows, relations, raw_path)
-        save_checkpoint(checkpoint_dir, bird_row["id"], checkpoint_payload)
+        try:
+            bird_row, location_rows, relations, raw_payload = crawl_one_title(crawler, title)
+            raw_path = save_raw_payload(raw_dir, bird_row["id"], raw_payload)
+            checkpoint_payload = build_checkpoint_payload(title, bird_row, location_rows, relations, raw_path)
+            save_checkpoint(checkpoint_dir, bird_row["id"], checkpoint_payload)
 
-        birds_rows, birds_changed = upsert_rows(birds_rows, [bird_row], key_fields=["id"], overwrite=args.overwrite)
-        locations_rows, locations_changed = upsert_rows(
-            locations_rows,
-            location_rows,
-            key_fields=["id"],
-            overwrite=args.overwrite,
-        )
-        relations_rows, relations_changed = upsert_rows(
-            relations_rows,
-            relations,
-            key_fields=["subject_id", "predicate", "object_id"],
-            overwrite=args.overwrite,
-        )
-        if birds_changed or locations_changed or relations_changed:
-            persist_tables(birds_path, locations_path, relations_path, birds_rows, locations_rows, relations_rows)
+            birds_rows, birds_changed = upsert_rows(birds_rows, [bird_row], key_fields=["id"], overwrite=args.overwrite)
+            locations_rows, locations_changed = upsert_rows(
+                locations_rows,
+                location_rows,
+                key_fields=["id"],
+                overwrite=args.overwrite,
+            )
+            relations_rows, relations_changed = upsert_rows(
+                relations_rows,
+                relations,
+                key_fields=["subject_id", "predicate", "object_id"],
+                overwrite=args.overwrite,
+            )
+            if birds_changed or locations_changed or relations_changed:
+                persist_tables(birds_path, locations_path, relations_path, birds_rows, locations_rows, relations_rows)
 
-        completed_title_keys.update(normalize_title_key(item) for item in merge_title_aliases([title, bird_row["english_name"]]))
-        crawled_count += 1
+            completed_title_keys.update(normalize_title_key(item) for item in merge_title_aliases([title, bird_row["english_name"]]))
+            crawled_count += 1
+        except Exception as exc:
+            print(f"[error] {title}: {exc}", file=sys.stderr)
+            continue
 
     print(f"本次新增抓取标题数: {crawled_count}")
     print(f"本次自动跳过标题数: {skipped_count}")

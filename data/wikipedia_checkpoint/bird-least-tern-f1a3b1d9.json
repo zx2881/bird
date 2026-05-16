@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:01:16",
+  "requested_title": "Least Tern",
+  "resolved_title": "Least tern",
+  "title_aliases": [
+    "Least Tern"
+  ],
+  "bird_id": "bird-least-tern-f1a3b1d9",
+  "raw_file": "bird-least-tern-f1a3b1d9.json",
+  "bird": {
+    "id": "bird-least-tern-f1a3b1d9",
+    "name": "Least tern",
+    "english_name": "Least tern",
+    "latin_name": "Sternula antillarum",
+    "summary": "The least tern (Sternula antillarum) is a species of tern that breeds in North America and locally in northern South America. It is closely…",
+    "lat": "14.52555556",
+    "lng": "-75.81833333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Least_Tern_%28Sternula_antillarum%29_RWD1.jpg/960px-Least_Tern_%28Sternula_antillarum%29_RWD1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-least-tern-f1a3b1d9",
+      "subject": "Least tern",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The least tern (Sternula antillarum) is a species of tern that breeds in North America and locally in northern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-least-tern-f1a3b1d9",
+      "subject": "Least tern",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The least tern (Sternula antillarum) is a species of tern that breeds in North America and locally in northern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-least-tern-f1a3b1d9",
+      "subject": "Least tern",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in Central America, the Caribbean and northern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-least-tern-f1a3b1d9",
+      "subject": "Least tern",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in Central America, the Caribbean and northern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-least-tern-f1a3b1d9",
+      "subject": "Least tern",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:45:06",
+  "requested_title": "European Storm Petrel",
+  "resolved_title": "European storm petrel",
+  "title_aliases": [
+    "European Storm Petrel"
+  ],
+  "bird_id": "bird-欧洲风暴海燕-a4bec3ac",
+  "raw_file": "bird-欧洲风暴海燕-a4bec3ac.json",
+  "bird": {
+    "id": "bird-欧洲风暴海燕-a4bec3ac",
+    "name": "欧洲风暴海燕",
+    "english_name": "European storm petrel",
+    "latin_name": "Hydrobates pelagicus",
+    "summary": "欧洲风暴海燕是海燕属的一种海鸟，是一种小型鸟类，身长 14-18 厘米，翼展 36-39 厘米。它重 20-38 克，平均重 28 克。方尾，除了延伸到尾基两侧的雪白臀部和翅膀下有一条宽阔的白色带外，羽毛是全黑的。幼鸟上翅有一条狭窄的白色条。羽毛在磨损时变成深棕色。没有性别之间…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/European_storm_petrel_%28Hydrobates_pelagicus%29_Sagres.jpg/960px-European_storm_petrel_%28Hydrobates_pelagicus%29_Sagres.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海鳥-4f6bf339",
+      "name": "海鳥",
+      "summary": "海鳥是一種能夠適應海洋氣候環境的鳥類，而無論於生活習慣、生理運行等皆與其他鳥類大有不同。其有著強烈的趨同演化，因此所有海鳥的生態職位均十分類似。而海鳥最初出現於白堊紀之時，距今有近億年，但是與現代海鳥之關係並不大。若果論及現代海鳥之遠祖，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-欧洲风暴海燕-a4bec3ac",
+      "subject": "欧洲风暴海燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-海鳥-4f6bf339",
+      "object": "海鳥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pelagicus(Full range extends intothe South Atlantic Ocean) }} thumb|Composite from The Crossley ID Guide The European storm petrel (Hydrobates pelagicus), also known as British storm petrel, or just storm petrel, is a species of seabird in the northern storm petrel family, Hydrobatidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-欧洲风暴海燕-a4bec3ac",
+      "subject": "欧洲风暴海燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-欧洲风暴海燕-a4bec3ac",
+      "subject": "欧洲风暴海燕",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The perceived decline may be due increased predation from gulls, skuas and introduced mammals. Eradication of rats protects seabird colonies and may enable recolonisation of islands cleared of rodents. Predation of cave-nesting petrels in the Balearics by yellow-legged gulls is restricted to relatively few individual gulls specialising in this prey item; this means the problems can be controlled by selective culling and the provision of plastic nest boxes. Because it feeds in flight, the storm petrel is less affected by oil pollution than other seabirds, and may be able to use its good sense of smell to avoid slicks, although a large spill near a breeding colony could have serious consequences",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    }
+  ]
+}

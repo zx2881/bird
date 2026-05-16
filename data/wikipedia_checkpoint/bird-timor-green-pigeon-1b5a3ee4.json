@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:11:12",
+  "requested_title": "Timor Green Pigeon",
+  "resolved_title": "Timor green pigeon",
+  "title_aliases": [
+    "Timor Green Pigeon"
+  ],
+  "bird_id": "bird-timor-green-pigeon-1b5a3ee4",
+  "raw_file": "bird-timor-green-pigeon-1b5a3ee4.json",
+  "bird": {
+    "id": "bird-timor-green-pigeon-1b5a3ee4",
+    "name": "Timor green pigeon",
+    "english_name": "Timor green pigeon",
+    "latin_name": "Treron psittaceus",
+    "summary": "The Timor green pigeon (Treron psittaceus) is a species of bird in the family Columbidae. It is found on the islands of Rote and Timor.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Treron_psittaceus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-季風雨林-c886b2c7",
+      "name": "季風雨林",
+      "summary": "季节性雨林简称季雨林（英語：seasonal forest），是介于熱帶雨林（常绿阔叶林）和热带旱生林（落叶阔叶林）之间的混交林，因為位於季風氣候區，有短暫的乾季，許多的树种具有落葉的特性，但没有落叶阔叶林明显。因陽光可照射到地面，底層灌…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-timor-green-pigeon-1b5a3ee4",
+      "subject": "Timor green pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits primary forest, monsoon forest, and secondary forest with tall trees in lowlands, occurring up to altitudes of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-timor-green-pigeon-1b5a3ee4",
+      "subject": "Timor green pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-季風雨林-c886b2c7",
+      "object": "季風雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits primary forest, monsoon forest, and secondary forest with tall trees in lowlands, occurring up to altitudes of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-timor-green-pigeon-1b5a3ee4",
+      "subject": "Timor green pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits primary forest, monsoon forest, and secondary forest with tall trees in lowlands, occurring up to altitudes of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-timor-green-pigeon-1b5a3ee4",
+      "subject": "Timor green pigeon",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-timor-green-pigeon-1b5a3ee4",
+      "subject": "Timor green pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

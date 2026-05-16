@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:53:12",
+  "requested_title": "Grey-headed Dove",
+  "resolved_title": "Grey-headed dove",
+  "title_aliases": [
+    "Grey-headed Dove"
+  ],
+  "bird_id": "bird-grey-headed-dove-f100a072",
+  "raw_file": "bird-grey-headed-dove-f100a072.json",
+  "bird": {
+    "id": "bird-grey-headed-dove-f100a072",
+    "name": "Grey-headed dove",
+    "english_name": "Grey-headed dove",
+    "latin_name": "Leptotila plumbeiceps",
+    "summary": "The grey-headed dove (Leptotila plumbeiceps) is a large New World dove. It is found from eastern Mexico to Colombia.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Leptotila_plumbeiceps_247140604.jpg/960px-Leptotila_plumbeiceps_247140604.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-headed-dove-f100a072",
+      "subject": "Grey-headed dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "notia is found on the Caribbean slope of western Panama. The grey-headed dove inhabits the interior and edges of humid forest, both primary and secondary",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-headed-dove-f100a072",
+      "subject": "Grey-headed dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

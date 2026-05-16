@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:31:08",
+  "requested_title": "Whyte's Francolin",
+  "resolved_title": "Whyte's francolin",
+  "title_aliases": [
+    "Whyte's Francolin"
+  ],
+  "bird_id": "bird-whyte-s-francolin-5811165e",
+  "raw_file": "bird-whyte-s-francolin-5811165e.json",
+  "bird": {
+    "id": "bird-whyte-s-francolin-5811165e",
+    "name": "Whyte's francolin",
+    "english_name": "Whyte's francolin",
+    "latin_name": "Scleroptila whytei",
+    "summary": "Whyte's francolin (Scleroptila whytei) is a species of bird in the family Phasianidae. It is found in grassy woodlands and grasslands in De…",
+    "lat": "-3",
+    "lng": "24",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    },
+    {
+      "id": "loc-马拉维-83b8e25a",
+      "name": "马拉维",
+      "summary": "马拉维共和国（英語：Republic of Malawi；齊切瓦語：Dziko la Malaŵi），通稱馬拉威（齊切瓦語：Malaŵi；英語：Malawi），是一個位於非洲東南部的內陸國家，鄰接贊比亞、莫桑比克及坦桑尼亞。國土位於南緯9…",
+      "lat": "-13.5",
+      "lng": "34"
+    },
+    {
+      "id": "loc-赞比亚-5eceb6be",
+      "name": "赞比亚",
+      "summary": "赞比亚共和国（英語：Republic of Zambia），也稱尚比亞（英語：Zambia），是非洲東南部的一個內陸國家。与刚果民主共和国、坦桑尼亚、马拉维、莫桑比克、津巴布韦、博茨瓦纳、纳米比亚和安哥拉相邻。首都是卢萨卡。 历史 二千年…",
+      "lat": "-15",
+      "lng": "30"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-whyte-s-francolin-5811165e",
+      "subject": "Whyte's francolin",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in grassy woodlands and grasslands in Democratic Republic of the Congo, Malawi, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-whyte-s-francolin-5811165e",
+      "subject": "Whyte's francolin",
+      "predicate": "distributed_in",
+      "object_id": "loc-马拉维-83b8e25a",
+      "object": "马拉维",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in grassy woodlands and grasslands in Democratic Republic of the Congo, Malawi, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-whyte-s-francolin-5811165e",
+      "subject": "Whyte's francolin",
+      "predicate": "distributed_in",
+      "object_id": "loc-赞比亚-5eceb6be",
+      "object": "赞比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in grassy woodlands and grasslands in Democratic Republic of the Congo, Malawi, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-whyte-s-francolin-5811165e",
+      "subject": "Whyte's francolin",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in grassy woodlands and grasslands in Democratic Republic of the Congo, Malawi, and Zambia",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-whyte-s-francolin-5811165e",
+      "subject": "Whyte's francolin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

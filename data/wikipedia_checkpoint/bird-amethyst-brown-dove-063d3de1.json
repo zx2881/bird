@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:16:19",
+  "requested_title": "Amethyst Brown Dove",
+  "resolved_title": "Amethyst brown dove",
+  "title_aliases": [
+    "Amethyst Brown Dove"
+  ],
+  "bird_id": "bird-amethyst-brown-dove-063d3de1",
+  "raw_file": "bird-amethyst-brown-dove-063d3de1.json",
+  "bird": {
+    "id": "bird-amethyst-brown-dove-063d3de1",
+    "name": "Amethyst brown dove",
+    "english_name": "Amethyst brown dove",
+    "latin_name": "Phapitreron amethystinus",
+    "summary": "The amethyst brown dove (Phapitreron amethystinus) is a species of bird in the family Columbidae. It is endemic to the Philippines, it is f…",
+    "lat": "10",
+    "lng": "123",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Amethyst_Brown-dove.png"
+  },
+  "locations": [
+    {
+      "id": "loc-内格罗斯岛-67aa2048",
+      "name": "内格罗斯岛",
+      "summary": "Negros (English: , UK: , Tagalog: [ˈnegɾos]) is the fourth largest and third most populous island in the Philippines, w…",
+      "lat": "10",
+      "lng": "123"
+    },
+    {
+      "id": "loc-班乃岛-193265a7",
+      "name": "班乃岛",
+      "summary": "班乃岛（Panay），是菲律宾中部米沙鄢群岛西部的一个岛屿，位于民都洛岛东南，内格罗斯岛西北。 面积12011平方公里，人口3,973,877人（2007年）。气候炎热多雨；山地、丘陵相间，中部有较大的滨海平原。",
+      "lat": "11.15",
+      "lng": "122.48333333"
+    },
+    {
+      "id": "loc-宿霧省-2c76132a",
+      "name": "宿霧省",
+      "summary": "宿霧省（英語：Cebu）是菲律賓的島嶼省份，位於中米沙鄢政域。首府是宿霧市。宿霧省是狹長的島嶼，南北距約225公里（140英里），被167個鄰近的小嶼包圍，包括麥丹島、班塔顏島（Bantayan）、Daanbantayan、馬拉帕斯加島（…",
+      "lat": "10.32",
+      "lng": "123.75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-amethyst-brown-dove-063d3de1",
+      "subject": "Amethyst brown dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-内格罗斯岛-67aa2048",
+      "object": "内格罗斯岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in tropical moist lowland forest and tropical moist montane Forest to 2,500 meters above sea level (2,000 m on Negros and Panay and unknown in Cebu)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-amethyst-brown-dove-063d3de1",
+      "subject": "Amethyst brown dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-班乃岛-193265a7",
+      "object": "班乃岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in tropical moist lowland forest and tropical moist montane Forest to 2,500 meters above sea level (2,000 m on Negros and Panay and unknown in Cebu)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-amethyst-brown-dove-063d3de1",
+      "subject": "Amethyst brown dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-宿霧省-2c76132a",
+      "object": "宿霧省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in tropical moist lowland forest and tropical moist montane Forest to 2,500 meters above sea level (2,000 m on Negros and Panay and unknown in Cebu)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-amethyst-brown-dove-063d3de1",
+      "subject": "Amethyst brown dove",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in tropical moist lowland forest and tropical moist montane Forest to 2,500 meters above sea level (2,000 m on Negros and Panay and unknown in Cebu)",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-amethyst-brown-dove-063d3de1",
+      "subject": "Amethyst brown dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

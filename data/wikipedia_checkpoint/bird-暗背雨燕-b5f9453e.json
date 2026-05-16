@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:44:11",
+  "requested_title": "Dark-rumped Swift",
+  "resolved_title": "Dark-rumped swift",
+  "title_aliases": [
+    "Dark-rumped Swift"
+  ],
+  "bird_id": "bird-暗背雨燕-b5f9453e",
+  "raw_file": "bird-暗背雨燕-b5f9453e.json",
+  "bird": {
+    "id": "bird-暗背雨燕-b5f9453e",
+    "name": "暗背雨燕",
+    "english_name": "Dark-rumped swift",
+    "latin_name": "Apus acuticauda",
+    "summary": "暗背雨燕（台湾作暗腰雨燕）（学名：Apus acuticauda），是雨燕目雨燕科的一种鸟类。 特征 暗背雨燕体重约39.4克，翼长约174毫米，嘴峰长约13毫米，喙宽度约3.1毫米，喙厚度约3毫米，跗蹠长约15.2毫米，尾长约71毫米。暗背雨燕是候鸟，其栖息在密集的高大树木组…",
+    "lat": "27.417",
+    "lng": "90.435",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Dark-rumped_Swift_%28Apus_acuticauda%29.jpg/960px-Dark-rumped_Swift_%28Apus_acuticauda%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-不丹-8d635775",
+      "name": "不丹",
+      "summary": "不丹王国（宗喀語：འབྲུག་ཡུལ་，威利：druk yul），通称不丹，清朝史籍稱布魯克巴（藏語：འབྲུག་པ，威利转写：'brug pa，“不丹人”之意），是位于中国和印度之间、喜马拉雅山脉东段南坡上的一个君主立宪制内陆国家，西接…",
+      "lat": "27.417",
+      "lng": "90.435"
+    },
+    {
+      "id": "loc-印度东北部-8b6d1917",
+      "name": "印度东北部",
+      "summary": "印度东北部是指印度最东部的区域，包括互相毗邻的七个邦和锡金邦，其中阿魯那恰爾邦與中國有領土爭議（中國稱為藏南地區）。該地區與幾個鄰國共享5,182公里（3,220英里，約佔其總地理邊界的99%）的國際邊界，北部1,395公里（867英里）…",
+      "lat": "26",
+      "lng": "91"
+    },
+    {
+      "id": "loc-泰国-6e4d220d",
+      "name": "泰国",
+      "summary": "泰王国（泰語：ราชอาณาจักรไทย，皇家轉寫：Ratcha-anachak Thai），通稱泰国（泰語：ประเทศไทย，皇家轉寫：Prathet Thai），舊称暹罗（泰語：สยาม，皇家轉寫：Sayam），是东南亚的君主立宪…",
+      "lat": "15",
+      "lng": "101"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-暗背雨燕-b5f9453e",
+      "subject": "暗背雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-不丹-8d635775",
+      "object": "不丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bhutan and Northeast India and is a vagrant to Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗背雨燕-b5f9453e",
+      "subject": "暗背雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度东北部-8b6d1917",
+      "object": "印度东北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bhutan and Northeast India and is a vagrant to Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗背雨燕-b5f9453e",
+      "subject": "暗背雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰国-6e4d220d",
+      "object": "泰国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bhutan and Northeast India and is a vagrant to Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗背雨燕-b5f9453e",
+      "subject": "暗背雨燕",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-暗背雨燕-b5f9453e",
+      "subject": "暗背雨燕",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

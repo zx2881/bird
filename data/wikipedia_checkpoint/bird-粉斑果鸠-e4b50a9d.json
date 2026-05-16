@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:48:13",
+  "requested_title": "Pink-spotted Fruit Dove",
+  "resolved_title": "Pink-spotted fruit dove",
+  "title_aliases": [
+    "Pink-spotted Fruit Dove"
+  ],
+  "bird_id": "bird-粉斑果鸠-e4b50a9d",
+  "raw_file": "bird-粉斑果鸠-e4b50a9d.json",
+  "bird": {
+    "id": "bird-粉斑果鸠-e4b50a9d",
+    "name": "粉斑果鸠",
+    "english_name": "Pink-spotted fruit dove",
+    "latin_name": "Ptilinopus perlatus",
+    "summary": "The pink-spotted fruit dove (Ptilinopus perlatus) is a species of bird in the family Columbidae. It is found in forest and woodland in lowl…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ptilinopus_perlatus_-Jurong_Bird_Park-8a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-粉斑果鸠-e4b50a9d",
+      "subject": "粉斑果鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in forest and woodland in lowland and foothills of New Guinea and nearby smaller islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-粉斑果鸠-e4b50a9d",
+      "subject": "粉斑果鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

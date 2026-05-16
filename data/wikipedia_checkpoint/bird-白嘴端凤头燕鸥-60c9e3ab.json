@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:03:51",
+  "requested_title": "Sandwich Tern",
+  "resolved_title": "Sandwich tern",
+  "title_aliases": [
+    "Sandwich Tern"
+  ],
+  "bird_id": "bird-白嘴端凤头燕鸥-60c9e3ab",
+  "raw_file": "bird-白嘴端凤头燕鸥-60c9e3ab.json",
+  "bird": {
+    "id": "bird-白嘴端凤头燕鸥-60c9e3ab",
+    "name": "白嘴端凤头燕鸥",
+    "english_name": "Sandwich tern",
+    "latin_name": "Thalasseus sandvicensis",
+    "summary": "白嘴端凤头燕鸥（学名：Thalasseus sandvicensis）是鸥科凤头燕鸥属的一种鸟类，舊称白嘴端燕鸥。该种与小凤头燕鸥、中华凤头燕鸥、小白嘴端凤头燕鸥(T. acuflavidus)、丽色凤头燕鸥(T.",
+    "lat": "42",
+    "lng": "50.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/2021-07-10_Thalasseus_sandvicensis%2C_St_Marys_Island%2C_Northumberland_01.jpg/960px-2021-07-10_Thalasseus_sandvicensis%2C_St_Marys_Island%2C_Northumberland_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-裏海-2f4d2244",
+      "name": "裏海",
+      "summary": "The Caspian Sea is the world's largest inland body of water, described as the world's largest lake and usually referred…",
+      "lat": "42",
+      "lng": "50.5"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-斯里蘭卡-b7d5c4b5",
+      "name": "斯里蘭卡",
+      "summary": "斯里兰卡民主社会主义共和国（僧伽羅語：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；坦米爾語：இலங்கை சனநாயக சோஷலிசக் குடியரசு；英語：Democratic Social…",
+      "lat": "7",
+      "lng": "81"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白嘴端凤头燕鸥-60c9e3ab",
+      "subject": "白嘴端凤头燕鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-裏海-2f4d2244",
+      "object": "裏海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Palearctic from Europe to the Caspian Sea, and winters in the Mediterranean and on the coasts of Africa, India, and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白嘴端凤头燕鸥-60c9e3ab",
+      "subject": "白嘴端凤头燕鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Palearctic from Europe to the Caspian Sea, and winters in the Mediterranean and on the coasts of Africa, India, and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白嘴端凤头燕鸥-60c9e3ab",
+      "subject": "白嘴端凤头燕鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯里蘭卡-b7d5c4b5",
+      "object": "斯里蘭卡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Palearctic from Europe to the Caspian Sea, and winters in the Mediterranean and on the coasts of Africa, India, and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白嘴端凤头燕鸥-60c9e3ab",
+      "subject": "白嘴端凤头燕鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

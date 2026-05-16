@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:54:19",
+  "requested_title": "West Peruvian Dove",
+  "resolved_title": "West Peruvian dove",
+  "title_aliases": [
+    "West Peruvian Dove"
+  ],
+  "bird_id": "bird-west-peruvian-dove-70daf622",
+  "raw_file": "bird-west-peruvian-dove-70daf622.json",
+  "bird": {
+    "id": "bird-west-peruvian-dove-70daf622",
+    "name": "West Peruvian dove",
+    "english_name": "West Peruvian dove",
+    "latin_name": "Zenaida meloda",
+    "summary": "The West Peruvian dove or Pacific dove (Zenaida meloda), known locally as tórtola melódica or cuculí, is a species of dove in the genus Zen…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Zenaida_meloda_-Lima%2C_Peru-8.jpg/960px-Zenaida_meloda_-Lima%2C_Peru-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-城市公园-d10f973d",
+      "name": "城市公园",
+      "summary": "城市公园，或稱都市公園，是位于城市市区或近郊，具有良好的绿化环境和一定的休闲娱乐设施的活动场所。城市公园有助于提高城市生活质量，还在促进生物多樣性、减少空气污染和调节城市温度方面发挥着作用。著名的城市公园有纽约的中央公園、巴黎的卢森堡公园…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-west-peruvian-dove-70daf622",
+      "subject": "West Peruvian dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-城市公园-d10f973d",
+      "object": "城市公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is also readily found in human-altered habitats such as croplands, irrigated valleys, city parks and gardens, and urban areas. thumb|A West Peruvian dove resting on a wooden rail in a garden, in Elqui River|Valle del Elqui, northern Chile. It is well-suited to colonizing new areas, and West Peruvian doves have been expanding their range further southwards since the 1990s, with records in northwest Argentina suggesting they can successfully cross the Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-west-peruvian-dove-70daf622",
+      "subject": "West Peruvian dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

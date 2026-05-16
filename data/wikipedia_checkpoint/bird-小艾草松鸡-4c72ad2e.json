@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:57:18",
+  "requested_title": "Gunnison Grouse",
+  "resolved_title": "Gunnison sage-grouse",
+  "title_aliases": [
+    "Gunnison Grouse",
+    "Gunnison sage-grouse"
+  ],
+  "bird_id": "bird-小艾草松鸡-4c72ad2e",
+  "raw_file": "bird-小艾草松鸡-4c72ad2e.json",
+  "bird": {
+    "id": "bird-小艾草松鸡-4c72ad2e",
+    "name": "小艾草松鸡",
+    "english_name": "Gunnison sage-grouse",
+    "latin_name": "Centrocercus minimus",
+    "summary": "小艾草松鸡（台湾作小艾草榛雞）（学名：Centrocercus minimus），是鸡形目雉科的一种鸟类。 特征 小艾草松鸡体重约1902.46克，翼长约285毫米，嘴峰长约28.8毫米，喙宽度约9.4毫米，喙厚度约12.7毫米，跗蹠长约53.8毫米，尾长约286毫米。小艾草松…",
+    "lat": "35",
+    "lng": "-112",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Gunnison_Sage_Grouse_%2847460635881%29_%28cropped%29.jpg/960px-Gunnison_Sage_Grouse_%2847460635881%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-亞利桑那州-20ba70c8",
+      "name": "亞利桑那州",
+      "summary": "亞利桑那州（英語：Arizona，/ɛərɪˈzoʊnə, ærɪ-/）是美國一個位於西南部的州份，同時也是西部和山區州份之一。此州是美國面積第6大及人口第14大的州份。首府和最大城市是鳳凰城。亞利桑那州也是四角落州之一，與新墨西哥州、猶…",
+      "lat": "35",
+      "lng": "-112"
+    },
+    {
+      "id": "loc-新墨西哥州-394bcab4",
+      "name": "新墨西哥州",
+      "summary": "新墨西哥州（納瓦霍語：Yootó Hahoodzo；英語：New Mexico；西班牙語：Nuevo México），簡稱新墨州，是美國西南方的一州，它曾是墨西哥的一省。德克薩斯共和國獨立後曾被該國宣稱主權，不過後來都變成美國的一部分，加…",
+      "lat": "34",
+      "lng": "-106"
+    },
+    {
+      "id": "loc-奧克拉荷馬州-049d15ae",
+      "name": "奧克拉荷馬州",
+      "summary": "奧克拉荷馬州（英語：Oklahoma；切羅基語：ᎣᎦᎳᎰᎹ；波尼語：Uukuhuúwa；卡尤加語：Gahnawiyoˀgeh）是美國的州份，縮寫為OK，有時也簡稱為「Okla」，是美國原住民人口最多的一州。州名「Oklahoma」一詞是由…",
+      "lat": "35",
+      "lng": "-98"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小艾草松鸡-4c72ad2e",
+      "subject": "小艾草松鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞利桑那州-20ba70c8",
+      "object": "亞利桑那州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was once found in Arizona, New Mexico, and Oklahoma, but is now extirpated in those states",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小艾草松鸡-4c72ad2e",
+      "subject": "小艾草松鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-新墨西哥州-394bcab4",
+      "object": "新墨西哥州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was once found in Arizona, New Mexico, and Oklahoma, but is now extirpated in those states",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小艾草松鸡-4c72ad2e",
+      "subject": "小艾草松鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-奧克拉荷馬州-049d15ae",
+      "object": "奧克拉荷馬州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was once found in Arizona, New Mexico, and Oklahoma, but is now extirpated in those states",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小艾草松鸡-4c72ad2e",
+      "subject": "小艾草松鸡",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

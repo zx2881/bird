@@ -284,26 +284,45 @@ class BirdReportAPI:
 
 
 def load_knowledge_json(filepath: str) -> tuple:
-    """加载knowledge.json"""
+    """加载鸟类数据（优先 CSV，兼容 knowledge.json）"""
+    import csv as csv_module
     birds = []
-    
-    with open(filepath, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    
-    nodes = data.get("nodes", [])
-    for node in nodes:
-        if node.get("type") == "bird":
-            bird = BirdInfo(
-                id=node.get("id", ""),
-                name=node.get("name", ""),
-                english_name=node.get("englishName", ""),
-                latin_name=node.get("latinName", ""),
-                lat=node.get("lat"),
-                lng=node.get("lng"),
-            )
-            birds.append(bird)
-    
-    return birds, data
+    data = None
+    is_csv = filepath.lower().endswith('.csv')
+
+    if is_csv and os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8-sig", newline="") as f:
+            reader = csv_module.DictReader(f)
+            for row in reader:
+                lat_val = row.get('lat', '').strip()
+                lng_val = row.get('lng', '').strip()
+                birds.append(BirdInfo(
+                    id=row.get("id", "").strip(),
+                    name=row.get("name", "").strip(),
+                    english_name=row.get("english_name", "").strip(),
+                    latin_name=row.get("latin_name", "").strip(),
+                    lat=float(lat_val) if lat_val else None,
+                    lng=float(lng_val) if lng_val else None,
+                ))
+        return birds, filepath
+
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        nodes = data.get("nodes", [])
+        for node in nodes:
+            if node.get("type") == "bird":
+                birds.append(BirdInfo(
+                    id=node.get("id", ""),
+                    name=node.get("name", ""),
+                    english_name=node.get("englishName", ""),
+                    latin_name=node.get("latinName", ""),
+                    lat=node.get("lat"),
+                    lng=node.get("lng"),
+                ))
+        return birds, data
+
+    return birds, None
 
 
 def fetch_coords(api: BirdReportAPI, bird: BirdInfo, debug: bool = False) -> tuple:
@@ -345,9 +364,9 @@ def main():
         description="从中国观鸟记录中心获取鸟类坐标",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
-    parser.add_argument("-i", "--input", default="public/knowledge.json",
-                      help="输入文件路径")
-    parser.add_argument("-o", "--output", 
+    parser.add_argument("-i", "--input", default="data/birds.csv",
+                      help="输入文件路径 (默认: data/birds.csv，也支持 public/knowledge.json)")
+    parser.add_argument("-o", "--output",
                       help="输出文件路径 (默认覆盖原文件)")
     parser.add_argument("-t", "--token", required=True,
                       help="API认证Token (必需)")
@@ -377,6 +396,7 @@ def main():
     print(f"[INFO] 加载文件: {input_path}")
     birds, original_data = load_knowledge_json(input_path)
     print(f"[INFO] 找到 {len(birds)} 个鸟类节点")
+    is_csv = input_path.lower().endswith('.csv')
     
     # 需要更新的
     need_update = [b for b in birds if b.lat is None or b.lng is None]
@@ -420,16 +440,35 @@ def main():
     
     # 保存
     if not args.dry_run and updated > 0:
-        for bird in birds:
-            for node in original_data.get("nodes", []):
-                if node.get("id") == bird.id:
-                    node["lat"] = bird.lat
-                    node["lng"] = bird.lng
-                    break
-        
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(original_data, f, ensure_ascii=False, indent=2)
-        
+        if is_csv:
+            import csv as csv_module
+            updated_map = {b.id: (b.lat, b.lng) for b in birds if b.lat is not None and b.lng is not None}
+            with open(input_path, 'r', encoding='utf-8-sig', newline='') as f:
+                reader = csv_module.DictReader(f)
+                fieldnames = reader.fieldnames
+                rows = list(reader)
+            for row in rows:
+                bid = row.get('id', '').strip()
+                if bid in updated_map:
+                    lat, lng = updated_map[bid]
+                    row['lat'] = str(lat)
+                    row['lng'] = str(lng)
+            temp_path = input_path + '.tmp'
+            with open(temp_path, 'w', encoding='utf-8-sig', newline='') as f:
+                writer = csv_module.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(rows)
+            os.replace(temp_path, input_path)
+        else:
+            for bird in birds:
+                for node in original_data.get("nodes", []):
+                    if node.get("id") == bird.id:
+                        node["lat"] = bird.lat
+                        node["lng"] = bird.lng
+                        break
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(original_data, f, ensure_ascii=False, indent=2)
+
         print(f"[INFO] 已保存到: {output_path}")
     else:
         print("[INFO] 模拟运行，未写入文件")

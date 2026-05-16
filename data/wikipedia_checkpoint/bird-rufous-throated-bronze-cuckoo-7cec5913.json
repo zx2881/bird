@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:26:10",
+  "requested_title": "Rufous-throated Bronze Cuckoo",
+  "resolved_title": "Rufous-throated bronze cuckoo",
+  "title_aliases": [
+    "Rufous-throated Bronze Cuckoo"
+  ],
+  "bird_id": "bird-rufous-throated-bronze-cuckoo-7cec5913",
+  "raw_file": "bird-rufous-throated-bronze-cuckoo-7cec5913.json",
+  "bird": {
+    "id": "bird-rufous-throated-bronze-cuckoo-7cec5913",
+    "name": "Rufous-throated bronze cuckoo",
+    "english_name": "Rufous-throated bronze cuckoo",
+    "latin_name": "Chalcites ruficollis",
+    "summary": "The rufous-throated bronze cuckoo (Chalcites ruficollis) is a species of cuckoo in the family Cuculidae. It was formerly placed in the genu…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Rufous-throated_Bronze_Cuckoo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-throated-bronze-cuckoo-7cec5913",
+      "subject": "Rufous-throated bronze cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the highlands of New Guinea where its natural habitat is tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-throated-bronze-cuckoo-7cec5913",
+      "subject": "Rufous-throated bronze cuckoo",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the highlands of New Guinea where its natural habitat is tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-rufous-throated-bronze-cuckoo-7cec5913",
+      "subject": "Rufous-throated bronze cuckoo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

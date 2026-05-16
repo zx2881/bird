@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:57:07",
+  "requested_title": "Pied Oystercatcher",
+  "resolved_title": "Pied oystercatcher",
+  "title_aliases": [
+    "Pied Oystercatcher"
+  ],
+  "bird_id": "bird-pied-oystercatcher-77fd3409",
+  "raw_file": "bird-pied-oystercatcher-77fd3409.json",
+  "bird": {
+    "id": "bird-pied-oystercatcher-77fd3409",
+    "name": "Pied oystercatcher",
+    "english_name": "Pied oystercatcher",
+    "latin_name": "Haematopus longirostris",
+    "summary": "The pied oystercatcher (Haematopus longirostris) is a species of oystercatcher. It is a wading bird native to Australia and commonly found…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pied_Oystercatcher_on_beach.jpg/960px-Pied_Oystercatcher_on_beach.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-岸-4d4f1e5c",
+      "name": "岸",
+      "summary": "岸（又稱濱），分為海岸、湖岸及河岸，是在水面和陆地接触处，经波浪、潮汐、海流等作用下形成的滨水地带，其中有眾多沉積物堆積而形成的岸稱為灘。 海水作用 波浪，經常造成侵蝕 海流，經常造成堆積 潮汐 海岸類型 依構成物質區分 可分為岩岸與沙岸…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新西兰-f3c9507e",
+      "name": "新西兰",
+      "summary": "新西兰（英語：New Zealand）又称奥特亚罗瓦（毛利語：Aotearoa，直译：「长白云之乡」），位於太平洋西南部的主權島國，是英联邦新西蘭王國的主體部分，首都為惠灵顿，最大的城市為奧克蘭。紐西蘭主要由兩大島嶼組成：北島（Te Ik…",
+      "lat": "-42",
+      "lng": "173"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pied-oystercatcher-77fd3409",
+      "subject": "Pied oystercatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a wading bird native to Australia and commonly found on its coastline",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-oystercatcher-77fd3409",
+      "subject": "Pied oystercatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-岸-4d4f1e5c",
+      "object": "岸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a wading bird native to Australia and commonly found on its coastline",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-oystercatcher-77fd3409",
+      "subject": "Pied oystercatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-新西兰-f3c9507e",
+      "object": "新西兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "finschi) occurs in New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-oystercatcher-77fd3409",
+      "subject": "Pied oystercatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

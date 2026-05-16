@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:42:10",
+  "requested_title": "Common Quail",
+  "resolved_title": "Common quail",
+  "title_aliases": [
+    "Common Quail"
+  ],
+  "bird_id": "bird-西鹌鹑-845fdb9b",
+  "raw_file": "bird-西鹌鹑-845fdb9b.json",
+  "bird": {
+    "id": "bird-西鹌鹑-845fdb9b",
+    "name": "西鹌鹑",
+    "english_name": "Common quail",
+    "latin_name": "Coturnix coturnix",
+    "summary": "普通鵪鶉（学名：Coturnix coturnix），是鸡形目雉科鹑属鸟类。 生态环境 普通鵪鶉是一种生性胆怯的鸟类，不喜歡结群互动，体形较小且保護色很好，常常潜伏在農田、草场的植物基部，极难发现，受到惊吓后会尖叫着从藏身处直飞而去。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Coturnix_coturnix%2C_Fraunberg%2C_Bayern%2C_Deutschland_1%2C_Ausschnitt.jpg/960px-Coturnix_coturnix%2C_Fraunberg%2C_Bayern%2C_Deutschland_1%2C_Ausschnitt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-日本鵪鶉-ecb2a9c6",
+      "name": "日本鵪鶉",
+      "summary": "鹌鹑（台湾作日本鵪鶉）（学名：Coturnix japonica），是鸡形目雉科的一种鸟类。是一種分佈於東亞的舊世界鵪鶉。起初被認為是普通鵪鶉的亞種，現在被視為一個獨立的物種。自12世紀以來，日本鵪鶉在人的生活中扮演了積極的角色，並且在工…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-西鹌鹑-845fdb9b",
+      "subject": "西鹌鹑",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本鵪鶉-ecb2a9c6",
+      "object": "日本鵪鶉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It should not be confused with the Japanese quail (Coturnix japonica), native to Asia, which, although visually similar, has a call that is very distinct from that of the common quail",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西鹌鹑-845fdb9b",
+      "subject": "西鹌鹑",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

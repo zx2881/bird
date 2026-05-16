@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:48:25",
+  "requested_title": "Sumatran Partridge",
+  "resolved_title": "Sumatran partridge",
+  "title_aliases": [
+    "Sumatran Partridge"
+  ],
+  "bird_id": "bird-蘇門答臘山鷓鴣-ae348641",
+  "raw_file": "bird-蘇門答臘山鷓鴣-ae348641.json",
+  "bird": {
+    "id": "bird-蘇門答臘山鷓鴣-ae348641",
+    "name": "蘇門答臘山鷓鴣",
+    "english_name": "Sumatran partridge",
+    "latin_name": "Arborophila sumatrana",
+    "summary": "苏门答腊山鹧鸪（学名：Arborophila sumatrana），是鸡形目雉科的一种鸟类。 苏门答腊山鹧鸪体重约336克，翼长约141毫米，嘴峰长约22.8毫米，喙宽度约5.7毫米，喙厚度约7.8毫米，跗蹠长约44.4毫米，尾长约47毫米。",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Pernice_di_Sumatra_%28Arborophila_sumatrana%29.jpg/960px-Pernice_di_Sumatra_%28Arborophila_sumatrana%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蘇門答臘山鷓鴣-ae348641",
+      "subject": "蘇門答臘山鷓鴣",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in highland forest in central Sumatra, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蘇門答臘山鷓鴣-ae348641",
+      "subject": "蘇門答臘山鷓鴣",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in highland forest in central Sumatra, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蘇門答臘山鷓鴣-ae348641",
+      "subject": "蘇門答臘山鷓鴣",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

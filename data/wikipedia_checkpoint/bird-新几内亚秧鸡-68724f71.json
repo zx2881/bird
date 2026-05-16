@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:43:14",
+  "requested_title": "New Guinea Flightless Rail",
+  "resolved_title": "New Guinea flightless rail",
+  "title_aliases": [
+    "New Guinea Flightless Rail"
+  ],
+  "bird_id": "bird-新几内亚秧鸡-68724f71",
+  "raw_file": "bird-新几内亚秧鸡-68724f71.json",
+  "bird": {
+    "id": "bird-新几内亚秧鸡-68724f71",
+    "name": "新几内亚秧鸡",
+    "english_name": "New Guinea flightless rail",
+    "latin_name": "Megacrex inepta",
+    "summary": "新几内亚秧鸡（学名：Megacrex inepta）是秧鸡科下的一种鸟类，它属于自己的单型属。新几内亚秧鸡分布于印度尼西亚和巴布亚新几内亚。其自然栖息地为亚热带或热带湿润低地森林、亚热带或热带红树林以及亚热带或热带沼泽。它受到栖息地丧失的威胁。 参考文献",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/New_Guinea_flightless_rail_%28Megacrex_inepta%29.jpg/960px-New_Guinea_flightless_rail_%28Megacrex_inepta%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-新几内亚秧鸡-68724f71",
+      "subject": "新几内亚秧鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is sparsely found across New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-新几内亚秧鸡-68724f71",
+      "subject": "新几内亚秧鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

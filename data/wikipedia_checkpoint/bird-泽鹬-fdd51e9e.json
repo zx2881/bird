@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:28:36",
+  "requested_title": "Marsh Sandpiper",
+  "resolved_title": "Marsh sandpiper",
+  "title_aliases": [
+    "Marsh Sandpiper"
+  ],
+  "bird_id": "bird-泽鹬-fdd51e9e",
+  "raw_file": "bird-泽鹬-fdd51e9e.json",
+  "bird": {
+    "id": "bird-泽鹬-fdd51e9e",
+    "name": "泽鹬",
+    "english_name": "Marsh sandpiper",
+    "latin_name": "Tringa stagnatilis",
+    "summary": "泽鹬（学名：Tringa stagnatilis）又名小青足鹬，为鹬科鹬属的鸟类。是一種小型涉禽。它是一種相當小的鷸，在從東歐到俄羅斯遠東地區的開闊草原地帶和針葉林濕地中繁殖。在中国大陆，分布于内蒙古、东部沿海、西至甘肃、新疆等地。该物种的模式产地在德国。 分類 屬名Tring…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Tringa_stagnatilis_2_-_Laem_Pak_Bia.jpg/960px-Tringa_stagnatilis_2_-_Laem_Pak_Bia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-俄羅斯遠東地區-53945c47",
+      "name": "俄羅斯遠東地區",
+      "summary": "俄羅斯遠東地區（俄語：Дальний Восток России，羅馬化：Dalny Vostok Rossii，發音：[ˈdalʲnʲɪj vɐˈstok rɐˈsʲii]），位於俄羅斯東部，為西伯利亞貝加爾湖東部與太平洋之間；其中所屬…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-泽鹬-fdd51e9e",
+      "subject": "泽鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a rather small shank, and breeds in open grassy steppe and taiga wetlands from easternmost Europe to the Russian Far East",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-泽鹬-fdd51e9e",
+      "subject": "泽鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄羅斯遠東地區-53945c47",
+      "object": "俄羅斯遠東地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a rather small shank, and breeds in open grassy steppe and taiga wetlands from easternmost Europe to the Russian Far East",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-泽鹬-fdd51e9e",
+      "subject": "泽鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a migratory species, with a majority of birds wintering in Africa and India, and some migrating to Southeast Asia and Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-泽鹬-fdd51e9e",
+      "subject": "泽鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a migratory species, with a majority of birds wintering in Africa and India, and some migrating to Southeast Asia and Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-泽鹬-fdd51e9e",
+      "subject": "泽鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a migratory species, with a majority of birds wintering in Africa and India, and some migrating to Southeast Asia and Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-泽鹬-fdd51e9e",
+      "subject": "泽鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is a rather small shank, and breeds in open grassy steppe and taiga wetlands from easternmost Europe to the Russian Far East",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-泽鹬-fdd51e9e",
+      "subject": "泽鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The marsh sandpiper breeds in the Palearctic",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-泽鹬-fdd51e9e",
+      "subject": "泽鹬",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

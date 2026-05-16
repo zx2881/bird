@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:58:10",
+  "requested_title": "Subantarctic Shearwater",
+  "resolved_title": "Subantarctic shearwater",
+  "title_aliases": [
+    "Subantarctic Shearwater"
+  ],
+  "bird_id": "bird-subantarctic-shearwater-522d1b29",
+  "raw_file": "bird-subantarctic-shearwater-522d1b29.json",
+  "bird": {
+    "id": "bird-subantarctic-shearwater-522d1b29",
+    "name": "Subantarctic shearwater",
+    "english_name": "Subantarctic shearwater",
+    "latin_name": "Puffinus elegans",
+    "summary": "The subantarctic shearwater (Puffinus elegans) is a small bird species which breeds in Tristan da Cunha, islands of the southern Indian Oce…",
+    "lat": "-37.115",
+    "lng": "-12.285",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Subantarctic_shearwater_%28Puffinus_elegans%29_01_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-特里斯坦-达库尼亚-9b88cc19",
+      "name": "特里斯坦-达库尼亚",
+      "summary": "崔斯坦達庫尼亞（英語：Tristan da Cunha，/ˌtrɪstən də ˈkuːn(j)ə/），是南大西洋的一个群岛，為英国海外领地圣赫勒拿、阿森松和特里斯坦-达库尼亚一部分。它是全世界最偏远而有人居住的离岛，东距南非共和国2,…",
+      "lat": "-37.115",
+      "lng": "-12.285"
+    },
+    {
+      "id": "loc-印度洋-aaea0acf",
+      "name": "印度洋",
+      "summary": "印度洋（英語：Indian Ocean），位于亚洲、非洲、大洋洲和南极洲之间，印度位在印度洋北部的中央位置，這也是印度洋名稱的由來，印度洋大部分在南半球。總面积7491万平方公里，约占世界海洋总面积的21.1%，是世界第三大洋。印度洋的範…",
+      "lat": "-20",
+      "lng": "80"
+    },
+    {
+      "id": "loc-新西兰亚南极群岛-073ecfe2",
+      "name": "新西兰亚南极群岛",
+      "summary": "新西兰亚南极群岛，简称亚南极群岛，包括五组群岛。这些群岛都位于新西兰南島的东南海面上。除了在坎贝尔岛上有个气象站有科学研究人员外，其他岛都无人定居。这些岛屿都被加入了世界遗产，总称为亚南极群岛。 地理 总面积764.8 km2（295.3…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-subantarctic-shearwater-522d1b29",
+      "subject": "Subantarctic shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-特里斯坦-达库尼亚-9b88cc19",
+      "object": "特里斯坦-达库尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "assimilis elegans }} The subantarctic shearwater (Puffinus elegans) is a small bird species which breeds in Tristan da Cunha, islands of the southern Indian Ocean and New Zealand Subantarctic Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-subantarctic-shearwater-522d1b29",
+      "subject": "Subantarctic shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度洋-aaea0acf",
+      "object": "印度洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "assimilis elegans }} The subantarctic shearwater (Puffinus elegans) is a small bird species which breeds in Tristan da Cunha, islands of the southern Indian Ocean and New Zealand Subantarctic Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-subantarctic-shearwater-522d1b29",
+      "subject": "Subantarctic shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-新西兰亚南极群岛-073ecfe2",
+      "object": "新西兰亚南极群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "assimilis elegans }} The subantarctic shearwater (Puffinus elegans) is a small bird species which breeds in Tristan da Cunha, islands of the southern Indian Ocean and New Zealand Subantarctic Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-subantarctic-shearwater-522d1b29",
+      "subject": "Subantarctic shearwater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

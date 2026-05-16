@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:15:04",
+  "requested_title": "Laughing Gull",
+  "resolved_title": "Laughing gull",
+  "title_aliases": [
+    "Laughing Gull"
+  ],
+  "bird_id": "bird-笑鷗-bce2a06b",
+  "raw_file": "bird-笑鷗-bce2a06b.json",
+  "bird": {
+    "id": "bird-笑鷗-bce2a06b",
+    "name": "笑鷗",
+    "english_name": "Laughing gull",
+    "latin_name": "Leucophaeus atricilla",
+    "summary": "笑鷗 (學名：Leucophaeus atricilla)是在北美洲和南美洲的一種中型海鷗。 參考資料 2012台灣鳥類名錄",
+    "lat": "0",
+    "lng": "-25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Leucophaeus_atricilla_Caye_Caulker_04.JPG/960px-Leucophaeus_atricilla_Caye_Caulker_04.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-大西洋-ac6cdd86",
+      "name": "大西洋",
+      "summary": "大西洋，即亚特兰蒂斯洋（英語：Atlantic Ocean），是世界第二大洋。原面積8221萬7千平方公里，在南冰洋確立後，面積調整為7676萬2千平方公里。平均深度3,646米，最深處波多黎各海沟深達8,605米。從赤道南北分為北大西洋…",
+      "lat": "0",
+      "lng": "-25"
+    },
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-笑鷗-bce2a06b",
+      "subject": "笑鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋-ac6cdd86",
+      "object": "大西洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in large colonies mostly along the Atlantic coast of North America, the Caribbean, and northern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-笑鷗-bce2a06b",
+      "subject": "笑鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in large colonies mostly along the Atlantic coast of North America, the Caribbean, and northern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-笑鷗-bce2a06b",
+      "subject": "笑鷗",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

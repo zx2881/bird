@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:26:18",
+  "requested_title": "Salvadori's Nightjar",
+  "resolved_title": "Salvadori's nightjar",
+  "title_aliases": [
+    "Salvadori's Nightjar"
+  ],
+  "bird_id": "bird-salvadori-s-nightjar-8917c107",
+  "raw_file": "bird-salvadori-s-nightjar-8917c107.json",
+  "bird": {
+    "id": "bird-salvadori-s-nightjar-8917c107",
+    "name": "Salvadori's nightjar",
+    "english_name": "Salvadori's nightjar",
+    "latin_name": "Caprimulgus pulchellus",
+    "summary": "Salvadori's nightjar (Caprimulgus pulchellus) is a species of nightjar in the family Caprimulgidae. It is endemic to Indonesia, where it is…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Salvadori%27s_nightjar_%28Caprimulgus_pulchellus%29.jpg/960px-Salvadori%27s_nightjar_%28Caprimulgus_pulchellus%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-salvadori-s-nightjar-8917c107",
+      "subject": "Salvadori's nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it is found in Sumatra and Java",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-salvadori-s-nightjar-8917c107",
+      "subject": "Salvadori's nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it is found in Sumatra and Java",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-salvadori-s-nightjar-8917c107",
+      "subject": "Salvadori's nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it is found in Sumatra and Java",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-salvadori-s-nightjar-8917c107",
+      "subject": "Salvadori's nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-salvadori-s-nightjar-8917c107",
+      "subject": "Salvadori's nightjar",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

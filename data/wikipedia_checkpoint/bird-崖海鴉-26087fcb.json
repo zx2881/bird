@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:58:10",
+  "requested_title": "Common Murre",
+  "resolved_title": "Common murre",
+  "title_aliases": [
+    "Common Murre"
+  ],
+  "bird_id": "bird-崖海鴉-26087fcb",
+  "raw_file": "bird-崖海鴉-26087fcb.json",
+  "bird": {
+    "id": "bird-崖海鴉-26087fcb",
+    "name": "崖海鴉",
+    "english_name": "Common murre",
+    "latin_name": "Uria aalge",
+    "summary": "普通海鴉（学名：Uria aalge），又名崖海鸦，为海雀科海鸦属下的一个种。 普通海鸦是一种大型海雀科鸟类，在北美洲又称作尖嘴海鸦，栖息于北极圈附近的北大西洋和北太平洋的近北极海域和北温带海域，寿命大约为20年。普通海鸦大部分时间生活在海里，仅在繁殖期生活在悬崖和海岛上。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Common_Murre_Uria_aalge.jpg/960px-Common_Murre_Uria_aalge.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-崖海鴉-26087fcb",
+      "subject": "崖海鴉",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The breeding habitat is islands, rocky shores, cliffs and sea stacks",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-崖海鴉-26087fcb",
+      "subject": "崖海鴉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:10:34",
+  "requested_title": "Painted Stork",
+  "resolved_title": "Painted stork",
+  "title_aliases": [
+    "Painted Stork"
+  ],
+  "bird_id": "bird-白头鹮鹳-b46614ff",
+  "raw_file": "bird-白头鹮鹳-b46614ff.json",
+  "bird": {
+    "id": "bird-白头鹮鹳-b46614ff",
+    "name": "白头鹮鹳",
+    "english_name": "Painted stork",
+    "latin_name": "Mycteria leucocephala",
+    "summary": "白头鹮鹳（學名：Mycteria leucocephala）也称彩鹳，为鹳科鹮鹳属的鸟类。分布于印度、斯里兰卡、巴基斯坦、孟加拉国、泰国、缅甸、越南以及中国大陆的云南、四川、贵州、广东、福建、海南、长江下游、河北等地，主要栖息于栖息在湖泊、河流、水塘等水域岸边及其附近沼泽和草地…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/P-Stork-Sandeep.jpg/960px-P-Stork-Sandeep.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白头鹮鹳-b46614ff",
+      "subject": "白头鹮鹳",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the wetlands of the plains of tropical Asia south of the Himalayas in the Indian subcontinent and extending into Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鹮鹳-b46614ff",
+      "subject": "白头鹮鹳",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the wetlands of the plains of tropical Asia south of the Himalayas in the Indian subcontinent and extending into Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鹮鹳-b46614ff",
+      "subject": "白头鹮鹳",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the wetlands of the plains of tropical Asia south of the Himalayas in the Indian subcontinent and extending into Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鹮鹳-b46614ff",
+      "subject": "白头鹮鹳",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the wetlands of the plains of tropical Asia south of the Himalayas in the Indian subcontinent and extending into Southeast Asia",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-白头鹮鹳-b46614ff",
+      "subject": "白头鹮鹳",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

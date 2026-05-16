@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:34:15",
+  "requested_title": "Pale Mountain Pigeon",
+  "resolved_title": "Pale mountain pigeon",
+  "title_aliases": [
+    "Pale Mountain Pigeon"
+  ],
+  "bird_id": "bird-pale-mountain-pigeon-ef40d039",
+  "raw_file": "bird-pale-mountain-pigeon-ef40d039.json",
+  "bird": {
+    "id": "bird-pale-mountain-pigeon-ef40d039",
+    "name": "Pale mountain pigeon",
+    "english_name": "Pale mountain pigeon",
+    "latin_name": "Gymnophaps solomonensis",
+    "summary": "The pale mountain pigeon (Gymnophaps solomonensis) is a species of bird in the pigeon family Columbidae. It is endemic to the Solomon Islan…",
+    "lat": "-8",
+    "lng": "159",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gymnophaps_solomonensis_map.svg/960px-Gymnophaps_solomonensis_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-所羅門群島-群島-4708e5d6",
+      "name": "所羅門群島 (群島)",
+      "summary": "所羅門群島是太平洋西南面的群島，位於澳大利亞東北方的美拉尼西亞（Melanesia）地區。西隔所羅門海與新幾內亞、俾斯麥群島相鄰。 政治上分屬兩個政治實體： 所罗门群岛，領土範圍為大部分的索羅門群島（28,896 km²，660,121人…",
+      "lat": "-8",
+      "lng": "159"
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pale-mountain-pigeon-ef40d039",
+      "subject": "Pale mountain pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-所羅門群島-群島-4708e5d6",
+      "object": "所羅門群島 (群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Solomon Islands archipelago, where it inhabits old-growth and secondary montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-mountain-pigeon-ef40d039",
+      "subject": "Pale mountain pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Solomon Islands archipelago, where it inhabits old-growth and secondary montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-mountain-pigeon-ef40d039",
+      "subject": "Pale mountain pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Solomon Islands archipelago, where it inhabits old-growth and secondary montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-mountain-pigeon-ef40d039",
+      "subject": "Pale mountain pigeon",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is endemic to the Solomon Islands archipelago, where it inhabits old-growth and secondary montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-pale-mountain-pigeon-ef40d039",
+      "subject": "Pale mountain pigeon",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits montane forest and prefers old-growth, but is also found in secondary forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-pale-mountain-pigeon-ef40d039",
+      "subject": "Pale mountain pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

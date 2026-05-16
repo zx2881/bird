@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:40:15",
+  "requested_title": "Christmas Imperial Pigeon",
+  "resolved_title": "Christmas imperial pigeon",
+  "title_aliases": [
+    "Christmas Imperial Pigeon"
+  ],
+  "bird_id": "bird-christmas-imperial-pigeon-0ebbcef6",
+  "raw_file": "bird-christmas-imperial-pigeon-0ebbcef6.json",
+  "bird": {
+    "id": "bird-christmas-imperial-pigeon-0ebbcef6",
+    "name": "Christmas imperial pigeon",
+    "english_name": "Christmas imperial pigeon",
+    "latin_name": "Ducula whartoni",
+    "summary": "The Christmas imperial pigeon or Christmas Island imperial pigeon (Ducula whartoni), also known as Black imperial pigeon, Dusky imperial pi…",
+    "lat": "-20",
+    "lng": "80",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/CarpophagaWhartoniKeulemans.jpg/960px-CarpophagaWhartoniKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度洋-aaea0acf",
+      "name": "印度洋",
+      "summary": "印度洋（英語：Indian Ocean），位于亚洲、非洲、大洋洲和南极洲之间，印度位在印度洋北部的中央位置，這也是印度洋名稱的由來，印度洋大部分在南半球。總面积7491万平方公里，约占世界海洋总面积的21.1%，是世界第三大洋。印度洋的範…",
+      "lat": "-20",
+      "lng": "80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-christmas-imperial-pigeon-0ebbcef6",
+      "subject": "Christmas imperial pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度洋-aaea0acf",
+      "object": "印度洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Map of Christmas Island The species is endemic to the tropical Christmas Island in the eastern Indian Ocean. It predominantly inhabits the evergreen inland plateau, but is found throughout the island. Though about a third of this was cut down for phosphate mining, introduced Jamaican cherry trees have recolonized many areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-christmas-imperial-pigeon-0ebbcef6",
+      "subject": "Christmas imperial pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-christmas-imperial-pigeon-0ebbcef6",
+      "subject": "Christmas imperial pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It was previously thought to be in danger of extinction due to habitat loss and invasive species (specifically the yellow crazy ant), but it is now considered to be rather common, with a breeding population of about 5,000",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-christmas-imperial-pigeon-0ebbcef6",
+      "subject": "Christmas imperial pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "thumb|Two live specimens The Christmas imperial pigeon is classified as least concern by the IUCN Red List of Threatened Species and is not protected by the Australian Environment Protection and Biodiversity Conservation Act 1999 because, though its moderately small population is restricted to an island, it appears to be stable with no indication of significant future decline. It is possible that the population fluctuated from the initial settlement of the island in 1888 to the 1970s, with reports of a minor decline",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    },
+    {
+      "subject_id": "bird-christmas-imperial-pigeon-0ebbcef6",
+      "subject": "Christmas imperial pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Hunting was, historically, the main threat to the Christmas imperial pigeon, and the seeding of Japanese cherry trees along roadsides made it easier game, but the practice was made illegal in 1977. A 1994 survey found the diet of feral cats consisted predominantly of Christmas imperial pigeon, Christmas Island flying fox, and invasive rats",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

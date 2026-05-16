@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:12:16",
+  "requested_title": "Saunders's Gull",
+  "resolved_title": "Saunders's gull",
+  "title_aliases": [
+    "Saunders's Gull"
+  ],
+  "bird_id": "bird-黑嘴鸥-21439125",
+  "raw_file": "bird-黑嘴鸥-21439125.json",
+  "bird": {
+    "id": "bird-黑嘴鸥-21439125",
+    "name": "黑嘴鸥",
+    "english_name": "Saunders's gull",
+    "latin_name": "Saundersilarus saundersi",
+    "summary": "黑嘴鸥（学名Saundersilarus saundersi），是黑嘴鸥属的一种。這種鷗主要分佈於中國、日本、北韓、南韓、澳門、俄羅斯、台灣和越南。 它的自然棲地為河口水域和潮間帶沼澤。目前由于栖息地的减少，已被IUCN列为易危物种。",
+    "lat": "22.19",
+    "lng": "113.54",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Saundersilarus_saundersi_2739737.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳門-94df2dfd",
+      "name": "澳門",
+      "summary": "澳門（葡萄牙語：Macau；縮寫：MAC），全稱澳門特別行政區（Região Administrativa Especial de Macau；縮寫：RAEM），簡稱「澳」，古稱「龍涯門」、「濠鏡澳」、「濠江」、「海鏡」、「鏡海」、「濠鏡…",
+      "lat": "22.19",
+      "lng": "113.54"
+    },
+    {
+      "id": "loc-草沼-e1caf9f8",
+      "name": "草沼",
+      "summary": "草沼即草本沼泽（英語：marsh），也叫草泽，是一种主要生长草本植物的湿地，多半可以發現在湖岸或河岸邊，介於水生與陸生生態系統的過渡，一般未被淹没，但土壤维持水浸状态。优势植物有苔草、莎草和灯芯草等，另外也會有低矮的灌木生長。和草沼不同，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑嘴鸥-21439125",
+      "subject": "黑嘴鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳門-94df2dfd",
+      "object": "澳門",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in China, Japan, North Korea, South Korea, Macau, Russia, Taiwan, and Vietnam. Its natural habitats are estuarine waters and intertidal marshes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑嘴鸥-21439125",
+      "subject": "黑嘴鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-草沼-e1caf9f8",
+      "object": "草沼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in China, Japan, North Korea, South Korea, Macau, Russia, Taiwan, and Vietnam. Its natural habitats are estuarine waters and intertidal marshes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑嘴鸥-21439125",
+      "subject": "黑嘴鸥",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in China, Japan, North Korea, South Korea, Macau, Russia, Taiwan, and Vietnam. Its natural habitats are estuarine waters and intertidal marshes",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-黑嘴鸥-21439125",
+      "subject": "黑嘴鸥",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-黑嘴鸥-21439125",
+      "subject": "黑嘴鸥",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "| year=2005 | title=Phylogenetic relationships within the Laridae (Charadriiformes: Aves) inferred from mitochondrial markers | journal=Molecular Phylogenetics and Evolution | volume=37 | issue=3 | pages=686–699 | doi=10.1016/j.ympev.2005.05.011 | pmid=16054399 | bibcode=2005MolPE..37..686P }} In 2023, this transfer was accepted by the International Ornithologists' Union. It is threatened by habitat loss, particularly by conversion of saltmarsh to agricultural land or fish farms, and industrial development including oil extraction.{{cite book |last1=Olsen |first1=K.M",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

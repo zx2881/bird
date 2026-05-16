@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:28:13",
+  "requested_title": "Grey-tailed Tattler",
+  "resolved_title": "Grey-tailed tattler",
+  "title_aliases": [
+    "Grey-tailed Tattler"
+  ],
+  "bird_id": "bird-灰尾漂鹬-0626d408",
+  "raw_file": "bird-灰尾漂鹬-0626d408.json",
+  "bird": {
+    "id": "bird-灰尾漂鹬-0626d408",
+    "name": "灰尾漂鹬",
+    "english_name": "Grey-tailed tattler",
+    "latin_name": "Tringa brevipes",
+    "summary": "灰尾漂鹬（学名：Tringa brevipes或Tringa brevipes），又稱灰尾鷸、:黄足鹬，为鹬科鷸屬的鸟类，是屬於鷸科的小型涉禽。英語名稱tattler源於牠們嘈雜的叫聲。屬名Tringa是烏利塞·阿爾德羅萬迪在1599年根據古希臘語trungas（亞里士多德提到…",
+    "lat": "61",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Tringa_brevipes2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir）是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶以来至今属于俄罗斯，相當於該國領土总面积的75％，但仅占该国…",
+      "lat": "61",
+      "lng": "105"
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰尾漂鹬-0626d408",
+      "subject": "灰尾漂鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The specific brevipes is from Latin brevis, \"short\", and pes, \"foot\". This tattler breeds in northeast Siberia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰尾漂鹬-0626d408",
+      "subject": "灰尾漂鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "After breeding, they migrate to an area from southeast Asia to Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰尾漂鹬-0626d408",
+      "subject": "灰尾漂鹬",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

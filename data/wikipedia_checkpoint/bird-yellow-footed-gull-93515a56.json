@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:18:32",
+  "requested_title": "Yellow-footed Gull",
+  "resolved_title": "Yellow-footed gull",
+  "title_aliases": [
+    "Yellow-footed Gull"
+  ],
+  "bird_id": "bird-yellow-footed-gull-93515a56",
+  "raw_file": "bird-yellow-footed-gull-93515a56.json",
+  "bird": {
+    "id": "bird-yellow-footed-gull-93515a56",
+    "name": "Yellow-footed gull",
+    "english_name": "Yellow-footed gull",
+    "latin_name": "Larus livens",
+    "summary": "The yellow-footed gull (Larus livens) is a large gull, closely related to the western gull and thought to be a subspecies until the 1960s.…",
+    "lat": "23",
+    "lng": "-102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Larus_livens_2910976.jpg/960px-Larus_livens_2910976.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-footed-gull-93515a56",
+      "subject": "Yellow-footed gull",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Yellow-footed gulls are native to the Gulf of California in Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-footed-gull-93515a56",
+      "subject": "Yellow-footed gull",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

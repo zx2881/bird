@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:48:21",
+  "requested_title": "Roll's Partridge",
+  "resolved_title": "Roll's partridge",
+  "title_aliases": [
+    "Roll's Partridge"
+  ],
+  "bird_id": "bird-罗氏山鹧鸪-7ad0c35b",
+  "raw_file": "bird-罗氏山鹧鸪-7ad0c35b.json",
+  "bird": {
+    "id": "bird-罗氏山鹧鸪-7ad0c35b",
+    "name": "罗氏山鹧鸪",
+    "english_name": "Roll's partridge",
+    "latin_name": "Arborophila rolli",
+    "summary": "罗氏山鹧鸪（台湾作勞氏山鷓鴣）（学名：Arborophila rolli），是鸡形目雉科的一种鸟类。 特征 罗氏山鹧鸪体重约336克，翼长约140.4毫米，嘴峰长约23.5毫米，喙宽度约5.6毫米，喙厚度约8.4毫米，跗蹠长约43.5毫米，尾长约43.8毫米。罗氏山鹧鸪在其分布…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-罗氏山鹧鸪-7ad0c35b",
+      "subject": "罗氏山鹧鸪",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in highland forest in northern Sumatra, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-罗氏山鹧鸪-7ad0c35b",
+      "subject": "罗氏山鹧鸪",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in highland forest in northern Sumatra, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-罗氏山鹧鸪-7ad0c35b",
+      "subject": "罗氏山鹧鸪",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

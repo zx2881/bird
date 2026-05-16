@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:30:19",
+  "requested_title": "Bearded Wood Partridge",
+  "resolved_title": "Bearded wood partridge",
+  "title_aliases": [
+    "Bearded Wood Partridge"
+  ],
+  "bird_id": "bird-bearded-wood-partridge-ab185a84",
+  "raw_file": "bird-bearded-wood-partridge-ab185a84.json",
+  "bird": {
+    "id": "bird-bearded-wood-partridge-ab185a84",
+    "name": "Bearded wood partridge",
+    "english_name": "Bearded wood partridge",
+    "latin_name": "Dendrortyx barbatus",
+    "summary": "The bearded wood partridge (Dendrortyx barbatus) is a bird species in the family Odontophoridae, the New World quail. It inhabits the Sierr…",
+    "lat": "25.36666667",
+    "lng": "-100.55",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Dendrortyx_barbatus_-_A_monograph_of_the_Odontophorin%C3%A6%2C_or%2C_Partridges_of_America.jpg/960px-Dendrortyx_barbatus_-_A_monograph_of_the_Odontophorin%C3%A6%2C_or%2C_Partridges_of_America.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-東馬德雷山脈-a8e21961",
+      "name": "東馬德雷山脈",
+      "summary": "東馬德雷山（西班牙語：Sierra Madre Oriental）是墨西哥東北部的一座山脈。 位置 東馬德雷山綿延1,000公里（620英里），跨過科阿韋拉州、新萊昂州、塔毛利帕斯州、聖路易斯波托西州、克雷塔羅州、伊達爾戈州和普埃布拉州，…",
+      "lat": "25.36666667",
+      "lng": "-100.55"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bearded-wood-partridge-ab185a84",
+      "subject": "Bearded wood partridge",
+      "predicate": "distributed_in",
+      "object_id": "loc-東馬德雷山脈-a8e21961",
+      "object": "東馬德雷山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the Sierra Madre Oriental of Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bearded-wood-partridge-ab185a84",
+      "subject": "Bearded wood partridge",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Santo Domingo River in northern Oaxaca and western slope of the Sierra Madre Oriental act as biogeographic barriers. It inhabits the interiors and edges of humid evergreen montane forest and pine-oak forest, both primary and secondary",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-bearded-wood-partridge-ab185a84",
+      "subject": "Bearded wood partridge",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-bearded-wood-partridge-ab185a84",
+      "subject": "Bearded wood partridge",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"[S]urveys have found this species to be more widespread and numerous than previously thought, however it still has a highly fragmented range and small population undergoing a continuous decline.\"",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

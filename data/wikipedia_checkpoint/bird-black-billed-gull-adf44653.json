@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:14:08",
+  "requested_title": "Black-billed Gull",
+  "resolved_title": "Black-billed gull",
+  "title_aliases": [
+    "Black-billed Gull"
+  ],
+  "bird_id": "bird-black-billed-gull-adf44653",
+  "raw_file": "bird-black-billed-gull-adf44653.json",
+  "bird": {
+    "id": "bird-black-billed-gull-adf44653",
+    "name": "Black-billed gull",
+    "english_name": "Black-billed gull",
+    "latin_name": "Chroicocephalus bulleri",
+    "summary": "The black-billed gull (Chroicocephalus bulleri), also called Buller's gull or tarāpuka (Māori), is a Near Threatened species of gull in the…",
+    "lat": "-41.22944444",
+    "lng": "174.48305556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Black-billed_Gull_%285%29_edit.JPG/960px-Black-billed_Gull_%285%29_edit.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-庫克海峽-8df9bb3a",
+      "name": "庫克海峽",
+      "summary": "庫克海峽（英語：Cook Strait，毛利語：Te Moana-o-Raukawa）位於紐西蘭北島、南島之間，取名自英國探險家詹姆斯·庫克。他是第一位航行通过这海峽的歐洲人（1770年初）。海峡北边是北岛的威靈頓，南边是南島的马尔堡峡湾…",
+      "lat": "-41.22944444",
+      "lng": "174.48305556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-billed-gull-adf44653",
+      "subject": "Black-billed gull",
+      "predicate": "distributed_in",
+      "object_id": "loc-庫克海峽-8df9bb3a",
+      "object": "庫克海峽",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Some South Island birds cross the Cook Strait after breeding season to winter in the North Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-gull-adf44653",
+      "subject": "Black-billed gull",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

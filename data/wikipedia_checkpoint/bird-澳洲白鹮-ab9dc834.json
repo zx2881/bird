@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:46:10",
+  "requested_title": "Australian White Ibis",
+  "resolved_title": "Australian white ibis",
+  "title_aliases": [
+    "Australian White Ibis"
+  ],
+  "bird_id": "bird-澳洲白鹮-ab9dc834",
+  "raw_file": "bird-澳洲白鹮-ab9dc834.json",
+  "bird": {
+    "id": "bird-澳洲白鹮-ab9dc834",
+    "name": "澳洲白鹮",
+    "english_name": "Australian white ibis",
+    "latin_name": "Threskiornis molucca",
+    "summary": "澳洲白䴉（學名：Threskiornis moluccus）為䴉科白䴉屬的鳥類，外表和體型皆與同屬的埃及聖䴉非常相近，主要分布於摩鹿加群島東部、新幾內亞、索羅門群島拉納爾和貝羅那省、澳洲，近代在塔斯馬尼亞與紐西蘭部分地區亦有愈來愈多的出沒紀錄。 和其他白䴉一樣，澳洲白䴉偏好棲息…",
+    "lat": "-27.9983",
+    "lng": "153.3344",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Australian_ibis_%28Threskiornis_molucca%29_Sydney.jpg/960px-Australian_ibis_%28Threskiornis_molucca%29_Sydney.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-黄金海岸-澳大利亚-cea4d643",
+      "name": "黄金海岸 (澳大利亚)",
+      "summary": "黃金海岸（英語：Gold Coast）是位於澳大利亚昆士蘭州東南部的太平洋沿岸城市，人口為640,778人（2021年），北與布里斯本相鄰，南與新南威爾斯州堤維德岬接壤。 從1920年代起，黃金海岸的旅遊業使當地經濟蓬勃發展。黃金海岸於1…",
+      "lat": "-27.9983",
+      "lng": "153.3344"
+    },
+    {
+      "id": "loc-布里斯班-76b0acf4",
+      "name": "布里斯班",
+      "summary": "布里斯班（英語：Brisbane，/ˈbrɪzbən/ ，杜爾巴語：Meaanjin，又译布里斯本）为澳大利亚昆士蘭州首府，是昆士兰州人口最多的城市。布里斯班位於澳洲本土東部，北緣陽光海岸， 南鄰國際觀光勝地黃金海岸市。布里斯班大都會是澳…",
+      "lat": "-27.46777778",
+      "lng": "153.02805556"
+    },
+    {
+      "id": "loc-汤斯维尔-3a0ea28a",
+      "name": "汤斯维尔",
+      "summary": "汤斯维尔（英語：Townsville）乃位於澳大利亚昆士兰州东部珊瑚海沿岸的一座城市，市民人口179,011（2021年）。 姊妹城市 过去三十多年里，汤斯维尔市与六个城市签订了“姊妹城市”协定。",
+      "lat": "-19.25",
+      "lng": "146.81666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-澳洲白鹮-ab9dc834",
+      "subject": "澳洲白鹮",
+      "predicate": "distributed_in",
+      "object_id": "loc-黄金海岸-澳大利亚-cea4d643",
+      "object": "黄金海岸 (澳大利亚)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in marshy wetlands, often near open grasslands and has become common in Australian east-coast city parks and rubbish dumps in the urban areas of Wollongong, Sydney, Perth, the Gold Coast, Brisbane and Townsville",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-澳洲白鹮-ab9dc834",
+      "subject": "澳洲白鹮",
+      "predicate": "distributed_in",
+      "object_id": "loc-布里斯班-76b0acf4",
+      "object": "布里斯班",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in marshy wetlands, often near open grasslands and has become common in Australian east-coast city parks and rubbish dumps in the urban areas of Wollongong, Sydney, Perth, the Gold Coast, Brisbane and Townsville",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-澳洲白鹮-ab9dc834",
+      "subject": "澳洲白鹮",
+      "predicate": "distributed_in",
+      "object_id": "loc-汤斯维尔-3a0ea28a",
+      "object": "汤斯维尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in marshy wetlands, often near open grasslands and has become common in Australian east-coast city parks and rubbish dumps in the urban areas of Wollongong, Sydney, Perth, the Gold Coast, Brisbane and Townsville",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-澳洲白鹮-ab9dc834",
+      "subject": "澳洲白鹮",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in marshy wetlands, often near open grasslands and has become common in Australian east-coast city parks and rubbish dumps in the urban areas of Wollongong, Sydney, Perth, the Gold Coast, Brisbane and Townsville",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-澳洲白鹮-ab9dc834",
+      "subject": "澳洲白鹮",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in marshy wetlands, often near open grasslands and has become common in Australian east-coast city parks and rubbish dumps in the urban areas of Wollongong, Sydney, Perth, the Gold Coast, Brisbane and Townsville",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-澳洲白鹮-ab9dc834",
+      "subject": "澳洲白鹮",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

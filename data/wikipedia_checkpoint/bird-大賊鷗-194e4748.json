@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:52:06",
+  "requested_title": "Great Skua",
+  "resolved_title": "Great skua",
+  "title_aliases": [
+    "Great Skua"
+  ],
+  "bird_id": "bird-大賊鷗-194e4748",
+  "raw_file": "bird-大賊鷗-194e4748.json",
+  "bird": {
+    "id": "bird-大賊鷗-194e4748",
+    "name": "大賊鷗",
+    "english_name": "Great skua",
+    "latin_name": "Stercorarius skua",
+    "summary": "大賊鷗（學名：Stercorarius skua）是賊鷗科賊鷗屬的一種候鳥，分佈於大西洋北至中部沿岸地區。成鳥數量約有32,600-34,500隻。 分佈與遷徙 繁殖於挪威至斯瓦爾巴群島、法羅群島到丹麥、冰島、蘇格蘭和其周邊群島。通常在法國和伊比利亞半島的大西洋海岸越冬，年青的…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Stercorarius_skua_-Iceland-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南冰洋-48c053c3",
+      "name": "南冰洋",
+      "summary": "南冰洋（英語：Southern Ocean），亦称南极海（Antarctic Sea）、南大洋（Austral Ocean）或南极洋（Antarctic Ocean），是围绕南极洲的海洋，也是太平洋、大西洋和印度洋南端汇合而成的海域，大致…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-海鳥-4f6bf339",
+      "name": "海鳥",
+      "summary": "海鳥是一種能夠適應海洋氣候環境的鳥類，而無論於生活習慣、生理運行等皆與其他鳥類大有不同。其有著強烈的趨同演化，因此所有海鳥的生態職位均十分類似。而海鳥最初出現於白堊紀之時，距今有近億年，但是與現代海鳥之關係並不大。若果論及現代海鳥之遠祖，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大賊鷗-194e4748",
+      "subject": "大賊鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-南冰洋-48c053c3",
+      "object": "南冰洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The great skua (Stercorarius skua), sometimes known by the name bonxie in Britain, is a large seabird in the skua family Stercorariidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大賊鷗-194e4748",
+      "subject": "大賊鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-海鳥-4f6bf339",
+      "object": "海鳥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The great skua (Stercorarius skua), sometimes known by the name bonxie in Britain, is a large seabird in the skua family Stercorariidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大賊鷗-194e4748",
+      "subject": "大賊鷗",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

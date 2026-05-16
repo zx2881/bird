@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:40:16",
+  "requested_title": "Inaccessible Island Rail",
+  "resolved_title": "Inaccessible Island rail",
+  "title_aliases": [
+    "Inaccessible Island Rail"
+  ],
+  "bird_id": "bird-荒岛秧鸡-a796f3f0",
+  "raw_file": "bird-荒岛秧鸡-a796f3f0.json",
+  "bird": {
+    "id": "bird-荒岛秧鸡-a796f3f0",
+    "name": "荒岛秧鸡",
+    "english_name": "Inaccessible Island rail",
+    "latin_name": "Laterallus rogersi",
+    "summary": "荒岛秧鸡（学名： Laterallus rogersi），又名亚特兰蒂斯之鸟，也称呆秧鸡，是秧鸡科南美田鸡属中的一种。仅分布于南大西洋英国海外领地特里斯坦-达库尼亚中的伊纳克塞瑟布尔岛。荒岛秧鸡是世界上现存不会飞行的鸟类中体形最小的，其体长仅13～15.5厘米，体重34～49克…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Inaccessible_Island_Rail_%28Atlantisia_rogersi%29.jpg/960px-Inaccessible_Island_Rail_%28Atlantisia_rogersi%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-bothalia-african-biodiversity-conservation-e7eadfdb",
+      "name": "Bothalia: African Biodiversity & Conservation",
+      "summary": "African Biodiversity & Conservation Journal, formerly known as Bothalia: African Biodiversity & Conservation and earlie…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-荒岛秧鸡-a796f3f0",
+      "subject": "荒岛秧鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-bothalia-african-biodiversity-conservation-e7eadfdb",
+      "object": "Bothalia: African Biodiversity & Conservation",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "L.|title=Vegetation and checklist of Inaccessible Island, central South Atlantic Ocean, with notes on Nightingale Island|journal=Bothalia|date=1992|volume=22|issue=1|pages=93–109|doi=10.4102/abc.v22i1.828 |doi-access=free}} The Inaccessible Island rail can also be found in upland fern-bush heath, dominated by wind-stunted tree-ferns (Blechnum palmiforme) and in the island forest in the central plateau which is dominated by Island Cape myrtle (Phylica arborea)—which can reach where sheltered—and Blechnum palmiforme. In both these habitats the population is estimated to be two birds per hectare. It will also forage among boulders on the beaches, but has not been found in the short dry grasses on the cinder cones (the scientists making the observations cautioned that this does not mean that they never use the habitat). It frequently uses natural cavities among boulders or tunnels through grasses created by frequent use to move around while concealed",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-荒岛秧鸡-a796f3f0",
+      "subject": "荒岛秧鸡",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It reaches its highest densities in fields of tussock grass (Spartina arundinacea), with 10 birds per hectare, and in tussock grass mixed with ferns (Blechnum penna-marina) and sedges, with 15 birds per hectare. This habitat is found close to the shore and surrounds most of the island on the steep cliffs.{{cite journal|last1=Roux|first1=J",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-荒岛秧鸡-a796f3f0",
+      "subject": "荒岛秧鸡",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-荒岛秧鸡-a796f3f0",
+      "subject": "荒岛秧鸡",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is nevertheless considered vulnerable by the International Union for Conservation of Nature (IUCN), due to its single small population, which would be threatened by the accidental introduction of mammalian predators such as rats or cats",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

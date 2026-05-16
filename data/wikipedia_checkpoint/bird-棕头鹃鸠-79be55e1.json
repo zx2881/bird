@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:04:04",
+  "requested_title": "Little Cuckoo-Dove",
+  "resolved_title": "Little cuckoo-dove",
+  "title_aliases": [
+    "Little Cuckoo-Dove"
+  ],
+  "bird_id": "bird-棕头鹃鸠-79be55e1",
+  "raw_file": "bird-棕头鹃鸠-79be55e1.json",
+  "bird": {
+    "id": "bird-棕头鹃鸠-79be55e1",
+    "name": "棕头鹃鸠",
+    "english_name": "Little cuckoo-dove",
+    "latin_name": "Macropygia ruficeps",
+    "summary": "棕头鹃鸠（学名：Macropygia ruficeps）为鸠鸽科鹃鸠属的鸟类，俗名小鹃鸠。分布于缅甸、中南半岛、马来西亚、印度尼西亚以及中国大陆的云南等地，多生活于海拔600米以上的山林间。该物种的模式产地在印度尼西亚爪哇。 保护 中国国家重点保护动物等级：二级 亚种 棕头鹃鸠…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Macropygia-ruficeps-little-cuckoo-dove.jpg/960px-Macropygia-ruficeps-little-cuckoo-dove.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "name": "國際自然保護聯盟瀕危物種紅色名錄",
+      "summary": "國際自然保護聯盟瀕危物種紅色名錄（或稱IUCN紅色名錄，簡稱紅皮書）於1963年開始編製，是全球動植物物種保護現狀最全面的名錄。此名錄由國際自然保護聯盟編製及維護。 IUCN紅色名錄是根據嚴格準則去評估數以千計物種及亞種的絕種風險所編製而…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕头鹃鸠-79be55e1",
+      "subject": "棕头鹃鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "object": "國際自然保護聯盟瀕危物種紅色名錄",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a reddish brown pigeon, and is found in Brunei, China, Indonesia, Laos, Malaysia, Myanmar, Thailand, and Vietnam. It is listed as a species of&nbsp;least concern&nbsp;on the&nbsp;International Union for Conservation of Nature Red List&nbsp;of Endangered Species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头鹃鸠-79be55e1",
+      "subject": "棕头鹃鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Southwards, it is&nbsp;found in drier forests and in adjacent areas of second-growth forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头鹃鸠-79be55e1",
+      "subject": "棕头鹃鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

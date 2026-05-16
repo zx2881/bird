@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:33:34",
+  "requested_title": "Tibetan Snowcock",
+  "resolved_title": "Tibetan snowcock",
+  "title_aliases": [
+    "Tibetan Snowcock"
+  ],
+  "bird_id": "bird-藏雪鸡-8d5fb776",
+  "raw_file": "bird-藏雪鸡-8d5fb776.json",
+  "bird": {
+    "id": "bird-藏雪鸡-8d5fb776",
+    "name": "藏雪鸡",
+    "english_name": "Tibetan snowcock",
+    "latin_name": "Tetraogallus tibetanus",
+    "summary": "藏雪鸡（学名：Tetraogallus tibetanus）为雉科雪鸡属的鸟类，俗名淡腹雪鸡、西藏雪雷鸟、恐姆、雪鸡。分布于帕米尔高原西部的苏联、克什米尔东部、尼泊尔、锡金、不丹以及中国大陆的新疆、帕米尔高原、东至甘肃、南达西藏喜马拉雅、四川等地，多见于高山裸石、高山灌丛以及高…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Tetraogallus_tibetanus.jpg/960px-Tetraogallus_tibetanus.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "巴基斯坦伊斯兰共和国（乌尔都语：اسلامی جمہوریہ پاکستان‬；英语：Islamic Republic of Pakistan），通称巴基斯坦，位于南亚，东与印度比邻，南面是印度洋，西与伊朗接壤，西北和阿富汗相連，東北与中…",
+      "lat": "30",
+      "lng": "70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-藏雪鸡-8d5fb776",
+      "subject": "藏雪鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in high-altitude regions of the Western Himalayas and the Tibetan Plateau, where it overlaps in part with the larger Himalayan snowcock",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藏雪鸡-8d5fb776",
+      "subject": "藏雪鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|A foraging group in Ladakh Tibetan snowcock are found on alpine pastures stony ridges above the tree line in the Pamirs of Tajikistan, Himalayas (from Ladakh to Arunachal Pradesh), Tibet, Pakistan and China. They are found in lower altitudes during winter or when there is heavy snowfall",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藏雪鸡-8d5fb776",
+      "subject": "藏雪鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

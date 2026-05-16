@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:04:13",
+  "requested_title": "Mexican Violetear",
+  "resolved_title": "Mexican violetear",
+  "title_aliases": [
+    "Mexican Violetear"
+  ],
+  "bird_id": "bird-綠紫耳蜂鳥-072fde90",
+  "raw_file": "bird-綠紫耳蜂鳥-072fde90.json",
+  "bird": {
+    "id": "bird-綠紫耳蜂鳥-072fde90",
+    "name": "綠紫耳蜂鳥",
+    "english_name": "Mexican violetear",
+    "latin_name": "Colibri thalassinus",
+    "summary": "綠紫耳蜂鳥（学名：Colibri thalassinus），又名綠色紫耳蜂鳥，是一種很吸引人的蜂鳥，分佈在墨西哥中南部至巴拿馬西部的高原，並委內瑞拉北部至玻利維亞的安地斯山脈。牠們會有季節性的遷徙，前往至美國及加拿大。 雄性的綠紫耳蜂鳥背部呈草綠色，臀部及上尾巴羽毛呈褐色，長約…",
+    "lat": "23",
+    "lng": "-102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/GreenVioletear.jpg/960px-GreenVioletear.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-william-swainson-ccfed77b",
+      "name": "William Swainson",
+      "summary": "William Swainson FLS, FRS (8 October 1789 – 6 December 1855), was an English ornithologist, malacologist, conchologist,…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-尼加拉瓜-7d1016c5",
+      "name": "尼加拉瓜",
+      "summary": "尼加拉瓜共和国（西班牙語：República de Nicaragua），通稱尼加拉瓜（西班牙語：Nicaragua），是位於中美洲的一個國家，為中美地峡面積最大的國家，其首都為馬納瓜。地理上北鄰洪都拉斯，南邊是哥斯達黎加，東臨加勒比海、…",
+      "lat": "13",
+      "lng": "-85"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-綠紫耳蜂鳥-072fde90",
+      "subject": "綠紫耳蜂鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-william-swainson-ccfed77b",
+      "object": "William Swainson",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mexican violetear (Colibri thalassinus) is a medium-sized, metallic green hummingbird species commonly found in forested areas from Mexico to Nicaragua",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-綠紫耳蜂鳥-072fde90",
+      "subject": "綠紫耳蜂鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mexican violetear (Colibri thalassinus) is a medium-sized, metallic green hummingbird species commonly found in forested areas from Mexico to Nicaragua",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-綠紫耳蜂鳥-072fde90",
+      "subject": "綠紫耳蜂鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼加拉瓜-7d1016c5",
+      "object": "尼加拉瓜",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mexican violetear (Colibri thalassinus) is a medium-sized, metallic green hummingbird species commonly found in forested areas from Mexico to Nicaragua",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-綠紫耳蜂鳥-072fde90",
+      "subject": "綠紫耳蜂鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

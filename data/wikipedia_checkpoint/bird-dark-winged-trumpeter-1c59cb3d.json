@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:00:10",
+  "requested_title": "Dark-winged Trumpeter",
+  "resolved_title": "Dark-winged trumpeter",
+  "title_aliases": [
+    "Dark-winged Trumpeter"
+  ],
+  "bird_id": "bird-dark-winged-trumpeter-1c59cb3d",
+  "raw_file": "bird-dark-winged-trumpeter-1c59cb3d.json",
+  "bird": {
+    "id": "bird-dark-winged-trumpeter-1c59cb3d",
+    "name": "Dark-winged trumpeter",
+    "english_name": "Dark-winged trumpeter",
+    "latin_name": "Psophia viridis",
+    "summary": "The dark-winged trumpeter or green-winged trumpeter (Psophia viridis) is a species of bird in the family Psophiidae. It is endemic to Brazi…",
+    "lat": "-2.3096",
+    "lng": "-54.8881",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Psophia_viridis_Spix_Avium_Species_Novae.jpg/960px-Psophia_viridis_Spix_Avium_Species_Novae.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dark-winged-trumpeter-1c59cb3d",
+      "subject": "Dark-winged trumpeter",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The dark-winged trumpeter is found in the Amazon Basin of Brazil south of the Amazon River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dark-winged-trumpeter-1c59cb3d",
+      "subject": "Dark-winged trumpeter",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-dark-winged-trumpeter-1c59cb3d",
+      "subject": "Dark-winged trumpeter",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population sizes of these two are unknown and believed to be decreasing due to deforestation and hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-dark-winged-trumpeter-1c59cb3d",
+      "subject": "Dark-winged trumpeter",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population sizes of these two are unknown and believed to be decreasing due to deforestation and hunting",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

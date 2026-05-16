@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:03:10",
+  "requested_title": "Zino's Petrel",
+  "resolved_title": "Zino's petrel",
+  "title_aliases": [
+    "Zino's Petrel"
+  ],
+  "bird_id": "bird-zino-s-petrel-eb6fbf94",
+  "raw_file": "bird-zino-s-petrel-eb6fbf94.json",
+  "bird": {
+    "id": "bird-zino-s-petrel-eb6fbf94",
+    "name": "Zino's petrel",
+    "english_name": "Zino's petrel",
+    "latin_name": "Pterodroma madeira",
+    "summary": "Zino's petrel (Pterodroma madeira) or the freira, is a species of small seabird in the gadfly petrel genus, endemic to the island of Madeir…",
+    "lat": "33.06194444",
+    "lng": "-16.35638889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Pterodroma_madeira_92954030_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣港-613dd3d9",
+      "name": "圣港",
+      "summary": "圣港（葡萄牙語：Porto Santo）是葡萄牙马德拉自治区的市镇，位于马德拉群岛圣港岛及周边小岛。市镇面积为42,48平方公里，2021年人口数量为5,158人。该市镇只包括一个同名堂区，主要聚居地为巴莱拉镇。 参考文献",
+      "lat": "33.06194444",
+      "lng": "-16.35638889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-zino-s-petrel-eb6fbf94",
+      "subject": "Zino's petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣港-613dd3d9",
+      "object": "圣港",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was formerly more widespread, since subfossil remains have been found in a cave in eastern Madeira, and on nearby Porto Santo Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-zino-s-petrel-eb6fbf94",
+      "subject": "Zino's petrel",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

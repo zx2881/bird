@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:53:40",
+  "requested_title": "Yellow Bittern",
+  "resolved_title": "Yellow bittern",
+  "title_aliases": [
+    "Yellow Bittern"
+  ],
+  "bird_id": "bird-黃葦鳽-037d4ec0",
+  "raw_file": "bird-黃葦鳽-037d4ec0.json",
+  "bird": {
+    "id": "bird-黃葦鳽-037d4ec0",
+    "name": "黃葦鳽",
+    "english_name": "Yellow bittern",
+    "latin_name": "Botaurus sinensis",
+    "summary": "黄苇𫛚（学名：Ixobrychus sinensis）又名小黄鹭或黃葦鷺，俗稱水骆驼或小老等，閩南語又稱田缺了或田缺仔，为鹭科葦鷺屬的鸟类。分布于日本、印度、巽他群岛、菲律宾群岛、臺灣、香港,以及中國广东、海南、黑龙江、吉林、辽宁、河北、河南、湖北、浙江、陕西、甘肃、四川、云南…",
+    "lat": "36",
+    "lng": "138",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ixobrychus_sinensis_-_Chinese_Garden.jpg/960px-Ixobrychus_sinensis_-_Chinese_Garden.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-俄羅斯遠東地區-53945c47",
+      "name": "俄羅斯遠東地區",
+      "summary": "俄羅斯遠東地區（俄語：Дальний Восток России，羅馬化：Dalny Vostok Rossii，發音：[ˈdalʲnʲɪj vɐˈstok rɐˈsʲii]），位於俄羅斯東部，為西伯利亞貝加爾湖東部與太平洋之間；其中所屬…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-日本-4dbed2e6",
+      "name": "日本",
+      "summary": "日本國（日語：日本国〔日本國〕／にっぽんこく／にほんこく，羅馬化：nippon koku/nihon koku），通稱日本，是位於東亞的島嶼國家。國土全境由北海道、本州、四國、九州等本土四島為基礎的14,125座島嶼組成，周圍被太平洋及鄂…",
+      "lat": "36",
+      "lng": "138"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黃葦鳽-037d4ec0",
+      "subject": "黃葦鳽",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄羅斯遠東地區-53945c47",
+      "object": "俄羅斯遠東地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sinensis }} The yellow bittern (Botaurus sinensis) is a small bittern of Old World origins that breeds in the northern Indian subcontinent, east to the Russian Far East, Japan, and Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃葦鳽-037d4ec0",
+      "subject": "黃葦鳽",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本-4dbed2e6",
+      "object": "日本",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sinensis }} The yellow bittern (Botaurus sinensis) is a small bittern of Old World origins that breeds in the northern Indian subcontinent, east to the Russian Far East, Japan, and Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃葦鳽-037d4ec0",
+      "subject": "黃葦鳽",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sinensis }} The yellow bittern (Botaurus sinensis) is a small bittern of Old World origins that breeds in the northern Indian subcontinent, east to the Russian Far East, Japan, and Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃葦鳽-037d4ec0",
+      "subject": "黃葦鳽",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "right|thumb|Egg, Collection Museum Wiesbaden The yellow bittern lives in freshwater marshes and swamps. It nests in small constructed platforms of reeds or twigs in the vegetation of reed beds or in trees and shrubs adjacent to or above water. There has been a single sighting in Great Britain at Radipole Lake in November 1962",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-黃葦鳽-037d4ec0",
+      "subject": "黃葦鳽",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

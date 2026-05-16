@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:16:16",
+  "requested_title": "White-headed Pigeon",
+  "resolved_title": "White-headed pigeon",
+  "title_aliases": [
+    "White-headed Pigeon"
+  ],
+  "bird_id": "bird-白头鸽-d383713c",
+  "raw_file": "bird-白头鸽-d383713c.json",
+  "bird": {
+    "id": "bird-白头鸽-d383713c",
+    "name": "白头鸽",
+    "english_name": "White-headed pigeon",
+    "latin_name": "Columba leucomela",
+    "summary": "白头鸽（学名：Columba leucomela）是鸽形目鸠鸽科鸽属的一种鸟类。其最显著的特征为白色头部、颈部、胸部和腹部，与黑灰色翅膀和尾羽形成鲜明对比。白头鸽分布于澳大利亚东海岸，从昆士兰州库克镇延伸至新南威尔士州伊登，偶尔可见于维多利亚州东南部。 特征 白头鸽体长约38至…",
+    "lat": "-15.4722",
+    "lng": "145.2522",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Columba_leucomela_-_Brunkerville.jpg/960px-Columba_leucomela_-_Brunkerville.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "name": "昆拉德·雅各布·特明克",
+      "summary": "昆拉德·雅各布·特明克（荷蘭語：Coenraad Jacob Temminck，1778年3月31日—1858年1月30日）是一名荷蘭貴族和動物學家。 生平 特明克於阿姆斯特丹出生，1820年出任位於萊頓的國家自然歷史博物館，直至去世。他…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-庫克敦-838d6bea",
+      "name": "庫克敦",
+      "summary": "庫克敦(英語：Cooktown)，是澳洲昆士蘭州庫克郡的一個城鎮，濱臨珊瑚海，面向大堡礁。該城位處首府布里斯本北方約2000公里，凱恩斯以北331公里處。在2011年人口普查時有人口2339人。 庫克敦位處遠北昆士蘭約克角半島奮進河河口處…",
+      "lat": "-15.4722",
+      "lng": "145.2522"
+    },
+    {
+      "id": "loc-新南威爾士州-7a88cf32",
+      "name": "新南威爾士州",
+      "summary": "新南威爾斯州（英語：New South Wales，缩写为NSW），或譯紐修威省，简称新州、紐省，是澳洲人口最多的一州；位於澳洲的東南部，昆士兰州以南、维多利亞州以北，南澳州以東，首府在悉尼，境內包圍整個澳洲首都領地。新南威爾斯今劃分為1…",
+      "lat": "-32",
+      "lng": "147"
+    },
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白头鸽-d383713c",
+      "subject": "白头鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "object": "昆拉德·雅各布·特明克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-headed pigeon (Columba leucomela) is a pigeon native to the east coast of Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鸽-d383713c",
+      "subject": "白头鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-庫克敦-838d6bea",
+      "object": "庫克敦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pigeon's habitat is from Cooktown, Queensland to southern New South Wales, with increasing numbers now found in eastern Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鸽-d383713c",
+      "subject": "白头鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-新南威爾士州-7a88cf32",
+      "object": "新南威爾士州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pigeon's habitat is from Cooktown, Queensland to southern New South Wales, with increasing numbers now found in eastern Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鸽-d383713c",
+      "subject": "白头鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can commonly be found in tropical regions, subtropical rainforest, scrub, watercourses and street trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鸽-d383713c",
+      "subject": "白头鸽",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

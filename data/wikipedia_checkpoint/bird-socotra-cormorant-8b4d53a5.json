@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:34:11",
+  "requested_title": "Socotra Cormorant",
+  "resolved_title": "Socotra cormorant",
+  "title_aliases": [
+    "Socotra Cormorant"
+  ],
+  "bird_id": "bird-socotra-cormorant-8b4d53a5",
+  "raw_file": "bird-socotra-cormorant-8b4d53a5.json",
+  "bird": {
+    "id": "bird-socotra-cormorant-8b4d53a5",
+    "name": "Socotra cormorant",
+    "english_name": "Socotra cormorant",
+    "latin_name": "Phalacrocorax nigrogularis",
+    "summary": "The Socotra cormorant (Phalacrocorax nigrogularis) is a threatened species of cormorant that is endemic to the Persian Gulf and the south-e…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Socotra_Cormorant.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海湾战争-6b96a6bd",
+      "name": "海湾战争",
+      "summary": "海灣戰爭（英語：Gulf War；阿拉伯語：حرب الخليج الثانية）又稱第一次波斯灣戰爭，是指1990年8月2日至1991年2月28日期間，由美国领导的35個國家組成的聯軍和伊拉克之間的一場局部戰爭。前期部队集合期间代号沙漠…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-socotra-cormorant-8b4d53a5",
+      "subject": "Socotra cormorant",
+      "predicate": "distributed_in",
+      "object_id": "loc-海湾战争-6b96a6bd",
+      "object": "海湾战争",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "During the First Gulf War, images of badly oiled cormorants from the Gulf were regularly shown in the western media, and although the great cormorant is also found in the Persian Gulf, it is likely that many of these were Socotra cormorants",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-socotra-cormorant-8b4d53a5",
+      "subject": "Socotra cormorant",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-socotra-cormorant-8b4d53a5",
+      "subject": "Socotra cormorant",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Since 2000, this species has been listed as Vulnerable on the IUCN Red List, on the grounds of its small number of breeding localities and ongoing rapid decline. The decline is caused by coastal development, disturbance and marine pollution near its nesting colonies; in 2000 it was estimated that the world population was about 110,000 breeding pairs or 330,000–500,000 individual birds. The only protected nesting colony in the Persian Gulf is one of about 30,000 pairs on the Bahraini Hawar Islands off the coast of Qatar, and this is a Ramsar Convention listed site.Bahrain Bird Report",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    },
+    {
+      "subject_id": "bird-socotra-cormorant-8b4d53a5",
+      "subject": "Socotra cormorant",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Since 2000, this species has been listed as Vulnerable on the IUCN Red List, on the grounds of its small number of breeding localities and ongoing rapid decline. The decline is caused by coastal development, disturbance and marine pollution near its nesting colonies; in 2000 it was estimated that the world population was about 110,000 breeding pairs or 330,000–500,000 individual birds. The only protected nesting colony in the Persian Gulf is one of about 30,000 pairs on the Bahraini Hawar Islands off the coast of Qatar, and this is a Ramsar Convention listed site.Bahrain Bird Report",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

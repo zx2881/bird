@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:15:05",
+  "requested_title": "Violet-throated Starfrontlet",
+  "resolved_title": "Violet-throated starfrontlet",
+  "title_aliases": [
+    "Violet-throated Starfrontlet"
+  ],
+  "bird_id": "bird-紫喉星额蜂鸟-611845a6",
+  "raw_file": "bird-紫喉星额蜂鸟-611845a6.json",
+  "bird": {
+    "id": "bird-紫喉星额蜂鸟-611845a6",
+    "name": "紫喉星额蜂鸟",
+    "english_name": "Violet-throated starfrontlet",
+    "latin_name": "Coeligena violifer",
+    "summary": "紫喉星额蜂鸟（学名：Coeligena violifer），是雨燕目蜂鸟科的一种鸟类。 紫喉星额蜂鸟体重约7.39克，翼长约73.2毫米，嘴峰长约38.9毫米，喙宽度约3毫米，喙厚度约2.5毫米，跗蹠长约5.1毫米，尾长约50.4毫米。紫喉星额蜂鸟在其分布区内为留鸟，其栖息在密…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Coeligena_violifer_106475417.jpg/960px-Coeligena_violifer_106475417.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫喉星额蜂鸟-611845a6",
+      "subject": "紫喉星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru and possibly Ecuador.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫喉星额蜂鸟-611845a6",
+      "subject": "紫喉星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru and possibly Ecuador.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫喉星额蜂鸟-611845a6",
+      "subject": "紫喉星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru and possibly Ecuador.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫喉星额蜂鸟-611845a6",
+      "subject": "紫喉星额蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

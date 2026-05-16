@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:42:08",
+  "requested_title": "Asian Houbara",
+  "resolved_title": "Asian houbara",
+  "title_aliases": [
+    "Asian Houbara"
+  ],
+  "bird_id": "bird-波斑鸨-a55a6269",
+  "raw_file": "bird-波斑鸨-a55a6269.json",
+  "bird": {
+    "id": "bird-波斑鸨-a55a6269",
+    "name": "波斑鸨",
+    "english_name": "Asian houbara",
+    "latin_name": "Chlamydotis macqueenii",
+    "summary": "波斑鴇（Chlamydotis macqueenii）是一種大型的鴇，分佈在亞洲西南部。牠們起初是翎頜鴇的亞種，現被重新分類為獨立的物種。波斑鴇與翎頜鴇的分界位於西奈半島。 特徵 波斑鴇長60厘米，翼展140厘米。上身呈褐色，下身白色，頸側有黑紋。牠們飛行時可以見到翼上的黑色及…",
+    "lat": "29.5",
+    "lng": "33.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/MacQueens_Bustard_in_Greater_Rann_of_Kutch%2C_Gujarat%2C_India.jpg/960px-MacQueens_Bustard_in_Greater_Rann_of_Kutch%2C_Gujarat%2C_India.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西奈半島-a56d6ca5",
+      "name": "西奈半島",
+      "summary": "西奈半島（阿拉伯語：شبه جزيرة سيناء；英語：Sinai Peninsula）是一块亚洲西端的三角形半岛，北接地中海南鄰红海，数千年來始終為埃及方面的軍事重地。總面積為6萬平方公里，總人口有60萬人。半島之西為苏伊士运河，东北…",
+      "lat": "29.5",
+      "lng": "33.8"
+    },
+    {
+      "id": "loc-伊朗-b572d23a",
+      "name": "伊朗",
+      "summary": "伊朗伊斯蘭共和國（波斯語：جمهوری اسلامی ایران，Jomhuriye Eslâmiye Irân，[dʒomhuːˌɾije eslɒːˌmije ʔiːˈɾɒn]），通称伊朗（波斯語：ایران，Irān，[ʔiːˈɾɒ…",
+      "lat": "32",
+      "lng": "53"
+    },
+    {
+      "id": "loc-沙特阿拉伯-bb57c647",
+      "name": "沙特阿拉伯",
+      "summary": "沙烏地阿拉伯王國（阿拉伯語：المملكة العربية السعودية，羅馬化：al-Mamlakah ʿArabīyah as-Suʿūdīyah，），簡稱沙烏地阿拉伯或沙烏地（السُّعُودِيَّة），是位於西亞阿拉伯半島…",
+      "lat": "24",
+      "lng": "45"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-波斑鸨-a55a6269",
+      "subject": "波斑鸨",
+      "predicate": "distributed_in",
+      "object_id": "loc-西奈半島-a56d6ca5",
+      "object": "西奈半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the desert and steppe regions of Asia, west from the Sinai Peninsula extending across Iran and further north toward Kazakhstan and Mongolia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-波斑鸨-a55a6269",
+      "subject": "波斑鸨",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊朗-b572d23a",
+      "object": "伊朗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the desert and steppe regions of Asia, west from the Sinai Peninsula extending across Iran and further north toward Kazakhstan and Mongolia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-波斑鸨-a55a6269",
+      "subject": "波斑鸨",
+      "predicate": "distributed_in",
+      "object_id": "loc-沙特阿拉伯-bb57c647",
+      "object": "沙特阿拉伯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its habitat in Saudi Arabia is very dependent on good vegetation cover and tended to be found in areas with dense growth of scrub vegetation, particularly Capparis spinosa.{{cite journal |first1=F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-波斑鸨-a55a6269",
+      "subject": "波斑鸨",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|last4=Aspinall |title=Habitat use by houbara bustard (Chlamydotis undulata macqueenii) in arid shrubland in the United Arab Emirates |journal=Journal of Arid Environments |volume=35 |issue=1 |year=1997 |pages=111–121 |doi=10.1006/jare.1995.0136 |bibcode=1997JArEn..35..111L}}{{cite journal |first1=Patrick E",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-波斑鸨-a55a6269",
+      "subject": "波斑鸨",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-波斑鸨-a55a6269",
+      "subject": "波斑鸨",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Populations have decreased by 20–50% between 1984 and 2004 mainly due to hunting and changes in land-use",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-波斑鸨-a55a6269",
+      "subject": "波斑鸨",
+      "predicate": "threatened_by",
+      "object_id": "threat-powerline-collision",
+      "object": "电线碰撞",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In addition, power line collisions are a significant and previously underreported threat along the Central Asian Flyway migration route in Uzbekistan.{{cite journal |last1=Kashkarov |first1=R",
+      "object_summary": "大型鸟类在飞行中与输电设施碰撞的风险。"
+    },
+    {
+      "subject_id": "bird-波斑鸨-a55a6269",
+      "subject": "波斑鸨",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "|year=2024|title=Effectiveness of spiral diverters in preventing Asian Houbara power line collisions in Abbas Abad Wildlife Refuge, Iran |journal=Ecopersia |volume=12 |issue=4 |pages=407–414 |doi=10.22034/ECOPERSIA.12.4.405}} They also are at considerable risk during migration from heavy poaching as well as a lack of suitable habitats along their migration routes due to development.{{cite journal |last1=Tourenq |first1=C",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    }
+  ]
+}

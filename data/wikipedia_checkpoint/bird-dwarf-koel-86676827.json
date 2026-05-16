@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:21:11",
+  "requested_title": "Dwarf Koel",
+  "resolved_title": "Dwarf koel",
+  "title_aliases": [
+    "Dwarf Koel"
+  ],
+  "bird_id": "bird-dwarf-koel-86676827",
+  "raw_file": "bird-dwarf-koel-86676827.json",
+  "bird": {
+    "id": "bird-dwarf-koel-86676827",
+    "name": "Dwarf koel",
+    "english_name": "Dwarf koel",
+    "latin_name": "Microdynamis parva",
+    "summary": "The dwarf koel (Microdynamis parva) is a species of cuckoo in the family Cuculidae. It is monotypic within the genus Microdynamis.",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Microdynamis_parva_-_Joseph_Morlan_-_338961832.jpeg/960px-Microdynamis_parva_-_Joseph_Morlan_-_338961832.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dwarf-koel-86676827",
+      "subject": "Dwarf koel",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is monotypic within the genus Microdynamis. It is found in New Guinea, where its natural habitat is subtropical or tropical moist lowland forests. Its closest relatives are the Eudynamys (the true koels).Sorenson, Michael D.; [[Robert B",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dwarf-koel-86676827",
+      "subject": "Dwarf koel",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is monotypic within the genus Microdynamis. It is found in New Guinea, where its natural habitat is subtropical or tropical moist lowland forests. Its closest relatives are the Eudynamys (the true koels).Sorenson, Michael D.; [[Robert B",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dwarf-koel-86676827",
+      "subject": "Dwarf koel",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

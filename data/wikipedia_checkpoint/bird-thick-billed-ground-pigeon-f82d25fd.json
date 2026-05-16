@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:30:12",
+  "requested_title": "Thick-billed Ground Pigeon",
+  "resolved_title": "Thick-billed ground pigeon",
+  "title_aliases": [
+    "Thick-billed Ground Pigeon"
+  ],
+  "bird_id": "bird-thick-billed-ground-pigeon-f82d25fd",
+  "raw_file": "bird-thick-billed-ground-pigeon-f82d25fd.json",
+  "bird": {
+    "id": "bird-thick-billed-ground-pigeon-f82d25fd",
+    "name": "Thick-billed ground pigeon",
+    "english_name": "Thick-billed ground pigeon",
+    "latin_name": "Trugon terrestris",
+    "summary": "The thick-billed ground pigeon (Trugon terrestris), also known as the jungle pigeon or the slaty/grey ground pigeon, is a species of bird i…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Trugon.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-thick-billed-ground-pigeon-f82d25fd",
+      "subject": "Thick-billed ground pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Native to New Guinea, its natural habitat is moist tropical lowland forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-thick-billed-ground-pigeon-f82d25fd",
+      "subject": "Thick-billed ground pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Native to New Guinea, its natural habitat is moist tropical lowland forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-thick-billed-ground-pigeon-f82d25fd",
+      "subject": "Thick-billed ground pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

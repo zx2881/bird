@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:04:22",
+  "requested_title": "Purple Heron",
+  "resolved_title": "Purple heron",
+  "title_aliases": [
+    "Purple Heron"
+  ],
+  "bird_id": "bird-草鹭-eb76e86f",
+  "raw_file": "bird-草鹭-eb76e86f.json",
+  "bird": {
+    "id": "bird-草鹭-eb76e86f",
+    "name": "草鹭",
+    "english_name": "Purple heron",
+    "latin_name": "Ardea purpurea",
+    "summary": "草鹭（学名：Ardea purpurea）为鹭科蒼鷺屬的鸟类，又名紫鹭，俗稱花窖马、柴鹭或长脖佬。是一種分布廣泛的鷺。牠們在非洲、歐洲中部和南部，以及古北界南部和東部繁殖。西古北界的族群會在繁殖和越冬地之間遷徙，而非洲和熱帶亞洲的族群主要是留鳥，除了偶爾的散布移動。 牠們的外觀…",
+    "lat": "18.97",
+    "lng": "72.82",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Purple_heron_-_Vadodara_2022-01-08.jpg/960px-Purple_heron_-_Vadodara_2022-01-08.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马哈拉施特拉邦-3ae1b510",
+      "name": "马哈拉施特拉邦",
+      "summary": "马哈拉施特拉邦（馬拉提語：महाराष्ट्र，發音：[məhaːɾaːʂʈɾə] ；印地語：महाराष्ट्र；拉丁字母转写：mahārāṣṭra），古稱摩訶剌侘國，「馬哈拉施特拉」在印地語的意思是「偉大的民族」。该邦位於印度中部，西…",
+      "lat": "18.97",
+      "lng": "72.82"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-草鹭-eb76e86f",
+      "subject": "草鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-马哈拉施特拉邦-3ae1b510",
+      "object": "马哈拉施特拉邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "manilensis, Maharashtra, India]] The purple heron has a mostly palaearctic distribution and breeds in Europe, Asia and Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-草鹭-eb76e86f",
+      "subject": "草鹭",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The African birds are resident. The purple heron inhabits marshes, lagoons and lakes surrounded by dense vegetation",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-草鹭-eb76e86f",
+      "subject": "草鹭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-草鹭-eb76e86f",
+      "subject": "草鹭",
+      "predicate": "threatened_by",
+      "object_id": "threat-wetland-drainage",
+      "object": "湿地排水",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The International Union for Conservation of Nature notes that the global population trend is downwards, largely because of the drainage of wetlands, but assesses the purple heron's conservation status as being of \"least concern\"",
+      "object_summary": "湿地被排干转为农业或建设用地。"
+    },
+    {
+      "subject_id": "bird-草鹭-eb76e86f",
+      "subject": "草鹭",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The chief threat is drainage and disturbance of wetland habitats, particularly destruction of reed beds. The purple heron is one of the species to which the Agreement on the Conservation of African-Eurasian Migratory Waterbirds (AEWA) applies",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

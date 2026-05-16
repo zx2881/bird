@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:26:54",
+  "requested_title": "Grey Junglefowl",
+  "resolved_title": "Grey junglefowl",
+  "title_aliases": [
+    "Grey Junglefowl"
+  ],
+  "bird_id": "bird-灰原雞-0cde9f54",
+  "raw_file": "bird-灰原雞-0cde9f54.json",
+  "bird": {
+    "id": "bird-灰原雞-0cde9f54",
+    "name": "灰原雞",
+    "english_name": "Grey junglefowl",
+    "latin_name": "Gallus sonneratii",
+    "summary": "The grey junglefowl (Gallus sonneratii), also known as Sonnerat's junglefowl, is one of the wild ancestors of the domestic chicken together…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Gallus_sonneratii_%28Bandipur%29%2C_crop.jpg/960px-Gallus_sonneratii_%28Bandipur%29%2C_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-阿拉瓦利嶺-3e46bf4d",
+      "name": "阿拉瓦利嶺",
+      "summary": "阿拉瓦利嶺（印地語：अरावली Arāvalī，英語：Aravalli Range），又译阿拉瓦利山脉，是印度的山脈，全長約800公里，橫跨古吉拉特邦、拉賈斯坦邦、哈里亞納邦和德里，最高點海拔高度1,722米，山體由變質岩組成。 参考文…",
+      "lat": "25",
+      "lng": "73.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰原雞-0cde9f54",
+      "subject": "灰原雞",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red junglefowl is found more along the foothills of the Himalayas; a region of overlap occurs in the Aravalli range. although the ranges are largely non-overlapping",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰原雞-0cde9f54",
+      "subject": "灰原雞",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉瓦利嶺-3e46bf4d",
+      "object": "阿拉瓦利嶺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red junglefowl is found more along the foothills of the Himalayas; a region of overlap occurs in the Aravalli range. although the ranges are largely non-overlapping",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰原雞-0cde9f54",
+      "subject": "灰原雞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

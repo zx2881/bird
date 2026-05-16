@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:23:11",
+  "requested_title": "New Guinea Woodcock",
+  "resolved_title": "Javan woodcock",
+  "title_aliases": [
+    "Javan Woodcock",
+    "New Guinea Woodcock"
+  ],
+  "bird_id": "bird-javan-woodcock-02c18490",
+  "raw_file": "bird-javan-woodcock-02c18490.json",
+  "bird": {
+    "id": "bird-javan-woodcock-02c18490",
+    "name": "Javan woodcock",
+    "english_name": "Javan woodcock",
+    "latin_name": "Scolopax saturata",
+    "summary": "The Javan woodcock (Scolopax saturata) is a small, long-billed bird in the family Scolopacidae. It is dark brown with a patterned back and…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Javan_Woodcock%2C_Gunung_Gede_Pangrango_NP%2C_Jawa_Barat%2C_Jawa_Indonesia.jpg/960px-Javan_Woodcock%2C_Gunung_Gede_Pangrango_NP%2C_Jawa_Barat%2C_Jawa_Indonesia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-javan-woodcock-02c18490",
+      "subject": "Javan woodcock",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Sumatra and Java, where it inhabits montane forests at the elevation range of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-javan-woodcock-02c18490",
+      "subject": "Javan woodcock",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Sumatra and Java, where it inhabits montane forests at the elevation range of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-javan-woodcock-02c18490",
+      "subject": "Javan woodcock",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is endemic to Sumatra and Java, where it inhabits montane forests at the elevation range of",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-javan-woodcock-02c18490",
+      "subject": "Javan woodcock",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Javan woodcock is endemic to the Indonesian islands of Sumatra and Java, where it inhabits moist montane forests at an elevation range of",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-javan-woodcock-02c18490",
+      "subject": "Javan woodcock",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-javan-woodcock-02c18490",
+      "subject": "Javan woodcock",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Javan woodcock has been declared as \"Near Threatened\" as of 2023. It has a small population size and is composed of many isolated subpopulations. Its limited range is currently affected by gradual loss of its forest habitats due to threats such as logging and agricultural expansion encroaching on the woodcock's territory",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-javan-woodcock-02c18490",
+      "subject": "Javan woodcock",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Javan woodcock has been declared as \"Near Threatened\" as of 2023. It has a small population size and is composed of many isolated subpopulations. Its limited range is currently affected by gradual loss of its forest habitats due to threats such as logging and agricultural expansion encroaching on the woodcock's territory",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

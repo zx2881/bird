@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:45:38",
+  "requested_title": "Jerdon's Courser",
+  "resolved_title": "Jerdon's courser",
+  "title_aliases": [
+    "Jerdon's Courser"
+  ],
+  "bird_id": "bird-jerdon-s-courser-812e9a71",
+  "raw_file": "bird-jerdon-s-courser-812e9a71.json",
+  "bird": {
+    "id": "bird-jerdon-s-courser-812e9a71",
+    "name": "Jerdon's courser",
+    "english_name": "Jerdon's courser",
+    "latin_name": "Rhinoptilus bitorquatus",
+    "summary": "Jerdon's courser (Rhinoptilus bitorquatus) is a nocturnal bird belonging to the pratincole and courser family Glareolidae endemic to India.…",
+    "lat": "14.6",
+    "lng": "78.88333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/JC_PJ.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-sri-lankamalleswara-wildlife-sanctuary-1597887a",
+      "name": "Sri Lankamalleswara Wildlife Sanctuary",
+      "summary": "Sri Lankamalleswara Wildlife Sanctuary is a wildlife sanctuary headquartered in Kadapa, Andhra Pradesh, India.",
+      "lat": "14.6",
+      "lng": "78.88333333"
+    },
+    {
+      "id": "loc-sri-penusila-narasimha-wildlife-sanctuary-8c3c58d4",
+      "name": "Sri Penusila Narasimha Wildlife Sanctuary",
+      "summary": "Sri Penusila Narasimha Wildlife Sanctuary is a 1,030.85 km2 (398.01 sq mi) protected area in Nellore, Tirupati and Kada…",
+      "lat": "14.00916667",
+      "lng": "79.46388889"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-jerdon-s-courser-812e9a71",
+      "subject": "Jerdon's courser",
+      "predicate": "distributed_in",
+      "object_id": "loc-sri-lankamalleswara-wildlife-sanctuary-1597887a",
+      "object": "Sri Lankamalleswara Wildlife Sanctuary",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is currently known only from the Sri Lankamalleswara Wildlife Sanctuary, and Sri Penusila Narasimha Wildlife Sanctuary where it inhabits sparse scrub forest with patches of bare ground",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jerdon-s-courser-812e9a71",
+      "subject": "Jerdon's courser",
+      "predicate": "distributed_in",
+      "object_id": "loc-sri-penusila-narasimha-wildlife-sanctuary-8c3c58d4",
+      "object": "Sri Penusila Narasimha Wildlife Sanctuary",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is currently known only from the Sri Lankamalleswara Wildlife Sanctuary, and Sri Penusila Narasimha Wildlife Sanctuary where it inhabits sparse scrub forest with patches of bare ground",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jerdon-s-courser-812e9a71",
+      "subject": "Jerdon's courser",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is currently known only from the Sri Lankamalleswara Wildlife Sanctuary, and Sri Penusila Narasimha Wildlife Sanctuary where it inhabits sparse scrub forest with patches of bare ground",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jerdon-s-courser-812e9a71",
+      "subject": "Jerdon's courser",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

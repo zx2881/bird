@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:19:16",
+  "requested_title": "Cameroon Olive Pigeon",
+  "resolved_title": "Cameroon olive pigeon",
+  "title_aliases": [
+    "Cameroon Olive Pigeon"
+  ],
+  "bird_id": "bird-cameroon-olive-pigeon-d72b08b8",
+  "raw_file": "bird-cameroon-olive-pigeon-d72b08b8.json",
+  "bird": {
+    "id": "bird-cameroon-olive-pigeon-d72b08b8",
+    "name": "Cameroon olive pigeon",
+    "english_name": "Cameroon olive pigeon",
+    "latin_name": "Columba sjostedti",
+    "summary": "The Cameroon olive pigeon (Columba sjostedti) is a species of bird in the family Columbidae. It is found in the Cameroon line (including Bi…",
+    "lat": "3.5",
+    "lng": "8.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Columba_sjostedti_-_avocat_-_640845304.jpeg/960px-Columba_sjostedti_-_avocat_-_640845304.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-喀麥隆火山鏈-07f3fa54",
+      "name": "喀麥隆火山鏈",
+      "summary": "喀麥隆火山鏈（Cameroon line）是從非洲中部延伸至大西洋幾內亞灣、長達1,600公里的一條火山鏈，包含了幾內亞灣內的數座火山島。喀麥隆火山鏈共跨越奈及利亞、喀麥隆、赤道幾內亞、聖多美和普林西比等四個國家。 在非洲大陸部分，喀麥隆…",
+      "lat": "3.5",
+      "lng": "8.7"
+    },
+    {
+      "id": "loc-比奥科岛-c4254484",
+      "name": "比奥科岛",
+      "summary": "比奥科岛（Bioko），原名“费尔南多波岛”（西班牙語：Fernando Poo），是非洲西海岸几内亚湾中的一个火山岛，属赤道几内亚管辖，该国前首都马拉博即位于岛上。该岛面积为2,017平方公里，人口33万人。該島嶼原為西班牙殖民地，因其…",
+      "lat": "3.5",
+      "lng": "8.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cameroon-olive-pigeon-d72b08b8",
+      "subject": "Cameroon olive pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-喀麥隆火山鏈-07f3fa54",
+      "object": "喀麥隆火山鏈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cameroon line (including Bioko{{Cite journal |last=Cooper |first=Jacob C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cameroon-olive-pigeon-d72b08b8",
+      "subject": "Cameroon olive pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-比奥科岛-c4254484",
+      "object": "比奥科岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cameroon line (including Bioko{{Cite journal |last=Cooper |first=Jacob C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cameroon-olive-pigeon-d72b08b8",
+      "subject": "Cameroon olive pigeon",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|date=February 2017 |title=Notes on the distribution of the avifauna of Bioko Island, Equatorial Guinea, including one new country record |url=https://biodiversityinitiative.org/wp-content/uploads/2020/03/Cooper-et-al.-2017-Notes-on-the-distribution-of-the-avifauna-of-Bioko-Island-Equatorial-Guinea-including-one-new-country-record.pdf |journal=Malimbus |page=11 |via=ResearchGate}}), and is found in pasture habitats with minimal vegetation cover as well as in montane forests.{{Cite journal |last1=Bergl |first1=Richard A",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-cameroon-olive-pigeon-d72b08b8",
+      "subject": "Cameroon olive pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

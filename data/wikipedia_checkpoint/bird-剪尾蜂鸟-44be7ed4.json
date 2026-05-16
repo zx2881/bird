@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:19:16",
+  "requested_title": "Scissor-tailed Hummingbird",
+  "resolved_title": "Scissor-tailed hummingbird",
+  "title_aliases": [
+    "Scissor-tailed Hummingbird"
+  ],
+  "bird_id": "bird-剪尾蜂鸟-44be7ed4",
+  "raw_file": "bird-剪尾蜂鸟-44be7ed4.json",
+  "bird": {
+    "id": "bird-剪尾蜂鸟-44be7ed4",
+    "name": "剪尾蜂鸟",
+    "english_name": "Scissor-tailed hummingbird",
+    "latin_name": "Hylonympha macrocerca",
+    "summary": "剪尾蜂鸟（台湾作鉸尾蜂鳥，学名：Hylonympha macrocerca），是雨燕目蜂鸟科宝石蜂鸟族的一种鸟类，是剪尾蜂鸟属的唯一一种。 剪尾蜂鸟体重约7.3克，翼长约66.6毫米，嘴峰长约27.3毫米，喙宽度约3.3毫米，喙厚度约2.7毫米，跗蹠长约6.3毫米，尾长约105…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hylonympha_macrocerca.jpg/960px-Hylonympha_macrocerca.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-剪尾蜂鸟-44be7ed4",
+      "subject": "剪尾蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits the interior of damp mature subtropical forest and cloudforest, and is also found at forest edges and in small clearings",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-剪尾蜂鸟-44be7ed4",
+      "subject": "剪尾蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

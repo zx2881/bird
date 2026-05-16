@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:38:14",
+  "requested_title": "Kalij Pheasant",
+  "resolved_title": "Kalij pheasant",
+  "title_aliases": [
+    "Kalij Pheasant"
+  ],
+  "bird_id": "bird-黑鹇-c683a67d",
+  "raw_file": "bird-黑鹇-c683a67d.json",
+  "bird": {
+    "id": "bird-黑鹇-c683a67d",
+    "name": "黑鹇",
+    "english_name": "Kalij pheasant",
+    "latin_name": "Lophura leucomelanos",
+    "summary": "黑鹇（学名：Lophura leucomelanos），古亦作鸕雉，是一種中型雉類，屬於雉科鷴屬，雄鳥全身青黑色，主要分布於喜馬拉雅山脈南側至中南半島東部一帶，為東洋界特有鳥種。 黑鷴，雄鳥全長57～59公分，大小似白鷴，幾乎全黑。頭、後頸及頸側均紫黑；頭上有直立同色羽冠；背部…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kalij_pheasant_Prasanna_Mamidala.jpg/960px-Kalij_pheasant_Prasanna_Mamidala.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian subcontinent from the Tibet…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-泰国-6e4d220d",
+      "name": "泰国",
+      "summary": "泰王国（泰語：ราชอาณาจักรไทย，皇家轉寫：Ratcha-anachak Thai），通稱泰国（泰語：ประเทศไทย，皇家轉寫：Prathet Thai），舊称暹罗（泰語：สยาม，皇家轉寫：Sayam），是东南亚的君主立宪…",
+      "lat": "15",
+      "lng": "101"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑鹇-c683a67d",
+      "subject": "黑鹇",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "leucomelanos hamiltoni, Uttarakhand, India | genus = Lophura | species = leucomelanos | authority = (Latham, 1790) }} The kalij pheasant (Lophura leucomelanos), or simply kalij, is a pheasant found in forests and thickets, especially in the Himalayan foothills, from Nepal, Pakistan to western Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑鹇-c683a67d",
+      "subject": "黑鹇",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "leucomelanos hamiltoni, Uttarakhand, India | genus = Lophura | species = leucomelanos | authority = (Latham, 1790) }} The kalij pheasant (Lophura leucomelanos), or simply kalij, is a pheasant found in forests and thickets, especially in the Himalayan foothills, from Nepal, Pakistan to western Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑鹇-c683a67d",
+      "subject": "黑鹇",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰国-6e4d220d",
+      "object": "泰国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "leucomelanos hamiltoni, Uttarakhand, India | genus = Lophura | species = leucomelanos | authority = (Latham, 1790) }} The kalij pheasant (Lophura leucomelanos), or simply kalij, is a pheasant found in forests and thickets, especially in the Himalayan foothills, from Nepal, Pakistan to western Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑鹇-c683a67d",
+      "subject": "黑鹇",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

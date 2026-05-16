@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:19:13",
+  "requested_title": "White-breasted Ground Dove",
+  "resolved_title": "White-breasted ground dove",
+  "title_aliases": [
+    "White-breasted Ground Dove"
+  ],
+  "bird_id": "bird-white-breasted-ground-dove-5c6e869f",
+  "raw_file": "bird-white-breasted-ground-dove-5c6e869f.json",
+  "bird": {
+    "id": "bird-white-breasted-ground-dove-5c6e869f",
+    "name": "White-breasted ground dove",
+    "english_name": "White-breasted ground dove",
+    "latin_name": "Pampusana jobiensis",
+    "summary": "The white-breasted ground dove, white-bibbed ground dove, or purple ground dove (Pampusana jobiensis) is a species of bird in the family Co…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Purple_Ground_Dove_RWD.jpg/960px-Purple_Ground_Dove_RWD.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-俾斯麦群岛-19ddf3e6",
+      "name": "俾斯麦群岛",
+      "summary": "俾斯麦群岛（英文：Bismarck Archipelago）是太平洋西南部一群岛，位于新几内亚岛东北，濒临俾斯麦海，由200多个岛屿组成，总陆地面积49700平方公里，主要岛屿有新不列颠岛、新爱尔兰岛等，人口31.4万人，现全部属于巴布亚…",
+      "lat": "-5",
+      "lng": "150.1"
+    },
+    {
+      "id": "loc-所罗门群岛-65f9af23",
+      "name": "所罗门群岛",
+      "summary": "Solomon Islands, also known simply as the Solomons, is an archipelagic country consisting of six major islands and over…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-breasted-ground-dove-5c6e869f",
+      "subject": "White-breasted ground dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea, the Bismarck Archipelago and the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-breasted-ground-dove-5c6e869f",
+      "subject": "White-breasted ground dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-俾斯麦群岛-19ddf3e6",
+      "object": "俾斯麦群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea, the Bismarck Archipelago and the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-breasted-ground-dove-5c6e869f",
+      "subject": "White-breasted ground dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-所罗门群岛-65f9af23",
+      "object": "所罗门群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea, the Bismarck Archipelago and the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-breasted-ground-dove-5c6e869f",
+      "subject": "White-breasted ground dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

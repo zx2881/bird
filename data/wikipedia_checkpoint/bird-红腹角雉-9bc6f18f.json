@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:51:13",
+  "requested_title": "Temminck's Tragopan",
+  "resolved_title": "Temminck's tragopan",
+  "title_aliases": [
+    "Temminck's Tragopan"
+  ],
+  "bird_id": "bird-红腹角雉-9bc6f18f",
+  "raw_file": "bird-红腹角雉-9bc6f18f.json",
+  "bird": {
+    "id": "bird-红腹角雉-9bc6f18f",
+    "name": "红腹角雉",
+    "english_name": "Temminck's tragopan",
+    "latin_name": "Tragopan temminckii",
+    "summary": "红腹角雉（學名：Tragopan temminckii），别名寿鸡、背水鸡、娃娃鸡、角角鸡、吐绶鸟、吐綬雞、綬鳥、鷊，是一種中等体型的角雉，体长可达64厘米。雄鸟羽毛颜色为深红色，并带有白色斑点，喙黑色，腿粉色，面部为裸露的蓝色。雌鸟羽毛则为褐色，带白色斑点。雄鸟的下巴长有彩色…",
+    "lat": "21",
+    "lng": "106",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Temminck_Tragopan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-东京-越南-3b5672f3",
+      "name": "东京 (越南)",
+      "summary": "東京（法語：Tonkin）是中南半島的一個歷史地名，位於今日越南北部，指的是紅河三角洲流域一帶。越南人對此地域的稱呼因時代而異，後黎朝時期稱之為唐外（外路、北河），西山朝時期及阮朝初期稱之為北城，法屬印度支那殖民時期稱之為北圻。 「東京」…",
+      "lat": "21",
+      "lng": "106"
+    },
+    {
+      "id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "name": "國際自然保護聯盟瀕危物種紅色名錄",
+      "summary": "國際自然保護聯盟瀕危物種紅色名錄（或稱IUCN紅色名錄，簡稱紅皮書）於1963年開始編製，是全球動植物物種保護現狀最全面的名錄。此名錄由國際自然保護聯盟編製及維護。 IUCN紅色名錄是根據嚴格準則去評估數以千計物種及亞種的絕種風險所編製而…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红腹角雉-9bc6f18f",
+      "subject": "红腹角雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-东京-越南-3b5672f3",
+      "object": "东京 (越南)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=1999 |title=Study on the relation between habitat selection and diet of Temminck's Tragopan |url=https://europepmc.org/article/cba/325161 |journal=Zoological Research |volume=20 |issue=2 |pages=131-136}} Temminck's tragopan is found across the mountains of far northeast India, central China, far northern Myanmar to northwestern Tonkin in Vietnam. Widespread and a common species throughout its large habitat range, the Temminck's tragopan is evaluated as Least Concern on the IUCN Red List of Threatened Species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红腹角雉-9bc6f18f",
+      "subject": "红腹角雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "object": "國際自然保護聯盟瀕危物種紅色名錄",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=1999 |title=Study on the relation between habitat selection and diet of Temminck's Tragopan |url=https://europepmc.org/article/cba/325161 |journal=Zoological Research |volume=20 |issue=2 |pages=131-136}} Temminck's tragopan is found across the mountains of far northeast India, central China, far northern Myanmar to northwestern Tonkin in Vietnam. Widespread and a common species throughout its large habitat range, the Temminck's tragopan is evaluated as Least Concern on the IUCN Red List of Threatened Species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红腹角雉-9bc6f18f",
+      "subject": "红腹角雉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

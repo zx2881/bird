@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:14:12",
+  "requested_title": "Silver Gull",
+  "resolved_title": "Silver gull",
+  "title_aliases": [
+    "Silver Gull"
+  ],
+  "bird_id": "bird-澳洲紅嘴鷗-7461664f",
+  "raw_file": "bird-澳洲紅嘴鷗-7461664f.json",
+  "bird": {
+    "id": "bird-澳洲紅嘴鷗-7461664f",
+    "name": "澳洲紅嘴鷗",
+    "english_name": "Silver gull",
+    "latin_name": "Chroicocephalus novaehollandiae",
+    "summary": "澳洲紅嘴鷗 (學名：Chroicocephalus novaehollandiae) 是在澳洲最常見的海鷗，整個澳洲都曾發現它的蹤影，尤其是沿海區域。 參考資料 2012台灣鳥類名錄",
+    "lat": "-42",
+    "lng": "173",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Silver_Gull_0A2A7855.jpg/960px-Silver_Gull_0A2A7855.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新西兰-f3c9507e",
+      "name": "新西兰",
+      "summary": "新西兰（英語：New Zealand）又称奥特亚罗瓦（毛利語：Aotearoa，直译：「长白云之乡」），位於太平洋西南部的主權島國，是英联邦新西蘭王國的主體部分，首都為惠灵顿，最大的城市為奧克蘭。紐西蘭主要由兩大島嶼組成：北島（Te Ik…",
+      "lat": "-42",
+      "lng": "173"
+    },
+    {
+      "id": "loc-新喀里多尼亞-6c170c18",
+      "name": "新喀里多尼亞",
+      "summary": "新喀里多尼亞（法語：Nouvelle-Calédonie，發音：[nuvɛl kaledɔni] ）是南太平洋的一组群岛，也是法國的一個特殊集体，位于澳大利亚以东1,210千米处，距法国本土17,000千米。该群岛是美拉尼西亚的一部分，包…",
+      "lat": "-21.25",
+      "lng": "165.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-澳洲紅嘴鷗-7461664f",
+      "subject": "澳洲紅嘴鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-新西兰-f3c9507e",
+      "object": "新西兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Silver gulls are found in all states of Australia, as well as New Zealand and New Caledonia. It is a common species near human habitations and beaches, having adapted well to urban environments and thriving around shopping centres and garbage dumps",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-澳洲紅嘴鷗-7461664f",
+      "subject": "澳洲紅嘴鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-新喀里多尼亞-6c170c18",
+      "object": "新喀里多尼亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Silver gulls are found in all states of Australia, as well as New Zealand and New Caledonia. It is a common species near human habitations and beaches, having adapted well to urban environments and thriving around shopping centres and garbage dumps",
+      "object_summary": ""
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:35:09",
+  "requested_title": "Andaman Coucal",
+  "resolved_title": "Andaman coucal",
+  "title_aliases": [
+    "Andaman Coucal"
+  ],
+  "bird_id": "bird-andaman-coucal-4d466394",
+  "raw_file": "bird-andaman-coucal-4d466394.json",
+  "bird": {
+    "id": "bird-andaman-coucal-4d466394",
+    "name": "Andaman coucal",
+    "english_name": "Andaman coucal",
+    "latin_name": "Centropus andamanensis",
+    "summary": "The Andaman coucal or brown coucal (Centropus andamanensis) is a species of non-parasitic cuckoo found in the Andamans, Coco and Table Isla…",
+    "lat": "14.05",
+    "lng": "93.35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/The_Andaman_Coucal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-robert-cecil-beavan-5f60d7c9",
+      "name": "Robert Cecil Beavan",
+      "summary": "Captain Robert Cecil Beavan (14 August 1841 – 3 February 1870), corresponding member of the Zoological Society of Londo…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-科科群岛-4a32ce2c",
+      "name": "科科群岛",
+      "summary": "科科群岛（緬甸語：ကိုကိုးကျွန်း；英語：Coco Islands），是缅甸南部一群岛，西为孟加拉湾，东为安达曼海，南隔科科海峡与印度安達曼-尼科巴群島聯邦屬地相望。科科群岛位于安达曼群岛的最北端，战略位置极其重要。该群岛由大、…",
+      "lat": "14.05",
+      "lng": "93.35"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-andaman-coucal-4d466394",
+      "subject": "Andaman coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-robert-cecil-beavan-5f60d7c9",
+      "object": "Robert Cecil Beavan",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Andaman coucal or brown coucal (Centropus andamanensis) is a species of non-parasitic cuckoo found in the Andamans, Coco and Table Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-andaman-coucal-4d466394",
+      "subject": "Andaman coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-科科群岛-4a32ce2c",
+      "object": "科科群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is mainly found in the Andamans (at least South, North and associated islets) as well as on the nearby Coco Islands and Table Island, which belong to Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-andaman-coucal-4d466394",
+      "subject": "Andaman coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is mainly found in the Andamans (at least South, North and associated islets) as well as on the nearby Coco Islands and Table Island, which belong to Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-andaman-coucal-4d466394",
+      "subject": "Andaman coucal",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

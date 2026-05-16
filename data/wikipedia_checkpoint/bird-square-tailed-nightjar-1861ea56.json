@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:28:10",
+  "requested_title": "Square-tailed Nightjar",
+  "resolved_title": "Square-tailed nightjar",
+  "title_aliases": [
+    "Square-tailed Nightjar"
+  ],
+  "bird_id": "bird-square-tailed-nightjar-1861ea56",
+  "raw_file": "bird-square-tailed-nightjar-1861ea56.json",
+  "bird": {
+    "id": "bird-square-tailed-nightjar-1861ea56",
+    "name": "Square-tailed nightjar",
+    "english_name": "Square-tailed nightjar",
+    "latin_name": "Caprimulgus fossii",
+    "summary": "The square-tailed nightjar (Caprimulgus fossii) is a species of nightjar in the family Caprimulgidae which is native to tropical and subtro…",
+    "lat": "1.5",
+    "lng": "10",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Caprimulgus_fossii_subsp_mossambicus%2C_Pretoriuskop%2C_Birding_Weto%2C_a.jpg/960px-Caprimulgus_fossii_subsp_mossambicus%2C_Pretoriuskop%2C_Birding_Weto%2C_a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-赤道几内亚-67670cdb",
+      "name": "赤道几内亚",
+      "summary": "赤道几内亚共和國，簡稱赤道幾內亞（西班牙語：Guinea Ecuatorial；法語：Guinée équatoriale；葡萄牙語：Guiné Equatorial），中文亦简称赤几，位于非洲中部。2024年人口為170萬人。该国国名虽…",
+      "lat": "1.5",
+      "lng": "10"
+    },
+    {
+      "id": "loc-加蓬-a88afb98",
+      "name": "加蓬",
+      "summary": "加彭共和國（法語：République gabonaise），通稱加彭（Gabon），是位於非洲中西部的国家。其西面是几内亚湾、西北是赤道几内亚、北面是喀麦隆、东面和南面由刚果共和國包围。國土面积有近27万平方公里，人口有239.7万人。…",
+      "lat": "-1",
+      "lng": "12"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-square-tailed-nightjar-1861ea56",
+      "subject": "Square-tailed nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-赤道几内亚-67670cdb",
+      "object": "赤道几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "An isolated race occurs in Equatorial Guinea and western Gabon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-square-tailed-nightjar-1861ea56",
+      "subject": "Square-tailed nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-加蓬-a88afb98",
+      "object": "加蓬",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "An isolated race occurs in Equatorial Guinea and western Gabon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-square-tailed-nightjar-1861ea56",
+      "subject": "Square-tailed nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:05:16",
+  "requested_title": "Little Grebe",
+  "resolved_title": "Little grebe",
+  "title_aliases": [
+    "Little Grebe"
+  ],
+  "bird_id": "bird-小鸊鷉-08f2c389",
+  "raw_file": "bird-小鸊鷉-08f2c389.json",
+  "bird": {
+    "id": "bird-小鸊鷉-08f2c389",
+    "name": "小鸊鷉",
+    "english_name": "Little grebe",
+    "latin_name": "Tachybaptus ruficollis",
+    "summary": "小鸊鷉（學名：Tachybaptus ruficollis），俗稱水葫蘆、王八鴨子、油葫蘆、油鴨、水避仔（臺羅：tsúi-pī-á），是鸊鷉科小鸊鷉屬下的一種鳥類。牠們分佈在歐洲、亞洲和非洲的濕地、沼澤、湖泊和水塘等水域環境中。牠們相當善於潛入水中覓食，主要食用水生昆蟲、蝌蚪、…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Little_grebe_Zwergtaucher.jpg/960px-Little_grebe_Zwergtaucher.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小鸊鷉-08f2c389",
+      "subject": "小鸊鷉",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird breeds in small colonies in heavily vegetated areas of freshwater lakes across Europe, much of Asia down to New Guinea, and most of Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小鸊鷉-08f2c389",
+      "subject": "小鸊鷉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

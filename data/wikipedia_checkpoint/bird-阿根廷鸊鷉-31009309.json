@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:41:08",
+  "requested_title": "Hooded Grebe",
+  "resolved_title": "Hooded grebe",
+  "title_aliases": [
+    "Hooded Grebe"
+  ],
+  "bird_id": "bird-阿根廷鸊鷉-31009309",
+  "raw_file": "bird-阿根廷鸊鷉-31009309.json",
+  "bird": {
+    "id": "bird-阿根廷鸊鷉-31009309",
+    "name": "阿根廷鸊鷉",
+    "english_name": "Hooded grebe",
+    "latin_name": "Podiceps gallardoi",
+    "summary": "The hooded grebe (Podiceps gallardoi) is a medium-sized grebe found in the southern region of Argentina. It grows to about 32 cm (13 in) in…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mac%C3%A1_tobiano_sobre_vinagrilla_en_lago_de_la_patagonia_Argentina.jpg/960px-Mac%C3%A1_tobiano_sobre_vinagrilla_en_lago_de_la_patagonia_Argentina.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-巴塔哥尼亞-65e27f32",
+      "name": "巴塔哥尼亞",
+      "summary": "巴塔哥尼亞（西班牙語：Patagonia，西班牙語發音：[pataˈɣonja]）位于南美洲南端，一般是指科羅拉多河以南（或以南緯40度為界）的地區，包括安第斯山脉的南端，主要位于阿根廷境內，小部分屬於智利。明《坤輿萬國全圖》謂之「巴大溫…",
+      "lat": "-41",
+      "lng": "-68"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-阿根廷鸊鷉-31009309",
+      "subject": "阿根廷鸊鷉",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The hooded grebe (Podiceps gallardoi) is a medium-sized grebe found in the southern region of Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-阿根廷鸊鷉-31009309",
+      "subject": "阿根廷鸊鷉",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴塔哥尼亞-65e27f32",
+      "object": "巴塔哥尼亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in isolated lakes in the most remote parts of Patagonia and spends winters along the coast of the same region",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-阿根廷鸊鷉-31009309",
+      "subject": "阿根廷鸊鷉",
+      "predicate": "lives_in",
+      "object_id": "hab-coastal-wetland",
+      "object": "海岸湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|date=2020 |title=Climate variability and trends in the reproductive habitat of the critically endangered hooded grebe |url=https://onlinelibrary.wiley.com/doi/abs/10.1002/aqc.3240 |journal=Aquatic Conservation: Marine and Freshwater Ecosystems |language=en |volume=30 |issue=3 |pages=554–564 |doi=10.1002/aqc.3240 |issn=1099-0755|url-access=subscription |hdl=11336/106928 |hdl-access=free }} At the moment, the only recorded wintering sites are estuaries on the Atlantic coast of Argentina",
+      "object_summary": "海湾、泻湖、盐沼与河口组成的复合湿地。"
+    },
+    {
+      "subject_id": "bird-阿根廷鸊鷉-31009309",
+      "subject": "阿根廷鸊鷉",
+      "predicate": "lives_in",
+      "object_id": "hab-estuary",
+      "object": "河口",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|date=2020 |title=Climate variability and trends in the reproductive habitat of the critically endangered hooded grebe |url=https://onlinelibrary.wiley.com/doi/abs/10.1002/aqc.3240 |journal=Aquatic Conservation: Marine and Freshwater Ecosystems |language=en |volume=30 |issue=3 |pages=554–564 |doi=10.1002/aqc.3240 |issn=1099-0755|url-access=subscription |hdl=11336/106928 |hdl-access=free }} At the moment, the only recorded wintering sites are estuaries on the Atlantic coast of Argentina",
+      "object_summary": "淡水与海水交汇形成的高生产力边缘生态系统。"
+    },
+    {
+      "subject_id": "bird-阿根廷鸊鷉-31009309",
+      "subject": "阿根廷鸊鷉",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-阿根廷鸊鷉-31009309",
+      "subject": "阿根廷鸊鷉",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The hooded grebe is threatened by climate change and the introduction of trout and salmon to the Strobel plateau.Konter, A",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

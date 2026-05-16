@@ -283,59 +283,140 @@ class GBIFCoordFetcher:
         logger.warning(f"无坐标记录: {query_name}")
         return ('no_coords', None, None)
     
-    def load_birds(self, filepath: str) -> tuple:
-        """加载鸟类数据"""
-        with open(filepath, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        nodes = data.get('nodes', [])
-        birds = [n for n in nodes if n.get('type') == 'bird']
-        
+    def load_birds(self, filepath: str) -> list:
+        """加载鸟类数据（从 CSV 而非 knowledge.json）"""
+        import csv as csv_module
+        birds = []
+        if not os.path.exists(filepath):
+            logger.error(f"文件不存在: {filepath}")
+            return birds
+
+        is_csv = filepath.lower().endswith('.csv')
+        if is_csv:
+            with open(filepath, 'r', encoding='utf-8-sig', newline='') as f:
+                reader = csv_module.DictReader(f)
+                for row in reader:
+                    lat_val = row.get('lat', '').strip()
+                    lng_val = row.get('lng', '').strip()
+                    birds.append({
+                        'id': row.get('id', '').strip(),
+                        'name': row.get('name', '').strip(),
+                        'latin_name': row.get('latin_name', '').strip() or row.get('latinName', '').strip(),
+                        'english_name': row.get('english_name', '').strip() or row.get('englishName', '').strip(),
+                        'lat': float(lat_val) if lat_val else None,
+                        'lng': float(lng_val) if lng_val else None,
+                    })
+        else:
+            # 兼容旧的 knowledge.json 模式
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            nodes = data.get('nodes', [])
+            for n in nodes:
+                if n.get('type') == 'bird':
+                    birds.append({
+                        'id': n.get('id', ''),
+                        'name': n.get('name', ''),
+                        'latin_name': n.get('latinName', ''),
+                        'english_name': n.get('englishName', ''),
+                        'lat': n.get('lat'),
+                        'lng': n.get('lng'),
+                    })
+
         logger.info(f"加载 {len(birds)} 个鸟类节点")
-        
+
         if self.args.null_only:
             birds_to_process = [b for b in birds if b.get('lat') is None or b.get('lng') is None]
             logger.info(f"需要更新坐标: {len(birds_to_process)} 个")
         else:
             birds_to_process = birds
-        
-        return birds_to_process, data
+
+        return birds_to_process
     
-    def save_birds(self, filepath: str, data: dict):
-        """保存鸟类数据"""
+    def save_birds(self, filepath: str, all_birds: list, updated_birds: list):
+        """保存鸟类坐标到 CSV（或在 knowledge.json 模式下更新 JSON）"""
+        if not updated_birds:
+            return
+
+        is_csv = filepath.lower().endswith('.csv')
+        if is_csv:
+            self._save_to_csv(filepath, updated_birds)
+        else:
+            self._save_to_json(filepath, all_birds, updated_birds)
+
+    def _save_to_csv(self, filepath: str, updated_birds: list):
+        import csv as csv_module
         if not self.args.no_backup:
             backup_path = filepath + '.bak'
             shutil.copy(filepath, backup_path)
             logger.info(f"备份到: {backup_path}")
-        
+
+        updated_map = {b['id']: (b['lat'], b['lng']) for b in updated_birds if b['lat'] is not None}
+
+        with open(filepath, 'r', encoding='utf-8-sig', newline='') as f:
+            reader = csv_module.DictReader(f)
+            fieldnames = reader.fieldnames
+            rows = list(reader)
+
+        for row in rows:
+            bid = row.get('id', '').strip()
+            if bid in updated_map:
+                lat, lng = updated_map[bid]
+                row['lat'] = str(lat)
+                row['lng'] = str(lng)
+
+        temp_path = filepath + '.tmp'
+        with open(temp_path, 'w', encoding='utf-8-sig', newline='') as f:
+            writer = csv_module.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+        shutil.move(temp_path, filepath)
+        logger.info(f"已保存到: {filepath}")
+
+    def _save_to_json(self, filepath: str, all_birds: list, updated_birds: list):
+        updated_map = {b['id']: (b['lat'], b['lng']) for b in updated_birds if b['lat'] is not None}
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        for node in data.get('nodes', []):
+            if node.get('id') in updated_map:
+                lat, lng = updated_map[node['id']]
+                node['lat'] = lat
+                node['lng'] = lng
+
+        if not self.args.no_backup:
+            backup_path = filepath + '.bak'
+            shutil.copy(filepath, backup_path)
+            logger.info(f"备份到: {backup_path}")
+
         temp_path = filepath + '.tmp'
         with open(temp_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        
         shutil.move(temp_path, filepath)
         logger.info(f"已保存到: {filepath}")
     
     def run(self):
         """运行主流程"""
         input_file = self.args.input
-        
+
         if not os.path.exists(input_file):
             logger.error(f"文件不存在: {input_file}")
             return 1
-        
-        birds, data = self.load_birds(input_file)
+
+        birds = self.load_birds(input_file)
         self.stats['total'] = len(birds)
-        
+        updated_birds = []
+        all_birds = birds  # 保留引用用于 JSON 模式
+
         for i, bird in enumerate(birds, 1):
             name = bird.get('name', bird.get('id', ''))
-            
+
             logger.info(f"[{i}/{len(birds)}] 处理: {name}")
-            
+
             status, lat, lng = self.process_bird(bird)
-            
+
             if status == 'success':
                 bird['lat'] = lat
                 bird['lng'] = lng
+                updated_birds.append(bird)
                 self.stats['success'] += 1
                 logger.info(f"  -> 坐标: {lat}, {lng}")
             elif status == 'no_coords':
@@ -344,15 +425,15 @@ class GBIFCoordFetcher:
             else:
                 self.stats['name_failed'] += 1
                 logger.info(f"  -> 名称解析失败")
-            
+
             time.sleep(1)
-        
-        self.save_birds(input_file, data)
-        
+
+        self.save_birds(input_file, all_birds, updated_birds)
+
         logger.info(f"完成: 成功 {self.stats['success']}/{self.stats['total']}, "
                    f"无坐标 {self.stats['no_coords']}, "
                    f"名称失败 {self.stats['name_failed']}")
-        
+
         return 0
 
 
@@ -369,8 +450,8 @@ def main():
     )
     parser.add_argument(
         '-i', '--input',
-        default='public/knowledge.json',
-        help='输入文件路径 (默认: public/knowledge.json)'
+        default='data/birds.csv',
+        help='输入文件路径 (默认: data/birds.csv，也支持 public/knowledge.json)'
     )
     parser.add_argument(
         '--null-only',

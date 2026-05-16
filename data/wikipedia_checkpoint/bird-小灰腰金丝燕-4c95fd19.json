@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:48:07",
+  "requested_title": "Mascarene Swiftlet",
+  "resolved_title": "Mascarene swiftlet",
+  "title_aliases": [
+    "Mascarene Swiftlet"
+  ],
+  "bird_id": "bird-小灰腰金丝燕-4c95fd19",
+  "raw_file": "bird-小灰腰金丝燕-4c95fd19.json",
+  "bird": {
+    "id": "bird-小灰腰金丝燕-4c95fd19",
+    "name": "小灰腰金丝燕",
+    "english_name": "Mascarene swiftlet",
+    "latin_name": "Aerodramus francicus",
+    "summary": "小灰腰金丝燕（学名：Aerodramus francicus）是雨燕科的一种金丝燕，分布于毛里求斯和留尼旺。其自然栖息地为亚热带或热带的湿润低地森林和高海拔的灌木林、草原、洞穴、耕地及高度退化的前森林。其种群数量受栖息地破坏影响。 参考文献",
+    "lat": "-20.2",
+    "lng": "57.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Mascarene_Swiftlet.jpg/960px-Mascarene_Swiftlet.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-毛里求斯-6bbd3acd",
+      "name": "毛里求斯",
+      "summary": "毛里求斯共和國（英語：Republic of Mauritius；法語：République de Maurice；克利奧語：Repiblik Moris）位於馬達加斯加共和國以東800公里，為印度洋上的群島國家，以本島——模里西斯島以及…",
+      "lat": "-20.2",
+      "lng": "57.5"
+    },
+    {
+      "id": "loc-留尼汪-140c7f3c",
+      "name": "留尼汪",
+      "summary": "留尼汪（法語：La Réunion，發音：[la ʁeynjɔ̃] ；留尼旺克里奧爾語：La Rényon）是一座印度洋西部马斯克林群岛中的火山島，為法国的海外省，是欧盟的外延地区（OMR）之一，也是欧元区的一部分。東邊約190公里是模里…",
+      "lat": "-21.11444444",
+      "lng": "55.5325"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小灰腰金丝燕-4c95fd19",
+      "subject": "小灰腰金丝燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-毛里求斯-6bbd3acd",
+      "object": "毛里求斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mauritius and Réunion, and the populations on the two islands have recently been confirmed to differ subspecifically",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小灰腰金丝燕-4c95fd19",
+      "subject": "小灰腰金丝燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-留尼汪-140c7f3c",
+      "object": "留尼汪",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mauritius and Réunion, and the populations on the two islands have recently been confirmed to differ subspecifically",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小灰腰金丝燕-4c95fd19",
+      "subject": "小灰腰金丝燕",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-小灰腰金丝燕-4c95fd19",
+      "subject": "小灰腰金丝燕",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

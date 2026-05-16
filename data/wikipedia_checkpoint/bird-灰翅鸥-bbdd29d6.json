@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:24:21",
+  "requested_title": "Glaucous-winged Gull",
+  "resolved_title": "Glaucous-winged gull",
+  "title_aliases": [
+    "Glaucous-winged Gull"
+  ],
+  "bird_id": "bird-灰翅鸥-bbdd29d6",
+  "raw_file": "bird-灰翅鸥-bbdd29d6.json",
+  "bird": {
+    "id": "bird-灰翅鸥-bbdd29d6",
+    "name": "灰翅鸥",
+    "english_name": "Glaucous-winged gull",
+    "latin_name": "Larus glaucescens",
+    "summary": "灰翅鸥（学名：Larus glaucescens）为鸥科鸥属的鸟类。在中国大陆，分布于福建等地。该物种的模式产地在北美地区。 参考文献",
+    "lat": "47.6",
+    "lng": "-122.4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Glaucous-winged_gull.jpg/960px-Glaucous-winged_gull.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-puget-sound-region-a42ae901",
+      "name": "Puget Sound region",
+      "summary": "The Puget Sound region is a coastal area of the Pacific Northwest in the U.S.",
+      "lat": "47.6",
+      "lng": "-122.4"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰翅鸥-bbdd29d6",
+      "subject": "灰翅鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-puget-sound-region-a42ae901",
+      "object": "Puget Sound region",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "These glaucous winged gulls can be found in the Puget Sound region as well",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰翅鸥-bbdd29d6",
+      "subject": "灰翅鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

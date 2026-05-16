@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:56:37",
+  "requested_title": "Sunda Collared Dove",
+  "resolved_title": "Sunda collared dove",
+  "title_aliases": [
+    "Sunda Collared Dove"
+  ],
+  "bird_id": "bird-爪哇斑鸠-01908094",
+  "raw_file": "bird-爪哇斑鸠-01908094.json",
+  "bird": {
+    "id": "bird-爪哇斑鸠-01908094",
+    "name": "爪哇斑鸠",
+    "english_name": "Sunda collared dove",
+    "latin_name": "Streptopelia bitorquata",
+    "summary": "爪哇斑鸠（学名：Streptopelia bitorquata）是一种分布于印度尼西亚和东帝汶等地的鸟类，隶属于鸠鸽科斑鸠属。 参考文献",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Island_Collared_Dove_-_Baluran_NP_-_East_Java_MG_8086_%2829181954484%29.jpg/960px-Island_Collared_Dove_-_Baluran_NP_-_East_Java_MG_8086_%2829181954484%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-爪哇斑鸠-01908094",
+      "subject": "爪哇斑鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Sometimes confused with the Eurasian collared dove (Streptopelia decaocto) which is very similar in appearance, the Sunda collared dove is a small to medium-sized bird, native to the tropical and subtropical islands of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-爪哇斑鸠-01908094",
+      "subject": "爪哇斑鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-爪哇斑鸠-01908094",
+      "subject": "爪哇斑鸠",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "One of the major threats to this species would be habitat loss, as well as housing investments on these islands and around this area",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

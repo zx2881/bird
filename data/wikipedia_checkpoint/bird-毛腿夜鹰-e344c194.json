@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:08:11",
+  "requested_title": "Great Eared Nightjar",
+  "resolved_title": "Great eared nightjar",
+  "title_aliases": [
+    "Great Eared Nightjar"
+  ],
+  "bird_id": "bird-毛腿夜鹰-e344c194",
+  "raw_file": "bird-毛腿夜鹰-e344c194.json",
+  "bird": {
+    "id": "bird-毛腿夜鹰-e344c194",
+    "name": "毛腿夜鹰",
+    "english_name": "Great eared nightjar",
+    "latin_name": "Lyncornis macrotis",
+    "summary": "毛腿夜鹰（学名：Lyncornis macrotis）又名毛腿耳夜鹰，为夜鹰科毛腿夜鹰亚科的鸟类，分布于孟加拉国、柬埔寨、中国、印度、印度尼西亚、老挝、马来西亚、缅甸、菲律宾、泰国和越南。该物种的模式产地在菲律宾。 亚种 毛腿夜鹰包括以下亚种 Lyncornis macroti…",
+    "lat": "7",
+    "lng": "81",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Great_Eared-Nightjar%2C_Tangkoko%2C_Sulawesi_%285799113025%29_%282%29.jpg/960px-Great_Eared-Nightjar%2C_Tangkoko%2C_Sulawesi_%285799113025%29_%282%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-斯里蘭卡-b7d5c4b5",
+      "name": "斯里蘭卡",
+      "summary": "斯里兰卡民主社会主义共和国（僧伽羅語：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；坦米爾語：இலங்கை சனநாயக சோஷலிசக் குடியரசு；英語：Democratic Social…",
+      "lat": "7",
+      "lng": "81"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-毛腿夜鹰-e344c194",
+      "subject": "毛腿夜鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southwest India and in parts of Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-毛腿夜鹰-e344c194",
+      "subject": "毛腿夜鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯里蘭卡-b7d5c4b5",
+      "object": "斯里蘭卡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in South Asia and Southeast Asia with populations in the Western Ghats and Sri Lanka,Soysa, W",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-毛腿夜鹰-e344c194",
+      "subject": "毛腿夜鹰",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

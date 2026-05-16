@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:59:16",
+  "requested_title": "Newell's Shearwater",
+  "resolved_title": "Newell's shearwater",
+  "title_aliases": [
+    "Newell's Shearwater"
+  ],
+  "bird_id": "bird-newell-s-shearwater-ed1763df",
+  "raw_file": "bird-newell-s-shearwater-ed1763df.json",
+  "bird": {
+    "id": "bird-newell-s-shearwater-ed1763df",
+    "name": "Newell's shearwater",
+    "english_name": "Newell's shearwater",
+    "latin_name": "Puffinus newelli",
+    "summary": "Newell's shearwater or Hawaiian shearwater (ʻaʻo), (Puffinus newelli) is a seabird in the family Procellariidae. It belongs to a confusing…",
+    "lat": "20.9",
+    "lng": "-156.6",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/NEWELL%27S_SHEARWATER_%284-27-2018%29_holo-holo_boat%2C_coast_and_lehua_island%2C_out_of_port_allen%2C_kauai_co%2C_hawaii_-_%282%29_%2841352713635%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-夏威夷群島-745dad04",
+      "name": "夏威夷群島",
+      "summary": "夏威夷群島（英語：Hawaiian Islands），舊稱桑威奇群岛、山域治埃蘭（Sandwich Islands），太平洋中北部的岛群，波利尼西亚群岛的一部分，是由19個较大的島嶼和其他小岛組成的群島，成因多为火山岛或珊瑚岛。 夏威夷群…",
+      "lat": "20.9",
+      "lng": "-156.6"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-newell-s-shearwater-ed1763df",
+      "subject": "Newell's shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏威夷群島-745dad04",
+      "object": "夏威夷群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in at least 20 colonies on mountain slopes in the Hawaiian Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-newell-s-shearwater-ed1763df",
+      "subject": "Newell's shearwater",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-newell-s-shearwater-ed1763df",
+      "subject": "Newell's shearwater",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It has declined due to habitat loss and predation by introduced species such as mongooses, rats, cats and barn owls.{{Cite web|last=Platt |first=John R",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

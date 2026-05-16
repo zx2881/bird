@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:35:18",
+  "requested_title": "Black-faced Cormorant",
+  "resolved_title": "Black-faced cormorant",
+  "title_aliases": [
+    "Black-faced Cormorant"
+  ],
+  "bird_id": "bird-black-faced-cormorant-ca45e5b3",
+  "raw_file": "bird-black-faced-cormorant-ca45e5b3.json",
+  "bird": {
+    "id": "bird-black-faced-cormorant-ca45e5b3",
+    "name": "Black-faced cormorant",
+    "english_name": "Black-faced cormorant",
+    "latin_name": "Phalacrocorax fuscescens",
+    "summary": "The black-faced cormorant (Phalacrocorax fuscescens), also known as the black-faced shag, is a medium-sized member of the cormorant family.…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Phalacrocorax_fuscescens_-_Derwent_River_Estuary.jpg/960px-Phalacrocorax_fuscescens_-_Derwent_River_Estuary.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-岸-4d4f1e5c",
+      "name": "岸",
+      "summary": "岸（又稱濱），分為海岸、湖岸及河岸，是在水面和陆地接触处，经波浪、潮汐、海流等作用下形成的滨水地带，其中有眾多沉積物堆積而形成的岸稱為灘。 海水作用 波浪，經常造成侵蝕 海流，經常造成堆積 潮汐 海岸類型 依構成物質區分 可分為岩岸與沙岸…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-faced-cormorant-ca45e5b3",
+      "subject": "Black-faced cormorant",
+      "predicate": "distributed_in",
+      "object_id": "loc-岸-4d4f1e5c",
+      "object": "岸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Rocky cliffs on the southern coast of Australia. Unlike the other cormorants found around the Australian continent, the habitat of the black-faced cormorant is exclusively coastal and marine. They can be found in coastal waters, inlets, rocky shores, and offshore islands. Occasionally black-faced cormorants can be found in estuaries of rivers. Colonies are usually found on steep cliffs and rocky islands where they nest. In the winter, black-faced cormorants leave coastal waters to breed in these colonies",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-faced-cormorant-ca45e5b3",
+      "subject": "Black-faced cormorant",
+      "predicate": "lives_in",
+      "object_id": "hab-coastal-wetland",
+      "object": "海岸湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "thumb|Rocky cliffs on the southern coast of Australia. Unlike the other cormorants found around the Australian continent, the habitat of the black-faced cormorant is exclusively coastal and marine. They can be found in coastal waters, inlets, rocky shores, and offshore islands. Occasionally black-faced cormorants can be found in estuaries of rivers. Colonies are usually found on steep cliffs and rocky islands where they nest. In the winter, black-faced cormorants leave coastal waters to breed in these colonies",
+      "object_summary": "海湾、泻湖、盐沼与河口组成的复合湿地。"
+    },
+    {
+      "subject_id": "bird-black-faced-cormorant-ca45e5b3",
+      "subject": "Black-faced cormorant",
+      "predicate": "lives_in",
+      "object_id": "hab-estuary",
+      "object": "河口",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "thumb|Rocky cliffs on the southern coast of Australia. Unlike the other cormorants found around the Australian continent, the habitat of the black-faced cormorant is exclusively coastal and marine. They can be found in coastal waters, inlets, rocky shores, and offshore islands. Occasionally black-faced cormorants can be found in estuaries of rivers. Colonies are usually found on steep cliffs and rocky islands where they nest. In the winter, black-faced cormorants leave coastal waters to breed in these colonies",
+      "object_summary": "淡水与海水交汇形成的高生产力边缘生态系统。"
+    },
+    {
+      "subject_id": "bird-black-faced-cormorant-ca45e5b3",
+      "subject": "Black-faced cormorant",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "thumb|Rocky cliffs on the southern coast of Australia. Unlike the other cormorants found around the Australian continent, the habitat of the black-faced cormorant is exclusively coastal and marine. They can be found in coastal waters, inlets, rocky shores, and offshore islands. Occasionally black-faced cormorants can be found in estuaries of rivers. Colonies are usually found on steep cliffs and rocky islands where they nest. In the winter, black-faced cormorants leave coastal waters to breed in these colonies",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-black-faced-cormorant-ca45e5b3",
+      "subject": "Black-faced cormorant",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

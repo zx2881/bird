@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:17:16",
+  "requested_title": "Mangrove Cuckoo",
+  "resolved_title": "Mangrove cuckoo",
+  "title_aliases": [
+    "Mangrove Cuckoo"
+  ],
+  "bird_id": "bird-mangrove-cuckoo-9613a10f",
+  "raw_file": "bird-mangrove-cuckoo-9613a10f.json",
+  "bird": {
+    "id": "bird-mangrove-cuckoo-9613a10f",
+    "name": "Mangrove cuckoo",
+    "english_name": "Mangrove cuckoo",
+    "latin_name": "Coccyzus minor",
+    "summary": "The mangrove cuckoo (Coccyzus minor) is a species of cuckoo that is native to the Neotropics. Taxonomy The mangrove cuckoo was formally des…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Mangrove_Cuckoo.jpg/960px-Mangrove_Cuckoo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mangrove-cuckoo-9613a10f",
+      "subject": "Mangrove cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mangrove cuckoo (Coccyzus minor) is a species of cuckoo that is native to the Neotropics",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-cuckoo-9613a10f",
+      "subject": "Mangrove cuckoo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

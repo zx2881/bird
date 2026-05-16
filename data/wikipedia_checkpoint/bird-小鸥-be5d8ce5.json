@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:09:11",
+  "requested_title": "Little Gull",
+  "resolved_title": "Little gull",
+  "title_aliases": [
+    "Little Gull"
+  ],
+  "bird_id": "bird-小鸥-be5d8ce5",
+  "raw_file": "bird-小鸥-be5d8ce5.json",
+  "bird": {
+    "id": "bird-小鸥-be5d8ce5",
+    "name": "小鸥",
+    "english_name": "Little gull",
+    "latin_name": "Hydrocoloeus minutus",
+    "summary": "The little gull (Hydrocoloeus minutus) is a species of gull belonging to the family Laridae which is mainly found in the Palearctic with so…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/%C4%8Cajka_mal%C3%A1_%28Larus_minutus%29_a_%284834254958%29.jpg/960px-%C4%8Cajka_mal%C3%A1_%28Larus_minutus%29_a_%284834254958%29.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-小鸥-be5d8ce5",
+      "subject": "小鸥",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The little gull nests in areas of dense vegetation where there are emergent or plants with floating leaves in shallow freshwater bodies, slow-moving rivers, marshes and bogs, occasionally using costal lagoons or other brackish water habitats",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-小鸥-be5d8ce5",
+      "subject": "小鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

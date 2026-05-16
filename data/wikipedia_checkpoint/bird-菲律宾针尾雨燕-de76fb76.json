@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:38:33",
+  "requested_title": "Philippine Spinetail",
+  "resolved_title": "Philippine spinetail",
+  "title_aliases": [
+    "Philippine Spinetail"
+  ],
+  "bird_id": "bird-菲律宾针尾雨燕-de76fb76",
+  "raw_file": "bird-菲律宾针尾雨燕-de76fb76.json",
+  "bird": {
+    "id": "bird-菲律宾针尾雨燕-de76fb76",
+    "name": "菲律宾针尾雨燕",
+    "english_name": "Philippine spinetail",
+    "latin_name": "Mearnsia picina",
+    "summary": "菲律宾针尾雨燕（台湾作白喉刺尾雨燕）（學名：Mearnsia picina），又名快捷燕，體長20~20.5 cm，最高的飛行速度為時速250-300公里，棲息在山地森林，常在溪流、河谷水面等處出現。是水平飞行速度最快的动物，时速最快可达170千米。 特征 菲律宾针尾雨燕体重约…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/PH_Spinetail_%28cropped2%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-棉兰老岛-8649cd6c",
+      "name": "棉兰老岛",
+      "summary": "棉蘭老島（菲律賓文：Mindanao）位于菲律賓群岛南部，是菲律賓第二大島（仅次于吕宋岛），也是世界第19大島。 根據2015年菲律賓人口普查，達沃市是島上人口最多的城市（1,632,991人），三寶顏（861,799）、卡加延德奧羅 （…",
+      "lat": "8",
+      "lng": "125"
+    },
+    {
+      "id": "loc-米沙鄢群島-62443a7c",
+      "name": "米沙鄢群島",
+      "summary": "The Visayas ( və-SY-əz), or the Visayan Islands (Visayan: Kabisay-an, Cebuano pronunciation: [kabiˈsajʔan]; Filipino: K…",
+      "lat": "11",
+      "lng": "123.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-菲律宾针尾雨燕-de76fb76",
+      "subject": "菲律宾针尾雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines found in the islands of Mindanao and Visayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-菲律宾针尾雨燕-de76fb76",
+      "subject": "菲律宾针尾雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-棉兰老岛-8649cd6c",
+      "object": "棉兰老岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines found in the islands of Mindanao and Visayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-菲律宾针尾雨燕-de76fb76",
+      "subject": "菲律宾针尾雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-米沙鄢群島-62443a7c",
+      "object": "米沙鄢群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines found in the islands of Mindanao and Visayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-菲律宾针尾雨燕-de76fb76",
+      "subject": "菲律宾针尾雨燕",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-菲律宾针尾雨燕-de76fb76",
+      "subject": "菲律宾针尾雨燕",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is becoming rare due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-菲律宾针尾雨燕-de76fb76",
+      "subject": "菲律宾针尾雨燕",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "IUCN has assessed this bird as near threatened.This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

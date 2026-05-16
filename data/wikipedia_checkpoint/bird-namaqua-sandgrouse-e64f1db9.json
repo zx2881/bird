@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:40:18",
+  "requested_title": "Namaqua Sandgrouse",
+  "resolved_title": "Namaqua sandgrouse",
+  "title_aliases": [
+    "Namaqua Sandgrouse"
+  ],
+  "bird_id": "bird-namaqua-sandgrouse-e64f1db9",
+  "raw_file": "bird-namaqua-sandgrouse-e64f1db9.json",
+  "bird": {
+    "id": "bird-namaqua-sandgrouse-e64f1db9",
+    "name": "Namaqua sandgrouse",
+    "english_name": "Namaqua sandgrouse",
+    "latin_name": "Pterocles namaqua",
+    "summary": "The Namaqua sandgrouse (Pterocles namaqua), is a species of ground-dwelling bird in the sandgrouse family. It is found in arid regions of s…",
+    "lat": "-22",
+    "lng": "17",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2012-namaqua-sandgrouse-male.jpg/960px-2012-namaqua-sandgrouse-male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-纳米比亚-0e5bfcb6",
+      "name": "纳米比亚",
+      "summary": "納米比亞共和國（德語：Republik Namibia，英語：Republic of Namibia），通稱納米比亞（Namibia），是位於南部非洲西面的共和國。它西部瀕臨大西洋，北部接壤贊比亞和安哥拉，東部連接博茨瓦纳，而在南部則與南…",
+      "lat": "-22",
+      "lng": "17"
+    },
+    {
+      "id": "loc-納米比沙漠-afed51e3",
+      "name": "納米比沙漠",
+      "summary": "納米比沙漠（纳马语：Namib）是納米比亞西部的一個沙漠，位於非洲最大的国家公园——納米比—諾克陸夫國家公園內。沙漠面積50,000平方公里，位於納米比亞長1,600公里（1,000英哩）的大西洋海岸線，東西闊度由50-160公里（30-…",
+      "lat": "-24.75194444",
+      "lng": "15.27638889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-namaqua-sandgrouse-e64f1db9",
+      "subject": "Namaqua sandgrouse",
+      "predicate": "distributed_in",
+      "object_id": "loc-纳米比亚-0e5bfcb6",
+      "object": "纳米比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In addition, it is also found in Namibia (especially in the Namib Desert), Zimbabwe, Botswana and Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-namaqua-sandgrouse-e64f1db9",
+      "subject": "Namaqua sandgrouse",
+      "predicate": "distributed_in",
+      "object_id": "loc-納米比沙漠-afed51e3",
+      "object": "納米比沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In addition, it is also found in Namibia (especially in the Namib Desert), Zimbabwe, Botswana and Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-namaqua-sandgrouse-e64f1db9",
+      "subject": "Namaqua sandgrouse",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

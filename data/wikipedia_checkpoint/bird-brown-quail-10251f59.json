@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:38:13",
+  "requested_title": "Brown Quail",
+  "resolved_title": "Brown quail",
+  "title_aliases": [
+    "Brown Quail"
+  ],
+  "bird_id": "bird-brown-quail-10251f59",
+  "raw_file": "bird-brown-quail-10251f59.json",
+  "bird": {
+    "id": "bird-brown-quail-10251f59",
+    "name": "Brown quail",
+    "english_name": "Brown quail",
+    "latin_name": "Synoicus ypsilophorus",
+    "summary": "The brown quail (Synoicus ypsilophorus), also known as the swamp quail, silver quail and Tasmanian quail, is an Australasian true quail of…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Coturnix_ypsilophora_-_Sydney_Olympic_Park.jpg/960px-Coturnix_ypsilophora_-_Sydney_Olympic_Park.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-塔斯馬尼亞州-a7b95e28",
+      "name": "塔斯馬尼亞州",
+      "summary": "塔斯馬尼亞州（Tasmania，發音：/tæzˈmeɪniə/；帕拉瓦卡尼語：Lutruwita），簡稱塔州，是澳大利亞唯一的島嶼州，原名范迪門地（Van Diemen's Land，又譯萬迪門蘭）。該州位於澳大利亞大陸東南方約240公里…",
+      "lat": "-42",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-quail-10251f59",
+      "subject": "Brown quail",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|250px|left|Female The brown quail is distributed in agricultural areas, wet grasslands, shrublands, spinifex savannah, and freshwater wetlands across much of New Guinea and the Lesser Sunda Islands as well as in northern, eastern, south-eastern and south-western Australia and Tasmania, though absent from arid regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-quail-10251f59",
+      "subject": "Brown quail",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|250px|left|Female The brown quail is distributed in agricultural areas, wet grasslands, shrublands, spinifex savannah, and freshwater wetlands across much of New Guinea and the Lesser Sunda Islands as well as in northern, eastern, south-eastern and south-western Australia and Tasmania, though absent from arid regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-quail-10251f59",
+      "subject": "Brown quail",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔斯馬尼亞州-a7b95e28",
+      "object": "塔斯馬尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|250px|left|Female The brown quail is distributed in agricultural areas, wet grasslands, shrublands, spinifex savannah, and freshwater wetlands across much of New Guinea and the Lesser Sunda Islands as well as in northern, eastern, south-eastern and south-western Australia and Tasmania, though absent from arid regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-quail-10251f59",
+      "subject": "Brown quail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

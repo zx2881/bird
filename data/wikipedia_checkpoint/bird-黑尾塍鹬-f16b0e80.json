@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:21:16",
+  "requested_title": "Black-tailed Godwit",
+  "resolved_title": "Black-tailed godwit",
+  "title_aliases": [
+    "Black-tailed Godwit"
+  ],
+  "bird_id": "bird-黑尾塍鹬-f16b0e80",
+  "raw_file": "bird-黑尾塍鹬-f16b0e80.json",
+  "bird": {
+    "id": "bird-黑尾塍鹬-f16b0e80",
+    "name": "黑尾塍鹬",
+    "english_name": "Black-tailed godwit",
+    "latin_name": "Limosa limosa",
+    "summary": "黑尾塍鹬（学名：Limosa limosa）又名黑尾鹬，为鹬科塍鹬属的鸟类。是一種大型、長腿、長喙的涉禽，最早由卡爾·林奈於1758年描述。共有四個亞種，所有亞種在繁殖期擁有橙色的頭部、頸部和胸部羽毛，冬季則呈現暗灰棕色，並在任何時候都顯示出獨特的黑白翼斑。 其繁殖範圍從冰島延…",
+    "lat": "53",
+    "lng": "-8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Black-tailed_Godwit_Uferschnepfe.jpg/960px-Black-tailed_Godwit_Uferschnepfe.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-爱尔兰岛-85c9123b",
+      "name": "爱尔兰岛",
+      "summary": "爱尔兰岛（愛爾蘭語：Éire，英語：Ireland）是位於欧洲西北部的大西洋島嶼，以面積計算是歐洲第三大島。島上大部分區域屬於爱尔兰共和国的領土，至於島上東北部的北愛爾蘭地區之主權則屬於英国。 整個愛爾蘭島的人口為620萬人。其中居住在愛…",
+      "lat": "53",
+      "lng": "-8"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑尾塍鹬-f16b0e80",
+      "subject": "黑尾塍鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-爱尔兰岛-85c9123b",
+      "object": "爱尔兰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although this species occurs in Ireland and Great Britain all year-round, they are not the same birds",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑尾塍鹬-f16b0e80",
+      "subject": "黑尾塍鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-coastal-wetland",
+      "object": "海岸湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species breeds in fens, lake edges, damp meadows, moorlands and bogs and uses estuaries, swamps and floods in (the northern hemisphere) winter; it is more likely to be found inland and on freshwater than the similar bar-tailed godwit",
+      "object_summary": "海湾、泻湖、盐沼与河口组成的复合湿地。"
+    },
+    {
+      "subject_id": "bird-黑尾塍鹬-f16b0e80",
+      "subject": "黑尾塍鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-estuary",
+      "object": "河口",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species breeds in fens, lake edges, damp meadows, moorlands and bogs and uses estuaries, swamps and floods in (the northern hemisphere) winter; it is more likely to be found inland and on freshwater than the similar bar-tailed godwit",
+      "object_summary": "淡水与海水交汇形成的高生产力边缘生态系统。"
+    },
+    {
+      "subject_id": "bird-黑尾塍鹬-f16b0e80",
+      "subject": "黑尾塍鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species breeds in fens, lake edges, damp meadows, moorlands and bogs and uses estuaries, swamps and floods in (the northern hemisphere) winter; it is more likely to be found inland and on freshwater than the similar bar-tailed godwit",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-黑尾塍鹬-f16b0e80",
+      "subject": "黑尾塍鹬",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

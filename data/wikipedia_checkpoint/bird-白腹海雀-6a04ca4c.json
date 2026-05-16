@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:55:33",
+  "requested_title": "Parakeet Auklet",
+  "resolved_title": "Parakeet auklet",
+  "title_aliases": [
+    "Parakeet Auklet"
+  ],
+  "bird_id": "bird-白腹海雀-6a04ca4c",
+  "raw_file": "bird-白腹海雀-6a04ca4c.json",
+  "bird": {
+    "id": "bird-白腹海雀-6a04ca4c",
+    "name": "白腹海雀",
+    "english_name": "Parakeet auklet",
+    "latin_name": "Aethia psittacula",
+    "summary": "The parakeet auklet (Aethia psittacula) is a small seabird of the North Pacific. Parakeet Auklets used to be placed on its own in the genus…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Parakeetauklets2.jpg/960px-Parakeetauklets2.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-白腹海雀-6a04ca4c",
+      "subject": "白腹海雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-白腹海雀-6a04ca4c",
+      "subject": "白腹海雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is not thought to have declined recently, but may be threatened in the future by introduced predators and oil spills",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:04:06",
+  "requested_title": "Ruspoli's Turaco",
+  "resolved_title": "Ruspoli's turaco",
+  "title_aliases": [
+    "Ruspoli's Turaco"
+  ],
+  "bird_id": "bird-ruspoli-s-turaco-b4b53a5f",
+  "raw_file": "bird-ruspoli-s-turaco-b4b53a5f.json",
+  "bird": {
+    "id": "bird-ruspoli-s-turaco-b4b53a5f",
+    "name": "Ruspoli's turaco",
+    "english_name": "Ruspoli's turaco",
+    "latin_name": "Menelikornis ruspolii",
+    "summary": "Ruspoli's turaco (Menelikornis ruspolii), also known as Prince Ruspoli's turaco, is a species of bird in the family Musophagidae. It is end…",
+    "lat": "4.67",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/TuracusRuspoliiGronvold.jpg/960px-TuracusRuspoliiGronvold.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-arero-c0d6e22c",
+      "name": "Arero",
+      "summary": "Arero is a woreda in Oromia Region, Ethiopia.",
+      "lat": "4.67",
+      "lng": "39"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ruspoli-s-turaco-b4b53a5f",
+      "subject": "Ruspoli's turaco",
+      "predicate": "distributed_in",
+      "object_id": "loc-arero-c0d6e22c",
+      "object": "Arero",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Prince Ruspoli's Turaco, also known as Tauraco ruspolii, is primarily found in juniper (Juniperus) woodland accompanied by dense evergreen undergrowth near Arero and Wadera",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ruspoli-s-turaco-b4b53a5f",
+      "subject": "Ruspoli's turaco",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-ruspoli-s-turaco-b4b53a5f",
+      "subject": "Ruspoli's turaco",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

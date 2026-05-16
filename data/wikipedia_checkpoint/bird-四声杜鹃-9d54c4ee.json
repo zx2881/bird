@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:50:07",
+  "requested_title": "Indian Cuckoo",
+  "resolved_title": "Indian cuckoo",
+  "title_aliases": [
+    "Indian Cuckoo"
+  ],
+  "bird_id": "bird-四声杜鹃-9d54c4ee",
+  "raw_file": "bird-四声杜鹃-9d54c4ee.json",
+  "bird": {
+    "id": "bird-四声杜鹃-9d54c4ee",
+    "name": "四声杜鹃",
+    "english_name": "Indian cuckoo",
+    "latin_name": "Cuculus micropterus",
+    "summary": "四声杜鹃（学名：Cuculus micropterus）为杜鹃科杜鹃属的鸟类，俗名快快割麦、光棍好过、豌豆八哥、关公好哭、得罪家婆。分佈於 印度次大陸 和 東南亞。 它的分佈範圍從 印度、孟加拉國、不丹、尼泊爾 和 斯里蘭卡 東至 印度尼西亞，北至 中國 和 俄羅斯。它是一種孤…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Indian_cuckoo_%28Cuculus_micropterus%29_46_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-四声杜鹃-9d54c4ee",
+      "subject": "四声杜鹃",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "137 (Himalayas) | range_map = CuculusMicropterusMap.svg }} The Indian cuckoo or short-winged cuckoo (Cuculus micropterus) is a member of the cuckoo order of birds, the Cuculiformes, that is found in the Indian subcontinent and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-四声杜鹃-9d54c4ee",
+      "subject": "四声杜鹃",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

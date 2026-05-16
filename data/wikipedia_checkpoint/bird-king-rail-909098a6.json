@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:21:16",
+  "requested_title": "King Rail",
+  "resolved_title": "King rail",
+  "title_aliases": [
+    "King Rail"
+  ],
+  "bird_id": "bird-king-rail-909098a6",
+  "raw_file": "bird-king-rail-909098a6.json",
+  "bird": {
+    "id": "bird-king-rail-909098a6",
+    "name": "King rail",
+    "english_name": "King rail",
+    "latin_name": "Rallus elegans",
+    "summary": "The king rail (Rallus elegans) is a waterbird, the largest North American rail. Description Distinct features are a long bill with a slight…",
+    "lat": "40",
+    "lng": "-100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/KingRail23.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-草沼-e1caf9f8",
+      "name": "草沼",
+      "summary": "草沼即草本沼泽（英語：marsh），也叫草泽，是一种主要生长草本植物的湿地，多半可以發現在湖岸或河岸邊，介於水生與陸生生態系統的過渡，一般未被淹没，但土壤维持水浸状态。优势植物有苔草、莎草和灯芯草等，另外也會有低矮的灌木生長。和草沼不同，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-美国-1efc9783",
+      "name": "美国",
+      "summary": "美利堅合眾國（英語：United States of America，縮寫：USA），简称美国、美利堅（英語：America）或合眾國（United States，縮寫：US），是位於北美洲的聯邦制共和國。其由50個州、首都华盛顿哥伦比亚…",
+      "lat": "40",
+      "lng": "-100"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-加拿大-25b69dbf",
+      "name": "加拿大",
+      "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢…",
+      "lat": "60",
+      "lng": "-110"
+    },
+    {
+      "id": "loc-安大略省-a0e09b2f",
+      "name": "安大略省",
+      "summary": "安大略省（英語：Ontario），簡稱安省，位于加拿大的東部，面積約100萬平方公里，加拿大的首都渥太华也在安大略省。安大略是加拿大人口最多的聯邦省份，根據2020年4月統計数据显示，安大略人口大約是14,745,040人。 地理 安大略…",
+      "lat": "49.25",
+      "lng": "-84.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-king-rail-909098a6",
+      "subject": "King rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-草沼-e1caf9f8",
+      "object": "草沼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird breeds in marshes in eastern North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-king-rail-909098a6",
+      "subject": "King rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-美国-1efc9783",
+      "object": "美国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Other birds migrate to the southern United States and Mexico; in Canada, they are found in southern Ontario",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-king-rail-909098a6",
+      "subject": "King rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Other birds migrate to the southern United States and Mexico; in Canada, they are found in southern Ontario",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-king-rail-909098a6",
+      "subject": "King rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大-25b69dbf",
+      "object": "加拿大",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Other birds migrate to the southern United States and Mexico; in Canada, they are found in southern Ontario",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-king-rail-909098a6",
+      "subject": "King rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-安大略省-a0e09b2f",
+      "object": "安大略省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Other birds migrate to the southern United States and Mexico; in Canada, they are found in southern Ontario",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-king-rail-909098a6",
+      "subject": "King rail",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This bird breeds in marshes in eastern North America",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-king-rail-909098a6",
+      "subject": "King rail",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-king-rail-909098a6",
+      "subject": "King rail",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "These birds are still common in some coastal areas, although interior populations have declined due to habitat loss. In Michigan, it is considered a legally protected state endangered species, at an imperiled level",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

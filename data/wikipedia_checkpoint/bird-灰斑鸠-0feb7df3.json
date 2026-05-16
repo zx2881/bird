@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:57:18",
+  "requested_title": "Eurasian Collared Dove",
+  "resolved_title": "Eurasian collared dove",
+  "title_aliases": [
+    "Eurasian Collared Dove"
+  ],
+  "bird_id": "bird-灰斑鸠-0feb7df3",
+  "raw_file": "bird-灰斑鸠-0feb7df3.json",
+  "bird": {
+    "id": "bird-灰斑鸠-0feb7df3",
+    "name": "灰斑鸠",
+    "english_name": "Eurasian collared dove",
+    "latin_name": "Streptopelia decaocto",
+    "summary": "灰斑鸠（学名：Streptopelia decaocto），俗称灰鸽子，是鸟类世界中最大的种群之一， 原分布於暖温带地区的欧洲部分地区、中亚、中国和缅甸，是一种留鸟。 灰斑鸠成鸟体长约32 cm，全身灰褐色且背部颜色比其他部位深，翅膀上有蓝灰色斑块，尾羽尖端为白色，颈后有黑色颈…",
+    "lat": "42.15",
+    "lng": "24.75",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/2022-04-06_Streptopelia_decaocto%2C_Plovdiv%2C_Bulgaria_1.jpg/960px-2022-04-06_Streptopelia_decaocto%2C_Plovdiv%2C_Bulgaria_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-普罗夫迪夫-717279b5",
+      "name": "普罗夫迪夫",
+      "summary": "普罗夫迪夫（保加利亞語：Пловдив；發音：[ˈpɫɔvdif]）是保加利亚第二大城市和普罗夫迪夫州的首府，人口376,918人，以古老、多样的文化和六千年以上的历史而闻名，也是歐洲已知之最古老的城市。历史上，普罗夫迪夫还是古代色雷斯地…",
+      "lat": "42.15",
+      "lng": "24.75"
+    },
+    {
+      "id": "loc-保加利亚-429d5225",
+      "name": "保加利亚",
+      "summary": "保加利亚共和国（保加利亞語：Република България，羅馬化：Republika Balgariya，發音：[rɛˈpublikɐ bɐɫˈɡarijɐ]），通稱保加利亞（保加利亞語：България，羅馬化：Balgariy…",
+      "lat": "43",
+      "lng": "25"
+    },
+    {
+      "id": "loc-imre-frivaldszky-ca490650",
+      "name": "Imre Frivaldszky",
+      "summary": "Emerich Frivaldszky von Frivald (6 February 1799 – 19 October 1870), known as Imre Frivaldszky, was a Hungarian botanis…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰斑鸠-0feb7df3",
+      "subject": "灰斑鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-普罗夫迪夫-717279b5",
+      "object": "普罗夫迪夫",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Eurasian collared dove (Streptopelia decaocto), often simply just collared dove, is a dove species native to Europe, Asia, and northern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰斑鸠-0feb7df3",
+      "subject": "灰斑鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-保加利亚-429d5225",
+      "object": "保加利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Eurasian collared dove (Streptopelia decaocto), often simply just collared dove, is a dove species native to Europe, Asia, and northern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰斑鸠-0feb7df3",
+      "subject": "灰斑鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-imre-frivaldszky-ca490650",
+      "object": "Imre Frivaldszky",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Eurasian collared dove (Streptopelia decaocto), often simply just collared dove, is a dove species native to Europe, Asia, and northern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰斑鸠-0feb7df3",
+      "subject": "灰斑鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

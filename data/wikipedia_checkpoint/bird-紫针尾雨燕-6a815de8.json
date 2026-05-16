@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:38:07",
+  "requested_title": "Purple Needletail",
+  "resolved_title": "Purple needletail",
+  "title_aliases": [
+    "Purple Needletail"
+  ],
+  "bird_id": "bird-紫针尾雨燕-6a815de8",
+  "raw_file": "bird-紫针尾雨燕-6a815de8.json",
+  "bird": {
+    "id": "bird-紫针尾雨燕-6a815de8",
+    "name": "紫针尾雨燕",
+    "english_name": "Purple needletail",
+    "latin_name": "Hirundapus celebensis",
+    "summary": "紫针尾雨燕（学名：Hirundapus celebensis），是雨燕目雨燕科的一种鸟类。 是舊世界中最大的雨燕。它原生於菲律賓群島和米納哈薩半島（蘇拉威西）。",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hirundapus_celebensis_-_Forest_Botial-Jarvis_-_181196488.jpeg/960px-Hirundapus_celebensis_-_Forest_Botial-Jarvis_-_181196488.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-米納哈薩半島-835a1b2f",
+      "name": "米納哈薩半島",
+      "summary": "米納哈薩半島是印度尼西亞的半島，也是蘇拉威西島四個主要半島之一。米納哈薩半島位于蘇拉威西島的北部，由蘇拉威西島中部开始向北部，再向東面延伸，形成托米尼灣的北面界線。行政上由北苏拉威西省、哥伦打洛省和中苏拉威西省管理。 参见 东半岛 南半岛…",
+      "lat": "0.83333333",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫针尾雨燕-6a815de8",
+      "subject": "紫针尾雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2020) All the Birds of the World. Lynx Edicions, Barcelona. It is native to the Philippine archipelago and the Minahasa Peninsula (Sulawesi)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫针尾雨燕-6a815de8",
+      "subject": "紫针尾雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-米納哈薩半島-835a1b2f",
+      "object": "米納哈薩半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2020) All the Birds of the World. Lynx Edicions, Barcelona. It is native to the Philippine archipelago and the Minahasa Peninsula (Sulawesi)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫针尾雨燕-6a815de8",
+      "subject": "紫针尾雨燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:52:14",
+  "requested_title": "Mascarene Petrel",
+  "resolved_title": "Mascarene petrel",
+  "title_aliases": [
+    "Mascarene Petrel"
+  ],
+  "bird_id": "bird-黑圆尾鹱-b1e843cd",
+  "raw_file": "bird-黑圆尾鹱-b1e843cd.json",
+  "bird": {
+    "id": "bird-黑圆尾鹱-b1e843cd",
+    "name": "黑圆尾鹱",
+    "english_name": "Mascarene petrel",
+    "latin_name": "Pseudobulweria aterrima",
+    "summary": "黑圆尾鹱（學名：Pseudobulweria aterrima），又名马斯克林圆尾鹱或马斯克林黑圆尾鹱，是一種中等體型的暗色圆尾鹱，體長35到36 cm。舊屬圆尾鹱属，今屬擬燕鸌屬。 大眾對本物種的認識，源於四隻於19世紀時在留尼汪島上發現的標本。後來在1970年代，兩隻本物種…",
+    "lat": "-21.11444444",
+    "lng": "55.5325",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/P%C3%A9trel_noir_fabien_Jan_SEOR.jpg/960px-P%C3%A9trel_noir_fabien_Jan_SEOR.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-留尼汪-140c7f3c",
+      "name": "留尼汪",
+      "summary": "留尼汪（法語：La Réunion，發音：[la ʁeynjɔ̃] ；留尼旺克里奧爾語：La Rényon）是一座印度洋西部马斯克林群岛中的火山島，為法国的海外省，是欧盟的外延地区（OMR）之一，也是欧元区的一部分。東邊約190公里是模里…",
+      "lat": "-21.11444444",
+      "lng": "55.5325"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑圆尾鹱-b1e843cd",
+      "subject": "黑圆尾鹱",
+      "predicate": "distributed_in",
+      "object_id": "loc-留尼汪-140c7f3c",
+      "object": "留尼汪",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Also sometimes known as the Mascarene black petrel, this species was known from four specimens found in the nineteenth century on the island of Réunion",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑圆尾鹱-b1e843cd",
+      "subject": "黑圆尾鹱",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-黑圆尾鹱-b1e843cd",
+      "subject": "黑圆尾鹱",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Masacarene petrels are primarily monogamous. The species is classified as critically endangered as it is inferred from the number of records that there is an extremely small population threatened by introduced species, such as feral cats and house rats, and light pollution",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    },
+    {
+      "subject_id": "bird-黑圆尾鹱-b1e843cd",
+      "subject": "黑圆尾鹱",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Masacarene petrels are primarily monogamous. The species is classified as critically endangered as it is inferred from the number of records that there is an extremely small population threatened by introduced species, such as feral cats and house rats, and light pollution",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

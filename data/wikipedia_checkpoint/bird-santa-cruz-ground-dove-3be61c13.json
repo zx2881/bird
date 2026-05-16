@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:18:22",
+  "requested_title": "Santa Cruz Ground Dove",
+  "resolved_title": "Santa Cruz ground dove",
+  "title_aliases": [
+    "Santa Cruz Ground Dove"
+  ],
+  "bird_id": "bird-santa-cruz-ground-dove-3be61c13",
+  "raw_file": "bird-santa-cruz-ground-dove-3be61c13.json",
+  "bird": {
+    "id": "bird-santa-cruz-ground-dove-3be61c13",
+    "name": "Santa Cruz ground dove",
+    "english_name": "Santa Cruz ground dove",
+    "latin_name": "Pampusana sanctaecrucis",
+    "summary": "The Santa Cruz ground dove (Pampusana sanctaecrucis) is a species of bird in the family Columbidae. It is found in the southern Solomon Isl…",
+    "lat": "-17",
+    "lng": "168",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-瓦努阿图-ad87e29a",
+      "name": "瓦努阿图",
+      "summary": "瓦努阿图（台湾作萬那杜）（比斯拉馬語：Vanuatu）是位於太平洋西南部的島國，於1980年脫離英國與法國的殖民並獨立建國，由80多個岛屿（68個有人居住）组成，屬於美拉尼西亞群島的一部分，其一年四季均為熱帶海洋性氣候。 歷史 大約公元前…",
+      "lat": "-17",
+      "lng": "168"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-santa-cruz-ground-dove-3be61c13",
+      "subject": "Santa Cruz ground dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦努阿图-ad87e29a",
+      "object": "瓦努阿图",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the southern Solomon Islands and Vanuatu",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-santa-cruz-ground-dove-3be61c13",
+      "subject": "Santa Cruz ground dove",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-santa-cruz-ground-dove-3be61c13",
+      "subject": "Santa Cruz ground dove",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

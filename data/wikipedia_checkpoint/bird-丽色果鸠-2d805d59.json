@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:48:18",
+  "requested_title": "Ornate Fruit Dove",
+  "resolved_title": "Ornate fruit dove",
+  "title_aliases": [
+    "Ornate Fruit Dove"
+  ],
+  "bird_id": "bird-丽色果鸠-2d805d59",
+  "raw_file": "bird-丽色果鸠-2d805d59.json",
+  "bird": {
+    "id": "bird-丽色果鸠-2d805d59",
+    "name": "丽色果鸠",
+    "english_name": "Ornate fruit dove",
+    "latin_name": "Ptilinopus ornatus",
+    "summary": "丽色果鸠（学名：Ptilinopus ornatus），是鸽形目鸠鸽科的一种鸟类。 特征 丽色果鸠体重约163克，翼长约150.7毫米，嘴峰长约18.6毫米，喙宽度约4毫米，喙厚度约4.5毫米，跗蹠长约23.6毫米，尾长约71.7毫米。丽色果鸠在其分布区内为留鸟，其栖息在半开放…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ptilinopus_ornatus_gestroi_575614199.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-丽色果鸠-2d805d59",
+      "subject": "丽色果鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-丽色果鸠-2d805d59",
+      "subject": "丽色果鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

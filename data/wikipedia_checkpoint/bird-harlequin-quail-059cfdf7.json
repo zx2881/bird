@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:42:15",
+  "requested_title": "Harlequin Quail",
+  "resolved_title": "Harlequin quail",
+  "title_aliases": [
+    "Harlequin Quail"
+  ],
+  "bird_id": "bird-harlequin-quail-059cfdf7",
+  "raw_file": "bird-harlequin-quail-059cfdf7.json",
+  "bird": {
+    "id": "bird-harlequin-quail-059cfdf7",
+    "name": "Harlequin quail",
+    "english_name": "Harlequin quail",
+    "latin_name": "Coturnix delegorguei",
+    "summary": "The harlequin quail (Coturnix delegorguei) is a species of bird in the family Phasianidae. It occurs in sub-Saharan Africa and in the Arabi…",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Harlequin_Quail_%28Coturnix_delegorguei%29_%286035291347%29%2C_crop1.jpg/960px-Harlequin_Quail_%28Coturnix_delegorguei%29_%286035291347%29%2C_crop1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-harlequin-quail-059cfdf7",
+      "subject": "Harlequin quail",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in sub-Saharan Africa and in the Arabian Peninsula.Clements, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-harlequin-quail-059cfdf7",
+      "subject": "Harlequin quail",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in sub-Saharan Africa and in the Arabian Peninsula.Clements, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-harlequin-quail-059cfdf7",
+      "subject": "Harlequin quail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

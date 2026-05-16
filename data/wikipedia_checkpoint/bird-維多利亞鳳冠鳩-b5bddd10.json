@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:31:13",
+  "requested_title": "Victoria Crowned Pigeon",
+  "resolved_title": "Victoria crowned pigeon",
+  "title_aliases": [
+    "Victoria Crowned Pigeon"
+  ],
+  "bird_id": "bird-維多利亞鳳冠鳩-b5bddd10",
+  "raw_file": "bird-維多利亞鳳冠鳩-b5bddd10.json",
+  "bird": {
+    "id": "bird-維多利亞鳳冠鳩-b5bddd10",
+    "name": "維多利亞鳳冠鳩",
+    "english_name": "Victoria crowned pigeon",
+    "latin_name": "Goura victoria",
+    "summary": "维多利亚冠鸠（英文：Victoria Crowned Pigeon，學名：Goura victoria）是鸽形目中体积最大的品种之一，分佈於印度尼西亞及巴布亞新畿內亞。与其他鸽类相比，该种最显著的特征就是它巨大的扇形头冠。头冠由白色和紫色羽毛组成。同其他冠鸠一样，该种雌性和雄性…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Goura_victoria_LC0384.jpg/960px-Goura_victoria_LC0384.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-維多利亞鳳冠鳩-b5bddd10",
+      "subject": "維多利亞鳳冠鳩",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is part of a genus (Goura) of four unique, very large, ground-dwelling pigeons native to the New Guinea region, with the Victoria crowned pigeon measuring as the largest extant species of pigeon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-維多利亞鳳冠鳩-b5bddd10",
+      "subject": "維多利亞鳳冠鳩",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-維多利亞鳳冠鳩-b5bddd10",
+      "subject": "維多利亞鳳冠鳩",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Perhaps the most pressing threat to the species is continuing habitat loss due to logging",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-維多利亞鳳冠鳩-b5bddd10",
+      "subject": "維多利亞鳳冠鳩",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Perhaps the most pressing threat to the species is continuing habitat loss due to logging",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:23:54",
+  "requested_title": "Malayan Peacock-Pheasant",
+  "resolved_title": "Malayan peacock-pheasant",
+  "title_aliases": [
+    "Malayan Peacock-Pheasant"
+  ],
+  "bird_id": "bird-鳳冠孔雀雉-ed9edafb",
+  "raw_file": "bird-鳳冠孔雀雉-ed9edafb.json",
+  "bird": {
+    "id": "bird-鳳冠孔雀雉-ed9edafb",
+    "name": "鳳冠孔雀雉",
+    "english_name": "Malayan peacock-pheasant",
+    "latin_name": "Polyplectron malacense",
+    "summary": "鳳冠孔雀雉（Polyplectron malacense）又名馬來孔雀雉,是一種中等身形的孔雀雉。牠們長53厘米，身體呈褐色而有黑色斑點，冠長而呈深藍綠色，紅色的面部沒有羽毛，瞳孔藍白色，上身及尾羽有綠色的大眼斑紋，共有22條尾羽。雌鳥較為細小及沉色。 鳳冠孔雀雉很怕羞，分佈在…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Polyplectron_malacense_-captive_-male-8a.jpg/960px-Polyplectron_malacense_-captive_-male-8a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-平均海拔-ddd8aa74",
+      "name": "平均海拔",
+      "summary": "平均海拔（英語：Above mean sea level，缩写：AMSL）又称为海拔高度，是指以平均海平面高度作为高程基准面起测定的地面或空中高度，对地理测量，飞行控制，电台设定，气象研究都有决定性作用。 所谓平均海平面高度实际是并不存在…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鳳冠孔雀雉-ed9edafb",
+      "subject": "鳳冠孔雀雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The average population density in suitable habitat is estimated as slightly less than seven adult birds per square kilometer. It inhabits mainly dipterocarp rainforest up to 150 m ASL, rarely occurring even as low as 300 m ASL",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鳳冠孔雀雉-ed9edafb",
+      "subject": "鳳冠孔雀雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-平均海拔-ddd8aa74",
+      "object": "平均海拔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The average population density in suitable habitat is estimated as slightly less than seven adult birds per square kilometer. It inhabits mainly dipterocarp rainforest up to 150 m ASL, rarely occurring even as low as 300 m ASL",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鳳冠孔雀雉-ed9edafb",
+      "subject": "鳳冠孔雀雉",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-鳳冠孔雀雉-ed9edafb",
+      "subject": "鳳冠孔雀雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to ongoing habitat loss, small population size and limited range, the Malayan peacock-pheasant is evaluated as endangered on the IUCN Red List of Threatened Species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-鳳冠孔雀雉-ed9edafb",
+      "subject": "鳳冠孔雀雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to ongoing habitat loss, small population size and limited range, the Malayan peacock-pheasant is evaluated as endangered on the IUCN Red List of Threatened Species",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    },
+    {
+      "subject_id": "bird-鳳冠孔雀雉-ed9edafb",
+      "subject": "鳳冠孔雀雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is listed on CITES Appendix II. Deforestation is the main threat for this species, and has rendered more than half of the places where it was found in the 1970s unsuitable for it",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

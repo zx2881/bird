@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:50:00",
+  "requested_title": "Least Bittern",
+  "resolved_title": "Least bittern",
+  "title_aliases": [
+    "Least Bittern"
+  ],
+  "bird_id": "bird-least-bittern-572cdcbf",
+  "raw_file": "bird-least-bittern-572cdcbf.json",
+  "bird": {
+    "id": "bird-least-bittern-572cdcbf",
+    "name": "Least bittern",
+    "english_name": "Least bittern",
+    "latin_name": "Botaurus exilis",
+    "summary": "The least bittern (Botaurus exilis) is a small heron, the smallest member of the family Ardeidae found in the Americas. This species was fo…",
+    "lat": "19",
+    "lng": "-96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Least_Bittern_For_Wiki.png/960px-Least_Bittern_For_Wiki.png"
+  },
+  "locations": [
+    {
+      "id": "loc-美洲-f26eed21",
+      "name": "美洲",
+      "summary": "亚美利加洲（英語：Americas）簡稱美洲，位于西半球，自然地理分为北美洲和南美洲，其中北美洲可进一步划分为北美地区、中美洲（联合国地理方案将墨西哥视为中美洲的一部分）和加勒比地区（西印度群岛）三个地理区域。美洲的总面積達4254.9万…",
+      "lat": "19",
+      "lng": "-96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-least-bittern-572cdcbf",
+      "subject": "Least bittern",
+      "predicate": "distributed_in",
+      "object_id": "loc-美洲-f26eed21",
+      "object": "美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "exilis }} The least bittern (Botaurus exilis) is a small heron, the smallest member of the family Ardeidae found in the Americas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-least-bittern-572cdcbf",
+      "subject": "Least bittern",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

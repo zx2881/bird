@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:16:19",
+  "requested_title": "Slender-billed Flufftail",
+  "resolved_title": "Slender-billed flufftail",
+  "title_aliases": [
+    "Slender-billed Flufftail"
+  ],
+  "bird_id": "bird-slender-billed-flufftail-ee0b0ce1",
+  "raw_file": "bird-slender-billed-flufftail-ee0b0ce1.json",
+  "bird": {
+    "id": "bird-slender-billed-flufftail-ee0b0ce1",
+    "name": "Slender-billed flufftail",
+    "english_name": "Slender-billed flufftail",
+    "latin_name": "Sarothrura watersi",
+    "summary": "The slender-billed flufftail (Sarothrura watersi) is a species of bird in the family Sarothruridae. It is found in highlands of eastern Mad…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/ZaporniaWatersiKeulemans.jpg/960px-ZaporniaWatersiKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-slender-billed-flufftail-ee0b0ce1",
+      "subject": "Slender-billed flufftail",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in highlands of eastern Madagascar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slender-billed-flufftail-ee0b0ce1",
+      "subject": "Slender-billed flufftail",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-slender-billed-flufftail-ee0b0ce1",
+      "subject": "Slender-billed flufftail",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

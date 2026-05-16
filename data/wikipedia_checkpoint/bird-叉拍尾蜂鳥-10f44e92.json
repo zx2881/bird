@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:10:03",
+  "requested_title": "Marvelous Spatuletail",
+  "resolved_title": "Marvelous spatuletail",
+  "title_aliases": [
+    "Marvelous Spatuletail"
+  ],
+  "bird_id": "bird-叉拍尾蜂鳥-10f44e92",
+  "raw_file": "bird-叉拍尾蜂鳥-10f44e92.json",
+  "bird": {
+    "id": "bird-叉拍尾蜂鳥-10f44e92",
+    "name": "叉拍尾蜂鳥",
+    "english_name": "Marvelous spatuletail",
+    "latin_name": "Loddigesia mirabilis",
+    "summary": "叉扇尾蜂鸟（台湾作叉拍尾蜂鳥，学名：Loddigesia mirabilis）是一种中等体形（体长最长可达15cm）的蜂鸟，是叉扇尾蜂鸟属（学名：Loddigesia）的唯一一种。拥有白色、绿色和青铜色的三色羽毛，有蓝色羽冠，颈部有明亮的绿松石色斑纹，白色的腹部上有一条黑线。是…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Loddigesia_mirabilis_114707728.jpg/960px-Loddigesia_mirabilis_114707728.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-叉拍尾蜂鳥-10f44e92",
+      "subject": "叉拍尾蜂鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the edges of mature forest, secondary forest, and montane scrublands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-叉拍尾蜂鳥-10f44e92",
+      "subject": "叉拍尾蜂鳥",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the edges of mature forest, secondary forest, and montane scrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-叉拍尾蜂鳥-10f44e92",
+      "subject": "叉拍尾蜂鳥",
+      "predicate": "lives_in",
+      "object_id": "hab-mature-forest",
+      "object": "成熟森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the edges of mature forest, secondary forest, and montane scrublands",
+      "object_summary": "具备成熟林冠和树洞资源的森林生境。"
+    },
+    {
+      "subject_id": "bird-叉拍尾蜂鳥-10f44e92",
+      "subject": "叉拍尾蜂鳥",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

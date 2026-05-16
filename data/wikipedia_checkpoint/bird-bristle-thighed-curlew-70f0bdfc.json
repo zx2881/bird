@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:19:16",
+  "requested_title": "Bristle-thighed Curlew",
+  "resolved_title": "Bristle-thighed curlew",
+  "title_aliases": [
+    "Bristle-thighed Curlew"
+  ],
+  "bird_id": "bird-bristle-thighed-curlew-70f0bdfc",
+  "raw_file": "bird-bristle-thighed-curlew-70f0bdfc.json",
+  "bird": {
+    "id": "bird-bristle-thighed-curlew-70f0bdfc",
+    "name": "Bristle-thighed curlew",
+    "english_name": "Bristle-thighed curlew",
+    "latin_name": "Numenius tahitiensis",
+    "summary": "The bristle-thighed curlew (Numenius tahitiensis) is a medium-sized shorebird that breeds in Alaska and winters on tropical Pacific islands…",
+    "lat": "64",
+    "lng": "-152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bristle-thighed_Curlew.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿拉斯加州-6d35b63b",
+      "name": "阿拉斯加州",
+      "summary": "阿拉斯加州（英語：Alaska，發音：/əˈlæskə/ ；舊譯「亞尼俺國」、「亞拉士加」）是美國位於北美洲最西北端的聯邦州。州以東與加拿大的英屬哥倫比亞省和育空地區相鄰，最西端位於阿圖島，並與俄羅斯在白令海峽以西有一海上邊界。以北有楚科…",
+      "lat": "64",
+      "lng": "-152"
+    },
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bristle-thighed-curlew-70f0bdfc",
+      "subject": "Bristle-thighed curlew",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bristle-thighed curlew (Numenius tahitiensis) is a medium-sized shorebird that breeds in Alaska and winters on tropical Pacific islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bristle-thighed-curlew-70f0bdfc",
+      "subject": "Bristle-thighed curlew",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉斯加州-6d35b63b",
+      "object": "阿拉斯加州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bristle-thighed curlew (Numenius tahitiensis) is a medium-sized shorebird that breeds in Alaska and winters on tropical Pacific islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bristle-thighed-curlew-70f0bdfc",
+      "subject": "Bristle-thighed curlew",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bristle-thighed curlew (Numenius tahitiensis) is a medium-sized shorebird that breeds in Alaska and winters on tropical Pacific islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bristle-thighed-curlew-70f0bdfc",
+      "subject": "Bristle-thighed curlew",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:06:09",
+  "requested_title": "Band-tailed Pigeon",
+  "resolved_title": "Band-tailed pigeon",
+  "title_aliases": [
+    "Band-tailed Pigeon"
+  ],
+  "bird_id": "bird-band-tailed-pigeon-da192bc9",
+  "raw_file": "bird-band-tailed-pigeon-da192bc9.json",
+  "bird": {
+    "id": "bird-band-tailed-pigeon-da192bc9",
+    "name": "Band-tailed pigeon",
+    "english_name": "Band-tailed pigeon",
+    "latin_name": "Patagioenas fasciata",
+    "summary": "The band-tailed pigeon (Patagioenas fasciata) is a pigeon native to the Americas, and one of the largest pigeons in this region. It is larg…",
+    "lat": "19",
+    "lng": "-96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Patagioenas_fasciata_-San_Luis_Obispo%2C_California%2C_USA-8_%281%29.jpg/960px-Patagioenas_fasciata_-San_Luis_Obispo%2C_California%2C_USA-8_%281%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-美洲-f26eed21",
+      "name": "美洲",
+      "summary": "亚美利加洲（英語：Americas）簡稱美洲，位于西半球，自然地理分为北美洲和南美洲，其中北美洲可进一步划分为北美地区、中美洲（联合国地理方案将墨西哥视为中美洲的一部分）和加勒比地区（西印度群岛）三个地理区域。美洲的总面積達4254.9万…",
+      "lat": "19",
+      "lng": "-96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-band-tailed-pigeon-da192bc9",
+      "subject": "Band-tailed pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-美洲-f26eed21",
+      "object": "美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "fasciata }} The band-tailed pigeon (Patagioenas fasciata) is a pigeon native to the Americas, and one of the largest pigeons in this region. It is largely gray, but with a thin white collar on the nape and a purple-gray breast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-band-tailed-pigeon-da192bc9",
+      "subject": "Band-tailed pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-band-tailed-pigeon-da192bc9",
+      "subject": "Band-tailed pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "According to the North American Breeding Survey, the population of band-tailed pigeons in North America has declined at an average rate of 2% every year since 1968, primarily due to deforestation. Forest management, a practice that is supposed to promote forest environmental, economic, and social goals, can harm the band-tailed pigeons due to its suppression of shrubs and hardwood growth",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

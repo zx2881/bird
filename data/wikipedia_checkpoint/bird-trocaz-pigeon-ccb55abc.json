@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:19:56",
+  "requested_title": "Trocaz Pigeon",
+  "resolved_title": "Trocaz pigeon",
+  "title_aliases": [
+    "Trocaz Pigeon"
+  ],
+  "bird_id": "bird-trocaz-pigeon-ccb55abc",
+  "raw_file": "bird-trocaz-pigeon-ccb55abc.json",
+  "bird": {
+    "id": "bird-trocaz-pigeon-ccb55abc",
+    "name": "Trocaz pigeon",
+    "english_name": "Trocaz pigeon",
+    "latin_name": "Columba trocaz",
+    "summary": "The trocaz pigeon, Madeira laurel pigeon or long-toed pigeon (Columba trocaz) is a pigeon endemic to the island of Madeira, Portugal. It is…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Trocaz_Pigeon_Madeira.jpg/960px-Trocaz_Pigeon_Madeira.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-照葉林-bbcafe01",
+      "name": "照葉林",
+      "summary": "Laurel forest, also called laurisilva or laurissilva, is a type of subtropical forest found in areas with high humidity…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-trocaz-pigeon-ccb55abc",
+      "subject": "Trocaz pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-照葉林-bbcafe01",
+      "object": "照葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mainly occurs on the northern slopes of the mountains, but smaller numbers are found in the south where suitable patches of laurel forest remain. The natural habitat is tall laurisilva forest or dense tree heaths which are cloud-covered for much of the year.Snow (1998) p",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-trocaz-pigeon-ccb55abc",
+      "subject": "Trocaz pigeon",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-trocaz-pigeon-ccb55abc",
+      "subject": "Trocaz pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The major cause of its population decline was habitat loss from forest clearance, but hunting and nest predation by introduced rats were also contributory factors",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-trocaz-pigeon-ccb55abc",
+      "subject": "Trocaz pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The major cause of its population decline was habitat loss from forest clearance, but hunting and nest predation by introduced rats were also contributory factors",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-trocaz-pigeon-ccb55abc",
+      "subject": "Trocaz pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Some illegal hunting and poisoning continues because of the damage this pigeon can do to crops, and the government allowed a cull in 2004",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    }
+  ]
+}

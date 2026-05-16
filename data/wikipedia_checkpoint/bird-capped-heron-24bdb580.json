@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:54:38",
+  "requested_title": "Capped Heron",
+  "resolved_title": "Capped heron",
+  "title_aliases": [
+    "Capped Heron"
+  ],
+  "bird_id": "bird-capped-heron-24bdb580",
+  "raw_file": "bird-capped-heron-24bdb580.json",
+  "bird": {
+    "id": "bird-capped-heron-24bdb580",
+    "name": "Capped heron",
+    "english_name": "Capped heron",
+    "latin_name": "Pilherodius pileatus",
+    "summary": "The capped heron (Pilherodius pileatus) is a water bird endemic to the neotropics, inhabiting rainforest from the center of Panama to the s…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Kappenreiher_Pilherodius_pileatus.jpg/960px-Kappenreiher_Pilherodius_pileatus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-路德維希-賴興巴赫-b24a1c92",
+      "name": "路德維希·賴興巴赫",
+      "summary": "海因里希·戈特利布·路德維希·賴興巴赫（德語：Heinrich Gottlieb Ludwig Reichenbach，1793年1月8日—1879年3月17日）是一名德国植物学家及鸟类学家。 参考文献",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-彼得-博达尔特-2288b0e6",
+      "name": "彼得·博达尔特",
+      "summary": "彼得·博达尔特（荷蘭語：Pieter Boddaert，發音：[ˈpitər ˈbɔdaːrt]；1733年5月26日—1795年5月6日）是一名荷蘭的醫生及博物學家。 博塔埃特的父親是米德爾堡的法學家及詩人(1694–1760)。與其父…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-capped-heron-24bdb580",
+      "subject": "Capped heron",
+      "predicate": "distributed_in",
+      "object_id": "loc-路德維希-賴興巴赫-b24a1c92",
+      "object": "路德維希·賴興巴赫",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Pilherodius pileatus Río Amacayacu, Amazonas, Colombia The capped heron (Pilherodius pileatus) is a water bird endemic to the neotropics, inhabiting rainforest from the center of Panama to the south of Brazil.Ridgely, R",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-capped-heron-24bdb580",
+      "subject": "Capped heron",
+      "predicate": "distributed_in",
+      "object_id": "loc-彼得-博达尔特-2288b0e6",
+      "object": "彼得·博达尔特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Pilherodius pileatus Río Amacayacu, Amazonas, Colombia The capped heron (Pilherodius pileatus) is a water bird endemic to the neotropics, inhabiting rainforest from the center of Panama to the south of Brazil.Ridgely, R",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-capped-heron-24bdb580",
+      "subject": "Capped heron",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "A&C Black. It normally inhabits swamps and ditches in wet grasslands or rainforests",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-capped-heron-24bdb580",
+      "subject": "Capped heron",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "A&C Black. It normally inhabits swamps and ditches in wet grasslands or rainforests",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-capped-heron-24bdb580",
+      "subject": "Capped heron",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-capped-heron-24bdb580",
+      "subject": "Capped heron",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Press, Princeton, New Jersey. However, given that it is mainly a riverine forest species, the loss of this habitat due to logging and conversion of forest to pasture might pose long-term threats",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

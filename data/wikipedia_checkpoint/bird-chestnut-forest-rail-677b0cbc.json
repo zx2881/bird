@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:11:18",
+  "requested_title": "Chestnut Forest Rail",
+  "resolved_title": "Chestnut forest rail",
+  "title_aliases": [
+    "Chestnut Forest Rail"
+  ],
+  "bird_id": "bird-chestnut-forest-rail-677b0cbc",
+  "raw_file": "bird-chestnut-forest-rail-677b0cbc.json",
+  "bird": {
+    "id": "bird-chestnut-forest-rail-677b0cbc",
+    "name": "Chestnut forest rail",
+    "english_name": "Chestnut forest rail",
+    "latin_name": "Rallicula rubra",
+    "summary": "The chestnut forest rail (Rallicula rubra), also known as the chestnut forest crake, is a species of bird in the family Sarothruridae. It i…",
+    "lat": "-1.1725",
+    "lng": "133.49194444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Rallicula_rubra_-_Jonathan_M_-_218218136.jpeg/960px-Rallicula_rubra_-_Jonathan_M_-_218218136.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿爾法克山脈-155df4c2",
+      "name": "阿爾法克山脈",
+      "summary": "阿爾法克山脈是印度尼西亞的山脈，位於西巴布亞省多貝拉伊半島，最高山峰超過海拔7,700英呎，鄰近城鎮有曼諾瓦里，是保存生物多樣性的重要地區。 參考文獻 World Wide Fund for Nature|WWF Bird Watchin…",
+      "lat": "-1.1725",
+      "lng": "133.49194444"
+    },
+    {
+      "id": "loc-新幾內亞高地-05e346ed",
+      "name": "新幾內亞高地",
+      "summary": "新几内亚高地是新幾內亞島上的山脉。其最高点为印度尼西亚境内的查亞峰，海拔4,884米（16,024英尺），同时也是大洋洲的最高峰。该山脉大致呈东西走向横贯全岛，西起印度尼西亞温达马湾县，向东一直延伸至巴布亞新幾內亞米爾恩灣省。 参考文献",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chestnut-forest-rail-677b0cbc",
+      "subject": "Chestnut forest rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿爾法克山脈-155df4c2",
+      "object": "阿爾法克山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Arfak Mountains and western-central New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chestnut-forest-rail-677b0cbc",
+      "subject": "Chestnut forest rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞高地-05e346ed",
+      "object": "新幾內亞高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Arfak Mountains and western-central New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chestnut-forest-rail-677b0cbc",
+      "subject": "Chestnut forest rail",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-chestnut-forest-rail-677b0cbc",
+      "subject": "Chestnut forest rail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

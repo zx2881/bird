@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:04:19",
+  "requested_title": "Gould's Petrel",
+  "resolved_title": "Gould's petrel",
+  "title_aliases": [
+    "Gould's Petrel"
+  ],
+  "bird_id": "bird-gould-s-petrel-c794c24a",
+  "raw_file": "bird-gould-s-petrel-c794c24a.json",
+  "bird": {
+    "id": "bird-gould-s-petrel-c794c24a",
+    "name": "Gould's petrel",
+    "english_name": "Gould's petrel",
+    "latin_name": "Pterodroma leucoptera",
+    "summary": "Gould's petrel (Pterodroma leucoptera) is a species of seabird in the family Procellariidae. The common name commemorates the English ornit…",
+    "lat": "-32.715",
+    "lng": "152.23444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Gould%27s_Petrel_0A2A1313.jpg/960px-Gould%27s_Petrel_0A2A1313.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-boondelbah-island-1c98d598",
+      "name": "Boondelbah Island",
+      "summary": "Boondelbah Island, also known as the Boondelbah Nature Reserve, is a protected nature reserve and uninhabited island ly…",
+      "lat": "-32.715",
+      "lng": "152.23444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-gould-s-petrel-c794c24a",
+      "subject": "Gould's petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-boondelbah-island-1c98d598",
+      "object": "Boondelbah Island",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "After the discovery of breeding pairs on neighbouring Boondelbah Island, translocation of 200 chicks in 1999 and 2000 has established a small satellite colony which breeds in artificial nest boxes that were installed prior to the first translocation .{{cite journal | last1 = Priddel | first1 = D",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gould-s-petrel-c794c24a",
+      "subject": "Gould's petrel",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-gould-s-petrel-c794c24a",
+      "subject": "Gould's petrel",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "- | journal = Australian Journal of Zoology | volume = 55 | issue = 3| pages = 155–160 | doi=10.1071/zo07005}} The major threat to the New Caledonian subspecies is introduced predators within the breeding colonies",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

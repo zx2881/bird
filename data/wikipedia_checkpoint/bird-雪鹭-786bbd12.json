@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:57:13",
+  "requested_title": "Snowy Egret",
+  "resolved_title": "Snowy egret",
+  "title_aliases": [
+    "Snowy Egret"
+  ],
+  "bird_id": "bird-雪鹭-786bbd12",
+  "raw_file": "bird-雪鹭-786bbd12.json",
+  "bird": {
+    "id": "bird-雪鹭-786bbd12",
+    "name": "雪鹭",
+    "english_name": "Snowy egret",
+    "latin_name": "Egretta thula",
+    "summary": "雪鹭（学名： Egretta thula）是一种中小型鹭科白鷺屬鳥類，主要分布於五大湖以南的美洲地區，外形極近似於旧大陆的白鹭（其中巴哈马更都在兩者的分布範圍內）。 雪鷺的模式標本採集於18世紀的智利，其種名「thula」來自當地馬普切人的馬普切語。在馬普切語中，「Thula」…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Snowy_Egret_%28Egretta_thula%29_Edwin_B_Forsythe_NWR%2C_Galloway%2C_NJ%2C_USA.jpg/960px-Snowy_Egret_%28Egretta_thula%29_Edwin_B_Forsythe_NWR%2C_Galloway%2C_NJ%2C_USA.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-鹽鹼灘-28fd4322",
+      "name": "鹽鹼灘",
+      "summary": "鹽鹼灘，又稱鹽沼，是沿海潮間帶和陸地間的一種生態系統，海水或鹹水有規律地湧入流出地帶。這一地帶主要生長鹽土植物。這些植物是陸生植物且耐鹽鹼。在水域食物鏈及海陸營養交換中鹽鹼灘扮演著重要的地位，此外次地帶也為一些陸地生物的生存提供了支持。同…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-雪鹭-786bbd12",
+      "subject": "雪鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-鹽鹼灘-28fd4322",
+      "object": "鹽鹼灘",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in wetlands of many types; marshes, riverbanks, lakesides, pools, salt marshes and estuaries",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雪鹭-786bbd12",
+      "subject": "雪鹭",
+      "predicate": "lives_in",
+      "object_id": "hab-coastal-wetland",
+      "object": "海岸湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in wetlands of many types; marshes, riverbanks, lakesides, pools, salt marshes and estuaries",
+      "object_summary": "海湾、泻湖、盐沼与河口组成的复合湿地。"
+    },
+    {
+      "subject_id": "bird-雪鹭-786bbd12",
+      "subject": "雪鹭",
+      "predicate": "lives_in",
+      "object_id": "hab-estuary",
+      "object": "河口",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in wetlands of many types; marshes, riverbanks, lakesides, pools, salt marshes and estuaries",
+      "object_summary": "淡水与海水交汇形成的高生产力边缘生态系统。"
+    },
+    {
+      "subject_id": "bird-雪鹭-786bbd12",
+      "subject": "雪鹭",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in wetlands of many types; marshes, riverbanks, lakesides, pools, salt marshes and estuaries",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-雪鹭-786bbd12",
+      "subject": "雪鹭",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in wetlands of many types; marshes, riverbanks, lakesides, pools, salt marshes and estuaries",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-雪鹭-786bbd12",
+      "subject": "雪鹭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

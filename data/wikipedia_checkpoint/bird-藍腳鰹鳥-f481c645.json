@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:27:19",
+  "requested_title": "Blue-footed Booby",
+  "resolved_title": "Blue-footed booby",
+  "title_aliases": [
+    "Blue-footed Booby"
+  ],
+  "bird_id": "bird-藍腳鰹鳥-f481c645",
+  "raw_file": "bird-藍腳鰹鳥-f481c645.json",
+  "bird": {
+    "id": "bird-藍腳鰹鳥-f481c645",
+    "name": "藍腳鰹鳥",
+    "english_name": "Blue-footed booby",
+    "latin_name": "Sula nebouxii",
+    "summary": "藍腳鰹鳥（學名：Sula nebouxii）是一種鰹鳥。牠們棲息在熱帶及亞熱帶的太平洋島嶼，當中最著名的有厄瓜多爾的科隆群島（加拉帕戈斯群島），亦是查爾斯·達爾文首次對藍腳鰹鳥進行廣泛研究的地方。 藍腳鰹鳥的種名得名自法國博物學家阿道夫-西蒙·內布，他對於19世紀中葉在加拉巴哥…",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Blue-footed-booby.jpg/960px-Blue-footed-booby.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-藍腳鰹鳥-f481c645",
+      "subject": "藍腳鰹鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is native to subtropical and tropical regions of the eastern Pacific Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藍腳鰹鳥-f481c645",
+      "subject": "藍腳鰹鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-藍腳鰹鳥-f481c645",
+      "subject": "藍腳鰹鳥",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No evidence was seen of other possible causes for the decline, such as effects of humans, introduced predators, or disease",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

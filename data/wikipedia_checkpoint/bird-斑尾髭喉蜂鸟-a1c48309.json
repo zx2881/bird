@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:55:18",
+  "requested_title": "Band-tailed Barbthroat",
+  "resolved_title": "Band-tailed barbthroat",
+  "title_aliases": [
+    "Band-tailed Barbthroat"
+  ],
+  "bird_id": "bird-斑尾髭喉蜂鸟-a1c48309",
+  "raw_file": "bird-斑尾髭喉蜂鸟-a1c48309.json",
+  "bird": {
+    "id": "bird-斑尾髭喉蜂鸟-a1c48309",
+    "name": "斑尾髭喉蜂鸟",
+    "english_name": "Band-tailed barbthroat",
+    "latin_name": "Threnetes ruckeri",
+    "summary": "斑尾髭喉蜂鸟（学名：Threnetes ruckeri），是雨燕目蜂鸟科的一种鸟类。 斑尾髭喉蜂鸟体重约5.2克，翼长约56.6毫米，嘴峰长约33.4毫米，喙宽度约3毫米，喙厚度约2.5毫米，跗蹠长约5.3毫米，尾长约36.3毫米。斑尾髭喉蜂鸟在其分布区内为留鸟，其栖息在密集的…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Band-tailed_Barbthroat_%28Threnetes_ruckeri%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-斑尾髭喉蜂鸟-a1c48309",
+      "subject": "斑尾髭喉蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the understory and edges of primary forest and old second growth, and also semi-open shrublands, thickets, and plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斑尾髭喉蜂鸟-a1c48309",
+      "subject": "斑尾髭喉蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits the understory and edges of primary forest and old second growth, and also semi-open shrublands, thickets, and plantations",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-斑尾髭喉蜂鸟-a1c48309",
+      "subject": "斑尾髭喉蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

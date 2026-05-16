@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:58:10",
+  "requested_title": "Mexican Hermit",
+  "resolved_title": "Mexican hermit",
+  "title_aliases": [
+    "Mexican Hermit"
+  ],
+  "bird_id": "bird-墨西哥隐蜂鸟-4aa1ccde",
+  "raw_file": "bird-墨西哥隐蜂鸟-4aa1ccde.json",
+  "bird": {
+    "id": "bird-墨西哥隐蜂鸟-4aa1ccde",
+    "name": "墨西哥隐蜂鸟",
+    "english_name": "Mexican hermit",
+    "latin_name": "Phaethornis mexicanus",
+    "summary": "墨西哥隐蜂鸟（学名：Phaethornis mexicanus），是雨燕目蜂鸟科的一种鸟类。 墨西哥隐蜂鸟体重约6克，翼长约66.9毫米，嘴峰长约46.4毫米，喙宽度约2.9毫米，喙厚度约3.5毫米，跗蹠长约4.6毫米，尾长约83.3毫米。墨西哥隐蜂鸟在其分布区内为留鸟，其栖息…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mexican_Hermit.jpg/960px-Mexican_Hermit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-墨西哥隐蜂鸟-4aa1ccde",
+      "subject": "墨西哥隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the interior and edges of humid evergreen forest, Heliconia thickets, and ravines in semi-deciduous woodlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-墨西哥隐蜂鸟-4aa1ccde",
+      "subject": "墨西哥隐蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

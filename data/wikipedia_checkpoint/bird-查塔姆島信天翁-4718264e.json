@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:42:21",
+  "requested_title": "Chatham Albatross",
+  "resolved_title": "Chatham albatross",
+  "title_aliases": [
+    "Chatham Albatross"
+  ],
+  "bird_id": "bird-查塔姆島信天翁-4718264e",
+  "raw_file": "bird-查塔姆島信天翁-4718264e.json",
+  "bird": {
+    "id": "bird-查塔姆島信天翁-4718264e",
+    "name": "查塔姆島信天翁",
+    "english_name": "Chatham albatross",
+    "latin_name": "Thalassarche eremita",
+    "summary": "查塔姆島信天翁（學名：Thalassarche eremita），或簡稱查島信天翁，是一種中型的信天翁，僅在紐西蘭查塔姆群島上的一些岩礁上繁殖。由白頂信天翁（Thalassarche cauta）的查塔姆島亞種提升出來。體重3.1至4.7kg，體長90cm，是眾多白頂信天翁中最…",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Chatham_Albatross_0A2A3857.jpg/960px-Chatham_Albatross_0A2A3857.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    },
+    {
+      "id": "loc-塔斯馬尼亞州-a7b95e28",
+      "name": "塔斯馬尼亞州",
+      "summary": "塔斯馬尼亞州（Tasmania，發音：/tæzˈmeɪniə/；帕拉瓦卡尼語：Lutruwita），簡稱塔州，是澳大利亞唯一的島嶼州，原名范迪門地（Van Diemen's Land，又譯萬迪門蘭）。該州位於澳大利亞大陸東南方約240公里…",
+      "lat": "-42",
+      "lng": "147"
+    },
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-查塔姆島信天翁-4718264e",
+      "subject": "查塔姆島信天翁",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "When not breeding they range in the South Pacific from Tasmania to Chile and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-查塔姆島信天翁-4718264e",
+      "subject": "查塔姆島信天翁",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔斯馬尼亞州-a7b95e28",
+      "object": "塔斯馬尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "When not breeding they range in the South Pacific from Tasmania to Chile and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-查塔姆島信天翁-4718264e",
+      "subject": "查塔姆島信天翁",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "When not breeding they range in the South Pacific from Tasmania to Chile and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-查塔姆島信天翁-4718264e",
+      "subject": "查塔姆島信天翁",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "When not breeding they range in the South Pacific from Tasmania to Chile and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-查塔姆島信天翁-4718264e",
+      "subject": "查塔姆島信天翁",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

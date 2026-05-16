@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:51:43",
+  "requested_title": "American Bittern",
+  "resolved_title": "American bittern",
+  "title_aliases": [
+    "American Bittern"
+  ],
+  "bird_id": "bird-美洲麻鳽-11140cbc",
+  "raw_file": "bird-美洲麻鳽-11140cbc.json",
+  "bird": {
+    "id": "bird-美洲麻鳽-11140cbc",
+    "name": "美洲麻鳽",
+    "english_name": "American bittern",
+    "latin_name": "Botaurus lentiginosus",
+    "summary": "美洲麻鳽（学名： Botaurus lentiginosus ）是鹭科麻𫛚属的一种涉禽，分布于新北界。该鸟的繁殖地位于加拿大和美国北部和中部地区，越冬地则包括美国墨西哥湾沿岸各州、包括大沼泽地在内的佛罗里达全境、加勒比群岛和中美洲部分地区。 美洲麻鳽善于伪装，一般独来独往，栖息…",
+    "lat": "61.50027778",
+    "lng": "-114.00111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Botaurus_lentiginosus_28079.JPG/960px-Botaurus_lentiginosus_28079.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-不列颠哥伦比亚省-3432d47b",
+      "name": "不列颠哥伦比亚省",
+      "summary": "不列颠哥伦比亚（英語：British Columbia，香港、新加坡譯卑詩，台湾譯不列顛哥倫比亞，縮寫：B.C.；法語：Colombie-Britannique，縮寫：C.B.），或譯英屬哥倫比亞、中文另外又稱BC省，是加拿大最西部的省，…",
+      "lat": "54",
+      "lng": "-125"
+    },
+    {
+      "id": "loc-大奴湖-e6194bc9",
+      "name": "大奴湖",
+      "summary": "大奴湖（英語：Great Slave Lake，法語：Grand lac des Esclaves）是世界上第十大湖泊，北美洲最深的湖（614公尺深），加拿大西北地方第二大湖（僅次於大熊湖）。大奴湖位於加拿大西北地方南部，鄰近亞伯達省。它…",
+      "lat": "61.50027778",
+      "lng": "-114.00111111"
+    },
+    {
+      "id": "loc-哈得孙湾-0d768400",
+      "name": "哈得孙湾",
+      "summary": "Hudson Bay, sometimes called Hudson's Bay (usually historically), is a large body of saltwater in northeastern Canada w…",
+      "lat": "60",
+      "lng": "-86"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-美洲麻鳽-11140cbc",
+      "subject": "美洲麻鳽",
+      "predicate": "distributed_in",
+      "object_id": "loc-不列颠哥伦比亚省-3432d47b",
+      "object": "不列颠哥伦比亚省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Canada as far north as British Columbia, the Great Slave Lake and Hudson Bay, and in much of the United States and possibly central Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲麻鳽-11140cbc",
+      "subject": "美洲麻鳽",
+      "predicate": "distributed_in",
+      "object_id": "loc-大奴湖-e6194bc9",
+      "object": "大奴湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Canada as far north as British Columbia, the Great Slave Lake and Hudson Bay, and in much of the United States and possibly central Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲麻鳽-11140cbc",
+      "subject": "美洲麻鳽",
+      "predicate": "distributed_in",
+      "object_id": "loc-哈得孙湾-0d768400",
+      "object": "哈得孙湾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Canada as far north as British Columbia, the Great Slave Lake and Hudson Bay, and in much of the United States and possibly central Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲麻鳽-11140cbc",
+      "subject": "美洲麻鳽",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is a well-camouflaged, solitary brown bird that unobtrusively inhabits marshes and the coarse vegetation at the edge of lakes and ponds",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-美洲麻鳽-11140cbc",
+      "subject": "美洲麻鳽",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-美洲麻鳽-11140cbc",
+      "subject": "美洲麻鳽",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is fairly common over its wide range, but its numbers are thought to be decreasing, especially in the south, because of habitat degradation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

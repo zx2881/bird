@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:17:20",
+  "requested_title": "Rufous-headed Chachalaca",
+  "resolved_title": "Rufous-headed chachalaca",
+  "title_aliases": [
+    "Rufous-headed Chachalaca"
+  ],
+  "bird_id": "bird-rufous-headed-chachalaca-64ffcdaf",
+  "raw_file": "bird-rufous-headed-chachalaca-64ffcdaf.json",
+  "bird": {
+    "id": "bird-rufous-headed-chachalaca-64ffcdaf",
+    "name": "Rufous-headed chachalaca",
+    "english_name": "Rufous-headed chachalaca",
+    "latin_name": "Ortalis erythroptera",
+    "summary": "The rufous-headed chachalaca (Ortalis erythroptera) is a species of bird in the family Cracidae, the chachalacas, guans, and curassows. It…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Rufous-headed_Chachalaca.jpg/960px-Rufous-headed_Chachalaca.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-headed-chachalaca-64ffcdaf",
+      "subject": "Rufous-headed chachalaca",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Ecuador, and Peru.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-headed-chachalaca-64ffcdaf",
+      "subject": "Rufous-headed chachalaca",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Ecuador, and Peru.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-headed-chachalaca-64ffcdaf",
+      "subject": "Rufous-headed chachalaca",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Ecuador, and Peru.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-headed-chachalaca-64ffcdaf",
+      "subject": "Rufous-headed chachalaca",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits dry, but not arid, deciduous forest and cloudforest in the coastal zone and Andean foothills",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-headed-chachalaca-64ffcdaf",
+      "subject": "Rufous-headed chachalaca",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-rufous-headed-chachalaca-64ffcdaf",
+      "subject": "Rufous-headed chachalaca",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Habitat destruction and hunting are the primary threats",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-rufous-headed-chachalaca-64ffcdaf",
+      "subject": "Rufous-headed chachalaca",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Habitat destruction and hunting are the primary threats",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

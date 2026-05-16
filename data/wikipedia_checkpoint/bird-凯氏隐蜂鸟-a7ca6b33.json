@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:57:08",
+  "requested_title": "Koepcke's Hermit",
+  "resolved_title": "Koepcke's hermit",
+  "title_aliases": [
+    "Koepcke's Hermit"
+  ],
+  "bird_id": "bird-凯氏隐蜂鸟-a7ca6b33",
+  "raw_file": "bird-凯氏隐蜂鸟-a7ca6b33.json",
+  "bird": {
+    "id": "bird-凯氏隐蜂鸟-a7ca6b33",
+    "name": "凯氏隐蜂鸟",
+    "english_name": "Koepcke's hermit",
+    "latin_name": "Phaethornis koepckeae",
+    "summary": "凯氏隐蜂鸟（台湾作庫柏克氏隱蜂鳥，学名：Phaethornis koepckeae），是雨燕目蜂鸟科的一种鸟类。 凯氏隐蜂鸟体重约5.03克，翼长约60.7毫米，嘴峰长约37.1毫米，喙宽度约2.3毫米，喙厚度约2.1毫米，跗蹠长约5.8毫米，尾长约65.3毫米。凯氏隐蜂鸟在其…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Koepcke%27s_Hermit.jpg/960px-Koepcke%27s_Hermit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-凯氏隐蜂鸟-a7ca6b33",
+      "subject": "凯氏隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understory of tall evergreen forest and humid montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-凯氏隐蜂鸟-a7ca6b33",
+      "subject": "凯氏隐蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the understory of tall evergreen forest and humid montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-凯氏隐蜂鸟-a7ca6b33",
+      "subject": "凯氏隐蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-凯氏隐蜂鸟-a7ca6b33",
+      "subject": "凯氏隐蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"It is threatened by rapid deforestation within its elevational range.\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:44:23",
+  "requested_title": "Horus Swift",
+  "resolved_title": "Horus swift",
+  "title_aliases": [
+    "Horus Swift"
+  ],
+  "bird_id": "bird-horus-swift-ea39ef81",
+  "raw_file": "bird-horus-swift-ea39ef81.json",
+  "bird": {
+    "id": "bird-horus-swift-ea39ef81",
+    "name": "Horus swift",
+    "english_name": "Horus swift",
+    "latin_name": "Apus horus",
+    "summary": "The Horus swift (Apus horus) is a small bird in the swift family Apodidae that is found in sub-Saharan Africa. Horus, whose name this bird…",
+    "lat": "-13",
+    "lng": "31.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/ApusHorus_RobertWienand.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南盧安瓜國家公園-ad05029c",
+      "name": "南盧安瓜國家公園",
+      "summary": "南盧安瓜國家公園（英語：South Luangwa National Park）是非洲中部國家贊比亞的國家公園，建立于1905年，佔地9,050平方公里，在1972年成為國家公園，野生動物包括長頸鹿、非洲象、水牛、鱷魚、河馬等。 参考文献",
+      "lat": "-13",
+      "lng": "31.5"
+    },
+    {
+      "id": "loc-赞比亚-5eceb6be",
+      "name": "赞比亚",
+      "summary": "赞比亚共和国（英語：Republic of Zambia），也稱尚比亞（英語：Zambia），是非洲東南部的一個內陸國家。与刚果民主共和国、坦桑尼亚、马拉维、莫桑比克、津巴布韦、博茨瓦纳、纳米比亚和安哥拉相邻。首都是卢萨卡。 历史 二千年…",
+      "lat": "-15",
+      "lng": "30"
+    },
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-horus-swift-ea39ef81",
+      "subject": "Horus swift",
+      "predicate": "distributed_in",
+      "object_id": "loc-南盧安瓜國家公園-ad05029c",
+      "object": "南盧安瓜國家公園",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Horus swift (Apus horus) is a small bird in the swift family Apodidae that is found in sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-horus-swift-ea39ef81",
+      "subject": "Horus swift",
+      "predicate": "distributed_in",
+      "object_id": "loc-赞比亚-5eceb6be",
+      "object": "赞比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Horus swift (Apus horus) is a small bird in the swift family Apodidae that is found in sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-horus-swift-ea39ef81",
+      "subject": "Horus swift",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Horus swift (Apus horus) is a small bird in the swift family Apodidae that is found in sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-horus-swift-ea39ef81",
+      "subject": "Horus swift",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

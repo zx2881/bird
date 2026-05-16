@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:58:08",
+  "requested_title": "Island Bronze-naped Pigeon",
+  "resolved_title": "Island bronze-naped pigeon",
+  "title_aliases": [
+    "Island Bronze-naped Pigeon"
+  ],
+  "bird_id": "bird-圣多美鸽-96113d9f",
+  "raw_file": "bird-圣多美鸽-96113d9f.json",
+  "bird": {
+    "id": "bird-圣多美鸽-96113d9f",
+    "name": "圣多美鸽",
+    "english_name": "Island bronze-naped pigeon",
+    "latin_name": "Columba malherbii",
+    "summary": "The island bronze-naped pigeon (Columba malherbii), also known as the São Tomé bronze-naped pigeon or São Tomé pigeon, is a species of bird…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/S%C3%A3o_Tom%C3%A9_bronze-naped_pigeon_%28Columba_malherbii%29_male.jpg/960px-S%C3%A3o_Tom%C3%A9_bronze-naped_pigeon_%28Columba_malherbii%29_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-圣多美鸽-96113d9f",
+      "subject": "圣多美鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits rainforest, secondary forests, and plantations at elevations of up to , although it is more common at lower elevations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-圣多美鸽-96113d9f",
+      "subject": "圣多美鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits rainforest, secondary forests, and plantations at elevations of up to , although it is more common at lower elevations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-圣多美鸽-96113d9f",
+      "subject": "圣多美鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "On Príncipe, it inhabits forests and plantations, and is considerably less common in primary forest than other similar species. On São Tomé, it also inhabits forests and plantations, but is more common in human-modified habitats like shade forests and non-forested areas like savannas.{{Cite journal |last1=Carvalho |first1=Mariana |last2=Fa |first2=Julia E",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-圣多美鸽-96113d9f",
+      "subject": "圣多美鸽",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "On Príncipe, it inhabits forests and plantations, and is considerably less common in primary forest than other similar species. On São Tomé, it also inhabits forests and plantations, but is more common in human-modified habitats like shade forests and non-forested areas like savannas.{{Cite journal |last1=Carvalho |first1=Mariana |last2=Fa |first2=Julia E",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-圣多美鸽-96113d9f",
+      "subject": "圣多美鸽",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-圣多美鸽-96113d9f",
+      "subject": "圣多美鸽",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is listed as being near threatened by the International Union for Conservation of Nature (IUCN) on the IUCN Red List due to an ongoing \"moderately quick\" decline in its population caused by hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:58:03",
+  "requested_title": "Little Auk",
+  "resolved_title": "Little auk",
+  "title_aliases": [
+    "Little Auk"
+  ],
+  "bird_id": "bird-侏海雀-24ca226e",
+  "raw_file": "bird-侏海雀-24ca226e.json",
+  "bird": {
+    "id": "bird-侏海雀-24ca226e",
+    "name": "侏海雀",
+    "english_name": "Little auk",
+    "latin_name": "Alle alle",
+    "summary": "The little auk (Europe) or dovekie (North America) (Alle alle) is a small auk, the only member of the genus Alle. It breeds in huge numbers…",
+    "lat": "72",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Krabbentaucher_Sommer_2023.jpg/960px-Krabbentaucher_Sommer_2023.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-格陵兰-d99a3bdb",
+      "name": "格陵兰",
+      "summary": "格陵蘭島（格陵蘭語：Kalaallit Nunaat，發音：[kalaːɬːit nʉnaːt]；丹麥語：Grønland，發音：[ˈkʁɶnˌlænˀ]）是丹麥王國框架內之自治領地。格陵蘭島是世界最大島嶼，位於北美洲東北，介乎北冰洋與大…",
+      "lat": "72",
+      "lng": "-40"
+    },
+    {
+      "id": "loc-斯瓦尔巴-131bd7bb",
+      "name": "斯瓦尔巴",
+      "summary": "斯瓦尔巴（挪威語：Svalbard，挪威語發音：[ˈsvɑ̂ːɫbɑr]）是挪威位於北极地区的群島，亦是挪威最北界的國土範圍。它坐落在歐洲大陸以北，約佇立於挪威大陸與北極點兩者正中間。群島橫跨北緯74°到 81°、東經10°到35°。斯匹…",
+      "lat": "78.22",
+      "lng": "15.65"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-侏海雀-24ca226e",
+      "subject": "侏海雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-格陵兰-d99a3bdb",
+      "object": "格陵兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "alle breeds in Greenland, Novaya Zemlya and Svalbard; and A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-侏海雀-24ca226e",
+      "subject": "侏海雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯瓦尔巴-131bd7bb",
+      "object": "斯瓦尔巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "alle breeds in Greenland, Novaya Zemlya and Svalbard; and A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-侏海雀-24ca226e",
+      "subject": "侏海雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

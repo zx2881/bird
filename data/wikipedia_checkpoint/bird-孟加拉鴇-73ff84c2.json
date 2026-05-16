@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:08:07",
+  "requested_title": "Bengal Florican",
+  "resolved_title": "Bengal florican",
+  "title_aliases": [
+    "Bengal Florican"
+  ],
+  "bird_id": "bird-孟加拉鴇-73ff84c2",
+  "raw_file": "bird-孟加拉鴇-73ff84c2.json",
+  "bird": {
+    "id": "bird-孟加拉鴇-73ff84c2",
+    "name": "孟加拉鴇",
+    "english_name": "Bengal florican",
+    "latin_name": "Houbaropsis bengalensis",
+    "summary": "孟加拉鴇（學名：Eupodotis bengalensis）是鴇科孟加拉鴇屬下的單型種，有兩個分隔開的種群。其种加词“bengalensis ”意为“孟加拉的”。 描述 分佈 保護現狀 註釋 參考文獻 BirdLife International (2007a): [ 2006…",
+    "lat": "12.5",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bengal_Florican_Houbaropsis_bengalensis_bengalensis_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲利普-路德维希-施塔蒂乌斯-米勒-b9ad7727",
+      "name": "菲利普·路德维希·施塔蒂乌斯·米勒",
+      "summary": "菲利普·路德维希·施塔蒂乌斯·米勒（德語：Philipp Ludwig Statius Müller，1725年4月25日—1776年1月5日），德国动物学家。 米勒曾在埃朗根-纽伦堡大学教授自然科学。1773年至1776年间，他將卡爾·…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-柬埔寨-9e7f3482",
+      "name": "柬埔寨",
+      "summary": "柬埔寨王國（高棉語：ព្រះរាជាណាចក្រកម្ពុជា，羅馬化：Preăh Réachéanachâk Kâmpŭchéa），通稱柬埔寨（高棉語：កម្ពុជា，羅馬化：Kâmpŭchéa），是位於東南亞中南半島的君主立憲制國家，…",
+      "lat": "12.5",
+      "lng": "105"
+    },
+    {
+      "id": "loc-越南-29eeb04d",
+      "name": "越南",
+      "summary": "越南社会主义共和国（越南語：Cộng hòa Xã hội chủ nghĩa Việt Nam／共和社會主義越南，），通称越南（越南語：Việt Nam），是位于东南亚中南半岛东端的社会主义国家。北接中国，西邻柬埔寨与老挝，全国人口约逾…",
+      "lat": "16",
+      "lng": "108"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-孟加拉鴇-73ff84c2",
+      "subject": "孟加拉鴇",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲利普-路德维希-施塔蒂乌斯-米勒-b9ad7727",
+      "object": "菲利普·路德维希·施塔蒂乌斯·米勒",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bengal florican (Houbaropsis bengalensis), also called the Bengal bustard, is a bustard species native to the Indian subcontinent, Cambodia, and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-孟加拉鴇-73ff84c2",
+      "subject": "孟加拉鴇",
+      "predicate": "distributed_in",
+      "object_id": "loc-柬埔寨-9e7f3482",
+      "object": "柬埔寨",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bengal florican (Houbaropsis bengalensis), also called the Bengal bustard, is a bustard species native to the Indian subcontinent, Cambodia, and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-孟加拉鴇-73ff84c2",
+      "subject": "孟加拉鴇",
+      "predicate": "distributed_in",
+      "object_id": "loc-越南-29eeb04d",
+      "object": "越南",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bengal florican (Houbaropsis bengalensis), also called the Bengal bustard, is a bustard species native to the Indian subcontinent, Cambodia, and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-孟加拉鴇-73ff84c2",
+      "subject": "孟加拉鴇",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Migrations are not long-distance, however, and probably are restricted to a few dozen kilometers. Bengal floricans live in open tall grassland habitats with scattered bushes",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-孟加拉鴇-73ff84c2",
+      "subject": "孟加拉鴇",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

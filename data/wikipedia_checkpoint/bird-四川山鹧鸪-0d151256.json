@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:42:16",
+  "requested_title": "Sichuan Partridge",
+  "resolved_title": "Sichuan partridge",
+  "title_aliases": [
+    "Sichuan Partridge"
+  ],
+  "bird_id": "bird-四川山鹧鸪-0d151256",
+  "raw_file": "bird-四川山鹧鸪-0d151256.json",
+  "bird": {
+    "id": "bird-四川山鹧鸪-0d151256",
+    "name": "四川山鹧鸪",
+    "english_name": "Sichuan partridge",
+    "latin_name": "Arborophila rufipectus",
+    "summary": "四川山鹧鸪（拉丁語：Arborophila rufipectus）为雉科山鹧鸪属的鸟类，俗名荀鸡、砣砣鸡，是中国的特有物种。分布于四川等地，一般栖息于阔叶林下的浓密竹丛和灌丛。该物种的模式产地在四川甘洛县的大桥公社。 描述 四川山鹧鸪是一种中等体型(30厘米)、色彩浓艳的山鹧鸪…",
+    "lat": "26.8825",
+    "lng": "99.60944444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Sichuan_partridge_%28Arborophila_rufipectus%29_02.jpg/960px-Sichuan_partridge_%28Arborophila_rufipectus%29_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-mount-laojun-yunnan-b1cf1313",
+      "name": "Mount Laojun (Yunnan)",
+      "summary": "Laojun Mountain (Chinese: 老君山; pinyin: Lǎojūn Shān) is a mountain in the northwest part of Yunnan Province, China.",
+      "lat": "26.8825",
+      "lng": "99.60944444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-四川山鹧鸪-0d151256",
+      "subject": "四川山鹧鸪",
+      "predicate": "distributed_in",
+      "object_id": "loc-mount-laojun-yunnan-b1cf1313",
+      "object": "Mount Laojun (Yunnan)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is also found in northern Yunnan, including Laojun Mountain",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-四川山鹧鸪-0d151256",
+      "subject": "四川山鹧鸪",
+      "predicate": "lives_in",
+      "object_id": "hab-temperate-forest",
+      "object": "温带森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is temperate forest",
+      "object_summary": "温带岛屿或山地森林生态系统。"
+    },
+    {
+      "subject_id": "bird-四川山鹧鸪-0d151256",
+      "subject": "四川山鹧鸪",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-四川山鹧鸪-0d151256",
+      "subject": "四川山鹧鸪",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

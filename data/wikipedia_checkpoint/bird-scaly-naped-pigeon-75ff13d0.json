@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:56:06",
+  "requested_title": "Scaly-naped Pigeon",
+  "resolved_title": "Scaly-naped pigeon",
+  "title_aliases": [
+    "Scaly-naped Pigeon"
+  ],
+  "bird_id": "bird-scaly-naped-pigeon-75ff13d0",
+  "raw_file": "bird-scaly-naped-pigeon-75ff13d0.json",
+  "bird": {
+    "id": "bird-scaly-naped-pigeon-75ff13d0",
+    "name": "Scaly-naped pigeon",
+    "english_name": "Scaly-naped pigeon",
+    "latin_name": "Patagioenas squamosa",
+    "summary": "The scaly-naped pigeon (Patagioenas squamosa), also known as the red-necked pigeon, is a bird belonging to the family Columbidae. The speci…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Patagioenas_squamosa_in_Barbados_a-01.jpg/960px-Patagioenas_squamosa_in_Barbados_a-01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-scaly-naped-pigeon-75ff13d0",
+      "subject": "Scaly-naped pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|editor4-last=Schulenberg |editor4-first=Thomas S.|url-access=subscription }} The species tends to occur in rainforests, however they may also be found in drier lowland woodlands; the species is locally common near human settlements",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scaly-naped-pigeon-75ff13d0",
+      "subject": "Scaly-naped pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

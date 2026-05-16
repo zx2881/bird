@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:42:15",
+  "requested_title": "Black Imperial Pigeon",
+  "resolved_title": "Black imperial pigeon",
+  "title_aliases": [
+    "Black Imperial Pigeon"
+  ],
+  "bird_id": "bird-black-imperial-pigeon-d8fc4fbe",
+  "raw_file": "bird-black-imperial-pigeon-d8fc4fbe.json",
+  "bird": {
+    "id": "bird-black-imperial-pigeon-d8fc4fbe",
+    "name": "Black imperial pigeon",
+    "english_name": "Black imperial pigeon",
+    "latin_name": "Ducula melanochroa",
+    "summary": "The black imperial pigeon (Ducula melanochroa), also known as the Bismarck imperial pigeon, is a species of bird in the pigeon family, Colu…",
+    "lat": "-5",
+    "lng": "150.1",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ducula_melanochroa_50658986_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲利普-斯克莱特-0722f03b",
+      "name": "菲利普·斯克莱特",
+      "summary": "菲利普·勒特利·斯克莱特（英語：Philip Lutley Sclater，1829年11月4日—1913年6月27日）是一位英国律师和动物学家，主要从事鳥類學研究，开创性地建立了动物地理学分区。 参考资料 外部链接 维基共享资源上的相關…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-俾斯麦群岛-19ddf3e6",
+      "name": "俾斯麦群岛",
+      "summary": "俾斯麦群岛（英文：Bismarck Archipelago）是太平洋西南部一群岛，位于新几内亚岛东北，濒临俾斯麦海，由200多个岛屿组成，总陆地面积49700平方公里，主要岛屿有新不列颠岛、新爱尔兰岛等，人口31.4万人，现全部属于巴布亚…",
+      "lat": "-5",
+      "lng": "150.1"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-imperial-pigeon-d8fc4fbe",
+      "subject": "Black imperial pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲利普-斯克莱特-0722f03b",
+      "object": "菲利普·斯克莱特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "First described by English zoologist Philip Sclater in 1878, it is endemic to the Bismarck Archipelago, where it mainly inhabits rainforest and cloud forest in mountain areas above",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-imperial-pigeon-d8fc4fbe",
+      "subject": "Black imperial pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-俾斯麦群岛-19ddf3e6",
+      "object": "俾斯麦群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "First described by English zoologist Philip Sclater in 1878, it is endemic to the Bismarck Archipelago, where it mainly inhabits rainforest and cloud forest in mountain areas above",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-imperial-pigeon-d8fc4fbe",
+      "subject": "Black imperial pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-black-imperial-pigeon-d8fc4fbe",
+      "subject": "Black imperial pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "David |last7=Mayaux |first7=Philippe |date=2008 |title=Using remote sensing to inform conservation status assessment: Estimates of recent deforestation rates on New Britain and the impacts upon endemic birds |url=https://linkinghub.elsevier.com/retrieve/pii/S0006320707003564 |journal=Biological Conservation |language=en |volume=141 |issue=1 |page=62 |doi=10.1016/j.biocon.2007.08.023|bibcode=2008BCons.141...56B |url-access=subscription }} Although it has shown an ability to tolerate selective logging in forests on New Ireland, its population is thought to currently be declining due to habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-black-imperial-pigeon-d8fc4fbe",
+      "subject": "Black imperial pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "David |last7=Mayaux |first7=Philippe |date=2008 |title=Using remote sensing to inform conservation status assessment: Estimates of recent deforestation rates on New Britain and the impacts upon endemic birds |url=https://linkinghub.elsevier.com/retrieve/pii/S0006320707003564 |journal=Biological Conservation |language=en |volume=141 |issue=1 |page=62 |doi=10.1016/j.biocon.2007.08.023|bibcode=2008BCons.141...56B |url-access=subscription }} Although it has shown an ability to tolerate selective logging in forests on New Ireland, its population is thought to currently be declining due to habitat destruction",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

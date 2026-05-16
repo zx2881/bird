@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:22:19",
+  "requested_title": "Little Bustard",
+  "resolved_title": "Little bustard",
+  "title_aliases": [
+    "Little Bustard"
+  ],
+  "bird_id": "bird-小鸨-1833b34a",
+  "raw_file": "bird-小鸨-1833b34a.json",
+  "bird": {
+    "id": "bird-小鸨-1833b34a",
+    "name": "小鸨",
+    "english_name": "Little bustard",
+    "latin_name": "Tetrax tetrax",
+    "summary": "小鸨（学名：Tetrax tetrax）为鸨科小鴇属的鸟类。该物种的模式产地在法国。 保护 中国国家重点保护动物等级：一级 亚种 小鸨新疆亚种（学名：Otis tetrax orientalis）。在中国大陆，分布于新疆、四川等地。该物种的模式产地在俄罗斯。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Little_Bustard_%28Tetrax_tetrax%29%2C_Castuera%2C_Extremadura%2C_Spain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-南欧-748507ef",
+      "name": "南欧",
+      "summary": "南歐是歐洲南部的簡稱，範圍包括伊比利半島、義大利半島及巴爾幹半島的南部，由法國，葡萄牙、西班牙、義大利及希臘等國組成，有时也稱為地中海歐洲，因為大多南歐國家靠近地中海。南歐隔著地中海與亞、非洲相望，自古以來與西亞及北非往來密切，同是重要的…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西亚-a96480a2",
+      "name": "西亚",
+      "summary": "西亞（英語：West Asia，通稱：Western Asia），或稱西南亞（英語：South-west Asia 或 Southwest Asia，通稱：South-western Asia 或 Southwestern Asia），指…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中亚-88133474",
+      "name": "中亚",
+      "summary": "中亚（英語：Central Asia；俄語：Средняя Азия / Центральная Азия）即亚洲中部，在地理上是指西至里海，东到中国新疆，南到阿富汗，北到俄罗斯的广大区域。而根据长期占据这片区域大部分领土的前苏联官方定义…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小鸨-1833b34a",
+      "subject": "小鸨",
+      "predicate": "distributed_in",
+      "object_id": "loc-南欧-748507ef",
+      "object": "南欧",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Southern Europe and in Western and Central Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小鸨-1833b34a",
+      "subject": "小鸨",
+      "predicate": "distributed_in",
+      "object_id": "loc-西亚-a96480a2",
+      "object": "西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Southern Europe and in Western and Central Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小鸨-1833b34a",
+      "subject": "小鸨",
+      "predicate": "distributed_in",
+      "object_id": "loc-中亚-88133474",
+      "object": "中亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Southern Europe and in Western and Central Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小鸨-1833b34a",
+      "subject": "小鸨",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The shooting was particularly controversial amongst conservationists and birders since the little bustard is a very rare visitor to Cyprus and had not been officially recorded in Cyprus since December 1979. The bird's habitat is open grassland and undisturbed cultivation, with plants tall enough for cover",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-小鸨-1833b34a",
+      "subject": "小鸨",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

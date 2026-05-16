@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:32:10",
+  "requested_title": "Chatham Shag",
+  "resolved_title": "Chatham Islands shag",
+  "title_aliases": [
+    "Chatham Shag",
+    "Chatham Islands shag"
+  ],
+  "bird_id": "bird-查島鸕鶿-53ef3f2b",
+  "raw_file": "bird-查島鸕鶿-53ef3f2b.json",
+  "bird": {
+    "id": "bird-查島鸕鶿-53ef3f2b",
+    "name": "查島鸕鶿",
+    "english_name": "Chatham Islands shag",
+    "latin_name": "Leucocarbo onslowi",
+    "summary": "查島鸕鶿（學名：Leucocarbo onslowi），也稱作查島白腹鸕鶿，是紐西蘭的特有的一種鸕鶿，僅在查塔姆群島上繁殖。其原生生境為開闊的海洋及岩岸。因面對棲息地的破壞，這鳥在IUCN紅色名錄內列為極危物種。 參考文獻 外部連結 國際鳥盟介紹 （页面存档备份，存于互联网档案…",
+    "lat": "-43.86666667",
+    "lng": "-176.46666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/20181001_ChathamsA9D3_444_DxO.jpg/960px-20181001_ChathamsA9D3_444_DxO.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-te-whanga-lagoon-075f4284",
+      "name": "Te Whanga Lagoon",
+      "summary": "Te Whanga Lagoon dominates the geography of Chatham Island, in the South Pacific Ocean off New Zealand's east coast.",
+      "lat": "-43.86666667",
+      "lng": "-176.46666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-查島鸕鶿-53ef3f2b",
+      "subject": "查島鸕鶿",
+      "predicate": "distributed_in",
+      "object_id": "loc-te-whanga-lagoon-075f4284",
+      "object": "Te Whanga Lagoon",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the Chathams it is an inshore species, rarely going more than a few kilometres away from shore, and it is more commonly found in sheltered water such as bays and inlets. It also forages in the large brackish Te Whanga Lagoon. It breeds in colonies on coastal areas and around Te Whanga Lagoon, either on flat areas, slopes or wide cliff ledges",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-查島鸕鶿-53ef3f2b",
+      "subject": "查島鸕鶿",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In the Chathams it is an inshore species, rarely going more than a few kilometres away from shore, and it is more commonly found in sheltered water such as bays and inlets. It also forages in the large brackish Te Whanga Lagoon. It breeds in colonies on coastal areas and around Te Whanga Lagoon, either on flat areas, slopes or wide cliff ledges",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-查島鸕鶿-53ef3f2b",
+      "subject": "查島鸕鶿",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In the Chathams it is an inshore species, rarely going more than a few kilometres away from shore, and it is more commonly found in sheltered water such as bays and inlets. It also forages in the large brackish Te Whanga Lagoon. It breeds in colonies on coastal areas and around Te Whanga Lagoon, either on flat areas, slopes or wide cliff ledges",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-查島鸕鶿-53ef3f2b",
+      "subject": "查島鸕鶿",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-查島鸕鶿-53ef3f2b",
+      "subject": "查島鸕鶿",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is threatened by introduced predators, disturbance at its breeding colonies and habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-查島鸕鶿-53ef3f2b",
+      "subject": "查島鸕鶿",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is threatened by introduced predators, disturbance at its breeding colonies and habitat loss",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    },
+    {
+      "subject_id": "bird-查島鸕鶿-53ef3f2b",
+      "subject": "查島鸕鶿",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is threatened by introduced predators, disturbance at its breeding colonies and habitat loss",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:21:07",
+  "requested_title": "Scaled Chachalaca",
+  "resolved_title": "Scaled chachalaca",
+  "title_aliases": [
+    "Scaled Chachalaca"
+  ],
+  "bird_id": "bird-scaled-chachalaca-1d065cea",
+  "raw_file": "bird-scaled-chachalaca-1d065cea.json",
+  "bird": {
+    "id": "bird-scaled-chachalaca-1d065cea",
+    "name": "Scaled chachalaca",
+    "english_name": "Scaled chachalaca",
+    "latin_name": "Ortalis squamata",
+    "summary": "The scaled chachalaca (Ortalis squamata) is a species of bird in the family Cracidae, the chachalacas, guans, and curassows. It is endemic…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Ortalis_squamata_-_Pelotas%2C_Rio_Grande_do_Sul%2C_Brazil.jpg/960px-Ortalis_squamata_-_Pelotas%2C_Rio_Grande_do_Sul%2C_Brazil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-scaled-chachalaca-1d065cea",
+      "subject": "Scaled chachalaca",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the edges of tropical evergreen forest and the interior and edges of restinga and Laguncularia racemosa-dominated mangrove stands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scaled-chachalaca-1d065cea",
+      "subject": "Scaled chachalaca",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-scaled-chachalaca-1d065cea",
+      "subject": "Scaled chachalaca",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It does face hunting pressure and loss of habitat from deforestation",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-scaled-chachalaca-1d065cea",
+      "subject": "Scaled chachalaca",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It does face hunting pressure and loss of habitat from deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:39:07",
+  "requested_title": "Short-tailed Albatross",
+  "resolved_title": "Short-tailed albatross",
+  "title_aliases": [
+    "Short-tailed Albatross"
+  ],
+  "bird_id": "bird-短尾信天翁-e3d874eb",
+  "raw_file": "bird-短尾信天翁-e3d874eb.json",
+  "bird": {
+    "id": "bird-短尾信天翁-e3d874eb",
+    "name": "短尾信天翁",
+    "english_name": "Short-tailed albatross",
+    "latin_name": "Phoebastria albatrus",
+    "summary": "短尾信天翁（學名：Phoebastria albatrus）是最大的信天翁，翅膀展开可以有3米宽。成年鸟可达11公斤。它也是唯一白色身体的信天翁，只在头颈泛淡黄色。它拥有白背，翅膀外半部是黑色，蓝尖粉红色的嘴，淡蓝色的腿脚。年轻的鸟是棕黑色，成长期间逐渐发白。在日本稱作信天翁、…",
+    "lat": "25",
+    "lng": "-168",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Short_tailed_Albatross1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西北夏威夷群島-87311244",
+      "name": "西北夏威夷群島",
+      "summary": "西北夏威夷群島（英語：Northwestern Hawaiian Islands），又稱背风群岛（Leeward Islands），是美國夏威夷群島中，考艾島和尼豪島西北方的所有島嶼及珊瑚礁，总陆地面积为8.048平方公里。除了中途島之外…",
+      "lat": "25",
+      "lng": "-168"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-短尾信天翁-e3d874eb",
+      "subject": "短尾信天翁",
+      "predicate": "distributed_in",
+      "object_id": "loc-西北夏威夷群島-87311244",
+      "object": "西北夏威夷群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Both Midway and Kure are in the Northwestern Hawaiian Islands.{{cite web |title=Nest of endangered albatross found in Hawaii",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-短尾信天翁-e3d874eb",
+      "subject": "短尾信天翁",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-短尾信天翁-e3d874eb",
+      "subject": "短尾信天翁",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Varieties of albatross decoys were placed around on the island after it was discovered that like other albatross species, this species also were enticed to breed if placed in a group. Between 2008 and 2012, the Ministry of the Environment relocated 70 albatross chicks from Tori-shima to Mukojima to breed them artificially. Today, longline fisheries and volcanic eruptions on Tori-shima are the largest threats; however, introduced predators, environmental contaminants, soil instability, and extreme weather are also threats",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

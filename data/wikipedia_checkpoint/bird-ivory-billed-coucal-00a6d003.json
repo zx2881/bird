@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:29:16",
+  "requested_title": "Ivory-billed Coucal",
+  "resolved_title": "Ivory-billed coucal",
+  "title_aliases": [
+    "Ivory-billed Coucal"
+  ],
+  "bird_id": "bird-ivory-billed-coucal-00a6d003",
+  "raw_file": "bird-ivory-billed-coucal-00a6d003.json",
+  "bird": {
+    "id": "bird-ivory-billed-coucal-00a6d003",
+    "name": "Ivory-billed coucal",
+    "english_name": "Ivory-billed coucal",
+    "latin_name": "Centropus menbeki",
+    "summary": "The ivory-billed coucal or greater black coucal (Centropus menbeki) is a species of cuckoo in the family Cuculidae. It is found in the Aru…",
+    "lat": "-6.2",
+    "lng": "134.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Greater_Black_Coucal.Ivory-billed_Coucal_%28Centropus_menbeki%29.jpg/960px-Greater_Black_Coucal.Ivory-billed_Coucal_%28Centropus_menbeki%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-阿魯群島-c5d8ff7a",
+      "name": "阿魯群島",
+      "summary": "阿魯群島（印尼语：Kepulauan Aru）是大洋洲的一組约95个低窪島嶼组成的群岛，位於印尼東部的馬魯古省，同时也是马鲁古省下的一个县。 行政区划 行政上，阿鲁群岛属于阿鲁群岛县（印尼语：Kabupaten Kepulauan Aru…",
+      "lat": "-6.2",
+      "lng": "134.5"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ivory-billed-coucal-00a6d003",
+      "subject": "Ivory-billed coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿魯群島-c5d8ff7a",
+      "object": "阿魯群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Aru Islands and New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ivory-billed-coucal-00a6d003",
+      "subject": "Ivory-billed coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Aru Islands and New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ivory-billed-coucal-00a6d003",
+      "subject": "Ivory-billed coucal",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:04:44",
+  "requested_title": "Black-winged Petrel",
+  "resolved_title": "Black-winged petrel",
+  "title_aliases": [
+    "Black-winged Petrel"
+  ],
+  "bird_id": "bird-黑翅圆尾鹱-a19df33e",
+  "raw_file": "bird-黑翅圆尾鹱-a19df33e.json",
+  "bird": {
+    "id": "bird-黑翅圆尾鹱-a19df33e",
+    "name": "黑翅圆尾鹱",
+    "english_name": "Black-winged petrel",
+    "latin_name": "Pterodroma nigripennis",
+    "summary": "黑翅圆尾鹱（学名：Pterodroma nigripennis ）是鹱科圆尾鹱属的一种海鸟。该鸟于夏季在东太平洋的热带和亚热带海岛上繁殖，一年中的其余时间则在海上度过。 外貌描述 黑翅圆尾鹱是一种小型鹱类，翅膀长而窄。其平均体长为29厘米 ，平均翼展为67厘米 。其头小，喙短而…",
+    "lat": "-10",
+    "lng": "-76",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/BWP_3_-_Christopher_Watson.jpg/960px-BWP_3_-_Christopher_Watson.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-夏威夷州-5f117d67",
+      "name": "夏威夷州",
+      "summary": "夏威夷州（夏威夷語：Mokuʻāina o Hawaiʻi，英語：State of Hawaii），是美利堅合眾國的州份之一，由夏威夷群島組成，距離美國本土3,700公里，屬於太平洋沿岸地區；所屬的大洲則是大洋洲。在1778至1898年間…",
+      "lat": "21.5",
+      "lng": "-158"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑翅圆尾鹱-a19df33e",
+      "subject": "黑翅圆尾鹱",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The largest colony in the world is on Macauley Island (Kermadec Islands). Outside the breeding season it migrates further north and most commonly occurs in a broad belt of ocean between Peru and Hawaii.{{cite web |url=http://www.birdlife.org/datazone/speciesfactsheet.php?id=3883 |title=Black-winged Petrel Pterodroma nigripennis |author1=Butchart, S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑翅圆尾鹱-a19df33e",
+      "subject": "黑翅圆尾鹱",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏威夷州-5f117d67",
+      "object": "夏威夷州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The largest colony in the world is on Macauley Island (Kermadec Islands). Outside the breeding season it migrates further north and most commonly occurs in a broad belt of ocean between Peru and Hawaii.{{cite web |url=http://www.birdlife.org/datazone/speciesfactsheet.php?id=3883 |title=Black-winged Petrel Pterodroma nigripennis |author1=Butchart, S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑翅圆尾鹱-a19df33e",
+      "subject": "黑翅圆尾鹱",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

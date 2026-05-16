@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:03:11",
+  "requested_title": "Black Tern",
+  "resolved_title": "Black tern",
+  "title_aliases": [
+    "Black Tern"
+  ],
+  "bird_id": "bird-黑浮鸥-c1d7c7ff",
+  "raw_file": "bird-黑浮鸥-c1d7c7ff.json",
+  "bird": {
+    "id": "bird-黑浮鸥-c1d7c7ff",
+    "name": "黑浮鸥",
+    "english_name": "Black tern",
+    "latin_name": "Chlidonias niger",
+    "summary": "黑浮鸥（学名：Chlidonias niger），为鸥科浮鸥属的鸟类。该物种的模式产地在瑞典，是中国国家二级重点保护动物。通常發現於內陸水域或其附近，繁殖於歐洲、西亞和北美洲。在冬季，這些鳥類會遷徙至非洲和南美洲的沿海地區。 分類 黑浮鷗於1758年由瑞典博物學家卡爾·林奈在其…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/%C4%8Cor%C3%ADk_%C4%8Dierny_%28Chlidonias_niger%29_a_%284644831482%29.jpg/960px-%C4%8Cor%C3%ADk_%C4%8Dierny_%28Chlidonias_niger%29_a_%284644831482%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-自然系统第十版-55ca7965",
+      "name": "自然系统第十版",
+      "summary": "《自然系统》第十版（英語：10th edition of Systema Naturae）是18世纪瑞典生物学家卡尔·林奈所撰写的生物学专著，于1758年和1759年分别出版上下两卷。林奈在书中为动物定义了二名法命名法则（此前他曾在175…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑浮鸥-c1d7c7ff",
+      "subject": "黑浮鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black tern (Chlidonias niger) is a small tern generally found in or near inland water that breeds in Europe, Western Asia and North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑浮鸥-c1d7c7ff",
+      "subject": "黑浮鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-自然系统第十版-55ca7965",
+      "object": "自然系统第十版",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black tern (Chlidonias niger) is a small tern generally found in or near inland water that breeds in Europe, Western Asia and North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑浮鸥-c1d7c7ff",
+      "subject": "黑浮鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black tern (Chlidonias niger) is a small tern generally found in or near inland water that breeds in Europe, Western Asia and North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑浮鸥-c1d7c7ff",
+      "subject": "黑浮鸥",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Their breeding habitat is freshwater marshes across most of Canada, the northern United States and much of Europe and western Asia",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-黑浮鸥-c1d7c7ff",
+      "subject": "黑浮鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

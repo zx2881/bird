@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:12:11",
+  "requested_title": "Blue Eared Pheasant",
+  "resolved_title": "Blue eared pheasant",
+  "title_aliases": [
+    "Blue Eared Pheasant"
+  ],
+  "bird_id": "bird-蓝马鸡-d59bed8e",
+  "raw_file": "bird-蓝马鸡-d59bed8e.json",
+  "bird": {
+    "id": "bird-蓝马鸡-d59bed8e",
+    "name": "蓝马鸡",
+    "english_name": "Blue eared pheasant",
+    "latin_name": "Crossoptilon auritum",
+    "summary": "藍馬雞（学名：Crossoptilon auritum）是雉科馬雞屬鳥類的一種。中國的特有種。它们体形较大，可达96厘米，羽毛蓝灰色，头上有一簇黑色的毛，脸是没有毛的，红色。蓝马鸡的虹膜是黄色的，眼下有一簇白毛。蓝马鸡的腿是猩红的，尾巴由24根弯曲的蓝灰色长尾羽组成。尾羽的尖端…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Blue_Eared_Pheasant_%28Crossoptilon_auritum%29%2C_Songpan_County%2C_Sichuan_1.jpg/960px-Blue_Eared_Pheasant_%28Crossoptilon_auritum%29%2C_Songpan_County%2C_Sichuan_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝马鸡-d59bed8e",
+      "subject": "蓝马鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue eared pheasant is found in the mountain forests of central China, preferring juniper scrub in alpine meadows at 2700–4400&nbsp;m altitude. Its range is to the northeast of the closely related white eared pheasant C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝马鸡-d59bed8e",
+      "subject": "蓝马鸡",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The blue eared pheasant is found in the mountain forests of central China, preferring juniper scrub in alpine meadows at 2700–4400&nbsp;m altitude. Its range is to the northeast of the closely related white eared pheasant C",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-蓝马鸡-d59bed8e",
+      "subject": "蓝马鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

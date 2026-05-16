@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:01:21",
+  "requested_title": "Hooded Plover",
+  "resolved_title": "Hooded plover",
+  "title_aliases": [
+    "Hooded Plover"
+  ],
+  "bird_id": "bird-hooded-plover-5b91bef1",
+  "raw_file": "bird-hooded-plover-5b91bef1.json",
+  "bird": {
+    "id": "bird-hooded-plover-5b91bef1",
+    "name": "Hooded plover",
+    "english_name": "Hooded plover",
+    "latin_name": "Thinornis cucullatus",
+    "summary": "The hooded plover or hooded dotterel (Thinornis cucullatus) is a species of bird in the family Charadriidae. It is endemic to southern Aust…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Thinornis_rubricollis_-_Orford.jpg/960px-Thinornis_rubricollis_-_Orford.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hooded-plover-5b91bef1",
+      "subject": "Hooded plover",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to southern Australia, where it inhabits ocean beaches and subcoastal lagoons",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hooded-plover-5b91bef1",
+      "subject": "Hooded plover",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-hooded-plover-5b91bef1",
+      "subject": "Hooded plover",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population of hooded plovers has declined in eastern Australia as a result of disturbance by people, dogs, cats and horses, as well as predation by silver gulls (Larus novaehollandiae), ravens (Corvus spp) and introduced foxes. Fox predation is a major threat to the western subspecies",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

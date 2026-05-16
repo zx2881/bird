@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:06:10",
+  "requested_title": "Arctic Tern",
+  "resolved_title": "Arctic tern",
+  "title_aliases": [
+    "Arctic Tern"
+  ],
+  "bird_id": "bird-北極燕鷗-0b691334",
+  "raw_file": "bird-北極燕鷗-0b691334.json",
+  "bird": {
+    "id": "bird-北極燕鷗-0b691334",
+    "name": "北極燕鷗",
+    "english_name": "Arctic tern",
+    "latin_name": "Sterna paradisaea",
+    "summary": "北極燕鷗（學名：Sterna paradisaea）是屬於燕鷗科的一種海鳥。分佈於北極及附近地區，並於北極、歐洲、亞洲和北美洲靠近北極的地方進行繁殖。北極燕鷗是候鳥，每年经历兩個夏季，從其北部的繁殖區南遷至南極洲附近的海洋，之後再北遷回繁殖區（約24,000英里），這是已知的動…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Arctic_tern_%28Sterna_paradisaea%29_Flatey_3.jpg/960px-Arctic_tern_%28Sterna_paradisaea%29_Flatey_3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-erik-pontoppidan-7eddd126",
+      "name": "Erik Pontoppidan",
+      "summary": "Erik Ludvigsen Pontoppidan (24 August 1698 – 20 December 1764) was a Danish author, a Lutheran bishop of the Church of…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北半球-6e1922ec",
+      "name": "北半球",
+      "summary": "北半球（英語：Northern Hemisphere）是指地球赤道以北的半球。北半球表面有60.7%是水，佔地球的42.9%；39.3%是陸地，佔地球的67.3%。 北半球的陸地包含了亞洲大部份、歐洲全部、非洲北半部、北美洲全部、南美洲北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北極燕鷗-0b691334",
+      "subject": "北極燕鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-erik-pontoppidan-7eddd126",
+      "object": "Erik Pontoppidan",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "{{Speciesbox | status = LC | status_system = IUCN3.1 | status_ref = | image = Arctic tern (Sterna paradisaea) Flatey 3.jpg | image_caption = Flatey Island, Western Iceland | genus = Sterna | species = paradisaea | authority = Pontoppidan, 1763 | range_map = Sterna paradisaea distribution and migration map.png | range_map_caption = Range of S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北極燕鷗-0b691334",
+      "subject": "北極燕鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in coastal regions in cooler temperate parts of North America and Eurasia during the northern summer",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北極燕鷗-0b691334",
+      "subject": "北極燕鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-北半球-6e1922ec",
+      "object": "北半球",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in coastal regions in cooler temperate parts of North America and Eurasia during the northern summer",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北極燕鷗-0b691334",
+      "subject": "北極燕鷗",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-北極燕鷗-0b691334",
+      "subject": "北極燕鷗",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The breeding range is very large, and although the population is considered to be decreasing, this species is evaluated as a species of least concern by the IUCN. Arctic terns are among the species to which the Agreement on the Conservation of African-Eurasian Migratory Waterbirds applies. The population in New England was reduced in the late nineteenth-century because of hunting for the millinery trade. Exploitation continues in western Greenland, where the population of the species has been reduced greatly since 1950. In Iceland, the Arctic tern has been regionally uplisted to vulnerable as of 2018, due to the crash of Sandeel (Ammodytes spp.) stocks. In the southern part of its range, the Arctic tern has been declining in numbers",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:10:06",
+  "requested_title": "Goliath Coucal",
+  "resolved_title": "Goliath coucal",
+  "title_aliases": [
+    "Goliath Coucal"
+  ],
+  "bird_id": "bird-goliath-coucal-0714d310",
+  "raw_file": "bird-goliath-coucal-0714d310.json",
+  "bird": {
+    "id": "bird-goliath-coucal-0714d310",
+    "name": "Goliath coucal",
+    "english_name": "Goliath coucal",
+    "latin_name": "Centropus goliath",
+    "summary": "The goliath coucal (Centropus goliath) is a species of cuckoo in the family Cuculidae. It is found in the northern Maluku Islands.",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Centropus_goliath_107893512.jpg/960px-Centropus_goliath_107893512.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-goliath-coucal-0714d310",
+      "subject": "Goliath coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the northern Maluku Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-goliath-coucal-0714d310",
+      "subject": "Goliath coucal",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

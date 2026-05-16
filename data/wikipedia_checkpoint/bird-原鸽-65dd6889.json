@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:23:10",
+  "requested_title": "Rock Dove",
+  "resolved_title": "Rock dove",
+  "title_aliases": [
+    "Rock Dove"
+  ],
+  "bird_id": "bird-原鸽-65dd6889",
+  "raw_file": "bird-原鸽-65dd6889.json",
+  "bird": {
+    "id": "bird-原鸽-65dd6889",
+    "name": "原鸽",
+    "english_name": "Rock dove",
+    "latin_name": "Columba livia",
+    "summary": "原鸽（學名：Columba livia），又名野鸽子、野鸽、鵓鸽。为人类所驯化的原鸽被称为家鸽。 特征 原鴿在鳥類中屬中等体型，通体石板灰色，颈部胸部的羽毛具有悦目的金属光泽，常随观察角度的变化而显由绿到蓝而紫的颜色变化，翼上及尾端各自具一条黑色横纹，尾部的黑色横纹较宽，尾上覆…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg/960px-Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北非-dbfa37f4",
+      "name": "北非",
+      "summary": "与撒哈拉以南非洲相对，北非（英语：North Africa或Northern Africa）即非洲大陆北部地区，习惯上为苏丹热带草原以北非洲广大区域。联合国定义的“北非”，是指撒哈拉沙漠以北地区，包括埃及、利比亚、阿尔及利亚、突尼斯、摩洛…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南亚-1fa6ecaf",
+      "name": "南亚",
+      "summary": "南亚（英語：South Asia）是術語，以替換百年老詞「印度次大陸」，這老詞用來代表亞洲大陸的南部地區，主要是位於印度板塊和向南投射到印度洋的地方，當中包括8個主權國家：印度、巴基斯坦、孟加拉、斯里蘭卡、馬爾代夫、不丹、尼泊爾、阿富汗（…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-原鸽-65dd6889",
+      "subject": "原鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-北非-dbfa37f4",
+      "object": "北非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The natural distribution of the rock dove is restricted to a resident range in western and southern Europe, North Africa, and extending into South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-原鸽-65dd6889",
+      "subject": "原鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-南亚-1fa6ecaf",
+      "object": "南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The natural distribution of the rock dove is restricted to a resident range in western and southern Europe, North Africa, and extending into South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-原鸽-65dd6889",
+      "subject": "原鸽",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Wild nesting sites include caves, canyons, and sea cliffs. They will even live in the Sahara so long as an area has rocks, water, and some plant matter",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-原鸽-65dd6889",
+      "subject": "原鸽",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

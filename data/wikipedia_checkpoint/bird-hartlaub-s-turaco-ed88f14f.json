@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:15:14",
+  "requested_title": "Hartlaub's Turaco",
+  "resolved_title": "Hartlaub's turaco",
+  "title_aliases": [
+    "Hartlaub's Turaco"
+  ],
+  "bird_id": "bird-hartlaub-s-turaco-ed88f14f",
+  "raw_file": "bird-hartlaub-s-turaco-ed88f14f.json",
+  "bird": {
+    "id": "bird-hartlaub-s-turaco-ed88f14f",
+    "name": "Hartlaub's turaco",
+    "english_name": "Hartlaub's turaco",
+    "latin_name": "Tauraco hartlaubi",
+    "summary": "Hartlaub's turaco (Tauraco hartlaubi) is a species of bird in the family Musophagidae. It is found in Kenya, Tanzania, and Uganda.",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Tauraco_hartlaubi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    },
+    {
+      "id": "loc-乌干达-8bd6d93b",
+      "name": "乌干达",
+      "summary": "烏干達共和國（斯瓦希里語：Jamhuri ya Uganda，英語：Republic of Uganda），通稱烏干達，是位於東非的內陸國家。 烏干達名稱來自於過去班圖人建立的布干達王國。歐洲列強在十九世紀後葉進入東非內陸後，烏干達在18…",
+      "lat": "1",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hartlaub-s-turaco-ed88f14f",
+      "subject": "Hartlaub's turaco",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Tanzania, and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hartlaub-s-turaco-ed88f14f",
+      "subject": "Hartlaub's turaco",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Tanzania, and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hartlaub-s-turaco-ed88f14f",
+      "subject": "Hartlaub's turaco",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌干达-8bd6d93b",
+      "object": "乌干达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Tanzania, and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hartlaub-s-turaco-ed88f14f",
+      "subject": "Hartlaub's turaco",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

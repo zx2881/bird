@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:38:13",
+  "requested_title": "Himalayan Cuckoo",
+  "resolved_title": "Himalayan cuckoo",
+  "title_aliases": [
+    "Himalayan Cuckoo"
+  ],
+  "bird_id": "bird-喜馬拉雅中杜鵑-a160e31d",
+  "raw_file": "bird-喜馬拉雅中杜鵑-a160e31d.json",
+  "bird": {
+    "id": "bird-喜馬拉雅中杜鵑-a160e31d",
+    "name": "喜馬拉雅中杜鵑",
+    "english_name": "Himalayan cuckoo",
+    "latin_name": "Cuculus saturatus",
+    "summary": "喜馬拉雅中杜鵑（学名：Cuculus saturatus）为杜鹃科杜鹃属的鸟类，俗名筒鸟、中喀咕、蓬蓬鸟、山郭公。分布于北从西伯利亚至日本、南从亚洲经巴基斯坦至喜马拉雅山脉、印度、缅甸，南至澳大利亚，包括中国大陆东部、南部等地，主要生活于较茂密的山林。该物种的模式产地在尼泊尔。…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Himalayan_Cuckoo_Gnathang_Valley_East_Sikkim_India_23.09.2018.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大巽他群岛-1408928e",
+      "name": "大巽他群岛",
+      "summary": "大巽（xùn）他群岛（印尼語：Kepulauan Sunda Besar）位于马来群岛西部，与小巽他群岛合称巽他群岛。主要岛屿包括婆罗洲、爪哇岛、苏拉威西岛和苏门答腊。大巽他群岛由文莱、印尼和马来西亚管辖。 参见 小巽他群岛 马来群岛 第…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-喜馬拉雅中杜鵑-a160e31d",
+      "subject": "喜馬拉雅中杜鵑",
+      "predicate": "distributed_in",
+      "object_id": "loc-大巽他群岛-1408928e",
+      "object": "大巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It migrates to southeast Asia and the Greater Sunda Islands for the winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-喜馬拉雅中杜鵑-a160e31d",
+      "subject": "喜馬拉雅中杜鵑",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species usually inhabits mixed coniferous and deciduous forests, thickets, birches and mountain forests or steppes with bushes and other wooded areas and orchards during the spring and summer seasons",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-喜馬拉雅中杜鵑-a160e31d",
+      "subject": "喜馬拉雅中杜鵑",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "For the colder seasons, it lives in primary and secondary tropical forests, savannas, gardens and teak on plantations, monsoon rainforests",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-喜馬拉雅中杜鵑-a160e31d",
+      "subject": "喜馬拉雅中杜鵑",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "More occasionally over the more recent years, it is found in swamps, mangroves and plantations of Australia and general low elevation habitats of the Malay Peninsula, Sumatra and Borneo at 1200 to 2000m",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-喜馬拉雅中杜鵑-a160e31d",
+      "subject": "喜馬拉雅中杜鵑",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

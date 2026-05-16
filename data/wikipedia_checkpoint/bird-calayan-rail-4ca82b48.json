@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:27:11",
+  "requested_title": "Calayan Rail",
+  "resolved_title": "Calayan rail",
+  "title_aliases": [
+    "Calayan Rail"
+  ],
+  "bird_id": "bird-calayan-rail-4ca82b48",
+  "raw_file": "bird-calayan-rail-4ca82b48.json",
+  "bird": {
+    "id": "bird-calayan-rail-4ca82b48",
+    "name": "Calayan rail",
+    "english_name": "Calayan rail",
+    "latin_name": "Gallirallus calayanensis",
+    "summary": "The Calayan rail (Gallirallus calayanensis) is a flightless bird of the rail, moorhen, and coot family (Rallidae) that inhabits Calayan Isl…",
+    "lat": "19.32694444",
+    "lng": "121.46583333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Calayan_rail.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-calayan-island-a38cb05e",
+      "name": "Calayan Island",
+      "summary": "Calayan Island is located about 24 miles (21 nmi; 39 km) west-southwest of Babuyan Island off the north coast of the Ph…",
+      "lat": "19.32694444",
+      "lng": "121.46583333"
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-calayan-rail-4ca82b48",
+      "subject": "Calayan rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-calayan-island-a38cb05e",
+      "object": "Calayan Island",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Calayan rail (Gallirallus calayanensis) is a flightless bird of the rail, moorhen, and coot family (Rallidae) that inhabits Calayan Island in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-calayan-rail-4ca82b48",
+      "subject": "Calayan rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Calayan rail (Gallirallus calayanensis) is a flightless bird of the rail, moorhen, and coot family (Rallidae) that inhabits Calayan Island in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-calayan-rail-4ca82b48",
+      "subject": "Calayan rail",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-calayan-rail-4ca82b48",
+      "subject": "Calayan rail",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species' main threat is habitat loss with the clearance of forest habitats as a result of logging and agricultural conversion within its range",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-calayan-rail-4ca82b48",
+      "subject": "Calayan rail",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species' main threat is habitat loss with the clearance of forest habitats as a result of logging and agricultural conversion within its range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

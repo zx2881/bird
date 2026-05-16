@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:56:22",
+  "requested_title": "Long-billed Murrelet",
+  "resolved_title": "Long-billed murrelet",
+  "title_aliases": [
+    "Long-billed Murrelet"
+  ],
+  "bird_id": "bird-长嘴斑海雀-fd824bcf",
+  "raw_file": "bird-长嘴斑海雀-fd824bcf.json",
+  "bird": {
+    "id": "bird-长嘴斑海雀-fd824bcf",
+    "name": "长嘴斑海雀",
+    "english_name": "Long-billed murrelet",
+    "latin_name": "Brachyramphus perdix",
+    "summary": "长嘴斑海雀（台湾作長嘴海雀）（学名：Brachyramphus perdix），也称斑海雀，是鸻形目海雀科的一种鸟类。 2022年，为了反映其从亚种提升为新种后的形态特征，“中国鸟类名录”10.0版将斑海雀中文名修改为长嘴斑海雀。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Brachyramphus_perdix0.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-长嘴斑海雀-fd824bcf",
+      "subject": "长嘴斑海雀",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-长嘴斑海雀-fd824bcf",
+      "subject": "长嘴斑海雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The biggest threat to the murrelet is the loss of the old growth forest to logging",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

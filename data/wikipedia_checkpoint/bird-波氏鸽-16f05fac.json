@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T11:20:08",
+  "requested_title": "Bolle's Pigeon",
+  "resolved_title": "Bolle's pigeon",
+  "title_aliases": [
+    "Bolle's Pigeon"
+  ],
+  "bird_id": "bird-波氏鸽-16f05fac",
+  "raw_file": "bird-波氏鸽-16f05fac.json",
+  "bird": {
+    "id": "bird-波氏鸽-16f05fac",
+    "name": "波氏鸽",
+    "english_name": "Bolle's pigeon",
+    "latin_name": "Columba bollii",
+    "summary": "波氏鸽（学名：Columba bollii）为鸽形目鸠鸽科鸽属的一种鸟类。该物种主要分布于加那利群岛，栖息在山地月桂森林中，是当地特有鸟类。其名称源自德国自然学家卡尔·博勒，他是最早将该物种与近似的桂冠鸽区分开的科学家。 特征 波氏鸽整体羽色较深，以灰色为主。胸部略带粉红色调，…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bolles_Lorbeertaube.jpg/960px-Bolles_Lorbeertaube.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-照葉林-bbcafe01",
+      "name": "照葉林",
+      "summary": "照葉林（laurilignosa）又稱副熱帶常綠闊葉林、亚热带季雨林或月桂林，是副熱帶溼潤氣候條件下的典型植被。高溫多雨，全年沒有明顯乾季的熱帶地區者，稱為雨林，是生物種類最多的地區。 生態 照葉林在暖溫帶地區呈片狀分佈，通常佔據地形庇護…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-波氏鸽-16f05fac",
+      "subject": "波氏鸽",
+      "predicate": "distributed_in",
+      "object_id": "loc-照葉林-bbcafe01",
+      "object": "照葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in dense laurel forest in mountainous areas, especially in ravines; also in heath of Myrica faya and Erica arborea, and sometimes in rather open areas, e.g",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-波氏鸽-16f05fac",
+      "subject": "波氏鸽",
+      "predicate": "lives_in",
+      "object_id": "hab-open-mountain",
+      "object": "开阔山地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in dense laurel forest in mountainous areas, especially in ravines; also in heath of Myrica faya and Erica arborea, and sometimes in rather open areas, e.g",
+      "object_summary": "地形开阔且便于大翼展鸟类活动的山地区域。"
+    },
+    {
+      "subject_id": "bird-波氏鸽-16f05fac",
+      "subject": "波氏鸽",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

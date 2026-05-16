@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:52:11",
+  "requested_title": "Fiji Petrel",
+  "resolved_title": "Fiji petrel",
+  "title_aliases": [
+    "Fiji Petrel"
+  ],
+  "bird_id": "bird-斐济圆尾鹱-fb57bfb2",
+  "raw_file": "bird-斐济圆尾鹱-fb57bfb2.json",
+  "bird": {
+    "id": "bird-斐济圆尾鹱-fb57bfb2",
+    "name": "斐济圆尾鹱",
+    "english_name": "Fiji petrel",
+    "latin_name": "Pseudobulweria macgillivrayi",
+    "summary": "斐济圆尾鹱（学名：Pseudobulweria macgillivrayi）为鹱科的一個小型暗黑色海鳥物種。舊屬圆尾鹱属，今屬擬燕鹱屬。 本物種最早為人所知的標本只是一隻幼鳥的屍體，於斐濟恩高島附近的一艘英國軍艦HMS Herald (1822)上一位自然學家John MacG…",
+    "lat": "-18.06666667",
+    "lng": "179.33316667",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-恩高島-a48e68ac",
+      "name": "恩高島",
+      "summary": "Gau (Fijian pronunciation: [ˈŋau], also known as Ngau in English) is an island belonging to Fiji's Lomaiviti archipelag…",
+      "lat": "-18.06666667",
+      "lng": "179.33316667"
+    },
+    {
+      "id": "loc-斐濟-2fb776c3",
+      "name": "斐濟",
+      "summary": "斐濟共和國（英語：Republic of Fiji；斐濟語：Matanitu Tugalala o Viti；斐濟印地語：रिपब्लिक ऑफ फीजी），通稱斐濟，是位於南太平洋，瓦努阿圖以東、東加以西、吐瓦魯以南的群島國家，由322…",
+      "lat": "-18",
+      "lng": "179"
+    },
+    {
+      "id": "loc-大英博物馆-80cbd79b",
+      "name": "大英博物馆",
+      "summary": "大英博物馆（英語：British Museum），又稱不列顛博物館、英国国家博物馆，是一座位於英国伦敦布卢姆茨伯里的綜合性博物馆，成立於1753年，自1759年1月15日起正式对公众开放，是世界上首個国家级公共博物馆，也是世界上规模最大的…",
+      "lat": "51.5194",
+      "lng": "-0.1269"
+    },
+    {
+      "id": "loc-伦敦-e32aa700",
+      "name": "伦敦",
+      "summary": "伦敦（英語：London；/ˈlʌndən/）是英国首都，也是英國最大都市以及其構成國英格蘭的首府，總人口約8,866,180人。位于泰晤士河流域，于公元50年由罗马人建立，当名为「伦蒂尼恩」，在此后两个世纪内为这一地区最重要的定居点之一…",
+      "lat": "51.50722222",
+      "lng": "-0.1275"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-斐济圆尾鹱-fb57bfb2",
+      "subject": "斐济圆尾鹱",
+      "predicate": "distributed_in",
+      "object_id": "loc-恩高島-a48e68ac",
+      "object": "恩高島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Fiji petrel was originally known from one immature specimen found in 1855 on Gau Island, Fiji by naturalist John MacGillivray on board HMS Herald who took the carcass to the British Museum in London",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斐济圆尾鹱-fb57bfb2",
+      "subject": "斐济圆尾鹱",
+      "predicate": "distributed_in",
+      "object_id": "loc-斐濟-2fb776c3",
+      "object": "斐濟",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Fiji petrel was originally known from one immature specimen found in 1855 on Gau Island, Fiji by naturalist John MacGillivray on board HMS Herald who took the carcass to the British Museum in London",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斐济圆尾鹱-fb57bfb2",
+      "subject": "斐济圆尾鹱",
+      "predicate": "distributed_in",
+      "object_id": "loc-大英博物馆-80cbd79b",
+      "object": "大英博物馆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Fiji petrel was originally known from one immature specimen found in 1855 on Gau Island, Fiji by naturalist John MacGillivray on board HMS Herald who took the carcass to the British Museum in London",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斐济圆尾鹱-fb57bfb2",
+      "subject": "斐济圆尾鹱",
+      "predicate": "distributed_in",
+      "object_id": "loc-伦敦-e32aa700",
+      "object": "伦敦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Fiji petrel was originally known from one immature specimen found in 1855 on Gau Island, Fiji by naturalist John MacGillivray on board HMS Herald who took the carcass to the British Museum in London",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斐济圆尾鹱-fb57bfb2",
+      "subject": "斐济圆尾鹱",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:14:12",
+  "requested_title": "White-crested Turaco",
+  "resolved_title": "White-crested turaco",
+  "title_aliases": [
+    "White-crested Turaco"
+  ],
+  "bird_id": "bird-white-crested-turaco-e8658f33",
+  "raw_file": "bird-white-crested-turaco-e8658f33.json",
+  "bird": {
+    "id": "bird-white-crested-turaco-e8658f33",
+    "name": "White-crested turaco",
+    "english_name": "White-crested turaco",
+    "latin_name": "Tauraco leucolophus",
+    "summary": "The white-crested turaco (Tauraco leucolophus) is a bird in the family Musophagidae, a group of African otidimorph birds. The white-crested…",
+    "lat": "8",
+    "lng": "10",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Tauraco_leucolophus_-Brookfield_Zoo%2C_Chicago%2C_USA-8a.jpg/960px-Tauraco_leucolophus_-Brookfield_Zoo%2C_Chicago%2C_USA-8a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-奈及利亞-df32ce50",
+      "name": "奈及利亞",
+      "summary": "奈及利亞聯邦共和國（英語：Federal Republic of Nigeria），通称奈及利亞（英語：Nigeria），是西非國家，位於非洲的幾內亞灣西岸頂點，鄰國包括西邊的贝宁，北邊的尼日尔，東北方與乍得接壤一小段國界，正東則是喀麥隆…",
+      "lat": "8",
+      "lng": "10"
+    },
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-crested-turaco-e8658f33",
+      "subject": "White-crested turaco",
+      "predicate": "distributed_in",
+      "object_id": "loc-奈及利亞-df32ce50",
+      "object": "奈及利亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-crested turaco is native to riverine forest and woodland in a belt between eastern Nigeria and western Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-crested-turaco-e8658f33",
+      "subject": "White-crested turaco",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-crested turaco is native to riverine forest and woodland in a belt between eastern Nigeria and western Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-crested-turaco-e8658f33",
+      "subject": "White-crested turaco",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

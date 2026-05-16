@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:11:24",
+  "requested_title": "Mayr's Forest Rail",
+  "resolved_title": "Mayr's forest rail",
+  "title_aliases": [
+    "Mayr's Forest Rail"
+  ],
+  "bird_id": "bird-mayr-s-forest-rail-b11b444d",
+  "raw_file": "bird-mayr-s-forest-rail-b11b444d.json",
+  "bird": {
+    "id": "bird-mayr-s-forest-rail-b11b444d",
+    "name": "Mayr's forest rail",
+    "english_name": "Mayr's forest rail",
+    "latin_name": "Rallicula mayri",
+    "summary": "Mayr's forest rail (Rallicula mayri), also Mayr's forest crake, is a species of bird in the family Sarothruridae. It is found in northern N…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mayr-s-forest-rail-b11b444d",
+      "subject": "Mayr's forest rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mayr-s-forest-rail-b11b444d",
+      "subject": "Mayr's forest rail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

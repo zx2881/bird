@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:21:55",
+  "requested_title": "Rufous-cheeked Nightjar",
+  "resolved_title": "Rufous-cheeked nightjar",
+  "title_aliases": [
+    "Rufous-cheeked Nightjar"
+  ],
+  "bird_id": "bird-rufous-cheeked-nightjar-c1dc5dcf",
+  "raw_file": "bird-rufous-cheeked-nightjar-c1dc5dcf.json",
+  "bird": {
+    "id": "bird-rufous-cheeked-nightjar-c1dc5dcf",
+    "name": "Rufous-cheeked nightjar",
+    "english_name": "Rufous-cheeked nightjar",
+    "latin_name": "Caprimulgus rufigena",
+    "summary": "The rufous-cheeked nightjar (Caprimulgus rufigena) is a species of nightjar in the family Caprimulgidae. It is an intra-African migrant tha…",
+    "lat": "-29",
+    "lng": "30",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Caprimulgus_rufigena_-_Swedish_Museum_of_Natural_History_-_Stockholm%2C_Sweden_-_DSC00619.JPG/960px-Caprimulgus_rufigena_-_Swedish_Museum_of_Natural_History_-_Stockholm%2C_Sweden_-_DSC00619.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-納塔爾省-3c1821ee",
+      "name": "納塔爾省",
+      "summary": "納塔爾省（阿非利卡語：Provinsie van Natal，英語：Province of Natal），為南非於1910年至1994年間存在的一個省級行政區，其於1994年被種族隔離制度廢除後通過的新憲法改稱為夸祖魯-納塔爾省。其首府為…",
+      "lat": "-29",
+      "lng": "30"
+    },
+    {
+      "id": "loc-河流-f3845624",
+      "name": "河流",
+      "summary": "河流（江、河）是自然汇入海洋、湖泊的流水，通常为淡水。在少数情况下，河流流入地下或者在汇入另一水体之前便干涸。河流有時會匯入另一條河流。较小的河流可能会被称作溪流、支流等。 河流是水循环的一环。河流中的水主要来自其流域降水形成的地表径流和…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-cheeked-nightjar-c1dc5dcf",
+      "subject": "Rufous-cheeked nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-納塔爾省-3c1821ee",
+      "object": "納塔爾省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The rufous-cheeked nightjar can be found in Southern Africa year-round, it can be found in Angola, Zambia, Botswana, Mozambique, Namibia, Zimbabwe, and South Africa, although it is absent from the east coast of Southern Africa, Natal, and west Namibia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-cheeked-nightjar-c1dc5dcf",
+      "subject": "Rufous-cheeked nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-河流-f3845624",
+      "object": "河流",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can also be found in more open habitats such as the semi-arid acacia shrubland and semi-deserts. For breeding and nesting they prefer dryer areas and avoid rivers, lakes, valleys, as well as moist areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-cheeked-nightjar-c1dc5dcf",
+      "subject": "Rufous-cheeked nightjar",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its non-breeding grounds are largely in Cameroon, but they have been found in Nigeria, D.R.C, the Republic of the Congo, southern Chad and in the Darfur region of Sudan. It can usually be found in wooded habitats such as the miombo woodland, wooded savanna, and woodland edges and clearings",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-rufous-cheeked-nightjar-c1dc5dcf",
+      "subject": "Rufous-cheeked nightjar",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can also be found in more open habitats such as the semi-arid acacia shrubland and semi-deserts. For breeding and nesting they prefer dryer areas and avoid rivers, lakes, valleys, as well as moist areas",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-rufous-cheeked-nightjar-c1dc5dcf",
+      "subject": "Rufous-cheeked nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

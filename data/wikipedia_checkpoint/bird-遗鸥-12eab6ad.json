@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:16:07",
+  "requested_title": "Relict Gull",
+  "resolved_title": "Relict gull",
+  "title_aliases": [
+    "Relict Gull"
+  ],
+  "bird_id": "bird-遗鸥-12eab6ad",
+  "raw_file": "bird-遗鸥-12eab6ad.json",
+  "bird": {
+    "id": "bird-遗鸥-12eab6ad",
+    "name": "遗鸥",
+    "english_name": "Relict gull",
+    "latin_name": "Ichthyaetus relictus",
+    "summary": "遗鸥（Ichthyaetus relictus），鸥科鸥属濒危候鸟，现其繁殖地集中在蒙古国（数处）、哈萨克斯坦（2处）、俄罗斯（1处）和中国（1处），其越冬地在中国天津沿海和韩国。 发现及命名 1931年，瑞典博物学家艾纳·隆伯格首次撰文提及其在中国内蒙古额济纳旗境内发现的遗鸥…",
+    "lat": "49.51327778",
+    "lng": "115.58108333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Relict_Gull.jpg/960px-Relict_Gull.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-kh-kh-nuur-2d3636c8",
+      "name": "Khökh Nuur",
+      "summary": "Khökh Nuur (Mongolian: Хөх нуур, lit.",
+      "lat": "49.51327778",
+      "lng": "115.58108333"
+    },
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-榆林市-cc4fbde1",
+      "name": "榆林市",
+      "summary": "榆林市是中华人民共和国陕西省下辖的地级市，位于陕西省北部。市境南接延安市，西南连甘肃省庆阳市和宁夏回族自治区吴忠市，西、北两面与内蒙古自治区鄂尔多斯市接壤，东隔黄河与山西省忻州市、吕梁市相邻。地处毛乌素沙漠边缘和黄土高原的过渡区，境内有无…",
+      "lat": "38.2858",
+      "lng": "109.7341"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-遗鸥-12eab6ad",
+      "subject": "遗鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-kh-kh-nuur-2d3636c8",
+      "object": "Khökh Nuur",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gull breeds in several locations in Mongolia (e.g., Galuut Lake, Khukh Lake, and Chukh Lake), two in Kazakhstan, one in Russia, and one in China (Lake Hongjiannao)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-遗鸥-12eab6ad",
+      "subject": "遗鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gull breeds in several locations in Mongolia (e.g., Galuut Lake, Khukh Lake, and Chukh Lake), two in Kazakhstan, one in Russia, and one in China (Lake Hongjiannao)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-遗鸥-12eab6ad",
+      "subject": "遗鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gull breeds in several locations in Mongolia (e.g., Galuut Lake, Khukh Lake, and Chukh Lake), two in Kazakhstan, one in Russia, and one in China (Lake Hongjiannao)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-遗鸥-12eab6ad",
+      "subject": "遗鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-榆林市-cc4fbde1",
+      "object": "榆林市",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gull breeds in several locations in Mongolia (e.g., Galuut Lake, Khukh Lake, and Chukh Lake), two in Kazakhstan, one in Russia, and one in China (Lake Hongjiannao)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-遗鸥-12eab6ad",
+      "subject": "遗鸥",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:15:17",
+  "requested_title": "White-bellied Seedsnipe",
+  "resolved_title": "White-bellied seedsnipe",
+  "title_aliases": [
+    "White-bellied Seedsnipe"
+  ],
+  "bird_id": "bird-white-bellied-seedsnipe-9b58affc",
+  "raw_file": "bird-white-bellied-seedsnipe-9b58affc.json",
+  "bird": {
+    "id": "bird-white-bellied-seedsnipe-9b58affc",
+    "name": "White-bellied seedsnipe",
+    "english_name": "White-bellied seedsnipe",
+    "latin_name": "Attagis malouinus",
+    "summary": "The white-bellied seedsnipe (Attagis malouinus) is a species of bird in suborder Scolopaci of order Charadriiformes, the shorebirds. It is…",
+    "lat": "-41.32",
+    "lng": "-69.32",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Attagis_malouinus_55242949.jpg/960px-Attagis_malouinus_55242949.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴塔哥尼亞沙漠-9f2618e5",
+      "name": "巴塔哥尼亞沙漠",
+      "summary": "巴塔哥尼亞荒漠（西班牙語：Patagonia extraandina），也被稱為巴塔哥尼亞草原，是阿根廷最大的荒漠，亦為世界第七大荒漠，佔地673000平方公里。其沙漠主要位於阿根廷，智利南部，西側以安地斯山脈為界，​東側以接鄰大西洋，南…",
+      "lat": "-41.32",
+      "lng": "-69.32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-bellied-seedsnipe-9b58affc",
+      "subject": "White-bellied seedsnipe",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴塔哥尼亞沙漠-9f2618e5",
+      "object": "巴塔哥尼亞沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Outside that season it mainly inhabits the Patagonian steppe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bellied-seedsnipe-9b58affc",
+      "subject": "White-bellied seedsnipe",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

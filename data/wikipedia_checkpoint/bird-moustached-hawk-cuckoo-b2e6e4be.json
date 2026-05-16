@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:31:21",
+  "requested_title": "Moustached Hawk-Cuckoo",
+  "resolved_title": "Moustached hawk-cuckoo",
+  "title_aliases": [
+    "Moustached Hawk-Cuckoo"
+  ],
+  "bird_id": "bird-moustached-hawk-cuckoo-b2e6e4be",
+  "raw_file": "bird-moustached-hawk-cuckoo-b2e6e4be.json",
+  "bird": {
+    "id": "bird-moustached-hawk-cuckoo-b2e6e4be",
+    "name": "Moustached hawk-cuckoo",
+    "english_name": "Moustached hawk-cuckoo",
+    "latin_name": "Hierococcyx vagans",
+    "summary": "The moustached hawk-cuckoo (Hierococcyx vagans) is a species of cuckoo in the family Cuculidae. It is found in Brunei, Indonesia, Laos, Mal…",
+    "lat": "-1",
+    "lng": "114",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Hierococcyx_vagans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加里曼丹-8c4c4cd8",
+      "name": "加里曼丹",
+      "summary": "加里曼丹（印尼語：Kalimantan）是印尼在婆罗洲岛南部的属地，印尼人稱整個婆羅洲島為加里曼丹島。加里曼丹地區本來是單獨的一個省，之後逐漸分成五個省，即东加里曼丹省、南加里曼丹省、中加里曼丹省、西加里曼丹省和北加里曼丹省。加里曼丹北部…",
+      "lat": "-1",
+      "lng": "114"
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-moustached-hawk-cuckoo-b2e6e4be",
+      "subject": "Moustached hawk-cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-加里曼丹-8c4c4cd8",
+      "object": "加里曼丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The moustached hawk-cuckoo is found in southern Myanmar, Thailand, southern Laos, Malaysia, Singapore, Brunei, and Kalimantan, Sumatra and Java of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moustached-hawk-cuckoo-b2e6e4be",
+      "subject": "Moustached hawk-cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The moustached hawk-cuckoo is found in southern Myanmar, Thailand, southern Laos, Malaysia, Singapore, Brunei, and Kalimantan, Sumatra and Java of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moustached-hawk-cuckoo-b2e6e4be",
+      "subject": "Moustached hawk-cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The moustached hawk-cuckoo is found in southern Myanmar, Thailand, southern Laos, Malaysia, Singapore, Brunei, and Kalimantan, Sumatra and Java of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moustached-hawk-cuckoo-b2e6e4be",
+      "subject": "Moustached hawk-cuckoo",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-moustached-hawk-cuckoo-b2e6e4be",
+      "subject": "Moustached hawk-cuckoo",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Threatened by habitat loss, it has been assessed as a near-threatened species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-moustached-hawk-cuckoo-b2e6e4be",
+      "subject": "Moustached hawk-cuckoo",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is threatened by rapid habitat loss caused by logging, land conversion and forest fires",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

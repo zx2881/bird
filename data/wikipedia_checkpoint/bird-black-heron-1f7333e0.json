@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:56:37",
+  "requested_title": "Black Heron",
+  "resolved_title": "Black heron",
+  "title_aliases": [
+    "Black Heron"
+  ],
+  "bird_id": "bird-black-heron-1f7333e0",
+  "raw_file": "bird-black-heron-1f7333e0.json",
+  "bird": {
+    "id": "bird-black-heron-1f7333e0",
+    "name": "Black heron",
+    "english_name": "Black heron",
+    "latin_name": "Egretta ardesiaca",
+    "summary": "The black heron (Egretta ardesiaca), also known as the black egret, is an African heron. It uses its wings to form a canopy when fishing.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Black_heron%2C_Egretta_ardesiaca%2C_at_Marievale_Nature_Reserve%2C_Gauteng%2C_South_Africa._%2825201552667%29.jpg/960px-Black_heron%2C_Egretta_ardesiaca%2C_at_Marievale_Nature_Reserve%2C_Gauteng%2C_South_Africa._%2825201552667%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-草沼-e1caf9f8",
+      "name": "草沼",
+      "summary": "草沼即草本沼泽（英語：marsh），也叫草泽，是一种主要生长草本植物的湿地，多半可以發現在湖岸或河岸邊，介於水生與陸生生態系統的過渡，一般未被淹没，但土壤维持水浸状态。优势植物有苔草、莎草和灯芯草等，另外也會有低矮的灌木生長。和草沼不同，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-河流-f3845624",
+      "name": "河流",
+      "summary": "河流（江、河）是自然汇入海洋、湖泊的流水，通常为淡水。在少数情况下，河流流入地下或者在汇入另一水体之前便干涸。河流有時會匯入另一條河流。较小的河流可能会被称作溪流、支流等。 河流是水循环的一环。河流中的水主要来自其流域降水形成的地表径流和…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-heron-1f7333e0",
+      "subject": "Black heron",
+      "predicate": "distributed_in",
+      "object_id": "loc-草沼-e1caf9f8",
+      "object": "草沼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It may also be found in marshes, river edges, rice fields, and seasonally flooded grasslands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-heron-1f7333e0",
+      "subject": "Black heron",
+      "predicate": "distributed_in",
+      "object_id": "loc-河流-f3845624",
+      "object": "河流",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It may also be found in marshes, river edges, rice fields, and seasonally flooded grasslands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-heron-1f7333e0",
+      "subject": "Black heron",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It may also be found in marshes, river edges, rice fields, and seasonally flooded grasslands",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-black-heron-1f7333e0",
+      "subject": "Black heron",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It may also be found in marshes, river edges, rice fields, and seasonally flooded grasslands",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-black-heron-1f7333e0",
+      "subject": "Black heron",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

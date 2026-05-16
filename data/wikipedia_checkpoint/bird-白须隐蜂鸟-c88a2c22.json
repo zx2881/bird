@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:56:12",
+  "requested_title": "White-whiskered Hermit",
+  "resolved_title": "White-whiskered hermit",
+  "title_aliases": [
+    "White-whiskered Hermit"
+  ],
+  "bird_id": "bird-白须隐蜂鸟-c88a2c22",
+  "raw_file": "bird-白须隐蜂鸟-c88a2c22.json",
+  "bird": {
+    "id": "bird-白须隐蜂鸟-c88a2c22",
+    "name": "白须隐蜂鸟",
+    "english_name": "White-whiskered hermit",
+    "latin_name": "Phaethornis yaruqui",
+    "summary": "白须隐蜂鸟（学名：Phaethornis yaruqui）是雨燕目蜂鸟科的一种鸟类。 白须隐蜂鸟体重约5.4克，翼长约59.5毫米，嘴峰长约45.6毫米，喙宽度约2.6毫米，喙厚度约2.7毫米，跗蹠长约5毫米，尾长约53.8毫米。白须隐蜂鸟在其分布区内为留鸟，其栖息在密集的高大…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/White-whiskered_Hermit_%28Phaethornis_yaruqui%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白须隐蜂鸟-c88a2c22",
+      "subject": "白须隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Ecuador.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白须隐蜂鸟-c88a2c22",
+      "subject": "白须隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Ecuador.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白须隐蜂鸟-c88a2c22",
+      "subject": "白须隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid mid-elevation and montane forest, humid secondary forest, dense shrublands, and plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白须隐蜂鸟-c88a2c22",
+      "subject": "白须隐蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits humid mid-elevation and montane forest, humid secondary forest, dense shrublands, and plantations",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-白须隐蜂鸟-c88a2c22",
+      "subject": "白须隐蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits humid mid-elevation and montane forest, humid secondary forest, dense shrublands, and plantations",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-白须隐蜂鸟-c88a2c22",
+      "subject": "白须隐蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

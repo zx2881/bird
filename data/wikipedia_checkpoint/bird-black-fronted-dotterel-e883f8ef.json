@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:01:29",
+  "requested_title": "Black-fronted Dotterel",
+  "resolved_title": "Black-fronted dotterel",
+  "title_aliases": [
+    "Black-fronted Dotterel"
+  ],
+  "bird_id": "bird-black-fronted-dotterel-e883f8ef",
+  "raw_file": "bird-black-fronted-dotterel-e883f8ef.json",
+  "bird": {
+    "id": "bird-black-fronted-dotterel-e883f8ef",
+    "name": "Black-fronted dotterel",
+    "english_name": "Black-fronted dotterel",
+    "latin_name": "Thinornis melanops",
+    "summary": "The black-fronted dotterel (Thinornis melanops) is a small plover in the family Charadriidae that is found throughout much of Australia and…",
+    "lat": "-41.56666667",
+    "lng": "173.51666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Black-fronted_Dotterel_2_-_Bow_Bowing.jpg/960px-Black-fronted_Dotterel_2_-_Bow_Bowing.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-塔斯馬尼亞州-a7b95e28",
+      "name": "塔斯馬尼亞州",
+      "summary": "塔斯馬尼亞州（Tasmania，發音：/tæzˈmeɪniə/；帕拉瓦卡尼語：Lutruwita），簡稱塔州，是澳大利亞唯一的島嶼州，原名范迪門地（Van Diemen's Land，又譯萬迪門蘭）。該州位於澳大利亞大陸東南方約240公里…",
+      "lat": "-42",
+      "lng": "147"
+    },
+    {
+      "id": "loc-wairau-river-8b53b6c1",
+      "name": "Wairau River",
+      "summary": "The Wairau River is one of the longest rivers in New Zealand's South Island.",
+      "lat": "-41.56666667",
+      "lng": "173.51666667"
+    },
+    {
+      "id": "loc-awatere-river-d0fc8b54",
+      "name": "Awatere River",
+      "summary": "The Awatere River is a large river flowing through Marlborough, New Zealand.",
+      "lat": "-41.608",
+      "lng": "174.167"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-fronted-dotterel-e883f8ef",
+      "subject": "Black-fronted dotterel",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-fronted dotterel is native to mainland Australia and Tasmania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-fronted-dotterel-e883f8ef",
+      "subject": "Black-fronted dotterel",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔斯馬尼亞州-a7b95e28",
+      "object": "塔斯馬尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-fronted dotterel is native to mainland Australia and Tasmania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-fronted-dotterel-e883f8ef",
+      "subject": "Black-fronted dotterel",
+      "predicate": "distributed_in",
+      "object_id": "loc-wairau-river-8b53b6c1",
+      "object": "Wairau River",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|url=https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Notornis_18_2.pdf |journal=Notornis |volume=18 |page=133 |via=Birds New Zealand.}} As of 2016, the black-fronted dotterel officially inhabits most of New Zealand, with some of their key breeding spots being the Wairau and the Awatere rivers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-fronted-dotterel-e883f8ef",
+      "subject": "Black-fronted dotterel",
+      "predicate": "distributed_in",
+      "object_id": "loc-awatere-river-d0fc8b54",
+      "object": "Awatere River",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|url=https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Notornis_18_2.pdf |journal=Notornis |volume=18 |page=133 |via=Birds New Zealand.}} As of 2016, the black-fronted dotterel officially inhabits most of New Zealand, with some of their key breeding spots being the Wairau and the Awatere rivers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-fronted-dotterel-e883f8ef",
+      "subject": "Black-fronted dotterel",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

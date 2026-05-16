@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:20:02",
+  "requested_title": "Red-necked Nightjar",
+  "resolved_title": "Red-necked nightjar",
+  "title_aliases": [
+    "Red-necked Nightjar"
+  ],
+  "bird_id": "bird-red-necked-nightjar-e634add1",
+  "raw_file": "bird-red-necked-nightjar-e634add1.json",
+  "bird": {
+    "id": "bird-red-necked-nightjar-e634add1",
+    "name": "Red-necked nightjar",
+    "english_name": "Red-necked nightjar",
+    "latin_name": "Caprimulgus ruficollis",
+    "summary": "The red-necked nightjar (Caprimulgus ruficollis) is the largest of the nightjars occurring in Europe. It breeds in Iberia and North Africa,…",
+    "lat": "40.5",
+    "lng": "-4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Caprimulgus_ruficollis_-Portugal-8.jpg/960px-Caprimulgus_ruficollis_-Portugal-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伊比利亚半岛-d6e67713",
+      "name": "伊比利亚半岛",
+      "summary": "伊比利亚半岛（西班牙語：la Península Ibérica、葡萄牙語：a Península Ibérica、加泰隆尼亞語：la Península Ibèrica、加利西亞語：a Península Ibérica、巴斯克語：Ib…",
+      "lat": "40.5",
+      "lng": "-4"
+    },
+    {
+      "id": "loc-北非-dbfa37f4",
+      "name": "北非",
+      "summary": "与撒哈拉以南非洲相对，北非（英语：North Africa或Northern Africa）即非洲大陆北部地区，习惯上为苏丹热带草原以北非洲广大区域。联合国定义的“北非”，是指撒哈拉沙漠以北地区，包括埃及、利比亚、阿尔及利亚、突尼斯、摩洛…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-necked-nightjar-e634add1",
+      "subject": "Red-necked nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊比利亚半岛-d6e67713",
+      "object": "伊比利亚半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Iberia and North Africa, and winters in tropical West Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-necked-nightjar-e634add1",
+      "subject": "Red-necked nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-北非-dbfa37f4",
+      "object": "北非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Iberia and North Africa, and winters in tropical West Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-necked-nightjar-e634add1",
+      "subject": "Red-necked nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Iberia and North Africa, and winters in tropical West Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-necked-nightjar-e634add1",
+      "subject": "Red-necked nightjar",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

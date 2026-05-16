@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:44:16",
+  "requested_title": "Crowned Sandgrouse",
+  "resolved_title": "Crowned sandgrouse",
+  "title_aliases": [
+    "Crowned Sandgrouse"
+  ],
+  "bird_id": "bird-crowned-sandgrouse-c1458647",
+  "raw_file": "bird-crowned-sandgrouse-c1458647.json",
+  "bird": {
+    "id": "bird-crowned-sandgrouse-c1458647",
+    "name": "Crowned sandgrouse",
+    "english_name": "Crowned sandgrouse",
+    "latin_name": "Pterocles coronatus",
+    "summary": "The crowned sandgrouse (Pterocles coronatus) is a species of bird in the sandgrouse family, the Pteroclidae from North Africa and the Middl…",
+    "lat": "20",
+    "lng": "-12",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pterocles_coronatus.jpg/960px-Pterocles_coronatus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-毛里塔尼亚-e7091b88",
+      "name": "毛里塔尼亚",
+      "summary": "毛里塔尼亚伊斯兰共和国（阿拉伯語：الجمهورية الإسلامية الموريتانية；法語：République islamique de Mauritanie），通稱毛里塔尼亞（阿拉伯語：موريتانيا；法語：Mauri…",
+      "lat": "20",
+      "lng": "-12"
+    },
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "巴基斯坦伊斯兰共和国（乌尔都语：اسلامی جمہوریہ پاکستان‬；英语：Islamic Republic of Pakistan），通称巴基斯坦，位于南亚，东与印度比邻，南面是印度洋，西与伊朗接壤，西北和阿富汗相連，東北与中…",
+      "lat": "30",
+      "lng": "70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-crowned-sandgrouse-c1458647",
+      "subject": "Crowned sandgrouse",
+      "predicate": "distributed_in",
+      "object_id": "loc-毛里塔尼亚-e7091b88",
+      "object": "毛里塔尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crowned sandgrouse occurs in North Africa and south Asia and is found from Mauritania in the west through the Middle East to Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crowned-sandgrouse-c1458647",
+      "subject": "Crowned sandgrouse",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crowned sandgrouse occurs in North Africa and south Asia and is found from Mauritania in the west through the Middle East to Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crowned-sandgrouse-c1458647",
+      "subject": "Crowned sandgrouse",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

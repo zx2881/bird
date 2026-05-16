@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:38:11",
+  "requested_title": "Purple Sandpiper",
+  "resolved_title": "Purple sandpiper",
+  "title_aliases": [
+    "Purple Sandpiper"
+  ],
+  "bird_id": "bird-紫滨鹬-7b04a4c4",
+  "raw_file": "bird-紫滨鹬-7b04a4c4.json",
+  "bird": {
+    "id": "bird-紫滨鹬-7b04a4c4",
+    "name": "紫滨鹬",
+    "english_name": "Purple sandpiper",
+    "latin_name": "Calidris maritima",
+    "summary": "紫滨鹬（学名：Calidris maritima），是鸻形目丘鹬科的一种鸟类。 特征 紫滨鹬体重约65.1克，翼长约121毫米，嘴峰长约33.3毫米，喙宽度约3.7毫米，喙厚度约4.9毫米，跗蹠长约21.9毫米，尾长约55.4毫米。紫滨鹬是候鸟，其栖息在开放的草原环境中，食性为…",
+    "lat": "57.08333333",
+    "lng": "-3.66666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/PUSA_perched_LBI.jpg/960px-PUSA_perched_LBI.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴芬島-7926e480",
+      "name": "巴芬島",
+      "summary": "巴芬島（英語：Baffin Island；因纽特语：ᕿᑭᖅᑖᓗᒃ，Qikiqtaaluk）位于加拿大境内努纳武特地区，是加拿大最大的岛屿、美洲第二大岛屿（仅次于格陵兰岛）、世界第五大岛屿。 面积为 507,451 平方公里（195,928…",
+      "lat": "68",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-德文島-c8ad65d4",
+      "name": "德文島",
+      "summary": "德文島（伊努克提圖特語：ᑕᓪᓗᕈᑎᑦ，英語：Devon Island）是地球上最大的無人島，加拿大伊莉莎白女王群島之一，位於加拿大北部努拿烏特基吉柯塔魯克地區巴芬灣，面積約為55,000平方公里。德文島位於北緯75度，很接近磁北極，天氣嚴…",
+      "lat": "75.25",
+      "lng": "-88"
+    },
+    {
+      "id": "loc-凱恩戈姆山國家公園-c75ebb25",
+      "name": "凱恩戈姆山國家公園",
+      "summary": "凱恩戈姆山國家公園（英語：Cairngorms National Park，蘇格蘭蓋爾語：Pàirc Nàiseanta a' Mhonaidh Ruaidh）是英國蘇格蘭的一處國家公園，位於蘇格蘭東北部地區。凱恩戈姆山國家公園設立於20…",
+      "lat": "57.08333333",
+      "lng": "-3.66666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫滨鹬-7b04a4c4",
+      "subject": "紫滨鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴芬島-7926e480",
+      "object": "巴芬島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| journal=Birds of the World | location=Ithaca, NY, USA | publisher=Cornell Lab of Ornithology | doi=10.2173/bow.pursan.01 }} Birds wintering in northern Scotland and southwest Ireland migrate to Canada (Baffin Island and Devon Island) to breed.{{Cite journal | last1=Summers | first1=R.W",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫滨鹬-7b04a4c4",
+      "subject": "紫滨鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-德文島-c8ad65d4",
+      "object": "德文島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| journal=Birds of the World | location=Ithaca, NY, USA | publisher=Cornell Lab of Ornithology | doi=10.2173/bow.pursan.01 }} Birds wintering in northern Scotland and southwest Ireland migrate to Canada (Baffin Island and Devon Island) to breed.{{Cite journal | last1=Summers | first1=R.W",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫滨鹬-7b04a4c4",
+      "subject": "紫滨鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-凱恩戈姆山國家公園-c75ebb25",
+      "object": "凱恩戈姆山國家公園",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| date=2014 | title=Contrasting trans-Atlantic migratory routes of Nearctic Purple Sandpipers Calidris maritima associated with low pressure systems in spring and winter | journal=Ardea | volume=102 | issue=2 | pages=139–152 | doi=10.5253/arde.v102i2.a4 | doi-access=free }} In Britain, these birds occur in winter in good numbers principally along the east and south coasts, where they favour rocky shorelines adjacent to the sea. It is much rarer as a breeding bird, found only in a localised area of the Cairngorms National Park, where 1–3 pairs have bred since 1978",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫滨鹬-7b04a4c4",
+      "subject": "紫滨鹬",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

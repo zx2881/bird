@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:39:11",
+  "requested_title": "Swinhoe's Rail",
+  "resolved_title": "Swinhoe's rail",
+  "title_aliases": [
+    "Swinhoe's Rail"
+  ],
+  "bird_id": "bird-花田鸡-27f879e7",
+  "raw_file": "bird-花田鸡-27f879e7.json",
+  "bird": {
+    "id": "bird-花田鸡-27f879e7",
+    "name": "花田鸡",
+    "english_name": "Swinhoe's rail",
+    "latin_name": "Coturnicops exquisitus",
+    "summary": "花田鸡（学名：Coturnicops exquisita）为秧鸡科花田鸡属的鸟类，體長13公分，是體型最小的秧雞，主要分布於東北亞，以及南方的中國東南沿海，棲息於低海拔的草甸、內陸濕地與農田。因性甚隱蔽，行蹤隱密，學界對其所知甚少，但咸信其族群規模正在減小。 分布 花田雞為候鳥…",
+    "lat": "43",
+    "lng": "125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/PorzanaExquisitaKeulemans.jpg/960px-PorzanaExquisitaKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    },
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir）是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶以来至今属于俄罗斯，相當於該國領土总面积的75％，但仅占该国…",
+      "lat": "61",
+      "lng": "105"
+    },
+    {
+      "id": "loc-阿穆尔州-4f6e5609",
+      "name": "阿穆尔州",
+      "summary": "阿穆尔州（俄語：Аму́рская о́бласть，羅馬化：Amúrskaya óblast）是俄罗斯远东联邦管区的一个州，位于俄罗斯远东地区，地处黑龙江（阿穆尔河）以北、外兴安岭以南。面积36.37万平方公里，人口88.11万，首府布…",
+      "lat": "53.55",
+      "lng": "127.83333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-花田鸡-27f879e7",
+      "subject": "花田鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was known only in two locations in Manchuria and southeastern Siberia, separated by more than 1000&nbsp;km; however, in 2018, a new breeding population was found in the Amur region, situated between the two",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-花田鸡-27f879e7",
+      "subject": "花田鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was known only in two locations in Manchuria and southeastern Siberia, separated by more than 1000&nbsp;km; however, in 2018, a new breeding population was found in the Amur region, situated between the two",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-花田鸡-27f879e7",
+      "subject": "花田鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿穆尔州-4f6e5609",
+      "object": "阿穆尔州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was known only in two locations in Manchuria and southeastern Siberia, separated by more than 1000&nbsp;km; however, in 2018, a new breeding population was found in the Amur region, situated between the two",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-花田鸡-27f879e7",
+      "subject": "花田鸡",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-花田鸡-27f879e7",
+      "subject": "花田鸡",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss, and considered a vulnerable species on the IUCN Red List. The common name commemorates the British naturalist Robert Swinhoe who first described the species in 1873.{{cite book|last=Beolens|first=Bo|title=Whose Bird?",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

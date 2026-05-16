@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:22:40",
+  "requested_title": "Long-tailed Koel",
+  "resolved_title": "Long-tailed koel",
+  "title_aliases": [
+    "Long-tailed Koel"
+  ],
+  "bird_id": "bird-long-tailed-koel-346daa37",
+  "raw_file": "bird-long-tailed-koel-346daa37.json",
+  "bird": {
+    "id": "bird-long-tailed-koel-346daa37",
+    "name": "Long-tailed koel",
+    "english_name": "Long-tailed koel",
+    "latin_name": "Urodynamis taitensis",
+    "summary": "The long-tailed koel (Urodynamis taitensis), also known as the long-tailed cuckoo, Pacific long-tailed cuckoo, sparrow hawk, home owl, scre…",
+    "lat": "-42",
+    "lng": "173",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Urodynamis_taitensis_from_iNaturalist_photo_439923510.jpg/960px-Urodynamis_taitensis_from_iNaturalist_photo_439923510.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新西兰-f3c9507e",
+      "name": "新西兰",
+      "summary": "新西兰（英語：New Zealand）又称奥特亚罗瓦（毛利語：Aotearoa，直译：「长白云之乡」），位於太平洋西南部的主權島國，是英联邦新西蘭王國的主體部分，首都為惠灵顿，最大的城市為奧克蘭。紐西蘭主要由兩大島嶼組成：北島（Te Ik…",
+      "lat": "-42",
+      "lng": "173"
+    },
+    {
+      "id": "loc-太平洋諸島-579949e6",
+      "name": "太平洋諸島",
+      "summary": "太平洋島嶼（英语：Pacific islands）即是指散布於太平洋的島嶼，狭义上指大洋洲的三大島群，即：美拉尼西亞島群、密克羅尼西亞島群、玻里尼西亞島群。 島群 美拉尼西亞島群（Melanesia，希臘語字根為「黑人群島」之義）位於赤道…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-long-tailed-koel-346daa37",
+      "subject": "Long-tailed koel",
+      "predicate": "distributed_in",
+      "object_id": "loc-新西兰-f3c9507e",
+      "object": "新西兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a migratory bird that spends spring and summer in New Zealand, its only breeding place, and spends winter in the Pacific islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-long-tailed-koel-346daa37",
+      "subject": "Long-tailed koel",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋諸島-579949e6",
+      "object": "太平洋諸島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a migratory bird that spends spring and summer in New Zealand, its only breeding place, and spends winter in the Pacific islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-long-tailed-koel-346daa37",
+      "subject": "Long-tailed koel",
+      "predicate": "lives_in",
+      "object_id": "hab-open-mountain",
+      "object": "开阔山地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Can be around other vegetation such as mānuka (Lepotospermum scoparium) by rivers or forests or mountainous areas. Occasionally can be found in recreational parks, residential areas and gardens. In New Zealand, the cuckoos live mainly in native forest, particularly up in the canopy",
+      "object_summary": "地形开阔且便于大翼展鸟类活动的山地区域。"
+    },
+    {
+      "subject_id": "bird-long-tailed-koel-346daa37",
+      "subject": "Long-tailed koel",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T14:51:12",
+  "requested_title": "Maroon-chested Ground Dove",
+  "resolved_title": "Maroon-chested ground dove",
+  "title_aliases": [
+    "Maroon-chested Ground Dove"
+  ],
+  "bird_id": "bird-maroon-chested-ground-dove-1e236a63",
+  "raw_file": "bird-maroon-chested-ground-dove-1e236a63.json",
+  "bird": {
+    "id": "bird-maroon-chested-ground-dove-1e236a63",
+    "name": "Maroon-chested ground dove",
+    "english_name": "Maroon-chested ground dove",
+    "latin_name": "Paraclaravis mondetoura",
+    "summary": "The maroon-chested ground dove (Paraclaravis mondetoura) is a species of bird in the family Columbidae. It is native to the American Cordil…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Paraclaravis_mondetoura_115531264.jpg/960px-Paraclaravis_mondetoura_115531264.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-科迪勒拉山系-a55d156e",
+      "name": "科迪勒拉山系",
+      "summary": "美洲科迪勒拉山系（英語：American Cordillera；西班牙語：Cordillera Americana）是南北美洲大陆西端的众多山脉系统的统称，北起阿拉斯加，南到火地岛，绵延约15,000公里（9,300英里），是世界上最长的…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-maroon-chested-ground-dove-1e236a63",
+      "subject": "Maroon-chested ground dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-科迪勒拉山系-a55d156e",
+      "object": "科迪勒拉山系",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the American Cordillera of Central and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-maroon-chested-ground-dove-1e236a63",
+      "subject": "Maroon-chested ground dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "inca, Peru and west central Bolivia The maroon-chested ground dove inhabits dense undergrowth in wet montane forest, its edges, and thickets of secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-maroon-chested-ground-dove-1e236a63",
+      "subject": "Maroon-chested ground dove",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "inca, Peru and west central Bolivia The maroon-chested ground dove inhabits dense undergrowth in wet montane forest, its edges, and thickets of secondary forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-maroon-chested-ground-dove-1e236a63",
+      "subject": "Maroon-chested ground dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-maroon-chested-ground-dove-1e236a63",
+      "subject": "Maroon-chested ground dove",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The IUCN has assessed the maroon-chested ground dove as being of Least Concern. However, it is considered uncommon to rare, and is \"[p]robably in danger of decline if heavy deforestation continues throughout its range.\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

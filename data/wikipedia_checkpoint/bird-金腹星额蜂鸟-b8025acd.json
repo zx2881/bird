@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:16:14",
+  "requested_title": "Golden-bellied Starfrontlet",
+  "resolved_title": "Golden-bellied starfrontlet",
+  "title_aliases": [
+    "Golden-bellied Starfrontlet"
+  ],
+  "bird_id": "bird-金腹星额蜂鸟-b8025acd",
+  "raw_file": "bird-金腹星额蜂鸟-b8025acd.json",
+  "bird": {
+    "id": "bird-金腹星额蜂鸟-b8025acd",
+    "name": "金腹星额蜂鸟",
+    "english_name": "Golden-bellied starfrontlet",
+    "latin_name": "Coeligena bonapartei",
+    "summary": "金腹星额蜂鸟（学名：Coeligena bonapartei）是雨燕目蜂鸟科的一种鸟类。 金腹星额蜂鸟体重约6.49克，翼长约75.2毫米，嘴峰长约34毫米，喙宽度约2.3毫米，喙厚度约2.5毫米，跗蹠长约6.3毫米，尾长约41.8毫米。金腹星额蜂鸟在其分布区内为留鸟，其栖息在…",
+    "lat": "5.53333333",
+    "lng": "-73.36666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Coeligena_bonapartei_567059.jpg/960px-Coeligena_bonapartei_567059.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-博亚卡省-f4fea0df",
+      "name": "博亚卡省",
+      "summary": "博亚卡省（西班牙语：Boyacá）是位于哥伦比亚东北部地区的一个省，首府通哈，2018年人口为128万。 参考来源",
+      "lat": "5.53333333",
+      "lng": "-73.36666667"
+    },
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金腹星额蜂鸟-b8025acd",
+      "subject": "金腹星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-博亚卡省-f4fea0df",
+      "object": "博亚卡省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The golden-bellied starfrontlet is found in the Eastern Andes of Colombia between Boyacá Department and the Metropolitan Area of Bogotá. The species primarily inhabits the interior and edges of humid montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金腹星额蜂鸟-b8025acd",
+      "subject": "金腹星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in dwarf forest and more open landscapes with scattered vegetation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金腹星额蜂鸟-b8025acd",
+      "subject": "金腹星额蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The golden-bellied starfrontlet is found in the Eastern Andes of Colombia between Boyacá Department and the Metropolitan Area of Bogotá. The species primarily inhabits the interior and edges of humid montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-金腹星额蜂鸟-b8025acd",
+      "subject": "金腹星额蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

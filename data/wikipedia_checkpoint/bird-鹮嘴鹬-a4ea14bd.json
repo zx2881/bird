@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:56:06",
+  "requested_title": "Ibisbill",
+  "resolved_title": "Ibisbill",
+  "title_aliases": [
+    "Ibisbill"
+  ],
+  "bird_id": "bird-鹮嘴鹬-a4ea14bd",
+  "raw_file": "bird-鹮嘴鹬-a4ea14bd.json",
+  "bird": {
+    "id": "bird-鹮嘴鹬-a4ea14bd",
+    "name": "鹮嘴鹬",
+    "english_name": "Ibisbill",
+    "latin_name": "Ibidorhyncha struthersii",
+    "summary": "The ibisbill (Ibidorhyncha struthersii) is a bird related to the waders, but sufficiently distinctive to merit its own family Ibidorhynchid…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ibisbill_Ibidorhyncha_struthersii_by_Dr_Raju_Kasambe_%284%29.jpg/960px-Ibisbill_Ibidorhyncha_struthersii_by_Dr_Raju_Kasambe_%284%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中亚-88133474",
+      "name": "中亚",
+      "summary": "中亚（英語：Central Asia；俄語：Средняя Азия / Центральная Азия）即亚洲中部，在地理上是指西至里海，东到中国新疆，南到阿富汗，北到俄罗斯的广大区域。而根据长期占据这片区域大部分领土的前苏联官方定义…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鹮嘴鹬-a4ea14bd",
+      "subject": "鹮嘴鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-中亚-88133474",
+      "object": "中亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The ibisbill breeds across southern Central Asia along stony riverbeds, typically between , although there are records of the ibisbill breeding as low as . Outside the breeding season, it may descend as low as . It typically is found in shingle-bed river valleys from across with patches of sand and silt mixed in with pebbles and small boulders",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鹮嘴鹬-a4ea14bd",
+      "subject": "鹮嘴鹬",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

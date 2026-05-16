@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:36:12",
+  "requested_title": "Purple Gallinule",
+  "resolved_title": "American purple gallinule",
+  "title_aliases": [
+    "Purple Gallinule",
+    "American purple gallinule"
+  ],
+  "bird_id": "bird-american-purple-gallinule-75b946b1",
+  "raw_file": "bird-american-purple-gallinule-75b946b1.json",
+  "bird": {
+    "id": "bird-american-purple-gallinule-75b946b1",
+    "name": "American purple gallinule",
+    "english_name": "American purple gallinule",
+    "latin_name": "Porphyrio martinica",
+    "summary": "The purple gallinule (Porphyrio martinica) is a species of swamphen found in the Americas. It is in the order Gruiformes, meaning \"crane-li…",
+    "lat": "19",
+    "lng": "-96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Gallinule_Purple_JG.jpg/960px-Gallinule_Purple_JG.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-美洲-f26eed21",
+      "name": "美洲",
+      "summary": "亚美利加洲（英語：Americas）簡稱美洲，位于西半球，自然地理分为北美洲和南美洲，其中北美洲可进一步划分为北美地区、中美洲（联合国地理方案将墨西哥视为中美洲的一部分）和加勒比地区（西印度群岛）三个地理区域。美洲的总面積達4254.9万…",
+      "lat": "19",
+      "lng": "-96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-american-purple-gallinule-75b946b1",
+      "subject": "American purple gallinule",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The purple gallinule (Porphyrio martinica) is a species of swamphen found in the Americas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-american-purple-gallinule-75b946b1",
+      "subject": "American purple gallinule",
+      "predicate": "distributed_in",
+      "object_id": "loc-美洲-f26eed21",
+      "object": "美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The purple gallinule (Porphyrio martinica) is a species of swamphen found in the Americas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-american-purple-gallinule-75b946b1",
+      "subject": "American purple gallinule",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species' habitat is freshwater marsh with dense stands of vegetation. The species has the greatest pattern of vagrancy amongst rails, with individuals recorded as far west as California and the Galápagos Islands, as far north as Iceland and Labrador, as far south as Tierra del Fuego, and as far east as Great Britain, Portugal and Cape Verde. This species has been recorded in the Cape Province of South Africa twenty-one times",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-american-purple-gallinule-75b946b1",
+      "subject": "American purple gallinule",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T21:07:37",
+  "requested_title": "Green-throated Carib",
+  "resolved_title": "Green-throated carib",
+  "title_aliases": [
+    "Green-throated Carib"
+  ],
+  "bird_id": "bird-綠喉加利蜂鳥-5fa936c4",
+  "raw_file": "bird-綠喉加利蜂鳥-5fa936c4.json",
+  "bird": {
+    "id": "bird-綠喉加利蜂鳥-5fa936c4",
+    "name": "綠喉加利蜂鳥",
+    "english_name": "Green-throated carib",
+    "latin_name": "Eulampis holosericeus",
+    "summary": "绿喉蜂鸟（台湾作綠喉加利蜂鳥，学名：Eulampis holosericeus），是雨燕目蜂鸟科的一种鸟类。 绿喉蜂鸟体重约5.7克，翼长约59.6毫米，嘴峰长约25.4毫米，喙宽度约2毫米，喙厚度约2.2毫米，跗蹠长约5.4毫米，尾长约34毫米。绿喉蜂鸟在其分布区内为留鸟，其…",
+    "lat": "18.2",
+    "lng": "-66.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Green_throated_carib_shs.jpg/960px-Green_throated_carib_shs.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-波多黎各-f53ddf8c",
+      "name": "波多黎各",
+      "summary": "波多黎各自由邦（英語：Commonwealth of Puerto Rico），又稱波多黎各自由聯繫邦（西班牙語：Estado Libre Asociado de Puerto Rico），通称波多黎各（西班牙語：Puerto Rico，…",
+      "lat": "18.2",
+      "lng": "-66.5"
+    },
+    {
+      "id": "loc-小安的列斯群岛-d6bade2c",
+      "name": "小安的列斯群岛",
+      "summary": "小安的列斯群岛（英語：Lesser Antilles，西班牙語：Antillas Menores），又称加勒比群岛，是位于加勒比海西印度群岛中安的列斯群岛东部和南部的岛群。群岛呈圆弧状，从波多黎各以东开始，向南穿过背风群岛和向风群岛，几乎…",
+      "lat": "14",
+      "lng": "-61"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-綠喉加利蜂鳥-5fa936c4",
+      "subject": "綠喉加利蜂鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-波多黎各-f53ddf8c",
+      "object": "波多黎各",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Puerto Rico and most of the Lesser Antilles.{{cite report |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 12.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-綠喉加利蜂鳥-5fa936c4",
+      "subject": "綠喉加利蜂鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-小安的列斯群岛-d6bade2c",
+      "object": "小安的列斯群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Puerto Rico and most of the Lesser Antilles.{{cite report |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 12.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-綠喉加利蜂鳥-5fa936c4",
+      "subject": "綠喉加利蜂鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

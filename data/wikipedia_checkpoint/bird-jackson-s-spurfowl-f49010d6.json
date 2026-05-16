@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:52:02",
+  "requested_title": "Jackson's Spurfowl",
+  "resolved_title": "Jackson's spurfowl",
+  "title_aliases": [
+    "Jackson's Spurfowl"
+  ],
+  "bird_id": "bird-jackson-s-spurfowl-f49010d6",
+  "raw_file": "bird-jackson-s-spurfowl-f49010d6.json",
+  "bird": {
+    "id": "bird-jackson-s-spurfowl-f49010d6",
+    "name": "Jackson's spurfowl",
+    "english_name": "Jackson's spurfowl",
+    "latin_name": "Pternistis jacksoni",
+    "summary": "Jackson's spurfowl or Jackson's francolin (Pternistis jacksoni) is a species of bird in the family Phasianidae. It is found in the highland…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jackson%27s_francolin_%28Pternistis_jacksoni%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-乌干达-8bd6d93b",
+      "name": "乌干达",
+      "summary": "烏干達共和國（斯瓦希里語：Jamhuri ya Uganda，英語：Republic of Uganda），通稱烏干達，是位於東非的內陸國家。 烏干達名稱來自於過去班圖人建立的布干達王國。歐洲列強在十九世紀後葉進入東非內陸後，烏干達在18…",
+      "lat": "1",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-jackson-s-spurfowl-f49010d6",
+      "subject": "Jackson's spurfowl",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the highlands of Kenya and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jackson-s-spurfowl-f49010d6",
+      "subject": "Jackson's spurfowl",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌干达-8bd6d93b",
+      "object": "乌干达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the highlands of Kenya and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jackson-s-spurfowl-f49010d6",
+      "subject": "Jackson's spurfowl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

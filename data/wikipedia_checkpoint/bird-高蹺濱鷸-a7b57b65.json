@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:36:11",
+  "requested_title": "Stilt Sandpiper",
+  "resolved_title": "Stilt sandpiper",
+  "title_aliases": [
+    "Stilt Sandpiper"
+  ],
+  "bird_id": "bird-高蹺濱鷸-a7b57b65",
+  "raw_file": "bird-高蹺濱鷸-a7b57b65.json",
+  "bird": {
+    "id": "bird-高蹺濱鷸-a7b57b65",
+    "name": "高蹺濱鷸",
+    "english_name": "Stilt sandpiper",
+    "latin_name": "Calidris himantopus",
+    "summary": "高跷鹬（台湾作高蹺濱鷸）（学名：Calidris himantopus），是鸻形目丘鹬科的一种鸟类。是一種小型的濱鳥。其學名源自古希臘語。屬名 kalidris 或 skalidris 是亞里士多德用來描述一些灰色水邊鳥類的術語。種名 himantopus 的意思是「帶狀足」或…",
+    "lat": "64",
+    "lng": "-152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Stilt_Sandpiper_%2829065008787%29.jpg/960px-Stilt_Sandpiper_%2829065008787%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉斯加州-6d35b63b",
+      "name": "阿拉斯加州",
+      "summary": "阿拉斯加州（英語：Alaska，發音：/əˈlæskə/ ；舊譯「亞尼俺國」、「亞拉士加」）是美國位於北美洲最西北端的聯邦州。州以東與加拿大的英屬哥倫比亞省和育空地區相鄰，最西端位於阿圖島，並與俄羅斯在白令海峽以西有一海上邊界。以北有楚科…",
+      "lat": "64",
+      "lng": "-152"
+    },
+    {
+      "id": "loc-加拿大-25b69dbf",
+      "name": "加拿大",
+      "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢…",
+      "lat": "60",
+      "lng": "-110"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-高蹺濱鷸-a7b57b65",
+      "subject": "高蹺濱鷸",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉斯加州-6d35b63b",
+      "object": "阿拉斯加州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The stilt sandpiper breeds in the open arctic tundra of North America in northern Alaska and northern Canada",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高蹺濱鷸-a7b57b65",
+      "subject": "高蹺濱鷸",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大-25b69dbf",
+      "object": "加拿大",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The stilt sandpiper breeds in the open arctic tundra of North America in northern Alaska and northern Canada",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高蹺濱鷸-a7b57b65",
+      "subject": "高蹺濱鷸",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

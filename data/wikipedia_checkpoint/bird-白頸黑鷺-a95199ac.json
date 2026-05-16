@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:55:09",
+  "requested_title": "Pied Heron",
+  "resolved_title": "Pied heron",
+  "title_aliases": [
+    "Pied Heron"
+  ],
+  "bird_id": "bird-白頸黑鷺-a95199ac",
+  "raw_file": "bird-白頸黑鷺-a95199ac.json",
+  "bird": {
+    "id": "bird-白頸黑鷺-a95199ac",
+    "name": "白頸黑鷺",
+    "english_name": "Pied heron",
+    "latin_name": "Egretta picata",
+    "summary": "斑鹭（台湾作白頸黑鷺）（学名：Egretta picata）是一種分布於澳大利亞北部季風區的沿海和次沿海地區以及華萊士區和新幾內亞部分地區的鳥類。 分類 這個物種最初由鳥類學家約翰·古爾德於1845年描述。最近的分類學家將這個物種歸入白鷺屬（Egretta）屬。本種沒有被承認的…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pied_Heron_-_Fogg_Dam.jpg/960px-Pied_Heron_-_Fogg_Dam.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白頸黑鷺-a95199ac",
+      "subject": "白頸黑鷺",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| synonyms = *Notophoyx aruensis *Ardea picata }} The pied heron (Egretta picata), also known as the pied egret is a bird found in coastal and subcoastal areas of monsoonal northern Australia as well as some parts of Wallacea and New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白頸黑鷺-a95199ac",
+      "subject": "白頸黑鷺",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its habitat mainly comprises a range of wetlands and wet grasslands",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-白頸黑鷺-a95199ac",
+      "subject": "白頸黑鷺",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its habitat mainly comprises a range of wetlands and wet grasslands",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-白頸黑鷺-a95199ac",
+      "subject": "白頸黑鷺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

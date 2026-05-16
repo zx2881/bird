@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T09:59:21",
+  "requested_title": "Altai Snowcock",
+  "resolved_title": "Altai snowcock",
+  "title_aliases": [
+    "Altai Snowcock"
+  ],
+  "bird_id": "bird-阿尔泰雪鸡-f85ea72e",
+  "raw_file": "bird-阿尔泰雪鸡-f85ea72e.json",
+  "bird": {
+    "id": "bird-阿尔泰雪鸡-f85ea72e",
+    "name": "阿尔泰雪鸡",
+    "english_name": "Altai snowcock",
+    "latin_name": "Tetraogallus altaicus",
+    "summary": "阿尔泰雪鸡（学名：Tetraogallus altaicus）是雉科雪鸡属的一种，主要分布于亚洲阿尔泰山脉地区的针叶林中。种加名 altaicus 意为“阿尔泰的”。 分类 阿尔泰雪鸡最早由奥地利博物学家弗里德里希·格布勒于1836年描述，格布勒在俄罗斯帝国的阿尔泰地区生活工作…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/TetraogallusAltaicus.jpg/960px-TetraogallusAltaicus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    },
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir）是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶以来至今属于俄罗斯，相當於該國領土总面积的75％，但仅占该国…",
+      "lat": "61",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-阿尔泰雪鸡-f85ea72e",
+      "subject": "阿尔泰雪鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Mongolia and adjacent areas of China, Kazakhstan and Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-阿尔泰雪鸡-f85ea72e",
+      "subject": "阿尔泰雪鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Mongolia and adjacent areas of China, Kazakhstan and Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-阿尔泰雪鸡-f85ea72e",
+      "subject": "阿尔泰雪鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Altai snowcock is native to the mountain ranges of western Mongolia and southwestern Siberia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-阿尔泰雪鸡-f85ea72e",
+      "subject": "阿尔泰雪鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:46:17",
+  "requested_title": "Black-tailed Crake",
+  "resolved_title": "Black-tailed crake",
+  "title_aliases": [
+    "Black-tailed Crake"
+  ],
+  "bird_id": "bird-棕背田鸡-c0185693",
+  "raw_file": "bird-棕背田鸡-c0185693.json",
+  "bird": {
+    "id": "bird-棕背田鸡-c0185693",
+    "name": "棕背田鸡",
+    "english_name": "Black-tailed crake",
+    "latin_name": "Zapornia bicolor",
+    "summary": "棕背田鸡（学名：Zapornia bicolor）为秧鸡科田鸡属的鸟类。在中国大陆，分布于贵州、四川、云南、西藏等地。该物种的模式产地在印度。 种小名 bicolor 意为“二色的”。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Amaurornis_bicolor_-_Doi_Inthanon.jpg/960px-Amaurornis_bicolor_-_Doi_Inthanon.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-arthur-hay-9th-marquess-of-tweeddale-62aa9c8e",
+      "name": "Arthur Hay, 9th Marquess of Tweeddale",
+      "summary": "Colonel Arthur Hay, 9th Marquess of Tweeddale, (9 November 1824 – 29 December 1878), known before 1862 as Lord Arthur H…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕背田鸡-c0185693",
+      "subject": "棕背田鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-arthur-hay-9th-marquess-of-tweeddale-62aa9c8e",
+      "object": "Arthur Hay, 9th Marquess of Tweeddale",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-tailed crake (Zapornia bicolor) is a species of bird in the family Rallidae. It is found in Bangladesh, Bhutan, China, India, Laos, Myanmar, Nepal, Thailand and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕背田鸡-c0185693",
+      "subject": "棕背田鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

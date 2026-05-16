@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:53:10",
+  "requested_title": "Ochre-bellied Dove",
+  "resolved_title": "Ochre-bellied dove",
+  "title_aliases": [
+    "Ochre-bellied Dove"
+  ],
+  "bird_id": "bird-ochre-bellied-dove-397a1307",
+  "raw_file": "bird-ochre-bellied-dove-397a1307.json",
+  "bird": {
+    "id": "bird-ochre-bellied-dove-397a1307",
+    "name": "Ochre-bellied dove",
+    "english_name": "Ochre-bellied dove",
+    "latin_name": "Leptotila ochraceiventris",
+    "summary": "The ochre-bellied dove or buff-bellied dove (Leptotila ochraceiventris) is a species of bird in the family Columbidae. It is found in Ecuad…",
+    "lat": "-2",
+    "lng": "-77.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Ochre-belliedDove.jpg/960px-Ochre-belliedDove.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ochre-bellied-dove-397a1307",
+      "subject": "Ochre-bellied dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and Peru.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ochre-bellied-dove-397a1307",
+      "subject": "Ochre-bellied dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and Peru.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ochre-bellied-dove-397a1307",
+      "subject": "Ochre-bellied dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits a variety of landscapes including moist evergreen, semi-deciduous, and dry deciduous forests; lower montane forest; and humid cloudforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ochre-bellied-dove-397a1307",
+      "subject": "Ochre-bellied dove",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits a variety of landscapes including moist evergreen, semi-deciduous, and dry deciduous forests; lower montane forest; and humid cloudforest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-ochre-bellied-dove-397a1307",
+      "subject": "Ochre-bellied dove",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-ochre-bellied-dove-397a1307",
+      "subject": "Ochre-bellied dove",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It has a small population that is believed to be declining because of habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-ochre-bellied-dove-397a1307",
+      "subject": "Ochre-bellied dove",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It has a small population that is believed to be declining because of habitat loss",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

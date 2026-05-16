@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:50:33",
+  "requested_title": "Mayr's Swiftlet",
+  "resolved_title": "Mayr's swiftlet",
+  "title_aliases": [
+    "Mayr's Swiftlet"
+  ],
+  "bird_id": "bird-麦氏金丝燕-595fc2ce",
+  "raw_file": "bird-麦氏金丝燕-595fc2ce.json",
+  "bird": {
+    "id": "bird-麦氏金丝燕-595fc2ce",
+    "name": "麦氏金丝燕",
+    "english_name": "Mayr's swiftlet",
+    "latin_name": "Aerodramus orientalis",
+    "summary": "麦氏金丝燕（学名：Aerodramus orientalis）是雨燕科的一种金丝燕，分布于巴布亚新几内亚和所罗门群岛。它们仅有三具于20世纪在巴布亚新几内亚和所罗门群岛采集到的标本，其具体分布范围、种群数量及趋势和是否受到威胁完全不明。它们的栖息地可能限制于山区，如果其栖息地的…",
+    "lat": "-3.33",
+    "lng": "152",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-新爱尔兰岛-ed4948c3",
+      "name": "新爱尔兰岛",
+      "summary": "新爱尔兰岛（New Ireland island，巴布亚皮钦语：Niu Ailan），屬於巴布亞新幾內亞的一個島嶼，是太平洋西南部俾斯麦群岛主要岛屿之一，位于新不列颠岛东北，隔圣乔治海峡与其相望，全岛东西狭长，形似一支火绳枪，面积约865…",
+      "lat": "-3.33",
+      "lng": "152"
+    },
+    {
+      "id": "loc-瓜达尔卡纳尔岛-5c664819",
+      "name": "瓜达尔卡纳尔岛",
+      "summary": "Guadalcanal (; indigenous name: Isatabu) is the principal island in the Guadalcanal Province of Solomon Islands, locate…",
+      "lat": "-9.59",
+      "lng": "160.235"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-麦氏金丝燕-595fc2ce",
+      "subject": "麦氏金丝燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-新爱尔兰岛-ed4948c3",
+      "object": "新爱尔兰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Ireland and Guadalcanal",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-麦氏金丝燕-595fc2ce",
+      "subject": "麦氏金丝燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓜达尔卡纳尔岛-5c664819",
+      "object": "瓜达尔卡纳尔岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Ireland and Guadalcanal",
+      "object_summary": ""
+    }
+  ]
+}

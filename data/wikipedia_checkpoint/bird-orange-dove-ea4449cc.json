@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:57:11",
+  "requested_title": "Orange Dove",
+  "resolved_title": "Orange dove",
+  "title_aliases": [
+    "Orange Dove"
+  ],
+  "bird_id": "bird-orange-dove-ea4449cc",
+  "raw_file": "bird-orange-dove-ea4449cc.json",
+  "bird": {
+    "id": "bird-orange-dove-ea4449cc",
+    "name": "Orange dove",
+    "english_name": "Orange dove",
+    "latin_name": "Ptilinopus victor",
+    "summary": "The orange dove or orange fruit dove (Ptilinopus victor) is a species of bird in the pigeon family Columbidae. One of the most colorful dov…",
+    "lat": "-18",
+    "lng": "179",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Orange_dove_%28Ptilinopus_victor%29_male_Taveuni.jpg/960px-Orange_dove_%28Ptilinopus_victor%29_male_Taveuni.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-斐濟-2fb776c3",
+      "name": "斐濟",
+      "summary": "斐濟共和國（英語：Republic of Fiji；斐濟語：Matanitu Tugalala o Viti；斐濟印地語：रिपब्लिक ऑफ फीजी），通稱斐濟，是位於南太平洋，瓦努阿圖以東、東加以西、吐瓦魯以南的群島國家，由322…",
+      "lat": "-18",
+      "lng": "179"
+    },
+    {
+      "id": "loc-蘭比島-06fd77ae",
+      "name": "蘭比島",
+      "summary": "蘭比島（斐濟語：Rabi，發音：[ˈrambi]）是斐濟北部区萨考恩德罗韦省的島嶼，位於太平洋海域，距離塔韋烏尼島20公里，長13公里、寬8公里，面積66.3平方公里，最高點海拔高度463米，人口約5,000。 外部連結 Banaba（页…",
+      "lat": "-16.5",
+      "lng": "-180"
+    },
+    {
+      "id": "loc-kioa-c11c32e0",
+      "name": "Kioa",
+      "summary": "Kioa is an island in Fiji, an outlier to Vanua Levu, one of Fiji's two main islands.",
+      "lat": "-16.65",
+      "lng": "179.91666667"
+    },
+    {
+      "id": "loc-qamea-70634341",
+      "name": "Qamea",
+      "summary": "Qamea (pronounced [ŋɡaˈmea]) is one of three islets lying to the east of Thurston Point on the island of Taveuni, Fiji,…",
+      "lat": "-16.7588721",
+      "lng": "-179.7527003"
+    },
+    {
+      "id": "loc-laucala-c844e4a1",
+      "name": "Laucala",
+      "summary": "Laucala (pronounced [lauˈðala]) is one of a triplet of small islands that lie to the east of Thurston Point on the isla…",
+      "lat": "-16.75",
+      "lng": "-179.68333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-orange-dove-ea4449cc",
+      "subject": "Orange dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-斐濟-2fb776c3",
+      "object": "斐濟",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The orange dove is endemic to Fiji, where it inhabits forests on the islands of Vanua Levu, Taveuni, Rabi, Kioa, Qamea and Laucala",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-dove-ea4449cc",
+      "subject": "Orange dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘭比島-06fd77ae",
+      "object": "蘭比島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The orange dove is endemic to Fiji, where it inhabits forests on the islands of Vanua Levu, Taveuni, Rabi, Kioa, Qamea and Laucala",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-dove-ea4449cc",
+      "subject": "Orange dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-kioa-c11c32e0",
+      "object": "Kioa",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The orange dove is endemic to Fiji, where it inhabits forests on the islands of Vanua Levu, Taveuni, Rabi, Kioa, Qamea and Laucala",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-dove-ea4449cc",
+      "subject": "Orange dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-qamea-70634341",
+      "object": "Qamea",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The orange dove is endemic to Fiji, where it inhabits forests on the islands of Vanua Levu, Taveuni, Rabi, Kioa, Qamea and Laucala",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-dove-ea4449cc",
+      "subject": "Orange dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-laucala-c844e4a1",
+      "object": "Laucala",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The orange dove is endemic to Fiji, where it inhabits forests on the islands of Vanua Levu, Taveuni, Rabi, Kioa, Qamea and Laucala",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-dove-ea4449cc",
+      "subject": "Orange dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

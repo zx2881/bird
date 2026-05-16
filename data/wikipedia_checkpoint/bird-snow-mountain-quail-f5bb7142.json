@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:38:22",
+  "requested_title": "Snow Mountain Quail",
+  "resolved_title": "Snow Mountain quail",
+  "title_aliases": [
+    "Snow Mountain Quail"
+  ],
+  "bird_id": "bird-snow-mountain-quail-f5bb7142",
+  "raw_file": "bird-snow-mountain-quail-f5bb7142.json",
+  "bird": {
+    "id": "bird-snow-mountain-quail-f5bb7142",
+    "name": "Snow Mountain quail",
+    "english_name": "Snow Mountain quail",
+    "latin_name": "Synoicus monorthonyx",
+    "summary": "The Snow Mountain quail (Synoicus monorthonyx), is a roughly 28-cm-long (11 in), dark brown quail of alpine grasslands. It was formerly con…",
+    "lat": "-4",
+    "lng": "136",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Snow_Mountains_Quail.JPG/960px-Snow_Mountains_Quail.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-eduard-dani-l-van-oort-7ab3bebd",
+      "name": "Eduard Daniël van Oort",
+      "summary": "Eduard Daniël van Oort (31 October 1876 in Barneveld, Gelderland – 21 September 1933 in Leiden) was a Dutch ornithologi…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西巴布亚-b712982c",
+      "name": "西巴布亚",
+      "summary": "西巴布亚，又称西新几内亚，為新几内亚岛（又称伊里安岛）的西部，分為印度尼西亚的巴布亚省、西巴布亚省、中巴布亞省、高地巴布亞省、南巴布亞省。 14世纪初，在新几内亚岛西北部出现凯马纳王国。在殖民者到来之时，蒂多雷苏丹国控制多貝拉伊半島的部分…",
+      "lat": "-4",
+      "lng": "136"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-snow-mountain-quail-f5bb7142",
+      "subject": "Snow Mountain quail",
+      "predicate": "distributed_in",
+      "object_id": "loc-eduard-dani-l-van-oort-7ab3bebd",
+      "object": "Eduard Daniël van Oort",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Snow Mountain quail (Synoicus monorthonyx), is a roughly 28-cm-long (11&nbsp;in), dark brown quail of alpine grasslands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-snow-mountain-quail-f5bb7142",
+      "subject": "Snow Mountain quail",
+      "predicate": "distributed_in",
+      "object_id": "loc-西巴布亚-b712982c",
+      "object": "西巴布亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Snow Mountain quail (Synoicus monorthonyx), is a roughly 28-cm-long (11&nbsp;in), dark brown quail of alpine grasslands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-snow-mountain-quail-f5bb7142",
+      "subject": "Snow Mountain quail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

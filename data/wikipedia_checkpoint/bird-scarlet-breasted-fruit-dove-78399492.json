@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:45:24",
+  "requested_title": "Scarlet-breasted Fruit Dove",
+  "resolved_title": "Scarlet-breasted fruit dove",
+  "title_aliases": [
+    "Scarlet-breasted Fruit Dove"
+  ],
+  "bird_id": "bird-scarlet-breasted-fruit-dove-78399492",
+  "raw_file": "bird-scarlet-breasted-fruit-dove-78399492.json",
+  "bird": {
+    "id": "bird-scarlet-breasted-fruit-dove-78399492",
+    "name": "Scarlet-breasted fruit dove",
+    "english_name": "Scarlet-breasted fruit dove",
+    "latin_name": "Megaloprepia bernsteinii",
+    "summary": "The scarlet-breasted fruit dove (Megaloprepia bernsteinii) is a species of bird in the family Columbidae. It is endemic to Indonesia, where…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Megaloprepia_formosa_-_Fadzrun_-_458455243.jpeg/960px-Megaloprepia_formosa_-_Fadzrun_-_458455243.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-scarlet-breasted-fruit-dove-78399492",
+      "subject": "Scarlet-breasted fruit dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in the northern Moluccas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scarlet-breasted-fruit-dove-78399492",
+      "subject": "Scarlet-breasted fruit dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in the northern Moluccas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scarlet-breasted-fruit-dove-78399492",
+      "subject": "Scarlet-breasted fruit dove",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:54:36",
+  "requested_title": "Streaked Shearwater",
+  "resolved_title": "Streaked shearwater",
+  "title_aliases": [
+    "Streaked Shearwater"
+  ],
+  "bird_id": "bird-白額鸌-bbefa3e5",
+  "raw_file": "bird-白額鸌-bbefa3e5.json",
+  "bird": {
+    "id": "bird-白額鸌-bbefa3e5",
+    "name": "白額鸌",
+    "english_name": "Streaked shearwater",
+    "latin_name": "Calonectris leucomelas",
+    "summary": "白额鹱（学名：Calonectris leucomelas）为鸌形目鹱科丽鹱属的鸟类，又名大水薙鸟、大灰鹱。该物种的模式产地在日本海。 成鳥平均長度為48 cm（19英寸），翼展為122 cm（48英寸）。",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Streaked_shearwater_sitting.jpg/960px-Streaked_shearwater_sitting.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    },
+    {
+      "id": "loc-日本-4dbed2e6",
+      "name": "日本",
+      "summary": "日本國（日語：日本国〔日本國〕／にっぽんこく／にほんこく，羅馬化：nippon koku/nihon koku），通稱日本，是位於東亞的島嶼國家。國土全境由北海道、本州、四國、九州等本土四島為基礎的14,125座島嶼組成，周圍被太平洋及鄂…",
+      "lat": "36",
+      "lng": "138"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白額鸌-bbefa3e5",
+      "subject": "白額鸌",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Pacific Ocean, nesting in Japan and the Korean Peninsula, predominantly on their offshore islands.{{Cite journal|last=Hart |first=Kirk A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白額鸌-bbefa3e5",
+      "subject": "白額鸌",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本-4dbed2e6",
+      "object": "日本",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Pacific Ocean, nesting in Japan and the Korean Peninsula, predominantly on their offshore islands.{{Cite journal|last=Hart |first=Kirk A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白額鸌-bbefa3e5",
+      "subject": "白額鸌",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

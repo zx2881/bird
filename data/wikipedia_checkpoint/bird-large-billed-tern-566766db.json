@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:01:36",
+  "requested_title": "Large-billed Tern",
+  "resolved_title": "Large-billed tern",
+  "title_aliases": [
+    "Large-billed Tern"
+  ],
+  "bird_id": "bird-large-billed-tern-566766db",
+  "raw_file": "bird-large-billed-tern-566766db.json",
+  "bird": {
+    "id": "bird-large-billed-tern-566766db",
+    "name": "Large-billed tern",
+    "english_name": "Large-billed tern",
+    "latin_name": "Phaetusa simplex",
+    "summary": "The large-billed tern (Phaetusa simplex) is a species of tern in the family Laridae. It is placed the monotypic genus Phaetusa.",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Grossschnabel-Seeschwalbe.jpg/960px-Grossschnabel-Seeschwalbe.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-large-billed-tern-566766db",
+      "subject": "Large-billed tern",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in most of South America (east of the Andes and north of the Pampas)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-large-billed-tern-566766db",
+      "subject": "Large-billed tern",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in most of South America (east of the Andes and north of the Pampas)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-large-billed-tern-566766db",
+      "subject": "Large-billed tern",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

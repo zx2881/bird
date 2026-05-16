@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:36:14",
+  "requested_title": "Red-necked Stint",
+  "resolved_title": "Red-necked stint",
+  "title_aliases": [
+    "Red-necked Stint"
+  ],
+  "bird_id": "bird-红颈滨鹬-0a7d2fed",
+  "raw_file": "bird-红颈滨鹬-0a7d2fed.json",
+  "bird": {
+    "id": "bird-红颈滨鹬-0a7d2fed",
+    "name": "红颈滨鹬",
+    "english_name": "Red-necked stint",
+    "latin_name": "Calidris ruficollis",
+    "summary": "红颈滨鹬（学名：Calidris ruficollis）又名红胸滨鹬，为鹬科滨鹬属的一种鸟类。在中国大陆，分布于内蒙古、华东、西至青海等地。该物种的模式产地在西伯利亚。 分類 屬名來自古希臘語 kalidris 或 skalidris，這是亞里士多德用來形容一些灰色水邊鳥類的詞…",
+    "lat": "-28.10888889",
+    "lng": "146.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Red-necked_Stint_-_Boat_Harbour.jpg/960px-Red-necked_Stint_-_Boat_Harbour.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大拉西亞-3d7bd98e",
+      "name": "澳大拉西亞",
+      "summary": "澳大拉西亚（英語：Australasia）一般指大洋洲的一个地区，包含了澳大利亚、新西兰和邻近的太平洋岛屿。 澳大拉西亚一詞是由法国學者布羅塞於1756年出版的《到南方陸地航行的歷史》（Histoire des navigations a…",
+      "lat": "-28.10888889",
+      "lng": "146.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红颈滨鹬-0a7d2fed",
+      "subject": "红颈滨鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "ruficollis }} The red-necked stint or rufous-necked stint (Calidris ruficollis) is a small migratory wader that breeds in northeast Russia and spends the non-breeding season along the coastlines of Southeast Asia and Australasia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红颈滨鹬-0a7d2fed",
+      "subject": "红颈滨鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大拉西亞-3d7bd98e",
+      "object": "澳大拉西亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "ruficollis }} The red-necked stint or rufous-necked stint (Calidris ruficollis) is a small migratory wader that breeds in northeast Russia and spends the non-breeding season along the coastlines of Southeast Asia and Australasia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红颈滨鹬-0a7d2fed",
+      "subject": "红颈滨鹬",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

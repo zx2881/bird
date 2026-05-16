@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:58:07",
+  "requested_title": "Sooty Grouse",
+  "resolved_title": "Sooty grouse",
+  "title_aliases": [
+    "Sooty Grouse"
+  ],
+  "bird_id": "bird-乌镰翅鸡-23a169af",
+  "raw_file": "bird-乌镰翅鸡-23a169af.json",
+  "bird": {
+    "id": "bird-乌镰翅鸡-23a169af",
+    "name": "乌镰翅鸡",
+    "english_name": "Sooty grouse",
+    "latin_name": "Dendragapus fuliginosus",
+    "summary": "乌镰翅鸡（台湾作暗藍鐮樹雞）（学名：Dendragapus fuliginosus）是鸡形目雉科的一种鸟类。 特征 乌镰翅鸡体重约1047.31克，翼长约223.2毫米，嘴峰长约25.9毫米，喙宽度约9.6毫米，喙厚度约10.6毫米，跗蹠长约41.8毫米，尾长约140毫米。乌镰…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Dendragapus_fuliginosus_5058.JPG/960px-Dendragapus_fuliginosus_5058.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-羅伯特-里奇韋-f7fc6fb2",
+      "name": "羅伯特·里奇韋",
+      "summary": "Robert Ridgway (July 2, 1850 – March 25, 1929) was an American ornithologist specializing in systematics.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-太平洋海岸山脈-33240939",
+      "name": "太平洋海岸山脈",
+      "summary": "太平洋海岸山脈（英語：Pacific Coast Ranges）是一條縱貫北美洲西海岸沿太平洋的山脈，從阿拉斯加南部到墨西哥中部。 太平洋海岸山脈的部分山體為北美科迪勒拉山脈（North American Cordillera），其中包括…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-乌镰翅鸡-23a169af",
+      "subject": "乌镰翅鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-羅伯特-里奇韋-f7fc6fb2",
+      "object": "羅伯特·里奇韋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The sooty grouse (Dendragapus fuliginosus) is a species of forest-dwelling grouse native to North America's Pacific Coast Ranges.del Hoyo, J., Elliott, A., & Sargatal, J., eds",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌镰翅鸡-23a169af",
+      "subject": "乌镰翅鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The sooty grouse (Dendragapus fuliginosus) is a species of forest-dwelling grouse native to North America's Pacific Coast Ranges.del Hoyo, J., Elliott, A., & Sargatal, J., eds",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌镰翅鸡-23a169af",
+      "subject": "乌镰翅鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋海岸山脈-33240939",
+      "object": "太平洋海岸山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The sooty grouse (Dendragapus fuliginosus) is a species of forest-dwelling grouse native to North America's Pacific Coast Ranges.del Hoyo, J., Elliott, A., & Sargatal, J., eds",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌镰翅鸡-23a169af",
+      "subject": "乌镰翅鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-乌镰翅鸡-23a169af",
+      "subject": "乌镰翅鸡",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Sooty grouse are experiencing some population decline from habitat loss at the southern end of their range in southern California. The status of the Sooty Grouse is now classified as at risk",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

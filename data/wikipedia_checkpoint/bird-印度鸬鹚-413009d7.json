@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:35:09",
+  "requested_title": "Indian Cormorant",
+  "resolved_title": "Indian cormorant",
+  "title_aliases": [
+    "Indian Cormorant"
+  ],
+  "bird_id": "bird-印度鸬鹚-413009d7",
+  "raw_file": "bird-印度鸬鹚-413009d7.json",
+  "bird": {
+    "id": "bird-印度鸬鹚-413009d7",
+    "name": "印度鸬鹚",
+    "english_name": "Indian cormorant",
+    "latin_name": "Phalacrocorax fuscicollis",
+    "summary": "印度鸬鹚（学名：Phalacrocorax fuscicollis）一种分布于南亚和东南亚等地区的大型水鸟，属于鸬鹚科鸬鹚属。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Indian_cormorant1_bySaptarshiGayen.jpg/960px-Indian_cormorant1_bySaptarshiGayen.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-印度鸬鹚-413009d7",
+      "subject": "印度鸬鹚",
+      "predicate": "lives_in",
+      "object_id": "hab-coastal-wetland",
+      "object": "海岸湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also occurs in estuaries and mangroves but not on the open coast",
+      "object_summary": "海湾、泻湖、盐沼与河口组成的复合湿地。"
+    },
+    {
+      "subject_id": "bird-印度鸬鹚-413009d7",
+      "subject": "印度鸬鹚",
+      "predicate": "lives_in",
+      "object_id": "hab-estuary",
+      "object": "河口",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also occurs in estuaries and mangroves but not on the open coast",
+      "object_summary": "淡水与海水交汇形成的高生产力边缘生态系统。"
+    },
+    {
+      "subject_id": "bird-印度鸬鹚-413009d7",
+      "subject": "印度鸬鹚",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

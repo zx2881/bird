@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T21:30:07",
+  "requested_title": "Rufous Coucal",
+  "resolved_title": "Rufous coucal",
+  "title_aliases": [
+    "Rufous Coucal"
+  ],
+  "bird_id": "bird-rufous-coucal-8e7c6d71",
+  "raw_file": "bird-rufous-coucal-8e7c6d71.json",
+  "bird": {
+    "id": "bird-rufous-coucal-8e7c6d71",
+    "name": "Rufous coucal",
+    "english_name": "Rufous coucal",
+    "latin_name": "Centropus unirufus",
+    "summary": "The rufous coucal (Centropus unirufus) is a species of cuckoo in the family Cuculidae. It is found in Luzon and proximate islands in the Ph…",
+    "lat": "17.30805556",
+    "lng": "122.08611111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Rufous_Coucal.jpg/960px-Rufous_Coucal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-呂宋-58363350",
+      "name": "呂宋",
+      "summary": "Luzon ( loo-ZON, Tagalog: [luˈson]) is the largest and most populous island in the Philippines.",
+      "lat": "16",
+      "lng": "121"
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "name": "Northern Sierra Madre Natural Park",
+      "summary": "The Northern Sierra Madre Natural Park is the largest protected area of the Philippines covering the northern range of…",
+      "lat": "17.30805556",
+      "lng": "122.08611111"
+    },
+    {
+      "id": "loc-bataan-national-park-b6a954a6",
+      "name": "Bataan National Park",
+      "summary": "Bataan National Park is a protected area of the Philippines located in the mountainous interior of Bataan province in t…",
+      "lat": "14.65",
+      "lng": "120.6"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-coucal-8e7c6d71",
+      "subject": "Rufous coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-呂宋-58363350",
+      "object": "呂宋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Luzon and proximate islands in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-coucal-8e7c6d71",
+      "subject": "Rufous coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Luzon and proximate islands in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-coucal-8e7c6d71",
+      "subject": "Rufous coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "object": "Northern Sierra Madre Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There are no known targeted conservation actions for this bird, but it will indirectly benefit from the conservation of other North Luzon species like the Critically Endangered Isabela oriole. It occurs in a few protected areas such as Northern Sierra Madre Natural Park and Bataan National Park but despite this legal protection, enforcement is lax and these areas continue to be deforested",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-coucal-8e7c6d71",
+      "subject": "Rufous coucal",
+      "predicate": "distributed_in",
+      "object_id": "loc-bataan-national-park-b6a954a6",
+      "object": "Bataan National Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There are no known targeted conservation actions for this bird, but it will indirectly benefit from the conservation of other North Luzon species like the Critically Endangered Isabela oriole. It occurs in a few protected areas such as Northern Sierra Madre Natural Park and Bataan National Park but despite this legal protection, enforcement is lax and these areas continue to be deforested",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-coucal-8e7c6d71",
+      "subject": "Rufous coucal",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-rufous-coucal-8e7c6d71",
+      "subject": "Rufous coucal",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-rufous-coucal-8e7c6d71",
+      "subject": "Rufous coucal",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its threats are mainly habitat loss due to deforestation for lumber, mining and farmlands",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

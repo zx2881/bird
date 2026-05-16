@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:52:34",
+  "requested_title": "Edible-nest Swiftlet",
+  "resolved_title": "Edible-nest swiftlet",
+  "title_aliases": [
+    "Edible-nest Swiftlet"
+  ],
+  "bird_id": "bird-爪哇金丝燕-82cd9cab",
+  "raw_file": "bird-爪哇金丝燕-82cd9cab.json",
+  "bird": {
+    "id": "bird-爪哇金丝燕-82cd9cab",
+    "name": "爪哇金丝燕",
+    "english_name": "Edible-nest swiftlet",
+    "latin_name": "Aerodramus fuciphagus",
+    "summary": "爪哇金丝燕，学名Aerodramus fuciphagus，雨燕目雨燕科的一种。 分布区域 爪哇金丝燕分布於东南亚沿海地區，安達曼群島，印尼島嶼，以及中國海南島等地。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Apodidae_-_Aerodramus_fuciphagus_%28Edible-nest_swiftlet%29.JPG/960px-Apodidae_-_Aerodramus_fuciphagus_%28Edible-nest_swiftlet%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-爪哇金丝燕-82cd9cab",
+      "subject": "爪哇金丝燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The edible-nest swiftlet (Aerodramus fuciphagus), also known as the white-nest swiftlet, is a small bird of the swift family which is found in Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-爪哇金丝燕-82cd9cab",
+      "subject": "爪哇金丝燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:55:08",
+  "requested_title": "Tuxtla Quail-Dove",
+  "resolved_title": "Tuxtla quail-dove",
+  "title_aliases": [
+    "Tuxtla Quail-Dove"
+  ],
+  "bird_id": "bird-tuxtla-quail-dove-2a49d034",
+  "raw_file": "bird-tuxtla-quail-dove-2a49d034.json",
+  "bird": {
+    "id": "bird-tuxtla-quail-dove-2a49d034",
+    "name": "Tuxtla quail-dove",
+    "english_name": "Tuxtla quail-dove",
+    "latin_name": "Zentrygon carrikeri",
+    "summary": "The Tuxtla quail-dove or Veracruz quail-dove (Zentrygon carrikeri) is a species of bird in the family Columbidae. It is endemic to southeas…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Zentrygon_carrikeri_23553198.jpg/960px-Zentrygon_carrikeri_23553198.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tuxtla-quail-dove-2a49d034",
+      "subject": "Tuxtla quail-dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid evergreen forest and cloudforest at elevations between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tuxtla-quail-dove-2a49d034",
+      "subject": "Tuxtla quail-dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid evergreen forest and cloudforest at elevations between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tuxtla-quail-dove-2a49d034",
+      "subject": "Tuxtla quail-dove",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-tuxtla-quail-dove-2a49d034",
+      "subject": "Tuxtla quail-dove",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The IUCN has assessed the Tuxtla quail-dove as Endangered due to its very small and fragmented range that has undergone almost complete deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

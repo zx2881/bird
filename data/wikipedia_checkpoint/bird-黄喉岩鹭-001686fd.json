@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:58:03",
+  "requested_title": "Western Reef Heron",
+  "resolved_title": "Western reef heron",
+  "title_aliases": [
+    "Western Reef Heron"
+  ],
+  "bird_id": "bird-黄喉岩鹭-001686fd",
+  "raw_file": "bird-黄喉岩鹭-001686fd.json",
+  "bird": {
+    "id": "bird-黄喉岩鹭-001686fd",
+    "name": "黄喉岩鹭",
+    "english_name": "Western reef heron",
+    "latin_name": "Egretta gularis",
+    "summary": "黄喉岩鷺（學名：Egretta gularis）是一种中型个頭的鷺，分布在歐洲南部，非洲和亞洲部分地區。它主要生活在沿海，有兩種形式的羽毛，一种是石板灰色，另一种是白色，和小白鷺很像，只是它的喙更黯淡和大一些。除了羽毛顏色外，其大小、结構和覓食行為均有差異。 参考文献",
+    "lat": "7",
+    "lng": "81",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Western_reef_egret_%28Egretta_gularis_schistacea%29_dark_morph.jpg/960px-Western_reef_egret_%28Egretta_gularis_schistacea%29_dark_morph.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-斯里蘭卡-b7d5c4b5",
+      "name": "斯里蘭卡",
+      "summary": "斯里兰卡民主社会主义共和国（僧伽羅語：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；坦米爾語：இலங்கை சனநாயக சோஷலிசக் குடியரசு；英語：Democratic Social…",
+      "lat": "7",
+      "lng": "81"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄喉岩鹭-001686fd",
+      "subject": "黄喉岩鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯里蘭卡-b7d5c4b5",
+      "object": "斯里蘭卡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in the Lakshadweep Islands and Sri Lanka where breeding was once recorded at Chilaw. The nominate subspecies breeds in west Africa from Mauritania to Gabon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄喉岩鹭-001686fd",
+      "subject": "黄喉岩鹭",
+      "predicate": "lives_in",
+      "object_id": "hab-coastal-wetland",
+      "object": "海岸湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In coastal areas, they regularly feed on mudskippers. Laboratory studies show them to be capable of making corrections for refractions but the probability of missing increases when they are forced to strike at prey at very acute angles to the water surface. Like other herons and egrets they have few vocalizations, making a low kwok or grating sounds when disturbed or near the nest. The western reef heron's breeding habitat is coastal wetlands",
+      "object_summary": "海湾、泻湖、盐沼与河口组成的复合湿地。"
+    },
+    {
+      "subject_id": "bird-黄喉岩鹭-001686fd",
+      "subject": "黄喉岩鹭",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In coastal areas, they regularly feed on mudskippers. Laboratory studies show them to be capable of making corrections for refractions but the probability of missing increases when they are forced to strike at prey at very acute angles to the water surface. Like other herons and egrets they have few vocalizations, making a low kwok or grating sounds when disturbed or near the nest. The western reef heron's breeding habitat is coastal wetlands",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-黄喉岩鹭-001686fd",
+      "subject": "黄喉岩鹭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:27:05",
+  "requested_title": "Lewin's Rail",
+  "resolved_title": "Lewin's rail",
+  "title_aliases": [
+    "Lewin's Rail"
+  ],
+  "bird_id": "bird-灰胸紋秧雞-5b61544f",
+  "raw_file": "bird-灰胸紋秧雞-5b61544f.json",
+  "bird": {
+    "id": "bird-灰胸紋秧雞-5b61544f",
+    "name": "灰胸紋秧雞",
+    "english_name": "Lewin's rail",
+    "latin_name": "Lewinia pectoralis",
+    "summary": "卢氏秧鸡（台湾作灰胸紋秧雞，学名：Lewinia pectoralis），是鹤形目秧鸡科的一种鸟类。 卢氏秧鸡体重约78.05克，翼长约93.8毫米，嘴峰长约30.1毫米，喙宽度约3.3毫米，喙厚度约5.2毫米，跗蹠长约29.2毫米，尾长约41毫米。卢氏秧鸡在其分布区内为留鸟，…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Lewins_Rail_in_Botany_Bay%2C_2023.jpg/960px-Lewins_Rail_in_Botany_Bay%2C_2023.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰胸紋秧雞-5b61544f",
+      "subject": "灰胸紋秧雞",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Australia, Wallacea, and New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰胸紋秧雞-5b61544f",
+      "subject": "灰胸紋秧雞",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Australia, Wallacea, and New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰胸紋秧雞-5b61544f",
+      "subject": "灰胸紋秧雞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

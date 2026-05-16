@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:48:12",
+  "requested_title": "Ainley's Storm Petrel",
+  "resolved_title": "Ainley's storm petrel",
+  "title_aliases": [
+    "Ainley's Storm Petrel"
+  ],
+  "bird_id": "bird-ainley-s-storm-petrel-72f9e759",
+  "raw_file": "bird-ainley-s-storm-petrel-72f9e759.json",
+  "bird": {
+    "id": "bird-ainley-s-storm-petrel-72f9e759",
+    "name": "Ainley's storm petrel",
+    "english_name": "Ainley's storm petrel",
+    "latin_name": "Hydrobates cheimomnestes",
+    "summary": "Ainley's storm petrel (Hydrobates cheimomnestes) is a species of seabird in the family Hydrobatidae. It breeds in the winter on Guadalupe I…",
+    "lat": "29.03083333",
+    "lng": "-118.28",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Oceanodroma_cheimomnestes_dist.png/960px-Oceanodroma_cheimomnestes_dist.png"
+  },
+  "locations": [
+    {
+      "id": "loc-瓜达卢佩岛-bed97693",
+      "name": "瓜达卢佩岛",
+      "summary": "瓜達盧普島（西班牙语：Isla Guadalupe）是墨西哥的島嶼，位於恩森那達西南約400公里的太平洋海域，由下加利福尼亞州負責管轄，長35公里、寬9.5公里，面積244平方公里，最高點海拔高度1,298米，2008年人口僅15。 外部…",
+      "lat": "29.03083333",
+      "lng": "-118.28"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ainley-s-storm-petrel-72f9e759",
+      "subject": "Ainley's storm petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓜达卢佩岛-bed97693",
+      "object": "瓜达卢佩岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the winter on Guadalupe Island off the western coast of Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ainley-s-storm-petrel-72f9e759",
+      "subject": "Ainley's storm petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the winter on Guadalupe Island off the western coast of Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ainley-s-storm-petrel-72f9e759",
+      "subject": "Ainley's storm petrel",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:54:07",
+  "requested_title": "Grey Petrel",
+  "resolved_title": "Grey petrel",
+  "title_aliases": [
+    "Grey Petrel"
+  ],
+  "bird_id": "bird-grey-petrel-8b29eb40",
+  "raw_file": "bird-grey-petrel-8b29eb40.json",
+  "bird": {
+    "id": "bird-grey-petrel-8b29eb40",
+    "name": "Grey petrel",
+    "english_name": "Grey petrel",
+    "latin_name": "Procellaria cinerea",
+    "summary": "The grey petrel (Procellaria cinerea), also called the gray petrel, brown petrel, pediunker or grey shearwater, is a species of seabird in…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Procellaria_cinerea_-_SE_Tasmania.jpg/960px-Procellaria_cinerea_-_SE_Tasmania.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南半球-461a2738",
+      "name": "南半球",
+      "summary": "南半球（英語：Southern Hemisphere）是指地球赤道以南的半球。南半球表面有80.9%是水，佔地球的57.1%；19.1%是陸地，佔地球的32.7%。 南半球包含了地球的五大洲：亚洲印度尼西亞南部、非洲中部及南部、大洋洲絕大…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-petrel-8b29eb40",
+      "subject": "Grey petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-南半球-461a2738",
+      "object": "南半球",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is pelagic and occurs in the open seas of the Southern Hemisphere, mainly between 32°S and 58°S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-petrel-8b29eb40",
+      "subject": "Grey petrel",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-grey-petrel-8b29eb40",
+      "subject": "Grey petrel",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Introduced predators such as cats, brown rats and black rats are contributing to the decline, as is longline fishing",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

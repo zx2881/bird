@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:26:17",
+  "requested_title": "Red Junglefowl",
+  "resolved_title": "Red junglefowl",
+  "title_aliases": [
+    "Red Junglefowl"
+  ],
+  "bird_id": "bird-原雞-8bdc4069",
+  "raw_file": "bird-原雞-8bdc4069.json",
+  "bird": {
+    "id": "bird-原雞-8bdc4069",
+    "name": "原雞",
+    "english_name": "Red junglefowl",
+    "latin_name": "Gallus gallus",
+    "summary": "原雞（学名：Gallus gallus）为雞形目雉科原鸡属的鸟类，又名紅原雞、茶花雞、烛夜，現代被驯化的家雞就是源于古代原鸡。分布于中南半岛、印度、南抵印度尼西亚以及中国大陆的云南、广西、海南等地，主要生活于热带林区、板栗林、次生林、阔叶混交林、稀疏林以及灌木林。该物种的模式产…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Red_jungle_fowl.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南亚-1fa6ecaf",
+      "name": "南亚",
+      "summary": "南亚（英語：South Asia）是術語，以替換百年老詞「印度次大陸」，這老詞用來代表亞洲大陸的南部地區，主要是位於印度板塊和向南投射到印度洋的地方，當中包括8個主權國家：印度、巴基斯坦、孟加拉、斯里蘭卡、馬爾代夫、不丹、尼泊爾、阿富汗（…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-原雞-8bdc4069",
+      "subject": "原雞",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| range_map_caption = Distribution of the four species of genus Gallus (red junglefowl in light brown) | synonyms = Phasianus gallus }} The red junglefowl (Gallus gallus), also known as the Indian red junglefowl (and formerly the bankiva or bankiva-fowl), is a species of tropical, galliform bird in the phasianid family, found across much of Southeast and parts of South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-原雞-8bdc4069",
+      "subject": "原雞",
+      "predicate": "distributed_in",
+      "object_id": "loc-南亚-1fa6ecaf",
+      "object": "南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| range_map_caption = Distribution of the four species of genus Gallus (red junglefowl in light brown) | synonyms = Phasianus gallus }} The red junglefowl (Gallus gallus), also known as the Indian red junglefowl (and formerly the bankiva or bankiva-fowl), is a species of tropical, galliform bird in the phasianid family, found across much of Southeast and parts of South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-原雞-8bdc4069",
+      "subject": "原雞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-原雞-8bdc4069",
+      "subject": "原雞",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In addition, habitat loss due to deforestation and urbanisation has contributed to population declines in certain regions",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-原雞-8bdc4069",
+      "subject": "原雞",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In addition, habitat loss due to deforestation and urbanisation has contributed to population declines in certain regions",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-原雞-8bdc4069",
+      "subject": "原雞",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Hunting for food and the pet trade also pose threats to local populations, particularly in areas where the species is not legally protected.{{Citation|title=Gautier, Z",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

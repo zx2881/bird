@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:21:04",
+  "requested_title": "Mangrove Rail",
+  "resolved_title": "Mangrove rail",
+  "title_aliases": [
+    "Mangrove Rail"
+  ],
+  "bird_id": "bird-mangrove-rail-b3bca576",
+  "raw_file": "bird-mangrove-rail-b3bca576.json",
+  "bird": {
+    "id": "bird-mangrove-rail-b3bca576",
+    "name": "Mangrove rail",
+    "english_name": "Mangrove rail",
+    "latin_name": "Rallus longirostris",
+    "summary": "The mangrove rail (Rallus longirostris) is a species of bird in subfamily Rallinae of family Rallidae, the rails, gallinules, and coots. It…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Rallus_longirostris_-_David_F._Belmonte_-_255792941_%28cropped%29.jpeg/960px-Rallus_longirostris_-_David_F._Belmonte_-_255792941_%28cropped%29.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mangrove-rail-b3bca576",
+      "subject": "Mangrove rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Central and South America.{{cite web |url=https://www.worldbirdnames.org/bow/flufftails/ |title=Finfoots, flufftails, rails, trumpeters, cranes, Limpkin |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-rail-b3bca576",
+      "subject": "Mangrove rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Central and South America.{{cite web |url=https://www.worldbirdnames.org/bow/flufftails/ |title=Finfoots, flufftails, rails, trumpeters, cranes, Limpkin |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-rail-b3bca576",
+      "subject": "Mangrove rail",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits coastal mangrove swamps and brackish and salt marshes",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-mangrove-rail-b3bca576",
+      "subject": "Mangrove rail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

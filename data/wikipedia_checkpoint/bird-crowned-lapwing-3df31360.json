@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:06:18",
+  "requested_title": "Crowned Lapwing",
+  "resolved_title": "Crowned lapwing",
+  "title_aliases": [
+    "Crowned Lapwing"
+  ],
+  "bird_id": "bird-crowned-lapwing-3df31360",
+  "raw_file": "bird-crowned-lapwing-3df31360.json",
+  "bird": {
+    "id": "bird-crowned-lapwing-3df31360",
+    "name": "Crowned lapwing",
+    "english_name": "Crowned lapwing",
+    "latin_name": "Vanellus coronatus",
+    "summary": "The crowned lapwing (Vanellus coronatus), or crowned plover, is a bird of the lapwing subfamily that occurs contiguously from the Red Sea c…",
+    "lat": "-23",
+    "lng": "22",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Avefr%C3%ADa_coronada_%28Vanellus_coronatus%29%2C_Santuario_de_Rinocerontes_Khama%2C_Botsuana%2C_2018-08-02%2C_DD_22.jpg/960px-Avefr%C3%ADa_coronada_%28Vanellus_coronatus%29%2C_Santuario_de_Rinocerontes_Khama%2C_Botsuana%2C_2018-08-02%2C_DD_22.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喀拉哈里沙漠-4ad92d7f",
+      "name": "喀拉哈里沙漠",
+      "summary": "卡拉哈里沙漠（英语：Kalahari Desert）是非洲南部的一大平原沙漠。沙漠本身处于同名的卡拉哈里盆地中央。覆盖总面积约900,000平方公里。覆盖波札那中南部，奧卡萬戈三角洲南面，馬卡迪卡迪鹽沼南、纳米比亚东南和南非共和国北开普省…",
+      "lat": "-23",
+      "lng": "22"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-crowned-lapwing-3df31360",
+      "subject": "Crowned lapwing",
+      "predicate": "distributed_in",
+      "object_id": "loc-喀拉哈里沙漠-4ad92d7f",
+      "object": "喀拉哈里沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In southern Africa their highest concentrations are to be found in the dry central Kalahari region",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crowned-lapwing-3df31360",
+      "subject": "Crowned lapwing",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

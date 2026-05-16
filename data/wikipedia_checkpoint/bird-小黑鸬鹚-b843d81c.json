@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:35:13",
+  "requested_title": "Little Black Cormorant",
+  "resolved_title": "Little black cormorant",
+  "title_aliases": [
+    "Little Black Cormorant"
+  ],
+  "bird_id": "bird-小黑鸬鹚-b843d81c",
+  "raw_file": "bird-小黑鸬鹚-b843d81c.json",
+  "bird": {
+    "id": "bird-小黑鸬鹚-b843d81c",
+    "name": "小黑鸬鹚",
+    "english_name": "Little black cormorant",
+    "latin_name": "Phalacrocorax sulcirostris",
+    "summary": "小黑鸬鹚（学名：Phalacrocorax sulcirostris）是一种分布于澳大利亚和新西兰北部的鸟类，属于鸬鹚科鸬鹚属。体长约六十厘米，通体黑色，眼睛呈蓝绿色。 该物种是单型物种，没有亚种分化，2019年的一项分子系统学研究显示，小黑鸬鹚是印度鸬鹚的姊妹物种，二者约在2…",
+    "lat": "-9.65",
+    "lng": "150.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Little_Black_Cormorant_%2832295396655%29.jpg/960px-Little_Black_Cormorant_%2832295396655%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-當特爾卡斯托群島-7df5735d",
+      "name": "當特爾卡斯托群島",
+      "summary": "當特爾卡斯托群島（英語：D'Entrecasteaux Islands）是巴布亞新幾內亞東端的群島，位於米爾恩灣省，群島延伸160公里，土地面積約3,100平方公里，與巴布亞新幾內亞大陸相隔，包括古迪納夫島（Goodenough）、弗格森…",
+      "lat": "-9.65",
+      "lng": "150.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小黑鸬鹚-b843d81c",
+      "subject": "小黑鸬鹚",
+      "predicate": "distributed_in",
+      "object_id": "loc-當特爾卡斯托群島-7df5735d",
+      "object": "當特爾卡斯托群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The little black cormorant ranges from the Malay Peninsula through Indonesia (but excluding Sumatra) and New Guinea (including the D'Entrecasteaux Islands) and throughout Australia. It is found in New Zealand's North Island. It is a predominantly freshwater species, found in bodies of water inland and occasionally sheltered coastal areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小黑鸬鹚-b843d81c",
+      "subject": "小黑鸬鹚",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

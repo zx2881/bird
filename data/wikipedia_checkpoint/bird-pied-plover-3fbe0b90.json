@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T16:58:23",
+  "requested_title": "Pied Plover",
+  "resolved_title": "Pied plover",
+  "title_aliases": [
+    "Pied Plover"
+  ],
+  "bird_id": "bird-pied-plover-3fbe0b90",
+  "raw_file": "bird-pied-plover-3fbe0b90.json",
+  "bird": {
+    "id": "bird-pied-plover-3fbe0b90",
+    "name": "Pied plover",
+    "english_name": "Pied plover",
+    "latin_name": "Hoploxypterus cayanus",
+    "summary": "The pied plover (Hoploxypterus cayanus), also known as the pied lapwing, is a species of bird in the family Charadriidae. It is a bird of l…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/BK3U7978.jpg/960px-BK3U7978.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-國際自然保護聯盟-2992ef64",
+      "name": "國際自然保護聯盟",
+      "summary": "國際自然與自然資源保護聯盟（英語：International Union for Conservation of Nature and Natural Resources），通稱為國際自然保護聯盟（英語：International Uni…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pied-plover-3fbe0b90",
+      "subject": "Pied plover",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟-2992ef64",
+      "object": "國際自然保護聯盟",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a bird of least concern according to the IUCN and can be found in northern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-plover-3fbe0b90",
+      "subject": "Pied plover",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

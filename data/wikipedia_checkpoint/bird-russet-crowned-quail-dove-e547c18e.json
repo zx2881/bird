@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:56:10",
+  "requested_title": "Russet-crowned Quail-Dove",
+  "resolved_title": "Russet-crowned quail-dove",
+  "title_aliases": [
+    "Russet-crowned Quail-Dove"
+  ],
+  "bird_id": "bird-russet-crowned-quail-dove-e547c18e",
+  "raw_file": "bird-russet-crowned-quail-dove-e547c18e.json",
+  "bird": {
+    "id": "bird-russet-crowned-quail-dove-e547c18e",
+    "name": "Russet-crowned quail-dove",
+    "english_name": "Russet-crowned quail-dove",
+    "latin_name": "Zentrygon goldmani",
+    "summary": "The russet-crowned quail-dove (Zentrygon goldmani) is a species of bird in the family Columbidae. It is found in Panama and far northwester…",
+    "lat": "9",
+    "lng": "-80",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Zentrygon_goldmani_254392185.jpg/960px-Zentrygon_goldmani_254392185.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-russet-crowned-quail-dove-e547c18e",
+      "subject": "Russet-crowned quail-dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Panama and far northwestern Colombia.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-russet-crowned-quail-dove-e547c18e",
+      "subject": "Russet-crowned quail-dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Panama and far northwestern Colombia.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-russet-crowned-quail-dove-e547c18e",
+      "subject": "Russet-crowned quail-dove",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-russet-crowned-quail-dove-e547c18e",
+      "subject": "Russet-crowned quail-dove",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It has a small range and its population has declined due to habitat loss. \"[E]xtensive research [is] required, as well as surveys in order to establish [its] population size and trends.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

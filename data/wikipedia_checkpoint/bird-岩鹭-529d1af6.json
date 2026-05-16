@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:57:10",
+  "requested_title": "Pacific Reef Heron",
+  "resolved_title": "Pacific reef heron",
+  "title_aliases": [
+    "Pacific Reef Heron"
+  ],
+  "bird_id": "bird-岩鹭-529d1af6",
+  "raw_file": "bird-岩鹭-529d1af6.json",
+  "bird": {
+    "id": "bird-岩鹭-529d1af6",
+    "name": "岩鹭",
+    "english_name": "Pacific reef heron",
+    "latin_name": "Egretta sacra",
+    "summary": "岩鹭（学名：Egretta sacra）为鹭科白鹭属的鸟类。是一種分布於南部亞洲和大洋洲的鷺。它有兩種顏色型態，分別是板岩灰或純白色羽毛。雌雄外觀相似。 分類 岩鷺在1789年由德國自然學家約翰·弗里德里希·格梅林正式描述，他在卡爾·林奈的《自然系統》修訂和擴展版中介紹了這個物…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Egretta_sacra.jpg/960px-Egretta_sacra.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-托雷斯海峽群島-c60dd266",
+      "name": "托雷斯海峽群島",
+      "summary": "托雷斯海峽群島是澳大利亞昆士蘭州的群島，位於約克角半島和新畿內亞之間的托雷斯海峽，由超過274座島嶼組成，總土地面積566平方公里，其中217平方公里为農業用地。2016年，人口4514。首府星期四岛。 参考文献 外部連結 Torres…",
+      "lat": "-10.579",
+      "lng": "142.22"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-岩鹭-529d1af6",
+      "subject": "岩鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Australia, Pacific reef herons inhabits most of the coastline, and offshore islands including the Torres Strait Islands.{{cite journal |last1=Lavery |first1=Tyrone H",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-岩鹭-529d1af6",
+      "subject": "岩鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-托雷斯海峽群島-c60dd266",
+      "object": "托雷斯海峽群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Australia, Pacific reef herons inhabits most of the coastline, and offshore islands including the Torres Strait Islands.{{cite journal |last1=Lavery |first1=Tyrone H",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-岩鹭-529d1af6",
+      "subject": "岩鹭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

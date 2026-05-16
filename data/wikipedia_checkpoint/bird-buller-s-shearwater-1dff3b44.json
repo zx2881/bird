@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:56:12",
+  "requested_title": "Buller's Shearwater",
+  "resolved_title": "Buller's shearwater",
+  "title_aliases": [
+    "Buller's Shearwater"
+  ],
+  "bird_id": "bird-buller-s-shearwater-1dff3b44",
+  "raw_file": "bird-buller-s-shearwater-1dff3b44.json",
+  "bird": {
+    "id": "bird-buller-s-shearwater-1dff3b44",
+    "name": "Buller's shearwater",
+    "english_name": "Buller's shearwater",
+    "latin_name": "Ardenna bulleri",
+    "summary": "Buller's shearwater (Ardenna bulleri) is a Pacific species of seabird in the family Procellariidae; it is also known as the grey-backed she…",
+    "lat": "57",
+    "lng": "160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Buller%27s_Shearwater_0A2A8858.jpg/960px-Buller%27s_Shearwater_0A2A8858.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-堪察加半島-6a0bad85",
+      "name": "堪察加半島",
+      "summary": "堪察加半島（俄語：Полуостров Камчатка，羅馬化：Poluostrov Kamchatka），清朝稱甘查甲、岡扎德加，是位于东北亚的一个半岛，由俄羅斯遠東聯邦管區堪察加邊疆區管辖。堪察加半岛長1,250公里，面积37万平方…",
+      "lat": "57",
+      "lng": "160"
+    },
+    {
+      "id": "loc-波利尼西亚三角-fe6ec30d",
+      "name": "波利尼西亚三角",
+      "summary": "波利尼西亚三角（英語：Polynesian Triangle）是太平洋的一个区域，它的三个顶点分别是：夏威夷、复活节岛和新西兰。波利尼西亚三角通常被用作定义波利尼西亚的简单方法。 在波利尼西亚三角之外，波利尼西亚人的定居痕迹延伸至北方的内…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-buller-s-shearwater-1dff3b44",
+      "subject": "Buller's shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-堪察加半島-6a0bad85",
+      "object": "堪察加半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Though it occurs in the subarctic waters off Kamchatka and the Aleutian Islands, it is not documented in the subantarctic Pacific; this apparent absence might simply be due to the lack of study opportunities in the vast islandless region south of the Polynesian Triangle, however",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buller-s-shearwater-1dff3b44",
+      "subject": "Buller's shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-波利尼西亚三角-fe6ec30d",
+      "object": "波利尼西亚三角",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Though it occurs in the subarctic waters off Kamchatka and the Aleutian Islands, it is not documented in the subantarctic Pacific; this apparent absence might simply be due to the lack of study opportunities in the vast islandless region south of the Polynesian Triangle, however",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buller-s-shearwater-1dff3b44",
+      "subject": "Buller's shearwater",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "| title = Handbook of Australian, New Zealand and Antarctic birds | publisher = Oxford University Press (Melbourne and New York) | year = 1990 | isbn = 0-19-553068-3 }} Buller's shearwater can also be found to breed in cracked-up rock on treeless stacks or cliffs, however, and most of the other colonies &ndash; on the smaller Poor Knights islands between the main islands and off the southeast of Aorangi &ndash; are of such a nature",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-buller-s-shearwater-1dff3b44",
+      "subject": "Buller's shearwater",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

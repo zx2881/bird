@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T15:46:14",
+  "requested_title": "Jambu Fruit Dove",
+  "resolved_title": "Jambu fruit dove",
+  "title_aliases": [
+    "Jambu Fruit Dove"
+  ],
+  "bird_id": "bird-粉頭果鳩-d7b32138",
+  "raw_file": "bird-粉頭果鳩-d7b32138.json",
+  "bird": {
+    "id": "bird-粉頭果鳩-d7b32138",
+    "name": "粉頭果鳩",
+    "english_name": "Jambu fruit dove",
+    "latin_name": "Ramphiculus jambu",
+    "summary": "粉頭果鳩（學名：Ptilinopus jambu、英語：Jambu Fruit Dove）是一種小型及色彩鮮豔的果鳩，屬於留鳥，分布於泰國南部、馬來西亞、印尼的加里曼丹、蘇門答臘、爪哇等島、新加坡及汶萊。 型態 粉頭果鳩約長23-27公分、重約40公克。其顏色特別鮮豔，眼睛周圍…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/0A2A4256_Jambu_Fruit-Dove.jpg/960px-0A2A4256_Jambu_Fruit-Dove.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-粉頭果鳩-d7b32138",
+      "subject": "粉頭果鳩",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits mangrove swamps and lowland rain forests up to and is also found in secondary woodland.{{ cite book | last1=Baptista | first1=L.F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-粉頭果鳩-d7b32138",
+      "subject": "粉頭果鳩",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits mangrove swamps and lowland rain forests up to and is also found in secondary woodland.{{ cite book | last1=Baptista | first1=L.F",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-粉頭果鳩-d7b32138",
+      "subject": "粉頭果鳩",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-粉頭果鳩-d7b32138",
+      "subject": "粉頭果鳩",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Extensive deforestation in Indonesia and Malaysia means that this dove is now threatened, although its ability to live in second growth and at higher elevation means that its situation is not as critical as that of some forest bird species",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

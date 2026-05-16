@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:52:10",
+  "requested_title": "Polynesian Swiftlet",
+  "resolved_title": "Tahiti swiftlet",
+  "title_aliases": [
+    "Polynesian Swiftlet",
+    "Tahiti swiftlet"
+  ],
+  "bird_id": "bird-塔岛金丝燕-98c13b00",
+  "raw_file": "bird-塔岛金丝燕-98c13b00.json",
+  "bird": {
+    "id": "bird-塔岛金丝燕-98c13b00",
+    "name": "塔岛金丝燕",
+    "english_name": "Tahiti swiftlet",
+    "latin_name": "Aerodramus leucophaeus",
+    "summary": "塔岛金丝燕（学名：Aerodramus leucophaeus）是雨燕科的一种金丝燕，是社会群岛和法属玻利尼西亚的特有种，分布于塔希提和莫雷阿岛。性喜高海拔地区的湿润、多岩和林木茂盛的山谷，常筑巢于悬石下、近海悬崖下或岩洞里的阴凉地带。 参考文献 外部链接 BirdLife S…",
+    "lat": "-8.9",
+    "lng": "-139.6",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Aerodramus_leucophaeus_-_Cricket_Raspet_-_488421557.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-馬克薩斯群島-a6d9b6f4",
+      "name": "馬克薩斯群島",
+      "summary": "馬克薩斯群島（法語：Îles Marquises，發音：[il maʁkiz]；英語：Marquesas Islands，/mɑːrˈkeɪsəs/ mar-KAY-səss；也译作馬貴斯群島）是法屬玻里尼西亞一部分，人口有8,000餘人…",
+      "lat": "-8.9",
+      "lng": "-139.6"
+    },
+    {
+      "id": "loc-法屬玻里尼西亞-bef4bb40",
+      "name": "法屬玻里尼西亞",
+      "summary": "法屬玻里尼西亞（法語：Polynésie française，發音：[pɔlinezi fʁɑ̃sɛz] ；塔西提语：Pōrīnetia Farāni）是法國在南太平洋的海外集體，由幾組玻里尼西亞群島組成，包括：馬克薩斯群島、社會群島、土…",
+      "lat": "-17.53333333",
+      "lng": "-149.56666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-塔岛金丝燕-98c13b00",
+      "subject": "塔岛金丝燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-馬克薩斯群島-a6d9b6f4",
+      "object": "馬克薩斯群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Nests were found in Marquesas. Marquesa is a volcanic island located in French Polynesia. The climate of the Society Islands is hot and humid between the months of November and April, but cool and dry through the remaining months of the year. The island of Moorea consists of jagged peaks and includes a large mountain range made up of ancient volcanoes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-塔岛金丝燕-98c13b00",
+      "subject": "塔岛金丝燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-法屬玻里尼西亞-bef4bb40",
+      "object": "法屬玻里尼西亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Nests were found in Marquesas. Marquesa is a volcanic island located in French Polynesia. The climate of the Society Islands is hot and humid between the months of November and April, but cool and dry through the remaining months of the year. The island of Moorea consists of jagged peaks and includes a large mountain range made up of ancient volcanoes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-塔岛金丝燕-98c13b00",
+      "subject": "塔岛金丝燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

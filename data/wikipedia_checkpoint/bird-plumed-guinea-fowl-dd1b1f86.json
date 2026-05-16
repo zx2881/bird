@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:25:44",
+  "requested_title": "Plumed Guineafowl",
+  "resolved_title": "Plumed guinea fowl",
+  "title_aliases": [
+    "Plumed Guineafowl",
+    "Plumed guinea fowl"
+  ],
+  "bird_id": "bird-plumed-guinea-fowl-dd1b1f86",
+  "raw_file": "bird-plumed-guinea-fowl-dd1b1f86.json",
+  "bird": {
+    "id": "bird-plumed-guinea-fowl-dd1b1f86",
+    "name": "Plumed guinea fowl",
+    "english_name": "Plumed guinea fowl",
+    "latin_name": "Guttera plumifera",
+    "summary": "The plumed guinea fowl (Guttera plumifera) is a member of the guinea fowl bird family. It is found in humid primary forest in Central Afric…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Guttera_plumifera_plumifera_-_bureaubenjamin_-_206765527.jpeg/960px-Guttera_plumifera_plumifera_-_bureaubenjamin_-_206765527.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-中部非洲-3fc4fb95",
+      "name": "中部非洲",
+      "summary": "中非（英語：Central Africa）即中部非洲地区，从撒哈拉沙漠与非洲大陆西部突起部分合围，不包括非洲大峡谷西部。有時中非單指中非共和國。区內用水全赖刚果河及其支流，流域面积仅次于亚马逊河。 国家列表 聯合國中部非洲次分區（英語：U…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-plumed-guinea-fowl-dd1b1f86",
+      "subject": "Plumed guinea fowl",
+      "predicate": "distributed_in",
+      "object_id": "loc-中部非洲-3fc4fb95",
+      "object": "中部非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in humid primary forest in Central Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-plumed-guinea-fowl-dd1b1f86",
+      "subject": "Plumed guinea fowl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

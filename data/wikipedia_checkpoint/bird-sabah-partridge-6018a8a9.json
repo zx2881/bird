@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T09:57:13",
+  "requested_title": "Sabah Partridge",
+  "resolved_title": "Sabah partridge",
+  "title_aliases": [
+    "Sabah Partridge"
+  ],
+  "bird_id": "bird-sabah-partridge-6018a8a9",
+  "raw_file": "bird-sabah-partridge-6018a8a9.json",
+  "bird": {
+    "id": "bird-sabah-partridge-6018a8a9",
+    "name": "Sabah partridge",
+    "english_name": "Sabah partridge",
+    "latin_name": "Tropicoperdix graydoni",
+    "summary": "The Sabah partridge (Tropicoperdix graydoni) is a bird species in the family Phasianidae. It is found in Borneo.",
+    "lat": "0",
+    "lng": "114",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Sabah_partridge_%28Tropicoperdix_graydoni%29.jpg/960px-Sabah_partridge_%28Tropicoperdix_graydoni%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sabah-partridge-6018a8a9",
+      "subject": "Sabah partridge",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sabah-partridge-6018a8a9",
+      "subject": "Sabah partridge",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T20:34:17",
+  "requested_title": "Caucasian Snowcock",
+  "resolved_title": "Caucasian snowcock",
+  "title_aliases": [
+    "Caucasian Snowcock"
+  ],
+  "bird_id": "bird-高加索雪鸡-b18f6075",
+  "raw_file": "bird-高加索雪鸡-b18f6075.json",
+  "bird": {
+    "id": "bird-高加索雪鸡-b18f6075",
+    "name": "高加索雪鸡",
+    "english_name": "Caucasian snowcock",
+    "latin_name": "Tetraogallus caucasicus",
+    "summary": "高加索雪雞，學名Tetraogallus caucasicus，雉科雪雞屬的一種，分佈于高加索山脈，尤其是西高加索地區海拔2000-4000米的山區。它們在地面上筑巢，一次產5-6顆綠色的蛋，只有雌鳥參與孵化。非交配季節它們以小規模群居。 體長50-60釐米，羽毛的顔色包括灰色…",
+    "lat": "42.5",
+    "lng": "45",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Caucasian_Snowcock_iNaturalist.jpg/960px-Caucasian_Snowcock_iNaturalist.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-高加索山脉-7d76e4d1",
+      "name": "高加索山脉",
+      "summary": "高加索山脈（俄語：Кавказские горы，喬治亞語：კავკასიონი，亞美尼亞語：Կավկազ，阿塞拜疆語：Qafqaz），古稱太和嶺，呈东西走向，在黑海与里海之间，是俄罗斯和格鲁吉亚、阿塞拜疆等国的国界线。其最高峰为厄尔布鲁…",
+      "lat": "42.5",
+      "lng": "45"
+    },
+    {
+      "id": "loc-西高加索-0025c1ac",
+      "name": "西高加索",
+      "summary": "西高加索（英语：Western Caucasus）指黑海至厄爾布魯士峰一帶的高加索山脈西部地區，是歐洲現存唯一沒有明顯受人類影響的山區，這地區提供低地、冰川等不同的生境。1924年，蘇聯政府在克拉斯諾達爾邊疆區、阿迪格共和國和卡拉恰伊-切…",
+      "lat": "44",
+      "lng": "40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-高加索雪鸡-b18f6075",
+      "subject": "高加索雪鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-高加索山脉-7d76e4d1",
+      "object": "高加索山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Caucasus Mountains, particularly the Western Caucasus, where it breeds at altitudes from 2000 to 4000 m on bare stony mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高加索雪鸡-b18f6075",
+      "subject": "高加索雪鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-西高加索-0025c1ac",
+      "object": "西高加索",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Caucasus Mountains, particularly the Western Caucasus, where it breeds at altitudes from 2000 to 4000 m on bare stony mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高加索雪鸡-b18f6075",
+      "subject": "高加索雪鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

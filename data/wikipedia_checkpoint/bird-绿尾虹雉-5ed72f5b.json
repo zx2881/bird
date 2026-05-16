@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-15T19:54:12",
+  "requested_title": "Chinese Monal",
+  "resolved_title": "Chinese monal",
+  "title_aliases": [
+    "Chinese Monal"
+  ],
+  "bird_id": "bird-绿尾虹雉-5ed72f5b",
+  "raw_file": "bird-绿尾虹雉-5ed72f5b.json",
+  "bird": {
+    "id": "bird-绿尾虹雉-5ed72f5b",
+    "name": "绿尾虹雉",
+    "english_name": "Chinese monal",
+    "latin_name": "Lophophorus lhuysii",
+    "summary": "绿尾虹雉（學名：Lophophorus lhuysii）又名贝母鸡、鹰鸡、火炭鸡、羊鸡，是虹雉属的一种鸟类。为中国特有种。 生态环境 绿尾虹雉与其他虹雉属鸟类一样是活动于高山草甸的雉类，栖息于海拔相对较低的松林中或由高山杜鹃组成的灌丛中。",
+    "lat": "38",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chinese_Monal_%28Lophophorus_lhuysii%29%2C_Balangshan%2C_Aba%2C_Sichuan%2C_China_1.jpg/960px-Chinese_Monal_%28Lophophorus_lhuysii%29%2C_Balangshan%2C_Aba%2C_Sichuan%2C_China_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "locations": [
+    {
+      "id": "loc-albert-geoffroy-saint-hilaire-ac509cbd",
+      "name": "Albert Geoffroy Saint-Hilaire",
+      "summary": "Albert Geoffroy Saint-Hilaire (December 2, 1835 – January 30, 1919) was a French zoologist who served as a director of…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-甘肃省-c30bd5f5",
+      "name": "甘肃省",
+      "summary": "甘肃省，通称甘肃（），简称甘或陇，是中华人民共和国省份，位於中国西北地区、黄河上游，省会为兰州市，面积45万平方公里，排名第7。“甘肃”因甘州（今张掖）与肃州（今酒泉）而得名。 历史 甘肃为华夏文明的发祥地，天水的伏羲文化历史久远，被称为…",
+      "lat": "38",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-绿尾虹雉-5ed72f5b",
+      "subject": "绿尾虹雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-albert-geoffroy-saint-hilaire-ac509cbd",
+      "object": "Albert Geoffroy Saint-Hilaire",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Chinese monal or Chinese impeyan (Lophophorus lhuysii) is a species in the pheasant family Phasianidae native to west-central China, where it is restricted to the mountains of western Sichuan and southern Gansu",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿尾虹雉-5ed72f5b",
+      "subject": "绿尾虹雉",
+      "predicate": "distributed_in",
+      "object_id": "loc-甘肃省-c30bd5f5",
+      "object": "甘肃省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Chinese monal or Chinese impeyan (Lophophorus lhuysii) is a species in the pheasant family Phasianidae native to west-central China, where it is restricted to the mountains of western Sichuan and southern Gansu",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿尾虹雉-5ed72f5b",
+      "subject": "绿尾虹雉",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-绿尾虹雉-5ed72f5b",
+      "subject": "绿尾虹雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to ongoing habitat loss and degradation, limited range and illegal hunting, the Chinese monal is evaluated as vulnerable on IUCN Red List of Threatened Species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-绿尾虹雉-5ed72f5b",
+      "subject": "绿尾虹雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to ongoing habitat loss and degradation, limited range and illegal hunting, the Chinese monal is evaluated as vulnerable on IUCN Red List of Threatened Species",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    },
+    {
+      "subject_id": "bird-绿尾虹雉-5ed72f5b",
+      "subject": "绿尾虹雉",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to ongoing habitat loss and degradation, limited range and illegal hunting, the Chinese monal is evaluated as vulnerable on IUCN Red List of Threatened Species",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

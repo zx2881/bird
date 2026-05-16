@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:12:05",
+  "requested_title": "White-tailed Nightjar",
+  "resolved_title": "White-tailed nightjar",
+  "title_aliases": [
+    "White-tailed Nightjar"
+  ],
+  "bird_id": "bird-white-tailed-nightjar-f73e7eb2",
+  "raw_file": "bird-white-tailed-nightjar-f73e7eb2.json",
+  "bird": {
+    "id": "bird-white-tailed-nightjar-f73e7eb2",
+    "name": "White-tailed nightjar",
+    "english_name": "White-tailed nightjar",
+    "latin_name": "Hydropsalis cayennensis",
+    "summary": "The white-tailed nightjar (Hydropsalis cayennensis) is a species of nightjar in the family Caprimulgidae. It is found in the tropic regions…",
+    "lat": "12.27",
+    "lng": "-69.08",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Caprimulgus_cayennensis.jpg/960px-Caprimulgus_cayennensis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-abc群島-00e7abfb",
+      "name": "ABC群島",
+      "summary": "ABC群島是阿魯巴（Aruba）、博奈尔（Bonaire）和库拉索（Curaçao）三個島的簡稱，它們為加勒比地区背风安的列斯群岛中位於最西面的三個島嶼。從西至東，島嶼的排列順序分別為：阿魯巴、库拉索和博奈尔。 這三個島皆為荷兰王国的一部…",
+      "lat": "12.27",
+      "lng": "-69.08"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-tailed-nightjar-f73e7eb2",
+      "subject": "White-tailed nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-abc群島-00e7abfb",
+      "object": "ABC群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the \"ABC Islands\", Brazil, Colombia, Costa Rica, Ecuador, French Guiana, Guyana, Martinique, Panama, Suriname, Trinidad and Tobago and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-tailed-nightjar-f73e7eb2",
+      "subject": "White-tailed nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-white-tailed-nightjar-f73e7eb2",
+      "subject": "White-tailed nightjar",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No specific threats have been identified except on Martinique, where habitat destruction and introduced predators are cause for concern",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-white-tailed-nightjar-f73e7eb2",
+      "subject": "White-tailed nightjar",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No specific threats have been identified except on Martinique, where habitat destruction and introduced predators are cause for concern",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

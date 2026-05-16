@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:58:54",
+  "requested_title": "Bryan's Shearwater",
+  "resolved_title": "Bryan's shearwater",
+  "title_aliases": [
+    "Bryan's Shearwater"
+  ],
+  "bird_id": "bird-bryan-s-shearwater-93b01e22",
+  "raw_file": "bird-bryan-s-shearwater-93b01e22.json",
+  "bird": {
+    "id": "bird-bryan-s-shearwater-93b01e22",
+    "name": "Bryan's shearwater",
+    "english_name": "Bryan's shearwater",
+    "latin_name": "Puffinus bryani",
+    "summary": "Bryan's shearwater (Puffinus bryani) is a species of shearwater that may occur around the Hawaiian Islands. It is the smallest species of s…",
+    "lat": "26.99805556",
+    "lng": "142.21805556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Puffinus_bryani_-_wyst%C4%99powanie.png"
+  },
+  "locations": [
+    {
+      "id": "loc-小笠原群岛-48ae1de2",
+      "name": "小笠原群岛",
+      "summary": "The Bonin Islands, also known as the Ogasawara Islands (Japanese: 小笠原諸島), are a Japanese archipelago of over 30 subtrop…",
+      "lat": "26.99805556",
+      "lng": "142.21805556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bryan-s-shearwater-93b01e22",
+      "subject": "Bryan's shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-小笠原群岛-48ae1de2",
+      "object": "小笠原群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| date=2011 | title=A new species of shearwater (Puffinus) recorded from Midway Atoll, Northwestern Hawaiian Islands | journal=The Condor | volume=113 | issue=3 | pages=518–527 | doi=10.1525/cond.2011.100117 | doi-access=free }} On February 7, 2012, DNA tests on six specimens found in Ogasawara alive and dead between 1997 and 2011 determined that they were Bryan's shearwaters. It is assumed that Bryan's shearwaters still survive on some of the uninhabited Bonin Islands.{{Cite journal | last1=Kawakami | first1=K",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bryan-s-shearwater-93b01e22",
+      "subject": "Bryan's shearwater",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

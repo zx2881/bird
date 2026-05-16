@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T18:41:16",
+  "requested_title": "Light-mantled Albatross",
+  "resolved_title": "Light-mantled albatross",
+  "title_aliases": [
+    "Light-mantled Albatross"
+  ],
+  "bird_id": "bird-灰背信天翁-422d15bb",
+  "raw_file": "bird-灰背信天翁-422d15bb.json",
+  "bird": {
+    "id": "bird-灰背信天翁-422d15bb",
+    "name": "灰背信天翁",
+    "english_name": "Light-mantled albatross",
+    "latin_name": "Phoebetria palpebrata",
+    "summary": "灰背信天翁（学名：Phoebetria palpebrata）是一种乌信天翁属的小型信天翁，通体乌黑因此得名。 外观 灰背信天翁头部呈乌黑色，从颈到尾的背部呈灰到浅灰色，其余呈黑色。眼周有一圈半月形的亮灰色羽毛。鸟喙泛蓝色，下颚有一条灰黄色的斑纹。雌雄个体体型相当，平均体长79…",
+    "lat": "-90",
+    "lng": "0",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Light-mantled_Sooty_Albatross._Auckland._Oscar_Thomas.jpg/960px-Light-mantled_Sooty_Albatross._Auckland._Oscar_Thomas.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南极洲-b52acf8a",
+      "name": "南极洲",
+      "summary": "南极洲（英語：Antarctica）是地球最南端的洲，位於南半球的南極區，为地理南极的所在地。南极洲大部分区域都在南極圈内，四周被南冰洋环绕。南极洲是世界上的第五大洲，其面积约为1,400万平方公里，約占地球陸地面積的十分之一，排在亞洲、…",
+      "lat": "-90",
+      "lng": "0"
+    },
+    {
+      "id": "loc-罗斯海-924642ee",
+      "name": "罗斯海",
+      "summary": "罗斯海（英語：Ross Sea）是南太平洋深入南极洲的一个大海湾，位于罗斯冰架以北，维多利亚地与玛丽伯德地之间，西经158°－东经170°之间。它是地球上最南部的海。由詹姆斯·罗斯於1841年发现并以罗斯命名。罗斯海的西部有羅斯島和伊里布…",
+      "lat": "-75",
+      "lng": "-175"
+    },
+    {
+      "id": "loc-秘魯涼流-ad6b10ce",
+      "name": "秘魯涼流",
+      "summary": "秘魯涼流（Peru Current）、秘鲁寒流，也称洪堡凉流（Humboldt Current）、洪保德海流，南太平洋东部涼流，是一个低盐度的洋流，沿南美洲西岸从智利南端伸延至秘鲁北部，于南纬10°以北偏向西行，构成南太平洋南赤道海流的补…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰背信天翁-422d15bb",
+      "subject": "灰背信天翁",
+      "predicate": "distributed_in",
+      "object_id": "loc-南极洲-b52acf8a",
+      "object": "南极洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It ranges in latitude from the pack-ice around Antarctica, with the southernmost record from 78°S in the Ross Sea, to about 35°S, with occasional sightings further north along the Humboldt Current",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰背信天翁-422d15bb",
+      "subject": "灰背信天翁",
+      "predicate": "distributed_in",
+      "object_id": "loc-罗斯海-924642ee",
+      "object": "罗斯海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It ranges in latitude from the pack-ice around Antarctica, with the southernmost record from 78°S in the Ross Sea, to about 35°S, with occasional sightings further north along the Humboldt Current",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰背信天翁-422d15bb",
+      "subject": "灰背信天翁",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘魯涼流-ad6b10ce",
+      "object": "秘魯涼流",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It ranges in latitude from the pack-ice around Antarctica, with the southernmost record from 78°S in the Ross Sea, to about 35°S, with occasional sightings further north along the Humboldt Current",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰背信天翁-422d15bb",
+      "subject": "灰背信天翁",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

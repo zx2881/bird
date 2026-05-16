@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:29:08",
+  "requested_title": "Common Potoo",
+  "resolved_title": "Common potoo",
+  "title_aliases": [
+    "Common Potoo"
+  ],
+  "bird_id": "bird-common-potoo-c3b6d42d",
+  "raw_file": "bird-common-potoo-c3b6d42d.json",
+  "bird": {
+    "id": "bird-common-potoo-c3b6d42d",
+    "name": "Common potoo",
+    "english_name": "Common potoo",
+    "latin_name": "Nyctibius griseus",
+    "summary": "The common potoo, or kakuy (Nyctibius griseus), or urutau is one of seven species of birds within the genus Nyctibius. It is notable for it…",
+    "lat": "10.6",
+    "lng": "-61.1",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Urutau_na_cidade_03.jpg/960px-Urutau_na_cidade_03.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-千里達及托巴哥-d1db4577",
+      "name": "千里達及托巴哥",
+      "summary": "千里達及托巴哥共和國（英語：Republic of Trinidad and Tobago），通稱千里達及托巴哥（英語：Trinidad and Tobago），是一個位於中美洲加勒比海南部、緊鄰委內瑞拉外海的島國。全國由兩個主要大島——…",
+      "lat": "10.6",
+      "lng": "-61.1"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-common-potoo-c3b6d42d",
+      "subject": "Common potoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-千里達及托巴哥-d1db4577",
+      "object": "千里達及托巴哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of the common potoo is found in Trinidad and Tobago and every mainland South American country except Chile, though it has been recorded in that country as a vagrant",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-common-potoo-c3b6d42d",
+      "subject": "Common potoo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-common-potoo-c3b6d42d",
+      "subject": "Common potoo",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It has an extremely large range and a population of at least 500,000 mature individuals. However, the population is declining, probably due to habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:30:22",
+  "requested_title": "Little Cormorant",
+  "resolved_title": "Little cormorant",
+  "title_aliases": [
+    "Little Cormorant"
+  ],
+  "bird_id": "bird-黑颈鸬鹚-c0ff4c93",
+  "raw_file": "bird-黑颈鸬鹚-c0ff4c93.json",
+  "bird": {
+    "id": "bird-黑颈鸬鹚-c0ff4c93",
+    "name": "黑颈鸬鹚",
+    "english_name": "Little cormorant",
+    "latin_name": "Microcarbo niger",
+    "summary": "黑颈鸬鹚（学名：Phalacrocorax niger）为鸬鹚科鸬鹚属的鸟类，俗名小鸬鹚。分布于自加里曼丹、爪哇岛、印度、孟加拉国、中南半岛以及中国大陆的云南等地，多生活于低地的淡水区、包括湖泊、池塘、江河、沼泽地及稻田等以及亦见于沿海地带及河口、红树林间。该物种的模式产地在孟…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Microcarbo_niger_-_Laem_Pak_Bia.jpg/960px-Microcarbo_niger_-_Laem_Pak_Bia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑颈鸬鹚-c0ff4c93",
+      "subject": "黑颈鸬鹚",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is not found in the Himalayas, but vagrants have been seen in Ladakh.{{cite journal|title=Occurrence of Little Cormorant Phalacrocorax niger in Ladakh|author1=Sangha, H",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑颈鸬鹚-c0ff4c93",
+      "subject": "黑颈鸬鹚",
+      "predicate": "lives_in",
+      "object_id": "hab-coastal-wetland",
+      "object": "海岸湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|name-list-style=amp | journal=Journal of the Bombay Natural History Society|date=2005 | volume=102| issue=1|page=99|url=https://biodiversitylibrary.org/page/48378782}} It inhabits wetlands, ranging from small village ponds to large lakes, and sometimes tidal estuaries.{{cite book|author1=Ali, S",
+      "object_summary": "海湾、泻湖、盐沼与河口组成的复合湿地。"
+    },
+    {
+      "subject_id": "bird-黑颈鸬鹚-c0ff4c93",
+      "subject": "黑颈鸬鹚",
+      "predicate": "lives_in",
+      "object_id": "hab-estuary",
+      "object": "河口",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|name-list-style=amp | journal=Journal of the Bombay Natural History Society|date=2005 | volume=102| issue=1|page=99|url=https://biodiversitylibrary.org/page/48378782}} It inhabits wetlands, ranging from small village ponds to large lakes, and sometimes tidal estuaries.{{cite book|author1=Ali, S",
+      "object_summary": "淡水与海水交汇形成的高生产力边缘生态系统。"
+    },
+    {
+      "subject_id": "bird-黑颈鸬鹚-c0ff4c93",
+      "subject": "黑颈鸬鹚",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|name-list-style=amp | journal=Journal of the Bombay Natural History Society|date=2005 | volume=102| issue=1|page=99|url=https://biodiversitylibrary.org/page/48378782}} It inhabits wetlands, ranging from small village ponds to large lakes, and sometimes tidal estuaries.{{cite book|author1=Ali, S",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-黑颈鸬鹚-c0ff4c93",
+      "subject": "黑颈鸬鹚",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

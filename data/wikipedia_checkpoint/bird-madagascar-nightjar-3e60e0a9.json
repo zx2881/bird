@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:25:04",
+  "requested_title": "Madagascar Nightjar",
+  "resolved_title": "Madagascar nightjar",
+  "title_aliases": [
+    "Madagascar Nightjar"
+  ],
+  "bird_id": "bird-madagascar-nightjar-3e60e0a9",
+  "raw_file": "bird-madagascar-nightjar-3e60e0a9.json",
+  "bird": {
+    "id": "bird-madagascar-nightjar-3e60e0a9",
+    "name": "Madagascar nightjar",
+    "english_name": "Madagascar nightjar",
+    "latin_name": "Caprimulgus madagascariensis",
+    "summary": "The Madagascar nightjar or Madagascan nightjar (Caprimulgus madagascariensis) is a species of nightjar in the family Caprimulgidae. It is n…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Madagascar_Nightjar%2C_Tsimanampetsotsa%2C_Madagascar.jpg/960px-Madagascar_Nightjar%2C_Tsimanampetsotsa%2C_Madagascar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    },
+    {
+      "id": "loc-布拉哈島-74fb7fa6",
+      "name": "布拉哈島",
+      "summary": "布拉哈島（Nosy Boraha，法語：Île Sainte-Marie）是馬達加斯加的島嶼，由阿那拉蘭基羅富區負責管轄，位於該國東岸，島嶼長60公里、闊10公里，面積222平方公里，是觀賞座頭鯨的熱門地點，2001年人口16,325。…",
+      "lat": "-16.96666667",
+      "lng": "49.86666667"
+    },
+    {
+      "id": "loc-阿尔达布拉环礁-7ad55991",
+      "name": "阿尔达布拉环礁",
+      "summary": "阿尔达布拉环礁（Aldabra Atoll），是世界第二大珊瑚环礁，印度洋上塞席爾共和國外岛中阿爾達布拉群島的一部分。由于地理位置极其孤立而无人居住，阿尔达布拉环礁几乎完全没有受到人类的破坏。有阿尔达布拉象龟等独特生物，1982年列入联合…",
+      "lat": "-9.41666667",
+      "lng": "46.35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-madagascar-nightjar-3e60e0a9",
+      "subject": "Madagascar nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Madagascar, Nosy Boraha and Aldabra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-nightjar-3e60e0a9",
+      "subject": "Madagascar nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-布拉哈島-74fb7fa6",
+      "object": "布拉哈島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Madagascar, Nosy Boraha and Aldabra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-nightjar-3e60e0a9",
+      "subject": "Madagascar nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔达布拉环礁-7ad55991",
+      "object": "阿尔达布拉环礁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Madagascar, Nosy Boraha and Aldabra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-nightjar-3e60e0a9",
+      "subject": "Madagascar nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

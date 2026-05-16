@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T10:28:10",
+  "requested_title": "Chestnut-breasted Cuckoo",
+  "resolved_title": "Chestnut-breasted cuckoo",
+  "title_aliases": [
+    "Chestnut-breasted Cuckoo"
+  ],
+  "bird_id": "bird-chestnut-breasted-cuckoo-66a1eed4",
+  "raw_file": "bird-chestnut-breasted-cuckoo-66a1eed4.json",
+  "bird": {
+    "id": "bird-chestnut-breasted-cuckoo-66a1eed4",
+    "name": "Chestnut-breasted cuckoo",
+    "english_name": "Chestnut-breasted cuckoo",
+    "latin_name": "Cacomantis castaneiventris",
+    "summary": "The chestnut-breasted cuckoo (Cacomantis castaneiventris) is a species of cuckoo in the family Cuculidae. It is found in Australia, Indones…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Chestnut-breasted_cuckoo_iron08.JPG/960px-Chestnut-breasted_cuckoo_iron08.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chestnut-breasted-cuckoo-66a1eed4",
+      "subject": "Chestnut-breasted cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Australia, Indonesia, and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chestnut-breasted-cuckoo-66a1eed4",
+      "subject": "Chestnut-breasted cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Australia, Indonesia, and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chestnut-breasted-cuckoo-66a1eed4",
+      "subject": "Chestnut-breasted cuckoo",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Australia, Indonesia, and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chestnut-breasted-cuckoo-66a1eed4",
+      "subject": "Chestnut-breasted cuckoo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

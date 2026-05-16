@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:18:10",
+  "requested_title": "African Jacana",
+  "resolved_title": "African jacana",
+  "title_aliases": [
+    "African Jacana"
+  ],
+  "bird_id": "bird-长脚雉鸻-7911c7ef",
+  "raw_file": "bird-长脚雉鸻-7911c7ef.json",
+  "bird": {
+    "id": "bird-长脚雉鸻-7911c7ef",
+    "name": "长脚雉鸻",
+    "english_name": "African jacana",
+    "latin_name": "Actophilornis africanus",
+    "summary": "長腳雉鴴（學名：Actophilornis africanus）也稱為非洲雉鴴、非洲水雉、馳雉，是鳥綱鴴形目雉鴴科非洲雉鴴属的一種。生活在非洲的水澤地帶，其較長的腿有助於牠在這樣的地帶活動。以昆蟲等小動物為食。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/African_jacana_actophilornis_africanus.jpg/960px-African_jacana_actophilornis_africanus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-长脚雉鸻-7911c7ef",
+      "subject": "长脚雉鸻",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is widely distributed in sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-长脚雉鸻-7911c7ef",
+      "subject": "长脚雉鸻",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

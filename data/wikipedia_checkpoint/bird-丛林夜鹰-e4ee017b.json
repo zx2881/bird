@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:20:05",
+  "requested_title": "Jungle Nightjar",
+  "resolved_title": "Jungle nightjar",
+  "title_aliases": [
+    "Jungle Nightjar"
+  ],
+  "bird_id": "bird-丛林夜鹰-e4ee017b",
+  "raw_file": "bird-丛林夜鹰-e4ee017b.json",
+  "bird": {
+    "id": "bird-丛林夜鹰-e4ee017b",
+    "name": "丛林夜鹰",
+    "english_name": "Jungle nightjar",
+    "latin_name": "Caprimulgus indicus",
+    "summary": "丛林夜鹰（学名：Caprimulgus indicus），俗稱蚊母、吐蚊鳥或貼樹皮，古稱鷏（tián），为夜鹰科夜鹰属的鸟类。该物种的模式产地在印度。 描述 丛林夜鹰身長為21-24cm，其斯里蘭卡亞種（英文名稱：kelaarti）體型較小。丛林夜鹰身體大部分為灰色，在冠上有黑…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Jungle_nightjar_DM_0309_%28cropped%29.jpg/960px-Jungle_nightjar_DM_0309_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-丛林夜鹰-e4ee017b",
+      "subject": "丛林夜鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The jungle nightjar (Caprimulgus indicus) is a species of nightjar found in the Indian subcontinent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-丛林夜鹰-e4ee017b",
+      "subject": "丛林夜鹰",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

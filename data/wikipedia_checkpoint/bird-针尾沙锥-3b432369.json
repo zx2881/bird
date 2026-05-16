@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T17:25:11",
+  "requested_title": "Pin-tailed Snipe",
+  "resolved_title": "Pin-tailed snipe",
+  "title_aliases": [
+    "Pin-tailed Snipe"
+  ],
+  "bird_id": "bird-针尾沙锥-3b432369",
+  "raw_file": "bird-针尾沙锥-3b432369.json",
+  "bird": {
+    "id": "bird-针尾沙锥-3b432369",
+    "name": "针尾沙锥",
+    "english_name": "Pin-tailed snipe",
+    "latin_name": "Gallinago stenura",
+    "summary": "针尾沙锥（台湾作針尾鷸）（学名：Gallinago stenura），是鸻形目鹬科的一种鸟类。 分布 它在北俄羅斯繁殖，並遷徙到南亞從巴基斯坦到印尼度過非繁殖季節。它是南印度、斯里蘭卡以及大部分東南亞最常見的遷徙鷸之一。它偶爾也會出現在澳大利亞西北部和北部，甚至在東非的肯亞也有…",
+    "lat": "66",
+    "lng": "94",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Gallinago_stenura_-_Laem_Pak_Bia.jpg/960px-Gallinago_stenura_-_Laem_Pak_Bia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    },
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "巴基斯坦伊斯兰共和国（乌尔都语：اسلامی جمہوریہ پاکستان‬；英语：Islamic Republic of Pakistan），通称巴基斯坦，位于南亚，东与印度比邻，南面是印度洋，西与伊朗接壤，西北和阿富汗相連，東北与中…",
+      "lat": "30",
+      "lng": "70"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-针尾沙锥-3b432369",
+      "subject": "针尾沙锥",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in northern Russia and migrates to spend the non-breeding season in southern Asia from Pakistan to Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-针尾沙锥-3b432369",
+      "subject": "针尾沙锥",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in northern Russia and migrates to spend the non-breeding season in southern Asia from Pakistan to Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-针尾沙锥-3b432369",
+      "subject": "针尾沙锥",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in northern Russia and migrates to spend the non-breeding season in southern Asia from Pakistan to Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-针尾沙锥-3b432369",
+      "subject": "针尾沙锥",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its breeding habitat is damp marshes and tundra in Arctic and boreal Russia",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-针尾沙锥-3b432369",
+      "subject": "针尾沙锥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

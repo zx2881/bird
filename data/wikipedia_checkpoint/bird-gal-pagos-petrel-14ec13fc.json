@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T19:05:11",
+  "requested_title": "Galapagos Petrel",
+  "resolved_title": "Galápagos petrel",
+  "title_aliases": [
+    "Galapagos Petrel",
+    "Galápagos petrel"
+  ],
+  "bird_id": "bird-gal-pagos-petrel-14ec13fc",
+  "raw_file": "bird-gal-pagos-petrel-14ec13fc.json",
+  "bird": {
+    "id": "bird-gal-pagos-petrel-14ec13fc",
+    "name": "Galápagos petrel",
+    "english_name": "Galápagos petrel",
+    "latin_name": "Pterodroma phaeopygia",
+    "summary": "The Galápagos petrel (Pterodroma phaeopygia) is one of the six endemic seabirds of the Galápagos. Its scientific name derives from Ancient…",
+    "lat": "-0.05361111",
+    "lng": "-90.76916667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Pterodroma_phaeopygia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-gal-pagos-marine-reserve-6adb8af7",
+      "name": "Galápagos Marine Reserve",
+      "summary": "The Galápagos Marine Reserve (GMR) lies a thousand kilometres from the Ecuadorian mainland and covers an area of around…",
+      "lat": "-0.05361111",
+      "lng": "-90.76916667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-gal-pagos-petrel-14ec13fc",
+      "subject": "Galápagos petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-gal-pagos-marine-reserve-6adb8af7",
+      "object": "Galápagos Marine Reserve",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It nests on five islands including Isabela, Santiago, Floreana, San Cristobal and Santa Cruz.]] The Galápagos petrel is endemic to the Galápagos Islands. They are mainly distributed in the Galápagos Marine Reserve area, but studies revealed that individuals frequently leave the reserve and disperse northeast towards South America and up to southwards in the period between January and February. Like other gadfly petrels, these subtropical seabirds are highly pelagic and are maladapted to the terrestrial habitats. Therefore, they are usually found far from the land and will only return to their nest to breed. The nesting colonies are distributed among five islands: Santiago, Floreana, Isabela, Santa Cruz, and San Cristobal, which are all less than apart. Multiple colonies can occur within one island; each can be as large as 200 m by 300 m and are separated by a distance that varies from 300 m to 5&nbsp;km. Nowadays, the Galápagos petrels commonly nest on offshore islets because their habitats have been destroyed or displaced by anthropogenic disturbances. Their nests typically occur in highlands that are at least above the sea. Most can also be found in thickly vegetated sites where the soil is soft enough to burrow deep cavities, but some individuals also choose to nest in volcanic crevices. These ground nests make the species more vulnerable to introduced predators",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gal-pagos-petrel-14ec13fc",
+      "subject": "Galápagos petrel",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

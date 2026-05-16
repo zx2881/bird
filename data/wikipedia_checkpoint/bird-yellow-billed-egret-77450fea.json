@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:02:14",
+  "requested_title": "Yellow-billed Egret",
+  "resolved_title": "Yellow-billed egret",
+  "title_aliases": [
+    "Yellow-billed Egret"
+  ],
+  "bird_id": "bird-yellow-billed-egret-77450fea",
+  "raw_file": "bird-yellow-billed-egret-77450fea.json",
+  "bird": {
+    "id": "bird-yellow-billed-egret-77450fea",
+    "name": "Yellow-billed egret",
+    "english_name": "Yellow-billed egret",
+    "latin_name": "Ardea brachyrhyncha",
+    "summary": "The yellow-billed egret (Ardea brachyrhyncha) is a species of heron, a medium sized heron. This species is found in Sub-Saharan Africa.",
+    "lat": "15.3",
+    "lng": "-23.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Egretta_intermedia00.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-佛得角-54903c7d",
+      "name": "佛得角",
+      "summary": "佛得角共和国（葡萄牙語：República de Cabo Verde），通称佛得角（葡萄牙語：Cabo Verde），是位於非洲西岸的大西洋島國。它横跨大西洋中部的10个火山岛，距离西非海岸线570公里 。獨立前是葡萄牙的殖民地，国名“…",
+      "lat": "15.3",
+      "lng": "-23.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-billed-egret-77450fea",
+      "subject": "Yellow-billed egret",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-billed-egret-77450fea",
+      "subject": "Yellow-billed egret",
+      "predicate": "distributed_in",
+      "object_id": "loc-佛得角-54903c7d",
+      "object": "佛得角",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-billed egret is found in Africa south of the Sahara Desert from southern Mauretania and Sudan south to the Western Cape in South Africa, avoiding areas of desert and dense tropical forest. It has been recorded as a vagrant in the Seychelles and the Cape Verde Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-billed-egret-77450fea",
+      "subject": "Yellow-billed egret",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

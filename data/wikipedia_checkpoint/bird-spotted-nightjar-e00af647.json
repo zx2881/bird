@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-16T20:06:15",
+  "requested_title": "Spotted Nightjar",
+  "resolved_title": "Spotted nightjar",
+  "title_aliases": [
+    "Spotted Nightjar"
+  ],
+  "bird_id": "bird-spotted-nightjar-e00af647",
+  "raw_file": "bird-spotted-nightjar-e00af647.json",
+  "bird": {
+    "id": "bird-spotted-nightjar-e00af647",
+    "name": "Spotted nightjar",
+    "english_name": "Spotted nightjar",
+    "latin_name": "Eurostopodus argus",
+    "summary": "The spotted nightjar or spotted eared-nightjar (Eurostopodus argus) is a species of nightjar in the family Caprimulgidae. It inhabits much…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Eurostopodus_argus_2_-_Christopher_Watson.jpg/960px-Eurostopodus_argus_2_-_Christopher_Watson.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-印度尼西亞島嶼列表-8d78a099",
+      "name": "印度尼西亞島嶼列表",
+      "summary": "本篇印尼群島列表（英語：List of islands of Indonesia）把印尼全國17,000個以上的島嶼，依照大型島嶼以及群島，在其中選擇較重要者列出，以供讀者參考。 印尼群島（islands），也稱為印尼列島（archipe…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-spotted-nightjar-e00af647",
+      "subject": "Spotted nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits much of mainland Australia and has also been found in several Indonesian islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-nightjar-e00af647",
+      "subject": "Spotted nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亞島嶼列表-8d78a099",
+      "object": "印度尼西亞島嶼列表",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits much of mainland Australia and has also been found in several Indonesian islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-nightjar-e00af647",
+      "subject": "Spotted nightjar",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Habitat types include savannah woodland; low open sclerophyll forest; mallee; mulga and acacia scrubland as well as spinifex and tussock grasslands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-spotted-nightjar-e00af647",
+      "subject": "Spotted nightjar",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Habitat types include savannah woodland; low open sclerophyll forest; mallee; mulga and acacia scrubland as well as spinifex and tussock grasslands",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-spotted-nightjar-e00af647",
+      "subject": "Spotted nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}
