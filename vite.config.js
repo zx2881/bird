@@ -10,7 +10,6 @@ export default defineConfig({
     vue(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['knowledge.json'],
       manifest: {
         name: '全球鸟类多样性知识探索平台',
         short_name: '鸟类知识图谱',
@@ -23,8 +22,20 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,json,png,svg,ico}'],
+        globPatterns: ['**/*.{js,css,html,png,svg,ico,webmanifest}'],
+        globIgnores: ['**/knowledge.json', '**/data/**/*.json'],
         runtimeCaching: [
+          {
+            urlPattern: /\/data\/.*\.json$/,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'bird-graph-data-chunks',
+              expiration: {
+                maxEntries: 4000,
+                maxAgeSeconds: 86400 * 30
+              }
+            }
+          },
           {
             urlPattern: /^https:\/\/picsum\.photos\/.*/,
             handler: 'CacheFirst',

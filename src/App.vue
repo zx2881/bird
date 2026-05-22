@@ -27,9 +27,27 @@ onMounted(async () => {
 </script>
 
 <style>
+.shell {
+  position: relative;
+  min-height: 100vh;
+}
+
+.app-main {
+  position: relative;
+  z-index: 1;
+}
+
 .page-enter-active, .page-leave-active {
   transition: opacity 0.25s ease, transform 0.25s ease;
 }
-.page-enter-from { opacity: 0; transform: translateY(12px); }
-.page-leave-to { opacity: 0; transform: translateY(-12px); }
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-12px);
+}
 </style>

@@ -1,353 +1,752 @@
 <template>
-  <div ref="containerRef" class="sigma-wrapper">
-    <div v-if="tooltip.visible" class="sigma-tooltip" :style="tooltip.style">
-      <div class="tooltip-name">{{ tooltip.name }}</div>
-      <div class="tooltip-type">{{ tooltip.type }}</div>
-      <div v-if="tooltip.latin" class="tooltip-latin">{{ tooltip.latin }}</div>
-      <div class="tooltip-footer">
-        <span v-if="tooltip.degree != null" class="tooltip-degree">{{ tooltip.degree }} 条关联</span>
-        <span v-if="tooltip.status" class="tooltip-badge" :class="'badge-' + tooltip.status.toLowerCase()">{{ tooltip.status }}</span>
-      </div>
-    </div>
+  <div class="page-wrapper">
+    <div ref="graphRef" class="graph-stage"></div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount, watch, reactive } from 'vue'
-import Graph from 'graphology'
-import { Sigma } from 'sigma'
+import { nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import ForceGraph3D from '3d-force-graph'
+import * as THREE from 'three'
 import { useGraphStore } from '../stores/graphStore.js'
 
 const props = defineProps({
-  birdLimit: { type: Number, default: 80 },
-  labelMode: { type: String, default: 'smart' },
-  focusEntityId: { type: String, default: '' },
-  activeTypes: { type: Array, default: () => ['location', 'habitat', 'status', 'threat'] },
-  highlightPath: { type: Array, default: () => [] },
-  darkMode: { type: Boolean, default: false }
+  activeTypes: {
+    type: Array,
+    default: () => ['location', 'habitat', 'status', 'threat']
+  },
+  darkMode: {
+    type: Boolean,
+    default: false
+  }
 })
 
 const emit = defineEmits(['node-click'])
 
-const containerRef = ref(null)
 const store = useGraphStore()
-let sigma = null
+const graphRef = ref(null)
+
 let graph = null
+let renderTimer = 0
 let resizeObserver = null
-let hoveredNode = null
+let fitTimer = 0
+let returnFrame = 0
+let returnToken = 0
 
-const tooltip = reactive({ visible: false, name: '', type: '', degree: null, latin: '', status: '', style: {} })
+const cachedNodes = new Map()
+const dragState = {
+  centerId: '',
+  wakeIds: []
+}
 
-const palette = {
-  light: {
-    bird: '#4f8cf7', location: '#22c55e', habitat: '#f59e0b',
-    status: '#8b5cf6', threat: '#ef4444', taxonomy: '#ec4899',
-    birdStroke: '#3b72d3', locationStroke: '#16a34a', habitatStroke: '#d97706',
-    statusStroke: '#7c3aed', threatStroke: '#dc2626', taxonomyStroke: '#db2777',
-    edge: 'rgba(30, 41, 59, 0.5)', edgeActive: 'rgba(79, 140, 247, 0.75)',
-    edgePath: 'rgba(217, 119, 6, 0.9)',
-    label: '#0f172a', bg: '#ffffff',
-    tooltipBg: 'rgba(255, 255, 255, 0.97)',
-    tooltipBorder: 'rgba(79, 140, 247, 0.2)',
-    tooltipShadow: '0 12px 40px rgba(0, 0, 0, 0.12)'
-  },
-  dark: {
-    bird: '#93c5fd', location: '#6ee7b7', habitat: '#fde68a',
-    status: '#c4b5fd', threat: '#fca5a5', taxonomy: '#f9a8d4',
-    birdStroke: '#60a5fa', locationStroke: '#34d399', habitatStroke: '#fbbf24',
-    statusStroke: '#a78bfa', threatStroke: '#f87171', taxonomyStroke: '#f472b6',
-    edge: 'rgba(226, 232, 240, 0.3)', edgeActive: 'rgba(147, 197, 253, 0.7)',
-    edgePath: 'rgba(251, 191, 36, 0.9)',
-    label: '#ffffff', bg: 'transparent',
-    tooltipBg: 'rgba(15, 23, 42, 0.96)',
-    tooltipBorder: 'rgba(147, 197, 253, 0.2)',
-    tooltipShadow: '0 12px 40px rgba(0, 0, 0, 0.5)'
+const LOCAL_WAKE_LIMIT = 18
+const RETURN_EASE = 0.22
+const MAX_RETURN_FRAMES = 18
+
+const UNIFORM_LAYOUT_RADIUS = 960
+const DETAIL_CLUSTER_RADIUS = 30
+const DETAIL_CLUSTER_JITTER = 18
+
+const PREVIEW_NODE_COLOR = '#eaf3ff'
+const DETAIL_NODE_COLOR = '#9fc0ff'
+const BACKGROUND_DARK = '#0b1018'
+const BACKGROUND_LIGHT = '#101827'
+const LINK_COLOR = 'rgba(229, 239, 255, 0.18)'
+
+function isPreviewNode(node) {
+  return node?.type === 'bird' || node?.type === 'taxonomy'
+}
+
+function isNodeVisible(node) {
+  if (!node) return false
+  if (isPreviewNode(node)) return true
+  return props.activeTypes.includes(node.type)
+}
+
+function nodeRadius(node) {
+  if (!node) return 1.72
+  if (isPreviewNode(node.rawNode || node)) return 1.82
+  return 1.42
+}
+
+function sphereSegments(node) {
+  return isPreviewNode(node.rawNode || node) ? 7 : 6
+}
+
+function hitRadius(node) {
+  if (!node) return 5
+  if (isPreviewNode(node.rawNode || node)) return 5.2
+  return 4.5
+}
+
+function linkDistance(link) {
+  if (!link) return 64
+  if (link.relation === 'belongs_to_family' || link.relation === 'belongs_to_order') return 56
+  return 42
+}
+
+function stableHash(value) {
+  let hash = 2166136261
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index)
+    hash = Math.imul(hash, 16777619)
+  }
+  return hash >>> 0
+}
+
+function stableUnit(value, salt = '') {
+  return stableHash(`${salt}:${value}`) / 4294967295
+}
+
+function buildUniformLayoutMap(sourceNodes) {
+  const layoutNodes = sourceNodes
+    .filter(isPreviewNode)
+    .slice()
+    .sort((left, right) => stableHash(left.id) - stableHash(right.id))
+
+  const layoutMap = new Map()
+  if (!layoutNodes.length) return layoutMap
+
+  let sumX = 0
+  let sumY = 0
+  let sumZ = 0
+
+  layoutNodes.forEach((node, index) => {
+    const total = layoutNodes.length
+    const volumeT = Math.max(1e-6, Math.min(0.999999, (index + stableUnit(node.id, 'radius')) / total))
+    const radius = UNIFORM_LAYOUT_RADIUS * Math.cbrt(volumeT)
+    const theta = Math.PI * 2 * stableUnit(node.id, 'theta')
+    const cosPhi = 1 - 2 * stableUnit(node.id, 'phi')
+    const sinPhi = Math.sqrt(Math.max(0, 1 - cosPhi * cosPhi))
+    const x = radius * sinPhi * Math.cos(theta)
+    const y = radius * sinPhi * Math.sin(theta)
+    const z = radius * cosPhi
+
+    sumX += x
+    sumY += y
+    sumZ += z
+
+    layoutMap.set(node.id, {
+      x,
+      y,
+      z
+    })
+  })
+
+  const centerX = sumX / layoutNodes.length
+  const centerY = sumY / layoutNodes.length
+  const centerZ = sumZ / layoutNodes.length
+
+  for (const [nodeId, position] of layoutMap.entries()) {
+    position.x -= centerX
+    position.y -= centerY
+    position.z -= centerZ
+    layoutMap.set(nodeId, position)
+  }
+
+  return layoutMap
+}
+
+function buildFallbackScatter(nodeId) {
+  const theta = Math.PI * 2 * stableUnit(nodeId, 'fallback-theta')
+  const cosPhi = 1 - 2 * stableUnit(nodeId, 'fallback-phi')
+  const sinPhi = Math.sqrt(Math.max(0, 1 - cosPhi * cosPhi))
+  const radius = UNIFORM_LAYOUT_RADIUS * 0.62 * Math.cbrt(stableUnit(nodeId, 'fallback-radius'))
+
+  return {
+    x: radius * sinPhi * Math.cos(theta),
+    y: radius * sinPhi * Math.sin(theta),
+    z: radius * cosPhi
   }
 }
 
-const c = () => props.darkMode ? palette.dark : palette.light
+function buildAttachedScatter(nodeId, anchor) {
+  const theta = Math.PI * 2 * stableUnit(nodeId, 'detail-theta')
+  const cosPhi = 1 - 2 * stableUnit(nodeId, 'detail-phi')
+  const sinPhi = Math.sqrt(Math.max(0, 1 - cosPhi * cosPhi))
+  const radius = DETAIL_CLUSTER_RADIUS + stableUnit(nodeId, 'detail-radius') * DETAIL_CLUSTER_JITTER
 
-function buildGraph() {
-  if (graph) graph.clear()
-  else graph = new Graph({ multi: true, type: 'directed', allowSelfLoops: false })
-
-  const enabled = new Set(props.activeTypes)
-  const visibleIds = filterNodes(enabled)
-  const { nodes, links } = getSnapshot(visibleIds, enabled)
-  const col = c()
-  const total = nodes.length
-  const radius = Math.max(4, Math.sqrt(total) * 1.2)
-
-  nodes.forEach((n, i) => {
-    const size = nodeSize(n, total)
-    const angle = (2 * Math.PI * i) / total
-    graph.addNode(n.id, {
-      label: computeLabel(n, total),
-      size, color: col[n.type] || '#8b949e',
-      x: Math.cos(angle) * radius, y: Math.sin(angle) * radius,
-      entityType: n.type, name: n.name, degree: store.getNodeDegree(n.id),
-      highlight: props.highlightPath.includes(n.id)
-    })
-  })
-
-  links.forEach(l => {
-    if (!graph.hasNode(l.source) || !graph.hasNode(l.target)) return
-    const inPath = props.highlightPath.includes(l.source) && props.highlightPath.includes(l.target)
-    try {
-      graph.addEdgeWithKey(l.key, l.source, l.target, {
-        type: 'arrow', size: inPath ? 3 : 1,
-        color: inPath ? col.edgePath : col.edge,
-        relation: l.relation
-      })
-    } catch (e) { /* skip duplicate */ }
-  })
+  return {
+    x: anchor.x + radius * sinPhi * Math.cos(theta),
+    y: anchor.y + radius * sinPhi * Math.sin(theta),
+    z: anchor.z + radius * cosPhi
+  }
 }
 
-function filterNodes(enabled) {
-  const ids = new Set()
-  if (props.focusEntityId) {
-    ids.add(props.focusEntityId)
-    store.getIncidentLinks(props.focusEntityId).forEach(l => {
-      const o = l.source === props.focusEntityId ? l.target : l.source
-      const n = store.getNodeById(o)
-      if (n && (n.type === 'bird' || enabled.has(n.type))) ids.add(o)
+function resolveAnchorHome(nodeId, layoutMap) {
+  for (const link of store.getIncidentLinks(nodeId)) {
+    const otherId = link.source === nodeId ? link.target : link.source
+    if (layoutMap.has(otherId)) return layoutMap.get(otherId)
+
+    const cached = cachedNodes.get(otherId)
+    if (
+      cached &&
+      Number.isFinite(cached.homeX) &&
+      Number.isFinite(cached.homeY) &&
+      Number.isFinite(cached.homeZ)
+    ) {
+      return {
+        x: cached.homeX,
+        y: cached.homeY,
+        z: cached.homeZ
+      }
+    }
+  }
+
+  const activeNode = cachedNodes.get(store.activeNodeId)
+  if (
+    activeNode &&
+    Number.isFinite(activeNode.homeX) &&
+    Number.isFinite(activeNode.homeY) &&
+    Number.isFinite(activeNode.homeZ)
+  ) {
+    return {
+      x: activeNode.homeX,
+      y: activeNode.homeY,
+      z: activeNode.homeZ
+    }
+  }
+
+  return null
+}
+
+function resolveNodeHome(rawNode, layoutMap) {
+  if (layoutMap.has(rawNode.id)) return layoutMap.get(rawNode.id)
+
+  const anchorHome = resolveAnchorHome(rawNode.id, layoutMap)
+  if (anchorHome) return buildAttachedScatter(rawNode.id, anchorHome)
+
+  return buildFallbackScatter(rawNode.id)
+}
+
+function buildNodeObject(node) {
+  if (!node.__group) {
+    node.__group = new THREE.Group()
+  }
+
+  const radius = nodeRadius(node)
+  const pointerRadius = hitRadius(node)
+  const segments = sphereSegments(node)
+
+  if (!node.__sphereGeometry || node.__sphereRadius !== radius || node.__sphereSegments !== segments) {
+    node.__sphereGeometry?.dispose?.()
+    node.__sphereGeometry = new THREE.SphereGeometry(radius, segments, segments)
+    node.__sphereRadius = radius
+    node.__sphereSegments = segments
+  }
+
+  if (!node.__sphereMaterial) {
+    node.__sphereMaterial = new THREE.MeshBasicMaterial({
+      color: node.color,
+      transparent: true,
+      opacity: node.opacity
     })
+  }
+
+  node.__sphereMaterial.color = new THREE.Color(node.color)
+  node.__sphereMaterial.opacity = node.opacity
+
+  if (!node.__sphereMesh) {
+    node.__sphereMesh = new THREE.Mesh(node.__sphereGeometry, node.__sphereMaterial)
+    node.__group.add(node.__sphereMesh)
   } else {
-    const limit = props.birdLimit === 0 ? store.birdNodes.length : props.birdLimit
-    store.birdNodes.slice(0, limit).forEach(b => {
-      ids.add(b.id)
-      store.getIncidentLinks(b.id).forEach(l => {
-        const o = l.source === b.id ? l.target : l.source
-        const n = store.getNodeById(o)
-        if (n && enabled.has(n.type)) ids.add(o)
-      })
+    node.__sphereMesh.geometry = node.__sphereGeometry
+    node.__sphereMesh.material = node.__sphereMaterial
+  }
+
+  if (!node.__hitGeometry || node.__hitRadius !== pointerRadius) {
+    node.__hitGeometry?.dispose?.()
+    node.__hitGeometry = new THREE.SphereGeometry(pointerRadius, 10, 10)
+    node.__hitRadius = pointerRadius
+  }
+
+  if (!node.__hitMaterial) {
+    node.__hitMaterial = new THREE.MeshBasicMaterial({
+      color: '#ffffff',
+      transparent: true,
+      opacity: 0,
+      depthWrite: false
     })
   }
+
+  if (!node.__hitMesh) {
+    node.__hitMesh = new THREE.Mesh(node.__hitGeometry, node.__hitMaterial)
+    node.__group.add(node.__hitMesh)
+  } else {
+    node.__hitMesh.geometry = node.__hitGeometry
+    node.__hitMesh.material = node.__hitMaterial
+  }
+
+  return node.__group
+}
+
+function buildTooltip(node) {
+  if (!node?.rawNode) return node?.name || ''
+
+  const raw = node.rawNode
+  const lines = [
+    `<div style="font-weight:700;margin-bottom:4px;">${raw.name || raw.id}</div>`
+  ]
+
+  if (raw.englishName && raw.englishName !== raw.name) {
+    lines.push(`<div style="opacity:.82;">${raw.englishName}</div>`)
+  }
+  if (raw.latinName) lines.push(`<div style="opacity:.82;">${raw.latinName}</div>`)
+  if (raw.orderCn || raw.order) lines.push(`<div style="opacity:.7;">目：${raw.orderCn || raw.order}</div>`)
+  if (raw.familyCn || raw.family) lines.push(`<div style="opacity:.7;">科：${raw.familyCn || raw.family}</div>`)
+
+  return lines.join('')
+}
+
+function ensureHomePosition(node) {
+  if (node.homeX == null) node.homeX = Number.isFinite(node.x) ? node.x : 0
+  if (node.homeY == null) node.homeY = Number.isFinite(node.y) ? node.y : 0
+  if (node.homeZ == null) node.homeZ = Number.isFinite(node.z) ? node.z : 0
+}
+
+function pinNodeToHome(node) {
+  ensureHomePosition(node)
+  node.x = node.homeX
+  node.y = node.homeY
+  node.z = node.homeZ
+  node.fx = node.homeX
+  node.fy = node.homeY
+  node.fz = node.homeZ
+  node.vx = 0
+  node.vy = 0
+  node.vz = 0
+}
+
+function releaseNode(node) {
+  ensureHomePosition(node)
+  node.fx = undefined
+  node.fy = undefined
+  node.fz = undefined
+}
+
+function isWakeNode(nodeId) {
+  return dragState.wakeIds.includes(nodeId)
+}
+
+function getWakeIds(centerId) {
+  const ids = []
+  const seen = new Set()
+
+  function push(id) {
+    if (!id || seen.has(id) || ids.length >= LOCAL_WAKE_LIMIT) return
+    seen.add(id)
+    ids.push(id)
+  }
+
+  push(centerId)
+
+  for (const link of store.getIncidentLinks(centerId)) {
+    if (ids.length >= LOCAL_WAKE_LIMIT) break
+    const otherId = link.source === centerId ? link.target : link.source
+    push(otherId)
+  }
+
   return ids
 }
 
-function getSnapshot(visibleIds, enabled) {
-  const nodes = [...visibleIds].map(id => store.getNodeById(id)).filter(Boolean)
-  const linkMap = new Map()
-  visibleIds.forEach(nid => {
-    store.getIncidentLinks(nid).forEach(l => {
-      if (!visibleIds.has(l.source) || !visibleIds.has(l.target)) return
-      const sn = store.getNodeById(l.source)
-      const tn = store.getNodeById(l.target)
-      if (!sn || !tn) return
-      if (sn.type !== 'bird' && !enabled.has(sn.type) && sn.id !== props.focusEntityId) return
-      if (tn.type !== 'bird' && !enabled.has(tn.type) && tn.id !== props.focusEntityId) return
-      if (!linkMap.has(l.key)) linkMap.set(l.key, l)
-    })
-  })
-  return { nodes, links: [...linkMap.values()] }
-}
-
-function computeLabel(n, count) {
-  if (props.labelMode === 'all') return n.name || n.id
-  if (props.labelMode === 'birds') return n.type === 'bird' ? n.name : ''
-  const deg = store.getNodeDegree(n.id)
-  if (n.type === 'bird') return count <= 54 || deg >= 6 ? n.name : ''
-  if (n.type === 'location') return count <= 42 && deg >= 4 ? n.name : ''
-  return count <= 28 && deg >= 5 ? n.name : ''
-}
-
-function nodeSize(n, count) {
-  const scale = count > 260 ? 0.56 : count > 170 ? 0.68 : count > 90 ? 0.82 : 1
-  const base = { bird: 14, location: 9, habitat: 7, status: 6, threat: 6, taxonomy: 6 }[n.type] ?? 7
-  const boost = Math.min(n.type === 'bird' ? 5 : 3, store.getNodeDegree(n.id) * 0.35)
-  return Math.max(4, Math.round((base + boost) * scale))
-}
-
-function getStageColor() {
-  const el = containerRef.value
-  if (!el) return c().bg
-  const bg = getComputedStyle(el).backgroundColor
-  return bg === 'rgba(0, 0, 0, 0)' || !bg ? c().bg : bg
-}
-
-function initSigma() {
-  const el = containerRef.value
-  if (!el || !store.nodes.length) return
-  const w = el.clientWidth
-  const h = el.clientHeight
-  if (w === 0 || h === 0) { setTimeout(initSigma, 200); return }
-
-  buildGraph()
-  if (sigma) { sigma.kill(); sigma = null }
-
-  const col = c()
-
-  sigma = new Sigma(graph, el, {
-    renderEdgeLabels: false,
-    labelFont: 'Alegreya Sans, sans-serif',
-    labelSize: 13,
-    labelWeight: '700',
-    labelRenderedSizeThreshold: 4,
-    labelColor: { color: props.darkMode ? '#ffffff' : '#0f172a' },
-    labelStroke: props.darkMode ? '#0f172a' : '#ffffff',
-    labelStrokeWidth: props.darkMode ? 4 : 2,
-    defaultEdgeColor: col.edge,
-    defaultEdgeType: 'arrow',
-    edgeLabelSize: 9,
-    zIndex: true,
-    enableEdgeEvents: true,
-    nodeReducer: (nid, data) => {
-      const node = store.getNodeById(nid)
-      const type = node?.type || 'bird'
-      const color = col[type] || col.bird
-      const stroke = col[type + 'Stroke'] || col.birdStroke
-      if (hoveredNode === nid) {
-        return {
-          ...data, color, size: (data.size || 8) * 2.5,
-          label: node?.name || data.label,
-          borderColor: '#fff', borderSize: 4,
-          forceLabel: true
-        }
-      }
-      if (hoveredNode && nid !== hoveredNode) {
-        const connected = graph.edges(hoveredNode).some(e => {
-          const [s, t] = graph.extremities(e)
-          return s === nid || t === nid
-        })
-        if (!connected) {
-          return {
-            ...data, color, size: Math.max(2, (data.size || 8) * 0.2),
-            borderColor: stroke, borderSize: 0.3
-          }
-        }
-        return {
-          ...data, color, size: (data.size || 8) * 0.85,
-          borderColor: stroke, borderSize: 1.5,
-          label: node?.name || data.label
-        }
-      }
-      return { ...data, color, borderColor: stroke, borderSize: 1 }
-    },
-    edgeReducer: (eid, data) => {
-      if (hoveredNode) {
-        const [s, t] = graph.extremities(eid)
-        if (s === hoveredNode || t === hoveredNode) {
-          return { ...data, color: col.edgeActive, size: 4 }
-        }
-        return { ...data, size: (data.size || 1) * 0.08, color: col.edge }
-      }
-      return data
-    }
-  })
-
-  sigma.on('clickNode', (e) => {
-    const node = store.getNodeById(e.node)
-    if (node) emit('node-click', node)
-  })
-
-  sigma.on('enterNode', (e) => {
-    hoveredNode = e.node
-    const n = store.getNodeById(e.node)
-    if (n) {
-      tooltip.visible = true
-      tooltip.name = n.name || n.id
-      tooltip.type = typeLabel(n.type)
-      tooltip.degree = store.getNodeDegree(n.id)
-      tooltip.latin = n.latinName || ''
-      tooltip.status = n.status || ''
-    }
-    sigma.refresh()
-  })
-
-  sigma.on('leaveNode', () => {
-    hoveredNode = null
-    tooltip.visible = false
-    sigma.refresh()
-  })
-
-  sigma.getCamera().animatedReset({ duration: 300 })
-}
-
-function typeLabel(t) {
-  return { bird: '鸟类', location: '地点', habitat: '栖息地', status: '保护等级', threat: '威胁因素', taxonomy: '分类单元' }[t] || t
-}
-
-function updateTooltipPos(e) {
-  if (!tooltip.visible) return
-  const container = containerRef.value
-  if (!container) return
-  const rect = container.getBoundingClientRect()
-  tooltip.style = {
-    left: (e.x || e.clientX) - rect.left + 14 + 'px',
-    top: (e.y || e.clientY) - rect.top - 10 + 'px'
+function cancelReturnAnimation() {
+  returnToken += 1
+  if (returnFrame) {
+    window.cancelAnimationFrame(returnFrame)
+    returnFrame = 0
   }
 }
 
-function startResizeObserver() {
-  if (!containerRef.value) return
-  resizeObserver = new ResizeObserver(() => {
-    const el = containerRef.value
-    if (!el) return
-    if (!sigma) { initSigma(); return }
-    if (el.clientWidth !== sigma.width || el.clientHeight !== sigma.height) {
-      sigma.kill(); sigma = null; initSigma()
+function materializeGraphData() {
+  const visibleNodes = store.nodes.filter(isNodeVisible)
+  const visibleIds = new Set(visibleNodes.map(node => node.id))
+  const layoutMap = buildUniformLayoutMap(visibleNodes)
+
+  const nodes = visibleNodes.map(rawNode => {
+    const cached = cachedNodes.get(rawNode.id)
+    const nextNode = cached || { id: rawNode.id }
+    const home = resolveNodeHome(rawNode, layoutMap)
+    const previewNode = isPreviewNode(rawNode)
+
+    nextNode.id = rawNode.id
+    nextNode.name = rawNode.name || rawNode.englishName || rawNode.id
+    nextNode.rawNode = rawNode
+    nextNode.type = rawNode.type
+    nextNode.color = previewNode ? PREVIEW_NODE_COLOR : DETAIL_NODE_COLOR
+    nextNode.opacity = previewNode ? 0.98 : 0.92
+    nextNode.distance = 0
+    nextNode.homeX = home.x
+    nextNode.homeY = home.y
+    nextNode.homeZ = home.z
+
+    if (!isWakeNode(nextNode.id)) {
+      pinNodeToHome(nextNode)
+    } else {
+      if (!Number.isFinite(nextNode.x)) nextNode.x = nextNode.homeX
+      if (!Number.isFinite(nextNode.y)) nextNode.y = nextNode.homeY
+      if (!Number.isFinite(nextNode.z)) nextNode.z = nextNode.homeZ
+      releaseNode(nextNode)
     }
+
+    cachedNodes.set(rawNode.id, nextNode)
+    return nextNode
   })
-  resizeObserver.observe(containerRef.value)
+
+  const links = store.links
+    .filter(link => visibleIds.has(link.source) && visibleIds.has(link.target))
+    .map(link => ({
+      source: link.source,
+      target: link.target,
+      relation: link.relation,
+      distance: linkDistance(link)
+    }))
+
+  return { nodes, links }
 }
 
-watch(() => [props.birdLimit, props.labelMode, props.focusEntityId, props.activeTypes.join(','), props.darkMode],
-  () => {
-    hoveredNode = null; tooltip.visible = false
-    if (sigma) { sigma.kill(); sigma = null }
-    setTimeout(initSigma, 50)
+function applyFrozenAnchors() {
+  if (!graph) return
+  for (const node of graph.graphData().nodes) {
+    if (isWakeNode(node.id)) continue
+    pinNodeToHome(node)
+  }
+  graph.cooldownTicks(0)
+}
+
+function ensureGraph() {
+  if (graph || !graphRef.value) return
+
+  graph = ForceGraph3D()(graphRef.value)
+    .backgroundColor(props.darkMode ? BACKGROUND_DARK : BACKGROUND_LIGHT)
+    .showNavInfo(false)
+    .enableNodeDrag(true)
+    .nodeOpacity(1)
+    .linkOpacity(0.2)
+    .linkWidth(() => 0.36)
+    .linkColor(() => LINK_COLOR)
+    .linkDirectionalParticles(0)
+    .nodeLabel(buildTooltip)
+    .nodeThreeObject(node => buildNodeObject(node))
+    .onNodeClick(node => {
+      if (!node?.rawNode) return
+      emit('node-click', node.rawNode)
+    })
+    .onNodeHover(node => {
+      if (!graphRef.value) return
+      graphRef.value.style.cursor = node ? 'pointer' : 'grab'
+    })
+    .onNodeDrag(node => {
+      if (!node?.id) return
+      activateLocalWake(node.id)
+    })
+    .onNodeDragEnd(node => {
+      if (!node?.id) return
+      releaseNode(node)
+      startReturnToHome(node.id)
+    })
+
+  graph.d3Force('charge').strength(node => {
+    if (!isWakeNode(node?.id)) return -2
+    return isPreviewNode(node) ? -56 : -32
+  })
+  graph.d3Force('link').distance(link => link.distance).strength(link => {
+    if (link.relation === 'belongs_to_family' || link.relation === 'belongs_to_order') return 0.18
+    return 0.12
+  })
+  graph.d3VelocityDecay(0.78)
+  graph.cooldownTicks(0)
+  graph.cameraPosition({ x: 0, y: 0, z: 1750 }, { x: 0, y: 0, z: 0 }, 0)
+
+  const controls = graph.controls()
+  controls.enableDamping = true
+  controls.dampingFactor = 0.08
+  controls.rotateSpeed = 0.72
+  controls.zoomSpeed = 0.95
+  controls.panSpeed = 0.9
+  controls.minDistance = 120
+  controls.maxDistance = 4200
+
+  resizeGraph()
+}
+
+function activateLocalWake(centerId) {
+  if (!graph) return
+  if (dragState.centerId === centerId && dragState.wakeIds.length) return
+
+  cancelReturnAnimation()
+  const wakeIds = getWakeIds(centerId)
+  if (!wakeIds.length) return
+
+  dragState.centerId = centerId
+  dragState.wakeIds = wakeIds
+
+  for (const node of graph.graphData().nodes) {
+    if (wakeIds.includes(node.id)) {
+      releaseNode(node)
+      continue
+    }
+    pinNodeToHome(node)
+  }
+
+  graph.cooldownTicks(70)
+  graph.d3VelocityDecay(0.48)
+  graph.d3ReheatSimulation()
+}
+
+function startReturnToHome(centerId) {
+  if (!graph) return
+
+  const wakeIds = dragState.wakeIds.length ? [...dragState.wakeIds] : getWakeIds(centerId)
+  if (!wakeIds.length) return
+
+  cancelReturnAnimation()
+  const token = returnToken
+  let frame = 0
+
+  graph.cooldownTicks(0)
+
+  const step = () => {
+    if (!graph || token !== returnToken) return
+
+    frame += 1
+    let settled = true
+
+    for (const node of graph.graphData().nodes) {
+      if (!wakeIds.includes(node.id)) continue
+
+      ensureHomePosition(node)
+
+      node.x += (node.homeX - node.x) * RETURN_EASE
+      node.y += (node.homeY - node.y) * RETURN_EASE
+      node.z += (node.homeZ - node.z) * RETURN_EASE
+
+      if (
+        Math.abs(node.homeX - node.x) > 0.6 ||
+        Math.abs(node.homeY - node.y) > 0.6 ||
+        Math.abs(node.homeZ - node.z) > 0.6
+      ) {
+        settled = false
+      }
+    }
+
+    if (!settled && frame < MAX_RETURN_FRAMES) {
+      returnFrame = window.requestAnimationFrame(step)
+      return
+    }
+
+    for (const node of graph.graphData().nodes) {
+      if (!wakeIds.includes(node.id)) continue
+      pinNodeToHome(node)
+    }
+
+    dragState.centerId = ''
+    dragState.wakeIds = []
+    graph.d3VelocityDecay(0.78)
+    graph.cooldownTicks(0)
+    returnFrame = 0
+  }
+
+  returnFrame = window.requestAnimationFrame(step)
+}
+
+function updateGraph(forceFit = false) {
+  if (!graph) return
+  graph.graphData(materializeGraphData())
+  applyFrozenAnchors()
+
+  if (forceFit) scheduleZoomToFit(220)
+}
+
+function scheduleRender(forceFit = false) {
+  if (renderTimer) window.clearTimeout(renderTimer)
+  renderTimer = window.setTimeout(() => {
+    renderTimer = 0
+    updateGraph(forceFit)
+  }, 28)
+}
+
+function getGraphBounds() {
+  if (!graph) return null
+  const nodes = graph.graphData().nodes || []
+  if (!nodes.length) return null
+
+  let minX = Infinity
+  let maxX = -Infinity
+  let minY = Infinity
+  let maxY = -Infinity
+  let minZ = Infinity
+  let maxZ = -Infinity
+
+  for (const node of nodes) {
+    const x = Number.isFinite(node.x) ? node.x : node.homeX
+    const y = Number.isFinite(node.y) ? node.y : node.homeY
+    const z = Number.isFinite(node.z) ? node.z : node.homeZ
+    if (!Number.isFinite(x) || !Number.isFinite(y) || !Number.isFinite(z)) continue
+
+    minX = Math.min(minX, x)
+    maxX = Math.max(maxX, x)
+    minY = Math.min(minY, y)
+    maxY = Math.max(maxY, y)
+    minZ = Math.min(minZ, z)
+    maxZ = Math.max(maxZ, z)
+  }
+
+  if (!Number.isFinite(minX)) return null
+
+  return {
+    center: {
+      x: (minX + maxX) / 2,
+      y: (minY + maxY) / 2,
+      z: (minZ + maxZ) / 2
+    },
+    span: {
+      x: Math.max(1, maxX - minX),
+      y: Math.max(1, maxY - minY),
+      z: Math.max(1, maxZ - minZ)
+    }
+  }
+}
+
+function scheduleZoomToFit(delay = 0) {
+  if (!graph) return
+  if (fitTimer) window.clearTimeout(fitTimer)
+
+  fitTimer = window.setTimeout(() => {
+    fitTimer = 0
+
+    const bounds = getGraphBounds()
+    if (!bounds) return
+
+    const canvasWidth = Math.max(1, graph.width() || graphRef.value?.clientWidth || 1)
+    const canvasHeight = Math.max(1, graph.height() || graphRef.value?.clientHeight || 1)
+    const aspect = canvasWidth / canvasHeight
+    const camera = graph.camera()
+    const verticalFov = THREE.MathUtils.degToRad(camera.fov || 40)
+    const horizontalFov = 2 * Math.atan(Math.tan(verticalFov / 2) * aspect)
+
+    const fitWidthDistance = (bounds.span.x * 0.54 + 80) / Math.tan(horizontalFov / 2)
+    const fitHeightDistance = (bounds.span.y * 0.54 + 80) / Math.tan(verticalFov / 2)
+    const depthDistance = bounds.span.z * 1.8 + 260
+    const distance = Math.max(420, fitWidthDistance, fitHeightDistance, depthDistance)
+
+    graph.cameraPosition(
+      {
+        x: bounds.center.x,
+        y: bounds.center.y,
+        z: bounds.center.z + distance
+      },
+      bounds.center,
+      900
+    )
+  }, delay)
+}
+
+function resizeGraph() {
+  if (!graph || !graphRef.value) return
+  graph.width(graphRef.value.clientWidth)
+  graph.height(graphRef.value.clientHeight)
+}
+
+function focusNode(nodeId) {
+  if (!graph || !nodeId) return
+
+  const node = graph.graphData().nodes.find(item => item.id === nodeId)
+  if (!node) return
+  ensureHomePosition(node)
+
+  const targetX = Number.isFinite(node.x) ? node.x : node.homeX
+  const targetY = Number.isFinite(node.y) ? node.y : node.homeY
+  const targetZ = Number.isFinite(node.z) ? node.z : node.homeZ
+
+  graph.cameraPosition(
+    {
+      x: targetX,
+      y: targetY,
+      z: targetZ + 210
+    },
+    { x: targetX, y: targetY, z: targetZ },
+    750
+  )
+}
+
+function startResizeObserver() {
+  if (!graphRef.value || resizeObserver) return
+
+  resizeObserver = new ResizeObserver(() => {
+    resizeGraph()
   })
 
-watch(() => props.highlightPath, () => {
-  if (!sigma || !graph) return
-  const col = c()
-  graph.forEachNode(nid => {
-    const inPath = props.highlightPath.includes(nid)
-    graph.setNodeAttribute(nid, 'highlight', inPath)
-  })
-  graph.forEachEdge(eid => {
-    const [s, t] = graph.extremities(eid)
-    const inPath = props.highlightPath.includes(s) && props.highlightPath.includes(t)
-    graph.setEdgeAttribute(eid, 'color', inPath ? col.edgePath : col.edge)
-    graph.setEdgeAttribute(eid, 'size', inPath ? 3 : 1)
-  })
-  sigma.refresh()
-}, { deep: true })
+  resizeObserver.observe(graphRef.value)
+}
 
-onMounted(() => {
-  if (store.loaded) setTimeout(initSigma, 100)
+onMounted(async () => {
+  await nextTick()
+  ensureGraph()
   startResizeObserver()
-  window.addEventListener('mousemove', updateTooltipPos)
+
+  if (store.loaded) {
+    updateGraph(true)
+  }
 })
 
-watch(() => store.loaded, (v) => { if (v) setTimeout(initSigma, 100) })
+watch(() => store.loaded, async value => {
+  if (!value) return
+  await nextTick()
+  ensureGraph()
+  updateGraph(true)
+})
+
+watch(
+  () => [
+    store.nodeCount,
+    store.linkCount,
+    store.lastMutation?.serial || 0,
+    store.activeNodeId,
+    props.activeTypes.join(','),
+    props.darkMode
+  ],
+  () => {
+    if (!graph) return
+    graph.backgroundColor(props.darkMode ? BACKGROUND_DARK : BACKGROUND_LIGHT)
+    scheduleRender()
+  }
+)
+
+watch(() => store.focusRequest.nonce, () => {
+  if (!store.focusRequest.id) return
+  focusNode(store.focusRequest.id)
+})
+
+watch(() => store.fitRequest.nonce, () => {
+  if (!graph) return
+  scheduleZoomToFit(40)
+})
 
 onBeforeUnmount(() => {
-  window.removeEventListener('mousemove', updateTooltipPos)
+  cancelReturnAnimation()
+  if (renderTimer) window.clearTimeout(renderTimer)
+  if (fitTimer) window.clearTimeout(fitTimer)
   if (resizeObserver) resizeObserver.disconnect()
-  if (sigma) { sigma.kill(); sigma = null }
+  if (graph) {
+    graph.pauseAnimation()
+  }
+  graph = null
 })
 </script>
 
 <style scoped>
-.sigma-wrapper { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
-
-.sigma-tooltip {
-  position: absolute; z-index: 10; pointer-events: none;
-  padding: 12px 16px; border-radius: 14px;
-  background: var(--card-bg, rgba(255, 255, 255, 0.97));
-  border: 1px solid var(--panel-border, rgba(79, 140, 247, 0.2));
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
-  backdrop-filter: blur(12px);
-  white-space: nowrap;
-  min-width: 120px;
+.page-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
 }
-.tooltip-name { font-weight: 700; font-size: 15px; color: var(--heading-color, #12303b); }
-.tooltip-type { font-size: 11px; color: var(--text-secondary, rgba(18, 48, 59, 0.55)); margin-top: 2px; text-transform: uppercase; letter-spacing: 0.05em; }
-.tooltip-latin { font-size: 12px; font-style: italic; color: var(--text-secondary, rgba(18, 48, 59, 0.5)); margin-top: 3px; padding-top: 6px; border-top: 1px solid rgba(0,0,0,0.06); }
-.tooltip-footer { display: flex; align-items: center; gap: 8px; margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(0,0,0,0.06); }
-.tooltip-degree { font-size: 11px; color: var(--accent, #4f8cf7); font-weight: 600; }
-.tooltip-badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 10px; font-weight: 700; color: #fff; letter-spacing: 0.03em; }
-.badge-cr { background: #ef4444; } .badge-en { background: #f97316; } .badge-vu { background: #eab308; color: #1e293b; } .badge-nt { background: #22c55e; } .badge-lc { background: #16a34a; }
+
+.graph-stage {
+  position: absolute;
+  inset: 0;
+  cursor: grab;
+}
 </style>
