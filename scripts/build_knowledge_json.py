@@ -558,40 +558,50 @@ def build_graph() -> Dict:
     incoming_birds: DefaultDict[str, List[str]] = defaultdict(list)
     grouped_values: DefaultDict[str, DefaultDict[str, List[str]]] = defaultdict(lambda: defaultdict(list))
 
+    errors: List[str] = []
     for index, row in enumerate(relations_rows, start=2):
         predicate = row["predicate"]
         subject_type = row["subject_type"]
         object_type = row["object_type"]
 
         if predicate not in RELATION_LABELS:
-            raise ValueError(f"relations.csv 第 {index} 行存在不支持的 predicate: {predicate}")
+            errors.append(f"relations.csv 第 {index} 行存在不支持的 predicate: {predicate}")
+            continue
         if subject_type != "Bird":
-            raise ValueError(f"relations.csv 第 {index} 行 subject_type 必须为 Bird，当前为 {subject_type}")
+            errors.append(f"relations.csv 第 {index} 行 subject_type 必须为 Bird，当前为 {subject_type}")
+            continue
         if object_type not in ENTITY_TYPE_TO_NODE_TYPE:
-            raise ValueError(f"relations.csv 第 {index} 行 object_type 不支持: {object_type}")
+            errors.append(f"relations.csv 第 {index} 行 object_type 不支持: {object_type}")
+            continue
 
         subject_node = birds_by_id.get(row["subject_id"]) or birds_by_name.get(row["subject"])
         if not subject_node:
-            raise ValueError(f"relations.csv 第 {index} 行无法找到鸟类实体: {row['subject_id'] or row['subject']}")
+            errors.append(f"relations.csv 第 {index} 行无法找到鸟类实体: {row['subject_id'] or row['subject']}")
+            continue
         if row["subject"] and row["subject"] != subject_node["name"]:
-            raise ValueError(f"relations.csv 第 {index} 行 subject 与 birds.csv 不一致: {row['subject']} != {subject_node['name']}")
+            errors.append(f"relations.csv 第 {index} 行 subject 与 birds.csv 不一致: {row['subject']} != {subject_node['name']}")
+            continue
 
         object_id = row["object_id"]
         object_name = row["object"]
         if not object_name:
-            raise ValueError(f"relations.csv 第 {index} 行 object 不能为空")
+            errors.append(f"relations.csv 第 {index} 行 object 不能为空")
+            continue
 
         if object_type == "Location":
             object_node = locations_by_id.get(object_id) or locations_by_name.get(object_name)
             if not object_node:
-                raise ValueError(f"relations.csv 第 {index} 行无法找到地点实体: {object_id or object_name}")
+                errors.append(f"relations.csv 第 {index} 行无法找到地点实体: {object_id or object_name}")
+                continue
             if row["object"] and row["object"] != object_node["name"]:
-                raise ValueError(f"relations.csv 第 {index} 行 object 与 locations.csv 不一致: {row['object']} != {object_node['name']}")
+                errors.append(f"relations.csv 第 {index} 行 object 与 locations.csv 不一致: {row['object']} != {object_node['name']}")
+                continue
             resolved_object_id = object_node["id"]
         elif object_type == "Bird":
             object_node = birds_by_id.get(object_id) or birds_by_name.get(object_name)
             if not object_node:
-                raise ValueError(f"relations.csv 第 {index} 行无法找到鸟类实体对象: {object_id or object_name}")
+                errors.append(f"relations.csv 第 {index} 行无法找到鸟类实体对象: {object_id or object_name}")
+                continue
             resolved_object_id = object_node["id"]
         else:
             resolved_object_id = object_id or stable_generated_id(object_type, object_name)
@@ -612,13 +622,15 @@ def build_graph() -> Dict:
                 relation_targets[resolved_object_id] = object_node
                 nodes[resolved_object_id] = object_node
             elif object_node["name"] != object_name:
-                raise ValueError(
+                errors.append(
                     f"relations.csv 第 {index} 行 object_id {resolved_object_id} 重复，但 object 名称不一致: "
                     f"{object_node['name']} != {object_name}"
                 )
+                continue
             elif row["object_summary"] and object_node["summary"].startswith("依据 relations.csv 自动生成"):
                 object_node["summary"] = row["object_summary"]
 
+<<<<<<< HEAD
         add_unique_link(
             links,
             existing_link_keys,
@@ -627,9 +639,22 @@ def build_graph() -> Dict:
             predicate,
             RELATION_LABELS[predicate],
             row["evidence"],
+=======
+        links.append(
+            {
+                "source": subject_node["id"],
+                "target": resolved_object_id,
+                "relation": predicate,
+                "label": RELATION_LABELS[predicate],
+                "evidence": row["evidence"][:200],
+            }
+>>>>>>> 3e7e7d71667fe63ac878445a6cffcb95522db898
         )
         incoming_birds[resolved_object_id].append(subject_node["name"])
         grouped_values[subject_node["id"]][predicate].append(object_name)
+
+    if errors:
+        raise ValueError("\n".join(errors))
 
     for bird in birds_by_id.values():
         bird["locations"] = compact(grouped_values[bird["id"]]["distributed_in"])
