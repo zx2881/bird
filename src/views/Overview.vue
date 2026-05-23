@@ -1,6 +1,9 @@
 <template>
   <div class="overview-page">
     <h2 class="page-title">数据概览</h2>
+    <div v-if="store.overviewLoading && !store.overviewLoaded" class="overview-loading">正在加载概览数据…</div>
+    <div v-else-if="!overviewBirds.length" class="overview-loading">暂无概览数据，请先运行 npm run build:data</div>
+    <template v-else>
     <div class="charts-row">
       <div class="panel chart-panel">
         <h3 class="chart-title">按大洲统计</h3>
@@ -22,6 +25,7 @@
       <h3 class="chart-title">按濒危等级统计</h3>
       <div ref="endangermentChartRef" class="chart-canvas tall"></div>
     </div>
+    </template>
   </div>
 </template>
 
@@ -45,10 +49,12 @@ let mapInstance = null, markersLayer = null
 
 const endangermentLabels = { CR: '极危 (CR)', EN: '濒危 (EN)', VU: '易危 (VU)', NT: '近危 (NT)', LC: '无危 (LC)' }
 
+const overviewBirds = computed(() => store.overviewBirds)
+
 const continentData = computed(() => {
   const counts = {}
-  store.birdNodes.forEach(bird => {
-    const c = store.getBirdContinent(bird.id)
+  overviewBirds.value.forEach(bird => {
+    const c = bird.continent || store.getContinent(bird.lat, bird.lng)
     counts[c] = (counts[c] || 0) + 1
   })
   return Object.entries(counts).filter(([k]) => k !== '未知').sort((a, b) => b[1] - a[1])
@@ -56,7 +62,7 @@ const continentData = computed(() => {
 
 const habitatData = computed(() => {
   const counts = {}
-  store.birdNodes.forEach(bird => {
+  overviewBirds.value.forEach(bird => {
     if (bird.habitats) bird.habitats.forEach(h => { counts[h] = (counts[h] || 0) + 1 })
   })
   return Object.entries(counts).sort((a, b) => b[1] - a[1])
@@ -64,7 +70,7 @@ const habitatData = computed(() => {
 
 const endangermentData = computed(() => {
   const counts = {}
-  store.birdNodes.forEach(bird => { const s = bird.status || 'LC'; counts[s] = (counts[s] || 0) + 1 })
+  overviewBirds.value.forEach(bird => { const s = bird.status || 'LC'; counts[s] = (counts[s] || 0) + 1 })
   return Object.entries(counts).sort((a, b) => {
     const order = ['CR', 'EN', 'VU', 'NT', 'LC']
     return order.indexOf(a[0]) - order.indexOf(b[0])
@@ -128,7 +134,7 @@ function initOverviewMap() {
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18,
     attribution: '&copy; OpenStreetMap contributors' }).addTo(mapInstance)
   markersLayer = L.layerGroup().addTo(mapInstance)
-  store.birdNodes.forEach(bird => {
+  overviewBirds.value.forEach(bird => {
     if (bird.lat == null || bird.lng == null) return
     const marker = L.marker([bird.lat, bird.lng])
     marker.bindPopup(`<strong>${bird.name}</strong><br/><em>${bird.englishName || ''}</em><br/>` +
@@ -146,7 +152,7 @@ function handleResize() {
 }
 
 onMounted(async () => {
-  if (!store.loaded) await store.loadData()
+  await store.loadOverviewData()
   await nextTick()
   setTimeout(() => {
     initContinentChart(); initHabitatChart(); initEndangermentChart(); initOverviewMap()
@@ -162,6 +168,7 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .overview-page { display: flex; flex-direction: column; gap: 18px; }
+.overview-loading { padding: 48px 24px; text-align: center; color: var(--text-secondary); font-size: 15px; }
 .page-title { margin: 0; font-size: 24px; font-family: "Alegreya", "Source Han Serif SC", "Noto Serif SC", serif; color: var(--heading-color); }
 .charts-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 .chart-panel { padding: 18px; border: 1px solid var(--panel-border); border-radius: 24px; background: var(--panel-bg); box-shadow: var(--shadow); backdrop-filter: blur(14px); }

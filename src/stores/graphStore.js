@@ -135,9 +135,13 @@ export const useGraphStore = defineStore('graph', () => {
   const previewLoading = ref(false)
   const previewLoaded = ref(false)
   const previewLoadProgress = ref({ loaded: 0, total: 0, failed: 0 })
+  const overviewBirds = ref([])
+  const overviewLoading = ref(false)
+  const overviewLoaded = ref(false)
 
   let initialPromise = null
   let previewPromise = null
+  let overviewPromise = null
   const chunkPromises = new Map()
   let mutationSerial = 0
 
@@ -344,6 +348,40 @@ export const useGraphStore = defineStore('graph', () => {
     return promise
   }
 
+  function normalizeOverviewBird(bird) {
+    return {
+      id: bird.id,
+      name: bird.name,
+      englishName: bird.englishName || '',
+      status: bird.status || '',
+      habitats: uniqueStrings(bird.habitats),
+      lat: toNumber(bird.lat),
+      lng: toNumber(bird.lng),
+      continent: bird.continent || ''
+    }
+  }
+
+  async function loadOverviewData() {
+    await loadInitialData()
+
+    if (overviewLoaded.value) return overviewBirds.value
+    if (overviewPromise) return overviewPromise
+
+    overviewLoading.value = true
+    overviewPromise = fetchJson('data/overview.json')
+      .then(payload => {
+        overviewBirds.value = (payload.birds || []).map(normalizeOverviewBird)
+        overviewLoaded.value = true
+        return overviewBirds.value
+      })
+      .finally(() => {
+        overviewLoading.value = false
+        overviewPromise = null
+      })
+
+    return overviewPromise
+  }
+
   async function loadGraphPreview() {
     await loadInitialData()
 
@@ -522,6 +560,9 @@ export const useGraphStore = defineStore('graph', () => {
     previewLoading,
     previewLoaded,
     previewLoadProgress,
+    overviewBirds,
+    overviewLoading,
+    overviewLoaded,
     birdNodes,
     locationNodes,
     habitatNodes,
@@ -538,6 +579,7 @@ export const useGraphStore = defineStore('graph', () => {
     loadInitialData,
     loadNodeChunk,
     loadGraphPreview,
+    loadOverviewData,
     ensureBirdLoaded,
     requestNodeFocus,
     requestGraphFit,

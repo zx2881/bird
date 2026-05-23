@@ -630,7 +630,6 @@ def build_graph() -> Dict:
             elif row["object_summary"] and object_node["summary"].startswith("依据 relations.csv 自动生成"):
                 object_node["summary"] = row["object_summary"]
 
-<<<<<<< HEAD
         add_unique_link(
             links,
             existing_link_keys,
@@ -639,16 +638,6 @@ def build_graph() -> Dict:
             predicate,
             RELATION_LABELS[predicate],
             row["evidence"],
-=======
-        links.append(
-            {
-                "source": subject_node["id"],
-                "target": resolved_object_id,
-                "relation": predicate,
-                "label": RELATION_LABELS[predicate],
-                "evidence": row["evidence"][:200],
-            }
->>>>>>> 3e7e7d71667fe63ac878445a6cffcb95522db898
         )
         incoming_birds[resolved_object_id].append(subject_node["name"])
         grouped_values[subject_node["id"]][predicate].append(object_name)
@@ -984,6 +973,40 @@ def serialize_overview_link(link: Dict) -> Dict:
     }
 
 
+def get_continent(lat: Optional[float], lng: Optional[float]) -> str:
+    if lat is None or lng is None:
+        return "未知"
+    if -30 <= lng <= 60 and -35 <= lat <= 37:
+        return "非洲"
+    if -180 <= lng <= -30 and 7 <= lat <= 83:
+        return "北美洲"
+    if -90 <= lng <= -30 and -60 <= lat <= 7:
+        return "南美洲"
+    if 60 <= lng <= 180 and -10 <= lat <= 80:
+        return "亚洲"
+    if -30 <= lng <= 60 and 36 <= lat <= 70:
+        return "欧洲"
+    if (100 <= lng <= 180 and -55 <= lat <= -10) or (-180 <= lng <= -140 and -25 <= lat <= 20):
+        return "大洋洲"
+    if lat <= -55:
+        return "南极洲"
+    return "未知"
+
+
+def serialize_overview_bird(node: Dict) -> Dict:
+    data = {
+        "id": node["id"],
+        "name": node["name"],
+        "englishName": node.get("englishName", ""),
+        "status": node.get("status", "") or "LC",
+        "habitats": node.get("habitats", []),
+        "lat": node.get("lat"),
+        "lng": node.get("lng"),
+        "continent": get_continent(node.get("lat"), node.get("lng")),
+    }
+    return {key: value for key, value in data.items() if value not in ("", None)}
+
+
 def serialize_preview_node(node: Dict) -> Dict:
     data = {
         "id": node["id"],
@@ -1163,6 +1186,23 @@ def write_output_files(graph: Dict) -> None:
     }
     (OUTPUT_DIR / "graph_preview.json").write_text(
         json.dumps(preview_payload, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+    overview_birds = [serialize_overview_bird(node) for node in bird_nodes]
+    overview_payload = {
+        "meta": {
+            **meta,
+            "counts": {
+                "birds": len(overview_birds),
+                "withCoordinates": sum(1 for bird in overview_birds if bird.get("lat") is not None and bird.get("lng") is not None),
+            },
+            "scope": "overview-dashboard",
+        },
+        "birds": overview_birds,
+    }
+    (OUTPUT_DIR / "overview.json").write_text(
+        json.dumps(overview_payload, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
 

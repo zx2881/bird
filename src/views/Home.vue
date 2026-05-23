@@ -52,13 +52,6 @@
               <span class="metric-label">当前关系</span>
             </div>
           </div>
-          <p class="panel-note">{{ loadSummary }}</p>
-        </section>
-
-        <section class="panel guide-panel">
-          <h3 class="panel-title">探索方式</h3>
-          <p class="panel-note">首屏只铺开轻量预览节点，按统一散点方式填满画布，不再先画一层分类骨架。</p>
-          <p class="panel-note">搜索或点击节点时，前端才会继续请求 `nodes/[node_id].json`，把该节点的一度邻域织入当前图谱。</p>
         </section>
 
         <section class="panel export-panel">
@@ -74,7 +67,7 @@
       <section class="graph-panel">
         <div class="graph-header">
           <div>
-            <h2>3D 分片异步鸟类知识图谱</h2>
+            <h2>鸟类知识图谱</h2>
             <p class="graph-summary">{{ graphSummary }}</p>
           </div>
           <div class="legend">
@@ -102,7 +95,7 @@
           </div>
           <div class="toolbar-group compact">
             <span class="toolbar-label">标签策略</span>
-            <p class="toolbar-copy">画布上默认不常驻文本标签，悬停节点时通过提示层查看名称与分类。</p>
+            <p class="toolbar-copy">悬停节点可查看名称与分类。</p>
           </div>
           <div class="toolbar-actions">
             <button type="button" class="pill reset-btn" @click="resetContextFilters">重置视图</button>
@@ -112,7 +105,7 @@
         <div ref="containerRef" class="graph-canvas">
           <div v-if="showInitialLoading" class="graph-loading">
             <div class="loading-spinner"></div>
-            <p>正在加载搜索索引与轻量总览图…</p>
+            <p>正在加载…</p>
           </div>
           <SigmaCanvas
             v-else
@@ -146,8 +139,8 @@ const searchResults = ref([])
 const activeContextTypes = ref(['location', 'habitat', 'status', 'threat'])
 
 const legendItems = [
-  { label: '首屏轻量节点', color: '#eaf3ff' },
-  { label: '按需展开节点', color: '#9fc0ff' }
+  { label: '鸟类', color: '#eaf3ff' },
+  { label: '关联实体', color: '#9fc0ff' }
 ]
 
 const filterableTypeItems = [
@@ -160,32 +153,16 @@ const filterableTypeItems = [
 const showInitialLoading = computed(() => !store.loaded || (store.previewLoading && store.nodeCount === 0))
 
 const graphSummary = computed(() => {
-  if (!store.loaded) return '首屏正在加载 summary.json 与轻量总览图入口。'
-  if (store.previewLoading && store.nodeCount === 0) {
-    return '正在请求 graph_preview.json，并把全部预览节点按统一分布铺到 3D 画布上。'
+  if (!store.loaded || (store.previewLoading && store.nodeCount === 0)) {
+    return '正在加载图谱…'
   }
   if (store.previewLoading) {
-    return `轻量总览图正在继续织入，当前已入图 ${store.loadedBirdCount}/${store.totalBirdCount} 种，节点 ${store.nodeCount} 个，关系 ${store.linkCount} 条。`
+    return `已载入 ${store.loadedBirdCount}/${store.totalBirdCount} 种鸟类`
   }
   if (store.previewLoaded) {
-    return `首页轻量总览图已载入全部 ${store.totalBirdCount} 种鸟类的基础节点；当前画布采用统一散点排布，点击节点时再按需请求对应分片详情。`
+    return `共 ${store.totalBirdCount} 种鸟类 · ${store.nodeCount} 个节点 · ${store.linkCount} 条关系`
   }
-  return `当前画布中已织入 ${store.nodeCount} 个节点、${store.linkCount} 条关系；其中 ${store.loadedBirdCount}/${store.totalBirdCount} 种鸟类已按需载入。`
-})
-
-const loadSummary = computed(() => {
-  if (!store.loaded) return '首屏只加载轻量搜索索引，不把全量详情属性一次性塞进浏览器内存。'
-  if (store.previewLoading && store.nodeCount === 0) {
-    return `正在后台加载 graph_preview.json：${store.previewLoadProgress.loaded}/${store.previewLoadProgress.total}，失败 ${store.previewLoadProgress.failed}。`
-  }
-  if (store.previewLoading) {
-    return `正在后台加载 graph_preview.json：${store.previewLoadProgress.loaded}/${store.previewLoadProgress.total}，失败 ${store.previewLoadProgress.failed}。`
-  }
-  if (store.previewLoaded) {
-    return '首页已经完成轻量总览加载。图中节点当前只带基础名字与轻量关系，详情属性会在点击后再请求 nodes/[node_id].json。'
-  }
-  const expandedChunks = Math.max(0, store.loadedChunkCount - 1)
-  return `当前已展开 ${expandedChunks} 个局部切片。后续每次搜索或点击节点，只会额外请求对应的静态 JSON 分片。`
+  return `${store.nodeCount} 个节点 · ${store.linkCount} 条关系`
 })
 
 const handleSearch = useDebounceFn(() => {
