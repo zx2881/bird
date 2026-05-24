@@ -106,7 +106,11 @@ FOREIGN_LANGUAGE_MARKERS = (
 def read_csv(path: Path) -> List[Dict[str, str]]:
     with path.open("r", encoding="utf-8-sig", newline="") as file:
         return [
-            {key: (value or "").strip() for key, value in row.items()}
+            {
+                key: str((value or "")).strip() if not isinstance(value, list) else ""
+                for key, value in row.items()
+                if key is not None
+            }
             for row in csv.DictReader(file)
         ]
 
@@ -630,7 +634,6 @@ def build_graph() -> Dict:
             elif row["object_summary"] and object_node["summary"].startswith("依据 relations.csv 自动生成"):
                 object_node["summary"] = row["object_summary"]
 
-<<<<<<< HEAD
         add_unique_link(
             links,
             existing_link_keys,
@@ -639,16 +642,6 @@ def build_graph() -> Dict:
             predicate,
             RELATION_LABELS[predicate],
             row["evidence"],
-=======
-        links.append(
-            {
-                "source": subject_node["id"],
-                "target": resolved_object_id,
-                "relation": predicate,
-                "label": RELATION_LABELS[predicate],
-                "evidence": row["evidence"][:200],
-            }
->>>>>>> 3e7e7d71667fe63ac878445a6cffcb95522db898
         )
         incoming_birds[resolved_object_id].append(subject_node["name"])
         grouped_values[subject_node["id"]][predicate].append(object_name)
