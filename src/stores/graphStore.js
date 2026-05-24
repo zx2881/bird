@@ -12,7 +12,8 @@ function toNumber(value) {
 }
 
 function makeAssetUrl(path) {
-  return `${import.meta.env.BASE_URL}${path}`
+  const base = import.meta.env.DEV ? '' : import.meta.env.BASE_URL
+  return `${base}${path}`
 }
 
 function normalizeNode(node) {
