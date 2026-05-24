@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T23:03:14",
+  "requested_title": "Lesser Horned Owl",
+  "resolved_title": "Lesser horned owl",
+  "title_aliases": [
+    "Lesser Horned Owl"
+  ],
+  "bird_id": "bird-lesser-horned-owl-46f3d917",
+  "raw_file": "bird-lesser-horned-owl-46f3d917.json",
+  "bird": {
+    "id": "bird-lesser-horned-owl-46f3d917",
+    "name": "Lesser horned owl",
+    "english_name": "Lesser horned owl",
+    "latin_name": "Bubo magellanicus",
+    "summary": "The lesser horned owl or Magellanic horned owl (Bubo magellanicus) is a large owl of the genus Bubo found in southern South America, extend…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bubo_magellanicus.jpg/960px-Bubo_magellanicus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lesser-horned-owl-46f3d917",
+      "subject": "Lesser horned owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The lesser horned owl or Magellanic horned owl (Bubo magellanicus) is a large owl of the genus Bubo found in southern South America, extending north to the central Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-horned-owl-46f3d917",
+      "subject": "Lesser horned owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The lesser horned owl or Magellanic horned owl (Bubo magellanicus) is a large owl of the genus Bubo found in southern South America, extending north to the central Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-horned-owl-46f3d917",
+      "subject": "Lesser horned owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bird occurs in a variety of habitats including open forest, scrubland, farmland and grassland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-horned-owl-46f3d917",
+      "subject": "Lesser horned owl",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The bird occurs in a variety of habitats including open forest, scrubland, farmland and grassland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-lesser-horned-owl-46f3d917",
+      "subject": "Lesser horned owl",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The bird occurs in a variety of habitats including open forest, scrubland, farmland and grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-lesser-horned-owl-46f3d917",
+      "subject": "Lesser horned owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

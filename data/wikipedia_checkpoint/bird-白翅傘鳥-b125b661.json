@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:20:43",
+  "requested_title": "White-winged Cotinga",
+  "resolved_title": "White-winged cotinga",
+  "title_aliases": [
+    "White-winged Cotinga"
+  ],
+  "bird_id": "bird-白翅傘鳥-b125b661",
+  "raw_file": "bird-白翅傘鳥-b125b661.json",
+  "bird": {
+    "id": "bird-白翅傘鳥-b125b661",
+    "name": "白翅傘鳥",
+    "english_name": "White-winged cotinga",
+    "latin_name": "Xipholena atropurpurea",
+    "summary": "白翅傘鳥（Xipholena atropurpurea）是巴西特有的一種傘鳥。牠們棲息在亞熱帶或熱帶的低地潮濕森林，但受到失去棲息地的威脅。 參考 外部連結 BirdLife Species Factsheet.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Xipholena_atropurpurea_460336823.jpg/960px-Xipholena_atropurpurea_460336823.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-白翅傘鳥-b125b661",
+      "subject": "白翅傘鳥",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-白翅傘鳥-b125b661",
+      "subject": "白翅傘鳥",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"This species is threatened by extensive and continuing deforestation, with nearly 60% of suitable habitat disappearing in the period 1980-1997",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

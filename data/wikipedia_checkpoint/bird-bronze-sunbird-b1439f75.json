@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:00:14",
+  "requested_title": "Bronze Sunbird",
+  "resolved_title": "Bronze sunbird",
+  "title_aliases": [
+    "Bronze Sunbird"
+  ],
+  "bird_id": "bird-bronze-sunbird-b1439f75",
+  "raw_file": "bird-bronze-sunbird-b1439f75.json",
+  "bird": {
+    "id": "bird-bronze-sunbird-b1439f75",
+    "name": "Bronze sunbird",
+    "english_name": "Bronze sunbird",
+    "latin_name": "Nectarinia kilimensis",
+    "summary": "The bronze sunbird (Nectarinia kilimensis) is a species of bird in the family Nectariniidae. It is native to the Bié Plateau (Angola) and e…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Bronze_Sunbird_%28Nectarinia_kilimensis%29_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-george-ernest-shelley-e53a6526",
+      "name": "George Ernest Shelley",
+      "summary": "Captain George Ernest Shelley (15 May 1840 – 29 November 1910) was an English geologist and ornithologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bronze-sunbird-b1439f75",
+      "subject": "Bronze sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-george-ernest-shelley-e53a6526",
+      "object": "George Ernest Shelley",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bronze sunbird (Nectarinia kilimensis) is a species of bird in the family Nectariniidae. It is native to the Bié Plateau (Angola) and eastern Afromontane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bronze-sunbird-b1439f75",
+      "subject": "Bronze sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

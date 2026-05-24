@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:07:20",
+  "requested_title": "Grauer's Cuckooshrike",
+  "resolved_title": "Grauer's cuckooshrike",
+  "title_aliases": [
+    "Grauer's Cuckooshrike"
+  ],
+  "bird_id": "bird-格氏鹃鵙-b078d94b",
+  "raw_file": "bird-格氏鹃鵙-b078d94b.json",
+  "bird": {
+    "id": "bird-格氏鹃鵙-b078d94b",
+    "name": "格氏鹃鵙",
+    "english_name": "Grauer's cuckooshrike",
+    "latin_name": "Ceblepyris graueri",
+    "summary": "格氏鹃鵙（学名：Coracina graueri）是山椒鸟科鸦鹃鵙属的一种。分布于刚果民主共和国和乌干达。其自然栖息地为亚热带或热带的湿润山地。该物种受栖息地破坏威胁。 参考文献 BirdLife International.",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-格氏鹃鵙-b078d94b",
+      "subject": "格氏鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in mid-elevation montane forests, where it can be locally common",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-格氏鹃鵙-b078d94b",
+      "subject": "格氏鹃鵙",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in mid-elevation montane forests, where it can be locally common",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-格氏鹃鵙-b078d94b",
+      "subject": "格氏鹃鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-格氏鹃鵙-b078d94b",
+      "subject": "格氏鹃鵙",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is potentially threatened by climate change, and it has not been recently reported from some areas where it was previously known. Other threats include deforestation",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    },
+    {
+      "subject_id": "bird-格氏鹃鵙-b078d94b",
+      "subject": "格氏鹃鵙",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is potentially threatened by climate change, and it has not been recently reported from some areas where it was previously known. Other threats include deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

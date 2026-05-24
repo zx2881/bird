@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:43:03",
+  "requested_title": "Yellow-rumped Flowerpecker",
+  "resolved_title": "Yellow-rumped flowerpecker",
+  "title_aliases": [
+    "Yellow-rumped Flowerpecker"
+  ],
+  "bird_id": "bird-加里曼丹啄花鸟-26181a40",
+  "raw_file": "bird-加里曼丹啄花鸟-26181a40.json",
+  "bird": {
+    "id": "bird-加里曼丹啄花鸟-26181a40",
+    "name": "加里曼丹啄花鸟",
+    "english_name": "Yellow-rumped flowerpecker",
+    "latin_name": "Prionochilus xanthopygius",
+    "summary": "加里曼丹啄花鸟（学名：Prionochilus xanthopygius），是啄花鸟科锯齿啄花鸟属的一种，分布于文莱、印度尼西亚和马来西亚。该物种的保护状况被评为无危。 加里曼丹啄花鸟的平均体重约为8.1克。栖息地包括亚热带或热带的沼泽林、亚热带或热带的湿润低地林和乡村花园。",
+    "lat": "2",
+    "lng": "112",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Yellow-rumped_Flowerpecker_2.png/960px-Yellow-rumped_Flowerpecker_2.png"
+  },
+  "locations": [
+    {
+      "id": "loc-马来西亚-3f6d0e1e",
+      "name": "马来西亚",
+      "summary": "馬來西亞（馬来语、英語：Malaysia），简称大馬或馬國，是位於东南亚的多元种族國家。由前馬來亚联合邦、北婆羅洲（今沙巴）、砂拉越及新加坡於1963年9月16日所組成的联邦制、议会民主制、选举君主制和君主立宪制國家。 馬来西亚全国总面积…",
+      "lat": "2",
+      "lng": "112"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-加里曼丹啄花鸟-26181a40",
+      "subject": "加里曼丹啄花鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来西亚-3f6d0e1e",
+      "object": "马来西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brunei, Indonesia, and Malaysia on the island of Borneo, to which it is endemic. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-加里曼丹啄花鸟-26181a40",
+      "subject": "加里曼丹啄花鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brunei, Indonesia, and Malaysia on the island of Borneo, to which it is endemic. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-加里曼丹啄花鸟-26181a40",
+      "subject": "加里曼丹啄花鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brunei, Indonesia, and Malaysia on the island of Borneo, to which it is endemic. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-加里曼丹啄花鸟-26181a40",
+      "subject": "加里曼丹啄花鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in Brunei, Indonesia, and Malaysia on the island of Borneo, to which it is endemic. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-加里曼丹啄花鸟-26181a40",
+      "subject": "加里曼丹啄花鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

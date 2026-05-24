@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:25:21",
+  "requested_title": "Orchard Oriole",
+  "resolved_title": "Orchard oriole",
+  "title_aliases": [
+    "Orchard Oriole"
+  ],
+  "bird_id": "bird-orchard-oriole-a2693974",
+  "raw_file": "bird-orchard-oriole-a2693974.json",
+  "bird": {
+    "id": "bird-orchard-oriole-a2693974",
+    "name": "Orchard oriole",
+    "english_name": "Orchard oriole",
+    "latin_name": "Icterus spurius",
+    "summary": "The orchard oriole (Icterus spurius) is the smallest species of icterid. The subspecies of the Caribbean coast of Mexico, I.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Orchard_Oriole_by_Dan_Pancamo_1.jpg/960px-Orchard_Oriole_by_Dan_Pancamo_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-美加邊界-a63b71af",
+      "name": "美加邊界",
+      "summary": "美加邊界（英語：Canada–United States border、法語：frontière Canada–États-Unis），是美國與加拿大之間的邊界，其官方名稱為國際界線（International Boundary）。陸路邊…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-orchard-oriole-a2693974",
+      "subject": "Orchard oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-美加邊界-a63b71af",
+      "object": "美加邊界",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "spurius breeds in spring across eastern North America from near the Canada–United States border south to central Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orchard-oriole-a2693974",
+      "subject": "Orchard oriole",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

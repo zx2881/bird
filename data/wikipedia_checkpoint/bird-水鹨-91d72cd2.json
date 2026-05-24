@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:51:08",
+  "requested_title": "Water Pipit",
+  "resolved_title": "Water pipit",
+  "title_aliases": [
+    "Water Pipit"
+  ],
+  "bird_id": "bird-水鹨-91d72cd2",
+  "raw_file": "bird-水鹨-91d72cd2.json",
+  "bird": {
+    "id": "bird-水鹨-91d72cd2",
+    "name": "水鹨",
+    "english_name": "Water pipit",
+    "latin_name": "Anthus spinoletta",
+    "summary": "水鹨（学名：Anthus spinoletta）又称冰鸡儿，为鶺鸰科鹨属的小型鸟类。繁殖於南歐和古北界的山區，向東延伸至中國。它屬於短途遷徙的候鳥；許多鳥類會在冬季遷移到較低的海拔或濕潤的開闊低地。 繁殖期的水鷚上部為灰褐色，帶有較淺的深褐色條紋，下部為淡粉褐色，腹部下方逐漸變…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Anthus_spinoletta_-_Water_Pipit%2C_Kahramanmara%C5%9F_2016-11-18_01-10.jpg/960px-Anthus_spinoletta_-_Water_Pipit%2C_Kahramanmara%C5%9F_2016-11-18_01-10.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南欧-748507ef",
+      "name": "南欧",
+      "summary": "南歐是歐洲南部的簡稱，範圍包括伊比利半島、義大利半島及巴爾幹半島的南部，由法國，葡萄牙、西班牙、義大利及希臘等國組成，有时也稱為地中海歐洲，因為大多南歐國家靠近地中海。南歐隔著地中海與亞、非洲相望，自古以來與西亞及北非往來密切，同是重要的…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-水鹨-91d72cd2",
+      "subject": "水鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-南欧-748507ef",
+      "object": "南欧",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "spinoletta | synonyms = *Alauda spinoletta }} The water pipit (Anthus spinoletta) is a small passerine bird which breeds in the mountains of Southern Europe and the Palearctic eastwards to China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-水鹨-91d72cd2",
+      "subject": "水鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "spinoletta | synonyms = *Alauda spinoletta }} The water pipit (Anthus spinoletta) is a small passerine bird which breeds in the mountains of Southern Europe and the Palearctic eastwards to China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-水鹨-91d72cd2",
+      "subject": "水鹨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

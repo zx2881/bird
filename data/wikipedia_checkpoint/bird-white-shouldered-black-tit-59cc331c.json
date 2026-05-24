@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:37:13",
+  "requested_title": "White-shouldered Black Tit",
+  "resolved_title": "White-shouldered black tit",
+  "title_aliases": [
+    "White-shouldered Black Tit"
+  ],
+  "bird_id": "bird-white-shouldered-black-tit-59cc331c",
+  "raw_file": "bird-white-shouldered-black-tit-59cc331c.json",
+  "bird": {
+    "id": "bird-white-shouldered-black-tit-59cc331c",
+    "name": "White-shouldered black tit",
+    "english_name": "White-shouldered black tit",
+    "latin_name": "Melaniparus guineensis",
+    "summary": "The white-shouldered black tit (Melaniparus guineensis), also known as the pale-eyed black tit, is a passerine bird in the tit family. It b…",
+    "lat": "14",
+    "lng": "-14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Melaniparus_guineensis_-_Zac_Peterson_-_608058640.jpeg/960px-Melaniparus_guineensis_-_Zac_Peterson_-_608058640.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-塞内加尔-8f96dd71",
+      "name": "塞内加尔",
+      "summary": "塞内加尔共和国（法語：République du Sénégal），通稱塞內加爾（法語：Sénégal），是西非国家，位于塞内加尔河的南岸，首都达喀尔。它的西边是大西洋，北边是毛里塔尼亚，东边是馬利，南边是几内亚和几内亚比绍。冈比亚在塞内…",
+      "lat": "14",
+      "lng": "-14"
+    },
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-shouldered-black-tit-59cc331c",
+      "subject": "White-shouldered black tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞内加尔-8f96dd71",
+      "object": "塞内加尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in a belt across Africa from Senegal in the west to Kenya and Ethiopia in the east",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-shouldered-black-tit-59cc331c",
+      "subject": "White-shouldered black tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in a belt across Africa from Senegal in the west to Kenya and Ethiopia in the east",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-shouldered-black-tit-59cc331c",
+      "subject": "White-shouldered black tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in a belt across Africa from Senegal in the west to Kenya and Ethiopia in the east",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-shouldered-black-tit-59cc331c",
+      "subject": "White-shouldered black tit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

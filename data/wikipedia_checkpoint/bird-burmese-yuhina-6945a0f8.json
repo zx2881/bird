@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:59:17",
+  "requested_title": "Burmese Yuhina",
+  "resolved_title": "Burmese yuhina",
+  "title_aliases": [
+    "Burmese Yuhina"
+  ],
+  "bird_id": "bird-burmese-yuhina-6945a0f8",
+  "raw_file": "bird-burmese-yuhina-6945a0f8.json",
+  "bird": {
+    "id": "bird-burmese-yuhina-6945a0f8",
+    "name": "Burmese yuhina",
+    "english_name": "Burmese yuhina",
+    "latin_name": "Yuhina humilis",
+    "summary": "The Burmese yuhina (Yuhina humilis) is a species of bird in the family Zosteropidae. It is found in Myanmar and Thailand.",
+    "lat": "22",
+    "lng": "96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Yuhina_humilis_-_Ian_Dugdale_-_546757472.jpeg/960px-Yuhina_humilis_-_Ian_Dugdale_-_546757472.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    },
+    {
+      "id": "loc-泰国-6e4d220d",
+      "name": "泰国",
+      "summary": "泰王国（泰語：ราชอาณาจักรไทย，皇家轉寫：Ratcha-anachak Thai），通稱泰国（泰語：ประเทศไทย，皇家轉寫：Prathet Thai），舊称暹罗（泰語：สยาม，皇家轉寫：Sayam），是东南亚的君主立宪…",
+      "lat": "15",
+      "lng": "101"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-burmese-yuhina-6945a0f8",
+      "subject": "Burmese yuhina",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Myanmar and Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-burmese-yuhina-6945a0f8",
+      "subject": "Burmese yuhina",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰国-6e4d220d",
+      "object": "泰国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Myanmar and Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-burmese-yuhina-6945a0f8",
+      "subject": "Burmese yuhina",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-burmese-yuhina-6945a0f8",
+      "subject": "Burmese yuhina",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

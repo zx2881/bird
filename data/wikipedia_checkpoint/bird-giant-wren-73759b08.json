@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:10:02",
+  "requested_title": "Giant Wren",
+  "resolved_title": "Giant wren",
+  "title_aliases": [
+    "Giant Wren"
+  ],
+  "bird_id": "bird-giant-wren-73759b08",
+  "raw_file": "bird-giant-wren-73759b08.json",
+  "bird": {
+    "id": "bird-giant-wren-73759b08",
+    "name": "Giant wren",
+    "english_name": "Giant wren",
+    "latin_name": "Campylorhynchus chiapensis",
+    "summary": "The giant wren (Campylorhynchus chiapensis) is a species of bird in the family Troglodytidae. It is found in Mexico and Guatemala.",
+    "lat": "15.5",
+    "lng": "-90.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Giant_Wren_-_Chiapas_-_Mexico_S4E7860_%2817166671332%29.jpg/960px-Giant_Wren_-_Chiapas_-_Mexico_S4E7860_%2817166671332%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-危地马拉-16f6f3de",
+      "name": "危地马拉",
+      "summary": "瓜地馬拉共和國（西班牙語：República de Guatemala），通稱瓜地馬拉（Guatemala），是中美洲北部的一個國家。該國地理位置優越，北接墨西哥，東北鄰伯利茲，東南與洪都拉斯和薩爾瓦多接壤，西瀕太平洋，東臨加勒比海的洪都…",
+      "lat": "15.5",
+      "lng": "-90.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-giant-wren-73759b08",
+      "subject": "Giant wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-危地马拉-16f6f3de",
+      "object": "危地马拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mexico and Guatemala.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-giant-wren-73759b08",
+      "subject": "Giant wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

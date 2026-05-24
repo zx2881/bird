@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:34:26",
+  "requested_title": "Ornate Hawk-Eagle",
+  "resolved_title": "Ornate hawk-eagle",
+  "title_aliases": [
+    "Ornate Hawk-Eagle"
+  ],
+  "bird_id": "bird-ornate-hawk-eagle-f832ea5f",
+  "raw_file": "bird-ornate-hawk-eagle-f832ea5f.json",
+  "bird": {
+    "id": "bird-ornate-hawk-eagle-f832ea5f",
+    "name": "Ornate hawk-eagle",
+    "english_name": "Ornate hawk-eagle",
+    "latin_name": "Spizaetus ornatus",
+    "summary": "The ornate hawk-eagle (Spizaetus ornatus) is a bird of prey from the tropical Americas. Formerly, some authorities referred to this species…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Spizaetus_ornatus_123203845.jpg/960px-Spizaetus_ornatus_123203845.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ornate-hawk-eagle-f832ea5f",
+      "subject": "Ornate hawk-eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2001 |title=Raptors of the World |publisher=Houghton Mifflin Harcourt |isbn=0-618-12762-3}} This species is found largely in primary forests with tall trees, although can be found in many forest types. The ornate hawk-eagle female lays almost always a single egg and the species has a fairly prolonged breeding cycle like many tropical raptors, especially due to a lengthy post-fledging stage on which juveniles are dependent on their parents.Phillips, R",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ornate-hawk-eagle-f832ea5f",
+      "subject": "Ornate hawk-eagle",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-ornate-hawk-eagle-f832ea5f",
+      "subject": "Ornate hawk-eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Condor, 90(1), 239-241. Like many forest-dependent raptors, especially those in the tropical and subtropical regions, this species is likely under the pressing threat of deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-ornate-hawk-eagle-f832ea5f",
+      "subject": "Ornate hawk-eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Therefore, in 2012, the species was uplisted to Near Threatened. Currently the total population is estimated at between 13,300 and 33,300 individuals, a very small population considering the species' ample range. Various means of analysis in the Atlantic Forest of Brazil all showed it to be least densely populated of the three species of Spizaetus in the area. In particular, when compared to the black hawk-eagle, the ornate hawk-eagle is much less tolerant of partial deforestation and human disturbance and is generally rather more scarce. For example, in the fragmented forest of Paranapiacaba, Brazil, the black hawk-eagle was recorded 2.5 times more frequently during surveys than the ornate species.Mañosa, S., Mateos, E., Pedrocchi, V., & Martins, F",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    },
+    {
+      "subject_id": "bird-ornate-hawk-eagle-f832ea5f",
+      "subject": "Ornate hawk-eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Therefore, in 2012, the species was uplisted to Near Threatened. Currently the total population is estimated at between 13,300 and 33,300 individuals, a very small population considering the species' ample range. Various means of analysis in the Atlantic Forest of Brazil all showed it to be least densely populated of the three species of Spizaetus in the area. In particular, when compared to the black hawk-eagle, the ornate hawk-eagle is much less tolerant of partial deforestation and human disturbance and is generally rather more scarce. For example, in the fragmented forest of Paranapiacaba, Brazil, the black hawk-eagle was recorded 2.5 times more frequently during surveys than the ornate species.Mañosa, S., Mateos, E., Pedrocchi, V., & Martins, F",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    },
+    {
+      "subject_id": "bird-ornate-hawk-eagle-f832ea5f",
+      "subject": "Ornate hawk-eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Journal of Raptor Research, 47(4), 392-400. Beyond deforestation, human hunting is also causing declines of this species. In part this is due to competition for resources",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

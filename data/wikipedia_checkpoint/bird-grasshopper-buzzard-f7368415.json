@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:58:20",
+  "requested_title": "Grasshopper Buzzard",
+  "resolved_title": "Grasshopper buzzard",
+  "title_aliases": [
+    "Grasshopper Buzzard"
+  ],
+  "bird_id": "bird-grasshopper-buzzard-f7368415",
+  "raw_file": "bird-grasshopper-buzzard-f7368415.json",
+  "bird": {
+    "id": "bird-grasshopper-buzzard-f7368415",
+    "name": "Grasshopper buzzard",
+    "english_name": "Grasshopper buzzard",
+    "latin_name": "Butastur rufipennis",
+    "summary": "The grasshopper buzzard (Butastur rufipennis) is a species of bird of prey in the family Accipitridae which is found in a narrow zone of su…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/019_Grasshopper_buzzard_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/960px-019_Grasshopper_buzzard_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-carl-jakob-sundevall-74842590",
+      "name": "Carl Jakob Sundevall",
+      "summary": "Carl Jakob Sundevall (22 October 1801 – 2 February 1875) was a Swedish zoologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grasshopper-buzzard-f7368415",
+      "subject": "Grasshopper buzzard",
+      "predicate": "distributed_in",
+      "object_id": "loc-carl-jakob-sundevall-74842590",
+      "object": "Carl Jakob Sundevall",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Grasshopper buzzard in The Gambia, West Africa The grasshopper buzzard (Butastur rufipennis) is a species of bird of prey in the family Accipitridae which is found in a narrow zone of sub-Saharan Africa north of the equator",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grasshopper-buzzard-f7368415",
+      "subject": "Grasshopper buzzard",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also can be found in marshes' edges and over burnt areas",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-grasshopper-buzzard-f7368415",
+      "subject": "Grasshopper buzzard",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

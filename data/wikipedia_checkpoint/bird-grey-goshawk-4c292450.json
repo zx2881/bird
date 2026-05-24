@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:42:12",
+  "requested_title": "Grey Goshawk",
+  "resolved_title": "Grey goshawk",
+  "title_aliases": [
+    "Grey Goshawk"
+  ],
+  "bird_id": "bird-grey-goshawk-4c292450",
+  "raw_file": "bird-grey-goshawk-4c292450.json",
+  "bird": {
+    "id": "bird-grey-goshawk-4c292450",
+    "name": "Grey goshawk",
+    "english_name": "Grey goshawk",
+    "latin_name": "Tachyspiza novaehollandiae",
+    "summary": "The grey goshawk (Tachyspiza novaehollandiae) is a strongly built, medium-sized bird of prey in the family Accipitridae that is found in ea…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Grey_Goshawk_Dayboro_Apr02.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-goshawk-4c292450",
+      "subject": "Grey goshawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "right|thumb|White morph The grey goshawk (Tachyspiza novaehollandiae) is a strongly built, medium-sized bird of prey in the family Accipitridae that is found in eastern and northern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-goshawk-4c292450",
+      "subject": "Grey goshawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

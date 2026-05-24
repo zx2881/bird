@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:52:33",
+  "requested_title": "Collared Sparrowhawk",
+  "resolved_title": "Collared sparrowhawk",
+  "title_aliases": [
+    "Collared Sparrowhawk"
+  ],
+  "bird_id": "bird-collared-sparrowhawk-2256e004",
+  "raw_file": "bird-collared-sparrowhawk-2256e004.json",
+  "bird": {
+    "id": "bird-collared-sparrowhawk-2256e004",
+    "name": "Collared sparrowhawk",
+    "english_name": "Collared sparrowhawk",
+    "latin_name": "Tachyspiza cirrocephala",
+    "summary": "The collared sparrowhawk (Tachyspiza cirrocephala) is a small, slim bird of prey in the family Accipitridae found in Australia, New Guinea…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Accipiter_cirrocephalus_-_Collared_Sparrowhawk.jpg/960px-Accipiter_cirrocephalus_-_Collared_Sparrowhawk.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-塔斯馬尼亞州-a7b95e28",
+      "name": "塔斯馬尼亞州",
+      "summary": "塔斯馬尼亞州（Tasmania，發音：/tæzˈmeɪniə/；帕拉瓦卡尼語：Lutruwita），簡稱塔州，是澳大利亞唯一的島嶼州，原名范迪門地（Van Diemen's Land，又譯萬迪門蘭）。該州位於澳大利亞大陸東南方約240公里…",
+      "lat": "-42",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-collared-sparrowhawk-2256e004",
+      "subject": "Collared sparrowhawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cirrocephala - (Vieillot, 1817) }} The collared sparrowhawk (Tachyspiza cirrocephala) is a small, slim bird of prey in the family Accipitridae found in Australia, New Guinea and nearby smaller islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-collared-sparrowhawk-2256e004",
+      "subject": "Collared sparrowhawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cirrocephala - (Vieillot, 1817) }} The collared sparrowhawk (Tachyspiza cirrocephala) is a small, slim bird of prey in the family Accipitridae found in Australia, New Guinea and nearby smaller islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-collared-sparrowhawk-2256e004",
+      "subject": "Collared sparrowhawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔斯馬尼亞州-a7b95e28",
+      "object": "塔斯馬尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The collared sparrowhawk is widespread through mainland Australia, Tasmania and New Guinea and is found in all habitats except the driest deserts",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-collared-sparrowhawk-2256e004",
+      "subject": "Collared sparrowhawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:45:14",
+  "requested_title": "Tschudi's Nightjar",
+  "resolved_title": "Tschudi's nightjar",
+  "title_aliases": [
+    "Tschudi's Nightjar"
+  ],
+  "bird_id": "bird-tschudi-s-nightjar-2a478463",
+  "raw_file": "bird-tschudi-s-nightjar-2a478463.json",
+  "bird": {
+    "id": "bird-tschudi-s-nightjar-2a478463",
+    "name": "Tschudi's nightjar",
+    "english_name": "Tschudi's nightjar",
+    "latin_name": "Quechuavis decussata",
+    "summary": "Tschudi's nightjar or lesser band-winged nightjar (Quechuavis decussata) is a species of nightjar in the family Caprimulgidae. It is found…",
+    "lat": "-34",
+    "lng": "-71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Band-winged_Nightjar_%28Caprimulgus_longirostris%29.jpg/960px-Band-winged_Nightjar_%28Caprimulgus_longirostris%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tschudi-s-nightjar-2a478463",
+      "subject": "Tschudi's nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Chile and Peru.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 14.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tschudi-s-nightjar-2a478463",
+      "subject": "Tschudi's nightjar",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Chile and Peru.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 14.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tschudi-s-nightjar-2a478463",
+      "subject": "Tschudi's nightjar",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:04:11",
+  "requested_title": "Gorgeous Sunbird",
+  "resolved_title": "Gorgeous sunbird",
+  "title_aliases": [
+    "Gorgeous Sunbird"
+  ],
+  "bird_id": "bird-gorgeous-sunbird-1b40d81b",
+  "raw_file": "bird-gorgeous-sunbird-1b40d81b.json",
+  "bird": {
+    "id": "bird-gorgeous-sunbird-1b40d81b",
+    "name": "Gorgeous sunbird",
+    "english_name": "Gorgeous sunbird",
+    "latin_name": "Cinnyris melanogastrus",
+    "summary": "The gorgeous sunbird (Cinnyris melanogastrus) is a small passerine bird in the sunbird family Nectariniidae that is found in southern Kenya…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Beautiful_Sunbird%2C_Tarangire%2C_Tanzania_%288495915882%29.jpg/960px-Beautiful_Sunbird%2C_Tarangire%2C_Tanzania_%288495915882%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-gustav-fischer-explorer-bd8abb9d",
+      "name": "Gustav Fischer (explorer)",
+      "summary": "Gustav Adolf Fischer (3 March 1848 – 11 November 1886, Berlin) was a German explorer of East Africa.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-安东-赖歇诺-43b8e534",
+      "name": "安东·赖歇诺",
+      "summary": "安东·赖歇诺（德語：Anton Reichenow，1847年8月1日—1941年7月6日）是德国鳥類學家和爬虫两栖类学家。 生平 安东·赖歇诺是德国鸟类研究学家吉恩·路易斯·卡巴尼斯的女婿，1874年至1921年在柏林自然博物馆长期工作…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-gorgeous-sunbird-1b40d81b",
+      "subject": "Gorgeous sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-gustav-fischer-explorer-bd8abb9d",
+      "object": "Gustav Fischer (explorer)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gorgeous sunbird (Cinnyris melanogastrus) is a small passerine bird in the sunbird family Nectariniidae that is found in southern Kenya and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gorgeous-sunbird-1b40d81b",
+      "subject": "Gorgeous sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-安东-赖歇诺-43b8e534",
+      "object": "安东·赖歇诺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gorgeous sunbird (Cinnyris melanogastrus) is a small passerine bird in the sunbird family Nectariniidae that is found in southern Kenya and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gorgeous-sunbird-1b40d81b",
+      "subject": "Gorgeous sunbird",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They like to live in areas like shrublands, savannahs, and forests",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-gorgeous-sunbird-1b40d81b",
+      "subject": "Gorgeous sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

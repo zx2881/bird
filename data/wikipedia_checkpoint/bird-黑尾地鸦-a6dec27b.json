@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:13:17",
+  "requested_title": "Mongolian Ground Jay",
+  "resolved_title": "Mongolian ground jay",
+  "title_aliases": [
+    "Mongolian Ground Jay"
+  ],
+  "bird_id": "bird-黑尾地鸦-a6dec27b",
+  "raw_file": "bird-黑尾地鸦-a6dec27b.json",
+  "bird": {
+    "id": "bird-黑尾地鸦-a6dec27b",
+    "name": "黑尾地鸦",
+    "english_name": "Mongolian ground jay",
+    "latin_name": "Podoces hendersoni",
+    "summary": "黑尾地鸦（学名：Podoces hendersoni），是鸦科地鸦属的一种，分布于哈萨克斯坦、中国大陆和蒙古国。该物种的保护状况被评为无危。 黑尾地鸦的平均体重约为120.5克。栖息地为温带荒漠，常见于稀疏的盐生灌木和半灌木内的地面。该物种的模式产地在新疆莎车。",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Mongolian_Ground_Jay_%28Podoces_hendersoni%29_-_%D0%A5%D1%83%D0%BB%D0%B0%D0%BD_%D0%B6%D0%BE%D1%80%D0%BE%D0%BE_%2816566349299%29.jpg/960px-Mongolian_Ground_Jay_%28Podoces_hendersoni%29_-_%D0%A5%D1%83%D0%BB%D0%B0%D0%BD_%D0%B6%D0%BE%D1%80%D0%BE%D0%BE_%2816566349299%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-艾伦-奥克塔文-休姆-bdea3a13",
+      "name": "艾伦·奥克塔文·休姆",
+      "summary": "艾伦·奥克塔文·休姆，CB，ICS（英語：Allan Octavian Hume，1829年6月4日—1912年7月31日），英国政治改革家、鸟类学家、植物学家和公务员，曾在英属印度工作，是印度国民大会党的创始人和核心人物。他主张印度自治…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑尾地鸦-a6dec27b",
+      "subject": "黑尾地鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-艾伦-奥克塔文-休姆-bdea3a13",
+      "object": "艾伦·奥克塔文·休姆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mongolian ground jay (Podoces hendersoni) or Henderson's ground jay is a species of bird in the family Corvidae, found in Central Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑尾地鸦-a6dec27b",
+      "subject": "黑尾地鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in arid areas of Central Asia (Mongolia, northern China and adjacent areas of Russia and Kazakhstan)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑尾地鸦-a6dec27b",
+      "subject": "黑尾地鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in arid areas of Central Asia (Mongolia, northern China and adjacent areas of Russia and Kazakhstan)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑尾地鸦-a6dec27b",
+      "subject": "黑尾地鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:38:35",
+  "requested_title": "Tumbesian Tyrannulet",
+  "resolved_title": "Tumbesian tyrannulet",
+  "title_aliases": [
+    "Tumbesian Tyrannulet"
+  ],
+  "bird_id": "bird-tumbesian-tyrannulet-9cdf43e7",
+  "raw_file": "bird-tumbesian-tyrannulet-9cdf43e7.json",
+  "bird": {
+    "id": "bird-tumbesian-tyrannulet-9cdf43e7",
+    "name": "Tumbesian tyrannulet",
+    "english_name": "Tumbesian tyrannulet",
+    "latin_name": "Nesotriccus tumbezanus",
+    "summary": "The Tumbesian tyrannulet or Tumbes tyrannulet (Nesotriccus tumbezanus) is a species of bird in subfamily Elaeniinae of family Tyrannidae, t…",
+    "lat": "-11.85",
+    "lng": "-76.45",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Tumbesian_Tyrannulet_P1012996_DxO8.jpg/960px-Tumbesian_Tyrannulet_P1012996_DxO8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-利馬大區-0e392419",
+      "name": "利馬大區",
+      "summary": "利馬大區 （Departamento de Lima、Lima-Provincias或Provincias de Lima）是秘魯中南部的一個大區，位於太平洋東岸。面積32,129.31平方公里，2007年人口864,853人。地區政府所…",
+      "lat": "-11.85",
+      "lng": "-76.45"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tumbesian-tyrannulet-9cdf43e7",
+      "subject": "Tumbesian tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-利馬大區-0e392419",
+      "object": "利馬大區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "inflavus is found in Peru from central Piura and Lambayeque departments south to northern Lima Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tumbesian-tyrannulet-9cdf43e7",
+      "subject": "Tumbesian tyrannulet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species primarily inhabits arid lowland scrublands and open woodlands, but especially in southern Ecuador inhabits moister valleys penetrating the Andean foothills to the east",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-tumbesian-tyrannulet-9cdf43e7",
+      "subject": "Tumbesian tyrannulet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-tumbesian-tyrannulet-9cdf43e7",
+      "subject": "Tumbesian tyrannulet",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It \"might presumably benefit from some degree of deforestation and it is unlikely to be threatened in the future\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

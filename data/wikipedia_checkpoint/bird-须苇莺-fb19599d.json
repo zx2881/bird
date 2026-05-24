@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:29:13",
+  "requested_title": "Moustached Warbler",
+  "resolved_title": "Moustached warbler",
+  "title_aliases": [
+    "Moustached Warbler"
+  ],
+  "bird_id": "bird-须苇莺-fb19599d",
+  "raw_file": "bird-须苇莺-fb19599d.json",
+  "bird": {
+    "id": "bird-须苇莺-fb19599d",
+    "name": "须苇莺",
+    "english_name": "Moustached warbler",
+    "latin_name": "Acrocephalus (bird) melanopogon",
+    "summary": "须苇莺（台湾作髭葦鶯）（学名：Acrocephalus melanopogon），是雀形目苇莺科的一种鸟类。 特征 须苇莺体重约10.9克，翼长约56.7毫米，嘴峰长约12.7毫米，喙宽度约2.6毫米，喙厚度约2.5毫米，跗蹠长约19毫米，尾长约47.8毫米。须苇莺是候鸟，其栖…",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Moustached_Warbler_Acrocephalus_melanopogon_by_Dr._Raju_Kasambe_%282%29.jpg/960px-Moustached_Warbler_Acrocephalus_melanopogon_by_Dr._Raju_Kasambe_%282%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    },
+    {
+      "id": "loc-劍橋郡-4d9d89ac",
+      "name": "劍橋郡",
+      "summary": "劍橋郡（英語：Cambridgeshire，簡稱：Cambs）是位於英格兰东盎格利亚地區的郡，位於林肯郡以南，諾福克郡和薩福克郡以西，埃塞克斯郡、赫特福德郡以北，貝德福德郡、北安普敦郡以東，政府駐地為劍橋。現時的劍橋郡於 1974 年形成…",
+      "lat": "52.35",
+      "lng": "0"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-须苇莺-fb19599d",
+      "subject": "须苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "South-west European birds are resident, south-east European birds winter in the Mediterranean breeding range, and the Asiatic race migrates to Arabia, India and Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-须苇莺-fb19599d",
+      "subject": "须苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-劍橋郡-4d9d89ac",
+      "object": "劍橋郡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There have been a few reports from Great Britain, including a pair breeding in Cambridgeshire in 1946, but these records have recently been removed from the official list of British birds, being unconvincingly distinguished from sedge warblers or paddyfield warblers. It is found in upright aquatic vegetation such as reeds and sedge. thumb|Song Scarlino marsh, Italy thumb thumb|Eggs, Collection Museum Wiesbaden",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-须苇莺-fb19599d",
+      "subject": "须苇莺",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "There have been a few reports from Great Britain, including a pair breeding in Cambridgeshire in 1946, but these records have recently been removed from the official list of British birds, being unconvincingly distinguished from sedge warblers or paddyfield warblers. It is found in upright aquatic vegetation such as reeds and sedge. thumb|Song Scarlino marsh, Italy thumb thumb|Eggs, Collection Museum Wiesbaden",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-须苇莺-fb19599d",
+      "subject": "须苇莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:38:42",
+  "requested_title": "Cocos Tyrannulet",
+  "resolved_title": "Cocos tyrannulet",
+  "title_aliases": [
+    "Cocos Tyrannulet"
+  ],
+  "bird_id": "bird-cocos-tyrannulet-86c1e91c",
+  "raw_file": "bird-cocos-tyrannulet-86c1e91c.json",
+  "bird": {
+    "id": "bird-cocos-tyrannulet-86c1e91c",
+    "name": "Cocos tyrannulet",
+    "english_name": "Cocos tyrannulet",
+    "latin_name": "Nesotriccus ridgwayi",
+    "summary": "The Cocos tyrannulet (Nesotriccus ridgwayi), also known as the Cocos flycatcher, is a vulnerable species of bird in subfamily Elaeniinae of…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Nesotriccus_ridgwayi_132039438.jpg/960px-Nesotriccus_ridgwayi_132039438.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cocos-tyrannulet-86c1e91c",
+      "subject": "Cocos tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the edges and interior of subtropical and tropical evergreen forest, secondary forest, and scrubby and swampy areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cocos-tyrannulet-86c1e91c",
+      "subject": "Cocos tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the edges and interior of subtropical and tropical evergreen forest, secondary forest, and scrubby and swampy areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cocos-tyrannulet-86c1e91c",
+      "subject": "Cocos tyrannulet",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

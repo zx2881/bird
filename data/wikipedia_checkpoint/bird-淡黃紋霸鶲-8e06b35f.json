@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:49:09",
+  "requested_title": "Yellowish Flycatcher",
+  "resolved_title": "Yellowish flycatcher",
+  "title_aliases": [
+    "Yellowish Flycatcher"
+  ],
+  "bird_id": "bird-淡黃紋霸鶲-8e06b35f",
+  "raw_file": "bird-淡黃紋霸鶲-8e06b35f.json",
+  "bird": {
+    "id": "bird-淡黃紋霸鶲-8e06b35f",
+    "name": "淡黃紋霸鶲",
+    "english_name": "Yellowish flycatcher",
+    "latin_name": "Empidonax flavescens",
+    "summary": "淡黃紋霸鶲（学名：Empidonax flavescens）是細小的雀形目鳥類，屬於霸鶲科。牠們分佈在墨西哥東南部至巴拿馬西南部的高地。 淡黃紋霸鶲生活在寒冷的山林中，尤其是在林緣及曠野、次生林及灌木帶。牠們於海拔800-2500米繁殖。鳥巢是以植物纖維及苔蘚造成，位於2-4.…",
+    "lat": "18.45",
+    "lng": "-94.95",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Empidonax-flavescens-001.jpg/960px-Empidonax-flavescens-001.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圖斯特拉斯山脈-b04a4463",
+      "name": "圖斯特拉斯山脈",
+      "summary": "圖斯特拉斯山脈是墨西哥的山脈和火山帶，位於墨西哥灣南部，由韋拉克魯斯州負責管轄，最高點海拔高度1,731米，該山脈在奧爾梅克文明時期被視為玄武岩開採地。 外部連結 Los Tuxtlas Biosphere Reserve （页面存档备份…",
+      "lat": "18.45",
+      "lng": "-94.95"
+    },
+    {
+      "id": "loc-韋拉克魯斯州-51279fa6",
+      "name": "韋拉克魯斯州",
+      "summary": "韋拉克魯斯州（西班牙語：Veracruz，西班牙語發音：[beɾaˈkɾus]）是墨西哥的一個州，位於該國中部偏東，東部面向墨西哥灣。人口僅次於墨西哥州和聯邦區，居全國第三，首府哈拉帕。 正式州名為Veracruz de Ignacio…",
+      "lat": "19.5272",
+      "lng": "-96.9225"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-淡黃紋霸鶲-8e06b35f",
+      "subject": "淡黃紋霸鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-圖斯特拉斯山脈-b04a4463",
+      "object": "圖斯特拉斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Sierra de los Tuxtlas of coastal Veracruz in southeastern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡黃紋霸鶲-8e06b35f",
+      "subject": "淡黃紋霸鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-韋拉克魯斯州-51279fa6",
+      "object": "韋拉克魯斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Sierra de los Tuxtlas of coastal Veracruz in southeastern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡黃紋霸鶲-8e06b35f",
+      "subject": "淡黃紋霸鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily occurs in humid evergreen broadleaf forest heavy with moss, lichen, and bromeliads, for example cloudforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡黃紋霸鶲-8e06b35f",
+      "subject": "淡黃紋霸鶲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-淡黃紋霸鶲-8e06b35f",
+      "subject": "淡黃紋霸鶲",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered common in northern Central America and Costa Rica. It \"is potentially threatened by habitat loss and degradation because it inhabits montane forests, which are threatened by their conversion to pasture and various forms of agriculture\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

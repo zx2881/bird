@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:27:17",
+  "requested_title": "Great Sparrow",
+  "resolved_title": "Great sparrow",
+  "title_aliases": [
+    "Great Sparrow"
+  ],
+  "bird_id": "bird-棕麻雀-cbbe2610",
+  "raw_file": "bird-棕麻雀-cbbe2610.json",
+  "bird": {
+    "id": "bird-棕麻雀-cbbe2610",
+    "name": "棕麻雀",
+    "english_name": "Great sparrow",
+    "latin_name": "Passer motitensis",
+    "summary": "棕麻雀（Passer motitensis）是麻雀属的一种鸟类，生活在非洲南部的干旱地区，体长15–16 cm厘米，看起来像是大号的家麻雀。它和棕背麻雀有时被视为同一种。 参考文献 外部链接 Southern Rufous Sparrow （页面存档备份，存于互联网档案馆） a…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Great_Sparrow.jpg/960px-Great_Sparrow.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-麻雀科-c74d0f64",
+      "name": "麻雀科",
+      "summary": "雀科（學名：Passeridae，台湾作麻雀科）为鸟纲雀形目的一个科。本科有8屬43種。 分类 淡色石雀属 Carpospiza 淡色石雀 Carpospiza brachydactyla 桂红绣眼鸟属 Hypocryptadius 桂红…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕麻雀-cbbe2610",
+      "subject": "棕麻雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-麻雀科-c74d0f64",
+      "object": "麻雀科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "A.|title=On the original description of Passer iagoensis motitensis Smith|journal=Bulletin of the British Ornithologists' Club|volume=84|issue=6|year=1964|page=110}} }} The great sparrow (Passer motitensis), also known as the southern rufous sparrow, is found in southern Africa in dry, wooded savannah and towns. This is a 15&ndash;16&nbsp;cm long sparrow superficially like a large house sparrow",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕麻雀-cbbe2610",
+      "subject": "棕麻雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

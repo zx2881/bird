@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:34:31",
+  "requested_title": "Thick-billed Vireo",
+  "resolved_title": "Thick-billed vireo",
+  "title_aliases": [
+    "Thick-billed Vireo"
+  ],
+  "bird_id": "bird-thick-billed-vireo-902438c0",
+  "raw_file": "bird-thick-billed-vireo-902438c0.json",
+  "bird": {
+    "id": "bird-thick-billed-vireo-902438c0",
+    "name": "Thick-billed vireo",
+    "english_name": "Thick-billed vireo",
+    "latin_name": "Vireo crassirostris",
+    "summary": "The thick-billed vireo (Vireo crassirostris) is a species of bird in the family Vireonidae, the vireos, greenlets, and shrike-babblers. It…",
+    "lat": "19.32",
+    "lng": "-81.229",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Thick-billed_Vireo.jpg/960px-Thick-billed_Vireo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-開曼群島-3c7bf239",
+      "name": "開曼群島",
+      "summary": "开曼群岛（英語：Cayman Islands /ˈkeɪmən/或/keɪˈmæn/），有時也譯為凯门群島或蓋曼群島，是英国在美洲加勒比海西印度群岛的一块海外属地，由大開曼、小开曼和開曼布拉克3个岛屿组成。開曼群島是世界第四大离岸金融中心…",
+      "lat": "19.32",
+      "lng": "-81.229"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-thick-billed-vireo-902438c0",
+      "subject": "Thick-billed vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-開曼群島-3c7bf239",
+      "object": "開曼群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "alleni: the Cayman Islands The species has also been recorded several times in Florida. The thick-billed vireo inhabits deciduous woodlands, scrublands, and mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-thick-billed-vireo-902438c0",
+      "subject": "Thick-billed vireo",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "alleni: the Cayman Islands The species has also been recorded several times in Florida. The thick-billed vireo inhabits deciduous woodlands, scrublands, and mangroves",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-thick-billed-vireo-902438c0",
+      "subject": "Thick-billed vireo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

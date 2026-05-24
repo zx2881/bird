@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:41:17",
+  "requested_title": "Rock Bunting",
+  "resolved_title": "Rock bunting",
+  "title_aliases": [
+    "Rock Bunting"
+  ],
+  "bird_id": "bird-淡灰眉岩鹀-51346ce6",
+  "raw_file": "bird-淡灰眉岩鹀-51346ce6.json",
+  "bird": {
+    "id": "bird-淡灰眉岩鹀-51346ce6",
+    "name": "淡灰眉岩鹀",
+    "english_name": "Rock bunting",
+    "latin_name": "Emberiza cia",
+    "summary": "淡灰眉岩鹀（学名：Emberiza cia）为鵐科鹀属的鸟类。分布於俄罗斯、蒙古、伊朗、阿富汗、巴基斯坦、印度以及中国大陆的新疆、西藏等地，常见于海拔200-4000m 间以及常见于山麓、丘陵、平原及山地等处的灌木丛、草丛、耕地、森林林缘、河谷阶地或岩石等开阔地。该物种的模式产…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Rock_Bunting_%28Cochem%29.jpg/960px-Rock_Bunting_%28Cochem%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-淡灰眉岩鹀-51346ce6",
+      "subject": "淡灰眉岩鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cia stracheyi]] thumb| Emberiza cia - MHNT It breeds in northwest Africa, southern Europe east to central Asia, and the Himalayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡灰眉岩鹀-51346ce6",
+      "subject": "淡灰眉岩鹀",
+      "predicate": "lives_in",
+      "object_id": "hab-open-mountain",
+      "object": "开阔山地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The rock bunting breeds in open dry rocky mountainous areas",
+      "object_summary": "地形开阔且便于大翼展鸟类活动的山地区域。"
+    },
+    {
+      "subject_id": "bird-淡灰眉岩鹀-51346ce6",
+      "subject": "淡灰眉岩鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

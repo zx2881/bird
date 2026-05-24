@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:02:07",
+  "requested_title": "Red-tailed Shrike",
+  "resolved_title": "Red-tailed shrike",
+  "title_aliases": [
+    "Red-tailed Shrike"
+  ],
+  "bird_id": "bird-棕尾伯劳-85f937c1",
+  "raw_file": "bird-棕尾伯劳-85f937c1.json",
+  "bird": {
+    "id": "bird-棕尾伯劳-85f937c1",
+    "name": "棕尾伯劳",
+    "english_name": "Red-tailed shrike",
+    "latin_name": "Lanius phoenicuroides",
+    "summary": "棕尾伯劳（台湾作棕紅尾伯勞）（学名：Lanius phoenicuroides），是雀形目伯劳科的一种鸟类。 特征 棕尾伯劳体重约28克，翼长约90.8毫米，嘴峰长约18.2毫米，喙宽度约5.6毫米，喙厚度约7.1毫米，跗蹠长约24.4毫米，尾长约77.2毫米。棕尾伯劳是候鸟，…",
+    "lat": "61",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/0T4A6719.jpg/960px-0T4A6719.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    },
+    {
+      "id": "loc-中亚-88133474",
+      "name": "中亚",
+      "summary": "中亚（英語：Central Asia；俄語：Средняя Азия / Центральная Азия）即亚洲中部，在地理上是指西至里海，东到中国新疆，南到阿富汗，北到俄罗斯的广大区域。而根据长期占据这片区域大部分领土的前苏联官方定义…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕尾伯劳-85f937c1",
+      "subject": "棕尾伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-tailed shrike breeds in south Siberia and Central Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕尾伯劳-85f937c1",
+      "subject": "棕尾伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-中亚-88133474",
+      "object": "中亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-tailed shrike breeds in south Siberia and Central Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕尾伯劳-85f937c1",
+      "subject": "棕尾伯劳",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

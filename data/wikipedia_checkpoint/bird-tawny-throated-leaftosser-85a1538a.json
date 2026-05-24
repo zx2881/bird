@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:13:29",
+  "requested_title": "Tawny-throated Leaftosser",
+  "resolved_title": "Tawny-throated leaftosser",
+  "title_aliases": [
+    "Tawny-throated Leaftosser"
+  ],
+  "bird_id": "bird-tawny-throated-leaftosser-85a1538a",
+  "raw_file": "bird-tawny-throated-leaftosser-85a1538a.json",
+  "bird": {
+    "id": "bird-tawny-throated-leaftosser-85a1538a",
+    "name": "Tawny-throated leaftosser",
+    "english_name": "Tawny-throated leaftosser",
+    "latin_name": "Sclerurus mexicanus",
+    "summary": "The tawny-throated leaftosser (Sclerurus mexicanus) is a tropical American bird species in subfamily Sclerurinae, the leaftossers and miner…",
+    "lat": "8.16583333",
+    "lng": "-77.29583333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Tawny-throated_Leaftosser_%28Sclerurus_mexicanus%29_%285771861551%29.jpg/960px-Tawny-throated_Leaftosser_%28Sclerurus_mexicanus%29_%285771861551%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-cerro-tacarcuna-34b2dc61",
+      "name": "Cerro Tacarcuna",
+      "summary": "Cerro Tacarcuna is a mountain located in the Darién Province of Panama, very close to the Colombia–Panama border.",
+      "lat": "8.16583333",
+      "lng": "-77.29583333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tawny-throated-leaftosser-85a1538a",
+      "subject": "Tawny-throated leaftosser",
+      "predicate": "distributed_in",
+      "object_id": "loc-cerro-tacarcuna-34b2dc61",
+      "object": "Cerro Tacarcuna",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pullus is found from Costa Rica into western Panama, and separately on Cerro Tacarcuna in eastern Panama. The species is patchily distributed within the broadly defined areas. The tawny-throated leaftosser generally inhabits moist subtropical and tropical lowland and submontane evergreen and semi-deciduous forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-throated-leaftosser-85a1538a",
+      "subject": "Tawny-throated leaftosser",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

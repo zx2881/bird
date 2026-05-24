@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:43:15",
+  "requested_title": "Dartford Warbler",
+  "resolved_title": "Dartford warbler",
+  "title_aliases": [
+    "Dartford Warbler"
+  ],
+  "bird_id": "bird-dartford-warbler-1a5ccabb",
+  "raw_file": "bird-dartford-warbler-1a5ccabb.json",
+  "bird": {
+    "id": "bird-dartford-warbler-1a5ccabb",
+    "name": "Dartford warbler",
+    "english_name": "Dartford warbler",
+    "latin_name": "Curruca undata",
+    "summary": "The Dartford warbler (Curruca undata) is a Sylviid warbler from the warmer parts of western Europe and northwestern Africa. It is a small w…",
+    "lat": "32",
+    "lng": "-6",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Fauvette_pitchou_Ichkeul_NP.jpg/960px-Fauvette_pitchou_Ichkeul_NP.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩洛哥-4adc9885",
+      "name": "摩洛哥",
+      "summary": "摩洛哥王国（阿拉伯語：المملكة المغربية，柏柏爾語：ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ），通稱摩洛哥（المغرب；ⵍⵎⵖⵔⵉⴱ），是北非西端马格里布的一个君主立宪制国家。其东部与阿尔及利亚接壤，南部其实际管辖的西撒哈拉地区与…",
+      "lat": "32",
+      "lng": "-6"
+    },
+    {
+      "id": "loc-阿尔及利亚-0afc9337",
+      "name": "阿尔及利亚",
+      "summary": "阿爾及利亞民主人民共和國（阿拉伯語：الجمهورية الجزائرية الديمقراطية الشعبية），通稱阿爾及利亞（الجزائر），是北非马格里布地区的一个半总统制共和国，首都及最大城市为阿尔及尔。阿尔及利亚国土北临地…",
+      "lat": "28",
+      "lng": "2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dartford-warbler-1a5ccabb",
+      "subject": "Dartford warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩洛哥-4adc9885",
+      "object": "摩洛哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Africa it can be found only in small areas in the north, wintering in northern Morocco and northern Algeria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dartford-warbler-1a5ccabb",
+      "subject": "Dartford warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔及利亚-0afc9337",
+      "object": "阿尔及利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Africa it can be found only in small areas in the north, wintering in northern Morocco and northern Algeria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dartford-warbler-1a5ccabb",
+      "subject": "Dartford warbler",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

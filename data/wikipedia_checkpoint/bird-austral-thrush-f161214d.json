@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:54:12",
+  "requested_title": "Austral Thrush",
+  "resolved_title": "Austral thrush",
+  "title_aliases": [
+    "Austral Thrush"
+  ],
+  "bird_id": "bird-austral-thrush-f161214d",
+  "raw_file": "bird-austral-thrush-f161214d.json",
+  "bird": {
+    "id": "bird-austral-thrush-f161214d",
+    "name": "Austral thrush",
+    "english_name": "Austral thrush",
+    "latin_name": "Turdus falcklandii",
+    "summary": "The austral thrush (Turdus falcklandii) is a species of bird in the family Turdidae. It is found in Argentina, Chile, and the Falkland Isla…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Austral_thrush_%28Turdus_falcklandii_magellanicus%29_Leona_Amarga.jpg/960px-Austral_thrush_%28Turdus_falcklandii_magellanicus%29_Leona_Amarga.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-austral-thrush-f161214d",
+      "subject": "Austral thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "magellanicus inhabits dense Nothofagus forest, more open forest, plantations, secondary forest, riparian zones, brushlands, and agricultural and human-inhabited areas with trees and bushes. Sources differ on its maximum elevation; one says it is and another",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-austral-thrush-f161214d",
+      "subject": "Austral thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:18:19",
+  "requested_title": "Canary White-eye",
+  "resolved_title": "Canary white-eye",
+  "title_aliases": [
+    "Canary White-eye"
+  ],
+  "bird_id": "bird-canary-white-eye-d9a064ff",
+  "raw_file": "bird-canary-white-eye-d9a064ff.json",
+  "bird": {
+    "id": "bird-canary-white-eye-d9a064ff",
+    "name": "Canary white-eye",
+    "english_name": "Canary white-eye",
+    "latin_name": "Zosterops luteus",
+    "summary": "The canary white-eye or yellow white-eye (Zosterops luteus) is a species of white-eye endemic to northern Australia in subtropical or tropi…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/The_birds_of_Australia_%2816917107412%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-河流-f3845624",
+      "name": "河流",
+      "summary": "河流（江、河）是自然汇入海洋、湖泊的流水，通常为淡水。在少数情况下，河流流入地下或者在汇入另一水体之前便干涸。河流有時會匯入另一條河流。较小的河流可能会被称作溪流、支流等。 河流是水循环的一环。河流中的水主要来自其流域降水形成的地表径流和…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-canary-white-eye-d9a064ff",
+      "subject": "Canary white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-河流-f3845624",
+      "object": "河流",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bird is found in mangrove, mangal and adjacent riverine vegetation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-canary-white-eye-d9a064ff",
+      "subject": "Canary white-eye",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They feed on insects including larvae in the outer foliage of small trees or shrubs and occasionally on muddy mangrove flats. They are gregarious, usually found in pairs or small flocks",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-canary-white-eye-d9a064ff",
+      "subject": "Canary white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

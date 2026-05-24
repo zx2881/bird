@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:38:19",
+  "requested_title": "Pine Bunting",
+  "resolved_title": "Pine bunting",
+  "title_aliases": [
+    "Pine Bunting"
+  ],
+  "bird_id": "bird-白头鹀-89c3978c",
+  "raw_file": "bird-白头鹀-89c3978c.json",
+  "bird": {
+    "id": "bird-白头鹀-89c3978c",
+    "name": "白头鹀",
+    "english_name": "Pine bunting",
+    "latin_name": "Emberiza leucocephalos",
+    "summary": "白头鹀（学名：Emberiza leucocephalos）为鵐科鹀属的鸟类。現今多數作者將鵐科與雀科（Fringillidae）分開。白頭鵐分佈於烏拉山以東的歐亞大陸。 詞源 屬名Emberiza源自古高地德語的Embritz，意指鵐。種名leucocephalos源自古希臘…",
+    "lat": "43.45",
+    "lng": "11.2",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pine_Bunting_%28Emberiza_leucocephalos%29_-_%D0%A6%D0%B0%D0%B3%D0%B0%D0%B0%D0%BD%D1%88%D0%B0%D0%BD%D0%B0%D0%B0%D1%82_%D1%85%D3%A9%D0%BC%D1%80%D3%A9%D0%B3_%2815617685422%29.jpg/960px-Pine_Bunting_%28Emberiza_leucocephalos%29_-_%D0%A6%D0%B0%D0%B3%D0%B0%D0%B0%D0%BD%D1%88%D0%B0%D0%BD%D0%B0%D0%B0%D1%82_%D1%85%D3%A9%D0%BC%D1%80%D3%A9%D0%B3_%2815617685422%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-托斯卡纳大区-e9d9a10d",
+      "name": "托斯卡纳大区",
+      "summary": "托斯卡纳（英語：Tuscany；義大利語：Toscana，發音：[tosˈkaːna]）是意大利一个大区，拉齐奥位于其南，翁布里亚位于其东，艾米利亚-罗马涅和利古里亚在其北，西濒第勒尼安海。其首府为佛罗伦萨。 托斯卡纳歷史悠久，古典時期的…",
+      "lat": "43.45",
+      "lng": "11.2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白头鹀-89c3978c",
+      "subject": "白头鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-托斯卡纳大区-e9d9a10d",
+      "object": "托斯卡纳大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a rare vagrant to western Europe, but often winters in north-east Italy and Tuscany",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鹀-89c3978c",
+      "subject": "白头鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

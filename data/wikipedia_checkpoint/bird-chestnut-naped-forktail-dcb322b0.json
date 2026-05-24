@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:50:28",
+  "requested_title": "Chestnut-naped Forktail",
+  "resolved_title": "Chestnut-naped forktail",
+  "title_aliases": [
+    "Chestnut-naped Forktail"
+  ],
+  "bird_id": "bird-chestnut-naped-forktail-dcb322b0",
+  "raw_file": "bird-chestnut-naped-forktail-dcb322b0.json",
+  "bird": {
+    "id": "bird-chestnut-naped-forktail-dcb322b0",
+    "name": "Chestnut-naped forktail",
+    "english_name": "Chestnut-naped forktail",
+    "latin_name": "Enicurus ruficapillus",
+    "summary": "The chestnut-naped forktail (Enicurus ruficapillus) is a species of bird in the flycatcher and chat family Muscicapidae. The species is mon…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Enicurus_ruficapillus.jpg/960px-Enicurus_ruficapillus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chestnut-naped-forktail-dcb322b0",
+      "subject": "Chestnut-naped forktail",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sundaland, in southern Burma and Thailand to Peninsular Malaysia, as well as Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chestnut-naped-forktail-dcb322b0",
+      "subject": "Chestnut-naped forktail",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sundaland, in southern Burma and Thailand to Peninsular Malaysia, as well as Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chestnut-naped-forktail-dcb322b0",
+      "subject": "Chestnut-naped forktail",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-chestnut-naped-forktail-dcb322b0",
+      "subject": "Chestnut-naped forktail",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss, as lowland forest is rapidly being cleared across its range",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

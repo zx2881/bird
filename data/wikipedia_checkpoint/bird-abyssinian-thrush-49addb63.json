@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:26:24",
+  "requested_title": "Abyssinian Thrush",
+  "resolved_title": "Abyssinian thrush",
+  "title_aliases": [
+    "Abyssinian Thrush"
+  ],
+  "bird_id": "bird-abyssinian-thrush-49addb63",
+  "raw_file": "bird-abyssinian-thrush-49addb63.json",
+  "bird": {
+    "id": "bird-abyssinian-thrush-49addb63",
+    "name": "Abyssinian thrush",
+    "english_name": "Abyssinian thrush",
+    "latin_name": "Turdus abyssinicus",
+    "summary": "The Abyssinian thrush (Turdus abyssinicus) is a passerine bird in the family Turdidae. It is also known as the African mountain thrush, or…",
+    "lat": "-18.25",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Abyssinian_Thrush_%28Turdus_abyssinicus%29_%2816341647185%29.jpg/960px-Abyssinian_Thrush_%28Turdus_abyssinicus%29_%2816341647185%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-莫桑比克-9371b65a",
+      "name": "莫桑比克",
+      "summary": "莫桑比克共和国（葡萄牙語：República de Moçambique，發音：[ʁɛˈpuβlikɐ ðɨ musɐ̃ˈbikɨ]），舊譯作莫三鼻給，現通稱莫三比克或莫桑比克，位於非洲東部，临印度洋，隔莫桑比克海峡与马达加斯加相望，以葡…",
+      "lat": "-18.25",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-abyssinian-thrush-49addb63",
+      "subject": "Abyssinian thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫桑比克-9371b65a",
+      "object": "莫桑比克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Abyssinian thrush occurs in the highlands of eastern Africa from South Sudan south to northern Mozambique. Its habitat includes forests woodlands, exotic plantations, parks and gardens. This species is a typical member of the genus Turdus but its habits and biology have been little studied, as it was considered to be a subspecies of olive thrush",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-abyssinian-thrush-49addb63",
+      "subject": "Abyssinian thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:38:13",
+  "requested_title": "Sabota Lark",
+  "resolved_title": "Sabota lark",
+  "title_aliases": [
+    "Sabota Lark"
+  ],
+  "bird_id": "bird-萨博塔歌百灵-954fef12",
+  "raw_file": "bird-萨博塔歌百灵-954fef12.json",
+  "bird": {
+    "id": "bird-萨博塔歌百灵-954fef12",
+    "name": "萨博塔歌百灵",
+    "english_name": "Sabota lark",
+    "latin_name": "Calendulauda sabota",
+    "summary": "萨博塔歌百灵（学名：Mirafra sabota），是百灵科歌百灵属的一种，分布于纳米比亚、安哥拉、南非、斯威士兰、津巴布韦、博茨瓦纳和莫桑比克。全球活动范围约为2,310,000平方千米。该物种的保护状况被评为无危。 萨博塔歌百灵的平均体重约为25.5克。栖息地包括干燥的稀树…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Sabota_Lark_%28Calendulauda_sabota%29_%2811421288184%29%2C_crop.jpg/960px-Sabota_Lark_%28Calendulauda_sabota%29_%2811421288184%29%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南部非洲-488ef0f2",
+      "name": "南部非洲",
+      "summary": "南部非洲（英语：Southern Africa）即非洲大陆南部地区，不常简称為南非，“南非”（英语：South Africa）通常指南非共和国。联合国地理方案的南部非洲次分区包括下列五個南部非洲关税同盟国家： 博茨瓦纳 史瓦帝尼（斯威士兰…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-萨博塔歌百灵-954fef12",
+      "subject": "萨博塔歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-南部非洲-488ef0f2",
+      "object": "南部非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern Africa in its natural habitats of dry savannah, moist savannah, and subtropical or tropical dry shrubland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-萨博塔歌百灵-954fef12",
+      "subject": "萨博塔歌百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in southern Africa in its natural habitats of dry savannah, moist savannah, and subtropical or tropical dry shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-萨博塔歌百灵-954fef12",
+      "subject": "萨博塔歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

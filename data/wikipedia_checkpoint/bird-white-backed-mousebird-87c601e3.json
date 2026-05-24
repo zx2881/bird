@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:08:41",
+  "requested_title": "White-backed Mousebird",
+  "resolved_title": "White-backed mousebird",
+  "title_aliases": [
+    "White-backed Mousebird"
+  ],
+  "bird_id": "bird-white-backed-mousebird-87c601e3",
+  "raw_file": "bird-white-backed-mousebird-87c601e3.json",
+  "bird": {
+    "id": "bird-white-backed-mousebird-87c601e3",
+    "name": "White-backed mousebird",
+    "english_name": "White-backed mousebird",
+    "latin_name": "Colius colius",
+    "summary": "The white-backed mousebird (Colius colius) is a large species of mousebird. It is distributed in western and central regions of southern Af…",
+    "lat": "-22",
+    "lng": "17",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Colius_White-backed_mousebird_feeding_on_Duranta_berries_9860s.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-纳米比亚-0e5bfcb6",
+      "name": "纳米比亚",
+      "summary": "納米比亞共和國（德語：Republik Namibia，英語：Republic of Namibia），通稱納米比亞（Namibia），是位於南部非洲西面的共和國。它西部瀕臨大西洋，北部接壤贊比亞和安哥拉，東部連接博茨瓦纳，而在南部則與南…",
+      "lat": "-22",
+      "lng": "17"
+    },
+    {
+      "id": "loc-波札那-a47abf55",
+      "name": "波札那",
+      "summary": "博茨瓦纳共和国（英語：Republic of Botswana；茨瓦納語：Lefatshe la Botswana），通稱博茨瓦纳（Botswana），是位於非洲南部的內陸國家，全國國境皆為乾燥的台地地形，卡拉哈里沙漠占据了该国大約70%…",
+      "lat": "-24.65833333",
+      "lng": "25.90833333"
+    },
+    {
+      "id": "loc-開普省-a6fb3984",
+      "name": "開普省",
+      "summary": "好望角省（阿非利卡語：Provinsie van die Kaap die Goeie Hoop，英語：Province of the Cape of Good Hope），通稱開普省（阿非利卡語：Kaapprovinsie，英語：Cap…",
+      "lat": "-31",
+      "lng": "22"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-backed-mousebird-87c601e3",
+      "subject": "White-backed mousebird",
+      "predicate": "distributed_in",
+      "object_id": "loc-纳米比亚-0e5bfcb6",
+      "object": "纳米比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is distributed in western and central regions of southern Africa from Namibia and southern Botswana eastwards to Central Transvaal and the eastern Cape",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-backed-mousebird-87c601e3",
+      "subject": "White-backed mousebird",
+      "predicate": "distributed_in",
+      "object_id": "loc-波札那-a47abf55",
+      "object": "波札那",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is distributed in western and central regions of southern Africa from Namibia and southern Botswana eastwards to Central Transvaal and the eastern Cape",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-backed-mousebird-87c601e3",
+      "subject": "White-backed mousebird",
+      "predicate": "distributed_in",
+      "object_id": "loc-開普省-a6fb3984",
+      "object": "開普省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is distributed in western and central regions of southern Africa from Namibia and southern Botswana eastwards to Central Transvaal and the eastern Cape",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-backed-mousebird-87c601e3",
+      "subject": "White-backed mousebird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

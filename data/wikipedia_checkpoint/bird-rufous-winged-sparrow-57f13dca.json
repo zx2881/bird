@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:51:21",
+  "requested_title": "Rufous-winged Sparrow",
+  "resolved_title": "Rufous-winged sparrow",
+  "title_aliases": [
+    "Rufous-winged Sparrow"
+  ],
+  "bird_id": "bird-rufous-winged-sparrow-57f13dca",
+  "raw_file": "bird-rufous-winged-sparrow-57f13dca.json",
+  "bird": {
+    "id": "bird-rufous-winged-sparrow-57f13dca",
+    "name": "Rufous-winged sparrow",
+    "english_name": "Rufous-winged sparrow",
+    "latin_name": "Peucaea carpalis",
+    "summary": "The rufous-winged sparrow (Peucaea carpalis) is a species of bird in the family Passerellidae, the New World sparrows. It is found in Mexic…",
+    "lat": "32.25",
+    "lng": "-112.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Rufous-winged_sparrow.jpg/960px-Rufous-winged_sparrow.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-索诺拉沙漠-78fc1e70",
+      "name": "索诺拉沙漠",
+      "summary": "索诺拉沙漠（英語：Sonoran Desert；西班牙語：Desierto de Sonora），又稱索诺兰沙漠，是北美洲的一个沙漠，橫跨美国和墨西哥交界，包括美国亞利桑那州、加利福尼亚州和墨西哥索诺拉州大片地区。該沙漠亦因希拉河称作希拉…",
+      "lat": "32.25",
+      "lng": "-112.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-winged-sparrow-57f13dca",
+      "subject": "Rufous-winged sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-索诺拉沙漠-78fc1e70",
+      "object": "索诺拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is a bird of the Sonoran and Sinaloan deserts though it shuns the driest parts of them. In Arizona it occurs in mesquite grasslands.{{cite book | last =Sibley | first =David Allen | author-link =David Allen Sibley | title =The Sibley Field Guide to Birds of Western North America | publisher =Alfred A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-winged-sparrow-57f13dca",
+      "subject": "Rufous-winged sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species is a bird of the Sonoran and Sinaloan deserts though it shuns the driest parts of them. In Arizona it occurs in mesquite grasslands.{{cite book | last =Sibley | first =David Allen | author-link =David Allen Sibley | title =The Sibley Field Guide to Birds of Western North America | publisher =Alfred A",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-rufous-winged-sparrow-57f13dca",
+      "subject": "Rufous-winged sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

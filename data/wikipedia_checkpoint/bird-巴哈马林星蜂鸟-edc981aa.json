@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:34:17",
+  "requested_title": "Bahama Woodstar",
+  "resolved_title": "Bahama woodstar",
+  "title_aliases": [
+    "Bahama Woodstar"
+  ],
+  "bird_id": "bird-巴哈马林星蜂鸟-edc981aa",
+  "raw_file": "bird-巴哈马林星蜂鸟-edc981aa.json",
+  "bird": {
+    "id": "bird-巴哈马林星蜂鸟-edc981aa",
+    "name": "巴哈马林星蜂鸟",
+    "english_name": "Bahama woodstar",
+    "latin_name": "Nesophlox evelynae",
+    "summary": "巴哈马林星蜂鸟（学名：Nesophlox evelynae），是雨燕目蜂鸟科的一种鸟类。 巴哈马林星蜂鸟体重约2.4克，翼长约39.8毫米，嘴峰长约17.7毫米，喙宽度约1.4毫米，喙厚度约1.5毫米，跗蹠长约3.9毫米，尾长约30毫米。巴哈马林星蜂鸟在其分布区内为留鸟，其栖息…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Bahama_Woodstar_-_Calliphlox_evelynae.jpg/960px-Bahama_Woodstar_-_Calliphlox_evelynae.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-巴哈马林星蜂鸟-edc981aa",
+      "subject": "巴哈马林星蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Retrieved October 12, 2015, from Bahama woodstars are found in many different habitats such as gardens, scrubland, both secondary growth and dry lowland, the edges of tropical evergreen forests and pine forests. They tend not to migrate very far from these habitats being a year-round species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巴哈马林星蜂鸟-edc981aa",
+      "subject": "巴哈马林星蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Retrieved October 12, 2015, from Bahama woodstars are found in many different habitats such as gardens, scrubland, both secondary growth and dry lowland, the edges of tropical evergreen forests and pine forests. They tend not to migrate very far from these habitats being a year-round species",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-巴哈马林星蜂鸟-edc981aa",
+      "subject": "巴哈马林星蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

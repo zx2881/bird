@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:58:11",
+  "requested_title": "Reichenbach's Sunbird",
+  "resolved_title": "Reichenbach's sunbird",
+  "title_aliases": [
+    "Reichenbach's Sunbird"
+  ],
+  "bird_id": "bird-reichenbach-s-sunbird-26803dc6",
+  "raw_file": "bird-reichenbach-s-sunbird-26803dc6.json",
+  "bird": {
+    "id": "bird-reichenbach-s-sunbird-26803dc6",
+    "name": "Reichenbach's sunbird",
+    "english_name": "Reichenbach's sunbird",
+    "latin_name": "Anabathmis reichenbachii",
+    "summary": "Reichenbach's sunbird (Anabathmis reichenbachii) is a species of bird in the family Nectariniidae. It is native to the African tropical rai…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Reichenbach%27s_sunbird_%28Anabathmis_reichenbachii%29_on_Musa_argentii_Ankasa.jpg/960px-Reichenbach%27s_sunbird_%28Anabathmis_reichenbachii%29_on_Musa_argentii_Ankasa.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-热带雨林-5f5feb6f",
+      "name": "热带雨林",
+      "summary": "熱帶雨林主要分佈於東南亞、澳洲、南美洲亞馬遜河流域、非洲剛果河流域、中美洲、墨西哥和許多太平洋島嶼。根據世界自然基金會對各種生物群落的分類，熱帶雨林，或熱帶濕潤闊葉林（Tropical moist broadleaf forest），亦可…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-reichenbach-s-sunbird-26803dc6",
+      "subject": "Reichenbach's sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-热带雨林-5f5feb6f",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-reichenbach-s-sunbird-26803dc6",
+      "subject": "Reichenbach's sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

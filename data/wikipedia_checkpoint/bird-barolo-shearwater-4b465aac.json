@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:26:10",
+  "requested_title": "Barolo Shearwater",
+  "resolved_title": "Barolo shearwater",
+  "title_aliases": [
+    "Barolo Shearwater"
+  ],
+  "bird_id": "bird-barolo-shearwater-4b465aac",
+  "raw_file": "bird-barolo-shearwater-4b465aac.json",
+  "bird": {
+    "id": "bird-barolo-shearwater-4b465aac",
+    "name": "Barolo shearwater",
+    "english_name": "Barolo shearwater",
+    "latin_name": "Puffinus baroli",
+    "summary": "The Barolo shearwater (Puffinus baroli), also known as the North Atlantic little shearwater or Macaronesian shearwater, is a small shearwat…",
+    "lat": "38.66",
+    "lng": "-28.07",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Manx_Shearwater.jpg/960px-Manx_Shearwater.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "name": "夏尔·吕西安·波拿巴",
+      "summary": "夏尔·吕西安·朱尔·朱尔·波拿巴（法語：Charles Lucien Jules Laurent Bonaparte，發音：[ʃaʁl lysjɛ̃ ʒyl lɔʁɑ̃ bɔnapaʁt]；1803年5月24日—1857年7月29日）是一…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-亚速尔群岛-4188da52",
+      "name": "亚速尔群岛",
+      "summary": "亚速尔（葡萄牙語：Açores），正式名称為亞速爾自治區（Região Autónoma dos Açores），是位於北大西洋中央的一個群島，葡萄牙两个自治区之一，其行政首府為聖米格爾島上的蓬塔德爾加達。該群島由九個主要島嶼組成，東距葡…",
+      "lat": "38.66",
+      "lng": "-28.07"
+    },
+    {
+      "id": "loc-大西洋-ac6cdd86",
+      "name": "大西洋",
+      "summary": "大西洋，即亚特兰蒂斯洋（英語：Atlantic Ocean），是世界第二大洋。原面積8221萬7千平方公里，在南冰洋確立後，面積調整為7676萬2千平方公里。平均深度3,646米，最深處波多黎各海沟深達8,605米。從赤道南北分為北大西洋…",
+      "lat": "0",
+      "lng": "-25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-barolo-shearwater-4b465aac",
+      "subject": "Barolo shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "object": "夏尔·吕西安·波拿巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Barolo shearwater (Puffinus baroli), also known as the North Atlantic little shearwater or Macaronesian shearwater, is a small shearwater which breeds in the Azores and Canaries of Macaronesia in the North Atlantic Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-barolo-shearwater-4b465aac",
+      "subject": "Barolo shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-亚速尔群岛-4188da52",
+      "object": "亚速尔群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Barolo shearwater (Puffinus baroli), also known as the North Atlantic little shearwater or Macaronesian shearwater, is a small shearwater which breeds in the Azores and Canaries of Macaronesia in the North Atlantic Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-barolo-shearwater-4b465aac",
+      "subject": "Barolo shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋-ac6cdd86",
+      "object": "大西洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Barolo shearwater (Puffinus baroli), also known as the North Atlantic little shearwater or Macaronesian shearwater, is a small shearwater which breeds in the Azores and Canaries of Macaronesia in the North Atlantic Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-barolo-shearwater-4b465aac",
+      "subject": "Barolo shearwater",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Like other Procellariforms, introduced predators, such as rats and cats, are their main threat at breeding colonies",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

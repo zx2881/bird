@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:15:12",
+  "requested_title": "Sage Thrasher",
+  "resolved_title": "Sage thrasher",
+  "title_aliases": [
+    "Sage Thrasher"
+  ],
+  "bird_id": "bird-sage-thrasher-87594d9b",
+  "raw_file": "bird-sage-thrasher-87594d9b.json",
+  "bird": {
+    "id": "bird-sage-thrasher-87594d9b",
+    "name": "Sage thrasher",
+    "english_name": "Sage thrasher",
+    "latin_name": "Oreoscoptes montanus",
+    "summary": "The sage thrasher (Oreoscoptes montanus) is a medium-sized passerine bird in the family Mimidae. It is the only species in the genus Oreosc…",
+    "lat": "40.66666667",
+    "lng": "-117.66666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sage_Thrasher_%2834123631044%29.jpg/960px-Sage_Thrasher_%2834123631044%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大盆地-6f250005",
+      "name": "大盆地",
+      "summary": "大盆地（英語：Great Basin）是北美最大的内流盆地。以其干旱贫瘠，以及复杂多变的地形而著称。它包括了北美最低点恶水盆地以及美国本土最高点惠特尼峰，横跨數個地理分組、生物群系和沙漠，它也是大盆地原住民世代生存的地方。 概貌 大盆地沙…",
+      "lat": "40.66666667",
+      "lng": "-117.66666667"
+    },
+    {
+      "id": "loc-不列颠哥伦比亚省-3432d47b",
+      "name": "不列颠哥伦比亚省",
+      "summary": "不列颠哥伦比亚（英語：British Columbia，香港、新加坡譯卑詩，台湾譯不列顛哥倫比亞，縮寫：B.C.；法語：Colombie-Britannique，縮寫：C.B.），或譯英屬哥倫比亞、中文另外又稱BC省，是加拿大最西部的省，…",
+      "lat": "54",
+      "lng": "-125"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sage-thrasher-87594d9b",
+      "subject": "Sage thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-大盆地-6f250005",
+      "object": "大盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the regions of western North America, breeding from the Great Basin to southern British Columbia, and migrates south to southern United States and northern Mexico for winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sage-thrasher-87594d9b",
+      "subject": "Sage thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-不列颠哥伦比亚省-3432d47b",
+      "object": "不列颠哥伦比亚省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the regions of western North America, breeding from the Great Basin to southern British Columbia, and migrates south to southern United States and northern Mexico for winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sage-thrasher-87594d9b",
+      "subject": "Sage thrasher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-sage-thrasher-87594d9b",
+      "subject": "Sage thrasher",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Reasons for designation are that it is very small population of an estimated 7 to 36 adults, low level of immigration from Washington and Montana, and reduction of sage-brush habitat due to anthropogenic development and fires. In Washington, the Washington Department of Fish & Wildlife (WDFW) consider the sage thrasher as a Species of Greatest Conservation Need under the State Wildlife Action Plan and identified as a Priority Species under the WDFW's Priority Habitat and Species Program. Conservation concerns include declining population and range reduction occupied by the species",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

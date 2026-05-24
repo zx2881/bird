@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:59:05",
+  "requested_title": "Yellow-legged Flyrobin",
+  "resolved_title": "Yellow-legged flyrobin",
+  "title_aliases": [
+    "Yellow-legged Flyrobin"
+  ],
+  "bird_id": "bird-yellow-legged-flyrobin-531733b1",
+  "raw_file": "bird-yellow-legged-flyrobin-531733b1.json",
+  "bird": {
+    "id": "bird-yellow-legged-flyrobin-531733b1",
+    "name": "Yellow-legged flyrobin",
+    "english_name": "Yellow-legged flyrobin",
+    "latin_name": "Kempiella griseoceps",
+    "summary": "The yellow-legged flyrobin or yellow-legged flycatcher (Kempiella griseoceps) is a species of passerine bird in the Australasian robin fami…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Kempiella_griseoceps_-_Alan_Bell_-_322619638.jpeg/960px-Kempiella_griseoceps_-_Alan_Bell_-_322619638.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-查理斯-沃爾特-德-維斯-ada37776",
+      "name": "查理斯·沃爾特·德·維斯",
+      "summary": "查理斯·沃爾特·德·維斯（英語：Charles Walter de Vis，1829年5月9日—1915年8月30日）， 在1882年之前稱“德維斯”（Devis），是一位英國動物學家 及鳥類學家。 德·維斯出生於英國伯明翰， 1849年…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-约克角半岛-2a6b68ec",
+      "name": "约克角半岛",
+      "summary": "约克角半岛（英語：Cape York Peninsula）是澳大利亚東北部昆士兰州的一个半岛，其北端约克角是澳大利亚大陆的极北点。该半岛在1770年由英国航海家詹姆斯·库克以约克公爵的封号命名。 约克角距新几内亚岛约140公里，两地由托雷…",
+      "lat": "-15",
+      "lng": "143"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-legged-flyrobin-531733b1",
+      "subject": "Yellow-legged flyrobin",
+      "predicate": "distributed_in",
+      "object_id": "loc-查理斯-沃爾特-德-維斯-ada37776",
+      "object": "查理斯·沃爾特·德·維斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-legged flyrobin or yellow-legged flycatcher (Kempiella griseoceps) is a species of passerine bird in the Australasian robin family Petroicidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-legged-flyrobin-531733b1",
+      "subject": "Yellow-legged flyrobin",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea and Cape York Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-legged-flyrobin-531733b1",
+      "subject": "Yellow-legged flyrobin",
+      "predicate": "distributed_in",
+      "object_id": "loc-约克角半岛-2a6b68ec",
+      "object": "约克角半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea and Cape York Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-legged-flyrobin-531733b1",
+      "subject": "Yellow-legged flyrobin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

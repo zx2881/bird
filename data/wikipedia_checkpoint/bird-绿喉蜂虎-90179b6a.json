@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:35:30",
+  "requested_title": "Asian Green Bee-eater",
+  "resolved_title": "Asian green bee-eater",
+  "title_aliases": [
+    "Asian Green Bee-eater"
+  ],
+  "bird_id": "bird-绿喉蜂虎-90179b6a",
+  "raw_file": "bird-绿喉蜂虎-90179b6a.json",
+  "bird": {
+    "id": "bird-绿喉蜂虎-90179b6a",
+    "name": "绿喉蜂虎",
+    "english_name": "Asian green bee-eater",
+    "latin_name": "Merops orientalis",
+    "summary": "The Asian green bee-eater (Merops orientalis), also known as the little green bee-eater, and just green bee-eater, is a bird species in the…",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Green_bee-eater_%28Merops_orientalis%29_with_blue_pansy_4_Jojawar.jpg/960px-Green_bee-eater_%28Merops_orientalis%29_with_blue_pansy_4_Jojawar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-绿喉蜂虎-90179b6a",
+      "subject": "绿喉蜂虎",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "A Handbook.|publisher= Princeton University Press|isbn=0-7136-8028-8}} Populations in Africa and the Arabian Peninsula that were formerly assigned to this species (under the name green bee-eater) are now considered to be distinct species, the African green bee-eater and the Arabian green bee-eater. They are mainly insect eaters and they are found in grassland, thin scrub and forest often quite far from water",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿喉蜂虎-90179b6a",
+      "subject": "绿喉蜂虎",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "A Handbook.|publisher= Princeton University Press|isbn=0-7136-8028-8}} Populations in Africa and the Arabian Peninsula that were formerly assigned to this species (under the name green bee-eater) are now considered to be distinct species, the African green bee-eater and the Arabian green bee-eater. They are mainly insect eaters and they are found in grassland, thin scrub and forest often quite far from water",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-绿喉蜂虎-90179b6a",
+      "subject": "绿喉蜂虎",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

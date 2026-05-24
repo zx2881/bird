@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:58:29",
+  "requested_title": "Harris's Sparrow",
+  "resolved_title": "Harris's sparrow",
+  "title_aliases": [
+    "Harris's Sparrow"
+  ],
+  "bird_id": "bird-harris-s-sparrow-9c16bd70",
+  "raw_file": "bird-harris-s-sparrow-9c16bd70.json",
+  "bird": {
+    "id": "bird-harris-s-sparrow-9c16bd70",
+    "name": "Harris's sparrow",
+    "english_name": "Harris's sparrow",
+    "latin_name": "Zonotrichia querula",
+    "summary": "Harris's sparrow (Zonotrichia querula) is a large sparrow. Their breeding habitat is the north part of central Canada (primarily the Northw…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Harris%27s_Sparrow_%2814u0779_std%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-温带针叶林-0bea7fe2",
+      "name": "温带针叶林",
+      "summary": "温带针叶林是世界自然基金会定义的一种生態區，即一片長有針葉樹或闊葉樹的樹林。温带针叶林主要分布在夏暖冬凉以及冬季温和、降雨量大的沿海地区，或气候较干燥的内陆或山地地区。此外，一种独立的栖息地类型，热带针叶林，则更多的存在于热带气候中。 不…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-harris-s-sparrow-9c16bd70",
+      "subject": "Harris's sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-温带针叶林-0bea7fe2",
+      "object": "温带针叶林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Harris's sparrow breeds in stunted coniferous forests and adjacent scrubs, especially areas of the grand boreal forests where stands of spruce abut mossy bogs",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-harris-s-sparrow-9c16bd70",
+      "subject": "Harris's sparrow",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

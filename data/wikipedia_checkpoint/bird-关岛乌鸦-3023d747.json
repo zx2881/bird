@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:38:48",
+  "requested_title": "Mariana Crow",
+  "resolved_title": "Mariana crow",
+  "title_aliases": [
+    "Mariana Crow"
+  ],
+  "bird_id": "bird-关岛乌鸦-3023d747",
+  "raw_file": "bird-关岛乌鸦-3023d747.json",
+  "bird": {
+    "id": "bird-关岛乌鸦-3023d747",
+    "name": "关岛乌鸦",
+    "english_name": "Mariana crow",
+    "latin_name": "Corvus kubaryi",
+    "summary": "关岛乌鸦（学名：Corvus kubaryi），是鸦科鸦属的一种，分布于关岛和北马里亚纳群岛。全球活动范围约为220平方千米。自棕树蛇被引入关岛后，关岛乌鸦的数量已大幅减少，目前该物种的保护状况被评为极危。关岛乌鸦的平均体重约为250.0克，栖息地为亚热带或热带的湿润低地林。…",
+    "lat": "13.57611111",
+    "lng": "144.92444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Corvus_kubaryi_-_Rachael_Kaiser_-_582477388.jpeg/960px-Corvus_kubaryi_-_Rachael_Kaiser_-_582477388.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-安德森空军基地-c86f8a80",
+      "name": "安德森空军基地",
+      "summary": "安德森空軍基地（英語：Andersen Air Force Base）是位於美國關島北部的一個空軍基地，為美國太平洋空軍第36聯隊的屯駐地。安德森基地上同時有轟炸機大隊。 現時基地主要支援美軍在太平洋及印度洋地區的後勤工作。",
+      "lat": "13.57611111",
+      "lng": "144.92444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-关岛乌鸦-3023d747",
+      "subject": "关岛乌鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-安德森空军基地-c86f8a80",
+      "object": "安德森空军基地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It disappeared from southern Guam in the 1960s and from central Guam in the 1970s, mostly inhabiting Andersen Air Force Base",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-关岛乌鸦-3023d747",
+      "subject": "关岛乌鸦",
+      "predicate": "lives_in",
+      "object_id": "hab-mature-forest",
+      "object": "成熟森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Mariana crow inhabits second growth and mature forests, as well as coastal strand vegetation, but nests only in native limestone forest",
+      "object_summary": "具备成熟林冠和树洞资源的森林生境。"
+    },
+    {
+      "subject_id": "bird-关岛乌鸦-3023d747",
+      "subject": "关岛乌鸦",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

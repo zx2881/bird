@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:33:19",
+  "requested_title": "Red-fronted Parrotlet",
+  "resolved_title": "Red-fronted parrotlet",
+  "title_aliases": [
+    "Red-fronted Parrotlet"
+  ],
+  "bird_id": "bird-red-fronted-parrotlet-10dfb369",
+  "raw_file": "bird-red-fronted-parrotlet-10dfb369.json",
+  "bird": {
+    "id": "bird-red-fronted-parrotlet-10dfb369",
+    "name": "Red-fronted parrotlet",
+    "english_name": "Red-fronted parrotlet",
+    "latin_name": "Touit costaricensis",
+    "summary": "The red-fronted parrotlet (Touit costaricensis) is a Near Threatened species of bird in subfamily Arinae of the family Psittacidae, the Afr…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Touit_costaricensis_map.svg/960px-Touit_costaricensis_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-fronted-parrotlet-10dfb369",
+      "subject": "Red-fronted parrotlet",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the dry season it inhabits very wet and cool evergreen montane forest at elevations up to ; in the wet season it moves to lower elevation rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-fronted-parrotlet-10dfb369",
+      "subject": "Red-fronted parrotlet",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In the dry season it inhabits very wet and cool evergreen montane forest at elevations up to ; in the wet season it moves to lower elevation rainforest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-red-fronted-parrotlet-10dfb369",
+      "subject": "Red-fronted parrotlet",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-red-fronted-parrotlet-10dfb369",
+      "subject": "Red-fronted parrotlet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Habitat loss is however low within the range, particularly in the highlands, and the species is not facing substantial threats.\" \"Uncommon to rare, although probably much overlooked and tolerant of a degree of habitat disturbance; apparently not traded.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-red-fronted-parrotlet-10dfb369",
+      "subject": "Red-fronted parrotlet",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Habitat loss is however low within the range, particularly in the highlands, and the species is not facing substantial threats.\" \"Uncommon to rare, although probably much overlooked and tolerant of a degree of habitat disturbance; apparently not traded.\"",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

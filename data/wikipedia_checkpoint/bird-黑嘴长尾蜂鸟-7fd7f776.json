@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:57:16",
+  "requested_title": "Black-billed Streamertail",
+  "resolved_title": "Black-billed streamertail",
+  "title_aliases": [
+    "Black-billed Streamertail"
+  ],
+  "bird_id": "bird-黑嘴长尾蜂鸟-7fd7f776",
+  "raw_file": "bird-黑嘴长尾蜂鸟-7fd7f776.json",
+  "bird": {
+    "id": "bird-黑嘴长尾蜂鸟-7fd7f776",
+    "name": "黑嘴长尾蜂鸟",
+    "english_name": "Black-billed streamertail",
+    "latin_name": "Trochilus scitulus",
+    "summary": "黑嘴长尾蜂鸟（台湾作黑嘴綬帶蜂鳥，学名：Trochilus scitulus），分布于牙买加极东北地区的波特蘭區，是牙買加特有的一種蜂鳥。雖然大部份學者都認同它們是獨立的物種，但仍有一些認為它們與红嘴长尾蜂鸟為同一物種。 参考资料",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Trochilus_scitulus.jpg/960px-Trochilus_scitulus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑嘴长尾蜂鸟-7fd7f776",
+      "subject": "黑嘴长尾蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits evergreen montane forest, lowland tropical forest, and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑嘴长尾蜂鸟-7fd7f776",
+      "subject": "黑嘴长尾蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits evergreen montane forest, lowland tropical forest, and secondary forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-黑嘴长尾蜂鸟-7fd7f776",
+      "subject": "黑嘴长尾蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黑嘴长尾蜂鸟-7fd7f776",
+      "subject": "黑嘴长尾蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. \"The ready occupation of man-made habitats suggests that habitat loss is unlikely to be a problem.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

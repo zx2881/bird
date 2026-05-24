@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:15:27",
+  "requested_title": "Jamaican Crow",
+  "resolved_title": "Jamaican crow",
+  "title_aliases": [
+    "Jamaican Crow"
+  ],
+  "bird_id": "bird-牙买加乌鸦-f3dc81d2",
+  "raw_file": "bird-牙买加乌鸦-f3dc81d2.json",
+  "bird": {
+    "id": "bird-牙买加乌鸦-f3dc81d2",
+    "name": "牙买加乌鸦",
+    "english_name": "Jamaican crow",
+    "latin_name": "Corvus jamaicensis",
+    "summary": "牙买加乌鸦（学名：Corvus jamaicensis），是鸦科鸦属的一种，是海拔迁徙的候鸟，为牙买加的特有种。全球活动范围约为11,000平方千米。该物种的保护状况被评为无危。 牙买加乌鸦的栖息地包括亚热带或热带严重退化的前森林、亚热带或热带的湿润低地林、乡村花园、亚热带或热…",
+    "lat": "18.18",
+    "lng": "-77.4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Jamaican_crow.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-牙买加-9a9bd9da",
+      "name": "牙买加",
+      "summary": "牙买加（英語：Jamaica）是加勒比海地区的一个岛国，面積為10,990平方公里，也是大安地列斯群島和加勒比海第三大島。牙買加位於古巴以南約145公里，伊斯帕尼奧拉島以西191公里。 該島原為操阿拉瓦克語系的阿拉瓦克人和泰諾族居住地，後…",
+      "lat": "18.18",
+      "lng": "-77.4"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-牙买加乌鸦-f3dc81d2",
+      "subject": "牙买加乌鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-牙买加-9a9bd9da",
+      "object": "牙买加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "As its name suggests, this species is found on the island of Jamaica, where it inhabits woodland mixed with cleared areas, and can be frequently found in larger gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-牙买加乌鸦-f3dc81d2",
+      "subject": "牙买加乌鸦",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

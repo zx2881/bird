@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:39:03",
+  "requested_title": "Rufous-fronted Babbler",
+  "resolved_title": "Rufous-fronted babbler",
+  "title_aliases": [
+    "Rufous-fronted Babbler"
+  ],
+  "bird_id": "bird-红额穗鹛-20917e22",
+  "raw_file": "bird-红额穗鹛-20917e22.json",
+  "bird": {
+    "id": "bird-红额穗鹛-20917e22",
+    "name": "红额穗鹛",
+    "english_name": "Rufous-fronted babbler",
+    "latin_name": "Cyanoderma rufifrons",
+    "summary": "红额穗鹛（学名：Stachyridopsis rufifrons），是画眉科的一种，分布于缅甸、马来西亚、泰国和印度尼西亚。该物种的保护状况被评为无危。 红额穗鹛的平均体重约为9.7克。栖息地包括亚热带或热带的（低地）湿润疏灌丛、亚热带或热带的（低地）季节性湿润草原、亚热带或热…",
+    "lat": "7",
+    "lng": "100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stachyris_rodolphei.jpg/960px-Stachyris_rodolphei.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红额穗鹛-20917e22",
+      "subject": "红额穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Eastern Himalayan foothills, Myanmar, Thailand, northern Indochina and south to the Malay Peninsula and the islands of Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红额穗鹛-20917e22",
+      "subject": "红额穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Eastern Himalayan foothills, Myanmar, Thailand, northern Indochina and south to the Malay Peninsula and the islands of Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红额穗鹛-20917e22",
+      "subject": "红额穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Eastern Himalayan foothills, Myanmar, Thailand, northern Indochina and south to the Malay Peninsula and the islands of Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红额穗鹛-20917e22",
+      "subject": "红额穗鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

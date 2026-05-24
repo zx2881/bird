@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:07:53",
+  "requested_title": "Turkey Vulture",
+  "resolved_title": "Turkey vulture",
+  "title_aliases": [
+    "Turkey Vulture"
+  ],
+  "bird_id": "bird-红头美洲鹫-8078edb1",
+  "raw_file": "bird-红头美洲鹫-8078edb1.json",
+  "bird": {
+    "id": "bird-红头美洲鹫-8078edb1",
+    "name": "红头美洲鹫",
+    "english_name": "Turkey vulture",
+    "latin_name": "Cathartes aura",
+    "summary": "紅頭美洲鷲（學名：Cathartes aura），又名火鸡禿鷹，是分佈在美洲的一種新大陸禿鷲。牠們分佈在加拿大南部至南美洲南端，棲息在遼闊至半開放的地區，包括亞熱帶森林、叢林、草坪及沙漠。 紅頭美洲鷲是一種大型的鳥類，翼展1.7至1.83米，體長64至81厘米，重0.85至2.…",
+    "lat": "19",
+    "lng": "-96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Turkey_vulture_%28Cathartes_aura%29_Orange_Walk.jpg/960px-Turkey_vulture_%28Cathartes_aura%29_Orange_Walk.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旧大陆鹫类-79b0778f",
+      "name": "旧大陆鹫类",
+      "summary": "舊大陸鷲类（Old World vultures）是生存於歐洲、亞洲與非洲上的鷲类。為鷹科中的禿鷲亞科與胡兀鷲亞科的鳥類。 雖然新大陸鷲类與舊大陸鷲类外表相似，但牠們並非近親。牠們的相似性是來自趨同演化。",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-美洲-f26eed21",
+      "name": "美洲",
+      "summary": "亚美利加洲（英語：Americas）簡稱美洲，位于西半球，自然地理分为北美洲和南美洲，其中北美洲可进一步划分为北美地区、中美洲（联合国地理方案将墨西哥视为中美洲的一部分）和加勒比地区（西印度群岛）三个地理区域。美洲的总面積達4254.9万…",
+      "lat": "19",
+      "lng": "-96"
+    },
+    {
+      "id": "loc-合恩角市镇-9c51bdcf",
+      "name": "合恩角市镇",
+      "summary": "合恩角市镇（西班牙語：Cabo de Hornos）是智利的一个市镇，位於該國南部，由智利南极省負責管轄，行政中心位于威廉斯港。合恩角市镇设置於1927年12月30日，面積15,853平方公里，海拔高度39米，2002年人口2,262，人…",
+      "lat": "-54.93333333",
+      "lng": "-67.61666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红头美洲鹫-8078edb1",
+      "subject": "红头美洲鹫",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆鹫类-79b0778f",
+      "object": "旧大陆鹫类",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits a variety of open and semi-open areas, including subtropical forests, shrublands, pastures, and deserts. Like all New World vultures, it is not closely related to the Old World vultures of Europe, Africa, and Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红头美洲鹫-8078edb1",
+      "subject": "红头美洲鹫",
+      "predicate": "distributed_in",
+      "object_id": "loc-美洲-f26eed21",
+      "object": "美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Available from https://www.mbr-pwrc.usgs.gov/bbs/ It is found in open and semi-open areas throughout the Americas from southern Canada to Cape Horn",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红头美洲鹫-8078edb1",
+      "subject": "红头美洲鹫",
+      "predicate": "distributed_in",
+      "object_id": "loc-合恩角市镇-9c51bdcf",
+      "object": "合恩角市镇",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Available from https://www.mbr-pwrc.usgs.gov/bbs/ It is found in open and semi-open areas throughout the Americas from southern Canada to Cape Horn",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红头美洲鹫-8078edb1",
+      "subject": "红头美洲鹫",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits a variety of open and semi-open areas, including subtropical forests, shrublands, pastures, and deserts. Like all New World vultures, it is not closely related to the Old World vultures of Europe, Africa, and Asia",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-红头美洲鹫-8078edb1",
+      "subject": "红头美洲鹫",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "University of Nebraska Press, Lincoln, NE, USA. Additionally, they may adapt to tropical and subtropical forests, shrublands, deserts and semi-desert, wetlands and foothills. Evidence indicates agricultural land is key habitat for turkey vultures, mainly pastureland or other low-input farmland for foraging and roosting but they tend to only occur ephemerally as flyovers around row-crop type agriculture.Graber, R",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-红头美洲鹫-8078edb1",
+      "subject": "红头美洲鹫",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "University of Nebraska Press, Lincoln, NE, USA. Additionally, they may adapt to tropical and subtropical forests, shrublands, deserts and semi-desert, wetlands and foothills. Evidence indicates agricultural land is key habitat for turkey vultures, mainly pastureland or other low-input farmland for foraging and roosting but they tend to only occur ephemerally as flyovers around row-crop type agriculture.Graber, R",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-红头美洲鹫-8078edb1",
+      "subject": "红头美洲鹫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

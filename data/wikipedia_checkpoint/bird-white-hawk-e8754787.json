@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:00:35",
+  "requested_title": "White Hawk",
+  "resolved_title": "White hawk",
+  "title_aliases": [
+    "White Hawk"
+  ],
+  "bird_id": "bird-white-hawk-e8754787",
+  "raw_file": "bird-white-hawk-e8754787.json",
+  "bird": {
+    "id": "bird-white-hawk-e8754787",
+    "name": "White hawk",
+    "english_name": "White hawk",
+    "latin_name": "Pseudastur albicollis",
+    "summary": "The white hawk (Pseudastur albicollis) is a bird of prey breeding in the tropical New World of the family Accipitridae. Though it is common…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/White_Hawk_1_2496239182_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-圭亚那-地区-7d32a67b",
+      "name": "圭亚那 (地区)",
+      "summary": "圭亚那（西班牙語：Las Guayanas；英語：The Guianas；法語：Guyanes；荷蘭語：Guyana's；葡萄牙語：Guianas）是南美洲北部、西北部的一个地区，并被划分为了数个主权国家和区域。前哥伦布时期，圭亚那地区的…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-大西洋-ac6cdd86",
+      "name": "大西洋",
+      "summary": "大西洋，即亚特兰蒂斯洋（英語：Atlantic Ocean），是世界第二大洋。原面積8221萬7千平方公里，在南冰洋確立後，面積調整為7676萬2千平方公里。平均深度3,646米，最深處波多黎各海沟深達8,605米。從赤道南北分為北大西洋…",
+      "lat": "0",
+      "lng": "-25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-hawk-e8754787",
+      "subject": "White hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white hawk's range in central South America is the entire Amazon basin, from the Andes on the west to the Guianas on the Atlantic on the northeast, and to the transition lands to the south",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-hawk-e8754787",
+      "subject": "White hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white hawk's range in central South America is the entire Amazon basin, from the Andes on the west to the Guianas on the Atlantic on the northeast, and to the transition lands to the south",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-hawk-e8754787",
+      "subject": "White hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-圭亚那-地区-7d32a67b",
+      "object": "圭亚那 (地区)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white hawk's range in central South America is the entire Amazon basin, from the Andes on the west to the Guianas on the Atlantic on the northeast, and to the transition lands to the south",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-hawk-e8754787",
+      "subject": "White hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋-ac6cdd86",
+      "object": "大西洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white hawk's range in central South America is the entire Amazon basin, from the Andes on the west to the Guianas on the Atlantic on the northeast, and to the transition lands to the south",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-hawk-e8754787",
+      "subject": "White hawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

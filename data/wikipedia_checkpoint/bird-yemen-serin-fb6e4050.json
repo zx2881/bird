@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:29:07",
+  "requested_title": "Yemen Serin",
+  "resolved_title": "Yemen serin",
+  "title_aliases": [
+    "Yemen Serin"
+  ],
+  "bird_id": "bird-yemen-serin-fb6e4050",
+  "raw_file": "bird-yemen-serin-fb6e4050.json",
+  "bird": {
+    "id": "bird-yemen-serin-fb6e4050",
+    "name": "Yemen serin",
+    "english_name": "Yemen serin",
+    "latin_name": "Crithagra menachensis",
+    "summary": "The Yemen serin (Crithagra menachensis) is a species of finch in the family Fringillidae. It is found in Oman, Saudi Arabia, and Yemen.",
+    "lat": "21",
+    "lng": "57",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Yemen_Serin.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿曼-1634d3f9",
+      "name": "阿曼",
+      "summary": "阿曼苏丹国（阿拉伯語：سلطنة عُمان），简称阿曼（عُمان），是位於西南亚，阿拉伯半岛东南沿海的国家。北部与阿拉伯联合酋长国接壤，西面毗邻沙地阿拉伯，西南靠近也门。其海岸南部和东部临阿拉伯海，东北方则抵阿曼湾。面积约30万平方公…",
+      "lat": "21",
+      "lng": "57"
+    },
+    {
+      "id": "loc-沙特阿拉伯-bb57c647",
+      "name": "沙特阿拉伯",
+      "summary": "沙烏地阿拉伯王國（阿拉伯語：المملكة العربية السعودية，羅馬化：al-Mamlakah ʿArabīyah as-Suʿūdīyah，），簡稱沙烏地阿拉伯或沙烏地（السُّعُودِيَّة），是位於西亞阿拉伯半島…",
+      "lat": "24",
+      "lng": "45"
+    },
+    {
+      "id": "loc-也门-80b75a25",
+      "name": "也门",
+      "summary": "也門共和國（阿拉伯語：الجمهورية اليمنية，al-Jumhūriyyah al-Yamaniyyah），通稱葉門（阿拉伯語：اليمن，羅馬化：al-Yaman），為西亞國家，位於阿拉伯半島西南角、阿拉伯海與紅海交界處，與阿…",
+      "lat": "15.34833333",
+      "lng": "44.20638889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yemen-serin-fb6e4050",
+      "subject": "Yemen serin",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿曼-1634d3f9",
+      "object": "阿曼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Oman, Saudi Arabia, and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yemen-serin-fb6e4050",
+      "subject": "Yemen serin",
+      "predicate": "distributed_in",
+      "object_id": "loc-沙特阿拉伯-bb57c647",
+      "object": "沙特阿拉伯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Oman, Saudi Arabia, and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yemen-serin-fb6e4050",
+      "subject": "Yemen serin",
+      "predicate": "distributed_in",
+      "object_id": "loc-也门-80b75a25",
+      "object": "也门",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Oman, Saudi Arabia, and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yemen-serin-fb6e4050",
+      "subject": "Yemen serin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

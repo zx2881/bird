@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:10:30",
+  "requested_title": "Planalto Tapaculo",
+  "resolved_title": "Planalto tapaculo",
+  "title_aliases": [
+    "Planalto Tapaculo"
+  ],
+  "bird_id": "bird-planalto-tapaculo-36c7c2e5",
+  "raw_file": "bird-planalto-tapaculo-36c7c2e5.json",
+  "bird": {
+    "id": "bird-planalto-tapaculo-36c7c2e5",
+    "name": "Planalto tapaculo",
+    "english_name": "Planalto tapaculo",
+    "latin_name": "Scytalopus pachecoi",
+    "summary": "The Planalto tapaculo (Scytalopus pachecoi) is a small passerine bird in family Rhinocryptidae. It is found in southeastern Brazil and extr…",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Planalto_tapaculo_Scytalopus_pachecoi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-planalto-tapaculo-36c7c2e5",
+      "subject": "Planalto tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southeastern Brazil and extreme northeastern Argentina.{{cite web |url=http://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-planalto-tapaculo-36c7c2e5",
+      "subject": "Planalto tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southeastern Brazil and extreme northeastern Argentina.{{cite web |url=http://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-planalto-tapaculo-36c7c2e5",
+      "subject": "Planalto tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits forest and forest edge where it is often found near streams and in undergrowth such as bamboo thickets",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-planalto-tapaculo-36c7c2e5",
+      "subject": "Planalto tapaculo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

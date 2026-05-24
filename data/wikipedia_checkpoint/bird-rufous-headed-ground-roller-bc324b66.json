@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:31:21",
+  "requested_title": "Rufous-headed Ground Roller",
+  "resolved_title": "Rufous-headed ground roller",
+  "title_aliases": [
+    "Rufous-headed Ground Roller"
+  ],
+  "bird_id": "bird-rufous-headed-ground-roller-bc324b66",
+  "raw_file": "bird-rufous-headed-ground-roller-bc324b66.json",
+  "bird": {
+    "id": "bird-rufous-headed-ground-roller-bc324b66",
+    "name": "Rufous-headed ground roller",
+    "english_name": "Rufous-headed ground roller",
+    "latin_name": "Atelornis crossleyi",
+    "summary": "The rufous-headed ground roller (Atelornis crossleyi) is a species of bird in the ground roller family, Brachypteraciidae. It is endemic to…",
+    "lat": "-18.93333333",
+    "lng": "47.51666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Rufous-headed_ground-roller_%28Atelornis_crossleyi%29.jpg/960px-Rufous-headed_ground-roller_%28Atelornis_crossleyi%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-madagascar-subhumid-forests-e6ece51a",
+      "name": "Madagascar subhumid forests",
+      "summary": "The Madagascar subhumid forests are a tropical moist broadleaf forest ecoregion that covers most of the Central Highlan…",
+      "lat": "-18.93333333",
+      "lng": "47.51666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-headed-ground-roller-bc324b66",
+      "subject": "Rufous-headed ground roller",
+      "predicate": "distributed_in",
+      "object_id": "loc-madagascar-subhumid-forests-e6ece51a",
+      "object": "Madagascar subhumid forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The rufous-headed ground roller is endemic to eastern Madagascar where it is found in montane evergreen rain forests at altitudes between , but is most common between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-headed-ground-roller-bc324b66",
+      "subject": "Rufous-headed ground roller",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

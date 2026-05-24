@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:06:18",
+  "requested_title": "White-throated Jay",
+  "resolved_title": "White-throated jay",
+  "title_aliases": [
+    "White-throated Jay"
+  ],
+  "bird_id": "bird-白喉蓝头鹊-5b5bee72",
+  "raw_file": "bird-白喉蓝头鹊-5b5bee72.json",
+  "bird": {
+    "id": "bird-白喉蓝头鹊-5b5bee72",
+    "name": "白喉蓝头鹊",
+    "english_name": "White-throated jay",
+    "latin_name": "Cyanolyca mirabilis",
+    "summary": "白喉蓝头鹊（学名：Cyanolyca mirabilis），是鸦科蓝头鹊属的一种，为墨西哥的特有种。全球活动范围约为3,800平方千米。该物种的保护状况被评为易危。 白喉蓝头鹊的平均体重约为52.4克。栖息地为亚热带或热带的湿润山地林。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cyanolyca_mirabilis_450950926.jpg/960px-Cyanolyca_mirabilis_450950926.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pine-oak-forest-1bf3f7a2",
+      "name": "Pine–oak forest",
+      "summary": "Pine–oak forest, pine–oak woodland, or oak–pine forest is a group of similar of ecosystems, primarily found in North an…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白喉蓝头鹊-5b5bee72",
+      "subject": "白喉蓝头鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-pine-oak-forest-1bf3f7a2",
+      "object": "Pine–oak forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits humid pine-oak forest and montane evergreen forest in the upper subtropical and temperate zones.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉蓝头鹊-5b5bee72",
+      "subject": "白喉蓝头鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits humid pine-oak forest and montane evergreen forest in the upper subtropical and temperate zones.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉蓝头鹊-5b5bee72",
+      "subject": "白喉蓝头鹊",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

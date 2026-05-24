@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:09:08",
+  "requested_title": "Chucao Tapaculo",
+  "resolved_title": "Chucao tapaculo",
+  "title_aliases": [
+    "Chucao Tapaculo"
+  ],
+  "bird_id": "bird-chucao-tapaculo-f9a23904",
+  "raw_file": "bird-chucao-tapaculo-f9a23904.json",
+  "bird": {
+    "id": "bird-chucao-tapaculo-f9a23904",
+    "name": "Chucao tapaculo",
+    "english_name": "Chucao tapaculo",
+    "latin_name": "Scelorchilus rubecula",
+    "summary": "The chucao tapaculo (Scelorchilus rubecula) is a species of bird in the family Rhinocryptidae. It is found in central Chile and adjacent Ar…",
+    "lat": "-53.16666667",
+    "lng": "-70.93333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Scelorchilus_rubecula.JPG/960px-Scelorchilus_rubecula.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-麥哲倫省-95a2538b",
+      "name": "麥哲倫省",
+      "summary": "麥哲倫省是智利的54個省份之一，位於該國南部，由麥哲倫-智利南極大區負責管轄，首府設於蓬塔阿雷納斯，面積36,400平方公里，2002年人口121,675，人口密度每平方公里3.3人。 外部連結 Carlos III Island Mar…",
+      "lat": "-53.16666667",
+      "lng": "-70.93333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chucao-tapaculo-f9a23904",
+      "subject": "Chucao tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-麥哲倫省-95a2538b",
+      "object": "麥哲倫省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central Chile and adjacent Argentina; it has also been recorded in Chile's Magallanes Province.{{cite web |url=http://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chucao-tapaculo-f9a23904",
+      "subject": "Chucao tapaculo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

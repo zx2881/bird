@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:27:01",
+  "requested_title": "Rufous-vented Niltava",
+  "resolved_title": "Rufous-vented niltava",
+  "title_aliases": [
+    "Rufous-vented Niltava"
+  ],
+  "bird_id": "bird-rufous-vented-niltava-0fba580f",
+  "raw_file": "bird-rufous-vented-niltava-0fba580f.json",
+  "bird": {
+    "id": "bird-rufous-vented-niltava-0fba580f",
+    "name": "Rufous-vented niltava",
+    "english_name": "Rufous-vented niltava",
+    "latin_name": "Niltava sumatrana",
+    "summary": "The rufous-vented niltava (Niltava sumatrana) is a species of bird in the family Muscicapidae. It is found in Sumatra and the Malay Peninsu…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Naturalis_Biodiversity_Center_-_RMNH.AVES.10335_-_Niltava_sumatrana_Salvadori%2C_1879_-_Muscicapidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.10335_-_Niltava_sumatrana_Salvadori%2C_1879_-_Muscicapidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-vented-niltava-0fba580f",
+      "subject": "Rufous-vented niltava",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sumatra and the Malay Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-vented-niltava-0fba580f",
+      "subject": "Rufous-vented niltava",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sumatra and the Malay Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-vented-niltava-0fba580f",
+      "subject": "Rufous-vented niltava",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-rufous-vented-niltava-0fba580f",
+      "subject": "Rufous-vented niltava",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

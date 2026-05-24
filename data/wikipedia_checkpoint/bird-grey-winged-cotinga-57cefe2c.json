@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:21:55",
+  "requested_title": "Grey-winged Cotinga",
+  "resolved_title": "Grey-winged cotinga",
+  "title_aliases": [
+    "Grey-winged Cotinga"
+  ],
+  "bird_id": "bird-grey-winged-cotinga-57cefe2c",
+  "raw_file": "bird-grey-winged-cotinga-57cefe2c.json",
+  "bird": {
+    "id": "bird-grey-winged-cotinga-57cefe2c",
+    "name": "Grey-winged cotinga",
+    "english_name": "Grey-winged cotinga",
+    "latin_name": "Lipaugus conditus",
+    "summary": "The grey-winged cotinga (Lipaugus conditus) is a Vulnerable species of bird in the family Cotingidae. It is endemic to Brazil.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Tijuca_condita_Gray-winged_Cotinga.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-winged-cotinga-57cefe2c",
+      "subject": "Grey-winged cotinga",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "42(4):562–566. It inhabits very humid elfin forest heavy with bromeliads",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-winged-cotinga-57cefe2c",
+      "subject": "Grey-winged cotinga",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-grey-winged-cotinga-57cefe2c",
+      "subject": "Grey-winged cotinga",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Nevertheless, logging may become a potential concern, with eucalyptus plantations encroaching on habitat below the species' elevation range.\" It is considered rare. It occurs in four protected areas but at least one of them is threatened by poachers",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

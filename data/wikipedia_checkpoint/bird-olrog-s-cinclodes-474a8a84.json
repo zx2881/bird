@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:24:18",
+  "requested_title": "Olrog's Cinclodes",
+  "resolved_title": "Olrog's cinclodes",
+  "title_aliases": [
+    "Olrog's Cinclodes"
+  ],
+  "bird_id": "bird-olrog-s-cinclodes-474a8a84",
+  "raw_file": "bird-olrog-s-cinclodes-474a8a84.json",
+  "bird": {
+    "id": "bird-olrog-s-cinclodes-474a8a84",
+    "name": "Olrog's cinclodes",
+    "english_name": "Olrog's cinclodes",
+    "latin_name": "Cinclodes olrogi",
+    "summary": "Olrog's cinclodes (Cinclodes olrogi) is a species of bird in the Furnariinae subfamily of the ovenbird family Furnariidae. It is endemic to…",
+    "lat": "-31.41666667",
+    "lng": "-64.18333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Cinclodes_olrogi_Olrog%27s_Cinclodes%3B_Parque_Nacional_Quebrada_del_Condorito%2C_C%C3%B3rdoba%2C_Argentina.jpg/960px-Cinclodes_olrogi_Olrog%27s_Cinclodes%3B_Parque_Nacional_Quebrada_del_Condorito%2C_C%C3%B3rdoba%2C_Argentina.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-科尔多瓦省-阿根廷-b9014121",
+      "name": "科尔多瓦省 (阿根廷)",
+      "summary": "科尔多瓦省（西班牙語：Córdoba）為南美國家阿根廷二十三省之一，位於阿根廷中部，首府為科尔多瓦（Córdoba）。 參考文獻",
+      "lat": "-31.41666667",
+      "lng": "-64.18333333"
+    },
+    {
+      "id": "loc-圣路易斯省-2a1c7f36",
+      "name": "圣路易斯省",
+      "summary": "圣路易斯省（San Luis）為南美國家阿根廷二十三省之一，位於阿根廷中部，首府為圣路易斯（San Luis）。",
+      "lat": "-33.3",
+      "lng": "-66.35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-olrog-s-cinclodes-474a8a84",
+      "subject": "Olrog's cinclodes",
+      "predicate": "distributed_in",
+      "object_id": "loc-科尔多瓦省-阿根廷-b9014121",
+      "object": "科尔多瓦省 (阿根廷)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Sierras Grandes and Sierras de Comechingones of Córdoba Province and the Sierras de San Luis in adjoining San Luis Province",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olrog-s-cinclodes-474a8a84",
+      "subject": "Olrog's cinclodes",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣路易斯省-2a1c7f36",
+      "object": "圣路易斯省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Sierras Grandes and Sierras de Comechingones of Córdoba Province and the Sierras de San Luis in adjoining San Luis Province",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olrog-s-cinclodes-474a8a84",
+      "subject": "Olrog's cinclodes",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-olrog-s-cinclodes-474a8a84",
+      "subject": "Olrog's cinclodes",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered common within that small range, where it is \"relatively free from human disturbance; grazing appears to be the only potential problem\"",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

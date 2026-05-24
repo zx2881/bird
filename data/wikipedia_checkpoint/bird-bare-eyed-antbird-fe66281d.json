@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:02:25",
+  "requested_title": "Bare-eyed Antbird",
+  "resolved_title": "Bare-eyed antbird",
+  "title_aliases": [
+    "Bare-eyed Antbird"
+  ],
+  "bird_id": "bird-bare-eyed-antbird-fe66281d",
+  "raw_file": "bird-bare-eyed-antbird-fe66281d.json",
+  "bird": {
+    "id": "bird-bare-eyed-antbird-fe66281d",
+    "name": "Bare-eyed antbird",
+    "english_name": "Bare-eyed antbird",
+    "latin_name": "Rhegmatorhina gymnops",
+    "summary": "The bare-eyed antbird (Rhegmatorhina gymnops), occasionally known as the Santarem antbird, is a Vulnerable species of insectivorous passeri…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Rhegmatorhina_gymnops_-_Bare-eyed_Antbird_-_male_%28cropped%29.jpg/960px-Rhegmatorhina_gymnops_-_Bare-eyed_Antbird_-_male_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bare-eyed-antbird-fe66281d",
+      "subject": "Bare-eyed antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species almost entirely inhabits the understorey of very humid terra firme primary rainforest, though it has also been recorded in várzea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bare-eyed-antbird-fe66281d",
+      "subject": "Bare-eyed antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species almost entirely inhabits the understorey of very humid terra firme primary rainforest, though it has also been recorded in várzea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bare-eyed-antbird-fe66281d",
+      "subject": "Bare-eyed antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species almost entirely inhabits the understorey of very humid terra firme primary rainforest, though it has also been recorded in várzea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bare-eyed-antbird-fe66281d",
+      "subject": "Bare-eyed antbird",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-bare-eyed-antbird-fe66281d",
+      "subject": "Bare-eyed antbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The species is suffering from widespread deforestation in Pará and Mato Grosso, which has increased markedly since the 1960s due to road building, ranching, smallholder agriculture, mining and hydroelectric development.\" \"This species has been found to be extremely sensitive to forest fragmentation, a result of its dependence on the area-sensitive army ants\" though it will sometimes cross rivers and narrow road breaks in continuous forest",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

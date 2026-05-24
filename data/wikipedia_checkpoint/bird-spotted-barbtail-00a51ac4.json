@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:19:15",
+  "requested_title": "Spotted Barbtail",
+  "resolved_title": "Spotted barbtail",
+  "title_aliases": [
+    "Spotted Barbtail"
+  ],
+  "bird_id": "bird-spotted-barbtail-00a51ac4",
+  "raw_file": "bird-spotted-barbtail-00a51ac4.json",
+  "bird": {
+    "id": "bird-spotted-barbtail-00a51ac4",
+    "name": "Spotted barbtail",
+    "english_name": "Spotted barbtail",
+    "latin_name": "Premnoplex brunnescens",
+    "summary": "The spotted barbtail (Premnoplex brunnescens) is a species of bird in the family Furnariidae. Its natural habitat is subtropical or tropica…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Spotted_barbtail.jpg/960px-Spotted_barbtail.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-talamancan-montane-forests-a57e7cc3",
+      "name": "Talamancan montane forests",
+      "summary": "The Talamancan montane forests ecoregion, in the tropical moist broadleaf forest biome, are in montane Costa Rica and w…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-spotted-barbtail-00a51ac4",
+      "subject": "Spotted barbtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-talamancan-montane-forests-a57e7cc3",
+      "object": "Talamancan montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted barbtail is found in evergreen montane forest : in the Talamancan montane forests&nbsp;and throughout the northern Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-barbtail-00a51ac4",
+      "subject": "Spotted barbtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted barbtail is found in evergreen montane forest : in the Talamancan montane forests&nbsp;and throughout the northern Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-barbtail-00a51ac4",
+      "subject": "Spotted barbtail",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-spotted-barbtail-00a51ac4",
+      "subject": "Spotted barbtail",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The spotted barbtail is found in evergreen montane forest : in the Talamancan montane forests&nbsp;and throughout the northern Andes",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-spotted-barbtail-00a51ac4",
+      "subject": "Spotted barbtail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:07:05",
+  "requested_title": "Swinhoe's Minivet",
+  "resolved_title": "Swinhoe's minivet",
+  "title_aliases": [
+    "Swinhoe's Minivet"
+  ],
+  "bird_id": "bird-小灰山椒鸟-35908e65",
+  "raw_file": "bird-小灰山椒鸟-35908e65.json",
+  "bird": {
+    "id": "bird-小灰山椒鸟-35908e65",
+    "name": "小灰山椒鸟",
+    "english_name": "Swinhoe's minivet",
+    "latin_name": "Pericrocotus cantonensis",
+    "summary": "小灰山椒鸟（学名：Pericrocotus cantonensis）为山椒鸟科山椒鸟属的鸟类。該物種於1861年由羅伯特·斯文豪首次描述。 分布于中南半岛以及中国大陆的北起四川、陕西、河南、安徽、东至长江下游、浙江、南抵贵州、江西、湖南、广西、广东、海南、福建、云南等地。该物种…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/PericrocotusCantonensisGould.jpg/960px-PericrocotusCantonensisGould.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "中南半岛（法語：Indochine），又稱印度支那半島（简称印度支那、印支）、东南亚大陆地区、东南亚半岛地区等，是亞洲東南部東臨南海、西瀕印度洋的半島，在印度次大陸以東、中国大陆以南，包括今日的緬甸、泰國、老撾、柬埔寨、越南、马来半岛等地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小灰山椒鸟-35908e65",
+      "subject": "小灰山椒鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in China and winters in Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小灰山椒鸟-35908e65",
+      "subject": "小灰山椒鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in China and winters in Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小灰山椒鸟-35908e65",
+      "subject": "小灰山椒鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

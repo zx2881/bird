@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:29:11",
+  "requested_title": "Chestnut-winged Babbler",
+  "resolved_title": "Chestnut-winged babbler",
+  "title_aliases": [
+    "Chestnut-winged Babbler"
+  ],
+  "bird_id": "bird-红翅穗鹛-30f77347",
+  "raw_file": "bird-红翅穗鹛-30f77347.json",
+  "bird": {
+    "id": "bird-红翅穗鹛-30f77347",
+    "name": "红翅穗鹛",
+    "english_name": "Chestnut-winged babbler",
+    "latin_name": "Cyanoderma erythropterum",
+    "summary": "红翅穗鹛（学名：Stachyris erythroptera），是画眉科穗鹛属的一种，分布于文莱、缅甸、越南、泰国、印度尼西亚、马来西亚和新加坡。该物种的保护状况被评为无危。 红翅穗鹛的平均体重约为12.6克。栖息地包括种植园、亚热带或热带的湿润低地林、亚热带或热带的（低地）湿…",
+    "lat": "7",
+    "lng": "100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/0A2A5517_Chestnut-winged_babbler.jpg/960px-0A2A5517_Chestnut-winged_babbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    },
+    {
+      "id": "loc-泰国-6e4d220d",
+      "name": "泰国",
+      "summary": "泰王国（泰語：ราชอาณาจักรไทย，皇家轉寫：Ratcha-anachak Thai），通稱泰国（泰語：ประเทศไทย，皇家轉寫：Prathet Thai），舊称暹罗（泰語：สยาม，皇家轉寫：Sayam），是东南亚的君主立宪…",
+      "lat": "15",
+      "lng": "101"
+    },
+    {
+      "id": "loc-新加坡-ce8a7b5b",
+      "name": "新加坡",
+      "summary": "新加坡共和國（英語：Republic of Singapore；馬來語：Republik Singapura；坦米爾語：சிங்கப்பூர் குடியரசு，羅馬化：Ciṅkappūr Kuṭiyaracu），通称新加坡，简称新或星，…",
+      "lat": "1.28333333",
+      "lng": "103.83333333"
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红翅穗鹛-30f77347",
+      "subject": "红翅穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut-winged babbler occurs in the Malay Peninsula from southern Thailand to Singapore, and in Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红翅穗鹛-30f77347",
+      "subject": "红翅穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰国-6e4d220d",
+      "object": "泰国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut-winged babbler occurs in the Malay Peninsula from southern Thailand to Singapore, and in Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红翅穗鹛-30f77347",
+      "subject": "红翅穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-新加坡-ce8a7b5b",
+      "object": "新加坡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut-winged babbler occurs in the Malay Peninsula from southern Thailand to Singapore, and in Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红翅穗鹛-30f77347",
+      "subject": "红翅穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut-winged babbler occurs in the Malay Peninsula from southern Thailand to Singapore, and in Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红翅穗鹛-30f77347",
+      "subject": "红翅穗鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits forests and shrublands up to an elevation of",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-红翅穗鹛-30f77347",
+      "subject": "红翅穗鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:34:18",
+  "requested_title": "Bahia Wagtail-Tyrant",
+  "resolved_title": "Bahia wagtail-tyrant",
+  "title_aliases": [
+    "Bahia Wagtail-Tyrant"
+  ],
+  "bird_id": "bird-bahia-wagtail-tyrant-a9b5b998",
+  "raw_file": "bird-bahia-wagtail-tyrant-a9b5b998.json",
+  "bird": {
+    "id": "bird-bahia-wagtail-tyrant-a9b5b998",
+    "name": "Bahia wagtail-tyrant",
+    "english_name": "Bahia wagtail-tyrant",
+    "latin_name": "Stigmatura bahiae",
+    "summary": "The Bahia wagtail-tyrant (Stigmatura bahiae) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is endemic to easter…",
+    "lat": "-5.08",
+    "lng": "-39.65",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Stigmatura_napensis_-_Lesser_wagtail_tyrant.JPG/960px-Stigmatura_napensis_-_Lesser_wagtail_tyrant.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-塞阿拉州-3f292f1e",
+      "name": "塞阿拉州",
+      "summary": "塞阿拉州（葡萄牙語：Ceará，[seaˈɾa] ）是巴西26个联邦州之一，位于东北地区北部，东邻北里奥格兰德州和帕拉伊巴州，南邻伯南布哥州，西邻皮奥伊州，北和东北方向濒临大西洋。塞阿拉州面积为148,894.442平方千米，占东北地区面…",
+      "lat": "-5.08",
+      "lng": "-39.65"
+    },
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    },
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bahia-wagtail-tyrant-a9b5b998",
+      "subject": "Bahia wagtail-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞阿拉州-3f292f1e",
+      "object": "塞阿拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bahia wagtail-tyrant is found in eastern Brazilian from Ceará south to Bahia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-wagtail-tyrant-a9b5b998",
+      "subject": "Bahia wagtail-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bahia wagtail-tyrant is found in eastern Brazilian from Ceará south to Bahia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-wagtail-tyrant-a9b5b998",
+      "subject": "Bahia wagtail-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits semi-arid caatinga vegetation that typically is dense, brushy, and of low stature",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-wagtail-tyrant-a9b5b998",
+      "subject": "Bahia wagtail-tyrant",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:08:02",
+  "requested_title": "Bay Antpitta",
+  "resolved_title": "Bay antpitta",
+  "title_aliases": [
+    "Bay Antpitta"
+  ],
+  "bird_id": "bird-bay-antpitta-3aaefc60",
+  "raw_file": "bird-bay-antpitta-3aaefc60.json",
+  "bird": {
+    "id": "bird-bay-antpitta-3aaefc60",
+    "name": "Bay antpitta",
+    "english_name": "Bay antpitta",
+    "latin_name": "Grallaria capitalis",
+    "summary": "The bay antpitta (Grallaria capitalis) is a species of bird in the family Grallariidae. It is endemic to Peru.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Grallaria_capitalis_107076688.jpg/960px-Grallaria_capitalis_107076688.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bay-antpitta-3aaefc60",
+      "subject": "Bay antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understory of humid montane forest, often in areas where thick vegetation is regrowing such as in landslide scars, the edges of secondary forest, and abandoned slash-and-burn fields",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bay-antpitta-3aaefc60",
+      "subject": "Bay antpitta",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the understory of humid montane forest, often in areas where thick vegetation is regrowing such as in landslide scars, the edges of secondary forest, and abandoned slash-and-burn fields",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-bay-antpitta-3aaefc60",
+      "subject": "Bay antpitta",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-bay-antpitta-3aaefc60",
+      "subject": "Bay antpitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered fairly common. \"Human activity has little short-term direct effect on the Bay Antpitta, other than the local effects of habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

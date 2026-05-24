@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:18:12",
+  "requested_title": "Romblon Boobook",
+  "resolved_title": "Romblon boobook",
+  "title_aliases": [
+    "Romblon Boobook"
+  ],
+  "bird_id": "bird-romblon-boobook-16a89144",
+  "raw_file": "bird-romblon-boobook-16a89144.json",
+  "bird": {
+    "id": "bird-romblon-boobook-16a89144",
+    "name": "Romblon boobook",
+    "english_name": "Romblon boobook",
+    "latin_name": "Ninox spilonotus",
+    "summary": "The Romblon boobook or Romblon hawk-owl (Ninox spilonotus), is a species of owl in the family Strigidae that is endemic to the Philippines.…",
+    "lat": "12.413889",
+    "lng": "122.567778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Rombloon_Boobook_%28cropped%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-贵亭山-13fdb595",
+      "name": "贵亭山",
+      "summary": "贵亭山（Mount Guiting-Guiting）坐落于菲律宾朗布隆省辛布亚岛中心。“Guiting-Guiting”在当地语言中意为“锯齿状”。 1982年5月，一只由菲律宾登山协会（PMS）和菲律宾大学（UP）组成的队伍第一次登顶贵…",
+      "lat": "12.413889",
+      "lng": "122.567778"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-romblon-boobook-16a89144",
+      "subject": "Romblon boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-贵亭山-13fdb595",
+      "object": "贵亭山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species occurs in protected areas such as Mount Guiting-Guiting but protection is lax and logging still supposedly occurs",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-romblon-boobook-16a89144",
+      "subject": "Romblon boobook",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-romblon-boobook-16a89144",
+      "subject": "Romblon boobook",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-romblon-boobook-16a89144",
+      "subject": "Romblon boobook",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of legal and illegal logging, mining and conversion into farmlands through slash-and-burn and urbanization",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

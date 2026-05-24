@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:58:26",
+  "requested_title": "Tricolored Parrotfinch",
+  "resolved_title": "Tricolored parrotfinch",
+  "title_aliases": [
+    "Tricolored Parrotfinch"
+  ],
+  "bird_id": "bird-帝汶鹦雀-00df1172",
+  "raw_file": "bird-帝汶鹦雀-00df1172.json",
+  "bird": {
+    "id": "bird-帝汶鹦雀-00df1172",
+    "name": "帝汶鹦雀",
+    "english_name": "Tricolored parrotfinch",
+    "latin_name": "Erythrura tricolor",
+    "summary": "帝汉鹦雀（学名：Erythrura tricolor）是梅花雀科鹦雀属的一种，分布于印度尼西亚和东帝汶。其全球活动范围有20,000至50,000平方千米。分布于亚热带或热带干燥森林以及干燥疏林草原。该物种的保护状况被评为无危。 参考文献 BirdLife Internatio…",
+    "lat": "-9.23333333",
+    "lng": "124.93333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tricoloured_Parrot_Finch_RWD2.jpg/960px-Tricoloured_Parrot_Finch_RWD2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "name": "路易·皮埃尔·维埃约",
+      "summary": "路易·皮埃尔·维埃约（法語：Louis Pierre Vieillot，1748年5月10日—1830年8月24日）是法国的鳥類學家。 维埃约是第一批用卡尔·林奈式二名法科学描述鸟类的研究者之一。至少有26个他命名的鸟类至今仍在学术界使用…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-帝汶島-c352d922",
+      "name": "帝汶島",
+      "summary": "帝汶島（印尼語：Pulau Timor，葡萄牙語：Ilha de Timor）是位於馬來群島南端的島嶼，為小巽他群島中面積最大者，總面積約30,777平方公里。該島地處東南亞海域，座標約為9°14′S 124°56′E，北臨弗洛勒斯海，南…",
+      "lat": "-9.23333333",
+      "lng": "124.93333333"
+    },
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-帝汶鹦雀-00df1172",
+      "subject": "帝汶鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "object": "路易·皮埃尔·维埃约",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tricolored parrotfinch (Erythrura tricolor) is a species of estrildid finch found in Timor and the southern Moluccas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-帝汶鹦雀-00df1172",
+      "subject": "帝汶鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-帝汶島-c352d922",
+      "object": "帝汶島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tricolored parrotfinch (Erythrura tricolor) is a species of estrildid finch found in Timor and the southern Moluccas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-帝汶鹦雀-00df1172",
+      "subject": "帝汶鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tricolored parrotfinch (Erythrura tricolor) is a species of estrildid finch found in Timor and the southern Moluccas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-帝汶鹦雀-00df1172",
+      "subject": "帝汶鹦雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

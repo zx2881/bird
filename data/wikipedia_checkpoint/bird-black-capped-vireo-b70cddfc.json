@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:34:50",
+  "requested_title": "Black-capped Vireo",
+  "resolved_title": "Black-capped vireo",
+  "title_aliases": [
+    "Black-capped Vireo"
+  ],
+  "bird_id": "bird-black-capped-vireo-b70cddfc",
+  "raw_file": "bird-black-capped-vireo-b70cddfc.json",
+  "bird": {
+    "id": "bird-black-capped-vireo-b70cddfc",
+    "name": "Black-capped vireo",
+    "english_name": "Black-capped vireo",
+    "latin_name": "Vireo atricapilla",
+    "summary": "The black-capped vireo (Vireo atricapilla) is a small bird native to the United States and Mexico. It was listed as an endangered species i…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Black-capped-Vireo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-samuel-washington-woodhouse-c6c1e35b",
+      "name": "Samuel Washington Woodhouse",
+      "summary": "Samuel Washington Woodhouse (June 27, 1821 – October 23, 1904) was an American surgeon, explorer and naturalist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-capped-vireo-b70cddfc",
+      "subject": "Black-capped vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-samuel-washington-woodhouse-c6c1e35b",
+      "object": "Samuel Washington Woodhouse",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-capped vireo (Vireo atricapilla) is a small bird native to the United States and Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-capped-vireo-b70cddfc",
+      "subject": "Black-capped vireo",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-black-capped-vireo-b70cddfc",
+      "subject": "Black-capped vireo",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The black-capped vireo is threatened by brown-headed cowbird (Molothrus ater) brood parasitism, human disturbance, loss of habitat to urbanization, fire exclusion, livestock grazing, and brush control. The species was listed as an Endangered Species on 6 October 1987, \"due to such factors as urbanization, grazing, range improvement, and succession.\"{{cite web|author=U.S",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

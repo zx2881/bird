@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:29:13",
+  "requested_title": "Perija Thistletail",
+  "resolved_title": "Perijá thistletail",
+  "title_aliases": [
+    "Perija Thistletail",
+    "Perijá thistletail"
+  ],
+  "bird_id": "bird-perij-thistletail-87953c4c",
+  "raw_file": "bird-perij-thistletail-87953c4c.json",
+  "bird": {
+    "id": "bird-perij-thistletail-87953c4c",
+    "name": "Perijá thistletail",
+    "english_name": "Perijá thistletail",
+    "latin_name": "Asthenes perijana",
+    "summary": "The Perija thistletail (Asthenes perijana) is an Endangered species of bird in the Furnariinae subfamily of the ovenbird family Furnariidae…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Asthenes_perijana_%2815635163495%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-perij-thistletail-87953c4c",
+      "subject": "Perijá thistletail",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits páramo grasslands, the upper edge of cloudforest, and dense undergrowth at tree line",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-perij-thistletail-87953c4c",
+      "subject": "Perijá thistletail",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It primarily inhabits páramo grasslands, the upper edge of cloudforest, and dense undergrowth at tree line",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-perij-thistletail-87953c4c",
+      "subject": "Perijá thistletail",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

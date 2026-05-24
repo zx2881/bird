@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:30:21",
+  "requested_title": "Black Robin",
+  "resolved_title": "Black robin",
+  "title_aliases": [
+    "Black Robin"
+  ],
+  "bird_id": "bird-查岛鸲鹟-191f3151",
+  "raw_file": "bird-查岛鸲鹟-191f3151.json",
+  "bird": {
+    "id": "bird-查岛鸲鹟-191f3151",
+    "name": "查岛鸲鹟",
+    "english_name": "Black robin",
+    "latin_name": "Petroica traversi",
+    "summary": "查島鴝鶲（學名：Petroica traversi），也有譯作黑知更鳥，是一種瀕危的紐西蘭獨有鳥類，僅分佈於查塔姆群島上。親緣上與鴝鶲（Petroica australis）相近。於1872年由沃爾特·布勒首次描述。與其他在主島上的同伴不同，其飛行能力已逐漸減少。由於在沒有哺乳…",
+    "lat": "-44",
+    "lng": "-176.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Black_Robin_on_Rangatira_Island.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-沃爾特-布勒-a883687f",
+      "name": "沃爾特·布勒",
+      "summary": "沃爾特·勞里·布勒爵士 KCMG（英語：Sir Walter Lawry Buller，1838年10月9日—1906年7月19日）是一名紐西蘭律師和博物學家，是紐西蘭鳥類學界的主導人物。他的著作《紐西蘭鳥類史》（A History of…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-查塔姆群岛-d4b21dfa",
+      "name": "查塔姆群岛",
+      "summary": "查塔姆群岛（莫里奥里语：Rekohu；毛利語：Wharekauri；英語：Chatham Islands）是新西兰的一个群岛，由40千米范围内的约10个大小岛屿组成。这些位于新西兰东南方800多公里远的岛屿，于1982年正式归属新西兰管辖…",
+      "lat": "-44",
+      "lng": "-176.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-查岛鸲鹟-191f3151",
+      "subject": "查岛鸲鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-沃爾特-布勒-a883687f",
+      "object": "沃爾特·布勒",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black robin or Chatham Island robin (Moriori: , ; Petroica traversi) is an endangered bird from the Chatham Islands off the east coast of New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-查岛鸲鹟-191f3151",
+      "subject": "查岛鸲鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-查塔姆群岛-d4b21dfa",
+      "object": "查塔姆群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black robin or Chatham Island robin (Moriori: , ; Petroica traversi) is an endangered bird from the Chatham Islands off the east coast of New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-查岛鸲鹟-191f3151",
+      "subject": "查岛鸲鹟",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

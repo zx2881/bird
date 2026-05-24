@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:08:27",
+  "requested_title": "Blue-naped Mousebird",
+  "resolved_title": "Blue-naped mousebird",
+  "title_aliases": [
+    "Blue-naped Mousebird"
+  ],
+  "bird_id": "bird-blue-naped-mousebird-c4c5bbd0",
+  "raw_file": "bird-blue-naped-mousebird-c4c5bbd0.json",
+  "bird": {
+    "id": "bird-blue-naped-mousebird-c4c5bbd0",
+    "name": "Blue-naped mousebird",
+    "english_name": "Blue-naped mousebird",
+    "latin_name": "Urocolius macrourus",
+    "summary": "The blue-naped mousebird (Urocolius macrourus), also formerly called the blue-naped coly (Colius macrourus) is a species of bird belonging…",
+    "lat": "12",
+    "lng": "3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Urocolius_macrourus-20090110B.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    },
+    {
+      "id": "loc-东非-af146c9c",
+      "name": "东非",
+      "summary": "东非即非洲的东部地区，根據聯合國的次分區共有18個国家或屬地： 埃塞俄比亞、索馬里（含索馬利蘭）、厄立特里亚和吉布提，以上几國在地理上稱為非洲之角 坦桑尼亚、肯尼亚、乌干达、卢旺达、布隆迪和南苏丹，以上六國組成東非共同體 赞比亚、津巴布韦…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-naped-mousebird-c4c5bbd0",
+      "subject": "Blue-naped mousebird",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|last105=Zhang |first105=Guojie |title=Whole-genome analyses resolve early branches in the tree of life of modern birds |journal=Science |pages=1320–1331 |doi=10.1126/science.1253451 |date=12 December 2014|volume=346 |issue=6215 |pmid=25504713 |pmc=4405904 |bibcode=2014Sci...346.1320J }} The species is found in the wild in the drier regions of West Africa to East Africa, as well as Sahel. It is one of the remaining six species of mousebirds",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-naped-mousebird-c4c5bbd0",
+      "subject": "Blue-naped mousebird",
+      "predicate": "distributed_in",
+      "object_id": "loc-东非-af146c9c",
+      "object": "东非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|last105=Zhang |first105=Guojie |title=Whole-genome analyses resolve early branches in the tree of life of modern birds |journal=Science |pages=1320–1331 |doi=10.1126/science.1253451 |date=12 December 2014|volume=346 |issue=6215 |pmid=25504713 |pmc=4405904 |bibcode=2014Sci...346.1320J }} The species is found in the wild in the drier regions of West Africa to East Africa, as well as Sahel. It is one of the remaining six species of mousebirds",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-naped-mousebird-c4c5bbd0",
+      "subject": "Blue-naped mousebird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

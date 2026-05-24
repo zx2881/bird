@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:07:16",
+  "requested_title": "Swinhoe's White-eye",
+  "resolved_title": "Swinhoe's white-eye",
+  "title_aliases": [
+    "Swinhoe's White-eye"
+  ],
+  "bird_id": "bird-暗绿绣眼鸟-da43c45d",
+  "raw_file": "bird-暗绿绣眼鸟-da43c45d.json",
+  "bird": {
+    "id": "bird-暗绿绣眼鸟-da43c45d",
+    "name": "暗绿绣眼鸟",
+    "english_name": "Swinhoe's white-eye",
+    "latin_name": "Zosterops simplex",
+    "summary": "斯氏繡眼 （學名：Zosterops simplex），台灣俗稱綠繡眼，香港俗稱相思，是雀形目绣眼鸟科的一种鸟类。主要分布於中國東部、台灣、越南北部、馬來半島、蘇門答臘及婆羅洲。該物種已被引入至南加州各地。 分類 斯氏繡眼於1861年由英國博物學家羅伯特·斯文豪正式描述，並被賦…",
+    "lat": "7",
+    "lng": "100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Resting_Zosterops_japonicus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-暗绿绣眼鸟-da43c45d",
+      "subject": "暗绿绣眼鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in eastern China, Taiwan, north Vietnam, the Thai-Malay Peninsula, Sumatra and Borneo",
+      "object_summary": ""
+    }
+  ]
+}

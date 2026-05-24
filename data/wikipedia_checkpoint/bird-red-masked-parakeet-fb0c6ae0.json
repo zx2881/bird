@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:51:12",
+  "requested_title": "Red-masked Parakeet",
+  "resolved_title": "Red-masked parakeet",
+  "title_aliases": [
+    "Red-masked Parakeet"
+  ],
+  "bird_id": "bird-red-masked-parakeet-fb0c6ae0",
+  "raw_file": "bird-red-masked-parakeet-fb0c6ae0.json",
+  "bird": {
+    "id": "bird-red-masked-parakeet-fb0c6ae0",
+    "name": "Red-masked parakeet",
+    "english_name": "Red-masked parakeet",
+    "latin_name": "Psittacara erythrogenys",
+    "summary": "The red-masked parakeet (Psittacara erythrogenys) is a medium-sized parrot from Ecuador and Peru. It is popular as a pet and are better kno…",
+    "lat": "-2",
+    "lng": "-77.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Red-masked_Parakeet-Aratinga_erythrogenys_in_a_tree.jpg/960px-Red-masked_Parakeet-Aratinga_erythrogenys_in_a_tree.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-masked-parakeet-fb0c6ae0",
+      "subject": "Red-masked parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "These birds are native to southwestern Ecuador and northwestern Peru, where they primarily live in jungle and deciduous forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-masked-parakeet-fb0c6ae0",
+      "subject": "Red-masked parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "These birds are native to southwestern Ecuador and northwestern Peru, where they primarily live in jungle and deciduous forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-masked-parakeet-fb0c6ae0",
+      "subject": "Red-masked parakeet",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-red-masked-parakeet-fb0c6ae0",
+      "subject": "Red-masked parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This is due to declining populations brought by widespread local pet trade in Peru and Ecuador, which has contributed to habitat loss and fragmentation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

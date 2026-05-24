@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:50:22",
+  "requested_title": "Steel-blue Flycatcher",
+  "resolved_title": "Steel-blue flycatcher",
+  "title_aliases": [
+    "Steel-blue Flycatcher"
+  ],
+  "bird_id": "bird-steel-blue-flycatcher-b1b55f5c",
+  "raw_file": "bird-steel-blue-flycatcher-b1b55f5c.json",
+  "bird": {
+    "id": "bird-steel-blue-flycatcher-b1b55f5c",
+    "name": "Steel-blue flycatcher",
+    "english_name": "Steel-blue flycatcher",
+    "latin_name": "Myiagra ferrocyanea",
+    "summary": "The steel-blue flycatcher (Myiagra ferrocyanea) is a species of bird in the family Monarchidae. It is found in Papua New Guinea and Solomon…",
+    "lat": "-8",
+    "lng": "159",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Myiagra_ferrocyanea_ferrocyanea%2C_Myiagra_cervinicauda_cervinicauda_%26_Myiagra_ferrocyanea_feminina_1908.jpg/960px-Myiagra_ferrocyanea_ferrocyanea%2C_Myiagra_cervinicauda_cervinicauda_%26_Myiagra_ferrocyanea_feminina_1908.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-所罗门群岛-65f9af23",
+      "name": "所罗门群岛",
+      "summary": "所罗门群岛（英語：Solomon Islands）是南太平洋岛国，位於澳大利亚东北方，巴布亞紐幾內亞東方。首都霍尼亞拉所在地瓜達康納爾島曾是第二次世界大戰在太平洋的转折点所在地。 所罗门群岛共有超過990個島，陸地總面積共有28,450平…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-steel-blue-flycatcher-b1b55f5c",
+      "subject": "Steel-blue flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-所罗门群岛-65f9af23",
+      "object": "所罗门群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Papua New Guinea and Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-steel-blue-flycatcher-b1b55f5c",
+      "subject": "Steel-blue flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

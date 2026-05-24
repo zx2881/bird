@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:04:32",
+  "requested_title": "Palm Lorikeet",
+  "resolved_title": "Palm lorikeet",
+  "title_aliases": [
+    "Palm Lorikeet"
+  ],
+  "bird_id": "bird-palm-lorikeet-ca3e21ce",
+  "raw_file": "bird-palm-lorikeet-ca3e21ce.json",
+  "bird": {
+    "id": "bird-palm-lorikeet-ca3e21ce",
+    "name": "Palm lorikeet",
+    "english_name": "Palm lorikeet",
+    "latin_name": "Vini palmarum",
+    "summary": "The palm lorikeet (Vini palmarum) is a species of parrot in the family Psittaculidae. It is found in the Santa Cruz Islands and Vanuatu.",
+    "lat": "-11",
+    "lng": "166.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TrichoglossusPygmaeusKeulemans.jpg/960px-TrichoglossusPygmaeusKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣克鲁斯群岛-a4b4e7a4",
+      "name": "圣克鲁斯群岛",
+      "summary": "聖克魯斯群島（英語：Santa Cruz Islands），所羅門群島東南端的火山島群，由恩德（Ndeni，505 km²）、瓦尼科羅（Vanikoro，173 km²）、Tikopia（5 km²）、Utupua（69 km²）等島組成…",
+      "lat": "-11",
+      "lng": "166.25"
+    },
+    {
+      "id": "loc-瓦努阿图-ad87e29a",
+      "name": "瓦努阿图",
+      "summary": "瓦努阿图（台湾作萬那杜）（比斯拉馬語：Vanuatu）是位於太平洋西南部的島國，於1980年脫離英國與法國的殖民並獨立建國，由80多個岛屿（68個有人居住）组成，屬於美拉尼西亞群島的一部分，其一年四季均為熱帶海洋性氣候。 歷史 大約公元前…",
+      "lat": "-17",
+      "lng": "168"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-palm-lorikeet-ca3e21ce",
+      "subject": "Palm lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣克鲁斯群岛-a4b4e7a4",
+      "object": "圣克鲁斯群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Santa Cruz Islands and Vanuatu",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-palm-lorikeet-ca3e21ce",
+      "subject": "Palm lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦努阿图-ad87e29a",
+      "object": "瓦努阿图",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Santa Cruz Islands and Vanuatu",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-palm-lorikeet-ca3e21ce",
+      "subject": "Palm lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-palm-lorikeet-ca3e21ce",
+      "subject": "Palm lorikeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

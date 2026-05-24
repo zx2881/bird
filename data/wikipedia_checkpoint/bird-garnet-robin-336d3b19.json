@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:53:22",
+  "requested_title": "Garnet Robin",
+  "resolved_title": "Garnet robin",
+  "title_aliases": [
+    "Garnet Robin"
+  ],
+  "bird_id": "bird-garnet-robin-336d3b19",
+  "raw_file": "bird-garnet-robin-336d3b19.json",
+  "bird": {
+    "id": "bird-garnet-robin-336d3b19",
+    "name": "Garnet robin",
+    "english_name": "Garnet robin",
+    "latin_name": "Eugerygone rubra",
+    "summary": "The garnet robin (Eugerygone rubra) is a species of bird in the family Petroicidae. It is monotypic within the genus Eugerygone.",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Eugerygone_rubra_-_Nigel_Voaden_-_3294694.jpeg/960px-Eugerygone_rubra_-_Nigel_Voaden_-_3294694.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-otto-finsch-5ed0f49f",
+      "name": "Otto Finsch",
+      "summary": "Friedrich Hermann Otto Finsch (8 August 1839, Warmbrunn – 31 January 1917, Braunschweig) was a German ethnographer, nat…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "name": "理查德·鮑德勒·夏普",
+      "summary": "理查德·鮑德勒·夏普（英語：Richard Bowdler Sharpe，1847年11月22日—1909年12月25日）是一位英國動物學家兼鳥類學家，於大英博物館擔任鳥類標本的策展人。在其職涯裡，夏普出版了一些有關鳥類的專著，並整理出博…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-garnet-robin-336d3b19",
+      "subject": "Garnet robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-otto-finsch-5ed0f49f",
+      "object": "Otto Finsch",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The garnet robin (Eugerygone rubra) is a species of bird in the family Petroicidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-garnet-robin-336d3b19",
+      "subject": "Garnet robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "object": "理查德·鮑德勒·夏普",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The garnet robin (Eugerygone rubra) is a species of bird in the family Petroicidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-garnet-robin-336d3b19",
+      "subject": "Garnet robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is monotypic within the genus Eugerygone. It is found in New Guinea, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-garnet-robin-336d3b19",
+      "subject": "Garnet robin",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is monotypic within the genus Eugerygone. It is found in New Guinea, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-garnet-robin-336d3b19",
+      "subject": "Garnet robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

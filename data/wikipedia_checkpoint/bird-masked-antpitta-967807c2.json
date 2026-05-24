@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:06:48",
+  "requested_title": "Masked Antpitta",
+  "resolved_title": "Masked antpitta",
+  "title_aliases": [
+    "Masked Antpitta"
+  ],
+  "bird_id": "bird-masked-antpitta-967807c2",
+  "raw_file": "bird-masked-antpitta-967807c2.json",
+  "bird": {
+    "id": "bird-masked-antpitta-967807c2",
+    "name": "Masked antpitta",
+    "english_name": "Masked antpitta",
+    "latin_name": "Hylopezus auricularis",
+    "summary": "The masked antpitta (Hylopezus auricularis) is a Vulnerable species of bird in the family Grallariidae. It is endemic to Bolivia.",
+    "lat": "-11.01277778",
+    "lng": "-66.05722222",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Hylopezus_auricularis_-_Vincent_A._Vos_-_8543409.jpeg/960px-Hylopezus_auricularis_-_Vincent_A._Vos_-_8543409.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-里韋拉爾塔-b6bfe433",
+      "name": "里韋拉爾塔",
+      "summary": "里韋拉爾塔（西班牙語：Riberalta）是玻利維亞的城鎮，由貝尼省負責管轄，位於該國北部貝尼河畔，距離首府特立尼達445公里，面積20.1平方公里，海拔高度130米，每年平均降雨量1,740毫米，2006年人口78,100。 外部連結…",
+      "lat": "-11.01277778",
+      "lng": "-66.05722222"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-masked-antpitta-967807c2",
+      "subject": "Masked antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-里韋拉爾塔-b6bfe433",
+      "object": "里韋拉爾塔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Most records are from near the town of Riberalta in northern Beni on the Pando border. It apparently once occupied a larger area. It inhabits secondary forest filled with dense tangled vegetation as around the edges of open areas; it apparently favors muddy areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-masked-antpitta-967807c2",
+      "subject": "Masked antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Most records are from near the town of Riberalta in northern Beni on the Pando border. It apparently once occupied a larger area. It inhabits secondary forest filled with dense tangled vegetation as around the edges of open areas; it apparently favors muddy areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-masked-antpitta-967807c2",
+      "subject": "Masked antpitta",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

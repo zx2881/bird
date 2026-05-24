@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:00:52",
+  "requested_title": "White-tailed Hawk",
+  "resolved_title": "White-tailed hawk",
+  "title_aliases": [
+    "White-tailed Hawk"
+  ],
+  "bird_id": "bird-white-tailed-hawk-36bc4fba",
+  "raw_file": "bird-white-tailed-hawk-36bc4fba.json",
+  "bird": {
+    "id": "bird-white-tailed-hawk-36bc4fba",
+    "name": "White-tailed hawk",
+    "english_name": "White-tailed hawk",
+    "latin_name": "Geranoaetus albicaudatus",
+    "summary": "The white-tailed hawk (Geranoaetus albicaudatus) is a large bird of prey species found in tropical and subtropical environments of the Amer…",
+    "lat": "19",
+    "lng": "-96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Buteo_albicaudatus_-Salvador_Zoo%2C_Ondina%2C_Salvador%2C_Bahia%2C_Brasil-8a.jpg/960px-Buteo_albicaudatus_-Salvador_Zoo%2C_Ondina%2C_Salvador%2C_Bahia%2C_Brasil-8a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-美洲-f26eed21",
+      "name": "美洲",
+      "summary": "亚美利加洲（英語：Americas）簡稱美洲，位于西半球，自然地理分为北美洲和南美洲，其中北美洲可进一步划分为北美地区、中美洲（联合国地理方案将墨西哥视为中美洲的一部分）和加勒比地区（西印度群岛）三个地理区域。美洲的总面積達4254.9万…",
+      "lat": "19",
+      "lng": "-96"
+    },
+    {
+      "id": "loc-國際自然保護聯盟-2992ef64",
+      "name": "國際自然保護聯盟",
+      "summary": "國際自然與自然資源保護聯盟（英語：International Union for Conservation of Nature and Natural Resources），通稱為國際自然保護聯盟（英語：International Uni…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-tailed-hawk-36bc4fba",
+      "subject": "White-tailed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-美洲-f26eed21",
+      "object": "美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "albicaudatus (Vieillot, 1816) | synonyms = Buteo albicaudatus | range_map = Geranoaetus albicaudatus.svg }} The white-tailed hawk (Geranoaetus albicaudatus) is a large bird of prey species found in tropical and subtropical environments of the Americas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-tailed-hawk-36bc4fba",
+      "subject": "White-tailed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟-2992ef64",
+      "object": "國際自然保護聯盟",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Generally, it prefers arid habitats and rarely occurs in areas with heavy rainfall. Though it may disappear from unsuitable locations following habitat fragmentation, it has a wide range and is not considered to be a globally threatened species by the IUCN",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-tailed-hawk-36bc4fba",
+      "subject": "White-tailed hawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

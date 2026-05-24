@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:33:22",
+  "requested_title": "Nicaraguan Grackle",
+  "resolved_title": "Nicaraguan grackle",
+  "title_aliases": [
+    "Nicaraguan Grackle"
+  ],
+  "bird_id": "bird-nicaraguan-grackle-5145b529",
+  "raw_file": "bird-nicaraguan-grackle-5145b529.json",
+  "bird": {
+    "id": "bird-nicaraguan-grackle-5145b529",
+    "name": "Nicaraguan grackle",
+    "english_name": "Nicaraguan grackle",
+    "latin_name": "Quiscalus nicaraguensis",
+    "summary": "The Nicaraguan grackle (Quiscalus nicaraguensis) is a species of passerine bird belonging to the genus Quiscalus, a genus of grackles in th…",
+    "lat": "11.61666667",
+    "lng": "-85.35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Thirsty_%288387794451%29.jpg/960px-Thirsty_%288387794451%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-尼加拉瓜湖-2b4a4a5a",
+      "name": "尼加拉瓜湖",
+      "summary": "尼加拉瓜湖（西班牙語：Lago de Nicaragua）是位于尼加拉瓜西南部的一个淡水湖，水域面积8264平方公里，是中美洲最大的湖泊。 地理 尼加拉瓜湖原为太平洋海岸一海湾，第四紀时因为火山噴發，形成了里瓦斯地峡，加之尼加拉瓜地堑新构…",
+      "lat": "11.61666667",
+      "lng": "-85.35"
+    },
+    {
+      "id": "loc-马那瓜湖-4cbb979d",
+      "name": "马那瓜湖",
+      "summary": "马那瓜湖（西班牙語：Lago de Managua），又称索洛特兰湖（西班牙語：Lago Xolotlán）是尼加拉瓜的湖泊，長65公里、寬25公里，面積1,024平方公里，海拔高度39米，平均水深9.5米，最大水深20米，該湖的湖面在1…",
+      "lat": "12.33333333",
+      "lng": "-86.41666667"
+    },
+    {
+      "id": "loc-ca-o-negro-wildlife-refuge-bce98df3",
+      "name": "Caño Negro Wildlife Refuge",
+      "summary": "Caño Negro Wildlife Refuge is a wildlife refuge, part of the Arenal Huetar Norte Conservation Area, in the northern par…",
+      "lat": "10.877",
+      "lng": "-84.763"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-nicaraguan-grackle-5145b529",
+      "subject": "Nicaraguan grackle",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼加拉瓜湖-2b4a4a5a",
+      "object": "尼加拉瓜湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mainly occurs in the vicinity of Lake Nicaragua and Lake Managua, but its range has expanded a little due to the clearance of forest and creation of pastures by man",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nicaraguan-grackle-5145b529",
+      "subject": "Nicaraguan grackle",
+      "predicate": "distributed_in",
+      "object_id": "loc-马那瓜湖-4cbb979d",
+      "object": "马那瓜湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mainly occurs in the vicinity of Lake Nicaragua and Lake Managua, but its range has expanded a little due to the clearance of forest and creation of pastures by man",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nicaraguan-grackle-5145b529",
+      "subject": "Nicaraguan grackle",
+      "predicate": "distributed_in",
+      "object_id": "loc-ca-o-negro-wildlife-refuge-bce98df3",
+      "object": "Caño Negro Wildlife Refuge",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It may be a fairly recent arrival in Costa Rica, where it is found in the Caño Negro area along the Río Frio",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nicaraguan-grackle-5145b529",
+      "subject": "Nicaraguan grackle",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It nests only in marshland, but forages in scrubland, wet pastures, and along lake shores and riverbanks",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-nicaraguan-grackle-5145b529",
+      "subject": "Nicaraguan grackle",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

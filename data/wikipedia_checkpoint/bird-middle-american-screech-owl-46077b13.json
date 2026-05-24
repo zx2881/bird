@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T22:34:05",
+  "requested_title": "Middle American Screech Owl",
+  "resolved_title": "Middle American screech owl",
+  "title_aliases": [
+    "Middle American Screech Owl"
+  ],
+  "bird_id": "bird-middle-american-screech-owl-46077b13",
+  "raw_file": "bird-middle-american-screech-owl-46077b13.json",
+  "bird": {
+    "id": "bird-middle-american-screech-owl-46077b13",
+    "name": "Middle American screech owl",
+    "english_name": "Middle American screech owl",
+    "latin_name": "Megascops guatemalae",
+    "summary": "The Middle American screech owl (Megascops guatemalae), also known as the Guatemalan screech owl or the vermiculated screech owl, is a spec…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Middle_American_screech_owl_%28Megascops_guatemalae_guatemalae%29_Orange_Walk.jpg/960px-Middle_American_screech_owl_%28Megascops_guatemalae_guatemalae%29_Orange_Walk.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-middle-american-screech-owl-46077b13",
+      "subject": "Middle American screech owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thompsoni by the AOS/NACC and Clements. The Middle American screech owl inhabits several types of humid to semi-arid landscapes including evergreen, semi-deciduous, and thorn forest, and to a lesser extent secondary forest and plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-middle-american-screech-owl-46077b13",
+      "subject": "Middle American screech owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-middle-american-screech-owl-46077b13",
+      "subject": "Middle American screech owl",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats to either have been identified. The species potentially faces threats from habitat loss. The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) lists the Middle American screech owl in Appendix II",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

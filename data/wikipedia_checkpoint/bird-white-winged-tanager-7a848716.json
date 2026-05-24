@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:48:16",
+  "requested_title": "White-winged Tanager",
+  "resolved_title": "White-winged tanager",
+  "title_aliases": [
+    "White-winged Tanager"
+  ],
+  "bird_id": "bird-white-winged-tanager-7a848716",
+  "raw_file": "bird-white-winged-tanager-7a848716.json",
+  "bird": {
+    "id": "bird-white-winged-tanager-7a848716",
+    "name": "White-winged tanager",
+    "english_name": "White-winged tanager",
+    "latin_name": "Piranga leucoptera",
+    "summary": "The white-winged tanager (Piranga leucoptera) is a medium-sized American songbird in the family Cardinalidae, the cardinals or cardinal gro…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Piranga_leucoptera_-_Waraira_Repano_National_Park%2C_Venezuela_-male-8.jpg/960px-Piranga_leucoptera_-_Waraira_Repano_National_Park%2C_Venezuela_-male-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-winged-tanager-7a848716",
+      "subject": "White-winged tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the rest of its range it is found in humid montane forest, cloud forest, and mature secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-tanager-7a848716",
+      "subject": "White-winged tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the rest of its range it is found in humid montane forest, cloud forest, and mature secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-tanager-7a848716",
+      "subject": "White-winged tanager",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In the rest of its range it is found in humid montane forest, cloud forest, and mature secondary forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-white-winged-tanager-7a848716",
+      "subject": "White-winged tanager",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

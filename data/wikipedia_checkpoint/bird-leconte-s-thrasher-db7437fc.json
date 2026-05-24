@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:13:11",
+  "requested_title": "LeConte's Thrasher",
+  "resolved_title": "LeConte's thrasher",
+  "title_aliases": [
+    "LeConte's Thrasher"
+  ],
+  "bird_id": "bird-leconte-s-thrasher-db7437fc",
+  "raw_file": "bird-leconte-s-thrasher-db7437fc.json",
+  "bird": {
+    "id": "bird-leconte-s-thrasher-db7437fc",
+    "name": "LeConte's thrasher",
+    "english_name": "LeConte's thrasher",
+    "latin_name": "Toxostoma lecontei",
+    "summary": "LeConte's thrasher (Toxostoma lecontei) is a pale bird found in the southwestern United States and northwestern Mexico. It prefers to live…",
+    "lat": "37",
+    "lng": "-111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Le_Conte%27s_Thrasher.jpg/960px-Le_Conte%27s_Thrasher.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喬治-紐博爾德-勞倫斯-ea81d658",
+      "name": "喬治·紐博爾德·勞倫斯",
+      "summary": "喬治·紐博爾德·勞倫斯（George Newbold Lawrence，1806年10月20日 – 1895年11月17日）是一位美國商人和業餘鳥類學家。 他曾為斯賓塞·富勒頓·貝爾德及約翰·卡辛進行太平鳥類調查，他們三人在1860年出版…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-美國西南部-f5b57e7d",
+      "name": "美國西南部",
+      "summary": "美國西南部（英語：Southwestern United States、American Southwest或The Southwest）是美國西部的一個區域，比北部溫暖，但比東部乾燥。西南地区的人口分布比鄰近區域較為稀疏（以至于其城市也…",
+      "lat": "37",
+      "lng": "-111"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-leconte-s-thrasher-db7437fc",
+      "subject": "LeConte's thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-喬治-紐博爾德-勞倫斯-ea81d658",
+      "object": "喬治·紐博爾德·勞倫斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "LeConte's thrasher (Toxostoma lecontei) is a pale bird found in the southwestern United States and northwestern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-leconte-s-thrasher-db7437fc",
+      "subject": "LeConte's thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-美國西南部-f5b57e7d",
+      "object": "美國西南部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "LeConte's thrasher (Toxostoma lecontei) is a pale bird found in the southwestern United States and northwestern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-leconte-s-thrasher-db7437fc",
+      "subject": "LeConte's thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "LeConte's thrasher (Toxostoma lecontei) is a pale bird found in the southwestern United States and northwestern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-leconte-s-thrasher-db7437fc",
+      "subject": "LeConte's thrasher",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This bird ranges from California as far west as the San Joaquin Valley through southern Nevada and southwestern Utah and central and southern Arizona, and is a resident species throughout its range. It resides in some of the harshest climates in its region, including the Sonoran Desert and the San Joaquin Valley, and where annual rainfall only averages 4 to 20&nbsp;cm. The typical desert habitat consists of dunes, alluvial fans, and flat to gently rolling hills with shallow washes with sparse vegetation. The vegetation that it may utilize includes low vegetation such as saltbush, creosote, cholla cacti, and Mojave yucca. The range of altitude spans as low as 80 m below sea level (in Death Valley) to as high as 1,600 m, although 500 m above sea level is the average. It does not generally coexist with other thrashers due to its habitat, but does overlap breeding ranges and general habitat with the California thrasher in the higher desert regions of its range. The thrasher has had its population decline in certain regions of its range, notably the Coachella, Imperial and the San Joaquin Valley regions.{{cite web|title=8",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-leconte-s-thrasher-db7437fc",
+      "subject": "LeConte's thrasher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

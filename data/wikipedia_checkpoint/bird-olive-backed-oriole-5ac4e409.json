@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:35:35",
+  "requested_title": "Olive-backed Oriole",
+  "resolved_title": "Olive-backed oriole",
+  "title_aliases": [
+    "Olive-backed Oriole"
+  ],
+  "bird_id": "bird-olive-backed-oriole-5ac4e409",
+  "raw_file": "bird-olive-backed-oriole-5ac4e409.json",
+  "bird": {
+    "id": "bird-olive-backed-oriole-5ac4e409",
+    "name": "Olive-backed oriole",
+    "english_name": "Olive-backed oriole",
+    "latin_name": "Oriolus sagittatus",
+    "summary": "The olive-backed oriole (Oriolus sagittatus), or white-bellied oriole, is a very common medium-sized passerine bird native to northern and…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Olive-backed_Oriole_-_Crossroads_Reserve.jpg/960px-Olive-backed_Oriole_-_Crossroads_Reserve.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-olive-backed-oriole-5ac4e409",
+      "subject": "Olive-backed oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=2008 |title=Case 3418: Specific names of nine Australian birds (Aves): proposed conservation |journal=The Bulletin of Zoological Nomenclature |volume=65 |issue=1 |pages=35-41 |doi=10.21805/bzn.v65i1.a9}} }} The olive-backed oriole (Oriolus sagittatus), or white-bellied oriole, is a very common medium-sized passerine bird native to northern and eastern Australia and south-central New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-backed-oriole-5ac4e409",
+      "subject": "Olive-backed oriole",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

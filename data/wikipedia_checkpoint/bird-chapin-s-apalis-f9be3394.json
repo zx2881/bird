@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:06:20",
+  "requested_title": "Chapin's Apalis",
+  "resolved_title": "Chapin's apalis",
+  "title_aliases": [
+    "Chapin's Apalis"
+  ],
+  "bird_id": "bird-chapin-s-apalis-f9be3394",
+  "raw_file": "bird-chapin-s-apalis-f9be3394.json",
+  "bird": {
+    "id": "bird-chapin-s-apalis-f9be3394",
+    "name": "Chapin's apalis",
+    "english_name": "Chapin's apalis",
+    "latin_name": "Apalis chapini",
+    "summary": "Chapin's apalis (Apalis chapini) is a species of bird in the family Cisticolidae. It is found in Malawi, Tanzania, and Zambia.",
+    "lat": "-13.5",
+    "lng": "34",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Apalis_chapini_-_desertnaturalist_-_607940754.jpeg/960px-Apalis_chapini_-_desertnaturalist_-_607940754.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-马拉维-83b8e25a",
+      "name": "马拉维",
+      "summary": "马拉维共和国（英語：Republic of Malawi；齊切瓦語：Dziko la Malaŵi），通稱馬拉威（齊切瓦語：Malaŵi；英語：Malawi），是一個位於非洲東南部的內陸國家，鄰接贊比亞、莫桑比克及坦桑尼亞。國土位於南緯9…",
+      "lat": "-13.5",
+      "lng": "34"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    },
+    {
+      "id": "loc-赞比亚-5eceb6be",
+      "name": "赞比亚",
+      "summary": "赞比亚共和国（英語：Republic of Zambia），也稱尚比亞（英語：Zambia），是非洲東南部的一個內陸國家。与刚果民主共和国、坦桑尼亚、马拉维、莫桑比克、津巴布韦、博茨瓦纳、纳米比亚和安哥拉相邻。首都是卢萨卡。 历史 二千年…",
+      "lat": "-15",
+      "lng": "30"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chapin-s-apalis-f9be3394",
+      "subject": "Chapin's apalis",
+      "predicate": "distributed_in",
+      "object_id": "loc-马拉维-83b8e25a",
+      "object": "马拉维",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Malawi, Tanzania, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chapin-s-apalis-f9be3394",
+      "subject": "Chapin's apalis",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Malawi, Tanzania, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chapin-s-apalis-f9be3394",
+      "subject": "Chapin's apalis",
+      "predicate": "distributed_in",
+      "object_id": "loc-赞比亚-5eceb6be",
+      "object": "赞比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Malawi, Tanzania, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chapin-s-apalis-f9be3394",
+      "subject": "Chapin's apalis",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-chapin-s-apalis-f9be3394",
+      "subject": "Chapin's apalis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

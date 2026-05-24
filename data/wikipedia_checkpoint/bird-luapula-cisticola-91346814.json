@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:19:28",
+  "requested_title": "Luapula Cisticola",
+  "resolved_title": "Luapula cisticola",
+  "title_aliases": [
+    "Luapula Cisticola"
+  ],
+  "bird_id": "bird-luapula-cisticola-91346814",
+  "raw_file": "bird-luapula-cisticola-91346814.json",
+  "bird": {
+    "id": "bird-luapula-cisticola-91346814",
+    "name": "Luapula cisticola",
+    "english_name": "Luapula cisticola",
+    "latin_name": "Cisticola luapula",
+    "summary": "The Luapula cisticola (Cisticola luapula) is a species of bird in the family Cisticolidae. Taxonomy The Luapula cisticola is monotypic.",
+    "lat": "-3",
+    "lng": "24",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Luapula_Cisticola.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-luapula-cisticola-91346814",
+      "subject": "Luapula cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in eastern Angola, Lake Mweru (south-eastern DRC), Zambia, northern and north-eastern Namibia, northern Botswana and north-western Zimbabwe. Its natural habitats are tropical seasonally wet or flooded lowland grassland and swamps",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-luapula-cisticola-91346814",
+      "subject": "Luapula cisticola",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This species is found in eastern Angola, Lake Mweru (south-eastern DRC), Zambia, northern and north-eastern Namibia, northern Botswana and north-western Zimbabwe. Its natural habitats are tropical seasonally wet or flooded lowland grassland and swamps",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-luapula-cisticola-91346814",
+      "subject": "Luapula cisticola",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This species is found in eastern Angola, Lake Mweru (south-eastern DRC), Zambia, northern and north-eastern Namibia, northern Botswana and north-western Zimbabwe. Its natural habitats are tropical seasonally wet or flooded lowland grassland and swamps",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-luapula-cisticola-91346814",
+      "subject": "Luapula cisticola",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

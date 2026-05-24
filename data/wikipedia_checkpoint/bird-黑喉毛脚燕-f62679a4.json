@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:44:20",
+  "requested_title": "Nepal House Martin",
+  "resolved_title": "Nepal house martin",
+  "title_aliases": [
+    "Nepal House Martin"
+  ],
+  "bird_id": "bird-黑喉毛脚燕-f62679a4",
+  "raw_file": "bird-黑喉毛脚燕-f62679a4.json",
+  "bird": {
+    "id": "bird-黑喉毛脚燕-f62679a4",
+    "name": "黑喉毛脚燕",
+    "english_name": "Nepal house martin",
+    "latin_name": "Delichon nipalense",
+    "summary": "黑喉毛脚燕（学名：Delichon nipalense）为燕科毛脚燕属的鸟类。分布于缅甸以及中国大陆的云南等地，一般栖息于繁殖期集群于海拔1500米以上有溪流的高山上。该物种的模式产地在尼泊尔。 亚种 黑喉毛脚燕云南亚种（学名：Delichon nipalense cuttin…",
+    "lat": "30.5",
+    "lng": "78.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Delichon_nipalense_%28close-up%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-格尔瓦尔专区-1c35a5fb",
+      "name": "格尔瓦尔专区",
+      "summary": "格尔瓦尔专区（Garhwal，發音：[ɡəɽʰʋaːɭ]）是印度北阿坎德邦下辖的两个专区之一，下辖7个县：杰莫利县、台拉登县、赫里德瓦尔县、包里格尔瓦尔县、鲁德勒布勒亚格县、特里加瓦爾縣和乌德尔加希县。",
+      "lat": "30.5",
+      "lng": "78.5"
+    },
+    {
+      "id": "loc-云南省-f689e1a8",
+      "name": "云南省",
+      "summary": "云南省，简称云或滇，因清代境內有迤东道、迤西道、迤南道三迤，故又簡稱迤，是中华人民共和国西南边疆地区的省份。云南地形复杂多变，以高原与山地为主，海拔落差大，呈“西北高、东南低”地势格局。气候类型多样，从高原气候到热带、亚热带气候均有分布，…",
+      "lat": "25.04944444",
+      "lng": "102.70888889"
+    },
+    {
+      "id": "loc-东京-越南-3b5672f3",
+      "name": "东京 (越南)",
+      "summary": "東京（法語：Tonkin）是中南半島的一個歷史地名，位於今日越南北部，指的是紅河三角洲流域一帶。越南人對此地域的稱呼因時代而異，後黎朝時期稱之為唐外（外路、北河），西山朝時期及阮朝初期稱之為北城，法屬印度支那殖民時期稱之為北圻。 「東京」…",
+      "lat": "21",
+      "lng": "106"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑喉毛脚燕-f62679a4",
+      "subject": "黑喉毛脚燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-格尔瓦尔专区-1c35a5fb",
+      "object": "格尔瓦尔专区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "nipalense breeds in the Himalayas from Garhwal east through Nepal, north-eastern India and Bangladesh as far as western Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉毛脚燕-f62679a4",
+      "subject": "黑喉毛脚燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-云南省-f689e1a8",
+      "object": "云南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cuttingi is found in northern Myanmar, along Myanmar's border with Chinese Yunnan and in northern Tonkin, Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉毛脚燕-f62679a4",
+      "subject": "黑喉毛脚燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-东京-越南-3b5672f3",
+      "object": "东京 (越南)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cuttingi is found in northern Myanmar, along Myanmar's border with Chinese Yunnan and in northern Tonkin, Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉毛脚燕-f62679a4",
+      "subject": "黑喉毛脚燕",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in river valleys and rugged wooded mountain ridges at heights between altitude, where it nests in colonies beneath overhangs on vertical cliffs, laying three or four white eggs in an enclosed mud nest",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-黑喉毛脚燕-f62679a4",
+      "subject": "黑喉毛脚燕",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

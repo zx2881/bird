@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:55:40",
+  "requested_title": "Painted Tiger Parrot",
+  "resolved_title": "Painted tiger parrot",
+  "title_aliases": [
+    "Painted Tiger Parrot"
+  ],
+  "bird_id": "bird-彩羽虎紋鸚鵡-50d546a8",
+  "raw_file": "bird-彩羽虎紋鸚鵡-50d546a8.json",
+  "bird": {
+    "id": "bird-彩羽虎紋鸚鵡-50d546a8",
+    "name": "彩羽虎紋鸚鵡",
+    "english_name": "Painted tiger parrot",
+    "latin_name": "Psittacella picta",
+    "summary": "彩鹦鹉（學名：Psittacella picta，台湾作彩羽虎紋鸚鵡），是鸚形目舊世界鸚鵡科虎斑鸚鵡屬下的一種鳥類，主要棲息於巴布亞新幾內亞。 特徵 該物種的背部、翅膀和尾羽呈綠色，頭部呈紅色，眼睛呈黃色，臀部呈紅色，胸前有虎紋狀條紋。",
+    "lat": "-6",
+    "lng": "147",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/PsittacellaPictaKeulemans.jpg/960px-PsittacellaPictaKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-彩羽虎紋鸚鵡-50d546a8",
+      "subject": "彩羽虎紋鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is mainly found in Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-彩羽虎紋鸚鵡-50d546a8",
+      "subject": "彩羽虎紋鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

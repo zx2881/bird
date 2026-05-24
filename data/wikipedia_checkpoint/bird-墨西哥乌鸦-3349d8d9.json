@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:15:59",
+  "requested_title": "Tamaulipas Crow",
+  "resolved_title": "Tamaulipas crow",
+  "title_aliases": [
+    "Tamaulipas Crow"
+  ],
+  "bird_id": "bird-墨西哥乌鸦-3349d8d9",
+  "raw_file": "bird-墨西哥乌鸦-3349d8d9.json",
+  "bird": {
+    "id": "bird-墨西哥乌鸦-3349d8d9",
+    "name": "墨西哥乌鸦",
+    "english_name": "Tamaulipas crow",
+    "latin_name": "Corvus imparatus",
+    "summary": "墨西哥乌鸦（学名：Corvus imparatus），是鸦科鸦属的一种，分布于墨西哥和美国。全球活动范围约为114,000平方千米。该物种的保护状况被评为无危。 墨西哥乌鸦的平均体重约为221.0克。栖息地包括耕地、亚热带或热带的湿润低地林、亚热带或热带的旱林、城市和牧草地。",
+    "lat": "31",
+    "lng": "-99",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Imparatus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-自然服務股份有限公司-2046404b",
+      "name": "自然服務股份有限公司",
+      "summary": "自然服務股份有限公司（英語：NatureServe, Inc.）是一家总部位于美国弗吉尼亚州阿灵顿县的非营利组织，为私人和政府客户、合作组织和公众提供专有的野生动物保护相关数据、工具和服务。 參考來源",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-得克萨斯州-8487bfae",
+      "name": "得克萨斯州",
+      "summary": "得克萨斯州（英語：State of Texas，/ˈtɛksəs/，當地 /ˈtɛksɪz/； 西班牙語：Estado de Texas，Estado de Tejas），简称德州，旧译德沙士；是全美國土地面積和人口第二大的州（面積僅次於…",
+      "lat": "31",
+      "lng": "-99"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-墨西哥乌鸦-3349d8d9",
+      "subject": "墨西哥乌鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-自然服務股份有限公司-2046404b",
+      "object": "自然服務股份有限公司",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tamaulipas crow (Corvus imparatus) is a crow found in northeastern Mexico and southern Texas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-墨西哥乌鸦-3349d8d9",
+      "subject": "墨西哥乌鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-得克萨斯州-8487bfae",
+      "object": "得克萨斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tamaulipas crow (Corvus imparatus) is a crow found in northeastern Mexico and southern Texas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-墨西哥乌鸦-3349d8d9",
+      "subject": "墨西哥乌鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Occurring in a relatively small area in northeastern Mexico, it inhabits near desert scrub and bushland and includes farms, small towns and villages in its range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-墨西哥乌鸦-3349d8d9",
+      "subject": "墨西哥乌鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

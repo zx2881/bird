@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:32:15",
+  "requested_title": "White-bellied Pygmy Tyrant",
+  "resolved_title": "White-bellied pygmy tyrant",
+  "title_aliases": [
+    "White-bellied Pygmy Tyrant"
+  ],
+  "bird_id": "bird-white-bellied-pygmy-tyrant-ce78a3a4",
+  "raw_file": "bird-white-bellied-pygmy-tyrant-ce78a3a4.json",
+  "bird": {
+    "id": "bird-white-bellied-pygmy-tyrant-ce78a3a4",
+    "name": "White-bellied pygmy tyrant",
+    "english_name": "White-bellied pygmy tyrant",
+    "latin_name": "Myiornis albiventris",
+    "summary": "The white-bellied pygmy tyrant or white-breasted pygmy-tyrant (Myiornis albiventris) is a species of bird in the family Tyrannidae, the tyr…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Myiornis_albiventris_-_White-bellied_Pygmy-Tyrant_%28cropped%29.jpg/960px-Myiornis_albiventris_-_White-bellied_Pygmy-Tyrant_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-bellied-pygmy-tyrant-ce78a3a4",
+      "subject": "White-bellied pygmy tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia, Ecuador, and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bellied-pygmy-tyrant-ce78a3a4",
+      "subject": "White-bellied pygmy tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia, Ecuador, and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bellied-pygmy-tyrant-ce78a3a4",
+      "subject": "White-bellied pygmy tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia, Ecuador, and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bellied-pygmy-tyrant-ce78a3a4",
+      "subject": "White-bellied pygmy tyrant",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits humid montane forest, where it favors edges and gaps such as those caused by fallen trees",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-white-bellied-pygmy-tyrant-ce78a3a4",
+      "subject": "White-bellied pygmy tyrant",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

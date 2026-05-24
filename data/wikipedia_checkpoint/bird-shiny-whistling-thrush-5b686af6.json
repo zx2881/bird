@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:52:19",
+  "requested_title": "Shiny Whistling Thrush",
+  "resolved_title": "Shiny whistling thrush",
+  "title_aliases": [
+    "Shiny Whistling Thrush"
+  ],
+  "bird_id": "bird-shiny-whistling-thrush-5b686af6",
+  "raw_file": "bird-shiny-whistling-thrush-5b686af6.json",
+  "bird": {
+    "id": "bird-shiny-whistling-thrush-5b686af6",
+    "name": "Shiny whistling thrush",
+    "english_name": "Shiny whistling thrush",
+    "latin_name": "Myophonus melanurus",
+    "summary": "The shiny whistling thrush (Myophonus melanurus) is a species of bird in the family Muscicapidae. It is native to the Barisan Mountains in…",
+    "lat": "-3",
+    "lng": "102.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Shiny_Whistling-Thrush_0A2A2890.jpg/960px-Shiny_Whistling-Thrush_0A2A2890.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴里桑山脈-cb510e0b",
+      "name": "巴里桑山脈",
+      "summary": "巴里桑山脈（Barisan Mountains）是印度尼西亞蘇門答臘西部的山脈，全長1,700公里，主要由火山組成，海拔高度3,800米的葛林芝火山是山脈中最高的山峰，山脈南端附近有武吉巴里杉西拉坦國家公園。 參考文獻",
+      "lat": "-3",
+      "lng": "102.25"
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-shiny-whistling-thrush-5b686af6",
+      "subject": "Shiny whistling thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴里桑山脈-cb510e0b",
+      "object": "巴里桑山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Barisan Mountains in Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-shiny-whistling-thrush-5b686af6",
+      "subject": "Shiny whistling thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Barisan Mountains in Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-shiny-whistling-thrush-5b686af6",
+      "subject": "Shiny whistling thrush",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-shiny-whistling-thrush-5b686af6",
+      "subject": "Shiny whistling thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

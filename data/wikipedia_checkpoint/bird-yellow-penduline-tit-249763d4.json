@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:14:09",
+  "requested_title": "Yellow Penduline Tit",
+  "resolved_title": "Yellow penduline tit",
+  "title_aliases": [
+    "Yellow Penduline Tit"
+  ],
+  "bird_id": "bird-yellow-penduline-tit-249763d4",
+  "raw_file": "bird-yellow-penduline-tit-249763d4.json",
+  "bird": {
+    "id": "bird-yellow-penduline-tit-249763d4",
+    "name": "Yellow penduline tit",
+    "english_name": "Yellow penduline tit",
+    "latin_name": "Anthoscopus parvulus",
+    "summary": "Yellow penduline tit (Anthoscopus parvulus) is a species of bird in the family Remizidae. This small yellow passerine bird is found in semi…",
+    "lat": "12",
+    "lng": "3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Faune_de_la_S%C3%A9n%C3%A9gambie_%2814280729098%29.jpg/960px-Faune_de_la_S%C3%A9n%C3%A9gambie_%2814280729098%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-penduline-tit-249763d4",
+      "subject": "Yellow penduline tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This small yellow passerine bird is found in semi-arid savanna regions of West Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-penduline-tit-249763d4",
+      "subject": "Yellow penduline tit",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This small yellow passerine bird is found in semi-arid savanna regions of West Africa",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-yellow-penduline-tit-249763d4",
+      "subject": "Yellow penduline tit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

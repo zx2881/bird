@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T12:02:06",
+  "requested_title": "Russet-tailed Thrush",
+  "resolved_title": "Russet-tailed thrush",
+  "title_aliases": [
+    "Russet-tailed Thrush"
+  ],
+  "bird_id": "bird-russet-tailed-thrush-ad4de6ee",
+  "raw_file": "bird-russet-tailed-thrush-ad4de6ee.json",
+  "bird": {
+    "id": "bird-russet-tailed-thrush-ad4de6ee",
+    "name": "Russet-tailed thrush",
+    "english_name": "Russet-tailed thrush",
+    "latin_name": "Zoothera heinei",
+    "summary": "The russet-tailed thrush (Zoothera heinei) is a species of bird in the family Turdidae, closely related to the more widespread Bassian thru…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Russet-tailed_Thrush.jpg/960px-Russet-tailed_Thrush.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-russet-tailed-thrush-ad4de6ee",
+      "subject": "Russet-tailed thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in eastern Australia and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-russet-tailed-thrush-ad4de6ee",
+      "subject": "Russet-tailed thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in eastern Australia and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-russet-tailed-thrush-ad4de6ee",
+      "subject": "Russet-tailed thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

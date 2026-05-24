@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:02:38",
+  "requested_title": "Fire-crested Alethe",
+  "resolved_title": "Fire-crested alethe",
+  "title_aliases": [
+    "Fire-crested Alethe"
+  ],
+  "bird_id": "bird-fire-crested-alethe-9a4aaffa",
+  "raw_file": "bird-fire-crested-alethe-9a4aaffa.json",
+  "bird": {
+    "id": "bird-fire-crested-alethe-9a4aaffa",
+    "name": "Fire-crested alethe",
+    "english_name": "Fire-crested alethe",
+    "latin_name": "Alethe castanea",
+    "summary": "The fire-crested alethe (Alethe castanea) is a species of bird in the Old World flycatcher family Muscicapidae. It is found in central Afri…",
+    "lat": "8",
+    "lng": "10",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Alethe_castanea_woosnami_in_Uganda.jpg/960px-Alethe_castanea_woosnami_in_Uganda.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-奈及利亞-df32ce50",
+      "name": "奈及利亞",
+      "summary": "奈及利亞聯邦共和國（英語：Federal Republic of Nigeria），通称奈及利亞（英語：Nigeria），是西非國家，位於非洲的幾內亞灣西岸頂點，鄰國包括西邊的贝宁，北邊的尼日尔，東北方與乍得接壤一小段國界，正東則是喀麥隆…",
+      "lat": "8",
+      "lng": "10"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-fire-crested-alethe-9a4aaffa",
+      "subject": "Fire-crested alethe",
+      "predicate": "distributed_in",
+      "object_id": "loc-奈及利亞-df32ce50",
+      "object": "奈及利亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central Africa, from Nigeria to Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fire-crested-alethe-9a4aaffa",
+      "subject": "Fire-crested alethe",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

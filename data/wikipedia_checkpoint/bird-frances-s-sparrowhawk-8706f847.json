@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:42:02",
+  "requested_title": "Frances's Sparrowhawk",
+  "resolved_title": "Frances's sparrowhawk",
+  "title_aliases": [
+    "Frances's Sparrowhawk"
+  ],
+  "bird_id": "bird-frances-s-sparrowhawk-8706f847",
+  "raw_file": "bird-frances-s-sparrowhawk-8706f847.json",
+  "bird": {
+    "id": "bird-frances-s-sparrowhawk-8706f847",
+    "name": "Frances's sparrowhawk",
+    "english_name": "Frances's sparrowhawk",
+    "latin_name": "Tachyspiza francesiae",
+    "summary": "Frances's sparrowhawk (Tachyspiza francesiae) is a small bird of prey. This species was formerly placed in the genus Accipiter.",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Francess_sparrowhawk_cropped.jpg/960px-Francess_sparrowhawk_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    },
+    {
+      "id": "loc-科摩罗群岛-8f9bfcac",
+      "name": "科摩罗群岛",
+      "summary": "科摩罗群岛（法語：L'archipel des Comores）是位于非洲东南海岸莫桑比克东部与马达加斯加西南部上的一座火山群岛。该岛群在行政上由科摩罗（人口850,688）和法国海外省馬約特（人口270,372）管辖。科摩罗联盟宣称整个…",
+      "lat": "-12.2",
+      "lng": "44.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-frances-s-sparrowhawk-8706f847",
+      "subject": "Frances's sparrowhawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "francesiae, is endemic to Madagascar, and the other subspecies are found in the Comoro Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-frances-s-sparrowhawk-8706f847",
+      "subject": "Frances's sparrowhawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-科摩罗群岛-8f9bfcac",
+      "object": "科摩罗群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "francesiae, is endemic to Madagascar, and the other subspecies are found in the Comoro Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-frances-s-sparrowhawk-8706f847",
+      "subject": "Frances's sparrowhawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-frances-s-sparrowhawk-8706f847",
+      "subject": "Frances's sparrowhawk",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "thumb|Illustration of the Anjouan subspecies from 1864 Due to extensive hunting and habitat loss during the 20th century, the Anjouan sparrowhawk became extremely rare by the late 1950s",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-frances-s-sparrowhawk-8706f847",
+      "subject": "Frances's sparrowhawk",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "thumb|Illustration of the Anjouan subspecies from 1864 Due to extensive hunting and habitat loss during the 20th century, the Anjouan sparrowhawk became extremely rare by the late 1950s",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:15:18",
+  "requested_title": "Cuban Trogon",
+  "resolved_title": "Cuban trogon",
+  "title_aliases": [
+    "Cuban Trogon"
+  ],
+  "bird_id": "bird-古巴咬鵑-3a41cd74",
+  "raw_file": "bird-古巴咬鵑-3a41cd74.json",
+  "bird": {
+    "id": "bird-古巴咬鵑-3a41cd74",
+    "name": "古巴咬鵑",
+    "english_name": "Cuban trogon",
+    "latin_name": "Priotelus temnurus",
+    "summary": "古巴咬鵑（學名Priotelus temnurus）是咬鵑科古巴咬鹃属的一種鳥。它們是古巴加勒比海島嶼上的特有種，也是古巴的國鳥。它們棲息在乾旱及潮濕森林，與及退化森林。 參考",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Cuban_trogon_%28Priotelus_temnurus%29.JPG/960px-Cuban_trogon_%28Priotelus_temnurus%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-古巴咬鵑-3a41cd74",
+      "subject": "古巴咬鵑",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits both primary and secondary forest and also shrublands and smaller woodlands near watercourses",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-古巴咬鵑-3a41cd74",
+      "subject": "古巴咬鵑",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits both primary and secondary forest and also shrublands and smaller woodlands near watercourses",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-古巴咬鵑-3a41cd74",
+      "subject": "古巴咬鵑",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits both primary and secondary forest and also shrublands and smaller woodlands near watercourses",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-古巴咬鵑-3a41cd74",
+      "subject": "古巴咬鵑",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-古巴咬鵑-3a41cd74",
+      "subject": "古巴咬鵑",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Deforestation and habitat fragmentation pose two of the greatest anthropogenic threats to the Cuban trogon.\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

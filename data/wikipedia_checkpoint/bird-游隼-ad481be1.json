@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:27:41",
+  "requested_title": "Peregrine Falcon",
+  "resolved_title": "Peregrine falcon",
+  "title_aliases": [
+    "Peregrine Falcon"
+  ],
+  "bird_id": "bird-游隼-ad481be1",
+  "raw_file": "bird-游隼-ad481be1.json",
+  "bird": {
+    "id": "bird-游隼-ad481be1",
+    "name": "游隼",
+    "english_name": "Peregrine falcon",
+    "latin_name": "Falco peregrinus",
+    "summary": "遊隼（學名：Falco peregrinus)，是隼属中较大的一種，又名花梨隼、鴨虎，在北美洲歷史上被稱為鴨鷹，是一種分布廣泛的猛禽（猛禽科），屬於隼科（Falconidae）。它體型較大，約與鴉屬鳥類相當，背部呈藍灰色，腹部為白色帶條紋，頭部為黑色。遊隼以其速度著稱。在其特有…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg/960px-Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-游隼-ad481be1",
+      "subject": "游隼",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Reaching sexual maturity at one year, it mates for life and nests in a scrape, normally on cliff edges or, in recent times, on tall human-made structures. The peregrine falcon became an endangered species in many areas because of the widespread use of various pesticides, especially DDT",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-游隼-ad481be1",
+      "subject": "游隼",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-游隼-ad481be1",
+      "subject": "游隼",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Reaching sexual maturity at one year, it mates for life and nests in a scrape, normally on cliff edges or, in recent times, on tall human-made structures. The peregrine falcon became an endangered species in many areas because of the widespread use of various pesticides, especially DDT",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    },
+    {
+      "subject_id": "bird-游隼-ad481be1",
+      "subject": "游隼",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Since the ban on DDT from the early 1970s, populations have recovered, supported by large-scale protection of nesting places and releases to the wild. The peregrine falcon is a well-respected falconry bird due to its strong hunting ability, high trainability, versatility, and availability via captive breeding",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

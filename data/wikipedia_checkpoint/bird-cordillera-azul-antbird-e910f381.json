@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:03:53",
+  "requested_title": "Cordillera Azul Antbird",
+  "resolved_title": "Cordillera Azul antbird",
+  "title_aliases": [
+    "Cordillera Azul Antbird"
+  ],
+  "bird_id": "bird-cordillera-azul-antbird-e910f381",
+  "raw_file": "bird-cordillera-azul-antbird-e910f381.json",
+  "bird": {
+    "id": "bird-cordillera-azul-antbird-e910f381",
+    "name": "Cordillera Azul antbird",
+    "english_name": "Cordillera Azul antbird",
+    "latin_name": "Myrmoderus eowilsoni",
+    "summary": "The Cordillera Azul antbird (Myrmoderus eowilsoni) is a Near Threatened species of passerine bird in subfamily Thamnophilinae of family Tha…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Myrmoderus_sp_nov_PlataformaRidge_OJohnson_7.jpg/960px-Myrmoderus_sp_nov_PlataformaRidge_OJohnson_7.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cordillera-azul-antbird-e910f381",
+      "subject": "Cordillera Azul antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There it inhabits tall evergreen forest that has an undisturbed understorey with much leaf litter on the ground",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cordillera-azul-antbird-e910f381",
+      "subject": "Cordillera Azul antbird",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:29:46",
+  "requested_title": "Wallace's Hawk-Eagle",
+  "resolved_title": "Wallace's hawk-eagle",
+  "title_aliases": [
+    "Wallace's Hawk-Eagle"
+  ],
+  "bird_id": "bird-小鷹鵰-f32a4854",
+  "raw_file": "bird-小鷹鵰-f32a4854.json",
+  "bird": {
+    "id": "bird-小鷹鵰-f32a4854",
+    "name": "小鷹鵰",
+    "english_name": "Wallace's hawk-eagle",
+    "latin_name": "Nisaetus nanus",
+    "summary": "小鹰雕（學名：Nisaetus nanus）是一種猛禽。牠們分佈於汶萊、印尼、馬來西亞、緬甸和泰國，一般棲息於亞熱帶或熱帶的潮濕低地森林，令牠們瀕臨絕種的原因是棲息地的減少。 其种加词“nanus”意为“矮小的”。",
+    "lat": "10.18333333",
+    "lng": "98.88333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Wallace%27s_Hawk-eagle_%28Nisaetus_nanus%29_%288067762642%29.jpg/960px-Wallace%27s_Hawk-eagle_%28Nisaetus_nanus%29_%288067762642%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-克拉地峡-9fc14da4",
+      "name": "克拉地峡",
+      "summary": "克拉地峡（英語：Kra Isthmus，泰語：คอคอดกระ，羅馬化：Kho Khot Kra，馬來語：Segenting Kra），又譯哥羅地峽，為泰國連結馬來半島的地區，最窄處只有56公里，最高處為海拔75米。 命名 得名來自泰國的…",
+      "lat": "10.18333333",
+      "lng": "98.88333333"
+    },
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小鷹鵰-f32a4854",
+      "subject": "小鷹鵰",
+      "predicate": "distributed_in",
+      "object_id": "loc-克拉地峡-9fc14da4",
+      "object": "克拉地峡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kra Isthmus, Malay Peninsula, Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小鷹鵰-f32a4854",
+      "subject": "小鷹鵰",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kra Isthmus, Malay Peninsula, Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小鷹鵰-f32a4854",
+      "subject": "小鷹鵰",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kra Isthmus, Malay Peninsula, Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小鷹鵰-f32a4854",
+      "subject": "小鷹鵰",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kra Isthmus, Malay Peninsula, Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小鷹鵰-f32a4854",
+      "subject": "小鷹鵰",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss and trade. It is among the smallest eagles in the world at about long and weighing (about the size of a peregrine falcon).Handbook of the Birds of the World",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

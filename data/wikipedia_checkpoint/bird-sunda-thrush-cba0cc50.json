@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:59:17",
+  "requested_title": "Sunda Thrush",
+  "resolved_title": "Sunda thrush",
+  "title_aliases": [
+    "Sunda Thrush"
+  ],
+  "bird_id": "bird-sunda-thrush-cba0cc50",
+  "raw_file": "bird-sunda-thrush-cba0cc50.json",
+  "bird": {
+    "id": "bird-sunda-thrush-cba0cc50",
+    "name": "Sunda thrush",
+    "english_name": "Sunda thrush",
+    "latin_name": "Zoothera andromedae",
+    "summary": "The Sunda thrush (Zoothera andromedae) is a species of bird in the family Turdidae. It is found in Indonesia, Malaysia, and the Philippines.",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Zoothera_andromedae.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-马来西亚-3f6d0e1e",
+      "name": "马来西亚",
+      "summary": "馬來西亞（馬来语、英語：Malaysia），简称大馬或馬國，是位於东南亚的多元种族國家。由前馬來亚联合邦、北婆羅洲（今沙巴）、砂拉越及新加坡於1963年9月16日所組成的联邦制、议会民主制、选举君主制和君主立宪制國家。 馬来西亚全国总面积…",
+      "lat": "2",
+      "lng": "112"
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sunda-thrush-cba0cc50",
+      "subject": "Sunda thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia, Malaysia, and the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sunda-thrush-cba0cc50",
+      "subject": "Sunda thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来西亚-3f6d0e1e",
+      "object": "马来西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia, Malaysia, and the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sunda-thrush-cba0cc50",
+      "subject": "Sunda thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia, Malaysia, and the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sunda-thrush-cba0cc50",
+      "subject": "Sunda thrush",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is typically tropical moist montane forests above 1,000 meters above sea level throughout most of its range but it has been recorded as low as 450 masl in Enggano Island, Lombok and Sumbawa",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-sunda-thrush-cba0cc50",
+      "subject": "Sunda thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-sunda-thrush-cba0cc50",
+      "subject": "Sunda thrush",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species has a wide range and its preferrence for montane habitat means that a large area of habitat is more secure from deforestation due to inaccessibility.{{Cite journal |last1=Collar |first1=Nigel |last2=Sloan |first2=J",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

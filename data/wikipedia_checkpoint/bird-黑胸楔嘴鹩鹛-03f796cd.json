@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:38:08",
+  "requested_title": "Sikkim Wedge-billed Babbler",
+  "resolved_title": "Sikkim wedge-billed babbler",
+  "title_aliases": [
+    "Sikkim Wedge-billed Babbler"
+  ],
+  "bird_id": "bird-黑胸楔嘴鹩鹛-03f796cd",
+  "raw_file": "bird-黑胸楔嘴鹩鹛-03f796cd.json",
+  "bird": {
+    "id": "bird-黑胸楔嘴鹩鹛-03f796cd",
+    "name": "黑胸楔嘴鹩鹛",
+    "english_name": "Sikkim wedge-billed babbler",
+    "latin_name": "Stachyris humei",
+    "summary": "黑胸楔嘴鹩鹛（学名：Stachyris humei）也称黑胸楔嘴穗鹛，是雀形目鹛科的一种鸟类。 2022年，为了与其新的分类地位相符，“中国鸟类名录”10.0版将将黑胸楔嘴鹩鹛中文名修改为黑胸楔嘴穗鹛。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Sphenocichla_humei.JPG/960px-Sphenocichla_humei.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑胸楔嘴鹩鹛-03f796cd",
+      "subject": "黑胸楔嘴鹩鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Indian subcontinent and nearby parts of Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑胸楔嘴鹩鹛-03f796cd",
+      "subject": "黑胸楔嘴鹩鹛",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-黑胸楔嘴鹩鹛-03f796cd",
+      "subject": "黑胸楔嘴鹩鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is becoming rare due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

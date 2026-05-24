@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:22:19",
+  "requested_title": "Long-whiskered Owlet",
+  "resolved_title": "Long-whiskered owlet",
+  "title_aliases": [
+    "Long-whiskered Owlet"
+  ],
+  "bird_id": "bird-長鬚鴞-81e83c6e",
+  "raw_file": "bird-長鬚鴞-81e83c6e.json",
+  "bird": {
+    "id": "bird-長鬚鴞-81e83c6e",
+    "name": "長鬚鴞",
+    "english_name": "Long-whiskered owlet",
+    "latin_name": "Xenoglaux loweryi",
+    "summary": "長鬚鴞（學名Xenoglaux loweryi），又名長鬚鵂鶹，是秘魯亞馬孫大區及聖馬丁大區安地斯山脈特有的一種細小貓頭鷹。它們只分佈在海拔1890-2200米的茂密雲林。 長鬚鴞主要呈褐色，腹部及眼眉呈白色。眼睛很大及呈橙褐色。雖然沒有耳羽，其面部的羽毛長於頭部，彷彿有很長的…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Xenoglaux_loweryi_114619287.jpg/960px-Xenoglaux_loweryi_114619287.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-長鬚鴞-81e83c6e",
+      "subject": "長鬚鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid montane forest and elfin forest. The original authors described the area at Abra Patricia as fog-shrouded and heavy with moss, bromeliads, epiphytes, and other vegetation above a forest floor with a thick layer of humus",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-長鬚鴞-81e83c6e",
+      "subject": "長鬚鴞",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits humid montane forest and elfin forest. The original authors described the area at Abra Patricia as fog-shrouded and heavy with moss, bromeliads, epiphytes, and other vegetation above a forest floor with a thick layer of humus",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-長鬚鴞-81e83c6e",
+      "subject": "長鬚鴞",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

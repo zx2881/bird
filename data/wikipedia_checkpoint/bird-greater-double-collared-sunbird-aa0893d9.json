@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:03:15",
+  "requested_title": "Greater Double-collared Sunbird",
+  "resolved_title": "Greater double-collared sunbird",
+  "title_aliases": [
+    "Greater Double-collared Sunbird"
+  ],
+  "bird_id": "bird-greater-double-collared-sunbird-aa0893d9",
+  "raw_file": "bird-greater-double-collared-sunbird-aa0893d9.json",
+  "bird": {
+    "id": "bird-greater-double-collared-sunbird-aa0893d9",
+    "name": "Greater double-collared sunbird",
+    "english_name": "Greater double-collared sunbird",
+    "latin_name": "Cinnyris afer",
+    "summary": "The greater double-collared sunbird (Cinnyris afer) is a small bird in the sunbird family. It was formerly placed in genus Nectarinia.",
+    "lat": "-30",
+    "lng": "25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Greater_double-collared_sunbird_%28Cinnyris_afer%29_male_Mbombela.jpg/960px-Greater_double-collared_sunbird_%28Cinnyris_afer%29_male_Mbombela.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    },
+    {
+      "id": "loc-史瓦帝尼-8e8b2b40",
+      "name": "史瓦帝尼",
+      "summary": "史瓦帝尼王國（史瓦帝語：Umbuso weSwatini；英語：Kingdom of Eswatini），通稱史瓦帝尼（史瓦帝語：eSwatini；英語：Eswatini），是位於非洲南部的一个內陸國家。史瓦帝尼北、西、南三面均為南非所包…",
+      "lat": "-26.5",
+      "lng": "31.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-greater-double-collared-sunbird-aa0893d9",
+      "subject": "Greater double-collared sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The sunbird breeds in southern, eastern and northeastern South Africa and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-greater-double-collared-sunbird-aa0893d9",
+      "subject": "Greater double-collared sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-史瓦帝尼-8e8b2b40",
+      "object": "史瓦帝尼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The sunbird breeds in southern, eastern and northeastern South Africa and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-greater-double-collared-sunbird-aa0893d9",
+      "subject": "Greater double-collared sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

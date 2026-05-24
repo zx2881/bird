@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:46:10",
+  "requested_title": "Western Subalpine Warbler",
+  "resolved_title": "Western subalpine warbler",
+  "title_aliases": [
+    "Western Subalpine Warbler"
+  ],
+  "bird_id": "bird-western-subalpine-warbler-6f46218c",
+  "raw_file": "bird-western-subalpine-warbler-6f46218c.json",
+  "bird": {
+    "id": "bird-western-subalpine-warbler-6f46218c",
+    "name": "Western subalpine warbler",
+    "english_name": "Western subalpine warbler",
+    "latin_name": "Curruca iberiae",
+    "summary": "The western subalpine warbler (Curruca iberiae) is a small Sylviidae warbler which breeds in the southernmost areas of Europe and north-wes…",
+    "lat": "39.84083333",
+    "lng": "-6.03",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Subalpine_Warbler_-_Monfrague_-_Spain_2669_%2819110069408%29.jpg/960px-Subalpine_Warbler_-_Monfrague_-_Spain_2669_%2819110069408%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-蒙弗拉圭國家公園-4d833115",
+      "name": "蒙弗拉圭國家公園",
+      "summary": "Monfragüe (Spanish: Parque Nacional de Monfragüe, or simply Monfragüe [moɱfɾaˈɣwe] ) is a Spanish national park noted f…",
+      "lat": "39.84083333",
+      "lng": "-6.03"
+    },
+    {
+      "id": "loc-lars-svensson-ornithologist-6843664a",
+      "name": "Lars Svensson (ornithologist)",
+      "summary": "Lars Gunnar Georg Svensson (born 30 March 1941) is a Swedish ornithologist, who received an honorary degree from the Up…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-western-subalpine-warbler-6f46218c",
+      "subject": "Western subalpine warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-蒙弗拉圭國家公園-4d833115",
+      "object": "蒙弗拉圭國家公園",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The western subalpine warbler (Curruca iberiae) is a small Sylviidae warbler which breeds in the southernmost areas of Europe and north-western Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-western-subalpine-warbler-6f46218c",
+      "subject": "Western subalpine warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-lars-svensson-ornithologist-6843664a",
+      "object": "Lars Svensson (ornithologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The western subalpine warbler (Curruca iberiae) is a small Sylviidae warbler which breeds in the southernmost areas of Europe and north-western Africa",
+      "object_summary": ""
+    }
+  ]
+}

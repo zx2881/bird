@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:09:42",
+  "requested_title": "Black-headed Tailorbird",
+  "resolved_title": "Black-headed tailorbird",
+  "title_aliases": [
+    "Black-headed Tailorbird"
+  ],
+  "bird_id": "bird-black-headed-tailorbird-2369e650",
+  "raw_file": "bird-black-headed-tailorbird-2369e650.json",
+  "bird": {
+    "id": "bird-black-headed-tailorbird-2369e650",
+    "name": "Black-headed tailorbird",
+    "english_name": "Black-headed tailorbird",
+    "latin_name": "Orthotomus nigriceps",
+    "summary": "The black-headed tailorbird (Orthotomus nigriceps), also known as the white-browed tailorbird, is a species of songbird in the cisticola fa…",
+    "lat": "7.74306111",
+    "lng": "125.43028056",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Black-headed_Tailorbird.jpg/960px-Black-headed_Tailorbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pantaron-mountain-range-2f1a0c65",
+      "name": "Pantaron Mountain Range",
+      "summary": "The Pantaron Mountain Range, also called the Central Cordillera of Mindanao, Philippines straddles across the provinces…",
+      "lat": "7.74306111",
+      "lng": "125.43028056"
+    },
+    {
+      "id": "loc-endemic-bird-area-77dfcb2a",
+      "name": "Endemic Bird Area",
+      "summary": "An Endemic Bird Area (EBA) is an area of land identified by BirdLife International as being important for habitat-based…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-headed-tailorbird-2369e650",
+      "subject": "Black-headed tailorbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-pantaron-mountain-range-2f1a0c65",
+      "object": "Pantaron Mountain Range",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits dense undergrowth in lowland forests at elevations of up to and is non-migratory. A 2021 study of avian biodiversity near Mount Pantaron in Bukidnon found that the black-headed tailorbird, like other Philippine endemics, was absent from agricultural ecosystems but present in nearby montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-headed-tailorbird-2369e650",
+      "subject": "Black-headed tailorbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-endemic-bird-area-77dfcb2a",
+      "object": "Endemic Bird Area",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the Mindanao and the Eastern Visayas Endemic Bird Area; no threats to the species are known",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-headed-tailorbird-2369e650",
+      "subject": "Black-headed tailorbird",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits dense undergrowth in lowland forests at elevations of up to and is non-migratory. A 2021 study of avian biodiversity near Mount Pantaron in Bukidnon found that the black-headed tailorbird, like other Philippine endemics, was absent from agricultural ecosystems but present in nearby montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-black-headed-tailorbird-2369e650",
+      "subject": "Black-headed tailorbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

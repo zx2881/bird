@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:48:45",
+  "requested_title": "Olive-throated Parakeet",
+  "resolved_title": "Olive-throated parakeet",
+  "title_aliases": [
+    "Olive-throated Parakeet"
+  ],
+  "bird_id": "bird-olive-throated-parakeet-90d20180",
+  "raw_file": "bird-olive-throated-parakeet-90d20180.json",
+  "bird": {
+    "id": "bird-olive-throated-parakeet-90d20180",
+    "name": "Olive-throated parakeet",
+    "english_name": "Olive-throated parakeet",
+    "latin_name": "Eupsittula nana",
+    "summary": "The olive-throated parakeet (Eupsittula nana), also known as the olive-throated conure in aviculture, is a species of bird in subfamily Ari…",
+    "lat": "24.28333333",
+    "lng": "-98.56666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Olive-throated_Parakeet.jpg/960px-Olive-throated_Parakeet.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塔毛利帕斯州-01463cbf",
+      "name": "塔毛利帕斯州",
+      "summary": "塔毛利帕斯州（西班牙語：Tamaulipas，發音：[tamawˈlipas] ）是墨西哥東北部的一個州。面积79,384平方公里，人口3,024,238（2005.10.17）。 名称 塔毛利帕斯这个名字来源于Tamaholipa，这是…",
+      "lat": "24.28333333",
+      "lng": "-98.56666667"
+    },
+    {
+      "id": "loc-韋拉克魯斯州-51279fa6",
+      "name": "韋拉克魯斯州",
+      "summary": "韋拉克魯斯州（西班牙語：Veracruz，西班牙語發音：[beɾaˈkɾus]）是墨西哥的一個州，位於該國中部偏東，東部面向墨西哥灣。人口僅次於墨西哥州和聯邦區，居全國第三，首府哈拉帕。 正式州名為Veracruz de Ignacio…",
+      "lat": "19.5272",
+      "lng": "-96.9225"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-olive-throated-parakeet-90d20180",
+      "subject": "Olive-throated parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔毛利帕斯州-01463cbf",
+      "object": "塔毛利帕斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "vicinalis is found in northeastern Mexico from Tamaulipas to northern Veracruz",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-throated-parakeet-90d20180",
+      "subject": "Olive-throated parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-韋拉克魯斯州-51279fa6",
+      "object": "韋拉克魯斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "vicinalis is found in northeastern Mexico from Tamaulipas to northern Veracruz",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-throated-parakeet-90d20180",
+      "subject": "Olive-throated parakeet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also inhabits the interior and edges of humid forest, riparian areas, scrublands, and more open landscapes such as plantations, clearings with trees, and gardens",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-olive-throated-parakeet-90d20180",
+      "subject": "Olive-throated parakeet",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-olive-throated-parakeet-90d20180",
+      "subject": "Olive-throated parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Habitat loss and fragmentation are perhaps the greatest on-going threats\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-olive-throated-parakeet-90d20180",
+      "subject": "Olive-throated parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Some small-scale poaching for food and the pet trade contribute to the decline. It is considered common and widespread in Jamaica but is persecuted as a crop pest",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    }
+  ]
+}

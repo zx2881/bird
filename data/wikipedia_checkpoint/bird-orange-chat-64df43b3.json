@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:49:23",
+  "requested_title": "Orange Chat",
+  "resolved_title": "Orange chat",
+  "title_aliases": [
+    "Orange Chat"
+  ],
+  "bird_id": "bird-orange-chat-64df43b3",
+  "raw_file": "bird-orange-chat-64df43b3.json",
+  "bird": {
+    "id": "bird-orange-chat-64df43b3",
+    "name": "Orange chat",
+    "english_name": "Orange chat",
+    "latin_name": "Epthianura aurifrons",
+    "summary": "The orange chat (Epthianura aurifrons) is a species of bird in the family Meliphagidae. It is endemic to Australia.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Orange_Chat_9034.jpg/960px-Orange_Chat_9034.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-鹹水湖-f1fbdbca",
+      "name": "鹹水湖",
+      "summary": "咸水湖（英語：Salt lake），或盐湖、盐水湖，是指以咸水形式积存在地表上的湖泊，一般湖水鹽度大於3.5 %（海水）。由于水少有流出，蒸发量大，因而含盐量高，故名。多數位於內流河的末端。中国境内的咸水湖有青海湖、罗布泊、纳木错等。 按…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-orange-chat-64df43b3",
+      "subject": "Orange chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-鹹水湖-f1fbdbca",
+      "object": "鹹水湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "23 Oct 2013 . The orange chat mostly occurs in dry, low-lying, saline environments that are rarely flooded such as sparsely vegetated gibber plains, salt pans, salt lakes, or claypans",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-chat-64df43b3",
+      "subject": "Orange chat",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:48:11",
+  "requested_title": "Crested Satinbird",
+  "resolved_title": "Crested satinbird",
+  "title_aliases": [
+    "Crested Satinbird"
+  ],
+  "bird_id": "bird-crested-satinbird-8dae67f7",
+  "raw_file": "bird-crested-satinbird-8dae67f7.json",
+  "bird": {
+    "id": "bird-crested-satinbird-8dae67f7",
+    "name": "Crested satinbird",
+    "english_name": "Crested satinbird",
+    "latin_name": "Cnemophilus macgregorii",
+    "summary": "The crested satinbird (Cnemophilus macgregorii), formerly known as the crested bird-of-paradise, is a species of bird in the satinbird fami…",
+    "lat": "-6",
+    "lng": "147",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Hart_Cnemophilus_macgregorii_crop.jpg/960px-Hart_Cnemophilus_macgregorii_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-crested-satinbird-8dae67f7",
+      "subject": "Crested satinbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the mountains of Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crested-satinbird-8dae67f7",
+      "subject": "Crested satinbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

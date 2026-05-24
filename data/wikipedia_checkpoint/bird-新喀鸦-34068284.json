@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:41:18",
+  "requested_title": "New Caledonian Crow",
+  "resolved_title": "New Caledonian crow",
+  "title_aliases": [
+    "New Caledonian Crow"
+  ],
+  "bird_id": "bird-新喀鸦-34068284",
+  "raw_file": "bird-新喀鸦-34068284.json",
+  "bird": {
+    "id": "bird-新喀鸦-34068284",
+    "name": "新喀鸦",
+    "english_name": "New Caledonian crow",
+    "latin_name": "Corvus moneduloides",
+    "summary": "新喀鸦（学名：Corvus moneduloides）是鸦科鸦属的一种，为新喀里多尼亚的特有种。该物种的保护状况被评为无危。 新喀鸦的平均体重约为279.0克。栖息地包括耕地、亚热带或热带的（低地）湿润疏灌丛、亚热带或热带的旱林、亚热带或热带的湿润低地林和亚热带或热带的（低地）…",
+    "lat": "-21.25",
+    "lng": "165.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Corvus_moneduloides_212163787_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新喀里多尼亞-6c170c18",
+      "name": "新喀里多尼亞",
+      "summary": "新喀里多尼亞（法語：Nouvelle-Calédonie，發音：[nuvɛl kaledɔni] ）是南太平洋的一组群岛，也是法國的一個特殊集体，位于澳大利亚以东1,210千米处，距法国本土17,000千米。该群岛是美拉尼西亚的一部分，包…",
+      "lat": "-21.25",
+      "lng": "165.3"
+    },
+    {
+      "id": "loc-格朗德特爾島-新喀里多尼亞-ffab91bc",
+      "name": "格朗德特爾島 (新喀里多尼亞)",
+      "summary": "格朗德特爾島（法語：Grande Terre，發音：[ɡʁɑ̃d tɛʁ]）是法國海外集體新喀里多尼亞的主島，面積16,372平方公里，是法國第一大島。1853年被法蘭西第二帝國併吞，成為流放地，現今人口268,000人。 參見 新喀里多…",
+      "lat": "-21.28333333",
+      "lng": "165.35"
+    },
+    {
+      "id": "loc-洛亚蒂群岛省-da5b649c",
+      "name": "洛亚蒂群岛省",
+      "summary": "洛亚蒂群岛省（法语：Province des îles Loyauté）是法国在南太平洋的属地新喀里多尼亚的一个省，位於新喀里多尼亚的東部，距新喀里多尼亚岛100公里。该省涵盖洛亚蒂群岛全部岛屿，由乌韦阿岛、利富岛、马雷岛以及附近小岛组成…",
+      "lat": "-21.06666667",
+      "lng": "167.35"
+    },
+    {
+      "id": "loc-馬雷島-b79a1631",
+      "name": "馬雷島",
+      "summary": "馬雷島（法語：Île de Maré）是法国海外特殊集体新喀里多尼亞的島嶼，位於南太平洋，是洛亞蒂群島中面積第二大的島嶼，也是同名市镇的主要组成部分，其中大部分擁有美拉尼西亞人的血統。",
+      "lat": "-21.5167",
+      "lng": "167.9833"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-新喀鸦-34068284",
+      "subject": "新喀鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-新喀里多尼亞-6c170c18",
+      "object": "新喀里多尼亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The New Caledonian crow (Corvus moneduloides) is a medium-sized member of the family Corvidae, native to New Caledonia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-新喀鸦-34068284",
+      "subject": "新喀鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-格朗德特爾島-新喀里多尼亞-ffab91bc",
+      "object": "格朗德特爾島 (新喀里多尼亞)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits only the main island, Grande Terre, and one of the Loyalty Islands, Maré Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-新喀鸦-34068284",
+      "subject": "新喀鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-洛亚蒂群岛省-da5b649c",
+      "object": "洛亚蒂群岛省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits only the main island, Grande Terre, and one of the Loyalty Islands, Maré Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-新喀鸦-34068284",
+      "subject": "新喀鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-馬雷島-b79a1631",
+      "object": "馬雷島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits only the main island, Grande Terre, and one of the Loyalty Islands, Maré Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-新喀鸦-34068284",
+      "subject": "新喀鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

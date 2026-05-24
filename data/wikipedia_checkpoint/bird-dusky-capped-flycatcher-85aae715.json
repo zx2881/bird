@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:41:45",
+  "requested_title": "Dusky-capped Flycatcher",
+  "resolved_title": "Dusky-capped flycatcher",
+  "title_aliases": [
+    "Dusky-capped Flycatcher"
+  ],
+  "bird_id": "bird-dusky-capped-flycatcher-85aae715",
+  "raw_file": "bird-dusky-capped-flycatcher-85aae715.json",
+  "bird": {
+    "id": "bird-dusky-capped-flycatcher-85aae715",
+    "name": "Dusky-capped flycatcher",
+    "english_name": "Dusky-capped flycatcher",
+    "latin_name": "Myiarchus tuberculifer",
+    "summary": "The dusky-capped flycatcher (Myiarchus tuberculifer) is a passerine bird in the family Tyrannidae, the tyrant flycatchers. It is found in t…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Dusky-capped_flycatcher_%28Myiarchus_tuberculifer_atriceps%29_San_Isidro.jpg/960px-Dusky-capped_flycatcher_%28Myiarchus_tuberculifer_atriceps%29_San_Isidro.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dusky-capped-flycatcher-85aae715",
+      "subject": "Dusky-capped flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "tuberculifer primarily inhabits várzea and terra firme forest and the transitional forest between them",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-capped-flycatcher-85aae715",
+      "subject": "Dusky-capped flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "tuberculifer primarily inhabits várzea and terra firme forest and the transitional forest between them",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-capped-flycatcher-85aae715",
+      "subject": "Dusky-capped flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in secondary forest, riparian forest, and plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-capped-flycatcher-85aae715",
+      "subject": "Dusky-capped flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "There it occurs in evergreen, semideciduous, and deciduous montane forest where it typically prefers the canopy and edges. The other subspecies of the dusky-capped flycatcher, found from Panama south through Colombia and western Ecuador and Peru, inhabit landscapes that include tropical and subtropical evergreen and deciduous forest, riparian zones, secondary forest, and plantations",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-dusky-capped-flycatcher-85aae715",
+      "subject": "Dusky-capped flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

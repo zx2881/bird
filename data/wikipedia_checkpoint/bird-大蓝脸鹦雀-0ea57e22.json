@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:59:12",
+  "requested_title": "Papuan Parrotfinch",
+  "resolved_title": "Papuan parrotfinch",
+  "title_aliases": [
+    "Papuan Parrotfinch"
+  ],
+  "bird_id": "bird-大蓝脸鹦雀-0ea57e22",
+  "raw_file": "bird-大蓝脸鹦雀-0ea57e22.json",
+  "bird": {
+    "id": "bird-大蓝脸鹦雀-0ea57e22",
+    "name": "大蓝脸鹦雀",
+    "english_name": "Papuan parrotfinch",
+    "latin_name": "Erythrura papuana",
+    "summary": "大蓝脸鹦雀（学名：Erythrura papuana）是印度尼西亚巴布亚省和巴布亚新几内亚的一种常见梅花雀。其全球分布范围约有50,000至100,000平方千米。 大蓝脸鹦雀分布于亚热带和热带的湿润山地林。该物种的保护状况被评为无危。",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Naturalis_Biodiversity_Center_-_RMNH.AVES.19293_1_-_Erythrura_papuana_Hartert%2C_1900_-_Estrildidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.19293_1_-_Erythrura_papuana_Hartert%2C_1900_-_Estrildidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-第二代罗斯柴尔德男爵沃尔特-罗斯柴尔德-ba9984f1",
+      "name": "第二代罗斯柴尔德男爵沃尔特·罗斯柴尔德",
+      "summary": "第二代罗斯柴尔德男爵莱昂内尔·沃尔特·罗斯柴尔德，Bt，FRS（英語：Lionel Walter Rothschild, 2nd Baron Rothschild，1868年2月8日—1937年8月27日），英国政治家、银行家與動物學家，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-ernst-hartert-4e6d4c6a",
+      "name": "Ernst Hartert",
+      "summary": "Ernst Johann Otto Hartert (29 October 1859 – 11 November 1933) was a widely published German ornithologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大蓝脸鹦雀-0ea57e22",
+      "subject": "大蓝脸鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-第二代罗斯柴尔德男爵沃尔特-罗斯柴尔德-ba9984f1",
+      "object": "第二代罗斯柴尔德男爵沃尔特·罗斯柴尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Papuan parrotfinch (Erythrura papuana) is a common species of estrildid finch found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大蓝脸鹦雀-0ea57e22",
+      "subject": "大蓝脸鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-ernst-hartert-4e6d4c6a",
+      "object": "Ernst Hartert",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Papuan parrotfinch (Erythrura papuana) is a common species of estrildid finch found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大蓝脸鹦雀-0ea57e22",
+      "subject": "大蓝脸鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Papuan parrotfinch (Erythrura papuana) is a common species of estrildid finch found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大蓝脸鹦雀-0ea57e22",
+      "subject": "大蓝脸鹦雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

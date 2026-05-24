@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:32:16",
+  "requested_title": "Timneh Parrot",
+  "resolved_title": "Timneh parrot",
+  "title_aliases": [
+    "Timneh Parrot"
+  ],
+  "bird_id": "bird-timneh-parrot-6cb1c519",
+  "raw_file": "bird-timneh-parrot-6cb1c519.json",
+  "bird": {
+    "id": "bird-timneh-parrot-6cb1c519",
+    "name": "Timneh parrot",
+    "english_name": "Timneh parrot",
+    "latin_name": "Psittacus timneh",
+    "summary": "The Timneh parrot (Psittacus timneh), also known as the Timneh grey parrot or Timneh African grey parrot, is a West African parrot. Formerl…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Psittacus_erithacus_timneh-parrot_on_cage.jpg/960px-Psittacus_erithacus_timneh-parrot_on_cage.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旱季-98213416",
+      "name": "旱季",
+      "summary": "旱季，或稱乾季，指在降水量有顯著差別的地區，其一年中降水相对较少的月份。 请注意，在某些地區的某些年份，在“旱季”里每隔一两天下一场不大也不小的雨。所以“旱”是相对于“雨季”里每天下雨甚至连续数日不断地下雨而言的。",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-timneh-parrot-6cb1c519",
+      "subject": "Timneh parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-旱季-98213416",
+      "object": "旱季",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Though they are sometimes found in cultivated areas and gardens, it is not clear whether these habitats contain self-sustaining populations; the birds may make seasonal movements out of the driest parts of their range in the dry season",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-timneh-parrot-6cb1c519",
+      "subject": "Timneh parrot",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

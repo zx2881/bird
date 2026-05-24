@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:09:06",
+  "requested_title": "Sulu Cuckooshrike",
+  "resolved_title": "Sulu cuckooshrike",
+  "title_aliases": [
+    "Sulu Cuckooshrike"
+  ],
+  "bird_id": "bird-sulu-cuckooshrike-82ee20e8",
+  "raw_file": "bird-sulu-cuckooshrike-82ee20e8.json",
+  "bird": {
+    "id": "bird-sulu-cuckooshrike-82ee20e8",
+    "name": "Sulu cuckooshrike",
+    "english_name": "Sulu cuckooshrike",
+    "latin_name": "Coracina guillemardi",
+    "summary": "The Sulu cuckooshrike (Coracina guillemardi) is a passerine bird in the family Campephagidae that is found in the Sulu Archipelago of the P…",
+    "lat": "6",
+    "lng": "121",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-托馬索-薩爾瓦多里-8e61e436",
+      "name": "托馬索·薩爾瓦多里",
+      "summary": "托馬索·薩爾瓦多里，全稱阿代拉多·托馬索·薩爾瓦多里·帕萊奧蒂伯爵（Count Adelardo Tommaso Salvadori Paleotti，1835年9月30日—1923年10月9日）是一位義大利動物學家與鳥類學家。 生平簡介…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-苏禄群岛-cd8d5c75",
+      "name": "苏禄群岛",
+      "summary": "苏禄群岛（Sulu Archipelago），菲律宾西南部岛群。自民答那峨三宝颜半岛向西延伸至加里曼丹岛东岸，与马来西亚沙巴州相望，有800个以上小岛组成，分为五个岛群，面积2823平方公里，大岛都为火山岛，小岛为珊瑚礁，有热带森林，种植…",
+      "lat": "6",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sulu-cuckooshrike-82ee20e8",
+      "subject": "Sulu cuckooshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-托馬索-薩爾瓦多里-8e61e436",
+      "object": "托馬索·薩爾瓦多里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sulu cuckooshrike (Coracina guillemardi) is a passerine bird in the family Campephagidae that is found in the Sulu Archipelago of the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sulu-cuckooshrike-82ee20e8",
+      "subject": "Sulu cuckooshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏禄群岛-cd8d5c75",
+      "object": "苏禄群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sulu cuckooshrike (Coracina guillemardi) is a passerine bird in the family Campephagidae that is found in the Sulu Archipelago of the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sulu-cuckooshrike-82ee20e8",
+      "subject": "Sulu cuckooshrike",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-sulu-cuckooshrike-82ee20e8",
+      "subject": "Sulu cuckooshrike",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:51:11",
+  "requested_title": "Grey-chinned Sunbird",
+  "resolved_title": "Yellow-chinned sunbird",
+  "title_aliases": [
+    "Grey-chinned Sunbird",
+    "Yellow-chinned sunbird"
+  ],
+  "bird_id": "bird-yellow-chinned-sunbird-fbb776d6",
+  "raw_file": "bird-yellow-chinned-sunbird-fbb776d6.json",
+  "bird": {
+    "id": "bird-yellow-chinned-sunbird-fbb776d6",
+    "name": "Yellow-chinned sunbird",
+    "english_name": "Yellow-chinned sunbird",
+    "latin_name": "Anthreptes rectirostris",
+    "summary": "The yellow-chinned sunbird (Anthreptes rectirostris) is a species of bird in the family Nectariniidae. It is found in West Africa, namely S…",
+    "lat": "12",
+    "lng": "3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Anthreptes_rectirostris_257428418.jpg/960px-Anthreptes_rectirostris_257428418.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    },
+    {
+      "id": "loc-塞拉利昂-91a82141",
+      "name": "塞拉利昂",
+      "summary": "塞拉利昂共和国（英語：Republic of Sierra Leone），通稱塞拉利昂（英語：Sierra Leone），位于西非大西洋岸，北部及东部被几内亚包圍、东南与利比里亚接壤，首都弗里敦。 中文译名 “Sierra Leone”一…",
+      "lat": "8.5",
+      "lng": "-12.1"
+    },
+    {
+      "id": "loc-加纳-607b9e83",
+      "name": "加纳",
+      "summary": "加纳共和國（英語：Republic of Ghana），通稱迦納（Ghana），是位於非洲西部的国家，首都阿克拉。加纳西邻科特迪瓦，北靠布吉納法索，东边是多哥，南边为几内亚湾。 國名 Ghana的意思是「戰爭首領」或「戰士」。後來成為中世…",
+      "lat": "8.03",
+      "lng": "-1.08"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-chinned-sunbird-fbb776d6",
+      "subject": "Yellow-chinned sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in West Africa, namely Sierra Leone to Ghana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-chinned-sunbird-fbb776d6",
+      "subject": "Yellow-chinned sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞拉利昂-91a82141",
+      "object": "塞拉利昂",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in West Africa, namely Sierra Leone to Ghana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-chinned-sunbird-fbb776d6",
+      "subject": "Yellow-chinned sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-加纳-607b9e83",
+      "object": "加纳",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in West Africa, namely Sierra Leone to Ghana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-chinned-sunbird-fbb776d6",
+      "subject": "Yellow-chinned sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

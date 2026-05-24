@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:44:21",
+  "requested_title": "Black-and-white Mannikin",
+  "resolved_title": "Black-and-white mannikin",
+  "title_aliases": [
+    "Black-and-white Mannikin"
+  ],
+  "bird_id": "bird-黑白文鸟-76bff529",
+  "raw_file": "bird-黑白文鸟-76bff529.json",
+  "bird": {
+    "id": "bird-黑白文鸟-76bff529",
+    "name": "黑白文鸟",
+    "english_name": "Black-and-white mannikin",
+    "latin_name": "Spermestes bicolor",
+    "summary": "黑白文鸟（学名：Spermestes bicolor），是梅花雀科文鸟属的一种，分布于撒哈拉以南非洲。全球活动范围约为3,880,000平方千米。该物种的保护状况被评为无危。 种名 bicolor 意为“二色的”。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Black-and-white_Mannikin_%28Spermestes_bicolor%29_%287699911414%29%2C_crop.jpg/960px-Black-and-white_Mannikin_%28Spermestes_bicolor%29_%287699911414%29%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑白文鸟-76bff529",
+      "subject": "黑白文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in moist savanna and subtropical or tropical moist lowland forest habitat",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑白文鸟-76bff529",
+      "subject": "黑白文鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in moist savanna and subtropical or tropical moist lowland forest habitat",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-黑白文鸟-76bff529",
+      "subject": "黑白文鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

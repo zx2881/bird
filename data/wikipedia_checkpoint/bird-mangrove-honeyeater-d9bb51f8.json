@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:01:16",
+  "requested_title": "Mangrove Honeyeater",
+  "resolved_title": "Mangrove honeyeater",
+  "title_aliases": [
+    "Mangrove Honeyeater"
+  ],
+  "bird_id": "bird-mangrove-honeyeater-d9bb51f8",
+  "raw_file": "bird-mangrove-honeyeater-d9bb51f8.json",
+  "bird": {
+    "id": "bird-mangrove-honeyeater-d9bb51f8",
+    "name": "Mangrove honeyeater",
+    "english_name": "Mangrove honeyeater",
+    "latin_name": "Gavicalis fasciogularis",
+    "summary": "The mangrove honeyeater (Gavicalis fasciogularis) is a species of bird in the honeyeater family Meliphagidae. The species was once consider…",
+    "lat": "-27.29333333",
+    "lng": "152.93",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mangrove_Honeyeater_0A2A0079.jpg/960px-Mangrove_Honeyeater_0A2A0079.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-聖靈群島-75bd4dac",
+      "name": "聖靈群島",
+      "summary": "聖靈群島（英語：Whitsunday Islands）是位於澳大利亞昆士蘭州中部沿海地區的一個群島。聖靈群島中最大的島嶼是聖靈島，主要商業則集中在漢密爾頓島。聖靈群島因其美麗的海灘而成為澳大利亞熱門的旅遊景點。 參考資料",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-摩頓灣區政府-bd3f7461",
+      "name": "摩頓灣區政府",
+      "summary": "摩頓灣區政府（英語：Moreton Bay Region）是澳大利亞昆士蘭州成立於2008年3月的一個地方政府，位於昆士蘭州東南部、布里斯班都會區以北。成立於2008年，區政府統轄著昔時的赤壁市（Redcliffe）與松河及Caboolt…",
+      "lat": "-27.29333333",
+      "lng": "152.93"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mangrove-honeyeater-d9bb51f8",
+      "subject": "Mangrove honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-聖靈群島-75bd4dac",
+      "object": "聖靈群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Mangrove honeyeaters are found in Coastal Australia from Northeast Queensland near Townsville as well as in islands from Whitsunday Islands, Moreton Bay, and Northeast New South Wales",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-honeyeater-d9bb51f8",
+      "subject": "Mangrove honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩頓灣區政府-bd3f7461",
+      "object": "摩頓灣區政府",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Mangrove honeyeaters are found in Coastal Australia from Northeast Queensland near Townsville as well as in islands from Whitsunday Islands, Moreton Bay, and Northeast New South Wales",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-honeyeater-d9bb51f8",
+      "subject": "Mangrove honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They are less likely to be found in coastal shrubland, woodland or scrub (e.g",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-mangrove-honeyeater-d9bb51f8",
+      "subject": "Mangrove honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

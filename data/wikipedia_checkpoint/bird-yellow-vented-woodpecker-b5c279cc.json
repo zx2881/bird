@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:21:23",
+  "requested_title": "Yellow-vented Woodpecker",
+  "resolved_title": "Yellow-vented woodpecker",
+  "title_aliases": [
+    "Yellow-vented Woodpecker"
+  ],
+  "bird_id": "bird-yellow-vented-woodpecker-b5c279cc",
+  "raw_file": "bird-yellow-vented-woodpecker-b5c279cc.json",
+  "bird": {
+    "id": "bird-yellow-vented-woodpecker-b5c279cc",
+    "name": "Yellow-vented woodpecker",
+    "english_name": "Yellow-vented woodpecker",
+    "latin_name": "Veniliornis dignus",
+    "summary": "The yellow-vented woodpecker (Veniliornis dignus) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is found i…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Yellow-vented_Woodpecker_-_Colombia_S4E8871_%2816223080170%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-vented-woodpecker-b5c279cc",
+      "subject": "Yellow-vented woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits humid montane forest, in particular cloudforest, and is seldom found outside mature primary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-vented-woodpecker-b5c279cc",
+      "subject": "Yellow-vented woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits humid montane forest, in particular cloudforest, and is seldom found outside mature primary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-vented-woodpecker-b5c279cc",
+      "subject": "Yellow-vented woodpecker",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits humid montane forest, in particular cloudforest, and is seldom found outside mature primary forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-yellow-vented-woodpecker-b5c279cc",
+      "subject": "Yellow-vented woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

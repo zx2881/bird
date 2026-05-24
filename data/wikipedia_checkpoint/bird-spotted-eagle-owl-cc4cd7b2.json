@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T22:22:23",
+  "requested_title": "Spotted Eagle-Owl",
+  "resolved_title": "Spotted eagle-owl",
+  "title_aliases": [
+    "Spotted Eagle-Owl"
+  ],
+  "bird_id": "bird-spotted-eagle-owl-cc4cd7b2",
+  "raw_file": "bird-spotted-eagle-owl-cc4cd7b2.json",
+  "bird": {
+    "id": "bird-spotted-eagle-owl-cc4cd7b2",
+    "name": "Spotted eagle-owl",
+    "english_name": "Spotted eagle-owl",
+    "latin_name": "Bubo africanus",
+    "summary": "The spotted eagle-owl (Bubo africanus), also known as the African spotted eagle-owl and the African eagle-owl, is a medium-sized species of…",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Spotted_eagle_owl_bubo_africanus.jpg/960px-Spotted_eagle_owl_bubo_africanus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南部非洲-488ef0f2",
+      "name": "南部非洲",
+      "summary": "南部非洲（英语：Southern Africa）即非洲大陆南部地区，不常简称為南非，“南非”（英语：South Africa）通常指南非共和国。联合国地理方案的南部非洲次分区包括下列五個南部非洲关税同盟国家： 博茨瓦纳 史瓦帝尼（斯威士兰…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-spotted-eagle-owl-cc4cd7b2",
+      "subject": "Spotted eagle-owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-南部非洲-488ef0f2",
+      "object": "南部非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Spotted eagle-owls are the most common species of owl found in Southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-eagle-owl-cc4cd7b2",
+      "subject": "Spotted eagle-owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They occur throughout Sub-Saharan Africa and the Arabian Peninsula. They can also be found in thorn savanna and in suburban gardens, such as the outskirts of Harare, Zimbabwe.{{Citation|title=Bubo africanus (Temminck)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-eagle-owl-cc4cd7b2",
+      "subject": "Spotted eagle-owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They occur throughout Sub-Saharan Africa and the Arabian Peninsula. They can also be found in thorn savanna and in suburban gardens, such as the outskirts of Harare, Zimbabwe.{{Citation|title=Bubo africanus (Temminck)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-eagle-owl-cc4cd7b2",
+      "subject": "Spotted eagle-owl",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They occur throughout Sub-Saharan Africa and the Arabian Peninsula. They can also be found in thorn savanna and in suburban gardens, such as the outskirts of Harare, Zimbabwe.{{Citation|title=Bubo africanus (Temminck)",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-spotted-eagle-owl-cc4cd7b2",
+      "subject": "Spotted eagle-owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

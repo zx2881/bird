@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:28:19",
+  "requested_title": "Capped Wheatear",
+  "resolved_title": "Capped wheatear",
+  "title_aliases": [
+    "Capped Wheatear"
+  ],
+  "bird_id": "bird-capped-wheatear-27ff6602",
+  "raw_file": "bird-capped-wheatear-27ff6602.json",
+  "bird": {
+    "id": "bird-capped-wheatear-27ff6602",
+    "name": "Capped wheatear",
+    "english_name": "Capped wheatear",
+    "latin_name": "Oenanthe pileata",
+    "summary": "The capped wheatear (Oenanthe pileata) is a small insectivorous passerine bird that is widely distributed over southern Africa. It was form…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Capped_Wheatear%2C_Oenanthe_pileata_at_Suikerbosrand_Nature_Reserve%2C_Gauteng%2C_South_Africa.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    },
+    {
+      "id": "loc-好望角-5d7d604b",
+      "name": "好望角",
+      "summary": "好望角（阿非利卡語：Kaap die Goeie Hoop，[ˌkɑːp di ˌχujə ˈɦʊəp]；荷蘭語：Kaap de Goede Hoop，[ˌkaːb də ˌɣudə ˈɦoːp] ；葡萄牙語：Cabo da Boa Es…",
+      "lat": "-34.35805556",
+      "lng": "18.47555556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-capped-wheatear-27ff6602",
+      "subject": "Capped wheatear",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Exemplar in Ngorongoro, Tanzania This wheatear is found in open dry sandy and stony habitats and short grassland with a few bushes and termite mounds in Africa, from Kenya and Angola south to the Cape",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-capped-wheatear-27ff6602",
+      "subject": "Capped wheatear",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Exemplar in Ngorongoro, Tanzania This wheatear is found in open dry sandy and stony habitats and short grassland with a few bushes and termite mounds in Africa, from Kenya and Angola south to the Cape",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-capped-wheatear-27ff6602",
+      "subject": "Capped wheatear",
+      "predicate": "distributed_in",
+      "object_id": "loc-好望角-5d7d604b",
+      "object": "好望角",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Exemplar in Ngorongoro, Tanzania This wheatear is found in open dry sandy and stony habitats and short grassland with a few bushes and termite mounds in Africa, from Kenya and Angola south to the Cape",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-capped-wheatear-27ff6602",
+      "subject": "Capped wheatear",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "thumb|Exemplar in Ngorongoro, Tanzania This wheatear is found in open dry sandy and stony habitats and short grassland with a few bushes and termite mounds in Africa, from Kenya and Angola south to the Cape",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-capped-wheatear-27ff6602",
+      "subject": "Capped wheatear",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

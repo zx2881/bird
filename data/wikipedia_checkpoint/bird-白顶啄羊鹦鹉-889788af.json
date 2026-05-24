@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:28:39",
+  "requested_title": "New Zealand Kaka",
+  "resolved_title": "Kākā",
+  "title_aliases": [
+    "New Zealand Kaka",
+    "Kākā"
+  ],
+  "bird_id": "bird-白顶啄羊鹦鹉-889788af",
+  "raw_file": "bird-白顶啄羊鹦鹉-889788af.json",
+  "bird": {
+    "id": "bird-白顶啄羊鹦鹉-889788af",
+    "name": "白顶啄羊鹦鹉",
+    "english_name": "Kākā",
+    "latin_name": "Nestor meridionalis",
+    "summary": "白顶啄羊鹦鹉（台湾作卡卡啄羊鸚鵡，学名：Nestor meridionalis），是鹦鹉目鸮面鹦鹉科的一种鸟类。 白顶啄羊鹦鹉体重约428.01克，翼长约284.3毫米，嘴峰长约55.1毫米，喙宽度约14.4毫米，喙厚度约35.8毫米，跗蹠长约38.2毫米，尾长约172.2毫米…",
+    "lat": "-42",
+    "lng": "173",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Scrapping_kaka.jpg/960px-Scrapping_kaka.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-鸮面鹦鹉科-6a22dbaf",
+      "name": "鸮面鹦鹉科",
+      "summary": "鸮面鹦鹉科（学名：Strigopidae）是鸟纲鹦鹉目的一个科，现存2属3种，根据世界鸟类学家联合会的分类，本科是鸮面鹦鹉总科的唯一一科。包含鸮面鹦鹉属的鸮面鹦鹉及啄羊鹦鹉属的啄羊鹦鹉和白顶啄羊鹦鹉共三种。已灭绝的属Nelepsittac…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新西兰-f3c9507e",
+      "name": "新西兰",
+      "summary": "新西兰（英語：New Zealand）又称奥特亚罗瓦（毛利語：Aotearoa，直译：「长白云之乡」），位於太平洋西南部的主權島國，是英联邦新西蘭王國的主體部分，首都為惠灵顿，最大的城市為奧克蘭。紐西蘭主要由兩大島嶼組成：北島（Te Ik…",
+      "lat": "-42",
+      "lng": "173"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白顶啄羊鹦鹉-889788af",
+      "subject": "白顶啄羊鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The New Zealand kākā (Nestor meridionalis) is a large species of parrot of the family Strigopidae found in New Zealand's native forests across the three main Islands of New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶啄羊鹦鹉-889788af",
+      "subject": "白顶啄羊鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-鸮面鹦鹉科-6a22dbaf",
+      "object": "鸮面鹦鹉科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The New Zealand kākā (Nestor meridionalis) is a large species of parrot of the family Strigopidae found in New Zealand's native forests across the three main Islands of New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶啄羊鹦鹉-889788af",
+      "subject": "白顶啄羊鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-新西兰-f3c9507e",
+      "object": "新西兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The New Zealand kākā (Nestor meridionalis) is a large species of parrot of the family Strigopidae found in New Zealand's native forests across the three main Islands of New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶啄羊鹦鹉-889788af",
+      "subject": "白顶啄羊鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

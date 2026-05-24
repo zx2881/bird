@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:13:05",
+  "requested_title": "Visayan Shama",
+  "resolved_title": "Visayan shama",
+  "title_aliases": [
+    "Visayan Shama"
+  ],
+  "bird_id": "bird-visayan-shama-eb17fbd8",
+  "raw_file": "bird-visayan-shama-eb17fbd8.json",
+  "bird": {
+    "id": "bird-visayan-shama-eb17fbd8",
+    "name": "Visayan shama",
+    "english_name": "Visayan shama",
+    "latin_name": "Copsychus superciliaris",
+    "summary": "The Visayan shama (Copsychus superciliaris) is a species of bird in the family Muscicapidae. It is endemic to Ticao, Masbate, Negros, and P…",
+    "lat": "9.25",
+    "lng": "123.16666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Visayan_Shama.png/960px-Visayan_Shama.png"
+  },
+  "locations": [
+    {
+      "id": "loc-mount-talinis-a096bc1f",
+      "name": "Mount Talinis",
+      "summary": "Mount Talinis is a complex volcano in the Philippine province of Negros Oriental.",
+      "lat": "9.25",
+      "lng": "123.16666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-visayan-shama-eb17fbd8",
+      "subject": "Visayan shama",
+      "predicate": "distributed_in",
+      "object_id": "loc-mount-talinis-a096bc1f",
+      "object": "Mount Talinis",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in the proposed Central Panay Mountain Range Park which contains the largest block of remaining forest in the Western Visayas, and the tourist destination of Twin Lakes (Mount Talinis)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-visayan-shama-eb17fbd8",
+      "subject": "Visayan shama",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-visayan-shama-eb17fbd8",
+      "subject": "Visayan shama",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-visayan-shama-eb17fbd8",
+      "subject": "Visayan shama",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

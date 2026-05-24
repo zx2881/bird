@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:20:34",
+  "requested_title": "Congo Pied Hornbill",
+  "resolved_title": "Congo pied hornbill",
+  "title_aliases": [
+    "Congo Pied Hornbill"
+  ],
+  "bird_id": "bird-congo-pied-hornbill-46af7c31",
+  "raw_file": "bird-congo-pied-hornbill-46af7c31.json",
+  "bird": {
+    "id": "bird-congo-pied-hornbill-46af7c31",
+    "name": "Congo pied hornbill",
+    "english_name": "Congo pied hornbill",
+    "latin_name": "Lophoceros fasciatus",
+    "summary": "The Congo pied hornbill (Lophoceros fasciatus) is a bird of the hornbill family, a family of tropical near-passerine birds found in the Old…",
+    "lat": "0",
+    "lng": "22",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Elstertoko2.jpg/960px-Elstertoko2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-乔治-肖-89c41fbc",
+      "name": "乔治·肖",
+      "summary": "乔治·肖（英語：George Shaw，1751年12月10日—1813年7月22日）是英國植物學家及動物學家。 生平 肖生於白金漢郡的一個村落內，於牛津大學莫德林學院受教育，並在1772年取得其碩士學位后成為執業醫生。1786年起在牛津…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-刚果盆地-baa9864a",
+      "name": "刚果盆地",
+      "summary": "刚果盆地（斯瓦希里語：bonde la Kongo，法語：Bassin du Congo），又称扎伊尔盆地，是剛果河的沉積盆地，位于非洲中西部，橫跨喀麦隆、中非共和国、刚果民主共和国、赤道几内亚、加蓬和刚果共和国。刚果盆地是非洲最大盆地，…",
+      "lat": "0",
+      "lng": "22"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-congo-pied-hornbill-46af7c31",
+      "subject": "Congo pied hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-乔治-肖-89c41fbc",
+      "object": "乔治·肖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Congo pied hornbill (Lophoceros fasciatus) is a bird of the hornbill family, a family of tropical near-passerine birds found in the Old World. The Congo pied hornbill is native to the Congo Basin",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-congo-pied-hornbill-46af7c31",
+      "subject": "Congo pied hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Congo pied hornbill (Lophoceros fasciatus) is a bird of the hornbill family, a family of tropical near-passerine birds found in the Old World. The Congo pied hornbill is native to the Congo Basin",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-congo-pied-hornbill-46af7c31",
+      "subject": "Congo pied hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果盆地-baa9864a",
+      "object": "刚果盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Congo pied hornbill (Lophoceros fasciatus) is a bird of the hornbill family, a family of tropical near-passerine birds found in the Old World. The Congo pied hornbill is native to the Congo Basin",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-congo-pied-hornbill-46af7c31",
+      "subject": "Congo pied hornbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

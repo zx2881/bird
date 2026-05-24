@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:40:22",
+  "requested_title": "Moustached Babbler",
+  "resolved_title": "Moustached babbler",
+  "title_aliases": [
+    "Moustached Babbler"
+  ],
+  "bird_id": "bird-须树鹛-7c1a004a",
+  "raw_file": "bird-须树鹛-7c1a004a.json",
+  "bird": {
+    "id": "bird-须树鹛-7c1a004a",
+    "name": "须树鹛",
+    "english_name": "Moustached babbler",
+    "latin_name": "Malacopteron magnirostre",
+    "summary": "须树鹛（学名：Malacopteron magnirostre）是画眉科树鹛属的一种，分布于文莱、缅甸、泰国、印度尼西亚、马来西亚和新加坡。该物种的保护状况被评为无危。 须树鹛的平均体重约为19.4克。栖息地包括亚热带或热带严重退化的前森林、亚热带或热带的湿润低地林、亚热带或热…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Malacopteron_magnirostre.JPG/960px-Malacopteron_magnirostre.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    },
+    {
+      "id": "loc-新加坡-ce8a7b5b",
+      "name": "新加坡",
+      "summary": "新加坡共和國（英語：Republic of Singapore；馬來語：Republik Singapura；坦米爾語：சிங்கப்பூர் குடியரசு，羅馬化：Ciṅkappūr Kuṭiyaracu），通称新加坡，简称新或星，…",
+      "lat": "1.28333333",
+      "lng": "103.83333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-须树鹛-7c1a004a",
+      "subject": "须树鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate race is found in southern Myanmar and Thailand through Peninsular Malaysia and Sumatra, and the subspecies M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-须树鹛-7c1a004a",
+      "subject": "须树鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cinereocapilla is endemic to Borneo. Formerly, it could be found in the forests of Singapore, but it is now likely extinct there.{{cite journal|first=D",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-须树鹛-7c1a004a",
+      "subject": "须树鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-新加坡-ce8a7b5b",
+      "object": "新加坡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cinereocapilla is endemic to Borneo. Formerly, it could be found in the forests of Singapore, but it is now likely extinct there.{{cite journal|first=D",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-须树鹛-7c1a004a",
+      "subject": "须树鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

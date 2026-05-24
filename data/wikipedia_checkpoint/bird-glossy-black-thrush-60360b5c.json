@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:52:09",
+  "requested_title": "Glossy-black Thrush",
+  "resolved_title": "Glossy-black thrush",
+  "title_aliases": [
+    "Glossy-black Thrush"
+  ],
+  "bird_id": "bird-glossy-black-thrush-60360b5c",
+  "raw_file": "bird-glossy-black-thrush-60360b5c.json",
+  "bird": {
+    "id": "bird-glossy-black-thrush-60360b5c",
+    "name": "Glossy-black thrush",
+    "english_name": "Glossy-black thrush",
+    "latin_name": "Turdus serranus",
+    "summary": "The glossy-black thrush (Turdus serranus) is a species of bird in the family Turdidae. It is found from Venezuela to Argentina.",
+    "lat": "-23.75",
+    "lng": "-65.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Glossy-black_Thrush_RWD3.jpg/960px-Glossy-black_Thrush_RWD3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-胡胡伊省-d778cf3a",
+      "name": "胡胡伊省",
+      "summary": "胡胡伊（西班牙語：Jujuy，發音：[xuˈxuj]）是位於阿根廷最西北部的一個省，其邊境與智利和玻利維亞接壤。在阿根廷內，胡胡伊唯一的鄰近省份是其東和南邊的薩爾塔省。 歷史 前哥倫布時期，當地原住民和後來在印加帝國擴張時到達的印加人通婚…",
+      "lat": "-23.75",
+      "lng": "-65.5"
+    },
+    {
+      "id": "loc-萨尔塔省-678dcbe3",
+      "name": "萨尔塔省",
+      "summary": "萨尔塔省（西班牙語：Provincia de Salta）為南美國家阿根廷二十三省之一，位於阿根廷西北部，省会萨尔塔。 萨尔塔省风光",
+      "lat": "-24.78333333",
+      "lng": "-65.41666667"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-glossy-black-thrush-60360b5c",
+      "subject": "Glossy-black thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-胡胡伊省-d778cf3a",
+      "object": "胡胡伊省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "continoi: northwestern Argentina's Jujuy and Salta provinces The glossy-black thrush primarily inhabits the interior of a variety of landscapes in the subtropical and temperate zones, most of which are humid to wet",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-glossy-black-thrush-60360b5c",
+      "subject": "Glossy-black thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨尔塔省-678dcbe3",
+      "object": "萨尔塔省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "continoi: northwestern Argentina's Jujuy and Salta provinces The glossy-black thrush primarily inhabits the interior of a variety of landscapes in the subtropical and temperate zones, most of which are humid to wet",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-glossy-black-thrush-60360b5c",
+      "subject": "Glossy-black thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "These include montane forest, cloudforest, and mature secondary forest. It is also found in dry forest in northwestern Peru. In Venezuela it ranges in elevation between , in Colombia between , and in Ecuador mostly between . In northwestern Peru it is found between and on the eastern slope between but mostly between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-glossy-black-thrush-60360b5c",
+      "subject": "Glossy-black thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "These include montane forest, cloudforest, and mature secondary forest. It is also found in dry forest in northwestern Peru. In Venezuela it ranges in elevation between , in Colombia between , and in Ecuador mostly between . In northwestern Peru it is found between and on the eastern slope between but mostly between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-glossy-black-thrush-60360b5c",
+      "subject": "Glossy-black thrush",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "These include montane forest, cloudforest, and mature secondary forest. It is also found in dry forest in northwestern Peru. In Venezuela it ranges in elevation between , in Colombia between , and in Ecuador mostly between . In northwestern Peru it is found between and on the eastern slope between but mostly between",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-glossy-black-thrush-60360b5c",
+      "subject": "Glossy-black thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

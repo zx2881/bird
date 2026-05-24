@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:50:21",
+  "requested_title": "Crimson-breasted Finch",
+  "resolved_title": "Crimson-breasted finch",
+  "title_aliases": [
+    "Crimson-breasted Finch"
+  ],
+  "bird_id": "bird-红胸雀-32f9884c",
+  "raw_file": "bird-红胸雀-32f9884c.json",
+  "bird": {
+    "id": "bird-红胸雀-32f9884c",
+    "name": "红胸雀",
+    "english_name": "Crimson-breasted finch",
+    "latin_name": "Rhodospingus cruentus",
+    "summary": "红胸雀（台湾作玫紅雀，学名：Rhodospingus cruentus），是雀形目唐纳雀科的一种鸟类，属于单型的红胸雀属（学名：Rhodospingus）。 红胸雀体重约11.6克，翼长约55.7毫米，喙宽度约3.9毫米，喙厚度约5.1毫米，嘴峰长约13.1毫米，跗蹠长约15.…",
+    "lat": "-2",
+    "lng": "-77.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Crimson-breasted_FinchRWD12g.jpg/960px-Crimson-breasted_FinchRWD12g.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "name": "理查德·鮑德勒·夏普",
+      "summary": "理查德·鮑德勒·夏普（英語：Richard Bowdler Sharpe，1847年11月22日—1909年12月25日）是一位英國動物學家兼鳥類學家，於大英博物館擔任鳥類標本的策展人。在其職涯裡，夏普出版了一些有關鳥類的專著，並整理出博…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红胸雀-32f9884c",
+      "subject": "红胸雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "object": "理查德·鮑德勒·夏普",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crimson-breasted finch (Rhodospingus cruentus), is a species of small finch-like bird native to woodland and scrub of western Ecuador and adjacent north-western Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红胸雀-32f9884c",
+      "subject": "红胸雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crimson-breasted finch (Rhodospingus cruentus), is a species of small finch-like bird native to woodland and scrub of western Ecuador and adjacent north-western Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红胸雀-32f9884c",
+      "subject": "红胸雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crimson-breasted finch (Rhodospingus cruentus), is a species of small finch-like bird native to woodland and scrub of western Ecuador and adjacent north-western Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红胸雀-32f9884c",
+      "subject": "红胸雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

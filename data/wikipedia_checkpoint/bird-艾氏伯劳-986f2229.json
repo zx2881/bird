@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:01:01",
+  "requested_title": "Emin's Shrike",
+  "resolved_title": "Emin's shrike",
+  "title_aliases": [
+    "Emin's Shrike"
+  ],
+  "bird_id": "bird-艾氏伯劳-986f2229",
+  "raw_file": "bird-艾氏伯劳-986f2229.json",
+  "bird": {
+    "id": "bird-艾氏伯劳-986f2229",
+    "name": "艾氏伯劳",
+    "english_name": "Emin's shrike",
+    "latin_name": "Lanius gubernator",
+    "summary": "艾氏伯劳（学名：Lanius gubernator）是伯劳科伯劳属的一种。分布于喀麦隆、中非共和国、刚果民主共和国、科特迪瓦、加纳、几内亚比绍、马里、尼日利亚、苏丹以及乌干达。其自然栖息地为干燥的稀树草原。 参考文献",
+    "lat": "15.2",
+    "lng": "-4.1",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Lanius_gubernator_-_avocat_-_637472344.jpeg/960px-Lanius_gubernator_-_avocat_-_637472344.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-内尼日尔三角洲-04817190",
+      "name": "内尼日尔三角洲",
+      "summary": "内尼日尔三角洲，又称马西纳地区（Macina），是半干旱的萨赫勒地区在马里中部的大片湖泊和洪泛区、內陸三角洲，撒哈拉沙漠南部。 生态 内尼日尔三角洲位于萨赫勒地区，拥有一个非常依靠洪水的生态系统。",
+      "lat": "15.2",
+      "lng": "-4.1"
+    },
+    {
+      "id": "loc-科莫埃国家公园-307fbb04",
+      "name": "科莫埃国家公园",
+      "summary": "科莫埃国家公园是科特迪瓦东北部的一座国家公园，于1983年列入联合国教科文组织世界遗产。得名自其所处在科莫埃河上游。泛滥平原季节性的在园内涨水滋润土地，养育人口。此外，当地还有像尼罗鳄、非洲狭吻鳄、侏儒鳄等鳄鱼在湿地中生存，季节迁徙的鸟类…",
+      "lat": "9.16361111",
+      "lng": "-3.7725"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-艾氏伯劳-986f2229",
+      "subject": "艾氏伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-内尼日尔三角洲-04817190",
+      "object": "内尼日尔三角洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in Mali in the Niger inland delta and on the Séno Plain and the Ivory Coast, mostly in Comoé National Park east to South Sudan and northern Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艾氏伯劳-986f2229",
+      "subject": "艾氏伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-科莫埃国家公园-307fbb04",
+      "object": "科莫埃国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in Mali in the Niger inland delta and on the Séno Plain and the Ivory Coast, mostly in Comoé National Park east to South Sudan and northern Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艾氏伯劳-986f2229",
+      "subject": "艾氏伯劳",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

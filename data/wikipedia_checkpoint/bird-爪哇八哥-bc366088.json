@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:41:07",
+  "requested_title": "Javan Myna",
+  "resolved_title": "Javan myna",
+  "title_aliases": [
+    "Javan Myna"
+  ],
+  "bird_id": "bird-爪哇八哥-bc366088",
+  "raw_file": "bird-爪哇八哥-bc366088.json",
+  "bird": {
+    "id": "bird-爪哇八哥-bc366088",
+    "name": "爪哇八哥",
+    "english_name": "Javan myna",
+    "latin_name": "Acridotheres javanicus",
+    "summary": "The Javan myna (Acridotheres javanicus), also known as the white-vented myna, is a species of myna in the starling family Sturnidae. It is…",
+    "lat": "-7.49166667",
+    "lng": "110.00444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Acridotheres_javanicus_-_Kent_Ridge_Park.jpg/960px-Acridotheres_javanicus_-_Kent_Ridge_Park.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    },
+    {
+      "id": "loc-巴厘省-6d7efef8",
+      "name": "巴厘省",
+      "summary": "峇里省（印尼語：Bali；峇里语：ᬩᬮᬶ），主要位於峇厘岛，是印度尼西亚33個一級行政區之一，也是著名的旅遊勝地。該島距離印尼首都雅加达約1,000公里，与爪哇岛之間僅有3.2公里寬海峽相隔，面积约5,630平方公里，其省會設於島上南部的…",
+      "lat": "-8.335",
+      "lng": "115.08805556"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-爪哇八哥-bc366088",
+      "subject": "爪哇八哥",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Java and Bali in Indonesia, where its population has declined significantly due to excessive trapping for the cage-bird trade",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-爪哇八哥-bc366088",
+      "subject": "爪哇八哥",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴厘省-6d7efef8",
+      "object": "巴厘省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Java and Bali in Indonesia, where its population has declined significantly due to excessive trapping for the cage-bird trade",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-爪哇八哥-bc366088",
+      "subject": "爪哇八哥",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Java and Bali in Indonesia, where its population has declined significantly due to excessive trapping for the cage-bird trade",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-爪哇八哥-bc366088",
+      "subject": "爪哇八哥",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

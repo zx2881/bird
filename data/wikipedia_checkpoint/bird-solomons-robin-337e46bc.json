@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:56:19",
+  "requested_title": "Solomons Robin",
+  "resolved_title": "Solomons robin",
+  "title_aliases": [
+    "Solomons Robin"
+  ],
+  "bird_id": "bird-solomons-robin-337e46bc",
+  "raw_file": "bird-solomons-robin-337e46bc.json",
+  "bird": {
+    "id": "bird-solomons-robin-337e46bc",
+    "name": "Solomons robin",
+    "english_name": "Solomons robin",
+    "latin_name": "Petroica polymorpha",
+    "summary": "The Solomons robin (Petroica polymorpha) is a species of bird in the family Petroicidae. It is found in the Solomon Islands.",
+    "lat": "-8",
+    "lng": "159",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-所罗门群岛-65f9af23",
+      "name": "所罗门群岛",
+      "summary": "Solomon Islands, also known simply as the Solomons, is an archipelagic country consisting of six major islands and over…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-solomons-robin-337e46bc",
+      "subject": "Solomons robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-所罗门群岛-65f9af23",
+      "object": "所罗门群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-solomons-robin-337e46bc",
+      "subject": "Solomons robin",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests and subalpine shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-solomons-robin-337e46bc",
+      "subject": "Solomons robin",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests and subalpine shrubland",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    }
+  ]
+}

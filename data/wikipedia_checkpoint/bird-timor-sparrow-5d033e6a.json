@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:46:06",
+  "requested_title": "Timor Sparrow",
+  "resolved_title": "Timor sparrow",
+  "title_aliases": [
+    "Timor Sparrow"
+  ],
+  "bird_id": "bird-timor-sparrow-5d033e6a",
+  "raw_file": "bird-timor-sparrow-5d033e6a.json",
+  "bird": {
+    "id": "bird-timor-sparrow-5d033e6a",
+    "name": "Timor sparrow",
+    "english_name": "Timor sparrow",
+    "latin_name": "Padda fuscata",
+    "summary": "The Timor sparrow (Padda fuscata), also known as Timor dusky sparrow, is a small passerine bird. The bird inhabits the grasslands and lowla…",
+    "lat": "-9.23333333",
+    "lng": "124.93333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/An_adult_Timor_Sparrow_Lonchura_fuscata_near_Baucau_on_the_north_coast_of_Timor-Leste.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-帝汶島-c352d922",
+      "name": "帝汶島",
+      "summary": "帝汶島（印尼語：Pulau Timor，葡萄牙語：Ilha de Timor）是位於馬來群島南端的島嶼，為小巽他群島中面積最大者，總面積約30,777平方公里。該島地處東南亞海域，座標約為9°14′S 124°56′E，北臨弗洛勒斯海，南…",
+      "lat": "-9.23333333",
+      "lng": "124.93333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-timor-sparrow-5d033e6a",
+      "subject": "Timor sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-帝汶島-c352d922",
+      "object": "帝汶島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bird inhabits the grasslands and lowlands of the Timor archipelago with its distribution typically sparse",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-timor-sparrow-5d033e6a",
+      "subject": "Timor sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The bird inhabits the grasslands and lowlands of the Timor archipelago with its distribution typically sparse",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-timor-sparrow-5d033e6a",
+      "subject": "Timor sparrow",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

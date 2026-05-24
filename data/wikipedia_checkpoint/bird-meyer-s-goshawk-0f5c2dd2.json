@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:48:11",
+  "requested_title": "Meyer's Goshawk",
+  "resolved_title": "Meyer's goshawk",
+  "title_aliases": [
+    "Meyer's Goshawk"
+  ],
+  "bird_id": "bird-meyer-s-goshawk-0f5c2dd2",
+  "raw_file": "bird-meyer-s-goshawk-0f5c2dd2.json",
+  "bird": {
+    "id": "bird-meyer-s-goshawk-0f5c2dd2",
+    "name": "Meyer's goshawk",
+    "english_name": "Meyer's goshawk",
+    "latin_name": "Astur meyerianus",
+    "summary": "Meyer's goshawk (Astur meyerianus) is a species of bird of prey in the family Accipitridae. It is found in the Moluccas, New Guinea, the Bi…",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/John_Gerrard_Keulemans03.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-俾斯麦群岛-19ddf3e6",
+      "name": "俾斯麦群岛",
+      "summary": "俾斯麦群岛（英文：Bismarck Archipelago）是太平洋西南部一群岛，位于新几内亚岛东北，濒临俾斯麦海，由200多个岛屿组成，总陆地面积49700平方公里，主要岛屿有新不列颠岛、新爱尔兰岛等，人口31.4万人，现全部属于巴布亚…",
+      "lat": "-5",
+      "lng": "150.1"
+    },
+    {
+      "id": "loc-所罗门群岛-65f9af23",
+      "name": "所罗门群岛",
+      "summary": "所罗门群岛（英語：Solomon Islands）是南太平洋岛国，位於澳大利亚东北方，巴布亞紐幾內亞東方。首都霍尼亞拉所在地瓜達康納爾島曾是第二次世界大戰在太平洋的转折点所在地。 所罗门群岛共有超過990個島，陸地總面積共有28,450平…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-meyer-s-goshawk-0f5c2dd2",
+      "subject": "Meyer's goshawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Moluccas, New Guinea, the Bismarck Archipelago and the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-meyer-s-goshawk-0f5c2dd2",
+      "subject": "Meyer's goshawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Moluccas, New Guinea, the Bismarck Archipelago and the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-meyer-s-goshawk-0f5c2dd2",
+      "subject": "Meyer's goshawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-俾斯麦群岛-19ddf3e6",
+      "object": "俾斯麦群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Moluccas, New Guinea, the Bismarck Archipelago and the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-meyer-s-goshawk-0f5c2dd2",
+      "subject": "Meyer's goshawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-所罗门群岛-65f9af23",
+      "object": "所罗门群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Moluccas, New Guinea, the Bismarck Archipelago and the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-meyer-s-goshawk-0f5c2dd2",
+      "subject": "Meyer's goshawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

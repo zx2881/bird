@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:11:16",
+  "requested_title": "White-rumped Shama",
+  "resolved_title": "White-rumped shama",
+  "title_aliases": [
+    "White-rumped Shama"
+  ],
+  "bird_id": "bird-白腰鵲鴝-72c73a33",
+  "raw_file": "bird-白腰鵲鴝-72c73a33.json",
+  "bird": {
+    "id": "bird-白腰鵲鴝-72c73a33",
+    "name": "白腰鵲鴝",
+    "english_name": "White-rumped shama",
+    "latin_name": "Copsychus malabaricus",
+    "summary": "白腰鵲鴝（學名：Copsychus malabaricus），俗稱長尾知渣、長尾四喜。曾被列入鶇科，故曾有白腰鵲鶇或稱鵲鶇等舊稱。 生态环境 普遍分佈於山谷樹林和Ko'olaus南部的山嵴。在樹木稀疏的低地闊葉林築巢。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/White-rumped_Shama_%2814503818154%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白腰鵲鴝-72c73a33",
+      "subject": "白腰鵲鴝",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Native to densely vegetated habitats in the Indian subcontinent and Southeast Asia, its popularity as a cage-bird and songster has led to it being introduced elsewhere",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腰鵲鴝-72c73a33",
+      "subject": "白腰鵲鴝",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

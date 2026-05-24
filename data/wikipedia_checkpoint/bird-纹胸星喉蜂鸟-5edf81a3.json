@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:28:14",
+  "requested_title": "Stripe-breasted Starthroat",
+  "resolved_title": "Stripe-breasted starthroat",
+  "title_aliases": [
+    "Stripe-breasted Starthroat"
+  ],
+  "bird_id": "bird-纹胸星喉蜂鸟-5edf81a3",
+  "raw_file": "bird-纹胸星喉蜂鸟-5edf81a3.json",
+  "bird": {
+    "id": "bird-纹胸星喉蜂鸟-5edf81a3",
+    "name": "纹胸星喉蜂鸟",
+    "english_name": "Stripe-breasted starthroat",
+    "latin_name": "Heliomaster squamosus",
+    "summary": "纹胸星喉蜂鸟（学名：Heliomaster squamosus），是雨燕目蜂鸟科的一种鸟类。 纹胸星喉蜂鸟体重约5.9克，翼长约56毫米，嘴峰长约32.4毫米，喙宽度约2.6毫米，喙厚度约2.4毫米，跗蹠长约3.1毫米，尾长约35.2毫米。纹胸星喉蜂鸟在其分布区内为留鸟，其栖息…",
+    "lat": "-8.33333333",
+    "lng": "-37.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Heliomaster_squamosus_Stripe-breasted_Starthroat_%28M%29_01.jpg/960px-Heliomaster_squamosus_Stripe-breasted_Starthroat_%28M%29_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伯南布哥州-cd7d559f",
+      "name": "伯南布哥州",
+      "summary": "伯南布哥（葡萄牙語：Pernambuco），是巴西的26个州之一，地处东北部。面积98,311.616平方千米，首府是累西腓。伯南布哥北部是塞阿腊州和帕拉伊巴州，西部是皮奧伊州，其南部是阿拉戈斯州和巴伊亚州。 伯南布哥主要有累西腓、雅博阿…",
+      "lat": "-8.33333333",
+      "lng": "-37.8"
+    },
+    {
+      "id": "loc-圣保罗州-de4bdb34",
+      "name": "圣保罗州",
+      "summary": "圣保罗州（葡萄牙語：São Paulo，葡萄牙語發音：[sɐ̃w̃ 'paw.lo]）是巴西的一个州，以圣保罗的名字命名。圣保罗州是巴西重要的工业和经济区。 地理 圣保罗州的面积248,209.426平方公里，人口44,411,238人（…",
+      "lat": "-22.07",
+      "lng": "-48.4336"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纹胸星喉蜂鸟-5edf81a3",
+      "subject": "纹胸星喉蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-伯南布哥州-cd7d559f",
+      "object": "伯南布哥州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The stripe-breasted starthroat is found in eastern Brazil from Pernambuco south to São Paulo state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹胸星喉蜂鸟-5edf81a3",
+      "subject": "纹胸星喉蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣保罗州-de4bdb34",
+      "object": "圣保罗州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The stripe-breasted starthroat is found in eastern Brazil from Pernambuco south to São Paulo state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹胸星喉蜂鸟-5edf81a3",
+      "subject": "纹胸星喉蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

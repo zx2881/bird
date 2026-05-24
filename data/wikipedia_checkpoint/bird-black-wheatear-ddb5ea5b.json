@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:33:21",
+  "requested_title": "Black Wheatear",
+  "resolved_title": "Black wheatear",
+  "title_aliases": [
+    "Black Wheatear"
+  ],
+  "bird_id": "bird-black-wheatear-ddb5ea5b",
+  "raw_file": "bird-black-wheatear-ddb5ea5b.json",
+  "bird": {
+    "id": "bird-black-wheatear-ddb5ea5b",
+    "name": "Black wheatear",
+    "english_name": "Black wheatear",
+    "latin_name": "Oenanthe leucura",
+    "summary": "The black wheatear (Oenanthe leucura) is a wheatear, a small passerine bird in the Old World flycatcher family Muscicapidae. It is found in…",
+    "lat": "40.5",
+    "lng": "-4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Traquet_rieur_Gabes.jpg/960px-Traquet_rieur_Gabes.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伊比利亚半岛-d6e67713",
+      "name": "伊比利亚半岛",
+      "summary": "伊比利亚半岛（西班牙語：la Península Ibérica、葡萄牙語：a Península Ibérica、加泰隆尼亞語：la Península Ibèrica、加利西亞語：a Península Ibérica、巴斯克語：Ib…",
+      "lat": "40.5",
+      "lng": "-4"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-wheatear-ddb5ea5b",
+      "subject": "Black wheatear",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊比利亚半岛-d6e67713",
+      "object": "伊比利亚半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Iberian Peninsula and western North Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-wheatear-ddb5ea5b",
+      "subject": "Black wheatear",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

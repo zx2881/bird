@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:23:20",
+  "requested_title": "Red-rumped Cacique",
+  "resolved_title": "Red-rumped cacique",
+  "title_aliases": [
+    "Red-rumped Cacique"
+  ],
+  "bird_id": "bird-red-rumped-cacique-7556db79",
+  "raw_file": "bird-red-rumped-cacique-7556db79.json",
+  "bird": {
+    "id": "bird-red-rumped-cacique-7556db79",
+    "name": "Red-rumped cacique",
+    "english_name": "Red-rumped cacique",
+    "latin_name": "Cacicus haemorrhous",
+    "summary": "The red-rumped cacique (Cacicus haemorrhous) is a species of bird in the family Icteridae. It is a species of the Amazon Basin and the Guya…",
+    "lat": "4",
+    "lng": "-53",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Red-rumped_Cacique_bird.png/960px-Red-rumped_Cacique_bird.png"
+  },
+  "locations": [
+    {
+      "id": "loc-法屬圭亞那-f0f18b54",
+      "name": "法屬圭亞那",
+      "summary": "法屬圭亞那（法語：Guyane française），正式名称为圭亚那（Guyane，法語發音：[ɡɥijan] ；法屬圭亞那克里奧爾語：Lagwiyann），是法国的一个海外省与单一领土集体，位于南美洲北部大西洋畔，与巴西和苏里南交界，…",
+      "lat": "4",
+      "lng": "-53"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-rumped-cacique-7556db79",
+      "subject": "Red-rumped cacique",
+      "predicate": "distributed_in",
+      "object_id": "loc-法屬圭亞那-f0f18b54",
+      "object": "法屬圭亞那",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is also found in Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Peru, Suriname, and Venezuela. The red-rumped cacique's natural habitats are subtropical or tropical moist lowland forests, subtropical or tropical swamps, and heavily degraded former forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-rumped-cacique-7556db79",
+      "subject": "Red-rumped cacique",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is also found in Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Peru, Suriname, and Venezuela. The red-rumped cacique's natural habitats are subtropical or tropical moist lowland forests, subtropical or tropical swamps, and heavily degraded former forest",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-red-rumped-cacique-7556db79",
+      "subject": "Red-rumped cacique",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T14:48:01",
+  "requested_title": "Spectacled Warbler",
+  "resolved_title": "Spectacled warbler",
+  "title_aliases": [
+    "Spectacled Warbler"
+  ],
+  "bird_id": "bird-spectacled-warbler-3f8f81df",
+  "raw_file": "bird-spectacled-warbler-3f8f81df.json",
+  "bird": {
+    "id": "bird-spectacled-warbler-3f8f81df",
+    "name": "Spectacled warbler",
+    "english_name": "Spectacled warbler",
+    "latin_name": "Curruca conspicillata",
+    "summary": "The spectacled warbler (Curruca conspicillata) is a species of passerine bird in the warbler genus Curruca in the family Sylviidae. The spe…",
+    "lat": "40.5",
+    "lng": "-4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Fauvette_%C3%A0_lunettes_Aqueduc_de_Zaghouan.jpg/960px-Fauvette_%C3%A0_lunettes_Aqueduc_de_Zaghouan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伊比利亚半岛-d6e67713",
+      "name": "伊比利亚半岛",
+      "summary": "伊比利亚半岛（西班牙語：la Península Ibérica、葡萄牙語：a Península Ibérica、加泰隆尼亞語：la Península Ibèrica、加利西亞語：a Península Ibérica、巴斯克語：Ib…",
+      "lat": "40.5",
+      "lng": "-4"
+    },
+    {
+      "id": "loc-意大利-58f599d7",
+      "name": "意大利",
+      "summary": "意大利共和國（義大利語：Repubblica Italiana，發音：[reˈpubblika itaˈljaːna]），简稱意大利（義大利語：Italia[Italia]，[iˈtaːlja] ，台湾作義大利），是位於歐洲南部的議會制民…",
+      "lat": "43",
+      "lng": "12"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-spectacled-warbler-3f8f81df",
+      "subject": "Spectacled warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊比利亚半岛-d6e67713",
+      "object": "伊比利亚半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The specific conspicillata is from Latin conspicillum, a place to look from, equivalent to \"spectacled\". It breeds in northwest Africa, southwest Europe from Iberia to Italy, and then further east on the eastern Mediterranean islands and coastal regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spectacled-warbler-3f8f81df",
+      "subject": "Spectacled warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-意大利-58f599d7",
+      "object": "意大利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The specific conspicillata is from Latin conspicillum, a place to look from, equivalent to \"spectacled\". It breeds in northwest Africa, southwest Europe from Iberia to Italy, and then further east on the eastern Mediterranean islands and coastal regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spectacled-warbler-3f8f81df",
+      "subject": "Spectacled warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

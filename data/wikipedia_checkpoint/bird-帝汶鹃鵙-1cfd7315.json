@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:09:17",
+  "requested_title": "Wallacean Cuckooshrike",
+  "resolved_title": "Wallacean cuckooshrike",
+  "title_aliases": [
+    "Wallacean Cuckooshrike"
+  ],
+  "bird_id": "bird-帝汶鹃鵙-1cfd7315",
+  "raw_file": "bird-帝汶鹃鵙-1cfd7315.json",
+  "bird": {
+    "id": "bird-帝汶鹃鵙-1cfd7315",
+    "name": "帝汶鹃鵙",
+    "english_name": "Wallacean cuckooshrike",
+    "latin_name": "Coracina personata",
+    "summary": "帝汶鹃鵙（学名：Coracina personata）是山椒鸟科鸦鹃鵙属的一种，为印度尼西亚的特有种。其自然栖息地为亚热带或热带的湿润低地森林。 参考文献 BirdLife International.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Coracina_personata_pollens_247314181.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-卡伊群島-ab0f63e9",
+      "name": "卡伊群島",
+      "summary": "卡伊群島是是印度尼西亞馬魯古省東南部的群島，土地總面積1,438平方公里，位於班達海邊緣，北面是新畿內亞多貝拉伊半島，東面是阿魯群島，西南面是塔寧巴爾群島，群島上的本土哺乳類動物不多。",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-帝汶鹃鵙-1cfd7315",
+      "subject": "帝汶鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Lesser Sunda Islands and the Kai Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-帝汶鹃鵙-1cfd7315",
+      "subject": "帝汶鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡伊群島-ab0f63e9",
+      "object": "卡伊群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Lesser Sunda Islands and the Kai Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-帝汶鹃鵙-1cfd7315",
+      "subject": "帝汶鹃鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

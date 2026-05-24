@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:51:15",
+  "requested_title": "White-tailed Sabrewing",
+  "resolved_title": "White-tailed sabrewing",
+  "title_aliases": [
+    "White-tailed Sabrewing"
+  ],
+  "bird_id": "bird-白尾刀翅蜂鸟-c440fe23",
+  "raw_file": "bird-白尾刀翅蜂鸟-c440fe23.json",
+  "bird": {
+    "id": "bird-白尾刀翅蜂鸟-c440fe23",
+    "name": "白尾刀翅蜂鸟",
+    "english_name": "White-tailed sabrewing",
+    "latin_name": "Campylopterus ensipennis",
+    "summary": "白尾刀翅蜂鸟（学名：Campylopterus ensipennis），是雨燕目蜂鸟科的一种鸟类。 白尾刀翅蜂鸟体重约9.6克，翼长约75.8毫米，嘴峰长约29.5毫米，喙宽度约2.9毫米，喙厚度约2.8毫米，跗蹠长约6.3毫米，尾长约50.4毫米。白尾刀翅蜂鸟在其分布区内为留…",
+    "lat": "10.16916667",
+    "lng": "-63.51",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Flickr_-_Rainbirder_-_White-tailed_Sabrewing_%28Campylopterus_ensipennis%29%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡里佩-612dd0cd",
+      "name": "卡里佩",
+      "summary": "卡里佩是委內瑞拉的城鎮，由莫納加斯州負責管轄，位於該國東北部，始建於1734年10月12日，氣候溫和，主要經濟活動有農業、旅遊業、貿易業和金融業，海拔高度800米。 外部連結 Cueva del Guácharo (ShowCaves)（…",
+      "lat": "10.16916667",
+      "lng": "-63.51"
+    },
+    {
+      "id": "loc-帕里亞半島-552bc57a",
+      "name": "帕里亞半島",
+      "summary": "帕里亞半島是委內瑞拉的半島，位於該國北部，由蘇克雷州負責管轄，分隔帕里亞灣和加勒比海，面積375平方公里，最高點海拔高度1,374米。",
+      "lat": "10.7",
+      "lng": "-62.5"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白尾刀翅蜂鸟-c440fe23",
+      "subject": "白尾刀翅蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡里佩-612dd0cd",
+      "object": "卡里佩",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-tailed sabrewing is found in two locations in Venezuela, the Cordillera de Caripe and the Paria Peninsula, and also on Tobago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾刀翅蜂鸟-c440fe23",
+      "subject": "白尾刀翅蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-帕里亞半島-552bc57a",
+      "object": "帕里亞半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-tailed sabrewing is found in two locations in Venezuela, the Cordillera de Caripe and the Paria Peninsula, and also on Tobago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾刀翅蜂鸟-c440fe23",
+      "subject": "白尾刀翅蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits montane forest, mature secondary forest, and plantations, especially those of coffee",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾刀翅蜂鸟-c440fe23",
+      "subject": "白尾刀翅蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits montane forest, mature secondary forest, and plantations, especially those of coffee",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-白尾刀翅蜂鸟-c440fe23",
+      "subject": "白尾刀翅蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

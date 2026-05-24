@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:33:09",
+  "requested_title": "Hill Blue Flycatcher",
+  "resolved_title": "Hill blue flycatcher",
+  "title_aliases": [
+    "Hill Blue Flycatcher"
+  ],
+  "bird_id": "bird-山蓝仙鹟-212d12d5",
+  "raw_file": "bird-山蓝仙鹟-212d12d5.json",
+  "bird": {
+    "id": "bird-山蓝仙鹟-212d12d5",
+    "name": "山蓝仙鹟",
+    "english_name": "Hill blue flycatcher",
+    "latin_name": "Cyornis whitei",
+    "summary": "山蓝仙鹟（学名：Cyornis whitei），是雀形目鹟科的一种鸟类。在中国大陆，分布于四川、云南、贵州等地。该物种的模式产地在缅甸。山蓝仙鹟与爪哇蓝仙鹟以前被视为同一物种。 特征 山蓝仙鹟体重约14.5克，翼长约71.8毫米，嘴峰长约14.9毫米，喙宽度约4.6毫米，喙厚度…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/HILL-BLUE-FLYCATCHER-DOSDEWA.jpg/960px-HILL-BLUE-FLYCATCHER-DOSDEWA.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-山蓝仙鹟-212d12d5",
+      "subject": "山蓝仙鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern China, northeastern India and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山蓝仙鹟-212d12d5",
+      "subject": "山蓝仙鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern China, northeastern India and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山蓝仙鹟-212d12d5",
+      "subject": "山蓝仙鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

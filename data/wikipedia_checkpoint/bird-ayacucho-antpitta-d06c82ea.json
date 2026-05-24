@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:08:14",
+  "requested_title": "Ayacucho Antpitta",
+  "resolved_title": "Ayacucho antpitta",
+  "title_aliases": [
+    "Ayacucho Antpitta"
+  ],
+  "bird_id": "bird-ayacucho-antpitta-d06c82ea",
+  "raw_file": "bird-ayacucho-antpitta-d06c82ea.json",
+  "bird": {
+    "id": "bird-ayacucho-antpitta-d06c82ea",
+    "name": "Ayacucho antpitta",
+    "english_name": "Ayacucho antpitta",
+    "latin_name": "Grallaria ayacuchensis",
+    "summary": "The Ayacucho antpitta (Grallaria ayacuchensis) is a species of bird in the family Grallaridae. It is endemic to Peru.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Grallaria_ayacuchensis.jpg/960px-Grallaria_ayacuchensis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ayacucho-antpitta-d06c82ea",
+      "subject": "Ayacucho antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "That species inhabits the understory of humid montane forest and secondary forest, heavy with moss and epiphytes, where it favors stands of bamboo and other dense undergrowth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ayacucho-antpitta-d06c82ea",
+      "subject": "Ayacucho antpitta",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "That species inhabits the understory of humid montane forest and secondary forest, heavy with moss and epiphytes, where it favors stands of bamboo and other dense undergrowth",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-ayacucho-antpitta-d06c82ea",
+      "subject": "Ayacucho antpitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "|year=2022 |title=Grallaria blakei |article-number=e.T22703327A216684003 |doi=10.2305/IUCN.UK.2022-2.RLTS.T22703327A216684003.en}} \"The primary threat, at least in the short term, to Ayacucho Antpitta, is habitat destruction primarily through clearing for crops and grazing.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

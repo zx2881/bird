@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:32:28",
+  "requested_title": "Warbling Vireo",
+  "resolved_title": "Warbling vireo",
+  "title_aliases": [
+    "Warbling Vireo"
+  ],
+  "bird_id": "bird-歌莺雀-2b7c7d88",
+  "raw_file": "bird-歌莺雀-2b7c7d88.json",
+  "bird": {
+    "id": "bird-歌莺雀-2b7c7d88",
+    "name": "歌莺雀",
+    "english_name": "Warbling vireo",
+    "latin_name": "Vireo gilvus",
+    "summary": "歌莺雀（学名：Vireo gilvus）为绿鹃科绿鹃属下的一个迁徙鸟种 , 分布于北美洲与中美洲 。 参考文献 外部連結",
+    "lat": "23.56666667",
+    "lng": "-110",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Warbling_vireo_%2882141%29.jpg/960px-Warbling_vireo_%2882141%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-sierra-de-la-laguna-07ca3686",
+      "name": "Sierra de la Laguna",
+      "summary": "The Sierra de la Laguna is a mountain range at the southern end of the Baja California peninsula in Mexico, and is the…",
+      "lat": "23.56666667",
+      "lng": "-110"
+    },
+    {
+      "id": "loc-南下加利福尼亞州-6b8fc67d",
+      "name": "南下加利福尼亞州",
+      "summary": "南下加利福尼亞州（西班牙語：Baja california sur，發音：[ˈbaxa kaliˈfoɾnja ˈsuɾ] ），簡稱南下加州，是墨西哥三十一個州之一，位於下加利福尼亞半島南部，西臨太平洋，東鄰加利福尼亞灣，北以北緯28度與…",
+      "lat": "25.44",
+      "lng": "-111.88"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-歌莺雀-2b7c7d88",
+      "subject": "歌莺雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-sierra-de-la-laguna-07ca3686",
+      "object": "Sierra de la Laguna",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "victoriae, an isolated population breeding in the Sierra de la Laguna, Baja California Sur, and migrating to unknown wintering grounds.Gardali, Thomas and Grant Ballard",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-歌莺雀-2b7c7d88",
+      "subject": "歌莺雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-南下加利福尼亞州-6b8fc67d",
+      "object": "南下加利福尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "victoriae, an isolated population breeding in the Sierra de la Laguna, Baja California Sur, and migrating to unknown wintering grounds.Gardali, Thomas and Grant Ballard",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-歌莺雀-2b7c7d88",
+      "subject": "歌莺雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

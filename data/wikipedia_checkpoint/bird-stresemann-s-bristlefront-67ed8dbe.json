@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:09:55",
+  "requested_title": "Stresemann's Bristlefront",
+  "resolved_title": "Stresemann's bristlefront",
+  "title_aliases": [
+    "Stresemann's Bristlefront"
+  ],
+  "bird_id": "bird-stresemann-s-bristlefront-67ed8dbe",
+  "raw_file": "bird-stresemann-s-bristlefront-67ed8dbe.json",
+  "bird": {
+    "id": "bird-stresemann-s-bristlefront-67ed8dbe",
+    "name": "Stresemann's bristlefront",
+    "english_name": "Stresemann's bristlefront",
+    "latin_name": "Merulaxis stresemanni",
+    "summary": "Stresemann's bristlefront (Merulaxis stresemanni) is a critically endangered species of bird in the family Rhinocryptidae, commonly known a…",
+    "lat": "-16.5",
+    "lng": "-39.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Stresemanns-Bristlefront_Ciro-Ginez-Albano.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大西洋沿岸森林-b6837c90",
+      "name": "大西洋沿岸森林",
+      "summary": "大西洋沿岸森林 （葡萄牙語：Mata Atlântica）是一片涵盖热带亚热带湿润阔叶林、热带亚热带干旱阔叶林、熱帶亞熱帶草地、稀樹草原和疏灌叢和红树林于一体的热带雨林保护区，位于巴西大西洋沿岸，最北到达北里约格朗德州，最南到达南里奥格兰…",
+      "lat": "-16.5",
+      "lng": "-39.25"
+    },
+    {
+      "id": "loc-自然-通讯-1964c7b9",
+      "name": "自然-通讯",
+      "summary": "《自然-通讯》（英語：Nature Communications）是自然出版集团2010年上线的科学期刊，该刊物经同行评审，文章在线上供开放获取（为自然系列的首个开放获取期刊）。期刊涵盖的范围有物理、化学、生物、医学、地球科学等多个领域。…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-stresemann-s-bristlefront-67ed8dbe",
+      "subject": "Stresemann's bristlefront",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋沿岸森林-b6837c90",
+      "object": "大西洋沿岸森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits moist lowland forest, especially in areas characterized by dense understory and thick leaf litter. Due to the ongoing destruction of the Atlantic Forest, one of the world’s most critically endangered biodiversity hotspots, the Stresemann's bristlefront faces an extreme risk of extinction",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stresemann-s-bristlefront-67ed8dbe",
+      "subject": "Stresemann's bristlefront",
+      "predicate": "distributed_in",
+      "object_id": "loc-自然-通讯-1964c7b9",
+      "object": "自然-通讯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits moist lowland forest, especially in areas characterized by dense understory and thick leaf litter. Due to the ongoing destruction of the Atlantic Forest, one of the world’s most critically endangered biodiversity hotspots, the Stresemann's bristlefront faces an extreme risk of extinction",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stresemann-s-bristlefront-67ed8dbe",
+      "subject": "Stresemann's bristlefront",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-stresemann-s-bristlefront-67ed8dbe",
+      "subject": "Stresemann's bristlefront",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In 2015, the reserve was expanded by an additional to protect the bristlefront's habitat and create a larger ecological corridor. Despite formal legal protections, ongoing threats from habitat fragmentation, logging, and agricultural encroachment continue to jeopardize the species' survival. The IUCN notes: \"Although this species is legally protected, there seems little hope for its survival.\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

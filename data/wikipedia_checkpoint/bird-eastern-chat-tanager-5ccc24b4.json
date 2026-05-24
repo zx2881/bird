@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:14:23",
+  "requested_title": "Eastern Chat-Tanager",
+  "resolved_title": "Eastern chat-tanager",
+  "title_aliases": [
+    "Eastern Chat-Tanager"
+  ],
+  "bird_id": "bird-eastern-chat-tanager-5ccc24b4",
+  "raw_file": "bird-eastern-chat-tanager-5ccc24b4.json",
+  "bird": {
+    "id": "bird-eastern-chat-tanager-5ccc24b4",
+    "name": "Eastern chat-tanager",
+    "english_name": "Eastern chat-tanager",
+    "latin_name": "Calyptophilus frugivorus",
+    "summary": "The eastern chat-tanager (Calyptophilus frugivorus) is a Near Threatened species of passerine bird belonging to the family Calyptophilidae.…",
+    "lat": "18.83333333",
+    "lng": "-73.08333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Calyptophilus_frugivorus_120627476.jpg/960px-Calyptophilus_frugivorus_120627476.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-戈納夫島-b4e0ab08",
+      "name": "戈納夫島",
+      "summary": "戈納夫島是海地的島嶼，位於太子港西北面的戈納夫灣，島嶼長60公里、闊15公里，面積743平方公里，是伊斯帕尼奧拉島附近面積最大的小島，島上最高點778米，2003年人口75,548，該島曾經是海盜的基地。 由于常年乱砍滥伐，戈纳夫岛上的植…",
+      "lat": "18.83333333",
+      "lng": "-73.08333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-eastern-chat-tanager-5ccc24b4",
+      "subject": "Eastern chat-tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-戈納夫島-b4e0ab08",
+      "object": "戈納夫島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "abbotti was found on Gonâve Island off the west coast of Haiti but is also believed to be extinct since the early 1980s; however, a lack of extensive surveys on the island means the subspecies potentially survives. In the Dominican Republic, the species inhabits dense undergrowth in montane forest, especially in ravines and along streams",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-chat-tanager-5ccc24b4",
+      "subject": "Eastern chat-tanager",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "abbotti was found on Gonâve Island off the west coast of Haiti but is also believed to be extinct since the early 1980s; however, a lack of extensive surveys on the island means the subspecies potentially survives. In the Dominican Republic, the species inhabits dense undergrowth in montane forest, especially in ravines and along streams",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-eastern-chat-tanager-5ccc24b4",
+      "subject": "Eastern chat-tanager",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "abbottis habitat on Gonâve was semi-arid scrublands near sea level",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-eastern-chat-tanager-5ccc24b4",
+      "subject": "Eastern chat-tanager",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-eastern-chat-tanager-5ccc24b4",
+      "subject": "Eastern chat-tanager",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The main threats are logging and conversion of habitat to agriculture. It is considered rare to locally common, but \" relatively little of the species' habitat lies within protected areas\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

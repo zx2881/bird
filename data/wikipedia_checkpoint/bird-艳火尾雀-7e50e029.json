@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:39:04",
+  "requested_title": "Beautiful Firetail",
+  "resolved_title": "Beautiful firetail",
+  "title_aliases": [
+    "Beautiful Firetail"
+  ],
+  "bird_id": "bird-艳火尾雀-7e50e029",
+  "raw_file": "bird-艳火尾雀-7e50e029.json",
+  "bird": {
+    "id": "bird-艳火尾雀-7e50e029",
+    "name": "艳火尾雀",
+    "english_name": "Beautiful firetail",
+    "latin_name": "Stagonopleura bella",
+    "summary": "艳火尾雀（学名：Stagonopleura bella），是梅花雀科的一种，为澳大利亚的特有种。该物种的保护状况被评为无危。 艳火尾雀的平均体重约为15.0克。栖息地包括亚热带或热带的（低地）湿润疏灌丛和乡村花园。",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Stagonopleura_bella_male_-_Melaleuca.jpg/960px-Stagonopleura_bella_male_-_Melaleuca.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-艳火尾雀-7e50e029",
+      "subject": "艳火尾雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The beautiful firetail (Stagonopleura bella) is a common species of estrildid finch found in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艳火尾雀-7e50e029",
+      "subject": "艳火尾雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The beautiful firetail (Stagonopleura bella) is a common species of estrildid finch found in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艳火尾雀-7e50e029",
+      "subject": "艳火尾雀",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits temperate shrubland habitats in Australia",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-艳火尾雀-7e50e029",
+      "subject": "艳火尾雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

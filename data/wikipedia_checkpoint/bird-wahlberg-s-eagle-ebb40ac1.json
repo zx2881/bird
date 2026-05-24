@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:31:50",
+  "requested_title": "Wahlberg's Eagle",
+  "resolved_title": "Wahlberg's eagle",
+  "title_aliases": [
+    "Wahlberg's Eagle"
+  ],
+  "bird_id": "bird-wahlberg-s-eagle-ebb40ac1",
+  "raw_file": "bird-wahlberg-s-eagle-ebb40ac1.json",
+  "bird": {
+    "id": "bird-wahlberg-s-eagle-ebb40ac1",
+    "name": "Wahlberg's eagle",
+    "english_name": "Wahlberg's eagle",
+    "latin_name": "Hieraaetus wahlbergi",
+    "summary": "Wahlberg's eagle (Hieraaetus wahlbergi) is a bird of prey that is native to sub-Saharan Africa, where it is a seasonal migrant in the woodl…",
+    "lat": "-24",
+    "lng": "31.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Aquila_wahlbergi.jpg/960px-Aquila_wahlbergi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-克鲁格国家公园-c5b74aac",
+      "name": "克鲁格国家公园",
+      "summary": "克魯格國家公園（英語：Kruger National Park）是南非的國家公園，佔地19,485平方公里（7,523平方英里），是非洲最大的自然保護區之一。它是以南非共和國總統保罗·克鲁格名字命名。 历史 成立於1926年5月31日，成…",
+      "lat": "-24",
+      "lng": "31.5"
+    },
+    {
+      "id": "loc-carl-jakob-sundevall-74842590",
+      "name": "Carl Jakob Sundevall",
+      "summary": "Carl Jakob Sundevall (22 October 1801 – 2 February 1875) was a Swedish zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "Sub-Saharan Africa is the areas and regions of the continent of Africa that lie south of the Sahara.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-wahlberg-s-eagle-ebb40ac1",
+      "subject": "Wahlberg's eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-克鲁格国家公园-c5b74aac",
+      "object": "克鲁格国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Wahlberg's eagle (Hieraaetus wahlbergi) is a bird of prey that is native to sub-Saharan Africa, where it is a seasonal migrant in the woodlands and savannas. It is named after the Swedish naturalist Johan August Wahlberg",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-wahlberg-s-eagle-ebb40ac1",
+      "subject": "Wahlberg's eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-carl-jakob-sundevall-74842590",
+      "object": "Carl Jakob Sundevall",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Wahlberg's eagle (Hieraaetus wahlbergi) is a bird of prey that is native to sub-Saharan Africa, where it is a seasonal migrant in the woodlands and savannas. It is named after the Swedish naturalist Johan August Wahlberg",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-wahlberg-s-eagle-ebb40ac1",
+      "subject": "Wahlberg's eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Wahlberg's eagle (Hieraaetus wahlbergi) is a bird of prey that is native to sub-Saharan Africa, where it is a seasonal migrant in the woodlands and savannas. It is named after the Swedish naturalist Johan August Wahlberg",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-wahlberg-s-eagle-ebb40ac1",
+      "subject": "Wahlberg's eagle",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

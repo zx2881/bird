@@ -357,6 +357,11 @@ def main() -> None:
         success += 1
         processed += 1
 
+        # 每成功一只立刻落盘，中断不怕丢数据
+        write_csv_rows(birds_path, BIRDS_HEADERS, birds_rows)
+        write_csv_rows(relations_path, RELATIONS_HEADERS, relations_rows)
+        print(f"  -> 目: {order_cn or order_en}, 科: {family_cn or family_en} [已保存]")
+
     if success > 0:
         write_csv_rows(birds_path, BIRDS_HEADERS, birds_rows)
         write_csv_rows(relations_path, RELATIONS_HEADERS, relations_rows)

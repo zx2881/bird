@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:15:35",
+  "requested_title": "Choco Manakin",
+  "resolved_title": "Choco manakin",
+  "title_aliases": [
+    "Choco Manakin"
+  ],
+  "bird_id": "bird-choco-manakin-3fae059c",
+  "raw_file": "bird-choco-manakin-3fae059c.json",
+  "bird": {
+    "id": "bird-choco-manakin-3fae059c",
+    "name": "Choco manakin",
+    "english_name": "Choco manakin",
+    "latin_name": "Cryptopipo litae",
+    "summary": "The Choco manakin (Cryptopipo litae) is a species of bird in the family Pipridae. It is found in Colombia, Ecuador, and Panama.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Cryptopipo_litae_-_Choco_Manakin.jpg/960px-Cryptopipo_litae_-_Choco_Manakin.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥倫比亞中部山脈-3a4c895f",
+      "name": "哥倫比亞中部山脈",
+      "summary": "哥倫比亞中部山脈（西班牙語：Cordillera Central），是哥倫比亞的山脈，屬於安第斯山脈的一部分，全長1,023公里，面積129,737平方公里，最高點是海拔高度5,364米的內瓦多·德·烏伊拉火山。",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-choco-manakin-3fae059c",
+      "subject": "Choco manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥倫比亞中部山脈-3a4c895f",
+      "object": "哥倫比亞中部山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| title =The Birds of Ecuador: Field Guide | publisher =Cornell University Press | volume = II| date =2001 | location =Ithaca | pages =560 | isbn =978-0-8014-8721-7 }} It might also be found in the northern part of Colombia's Central Andes though that population might be of subspecies C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-choco-manakin-3fae059c",
+      "subject": "Choco manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Condor 110(3):526–537. The species inhabits the undergrowth to the mid-story of humid to wet evergreen forest in the lowlands and foothills. In elevation it ranges from near sea level to in Colombia and to in Ecuador.{{cite book | last1 =McMullan | first1 =Miles | last2 =Donegan | first2 =Thomas M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-choco-manakin-3fae059c",
+      "subject": "Choco manakin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

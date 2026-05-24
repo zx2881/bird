@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:19:13",
+  "requested_title": "Emei Leaf Warbler",
+  "resolved_title": "Emei leaf warbler",
+  "title_aliases": [
+    "Emei Leaf Warbler"
+  ],
+  "bird_id": "bird-峨眉柳莺-af6831f1",
+  "raw_file": "bird-峨眉柳莺-af6831f1.json",
+  "bird": {
+    "id": "bird-峨眉柳莺-af6831f1",
+    "name": "峨眉柳莺",
+    "english_name": "Emei leaf warbler",
+    "latin_name": "Phylloscopus emeiensis",
+    "summary": "The Emei leaf warbler (Phylloscopus emeiensis) is a species of leaf warbler (family Phylloscopidae). It was formerly included in the \"Old W…",
+    "lat": "22",
+    "lng": "96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Phylloscopus_emeiensis_-_Wang.QG_-_421952402.jpeg/960px-Phylloscopus_emeiensis_-_Wang.QG_-_421952402.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-峨眉柳莺-af6831f1",
+      "subject": "峨眉柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in China, and it is vagrant in Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-峨眉柳莺-af6831f1",
+      "subject": "峨眉柳莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

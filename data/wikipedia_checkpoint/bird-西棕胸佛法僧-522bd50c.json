@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:32:20",
+  "requested_title": "Indian Roller",
+  "resolved_title": "Indian roller",
+  "title_aliases": [
+    "Indian Roller"
+  ],
+  "bird_id": "bird-西棕胸佛法僧-522bd50c",
+  "raw_file": "bird-西棕胸佛法僧-522bd50c.json",
+  "bird": {
+    "id": "bird-西棕胸佛法僧-522bd50c",
+    "name": "西棕胸佛法僧",
+    "english_name": "Indian roller",
+    "latin_name": "Coracias benghalensis",
+    "summary": "西棕胸佛法僧（学名：Coracias benghalensis）为佛法僧科佛法僧属的鸟类，分布在南亚热带地区。它并非候鸟，但是会短途迁移。该物种的模式产地在印度。其种加词“benghalensis”意为“孟加拉国的”。 身长30-24厘米，较短壮。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Indian_roller_-_Timbi_Lake%2C_Vadodara_2023-12-03.jpg/960px-Indian_roller_-_Timbi_Lake%2C_Vadodara_2023-12-03.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-自然系统第十版-55ca7965",
+      "name": "自然系统第十版",
+      "summary": "《自然系统》第十版（英語：10th edition of Systema Naturae）是18世纪瑞典生物学家卡尔·林奈所撰写的生物学专著，于1758年和1759年分别出版上下两卷。林奈在书中为动物定义了二名法命名法则（此前他曾在175…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-西棕胸佛法僧-522bd50c",
+      "subject": "西棕胸佛法僧",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Indian roller (Coracias benghalensis) is a bird of the family Coraciidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西棕胸佛法僧-522bd50c",
+      "subject": "西棕胸佛法僧",
+      "predicate": "distributed_in",
+      "object_id": "loc-自然系统第十版-55ca7965",
+      "object": "自然系统第十版",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Indian roller (Coracias benghalensis) is a bird of the family Coraciidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西棕胸佛法僧-522bd50c",
+      "subject": "西棕胸佛法僧",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

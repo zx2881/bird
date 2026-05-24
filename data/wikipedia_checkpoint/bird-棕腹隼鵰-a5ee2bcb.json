@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:34:44",
+  "requested_title": "Rufous-bellied Eagle",
+  "resolved_title": "Rufous-bellied eagle",
+  "title_aliases": [
+    "Rufous-bellied Eagle"
+  ],
+  "bird_id": "bird-棕腹隼鵰-a5ee2bcb",
+  "raw_file": "bird-棕腹隼鵰-a5ee2bcb.json",
+  "bird": {
+    "id": "bird-棕腹隼鵰-a5ee2bcb",
+    "name": "棕腹隼鵰",
+    "english_name": "Rufous-bellied eagle",
+    "latin_name": "Lophotriorchis kienerii",
+    "summary": "棕腹隼鵰（学名：Hieraaetus kienerii）为鹰科隼鵰属的鸟类。一般生活于山谷林地和森林覆盖的山侧以及筑巢于茂密森林中的高树上。该物种的模式产地在喜马拉雅山脉。 保护 中国国家重点保护动物等级：二级 亚种 棕腹隼鵰台湾亚种（学名：Hieraaetus kieneri…",
+    "lat": "-2",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Rufous-bellied_Eagle.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-苏拉威西岛-6ebabd9a",
+      "name": "苏拉威西岛",
+      "summary": "苏拉威西岛（印尼語：Sulawesi）舊名西里伯或西里伯斯，《職方外紀》稱則勒伯（荷蘭語：Celebes），是印度尼西亚东部的一个大岛屿。 地理 苏拉威西岛按面积是世界第十一大岛，总面积为174,600平方公里，位于印度尼西亚东部，菲律宾…",
+      "lat": "-2",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕腹隼鵰-a5ee2bcb",
+      "subject": "棕腹隼鵰",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏拉威西岛-6ebabd9a",
+      "object": "苏拉威西岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|upright|left The rufous-bellied eagle is found in southern and south-eastern Asia and its range also extends to Sulawesi",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕腹隼鵰-a5ee2bcb",
+      "subject": "棕腹隼鵰",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:51:09",
+  "requested_title": "Black Monarch",
+  "resolved_title": "Black monarch",
+  "title_aliases": [
+    "Black Monarch"
+  ],
+  "bird_id": "bird-black-monarch-a2f700b3",
+  "raw_file": "bird-black-monarch-a2f700b3.json",
+  "bird": {
+    "id": "bird-black-monarch-a2f700b3",
+    "name": "Black monarch",
+    "english_name": "Black monarch",
+    "latin_name": "Symposiachrus axillaris",
+    "summary": "The black monarch (Symposiachrus axillaris) is a species of bird in the family Monarchidae. It is found in the New Guinea Highlands.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Symposiachrus_axillaris_-_Nigel_Voaden_-_3271496.jpeg/960px-Symposiachrus_axillaris_-_Nigel_Voaden_-_3271496.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞高地-05e346ed",
+      "name": "新幾內亞高地",
+      "summary": "新几内亚高地是新幾內亞島上的山脉。其最高点为印度尼西亚境内的查亞峰，海拔4,884米（16,024英尺），同时也是大洋洲的最高峰。该山脉大致呈东西走向横贯全岛，西起印度尼西亞温达马湾县，向东一直延伸至巴布亞新幾內亞米爾恩灣省。 参考文献",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-monarch-a2f700b3",
+      "subject": "Black monarch",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞高地-05e346ed",
+      "object": "新幾內亞高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-monarch-a2f700b3",
+      "subject": "Black monarch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

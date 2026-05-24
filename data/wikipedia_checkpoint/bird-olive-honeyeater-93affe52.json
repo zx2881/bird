@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:58:18",
+  "requested_title": "Olive Honeyeater",
+  "resolved_title": "Olive honeyeater",
+  "title_aliases": [
+    "Olive Honeyeater"
+  ],
+  "bird_id": "bird-olive-honeyeater-93affe52",
+  "raw_file": "bird-olive-honeyeater-93affe52.json",
+  "bird": {
+    "id": "bird-olive-honeyeater-93affe52",
+    "name": "Olive honeyeater",
+    "english_name": "Olive honeyeater",
+    "latin_name": "Lichmera argentauris",
+    "summary": "The olive honeyeater (Lichmera argentauris) is a species of bird in the family Meliphagidae. It is endemic to Indonesia, where it inhabits…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Lichmera_argentauris_338170128.jpg/960px-Lichmera_argentauris_338170128.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-olive-honeyeater-93affe52",
+      "subject": "Olive honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it inhabits the Maluku Islands and coastal Western New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-honeyeater-93affe52",
+      "subject": "Olive honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it inhabits the Maluku Islands and coastal Western New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-honeyeater-93affe52",
+      "subject": "Olive honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

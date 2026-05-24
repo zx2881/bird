@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:45:18",
+  "requested_title": "Rufous-backed Wren",
+  "resolved_title": "Rufous-backed wren",
+  "title_aliases": [
+    "Rufous-backed Wren"
+  ],
+  "bird_id": "bird-rufous-backed-wren-b67d37cb",
+  "raw_file": "bird-rufous-backed-wren-b67d37cb.json",
+  "bird": {
+    "id": "bird-rufous-backed-wren-b67d37cb",
+    "name": "Rufous-backed wren",
+    "english_name": "Rufous-backed wren",
+    "latin_name": "Campylorhynchus capistratus",
+    "summary": "The rufous-backed wren (Campylorhynchus capistratus) is a songbird of the family Troglodytidae. It is a resident breeding species from sout…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Rufous-naped_Wren_JCB.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-尼科亚半岛-d0932852",
+      "name": "尼科亚半岛",
+      "summary": "尼科亚半岛（西班牙語：Península de Nicoya）位于哥斯达黎加西部，西、南临太平洋，东北接瓜纳卡斯特山，东南濒尼科亚湾。西北至东南长约140公里，西南至东北宽65～96公里，是哥斯达黎加最大的半岛。半岛基部为干燥的瓜纳卡斯特…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-backed-wren-b67d37cb",
+      "subject": "Rufous-backed wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼科亚半岛-d0932852",
+      "object": "尼科亚半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "nicoyae, the Nicoya Peninsula of northwestern Costa Rica This large wren occurs in lowlands and foothills from sea level up to elevation in Costa Rica and as high as in El Salvador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-backed-wren-b67d37cb",
+      "subject": "Rufous-backed wren",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits dry forest or open woodland, scrub, second growth and savanna, mainly on the Pacific side of the central mountain ranges",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-rufous-backed-wren-b67d37cb",
+      "subject": "Rufous-backed wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

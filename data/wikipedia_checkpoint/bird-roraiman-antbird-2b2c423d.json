@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:04:30",
+  "requested_title": "Roraiman Antbird",
+  "resolved_title": "Roraiman antbird",
+  "title_aliases": [
+    "Roraiman Antbird"
+  ],
+  "bird_id": "bird-roraiman-antbird-2b2c423d",
+  "raw_file": "bird-roraiman-antbird-2b2c423d.json",
+  "bird": {
+    "id": "bird-roraiman-antbird-2b2c423d",
+    "name": "Roraiman antbird",
+    "english_name": "Roraiman antbird",
+    "latin_name": "Myrmelastes saturatus",
+    "summary": "The Roraiman antbird (Myrmelastes saturatus) is a species of passerine bird in subfamily Thamnophilinae of family Thamnophilidae, the \"typi…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Myrmelastes_saturatus_map.svg/960px-Myrmelastes_saturatus_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-roraiman-antbird-2b2c423d",
+      "subject": "Roraiman antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits dense understorey in tall evergreen forest on the tepuis, where it favors the margins of clear, swift, streams on steep rocky slopes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-roraiman-antbird-2b2c423d",
+      "subject": "Roraiman antbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

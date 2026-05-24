@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:43:10",
+  "requested_title": "Neumann's Starling",
+  "resolved_title": "Neumann's starling",
+  "title_aliases": [
+    "Neumann's Starling"
+  ],
+  "bird_id": "bird-neumann-s-starling-b68e0fae",
+  "raw_file": "bird-neumann-s-starling-b68e0fae.json",
+  "bird": {
+    "id": "bird-neumann-s-starling-b68e0fae",
+    "name": "Neumann's starling",
+    "english_name": "Neumann's starling",
+    "latin_name": "Onychognathus neumanni",
+    "summary": "Neumann's starling (Onychognathus neumanni) or Neumann's red-winged starling, is a bird native to Africa. This starling breeds on rocky cli…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Onychognathus_neumanni.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-boyd-alexander-a9e0483b",
+      "name": "Boyd Alexander",
+      "summary": "Lieutenant Boyd Alexander (16 January 1873 – 2 April 1910) was an English officer in the British Army, as well as an ex…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-neumann-s-starling-b68e0fae",
+      "subject": "Neumann's starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-boyd-alexander-a9e0483b",
+      "object": "Boyd Alexander",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Neumann's starling (Onychognathus neumanni) or Neumann's red-winged starling, is a bird native to Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-neumann-s-starling-b68e0fae",
+      "subject": "Neumann's starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:47:23",
+  "requested_title": "Rufous Songlark",
+  "resolved_title": "Rufous songlark",
+  "title_aliases": [
+    "Rufous Songlark"
+  ],
+  "bird_id": "bird-rufous-songlark-5d09d739",
+  "raw_file": "bird-rufous-songlark-5d09d739.json",
+  "bird": {
+    "id": "bird-rufous-songlark-5d09d739",
+    "name": "Rufous songlark",
+    "english_name": "Rufous songlark",
+    "latin_name": "Cincloramphus mathewsi",
+    "summary": "The rufous songlark (Cincloramphus mathewsi) is a species in the family Locustellidae endemic to Australia. Taxonomy It is a species of Loc…",
+    "lat": "-32",
+    "lng": "147",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Cincloramphus_mathews_-_Bushells_Lagoon.jpg/960px-Cincloramphus_mathews_-_Bushells_Lagoon.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新南威爾士州-7a88cf32",
+      "name": "新南威爾士州",
+      "summary": "新南威爾斯州（英語：New South Wales，缩写为NSW），或譯紐修威省，简称新州、紐省，是澳洲人口最多的一州；位於澳洲的東南部，昆士兰州以南、维多利亞州以北，南澳州以東，首府在悉尼，境內包圍整個澳洲首都領地。新南威爾斯今劃分為1…",
+      "lat": "-32",
+      "lng": "147"
+    },
+    {
+      "id": "loc-西澳大利亚州-2d3ebb38",
+      "name": "西澳大利亚州",
+      "summary": "西澳大利亚州（英語：Western Australia，缩写为WA），簡稱西澳，是澳大利亚联邦的州，位於澳大利亚西部，今劃分為142個地方政府區域，幅員廣達2,525,500平方公里，佔全國總面積1/3，是澳洲面積最廣大之州，亦全球面積僅…",
+      "lat": "-26",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-songlark-5d09d739",
+      "subject": "Rufous songlark",
+      "predicate": "distributed_in",
+      "object_id": "loc-新南威爾士州-7a88cf32",
+      "object": "新南威爾士州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "mathewsi is most often found in New South Wales, Queensland, and Western Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-songlark-5d09d739",
+      "subject": "Rufous songlark",
+      "predicate": "distributed_in",
+      "object_id": "loc-西澳大利亚州-2d3ebb38",
+      "object": "西澳大利亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "mathewsi is most often found in New South Wales, Queensland, and Western Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-songlark-5d09d739",
+      "subject": "Rufous songlark",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

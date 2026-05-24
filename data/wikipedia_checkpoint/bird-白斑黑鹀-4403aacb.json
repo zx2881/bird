@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:45:16",
+  "requested_title": "Lark Bunting",
+  "resolved_title": "Lark bunting",
+  "title_aliases": [
+    "Lark Bunting"
+  ],
+  "bird_id": "bird-白斑黑鹀-4403aacb",
+  "raw_file": "bird-白斑黑鹀-4403aacb.json",
+  "bird": {
+    "id": "bird-白斑黑鹀-4403aacb",
+    "name": "白斑黑鹀",
+    "english_name": "Lark bunting",
+    "latin_name": "Calamospiza melanocorys",
+    "summary": "白斑黑鹀（学名：Calamospiza melanocorys；英语：Lark bunting）是雀鵐科白斑黑鹀属的唯一一种，原生于北美洲中部和西部。它于1931年成为科罗拉多州的州鸟。 特征 它是一种小型鸣禽，喙短粗，发蓝。繁殖期的雄性羽毛呈黑色，翅膀上部有一大块白色斑块。非…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Calamospiza_melanocorys_by_Nick_Varvel.jpg/960px-Calamospiza_melanocorys_by_Nick_Varvel.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雀鹀科-f5ad373c",
+      "name": "雀鹀科",
+      "summary": "雀鹀科（學名：Passerellidae）是鳥綱雀形目的一個科，以植物的種子和昆蟲為食，鳥啄為圓錐狀，分佈於新世界，它們的顏色主要以褐色和灰色為主，本科很多物種外觀上較能明顯分辨。 該科跟鵐科和鐵爪鵐科的鳥類有相同的鵐字，英文名跟雀科的鳥…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白斑黑鹀-4403aacb",
+      "subject": "白斑黑鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-雀鹀科-f5ad373c",
+      "object": "雀鹀科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Townsend]], 1837 | range_map = Calamospiza melanocorys map.svg }} The lark bunting (Calamospiza melanocorys) is a medium-sized American bunting native to central and western North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白斑黑鹀-4403aacb",
+      "subject": "白斑黑鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Townsend]], 1837 | range_map = Calamospiza melanocorys map.svg }} The lark bunting (Calamospiza melanocorys) is a medium-sized American bunting native to central and western North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白斑黑鹀-4403aacb",
+      "subject": "白斑黑鹀",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The lark bunting is the most prevalent of the passerine species found in the grasslands of North America",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-白斑黑鹀-4403aacb",
+      "subject": "白斑黑鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

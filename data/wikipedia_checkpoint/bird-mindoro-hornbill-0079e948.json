@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:29:12",
+  "requested_title": "Mindoro Hornbill",
+  "resolved_title": "Mindoro hornbill",
+  "title_aliases": [
+    "Mindoro Hornbill"
+  ],
+  "bird_id": "bird-mindoro-hornbill-0079e948",
+  "raw_file": "bird-mindoro-hornbill-0079e948.json",
+  "bird": {
+    "id": "bird-mindoro-hornbill-0079e948",
+    "name": "Mindoro hornbill",
+    "english_name": "Mindoro hornbill",
+    "latin_name": "Penelopides mindorensis",
+    "summary": "The Mindoro hornbill (Penelopides mindorensis) is a species of hornbill in the family Bucerotidae. It is endemic to forests on Mindoro in t…",
+    "lat": "12.93027778",
+    "lng": "121.09444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Mindoro_Hornbill.jpg/960px-Mindoro_Hornbill.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-民都洛-2ec853e6",
+      "name": "民都洛",
+      "summary": "民都洛（他加祿語：Mindoro），又譯明多羅，故称麻逸國，是菲律宾的第七大岛，面積約10,572平方公里，位于吕宋島之西南，巴拉望島之東北，蘇祿海北端。人口1,331,473（2015年）。 名稱 传统上认为，民都洛由西班牙文mina…",
+      "lat": "12.93027778",
+      "lng": "121.09444444"
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-加萊拉港-da7a2888",
+      "name": "加萊拉港",
+      "summary": "加萊拉港（英語：Puerto Galera），位於菲律賓東民都洛省最西北方的一個地區，距離首府馬尼拉大約130公里（81英里），以旅遊業最為出名，當地的沙璜灣（Sabang Bay）自1973年已被聯合國教科文組織列為人與生物圈保護區（M…",
+      "lat": "13.5",
+      "lng": "120.95417"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mindoro-hornbill-0079e948",
+      "subject": "Mindoro hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-民都洛-2ec853e6",
+      "object": "民都洛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to forests on Mindoro in the Philippines found in tropical moist lowland forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mindoro-hornbill-0079e948",
+      "subject": "Mindoro hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to forests on Mindoro in the Philippines found in tropical moist lowland forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mindoro-hornbill-0079e948",
+      "subject": "Mindoro hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-加萊拉港-da7a2888",
+      "object": "加萊拉港",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Conservation actions proposed include more surveys in areas where they have been reported to better understand the population, create formal protection in other sites where they are found in Malpalon, Puerto Galera and Manamlay Lake",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mindoro-hornbill-0079e948",
+      "subject": "Mindoro hornbill",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-mindoro-hornbill-0079e948",
+      "subject": "Mindoro hornbill",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss, and is consequently considered endangered by the IUCN",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-mindoro-hornbill-0079e948",
+      "subject": "Mindoro hornbill",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Hunting and poaching are also considered as significant threats",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    },
+    {
+      "subject_id": "bird-mindoro-hornbill-0079e948",
+      "subject": "Mindoro hornbill",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Hunting and poaching are also considered as significant threats",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

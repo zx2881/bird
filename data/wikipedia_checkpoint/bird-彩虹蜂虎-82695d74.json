@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:35:40",
+  "requested_title": "Rainbow Bee-eater",
+  "resolved_title": "Rainbow bee-eater",
+  "title_aliases": [
+    "Rainbow Bee-eater"
+  ],
+  "bird_id": "bird-彩虹蜂虎-82695d74",
+  "raw_file": "bird-彩虹蜂虎-82695d74.json",
+  "bird": {
+    "id": "bird-彩虹蜂虎-82695d74",
+    "name": "彩虹蜂虎",
+    "english_name": "Rainbow bee-eater",
+    "latin_name": "Merops ornatus",
+    "summary": "彩虹蜂虎（学名：Merops ornatus）为蜂虎科蜂虎屬下的一个种。 分類學 彩虹蜂虎是澳洲唯一的蜂虎科物種，並且是單型的。牠最接近的親緣可能是南非和東非的橄欖蜂虎（Merops superciliosus），但分子系統發生分析顯示，彩虹蜂虎的最近親是黃喉蜂虎（M.",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Merops_ornatus_-_Centenary_Lakes.jpg/960px-Merops_ornatus_-_Centenary_Lakes.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-彩虹蜂虎-82695d74",
+      "subject": "彩虹蜂虎",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They migrate north during the winter into northern Australia, New Guinea, and some of the southern islands of Indonesia. Vagrants have been recorded on Miyako Island, Japan, and Luidao (Green Island) off south-east Taiwan. They may be found in open woodlands, beaches, dunes, cliffs, mangroves, and farmlands, and they often visit parks and private gardens.Trusler, P., Kloot, T., and McCulloch, E",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-彩虹蜂虎-82695d74",
+      "subject": "彩虹蜂虎",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They migrate north during the winter into northern Australia, New Guinea, and some of the southern islands of Indonesia. Vagrants have been recorded on Miyako Island, Japan, and Luidao (Green Island) off south-east Taiwan. They may be found in open woodlands, beaches, dunes, cliffs, mangroves, and farmlands, and they often visit parks and private gardens.Trusler, P., Kloot, T., and McCulloch, E",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-彩虹蜂虎-82695d74",
+      "subject": "彩虹蜂虎",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They migrate north during the winter into northern Australia, New Guinea, and some of the southern islands of Indonesia. Vagrants have been recorded on Miyako Island, Japan, and Luidao (Green Island) off south-east Taiwan. They may be found in open woodlands, beaches, dunes, cliffs, mangroves, and farmlands, and they often visit parks and private gardens.Trusler, P., Kloot, T., and McCulloch, E",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-彩虹蜂虎-82695d74",
+      "subject": "彩虹蜂虎",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

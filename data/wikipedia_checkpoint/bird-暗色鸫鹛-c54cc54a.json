@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:54:20",
+  "requested_title": "Dusky Babbler",
+  "resolved_title": "Dusky babbler",
+  "title_aliases": [
+    "Dusky Babbler"
+  ],
+  "bird_id": "bird-暗色鸫鹛-c54cc54a",
+  "raw_file": "bird-暗色鸫鹛-c54cc54a.json",
+  "bird": {
+    "id": "bird-暗色鸫鹛-c54cc54a",
+    "name": "暗色鸫鹛",
+    "english_name": "Dusky babbler",
+    "latin_name": "Turdoides tenebrosa",
+    "summary": "暗色鸫鹛（学名：Turdoides tenebrosa），是画眉科鸫鹛属的一种，分布于刚果民主共和国、中非共和国、乌干达、苏丹和埃塞俄比亚。全球活动范围约为267,000平方千米。该物种的保护状况被评为无危。 暗色鸫鹛的平均体重约为76.0克。栖息地包括亚热带或热带的（低地）湿…",
+    "lat": "-3",
+    "lng": "24",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Turdoides_tenebrosa_-_avocat_-_566604643.jpeg/960px-Turdoides_tenebrosa_-_avocat_-_566604643.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-苏丹-2e3eec83",
+      "name": "苏丹",
+      "summary": "蘇丹共和國（阿拉伯語：جمهورية السودان；Republic of the Sudan），通稱蘇丹（阿拉伯語：السودان，羅馬化：Sūdān，/suːˈdɑːn/或/suːˈdæn/），南蘇丹獨立後亦被稱為北蘇丹，是位於東北…",
+      "lat": "15",
+      "lng": "32"
+    },
+    {
+      "id": "loc-乌干达-8bd6d93b",
+      "name": "乌干达",
+      "summary": "烏干達共和國（斯瓦希里語：Jamhuri ya Uganda，英語：Republic of Uganda），通稱烏干達，是位於東非的內陸國家。 烏干達名稱來自於過去班圖人建立的布干達王國。歐洲列強在十九世紀後葉進入東非內陸後，烏干達在18…",
+      "lat": "1",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-暗色鸫鹛-c54cc54a",
+      "subject": "暗色鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Democratic Republic of the Congo, Ethiopia, Sudan, and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗色鸫鹛-c54cc54a",
+      "subject": "暗色鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Democratic Republic of the Congo, Ethiopia, Sudan, and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗色鸫鹛-c54cc54a",
+      "subject": "暗色鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏丹-2e3eec83",
+      "object": "苏丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Democratic Republic of the Congo, Ethiopia, Sudan, and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗色鸫鹛-c54cc54a",
+      "subject": "暗色鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌干达-8bd6d93b",
+      "object": "乌干达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Democratic Republic of the Congo, Ethiopia, Sudan, and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗色鸫鹛-c54cc54a",
+      "subject": "暗色鸫鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-暗色鸫鹛-c54cc54a",
+      "subject": "暗色鸫鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

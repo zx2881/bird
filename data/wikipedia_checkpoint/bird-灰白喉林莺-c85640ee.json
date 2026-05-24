@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:42:28",
+  "requested_title": "Common Whitethroat",
+  "resolved_title": "Common whitethroat",
+  "title_aliases": [
+    "Common Whitethroat"
+  ],
+  "bird_id": "bird-灰白喉林莺-c85640ee",
+  "raw_file": "bird-灰白喉林莺-c85640ee.json",
+  "bird": {
+    "id": "bird-灰白喉林莺-c85640ee",
+    "name": "灰白喉林莺",
+    "english_name": "Common whitethroat",
+    "latin_name": "Curruca communis",
+    "summary": "灰白喉林莺（学名：Curruca communis）为鶲科莺属的鸟类。该物种的模式产地在英格兰。 亚种 灰白喉林莺新疆亚种（学名：Curruca communis icterops）。在中国大陆，分布于新疆等地。该物种的模式产地在西伯利亚。",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Common_Whitethroat.jpg/960px-Common_Whitethroat.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰白喉林莺-c85640ee",
+      "subject": "灰白喉林莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This small passerine bird is strongly migratory, and winters in tropical Africa, Arabia, and Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰白喉林莺-c85640ee",
+      "subject": "灰白喉林莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

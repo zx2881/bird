@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:54:09",
+  "requested_title": "Stripe-tailed Hummingbird",
+  "resolved_title": "Stripe-tailed hummingbird",
+  "title_aliases": [
+    "Stripe-tailed Hummingbird"
+  ],
+  "bird_id": "bird-纹尾蜂鸟-616f6793",
+  "raw_file": "bird-纹尾蜂鸟-616f6793.json",
+  "bird": {
+    "id": "bird-纹尾蜂鸟-616f6793",
+    "name": "纹尾蜂鸟",
+    "english_name": "Stripe-tailed hummingbird",
+    "latin_name": "Eupherusa eximia",
+    "summary": "纹尾蜂鸟（学名：Eupherusa eximia），是雨燕目蜂鸟科的一种鸟类。 纹尾蜂鸟体重约4.3克，翼长约55.3毫米，嘴峰长约19.5毫米，喙宽度约1.8毫米，喙厚度约1.5毫米，跗蹠长约4.5毫米，尾长约32毫米。纹尾蜂鸟在其分布区内为留鸟，其栖息在密集的高大树木组成的…",
+    "lat": "19.5272",
+    "lng": "-96.9225",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Stripe-tailed_Hummingbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-韋拉克魯斯州-51279fa6",
+      "name": "韋拉克魯斯州",
+      "summary": "韋拉克魯斯州（西班牙語：Veracruz，西班牙語發音：[beɾaˈkɾus]）是墨西哥的一個州，位於該國中部偏東，東部面向墨西哥灣。人口僅次於墨西哥州和聯邦區，居全國第三，首府哈拉帕。 正式州名為Veracruz de Ignacio…",
+      "lat": "19.5272",
+      "lng": "-96.9225"
+    },
+    {
+      "id": "loc-瓦哈卡州-e005144e",
+      "name": "瓦哈卡州",
+      "summary": "瓦哈卡州（西班牙語：Oaxaca，發音：[waˈχaka] ）是墨西哥合眾國的一個州，位於該國的南部，臨太平洋。2005年估計人口為 3,506,821人。首府瓦哈卡市。 历史 名称 瓦哈卡的州名来自其首府瓦哈卡市的名称。这个名字来自纳瓦…",
+      "lat": "17.055",
+      "lng": "-96.655"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纹尾蜂鸟-616f6793",
+      "subject": "纹尾蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-韋拉克魯斯州-51279fa6",
+      "object": "韋拉克魯斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "nelsoni of the stripe-tailed hummingbird is the northernmost; it is found in the eastern Mexican states of Veracruz and Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹尾蜂鸟-616f6793",
+      "subject": "纹尾蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦哈卡州-e005144e",
+      "object": "瓦哈卡州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "nelsoni of the stripe-tailed hummingbird is the northernmost; it is found in the eastern Mexican states of Veracruz and Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹尾蜂鸟-616f6793",
+      "subject": "纹尾蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:55:19",
+  "requested_title": "Yungas Warbler",
+  "resolved_title": "Yungas warbler",
+  "title_aliases": [
+    "Yungas Warbler"
+  ],
+  "bird_id": "bird-yungas-warbler-69755064",
+  "raw_file": "bird-yungas-warbler-69755064.json",
+  "bird": {
+    "id": "bird-yungas-warbler-69755064",
+    "name": "Yungas warbler",
+    "english_name": "Yungas warbler",
+    "latin_name": "Basileuterus punctipectus",
+    "summary": "The Yungas warbler (Basileuterus punctipectus) is a species of bird in the family Parulidae. It was previously considered conspecific with…",
+    "lat": "-10",
+    "lng": "-76",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Basileuterus_punctipectus_Yungas_Warbler%3B_Puno%2C_Peru.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yungas-warbler-69755064",
+      "subject": "Yungas warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird is found in South America from southeastern Peru to southcentral Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yungas-warbler-69755064",
+      "subject": "Yungas warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird is found in South America from southeastern Peru to southcentral Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yungas-warbler-69755064",
+      "subject": "Yungas warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

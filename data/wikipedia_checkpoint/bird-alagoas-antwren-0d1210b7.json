@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:56:26",
+  "requested_title": "Alagoas Antwren",
+  "resolved_title": "Alagoas antwren",
+  "title_aliases": [
+    "Alagoas Antwren"
+  ],
+  "bird_id": "bird-alagoas-antwren-0d1210b7",
+  "raw_file": "bird-alagoas-antwren-0d1210b7.json",
+  "bird": {
+    "id": "bird-alagoas-antwren-0d1210b7",
+    "name": "Alagoas antwren",
+    "english_name": "Alagoas antwren",
+    "latin_name": "Myrmotherula snowi",
+    "summary": "The Alagoas antwren (Myrmotherula snowi) is a Critically Endangered species of bird in subfamily Thamnophilinae of family Thamnophilidae, t…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Myrmotherula_snowi_-_Thiago_Zanetti_-_257369138.jpeg/960px-Myrmotherula_snowi_-_Thiago_Zanetti_-_257369138.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-alagoas-antwren-0d1210b7",
+      "subject": "Alagoas antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits isolated fragments of semi-humid lowland evergreen forest and is known only from the narrow elevational range of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-alagoas-antwren-0d1210b7",
+      "subject": "Alagoas antwren",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-alagoas-antwren-0d1210b7",
+      "subject": "Alagoas antwren",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The site continues to be threatened by fires spreading from adjacent plantations, hunting, timber extraction and agriculture.\" \"The massive clearance of Atlantic forest in Alagoas and Pernambuco has left few other sites likely to support populations of this species",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:53:22",
+  "requested_title": "Hispaniolan Euphonia",
+  "resolved_title": "Hispaniolan euphonia",
+  "title_aliases": [
+    "Hispaniolan Euphonia"
+  ],
+  "bird_id": "bird-hispaniolan-euphonia-022d2bdf",
+  "raw_file": "bird-hispaniolan-euphonia-022d2bdf.json",
+  "bird": {
+    "id": "bird-hispaniolan-euphonia-022d2bdf",
+    "name": "Hispaniolan euphonia",
+    "english_name": "Hispaniolan euphonia",
+    "latin_name": "Chlorophonia musica",
+    "summary": "The Hispaniolan euphonia (Chlorophonia musica) is a species of bird in the family Fringillidae, the finches and euphonias. It is endemic to…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hispaniolan_Euphonia_%28Chlorophonia_musica%29_male_in_the_Dominican_Republic_%28cropped%29.jpg/960px-Hispaniolan_Euphonia_%28Chlorophonia_musica%29_male_in_the_Dominican_Republic_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hispaniolan-euphonia-022d2bdf",
+      "subject": "Hispaniolan euphonia",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits a variety of landscapes including the interior and edges of evergreen, deciduous, and pine forests and also nearby disturbed areas and shade coffee plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hispaniolan-euphonia-022d2bdf",
+      "subject": "Hispaniolan euphonia",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

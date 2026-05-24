@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:36:04",
+  "requested_title": "Gosling's Bunting",
+  "resolved_title": "Gosling's bunting",
+  "title_aliases": [
+    "Gosling's Bunting"
+  ],
+  "bird_id": "bird-gosling-s-bunting-dbb2529e",
+  "raw_file": "bird-gosling-s-bunting-dbb2529e.json",
+  "bird": {
+    "id": "bird-gosling-s-bunting-dbb2529e",
+    "name": "Gosling's bunting",
+    "english_name": "Gosling's bunting",
+    "latin_name": "Emberiza goslingi",
+    "summary": "Gosling's bunting (Emberiza goslingi), also known as the grey-throated bunting, is a species of bird in the family Emberizidae. It is found…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Gosling%27s_Bunting%2C_Poli%2C_Cameroon_%285891148053%29.jpg/960px-Gosling%27s_Bunting%2C_Poli%2C_Cameroon_%285891148053%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-boyd-alexander-a9e0483b",
+      "name": "Boyd Alexander",
+      "summary": "Lieutenant Boyd Alexander (16 January 1873 – 2 April 1910) was an English officer in the British Army, as well as an ex…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-gosling-s-bunting-dbb2529e",
+      "subject": "Gosling's bunting",
+      "predicate": "distributed_in",
+      "object_id": "loc-boyd-alexander-a9e0483b",
+      "object": "Boyd Alexander",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Gosling's bunting (Emberiza goslingi), also known as the grey-throated bunting, is a species of bird in the family Emberizidae. It is found in Africa from Mauritania and Senegal to south-western Sudan and north-eastern Democratic Republic of Congo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gosling-s-bunting-dbb2529e",
+      "subject": "Gosling's bunting",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

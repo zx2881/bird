@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:36:42",
+  "requested_title": "Rufous-capped Motmot",
+  "resolved_title": "Rufous-capped motmot",
+  "title_aliases": [
+    "Rufous-capped Motmot"
+  ],
+  "bird_id": "bird-rufous-capped-motmot-7b762a37",
+  "raw_file": "bird-rufous-capped-motmot-7b762a37.json",
+  "bird": {
+    "id": "bird-rufous-capped-motmot-7b762a37",
+    "name": "Rufous-capped motmot",
+    "english_name": "Rufous-capped motmot",
+    "latin_name": "Baryphthengus ruficapillus",
+    "summary": "The rufous-capped motmot (Baryphthengus ruficapillus) is a species of bird in the family Momotidae. It is found in Argentina, Brazil, and P…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Baryphthengus_ruficapillus_Rufous-capped_Motmot.JPG/960px-Baryphthengus_ruficapillus_Rufous-capped_Motmot.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-capped-motmot-7b762a37",
+      "subject": "Rufous-capped motmot",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits primary and gallery forest, the latter mostly along watercourses",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-capped-motmot-7b762a37",
+      "subject": "Rufous-capped motmot",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits primary and gallery forest, the latter mostly along watercourses",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-capped-motmot-7b762a37",
+      "subject": "Rufous-capped motmot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-rufous-capped-motmot-7b762a37",
+      "subject": "Rufous-capped motmot",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The IUCN has assessed the rufous-capped motmot as being of Least Concern. Though it has a large range, appears to have a large population, and occurs in many protected areas, deforestation elsewhere is causing its population to decline",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:30:04",
+  "requested_title": "Spectacled Fulvetta",
+  "resolved_title": "Spectacled fulvetta",
+  "title_aliases": [
+    "Spectacled Fulvetta"
+  ],
+  "bird_id": "bird-棕头雀鹛-be71020d",
+  "raw_file": "bird-棕头雀鹛-be71020d.json",
+  "bird": {
+    "id": "bird-棕头雀鹛-be71020d",
+    "name": "棕头雀鹛",
+    "english_name": "Spectacled fulvetta",
+    "latin_name": "Fulvetta ruficapilla",
+    "summary": "棕头雀鹛（学名：Fulvetta ruficapilla），鸦雀科褐鹛属物种，曾被归入画眉科雀鹛属，为中国大陆的特有种。该物种的保护状况被评为无危。 棕头雀鹛的栖息地包括温带森林、亚热带或热带的高海拔疏灌丛和亚热带或热带的湿润山地林。该物种的模式产地在四川宝兴。",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Alcippe_ruficapilla.jpg/960px-Alcippe_ruficapilla.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕头雀鹛-be71020d",
+      "subject": "棕头雀鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头雀鹛-be71020d",
+      "subject": "棕头雀鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-temperate-forest",
+      "object": "温带森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is temperate forests",
+      "object_summary": "温带岛屿或山地森林生态系统。"
+    },
+    {
+      "subject_id": "bird-棕头雀鹛-be71020d",
+      "subject": "棕头雀鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

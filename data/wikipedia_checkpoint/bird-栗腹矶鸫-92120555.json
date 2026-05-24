@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:15:17",
+  "requested_title": "Chestnut-bellied Rock Thrush",
+  "resolved_title": "Chestnut-bellied rock thrush",
+  "title_aliases": [
+    "Chestnut-bellied Rock Thrush"
+  ],
+  "bird_id": "bird-栗腹矶鸫-92120555",
+  "raw_file": "bird-栗腹矶鸫-92120555.json",
+  "bird": {
+    "id": "bird-栗腹矶鸫-92120555",
+    "name": "栗腹矶鸫",
+    "english_name": "Chestnut-bellied rock thrush",
+    "latin_name": "Monticola rufiventris",
+    "summary": "栗腹矶鸫（学名：Monticola rufiventris）为鶲科矶鸫属的鸟类，俗名栗色胸石鸫、栗胸矶鸫。分布于巴基斯坦、印度、孟加拉、喜马拉雅山脉西部以至东部、东达东南亚各国北部以及中国大陆的西藏、云南、四川、湖北、浙江、广西、贵州、广东、海南、福建等地，常见于小乔木树冠上。…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Chestnut_Bellied_Rock_Thrush_by_Anne_Thingnam.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-purvanchal-range-b5ede60e",
+      "name": "Purvanchal Range",
+      "summary": "The Purvanchal Range, or the Eastern Highlands, refers to the northern portion of the Indo-Burman Ranges.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "中南半岛（法語：Indochine），又稱印度支那半島（简称印度支那、印支）、东南亚大陆地区、东南亚半岛地区等，是亞洲東南部東臨南海、西瀕印度洋的半島，在印度次大陸以東、中国大陆以南，包括今日的緬甸、泰國、老撾、柬埔寨、越南、马来半岛等地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗腹矶鸫-92120555",
+      "subject": "栗腹矶鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas, Purvanchal Range and southern China ; some birds winter to northern Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗腹矶鸫-92120555",
+      "subject": "栗腹矶鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-purvanchal-range-b5ede60e",
+      "object": "Purvanchal Range",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas, Purvanchal Range and southern China ; some birds winter to northern Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗腹矶鸫-92120555",
+      "subject": "栗腹矶鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas, Purvanchal Range and southern China ; some birds winter to northern Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗腹矶鸫-92120555",
+      "subject": "栗腹矶鸫",
+      "predicate": "lives_in",
+      "object_id": "hab-temperate-forest",
+      "object": "温带森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is temperate forests",
+      "object_summary": "温带岛屿或山地森林生态系统。"
+    },
+    {
+      "subject_id": "bird-栗腹矶鸫-92120555",
+      "subject": "栗腹矶鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:39:07",
+  "requested_title": "Allen's Hummingbird",
+  "resolved_title": "Allen's hummingbird",
+  "title_aliases": [
+    "Allen's Hummingbird"
+  ],
+  "bird_id": "bird-艾氏煌蜂鸟-0c02f315",
+  "raw_file": "bird-艾氏煌蜂鸟-0c02f315.json",
+  "bird": {
+    "id": "bird-艾氏煌蜂鸟-0c02f315",
+    "name": "艾氏煌蜂鸟",
+    "english_name": "Allen's hummingbird",
+    "latin_name": "Selasphorus sasin",
+    "summary": "艾氏煌蜂鸟（台湾作亞倫煌蜂鳥，学名：Selasphorus sasin），是雨燕目蜂鸟科的一种鸟类。 艾氏煌蜂鸟体重约3.36克，翼长约40.4毫米，嘴峰长约20.2毫米，喙宽度约1.9毫米，喙厚度约1.9毫米，跗蹠长约4.7毫米，尾长约25.8毫米。艾氏煌蜂鸟在其分布区内为留…",
+    "lat": "37",
+    "lng": "-120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Allen%27s_Hummingbird_Selasphorus_sasin_%2832540935410%29.jpg/960px-Allen%27s_Hummingbird_Selasphorus_sasin_%2832540935410%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加利福尼亚州-9068131e",
+      "name": "加利福尼亚州",
+      "summary": "加利福尼亚州（英語：State of California），簡稱加州，是美国西部太平洋沿岸的一个州。面積列美國第三；人口為3,918萬，列美國各州第一。州首府是萨克拉门托。在地理、地貌、物產、人口構成方面都具有多样化的特點。加州有一别名…",
+      "lat": "37",
+      "lng": "-120"
+    },
+    {
+      "id": "loc-俄勒冈州-a8c5b288",
+      "name": "俄勒冈州",
+      "summary": "俄勒冈州（英語：Oregon，發音：/ˈɒrɪɡən/ ；粵語舊譯柯利近州）是美国的一个州，位于美国西北的太平洋沿岸，西临太平洋、北接华盛顿州、东面是爱德荷州、南面是加利福尼亚州和内华达州。2012年人口3,899,353。州别称：海狸州…",
+      "lat": "44",
+      "lng": "-121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-艾氏煌蜂鸟-0c02f315",
+      "subject": "艾氏煌蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-加利福尼亚州-9068131e",
+      "object": "加利福尼亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Adult female tending a nest Allen's hummingbirds are commonly found in locations such as the brushy woods, gardens, and meadows of coastal California from Santa Barbara north, and southern coastal Oregon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艾氏煌蜂鸟-0c02f315",
+      "subject": "艾氏煌蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄勒冈州-a8c5b288",
+      "object": "俄勒冈州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Adult female tending a nest Allen's hummingbirds are commonly found in locations such as the brushy woods, gardens, and meadows of coastal California from Santa Barbara north, and southern coastal Oregon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艾氏煌蜂鸟-0c02f315",
+      "subject": "艾氏煌蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

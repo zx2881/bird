@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:36:06",
+  "requested_title": "Vervain Hummingbird",
+  "resolved_title": "Vervain hummingbird",
+  "title_aliases": [
+    "Vervain Hummingbird"
+  ],
+  "bird_id": "bird-小吸蜜蜂鸟-2ad74898",
+  "raw_file": "bird-小吸蜜蜂鸟-2ad74898.json",
+  "bird": {
+    "id": "bird-小吸蜜蜂鸟-2ad74898",
+    "name": "小吸蜜蜂鸟",
+    "english_name": "Vervain hummingbird",
+    "latin_name": "Mellisuga minima",
+    "summary": "小吸蜜蜂鸟（学名：Mellisuga minima），是雨燕目蜂鸟科的一种鸟类。 小吸蜜蜂鸟体重约2.4克，翼长约36.3毫米，嘴峰长约11.2毫米，喙宽度约1.3毫米，喙厚度约1.1毫米，跗蹠长约3.5毫米，尾长约19.2毫米。小吸蜜蜂鸟在其分布区内为留鸟，其栖息在半开放的人…",
+    "lat": "18.2",
+    "lng": "-66.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Vervain_hummingbird_%28Mellisuga_minima%29.jpg/960px-Vervain_hummingbird_%28Mellisuga_minima%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-波多黎各-f53ddf8c",
+      "name": "波多黎各",
+      "summary": "波多黎各自由邦（英語：Commonwealth of Puerto Rico），又稱波多黎各自由聯繫邦（西班牙語：Estado Libre Asociado de Puerto Rico），通称波多黎各（西班牙語：Puerto Rico，…",
+      "lat": "18.2",
+      "lng": "-66.5"
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小吸蜜蜂鸟-2ad74898",
+      "subject": "小吸蜜蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-波多黎各-f53ddf8c",
+      "object": "波多黎各",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "vielloti is found in both the Dominican Republic and Haiti on the island of Hispaniola and also smaller nearby islands. There is one sight report from Puerto Rico. The species inhabits almost every available landscape throughout its range except the interior of dense montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小吸蜜蜂鸟-2ad74898",
+      "subject": "小吸蜜蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in gallery forest, dry forest, desert scrub-shrub, gardens, and even urban areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小吸蜜蜂鸟-2ad74898",
+      "subject": "小吸蜜蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "vielloti is found in both the Dominican Republic and Haiti on the island of Hispaniola and also smaller nearby islands. There is one sight report from Puerto Rico. The species inhabits almost every available landscape throughout its range except the interior of dense montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-小吸蜜蜂鸟-2ad74898",
+      "subject": "小吸蜜蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

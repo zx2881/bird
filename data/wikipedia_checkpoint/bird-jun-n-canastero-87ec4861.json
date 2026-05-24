@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:28:16",
+  "requested_title": "Junin Canastero",
+  "resolved_title": "Junín canastero",
+  "title_aliases": [
+    "Junin Canastero",
+    "Junín canastero"
+  ],
+  "bird_id": "bird-jun-n-canastero-87ec4861",
+  "raw_file": "bird-jun-n-canastero-87ec4861.json",
+  "bird": {
+    "id": "bird-jun-n-canastero-87ec4861",
+    "name": "Junín canastero",
+    "english_name": "Junín canastero",
+    "latin_name": "Asthenes virgata",
+    "summary": "The Junin canastero (Asthenes virgata) is a species of bird in the Furnariinae subfamily of the ovenbird family Furnariidae. It is endemic…",
+    "lat": "42.48",
+    "lng": "-76.4511",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Asthenes_virgata_-_Junin_Canastero.jpg/960px-Asthenes_virgata_-_Junin_Canastero.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-康乃爾鳥類學實驗室-dbbe1ad4",
+      "name": "康乃爾鳥類學實驗室",
+      "summary": "康乃爾大學鳥類學實驗室位於纽约州伊萨卡，是康乃爾大學研究鳥類學和其他野生生物的成員支援單位。位在薩普薩克森林保護區（Sapsucker Woods Sanctuary）伊莫金約翰遜鳥類和生物多樣性研究院中心（Imogene Powers…",
+      "lat": "42.48",
+      "lng": "-76.4511"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-jun-n-canastero-87ec4861",
+      "subject": "Junín canastero",
+      "predicate": "distributed_in",
+      "object_id": "loc-康乃爾鳥類學實驗室-dbbe1ad4",
+      "object": "康乃爾鳥類學實驗室",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There are scattered sightings between these two population centers. The Junin canastero primarily inhabits humid landscapes with tall bunch grass, sometimes those with scattered bushes and near stands of polylepis",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jun-n-canastero-87ec4861",
+      "subject": "Junín canastero",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-jun-n-canastero-87ec4861",
+      "subject": "Junín canastero",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. \"This canastero potentially is vulnerable to habitat loss or degradation, such as through overgrazing.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

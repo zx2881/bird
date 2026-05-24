@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:10:21",
+  "requested_title": "Broad-ringed White-eye",
+  "resolved_title": "Ethiopian white-eye",
+  "title_aliases": [
+    "Broad-ringed White-eye",
+    "Ethiopian white-eye"
+  ],
+  "bird_id": "bird-ethiopian-white-eye-cd26ced4",
+  "raw_file": "bird-ethiopian-white-eye-cd26ced4.json",
+  "bird": {
+    "id": "bird-ethiopian-white-eye-cd26ced4",
+    "name": "Ethiopian white-eye",
+    "english_name": "Ethiopian white-eye",
+    "latin_name": "Zosterops poliogastrus",
+    "summary": "The Ethiopian white-eye (Zosterops poliogastrus), formerly known as Heuglin's white-eye or montane white-eye, is a small passerine bird in…",
+    "lat": "15",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Heuglin%27s_White-eye_%28Zosterops_poliogastrus%29%2C_Lalibela%2C_Ethiopia_%2817977024739%29.jpg/960px-Heuglin%27s_White-eye_%28Zosterops_poliogastrus%29%2C_Lalibela%2C_Ethiopia_%2817977024739%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-厄立特里亚-7ee8b9af",
+      "name": "厄立特里亚",
+      "summary": "厄立特里亚国（英語：State of Eritrea，提格利尼亞語：ሃገረ ኤርትራ，阿拉伯語：دولة إرتريا）， 通稱厄利垂亞，是位於非洲東北部的国家，濒临红海，面积11.7万平方公里，人口約368萬人（2024年），首都为阿斯…",
+      "lat": "15",
+      "lng": "39"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ethiopian-white-eye-cd26ced4",
+      "subject": "Ethiopian white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄立特里亚-7ee8b9af",
+      "object": "厄立特里亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southeast Sudan, Eritrea and north, central and east Ethiopia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ethiopian-white-eye-cd26ced4",
+      "subject": "Ethiopian white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

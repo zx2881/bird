@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:05:03",
+  "requested_title": "Madagascar Martin",
+  "resolved_title": "Madagascar martin",
+  "title_aliases": [
+    "Madagascar Martin"
+  ],
+  "bird_id": "bird-madagascar-martin-fc1b3b1e",
+  "raw_file": "bird-madagascar-martin-fc1b3b1e.json",
+  "bird": {
+    "id": "bird-madagascar-martin-fc1b3b1e",
+    "name": "Madagascar martin",
+    "english_name": "Madagascar martin",
+    "latin_name": "Riparia cowani",
+    "summary": "The Madagascar martin (Riparia cowani) is a small passerine bird in the swallow family Hirundinidae that is found in montane Madagascar. It…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Riparia_cowani_-_Jean-Paul_Boerekamps_-_108481783.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "name": "理查德·鮑德勒·夏普",
+      "summary": "理查德·鮑德勒·夏普（英語：Richard Bowdler Sharpe，1847年11月22日—1909年12月25日）是一位英國動物學家兼鳥類學家，於大英博物館擔任鳥類標本的策展人。在其職涯裡，夏普出版了一些有關鳥類的專著，並整理出博…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-madagascar-martin-fc1b3b1e",
+      "subject": "Madagascar martin",
+      "predicate": "distributed_in",
+      "object_id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "object": "理查德·鮑德勒·夏普",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Madagascar martin (Riparia cowani) is a small passerine bird in the swallow family Hirundinidae that is found in montane Madagascar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-martin-fc1b3b1e",
+      "subject": "Madagascar martin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

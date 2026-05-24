@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:52:38",
+  "requested_title": "Perija Brushfinch",
+  "resolved_title": "Perijá brushfinch",
+  "title_aliases": [
+    "Perija Brushfinch",
+    "Perijá brushfinch"
+  ],
+  "bird_id": "bird-perij-brushfinch-ffcaa359",
+  "raw_file": "bird-perij-brushfinch-ffcaa359.json",
+  "bird": {
+    "id": "bird-perij-brushfinch-ffcaa359",
+    "name": "Perijá brushfinch",
+    "english_name": "Perijá brushfinch",
+    "latin_name": "Arremon perijanus",
+    "summary": "The Perija brushfinch (Arremon perijanus) is a species of bird in the family Emberizidae, the New World sparrows. It is found in Colombia a…",
+    "lat": "10.01638889",
+    "lng": "-72.95777778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Arremon_perijanus_%2815449181957%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    },
+    {
+      "id": "loc-佩里哈山脈-786298b2",
+      "name": "佩里哈山脈",
+      "summary": "佩里哈山脈（西班牙語：Serranía del Perijá），是南美洲的山脈，橫跨哥倫比亞和委內瑞拉，屬於哥倫比亞東部山脈的一部分，全長310公里，最高點海拔高度3,630米，該地區以熱帶森林為主。 人文 佩里哈山区土著被西语裔称作“削…",
+      "lat": "10.01638889",
+      "lng": "-72.95777778"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-perij-brushfinch-ffcaa359",
+      "subject": "Perijá brushfinch",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-perij-brushfinch-ffcaa359",
+      "subject": "Perijá brushfinch",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-perij-brushfinch-ffcaa359",
+      "subject": "Perijá brushfinch",
+      "predicate": "distributed_in",
+      "object_id": "loc-佩里哈山脈-786298b2",
+      "object": "佩里哈山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Perija brushfinch is found in the Serranía del Perijá that straddles the border between northern Colombia and western Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-perij-brushfinch-ffcaa359",
+      "subject": "Perijá brushfinch",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits humid montane forest where it favors the undergrowth at the edges",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-perij-brushfinch-ffcaa359",
+      "subject": "Perijá brushfinch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

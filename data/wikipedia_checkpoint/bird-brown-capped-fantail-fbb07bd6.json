@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:43:10",
+  "requested_title": "Brown-capped Fantail",
+  "resolved_title": "Brown-capped fantail",
+  "title_aliases": [
+    "Brown-capped Fantail"
+  ],
+  "bird_id": "bird-brown-capped-fantail-fbb07bd6",
+  "raw_file": "bird-brown-capped-fantail-fbb07bd6.json",
+  "bird": {
+    "id": "bird-brown-capped-fantail-fbb07bd6",
+    "name": "Brown-capped fantail",
+    "english_name": "Brown-capped fantail",
+    "latin_name": "Rhipidura diluta",
+    "summary": "The brown-capped fantail (Rhipidura diluta) is a species of bird in the family Rhipiduridae. It is found in the Lesser Sunda Islands (Sumba…",
+    "lat": "-8.78333333",
+    "lng": "118.08333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Rhipidura_diluta_-_%EA%A6%A5%EA%A6%A4%EA%A7%80%EA%A6%97%EA%A6%B6%EA%A6%92%EA%A6%B8%EA%A6%B1%EA%A7%80%EA%A6%A0%EA%A6%B6%EA%A6%84%EA%A6%8F%EA%A7%80%EA%A6%A7%EA%A6%82_-_242796028.jpeg/960px-Rhipidura_diluta_-_%EA%A6%A5%EA%A6%A4%EA%A7%80%EA%A6%97%EA%A6%B6%EA%A6%92%EA%A6%B8%EA%A6%B1%EA%A7%80%EA%A6%A0%EA%A6%B6%EA%A6%84%EA%A6%8F%EA%A7%80%EA%A6%A7%EA%A6%82_-_242796028.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-松巴哇島-5585b4ae",
+      "name": "松巴哇島",
+      "summary": "松巴哇島（印尼語：Pulau Sumbawa）是印度尼西亞的一個島。經緯度為：南8°47，東118°5′，她屬于西努沙登加拉省（West Nusa Tenggara），全島面積15,448平方公里，人口一百五十萬。 火山 這個島處在環太平…",
+      "lat": "-8.78333333",
+      "lng": "118.08333333"
+    },
+    {
+      "id": "loc-弗洛勒斯岛-dc1d5648",
+      "name": "弗洛勒斯岛",
+      "summary": "弗洛勒斯岛（印尼語：Pulau Flores，直译：「花島」）是印尼小巽他群岛中的一个岛屿，人口约180万，其人口與土地面積於印尼排名第十，最大城市是毛梅里。 弗洛勒斯岛位於松巴哇岛和科莫多岛以东，阿洛群岛以西；其东南方则是帝汶岛，南面越…",
+      "lat": "-8.67472222",
+      "lng": "121.38444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-capped-fantail-fbb07bd6",
+      "subject": "Brown-capped fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Lesser Sunda Islands (Sumbawa and Flores)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-capped-fantail-fbb07bd6",
+      "subject": "Brown-capped fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-松巴哇島-5585b4ae",
+      "object": "松巴哇島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Lesser Sunda Islands (Sumbawa and Flores)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-capped-fantail-fbb07bd6",
+      "subject": "Brown-capped fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-弗洛勒斯岛-dc1d5648",
+      "object": "弗洛勒斯岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Lesser Sunda Islands (Sumbawa and Flores)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-capped-fantail-fbb07bd6",
+      "subject": "Brown-capped fantail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

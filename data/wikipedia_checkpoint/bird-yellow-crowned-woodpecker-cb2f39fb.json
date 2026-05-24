@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:17:34",
+  "requested_title": "Yellow-crowned Woodpecker",
+  "resolved_title": "Yellow-crowned woodpecker",
+  "title_aliases": [
+    "Yellow-crowned Woodpecker"
+  ],
+  "bird_id": "bird-yellow-crowned-woodpecker-cb2f39fb",
+  "raw_file": "bird-yellow-crowned-woodpecker-cb2f39fb.json",
+  "bird": {
+    "id": "bird-yellow-crowned-woodpecker-cb2f39fb",
+    "name": "Yellow-crowned woodpecker",
+    "english_name": "Yellow-crowned woodpecker",
+    "latin_name": "Leiopicus mahrattensis",
+    "summary": "The yellow-crowned woodpecker (Leiopicus mahrattensis) or Mahratta woodpecker is a species of small pied woodpecker found in the Indian sub…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Yellow-crowned_woodpecker_%28Leiopicus_mahrattensis%29_by_Shantanu_Kuveskar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "name": "夏尔·吕西安·波拿巴",
+      "summary": "夏尔·吕西安·朱尔·朱尔·波拿巴（法語：Charles Lucien Jules Laurent Bonaparte，發音：[ʃaʁl lysjɛ̃ ʒyl lɔʁɑ̃ bɔnapaʁt]；1803年5月24日—1857年7月29日）是一…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-crowned-woodpecker-cb2f39fb",
+      "subject": "Yellow-crowned woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "object": "夏尔·吕西安·波拿巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-crowned woodpecker (Leiopicus mahrattensis) or Mahratta woodpecker is a species of small pied woodpecker found in the Indian subcontinent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-crowned-woodpecker-cb2f39fb",
+      "subject": "Yellow-crowned woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-crowned woodpecker (Leiopicus mahrattensis) or Mahratta woodpecker is a species of small pied woodpecker found in the Indian subcontinent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-crowned-woodpecker-cb2f39fb",
+      "subject": "Yellow-crowned woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

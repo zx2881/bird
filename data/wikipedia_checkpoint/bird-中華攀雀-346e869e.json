@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:12:10",
+  "requested_title": "Chinese Penduline Tit",
+  "resolved_title": "Chinese penduline tit",
+  "title_aliases": [
+    "Chinese Penduline Tit"
+  ],
+  "bird_id": "bird-中華攀雀-346e869e",
+  "raw_file": "bird-中華攀雀-346e869e.json",
+  "bird": {
+    "id": "bird-中華攀雀-346e869e",
+    "name": "中華攀雀",
+    "english_name": "Chinese penduline tit",
+    "latin_name": "Remiz consobrinus",
+    "summary": "中華攀雀（學名：Remiz consobrinus）為攀雀屬的一種鳥類，俗名洋紅兒。該物種於1870年由斯文豪首次描述。分布於中國、日本、北韓、南韓及俄羅斯。攀雀科共有10種，牠們與真正的山雀相似，但具有製作獨特懸掛巢的特徵。牠們棲息於開闊的田野和濕地，具有尖銳的喙端，雌雄外形…",
+    "lat": "43",
+    "lng": "125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chinese_Penduline-Tit_imported_from_iNaturalist_photo_385856056_on_19_June_2024.jpg/960px-Chinese_Penduline-Tit_imported_from_iNaturalist_photo_385856056_on_19_June_2024.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-中華攀雀-346e869e",
+      "subject": "中華攀雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Manchuria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-中華攀雀-346e869e",
+      "subject": "中華攀雀",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits, in nesting and non-nesting, in areas of agricultural pastures, wetlands with marshes or brackish ponds",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-中華攀雀-346e869e",
+      "subject": "中華攀雀",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits, in nesting and non-nesting, in areas of agricultural pastures, wetlands with marshes or brackish ponds",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-中華攀雀-346e869e",
+      "subject": "中華攀雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:55:17",
+  "requested_title": "Bhutan Laughingthrush",
+  "resolved_title": "Bhutan laughingthrush",
+  "title_aliases": [
+    "Bhutan Laughingthrush"
+  ],
+  "bird_id": "bird-不丹噪鶥-c8c8ae27",
+  "raw_file": "bird-不丹噪鶥-c8c8ae27.json",
+  "bird": {
+    "id": "bird-不丹噪鶥-c8c8ae27",
+    "name": "不丹噪鶥",
+    "english_name": "Bhutan laughingthrush",
+    "latin_name": "Trochalopteron imbricatum",
+    "summary": "丽星噪鹛（台湾作不丹噪鶥）（学名：Trochalopteron imbricatum），是圓翅噪鶥屬的一种，原屬噪鹛屬。 特征 丽星噪鹛体重约40.7克，翼长约76.6毫米，嘴峰长约18.9毫米，喙宽度约4.5毫米，喙厚度约5.9毫米，跗蹠长约29.2毫米，尾长约101.4毫米…",
+    "lat": "27.417",
+    "lng": "90.435",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bhutan_Laughingthrush_Trashigang_Bhutan_21.11.2018.jpg/960px-Bhutan_Laughingthrush_Trashigang_Bhutan_21.11.2018.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-不丹-8d635775",
+      "name": "不丹",
+      "summary": "不丹王国（宗喀語：འབྲུག་ཡུལ་，威利：druk yul），通称不丹，清朝史籍稱布魯克巴（藏語：འབྲུག་པ，威利转写：'brug pa，“不丹人”之意），是位于中国和印度之间、喜马拉雅山脉东段南坡上的一个君主立宪制内陆国家，西接…",
+      "lat": "27.417",
+      "lng": "90.435"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-不丹噪鶥-c8c8ae27",
+      "subject": "不丹噪鶥",
+      "predicate": "distributed_in",
+      "object_id": "loc-不丹-8d635775",
+      "object": "不丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is commonly found in Bhutan and some adjoining areas in India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-不丹噪鶥-c8c8ae27",
+      "subject": "不丹噪鶥",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is commonly found in Bhutan and some adjoining areas in India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-不丹噪鶥-c8c8ae27",
+      "subject": "不丹噪鶥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

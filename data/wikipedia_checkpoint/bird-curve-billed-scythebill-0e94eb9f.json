@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:17:03",
+  "requested_title": "Curve-billed Scythebill",
+  "resolved_title": "Curve-billed scythebill",
+  "title_aliases": [
+    "Curve-billed Scythebill"
+  ],
+  "bird_id": "bird-curve-billed-scythebill-0e94eb9f",
+  "raw_file": "bird-curve-billed-scythebill-0e94eb9f.json",
+  "bird": {
+    "id": "bird-curve-billed-scythebill-0e94eb9f",
+    "name": "Curve-billed scythebill",
+    "english_name": "Curve-billed scythebill",
+    "latin_name": "Campylorhamphus procurvoides",
+    "summary": "The curve-billed scythebill (Campylorhamphus procurvoides) is a species of bird in the subfamily Dendrocolaptinae of the ovenbird family Fu…",
+    "lat": "1",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Campylorhamphus_procurvoides_-_Curve-billed_Scythebill%3B_Botanic_Garden_Tower%2C_Manaus%2C_Amazonas%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿馬帕州-7196747a",
+      "name": "阿馬帕州",
+      "summary": "阿馬帕（葡萄牙語：Amapá）是巴西的一州，位於巴西的北部，北鄰法屬圭亞那，東臨大西洋，南臨巴西的帕拉州。该州属于广义的圭亚那地区，在殖民時代稱作葡屬圭亞那，是葡萄牙帝國巴西殖民地的一部分。 地理 阿馬帕位於亞馬遜河河口附近，境內90%被…",
+      "lat": "1",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-curve-billed-scythebill-0e94eb9f",
+      "subject": "Curve-billed scythebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿馬帕州-7196747a",
+      "object": "阿馬帕州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "procurvoides, the northeastern Amazon Basin in Brazil north of the Amazon between the Negro River and Amapá state, Suriname, and French Guiana The IOC and Clements also place it in eastern Venezuela and Guyana The curve-billed scythebill inhabits humid evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-curve-billed-scythebill-0e94eb9f",
+      "subject": "Curve-billed scythebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "procurvoides, the northeastern Amazon Basin in Brazil north of the Amazon between the Negro River and Amapá state, Suriname, and French Guiana The IOC and Clements also place it in eastern Venezuela and Guyana The curve-billed scythebill inhabits humid evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-curve-billed-scythebill-0e94eb9f",
+      "subject": "Curve-billed scythebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It greatly favors terra firme but occasionally occurs in floodplain forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-curve-billed-scythebill-0e94eb9f",
+      "subject": "Curve-billed scythebill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

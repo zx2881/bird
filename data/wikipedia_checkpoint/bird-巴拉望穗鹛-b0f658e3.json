@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:03:03",
+  "requested_title": "Palawan Striped Babbler",
+  "resolved_title": "Palawan striped babbler",
+  "title_aliases": [
+    "Palawan Striped Babbler"
+  ],
+  "bird_id": "bird-巴拉望穗鹛-b0f658e3",
+  "raw_file": "bird-巴拉望穗鹛-b0f658e3.json",
+  "bird": {
+    "id": "bird-巴拉望穗鹛-b0f658e3",
+    "name": "巴拉望穗鹛",
+    "english_name": "Palawan striped babbler",
+    "latin_name": "Zosterornis hypogrammicus",
+    "summary": "巴拉望穗鹛（学名：Stachyris hypogrammica），是画眉科穗鹛属的一种，为菲律宾的特有种。该物种的保护状况被评为近危。 巴拉望穗鹛的栖息地为亚热带或热带的湿润山地林。",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Zosterornis_hypogrammicus_-_Forest_Botial-Jarvis_-_276219985_%28cropped%29.jpeg/960px-Zosterornis_hypogrammicus_-_Forest_Botial-Jarvis_-_276219985_%28cropped%29.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-巴拉望省-b942e012",
+      "name": "巴拉望省",
+      "summary": "巴拉望省（Palawan），是菲律宾民马罗巴区下属的一个省，由主岛巴拉望岛，以及周边的卡拉棉群岛（1,753平方公里）、库约群岛、巴拉巴克岛等小岛组成，南隔巴拉巴克海峡与加里曼丹岛相望。另外，菲律宾声称部分南沙群岛（卡拉延群島）也归属该省…",
+      "lat": "10",
+      "lng": "118.83"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-巴拉望穗鹛-b0f658e3",
+      "subject": "巴拉望穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines, where it is only found in Palawan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巴拉望穗鹛-b0f658e3",
+      "subject": "巴拉望穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉望省-b942e012",
+      "object": "巴拉望省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines, where it is only found in Palawan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巴拉望穗鹛-b0f658e3",
+      "subject": "巴拉望穗鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-巴拉望穗鹛-b0f658e3",
+      "subject": "巴拉望穗鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-巴拉望穗鹛-b0f658e3",
+      "subject": "巴拉望穗鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-巴拉望穗鹛-b0f658e3",
+      "subject": "巴拉望穗鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Borangbato. Despite its extremely limited range, IUCN has assessed this bird as least concern but was formerly assessed as near-threatened. This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range.The whole of Palawan was designated as a Biosphere Reserve; however, protection and enforcement of laws has been difficult and these threats still continue",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:08:07",
+  "requested_title": "Levaillant's Woodpecker",
+  "resolved_title": "Levaillant's woodpecker",
+  "title_aliases": [
+    "Levaillant's Woodpecker"
+  ],
+  "bird_id": "bird-levaillant-s-woodpecker-64fd4073",
+  "raw_file": "bird-levaillant-s-woodpecker-64fd4073.json",
+  "bird": {
+    "id": "bird-levaillant-s-woodpecker-64fd4073",
+    "name": "Levaillant's woodpecker",
+    "english_name": "Levaillant's woodpecker",
+    "latin_name": "Picus vaillantii",
+    "summary": "Levaillant's woodpecker (Picus vaillantii) or Levaillant's green woodpecker, is a large African member of the woodpecker family Picidae. Ta…",
+    "lat": "32",
+    "lng": "-6",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Levaillant%27s_Woodpecker_-_Oukaimeden_Marocco_07_6526.jpg/960px-Levaillant%27s_Woodpecker_-_Oukaimeden_Marocco_07_6526.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩洛哥-4adc9885",
+      "name": "摩洛哥",
+      "summary": "摩洛哥王国（阿拉伯語：المملكة المغربية，柏柏爾語：ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ），通稱摩洛哥（المغرب；ⵍⵎⵖⵔⵉⴱ），是北非西端马格里布的一个君主立宪制国家。其东部与阿尔及利亚接壤，南部其实际管辖的西撒哈拉地区与…",
+      "lat": "32",
+      "lng": "-6"
+    },
+    {
+      "id": "loc-阿尔及利亚-0afc9337",
+      "name": "阿尔及利亚",
+      "summary": "阿爾及利亞民主人民共和國（阿拉伯語：الجمهورية الجزائرية الديمقراطية الشعبية），通稱阿爾及利亞（الجزائر），是北非马格里布地区的一个半总统制共和国，首都及最大城市为阿尔及尔。阿尔及利亚国土北临地…",
+      "lat": "28",
+      "lng": "2"
+    },
+    {
+      "id": "loc-突尼西亞-ea488375",
+      "name": "突尼西亞",
+      "summary": "突尼西亞共和國（阿拉伯語：الجمهورية التونسية，羅馬化：al-Jumhūrīya at-Tūnisīya），通称突尼斯（阿拉伯語：تونس，羅馬化：Tūnis），是位於北非的國家，首都及最大城市為突尼斯市。此外，突尼斯隶属…",
+      "lat": "34",
+      "lng": "9"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-levaillant-s-woodpecker-64fd4073",
+      "subject": "Levaillant's woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩洛哥-4adc9885",
+      "object": "摩洛哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Levaillant's woodpecker is found in the three Maghreb countries Morocco, Algeria and Tunisia in northwest Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-levaillant-s-woodpecker-64fd4073",
+      "subject": "Levaillant's woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔及利亚-0afc9337",
+      "object": "阿尔及利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Levaillant's woodpecker is found in the three Maghreb countries Morocco, Algeria and Tunisia in northwest Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-levaillant-s-woodpecker-64fd4073",
+      "subject": "Levaillant's woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-突尼西亞-ea488375",
+      "object": "突尼西亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Levaillant's woodpecker is found in the three Maghreb countries Morocco, Algeria and Tunisia in northwest Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-levaillant-s-woodpecker-64fd4073",
+      "subject": "Levaillant's woodpecker",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It breeds in mountain forests up to the treeline at around 2000m",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-levaillant-s-woodpecker-64fd4073",
+      "subject": "Levaillant's woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

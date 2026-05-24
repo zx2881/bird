@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:35:14",
+  "requested_title": "Tickell's Blue Flycatcher",
+  "resolved_title": "Tickell's blue flycatcher",
+  "title_aliases": [
+    "Tickell's Blue Flycatcher"
+  ],
+  "bird_id": "bird-tickell-s-blue-flycatcher-7a089aec",
+  "raw_file": "bird-tickell-s-blue-flycatcher-7a089aec.json",
+  "bird": {
+    "id": "bird-tickell-s-blue-flycatcher-7a089aec",
+    "name": "Tickell's blue flycatcher",
+    "english_name": "Tickell's blue flycatcher",
+    "latin_name": "Cyornis tickelliae",
+    "summary": "Tickell's blue flycatcher (Cyornis tickelliae) is a small passerine bird in the flycatcher family. This is an insectivorous species which b…",
+    "lat": "24",
+    "lng": "90",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tickell%27s_blue_flycatcher_%28Cyornis_tickelliae%29_Photograph_By_Shantanu_Kuveskar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-孟加拉国-ffb382f4",
+      "name": "孟加拉国",
+      "summary": "孟加拉人民共和国（孟加拉語：গণপ্রজাতন্ত্রী বাংলাদেশ，羅馬化：Gaṇaprajātantrī Vāṁlādeśa；英語：People's Republic of Bangladesh），通稱孟加拉国（孟加拉語：বাং…",
+      "lat": "24",
+      "lng": "90"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tickell-s-blue-flycatcher-7a089aec",
+      "subject": "Tickell's blue flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-孟加拉国-ffb382f4",
+      "object": "孟加拉国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This is an insectivorous species which breeds in tropical Asia, from the Indian subcontinent eastwards to Bangladesh and western Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tickell-s-blue-flycatcher-7a089aec",
+      "subject": "Tickell's blue flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This is an insectivorous species which breeds in tropical Asia, from the Indian subcontinent eastwards to Bangladesh and western Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tickell-s-blue-flycatcher-7a089aec",
+      "subject": "Tickell's blue flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

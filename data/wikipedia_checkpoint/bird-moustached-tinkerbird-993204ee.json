@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:56:57",
+  "requested_title": "Moustached Tinkerbird",
+  "resolved_title": "Moustached tinkerbird",
+  "title_aliases": [
+    "Moustached Tinkerbird"
+  ],
+  "bird_id": "bird-moustached-tinkerbird-993204ee",
+  "raw_file": "bird-moustached-tinkerbird-993204ee.json",
+  "bird": {
+    "id": "bird-moustached-tinkerbird-993204ee",
+    "name": "Moustached tinkerbird",
+    "english_name": "Moustached tinkerbird",
+    "latin_name": "Pogoniulus leucomystax",
+    "summary": "The moustached tinkerbird (Pogoniulus leucomystax) is a species of bird in the large Piciformes order in the Lybiidae family. It occurs in…",
+    "lat": "-7.76666667",
+    "lng": "36.81666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Pogoniulus_leucomystax_475914833%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-烏德宗瓦山脈-b8fa363c",
+      "name": "烏德宗瓦山脈",
+      "summary": "烏德宗瓦山脈是東非國家坦桑尼亞的山脈，位於多多馬東南面，是多種野生動物的棲息地，最高點海拔高度2,579米，烏德宗瓦山脈國家公園涵蓋該山脈大部分範圍。 外部連結 TANAPA - Udzungwa Mountains National P…",
+      "lat": "-7.76666667",
+      "lng": "36.81666667"
+    },
+    {
+      "id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "name": "理查德·鮑德勒·夏普",
+      "summary": "理查德·鮑德勒·夏普（英語：Richard Bowdler Sharpe，1847年11月22日—1909年12月25日）是一位英國動物學家兼鳥類學家，於大英博物館擔任鳥類標本的策展人。在其職涯裡，夏普出版了一些有關鳥類的專著，並整理出博…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-moustached-tinkerbird-993204ee",
+      "subject": "Moustached tinkerbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-烏德宗瓦山脈-b8fa363c",
+      "object": "烏德宗瓦山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The moustached tinkerbird (Pogoniulus leucomystax) is a species of bird in the large Piciformes order in the Lybiidae family. It occurs in high-altitude forests in central Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moustached-tinkerbird-993204ee",
+      "subject": "Moustached tinkerbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "object": "理查德·鮑德勒·夏普",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The moustached tinkerbird (Pogoniulus leucomystax) is a species of bird in the large Piciformes order in the Lybiidae family. It occurs in high-altitude forests in central Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moustached-tinkerbird-993204ee",
+      "subject": "Moustached tinkerbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

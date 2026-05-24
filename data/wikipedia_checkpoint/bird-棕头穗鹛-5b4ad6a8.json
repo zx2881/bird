@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:32:40",
+  "requested_title": "Rusty-crowned Babbler",
+  "resolved_title": "Rusty-crowned babbler",
+  "title_aliases": [
+    "Rusty-crowned Babbler"
+  ],
+  "bird_id": "bird-棕头穗鹛-5b4ad6a8",
+  "raw_file": "bird-棕头穗鹛-5b4ad6a8.json",
+  "bird": {
+    "id": "bird-棕头穗鹛-5b4ad6a8",
+    "name": "棕头穗鹛",
+    "english_name": "Rusty-crowned babbler",
+    "latin_name": "Sterrhoptilus capitalis",
+    "summary": "棕头穗鹛（学名：Stachyris capitalis），是画眉科穗鹛属的一种，为菲律宾的特有种。该物种的保护状况被评为无危。 棕头穗鹛的平均体重约为14.9克。栖息地为亚热带或热带的湿润低地林。",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Rusty-crowned_Babbler2.jpg/960px-Rusty-crowned_Babbler2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-棉兰老岛-8649cd6c",
+      "name": "棉兰老岛",
+      "summary": "棉蘭老島（菲律賓文：Mindanao）位于菲律賓群岛南部，是菲律賓第二大島（仅次于吕宋岛），也是世界第19大島。 根據2015年菲律賓人口普查，達沃市是島上人口最多的城市（1,632,991人），三寶顏（861,799）、卡加延德奧羅 （…",
+      "lat": "8",
+      "lng": "125"
+    },
+    {
+      "id": "loc-迪纳加特群岛-9081dee9",
+      "name": "迪纳加特群岛",
+      "summary": "迪纳加特群岛省（英文：Province of Dinagat Islands），菲律賓華人称珍那葛島省，是菲律宾南部一群岛省份，位于莱特湾南部，隔苏里高海峡与莱特岛相望，南为棉兰老岛，总面积1036.3平方公里，人口120813人（200…",
+      "lat": "10.1",
+      "lng": "125.6"
+    },
+    {
+      "id": "loc-巴西兰省-13fd4e16",
+      "name": "巴西兰省",
+      "summary": "Basilan, officially the Province of Basilan (Chavacano: Provincia de Basilan; Yakan: Wilayah Basilanin; Tausug: Wilaya'…",
+      "lat": "7",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕头穗鹛-5b4ad6a8",
+      "subject": "棕头穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the southern Philippines on the islands of Mindanao and Dinagat Islands and Basilan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头穗鹛-5b4ad6a8",
+      "subject": "棕头穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-棉兰老岛-8649cd6c",
+      "object": "棉兰老岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the southern Philippines on the islands of Mindanao and Dinagat Islands and Basilan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头穗鹛-5b4ad6a8",
+      "subject": "棕头穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-迪纳加特群岛-9081dee9",
+      "object": "迪纳加特群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the southern Philippines on the islands of Mindanao and Dinagat Islands and Basilan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头穗鹛-5b4ad6a8",
+      "subject": "棕头穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西兰省-13fd4e16",
+      "object": "巴西兰省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the southern Philippines on the islands of Mindanao and Dinagat Islands and Basilan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头穗鹛-5b4ad6a8",
+      "subject": "棕头穗鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:31:04",
+  "requested_title": "Santa Marta Woodstar",
+  "resolved_title": "Santa Marta woodstar",
+  "title_aliases": [
+    "Santa Marta Woodstar"
+  ],
+  "bird_id": "bird-圣马林蜂鸟-bc1ef933",
+  "raw_file": "bird-圣马林蜂鸟-bc1ef933.json",
+  "bird": {
+    "id": "bird-圣马林蜂鸟-bc1ef933",
+    "name": "圣马林蜂鸟",
+    "english_name": "Santa Marta woodstar",
+    "latin_name": "Chaetocercus astreans",
+    "summary": "圣马林蜂鸟（台湾作聖塔馬塔林星蜂鳥，学名：Chaetocercus astreans），是雨燕目蜂鸟科的一种鸟类。 圣马林蜂鸟体重约2克，翼长约33.7毫米，嘴峰长约15.7毫米，喙宽度约1.2毫米，喙厚度约1.3毫米，跗蹠长约4毫米，尾长约16毫米。圣马林蜂鸟在其分布区内为留…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Chaetocercus_astreans.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-圣马林蜂鸟-bc1ef933",
+      "subject": "圣马林蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the edges of montane forest, semi-open woodlands, and coffee plantations, and occasionally visits the lower parts of the páramo",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-圣马林蜂鸟-bc1ef933",
+      "subject": "圣马林蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-圣马林蜂鸟-bc1ef933",
+      "subject": "圣马林蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Though it has a limited range and its population size is unknown, the latter is believed to be stable. It is considered locally common and readily accepts some human-altered landscapes like coffee plantations, though some of its natural habitat is under threat of deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:26:22",
+  "requested_title": "Micronesian Starling",
+  "resolved_title": "Micronesian starling",
+  "title_aliases": [
+    "Micronesian Starling"
+  ],
+  "bird_id": "bird-micronesian-starling-c3e7071e",
+  "raw_file": "bird-micronesian-starling-c3e7071e.json",
+  "bird": {
+    "id": "bird-micronesian-starling-c3e7071e",
+    "name": "Micronesian starling",
+    "english_name": "Micronesian starling",
+    "latin_name": "Aplonis opaca",
+    "summary": "The Micronesian starling (Aplonis opaca) is a species of starling in the family Sturnidae. It is found in Micronesia, from the Northern Mar…",
+    "lat": "16.705",
+    "lng": "145.78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Aplonis_opaca.jpg/960px-Aplonis_opaca.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北马里亚纳群岛-9315d617",
+      "name": "北马里亚纳群岛",
+      "summary": "北马里亚纳群岛自由邦（英語：Commonwealth of the Northern Mariana Islands，缩写为CNMI；查莫羅語：Sankattan Siha Na Islas Mariånas；加羅林語：Commonwea…",
+      "lat": "16.705",
+      "lng": "145.78"
+    },
+    {
+      "id": "loc-帛琉-af1d81ef",
+      "name": "帛琉",
+      "summary": "帛琉共和國（英語：Republic of Palau；帕勞語：Beluu er a Belau；日語：パラオ共和国，羅馬化：Parao Kyōwakoku），通稱帛琉或帕勞（Palau，旧称Belau或Pelew）是位于西太平洋的岛嶼国家…",
+      "lat": "7.5",
+      "lng": "134.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-micronesian-starling-c3e7071e",
+      "subject": "Micronesian starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-北马里亚纳群岛-9315d617",
+      "object": "北马里亚纳群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Micronesia, from the Northern Mariana Islands to Palau and all the way into eastern Micronesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-micronesian-starling-c3e7071e",
+      "subject": "Micronesian starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-帛琉-af1d81ef",
+      "object": "帛琉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Micronesia, from the Northern Mariana Islands to Palau and all the way into eastern Micronesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-micronesian-starling-c3e7071e",
+      "subject": "Micronesian starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

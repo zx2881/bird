@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:25:05",
+  "requested_title": "Kai Besar White-eye",
+  "resolved_title": "Kai Besar white-eye",
+  "title_aliases": [
+    "Kai Besar White-eye"
+  ],
+  "bird_id": "bird-kai-besar-white-eye-cced776b",
+  "raw_file": "bird-kai-besar-white-eye-cced776b.json",
+  "bird": {
+    "id": "bird-kai-besar-white-eye-cced776b",
+    "name": "Kai Besar white-eye",
+    "english_name": "Kai Besar white-eye",
+    "latin_name": "Zosterops grayi",
+    "summary": "The Kai Besar white-eye (Zosterops grayi), also known as the pearl-bellied white-eye, is a species of bird in the family Zosteropidae. It i…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Zosterops_grayi_-_James_Eaton_-_440527520.jpeg/960px-Zosterops_grayi_-_James_Eaton_-_440527520.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡伊群島-ab0f63e9",
+      "name": "卡伊群島",
+      "summary": "卡伊群島是是印度尼西亞馬魯古省東南部的群島，土地總面積1,438平方公里，位於班達海邊緣，北面是新畿內亞多貝拉伊半島，東面是阿魯群島，西南面是塔寧巴爾群島，群島上的本土哺乳類動物不多。",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-kai-besar-white-eye-cced776b",
+      "subject": "Kai Besar white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡伊群島-ab0f63e9",
+      "object": "卡伊群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Kai Islands in Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kai-besar-white-eye-cced776b",
+      "subject": "Kai Besar white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Kai Islands in Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kai-besar-white-eye-cced776b",
+      "subject": "Kai Besar white-eye",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-kai-besar-white-eye-cced776b",
+      "subject": "Kai Besar white-eye",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

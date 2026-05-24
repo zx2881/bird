@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:03:28",
+  "requested_title": "Versicolored Emerald",
+  "resolved_title": "Versicolored emerald",
+  "title_aliases": [
+    "Versicolored Emerald"
+  ],
+  "bird_id": "bird-虹彩蜂鸟-18f38715",
+  "raw_file": "bird-虹彩蜂鸟-18f38715.json",
+  "bird": {
+    "id": "bird-虹彩蜂鸟-18f38715",
+    "name": "虹彩蜂鸟",
+    "english_name": "Versicolored emerald",
+    "latin_name": "Chrysuronia versicolor",
+    "summary": "虹彩蜂鸟（学名：Chrysuronia versicolor），是雨燕目蜂鸟科的一种鸟类。 虹彩蜂鸟体重约4.1克，翼长约48.2毫米，嘴峰长约19.1毫米，喙宽度约1.8毫米，喙厚度约2毫米，跗蹠长约4.3毫米，尾长约29毫米。虹彩蜂鸟在其分布区内为留鸟，其栖息在密集的高大树…",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Amazilia_versicolor_001_1280.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    },
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-虹彩蜂鸟-18f38715",
+      "subject": "虹彩蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in northern Bolivia, eastern Paraguay, far north-eastern Argentina, and eastern, southern and central Brazil, being absent from the arid Caatinga and most of the Amazon Basin, although locally extending into this region in the south-east and along major rivers (e.g",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-虹彩蜂鸟-18f38715",
+      "subject": "虹彩蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in northern Bolivia, eastern Paraguay, far north-eastern Argentina, and eastern, southern and central Brazil, being absent from the arid Caatinga and most of the Amazon Basin, although locally extending into this region in the south-east and along major rivers (e.g",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-虹彩蜂鸟-18f38715",
+      "subject": "虹彩蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:54:38",
+  "requested_title": "Bismarck Black Myzomela",
+  "resolved_title": "Bismarck black myzomela",
+  "title_aliases": [
+    "Bismarck Black Myzomela"
+  ],
+  "bird_id": "bird-bismarck-black-myzomela-fa336795",
+  "raw_file": "bird-bismarck-black-myzomela-fa336795.json",
+  "bird": {
+    "id": "bird-bismarck-black-myzomela-fa336795",
+    "name": "Bismarck black myzomela",
+    "english_name": "Bismarck black myzomela",
+    "latin_name": "Myzomela pammelaena",
+    "summary": "The Bismarck black myzomela (Myzomela pammelaena) or ebony myzomela, is a species of bird in the Meliphagidae or honeyeater family. It is n…",
+    "lat": "-2.1",
+    "lng": "146.95",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Myzomela_pammelaena_01.jpg/960px-Myzomela_pammelaena_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿德默勒尔蒂群岛-bd0a6aef",
+      "name": "阿德默勒尔蒂群岛",
+      "summary": "阿德默勒尔蒂群岛（Admiralty Islands）是位于太平洋西南的岛群，属于俾斯麦群岛的一部分。位于新几内亚东北海洋中。包括主岛马努斯岛和其他23个火山岛、珊瑚岛。陆地面积2072平方公里。人口约2.8万。行政上隸屬于巴布亚新几内亚…",
+      "lat": "-2.1",
+      "lng": "146.95"
+    },
+    {
+      "id": "loc-圣马提亚群岛-16fe2281",
+      "name": "圣马提亚群岛",
+      "summary": "圣马提亚群岛是巴布亞新畿內亞新愛爾蘭省的群島，位於新愛爾蘭島以北的太平洋海域，屬於俾斯麥群島的一部分，由穆紹島和另7座火山島組成。",
+      "lat": "-1.58333333",
+      "lng": "149.81666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bismarck-black-myzomela-fa336795",
+      "subject": "Bismarck black myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿德默勒尔蒂群岛-bd0a6aef",
+      "object": "阿德默勒尔蒂群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Admiralty and St Matthias islands (Bismarck Islands, Papua New Guinea)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bismarck-black-myzomela-fa336795",
+      "subject": "Bismarck black myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣马提亚群岛-16fe2281",
+      "object": "圣马提亚群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Admiralty and St Matthias islands (Bismarck Islands, Papua New Guinea)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bismarck-black-myzomela-fa336795",
+      "subject": "Bismarck black myzomela",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

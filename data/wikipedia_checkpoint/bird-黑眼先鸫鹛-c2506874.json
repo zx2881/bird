@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:55:22",
+  "requested_title": "Black-lored Babbler",
+  "resolved_title": "Black-lored babbler",
+  "title_aliases": [
+    "Black-lored Babbler"
+  ],
+  "bird_id": "bird-黑眼先鸫鹛-c2506874",
+  "raw_file": "bird-黑眼先鸫鹛-c2506874.json",
+  "bird": {
+    "id": "bird-黑眼先鸫鹛-c2506874",
+    "name": "黑眼先鸫鹛",
+    "english_name": "Black-lored babbler",
+    "latin_name": "Turdoides sharpei",
+    "summary": "黑眼先鸫鹛（学名：Turdoides sharpei），是雀形目噪鹛科的一种鸟类。 黑眼先鸫鹛体重约79.3克，翼长约112.2毫米，嘴峰长约23毫米，喙宽度约4.4毫米，喙厚度约6.4毫米，跗蹠长约36.2毫米，尾长约108.7毫米。黑眼先鸫鹛在其分布区内为留鸟，其栖息在半开…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Black_Lored_Babbler.jpg/960px-Black_Lored_Babbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑眼先鸫鹛-c2506874",
+      "subject": "黑眼先鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southwestern Kenya,{{cite book |author1=Zimmerman, Dale A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑眼先鸫鹛-c2506874",
+      "subject": "黑眼先鸫鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

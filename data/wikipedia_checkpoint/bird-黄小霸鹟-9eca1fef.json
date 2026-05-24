@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:38:12",
+  "requested_title": "Yellow Tyrannulet",
+  "resolved_title": "Yellow tyrannulet",
+  "title_aliases": [
+    "Yellow Tyrannulet"
+  ],
+  "bird_id": "bird-黄小霸鹟-9eca1fef",
+  "raw_file": "bird-黄小霸鹟-9eca1fef.json",
+  "bird": {
+    "id": "bird-黄小霸鹟-9eca1fef",
+    "name": "黄小霸鹟",
+    "english_name": "Yellow tyrannulet",
+    "latin_name": "Capsiempis flaveola",
+    "summary": "黄小霸鹟（台湾作黃色姬霸鶲，学名：Capsiempis flaveola），是雀形目霸鹟科的一种鸟类，属于单型的黄小霸鹟属（学名：Capsiempis）。 黄小霸鹟体重约7.7克，翼长约49毫米，喙宽度约4毫米，喙厚度约3.1毫米，嘴峰长约10.8毫米，跗蹠长约16毫米，尾长约…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Capsiempis_flaveola_-Costa_Rica-8_%281%29.jpg/960px-Capsiempis_flaveola_-Costa_Rica-8_%281%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄小霸鹟-9eca1fef",
+      "subject": "黄小霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in dense secondary forest, scrubby overgrown pastures and coffee plantations, and mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄小霸鹟-9eca1fef",
+      "subject": "黄小霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In some areas it occurs in gallery forest and in Brazil in restinga",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄小霸鹟-9eca1fef",
+      "subject": "黄小霸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

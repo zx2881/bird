@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:20:29",
+  "requested_title": "Long-tailed Meadowlark",
+  "resolved_title": "Long-tailed meadowlark",
+  "title_aliases": [
+    "Long-tailed Meadowlark"
+  ],
+  "bird_id": "bird-長尾草地鷚-7ad60d27",
+  "raw_file": "bird-長尾草地鷚-7ad60d27.json",
+  "bird": {
+    "id": "bird-長尾草地鷚-7ad60d27",
+    "name": "長尾草地鷚",
+    "english_name": "Long-tailed meadowlark",
+    "latin_name": "Leistes loyca",
+    "summary": "長尾草地鷚（學名：Sturnella loyca）是草地鷚屬下的一種鳥，生活在南美洲及福克蘭群島地區。在智利南部和阿根廷西部及南部地區繁殖。其下有一個亞種，即生活在福克蘭群島的S. loyca falklandica。生活在開闊草地上，主要以昆蟲為食。",
+    "lat": "-34",
+    "lng": "-71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Long-tailed_meadowlark_%28Leistes_loyca_loyca%29_breeding_male_Leona_Amarga.jpg/960px-Long-tailed_meadowlark_%28Leistes_loyca_loyca%29_breeding_male_Leona_Amarga.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    },
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-福克兰群岛-c4142579",
+      "name": "福克兰群岛",
+      "summary": "福克兰羣岛（英語：Falkland Islands，/ˈfɔːklənd, ˈfɔːl-, ˈfɒl-/），阿根廷称馬維納斯羣岛（西班牙語：Islas Malvinas，西班牙語發音：[ˈizlaz malˈβinas]），是位于南大西洋…",
+      "lat": "-51.73",
+      "lng": "-59.22"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-長尾草地鷚-7ad60d27",
+      "subject": "長尾草地鷚",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Chile and southern and western parts of Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-長尾草地鷚-7ad60d27",
+      "subject": "長尾草地鷚",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Chile and southern and western parts of Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-長尾草地鷚-7ad60d27",
+      "subject": "長尾草地鷚",
+      "predicate": "distributed_in",
+      "object_id": "loc-福克兰群岛-c4142579",
+      "object": "福克兰群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "loyca falklandica, occurs in the Falkland Islands, where it is known as the military starling. Long-tailed meadowlarks are found in open habitats such as grassland where they forage on the ground, feeding mainly on invertebrates",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-長尾草地鷚-7ad60d27",
+      "subject": "長尾草地鷚",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "loyca falklandica, occurs in the Falkland Islands, where it is known as the military starling. Long-tailed meadowlarks are found in open habitats such as grassland where they forage on the ground, feeding mainly on invertebrates",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-長尾草地鷚-7ad60d27",
+      "subject": "長尾草地鷚",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

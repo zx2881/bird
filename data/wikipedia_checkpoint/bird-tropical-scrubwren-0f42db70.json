@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:48:03",
+  "requested_title": "Tropical Scrubwren",
+  "resolved_title": "Tropical scrubwren",
+  "title_aliases": [
+    "Tropical Scrubwren"
+  ],
+  "bird_id": "bird-tropical-scrubwren-0f42db70",
+  "raw_file": "bird-tropical-scrubwren-0f42db70.json",
+  "bird": {
+    "id": "bird-tropical-scrubwren-0f42db70",
+    "name": "Tropical scrubwren",
+    "english_name": "Tropical scrubwren",
+    "latin_name": "Sericornis beccarii",
+    "summary": "The tropical scrubwren or Beccari's scrubwren (Sericornis beccarii) is a bird species. Placed in the family Pardalotidae in the Sibley-Ahlq…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sericornis_beccarii_-_The_Birds_of_New_Guinea_%28cropped%29.jpg/960px-Sericornis_beccarii_-_The_Birds_of_New_Guinea_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-阿魯群島-c5d8ff7a",
+      "name": "阿魯群島",
+      "summary": "阿魯群島（印尼语：Kepulauan Aru）是大洋洲的一組约95个低窪島嶼组成的群岛，位於印尼東部的馬魯古省，同时也是马鲁古省下的一个县。 行政区划 行政上，阿鲁群岛属于阿鲁群岛县（印尼语：Kabupaten Kepulauan Aru…",
+      "lat": "-6.2",
+      "lng": "134.5"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tropical-scrubwren-0f42db70",
+      "subject": "Tropical scrubwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in tropical moist forests of north-eastern Australia including Queensland, the Aru Islands and southern New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tropical-scrubwren-0f42db70",
+      "subject": "Tropical scrubwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿魯群島-c5d8ff7a",
+      "object": "阿魯群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in tropical moist forests of north-eastern Australia including Queensland, the Aru Islands and southern New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tropical-scrubwren-0f42db70",
+      "subject": "Tropical scrubwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in tropical moist forests of north-eastern Australia including Queensland, the Aru Islands and southern New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tropical-scrubwren-0f42db70",
+      "subject": "Tropical scrubwren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

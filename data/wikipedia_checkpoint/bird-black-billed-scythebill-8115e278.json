@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:17:01",
+  "requested_title": "Black-billed Scythebill",
+  "resolved_title": "Black-billed scythebill",
+  "title_aliases": [
+    "Black-billed Scythebill"
+  ],
+  "bird_id": "bird-black-billed-scythebill-8115e278",
+  "raw_file": "bird-black-billed-scythebill-8115e278.json",
+  "bird": {
+    "id": "bird-black-billed-scythebill-8115e278",
+    "name": "Black-billed scythebill",
+    "english_name": "Black-billed scythebill",
+    "latin_name": "Campylorhamphus falcularius",
+    "summary": "The black-billed scythebill (Campylorhamphus falcularius) is a species of bird in the subfamily Dendrocolaptinae of the ovenbird family Fur…",
+    "lat": "-16.5",
+    "lng": "-39.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/ARAPA%C3%87U-DE-BICO-TORTO_%28Campylorhamphus_falcularius%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大西洋沿岸森林-b6837c90",
+      "name": "大西洋沿岸森林",
+      "summary": "大西洋沿岸森林 （葡萄牙語：Mata Atlântica）是一片涵盖热带亚热带湿润阔叶林、热带亚热带干旱阔叶林、熱帶亞熱帶草地、稀樹草原和疏灌叢和红树林于一体的热带雨林保护区，位于巴西大西洋沿岸，最北到达北里约格朗德州，最南到达南里奥格兰…",
+      "lat": "-16.5",
+      "lng": "-39.25"
+    },
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-billed-scythebill-8115e278",
+      "subject": "Black-billed scythebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋沿岸森林-b6837c90",
+      "object": "大西洋沿岸森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Atlantic Forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-scythebill-8115e278",
+      "subject": "Black-billed scythebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits the humid and semi-deciduous Atlantic Forest but its range also extends into drier caatinga and cerrado where forest penetrates them",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-scythebill-8115e278",
+      "subject": "Black-billed scythebill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

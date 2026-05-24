@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:32:59",
+  "requested_title": "Bahia Spinetail",
+  "resolved_title": "Bahia spinetail",
+  "title_aliases": [
+    "Bahia Spinetail"
+  ],
+  "bird_id": "bird-bahia-spinetail-c094b03a",
+  "raw_file": "bird-bahia-spinetail-c094b03a.json",
+  "bird": {
+    "id": "bird-bahia-spinetail-c094b03a",
+    "name": "Bahia spinetail",
+    "english_name": "Bahia spinetail",
+    "latin_name": "Synallaxis cinerea",
+    "summary": "The Bahia spinetail (Synallaxis cinerea) is a Near Threatened species of bird in the Furnariinae subfamily of the ovenbird family Furnariid…",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Synallaxis_cinerea_-_Bahia_Spinetail%3B_Boa_Nova%2C_Bahia%2C_Brazil.jpg/960px-Synallaxis_cinerea_-_Bahia_Spinetail%3B_Boa_Nova%2C_Bahia%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    },
+    {
+      "id": "loc-米纳斯吉拉斯州-f090fcd8",
+      "name": "米纳斯吉拉斯州",
+      "summary": "米纳斯吉拉斯州（葡萄牙語：Minas Gerais，[ˈminɐz ʒeˈɾajs] ；直译：「一般〔普通〕的矿山」）是巴西东南部一个州，人口约两千万。是巴西第二人口大州，国内生产总值也排名全国第三。该州以山、瀑布、历史名城、宝石，以及盛…",
+      "lat": "-19.78222222",
+      "lng": "-43.95138889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bahia-spinetail-c094b03a",
+      "subject": "Bahia spinetail",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bahia spinetail is found in eastern Brazil, in a very small area spanning southern Bahia and northeastern Minas Gerais",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-spinetail-c094b03a",
+      "subject": "Bahia spinetail",
+      "predicate": "distributed_in",
+      "object_id": "loc-米纳斯吉拉斯州-f090fcd8",
+      "object": "米纳斯吉拉斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bahia spinetail is found in eastern Brazil, in a very small area spanning southern Bahia and northeastern Minas Gerais",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-spinetail-c094b03a",
+      "subject": "Bahia spinetail",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-bahia-spinetail-c094b03a",
+      "subject": "Bahia spinetail",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its habitat is badly fragmented and under pressure from forest clearing for agriculture, ranching, and logging",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

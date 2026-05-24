@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:04:53",
+  "requested_title": "Australian Logrunner",
+  "resolved_title": "Australian logrunner",
+  "title_aliases": [
+    "Australian Logrunner"
+  ],
+  "bird_id": "bird-刺尾鸫-0f9e9993",
+  "raw_file": "bird-刺尾鸫-0f9e9993.json",
+  "bird": {
+    "id": "bird-刺尾鸫-0f9e9993",
+    "name": "刺尾鸫",
+    "english_name": "Australian logrunner",
+    "latin_name": "Orthonyx temminckii",
+    "summary": "刺尾鸫（台湾作南方針尾木鶇，学名：Orthonyx temminckii），是雀形目刺尾鸫科的一种鸟类。 刺尾鸫体重约58.06克，翼长约88.1毫米，嘴峰长约15.7毫米，喙宽度约3.5毫米，喙厚度约5毫米，跗蹠长约29.9毫米，尾长约84.7毫米。刺尾鸫在其分布区内为留鸟，…",
+    "lat": "-26.83333333",
+    "lng": "151.55",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Australian_Logrunner_male.jpg/960px-Australian_Logrunner_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伊拉瓦拉-13108589",
+      "name": "伊拉瓦拉",
+      "summary": "伊拉瓦拉（英語：Illawarra）为澳洲新南威尔士州首府城市悉尼南部的一个临海区域，位于悉尼都会区（北）与肖尔黑文地区（南）之间。地区内最大城市为卧龙岗。 该地区名称可能源于当地原住民语言，意为“临海的高地”。地区内主要是沿海的平原地形…",
+      "lat": "-34.5",
+      "lng": "150.9"
+    },
+    {
+      "id": "loc-bunya-mountains-87a69fa0",
+      "name": "Bunya Mountains",
+      "summary": "The Bunya Mountains are a distinctive set of peaks forming an isolated section of the Great Dividing Range in southern…",
+      "lat": "-26.83333333",
+      "lng": "151.55"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-刺尾鸫-0f9e9993",
+      "subject": "刺尾鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊拉瓦拉-13108589",
+      "object": "伊拉瓦拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Australian logrunner is found in South Eastern Australia from the Illawarra district in NSW to the Bunya Mountains in Queensland.BOLES, W",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-刺尾鸫-0f9e9993",
+      "subject": "刺尾鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-bunya-mountains-87a69fa0",
+      "object": "Bunya Mountains",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Australian logrunner is found in South Eastern Australia from the Illawarra district in NSW to the Bunya Mountains in Queensland.BOLES, W",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-刺尾鸫-0f9e9993",
+      "subject": "刺尾鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

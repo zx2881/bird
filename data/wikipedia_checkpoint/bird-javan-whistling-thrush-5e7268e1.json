@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:52:40",
+  "requested_title": "Javan Whistling Thrush",
+  "resolved_title": "Javan whistling thrush",
+  "title_aliases": [
+    "Javan Whistling Thrush"
+  ],
+  "bird_id": "bird-javan-whistling-thrush-5e7268e1",
+  "raw_file": "bird-javan-whistling-thrush-5e7268e1.json",
+  "bird": {
+    "id": "bird-javan-whistling-thrush-5e7268e1",
+    "name": "Javan whistling thrush",
+    "english_name": "Javan whistling thrush",
+    "latin_name": "Myophonus glaucinus",
+    "summary": "The Javan whistling thrush (Myophonus glaucinus) is a species of bird in the family Muscicapidae. It is found in Java and Bali.",
+    "lat": "-7.49166667",
+    "lng": "110.00444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Myophonus_glaucinus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-javan-whistling-thrush-5e7268e1",
+      "subject": "Javan whistling thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Java and Bali",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-javan-whistling-thrush-5e7268e1",
+      "subject": "Javan whistling thrush",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-javan-whistling-thrush-5e7268e1",
+      "subject": "Javan whistling thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

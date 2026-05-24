@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:48:42",
+  "requested_title": "Black Paradise Flycatcher",
+  "resolved_title": "Black paradise flycatcher",
+  "title_aliases": [
+    "Black Paradise Flycatcher"
+  ],
+  "bird_id": "bird-紫寿带鸟-23d6f011",
+  "raw_file": "bird-紫寿带鸟-23d6f011.json",
+  "bird": {
+    "id": "bird-紫寿带鸟-23d6f011",
+    "name": "紫寿带鸟",
+    "english_name": "Black paradise flycatcher",
+    "latin_name": "Terpsiphone atrocaudata",
+    "summary": "紫壽帶鳥（學名：Terpsiphone atrocaudata），又名紫绶带、黑綬帶鳥，是中型的雀形目王鶲科鳥類。 紫壽帶鳥是候鳥，於日本、南韓、台灣及菲律賓北部的陰涼闊葉森林中繁殖。牠們遷徙經過亦會在中國東部、澳門、香港，南遷至泰國、老撾、越南、菲律賓、馬來西亞、新加坡及蘇門…",
+    "lat": "35.01161",
+    "lng": "135.76811",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/ITerpsiphone_atrocaudata.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-京都市-2675ffdf",
+      "name": "京都市",
+      "summary": "京都市（日語：京都市，日語發音：[kʲoːto] ）是位於日本京都府南部的城市，為京都府府治，也是政令指定都市之一。京都市的面積為827.83平方公里，下轄11個區，2020年時有人口1,467,856人，是日本人口第八多的都市。京都市還…",
+      "lat": "35.01161",
+      "lng": "135.76811"
+    },
+    {
+      "id": "loc-thomas-campbell-eyton-7c85e918",
+      "name": "Thomas Campbell Eyton",
+      "summary": "Thomas Campbell Eyton JP, DL (10 September 1809 – 25 October 1880) was an English naturalist whose fields were cattle,…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫寿带鸟-23d6f011",
+      "subject": "紫寿带鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-京都市-2675ffdf",
+      "object": "京都市",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black paradise flycatcher (Terpsiphone atrocaudata), also known as the Japanese paradise flycatcher, is a medium-sized passerine bird native to southeastern Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫寿带鸟-23d6f011",
+      "subject": "紫寿带鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-thomas-campbell-eyton-7c85e918",
+      "object": "Thomas Campbell Eyton",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black paradise flycatcher (Terpsiphone atrocaudata), also known as the Japanese paradise flycatcher, is a medium-sized passerine bird native to southeastern Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫寿带鸟-23d6f011",
+      "subject": "紫寿带鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

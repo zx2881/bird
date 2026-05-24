@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:29:38",
+  "requested_title": "Spotted Tody-Flycatcher",
+  "resolved_title": "Spotted tody-flycatcher",
+  "title_aliases": [
+    "Spotted Tody-Flycatcher"
+  ],
+  "bird_id": "bird-spotted-tody-flycatcher-21b72608",
+  "raw_file": "bird-spotted-tody-flycatcher-21b72608.json",
+  "bird": {
+    "id": "bird-spotted-tody-flycatcher-21b72608",
+    "name": "Spotted tody-flycatcher",
+    "english_name": "Spotted tody-flycatcher",
+    "latin_name": "Todirostrum maculatum",
+    "summary": "The spotted tody-flycatcher (Todirostrum maculatum) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is found on T…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Todirostrum_maculatum_JJK%271.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-河迹湖-df1de2e3",
+      "name": "河迹湖",
+      "summary": "河迹湖，又稱牛軛湖、马蹄湖，是由于河流的变迁或改道，曲形河道自行截弯取直后留下的旧河道所形成之湖泊。这类湖泊多呈弯月形、水深较淺。在美國德克薩斯州南部，格蘭德河改道後所留下河迹湖被稱為「惋曲湖」（Resaca）。而在澳洲，河迹湖被稱為「比…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-spotted-tody-flycatcher-21b72608",
+      "subject": "Spotted tody-flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-河迹湖-df1de2e3",
+      "object": "河迹湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted tody-flycatcher primarily inhabits wet landscapes such as mangroves along the northern coast, and in the interior in dense thickets along oxbow lakes, small and medium-size watercourses, and major rivers and their islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-tody-flycatcher-21b72608",
+      "subject": "Spotted tody-flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

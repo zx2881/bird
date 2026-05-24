@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:23:28",
+  "requested_title": "Rüppell's Black Chat",
+  "resolved_title": "Rüppell's black chat",
+  "title_aliases": [
+    "Rüppell's Black Chat"
+  ],
+  "bird_id": "bird-r-ppell-s-black-chat-2a2537b1",
+  "raw_file": "bird-r-ppell-s-black-chat-2a2537b1.json",
+  "bird": {
+    "id": "bird-r-ppell-s-black-chat-2a2537b1",
+    "name": "Rüppell's black chat",
+    "english_name": "Rüppell's black chat",
+    "latin_name": "Myrmecocichla melaena",
+    "summary": "Rüppell's black chat (Myrmecocichla melaena) is a species of bird in the family Muscicapidae. It is found in the Ethiopian Highlands of Eri…",
+    "lat": "10.705775",
+    "lng": "37.849282",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Myrmecocichla_melaena%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-衣索比亞高原-20c47310",
+      "name": "衣索比亞高原",
+      "summary": "衣索比亞高原（又譯埃塞俄比亞高地）是非洲國家埃塞俄比亞、厄立特里亞和索馬里的一個高原，由一群堅固且大規模的山構成，在非洲之角的索馬里北部及衣索比亞。它有時也被稱為“非洲屋脊”（Roof of Africa），因為它的高度和很大的面積。 衣…",
+      "lat": "10.705775",
+      "lng": "37.849282"
+    },
+    {
+      "id": "loc-厄立特里亚-7ee8b9af",
+      "name": "厄立特里亚",
+      "summary": "厄立特里亚国（英語：State of Eritrea，提格利尼亞語：ሃገረ ኤርትራ，阿拉伯語：دولة إرتريا）， 通稱厄利垂亞，是位於非洲東北部的国家，濒临红海，面积11.7万平方公里，人口約368萬人（2024年），首都为阿斯…",
+      "lat": "15",
+      "lng": "39"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-r-ppell-s-black-chat-2a2537b1",
+      "subject": "Rüppell's black chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-衣索比亞高原-20c47310",
+      "object": "衣索比亞高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Ethiopian Highlands of Eritrea and Ethiopia from 1,800 to 2,700 metres elevation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-r-ppell-s-black-chat-2a2537b1",
+      "subject": "Rüppell's black chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄立特里亚-7ee8b9af",
+      "object": "厄立特里亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Ethiopian Highlands of Eritrea and Ethiopia from 1,800 to 2,700 metres elevation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-r-ppell-s-black-chat-2a2537b1",
+      "subject": "Rüppell's black chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Ethiopian Highlands of Eritrea and Ethiopia from 1,800 to 2,700 metres elevation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-r-ppell-s-black-chat-2a2537b1",
+      "subject": "Rüppell's black chat",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

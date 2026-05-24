@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:24:42",
+  "requested_title": "Tamaulipas Pygmy Owl",
+  "resolved_title": "Tamaulipas pygmy owl",
+  "title_aliases": [
+    "Tamaulipas Pygmy Owl"
+  ],
+  "bird_id": "bird-tamaulipas-pygmy-owl-b3abbc1a",
+  "raw_file": "bird-tamaulipas-pygmy-owl-b3abbc1a.json",
+  "bird": {
+    "id": "bird-tamaulipas-pygmy-owl-b3abbc1a",
+    "name": "Tamaulipas pygmy owl",
+    "english_name": "Tamaulipas pygmy owl",
+    "latin_name": "Glaucidium sanchezi",
+    "summary": "The Tamaulipas pygmy owl (Glaucidium sanchezi) is a species of owl in the family Strigidae. It is endemic to Mexico.",
+    "lat": "22.6",
+    "lng": "-100.43333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Glaucidium_sanchezi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-聖路易斯波托西州-e81591ab",
+      "name": "聖路易斯波托西州",
+      "summary": "San Luis Potosí, officially the Free and Sovereign State of San Luis Potosí, is one of the 32 states which compose the…",
+      "lat": "22.6",
+      "lng": "-100.43333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tamaulipas-pygmy-owl-b3abbc1a",
+      "subject": "Tamaulipas pygmy owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-聖路易斯波托西州-e81591ab",
+      "object": "聖路易斯波托西州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tamaulipas pygmy owl is endemic to Mexico where it is only found in the mountains of northeastern Mexico, in the northern part of the state of Hidalgo and the southeastern part of the state of San Luis Potosí. Its habitat is moist evergreen forest, montane forest and cloud forest at altitudes between about",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tamaulipas-pygmy-owl-b3abbc1a",
+      "subject": "Tamaulipas pygmy owl",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "However, at , it is slightly heavier than the long-whiskered owlet and the elf owl. Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-tamaulipas-pygmy-owl-b3abbc1a",
+      "subject": "Tamaulipas pygmy owl",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Tamaulipas pygmy owl is endemic to Mexico where it is only found in the mountains of northeastern Mexico, in the northern part of the state of Hidalgo and the southeastern part of the state of San Luis Potosí. Its habitat is moist evergreen forest, montane forest and cloud forest at altitudes between about",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-tamaulipas-pygmy-owl-b3abbc1a",
+      "subject": "Tamaulipas pygmy owl",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

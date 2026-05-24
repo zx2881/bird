@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:40:13",
+  "requested_title": "Rouget's Rail",
+  "resolved_title": "Rouget's rail",
+  "title_aliases": [
+    "Rouget's Rail"
+  ],
+  "bird_id": "bird-鲁氏秧鸡-08c9d87f",
+  "raw_file": "bird-鲁氏秧鸡-08c9d87f.json",
+  "bird": {
+    "id": "bird-鲁氏秧鸡-08c9d87f",
+    "name": "鲁氏秧鸡",
+    "english_name": "Rouget's rail",
+    "latin_name": "Rougetius rougetii",
+    "summary": "鲁氏秧鸡（台湾作高地秧雞，学名：Rougetius rougetii），是鹤形目秧鸡科的一种鸟类。 特征 鲁氏秧鸡体重约193.39克，翼长约12.84厘米，喙宽度约4.1毫米，喙厚度约6.6毫米，嘴峰长约34.1毫米，跗蹠长约49.2毫米，尾长约47.6毫米。鲁氏秧鸡是留鸟，…",
+    "lat": "15",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Rougetius_rougetii.jpg/960px-Rougetius_rougetii.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-厄立特里亚-7ee8b9af",
+      "name": "厄立特里亚",
+      "summary": "厄立特里亚国（英語：State of Eritrea，提格利尼亞語：ሃገረ ኤርትራ，阿拉伯語：دولة إرتريا）， 通稱厄利垂亞，是位於非洲東北部的国家，濒临红海，面积11.7万平方公里，人口約368萬人（2024年），首都为阿斯…",
+      "lat": "15",
+      "lng": "39"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鲁氏秧鸡-08c9d87f",
+      "subject": "鲁氏秧鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄立特里亚-7ee8b9af",
+      "object": "厄立特里亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eritrea and Ethiopia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鲁氏秧鸡-08c9d87f",
+      "subject": "鲁氏秧鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eritrea and Ethiopia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鲁氏秧鸡-08c9d87f",
+      "subject": "鲁氏秧鸡",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:18:15",
+  "requested_title": "Tropical Mockingbird",
+  "resolved_title": "Tropical mockingbird",
+  "title_aliases": [
+    "Tropical Mockingbird"
+  ],
+  "bird_id": "bird-tropical-mockingbird-2e915d8b",
+  "raw_file": "bird-tropical-mockingbird-2e915d8b.json",
+  "bird": {
+    "id": "bird-tropical-mockingbird-2e915d8b",
+    "name": "Tropical mockingbird",
+    "english_name": "Tropical mockingbird",
+    "latin_name": "Mimus gilvus",
+    "summary": "The tropical mockingbird (Mimus gilvus) is a resident breeding bird from southern Mexico to northern and eastern South America and in the L…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/TropicalMockingbird.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-tropical-mockingbird-2e915d8b",
+      "subject": "Tropical mockingbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-tropical-mockingbird-2e915d8b",
+      "subject": "Tropical mockingbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its range has expanded in some areas, such as northward in the Lesser Antilles, but has contracted in southeastern Brazil due to habitat loss and illegal trapping",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

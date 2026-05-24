@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:46:24",
+  "requested_title": "Rufous-lored Kingfisher",
+  "resolved_title": "Rufous-lored kingfisher",
+  "title_aliases": [
+    "Rufous-lored Kingfisher"
+  ],
+  "bird_id": "bird-rufous-lored-kingfisher-1b5adea5",
+  "raw_file": "bird-rufous-lored-kingfisher-1b5adea5.json",
+  "bird": {
+    "id": "bird-rufous-lored-kingfisher-1b5adea5",
+    "name": "Rufous-lored kingfisher",
+    "english_name": "Rufous-lored kingfisher",
+    "latin_name": "Todiramphus winchelli",
+    "summary": "The rufous-lored kingfisher (Todiramphus winchelli), also known as Winchell's kingfisher, is a species of bird in the kingfisher family Alc…",
+    "lat": "12",
+    "lng": "125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Rufous-lored_Kingfisher_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-薩馬島-8cd63d0e",
+      "name": "薩馬島",
+      "summary": "薩馬島 （英語：Samar）位於菲律賓中部，是米沙鄢群島最東的島嶼。下分三省：北薩馬省、東薩馬省和薩馬省。这三个省是東米沙鄢政區的一部分，莱特岛和比利兰岛是附近的岛屿省份。薩馬島面積13,429平方公里，是菲律宾的第三大岛，仅次于吕宋岛和…",
+      "lat": "12",
+      "lng": "125"
+    },
+    {
+      "id": "loc-塔布拉斯島-f243301a",
+      "name": "塔布拉斯島",
+      "summary": "塔布拉斯島是菲律賓的島嶼，位於民都洛南部以東約50公里，由朗布隆省負責管轄，最高點海拔高度665米，主要經濟活動有稻米種植和漁業，2007年人口154,413。",
+      "lat": "12.40527778",
+      "lng": "122.06416667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-lored-kingfisher-1b5adea5",
+      "subject": "Rufous-lored kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-薩馬島-8cd63d0e",
+      "object": "薩馬島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is endemic to the Philippines, ranging from Samar and Tablas south to Mindanao, Basilan and the Sulu Archipelago. It appears to be locally common on some islands, but it is rare in other localities. It lives in forest below in elevation, being found in coastal lowlands and foothills",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-lored-kingfisher-1b5adea5",
+      "subject": "Rufous-lored kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔布拉斯島-f243301a",
+      "object": "塔布拉斯島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is endemic to the Philippines, ranging from Samar and Tablas south to Mindanao, Basilan and the Sulu Archipelago. It appears to be locally common on some islands, but it is rare in other localities. It lives in forest below in elevation, being found in coastal lowlands and foothills",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-lored-kingfisher-1b5adea5",
+      "subject": "Rufous-lored kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-rufous-lored-kingfisher-1b5adea5",
+      "subject": "Rufous-lored kingfisher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by deforestation, and the International Union for Conservation of Nature (IUCN) has assessed it as a vulnerable species",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-rufous-lored-kingfisher-1b5adea5",
+      "subject": "Rufous-lored kingfisher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Forest clearance and illegal logging are causing habitat loss and a fast population decline, so the IUCN has assessed it as a vulnerable species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

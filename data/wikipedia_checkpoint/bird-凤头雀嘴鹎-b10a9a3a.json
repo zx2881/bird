@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:14:45",
+  "requested_title": "Crested Finchbill",
+  "resolved_title": "Crested finchbill",
+  "title_aliases": [
+    "Crested Finchbill"
+  ],
+  "bird_id": "bird-凤头雀嘴鹎-b10a9a3a",
+  "raw_file": "bird-凤头雀嘴鹎-b10a9a3a.json",
+  "bird": {
+    "id": "bird-凤头雀嘴鹎-b10a9a3a",
+    "name": "凤头雀嘴鹎",
+    "english_name": "Crested finchbill",
+    "latin_name": "Spizixos canifrons",
+    "summary": "凤头雀嘴鹎（学名：Spizixos canifrons）为鹎科雀嘴鹎属的鸟类，俗名凤头鹦嘴鹎。分布于印度、孟加拉、缅甸、老挝、泰国、越南以及中国大陆的四川、云南等地，多见于海拔1200-2800米左右的山地阔叶林、次生稀树灌丛、草地稀树灌丛、沟谷林以及有时也见于寨边田园间。该物…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Crested_Finchbill_-_Thailand_S4E0323_%2816864496080%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "Mainland Southeast Asia (historically known as Indochina and the Indochinese Peninsula) is the continental portion of S…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-凤头雀嘴鹎-b10a9a3a",
+      "subject": "凤头雀嘴鹎",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in south-eastern Asia from China and India to Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-凤头雀嘴鹎-b10a9a3a",
+      "subject": "凤头雀嘴鹎",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

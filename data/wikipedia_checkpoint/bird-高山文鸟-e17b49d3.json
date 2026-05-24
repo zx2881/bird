@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:51:15",
+  "requested_title": "Eastern Alpine Mannikin",
+  "resolved_title": "Eastern alpine mannikin",
+  "title_aliases": [
+    "Eastern Alpine Mannikin"
+  ],
+  "bird_id": "bird-高山文鸟-e17b49d3",
+  "raw_file": "bird-高山文鸟-e17b49d3.json",
+  "bird": {
+    "id": "bird-高山文鸟-e17b49d3",
+    "name": "高山文鸟",
+    "english_name": "Eastern alpine mannikin",
+    "latin_name": "Lonchura monticola",
+    "summary": "高山文鸟（学名：Lonchura monticola），是梅花雀科文鸟属的一种，其种加词“monticola”意为“生长在山地的”。巴布亚新几内亚特有种。该物种的保护状况被评为无危。 高山文鸟的栖息于亚热带或热带的高海拔草原。",
+    "lat": "-8.83333333",
+    "lng": "147.5",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-查理斯-沃爾特-德-維斯-ada37776",
+      "name": "查理斯·沃爾特·德·維斯",
+      "summary": "查理斯·沃爾特·德·維斯（英語：Charles Walter de Vis，1829年5月9日—1915年8月30日）， 在1882年之前稱“德維斯”（Devis），是一位英國動物學家 及鳥類學家。 德·維斯出生於英國伯明翰， 1849年…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-巴布亞半島-908a1ddc",
+      "name": "巴布亞半島",
+      "summary": "巴布亚半岛是巴布亚新几内亚的一个半岛，位于莱城东南。该半岛主体由欧文斯坦利山脉构成，拥有维多利亚山（4038米）等高峰。巴布亚新几内亚的首都及最大城市莫尔斯比港坐落于半岛南岸。 参考文献",
+      "lat": "-8.83333333",
+      "lng": "147.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-高山文鸟-e17b49d3",
+      "subject": "高山文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-查理斯-沃爾特-德-維斯-ada37776",
+      "object": "查理斯·沃爾特·德·維斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The eastern alpine mannikin (Lonchura monticola) or alpine munia is a species of estrildid finch native to the Papuan Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高山文鸟-e17b49d3",
+      "subject": "高山文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亞半島-908a1ddc",
+      "object": "巴布亞半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The eastern alpine mannikin (Lonchura monticola) or alpine munia is a species of estrildid finch native to the Papuan Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高山文鸟-e17b49d3",
+      "subject": "高山文鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in subtropical/ tropical high altitude grassland habitat",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-高山文鸟-e17b49d3",
+      "subject": "高山文鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

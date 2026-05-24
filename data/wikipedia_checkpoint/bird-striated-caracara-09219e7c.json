@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:23:52",
+  "requested_title": "Striated Caracara",
+  "resolved_title": "Striated caracara",
+  "title_aliases": [
+    "Striated Caracara"
+  ],
+  "bird_id": "bird-striated-caracara-09219e7c",
+  "raw_file": "bird-striated-caracara-09219e7c.json",
+  "bird": {
+    "id": "bird-striated-caracara-09219e7c",
+    "name": "Striated caracara",
+    "english_name": "Striated caracara",
+    "latin_name": "Daptrius australis",
+    "summary": "The striated caracara (Daptrius australis), also known as Forster's caracara, is a Near Threatened bird of prey of the family Falconidae, t…",
+    "lat": "-54",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Striated_Caracara_on_Sealion_Island_%28cropped%29.jpg/960px-Striated_Caracara_on_Sealion_Island_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-火地群岛-1862489f",
+      "name": "火地群岛",
+      "summary": "火地群岛（西班牙語：Archipiélago de Tierra del Fuego）是南美洲最南端的一个群岛，由主岛火地岛及周边小岛组成，总面积73,753平方公里。其主岛火地岛西半部以及其西、南部的全部岛屿均归属于智利境內麦哲伦-智利…",
+      "lat": "-54",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-福克兰群岛-c4142579",
+      "name": "福克兰群岛",
+      "summary": "福克兰羣岛（英語：Falkland Islands，/ˈfɔːklənd, ˈfɔːl-, ˈfɒl-/），阿根廷称馬維納斯羣岛（西班牙語：Islas Malvinas，西班牙語發音：[ˈizlaz malˈβinas]），是位于南大西洋…",
+      "lat": "-51.73",
+      "lng": "-59.22"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-striated-caracara-09219e7c",
+      "subject": "Striated caracara",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The striated caracara (Daptrius australis), also known as Forster's caracara, is a Near Threatened bird of prey of the family Falconidae, the falcons and caracaras. It is found in Tierra del Fuego and the Falkland Islands.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-striated-caracara-09219e7c",
+      "subject": "Striated caracara",
+      "predicate": "distributed_in",
+      "object_id": "loc-火地群岛-1862489f",
+      "object": "火地群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The striated caracara (Daptrius australis), also known as Forster's caracara, is a Near Threatened bird of prey of the family Falconidae, the falcons and caracaras. It is found in Tierra del Fuego and the Falkland Islands.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-striated-caracara-09219e7c",
+      "subject": "Striated caracara",
+      "predicate": "distributed_in",
+      "object_id": "loc-福克兰群岛-c4142579",
+      "object": "福克兰群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The striated caracara (Daptrius australis), also known as Forster's caracara, is a Near Threatened bird of prey of the family Falconidae, the falcons and caracaras. It is found in Tierra del Fuego and the Falkland Islands.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-striated-caracara-09219e7c",
+      "subject": "Striated caracara",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-striated-caracara-09219e7c",
+      "subject": "Striated caracara",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The predicted ecosystem stresses of climate change are the only known significant threat. The breeding population on the Falklands in 2006 was about 500 pairs, and 350 to 450 pairs may also be on the South American islands",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

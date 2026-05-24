@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:52:11",
+  "requested_title": "Grey-crowned Mannikin",
+  "resolved_title": "Grey-crowned mannikin",
+  "title_aliases": [
+    "Grey-crowned Mannikin"
+  ],
+  "bird_id": "bird-灰冠文鸟-424a9398",
+  "raw_file": "bird-灰冠文鸟-424a9398.json",
+  "bird": {
+    "id": "bird-灰冠文鸟-424a9398",
+    "name": "灰冠文鸟",
+    "english_name": "Grey-crowned mannikin",
+    "latin_name": "Lonchura nevermanni",
+    "summary": "灰冠文鸟（学名：Lonchura nevermanni），是梅花雀科文鸟属的一种，分布于印度尼西亚和巴布亚新几内亚。该物种的保护状况被评为无危。 灰冠文鸟的平均体重约为11.2克。栖息地包括牧草地、耕地、湿地、干燥的稀树草原、灌溉地、河流、溪流和湿润的稀树草原。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Naturalis_Biodiversity_Center_-_RMNH.AVES.42676_1_-_Lonchura_nevermanni_Stresemann%2C_1934_-_Estrildidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.42676_1_-_Lonchura_nevermanni_Stresemann%2C_1934_-_Estrildidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰冠文鸟-424a9398",
+      "subject": "灰冠文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in moist savanna & wetlands habitats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰冠文鸟-424a9398",
+      "subject": "灰冠文鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in moist savanna & wetlands habitats",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-灰冠文鸟-424a9398",
+      "subject": "灰冠文鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in moist savanna & wetlands habitats",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-灰冠文鸟-424a9398",
+      "subject": "灰冠文鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

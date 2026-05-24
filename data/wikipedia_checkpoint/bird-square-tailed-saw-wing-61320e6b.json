@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:01:13",
+  "requested_title": "Square-tailed Saw-wing",
+  "resolved_title": "Square-tailed saw-wing",
+  "title_aliases": [
+    "Square-tailed Saw-wing"
+  ],
+  "bird_id": "bird-square-tailed-saw-wing-61320e6b",
+  "raw_file": "bird-square-tailed-saw-wing-61320e6b.json",
+  "bird": {
+    "id": "bird-square-tailed-saw-wing-61320e6b",
+    "name": "Square-tailed saw-wing",
+    "english_name": "Square-tailed saw-wing",
+    "latin_name": "Psalidoprocne nitens",
+    "summary": "The square-tailed saw-wing (Psalidoprocne nitens), also known as the square-tailed rough-winged swallow is a species of bird in the family…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Psalidoprocne_nitens_1894_%28cropped%29.jpg/960px-Psalidoprocne_nitens_1894_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-热带雨林-5f5feb6f",
+      "name": "热带雨林",
+      "summary": "熱帶雨林主要分佈於東南亞、澳洲、南美洲亞馬遜河流域、非洲剛果河流域、中美洲、墨西哥和許多太平洋島嶼。根據世界自然基金會對各種生物群落的分類，熱帶雨林，或熱帶濕潤闊葉林（Tropical moist broadleaf forest），亦可…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-square-tailed-saw-wing-61320e6b",
+      "subject": "Square-tailed saw-wing",
+      "predicate": "distributed_in",
+      "object_id": "loc-热带雨林-5f5feb6f",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-square-tailed-saw-wing-61320e6b",
+      "subject": "Square-tailed saw-wing",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

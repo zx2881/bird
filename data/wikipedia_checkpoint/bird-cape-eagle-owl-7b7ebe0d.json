@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T23:03:52",
+  "requested_title": "Cape Eagle-Owl",
+  "resolved_title": "Cape eagle-owl",
+  "title_aliases": [
+    "Cape Eagle-Owl"
+  ],
+  "bird_id": "bird-cape-eagle-owl-7b7ebe0d",
+  "raw_file": "bird-cape-eagle-owl-7b7ebe0d.json",
+  "bird": {
+    "id": "bird-cape-eagle-owl-7b7ebe0d",
+    "name": "Cape eagle-owl",
+    "english_name": "Cape eagle-owl",
+    "latin_name": "Bubo capensis",
+    "summary": "The Cape eagle-owl (Bubo capensis) is a species of owl in the family Strigidae. It is one of several large species of the eagle-owl genus B…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Bubo_capensis_capensis_in_Pretoria-dieretuin.jpg/960px-Bubo_capensis_capensis_in_Pretoria-dieretuin.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海平面-96b1a973",
+      "name": "海平面",
+      "summary": "海平面（英語：Sea level）是地球單一或多個海洋表面的平均水平，由此可以測量諸如海拔等高度。平均海平面（MSL）是一種垂直基準，一個標準化的大地測量參考點。例如製圖和航海中的海圖基準面，或是航空中測量標準海平面的大氣壓力，以便校準飛…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cape-eagle-owl-7b7ebe0d",
+      "subject": "Cape eagle-owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-海平面-96b1a973",
+      "object": "海平面",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Cape eagle-owl is primarily found in mountainous regions or hilly areas with rocks where they find areas to roost, but can also be found in adjacent woodlands, grasslands, and wooded gullies. They are found from sea level up to 2,500 meters above sea level. These owls may also wander into human settlements or even towns, often specifically to prey on pigeons",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-eagle-owl-7b7ebe0d",
+      "subject": "Cape eagle-owl",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Cape eagle-owl is primarily found in mountainous regions or hilly areas with rocks where they find areas to roost, but can also be found in adjacent woodlands, grasslands, and wooded gullies. They are found from sea level up to 2,500 meters above sea level. These owls may also wander into human settlements or even towns, often specifically to prey on pigeons",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-cape-eagle-owl-7b7ebe0d",
+      "subject": "Cape eagle-owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-cape-eagle-owl-7b7ebe0d",
+      "subject": "Cape eagle-owl",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Cape eagle-owl is classified as being of least concern by the IUCN, since its range is fairly large and populations appear to be stable. They are common in areas such as the Mau Plateau in Kenya, though they are locally rare to absent in other parts of their range. Around 50–60% of breeding attempts are successful. Predation of nests (especially ground nests) is common as are roadkills and casualties due to power-wires and barbed wire. The use of pesticides to kill rodents may ultimately affect the species",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

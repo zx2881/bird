@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:28:05",
+  "requested_title": "American Goldfinch",
+  "resolved_title": "American goldfinch",
+  "title_aliases": [
+    "American Goldfinch"
+  ],
+  "bird_id": "bird-北美金翅雀-8d39b1c3",
+  "raw_file": "bird-北美金翅雀-8d39b1c3.json",
+  "bird": {
+    "id": "bird-北美金翅雀-8d39b1c3",
+    "name": "北美金翅雀",
+    "english_name": "American goldfinch",
+    "latin_name": "Spinus tristis",
+    "summary": "北美金翅雀（學名：Spinus tristis），又名北美金翅雀或美國金翅雀，是北美洲的一種雀。牠們是候鳥，於繁殖季節分佈在加拿大至北卡羅萊那州，冬天則分佈在加拿大以南至墨西哥。 北美金翅雀是金翅亞科中唯一會完全換羽，且是兩性異形的。雄雀分別於夏天及冬天呈黃色及橄欖色；雌雀於夏…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Carduelis_tristis_-Michigan%2C_USA_-male-8.jpg/960px-Carduelis_tristis_-Michigan%2C_USA_-male-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北美金翅雀-8d39b1c3",
+      "subject": "北美金翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It may also be found in open deciduous and riparian woodlands and areas of secondary growth.{{cite book | last=Terres | first=John K",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北美金翅雀-8d39b1c3",
+      "subject": "北美金翅雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

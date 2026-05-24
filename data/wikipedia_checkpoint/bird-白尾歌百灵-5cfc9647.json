@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:43:21",
+  "requested_title": "White-tailed Lark",
+  "resolved_title": "White-tailed lark",
+  "title_aliases": [
+    "White-tailed Lark"
+  ],
+  "bird_id": "bird-白尾歌百灵-5cfc9647",
+  "raw_file": "bird-白尾歌百灵-5cfc9647.json",
+  "bird": {
+    "id": "bird-白尾歌百灵-5cfc9647",
+    "name": "白尾歌百灵",
+    "english_name": "White-tailed lark",
+    "latin_name": "Mirafra albicauda",
+    "summary": "白尾歌百灵（学名：Mirafra albicauda），是百灵科歌百灵属的一种，分布于苏丹、埃塞俄比亚、肯尼亚、坦桑尼亚、刚果民主共和国、乌干达和乍得。全球活动范围约为431,000平方千米。该物种的保护状况被评为无危。 白尾歌百灵的平均体重约为22.0克。栖息地包括淡水湖、亚…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Mirafra_2_Gronvold%2C_Mirafra_albicauda.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安东-赖歇诺-43b8e534",
+      "name": "安东·赖歇诺",
+      "summary": "安东·赖歇诺（德語：Anton Reichenow，1847年8月1日—1941年7月6日）是德国鳥類學家和爬虫两栖类学家。 生平 安东·赖歇诺是德国鸟类研究学家吉恩·路易斯·卡巴尼斯的女婿，1874年至1921年在柏林自然博物馆长期工作…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白尾歌百灵-5cfc9647",
+      "subject": "白尾歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-安东-赖歇诺-43b8e534",
+      "object": "安东·赖歇诺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-tailed lark (Mirafra albicauda) is a species of lark in the family Alaudidae found in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾歌百灵-5cfc9647",
+      "subject": "白尾歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

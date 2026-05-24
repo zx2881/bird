@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:38:50",
+  "requested_title": "Diademed Amazon",
+  "resolved_title": "Diademed amazon",
+  "title_aliases": [
+    "Diademed Amazon"
+  ],
+  "bird_id": "bird-diademed-amazon-162a3ab6",
+  "raw_file": "bird-diademed-amazon-162a3ab6.json",
+  "bird": {
+    "id": "bird-diademed-amazon-162a3ab6",
+    "name": "Diademed amazon",
+    "english_name": "Diademed amazon",
+    "latin_name": "Amazona diadema",
+    "summary": "The diademed amazon (Amazona diadema) is a parrot in the family Psittacidae formerly considered conspecific with the red-lored amazon (Amaz…",
+    "lat": "-2.9621",
+    "lng": "-59.9318",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Amazona_diadema_%2826728838050%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-adolfo-ducke-forest-reserve-d7a1bf73",
+      "name": "Adolfo Ducke Forest Reserve",
+      "summary": "The Adolfo Ducke Forest Reserve (Portuguese: Reserva Florestal Adolpho Ducke) is a 10,000-hectare (25,000-acre) protect…",
+      "lat": "-2.9621",
+      "lng": "-59.9318"
+    },
+    {
+      "id": "loc-马瑙斯-0d91f8b5",
+      "name": "马瑙斯",
+      "summary": "马瑙斯（葡萄牙語：Manaus，[mɐˈnaws, mɐˈnawʃ]）是巴西亚马逊州的首府，位于亚马逊河支流黑河（Negro，又译内格罗河）和索利蒙伊斯河（即亚马逊河干流）交汇处，面积337平方千米，在2024年時人口约为223万，是亞馬…",
+      "lat": "-3.1189",
+      "lng": "-60.0217"
+    },
+    {
+      "id": "loc-雅乌国家公园-18b924e4",
+      "name": "雅乌国家公园",
+      "summary": "雅乌国家公园（葡萄牙語：Parque Nacional do Jaú）是一座位于巴西亞馬遜地区的國家公園，該公園是南美洲最大的森林保护区，面积2,367,333公頃（5,849,810英畝），一般民众须巴西政府的许可才能参访。2000年，…",
+      "lat": "-2.3",
+      "lng": "-63.05"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-diademed-amazon-162a3ab6",
+      "subject": "Diademed amazon",
+      "predicate": "distributed_in",
+      "object_id": "loc-adolfo-ducke-forest-reserve-d7a1bf73",
+      "object": "Adolfo Ducke Forest Reserve",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the Adolfo Ducke Forest Reserve, near Manaus, it is common in the canopy of the humid forest and around the woodland margins. It also occurs in the Jaú National Park where it is uncommon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-diademed-amazon-162a3ab6",
+      "subject": "Diademed amazon",
+      "predicate": "distributed_in",
+      "object_id": "loc-马瑙斯-0d91f8b5",
+      "object": "马瑙斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the Adolfo Ducke Forest Reserve, near Manaus, it is common in the canopy of the humid forest and around the woodland margins. It also occurs in the Jaú National Park where it is uncommon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-diademed-amazon-162a3ab6",
+      "subject": "Diademed amazon",
+      "predicate": "distributed_in",
+      "object_id": "loc-雅乌国家公园-18b924e4",
+      "object": "雅乌国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the Adolfo Ducke Forest Reserve, near Manaus, it is common in the canopy of the humid forest and around the woodland margins. It also occurs in the Jaú National Park where it is uncommon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-diademed-amazon-162a3ab6",
+      "subject": "Diademed amazon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-diademed-amazon-162a3ab6",
+      "subject": "Diademed amazon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species has a limited range and is threatened by habitat loss caused by the forests where it lives being cleared for cattle farming and soybean production. Some birds are caught by trapping for the domestic pet trade",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

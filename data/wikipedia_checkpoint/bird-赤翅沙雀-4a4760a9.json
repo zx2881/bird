@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:12:23",
+  "requested_title": "Crimson-winged Finch",
+  "resolved_title": "Crimson-winged finch",
+  "title_aliases": [
+    "Crimson-winged Finch"
+  ],
+  "bird_id": "bird-赤翅沙雀-4a4760a9",
+  "raw_file": "bird-赤翅沙雀-4a4760a9.json",
+  "bird": {
+    "id": "bird-赤翅沙雀-4a4760a9",
+    "name": "赤翅沙雀",
+    "english_name": "Crimson-winged finch",
+    "latin_name": "Rhodopechys sanguineus",
+    "summary": "赤翅沙雀（学名：Rhodopechys sanguinea）为雀科沙雀属的鸟类。分布于天山西部、从塔什干经阿富汗、伊朗至叙利亚至中国的新疆等地，一般生活于高海拔山区的砾石堆处和岩石峭壁的灌木间及高山山顶和山麓的疏林中。该物种的模式产地在土耳其的埃尔佐鲁姆,Asmenia。 亚种…",
+    "lat": "39.91666667",
+    "lng": "32.85",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Crimson-winged_Finch_%28Rhodopechys_sanguineus%29_%2829935889654%29_%28cropped%29.jpg/960px-Crimson-winged_Finch_%28Rhodopechys_sanguineus%29_%2829935889654%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-土耳其-5e126298",
+      "name": "土耳其",
+      "summary": "土耳其共和国（土耳其語：Türkiye Cumhuriyeti，發音：[ˈtyɾcije dʒumˈhuːɾijeti] ），通稱土耳其（Türkiye），是橫跨欧亚两洲的共和國，其國土包括西亞的安納托利亞半岛、以及东南欧巴尔干半岛的东色…",
+      "lat": "39.91666667",
+      "lng": "32.85"
+    },
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "巴基斯坦伊斯兰共和国（乌尔都语：اسلامی جمہوریہ پاکستان‬；英语：Islamic Republic of Pakistan），通称巴基斯坦，位于南亚，东与印度比邻，南面是印度洋，西与伊朗接壤，西北和阿富汗相連，東北与中…",
+      "lat": "30",
+      "lng": "70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-赤翅沙雀-4a4760a9",
+      "subject": "赤翅沙雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-土耳其-5e126298",
+      "object": "土耳其",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in North Africa and from Turkey to northeast Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤翅沙雀-4a4760a9",
+      "subject": "赤翅沙雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in North Africa and from Turkey to northeast Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤翅沙雀-4a4760a9",
+      "subject": "赤翅沙雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

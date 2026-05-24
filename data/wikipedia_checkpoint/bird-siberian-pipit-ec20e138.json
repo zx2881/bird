@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:49:11",
+  "requested_title": "Siberian Pipit",
+  "resolved_title": "Siberian pipit",
+  "title_aliases": [
+    "Siberian Pipit"
+  ],
+  "bird_id": "bird-siberian-pipit-ec20e138",
+  "raw_file": "bird-siberian-pipit-ec20e138.json",
+  "bird": {
+    "id": "bird-siberian-pipit-ec20e138",
+    "name": "Siberian pipit",
+    "english_name": "Siberian pipit",
+    "latin_name": "Anthus japonicus",
+    "summary": "The Siberian pipit (Anthus japonicus), also known as the Japanese pipit and formerly known as the buff-bellied pipit, is a species of songb…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Siberian_Pipit_%28Anthus_japonicus%29_%2849270701118%29_%28cropped%29.jpg/960px-Siberian_Pipit_%28Anthus_japonicus%29_%2849270701118%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东亚-dee93913",
+      "name": "东亚",
+      "summary": "東亞（英語：East Asia）泛指亚洲東部，具有地理及文化层面上的双重意义。东亚地区通常包括中国大陆、日本列岛、台湾岛、朝鲜半岛、海南岛、琉球群島和蒙古高原等地，面積约1170萬平方公里。东亚地区居住有16亿人口，占世界人口的22%，亦…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-siberian-pipit-ec20e138",
+      "subject": "Siberian pipit",
+      "predicate": "distributed_in",
+      "object_id": "loc-东亚-dee93913",
+      "object": "东亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in East Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-siberian-pipit-ec20e138",
+      "subject": "Siberian pipit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

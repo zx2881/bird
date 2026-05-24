@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:21:47",
+  "requested_title": "Cinnamon-vented Piha",
+  "resolved_title": "Cinnamon-vented piha",
+  "title_aliases": [
+    "Cinnamon-vented Piha"
+  ],
+  "bird_id": "bird-cinnamon-vented-piha-a5f31f49",
+  "raw_file": "bird-cinnamon-vented-piha-a5f31f49.json",
+  "bird": {
+    "id": "bird-cinnamon-vented-piha-a5f31f49",
+    "name": "Cinnamon-vented piha",
+    "english_name": "Cinnamon-vented piha",
+    "latin_name": "Lipaugus lanioides",
+    "summary": "The cinnamon-vented piha (Lipaugus lanioides) is a species of bird in the family Cotingidae, the cotingas. It is endemic to Brazil.",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/TROPEIRO-DA-SERRA_%28Lipaugus_lanioides%29_%2813868684655%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    },
+    {
+      "id": "loc-圣卡塔琳娜州-610f6154",
+      "name": "圣卡塔琳娜州",
+      "summary": "圣卡塔琳娜州（葡萄牙語：Santa Catarina）是巴西南部的一个州，首府弗洛里亞諾波利斯，面积95,346.181平方公里，人口5,958,266人。 参见 胡利亚纳共和国",
+      "lat": "-27.25",
+      "lng": "-50.33333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cinnamon-vented-piha-a5f31f49",
+      "subject": "Cinnamon-vented piha",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The cinnamon-vented piha is found in southeastern Brazil from southeastern Bahia south to northeastern Santa Catarina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cinnamon-vented-piha-a5f31f49",
+      "subject": "Cinnamon-vented piha",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣卡塔琳娜州-610f6154",
+      "object": "圣卡塔琳娜州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The cinnamon-vented piha is found in southeastern Brazil from southeastern Bahia south to northeastern Santa Catarina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cinnamon-vented-piha-a5f31f49",
+      "subject": "Cinnamon-vented piha",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits humid montane forest, mostly at elevations between",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-cinnamon-vented-piha-a5f31f49",
+      "subject": "Cinnamon-vented piha",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-cinnamon-vented-piha-a5f31f49",
+      "subject": "Cinnamon-vented piha",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The most significant threat is the extensive destruction and fragmentation of Atlantic forest throughout its range, caused by conversion for agriculture, human settlements and logging.\" Despite the large population estimated by the IUCN, other sources consider it rare. It appears to occupy only about 10% of its former range.Loiselle, B.A., Graham, C.H., Goerck, J.M., and Ribeiro, M.C",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

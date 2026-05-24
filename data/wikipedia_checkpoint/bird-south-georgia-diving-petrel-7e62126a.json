@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:26:18",
+  "requested_title": "South Georgia Diving Petrel",
+  "resolved_title": "South Georgia diving petrel",
+  "title_aliases": [
+    "South Georgia Diving Petrel"
+  ],
+  "bird_id": "bird-south-georgia-diving-petrel-7e62126a",
+  "raw_file": "bird-south-georgia-diving-petrel-7e62126a.json",
+  "bird": {
+    "id": "bird-south-georgia-diving-petrel-7e62126a",
+    "name": "South Georgia diving petrel",
+    "english_name": "South Georgia diving petrel",
+    "latin_name": "Pelecanoides georgicus",
+    "summary": "The South Georgia diving petrel or Georgian diving-petrel (Pelecanoides georgicus) is one of five very similar small auk-like diving petrel…",
+    "lat": "0",
+    "lng": "-25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Pelecanoides_georgicus_%28South_Georgian_diving-petrel%29_%288365384976%29.jpg/960px-Pelecanoides_georgicus_%28South_Georgian_diving-petrel%29_%288365384976%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大西洋-ac6cdd86",
+      "name": "大西洋",
+      "summary": "大西洋，即亚特兰蒂斯洋（英語：Atlantic Ocean），是世界第二大洋。原面積8221萬7千平方公里，在南冰洋確立後，面積調整為7676萬2千平方公里。平均深度3,646米，最深處波多黎各海沟深達8,605米。從赤道南北分為北大西洋…",
+      "lat": "0",
+      "lng": "-25"
+    },
+    {
+      "id": "loc-印度洋-aaea0acf",
+      "name": "印度洋",
+      "summary": "印度洋（英語：Indian Ocean），位于亚洲、非洲、大洋洲和南极洲之间，印度位在印度洋北部的中央位置，這也是印度洋名稱的由來，印度洋大部分在南半球。總面积7491万平方公里，约占世界海洋总面积的21.1%，是世界第三大洋。印度洋的範…",
+      "lat": "-20",
+      "lng": "80"
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-south-georgia-diving-petrel-7e62126a",
+      "subject": "South Georgia diving petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋-ac6cdd86",
+      "object": "大西洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the South Atlantic and islands of the southern Indian Ocean and south-eastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-south-georgia-diving-petrel-7e62126a",
+      "subject": "South Georgia diving petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度洋-aaea0acf",
+      "object": "印度洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the South Atlantic and islands of the southern Indian Ocean and south-eastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-south-georgia-diving-petrel-7e62126a",
+      "subject": "South Georgia diving petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the South Atlantic and islands of the southern Indian Ocean and south-eastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-south-georgia-diving-petrel-7e62126a",
+      "subject": "South Georgia diving petrel",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

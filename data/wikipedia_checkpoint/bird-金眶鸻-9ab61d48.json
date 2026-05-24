@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:55:42",
+  "requested_title": "Little Ringed Plover",
+  "resolved_title": "Little ringed plover",
+  "title_aliases": [
+    "Little Ringed Plover"
+  ],
+  "bird_id": "bird-金眶鸻-9ab61d48",
+  "raw_file": "bird-金眶鸻-9ab61d48.json",
+  "bird": {
+    "id": "bird-金眶鸻-9ab61d48",
+    "name": "金眶鸻",
+    "english_name": "Little ringed plover",
+    "latin_name": "Thinornis dubius",
+    "summary": "金眶鸻（學名：Charadrius dubius，英語：Little Ringed Plover，台湾作小環頸鴴），是鴴形目鴴科鴴屬下的一種鳥類。這種鳥類是一種涉禽，以昆蟲及小型無脊椎動物為食。牠們廣泛分佈於歐亞非三洲的海岸、河流、湖泊或潟湖邊，部分個體視季節會遷徙，自歐洲移動…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Charadrius_dubius_-_Little_ringed_plover_05.jpg/960px-Charadrius_dubius_-_Little_ringed_plover_05.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金眶鸻-9ab61d48",
+      "subject": "金眶鸻",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "dubius | synonyms = Charadrius dubius }} The little ringed plover (Thinornis dubius) is a small plover native to the Old World",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金眶鸻-9ab61d48",
+      "subject": "金眶鸻",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

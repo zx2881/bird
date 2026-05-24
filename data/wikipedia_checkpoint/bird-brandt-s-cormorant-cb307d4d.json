@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:58:12",
+  "requested_title": "Brandt's Cormorant",
+  "resolved_title": "Brandt's cormorant",
+  "title_aliases": [
+    "Brandt's Cormorant"
+  ],
+  "bird_id": "bird-brandt-s-cormorant-cb307d4d",
+  "raw_file": "bird-brandt-s-cormorant-cb307d4d.json",
+  "bird": {
+    "id": "bird-brandt-s-cormorant-cb307d4d",
+    "name": "Brandt's cormorant",
+    "english_name": "Brandt's cormorant",
+    "latin_name": "Urile penicillatus",
+    "summary": "Brandt's cormorant (Urile penicillatus) is a strictly marine bird of the cormorant family of seabirds that inhabits the Pacific coast of No…",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Brandt%27s_Cormorant.jpg/960px-Brandt%27s_Cormorant.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海鳥-4f6bf339",
+      "name": "海鳥",
+      "summary": "海鳥是一種能夠適應海洋氣候環境的鳥類，而無論於生活習慣、生理運行等皆與其他鳥類大有不同。其有著強烈的趨同演化，因此所有海鳥的生態職位均十分類似。而海鳥最初出現於白堊紀之時，距今有近億年，但是與現代海鳥之關係並不大。若果論及現代海鳥之遠祖，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brandt-s-cormorant-cb307d4d",
+      "subject": "Brandt's cormorant",
+      "predicate": "distributed_in",
+      "object_id": "loc-海鳥-4f6bf339",
+      "object": "海鳥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Brandt's cormorant (Urile penicillatus) is a strictly marine bird of the cormorant family of seabirds that inhabits the Pacific coast of North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brandt-s-cormorant-cb307d4d",
+      "subject": "Brandt's cormorant",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Brandt's cormorant (Urile penicillatus) is a strictly marine bird of the cormorant family of seabirds that inhabits the Pacific coast of North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brandt-s-cormorant-cb307d4d",
+      "subject": "Brandt's cormorant",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Brandt's cormorant (Urile penicillatus) is a strictly marine bird of the cormorant family of seabirds that inhabits the Pacific coast of North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brandt-s-cormorant-cb307d4d",
+      "subject": "Brandt's cormorant",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

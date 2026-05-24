@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:17:52",
+  "requested_title": "Oriente Warbler",
+  "resolved_title": "Oriente warbler",
+  "title_aliases": [
+    "Oriente Warbler"
+  ],
+  "bird_id": "bird-oriente-warbler-20f60f8c",
+  "raw_file": "bird-oriente-warbler-20f60f8c.json",
+  "bird": {
+    "id": "bird-oriente-warbler-20f60f8c",
+    "name": "Oriente warbler",
+    "english_name": "Oriente warbler",
+    "latin_name": "Teretistris fornsi",
+    "summary": "The Oriente warbler (Teretistris fornsi) is one of two species of bird in the Cuban warbler family Teretistridae. It is endemic to central…",
+    "lat": "20",
+    "lng": "-76.75",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Oriente_warbler_%28Teretistris_fornsi%29_-_cropped.jpg/960px-Oriente_warbler_%28Teretistris_fornsi%29_-_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-薩瓦納-卡馬圭群島-19880ffb",
+      "name": "薩瓦納-卡馬圭群島",
+      "summary": "薩瓦納-卡馬圭群島（西班牙語：Archipiélago de Sabana-Camagüey）是古巴的群島，位於該國中北部大西洋，橫跨475公里，由2,517個島嶼組成，面積約75,000平方公里，該群島設有35處保護區。",
+      "lat": "23",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-马埃斯特腊山脉-672f0c4f",
+      "name": "马埃斯特腊山脉",
+      "summary": "The Sierra Maestra is a mountain range that runs westward across the south of the old Oriente Province in southeast Cub…",
+      "lat": "20",
+      "lng": "-76.75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-oriente-warbler-20f60f8c",
+      "subject": "Oriente warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-薩瓦納-卡馬圭群島-19880ffb",
+      "object": "薩瓦納-卡馬圭群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of Oriente warbler is found in the mountains and coast of eastern Cuba and the Sabana-Camagüey Archipelago off the main island's north coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-oriente-warbler-20f60f8c",
+      "subject": "Oriente warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-马埃斯特腊山脉-672f0c4f",
+      "object": "马埃斯特腊山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "turquinensis is found in the Sierra Maestra along the southeastern Cuban coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-oriente-warbler-20f60f8c",
+      "subject": "Oriente warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

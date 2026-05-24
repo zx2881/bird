@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:51:07",
+  "requested_title": "Black-striped Sparrow",
+  "resolved_title": "Black-striped sparrow",
+  "title_aliases": [
+    "Black-striped Sparrow"
+  ],
+  "bird_id": "bird-black-striped-sparrow-45511515",
+  "raw_file": "bird-black-striped-sparrow-45511515.json",
+  "bird": {
+    "id": "bird-black-striped-sparrow-45511515",
+    "name": "Black-striped sparrow",
+    "english_name": "Black-striped sparrow",
+    "latin_name": "Arremonops conirostris",
+    "summary": "The black-striped sparrow (Arremonops conirostris) is a species of bird in the family Passerellidae, the New World sparrows. It is found fr…",
+    "lat": "8.61666667",
+    "lng": "-62.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Arremonops_conirostris_-near_Rancho_Naturalista%2C_Cordillera_de_Talamanca%2C_Costa_Rica-8.jpg/960px-Arremonops_conirostris_-near_Rancho_Naturalista%2C_Cordillera_de_Talamanca%2C_Costa_Rica-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-奥里诺科河-38f7c720",
+      "name": "奥里诺科河",
+      "summary": "奥里诺科河（西班牙語：Río Orinoco），是南美洲主要河流之一，全长2,410公里，流域面积88万平方公里。南美洲第三大河，仅次于亚马孙河及巴拉那河。 語源學 这条河的名字源于哇撈語的“划船之地”一词，其本身也源于güiri（划船）…",
+      "lat": "8.61666667",
+      "lng": "-62.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-striped-sparrow-45511515",
+      "subject": "Black-striped sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "striaticeps is found in the rest of Panama and in Colombia and Ecuador as above. In most of its range the black-striped sparrow inhabits a variety of low-stature landscapes including young secondary forest, the edges of humid woodlands, fields and pastures with shrubs and thickets, and shady plantations and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-striped-sparrow-45511515",
+      "subject": "Black-striped sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-奥里诺科河-38f7c720",
+      "object": "奥里诺科河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pastazae inhabits river sandbars with dense stands of Tessaria integrifolia. In elevation it is found from sea level to in Honduras, to in Costa Rica, to in Colombia, to in Ecuador, to north of the Orinoco River in Venezuela, and to south of it",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-striped-sparrow-45511515",
+      "subject": "Black-striped sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

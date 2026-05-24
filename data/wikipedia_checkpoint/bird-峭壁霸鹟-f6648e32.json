@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:33:10",
+  "requested_title": "Cliff Flycatcher",
+  "resolved_title": "Cliff flycatcher",
+  "title_aliases": [
+    "Cliff Flycatcher"
+  ],
+  "bird_id": "bird-峭壁霸鹟-f6648e32",
+  "raw_file": "bird-峭壁霸鹟-f6648e32.json",
+  "bird": {
+    "id": "bird-峭壁霸鹟-f6648e32",
+    "name": "峭壁霸鹟",
+    "english_name": "Cliff flycatcher",
+    "latin_name": "Hirundinea ferruginea",
+    "summary": "峭壁霸鹟（学名：Hirundinea ferruginea），是雀形目霸鹟科的一种鸟类，属于单型的峭壁霸鹟属（学名：Hirundinea）。 峭壁霸鹟体重约30.6克，翼长约10.86厘米，喙宽度约8.2毫米，喙厚度约5毫米，嘴峰长约20.9毫米，跗蹠长约14毫米，尾长约75.…",
+    "lat": "-32.89861111",
+    "lng": "-68.84638889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Gib%C3%A3o_de_couro.jpg/960px-Gib%C3%A3o_de_couro.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-门多萨省-79f2c2a6",
+      "name": "门多萨省",
+      "summary": "门多萨省為南美國家阿根廷二十三省之一，它是组成该国的24个自治州或一级司法管辖区之一，也是24个国家立法选举区之一，首府為门多萨。位於新库约地区的西南部，阿根廷西部，北领圣胡安省，东南为拉潘帕省，南领内乌肯省，西邻智利瓦尔帕莱索，由安第斯…",
+      "lat": "-32.89861111",
+      "lng": "-68.84638889"
+    },
+    {
+      "id": "loc-圣路易斯省-2a1c7f36",
+      "name": "圣路易斯省",
+      "summary": "圣路易斯省（San Luis）為南美國家阿根廷二十三省之一，位於阿根廷中部，首府為圣路易斯（San Luis）。",
+      "lat": "-33.3",
+      "lng": "-66.35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-峭壁霸鹟-f6648e32",
+      "subject": "峭壁霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-门多萨省-79f2c2a6",
+      "object": "门多萨省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pallidior: across central Bolivia into western Paraguay and south in western Argentina to Mendoza and San Luis provinces In addition, the SACC has unconfirmed records in Chile that lead it to classify the species as hypothetical in that country. The cliff flycatcher inhabits vertical landscapes near or within forest including cliffs and gorges, canyons, rocky outcrops, quarries, and road cuttings",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-峭壁霸鹟-f6648e32",
+      "subject": "峭壁霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣路易斯省-2a1c7f36",
+      "object": "圣路易斯省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pallidior: across central Bolivia into western Paraguay and south in western Argentina to Mendoza and San Luis provinces In addition, the SACC has unconfirmed records in Chile that lead it to classify the species as hypothetical in that country. The cliff flycatcher inhabits vertical landscapes near or within forest including cliffs and gorges, canyons, rocky outcrops, quarries, and road cuttings",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-峭壁霸鹟-f6648e32",
+      "subject": "峭壁霸鹟",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "pallidior: across central Bolivia into western Paraguay and south in western Argentina to Mendoza and San Luis provinces In addition, the SACC has unconfirmed records in Chile that lead it to classify the species as hypothetical in that country. The cliff flycatcher inhabits vertical landscapes near or within forest including cliffs and gorges, canyons, rocky outcrops, quarries, and road cuttings",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-峭壁霸鹟-f6648e32",
+      "subject": "峭壁霸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

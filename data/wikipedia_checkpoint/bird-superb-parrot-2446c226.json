@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:52:28",
+  "requested_title": "Superb Parrot",
+  "resolved_title": "Superb parrot",
+  "title_aliases": [
+    "Superb Parrot"
+  ],
+  "bird_id": "bird-superb-parrot-2446c226",
+  "raw_file": "bird-superb-parrot-2446c226.json",
+  "bird": {
+    "id": "bird-superb-parrot-2446c226",
+    "name": "Superb parrot",
+    "english_name": "Superb parrot",
+    "latin_name": "Polytelis swainsonii",
+    "summary": "The superb parrot (Polytelis swainsonii), also known as Barraband's parrot, Barraband's parakeet, or green leek parrot, is a parrot native…",
+    "lat": "-35.29305556",
+    "lng": "149.12694444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Polytelis_swainsonii_-_Canberra.jpg/960px-Polytelis_swainsonii_-_Canberra.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-堪培拉-34609af2",
+      "name": "堪培拉",
+      "summary": "坎培拉（英語：Canberra，/ˈkænbərə/），或譯堪培拉，是澳洲首都，同时也是首都领地的首府。堪培拉是澳洲最大的內陸城市，人口46.6萬人（截至2023年6月），在澳洲所有城市裡排名第八。座落於澳大利亚首都领地北端，距離澳洲東岸…",
+      "lat": "-35.29305556",
+      "lng": "149.12694444"
+    },
+    {
+      "id": "loc-安塞尔姆-加埃唐-德马雷-f431543f",
+      "name": "安塞尔姆·加埃唐·德马雷",
+      "summary": "安塞爾姆·加埃唐·德馬雷（法語：Anselme Gaëtan Desmarest，1784年3月6日—1838年6月4日）是一名法國動物學家和作家。他是尼古拉·德馬雷之子，尤金·安塞爾姆·塞巴斯蒂安·萊昂·德馬雷之父。德馬雷是喬治·居維葉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-superb-parrot-2446c226",
+      "subject": "Superb parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-堪培拉-34609af2",
+      "object": "堪培拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "right|250px|thumb|Restored habitat for the Superb parrot on an abandoned railway line The superb parrot (Polytelis swainsonii), also known as Barraband's parrot, Barraband's parakeet, or green leek parrot, is a parrot native to south-eastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-superb-parrot-2446c226",
+      "subject": "Superb parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-安塞尔姆-加埃唐-德马雷-f431543f",
+      "object": "安塞尔姆·加埃唐·德马雷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "right|250px|thumb|Restored habitat for the Superb parrot on an abandoned railway line The superb parrot (Polytelis swainsonii), also known as Barraband's parrot, Barraband's parakeet, or green leek parrot, is a parrot native to south-eastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-superb-parrot-2446c226",
+      "subject": "Superb parrot",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

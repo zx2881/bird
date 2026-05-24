@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:21:01",
+  "requested_title": "Stripe-breasted Tit",
+  "resolved_title": "Stripe-breasted tit",
+  "title_aliases": [
+    "Stripe-breasted Tit"
+  ],
+  "bird_id": "bird-stripe-breasted-tit-9bb2b834",
+  "raw_file": "bird-stripe-breasted-tit-9bb2b834.json",
+  "bird": {
+    "id": "bird-stripe-breasted-tit-9bb2b834",
+    "name": "Stripe-breasted tit",
+    "english_name": "Stripe-breasted tit",
+    "latin_name": "Melaniparus fasciiventer",
+    "summary": "The stripe-breasted tit (Melaniparus fasciiventer) is a species of bird in the family Paridae. It is native to the Albertine Rift montane f…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Melaniparus_fasciiventer_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-stripe-breasted-tit-9bb2b834",
+      "subject": "Stripe-breasted tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests in east-central Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stripe-breasted-tit-9bb2b834",
+      "subject": "Stripe-breasted tit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

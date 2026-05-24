@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:45:13",
+  "requested_title": "Eastern Bonelli's Warbler",
+  "resolved_title": "Eastern Bonelli's warbler",
+  "title_aliases": [
+    "Eastern Bonelli's Warbler"
+  ],
+  "bird_id": "bird-eastern-bonelli-s-warbler-97067a99",
+  "raw_file": "bird-eastern-bonelli-s-warbler-97067a99.json",
+  "bird": {
+    "id": "bird-eastern-bonelli-s-warbler-97067a99",
+    "name": "Eastern Bonelli's warbler",
+    "english_name": "Eastern Bonelli's warbler",
+    "latin_name": "Phylloscopus orientalis",
+    "summary": "The eastern Bonelli's warbler (Phylloscopus orientalis), sometimes known as the Balkan warbler, is a warbler in the leaf warbler genus Phyl…",
+    "lat": "39",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Eastern_Bonelli%27s_Warbler.jpg/960px-Eastern_Bonelli%27s_Warbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-western-bonelli-s-warbler-04c59938",
+      "name": "Western Bonelli's warbler",
+      "summary": "The western Bonelli's warbler (Phylloscopus bonelli) is a warbler in the leaf warbler genus Phylloscopus.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-安納托利亞-3d1fe9a9",
+      "name": "安納托利亞",
+      "summary": "安纳托利亚（英語：Anatolia；希臘語：ανατολή；土耳其語：Anadolu；亞拉姆語：ܐܢܛܘܠܝܐ；亞美尼亞語：Անատոլիա），亦作安纳托力亚、安那托利亞、阿纳多卢，又名小亞細亞（土耳其語：Küçük Asya；英語：As…",
+      "lat": "39",
+      "lng": "35"
+    },
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-eastern-bonelli-s-warbler-97067a99",
+      "subject": "Eastern Bonelli's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-western-bonelli-s-warbler-04c59938",
+      "object": "Western Bonelli's warbler",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2002): \"Taxonomic recommendations for European birds. \" Ibis 144(1): 153–159. * Western Bonelli's warbler, Phylloscopus bonelli, which breeds in southwest Europe and north Africa * Eastern Bonelli's warbler, Phylloscopus orientalis, which breeds in southeast Europe and Asia Minor The breeding ranges of the two species do not overlap; while their appearance and songs are very similar, the calls are completely different (see below)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-bonelli-s-warbler-97067a99",
+      "subject": "Eastern Bonelli's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-安納托利亞-3d1fe9a9",
+      "object": "安納托利亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(2002): \"Taxonomic recommendations for European birds. \" Ibis 144(1): 153–159. * Western Bonelli's warbler, Phylloscopus bonelli, which breeds in southwest Europe and north Africa * Eastern Bonelli's warbler, Phylloscopus orientalis, which breeds in southeast Europe and Asia Minor The breeding ranges of the two species do not overlap; while their appearance and songs are very similar, the calls are completely different (see below)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-bonelli-s-warbler-97067a99",
+      "subject": "Eastern Bonelli's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Avian Biol.]] 26: 139–153. The species is migratory, wintering in sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-bonelli-s-warbler-97067a99",
+      "subject": "Eastern Bonelli's warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

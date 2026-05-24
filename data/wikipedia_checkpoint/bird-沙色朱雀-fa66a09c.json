@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:25:15",
+  "requested_title": "Pale Rosefinch",
+  "resolved_title": "Pale rosefinch",
+  "title_aliases": [
+    "Pale Rosefinch"
+  ],
+  "bird_id": "bird-沙色朱雀-fa66a09c",
+  "raw_file": "bird-沙色朱雀-fa66a09c.json",
+  "bird": {
+    "id": "bird-沙色朱雀-fa66a09c",
+    "name": "沙色朱雀",
+    "english_name": "Pale rosefinch",
+    "latin_name": "Carpodacus stoliczkae",
+    "summary": "沙色朱雀（台湾作淡色朱雀）（学名：Carpodacus stoliczkae），是雀形目燕雀科的一种鸟类。 特征 沙色朱雀体重约20.8克，翼长约83.9毫米，嘴峰长约11.7毫米，喙宽度约6.3毫米，喙厚度约7.9毫米，跗蹠长约18.5毫米，尾长约66毫米。沙色朱雀在其分布区…",
+    "lat": "34.51666667",
+    "lng": "69.18333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pale_Rosefinch_%28Carpodacus_stoliczkae%29_male_in_China_%28cropped%29.jpg/960px-Pale_Rosefinch_%28Carpodacus_stoliczkae%29_male_in_China_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿富汗-1b59b990",
+      "name": "阿富汗",
+      "summary": "阿富汗伊斯兰酋长国，通称阿富汗，是位于亚洲中南部的内陆国家，坐落在亚洲的心脏地区。根据地理分区的不同定义，阿富汗被认为处在南亚、中亚、西亚、中东。阿富汗是擁有多样文化的国家，因地理上位于东方与西方的交界點，古时曾是重要的贸易中心和游牧民族…",
+      "lat": "34.51666667",
+      "lng": "69.18333333"
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-沙色朱雀-fa66a09c",
+      "subject": "沙色朱雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿富汗-1b59b990",
+      "object": "阿富汗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Afghanistan and China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-沙色朱雀-fa66a09c",
+      "subject": "沙色朱雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Afghanistan and China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-沙色朱雀-fa66a09c",
+      "subject": "沙色朱雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

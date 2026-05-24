@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:10:22",
+  "requested_title": "Violet-throated Metaltail",
+  "resolved_title": "Violet-throated metaltail",
+  "title_aliases": [
+    "Violet-throated Metaltail"
+  ],
+  "bird_id": "bird-紫喉辉尾蜂鸟-4cde67f7",
+  "raw_file": "bird-紫喉辉尾蜂鸟-4cde67f7.json",
+  "bird": {
+    "id": "bird-紫喉辉尾蜂鸟-4cde67f7",
+    "name": "紫喉辉尾蜂鸟",
+    "english_name": "Violet-throated metaltail",
+    "latin_name": "Metallura baroni",
+    "summary": "紫喉辉尾蜂鸟（学名：Metallura baroni），是雨燕目蜂鸟科的一种鸟类。 紫喉辉尾蜂鸟体重约4.3克，翼长约57.1毫米，嘴峰长约16.8毫米，喙宽度约1.7毫米，喙厚度约1.4毫米，跗蹠长约6毫米，尾长约37.7毫米。紫喉辉尾蜂鸟在其分布区内为留鸟，其栖息在半开放的…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Violet-throated_Metaltail.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫喉辉尾蜂鸟-4cde67f7",
+      "subject": "紫喉辉尾蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the edges of elfin forest and Polylepis woodlands and adjacent páramo grasslands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫喉辉尾蜂鸟-4cde67f7",
+      "subject": "紫喉辉尾蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the edges of elfin forest and Polylepis woodlands and adjacent páramo grasslands",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-紫喉辉尾蜂鸟-4cde67f7",
+      "subject": "紫喉辉尾蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

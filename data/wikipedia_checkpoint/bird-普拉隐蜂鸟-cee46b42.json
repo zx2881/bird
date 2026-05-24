@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:57:09",
+  "requested_title": "Planalto Hermit",
+  "resolved_title": "Planalto hermit",
+  "title_aliases": [
+    "Planalto Hermit"
+  ],
+  "bird_id": "bird-普拉隐蜂鸟-cee46b42",
+  "raw_file": "bird-普拉隐蜂鸟-cee46b42.json",
+  "bird": {
+    "id": "bird-普拉隐蜂鸟-cee46b42",
+    "name": "普拉隐蜂鸟",
+    "english_name": "Planalto hermit",
+    "latin_name": "Phaethornis pretrei",
+    "summary": "普拉隐蜂鸟（台湾作普拉納托隱蜂鳥，学名：Phaethornis pretrei），是雨燕目蜂鸟科的一种鸟类。 普拉隐蜂鸟体重约5.6克，翼长约59.3毫米，嘴峰长约35.6毫米，喙宽度约2.6毫米，喙厚度约2.7毫米，跗蹠长约5.4毫米，尾长约73.2毫米。普拉隐蜂鸟在其分布区…",
+    "lat": "41.866269",
+    "lng": "-87.616997",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flickr_-_Dario_Sanches_-_RABO-BRANCO-ACANELADO_%28Phaethornis_pretrei_%29.jpg/960px-Flickr_-_Dario_Sanches_-_RABO-BRANCO-ACANELADO_%28Phaethornis_pretrei_%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-american-ornithological-society-5fde31a2",
+      "name": "American Ornithological Society",
+      "summary": "The American Ornithological Society (AOS) is an ornithological organization based in the United States.",
+      "lat": "41.866269",
+      "lng": "-87.616997"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-普拉隐蜂鸟-cee46b42",
+      "subject": "普拉隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-american-ornithological-society-5fde31a2",
+      "object": "American Ornithological Society",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Downloaded from https://www.birds.cornell.edu/clementschecklist/download/ Retrieved August 25, 2021 The South American Classification Committee (SACC) of the American Ornithological Society places the species in those four countries and also notes many records in Peru. It inhabits a variety of landscapes including non-forested but \"vegetation-rich\" areas, dry forest, secondary forest, and gallery forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-普拉隐蜂鸟-cee46b42",
+      "subject": "普拉隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Downloaded from https://www.birds.cornell.edu/clementschecklist/download/ Retrieved August 25, 2021 The South American Classification Committee (SACC) of the American Ornithological Society places the species in those four countries and also notes many records in Peru. It inhabits a variety of landscapes including non-forested but \"vegetation-rich\" areas, dry forest, secondary forest, and gallery forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-普拉隐蜂鸟-cee46b42",
+      "subject": "普拉隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Downloaded from https://www.birds.cornell.edu/clementschecklist/download/ Retrieved August 25, 2021 The South American Classification Committee (SACC) of the American Ornithological Society places the species in those four countries and also notes many records in Peru. It inhabits a variety of landscapes including non-forested but \"vegetation-rich\" areas, dry forest, secondary forest, and gallery forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-普拉隐蜂鸟-cee46b42",
+      "subject": "普拉隐蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:43:16",
+  "requested_title": "Unicolored Blackbird",
+  "resolved_title": "Unicolored blackbird",
+  "title_aliases": [
+    "Unicolored Blackbird"
+  ],
+  "bird_id": "bird-unicolored-blackbird-e5255a9c",
+  "raw_file": "bird-unicolored-blackbird-e5255a9c.json",
+  "bird": {
+    "id": "bird-unicolored-blackbird-e5255a9c",
+    "name": "Unicolored blackbird",
+    "english_name": "Unicolored blackbird",
+    "latin_name": "Agelasticus cyanopus",
+    "summary": "The unicolored blackbird (Agelasticus cyanopus) is a species of bird in the family Icteridae. Found in Argentina, Bolivia, Brazil, and Para…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Unicolored_Blackbird_%28Agelasticus_cyanopus%29_male.jpg/960px-Unicolored_Blackbird_%28Agelasticus_cyanopus%29_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-巴拉圭-029e9211",
+      "name": "巴拉圭",
+      "summary": "巴拉圭共和國（西班牙語：República del Paraguay、瓜拉尼語：Paraguái Tavakuairetã），通稱巴拉圭（西班牙語：Paraguay；瓜拉尼語：Paraguái），是位於南美洲的主權國家，也是位於南美洲的內…",
+      "lat": "-23",
+      "lng": "-58"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-unicolored-blackbird-e5255a9c",
+      "subject": "Unicolored blackbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Unicolored Blackbird (Chrysomus cyanopus). Found in Argentina, Bolivia, Brazil, and Paraguay, its natural habitat is swamps and nearby grassland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-unicolored-blackbird-e5255a9c",
+      "subject": "Unicolored blackbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Unicolored Blackbird (Chrysomus cyanopus). Found in Argentina, Bolivia, Brazil, and Paraguay, its natural habitat is swamps and nearby grassland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-unicolored-blackbird-e5255a9c",
+      "subject": "Unicolored blackbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Unicolored Blackbird (Chrysomus cyanopus). Found in Argentina, Bolivia, Brazil, and Paraguay, its natural habitat is swamps and nearby grassland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-unicolored-blackbird-e5255a9c",
+      "subject": "Unicolored blackbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉圭-029e9211",
+      "object": "巴拉圭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Unicolored Blackbird (Chrysomus cyanopus). Found in Argentina, Bolivia, Brazil, and Paraguay, its natural habitat is swamps and nearby grassland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-unicolored-blackbird-e5255a9c",
+      "subject": "Unicolored blackbird",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Unicolored Blackbird (Chrysomus cyanopus). Found in Argentina, Bolivia, Brazil, and Paraguay, its natural habitat is swamps and nearby grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-unicolored-blackbird-e5255a9c",
+      "subject": "Unicolored blackbird",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Unicolored Blackbird (Chrysomus cyanopus). Found in Argentina, Bolivia, Brazil, and Paraguay, its natural habitat is swamps and nearby grassland",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-unicolored-blackbird-e5255a9c",
+      "subject": "Unicolored blackbird",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in marshes, near the edges of ponds and lakes and in adjacent grassland, and its altitudinal range is up to about",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-unicolored-blackbird-e5255a9c",
+      "subject": "Unicolored blackbird",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in marshes, near the edges of ponds and lakes and in adjacent grassland, and its altitudinal range is up to about",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-unicolored-blackbird-e5255a9c",
+      "subject": "Unicolored blackbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

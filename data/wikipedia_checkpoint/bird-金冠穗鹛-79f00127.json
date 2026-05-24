@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:33:07",
+  "requested_title": "Golden-crowned Babbler",
+  "resolved_title": "Golden-crowned babbler",
+  "title_aliases": [
+    "Golden-crowned Babbler"
+  ],
+  "bird_id": "bird-金冠穗鹛-79f00127",
+  "raw_file": "bird-金冠穗鹛-79f00127.json",
+  "bird": {
+    "id": "bird-金冠穗鹛-79f00127",
+    "name": "金冠穗鹛",
+    "english_name": "Golden-crowned babbler",
+    "latin_name": "Sterrhoptilus dennistouni",
+    "summary": "金冠穗鹛（学名：Stachyris dennistouni），是画眉科穗鹛属的一种，为菲律宾的特有种。该物种的保护状况被评为近危。 金冠穗鹛的平均体重约为15.7克。栖息地为亚热带或热带的湿润低地林。",
+    "lat": "17.30805556",
+    "lng": "122.08611111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Golden-crowned_Babbler.jpg/960px-Golden-crowned_Babbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "name": "Northern Sierra Madre Natural Park",
+      "summary": "The Northern Sierra Madre Natural Park is the largest protected area of the Philippines covering the northern range of…",
+      "lat": "17.30805556",
+      "lng": "122.08611111"
+    },
+    {
+      "id": "loc-aurora-memorial-national-park-d550ba85",
+      "name": "Aurora Memorial National Park",
+      "summary": "Aurora Memorial National Park is a protected area of the Philippines located within the Sierra Madre mountain range bet…",
+      "lat": "15.46666667",
+      "lng": "121.41666667"
+    },
+    {
+      "id": "loc-kalbario-patapat-natural-park-31e01e81",
+      "name": "Kalbario–Patapat Natural Park",
+      "summary": "The Kalbario–Patapat Natural Park is a protected area in the Philippines, located on the Patapat Mountains in the munic…",
+      "lat": "18.5325",
+      "lng": "120.91388889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金冠穗鹛-79f00127",
+      "subject": "金冠穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "object": "Northern Sierra Madre Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Northern Sierra Madre Natural Park, Aurora Memorial National Park and Kalbario–Patapat Natural Park but enforcement from loggers and hunters is still lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金冠穗鹛-79f00127",
+      "subject": "金冠穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-aurora-memorial-national-park-d550ba85",
+      "object": "Aurora Memorial National Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Northern Sierra Madre Natural Park, Aurora Memorial National Park and Kalbario–Patapat Natural Park but enforcement from loggers and hunters is still lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金冠穗鹛-79f00127",
+      "subject": "金冠穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-kalbario-patapat-natural-park-31e01e81",
+      "object": "Kalbario–Patapat Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Northern Sierra Madre Natural Park, Aurora Memorial National Park and Kalbario–Patapat Natural Park but enforcement from loggers and hunters is still lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金冠穗鹛-79f00127",
+      "subject": "金冠穗鹛",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-金冠穗鹛-79f00127",
+      "subject": "金冠穗鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-金冠穗鹛-79f00127",
+      "subject": "金冠穗鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its threats are mainly habitat loss due to deforestation for lumber, mining and farmlands",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:28:00",
+  "requested_title": "Lesser Striped Swallow",
+  "resolved_title": "Lesser striped swallow",
+  "title_aliases": [
+    "Lesser Striped Swallow"
+  ],
+  "bird_id": "bird-lesser-striped-swallow-34bac80b",
+  "raw_file": "bird-lesser-striped-swallow-34bac80b.json",
+  "bird": {
+    "id": "bird-lesser-striped-swallow-34bac80b",
+    "name": "Lesser striped swallow",
+    "english_name": "Lesser striped swallow",
+    "latin_name": "Cecropis abyssinica",
+    "summary": "The lesser striped swallow (Cecropis abyssinica) is a large swallow. It breeds in Sub-Saharan Africa from Sierra Leone and southern Sudan s…",
+    "lat": "8.5",
+    "lng": "-12.1",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Hirundo_abyssinica.jpg/960px-Hirundo_abyssinica.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-塞拉利昂-91a82141",
+      "name": "塞拉利昂",
+      "summary": "塞拉利昂共和国（英語：Republic of Sierra Leone），通稱塞拉利昂（英語：Sierra Leone），位于西非大西洋岸，北部及东部被几内亚包圍、东南与利比里亚接壤，首都弗里敦。 中文译名 “Sierra Leone”一…",
+      "lat": "8.5",
+      "lng": "-12.1"
+    },
+    {
+      "id": "loc-苏丹-2e3eec83",
+      "name": "苏丹",
+      "summary": "蘇丹共和國（阿拉伯語：جمهورية السودان；Republic of the Sudan），通稱蘇丹（阿拉伯語：السودان，羅馬化：Sūdān，/suːˈdɑːn/或/suːˈdæn/），南蘇丹獨立後亦被稱為北蘇丹，是位於東北…",
+      "lat": "15",
+      "lng": "32"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lesser-striped-swallow-34bac80b",
+      "subject": "Lesser striped swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Sub-Saharan Africa from Sierra Leone and southern Sudan south into eastern South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-striped-swallow-34bac80b",
+      "subject": "Lesser striped swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞拉利昂-91a82141",
+      "object": "塞拉利昂",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Sub-Saharan Africa from Sierra Leone and southern Sudan south into eastern South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-striped-swallow-34bac80b",
+      "subject": "Lesser striped swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏丹-2e3eec83",
+      "object": "苏丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Sub-Saharan Africa from Sierra Leone and southern Sudan south into eastern South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-striped-swallow-34bac80b",
+      "subject": "Lesser striped swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Sub-Saharan Africa from Sierra Leone and southern Sudan south into eastern South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-striped-swallow-34bac80b",
+      "subject": "Lesser striped swallow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

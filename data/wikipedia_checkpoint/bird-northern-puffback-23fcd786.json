@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:19:13",
+  "requested_title": "Northern Puffback",
+  "resolved_title": "Northern puffback",
+  "title_aliases": [
+    "Northern Puffback"
+  ],
+  "bird_id": "bird-northern-puffback-23fcd786",
+  "raw_file": "bird-northern-puffback-23fcd786.json",
+  "bird": {
+    "id": "bird-northern-puffback-23fcd786",
+    "name": "Northern puffback",
+    "english_name": "Northern puffback",
+    "latin_name": "Dryoscopus gambensis",
+    "summary": "The northern puffback (Dryoscopus gambensis) is a species of bird in the family Malaconotidae. It is found in northern sub-Saharan Africa.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Northern_Puffback_specimen_RWD.jpg/960px-Northern_Puffback_specimen_RWD.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-northern-puffback-23fcd786",
+      "subject": "Northern puffback",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-northern-puffback-23fcd786",
+      "subject": "Northern puffback",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

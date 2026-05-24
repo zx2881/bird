@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:21:08",
+  "requested_title": "Humblot's Flycatcher",
+  "resolved_title": "Humblot's flycatcher",
+  "title_aliases": [
+    "Humblot's Flycatcher"
+  ],
+  "bird_id": "bird-humblot-s-flycatcher-7d185c5f",
+  "raw_file": "bird-humblot-s-flycatcher-7d185c5f.json",
+  "bird": {
+    "id": "bird-humblot-s-flycatcher-7d185c5f",
+    "name": "Humblot's flycatcher",
+    "english_name": "Humblot's flycatcher",
+    "latin_name": "Humblotia flavirostris",
+    "summary": "Humblot's flycatcher (Humblotia flavirostris) or the Grand Comore flycatcher, is a small passerine bird belonging to the Old World flycatch…",
+    "lat": "-11.76028",
+    "lng": "43.35306",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Naturalis_Biodiversity_Center_-_RMNH.AVES.139388_1_-_Humblotia_flavirostris_Milne-Edwards_and_Oustalet%2C_1885_-_Muscicapidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.139388_1_-_Humblotia_flavirostris_Milne-Edwards_and_Oustalet%2C_1885_-_Muscicapidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-卡尔塔拉火山-681aee07",
+      "name": "卡尔塔拉火山",
+      "summary": "卡尔塔拉火山即卡尔塔拉山（法語：Karthala）(阿拉伯語：القرطالة‎ Al Qirtālah)，是一座位于科摩罗的活火山，距离科摩罗首都莫罗尼仅15公里。卡尔塔拉山海拔2,361米（7,746英尺），是科摩罗的最高峰。在形成大…",
+      "lat": "-11.76028",
+      "lng": "43.35306"
+    },
+    {
+      "id": "loc-法国-f5818fdf",
+      "name": "法国",
+      "summary": "法蘭西共和國（法語：République française，發音：[ʁepyblik fʁɑ̃sɛːz] ），通稱法國（France [fʁɑ̃s] ），西歐雙首長制共和國，東鄰德國、比利時與義大利，西面比斯開灣，西南接西班牙，北隔英吉…",
+      "lat": "47",
+      "lng": "2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-humblot-s-flycatcher-7d185c5f",
+      "subject": "Humblot's flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Humblot's flycatcher is endemic to the island of Grand Comoro in the Comoros where it inhabits forest on the slopes of Mount Karthala. The scientific name commemorates the French naturalist Léon Humblot",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-humblot-s-flycatcher-7d185c5f",
+      "subject": "Humblot's flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔塔拉火山-681aee07",
+      "object": "卡尔塔拉火山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Humblot's flycatcher is endemic to the island of Grand Comoro in the Comoros where it inhabits forest on the slopes of Mount Karthala. The scientific name commemorates the French naturalist Léon Humblot",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-humblot-s-flycatcher-7d185c5f",
+      "subject": "Humblot's flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-法国-f5818fdf",
+      "object": "法国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Humblot's flycatcher is endemic to the island of Grand Comoro in the Comoros where it inhabits forest on the slopes of Mount Karthala. The scientific name commemorates the French naturalist Léon Humblot",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-humblot-s-flycatcher-7d185c5f",
+      "subject": "Humblot's flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:11:36",
+  "requested_title": "Jalca Tapaculo",
+  "resolved_title": "Jalca tapaculo",
+  "title_aliases": [
+    "Jalca Tapaculo"
+  ],
+  "bird_id": "bird-jalca-tapaculo-55f7cb69",
+  "raw_file": "bird-jalca-tapaculo-55f7cb69.json",
+  "bird": {
+    "id": "bird-jalca-tapaculo-55f7cb69",
+    "name": "Jalca tapaculo",
+    "english_name": "Jalca tapaculo",
+    "latin_name": "Scytalopus frankeae",
+    "summary": "The jalca tapaculo (Scytalopus frankeae) is a species of bird in the family Rhinocryptidae. It is endemic to Peru.",
+    "lat": "-8.36305556",
+    "lng": "-76.31555556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Scytalopus_frankeae_-_Jalca_Tapaculo_2.jpg/960px-Scytalopus_frankeae_-_Jalca_Tapaculo_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-瓦努科大区-2cad0f67",
+      "name": "瓦努科大区",
+      "summary": "瓦努科大區（西班牙語：Departamento de Huánuco）是秘魯中部的一個大區。它周边的大区有，向北拉利伯塔德大区、圣马丁大区、洛雷托大区、乌卡亚利大区、向东乌卡亚利大区、向南帕斯科大区和向西利馬大區和安卡什大区。它的首府是瓦…",
+      "lat": "-8.36305556",
+      "lng": "-76.31555556"
+    },
+    {
+      "id": "loc-帕斯科大区-009ac9fb",
+      "name": "帕斯科大区",
+      "summary": "帕斯科大區（西班牙語：Departamento de Pasco）是秘魯中部的一個大區。面積25,319.59平方公里，2007年人口266,764人。首府塞羅德帕斯科。 1874年12月1日建區。下分3省28區。",
+      "lat": "-10.5",
+      "lng": "-75.3"
+    },
+    {
+      "id": "loc-胡宁大区-e8a2aec2",
+      "name": "胡宁大区",
+      "summary": "胡寧大區（Departamento de Junín）是秘魯中部的一個大區，地處阿爾蒂普拉諾高原之上。面積44,197.23平方公里，2007年人口1,091,619人。首府萬卡約。 1821年2月12日建區。下分9省123區。",
+      "lat": "-11.48",
+      "lng": "-74.98"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-jalca-tapaculo-55f7cb69",
+      "subject": "Jalca tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦努科大区-2cad0f67",
+      "object": "瓦努科大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the north it is found in the departments of Huánuco and Pasco and in the south the department of Junín",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jalca-tapaculo-55f7cb69",
+      "subject": "Jalca tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-帕斯科大区-009ac9fb",
+      "object": "帕斯科大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the north it is found in the departments of Huánuco and Pasco and in the south the department of Junín",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jalca-tapaculo-55f7cb69",
+      "subject": "Jalca tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-胡宁大区-e8a2aec2",
+      "object": "胡宁大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the north it is found in the departments of Huánuco and Pasco and in the south the department of Junín",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jalca-tapaculo-55f7cb69",
+      "subject": "Jalca tapaculo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

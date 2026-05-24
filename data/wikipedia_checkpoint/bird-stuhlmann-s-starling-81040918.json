@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:48:10",
+  "requested_title": "Stuhlmann's Starling",
+  "resolved_title": "Stuhlmann's starling",
+  "title_aliases": [
+    "Stuhlmann's Starling"
+  ],
+  "bird_id": "bird-stuhlmann-s-starling-81040918",
+  "raw_file": "bird-stuhlmann-s-starling-81040918.json",
+  "bird": {
+    "id": "bird-stuhlmann-s-starling-81040918",
+    "name": "Stuhlmann's starling",
+    "english_name": "Stuhlmann's starling",
+    "latin_name": "Poeoptera stuhlmanni",
+    "summary": "Stuhlmann's starling (Poeoptera stuhlmanni) is a species of starling in the family Sturnidae. It is native to the Albertine rift montane fo…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Stuhlmann%27s_Starling_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    },
+    {
+      "id": "loc-east-african-montane-forests-6313874b",
+      "name": "East African montane forests",
+      "summary": "The East African montane forests is a montane tropical moist forest ecoregion of eastern Africa.",
+      "lat": "-0.55",
+      "lng": "35.65"
+    },
+    {
+      "id": "loc-ethiopian-montane-forests-2f7373a1",
+      "name": "Ethiopian montane forests",
+      "summary": "The Ethiopian montane forests is a tropical moist broadleaf forest ecoregion in Ethiopia.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-stuhlmann-s-starling-81040918",
+      "subject": "Stuhlmann's starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine rift montane forests, the East African montane forests and the southwestern Ethiopian montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stuhlmann-s-starling-81040918",
+      "subject": "Stuhlmann's starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-east-african-montane-forests-6313874b",
+      "object": "East African montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine rift montane forests, the East African montane forests and the southwestern Ethiopian montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stuhlmann-s-starling-81040918",
+      "subject": "Stuhlmann's starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-ethiopian-montane-forests-2f7373a1",
+      "object": "Ethiopian montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine rift montane forests, the East African montane forests and the southwestern Ethiopian montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stuhlmann-s-starling-81040918",
+      "subject": "Stuhlmann's starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

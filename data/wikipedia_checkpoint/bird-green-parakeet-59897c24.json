@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:51:17",
+  "requested_title": "Green Parakeet",
+  "resolved_title": "Green parakeet",
+  "title_aliases": [
+    "Green Parakeet"
+  ],
+  "bird_id": "bird-green-parakeet-59897c24",
+  "raw_file": "bird-green-parakeet-59897c24.json",
+  "bird": {
+    "id": "bird-green-parakeet-59897c24",
+    "name": "Green parakeet",
+    "english_name": "Green parakeet",
+    "latin_name": "Psittacara holochlorus",
+    "summary": "The green parakeet (Psittacara holochlorus), green conure, or Mexican green conure is a New World parrot. As defined by the International O…",
+    "lat": "23",
+    "lng": "-102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Green_Parakeet_-in_tree_-South_Texas-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-世界鸟类学家联合会-2334810d",
+      "name": "世界鸟类学家联合会",
+      "summary": "世界鸟类学家联合会（英語：International Ornithologists' Union），原称国际鸟类学委员会（International Ornithological Committee），是国际鸟类学大会（Internati…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-parakeet-59897c24",
+      "subject": "Green parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-世界鸟类学家联合会-2334810d",
+      "object": "世界鸟类学家联合会",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "As defined by the International Ornithological Committee (IOC), it is native to Mexico and southern Texas in the Rio Grande Valley.{{cite web |url=https://www.worldbirdnames.org/new/bow/parrots/ |title=Parrots, cockatoos |website=IOC World Bird List |version =v 13.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-parakeet-59897c24",
+      "subject": "Green parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "As defined by the International Ornithological Committee (IOC), it is native to Mexico and southern Texas in the Rio Grande Valley.{{cite web |url=https://www.worldbirdnames.org/new/bow/parrots/ |title=Parrots, cockatoos |website=IOC World Bird List |version =v 13.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-parakeet-59897c24",
+      "subject": "Green parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Williams III | date=August 16, 2022|publisher=New Mexico Bird Records Committee |access-date=April 6, 2023 }} In its native range, the green parakeet inhabits semi-open landscapes including deciduous woodland, gallery forest, and scrublands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-parakeet-59897c24",
+      "subject": "Green parakeet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Williams III | date=August 16, 2022|publisher=New Mexico Bird Records Committee |access-date=April 6, 2023 }} In its native range, the green parakeet inhabits semi-open landscapes including deciduous woodland, gallery forest, and scrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-green-parakeet-59897c24",
+      "subject": "Green parakeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-green-parakeet-59897c24",
+      "subject": "Green parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats to the Mexican population have been identified. NatureServe considers the species Vulnerable in Texas due to hunting pressure",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

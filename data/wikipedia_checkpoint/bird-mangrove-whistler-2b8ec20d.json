@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:41:11",
+  "requested_title": "Mangrove Whistler",
+  "resolved_title": "Mangrove whistler",
+  "title_aliases": [
+    "Mangrove Whistler"
+  ],
+  "bird_id": "bird-mangrove-whistler-2b8ec20d",
+  "raw_file": "bird-mangrove-whistler-2b8ec20d.json",
+  "bird": {
+    "id": "bird-mangrove-whistler-2b8ec20d",
+    "name": "Mangrove whistler",
+    "english_name": "Mangrove whistler",
+    "latin_name": "Pachycephala cinerea",
+    "summary": "The mangrove whistler (Pachycephala cinerea) is a species of bird in the family Pachycephalidae found in South-east Asia. Taxonomy and syst…",
+    "lat": "21.75",
+    "lng": "88.75",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Mangrove_Whistler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-孙德尔本斯-636e683c",
+      "name": "孙德尔本斯",
+      "summary": "孙德尔本斯（孟加拉語：সুন্দরবন，羅馬化：Shundorbôn，印地語：सुन्दरवन），孟加拉語意為“美麗的森林”。是由恒河、布拉馬普特拉河和梅格納河在孟加拉灣匯合而成的三角洲中的一個紅樹林區。它跨越了從印度西孟加拉邦的胡格利河…",
+      "lat": "21.75",
+      "lng": "88.75"
+    },
+    {
+      "id": "loc-西孟加拉邦-045f91ba",
+      "name": "西孟加拉邦",
+      "summary": "西孟加拉邦（孟加拉語：পশ্চিমবঙ্গ 發音：[ˈpoʃtʃimˈbɔŋɡo] ，ISO：Paścimabaṅga；英語：State of West Bengal /bɛnˈɡɔːl/），印度东部的邦，是印度人口第四多的邦，首府为加尔…",
+      "lat": "22.57",
+      "lng": "88.37"
+    },
+    {
+      "id": "loc-愛德華-布萊思-840f1191",
+      "name": "愛德華·布萊思",
+      "summary": "愛德華·布萊思（英語：Edward Blyth，1810年12月23日—1873年12月27日）是一位英國動物學家，其一生中的絕大部分時間都在印度加爾各答的孟加拉亞洲學會博物館內擔任策展人。 布萊思於1810年生於倫敦，於1841年移居至…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mangrove-whistler-2b8ec20d",
+      "subject": "Mangrove whistler",
+      "predicate": "distributed_in",
+      "object_id": "loc-孙德尔本斯-636e683c",
+      "object": "孙德尔本斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mangrove whistler (Pachycephala cinerea) is a species of bird in the family Pachycephalidae found in South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-whistler-2b8ec20d",
+      "subject": "Mangrove whistler",
+      "predicate": "distributed_in",
+      "object_id": "loc-西孟加拉邦-045f91ba",
+      "object": "西孟加拉邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mangrove whistler (Pachycephala cinerea) is a species of bird in the family Pachycephalidae found in South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-whistler-2b8ec20d",
+      "subject": "Mangrove whistler",
+      "predicate": "distributed_in",
+      "object_id": "loc-愛德華-布萊思-840f1191",
+      "object": "愛德華·布萊思",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mangrove whistler (Pachycephala cinerea) is a species of bird in the family Pachycephalidae found in South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-whistler-2b8ec20d",
+      "subject": "Mangrove whistler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

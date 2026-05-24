@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:19:17",
+  "requested_title": "Bay-vented Cotinga",
+  "resolved_title": "Bay-vented cotinga",
+  "title_aliases": [
+    "Bay-vented Cotinga"
+  ],
+  "bird_id": "bird-bay-vented-cotinga-5e1ba533",
+  "raw_file": "bird-bay-vented-cotinga-5e1ba533.json",
+  "bird": {
+    "id": "bird-bay-vented-cotinga-5e1ba533",
+    "name": "Bay-vented cotinga",
+    "english_name": "Bay-vented cotinga",
+    "latin_name": "Doliornis sclateri",
+    "summary": "The bay-vented cotinga (Doliornis sclateri) is a species of bird in the family Cotingidae. It is endemic to Peru.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bay-vented_Cotinga_%28Doliornis_sclateri%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bay-vented-cotinga-5e1ba533",
+      "subject": "Bay-vented cotinga",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid elfin forest at or near tree line",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bay-vented-cotinga-5e1ba533",
+      "subject": "Bay-vented cotinga",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

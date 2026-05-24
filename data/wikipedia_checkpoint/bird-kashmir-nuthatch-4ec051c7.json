@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:27:09",
+  "requested_title": "Kashmir Nuthatch",
+  "resolved_title": "Kashmir nuthatch",
+  "title_aliases": [
+    "Kashmir Nuthatch"
+  ],
+  "bird_id": "bird-kashmir-nuthatch-4ec051c7",
+  "raw_file": "bird-kashmir-nuthatch-4ec051c7.json",
+  "bird": {
+    "id": "bird-kashmir-nuthatch-4ec051c7",
+    "name": "Kashmir nuthatch",
+    "english_name": "Kashmir nuthatch",
+    "latin_name": "Sitta cashmirensis",
+    "summary": "The Kashmir nuthatch (Sitta cashmirensis) is a species of bird in the family Sittidae. It is found in the northernmost regions of the India…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Kashmir_Nuthatch_%28Sitta_cashmirensis%29_%2847088107744%29_%28cropped%29.jpg/960px-Kashmir_Nuthatch_%28Sitta_cashmirensis%29_%2847088107744%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-kashmir-nuthatch-4ec051c7",
+      "subject": "Kashmir nuthatch",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the northernmost regions of the Indian subcontinent, primarily in the mid-altitudes of the Himalayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kashmir-nuthatch-4ec051c7",
+      "subject": "Kashmir nuthatch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

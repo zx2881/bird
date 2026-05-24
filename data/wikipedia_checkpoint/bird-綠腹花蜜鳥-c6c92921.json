@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:01:36",
+  "requested_title": "Olive-bellied Sunbird",
+  "resolved_title": "Olive-bellied sunbird",
+  "title_aliases": [
+    "Olive-bellied Sunbird"
+  ],
+  "bird_id": "bird-綠腹花蜜鳥-c6c92921",
+  "raw_file": "bird-綠腹花蜜鳥-c6c92921.json",
+  "bird": {
+    "id": "bird-綠腹花蜜鳥-c6c92921",
+    "name": "綠腹花蜜鳥",
+    "english_name": "Olive-bellied sunbird",
+    "latin_name": "Cinnyris chloropygius",
+    "summary": "綠腹花蜜鳥（學名：Cinnyris chloropygius）是太陽鳥科雙領花蜜鳥屬的其中一種，廣泛分布於非洲熱帶雨林。 描述 綠腹花蜜鳥是一種小型品種，外觀與姬花蜜鳥非常相似。成年雄鳥的頭部、背部和喉嚨呈金屬綠色，翅膀呈深褐色，臀部呈金屬藍色，尾巴呈黑色，帶有紫藍色的光澤。在…",
+    "lat": "12",
+    "lng": "3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/001_Olive-bellied_Sunbird_starting_to_fly_at_Kibale_National_Park_Photo_by_Giles_Laurent.jpg/960px-001_Olive-bellied_Sunbird_starting_to_fly_at_Kibale_National_Park_Photo_by_Giles_Laurent.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    },
+    {
+      "id": "loc-南部非洲-488ef0f2",
+      "name": "南部非洲",
+      "summary": "南部非洲（英语：Southern Africa）即非洲大陆南部地区，不常简称為南非，“南非”（英语：South Africa）通常指南非共和国。联合国地理方案的南部非洲次分区包括下列五個南部非洲关税同盟国家： 博茨瓦纳 史瓦帝尼（斯威士兰…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东非-af146c9c",
+      "name": "东非",
+      "summary": "东非即非洲的东部地区，根據聯合國的次分區共有18個国家或屬地： 埃塞俄比亞、索馬里（含索馬利蘭）、厄立特里亚和吉布提，以上几國在地理上稱為非洲之角 坦桑尼亚、肯尼亚、乌干达、卢旺达、布隆迪和南苏丹，以上六國組成東非共同體 赞比亚、津巴布韦…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-綠腹花蜜鳥-c6c92921",
+      "subject": "綠腹花蜜鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is widely spread across the African tropical rainforest primarily throughout West and Central Africa, but is also found in Southern and East Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-綠腹花蜜鳥-c6c92921",
+      "subject": "綠腹花蜜鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-南部非洲-488ef0f2",
+      "object": "南部非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is widely spread across the African tropical rainforest primarily throughout West and Central Africa, but is also found in Southern and East Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-綠腹花蜜鳥-c6c92921",
+      "subject": "綠腹花蜜鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-东非-af146c9c",
+      "object": "东非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is widely spread across the African tropical rainforest primarily throughout West and Central Africa, but is also found in Southern and East Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-綠腹花蜜鳥-c6c92921",
+      "subject": "綠腹花蜜鳥",
+      "predicate": "lives_in",
+      "object_id": "hab-rainforest",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is widely spread across the African tropical rainforest primarily throughout West and Central Africa, but is also found in Southern and East Africa",
+      "object_summary": "结构复杂且冠层完整的高生物多样性森林。"
+    },
+    {
+      "subject_id": "bird-綠腹花蜜鳥-c6c92921",
+      "subject": "綠腹花蜜鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

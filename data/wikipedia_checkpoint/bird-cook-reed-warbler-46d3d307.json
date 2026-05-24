@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:35:13",
+  "requested_title": "Cook Reed Warbler",
+  "resolved_title": "Cook reed warbler",
+  "title_aliases": [
+    "Cook Reed Warbler"
+  ],
+  "bird_id": "bird-cook-reed-warbler-46d3d307",
+  "raw_file": "bird-cook-reed-warbler-46d3d307.json",
+  "bird": {
+    "id": "bird-cook-reed-warbler-46d3d307",
+    "name": "Cook reed warbler",
+    "english_name": "Cook reed warbler",
+    "latin_name": "Acrocephalus (bird) kerearako",
+    "summary": "The Cook reed warbler (Acrocephalus kerearako) or Cook Islands reed warbler, is a species of Old World warbler in the family Acrocephalidae…",
+    "lat": "-21.23333333",
+    "lng": "-159.76666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Acrocephalus_kerearako_2919060_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-库克群岛-29e6492d",
+      "name": "库克群岛",
+      "summary": "庫克群島（英語：Cook Islands）是一個位于南太平洋，在法屬玻里尼西亞與斐濟之間，由15個島嶼組成的群島，其命名起源於遠航探索南太平洋，發現了許多島嶼的詹姆斯·庫克船長。與新西兰之間存在自由聯合关系，是紐西蘭王國的構成部份。 历史…",
+      "lat": "-21.23333333",
+      "lng": "-159.76666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cook-reed-warbler-46d3d307",
+      "subject": "Cook reed warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-库克群岛-29e6492d",
+      "object": "库克群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the southeastern Cook Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cook-reed-warbler-46d3d307",
+      "subject": "Cook reed warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-cook-reed-warbler-46d3d307",
+      "subject": "Cook reed warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

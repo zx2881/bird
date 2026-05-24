@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:26:39",
+  "requested_title": "Mountain Yellow Warbler",
+  "resolved_title": "Mountain yellow warbler",
+  "title_aliases": [
+    "Mountain Yellow Warbler"
+  ],
+  "bird_id": "bird-mountain-yellow-warbler-308cca92",
+  "raw_file": "bird-mountain-yellow-warbler-308cca92.json",
+  "bird": {
+    "id": "bird-mountain-yellow-warbler-308cca92",
+    "name": "Mountain yellow warbler",
+    "english_name": "Mountain yellow warbler",
+    "latin_name": "Iduna similis",
+    "summary": "The Mountain yellow warbler (Iduna similis) is a medium sized bird with a mix of olive and yellow coloration. This bird is native to the ea…",
+    "lat": "3.95",
+    "lng": "32.9",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Mountain_Yellow_Warbler_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    },
+    {
+      "id": "loc-east-african-montane-forests-6313874b",
+      "name": "East African montane forests",
+      "summary": "The East African montane forests is a montane tropical moist forest ecoregion of eastern Africa.",
+      "lat": "-0.55",
+      "lng": "35.65"
+    },
+    {
+      "id": "loc-伊馬通山脈-5c12ed36",
+      "name": "伊馬通山脈",
+      "summary": "伊馬通山脈是非洲東北部國家南蘇丹的山脈，位於該國東南部東赤道省，距離朱巴約190公里，最高點是海拔高度3,187米的基涅提峰，每年平均降雨量約1,500毫米。",
+      "lat": "3.95",
+      "lng": "32.9"
+    },
+    {
+      "id": "loc-東部弧形山脈-558353c8",
+      "name": "東部弧形山脈",
+      "summary": "The Eastern Arc Mountains are a chain of mountains found in Kenya and Tanzania.",
+      "lat": "-6",
+      "lng": "36"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mountain-yellow-warbler-308cca92",
+      "subject": "Mountain yellow warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mountain Yellow Warbler is native to the Albertine rift and East African montane forests, Imatong and Eastern Arc mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-yellow-warbler-308cca92",
+      "subject": "Mountain yellow warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-east-african-montane-forests-6313874b",
+      "object": "East African montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mountain Yellow Warbler is native to the Albertine rift and East African montane forests, Imatong and Eastern Arc mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-yellow-warbler-308cca92",
+      "subject": "Mountain yellow warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊馬通山脈-5c12ed36",
+      "object": "伊馬通山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mountain Yellow Warbler is native to the Albertine rift and East African montane forests, Imatong and Eastern Arc mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-yellow-warbler-308cca92",
+      "subject": "Mountain yellow warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-東部弧形山脈-558353c8",
+      "object": "東部弧形山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mountain Yellow Warbler is native to the Albertine rift and East African montane forests, Imatong and Eastern Arc mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-yellow-warbler-308cca92",
+      "subject": "Mountain yellow warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

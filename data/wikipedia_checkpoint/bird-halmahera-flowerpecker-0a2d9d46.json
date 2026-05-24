@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:40:16",
+  "requested_title": "Halmahera Flowerpecker",
+  "resolved_title": "Halmahera flowerpecker",
+  "title_aliases": [
+    "Halmahera Flowerpecker"
+  ],
+  "bird_id": "bird-halmahera-flowerpecker-0a2d9d46",
+  "raw_file": "bird-halmahera-flowerpecker-0a2d9d46.json",
+  "bird": {
+    "id": "bird-halmahera-flowerpecker-0a2d9d46",
+    "name": "Halmahera flowerpecker",
+    "english_name": "Halmahera flowerpecker",
+    "latin_name": "Dicaeum schistaceiceps",
+    "summary": "The Halmahera flowerpecker (Dicaeum schistaceiceps) is a species of bird in the family Dicaeidae. It is native to North Maluku, Indonesia.",
+    "lat": "0.78333333",
+    "lng": "127.36666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Dicaeum_schistaceiceps_-_Joseph_Morlan_-_337803967.jpeg/960px-Dicaeum_schistaceiceps_-_Joseph_Morlan_-_337803967.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-北马鲁古省-ddc31177",
+      "name": "北马鲁古省",
+      "summary": "北马鲁古省（印尼語：Provinsi Maluku Utara）是印度尼西亚东部的一个省，辖境包括马鲁古群岛的北部。北马鲁古省的首府和最大城市是特尔纳特。2010年人口普查，北马鲁古省人口1,038,087，是印度尼西亚人口最少的省之一；…",
+      "lat": "0.78333333",
+      "lng": "127.36666667"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-halmahera-flowerpecker-0a2d9d46",
+      "subject": "Halmahera flowerpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-北马鲁古省-ddc31177",
+      "object": "北马鲁古省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to North Maluku, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-halmahera-flowerpecker-0a2d9d46",
+      "subject": "Halmahera flowerpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to North Maluku, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-halmahera-flowerpecker-0a2d9d46",
+      "subject": "Halmahera flowerpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

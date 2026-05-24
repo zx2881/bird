@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:40:12",
+  "requested_title": "Campbell's Fairywren",
+  "resolved_title": "Campbell's fairywren",
+  "title_aliases": [
+    "Campbell's Fairywren"
+  ],
+  "bird_id": "bird-campbell-s-fairywren-3e18a274",
+  "raw_file": "bird-campbell-s-fairywren-3e18a274.json",
+  "bird": {
+    "id": "bird-campbell-s-fairywren-3e18a274",
+    "name": "Campbell's fairywren",
+    "english_name": "Campbell's fairywren",
+    "latin_name": "Chenorhamphus campbelli",
+    "summary": "Campbell's fairywren (Chenorhamphus campbelli) is a species of bird in the Australasian wren family, Maluridae. It is found in New Guinea.",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-campbell-s-fairywren-3e18a274",
+      "subject": "Campbell's fairywren",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-campbell-s-fairywren-3e18a274",
+      "subject": "Campbell's fairywren",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in south-central and south-eastern New Guinea in its natural habitat of subtropical or tropical moist lowland forests",
+      "object_summary": ""
+    }
+  ]
+}

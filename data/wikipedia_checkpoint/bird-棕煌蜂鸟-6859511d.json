@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T22:17:16",
+  "requested_title": "Rufous Hummingbird",
+  "resolved_title": "Rufous hummingbird",
+  "title_aliases": [
+    "Rufous Hummingbird"
+  ],
+  "bird_id": "bird-棕煌蜂鸟-6859511d",
+  "raw_file": "bird-棕煌蜂鸟-6859511d.json",
+  "bird": {
+    "id": "bird-棕煌蜂鸟-6859511d",
+    "name": "棕煌蜂鸟",
+    "english_name": "Rufous hummingbird",
+    "latin_name": "Selasphorus rufus",
+    "summary": "棕煌蜂鸟（学名：Selasphorus rufus），是雨燕目蜂鸟科的一种鸟类。 棕煌蜂鸟体重约3.5克，翼长约40.7毫米，嘴峰长约20.4毫米，喙宽度约1.6毫米，喙厚度约1.7毫米，跗蹠长约2.5毫米，尾长约29.8毫米。棕煌蜂鸟在其分布区内为留鸟，其栖息在半开放的高大树…",
+    "lat": "17.61666667",
+    "lng": "-99.95",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Rufous_Hummingbird%2C_male_01.jpg/960px-Rufous_Hummingbird%2C_male_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-格雷羅州-92d4434d",
+      "name": "格雷羅州",
+      "summary": "格雷羅州（西班牙語：Guerrero）是墨西哥南部的一個州，南臨太平洋。 參考文獻",
+      "lat": "17.61666667",
+      "lng": "-99.95"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕煌蜂鸟-6859511d",
+      "subject": "棕煌蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-格雷羅州-92d4434d",
+      "object": "格雷羅州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Most individuals winter in wooded areas in the Mexican state of Guerrero, traveling over by an overland route from their nearest summer home – a prodigious journey for a bird weighing only . Adult male rufous hummingbirds tend to migrate slightly earlier than females or young. Since juveniles and females are essentially indistinguishable from Allen's hummingbird, unless confirmed by close inspection, eastern rufous migrants may be classified as \"rufous/Allen's hummingbirds\"",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕煌蜂鸟-6859511d",
+      "subject": "棕煌蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-棕煌蜂鸟-6859511d",
+      "subject": "棕煌蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In 2018, the rufous hummingbird was uplisted from least concern to near threatened on the IUCN Red List, on the basis that due to its reliance on insect prey during the wintering season, it will be heavily affected by the global decline in insect populations due to pesticides and intensified agriculture. Due to climate change, many flowers that the rufous hummingbird feeds on during the breeding season have started blooming two weeks prior to the birds' arrival to their breeding locations, which may lead to rufous hummingbirds arriving too late to feed on them",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    },
+    {
+      "subject_id": "bird-棕煌蜂鸟-6859511d",
+      "subject": "棕煌蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In 2018, the rufous hummingbird was uplisted from least concern to near threatened on the IUCN Red List, on the basis that due to its reliance on insect prey during the wintering season, it will be heavily affected by the global decline in insect populations due to pesticides and intensified agriculture. Due to climate change, many flowers that the rufous hummingbird feeds on during the breeding season have started blooming two weeks prior to the birds' arrival to their breeding locations, which may lead to rufous hummingbirds arriving too late to feed on them",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

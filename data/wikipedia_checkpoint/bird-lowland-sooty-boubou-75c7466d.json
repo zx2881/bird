@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:21:21",
+  "requested_title": "Lowland Sooty Boubou",
+  "resolved_title": "Lowland sooty boubou",
+  "title_aliases": [
+    "Lowland Sooty Boubou"
+  ],
+  "bird_id": "bird-lowland-sooty-boubou-75c7466d",
+  "raw_file": "bird-lowland-sooty-boubou-75c7466d.json",
+  "bird": {
+    "id": "bird-lowland-sooty-boubou-75c7466d",
+    "name": "Lowland sooty boubou",
+    "english_name": "Lowland sooty boubou",
+    "latin_name": "Laniarius leucorhynchus",
+    "summary": "The lowland sooty boubou (Laniarius leucorhynchus), also known as the sooty boubou, is a species of bird in the family Malaconotidae. It is…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Laniarius_leucorhynchus.jpg/960px-Laniarius_leucorhynchus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lowland-sooty-boubou-75c7466d",
+      "subject": "Lowland sooty boubou",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lowland-sooty-boubou-75c7466d",
+      "subject": "Lowland sooty boubou",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

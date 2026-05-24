@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:25:15",
+  "requested_title": "Pied Wheatear",
+  "resolved_title": "Pied wheatear",
+  "title_aliases": [
+    "Pied Wheatear"
+  ],
+  "bird_id": "bird-白顶-a4758a06",
+  "raw_file": "bird-白顶-a4758a06.json",
+  "bird": {
+    "id": "bird-白顶-a4758a06",
+    "name": "白顶䳭",
+    "english_name": "Pied wheatear",
+    "latin_name": "Oenanthe pleschanka",
+    "summary": "白顶䳭（台湾作斑鴝）（学名：Oenanthe pleschanka），是雀形目鹟科的一种鸟类。 特征 白顶䳭体重约19.36克，翼长约92.8毫米，嘴峰长约16.4毫米，喙宽度约3.2毫米，喙厚度约3.5毫米，跗蹠长约22.6毫米，尾长约60.4毫米。白顶䳭是候鸟，其栖息在开放…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pied_Wheatear_%28Oenanthe_pleschanka%29_%288079431820%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白顶-a4758a06",
+      "subject": "白顶䳭",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This migratory central Asiatic wheatear occurs from the extreme southeast of Europe to China, and has been found wintering in India and northeastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶-a4758a06",
+      "subject": "白顶䳭",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This migratory central Asiatic wheatear occurs from the extreme southeast of Europe to China, and has been found wintering in India and northeastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶-a4758a06",
+      "subject": "白顶䳭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

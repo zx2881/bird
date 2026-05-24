@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:42:45",
+  "requested_title": "Rufous-tailed Flycatcher",
+  "resolved_title": "Rufous-tailed flycatcher",
+  "title_aliases": [
+    "Rufous-tailed Flycatcher"
+  ],
+  "bird_id": "bird-rufous-tailed-flycatcher-60589bba",
+  "raw_file": "bird-rufous-tailed-flycatcher-60589bba.json",
+  "bird": {
+    "id": "bird-rufous-tailed-flycatcher-60589bba",
+    "name": "Rufous-tailed flycatcher",
+    "english_name": "Rufous-tailed flycatcher",
+    "latin_name": "Myiarchus validus",
+    "summary": "The rufous-tailed flycatcher (Myiarchus validus) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is endemic to Ja…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rufous-tailed_flycatcher_%28Myiarchus_validus%29.JPG/960px-Rufous-tailed_flycatcher_%28Myiarchus_validus%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-tailed-flycatcher-60589bba",
+      "subject": "Rufous-tailed flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits most of the available landscapes including several forest and woodland types, secondary forest, and dry scrublands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-tailed-flycatcher-60589bba",
+      "subject": "Rufous-tailed flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits most of the available landscapes including several forest and woodland types, secondary forest, and dry scrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-rufous-tailed-flycatcher-60589bba",
+      "subject": "Rufous-tailed flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-rufous-tailed-flycatcher-60589bba",
+      "subject": "Rufous-tailed flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to lack of funds the parks offer only nominal protection from habitat destruction and hunting",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-rufous-tailed-flycatcher-60589bba",
+      "subject": "Rufous-tailed flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to lack of funds the parks offer only nominal protection from habitat destruction and hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

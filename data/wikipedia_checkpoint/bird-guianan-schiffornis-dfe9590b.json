@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:22:26",
+  "requested_title": "Guianan Schiffornis",
+  "resolved_title": "Guianan schiffornis",
+  "title_aliases": [
+    "Guianan Schiffornis"
+  ],
+  "bird_id": "bird-guianan-schiffornis-dfe9590b",
+  "raw_file": "bird-guianan-schiffornis-dfe9590b.json",
+  "bird": {
+    "id": "bird-guianan-schiffornis-dfe9590b",
+    "name": "Guianan schiffornis",
+    "english_name": "Guianan schiffornis",
+    "latin_name": "Schiffornis olivacea",
+    "summary": "The Guianan schiffornis (Schiffornis olivacea), also called the olivaceous schiffornis and olivaceous mourner, is a species of Neotropical…",
+    "lat": "6",
+    "lng": "-62",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Schiffornis_olivacea_Olivaceus_Schiffornis%3B_Presidente_Figueiredo%2C_Amazonas%2C_Brazil_%28cropped%29.jpg/960px-Schiffornis_olivacea_Olivaceus_Schiffornis%3B_Presidente_Figueiredo%2C_Amazonas%2C_Brazil_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-sierra-de-lema-3cfabf8e",
+      "name": "Sierra de Lema",
+      "summary": "The Sierra de Lema is an upland mountain range area with tepuis, located in Bolívar state of southeastern Venezuela.",
+      "lat": "6",
+      "lng": "-62"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-guianan-schiffornis-dfe9590b",
+      "subject": "Guianan schiffornis",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits the interior of humid and wet forest; it also is found, though rarely, at the forest edge and in mature secondary forest. It is mostly a bird of the lowlands but has been heard at about in the Sierra de Lema in Bolívar.{{cite book | last =Hilty | first =Steven L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-guianan-schiffornis-dfe9590b",
+      "subject": "Guianan schiffornis",
+      "predicate": "distributed_in",
+      "object_id": "loc-sierra-de-lema-3cfabf8e",
+      "object": "Sierra de Lema",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits the interior of humid and wet forest; it also is found, though rarely, at the forest edge and in mature secondary forest. It is mostly a bird of the lowlands but has been heard at about in the Sierra de Lema in Bolívar.{{cite book | last =Hilty | first =Steven L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-guianan-schiffornis-dfe9590b",
+      "subject": "Guianan schiffornis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

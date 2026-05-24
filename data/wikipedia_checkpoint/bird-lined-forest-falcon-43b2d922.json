@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:22:20",
+  "requested_title": "Lined Forest Falcon",
+  "resolved_title": "Lined forest falcon",
+  "title_aliases": [
+    "Lined Forest Falcon"
+  ],
+  "bird_id": "bird-lined-forest-falcon-43b2d922",
+  "raw_file": "bird-lined-forest-falcon-43b2d922.json",
+  "bird": {
+    "id": "bird-lined-forest-falcon-43b2d922",
+    "name": "Lined forest falcon",
+    "english_name": "Lined forest falcon",
+    "latin_name": "Micrastur gilvicollis",
+    "summary": "The lined forest falcon (Micrastur gilvicollis) is a species of bird of prey in subfamily Herpetotherinae of family Falconidae, the falcons…",
+    "lat": "-2.3096",
+    "lng": "-54.8881",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Lined_Forest_Falcon.jpg/960px-Lined_Forest_Falcon.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-圭亚那-地区-7d32a67b",
+      "name": "圭亚那 (地区)",
+      "summary": "圭亚那（西班牙語：Las Guayanas；英語：The Guianas；法語：Guyanes；荷蘭語：Guyana's；葡萄牙語：Guianas）是南美洲北部、西北部的一个地区，并被划分为了数个主权国家和区域。前哥伦布时期，圭亚那地区的…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lined-forest-falcon-43b2d922",
+      "subject": "Lined forest falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The lined forest falcon is found in the Amazon Basin from eastern Colombia, eastern Ecuador, eastern Peru, and northern Bolivia east through Venezuela, the Guianas, and northern Brazil to the Atlantic coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lined-forest-falcon-43b2d922",
+      "subject": "Lined forest falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-圭亚那-地区-7d32a67b",
+      "object": "圭亚那 (地区)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The lined forest falcon is found in the Amazon Basin from eastern Colombia, eastern Ecuador, eastern Peru, and northern Bolivia east through Venezuela, the Guianas, and northern Brazil to the Atlantic coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lined-forest-falcon-43b2d922",
+      "subject": "Lined forest falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mostly inhabits the interior of intact tropical primary forest, though it occurs in lower density in secondary forest and forest edges",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lined-forest-falcon-43b2d922",
+      "subject": "Lined forest falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mostly inhabits the interior of intact tropical primary forest, though it occurs in lower density in secondary forest and forest edges",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lined-forest-falcon-43b2d922",
+      "subject": "Lined forest falcon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:09:05",
+  "requested_title": "Short-crested Coquette",
+  "resolved_title": "Short-crested coquette",
+  "title_aliases": [
+    "Short-crested Coquette"
+  ],
+  "bird_id": "bird-短冠蜂鸟-9c43f94c",
+  "raw_file": "bird-短冠蜂鸟-9c43f94c.json",
+  "bird": {
+    "id": "bird-短冠蜂鸟-9c43f94c",
+    "name": "短冠蜂鸟",
+    "english_name": "Short-crested coquette",
+    "latin_name": "Lophornis brachylophus",
+    "summary": "短冠蜂鸟（学名：Lophornis brachylophus），是雨燕目蜂鸟科的一种鸟类。 短冠蜂鸟体重约2.7克，翼长约42.5毫米，嘴峰长约12.9毫米，喙宽度约1.6毫米，喙厚度约1.6毫米，跗蹠长约2.8毫米，尾长约24.5毫米。短冠蜂鸟在其分布区内为留鸟，其栖息在密集…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Lophornis_brachylophus_Short-crested_coquette%3B_La_Pintada%2C_Guerrero%2C_Mexico.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-短冠蜂鸟-9c43f94c",
+      "subject": "短冠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits semi-deciduous and humid evergreen forest, pine-oak forest, and plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-短冠蜂鸟-9c43f94c",
+      "subject": "短冠蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-短冠蜂鸟-9c43f94c",
+      "subject": "短冠蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is threatened by continuing habitat loss caused by land clearing for agriculture including illegal narcotic crops. Until 2023 none of its range was protected",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:56:13",
+  "requested_title": "Grey Longbill",
+  "resolved_title": "Grey longbill",
+  "title_aliases": [
+    "Grey Longbill"
+  ],
+  "bird_id": "bird-grey-longbill-f8637ebb",
+  "raw_file": "bird-grey-longbill-f8637ebb.json",
+  "bird": {
+    "id": "bird-grey-longbill-f8637ebb",
+    "name": "Grey longbill",
+    "english_name": "Grey longbill",
+    "latin_name": "Macrosphenus concolor",
+    "summary": "The grey longbill (Macrosphenus concolor) is a species of Old World warbler in the family Macrosphenidae. It is native to African tropical…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Macrosphenus_concolor_-_Zac_Peterson_-_555402271.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-longbill-f8637ebb",
+      "subject": "Grey longbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-longbill-f8637ebb",
+      "subject": "Grey longbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

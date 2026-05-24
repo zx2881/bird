@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:07:03",
+  "requested_title": "Mbulu White-eye",
+  "resolved_title": "Mbulu white-eye",
+  "title_aliases": [
+    "Mbulu White-eye"
+  ],
+  "bird_id": "bird-mbulu-white-eye-ab874e5b",
+  "raw_file": "bird-mbulu-white-eye-ab874e5b.json",
+  "bird": {
+    "id": "bird-mbulu-white-eye-ab874e5b",
+    "name": "Mbulu white-eye",
+    "english_name": "Mbulu white-eye",
+    "latin_name": "Zosterops mbuluensis",
+    "summary": "The Mbulu white-eye (Zosterops mbuluensis) is a bird species in the family Zosteropidae. It is found in southern Kenya and northern Tanzani…",
+    "lat": "-6",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Zosterops_mbuluensis_242619884.jpg/960px-Zosterops_mbuluensis_242619884.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mbulu-white-eye-ab874e5b",
+      "subject": "Mbulu white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern Kenya and northern Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mbulu-white-eye-ab874e5b",
+      "subject": "Mbulu white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

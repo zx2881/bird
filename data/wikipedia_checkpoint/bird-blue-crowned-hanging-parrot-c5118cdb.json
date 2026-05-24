@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:01:56",
+  "requested_title": "Blue-crowned Hanging Parrot",
+  "resolved_title": "Blue-crowned hanging parrot",
+  "title_aliases": [
+    "Blue-crowned Hanging Parrot"
+  ],
+  "bird_id": "bird-blue-crowned-hanging-parrot-c5118cdb",
+  "raw_file": "bird-blue-crowned-hanging-parrot-c5118cdb.json",
+  "bird": {
+    "id": "bird-blue-crowned-hanging-parrot-c5118cdb",
+    "name": "Blue-crowned hanging parrot",
+    "english_name": "Blue-crowned hanging parrot",
+    "latin_name": "Loriculus galgulus",
+    "summary": "The blue-crowned hanging parrot (Loriculus galgulus) is a parrot species endemic to southern Burma and Thailand, Malaya, Singapore, and Ind…",
+    "lat": "-2",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Loriculus_galgulus_%28male%29_-Singapore-8.jpg/960px-Loriculus_galgulus_%28male%29_-Singapore-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-苏拉威西岛-6ebabd9a",
+      "name": "苏拉威西岛",
+      "summary": "苏拉威西岛（印尼語：Sulawesi）舊名西里伯或西里伯斯，《職方外紀》稱則勒伯（荷蘭語：Celebes），是印度尼西亚东部的一个大岛屿。 地理 苏拉威西岛按面积是世界第十一大岛，总面积为174,600平方公里，位于印度尼西亚东部，菲律宾…",
+      "lat": "-2",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-crowned-hanging-parrot-c5118cdb",
+      "subject": "Blue-crowned hanging parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏拉威西岛-6ebabd9a",
+      "object": "苏拉威西岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The parrot inhabits forests, forest edges, swamps, riverine forest, bamboo patches, mangrove wooded gardens, and coconut groves, as well as plantations. Throughout its range, Sulawesi is the only area where more than one Loriculus species is found because intraspecific competition usually prevents other closely related species from overlapping",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-crowned-hanging-parrot-c5118cdb",
+      "subject": "Blue-crowned hanging parrot",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The parrot inhabits forests, forest edges, swamps, riverine forest, bamboo patches, mangrove wooded gardens, and coconut groves, as well as plantations. Throughout its range, Sulawesi is the only area where more than one Loriculus species is found because intraspecific competition usually prevents other closely related species from overlapping",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-blue-crowned-hanging-parrot-c5118cdb",
+      "subject": "Blue-crowned hanging parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

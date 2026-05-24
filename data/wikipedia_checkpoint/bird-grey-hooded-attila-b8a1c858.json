@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:44:03",
+  "requested_title": "Grey-hooded Attila",
+  "resolved_title": "Grey-hooded attila",
+  "title_aliases": [
+    "Grey-hooded Attila"
+  ],
+  "bird_id": "bird-grey-hooded-attila-b8a1c858",
+  "raw_file": "bird-grey-hooded-attila-b8a1c858.json",
+  "bird": {
+    "id": "bird-grey-hooded-attila-b8a1c858",
+    "name": "Grey-hooded attila",
+    "english_name": "Grey-hooded attila",
+    "latin_name": "Attila rufus",
+    "summary": "The grey-hooded attila (Attila rufus) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is endemic to Brazil.",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Attila_rufus_-Reserva_Guainumbi%2C_Sao_Luis_do_Paraitinga%2C_Sao_Paulo%2C_Brasil-8.jpg/960px-Attila_rufus_-Reserva_Guainumbi%2C_Sao_Luis_do_Paraitinga%2C_Sao_Paulo%2C_Brasil-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-hooded-attila-b8a1c858",
+      "subject": "Grey-hooded attila",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central and southern Bahia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-hooded-attila-b8a1c858",
+      "subject": "Grey-hooded attila",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits humid forest and scrublands from sea level to",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-grey-hooded-attila-b8a1c858",
+      "subject": "Grey-hooded attila",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

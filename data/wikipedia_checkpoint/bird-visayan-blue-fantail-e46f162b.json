@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:42:47",
+  "requested_title": "Visayan Blue Fantail",
+  "resolved_title": "Visayan blue fantail",
+  "title_aliases": [
+    "Visayan Blue Fantail"
+  ],
+  "bird_id": "bird-visayan-blue-fantail-e46f162b",
+  "raw_file": "bird-visayan-blue-fantail-e46f162b.json",
+  "bird": {
+    "id": "bird-visayan-blue-fantail-e46f162b",
+    "name": "Visayan blue fantail",
+    "english_name": "Visayan blue fantail",
+    "latin_name": "Rhipidura samarensis",
+    "summary": "The Visayan blue fantail (Rhipidura samarensis) is a species of bird in the family Rhipiduridae. It is endemic to the Philippines on the is…",
+    "lat": "12.03611111",
+    "lng": "125.21111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Visayan_Blue_Fantail_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "name": "Rajah Sikatuna Protected Landscape",
+      "summary": "The Rajah Sikatuna Protected Landscape is a protected landscape area of forested limestone hills, grasslands and natura…",
+      "lat": "9.70527778",
+      "lng": "124.12416667"
+    },
+    {
+      "id": "loc-samar-island-natural-park-2cae892d",
+      "name": "Samar Island Natural Park",
+      "summary": "The Samar Island Natural Park, in Samar, is the largest contiguous tract of old-growth forest in the Philippines.",
+      "lat": "12.03611111",
+      "lng": "125.21111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-visayan-blue-fantail-e46f162b",
+      "subject": "Visayan blue fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "object": "Rajah Sikatuna Protected Landscape",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Occurs in a few protected areas like Rajah Sikatuna Protected Landscape in Bohol and Samar Island Natural Park but actual protection and enforcement from illegal logging and hunting are lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-visayan-blue-fantail-e46f162b",
+      "subject": "Visayan blue fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-samar-island-natural-park-2cae892d",
+      "object": "Samar Island Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Occurs in a few protected areas like Rajah Sikatuna Protected Landscape in Bohol and Samar Island Natural Park but actual protection and enforcement from illegal logging and hunting are lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-visayan-blue-fantail-e46f162b",
+      "subject": "Visayan blue fantail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

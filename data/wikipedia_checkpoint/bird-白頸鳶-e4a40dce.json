@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:17:31",
+  "requested_title": "White-collared Kite",
+  "resolved_title": "White-collared kite",
+  "title_aliases": [
+    "White-collared Kite"
+  ],
+  "bird_id": "bird-白頸鳶-e4a40dce",
+  "raw_file": "bird-白頸鳶-e4a40dce.json",
+  "bird": {
+    "id": "bird-白頸鳶-e4a40dce",
+    "name": "白頸鳶",
+    "english_name": "White-collared kite",
+    "latin_name": "Leptodon forbesi",
+    "summary": "白頸鳶（學名：Leptodon forbesi）是一種在南美洲出現的猛禽，在巴西北部繁殖。 白頸鳶體長50厘米，成鳥頭部灰色，後頸為白色，上半身黑色，下半身則為白色。灰色而平闊的尾巴。與在巴西南部繁殖的灰頭鳶相當相似，並一度被看成是其亞種。",
+    "lat": "-16.5",
+    "lng": "-39.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Leptodon_forbesi_2019.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大西洋沿岸森林-b6837c90",
+      "name": "大西洋沿岸森林",
+      "summary": "大西洋沿岸森林 （葡萄牙語：Mata Atlântica）是一片涵盖热带亚热带湿润阔叶林、热带亚热带干旱阔叶林、熱帶亞熱帶草地、稀樹草原和疏灌叢和红树林于一体的热带雨林保护区，位于巴西大西洋沿岸，最北到达北里约格朗德州，最南到达南里奥格兰…",
+      "lat": "-16.5",
+      "lng": "-39.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白頸鳶-e4a40dce",
+      "subject": "白頸鳶",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋沿岸森林-b6837c90",
+      "object": "大西洋沿岸森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits the Atlantic forest though it has been spotted over mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白頸鳶-e4a40dce",
+      "subject": "白頸鳶",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

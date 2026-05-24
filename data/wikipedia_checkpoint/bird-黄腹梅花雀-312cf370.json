@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:00:19",
+  "requested_title": "Yellow-bellied Waxbill",
+  "resolved_title": "Yellow-bellied waxbill",
+  "title_aliases": [
+    "Yellow-bellied Waxbill"
+  ],
+  "bird_id": "bird-黄腹梅花雀-312cf370",
+  "raw_file": "bird-黄腹梅花雀-312cf370.json",
+  "bird": {
+    "id": "bird-黄腹梅花雀-312cf370",
+    "name": "黄腹梅花雀",
+    "english_name": "Yellow-bellied waxbill",
+    "latin_name": "Coccopygia quartinia",
+    "summary": "黄腹梅花雀（学名：Coccopygia quartinia），是梅花雀科黃腹梅花雀屬的一种，分布于安哥拉、赞比亚、苏丹、埃塞俄比亚、马拉维、肯尼亚、厄立特里亚、坦桑尼亚、卢旺达、布隆迪、刚果民主共和国、乌干达和莫桑比克。 参考文献 Estrilda quartinia.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Yellow-bellied_Waxbill_-_Mt.Kenya_NP_-_Kenya_S4E7308_%2822595164179%29.jpg/960px-Yellow-bellied_Waxbill_-_Mt.Kenya_NP_-_Kenya_S4E7308_%2822595164179%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "name": "夏尔·吕西安·波拿巴",
+      "summary": "夏尔·吕西安·朱尔·朱尔·波拿巴（法語：Charles Lucien Jules Laurent Bonaparte，發音：[ʃaʁl lysjɛ̃ ʒyl lɔʁɑ̃ bɔnapaʁt]；1803年5月24日—1857年7月29日）是一…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东非-af146c9c",
+      "name": "东非",
+      "summary": "东非即非洲的东部地区，根據聯合國的次分區共有18個国家或屬地： 埃塞俄比亞、索馬里（含索馬利蘭）、厄立特里亚和吉布提，以上几國在地理上稱為非洲之角 坦桑尼亚、肯尼亚、乌干达、卢旺达、布隆迪和南苏丹，以上六國組成東非共同體 赞比亚、津巴布韦…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄腹梅花雀-312cf370",
+      "subject": "黄腹梅花雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "object": "夏尔·吕西安·波拿巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-bellied waxbill (Coccopygia quartinia) is a species of estrildid finch native to East Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹梅花雀-312cf370",
+      "subject": "黄腹梅花雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-东非-af146c9c",
+      "object": "东非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-bellied waxbill (Coccopygia quartinia) is a species of estrildid finch native to East Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹梅花雀-312cf370",
+      "subject": "黄腹梅花雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

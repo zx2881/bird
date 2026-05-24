@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:51:04",
+  "requested_title": "Smoky Warbler",
+  "resolved_title": "Smoky warbler",
+  "title_aliases": [
+    "Smoky Warbler"
+  ],
+  "bird_id": "bird-烟柳莺-fc59df70",
+  "raw_file": "bird-烟柳莺-fc59df70.json",
+  "bird": {
+    "id": "bird-烟柳莺-fc59df70",
+    "name": "烟柳莺",
+    "english_name": "Smoky warbler",
+    "latin_name": "Phylloscopus fuligiventer",
+    "summary": "烟柳莺（学名：Phylloscopus fuligiventer）为柳莺科柳莺属的鸟类。该物种的模式产地在尼泊尔。 亚种 烟柳莺指名亚种（学名：Phylloscopus fuligiventer fuligiventer）。在中国大陆，分布于西藏等地。该物种的模式产地在尼泊尔。",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Smoky_warbler_David_Raju.jpg/960px-Smoky_warbler_David_Raju.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-青藏高原-d19147a0",
+      "name": "青藏高原",
+      "summary": "青藏高原（藏語：བོད་ས་མཐོ，威利转写：Bod Sa mTho，藏语拼音：Pösamto），亦稱西藏高原、青康藏高原、海藏高原，是亚洲的高原地区，世界上最高的高原，平均海拔高度4500米，面积250万平方公里，有“世界屋脊”、“雪域…",
+      "lat": "33",
+      "lng": "88"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-烟柳莺-fc59df70",
+      "subject": "烟柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the eastern Himalayas, the Tibetan Plateau, and as an occasional vagrant to Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-烟柳莺-fc59df70",
+      "subject": "烟柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-青藏高原-d19147a0",
+      "object": "青藏高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the eastern Himalayas, the Tibetan Plateau, and as an occasional vagrant to Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-烟柳莺-fc59df70",
+      "subject": "烟柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the eastern Himalayas, the Tibetan Plateau, and as an occasional vagrant to Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-烟柳莺-fc59df70",
+      "subject": "烟柳莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

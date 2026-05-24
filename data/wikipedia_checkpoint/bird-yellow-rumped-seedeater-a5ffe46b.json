@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:18:02",
+  "requested_title": "Yellow-rumped Seedeater",
+  "resolved_title": "Yellow-rumped seedeater",
+  "title_aliases": [
+    "Yellow-rumped Seedeater"
+  ],
+  "bird_id": "bird-yellow-rumped-seedeater-a5ffe46b",
+  "raw_file": "bird-yellow-rumped-seedeater-a5ffe46b.json",
+  "bird": {
+    "id": "bird-yellow-rumped-seedeater-a5ffe46b",
+    "name": "Yellow-rumped seedeater",
+    "english_name": "Yellow-rumped seedeater",
+    "latin_name": "Crithagra xanthopygia",
+    "summary": "The yellow-rumped seedeater, yellow-rumped serin or Abyssinian yellow-rumped seedeater (Crithagra xanthopygia) is a species of finch in the…",
+    "lat": "10.705775",
+    "lng": "37.849282",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Crithagra_xanthopygia_-_Mikael_Bauer_-_28400920.jpeg/960px-Crithagra_xanthopygia_-_Mikael_Bauer_-_28400920.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-衣索比亞高原-20c47310",
+      "name": "衣索比亞高原",
+      "summary": "衣索比亞高原（又譯埃塞俄比亞高地）是非洲國家埃塞俄比亞、厄立特里亞和索馬里的一個高原，由一群堅固且大規模的山構成，在非洲之角的索馬里北部及衣索比亞。它有時也被稱為“非洲屋脊”（Roof of Africa），因為它的高度和很大的面積。 衣…",
+      "lat": "10.705775",
+      "lng": "37.849282"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-rumped-seedeater-a5ffe46b",
+      "subject": "Yellow-rumped seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-衣索比亞高原-20c47310",
+      "object": "衣索比亞高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Ethiopian Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-rumped-seedeater-a5ffe46b",
+      "subject": "Yellow-rumped seedeater",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical dry shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-yellow-rumped-seedeater-a5ffe46b",
+      "subject": "Yellow-rumped seedeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

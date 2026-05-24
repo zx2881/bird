@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:02:15",
+  "requested_title": "Dark-throated Seedeater",
+  "resolved_title": "Dark-throated seedeater",
+  "title_aliases": [
+    "Dark-throated Seedeater"
+  ],
+  "bird_id": "bird-dark-throated-seedeater-9d10cd4b",
+  "raw_file": "bird-dark-throated-seedeater-9d10cd4b.json",
+  "bird": {
+    "id": "bird-dark-throated-seedeater-9d10cd4b",
+    "name": "Dark-throated seedeater",
+    "english_name": "Dark-throated seedeater",
+    "latin_name": "Sporophila ruficollis",
+    "summary": "The dark-throated seedeater (Sporophila ruficollis) is a bird species in the family Thraupidae (formerly in Emberizidae). It is found in Ar…",
+    "lat": "-32.9275",
+    "lng": "-54.45694444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sporophila_ruficollis_-_Dark-throated_Seedeater_%28male%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-quebrada-de-los-cuervos-b19d6573",
+      "name": "Quebrada de los Cuervos",
+      "summary": "The Quebrada de los Cuervos (Spanish for Crows Ravine) is an important landform in Treinta y Tres Department, Uruguay.",
+      "lat": "-32.9275",
+      "lng": "-54.45694444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dark-throated-seedeater-9d10cd4b",
+      "subject": "Dark-throated seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-quebrada-de-los-cuervos-b19d6573",
+      "object": "Quebrada de los Cuervos",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Bolivia, Brazil, Paraguay, and Uruguay (where it can still be found at the Quebrada de los Cuervos)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dark-throated-seedeater-9d10cd4b",
+      "subject": "Dark-throated seedeater",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-dark-throated-seedeater-9d10cd4b",
+      "subject": "Dark-throated seedeater",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is becoming rare due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

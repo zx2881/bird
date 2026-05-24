@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:24:17",
+  "requested_title": "Brown-winged Starling",
+  "resolved_title": "Brown-winged starling",
+  "title_aliases": [
+    "Brown-winged Starling"
+  ],
+  "bird_id": "bird-brown-winged-starling-8966d470",
+  "raw_file": "bird-brown-winged-starling-8966d470.json",
+  "bird": {
+    "id": "bird-brown-winged-starling-8966d470",
+    "name": "Brown-winged starling",
+    "english_name": "Brown-winged starling",
+    "latin_name": "Aplonis grandis",
+    "summary": "The brown-winged starling (Aplonis grandis) is a species of starling in the family Sturnidae. It is found in the Solomon Islands archipelag…",
+    "lat": "-8",
+    "lng": "159",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Aplonis_grandis_-_The_Birds_of_New_Guinea_%28cropped%29.jpg/960px-Aplonis_grandis_-_The_Birds_of_New_Guinea_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-所羅門群島-群島-4708e5d6",
+      "name": "所羅門群島 (群島)",
+      "summary": "所羅門群島是太平洋西南面的群島，位於澳大利亞東北方的美拉尼西亞（Melanesia）地區。西隔所羅門海與新幾內亞、俾斯麥群島相鄰。 政治上分屬兩個政治實體： 所罗门群岛，領土範圍為大部分的索羅門群島（28,896 km²，660,121人…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-winged-starling-8966d470",
+      "subject": "Brown-winged starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-所羅門群島-群島-4708e5d6",
+      "object": "所羅門群島 (群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Solomon Islands archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-winged-starling-8966d470",
+      "subject": "Brown-winged starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:56:58",
+  "requested_title": "Chinese Hwamei",
+  "resolved_title": "Chinese hwamei",
+  "title_aliases": [
+    "Chinese Hwamei"
+  ],
+  "bird_id": "bird-画眉-6ba6ad85",
+  "raw_file": "bird-画眉-6ba6ad85.json",
+  "bird": {
+    "id": "bird-画眉-6ba6ad85",
+    "name": "画眉",
+    "english_name": "Chinese hwamei",
+    "latin_name": "Garrulax canorus",
+    "summary": "The Chinese hwamei or melodious laughingthrush (Garrulax canorus) is a passerine bird of eastern Asia in the laughingthrush family Leiothri…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Garrulax_canorus_-_Watching_Back.jpg/960px-Garrulax_canorus_-_Watching_Back.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-画眉-6ba6ad85",
+      "subject": "画眉",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bird inhabits scrubland, open woodland, secondary forest, parks and gardens up to 1800 metres above sea level",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-画眉-6ba6ad85",
+      "subject": "画眉",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The bird inhabits scrubland, open woodland, secondary forest, parks and gardens up to 1800 metres above sea level",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-画眉-6ba6ad85",
+      "subject": "画眉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

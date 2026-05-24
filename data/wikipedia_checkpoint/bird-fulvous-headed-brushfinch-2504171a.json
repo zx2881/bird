@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:14:06",
+  "requested_title": "Fulvous-headed Brushfinch",
+  "resolved_title": "Fulvous-headed brushfinch",
+  "title_aliases": [
+    "Fulvous-headed Brushfinch"
+  ],
+  "bird_id": "bird-fulvous-headed-brushfinch-2504171a",
+  "raw_file": "bird-fulvous-headed-brushfinch-2504171a.json",
+  "bird": {
+    "id": "bird-fulvous-headed-brushfinch-2504171a",
+    "name": "Fulvous-headed brushfinch",
+    "english_name": "Fulvous-headed brushfinch",
+    "latin_name": "Atlapetes fulviceps",
+    "summary": "The fulvous-headed brushfinch (Atlapetes fulviceps) is a species of bird in the family Passerellidae. It is found in Bolivia and northweste…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Atlapetes_fulviceps_237653874.jpg/960px-Atlapetes_fulviceps_237653874.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-fulvous-headed-brushfinch-2504171a",
+      "subject": "Fulvous-headed brushfinch",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and northwestern Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fulvous-headed-brushfinch-2504171a",
+      "subject": "Fulvous-headed brushfinch",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and northwestern Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fulvous-headed-brushfinch-2504171a",
+      "subject": "Fulvous-headed brushfinch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

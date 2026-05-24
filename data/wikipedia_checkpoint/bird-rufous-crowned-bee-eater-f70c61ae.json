@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:35:15",
+  "requested_title": "Rufous-crowned Bee-eater",
+  "resolved_title": "Rufous-crowned bee-eater",
+  "title_aliases": [
+    "Rufous-crowned Bee-eater"
+  ],
+  "bird_id": "bird-rufous-crowned-bee-eater-f70c61ae",
+  "raw_file": "bird-rufous-crowned-bee-eater-f70c61ae.json",
+  "bird": {
+    "id": "bird-rufous-crowned-bee-eater-f70c61ae",
+    "name": "Rufous-crowned bee-eater",
+    "english_name": "Rufous-crowned bee-eater",
+    "latin_name": "Merops americanus",
+    "summary": "The rufous-crowned bee-eater (Merops americanus) is a species of bird in the family Meropidae. It is endemic to the Philippines, where it i…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Rufous-crowned_Bee-eater%2C_Subic_Bay%2C_Luzon_1.jpg/960px-Rufous-crowned_Bee-eater%2C_Subic_Bay%2C_Luzon_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新大陸-9610a4be",
+      "name": "新大陸",
+      "summary": "新大陸（拉丁語：Mundus novus），或譯為新世界，是歐洲人於15世紀末發現美洲大陸及鄰近群島後對這片新土地的稱呼。相對概念為亚欧非大陆等「旧大陆」。 词源 “新世界”（Mundus Novus）一词最初是在亚美利哥·韦斯普奇于15…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-crowned-bee-eater-f70c61ae",
+      "subject": "Rufous-crowned bee-eater",
+      "predicate": "distributed_in",
+      "object_id": "loc-新大陸-9610a4be",
+      "object": "新大陸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Despite its scientific name, it is not found in the New World, and its name is likely erroneous",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-crowned-bee-eater-f70c61ae",
+      "subject": "Rufous-crowned bee-eater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

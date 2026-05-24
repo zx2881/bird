@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:47:18",
+  "requested_title": "Blackthroat",
+  "resolved_title": "Blackthroat",
+  "title_aliases": [
+    "Blackthroat"
+  ],
+  "bird_id": "bird-黑喉歌鸲-419dab56",
+  "raw_file": "bird-黑喉歌鸲-419dab56.json",
+  "bird": {
+    "id": "bird-黑喉歌鸲-419dab56",
+    "name": "黑喉歌鸲",
+    "english_name": "Blackthroat",
+    "latin_name": "Calliope obscura",
+    "summary": "黑喉歌鸲（学名：Calliope obscura）为鶲科野鸲属的鸟类。分布于泰国以及中国大陆的甘肃、陕西等地，常见于针叶林的竹丛或灌丛间。该物种的模式产地在甘肃。 黑喉歌鸲非常罕见，1886年在中国甘肃被发现后，总共只观察到58只成年黑喉歌鸲。",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Calliope_obscura_A9_03945.jpg/960px-Calliope_obscura_A9_03945.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑喉歌鸲-419dab56",
+      "subject": "黑喉歌鸲",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in north-central China but its wintering grounds are uncertain",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉歌鸲-419dab56",
+      "subject": "黑喉歌鸲",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-黑喉歌鸲-419dab56",
+      "subject": "黑喉歌鸲",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

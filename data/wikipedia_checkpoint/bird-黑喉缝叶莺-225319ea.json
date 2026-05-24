@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:08:10",
+  "requested_title": "Dark-necked Tailorbird",
+  "resolved_title": "Dark-necked tailorbird",
+  "title_aliases": [
+    "Dark-necked Tailorbird"
+  ],
+  "bird_id": "bird-黑喉缝叶莺-225319ea",
+  "raw_file": "bird-黑喉缝叶莺-225319ea.json",
+  "bird": {
+    "id": "bird-黑喉缝叶莺-225319ea",
+    "name": "黑喉缝叶莺",
+    "english_name": "Dark-necked tailorbird",
+    "latin_name": "Orthotomus atrogularis",
+    "summary": "黑喉缝叶莺（学名：Orthotomus atrogularis）为鶲科缝叶莺属的鸟类。该物种的模式产地在马来西亚。 亚种 黑喉缝叶莺云南亚种（学名：Orthotomus atrogularis nitidus）。在中国大陆，分布于云南等地。该物种的模式产地在缅甸。",
+    "lat": "24",
+    "lng": "90",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Dark-necked_tailorbird_%28Orthotomus_atrogularis%29_male_Prek_Toal.jpg/960px-Dark-necked_tailorbird_%28Orthotomus_atrogularis%29_male_Prek_Toal.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-孟加拉国-ffb382f4",
+      "name": "孟加拉国",
+      "summary": "孟加拉人民共和国（孟加拉語：গণপ্রজাতন্ত্রী বাংলাদেশ，羅馬化：Gaṇaprajātantrī Vāṁlādeśa；英語：People's Republic of Bangladesh），通稱孟加拉国（孟加拉語：বাং…",
+      "lat": "24",
+      "lng": "90"
+    },
+    {
+      "id": "loc-印度东北部-8b6d1917",
+      "name": "印度东北部",
+      "summary": "印度东北部是指印度最东部的区域，包括互相毗邻的七个邦和锡金邦，其中阿魯那恰爾邦與中國有領土爭議（中國稱為藏南地區）。該地區與幾個鄰國共享5,182公里（3,220英里，約佔其總地理邊界的99%）的國際邊界，北部1,395公里（867英里）…",
+      "lat": "26",
+      "lng": "91"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑喉缝叶莺-225319ea",
+      "subject": "黑喉缝叶莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-孟加拉国-ffb382f4",
+      "object": "孟加拉国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bangladesh, Northeast India and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉缝叶莺-225319ea",
+      "subject": "黑喉缝叶莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度东北部-8b6d1917",
+      "object": "印度东北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bangladesh, Northeast India and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉缝叶莺-225319ea",
+      "subject": "黑喉缝叶莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bangladesh, Northeast India and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉缝叶莺-225319ea",
+      "subject": "黑喉缝叶莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

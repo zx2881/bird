@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:15:22",
+  "requested_title": "Meratus White-eye",
+  "resolved_title": "Meratus white-eye",
+  "title_aliases": [
+    "Meratus White-eye"
+  ],
+  "bird_id": "bird-meratus-white-eye-d2bdc50b",
+  "raw_file": "bird-meratus-white-eye-d2bdc50b.json",
+  "bird": {
+    "id": "bird-meratus-white-eye-d2bdc50b",
+    "name": "Meratus white-eye",
+    "english_name": "Meratus white-eye",
+    "latin_name": "Zosterops meratusensis",
+    "summary": "The Meratus white-eye (Zosterops meratusensis) is a species of bird in the white-eye family, Zosteropidae. The species was described in 202…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Zosterops_meratusensis_241289656.jpg/960px-Zosterops_meratusensis_241289656.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-重点鸟区-0b8dda42",
+      "name": "重点鸟区",
+      "summary": "重点鸟类和生物多样性区域（英語：Important Bird and Biodiversity Area）又称重点鸟区（Important Bird Area）、重要鸟区、重要鸟类栖息地、重点鸟类栖息地，是国际鸟盟策划并推动的一项保护工作…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-meratus-white-eye-d2bdc50b",
+      "subject": "Meratus white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-重点鸟区-0b8dda42",
+      "object": "重点鸟区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Meratus Mountains it inhabits are designated as an Important Bird Area by BirdLife International. Recommended conservation measures for the species include surveys to accurately estimate its population, finding the demand for the species in the songbird trade, and finding suitable tracts of habitat to protect",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-meratus-white-eye-d2bdc50b",
+      "subject": "Meratus white-eye",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the mid and lower storeys of closed-canopy montane forests at elevations between",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-meratus-white-eye-d2bdc50b",
+      "subject": "Meratus white-eye",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the mid and lower storeys of closed-canopy montane forests and has been recorded above",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-meratus-white-eye-d2bdc50b",
+      "subject": "Meratus white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-meratus-white-eye-d2bdc50b",
+      "subject": "Meratus white-eye",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The authors describing the species recommended it be assessed as vulnerable due to its restricted distribution and pressure on its population due to the songbird trade. The species' abundance has not been formally quantified, but it is thought to be locally common within the small area it inhabits. Although low-elevation forest in the Meratus white-eye's range has been heavily deforested, the species does not occur below , so habitat loss within its habitat is likely negligible in the decade before 2022",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:53:57",
+  "requested_title": "Tanimbar Eclectus",
+  "resolved_title": "Tanimbar eclectus",
+  "title_aliases": [
+    "Tanimbar Eclectus"
+  ],
+  "bird_id": "bird-tanimbar-eclectus-dc782e61",
+  "raw_file": "bird-tanimbar-eclectus-dc782e61.json",
+  "bird": {
+    "id": "bird-tanimbar-eclectus-dc782e61",
+    "name": "Tanimbar eclectus",
+    "english_name": "Tanimbar eclectus",
+    "latin_name": "Eclectus riedeli",
+    "summary": "The Tanimbar eclectus, or Riedel's eclectus (Eclectus riedeli) is a parrot species which is native to the Tanimbar Islands. It is smaller t…",
+    "lat": "-7.5",
+    "lng": "131.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/EclectusRiedeliSmit.jpg/960px-EclectusRiedeliSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-joseph-smit-d1df79c5",
+      "name": "Joseph Smit",
+      "summary": "Joseph Smit (18 July 1836 – 4 November 1929) was a Dutch zoological illustrator.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-塔寧巴爾群島-b051ba35",
+      "name": "塔寧巴爾群島",
+      "summary": "塔寧巴爾群島是印度尼西亞馬魯古省的群島，由約65個島嶼組成，位於阿鲁群岛和卡伊群島西南、巴巴群島和帝汶以東，把班達海和阿拉弗拉海分開，土地總面積5,440平方公里，人口約61,000，其中44,000信奉基督教。行政上隶属马鲁古省的西东南…",
+      "lat": "-7.5",
+      "lng": "131.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tanimbar-eclectus-dc782e61",
+      "subject": "Tanimbar eclectus",
+      "predicate": "distributed_in",
+      "object_id": "loc-joseph-smit-d1df79c5",
+      "object": "Joseph Smit",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tanimbar eclectus, or Riedel's eclectus (Eclectus riedeli) is a parrot species which is native to the Tanimbar Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tanimbar-eclectus-dc782e61",
+      "subject": "Tanimbar eclectus",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔寧巴爾群島-b051ba35",
+      "object": "塔寧巴爾群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tanimbar eclectus, or Riedel's eclectus (Eclectus riedeli) is a parrot species which is native to the Tanimbar Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tanimbar-eclectus-dc782e61",
+      "subject": "Tanimbar eclectus",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

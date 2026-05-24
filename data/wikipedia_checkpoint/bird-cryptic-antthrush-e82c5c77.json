@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:12:46",
+  "requested_title": "Cryptic Antthrush",
+  "resolved_title": "Cryptic antthrush",
+  "title_aliases": [
+    "Cryptic Antthrush"
+  ],
+  "bird_id": "bird-cryptic-antthrush-e82c5c77",
+  "raw_file": "bird-cryptic-antthrush-e82c5c77.json",
+  "bird": {
+    "id": "bird-cryptic-antthrush-e82c5c77",
+    "name": "Cryptic antthrush",
+    "english_name": "Cryptic antthrush",
+    "latin_name": "Chamaeza meruloides",
+    "summary": "The cryptic antthrush (Chamaeza meruloides), also known as Such's antthrush, is a species of bird in the family Formicariidae. It is endemi…",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Chamaeza_meruloides_-_Such%27s_Anttrush%3B_Iporanga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg/960px-Chamaeza_meruloides_-_Such%27s_Anttrush%3B_Iporanga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    },
+    {
+      "id": "loc-圣卡塔琳娜州-610f6154",
+      "name": "圣卡塔琳娜州",
+      "summary": "圣卡塔琳娜州（葡萄牙語：Santa Catarina）是巴西南部的一个州，首府弗洛里亞諾波利斯，面积95,346.181平方公里，人口5,958,266人。 参见 胡利亚纳共和国",
+      "lat": "-27.25",
+      "lng": "-50.33333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cryptic-antthrush-e82c5c77",
+      "subject": "Cryptic antthrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The cryptic antthrush is found in the coastal mountains of southeastern Brazil from southern Bahia to northeastern Santa Catarina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cryptic-antthrush-e82c5c77",
+      "subject": "Cryptic antthrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣卡塔琳娜州-610f6154",
+      "object": "圣卡塔琳娜州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The cryptic antthrush is found in the coastal mountains of southeastern Brazil from southern Bahia to northeastern Santa Catarina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cryptic-antthrush-e82c5c77",
+      "subject": "Cryptic antthrush",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the floor of the interior and edges of humid montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-cryptic-antthrush-e82c5c77",
+      "subject": "Cryptic antthrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-cryptic-antthrush-e82c5c77",
+      "subject": "Cryptic antthrush",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. One researcher \"found [the Cryptic] Antthrush in partially logged forest habitat, suggesting it may be tolerant of some level of human disturbance\".Aleixo, A",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

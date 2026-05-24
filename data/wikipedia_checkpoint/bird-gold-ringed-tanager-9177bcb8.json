@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:29:22",
+  "requested_title": "Gold-ringed Tanager",
+  "resolved_title": "Gold-ringed tanager",
+  "title_aliases": [
+    "Gold-ringed Tanager"
+  ],
+  "bird_id": "bird-gold-ringed-tanager-9177bcb8",
+  "raw_file": "bird-gold-ringed-tanager-9177bcb8.json",
+  "bird": {
+    "id": "bird-gold-ringed-tanager-9177bcb8",
+    "name": "Gold-ringed tanager",
+    "english_name": "Gold-ringed tanager",
+    "latin_name": "Bangsia aureocincta",
+    "summary": "The gold-ringed tanager (Bangsia aureocincta) is a species of bird in the family Thraupidae, endemic to Colombia. It is a plump, relatively…",
+    "lat": "4.85",
+    "lng": "-76.38333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Bangsia_aureocincta_by_Franscesco_Veronesi.jpg/960px-Bangsia_aureocincta_by_Franscesco_Veronesi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-哥倫比亞西部山脈-7c4fdad6",
+      "name": "哥倫比亞西部山脈",
+      "summary": "哥倫比亞西部山脈（西班牙語：Cordillera Occidental），是哥倫比亞的山脈，屬於安第斯山脈的一部分，全長1,200公里，面積86,239平方公里，平均海拔高度2,000米，最高點海拔高度4,250米。",
+      "lat": "4.85",
+      "lng": "-76.38333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-gold-ringed-tanager-9177bcb8",
+      "subject": "Gold-ringed tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits a narrow band of high-altitude cloud forest on the slopes of the western cordillera of the Andes, where it survives on a diet of fruit and insects",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gold-ringed-tanager-9177bcb8",
+      "subject": "Gold-ringed tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥倫比亞西部山脈-7c4fdad6",
+      "object": "哥倫比亞西部山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits a narrow band of high-altitude cloud forest on the slopes of the western cordillera of the Andes, where it survives on a diet of fruit and insects",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gold-ringed-tanager-9177bcb8",
+      "subject": "Gold-ringed tanager",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-gold-ringed-tanager-9177bcb8",
+      "subject": "Gold-ringed tanager",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is considered a vulnerable species, threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-gold-ringed-tanager-9177bcb8",
+      "subject": "Gold-ringed tanager",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Deforestation, primarily the clearing of land for small-scale agriculture, road-building, and an increase in artisanal mining have been identified as the main threats to this species",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

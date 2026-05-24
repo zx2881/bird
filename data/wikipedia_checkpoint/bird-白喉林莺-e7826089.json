@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:36:19",
+  "requested_title": "Lesser Whitethroat",
+  "resolved_title": "Lesser whitethroat",
+  "title_aliases": [
+    "Lesser Whitethroat"
+  ],
+  "bird_id": "bird-白喉林莺-e7826089",
+  "raw_file": "bird-白喉林莺-e7826089.json",
+  "bird": {
+    "id": "bird-白喉林莺-e7826089",
+    "name": "白喉林莺",
+    "english_name": "Lesser whitethroat",
+    "latin_name": "Curruca curruca",
+    "summary": "白喉林莺（学名：Curruca curruca）为鶲科莺属的鸟类。该物种的模式产地在瑞典。 亚种 白喉林莺北方亚种（学名：Curruca curruca chuancheica）。该物种的模式产地在黄河上游。",
+    "lat": "23",
+    "lng": "13",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%D0%A1%D0%BB%D0%B0%D0%B2%D0%BA%D0%B0-%D0%B7%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%88%D0%BA%D0%B0_%28Sylvia_curruca%29.jpg/960px-%D0%A1%D0%BB%D0%B0%D0%B2%D0%BA%D0%B0-%D0%B7%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%88%D0%BA%D0%B0_%28Sylvia_curruca%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    },
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白喉林莺-e7826089",
+      "subject": "白喉林莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This small passerine bird is strongly migratory, wintering in Africa just south of the Sahara, Arabia and India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉林莺-e7826089",
+      "subject": "白喉林莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This small passerine bird is strongly migratory, wintering in Africa just south of the Sahara, Arabia and India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉林莺-e7826089",
+      "subject": "白喉林莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

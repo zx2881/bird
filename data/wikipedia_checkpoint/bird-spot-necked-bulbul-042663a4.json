@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:15:09",
+  "requested_title": "Spot-necked Bulbul",
+  "resolved_title": "Spot-necked bulbul",
+  "title_aliases": [
+    "Spot-necked Bulbul"
+  ],
+  "bird_id": "bird-spot-necked-bulbul-042663a4",
+  "raw_file": "bird-spot-necked-bulbul-042663a4.json",
+  "bird": {
+    "id": "bird-spot-necked-bulbul-042663a4",
+    "name": "Spot-necked bulbul",
+    "english_name": "Spot-necked bulbul",
+    "latin_name": "Pycnonotus tympanistrigus",
+    "summary": "The spot-necked bulbul (Pycnonotus tympanistrigus) is a species of songbird in the bulbul family, Pycnonotidae. It is found in Sumatra.",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pycnonotus_tympanistrigus_-_Kalvin_Chan_-_616152207.jpeg/960px-Pycnonotus_tympanistrigus_-_Kalvin_Chan_-_616152207.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-spot-necked-bulbul-042663a4",
+      "subject": "Spot-necked bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2016 |title=Pycnonotus tympanistrigus |volume=2016 |article-number=e.T22712613A94338779 |doi=10.2305/IUCN.UK.2016-3.RLTS.T22712613A94338779.en |access-date=3 August 2020}} | genus = Pycnonotus | species = tympanistrigus | authority = (Müller, S., 1836) | range_map = Pycnonotus tympanistrigus distribution map.png | synonyms = * Pycnonotus tympanistrigus * Ixos tympanistrigus }} The spot-necked bulbul (Pycnonotus tympanistrigus) is a species of songbird in the bulbul family, Pycnonotidae. It is found in Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spot-necked-bulbul-042663a4",
+      "subject": "Spot-necked bulbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-spot-necked-bulbul-042663a4",
+      "subject": "Spot-necked bulbul",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

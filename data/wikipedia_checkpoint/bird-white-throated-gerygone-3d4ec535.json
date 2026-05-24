@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:44:05",
+  "requested_title": "White-throated Gerygone",
+  "resolved_title": "White-throated gerygone",
+  "title_aliases": [
+    "White-throated Gerygone"
+  ],
+  "bird_id": "bird-white-throated-gerygone-3d4ec535",
+  "raw_file": "bird-white-throated-gerygone-3d4ec535.json",
+  "bird": {
+    "id": "bird-white-throated-gerygone-3d4ec535",
+    "name": "White-throated gerygone",
+    "english_name": "White-throated gerygone",
+    "latin_name": "Gerygone olivacea",
+    "summary": "The white-throated gerygone (Gerygone olivacea) is a species of bird in the family Acanthizidae. It is found in Australia and Papua New Gui…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Gerygone_olivacea_-_Mount_Annan_Botanic_Gardens.jpg/960px-Gerygone_olivacea_-_Mount_Annan_Botanic_Gardens.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    },
+    {
+      "id": "loc-约克角半岛-2a6b68ec",
+      "name": "约克角半岛",
+      "summary": "约克角半岛（英語：Cape York Peninsula）是澳大利亚東北部昆士兰州的一个半岛，其北端约克角是澳大利亚大陆的极北点。该半岛在1770年由英国航海家詹姆斯·库克以约克公爵的封号命名。 约克角距新几内亚岛约140公里，两地由托雷…",
+      "lat": "-15",
+      "lng": "143"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-throated-gerygone-3d4ec535",
+      "subject": "White-throated gerygone",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Australia and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-gerygone-3d4ec535",
+      "subject": "White-throated gerygone",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Australia and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-gerygone-3d4ec535",
+      "subject": "White-throated gerygone",
+      "predicate": "distributed_in",
+      "object_id": "loc-约克角半岛-2a6b68ec",
+      "object": "约克角半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cinerascens is found in south-eastern New Guinea and the Cape York Peninsula of Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-gerygone-3d4ec535",
+      "subject": "White-throated gerygone",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

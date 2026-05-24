@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:15:46",
+  "requested_title": "Cuban Palm Crow",
+  "resolved_title": "Hispaniolan palm crow",
+  "title_aliases": [
+    "Hispaniolan Palm Crow",
+    "Cuban Palm Crow"
+  ],
+  "bird_id": "bird-棕榈鸦-46db9416",
+  "raw_file": "bird-棕榈鸦-46db9416.json",
+  "bird": {
+    "id": "bird-棕榈鸦-46db9416",
+    "name": "棕榈鸦",
+    "english_name": "Hispaniolan palm crow",
+    "latin_name": "Corvus palmarum",
+    "summary": "棕榈鸦（学名：Corvus palmarum），是鸦科鸦属的一种，分布于古巴、多米尼加共和国和海地。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Corvus_palmarum%2C_Duverge%2C_Dominican_Republic_1.jpg/960px-Corvus_palmarum%2C_Duverge%2C_Dominican_Republic_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕榈鸦-46db9416",
+      "subject": "棕榈鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits pine forest in the island's mountains but also occurs in evergreen forest in the lowlands of Haiti and in dry to humid deciduous forest in both countries",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕榈鸦-46db9416",
+      "subject": "棕榈鸦",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-棕榈鸦-46db9416",
+      "subject": "棕榈鸦",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"On Hispaniola, its decline is a result of widespread forest clearance for agriculture and probably also hunting for food (it is reputedly a delicacy) and sport",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

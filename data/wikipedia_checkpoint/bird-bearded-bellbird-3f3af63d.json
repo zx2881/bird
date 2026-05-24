@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:21:28",
+  "requested_title": "Bearded Bellbird",
+  "resolved_title": "Bearded bellbird",
+  "title_aliases": [
+    "Bearded Bellbird"
+  ],
+  "bird_id": "bird-bearded-bellbird-3f3af63d",
+  "raw_file": "bird-bearded-bellbird-3f3af63d.json",
+  "bird": {
+    "id": "bird-bearded-bellbird-3f3af63d",
+    "name": "Bearded bellbird",
+    "english_name": "Bearded bellbird",
+    "latin_name": "Procnias averano",
+    "summary": "The bearded bellbird (Procnias averano), also known as the campanero or anvil-bird, is a passerine bird which occurs in northern South Amer…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flickr_-_Rainbirder_-_Bearded_Bellbird_%28Procnias_averano%29_male_calling.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-johann-hermann-6d7ff611",
+      "name": "Johann Hermann",
+      "summary": "Johann, or Jean-Frederic, Hermann, or Herrmann, (31 December 1738 in Barr, Alsace – 4 October 1800 in Strasbourg) was a…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bearded-bellbird-3f3af63d",
+      "subject": "Bearded bellbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-johann-hermann-6d7ff611",
+      "object": "Johann Hermann",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bearded bellbird (Procnias averano), also known as the campanero or anvil-bird, is a passerine bird which occurs in northern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bearded-bellbird-3f3af63d",
+      "subject": "Bearded bellbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bearded bellbird (Procnias averano), also known as the campanero or anvil-bird, is a passerine bird which occurs in northern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bearded-bellbird-3f3af63d",
+      "subject": "Bearded bellbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

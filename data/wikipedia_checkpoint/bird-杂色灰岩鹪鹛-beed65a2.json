@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:43:10",
+  "requested_title": "Variable Limestone Babbler",
+  "resolved_title": "Variable limestone babbler",
+  "title_aliases": [
+    "Variable Limestone Babbler"
+  ],
+  "bird_id": "bird-杂色灰岩鹪鹛-beed65a2",
+  "raw_file": "bird-杂色灰岩鹪鹛-beed65a2.json",
+  "bird": {
+    "id": "bird-杂色灰岩鹪鹛-beed65a2",
+    "name": "杂色灰岩鹪鹛",
+    "english_name": "Variable limestone babbler",
+    "latin_name": "Gypsophila (bird) crispifrons",
+    "summary": "杂色灰岩鹪鹛（台湾作石灰岩鷦鶥）（学名：Gypsophila crispifrons），是雀形目幽鹛科的一种鸟类。 特征 杂色灰岩鹪鹛体重约27克，翼长约79.8毫米，嘴峰长约20.7毫米，喙宽度约3.9毫米，喙厚度约5.2毫米，跗蹠长约28.3毫米，尾长约72.4毫米。食性为…",
+    "lat": "15",
+    "lng": "101",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Limestone_wren-babbler_%2837917483062%29.jpg/960px-Limestone_wren-babbler_%2837917483062%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-泰国-6e4d220d",
+      "name": "泰国",
+      "summary": "泰王国（泰語：ราชอาณาจักรไทย，皇家轉寫：Ratcha-anachak Thai），通稱泰国（泰語：ประเทศไทย，皇家轉寫：Prathet Thai），舊称暹罗（泰語：สยาม，皇家轉寫：Sayam），是东南亚的君主立宪…",
+      "lat": "15",
+      "lng": "101"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-杂色灰岩鹪鹛-beed65a2",
+      "subject": "杂色灰岩鹪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰国-6e4d220d",
+      "object": "泰国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the limestone hills of northern and eastern Thailand northwest to southern Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-杂色灰岩鹪鹛-beed65a2",
+      "subject": "杂色灰岩鹪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the limestone hills of northern and eastern Thailand northwest to southern Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-杂色灰岩鹪鹛-beed65a2",
+      "subject": "杂色灰岩鹪鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

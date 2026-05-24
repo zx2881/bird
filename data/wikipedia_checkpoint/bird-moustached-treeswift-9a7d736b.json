@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:48:14",
+  "requested_title": "Moustached Treeswift",
+  "resolved_title": "Moustached treeswift",
+  "title_aliases": [
+    "Moustached Treeswift"
+  ],
+  "bird_id": "bird-moustached-treeswift-9a7d736b",
+  "raw_file": "bird-moustached-treeswift-9a7d736b.json",
+  "bird": {
+    "id": "bird-moustached-treeswift-9a7d736b",
+    "name": "Moustached treeswift",
+    "english_name": "Moustached treeswift",
+    "latin_name": "Hemiprocne mystacea",
+    "summary": "The moustached treeswift (Hemiprocne mystacea) is a species of bird in the family Hemiprocnidae. It is found in the northern Moluccas, New…",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Moustached_Treeswift_0A2A8008.jpg/960px-Moustached_Treeswift_0A2A8008.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-俾斯麦群岛-19ddf3e6",
+      "name": "俾斯麦群岛",
+      "summary": "俾斯麦群岛（英文：Bismarck Archipelago）是太平洋西南部一群岛，位于新几内亚岛东北，濒临俾斯麦海，由200多个岛屿组成，总陆地面积49700平方公里，主要岛屿有新不列颠岛、新爱尔兰岛等，人口31.4万人，现全部属于巴布亚…",
+      "lat": "-5",
+      "lng": "150.1"
+    },
+    {
+      "id": "loc-所羅門群島-群島-4708e5d6",
+      "name": "所羅門群島 (群島)",
+      "summary": "所羅門群島是太平洋西南面的群島，位於澳大利亞東北方的美拉尼西亞（Melanesia）地區。西隔所羅門海與新幾內亞、俾斯麥群島相鄰。 政治上分屬兩個政治實體： 所罗门群岛，領土範圍為大部分的索羅門群島（28,896 km²，660,121人…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-moustached-treeswift-9a7d736b",
+      "subject": "Moustached treeswift",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the northern Moluccas, New Guinea, Bismarck and the Solomon Islands archipelagos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moustached-treeswift-9a7d736b",
+      "subject": "Moustached treeswift",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the northern Moluccas, New Guinea, Bismarck and the Solomon Islands archipelagos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moustached-treeswift-9a7d736b",
+      "subject": "Moustached treeswift",
+      "predicate": "distributed_in",
+      "object_id": "loc-俾斯麦群岛-19ddf3e6",
+      "object": "俾斯麦群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the northern Moluccas, New Guinea, Bismarck and the Solomon Islands archipelagos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moustached-treeswift-9a7d736b",
+      "subject": "Moustached treeswift",
+      "predicate": "distributed_in",
+      "object_id": "loc-所羅門群島-群島-4708e5d6",
+      "object": "所羅門群島 (群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the northern Moluccas, New Guinea, Bismarck and the Solomon Islands archipelagos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moustached-treeswift-9a7d736b",
+      "subject": "Moustached treeswift",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

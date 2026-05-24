@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:25:24",
+  "requested_title": "Dark-eyed White-eye",
+  "resolved_title": "Dark-eyed white-eye",
+  "title_aliases": [
+    "Dark-eyed White-eye"
+  ],
+  "bird_id": "bird-dark-eyed-white-eye-e7a68dae",
+  "raw_file": "bird-dark-eyed-white-eye-e7a68dae.json",
+  "bird": {
+    "id": "bird-dark-eyed-white-eye-e7a68dae",
+    "name": "Dark-eyed white-eye",
+    "english_name": "Dark-eyed white-eye",
+    "latin_name": "Zosterops tetiparius",
+    "summary": "The dark-eyed white-eye (Zosterops tetiparius) is a species of passerine bird in the family Zosteropidae. It has two subspecies, Z.",
+    "lat": "-8",
+    "lng": "159",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-所罗门群岛-65f9af23",
+      "name": "所罗门群岛",
+      "summary": "所罗门群岛（英語：Solomon Islands）是南太平洋岛国，位於澳大利亚东北方，巴布亞紐幾內亞東方。首都霍尼亞拉所在地瓜達康納爾島曾是第二次世界大戰在太平洋的转折点所在地。 所罗门群岛共有超過990個島，陸地總面積共有28,450平…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dark-eyed-white-eye-e7a68dae",
+      "subject": "Dark-eyed white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Zosterops tetiparius is found in subtropical or tropical moist lowland forest in the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dark-eyed-white-eye-e7a68dae",
+      "subject": "Dark-eyed white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-所罗门群岛-65f9af23",
+      "object": "所罗门群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Zosterops tetiparius is found in subtropical or tropical moist lowland forest in the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dark-eyed-white-eye-e7a68dae",
+      "subject": "Dark-eyed white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

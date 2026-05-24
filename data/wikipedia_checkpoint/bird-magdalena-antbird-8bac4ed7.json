@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:03:46",
+  "requested_title": "Magdalena Antbird",
+  "resolved_title": "Magdalena antbird",
+  "title_aliases": [
+    "Magdalena Antbird"
+  ],
+  "bird_id": "bird-magdalena-antbird-8bac4ed7",
+  "raw_file": "bird-magdalena-antbird-8bac4ed7.json",
+  "bird": {
+    "id": "bird-magdalena-antbird-8bac4ed7",
+    "name": "Magdalena antbird",
+    "english_name": "Magdalena antbird",
+    "latin_name": "Sipia palliata",
+    "summary": "The Magdalena antbird (Sipia palliata) is a Near Threatened species of bird in subfamily Thamnophilinae of family Thamnophilidae, the \"typi…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Magdalena_Antbird.jpg/960px-Magdalena_Antbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-magdalena-antbird-8bac4ed7",
+      "subject": "Magdalena antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-magdalena-antbird-8bac4ed7",
+      "subject": "Magdalena antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-magdalena-antbird-8bac4ed7",
+      "subject": "Magdalena antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits the floor and understorey of wet foothills evergreen forest and also occurs in lowlands nearer the coast in Colombia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-magdalena-antbird-8bac4ed7",
+      "subject": "Magdalena antbird",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

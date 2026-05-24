@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:53:42",
+  "requested_title": "Lesser Antillean Euphonia",
+  "resolved_title": "Lesser Antillean euphonia",
+  "title_aliases": [
+    "Lesser Antillean Euphonia"
+  ],
+  "bird_id": "bird-lesser-antillean-euphonia-ab0f7b4b",
+  "raw_file": "bird-lesser-antillean-euphonia-ab0f7b4b.json",
+  "bird": {
+    "id": "bird-lesser-antillean-euphonia-ab0f7b4b",
+    "name": "Lesser Antillean euphonia",
+    "english_name": "Lesser Antillean euphonia",
+    "latin_name": "Chlorophonia flavifrons",
+    "summary": "The Lesser Antillean euphonia (Chlorophonia flavifrons) is a species of bird in the family Fringillidae, the finches and euphonias. It is e…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Orga1.jpg/960px-Orga1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "name": "熱帶和亞熱帶旱生闊葉林",
+      "summary": "热带及亚热带旱生阔叶林（英語：tropical and subtropical dry broadleaf forests），简称旱生林（dry forest）是一种WWF定义的栖地生境并用来命名以此为代表的生物群系。其所需的气候类型较常…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lesser-antillean-euphonia-ab0f7b4b",
+      "subject": "Lesser Antillean euphonia",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid evergreen and deciduous forests and also drier scrubby areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-antillean-euphonia-ab0f7b4b",
+      "subject": "Lesser Antillean euphonia",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "object": "熱帶和亞熱帶旱生闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid evergreen and deciduous forests and also drier scrubby areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-antillean-euphonia-ab0f7b4b",
+      "subject": "Lesser Antillean euphonia",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

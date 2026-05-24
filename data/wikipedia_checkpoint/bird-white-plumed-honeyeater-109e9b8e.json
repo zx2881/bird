@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:01:25",
+  "requested_title": "White-plumed Honeyeater",
+  "resolved_title": "White-plumed honeyeater",
+  "title_aliases": [
+    "White-plumed Honeyeater"
+  ],
+  "bird_id": "bird-white-plumed-honeyeater-109e9b8e",
+  "raw_file": "bird-white-plumed-honeyeater-109e9b8e.json",
+  "bird": {
+    "id": "bird-white-plumed-honeyeater-109e9b8e",
+    "name": "White-plumed honeyeater",
+    "english_name": "White-plumed honeyeater",
+    "latin_name": "Ptilotula penicillata",
+    "summary": "The white-plumed honeyeater (Ptilotula penicillata, formerly Lichenostomus penicillatus) is a small passerine bird endemic to Australia. Wh…",
+    "lat": "-28.77444444",
+    "lng": "114.60888889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ptilotula_penicillata_-_Glen_Davis.jpg/960px-Ptilotula_penicillata_-_Glen_Davis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-傑拉爾頓-2f7a3d95",
+      "name": "傑拉爾頓",
+      "summary": "杰拉尔顿（英語：Geraldton）是澳大利亚西澳大利亚州中西部地区最大的沿海城市，距西澳州首府--珀斯以北424公里。2015年杰拉尔顿市人口为41223人（澳大利亚国家统计局预计）， 比2011年人口普查统计人数（37160人）增长1…",
+      "lat": "-28.77444444",
+      "lng": "114.60888889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-plumed-honeyeater-109e9b8e",
+      "subject": "White-plumed honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-傑拉爾頓-2f7a3d95",
+      "object": "傑拉爾頓",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "carteri occurs in the Pilbara region of WA from Geraldton to the Fortescue Ranges, and east to the Western Deserts; while P",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-plumed-honeyeater-109e9b8e",
+      "subject": "White-plumed honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "An oligotypic species, it is mainly found in open sclerophyll woodland, often near water sources, such as wetlands, swamps, creeks, and dams. It is found extensively in river red gum woodlands, but also riparian woodlands dominated by Eucalyptus, Melaleuca or Casuarina species",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-white-plumed-honeyeater-109e9b8e",
+      "subject": "White-plumed honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "An oligotypic species, it is mainly found in open sclerophyll woodland, often near water sources, such as wetlands, swamps, creeks, and dams. It is found extensively in river red gum woodlands, but also riparian woodlands dominated by Eucalyptus, Melaleuca or Casuarina species",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-white-plumed-honeyeater-109e9b8e",
+      "subject": "White-plumed honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It may also be found in nearby river flats or open forest and woodland.{{cite journal |last1=Ford |first1=H.A",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-white-plumed-honeyeater-109e9b8e",
+      "subject": "White-plumed honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

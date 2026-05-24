@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:36:33",
+  "requested_title": "Yellow-breasted Bowerbird",
+  "resolved_title": "Yellow-breasted bowerbird",
+  "title_aliases": [
+    "Yellow-breasted Bowerbird"
+  ],
+  "bird_id": "bird-黄胸大亭鸟-bc19d479",
+  "raw_file": "bird-黄胸大亭鸟-bc19d479.json",
+  "bird": {
+    "id": "bird-黄胸大亭鸟-bc19d479",
+    "name": "黄胸大亭鸟",
+    "english_name": "Yellow-breasted bowerbird",
+    "latin_name": "Chlamydera lauterbachi",
+    "summary": "黄胸大亭鸟（台湾作黃胸大園丁鳥，学名：Chlamydera lauterbachi），是雀形目园丁鸟科的一种鸟类。 黄胸大亭鸟体重约123.2克，翼长约127.2毫米，嘴峰长约27.6毫米，喙宽度约6.5毫米，喙厚度约8.9毫米，跗蹠长约37.3毫米，尾长约105毫米。黄胸大亭…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Yellow-breasted_Bowerbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄胸大亭鸟-bc19d479",
+      "subject": "黄胸大亭鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-breasted bowerbird is distributed on mainland New Guinea, where it inhabits grasslands, lowlands, and subtropical mountain forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄胸大亭鸟-bc19d479",
+      "subject": "黄胸大亭鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The yellow-breasted bowerbird is distributed on mainland New Guinea, where it inhabits grasslands, lowlands, and subtropical mountain forests",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-黄胸大亭鸟-bc19d479",
+      "subject": "黄胸大亭鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The yellow-breasted bowerbird is distributed on mainland New Guinea, where it inhabits grasslands, lowlands, and subtropical mountain forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-黄胸大亭鸟-bc19d479",
+      "subject": "黄胸大亭鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:44:16",
+  "requested_title": "Eurasian Sparrowhawk",
+  "resolved_title": "Eurasian sparrowhawk",
+  "title_aliases": [
+    "Eurasian Sparrowhawk"
+  ],
+  "bird_id": "bird-雀鹰-73791fde",
+  "raw_file": "bird-雀鹰-73791fde.json",
+  "bird": {
+    "id": "bird-雀鹰-73791fde",
+    "name": "雀鹰",
+    "english_name": "Eurasian sparrowhawk",
+    "latin_name": "Accipiter nisus",
+    "summary": "雀鹰（学名：Accipiter nisus）又名北雀鹰、鹞，为鹰科鹰属的鸟类，分布于欧亚大陆大部分地区和非洲北部。一般栖息于山林和开阔的林地。北雀鷹的模式产地在瑞典。 成年雄性北雀鷹的上半身呈藍灰色，下半身有橙色條紋；雌性和幼鳥則為上半身棕色，下半身帶有棕色條紋。雌性體型比雄性…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1-%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D0%B5%D0%BB%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%28Accipiter_nisus%2C_m%29%2C_%D0%98%D0%B7%D0%BC%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%B0%D1%80%D0%BA.jpg/960px-%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1-%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D0%B5%D0%BB%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%28Accipiter_nisus%2C_m%29%2C_%D0%98%D0%B7%D0%BC%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%B0%D1%80%D0%BA.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-雀鹰-73791fde",
+      "subject": "雀鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Deciduous woodland is a typical breeding and hunting habitat for the Eurasian sparrowhawk. A widespread species throughout the temperate and subtropical parts of the Old World, the Eurasian sparrowhawk is resident or breeds in an estimated global range of and had an estimated population of 1.5 million birds in 2009",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雀鹰-73791fde",
+      "subject": "雀鹰",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

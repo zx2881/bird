@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:56:26",
+  "requested_title": "Painted Whitestart",
+  "resolved_title": "Painted redstart",
+  "title_aliases": [
+    "Painted Whitestart",
+    "Painted redstart"
+  ],
+  "bird_id": "bird-painted-redstart-7f7cac8d",
+  "raw_file": "bird-painted-redstart-7f7cac8d.json",
+  "bird": {
+    "id": "bird-painted-redstart-7f7cac8d",
+    "name": "Painted redstart",
+    "english_name": "Painted redstart",
+    "latin_name": "Myioborus pictus",
+    "summary": "The painted redstart or painted whitestart (Myioborus pictus) is a species of New World warbler found in mountainous areas across inland Ce…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/PaintedRedstart.jpg/960px-PaintedRedstart.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森莺科-76e24430",
+      "name": "森莺科",
+      "summary": "森莺科（学名：Parulidae），亦称为林莺科，是雀形目的一科，由生活于新大陆的小型鸣禽构成，又称为新大陆莺。它们与旧大陆莺与澳洲莺并没有直接的亲缘关系。 森莺科鸟类常拥有艳丽的体羽。它们大多在树林间觅食昆虫，但橙顶灶莺（Seiurus…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-painted-redstart-7f7cac8d",
+      "subject": "Painted redstart",
+      "predicate": "distributed_in",
+      "object_id": "loc-森莺科-76e24430",
+      "object": "森莺科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pictus | synonyms = Setophaga pictus }} The painted redstart or painted whitestart (Myioborus pictus) is a species of New World warbler found in mountainous areas across inland Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-painted-redstart-7f7cac8d",
+      "subject": "Painted redstart",
+      "predicate": "lives_in",
+      "object_id": "hab-open-mountain",
+      "object": "开阔山地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "pictus | synonyms = Setophaga pictus }} The painted redstart or painted whitestart (Myioborus pictus) is a species of New World warbler found in mountainous areas across inland Central America",
+      "object_summary": "地形开阔且便于大翼展鸟类活动的山地区域。"
+    },
+    {
+      "subject_id": "bird-painted-redstart-7f7cac8d",
+      "subject": "Painted redstart",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

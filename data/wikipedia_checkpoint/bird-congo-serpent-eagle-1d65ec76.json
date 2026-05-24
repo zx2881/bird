@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:28:20",
+  "requested_title": "Congo Serpent Eagle",
+  "resolved_title": "Congo serpent eagle",
+  "title_aliases": [
+    "Congo Serpent Eagle"
+  ],
+  "bird_id": "bird-congo-serpent-eagle-1d65ec76",
+  "raw_file": "bird-congo-serpent-eagle-1d65ec76.json",
+  "bird": {
+    "id": "bird-congo-serpent-eagle-1d65ec76",
+    "name": "Congo serpent eagle",
+    "english_name": "Congo serpent eagle",
+    "latin_name": "Circaetus spectabilis",
+    "summary": "The Congo serpent eagle (Circaetus spectabilis) is a species of bird of prey in the family Accipitridae. This species is distributed across…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/DryotriorchisSpectabilisSmit.jpg/960px-DryotriorchisSpectabilisSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-upper-guinean-forests-6bea057e",
+      "name": "Upper Guinean forests",
+      "summary": "The Upper Guinean forests is a tropical seasonal forest region of West Africa.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-下幾內亞森林-4d4ee028",
+      "name": "下幾內亞森林",
+      "summary": "下幾內亞森林（Lower Guinean forests）是西非沿海的一個热带湿润阔叶林区域，沿几内亚湾东海岸从贝宁东部一直延伸到尼日利亚和喀麦隆。世界自然基金会将下几内亚森林的两个区域指定为全球200优先保护区域。 外部链接 Guine…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-congo-serpent-eagle-1d65ec76",
+      "subject": "Congo serpent eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-upper-guinean-forests-6bea057e",
+      "object": "Upper Guinean forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "spectabilis is found in upper Guinean forests from Liberia to northern Cameroon, while C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-congo-serpent-eagle-1d65ec76",
+      "subject": "Congo serpent eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-下幾內亞森林-4d4ee028",
+      "object": "下幾內亞森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "batesi is found in lower Guinean forests from southern Cameroon through Gabon and western Uganda. Its range covers . The species lives in dense primary forest below in elevation in the dark understory. As it is adapted for dense forest, it is not well-adapted for secondary forests and plantations. The Congo serpent eagle does not migrate, though it is unknown if it is locally nomadic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-congo-serpent-eagle-1d65ec76",
+      "subject": "Congo serpent eagle",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:34:46",
+  "requested_title": "Sayaca Tanager",
+  "resolved_title": "Sayaca tanager",
+  "title_aliases": [
+    "Sayaca Tanager"
+  ],
+  "bird_id": "bird-灰喉裸鼻雀-c8f85996",
+  "raw_file": "bird-灰喉裸鼻雀-c8f85996.json",
+  "bird": {
+    "id": "bird-灰喉裸鼻雀-c8f85996",
+    "name": "灰喉裸鼻雀",
+    "english_name": "Sayaca tanager",
+    "latin_name": "Thraupis sayaca",
+    "summary": "The sayaca tanager (Thraupis sayaca) is a species of bird in the family Thraupidae, the tanagers. It is a common resident in northeastern,…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sayaca_tanager.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜雨林-bf3e16da",
+      "name": "亞馬遜雨林",
+      "summary": "亞馬遜雨林（葡萄牙語：Amazônia、西班牙語：Amazonia），又稱亞馬遜河雨林，位於南美洲亞馬遜盆地的熱帶雨林，佔地僅存約500萬平方公里，使這片雨林生機盎然的就是亞馬遜河。雨林橫越了8個國家：巴西（佔森林60%面積）、哥倫比亞、…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰喉裸鼻雀-c8f85996",
+      "subject": "灰喉裸鼻雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜雨林-bf3e16da",
+      "object": "亞馬遜雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a wide range of open to semiopen habitats, but generally avoids the interior of dense forest (such as the Amazon)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰喉裸鼻雀-c8f85996",
+      "subject": "灰喉裸鼻雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

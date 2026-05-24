@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:19:11",
+  "requested_title": "Sucre Antpitta",
+  "resolved_title": "Sucre antpitta",
+  "title_aliases": [
+    "Sucre Antpitta"
+  ],
+  "bird_id": "bird-sucre-antpitta-54a8e263",
+  "raw_file": "bird-sucre-antpitta-54a8e263.json",
+  "bird": {
+    "id": "bird-sucre-antpitta-54a8e263",
+    "name": "Sucre antpitta",
+    "english_name": "Sucre antpitta",
+    "latin_name": "Grallaricula cumanensis",
+    "summary": "The Sucre antpitta (Grallaricula cumanensis) is a Vulnerable species of bird in the family Grallariidae.It is endemic to Venezuela. Taxonom…",
+    "lat": "9.43",
+    "lng": "-63.08",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Grallaricula_cumanensis_-_Sucre_Antpitta_1.jpg/960px-Grallaricula_cumanensis_-_Sucre_Antpitta_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-委內瑞拉海岸山脈-bfc734e6",
+      "name": "委內瑞拉海岸山脈",
+      "summary": "The Venezuelan Coastal Range (Spanish: Cordillera de la Costa or Serranía de la Costa), also known as Venezuelan Caribb…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-莫納加斯州-27daa75d",
+      "name": "莫納加斯州",
+      "summary": "莫納加斯州（西班牙語：Estado Monagas）是委內瑞拉東部的一個州，東北臨帕里亞灣。面積28,900平方公里，2007年人口855,300人。首府馬圖林。 1909年建州。下分十三個自治市。州名紀念第十一、三任總統何塞·塔德奧·莫…",
+      "lat": "9.43",
+      "lng": "-63.08"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sucre-antpitta-54a8e263",
+      "subject": "Sucre antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉海岸山脈-bfc734e6",
+      "object": "委內瑞拉海岸山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies is found in the Venezuelan Coastal Range in Anzoátegui, western Sucre and northern Monagas states",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sucre-antpitta-54a8e263",
+      "subject": "Sucre antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫納加斯州-27daa75d",
+      "object": "莫納加斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies is found in the Venezuelan Coastal Range in Anzoátegui, western Sucre and northern Monagas states",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sucre-antpitta-54a8e263",
+      "subject": "Sucre antpitta",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the understory of humid montane forest heavy with epiphytes and mosses",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-sucre-antpitta-54a8e263",
+      "subject": "Sucre antpitta",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-sucre-antpitta-54a8e263",
+      "subject": "Sucre antpitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"There has been widespread clearance for agriculture in the Turimiquire Massif and the Paria Peninsula and both regions are considered highly threatened.\" Even areas within nominally protected Cueva del Guácharo National Park are cut and burned.\" \"The extent to which the Sucre Antpitta tolerates disturbance is unknown, but large-scale clearing and burning is undoubtedly detrimental.\"",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:18:29",
+  "requested_title": "Black-crowned Tchagra",
+  "resolved_title": "Black-crowned tchagra",
+  "title_aliases": [
+    "Black-crowned Tchagra"
+  ],
+  "bird_id": "bird-black-crowned-tchagra-52000db1",
+  "raw_file": "bird-black-crowned-tchagra-52000db1.json",
+  "bird": {
+    "id": "bird-black-crowned-tchagra-52000db1",
+    "name": "Black-crowned tchagra",
+    "english_name": "Black-crowned tchagra",
+    "latin_name": "Tchagra senegalus",
+    "summary": "The black-crowned tchagra (Tchagra senegalus) is a bushshrike. This family of passerine birds is closely related to the true shrikes in the…",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Black-crowned_Tchagra%2C_Tchagra_senegala.jpg/960px-Black-crowned_Tchagra%2C_Tchagra_senegala.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-crowned-tchagra-52000db1",
+      "subject": "Black-crowned tchagra",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in the Arabian Peninsula and most of Africa in scrub, open woodland, semi-desert and cultivation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-crowned-tchagra-52000db1",
+      "subject": "Black-crowned tchagra",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

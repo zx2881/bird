@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:52:09",
+  "requested_title": "Grey-banded Mannikin",
+  "resolved_title": "Grey-banded mannikin",
+  "title_aliases": [
+    "Grey-banded Mannikin"
+  ],
+  "bird_id": "bird-灰带文鸟-7a74f669",
+  "raw_file": "bird-灰带文鸟-7a74f669.json",
+  "bird": {
+    "id": "bird-灰带文鸟-7a74f669",
+    "name": "灰带文鸟",
+    "english_name": "Grey-banded mannikin",
+    "latin_name": "Lonchura vana",
+    "summary": "灰带文鸟（学名：Lonchura vana），是梅花雀科文鸟属的一种，为印度尼西亚的特有种。全球活动范围约为29平方千米。该物种的保护状况被评为易危。 灰带文鸟的栖息于亚热带或热带的高海拔草原。",
+    "lat": "-1.5",
+    "lng": "132.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Grey-banded_Mannikin_9165bs_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-ernst-hartert-4e6d4c6a",
+      "name": "Ernst Hartert",
+      "summary": "Ernst Johann Otto Hartert (29 October 1859 – 11 November 1933) was a widely published German ornithologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-多貝拉伊半島-71004cfe",
+      "name": "多貝拉伊半島",
+      "summary": "多貝拉伊半島，又稱鳥頭半島（印尼語：Kepala Burung、荷蘭語：Vogelkop），是印度尼西亞西巴布亞省的大型半島，位於新畿內亞的西北部，東臨極樂鳥灣，南接賓圖尼灣，長約200公里、闊約300公里，南部沿海是平原，北部是海拔3,…",
+      "lat": "-1.5",
+      "lng": "132.5"
+    },
+    {
+      "id": "loc-巴布亚省-f2c6c8e8",
+      "name": "巴布亚省",
+      "summary": "巴布亞省（印尼語：Provinsi Papua）位於西新几内亚，是印度尼西亚最东边的省份，包括西新几内亚的東北部地區和周围小岛，是印度尼西亚的八个特区（印尼語：Daerah khusus）之一。旧称伊里安查亚省，首府位于查亚普拉。在文化方…",
+      "lat": "-2.53333333",
+      "lng": "140.71666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰带文鸟-7a74f669",
+      "subject": "灰带文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-ernst-hartert-4e6d4c6a",
+      "object": "Ernst Hartert",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-banded mannikin (Lonchura vana), or grey-banded munia, is a species of estrildid finch known to be found in Anggi Gigi, Tamrau Mountains, and Arfak Mountains in the Vogelkop Peninsula in north-western Papua, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰带文鸟-7a74f669",
+      "subject": "灰带文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-多貝拉伊半島-71004cfe",
+      "object": "多貝拉伊半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-banded mannikin (Lonchura vana), or grey-banded munia, is a species of estrildid finch known to be found in Anggi Gigi, Tamrau Mountains, and Arfak Mountains in the Vogelkop Peninsula in north-western Papua, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰带文鸟-7a74f669",
+      "subject": "灰带文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚省-f2c6c8e8",
+      "object": "巴布亚省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-banded mannikin (Lonchura vana), or grey-banded munia, is a species of estrildid finch known to be found in Anggi Gigi, Tamrau Mountains, and Arfak Mountains in the Vogelkop Peninsula in north-western Papua, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰带文鸟-7a74f669",
+      "subject": "灰带文鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This species inhabits mid-mountain wet grassland and marshland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-灰带文鸟-7a74f669",
+      "subject": "灰带文鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

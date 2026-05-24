@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:36:20",
+  "requested_title": "Vulturine Parrot",
+  "resolved_title": "Vulturine parrot",
+  "title_aliases": [
+    "Vulturine Parrot"
+  ],
+  "bird_id": "bird-vulturine-parrot-de0ad302",
+  "raw_file": "bird-vulturine-parrot-de0ad302.json",
+  "bird": {
+    "id": "bird-vulturine-parrot-de0ad302",
+    "name": "Vulturine parrot",
+    "english_name": "Vulturine parrot",
+    "latin_name": "Pyrilia vulturina",
+    "summary": "The vulturine parrot (Pyrilia vulturina) is a species of bird in subfamily Arinae of the family Psittacidae, the African and New World parr…",
+    "lat": "-3.37555556",
+    "lng": "-58.77305556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Vulturine_Parrot_%28Pyrilia_vulturina%29%2C_Par%C3%A1%2C_BR_imported_from_iNaturalist_photo_443639952_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马代拉河-c159f3fd",
+      "name": "马代拉河",
+      "summary": "马代拉河（葡萄牙語：Rio Madeira）是南美洲的河流，河道全長約3,350公里，是亞馬遜河右岸最長的支流。 2007年7月，巴西政府批准興建兩座用作水力發電的水壩，遭環境人士以破壞生態環境為由反對。",
+      "lat": "-3.37555556",
+      "lng": "-58.77305556"
+    },
+    {
+      "id": "loc-马拉尼昂州-4d31ff74",
+      "name": "马拉尼昂州",
+      "summary": "馬拉尼昂州（葡萄牙語：Maranhão，IPA：ma.ɾa.'ɲɐ̃w̃是巴西的一個州，位於東北部大西洋岸。面積331,983平方公里，2005年人口6,109,694人。首府聖路易斯。自2015年1月1日起，该州由巴西共产党执政。 倫索…",
+      "lat": "-6.18333333",
+      "lng": "-45.61666667"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-vulturine-parrot-de0ad302",
+      "subject": "Vulturine parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-马代拉河-c159f3fd",
+      "object": "马代拉河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The vulturine parrot is found in Brazil south of the Amazon River from the Madeira River east to near the Atlantic coast in Maranhão",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-vulturine-parrot-de0ad302",
+      "subject": "Vulturine parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-马拉尼昂州-4d31ff74",
+      "object": "马拉尼昂州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The vulturine parrot is found in Brazil south of the Amazon River from the Madeira River east to near the Atlantic coast in Maranhão",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-vulturine-parrot-de0ad302",
+      "subject": "Vulturine parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits both fairly dry terra firme and seasonally flooded várzea forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-vulturine-parrot-de0ad302",
+      "subject": "Vulturine parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits both fairly dry terra firme and seasonally flooded várzea forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-vulturine-parrot-de0ad302",
+      "subject": "Vulturine parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-vulturine-parrot-de0ad302",
+      "subject": "Vulturine parrot",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The primary threat to this species is accelerating deforestation in the Amazon basin as land is cleared for cattle ranching and soy production, facilitated by expansion of the road network.\" It is considered uncommon throughout its range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

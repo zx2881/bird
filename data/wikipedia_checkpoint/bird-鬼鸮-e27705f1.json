@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:23:14",
+  "requested_title": "Boreal Owl",
+  "resolved_title": "Boreal owl",
+  "title_aliases": [
+    "Boreal Owl"
+  ],
+  "bird_id": "bird-鬼鸮-e27705f1",
+  "raw_file": "bird-鬼鸮-e27705f1.json",
+  "bird": {
+    "id": "bird-鬼鸮-e27705f1",
+    "name": "鬼鸮",
+    "english_name": "Boreal owl",
+    "latin_name": "Aegolius funereus",
+    "summary": "鬼鸮（学名：Aegolius funereus）为鸱鸮科鬼鸮属的鸟类。分布于欧洲、亚洲、北美洲（阿拉斯加到加拿大），包括中国大陆的黑龙江、内蒙古、甘肃、青海、新疆等地，主要栖息于针叶林中以及也见于松、桦、白杨的混交林中。该物种的模式产地在瑞典。因在夜晚時面部變得如同鬼一樣而聞名…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/P%C3%A4rluggla%2C_Varberg%2C_Hallands_L%C3%A4n%2C_Sverige.jpg/960px-P%C3%A4rluggla%2C_Varberg%2C_Hallands_L%C3%A4n%2C_Sverige.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-温带阔叶混交林-fc0864f2",
+      "name": "温带阔叶混交林",
+      "summary": "温带阔叶混交林是一种温带陆地生物群系，位于阔叶树生态区，和针叶树与阔叶树的针叶混交林生态区。 “温带阔叶混交林”这一术语，由世界自然基金会（WWF）使用，在全球生物地理学中，作为组织生态区的生物群落之一。",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鬼鸮-e27705f1",
+      "subject": "鬼鸮",
+      "predicate": "distributed_in",
+      "object_id": "loc-温带阔叶混交林-fc0864f2",
+      "object": "温带阔叶混交林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The boreal owl breeds in dense boreal, subalpine forest as well as mixed woodland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鬼鸮-e27705f1",
+      "subject": "鬼鸮",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

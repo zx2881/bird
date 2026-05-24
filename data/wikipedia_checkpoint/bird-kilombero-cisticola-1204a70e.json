@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:17:20",
+  "requested_title": "Kilombero Cisticola",
+  "resolved_title": "Kilombero cisticola",
+  "title_aliases": [
+    "Kilombero Cisticola"
+  ],
+  "bird_id": "bird-kilombero-cisticola-1204a70e",
+  "raw_file": "bird-kilombero-cisticola-1204a70e.json",
+  "bird": {
+    "id": "bird-kilombero-cisticola-1204a70e",
+    "name": "Kilombero cisticola",
+    "english_name": "Kilombero cisticola",
+    "latin_name": "Cisticola bakerorum",
+    "summary": "The Kilombero cisticola (Cisticola bakerorum) is a species of bird in the family Cisticolidae. It is found in Tanzania.",
+    "lat": "-6",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Cisticola_bakerorum_-_Tom_Field_-_476849176.jpeg/960px-Cisticola_bakerorum_-_Tom_Field_-_476849176.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-kilombero-cisticola-1204a70e",
+      "subject": "Kilombero cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Tanzania. It was first recognised as new by Éric Burnier in the 1980s",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kilombero-cisticola-1204a70e",
+      "subject": "Kilombero cisticola",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

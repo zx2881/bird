@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:52:17",
+  "requested_title": "Tanimbar Monarch",
+  "resolved_title": "Tanimbar monarch",
+  "title_aliases": [
+    "Tanimbar Monarch"
+  ],
+  "bird_id": "bird-tanimbar-monarch-65a10bef",
+  "raw_file": "bird-tanimbar-monarch-65a10bef.json",
+  "bird": {
+    "id": "bird-tanimbar-monarch-65a10bef",
+    "name": "Tanimbar monarch",
+    "english_name": "Tanimbar monarch",
+    "latin_name": "Carterornis castus",
+    "summary": "The Tanimbar monarch (Carterornis castus), or Loetoe monarch is a bird in the family Monarchidae endemic to Indonesia. It is found in the T…",
+    "lat": "-7.5",
+    "lng": "131.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Carterornis_castus_-_desertnaturalist_-_332145081.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-塔寧巴爾群島-b051ba35",
+      "name": "塔寧巴爾群島",
+      "summary": "塔寧巴爾群島是印度尼西亞馬魯古省的群島，由約65個島嶼組成，位於阿鲁群岛和卡伊群島西南、巴巴群島和帝汶以東，把班達海和阿拉弗拉海分開，土地總面積5,440平方公里，人口約61,000，其中44,000信奉基督教。行政上隶属马鲁古省的西东南…",
+      "lat": "-7.5",
+      "lng": "131.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tanimbar-monarch-65a10bef",
+      "subject": "Tanimbar monarch",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔寧巴爾群島-b051ba35",
+      "object": "塔寧巴爾群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Tanimbar Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tanimbar-monarch-65a10bef",
+      "subject": "Tanimbar monarch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

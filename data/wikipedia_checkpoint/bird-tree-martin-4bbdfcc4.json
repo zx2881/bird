@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:30:12",
+  "requested_title": "Tree Martin",
+  "resolved_title": "Tree martin",
+  "title_aliases": [
+    "Tree Martin"
+  ],
+  "bird_id": "bird-tree-martin-4bbdfcc4",
+  "raw_file": "bird-tree-martin-4bbdfcc4.json",
+  "bird": {
+    "id": "bird-tree-martin-4bbdfcc4",
+    "name": "Tree martin",
+    "english_name": "Tree martin",
+    "latin_name": "Petrochelidon nigricans",
+    "summary": "The tree martin (Petrochelidon nigricans) is a member of the swallow family of passerine birds. It breeds in Australia, mostly south of lat…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Tree_Martin_%284468433245%29.jpg/960px-Tree_Martin_%284468433245%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-帝汶島-c352d922",
+      "name": "帝汶島",
+      "summary": "帝汶島（印尼語：Pulau Timor，葡萄牙語：Ilha de Timor）是位於馬來群島南端的島嶼，為小巽他群島中面積最大者，總面積約30,777平方公里。該島地處東南亞海域，座標約為9°14′S 124°56′E，北臨弗洛勒斯海，南…",
+      "lat": "-9.23333333",
+      "lng": "124.93333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tree-martin-4bbdfcc4",
+      "subject": "Tree martin",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Australia, mostly south of latitude 20°S, and on Timor island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tree-martin-4bbdfcc4",
+      "subject": "Tree martin",
+      "predicate": "distributed_in",
+      "object_id": "loc-帝汶島-c352d922",
+      "object": "帝汶島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Australia, mostly south of latitude 20°S, and on Timor island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tree-martin-4bbdfcc4",
+      "subject": "Tree martin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

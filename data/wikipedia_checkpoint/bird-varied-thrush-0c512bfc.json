@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T12:03:22",
+  "requested_title": "Varied Thrush",
+  "resolved_title": "Varied thrush",
+  "title_aliases": [
+    "Varied Thrush"
+  ],
+  "bird_id": "bird-varied-thrush-0c512bfc",
+  "raw_file": "bird-varied-thrush-0c512bfc.json",
+  "bird": {
+    "id": "bird-varied-thrush-0c512bfc",
+    "name": "Varied thrush",
+    "english_name": "Varied thrush",
+    "latin_name": "Ixoreus naevius",
+    "summary": "The varied thrush (Ixoreus naevius) is a member of the thrush family, Turdidae. It is the only species in the monotypic genus Ixoreus.",
+    "lat": "64",
+    "lng": "-152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Varied_thrush_%2873976%29.jpg/960px-Varied_thrush_%2873976%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿拉斯加州-6d35b63b",
+      "name": "阿拉斯加州",
+      "summary": "阿拉斯加州（英語：Alaska，發音：/əˈlæskə/ ；舊譯「亞尼俺國」、「亞拉士加」）是美國位於北美洲最西北端的聯邦州。州以東與加拿大的英屬哥倫比亞省和育空地區相鄰，最西端位於阿圖島，並與俄羅斯在白令海峽以西有一海上邊界。以北有楚科…",
+      "lat": "64",
+      "lng": "-152"
+    },
+    {
+      "id": "loc-加利福尼亚州-9068131e",
+      "name": "加利福尼亚州",
+      "summary": "加利福尼亚州（英語：State of California），簡稱加州，是美国西部太平洋沿岸的一个州。面積列美國第三；人口為3,918萬，列美國各州第一。州首府是萨克拉门托。在地理、地貌、物產、人口構成方面都具有多样化的特點。加州有一别名…",
+      "lat": "37",
+      "lng": "-120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-varied-thrush-0c512bfc",
+      "subject": "Varied thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The varied thrush breeds in western North America from Alaska to northern California",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-varied-thrush-0c512bfc",
+      "subject": "Varied thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉斯加州-6d35b63b",
+      "object": "阿拉斯加州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The varied thrush breeds in western North America from Alaska to northern California",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-varied-thrush-0c512bfc",
+      "subject": "Varied thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-加利福尼亚州-9068131e",
+      "object": "加利福尼亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The varied thrush breeds in western North America from Alaska to northern California",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-varied-thrush-0c512bfc",
+      "subject": "Varied thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

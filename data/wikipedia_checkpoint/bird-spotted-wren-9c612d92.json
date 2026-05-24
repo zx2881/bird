@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:45:41",
+  "requested_title": "Spotted Wren",
+  "resolved_title": "Spotted wren",
+  "title_aliases": [
+    "Spotted Wren"
+  ],
+  "bird_id": "bird-spotted-wren-9c612d92",
+  "raw_file": "bird-spotted-wren-9c612d92.json",
+  "bird": {
+    "id": "bird-spotted-wren-9c612d92",
+    "name": "Spotted wren",
+    "english_name": "Spotted wren",
+    "latin_name": "Campylorhynchus gularis",
+    "summary": "The spotted wren (Campylorhynchus gularis) is a species of bird in the family Troglodytidae. It is endemic to Mexico.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spotted_Wren.jpg/960px-Spotted_Wren.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲利普-斯克莱特-0722f03b",
+      "name": "菲利普·斯克莱特",
+      "summary": "Philip Lutley Sclater (4 November 1829 – 27 June 1913) was an English lawyer and zoologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-spotted-wren-9c612d92",
+      "subject": "Spotted wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲利普-斯克莱特-0722f03b",
+      "object": "菲利普·斯克莱特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted wren (Campylorhynchus gularis) is a species of bird in the family Troglodytidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-wren-9c612d92",
+      "subject": "Spotted wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

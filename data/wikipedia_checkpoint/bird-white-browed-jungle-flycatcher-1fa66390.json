@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:55:07",
+  "requested_title": "White-browed Jungle Flycatcher",
+  "resolved_title": "White-browed jungle flycatcher",
+  "title_aliases": [
+    "White-browed Jungle Flycatcher"
+  ],
+  "bird_id": "bird-white-browed-jungle-flycatcher-1fa66390",
+  "raw_file": "bird-white-browed-jungle-flycatcher-1fa66390.json",
+  "bird": {
+    "id": "bird-white-browed-jungle-flycatcher-1fa66390",
+    "name": "White-browed jungle flycatcher",
+    "english_name": "White-browed jungle flycatcher",
+    "latin_name": "Vauriella insignis",
+    "summary": "The white-browed jungle flycatcher (Vauriella insignis), also known as the Luzon jungle-flycatcher and the Rusty-flanked jungle-flycatcher,…",
+    "lat": "16.58357222",
+    "lng": "120.88359167",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/BrachypteryxRhinomyiasKeulemans.jpg/960px-BrachypteryxRhinomyiasKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-普洛格山-49b464f4",
+      "name": "普洛格山",
+      "summary": "普洛格山（菲律賓語：Bundok Pulag，伊洛卡諾語：Bantay Pulag）是菲律賓的山峰，位於該國北部呂宋島，海拔高度2,922米，山上有528種植物和33種鳥類，每年平均降雨量4,489毫米，該山峰大部分地區自1987年2月2…",
+      "lat": "16.58357222",
+      "lng": "120.88359167"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-browed-jungle-flycatcher-1fa66390",
+      "subject": "White-browed jungle flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-普洛格山-49b464f4",
+      "object": "普洛格山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas like Mount Pulag National Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-jungle-flycatcher-1fa66390",
+      "subject": "White-browed jungle flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The natural habitat of the white-browed jungle flycatcher is tropical moist montane forests of the Cordillera Mountain Range and possibly Sierra Madre Mountains",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-white-browed-jungle-flycatcher-1fa66390",
+      "subject": "White-browed jungle flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in tropical moist primary montane Forest above 950 meters above sea level",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-white-browed-jungle-flycatcher-1fa66390",
+      "subject": "White-browed jungle flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-white-browed-jungle-flycatcher-1fa66390",
+      "subject": "White-browed jungle flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-white-browed-jungle-flycatcher-1fa66390",
+      "subject": "White-browed jungle flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss due to deforestation through mining, logging and conversion of habitat into farmland",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:43:26",
+  "requested_title": "Melodious Lark",
+  "resolved_title": "Melodious lark",
+  "title_aliases": [
+    "Melodious Lark"
+  ],
+  "bird_id": "bird-南非歌百灵-def66677",
+  "raw_file": "bird-南非歌百灵-def66677.json",
+  "bird": {
+    "id": "bird-南非歌百灵-def66677",
+    "name": "南非歌百灵",
+    "english_name": "Melodious lark",
+    "latin_name": "Mirafra cheniana",
+    "summary": "南非歌百灵（学名：Mirafra cheniana），是百灵科歌百灵属的一种，分布于博茨瓦纳、津巴布韦和南非。全球活动范围约为210,000平方千米。该物种的保护状况被评为近危。 南非歌百灵的栖息地为亚热带或热带的（低地）干草原。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Mirafra_cheniana_-_Bruno_-_Yolande_Zanette_-_623534092.jpeg/960px-Mirafra_cheniana_-_Bruno_-_Yolande_Zanette_-_623534092.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "name": "Andrew Smith (zoologist)",
+      "summary": "Sir Andrew Smith (3 December 1797 – 11 August 1872) was a British surgeon, explorer, ethnologist and zoologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-南非歌百灵-def66677",
+      "subject": "南非歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "object": "Andrew Smith (zoologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The melodious lark (Mirafra cheniana) is a species of lark in the family Alaudidae found in southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-南非歌百灵-def66677",
+      "subject": "南非歌百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The natural habitat of the melodious lark is subtropical or tropical, seasonally wet or flooded, lowland grassland. Within these regions, it prefers the drier slopes, especially in open runs between grassy tussocks",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-南非歌百灵-def66677",
+      "subject": "南非歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-南非歌百灵-def66677",
+      "subject": "南非歌百灵",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is currently threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

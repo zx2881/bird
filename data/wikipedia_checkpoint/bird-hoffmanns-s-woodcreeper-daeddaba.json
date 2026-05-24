@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:15:17",
+  "requested_title": "Hoffmanns's Woodcreeper",
+  "resolved_title": "Hoffmanns's woodcreeper",
+  "title_aliases": [
+    "Hoffmanns's Woodcreeper"
+  ],
+  "bird_id": "bird-hoffmanns-s-woodcreeper-daeddaba",
+  "raw_file": "bird-hoffmanns-s-woodcreeper-daeddaba.json",
+  "bird": {
+    "id": "bird-hoffmanns-s-woodcreeper-daeddaba",
+    "name": "Hoffmanns's woodcreeper",
+    "english_name": "Hoffmanns's woodcreeper",
+    "latin_name": "Dendrocolaptes hoffmannsi",
+    "summary": "Hoffmanns's woodcreeper (Dendrocolaptes hoffmannsi) is a Vulnerable species of bird in the subfamily Dendrocolaptinae of the ovenbird famil…",
+    "lat": "-3.37555556",
+    "lng": "-58.77305556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Dendrocolaptes_hoffmannsi_Hoffmann%27s_Woodcreeper%3B_Candeias_do_Jamari%2C_Rond%C3%B4nia%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马代拉河-c159f3fd",
+      "name": "马代拉河",
+      "summary": "马代拉河（葡萄牙語：Rio Madeira）是南美洲的河流，河道全長約3,350公里，是亞馬遜河右岸最長的支流。 2007年7月，巴西政府批准興建兩座用作水力發電的水壩，遭環境人士以破壞生態環境為由反對。",
+      "lat": "-3.37555556",
+      "lng": "-58.77305556"
+    },
+    {
+      "id": "loc-塔帕若斯河-128104de",
+      "name": "塔帕若斯河",
+      "summary": "塔帕若斯河（葡萄牙語：Rio Tapajós）是南美洲巴西的河流，河道全長約1,200英哩，發源自南緯14度25分的巴西高原，最後注入亞馬遜河。 塔帕若斯河的最長支流是特利斯皮里斯河。",
+      "lat": "-2.40833333",
+      "lng": "-54.73666667"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hoffmanns-s-woodcreeper-daeddaba",
+      "subject": "Hoffmanns's woodcreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-马代拉河-c159f3fd",
+      "object": "马代拉河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Hoffmanns's woodcreeper is found in Amazonian Brazil south of the Amazon River between the Rio Madeira and Rio Tapajós",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hoffmanns-s-woodcreeper-daeddaba",
+      "subject": "Hoffmanns's woodcreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔帕若斯河-128104de",
+      "object": "塔帕若斯河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Hoffmanns's woodcreeper is found in Amazonian Brazil south of the Amazon River between the Rio Madeira and Rio Tapajós",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hoffmanns-s-woodcreeper-daeddaba",
+      "subject": "Hoffmanns's woodcreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Downloaded from https://www.birds.cornell.edu/clementschecklist/download/ retrieved November 10, 2022 It inhabits humid forest of both terra firme and várzea types",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hoffmanns-s-woodcreeper-daeddaba",
+      "subject": "Hoffmanns's woodcreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Downloaded from https://www.birds.cornell.edu/clementschecklist/download/ retrieved November 10, 2022 It inhabits humid forest of both terra firme and várzea types",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hoffmanns-s-woodcreeper-daeddaba",
+      "subject": "Hoffmanns's woodcreeper",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-hoffmanns-s-woodcreeper-daeddaba",
+      "subject": "Hoffmanns's woodcreeper",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The primary threat to this species is accelerating deforestation within its restricted range in the Amazon basin",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-hoffmanns-s-woodcreeper-daeddaba",
+      "subject": "Hoffmanns's woodcreeper",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is thought to be highly sensitive to human disturbance, and its natural rarity and preference for primary forest are likely to make it particularly susceptible to threats.\" It \"occurs in a region that is ornithologically poorly known\" and is \"rarely seen and little-known\"",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T23:02:07",
+  "requested_title": "Streak-throated Barwing",
+  "resolved_title": "Streak-throated barwing",
+  "title_aliases": [
+    "Streak-throated Barwing"
+  ],
+  "bird_id": "bird-纹胸斑翅鹛-f0c38666",
+  "raw_file": "bird-纹胸斑翅鹛-f0c38666.json",
+  "bird": {
+    "id": "bird-纹胸斑翅鹛-f0c38666",
+    "name": "纹胸斑翅鹛",
+    "english_name": "Streak-throated barwing",
+    "latin_name": "Actinodura waldeni",
+    "summary": "纹胸斑翅鹛（学名：Actinodura waldeni），是画眉科斑翅鹛属的一种，分布于印度、缅甸和中国大陆。该物种的保护状况被评为无危。 纹胸斑翅鹛的平均体重约为56.0克。栖息地包括亚热带或热带的高海拔疏灌丛和亚热带或热带的湿润山地林。该物种的模式产地在印度阿萨姆邦Naga…",
+    "lat": "25.04944444",
+    "lng": "102.70888889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Streak-throated_Barwing.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-云南省-f689e1a8",
+      "name": "云南省",
+      "summary": "云南省，简称云或滇，因清代境內有迤东道、迤西道、迤南道三迤，故又簡稱迤，是中华人民共和国西南边疆地区的省份。云南地形复杂多变，以高原与山地为主，海拔落差大，呈“西北高、东南低”地势格局。气候类型多样，从高原气候到热带、亚热带气候均有分布，…",
+      "lat": "25.04944444",
+      "lng": "102.70888889"
+    },
+    {
+      "id": "loc-印度东北部-8b6d1917",
+      "name": "印度东北部",
+      "summary": "印度东北部是指印度最东部的区域，包括互相毗邻的七个邦和锡金邦，其中阿魯那恰爾邦與中國有領土爭議（中國稱為藏南地區）。該地區與幾個鄰國共享5,182公里（3,220英里，約佔其總地理邊界的99%）的國際邊界，北部1,395公里（867英里）…",
+      "lat": "26",
+      "lng": "91"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纹胸斑翅鹛-f0c38666",
+      "subject": "纹胸斑翅鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-云南省-f689e1a8",
+      "object": "云南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Yunnan, southern Tibet, Northeast India and Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹胸斑翅鹛-f0c38666",
+      "subject": "纹胸斑翅鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度东北部-8b6d1917",
+      "object": "印度东北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Yunnan, southern Tibet, Northeast India and Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹胸斑翅鹛-f0c38666",
+      "subject": "纹胸斑翅鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Yunnan, southern Tibet, Northeast India and Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹胸斑翅鹛-f0c38666",
+      "subject": "纹胸斑翅鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-纹胸斑翅鹛-f0c38666",
+      "subject": "纹胸斑翅鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

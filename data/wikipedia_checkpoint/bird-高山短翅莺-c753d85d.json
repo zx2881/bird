@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:44:18",
+  "requested_title": "Russet Bush Warbler",
+  "resolved_title": "Russet bush warbler",
+  "title_aliases": [
+    "Russet Bush Warbler"
+  ],
+  "bird_id": "bird-高山短翅莺-c753d85d",
+  "raw_file": "bird-高山短翅莺-c753d85d.json",
+  "bird": {
+    "id": "bird-高山短翅莺-c753d85d",
+    "name": "高山短翅莺",
+    "english_name": "Russet bush warbler",
+    "latin_name": "Locustella mandelli",
+    "summary": "高山短翅莺（学名：Locustella mandelli），又称赤褐蝗莺，是雀形目蝗莺科的一种鸟类。 本种原名Bradypterus mandelli (W.E.Brooks, 1875)，后移入蝗莺属。2022年，为了与其新的分类地位相符，“中国鸟类名录”10.0版将高山短翅…",
+    "lat": "43",
+    "lng": "12",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Russet_Bush-Warbler_-_Arunachal_Pradesh_-_India_FJ0A8771_%2834262514506%29.jpg/960px-Russet_Bush-Warbler_-_Arunachal_Pradesh_-_India_FJ0A8771_%2834262514506%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-意大利-58f599d7",
+      "name": "意大利",
+      "summary": "意大利共和國（義大利語：Repubblica Italiana，發音：[reˈpubblika itaˈljaːna]），简稱意大利（義大利語：Italia[Italia]，[iˈtaːlja] ，台湾作義大利），是位於歐洲南部的議會制民…",
+      "lat": "43",
+      "lng": "12"
+    },
+    {
+      "id": "loc-louis-mandelli-b4d6d941",
+      "name": "Louis Mandelli",
+      "summary": "Louis Hildebrand Mandelli (1833–1880) was an Italian settler in India, a tea planter and amateur zoologist and ornithol…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-高山短翅莺-c753d85d",
+      "subject": "高山短翅莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-意大利-58f599d7",
+      "object": "意大利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is found in southeast Asia. The scientific name commemorates the Italian naturalist Louis Mandelli",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高山短翅莺-c753d85d",
+      "subject": "高山短翅莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-louis-mandelli-b4d6d941",
+      "object": "Louis Mandelli",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is found in southeast Asia. The scientific name commemorates the Italian naturalist Louis Mandelli",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高山短翅莺-c753d85d",
+      "subject": "高山短翅莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

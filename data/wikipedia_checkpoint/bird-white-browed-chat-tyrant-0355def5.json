@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:46:44",
+  "requested_title": "White-browed Chat-Tyrant",
+  "resolved_title": "White-browed chat-tyrant",
+  "title_aliases": [
+    "White-browed Chat-Tyrant"
+  ],
+  "bird_id": "bird-white-browed-chat-tyrant-0355def5",
+  "raw_file": "bird-white-browed-chat-tyrant-0355def5.json",
+  "bird": {
+    "id": "bird-white-browed-chat-tyrant-0355def5",
+    "name": "White-browed chat-tyrant",
+    "english_name": "White-browed chat-tyrant",
+    "latin_name": "Ochthoeca leucophrys",
+    "summary": "The white-browed chat-tyrant (Ochthoeca leucophrys) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is found in A…",
+    "lat": "-24.78333333",
+    "lng": "-65.41666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/OchthoecaLeucometopaSmit.jpg/960px-OchthoecaLeucometopaSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-萨尔塔省-678dcbe3",
+      "name": "萨尔塔省",
+      "summary": "萨尔塔省（西班牙語：Provincia de Salta）為南美國家阿根廷二十三省之一，位於阿根廷西北部，省会萨尔塔。 萨尔塔省风光",
+      "lat": "-24.78333333",
+      "lng": "-65.41666667"
+    },
+    {
+      "id": "loc-圣胡安省-阿根廷-70a0d7c8",
+      "name": "圣胡安省 (阿根廷)",
+      "summary": "圣胡安省（San Juan）為南美國家阿根廷二十三省之一，位於阿根廷西部，首府為圣胡安（San Juan）。",
+      "lat": "-30.87",
+      "lng": "-68.98"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-browed-chat-tyrant-0355def5",
+      "subject": "White-browed chat-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨尔塔省-678dcbe3",
+      "object": "萨尔塔省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "tucumana: northwestern Argentina from Salta Province south to San Juan Province The white-browed chat-tyrant inhabits dry montane forest and Polylepis woodlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-chat-tyrant-0355def5",
+      "subject": "White-browed chat-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣胡安省-阿根廷-70a0d7c8",
+      "object": "圣胡安省 (阿根廷)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "tucumana: northwestern Argentina from Salta Province south to San Juan Province The white-browed chat-tyrant inhabits dry montane forest and Polylepis woodlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-chat-tyrant-0355def5",
+      "subject": "White-browed chat-tyrant",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "tucumana: northwestern Argentina from Salta Province south to San Juan Province The white-browed chat-tyrant inhabits dry montane forest and Polylepis woodlands",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-white-browed-chat-tyrant-0355def5",
+      "subject": "White-browed chat-tyrant",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

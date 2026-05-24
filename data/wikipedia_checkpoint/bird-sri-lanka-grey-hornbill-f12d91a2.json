@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:24:32",
+  "requested_title": "Sri Lanka Grey Hornbill",
+  "resolved_title": "Sri Lanka grey hornbill",
+  "title_aliases": [
+    "Sri Lanka Grey Hornbill"
+  ],
+  "bird_id": "bird-sri-lanka-grey-hornbill-f12d91a2",
+  "raw_file": "bird-sri-lanka-grey-hornbill-f12d91a2.json",
+  "bird": {
+    "id": "bird-sri-lanka-grey-hornbill-f12d91a2",
+    "name": "Sri Lanka grey hornbill",
+    "english_name": "Sri Lanka grey hornbill",
+    "latin_name": "Ocyceros gingalensis",
+    "summary": "The Sri Lanka grey hornbill (Ocyceros gingalensis) is a bird in the hornbill family and a widespread and common endemic resident breeder in…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Sri_Lanka_grey_hornbill_%28Ocyceros_gingalensis%29.jpg/960px-Sri_Lanka_grey_hornbill_%28Ocyceros_gingalensis%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sri-lanka-grey-hornbill-f12d91a2",
+      "subject": "Sri Lanka grey hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Hornbills are a family of tropical near-passerine birds found in the Old World",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sri-lanka-grey-hornbill-f12d91a2",
+      "subject": "Sri Lanka grey hornbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:31:11",
+  "requested_title": "Red-vented Cockatoo",
+  "resolved_title": "Red-vented cockatoo",
+  "title_aliases": [
+    "Red-vented Cockatoo"
+  ],
+  "bird_id": "bird-菲律宾凤头鹦鹉-90738d76",
+  "raw_file": "bird-菲律宾凤头鹦鹉-90738d76.json",
+  "bird": {
+    "id": "bird-菲律宾凤头鹦鹉-90738d76",
+    "name": "菲律宾凤头鹦鹉",
+    "english_name": "Red-vented cockatoo",
+    "latin_name": "Cacatua haematuropygia",
+    "summary": "菲利宾凤头鹦鹉（學名：Cacatua haematuropygia），又称红肛凤头鹦鹉，是鸚形目鳳頭鸚鵡科下的一種。身长31厘米，能发出羊叫或口哨似的叫声。分布在菲律賓，活动范围主要在树林、河岸和红树林附近。主体为白色，外观上接近杜氏凤头鹦鹉。头冠部淡红及黄色，肛门附近有橘红色…",
+    "lat": "9.22361111",
+    "lng": "118.44305556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Cacatua_haematuropygia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-katala-foundation-12f53a0d",
+      "name": "Katala Foundation",
+      "summary": "Katala Foundation, Inc.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-rasa-island-ce8072b7",
+      "name": "Rasa Island",
+      "summary": "Rasa Island is a flat coral island in the Sulu Sea just off the coast of the municipality of Narra in Palawan, Philippi…",
+      "lat": "9.22361111",
+      "lng": "118.44305556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-菲律宾凤头鹦鹉-90738d76",
+      "subject": "菲律宾凤头鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-katala-foundation-12f53a0d",
+      "object": "Katala Foundation",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species' stronghold is the Palawan Faunal Region, where the Katala Foundation has been running the Philippine Cockatoo Conservation Programme since 1998. Around 180 are found in wilderness conservation in the municipality of Narra and Puerto Princesa, Palawan, particularly in Rasa Island. The efforts for conservation of the Katala Foundation are threatened by plans to build a coal-fired power station on Palawan's coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-菲律宾凤头鹦鹉-90738d76",
+      "subject": "菲律宾凤头鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-rasa-island-ce8072b7",
+      "object": "Rasa Island",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species' stronghold is the Palawan Faunal Region, where the Katala Foundation has been running the Philippine Cockatoo Conservation Programme since 1998. Around 180 are found in wilderness conservation in the municipality of Narra and Puerto Princesa, Palawan, particularly in Rasa Island. The efforts for conservation of the Katala Foundation are threatened by plans to build a coal-fired power station on Palawan's coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-菲律宾凤头鹦鹉-90738d76",
+      "subject": "菲律宾凤头鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-菲律宾凤头鹦鹉-90738d76",
+      "subject": "菲律宾凤头鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss and the cage-bird trade",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-菲律宾凤头鹦鹉-90738d76",
+      "subject": "菲律宾凤头鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is also threatened by habitat loss; deforestation still continues due to both legal and illegal logging, conversion into farmland, mining, and road and urban development",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-菲律宾凤头鹦鹉-90738d76",
+      "subject": "菲律宾凤头鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In its stronghold on Rasa Island, it is threatened by climate change and extreme weather in which droughts caused up to 60% nest fatality",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:47:49",
+  "requested_title": "Grey-green Scrubwren",
+  "resolved_title": "Grey-green scrubwren",
+  "title_aliases": [
+    "Grey-green Scrubwren"
+  ],
+  "bird_id": "bird-grey-green-scrubwren-05f1ad09",
+  "raw_file": "bird-grey-green-scrubwren-05f1ad09.json",
+  "bird": {
+    "id": "bird-grey-green-scrubwren-05f1ad09",
+    "name": "Grey-green scrubwren",
+    "english_name": "Grey-green scrubwren",
+    "latin_name": "Aethomyias arfakianus",
+    "summary": "The grey-green scrubwren (Aethomyias arfakianus) is a species of bird in the family Acanthizidae. It is found in the highlands of New Guine…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sericornis_arfakiana_-_The_Birds_of_New_Guinea_%28cropped%29.jpg/960px-Sericornis_arfakiana_-_The_Birds_of_New_Guinea_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-green-scrubwren-05f1ad09",
+      "subject": "Grey-green scrubwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the highlands of New Guinea ; its natural habitat is subtropical or tropical montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-green-scrubwren-05f1ad09",
+      "subject": "Grey-green scrubwren",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the highlands of New Guinea ; its natural habitat is subtropical or tropical montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-grey-green-scrubwren-05f1ad09",
+      "subject": "Grey-green scrubwren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

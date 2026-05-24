@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:02:06",
+  "requested_title": "Black-chinned Robin",
+  "resolved_title": "Black-chinned robin",
+  "title_aliases": [
+    "Black-chinned Robin"
+  ],
+  "bird_id": "bird-black-chinned-robin-0dbd40d5",
+  "raw_file": "bird-black-chinned-robin-0dbd40d5.json",
+  "bird": {
+    "id": "bird-black-chinned-robin-0dbd40d5",
+    "name": "Black-chinned robin",
+    "english_name": "Black-chinned robin",
+    "latin_name": "Leucophantes brachyurus",
+    "summary": "The black-chinned robin (Leucophantes brachyurus) is a species of bird in the Australasian robin family Petroicidae. It is the only species…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/LeucophantesBrachyurusSmit.jpg/960px-LeucophantesBrachyurusSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-chinned-robin-0dbd40d5",
+      "subject": "Black-chinned robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern New Guinea where its natural habitat is subtropical or tropical moist lowland forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-chinned-robin-0dbd40d5",
+      "subject": "Black-chinned robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern New Guinea where its natural habitat is subtropical or tropical moist lowland forests",
+      "object_summary": ""
+    }
+  ]
+}

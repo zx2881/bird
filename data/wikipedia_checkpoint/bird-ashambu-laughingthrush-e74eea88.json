@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T23:00:15",
+  "requested_title": "Ashambu Laughingthrush",
+  "resolved_title": "Ashambu laughingthrush",
+  "title_aliases": [
+    "Ashambu Laughingthrush"
+  ],
+  "bird_id": "bird-ashambu-laughingthrush-e74eea88",
+  "raw_file": "bird-ashambu-laughingthrush-e74eea88.json",
+  "bird": {
+    "id": "bird-ashambu-laughingthrush-e74eea88",
+    "name": "Ashambu laughingthrush",
+    "english_name": "Ashambu laughingthrush",
+    "latin_name": "Montecincla meridionalis",
+    "summary": "The Ashambu laughingthrush or Travancore laughingthrush (Montecincla meridionalis) is a species of bird in the family Leiothrichidae. It is…",
+    "lat": "10.16972222",
+    "lng": "77.06111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Grey_breasted_laughing_thrush-_Asambu_Hill_Race.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西高止山脉-2da8035f",
+      "name": "西高止山脉",
+      "summary": "西高止山脉（Western Ghats，卡纳达语：ಸಹ್ಯಾದ್ರಿ）是印度南部的一座山脉，位于德干高原的西部，呈南北走向，长度约1600公里，海拔平均为900米，纵穿马哈拉施特拉邦、卡纳塔克邦和喀拉拉邦。西高止山脉东坡平缓，西坡陡峭。…",
+      "lat": "10.16972222",
+      "lng": "77.06111111"
+    },
+    {
+      "id": "loc-喀拉拉邦-e9ea6246",
+      "name": "喀拉拉邦",
+      "summary": "喀拉拉邦（馬拉雅拉姆語：കേരളം；印地語：केरल，拉丁字母转写：Kerala），印度西南部的一个邦，濒临阿拉伯海，全邦面积为38,863 平方公里，是印度面積第21大邦，北部和東北部與卡納塔克邦接壤，東部和南部與泰米爾納德邦接壤，西部…",
+      "lat": "10",
+      "lng": "76.3"
+    },
+    {
+      "id": "loc-泰米尔纳德邦-cc71375c",
+      "name": "泰米尔纳德邦",
+      "summary": "泰米尔纳德邦（坦米爾語：தமிழ் நாடு 坦米爾語：[ˈt̪amiɻ ˈn̪aːɽɯ] ；印地語：तमिलनाडु，羅馬化：Tamil Nadu）是印度南部的一个邦，南临印度洋，东隔孟加拉湾与斯里兰卡相望，西与卡纳塔克邦、喀拉拉邦接壤…",
+      "lat": "11",
+      "lng": "79"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ashambu-laughingthrush-e74eea88",
+      "subject": "Ashambu laughingthrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-西高止山脉-2da8035f",
+      "object": "西高止山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Western Ghats in southern Kerala and southern Tamil Nadu",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ashambu-laughingthrush-e74eea88",
+      "subject": "Ashambu laughingthrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-喀拉拉邦-e9ea6246",
+      "object": "喀拉拉邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Western Ghats in southern Kerala and southern Tamil Nadu",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ashambu-laughingthrush-e74eea88",
+      "subject": "Ashambu laughingthrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰米尔纳德邦-cc71375c",
+      "object": "泰米尔纳德邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Western Ghats in southern Kerala and southern Tamil Nadu",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ashambu-laughingthrush-e74eea88",
+      "subject": "Ashambu laughingthrush",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

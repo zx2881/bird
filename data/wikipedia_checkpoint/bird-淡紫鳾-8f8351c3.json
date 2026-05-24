@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:04:35",
+  "requested_title": "Yellow-billed Nuthatch",
+  "resolved_title": "Yellow-billed nuthatch",
+  "title_aliases": [
+    "Yellow-billed Nuthatch"
+  ],
+  "bird_id": "bird-淡紫鳾-8f8351c3",
+  "raw_file": "bird-淡紫鳾-8f8351c3.json",
+  "bird": {
+    "id": "bird-淡紫鳾-8f8351c3",
+    "name": "淡紫鳾",
+    "english_name": "Yellow-billed nuthatch",
+    "latin_name": "Sitta solangiae",
+    "summary": "绒额鳾（学名：Sitta solangiae）为鳾科鳾属的鸟类，體長約13公分。分布於中國、寮國與越南，主要棲息於低地森林或山地森林；全球活动范围约为23,700平方公里。 參考來源",
+    "lat": "19.2",
+    "lng": "109.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Sitta_solangiae_5354.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海南省-a01c9da8",
+      "name": "海南省",
+      "summary": "Hainan is an island and the southern-most province of China consisting of the eponymous Hainan Island and various small…",
+      "lat": "19.2",
+      "lng": "109.7"
+    },
+    {
+      "id": "loc-老挝-0d5ce5bc",
+      "name": "老挝",
+      "summary": "老挝人民民主共和国（寮語：ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ，简写：ສປປ ລາວ），通稱寮國（寮語：ລາວ），是位于東南亞中南半岛的社会主义国家，首都及最大城市为万象，通行寮语，面积23.68万平方公里，…",
+      "lat": "18",
+      "lng": "105"
+    },
+    {
+      "id": "loc-越南-29eeb04d",
+      "name": "越南",
+      "summary": "越南社会主义共和国（越南語：Cộng hòa Xã hội chủ nghĩa Việt Nam／共和社會主義越南，），通称越南（越南語：Việt Nam／越南），是位于东南亚中南半岛东端的社会主义国家。北接中国，西邻柬埔寨与老挝，全国人…",
+      "lat": "16",
+      "lng": "108"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-淡紫鳾-8f8351c3",
+      "subject": "淡紫鳾",
+      "predicate": "distributed_in",
+      "object_id": "loc-海南省-a01c9da8",
+      "object": "海南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Hainan, Laos, and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡紫鳾-8f8351c3",
+      "subject": "淡紫鳾",
+      "predicate": "distributed_in",
+      "object_id": "loc-老挝-0d5ce5bc",
+      "object": "老挝",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Hainan, Laos, and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡紫鳾-8f8351c3",
+      "subject": "淡紫鳾",
+      "predicate": "distributed_in",
+      "object_id": "loc-越南-29eeb04d",
+      "object": "越南",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Hainan, Laos, and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡紫鳾-8f8351c3",
+      "subject": "淡紫鳾",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-淡紫鳾-8f8351c3",
+      "subject": "淡紫鳾",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:34:39",
+  "requested_title": "Superb Lyrebird",
+  "resolved_title": "Superb lyrebird",
+  "title_aliases": [
+    "Superb Lyrebird"
+  ],
+  "bird_id": "bird-华丽琴鸟-daba9a89",
+  "raw_file": "bird-华丽琴鸟-daba9a89.json",
+  "bird": {
+    "id": "bird-华丽琴鸟-daba9a89",
+    "name": "华丽琴鸟",
+    "english_name": "Superb lyrebird",
+    "latin_name": "Menura novaehollandiae",
+    "summary": "华丽琴鸟（学名：Menura novaehollandiae）是雉型澳大利亚鸣禽，上身棕色，下身灰褐色，翅膀圆形、腿部健壮。成年华丽琴鸟重约一千克。平均体重仅次于现存鸣禽中的渡鸦与厚嘴渡鸦。华丽琴鸟体长约100厘米，仅次于黑镰嘴风鸟。 华丽琴鸟出现于澳大利亚十分硬币的背面。琴鸟…",
+    "lat": "-36.85416667",
+    "lng": "144.28111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Superb_lyrbird_in_scrub.jpg/960px-Superb_lyrbird_in_scrub.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-維多利亞州-042be9e2",
+      "name": "維多利亞州",
+      "summary": "维多利亚州（英語：Victoria，缩写为VIC），简称維州、維省，又譯域多利省，是澳大利亞東岸南部的一个州，是澳洲大陸本土五个联邦州中幅員最小的（僅237629平方公里），但人口卻為澳洲第二多（接近670万，僅次於新南威爾斯州），人口密…",
+      "lat": "-36.85416667",
+      "lng": "144.28111111"
+    },
+    {
+      "id": "loc-塔斯馬尼亞州-a7b95e28",
+      "name": "塔斯馬尼亞州",
+      "summary": "塔斯馬尼亞州（Tasmania，發音：/tæzˈmeɪniə/；帕拉瓦卡尼語：Lutruwita），簡稱塔州，是澳大利亞唯一的島嶼州，原名范迪門地（Van Diemen's Land，又譯萬迪門蘭）。該州位於澳大利亞大陸東南方約240公里…",
+      "lat": "-42",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-华丽琴鸟-daba9a89",
+      "subject": "华丽琴鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-維多利亞州-042be9e2",
+      "object": "維多利亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The superb lyrebird is found in the forests of southeastern Australia, ranging from southern Victoria to southeastern Queensland. The bird was introduced to southern Tasmania in 1934–54, amid ill-founded fears the species was becoming threatened with extinction in its mainland populations. The Tasmania population is thriving and even growing.{{Cite journal |last1=Amin |first1=Rahil J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-华丽琴鸟-daba9a89",
+      "subject": "华丽琴鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔斯馬尼亞州-a7b95e28",
+      "object": "塔斯馬尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The superb lyrebird is found in the forests of southeastern Australia, ranging from southern Victoria to southeastern Queensland. The bird was introduced to southern Tasmania in 1934–54, amid ill-founded fears the species was becoming threatened with extinction in its mainland populations. The Tasmania population is thriving and even growing.{{Cite journal |last1=Amin |first1=Rahil J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-华丽琴鸟-daba9a89",
+      "subject": "华丽琴鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-华丽琴鸟-daba9a89",
+      "subject": "华丽琴鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Because they are ground-dwelling, superb lyrebirds are particularly threatened by vehicle collisions. The presence of roads and infrastructure also pose edge effects, for example disturbance from domestic animals and predation by introduced species such as the red fox, which is often associated with urban areas",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

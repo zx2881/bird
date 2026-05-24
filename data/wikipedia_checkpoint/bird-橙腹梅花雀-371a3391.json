@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:12:19",
+  "requested_title": "Orange-breasted Waxbill",
+  "resolved_title": "Orange-breasted waxbill",
+  "title_aliases": [
+    "Orange-breasted Waxbill"
+  ],
+  "bird_id": "bird-橙腹梅花雀-371a3391",
+  "raw_file": "bird-橙腹梅花雀-371a3391.json",
+  "bird": {
+    "id": "bird-橙腹梅花雀-371a3391",
+    "name": "橙腹梅花雀",
+    "english_name": "Orange-breasted waxbill",
+    "latin_name": "Amandava subflava",
+    "summary": "橙腹梅花雀（学名：Amandava subflava），是梅花雀科红梅花雀属的一种，分布于津巴布韦、加蓬、赞比亚、埃塞俄比亚、斯威士兰、几内亚比绍、贝宁、塞内加尔、乍得、马里、科特迪瓦、安哥拉、多哥、南非、毛里塔尼亚、卢旺达、喀麦隆、纳米比亚、塞拉利昂、加纳、中非共和国、尼日利…",
+    "lat": "23",
+    "lng": "13",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Amandava_subflava.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橙腹梅花雀-371a3391",
+      "subject": "橙腹梅花雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The orange-breasted waxbill is found in grassland and savannahs south of the Sahara in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙腹梅花雀-371a3391",
+      "subject": "橙腹梅花雀",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The orange-breasted waxbill is found in grassland and savannahs south of the Sahara in Africa",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-橙腹梅花雀-371a3391",
+      "subject": "橙腹梅花雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

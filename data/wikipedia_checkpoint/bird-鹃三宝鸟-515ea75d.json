@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:09:12",
+  "requested_title": "Cuckoo-roller",
+  "resolved_title": "Cuckoo-roller",
+  "title_aliases": [
+    "Cuckoo-roller"
+  ],
+  "bird_id": "bird-鹃三宝鸟-515ea75d",
+  "raw_file": "bird-鹃三宝鸟-515ea75d.json",
+  "bird": {
+    "id": "bird-鹃三宝鸟-515ea75d",
+    "name": "鹃三宝鸟",
+    "english_name": "Cuckoo-roller",
+    "latin_name": "Leptosomus discolor",
+    "summary": "鵑三寶鳥（台湾作鵑鴗，學名：Leptosomus discolor），是鵑鴗目下唯一的鳥類。僅分布於馬達加斯加及科摩羅群島上，有三個亞種，與地鴗科與佛法僧科關係親近，可能是少數有資格稱為活化石的鳥類之一。 鵑鴗的特色為其頭部偏大、眼睛接近頭頂，且兩性高度相異，雄鳥擁有特殊的金屬…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Male_cuckoo_roller.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    },
+    {
+      "id": "loc-科摩罗群岛-8f9bfcac",
+      "name": "科摩罗群岛",
+      "summary": "科摩罗群岛（法語：L'archipel des Comores）是位于非洲东南海岸莫桑比克东部与马达加斯加西南部上的一座火山群岛。该岛群在行政上由科摩罗（人口850,688）和法国海外省馬約特（人口270,372）管辖。科摩罗联盟宣称整个…",
+      "lat": "-12.2",
+      "lng": "44.25"
+    },
+    {
+      "id": "loc-马约特-20d4d339",
+      "name": "马约特",
+      "summary": "马约特（法語：Mayotte，法語發音：[majɔt] ；馬約特語：Maore；布希语：Maori），正式名称为馬約特省（département de Mayotte），是法国的海外省与单一领土集体，位于莫桑比克海峡，包括格朗德特尔岛、珀…",
+      "lat": "-12.84305556",
+      "lng": "45.13833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鹃三宝鸟-515ea75d",
+      "subject": "鹃三宝鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "}} It is a medium-large bird, inhabiting forests and woodlands in Madagascar and the Comoro Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鹃三宝鸟-515ea75d",
+      "subject": "鹃三宝鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-科摩罗群岛-8f9bfcac",
+      "object": "科摩罗群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "}} It is a medium-large bird, inhabiting forests and woodlands in Madagascar and the Comoro Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鹃三宝鸟-515ea75d",
+      "subject": "鹃三宝鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-马约特-20d4d339",
+      "object": "马约特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "discolor is found in Madagascar and Mayotte Island, L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鹃三宝鸟-515ea75d",
+      "subject": "鹃三宝鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

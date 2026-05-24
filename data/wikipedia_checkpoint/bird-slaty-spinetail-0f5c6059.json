@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:32:27",
+  "requested_title": "Slaty Spinetail",
+  "resolved_title": "Slaty spinetail",
+  "title_aliases": [
+    "Slaty Spinetail"
+  ],
+  "bird_id": "bird-slaty-spinetail-0f5c6059",
+  "raw_file": "bird-slaty-spinetail-0f5c6059.json",
+  "bird": {
+    "id": "bird-slaty-spinetail-0f5c6059",
+    "name": "Slaty spinetail",
+    "english_name": "Slaty spinetail",
+    "latin_name": "Synallaxis brachyura",
+    "summary": "The slaty spinetail or slaty castlebuilder, (Synallaxis brachyura), is a passerine bird in the Furnariinae subfamily of the ovenbird family…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Slaty_Spinetail_-_Colombia_S4E0885.jpg/960px-Slaty_Spinetail_-_Colombia_S4E0885.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-考卡河-4d65ba69",
+      "name": "考卡河",
+      "summary": "考卡河（西班牙語：Río Cauca）是哥倫比亞西部的河流，全長1,349公里，集水區面積約63,300平方公里，最終在聖克魯斯德蒙波斯以南注入馬格達萊納河。 外部連結 （西班牙文） Corporación Regional del Ca…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-slaty-spinetail-0f5c6059",
+      "subject": "Slaty spinetail",
+      "predicate": "distributed_in",
+      "object_id": "loc-考卡河-4d65ba69",
+      "object": "考卡河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "caucae: the Cauca River valley in central Colombia The slaty spinetail inhabits a variety of landscapes, most of which have dense undergrowth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slaty-spinetail-0f5c6059",
+      "subject": "Slaty spinetail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

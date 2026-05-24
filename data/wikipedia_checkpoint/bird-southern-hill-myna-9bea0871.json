@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:22:14",
+  "requested_title": "Southern Hill Myna",
+  "resolved_title": "Southern hill myna",
+  "title_aliases": [
+    "Southern Hill Myna"
+  ],
+  "bird_id": "bird-southern-hill-myna-9bea0871",
+  "raw_file": "bird-southern-hill-myna-9bea0871.json",
+  "bird": {
+    "id": "bird-southern-hill-myna-9bea0871",
+    "name": "Southern hill myna",
+    "english_name": "Southern hill myna",
+    "latin_name": "Gracula indica",
+    "summary": "The southern hill myna (Gracula indica) is a member of the starling family. It is a resident of the forested regions of south India and Sri…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Starling_bird_%28India%2C_2012%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "name": "熱帶和亞熱帶旱生闊葉林",
+      "summary": "热带及亚热带旱生阔叶林（英語：tropical and subtropical dry broadleaf forests），简称旱生林（dry forest）是一种WWF定义的栖地生境并用来命名以此为代表的生物群系。其所需的气候类型较常…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-southern-hill-myna-9bea0871",
+      "subject": "Southern hill myna",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "object": "熱帶和亞熱帶旱生闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits tropical and subtropical dry broadleaf forests, mountains, mangrove forests and plantation areas. It is usually found high in the canopy, moving in large noisy groups of about half a dozen, in treetops at the edge of the forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-southern-hill-myna-9bea0871",
+      "subject": "Southern hill myna",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

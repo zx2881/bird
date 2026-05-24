@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:52:14",
+  "requested_title": "Hermit Warbler",
+  "resolved_title": "Hermit warbler",
+  "title_aliases": [
+    "Hermit Warbler"
+  ],
+  "bird_id": "bird-hermit-warbler-2843173f",
+  "raw_file": "bird-hermit-warbler-2843173f.json",
+  "bird": {
+    "id": "bird-hermit-warbler-2843173f",
+    "name": "Hermit warbler",
+    "english_name": "Hermit warbler",
+    "latin_name": "Setophaga occidentalis",
+    "summary": "The hermit warbler (Setophaga occidentalis) is a small perching bird. It is a species of New World warbler or wood-warbler.",
+    "lat": "47",
+    "lng": "-120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hermit_Warbler_%28Dendroica_occidentalis%29.jpg/960px-Hermit_Warbler_%28Dendroica_occidentalis%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-华盛顿州-e89b2388",
+      "name": "华盛顿州",
+      "summary": "华盛顿州（英語：State of Washington），简称华州，是一個位於美国西北太平洋沿岸的州。北接加拿大不列顛哥倫比亞省，南接俄勒岡州，東臨愛達荷州，西鄰太平洋。为纪念美国首任总统，乔治·华盛顿而成立，亦是唯一以總統名稱命名的州。…",
+      "lat": "47",
+      "lng": "-120"
+    },
+    {
+      "id": "loc-加利福尼亚州-9068131e",
+      "name": "加利福尼亚州",
+      "summary": "加利福尼亚州（英語：State of California），簡稱加州，是美国西部太平洋沿岸的一个州。面積列美國第三；人口為3,918萬，列美國各州第一。州首府是萨克拉门托。在地理、地貌、物產、人口構成方面都具有多样化的特點。加州有一别名…",
+      "lat": "37",
+      "lng": "-120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hermit-warbler-2843173f",
+      "subject": "Hermit warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-华盛顿州-e89b2388",
+      "object": "华盛顿州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are also found in wetter habitats for nesting, and in various mountain habitats. Their summer breeding range is the majority of the west coast of the United States up to Washington",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hermit-warbler-2843173f",
+      "subject": "Hermit warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-加利福尼亚州-9068131e",
+      "object": "加利福尼亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They will sometimes winter in south-west California, but they are migratory and will winter in Central America as far south as Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hermit-warbler-2843173f",
+      "subject": "Hermit warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

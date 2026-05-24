@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:17:13",
+  "requested_title": "Hunter's Cisticola",
+  "resolved_title": "Hunter's cisticola",
+  "title_aliases": [
+    "Hunter's Cisticola"
+  ],
+  "bird_id": "bird-hunter-s-cisticola-e46e8efa",
+  "raw_file": "bird-hunter-s-cisticola-e46e8efa.json",
+  "bird": {
+    "id": "bird-hunter-s-cisticola-e46e8efa",
+    "name": "Hunter's cisticola",
+    "english_name": "Hunter's cisticola",
+    "latin_name": "Cisticola hunteri",
+    "summary": "Hunter's cisticola (Cisticola hunteri) is a species of bird in the family Cisticolidae. It is found in Kenya, Tanzania, and Uganda.",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Cisticola_hunteri_02.jpg/960px-Cisticola_hunteri_02.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    },
+    {
+      "id": "loc-乌干达-8bd6d93b",
+      "name": "乌干达",
+      "summary": "烏干達共和國（斯瓦希里語：Jamhuri ya Uganda，英語：Republic of Uganda），通稱烏干達，是位於東非的內陸國家。 烏干達名稱來自於過去班圖人建立的布干達王國。歐洲列強在十九世紀後葉進入東非內陸後，烏干達在18…",
+      "lat": "1",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hunter-s-cisticola-e46e8efa",
+      "subject": "Hunter's cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Tanzania, and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hunter-s-cisticola-e46e8efa",
+      "subject": "Hunter's cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Tanzania, and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hunter-s-cisticola-e46e8efa",
+      "subject": "Hunter's cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌干达-8bd6d93b",
+      "object": "乌干达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Tanzania, and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hunter-s-cisticola-e46e8efa",
+      "subject": "Hunter's cisticola",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

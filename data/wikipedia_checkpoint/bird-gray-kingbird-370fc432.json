@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:45:27",
+  "requested_title": "Grey Kingbird",
+  "resolved_title": "Gray kingbird",
+  "title_aliases": [
+    "Grey Kingbird",
+    "Gray kingbird"
+  ],
+  "bird_id": "bird-gray-kingbird-370fc432",
+  "raw_file": "bird-gray-kingbird-370fc432.json",
+  "bird": {
+    "id": "bird-gray-kingbird-370fc432",
+    "name": "Gray kingbird",
+    "english_name": "Gray kingbird",
+    "latin_name": "Tyrannus dominicensis",
+    "summary": "The gray kingbird or grey kingbird (Tyrannus dominicensis), also known as pitirre, petchary or white-breasted kingbird, is a passerine bird…",
+    "lat": "28",
+    "lng": "-82",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Puerto_Rican_Gray_Kingbird.jpg/960px-Puerto_Rican_Gray_Kingbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-佛罗里达州-2bd04b45",
+      "name": "佛罗里达州",
+      "summary": "佛罗里达州（英語：State of Florida），简称佛州，是位于美国东南部的一个州。该州西临墨西哥湾，西北与阿拉巴马州接壤，北邻佐治亚州，东濒大西洋，南接佛罗里达海峡，并与古巴隔海相望。佛罗里达州大部分土地位于墨西哥湾和大西洋之间的…",
+      "lat": "28",
+      "lng": "-82"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-gray-kingbird-370fc432",
+      "subject": "Gray kingbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-佛罗里达州-2bd04b45",
+      "object": "佛罗里达州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in increasing numbers in the state of Florida, and is more often found inland though it had been previously restricted to the coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gray-kingbird-370fc432",
+      "subject": "Gray kingbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

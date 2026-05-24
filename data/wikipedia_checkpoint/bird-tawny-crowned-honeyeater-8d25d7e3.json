@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:50:23",
+  "requested_title": "Tawny-crowned Honeyeater",
+  "resolved_title": "Tawny-crowned honeyeater",
+  "title_aliases": [
+    "Tawny-crowned Honeyeater"
+  ],
+  "bird_id": "bird-tawny-crowned-honeyeater-8d25d7e3",
+  "raw_file": "bird-tawny-crowned-honeyeater-8d25d7e3.json",
+  "bird": {
+    "id": "bird-tawny-crowned-honeyeater-8d25d7e3",
+    "name": "Tawny-crowned honeyeater",
+    "english_name": "Tawny-crowned honeyeater",
+    "latin_name": "Gliciphila melanops",
+    "summary": "The tawny-crowned honeyeater (Gliciphila melanops) is a passerine bird native to southern Australia. Taxonomy The tawny-crowned honeyeater…",
+    "lat": "-33.61",
+    "lng": "123.876",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Tawny-crowned_Honeyeater_%2828413633790%29.jpg/960px-Tawny-crowned_Honeyeater_%2828413633790%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-israelite-bay-d5a143e1",
+      "name": "Israelite Bay",
+      "summary": "Israelite Bay is a bay and locality of the Shire of Esperance in the Goldfields-Esperance region of Western Australia,…",
+      "lat": "-33.61",
+      "lng": "123.876"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tawny-crowned-honeyeater-8d25d7e3",
+      "subject": "Tawny-crowned honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tawny-crowned honeyeater (Gliciphila melanops) is a passerine bird native to southern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-crowned-honeyeater-8d25d7e3",
+      "subject": "Tawny-crowned honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-israelite-bay-d5a143e1",
+      "object": "Israelite Bay",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in southwest Western Australia from Israelite Bay westwards",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-crowned-honeyeater-8d25d7e3",
+      "subject": "Tawny-crowned honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is low shrubland and heath. It has become locally extinct in the urban Sydney area since 1971",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:01:30",
+  "requested_title": "Black-capped Robin",
+  "resolved_title": "Black-capped robin",
+  "title_aliases": [
+    "Black-capped Robin"
+  ],
+  "bird_id": "bird-black-capped-robin-c420dd3e",
+  "raw_file": "bird-black-capped-robin-c420dd3e.json",
+  "bird": {
+    "id": "bird-black-capped-robin-c420dd3e",
+    "name": "Black-capped robin",
+    "english_name": "Black-capped robin",
+    "latin_name": "Heteromyias armiti",
+    "summary": "The black-capped robin (Heteromyias armiti) is a species of bird in the family Petroicidae native to New Guinea. The black-capped robin has…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Black-capped_Robin_Heteromyias_armiti_%282%29_%2848842512897%29.jpg/960px-Black-capped_Robin_Heteromyias_armiti_%282%29_%2848842512897%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-查理斯-沃爾特-德-維斯-ada37776",
+      "name": "查理斯·沃爾特·德·維斯",
+      "summary": "查理斯·沃爾特·德·維斯（英語：Charles Walter de Vis，1829年5月9日—1915年8月30日）， 在1882年之前稱“德維斯”（Devis），是一位英國動物學家 及鳥類學家。 德·維斯出生於英國伯明翰， 1849年…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-capped-robin-c420dd3e",
+      "subject": "Black-capped robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-查理斯-沃爾特-德-維斯-ada37776",
+      "object": "查理斯·沃爾特·德·維斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-capped robin (Heteromyias armiti) is a species of bird in the family Petroicidae native to New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-capped-robin-c420dd3e",
+      "subject": "Black-capped robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

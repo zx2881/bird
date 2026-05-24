@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:13:14",
+  "requested_title": "Ornate Pitta",
+  "resolved_title": "Ornate pitta",
+  "title_aliases": [
+    "Ornate Pitta"
+  ],
+  "bird_id": "bird-ornate-pitta-9776a4c2",
+  "raw_file": "bird-ornate-pitta-9776a4c2.json",
+  "bird": {
+    "id": "bird-ornate-pitta-9776a4c2",
+    "name": "Ornate pitta",
+    "english_name": "Ornate pitta",
+    "latin_name": "Pitta concinna",
+    "summary": "The ornate pitta (Pitta concinna) is a species of bird in the family Pittidae. It is found in Indonesia.",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ornate_Pitta_imported_from_iNaturalist_photo_242796972_on_7_August_2024.jpg/960px-Ornate_Pitta_imported_from_iNaturalist_photo_242796972_on_7_August_2024.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ornate-pitta-9776a4c2",
+      "subject": "Ornate pitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ornate-pitta-9776a4c2",
+      "subject": "Ornate pitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

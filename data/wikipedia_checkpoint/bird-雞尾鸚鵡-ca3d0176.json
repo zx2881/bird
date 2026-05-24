@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:30:27",
+  "requested_title": "Cockatiel",
+  "resolved_title": "Cockatiel",
+  "title_aliases": [
+    "Cockatiel"
+  ],
+  "bird_id": "bird-雞尾鸚鵡-ca3d0176",
+  "raw_file": "bird-雞尾鸚鵡-ca3d0176.json",
+  "bird": {
+    "id": "bird-雞尾鸚鵡-ca3d0176",
+    "name": "雞尾鸚鵡",
+    "english_name": "Cockatiel",
+    "latin_name": "Nymphicus hollandicus",
+    "summary": "雞尾鸚鵡（学名：Nymphicus hollandicus），鳳頭鸚鵡科雞尾鸚鵡屬的一種鳥類，也稱作玄鳳鸚鵡。因日本於明治後期（約1910年）引進，因此在台灣又名歐卡妹（「オカメインコ」的音譯，日名源自此鳥臉頰橙紅斑點很像阿龜面具（Okame））。它是澳洲特有的鳳頭鸚鵡，是最常…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Cockatiel_3.jpg/960px-Cockatiel_3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-雞尾鸚鵡-ca3d0176",
+      "subject": "雞尾鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Native to Australia, it is the sole member of the genus Nymphicus",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雞尾鸚鵡-ca3d0176",
+      "subject": "雞尾鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

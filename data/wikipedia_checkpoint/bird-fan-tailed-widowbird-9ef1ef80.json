@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:31:17",
+  "requested_title": "Fan-tailed Widowbird",
+  "resolved_title": "Fan-tailed widowbird",
+  "title_aliases": [
+    "Fan-tailed Widowbird"
+  ],
+  "bird_id": "bird-fan-tailed-widowbird-9ef1ef80",
+  "raw_file": "bird-fan-tailed-widowbird-9ef1ef80.json",
+  "bird": {
+    "id": "bird-fan-tailed-widowbird-9ef1ef80",
+    "name": "Fan-tailed widowbird",
+    "english_name": "Fan-tailed widowbird",
+    "latin_name": "Euplectes axillaris",
+    "summary": "The fan-tailed widowbird (Euplectes axillaris), also known as the red-shouldered widowbird, is a species of bird in the family Ploceidae, w…",
+    "lat": "-26.5",
+    "lng": "31.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Euplectes_axillaris%2C_Linunga%2C_Birding_Weto%2C_a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "name": "Andrew Smith (zoologist)",
+      "summary": "Sir Andrew Smith (3 December 1797 – 11 August 1872) was a British surgeon, explorer, ethnologist and zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-史瓦帝尼-8e8b2b40",
+      "name": "史瓦帝尼",
+      "summary": "史瓦帝尼王國（史瓦帝語：Umbuso weSwatini；英語：Kingdom of Eswatini），通稱史瓦帝尼（史瓦帝語：eSwatini；英語：Eswatini），是位於非洲南部的一个內陸國家。史瓦帝尼北、西、南三面均為南非所包…",
+      "lat": "-26.5",
+      "lng": "31.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-fan-tailed-widowbird-9ef1ef80",
+      "subject": "Fan-tailed widowbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "object": "Andrew Smith (zoologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "phoeniceus | status = LC | status_system = IUCN3.1 | status_ref = | genus = Euplectes | species = axillaris | authority = (Smith, 1838) | synonyms = }} The fan-tailed widowbird (Euplectes axillaris), also known as the red-shouldered widowbird, is a species of bird in the family Ploceidae, which is native to grassy and swampy areas of the tropical and subtropical Afrotropics",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fan-tailed-widowbird-9ef1ef80",
+      "subject": "Fan-tailed widowbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-史瓦帝尼-8e8b2b40",
+      "object": "史瓦帝尼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Angola, Botswana, Burundi, Cameroon, Central African Republic, Chad, Republic of the Congo, DRC, Eswatini, Ethiopia, Kenya, Lesotho, Malawi, Mali, Mozambique, Namibia, Niger, Nigeria, Rwanda, Somalia, South Africa, Sudan, Tanzania, Uganda, Zambia, and Zimbabwe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fan-tailed-widowbird-9ef1ef80",
+      "subject": "Fan-tailed widowbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

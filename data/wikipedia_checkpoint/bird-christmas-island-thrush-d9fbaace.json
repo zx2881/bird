@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:44:05",
+  "requested_title": "Christmas Island Thrush",
+  "resolved_title": "Christmas island thrush",
+  "title_aliases": [
+    "Christmas Island Thrush"
+  ],
+  "bird_id": "bird-christmas-island-thrush-d9fbaace",
+  "raw_file": "bird-christmas-island-thrush-d9fbaace.json",
+  "bird": {
+    "id": "bird-christmas-island-thrush-d9fbaace",
+    "name": "Christmas island thrush",
+    "english_name": "Christmas island thrush",
+    "latin_name": "Turdus erythropleurus",
+    "summary": "The Christmas island thrush (Turdus erythropleurus) is a species of passerine in the family Turdidae. It is endemic to Christmas Island, an…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Island_Thrush_-_Turdus_poliocephalus.jpg/960px-Island_Thrush_-_Turdus_poliocephalus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-christmas-island-thrush-d9fbaace",
+      "subject": "Christmas island thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is commonly found in most habitats on Christmas Island, including rainforest and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-christmas-island-thrush-d9fbaace",
+      "subject": "Christmas island thrush",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

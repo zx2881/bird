@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:25:12",
+  "requested_title": "Brown Trembler",
+  "resolved_title": "Brown trembler",
+  "title_aliases": [
+    "Brown Trembler"
+  ],
+  "bird_id": "bird-brown-trembler-f6b6c4a5",
+  "raw_file": "bird-brown-trembler-f6b6c4a5.json",
+  "bird": {
+    "id": "bird-brown-trembler-f6b6c4a5",
+    "name": "Brown trembler",
+    "english_name": "Brown trembler",
+    "latin_name": "Cinclocerthia ruficauda",
+    "summary": "The brown trembler (Cinclocerthia ruficauda) is a species of bird in the family Mimidae, the mockingbirds and thrashers. It is found on the…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Cinclocerthia_ruficauda_-_Dominica_2001_-_a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-trembler-f6b6c4a5",
+      "subject": "Brown trembler",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Vincent. The brown trembler mostly inhabits humid evergreen forest but is also found in secondary forest and plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-trembler-f6b6c4a5",
+      "subject": "Brown trembler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:29:13",
+  "requested_title": "Yellow-margined Flatbill",
+  "resolved_title": "Yellow-winged flatbill",
+  "title_aliases": [
+    "Yellow-winged Flatbill",
+    "Yellow-margined Flatbill"
+  ],
+  "bird_id": "bird-yellow-winged-flatbill-a7785106",
+  "raw_file": "bird-yellow-winged-flatbill-a7785106.json",
+  "bird": {
+    "id": "bird-yellow-winged-flatbill-a7785106",
+    "name": "Yellow-winged flatbill",
+    "english_name": "Yellow-winged flatbill",
+    "latin_name": "Tolmomyias flavotectus",
+    "summary": "The yellow-winged flatbill (Tolmomyias flavotectus), also known as yellow-winged flycatcher and yellow-margined flatbill, is a species of b…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Yellow-margined_Flatbill_%28Tolmomyias_flavotectus%29_%288079750693%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-winged-flatbill-a7785106",
+      "subject": "Yellow-winged flatbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the interior and edges of wet forest, mature secondary forest, and plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-winged-flatbill-a7785106",
+      "subject": "Yellow-winged flatbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

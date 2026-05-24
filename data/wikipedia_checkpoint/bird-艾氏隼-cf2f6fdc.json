@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:27:02",
+  "requested_title": "Eleonora's Falcon",
+  "resolved_title": "Eleonora's falcon",
+  "title_aliases": [
+    "Eleonora's Falcon"
+  ],
+  "bird_id": "bird-艾氏隼-cf2f6fdc",
+  "raw_file": "bird-艾氏隼-cf2f6fdc.json",
+  "bird": {
+    "id": "bird-艾氏隼-cf2f6fdc",
+    "name": "艾氏隼",
+    "english_name": "Eleonora's falcon",
+    "latin_name": "Falco eleonorae",
+    "summary": "艾氏隼（學名：Falco eleonorae，英語：Eleonora's falcon，台湾作埃歐諾拉氏隼）是隼形目隼科隼屬的一種中小型的隼。以捕捉大型飛行昆蟲及小型鳥類為食。目前该物种的保护状况被评为无危。 其屬名Falco來自晚期拉丁語falx、falcis、意為鐮刀，指的…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Eleonora%27s_falcon_%28Falco_eleonorae%29_in_flight_3.jpg/960px-Eleonora%27s_falcon_%28Falco_eleonorae%29_in_flight_3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-艾氏隼-cf2f6fdc",
+      "subject": "艾氏隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This is a long-distance migrant, wintering in Madagascar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艾氏隼-cf2f6fdc",
+      "subject": "艾氏隼",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

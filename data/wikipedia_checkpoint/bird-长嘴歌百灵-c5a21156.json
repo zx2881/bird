@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:34:23",
+  "requested_title": "Cape Long-billed Lark",
+  "resolved_title": "Cape long-billed lark",
+  "title_aliases": [
+    "Cape Long-billed Lark"
+  ],
+  "bird_id": "bird-长嘴歌百灵-c5a21156",
+  "raw_file": "bird-长嘴歌百灵-c5a21156.json",
+  "bird": {
+    "id": "bird-长嘴歌百灵-c5a21156",
+    "name": "长嘴歌百灵",
+    "english_name": "Cape long-billed lark",
+    "latin_name": "Certhilauda curvirostris",
+    "summary": "长嘴歌百灵（学名：Certhilauda curvirostris），是百灵科的一种，分布于安哥拉、纳米比亚、莱索托、南非和斯威士兰。 长嘴歌百灵的平均体重约为51.2克。栖息地包括亚热带或热带的（低地）干草原、耕地、亚热带或热带的（低地）干燥疏灌丛和牧草地。",
+    "lat": "-34.16666667",
+    "lng": "18.375",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Certhilauda_curvirostris_264775837.jpg/960px-Certhilauda_curvirostris_264775837.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-凡波斯-b26c163a",
+      "name": "凡波斯",
+      "summary": "凡波斯（南非語：fynbos，荷蘭語發音：[ˈfəinbɒs]，英語化發音：/ˈfeɪnbɒs/），指南非西開普省及東開普省沿海山區的天然灌木植被帶，屬於地中海型氣候冬季多雨區的硬葉植被。凡波斯是開普植物區的主體，生態上歸入地中海森林、疏…",
+      "lat": "-34.16666667",
+      "lng": "18.375"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-长嘴歌百灵-c5a21156",
+      "subject": "长嘴歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-凡波斯-b26c163a",
+      "object": "凡波斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This lark is also found in croplands, farmlands and coastal fynbos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-长嘴歌百灵-c5a21156",
+      "subject": "长嘴歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

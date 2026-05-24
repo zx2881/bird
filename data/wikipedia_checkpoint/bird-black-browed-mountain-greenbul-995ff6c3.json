@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:07:12",
+  "requested_title": "Black-browed Mountain Greenbul",
+  "resolved_title": "Black-browed mountain greenbul",
+  "title_aliases": [
+    "Black-browed Mountain Greenbul"
+  ],
+  "bird_id": "bird-black-browed-mountain-greenbul-995ff6c3",
+  "raw_file": "bird-black-browed-mountain-greenbul-995ff6c3.json",
+  "bird": {
+    "id": "bird-black-browed-mountain-greenbul-995ff6c3",
+    "name": "Black-browed mountain greenbul",
+    "english_name": "Black-browed mountain greenbul",
+    "latin_name": "Arizelocichla fusciceps",
+    "summary": "The black-browed mountain greenbul (Arizelocichla fusciceps), formerly the black-browed greenbul, is a species of the bulbul family of pass…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Arizelocichla_fusciceps_-_Tony_Rebelo_-_432430782.jpeg/960px-Arizelocichla_fusciceps_-_Tony_Rebelo_-_432430782.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-george-ernest-shelley-e53a6526",
+      "name": "George Ernest Shelley",
+      "summary": "Captain George Ernest Shelley (15 May 1840 – 29 November 1910) was an English geologist and ornithologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-browed-mountain-greenbul-995ff6c3",
+      "subject": "Black-browed mountain greenbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-george-ernest-shelley-e53a6526",
+      "object": "George Ernest Shelley",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-browed mountain greenbul (Arizelocichla fusciceps), formerly the black-browed greenbul, is a species of the bulbul family of passerine birds. It is found in south-eastern Africa from south-western Tanzania to north-eastern Zambia, Malawi and west-central Mozambique",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-browed-mountain-greenbul-995ff6c3",
+      "subject": "Black-browed mountain greenbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:50:33",
+  "requested_title": "White-eyed Parakeet",
+  "resolved_title": "White-eyed parakeet",
+  "title_aliases": [
+    "White-eyed Parakeet"
+  ],
+  "bird_id": "bird-white-eyed-parakeet-5feb8f5e",
+  "raw_file": "bird-white-eyed-parakeet-5feb8f5e.json",
+  "bird": {
+    "id": "bird-white-eyed-parakeet-5feb8f5e",
+    "name": "White-eyed parakeet",
+    "english_name": "White-eyed parakeet",
+    "latin_name": "Psittacara leucophthalmus",
+    "summary": "The white-eyed parakeet (Psittacara leucophthalmus), known in aviculture as white-eyed conure, is a species of bird in the subfamily Arinae…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Aratinga_leucophthalma_-Piraju_-Brazil-8.jpg/960px-Aratinga_leucophthalma_-Piraju_-Brazil-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圭亚那-地区-7d32a67b",
+      "name": "圭亚那 (地区)",
+      "summary": "圭亚那（西班牙語：Las Guayanas；英語：The Guianas；法語：Guyanes；荷蘭語：Guyana's；葡萄牙語：Guianas）是南美洲北部、西北部的一个地区，并被划分为了数个主权国家和区域。前哥伦布时期，圭亚那地区的…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-eyed-parakeet-5feb8f5e",
+      "subject": "White-eyed parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-圭亚那-地区-7d32a67b",
+      "object": "圭亚那 (地区)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Trinidad, eastern Venezuela east through the Guianas, and south through Brazil into Bolivia, Paraguay, northern Argentina, and Uruguay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-eyed-parakeet-5feb8f5e",
+      "subject": "White-eyed parakeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

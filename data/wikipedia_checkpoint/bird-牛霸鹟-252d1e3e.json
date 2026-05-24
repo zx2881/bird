@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:44:08",
+  "requested_title": "Cattle Tyrant",
+  "resolved_title": "Cattle tyrant",
+  "title_aliases": [
+    "Cattle Tyrant"
+  ],
+  "bird_id": "bird-牛霸鹟-252d1e3e",
+  "raw_file": "bird-牛霸鹟-252d1e3e.json",
+  "bird": {
+    "id": "bird-牛霸鹟-252d1e3e",
+    "name": "牛霸鹟",
+    "english_name": "Cattle tyrant",
+    "latin_name": "Machetornis rixosa",
+    "summary": "牛霸鹟（學名：Machetornis rixosa）是屬於霸鶲科的一种鸟类。牛霸鹟共有三个亚种。牛霸鹟分佈於阿根廷北部、玻利维亚、巴西东北部、巴拿马、委内瑞拉和厄瓜多尔东部。牛霸鹟体长20厘米，体重為29-40克。牛霸鹟以昆虫为食。 参考",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Machetornis_rixosa-standing.jpg/960px-Machetornis_rixosa-standing.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林砍伐-a42d3dcf",
+      "name": "森林砍伐",
+      "summary": "森林砍伐，或稱森林開伐、去森林化（Deforestation）、森林破壞，意為人為的將森林地轉成耕地、牧場、城市等非森林用途的行為。一般來說，森林開伐會造成環境退化和物種多樣性的減少。許多國家還在進行森林開伐，造成了氣候變遷和地理環境的改…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-牛霸鹟-252d1e3e",
+      "subject": "牛霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林砍伐-a42d3dcf",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in savannah, pastureland, parkland, agricultural land and even gardens. Due to deforestation, the species has recently colonised areas where it was previously absent, such as northeast Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-牛霸鹟-252d1e3e",
+      "subject": "牛霸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

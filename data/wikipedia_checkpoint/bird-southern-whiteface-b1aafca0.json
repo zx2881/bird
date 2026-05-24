@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:44:49",
+  "requested_title": "Southern Whiteface",
+  "resolved_title": "Southern whiteface",
+  "title_aliases": [
+    "Southern Whiteface"
+  ],
+  "bird_id": "bird-southern-whiteface-b1aafca0",
+  "raw_file": "bird-southern-whiteface-b1aafca0.json",
+  "bird": {
+    "id": "bird-southern-whiteface-b1aafca0",
+    "name": "Southern whiteface",
+    "english_name": "Southern whiteface",
+    "latin_name": "Aphelocephala leucopsis",
+    "summary": "The southern whiteface (Aphelocephala leucopsis) is a small passerine found in arid regions across most of the southern half of the Austral…",
+    "lat": "-42",
+    "lng": "147",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Southern_Whiteface_0A2A4282.jpg/960px-Southern_Whiteface_0A2A4282.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塔斯馬尼亞州-a7b95e28",
+      "name": "塔斯馬尼亞州",
+      "summary": "塔斯馬尼亞州（Tasmania，發音：/tæzˈmeɪniə/；帕拉瓦卡尼語：Lutruwita），簡稱塔州，是澳大利亞唯一的島嶼州，原名范迪門地（Van Diemen's Land，又譯萬迪門蘭）。該州位於澳大利亞大陸東南方約240公里…",
+      "lat": "-42",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-southern-whiteface-b1aafca0",
+      "subject": "Southern whiteface",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔斯馬尼亞州-a7b95e28",
+      "object": "塔斯馬尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "leucopsis - (Gould, 1841) | synonyms = }} The southern whiteface (Aphelocephala leucopsis) is a small passerine found in arid regions across most of the southern half of the Australian continent, excluding Tasmania. Superficially finch-like in appearance, this insectivorous bird is relatively common throughout most of its range, however, overall populations appear to be in decline",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-southern-whiteface-b1aafca0",
+      "subject": "Southern whiteface",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-southern-whiteface-b1aafca0",
+      "subject": "Southern whiteface",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Although locally common and currently listed on the IUCN Red List as vulnerable, atlas records of southern whiteface have declined by 43% in recent years. The suitability of habitat for ground-foraging woodland species, such as the southern whiteface, is thought to depend on the variety of available ground substrates. As many types of ground cover are vulnerable to disturbance from fire (leaf litter, fallen branches), grazing (grass, herbs) and introduction of exotic plant species (open ground), the management of existing habitat has important conservation implications for this species. Understory disturbance by grazing and clearance of habitat for agriculture are currently listed as the main threats to southern whiteface. However, some studies suggest that mining operations may also impact negatively on the species, although the exact cause for their decline (e.g",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

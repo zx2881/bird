@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:31:07",
+  "requested_title": "Lesser Spotted Eagle",
+  "resolved_title": "Lesser spotted eagle",
+  "title_aliases": [
+    "Lesser Spotted Eagle"
+  ],
+  "bird_id": "bird-小乌雕-5c7d3595",
+  "raw_file": "bird-小乌雕-5c7d3595.json",
+  "bird": {
+    "id": "bird-小乌雕-5c7d3595",
+    "name": "小乌雕",
+    "english_name": "Lesser spotted eagle",
+    "latin_name": "Clanga pomarina",
+    "summary": "The lesser spotted eagle (Clanga pomarina) is a large Eastern European bird of prey. Like all typical eagles, it belongs to the family Acci…",
+    "lat": "39.91666667",
+    "lng": "32.85",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/%D7%A2%D7%99%D7%98_%D7%97%D7%95%D7%A8%D7%A9.jpg/960px-%D7%A2%D7%99%D7%98_%D7%97%D7%95%D7%A8%D7%A9.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中欧-86407b83",
+      "name": "中欧",
+      "summary": "中欧是欧洲的一个地理区域，介于东欧、南欧、西欧和北欧之间。该地区以其文化多样性而著称；不过，处于这一地区的国家在历史和习俗方面也有诸多的相似和共同点。 尽管中欧的定义有所不同，但通常包括奥地利、克罗地亚、捷克共和国、德国、匈牙利、列支敦士…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-土耳其-5e126298",
+      "name": "土耳其",
+      "summary": "土耳其共和国（土耳其語：Türkiye Cumhuriyeti，發音：[ˈtyɾcije dʒumˈhuːɾijeti] ），通稱土耳其（Türkiye），是橫跨欧亚两洲的共和國，其國土包括西亞的安納托利亞半岛、以及东南欧巴尔干半岛的东色…",
+      "lat": "39.91666667",
+      "lng": "32.85"
+    },
+    {
+      "id": "loc-亞美尼亞-51a97422",
+      "name": "亞美尼亞",
+      "summary": "亞美尼亞共和國（亞美尼亞語：Հայաստանի Հանրապետություն），通稱亞美尼亞（Հայաստան），是位於西亞外高加索地區的共和制國家，有時也被視為是東歐的一部分。行政疆界上，亞美尼亞位於黑海與裏海之間，属內陸國家，西鄰土…",
+      "lat": "40.18333333",
+      "lng": "44.51666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小乌雕-5c7d3595",
+      "subject": "小乌雕",
+      "predicate": "distributed_in",
+      "object_id": "loc-中欧-86407b83",
+      "object": "中欧",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Adult in Belarus The lesser spotted eagle breeds in Central and Eastern Europe and southeastward to Turkey and Armenia; and winters in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小乌雕-5c7d3595",
+      "subject": "小乌雕",
+      "predicate": "distributed_in",
+      "object_id": "loc-土耳其-5e126298",
+      "object": "土耳其",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Adult in Belarus The lesser spotted eagle breeds in Central and Eastern Europe and southeastward to Turkey and Armenia; and winters in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小乌雕-5c7d3595",
+      "subject": "小乌雕",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞美尼亞-51a97422",
+      "object": "亞美尼亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Adult in Belarus The lesser spotted eagle breeds in Central and Eastern Europe and southeastward to Turkey and Armenia; and winters in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小乌雕-5c7d3595",
+      "subject": "小乌雕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

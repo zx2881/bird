@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:15:45",
+  "requested_title": "Ashy Flycatcher",
+  "resolved_title": "Ashy flycatcher",
+  "title_aliases": [
+    "Ashy Flycatcher"
+  ],
+  "bird_id": "bird-灰鶲-9cbb16d8",
+  "raw_file": "bird-灰鶲-9cbb16d8.json",
+  "bird": {
+    "id": "bird-灰鶲-9cbb16d8",
+    "name": "灰鶲",
+    "english_name": "Ashy flycatcher",
+    "latin_name": "Fraseria caerulescens",
+    "summary": "灰鹟（學名：Fraseria caerulescens）是鶲科森鶲屬下的一种鳥類。這個物種分布於非洲撒哈拉以南地區的各種森林和林地內。這個物種體長介於13—15公分之間，其指定亞種成鳥以灰色系為主，腹面偏白色，飛羽和尾羽則呈棕黑色，雄雌差異不大；而幼鳥身體為棕色，並帶有斑點。灰…",
+    "lat": "-26.25",
+    "lng": "32",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Muscicapa_caerulescens.jpg/960px-Muscicapa_caerulescens.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-萊邦博山-6e1c5449",
+      "name": "萊邦博山",
+      "summary": "萊邦博山是非洲南部的山脈，全長800公里，從南非的夸祖魯-納塔爾省向北延伸至林波波省，部分山脈處於莫桑比克和斯威士蘭境內，最高點海拔高度776米，山脈在1億8000萬年前形成。 山脈的名字來自祖魯語“大鼻子山”。",
+      "lat": "-26.25",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰鶲-9cbb16d8",
+      "subject": "灰鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found throughout sub-Saharan Africa, excluding the drier areas of South Africa, Botswana, and Namibia, where it inhabits subtropical or tropical dry forest, subtropical or tropical moist lowland forest, and savanna",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰鶲-9cbb16d8",
+      "subject": "灰鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found throughout sub-Saharan Africa, excluding the drier areas of South Africa, Botswana, and Namibia, where it inhabits subtropical or tropical dry forest, subtropical or tropical moist lowland forest, and savanna",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰鶲-9cbb16d8",
+      "subject": "灰鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-萊邦博山-6e1c5449",
+      "object": "萊邦博山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is also thought to be a non-breeding migrant in Mozambique and the Lebombo Mountains and southern Lowveld of Eswatini. The species inhabits a variety of forest and woodland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰鶲-9cbb16d8",
+      "subject": "灰鶲",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found throughout sub-Saharan Africa, excluding the drier areas of South Africa, Botswana, and Namibia, where it inhabits subtropical or tropical dry forest, subtropical or tropical moist lowland forest, and savanna",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-灰鶲-9cbb16d8",
+      "subject": "灰鶲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

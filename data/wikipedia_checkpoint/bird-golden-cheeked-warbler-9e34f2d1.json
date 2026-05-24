@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:47:13",
+  "requested_title": "Golden-cheeked Warbler",
+  "resolved_title": "Golden-cheeked warbler",
+  "title_aliases": [
+    "Golden-cheeked Warbler"
+  ],
+  "bird_id": "bird-golden-cheeked-warbler-9e34f2d1",
+  "raw_file": "bird-golden-cheeked-warbler-9e34f2d1.json",
+  "bird": {
+    "id": "bird-golden-cheeked-warbler-9e34f2d1",
+    "name": "Golden-cheeked warbler",
+    "english_name": "Golden-cheeked warbler",
+    "latin_name": "Setophaga chrysoparia",
+    "summary": "The golden-cheeked warbler (Setophaga chrysoparia) is an endangered species of bird that breeds in Central Texas, from Palo Pinto County so…",
+    "lat": "32.75318",
+    "lng": "-98.31302",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Dendroica_chrysoparia1.jpg/960px-Dendroica_chrysoparia1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-帕洛平托縣-德克薩斯州-7097aed7",
+      "name": "帕洛平托縣 (德克薩斯州)",
+      "summary": "帕洛平托縣（英語：Palo Pinto County）位美国德克萨斯州中北部的一個縣，面積2,552平方公里。根据2020年美國人口普查，共有人口28,409人。縣治帕洛平托（Palo Pinto）。該縣成立於1856年8月27日，縣政府…",
+      "lat": "32.75318",
+      "lng": "-98.31302"
+    },
+    {
+      "id": "loc-edwards-plateau-ee934ad6",
+      "name": "Edwards Plateau",
+      "summary": "The Edwards Plateau is a geographic region forming the crossroads of Central, South and West Texas, United States.",
+      "lat": "30.3",
+      "lng": "-99.6"
+    },
+    {
+      "id": "loc-金尼縣-德克薩斯州-8e80407d",
+      "name": "金尼縣 (德克薩斯州)",
+      "summary": "金尼县（英語：Kinney County）是位於美國德克薩斯州南部的一個縣，西南與墨西哥隔格蘭德河相望。面積3,536平方公里。根據美國2000年人口普查，共有人口3,379人。縣治布拉基特維爾（Brackettville）。 成立於18…",
+      "lat": "29.35",
+      "lng": "-100.42"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-cheeked-warbler-9e34f2d1",
+      "subject": "Golden-cheeked warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-帕洛平托縣-德克薩斯州-7097aed7",
+      "object": "帕洛平托縣 (德克薩斯州)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "chrysoparia | synonyms = Dendroica chrysoparia Sclater & Salvin, 1861 }} The golden-cheeked warbler (Setophaga chrysoparia) is an endangered species of bird that breeds in Central Texas, from Palo Pinto County southwestward along the eastern and southern edge of the Edwards Plateau to Kinney County",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-cheeked-warbler-9e34f2d1",
+      "subject": "Golden-cheeked warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-edwards-plateau-ee934ad6",
+      "object": "Edwards Plateau",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "chrysoparia | synonyms = Dendroica chrysoparia Sclater & Salvin, 1861 }} The golden-cheeked warbler (Setophaga chrysoparia) is an endangered species of bird that breeds in Central Texas, from Palo Pinto County southwestward along the eastern and southern edge of the Edwards Plateau to Kinney County",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-cheeked-warbler-9e34f2d1",
+      "subject": "Golden-cheeked warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-金尼縣-德克薩斯州-8e80407d",
+      "object": "金尼縣 (德克薩斯州)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "chrysoparia | synonyms = Dendroica chrysoparia Sclater & Salvin, 1861 }} The golden-cheeked warbler (Setophaga chrysoparia) is an endangered species of bird that breeds in Central Texas, from Palo Pinto County southwestward along the eastern and southern edge of the Edwards Plateau to Kinney County",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-cheeked-warbler-9e34f2d1",
+      "subject": "Golden-cheeked warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In the drier spheres of Texas, golden-cheeked warblers can be found in upland juniper-oak woodlands off of flat topography.{{cite web |url=https://ecos.fws.gov/ecp/species/33 |title=golden-cheeked warbler (Setophaga chrysoparia)|website=Environmental Conservation Online System|publisher=U.S",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-golden-cheeked-warbler-9e34f2d1",
+      "subject": "Golden-cheeked warbler",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:12:52",
+  "requested_title": "Black-billed Magpie",
+  "resolved_title": "Black-billed magpie",
+  "title_aliases": [
+    "Black-billed Magpie"
+  ],
+  "bird_id": "bird-black-billed-magpie-af302476",
+  "raw_file": "bird-black-billed-magpie-af302476.json",
+  "bird": {
+    "id": "bird-black-billed-magpie-af302476",
+    "name": "Black-billed magpie",
+    "english_name": "Black-billed magpie",
+    "latin_name": "Pica hudsonia",
+    "summary": "The black-billed magpie (Pica hudsonia), also known as the American magpie, is a bird in the corvid family found in the western half of Nor…",
+    "lat": "40.015",
+    "lng": "-105.2705",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BlackBilledMagpie.jpg/960px-BlackBilledMagpie.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-博爾德-科羅拉多州-8242f864",
+      "name": "博爾德 (科羅拉多州)",
+      "summary": "博爾德（英語：Boulder，/ˈboʊldər/），又譯圓石市，是美国科罗拉多州的一個城市，位於州府丹佛的西北部，是圓石郡的郡治。该市面積为65.7平方公里，2010年人口为97385人，是科罗拉多州第十一大城市。科羅拉多大學博爾德分校…",
+      "lat": "40.015",
+      "lng": "-105.2705"
+    },
+    {
+      "id": "loc-joseph-sabine-ab111d00",
+      "name": "Joseph Sabine",
+      "summary": "Joseph Sabine FRS ( SAY-bin; 6 June 1770 – 24 January 1837) was an English lawyer, naturalist and writer on horticultur…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-billed-magpie-af302476",
+      "subject": "Black-billed magpie",
+      "predicate": "distributed_in",
+      "object_id": "loc-博爾德-科羅拉多州-8242f864",
+      "object": "博爾德 (科羅拉多州)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-billed magpie (Pica hudsonia), also known as the American magpie, is a bird in the corvid family found in the western half of North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-magpie-af302476",
+      "subject": "Black-billed magpie",
+      "predicate": "distributed_in",
+      "object_id": "loc-joseph-sabine-ab111d00",
+      "object": "Joseph Sabine",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-billed magpie (Pica hudsonia), also known as the American magpie, is a bird in the corvid family found in the western half of North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-magpie-af302476",
+      "subject": "Black-billed magpie",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-billed magpie (Pica hudsonia), also known as the American magpie, is a bird in the corvid family found in the western half of North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-magpie-af302476",
+      "subject": "Black-billed magpie",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

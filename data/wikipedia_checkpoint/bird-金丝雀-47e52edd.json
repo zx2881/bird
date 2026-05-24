@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:25:07",
+  "requested_title": "Atlantic Canary",
+  "resolved_title": "Atlantic canary",
+  "title_aliases": [
+    "Atlantic Canary"
+  ],
+  "bird_id": "bird-金丝雀-47e52edd",
+  "raw_file": "bird-金丝雀-47e52edd.json",
+  "bird": {
+    "id": "bird-金丝雀-47e52edd",
+    "name": "金丝雀",
+    "english_name": "Atlantic canary",
+    "latin_name": "Serinus canaria",
+    "summary": "The Atlantic canary (Serinus canaria), known worldwide simply as the wild canary and also called the island canary, common canary, or canar…",
+    "lat": "28",
+    "lng": "-15.75",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Serinus_canaria_-Parque_Rural_del_Nublo%2C_Gran_Canaria%2C_Spain_-male-8a.jpg/960px-Serinus_canaria_-Parque_Rural_del_Nublo%2C_Gran_Canaria%2C_Spain_-male-8a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加那利群岛-fdbf818a",
+      "name": "加那利群岛",
+      "summary": "加那利群島（西班牙語：Islas Canarias或简称Canarias，發音：[kaˈnaɾjas] ）是一個西班牙的群島及西班牙位置最南的自治區，位于大西洋中，在摩洛哥以西100公里处。该群岛是歐盟特別領域中的外延地区之一，也是西班牙…",
+      "lat": "28",
+      "lng": "-15.75"
+    },
+    {
+      "id": "loc-亚速尔群岛-4188da52",
+      "name": "亚速尔群岛",
+      "summary": "亚速尔（葡萄牙語：Açores），正式名称為亞速爾自治區（Região Autónoma dos Açores），是位於北大西洋中央的一個群島，葡萄牙两个自治区之一，其行政首府為聖米格爾島上的蓬塔德爾加達。該群島由九個主要島嶼組成，東距葡…",
+      "lat": "38.66",
+      "lng": "-28.07"
+    },
+    {
+      "id": "loc-马德拉群岛-627b477f",
+      "name": "马德拉群岛",
+      "summary": "馬德拉（葡萄牙語：Madeira），正式名称为马德拉自治区（葡萄牙語：Região Autónoma da Madeira），是葡萄牙在其國土西南方的北大西洋中央所轄的群岛，葡萄牙的两个自治区之一，也是其主岛的岛名。在葡萄牙语中，“馬德拉…",
+      "lat": "32.75",
+      "lng": "-17"
+    },
+    {
+      "id": "loc-波多黎各-f53ddf8c",
+      "name": "波多黎各",
+      "summary": "波多黎各自由邦（英語：Commonwealth of Puerto Rico），又稱波多黎各自由聯繫邦（西班牙語：Estado Libre Asociado de Puerto Rico），通称波多黎各（西班牙語：Puerto Rico，…",
+      "lat": "18.2",
+      "lng": "-66.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金丝雀-47e52edd",
+      "subject": "金丝雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-加那利群岛-fdbf818a",
+      "object": "加那利群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Canary Islands, the Azores, and Madeira",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金丝雀-47e52edd",
+      "subject": "金丝雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-亚速尔群岛-4188da52",
+      "object": "亚速尔群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Canary Islands, the Azores, and Madeira",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金丝雀-47e52edd",
+      "subject": "金丝雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-马德拉群岛-627b477f",
+      "object": "马德拉群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Canary Islands, the Azores, and Madeira",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金丝雀-47e52edd",
+      "subject": "金丝雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-波多黎各-f53ddf8c",
+      "object": "波多黎各",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "A guide to the Birds of Bermuda. The species also occurs in Puerto Rico, but is not yet established there.American Ornithologists Union (1998)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金丝雀-47e52edd",
+      "subject": "金丝雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

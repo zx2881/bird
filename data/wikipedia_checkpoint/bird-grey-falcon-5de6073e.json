@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:27:33",
+  "requested_title": "Grey Falcon",
+  "resolved_title": "Grey falcon",
+  "title_aliases": [
+    "Grey Falcon"
+  ],
+  "bird_id": "bird-grey-falcon-5de6073e",
+  "raw_file": "bird-grey-falcon-5de6073e.json",
+  "bird": {
+    "id": "bird-grey-falcon-5de6073e",
+    "name": "Grey falcon",
+    "english_name": "Grey falcon",
+    "latin_name": "Falco hypoleucos",
+    "summary": "The grey falcon (Falco hypoleucos) is a medium-sized falcon native to Australia, possibly the rarest. It is uncommon throughout its range a…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Grey_Falcon_%281%29_-_Christopher_Watson.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-古尔德-f8020282",
+      "name": "约翰·古尔德",
+      "summary": "约翰·古尔德 FRS（英語：John Gould，1804年9月14日—1881年2月3日）是19世纪一位英国鸟类学家。1804年生于英格兰，也是一位商人、艺术家。1838年后与其妻一同前往澳大利亚，在当地发现并為许多新物种命名。 早年…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-falcon-5de6073e",
+      "subject": "Grey falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-古尔德-f8020282",
+      "object": "约翰·古尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey falcon (Falco hypoleucos) is a medium-sized falcon native to Australia, possibly the rarest.{{cite journal |doi=10.1017/S0959270920000106 |title=Phylogeography of the rare Australian endemic Grey Falcon Falco hypoleucos: implications for conservation |journal=Bird Conservation International|volume=287 |pages=447–455 |year=2020 |last1=Mullin|first1=Dale W",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-falcon-5de6073e",
+      "subject": "Grey falcon",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits Triodia grassland, Acacia shrubland, and lightly timbered arid woodland. It has been sighted over most of mainland Australia except for Cape York",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-grey-falcon-5de6073e",
+      "subject": "Grey falcon",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits Triodia grassland, Acacia shrubland, and lightly timbered arid woodland. It has been sighted over most of mainland Australia except for Cape York",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-grey-falcon-5de6073e",
+      "subject": "Grey falcon",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "When they have been occasionally seen outside of these areas, they have been found in similar dry, low altitude, open woodland or grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-grey-falcon-5de6073e",
+      "subject": "Grey falcon",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:03:34",
+  "requested_title": "Black-billed Seed Finch",
+  "resolved_title": "Black-billed seed finch",
+  "title_aliases": [
+    "Black-billed Seed Finch"
+  ],
+  "bird_id": "bird-black-billed-seed-finch-8079cd24",
+  "raw_file": "bird-black-billed-seed-finch-8079cd24.json",
+  "bird": {
+    "id": "bird-black-billed-seed-finch-8079cd24",
+    "name": "Black-billed seed finch",
+    "english_name": "Black-billed seed finch",
+    "latin_name": "Sporophila atrirostris",
+    "summary": "The black-billed seed finch (Sporophila atrirostris) is a species of bird in the family Thraupidae. It is found in the western Amazon Basin…",
+    "lat": "-2.3096",
+    "lng": "-54.8881",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Black-billed_seed_finch_%28Sporophila_atrirostris%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "The Amazon basin is the part of South America drained by the Amazon River and its tributaries.",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-billed-seed-finch-8079cd24",
+      "subject": "Black-billed seed finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the western Amazon Basin (Ecuador, Peru and northwestern Bolivia)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-seed-finch-8079cd24",
+      "subject": "Black-billed seed finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the western Amazon Basin (Ecuador, Peru and northwestern Bolivia)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-seed-finch-8079cd24",
+      "subject": "Black-billed seed finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the western Amazon Basin (Ecuador, Peru and northwestern Bolivia)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-seed-finch-8079cd24",
+      "subject": "Black-billed seed finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the western Amazon Basin (Ecuador, Peru and northwestern Bolivia)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-seed-finch-8079cd24",
+      "subject": "Black-billed seed finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

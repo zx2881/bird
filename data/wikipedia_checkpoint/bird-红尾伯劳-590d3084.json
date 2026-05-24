@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:02:18",
+  "requested_title": "Brown Shrike",
+  "resolved_title": "Brown shrike",
+  "title_aliases": [
+    "Brown Shrike"
+  ],
+  "bird_id": "bird-红尾伯劳-590d3084",
+  "raw_file": "bird-红尾伯劳-590d3084.json",
+  "bird": {
+    "id": "bird-红尾伯劳-590d3084",
+    "name": "红尾伯劳",
+    "english_name": "Brown shrike",
+    "latin_name": "Lanius cristatus",
+    "summary": "红尾伯劳（学名：Lanius cristatus）为伯劳科伯劳属的一种，俗名褐伯劳。主要分布於亞洲。牠與紅背伯勞（L. collurio）和荒漠伯勞（L.",
+    "lat": "24",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Lanius_cristatus_-_Surin.jpg/960px-Lanius_cristatus_-_Surin.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中華民國-e9cfdf77",
+      "name": "中華民國",
+      "summary": "中華民國是位於東亞的民主共和國，曾在国际上广泛代表中國，現今多通稱「臺灣」。1912年建國時以前清之中國既有領土為疆域，經歷1949年政府遷臺，現有效管轄範圍包括臺灣本島、澎湖群島及其附屬島嶼，以及中國大陸福建沿岸的金門群島、馬祖列島等島…",
+      "lat": "24",
+      "lng": "121"
+    },
+    {
+      "id": "loc-安达曼群岛-38540853",
+      "name": "安达曼群岛",
+      "summary": "安达曼群岛（英語：Andaman Islands；印地語：अण्डमान द्वीप समूह）是印度洋北部的群岛，位于孟加拉湾和安达曼海交界处，北距缅甸本土197公里，南距印度尼西亚苏门答腊岛547公里。该群岛由576个岛屿组成，总面积…",
+      "lat": "12.5",
+      "lng": "92.75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红尾伯劳-590d3084",
+      "subject": "红尾伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-中華民國-e9cfdf77",
+      "object": "中華民國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Subspecies lucionensis, sometimes known as the Philippine shrike (local names: tarat or pakis-kis), breeds in Korea and eastern China wintering mainly in Taiwan and the Philippines but also on the Andaman Islands and in peninsular India.{{cite journal|title=Occurrence of Lanius cristatus lucionensis in the Western Ghats, Kerala|author1=Balachandran S |author2=Rajan Sehgal |name-list-style=amp|journal=J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红尾伯劳-590d3084",
+      "subject": "红尾伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-安达曼群岛-38540853",
+      "object": "安达曼群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Subspecies lucionensis, sometimes known as the Philippine shrike (local names: tarat or pakis-kis), breeds in Korea and eastern China wintering mainly in Taiwan and the Philippines but also on the Andaman Islands and in peninsular India.{{cite journal|title=Occurrence of Lanius cristatus lucionensis in the Western Ghats, Kerala|author1=Balachandran S |author2=Rajan Sehgal |name-list-style=amp|journal=J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红尾伯劳-590d3084",
+      "subject": "红尾伯劳",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:27:11",
+  "requested_title": "Usambara Thrush",
+  "resolved_title": "Usambara thrush",
+  "title_aliases": [
+    "Usambara Thrush"
+  ],
+  "bird_id": "bird-usambara-thrush-aade57a6",
+  "raw_file": "bird-usambara-thrush-aade57a6.json",
+  "bird": {
+    "id": "bird-usambara-thrush-aade57a6",
+    "name": "Usambara thrush",
+    "english_name": "Usambara thrush",
+    "latin_name": "Turdus roehli",
+    "summary": "The Usambara thrush (Turdus roehli), also known as Roehl's thrush or Usambara olive thrush, is a species of thrush found in eastern Africa.…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Turdus_roehli.jpg/960px-Turdus_roehli.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安东-赖歇诺-43b8e534",
+      "name": "安东·赖歇诺",
+      "summary": "Anton Reichenow (1 August 1847 in Charlottenburg – 6 July 1941 in Hamburg) was a German ornithologist and herpetologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-usambara-thrush-aade57a6",
+      "subject": "Usambara thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-安东-赖歇诺-43b8e534",
+      "object": "安东·赖歇诺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Usambara thrush (Turdus roehli), also known as Roehl's thrush or Usambara olive thrush, is a species of thrush found in eastern Africa. Formerly, it was considered as a subspecies of the olive thrush, with which it is known to hybridize with, but is now recognised as a separate species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-usambara-thrush-aade57a6",
+      "subject": "Usambara thrush",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

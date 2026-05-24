@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:03:17",
+  "requested_title": "Yellow Bishop",
+  "resolved_title": "Yellow bishop",
+  "title_aliases": [
+    "Yellow Bishop"
+  ],
+  "bird_id": "bird-yellow-bishop-da52c9dd",
+  "raw_file": "bird-yellow-bishop-da52c9dd.json",
+  "bird": {
+    "id": "bird-yellow-bishop-da52c9dd",
+    "name": "Yellow bishop",
+    "english_name": "Yellow bishop",
+    "latin_name": "Euplectes capensis",
+    "summary": "The yellow bishop (Euplectes capensis), also known as Cape bishop, Cape widow or yellow-rumped widow, is a resident breeding Afromontane bi…",
+    "lat": "-34.16666667",
+    "lng": "18.375",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Yellow_Bishop_-_Kenya_S4E8557_%2822662474520%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-凡波斯-b26c163a",
+      "name": "凡波斯",
+      "summary": "凡波斯（南非語：fynbos，荷蘭語發音：[ˈfəinbɒs]，英語化發音：/ˈfeɪnbɒs/），指南非西開普省及東開普省沿海山區的天然灌木植被帶，屬於地中海型氣候冬季多雨區的硬葉植被。凡波斯是開普植物區的主體，生態上歸入地中海森林、疏…",
+      "lat": "-34.16666667",
+      "lng": "18.375"
+    },
+    {
+      "id": "loc-衣索比亞高原-20c47310",
+      "name": "衣索比亞高原",
+      "summary": "衣索比亞高原（又譯埃塞俄比亞高地）是非洲國家埃塞俄比亞、厄立特里亞和索馬里的一個高原，由一群堅固且大規模的山構成，在非洲之角的索馬里北部及衣索比亞。它有時也被稱為“非洲屋脊”（Roof of Africa），因為它的高度和很大的面積。 衣…",
+      "lat": "10.705775",
+      "lng": "37.849282"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-bishop-da52c9dd",
+      "subject": "Yellow bishop",
+      "predicate": "distributed_in",
+      "object_id": "loc-凡波斯-b26c163a",
+      "object": "凡波斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This common weaver occurs in less arid vegetated areas, such as fynbos, moist grassland and bracken-covered valleys at altitudes from sea level to the Ethiopian Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-bishop-da52c9dd",
+      "subject": "Yellow bishop",
+      "predicate": "distributed_in",
+      "object_id": "loc-衣索比亞高原-20c47310",
+      "object": "衣索比亞高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This common weaver occurs in less arid vegetated areas, such as fynbos, moist grassland and bracken-covered valleys at altitudes from sea level to the Ethiopian Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-bishop-da52c9dd",
+      "subject": "Yellow bishop",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This common weaver occurs in less arid vegetated areas, such as fynbos, moist grassland and bracken-covered valleys at altitudes from sea level to the Ethiopian Highlands",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-yellow-bishop-da52c9dd",
+      "subject": "Yellow bishop",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

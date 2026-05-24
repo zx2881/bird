@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:33:25",
+  "requested_title": "Clamorous Reed Warbler",
+  "resolved_title": "Clamorous reed warbler",
+  "title_aliases": [
+    "Clamorous Reed Warbler"
+  ],
+  "bird_id": "bird-噪大苇莺-94dd115c",
+  "raw_file": "bird-噪大苇莺-94dd115c.json",
+  "bird": {
+    "id": "bird-噪大苇莺-94dd115c",
+    "name": "噪大苇莺",
+    "english_name": "Clamorous reed warbler",
+    "latin_name": "Acrocephalus (bird) stentoreus",
+    "summary": "噪大苇莺（学名：Acrocephalus stentoreus）又称噪苇莺，为鶲科苇莺属的鸟类。该物种分布于从埃及一直到中国南方和澳大利亚的广大地区，其模式产地在埃及。 亚种 噪大苇莺西南亚种（学名：Acrocephalus stentoreus brunnescens）。在中…",
+    "lat": "30",
+    "lng": "70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Clamorous_reed_warbler.jpg/960px-Clamorous_reed_warbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "巴基斯坦伊斯兰共和国（乌尔都语：اسلامی جمہوریہ پاکستان‬；英语：Islamic Republic of Pakistan），通称巴基斯坦，位于南亚，东与印度比邻，南面是印度洋，西与伊朗接壤，西北和阿富汗相連，東北与中…",
+      "lat": "30",
+      "lng": "70"
+    },
+    {
+      "id": "loc-阿富汗-1b59b990",
+      "name": "阿富汗",
+      "summary": "阿富汗伊斯兰酋长国，通称阿富汗，是位于亚洲中南部的内陆国家，坐落在亚洲的心脏地区。根据地理分区的不同定义，阿富汗被认为处在南亚、中亚、西亚、中东。阿富汗是擁有多样文化的国家，因地理上位于东方与西方的交界點，古时曾是重要的贸易中心和游牧民族…",
+      "lat": "34.51666667",
+      "lng": "69.18333333"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-噪大苇莺-94dd115c",
+      "subject": "噪大苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Most populations are sedentary, but the breeding birds in Pakistan, Afghanistan and north India are migratory, wintering in peninsular India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-噪大苇莺-94dd115c",
+      "subject": "噪大苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿富汗-1b59b990",
+      "object": "阿富汗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Most populations are sedentary, but the breeding birds in Pakistan, Afghanistan and north India are migratory, wintering in peninsular India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-噪大苇莺-94dd115c",
+      "subject": "噪大苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Most populations are sedentary, but the breeding birds in Pakistan, Afghanistan and north India are migratory, wintering in peninsular India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-噪大苇莺-94dd115c",
+      "subject": "噪大苇莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

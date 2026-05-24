@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:45:19",
+  "requested_title": "Bangwa Forest Warbler",
+  "resolved_title": "Bangwa forest warbler",
+  "title_aliases": [
+    "Bangwa Forest Warbler"
+  ],
+  "bird_id": "bird-bangwa-forest-warbler-b3416913",
+  "raw_file": "bird-bangwa-forest-warbler-b3416913.json",
+  "bird": {
+    "id": "bird-bangwa-forest-warbler-b3416913",
+    "name": "Bangwa forest warbler",
+    "english_name": "Bangwa forest warbler",
+    "latin_name": "Bradypterus bangwaensis",
+    "summary": "The Bangwa forest warbler or Bangwa scrub warbler (Bradypterus bangwaensis) is a species of Old World warbler in the family Locustellidae.…",
+    "lat": "6",
+    "lng": "11",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Bradypterus_bangwaensis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-cameroonian-highlands-forests-458b5242",
+      "name": "Cameroonian Highlands forests",
+      "summary": "The Cameroonian Highlands forests, also known as the Cameroon Highlands forests, is a montane tropical moist broadleaf…",
+      "lat": "6",
+      "lng": "11"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bangwa-forest-warbler-b3416913",
+      "subject": "Bangwa forest warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-cameroonian-highlands-forests-458b5242",
+      "object": "Cameroonian Highlands forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Cameroonian Highlands forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bangwa-forest-warbler-b3416913",
+      "subject": "Bangwa forest warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-bangwa-forest-warbler-b3416913",
+      "subject": "Bangwa forest warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

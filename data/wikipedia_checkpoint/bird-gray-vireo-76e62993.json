@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:33:24",
+  "requested_title": "Grey Vireo",
+  "resolved_title": "Gray vireo",
+  "title_aliases": [
+    "Grey Vireo",
+    "Gray vireo"
+  ],
+  "bird_id": "bird-gray-vireo-76e62993",
+  "raw_file": "bird-gray-vireo-76e62993.json",
+  "bird": {
+    "id": "bird-gray-vireo-76e62993",
+    "name": "Gray vireo",
+    "english_name": "Gray vireo",
+    "latin_name": "Vireo vicinior",
+    "summary": "The gray vireo (Vireo vicinior) is a small North American passerine bird in the family Vireonidae, the vireos, greenlets, and shrike-babble…",
+    "lat": "29.64611111",
+    "lng": "-110.86888889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Vireo_vicinior.jpg/960px-Vireo_vicinior.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-索諾拉州-c6e6953f",
+      "name": "索諾拉州",
+      "summary": "索諾拉州 （西班牙語：Sonora）是墨西哥三十一個州之一，西臨加利福尼亞灣，北鄰美國新墨西哥州和亞利桑那州，西北隔科羅拉多河與下加利福尼亞半島分開。首府埃莫西約，下分72市。 蒂布龙岛面积1201平方公里，无人居住。",
+      "lat": "29.64611111",
+      "lng": "-110.86888889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-gray-vireo-76e62993",
+      "subject": "Gray vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-索諾拉州-c6e6953f",
+      "object": "索諾拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It winters in southern Baja California and from southwestern Arizona south through most of Mexico's Sonora state.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gray-vireo-76e62993",
+      "subject": "Gray vireo",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "During migration and on its winter ranges it also inhabits arid and desert scrublands. In much of its breeding range it occurs in elevations between about though is found as low as in west Texas and in northern Mexico",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-gray-vireo-76e62993",
+      "subject": "Gray vireo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

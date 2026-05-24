@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:24:09",
+  "requested_title": "Ashy-breasted Flycatcher",
+  "resolved_title": "Ashy-breasted flycatcher",
+  "title_aliases": [
+    "Ashy-breasted Flycatcher"
+  ],
+  "bird_id": "bird-ashy-breasted-flycatcher-92d62d63",
+  "raw_file": "bird-ashy-breasted-flycatcher-92d62d63.json",
+  "bird": {
+    "id": "bird-ashy-breasted-flycatcher-92d62d63",
+    "name": "Ashy-breasted flycatcher",
+    "english_name": "Ashy-breasted flycatcher",
+    "latin_name": "Muscicapa randi",
+    "summary": "The ashy-breasted flycatcher (Muscicapa randi) is a species of bird in the family Muscicapidae. It is endemic to the Philippines found only…",
+    "lat": "9.35416667",
+    "lng": "123.17944444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Ashy-breasted_Flycatcher.jpg/960px-Ashy-breasted_Flycatcher.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-balinsasayao-twin-lakes-natural-park-d5b09d72",
+      "name": "Balinsasayao Twin Lakes Natural Park",
+      "summary": "Balinsasayao Twin Lakes Natural Park is a natural park in the Philippines surrounding Lake Balinsasayao and Lake Danao…",
+      "lat": "9.35416667",
+      "lng": "123.17944444"
+    },
+    {
+      "id": "loc-la-mesa-ecopark-1e193b57",
+      "name": "La Mesa Ecopark",
+      "summary": "The La Mesa Ecopark is a public park located in Greater Lagro, Quezon City, Metro Manila, Philippines.",
+      "lat": "14.71194444",
+      "lng": "121.07430556"
+    },
+    {
+      "id": "loc-馬尼拉大都會-fa4fb1eb",
+      "name": "馬尼拉大都會",
+      "summary": "馬尼拉大都會（英語：Metro Manila），又称大岷區，是以菲律賓馬尼拉市為核心，涵蓋週邊15個城市及1個自治市的大型都會區；在行政上，劃歸為國家首都區（National Capital Region，縮寫 NCR），簡稱首都區，為菲…",
+      "lat": "14.58",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ashy-breasted-flycatcher-92d62d63",
+      "subject": "Ashy-breasted flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-balinsasayao-twin-lakes-natural-park-d5b09d72",
+      "object": "Balinsasayao Twin Lakes Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It has also been found in the proposed area of Balinsasayao Twin Lakes Natural Park which has received conservation funding",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ashy-breasted-flycatcher-92d62d63",
+      "subject": "Ashy-breasted flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-la-mesa-ecopark-1e193b57",
+      "object": "La Mesa Ecopark",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In January 2026, it was found in La Mesa Ecopark in Metro Manila",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ashy-breasted-flycatcher-92d62d63",
+      "subject": "Ashy-breasted flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-馬尼拉大都會-fa4fb1eb",
+      "object": "馬尼拉大都會",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In January 2026, it was found in La Mesa Ecopark in Metro Manila",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ashy-breasted-flycatcher-92d62d63",
+      "subject": "Ashy-breasted flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-ashy-breasted-flycatcher-92d62d63",
+      "subject": "Ashy-breasted flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-ashy-breasted-flycatcher-92d62d63",
+      "subject": "Ashy-breasted flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of legal and illegal logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

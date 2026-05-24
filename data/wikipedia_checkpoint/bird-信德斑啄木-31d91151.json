@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:20:06",
+  "requested_title": "Sind Woodpecker",
+  "resolved_title": "Sind woodpecker",
+  "title_aliases": [
+    "Sind Woodpecker"
+  ],
+  "bird_id": "bird-信德斑啄木-31d91151",
+  "raw_file": "bird-信德斑啄木-31d91151.json",
+  "bird": {
+    "id": "bird-信德斑啄木-31d91151",
+    "name": "信德斑啄木",
+    "english_name": "Sind woodpecker",
+    "latin_name": "Dendrocopos assimilis",
+    "summary": "信德啄木鸟（學名：Dendrocopos assimilis，台湾作信德斑啄木）屬於啄木鸟科啄木鸟屬。該鳥發源地位於巴基斯坦的信德省、印度和伊朗的南部。 描述 此鳥種外觀近似敘利亞啄木鳥，體型較小，鬚羽較細，背部白羽較多，喙亦較小。其肩部具白斑，黑色羽毛並帶有白色條紋，為該區域…",
+    "lat": "26.35",
+    "lng": "68.85",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Dendrocopos_assimilis%2C_Bandar_Abbas%2C_Iran_1.jpg/960px-Dendrocopos_assimilis%2C_Bandar_Abbas%2C_Iran_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-信德省-04c4fac0",
+      "name": "信德省",
+      "summary": "信德省（Sindh；信德語：سنڌ；烏爾都語：سندھ；羅馬化拼寫曾作Sind）是巴基斯坦的四個省之一。信德省位於該國東南部地區，是巴基斯坦總面積第三大省，人口僅次於旁遮普省的第二大省。它分別與北部的巴基斯坦俾路支省和旁遮普省以及東部的印…",
+      "lat": "26.35",
+      "lng": "68.85"
+    },
+    {
+      "id": "loc-省-3d14d1a1",
+      "name": "省",
+      "summary": "省（英語：Province）經常是一個国家或主權國家內的一個行政区划。其英文出自古羅馬語「provincia」，指羅馬帝國在意大利以外的擁有領土之行政單位。該詞已被不少國家使用，而在個別沒有實際「省」的國家中，「the provinces…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-信德斑啄木-31d91151",
+      "subject": "信德斑啄木",
+      "predicate": "distributed_in",
+      "object_id": "loc-信德省-04c4fac0",
+      "object": "信德省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Sindh province of Pakistan, the far west of India, and southern Iran",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-信德斑啄木-31d91151",
+      "subject": "信德斑啄木",
+      "predicate": "distributed_in",
+      "object_id": "loc-省-3d14d1a1",
+      "object": "省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Sindh province of Pakistan, the far west of India, and southern Iran",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-信德斑啄木-31d91151",
+      "subject": "信德斑啄木",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They have moderate forest reliance and can be found up to the altitude of 2,200 metres, but are also found in rural gardens and plantations. Naturally they are found in tropical and subtropical dry forests, riverine forests, thorny shrub-lands, dry scrub-lands and wetlands like freshwater springs and oases",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-信德斑啄木-31d91151",
+      "subject": "信德斑啄木",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-信德斑啄木-31d91151",
+      "subject": "信德斑啄木",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Deforestation is a main threat to the species",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

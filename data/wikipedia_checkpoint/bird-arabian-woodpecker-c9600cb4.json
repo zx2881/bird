@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:17:49",
+  "requested_title": "Arabian Woodpecker",
+  "resolved_title": "Arabian woodpecker",
+  "title_aliases": [
+    "Arabian Woodpecker"
+  ],
+  "bird_id": "bird-arabian-woodpecker-c9600cb4",
+  "raw_file": "bird-arabian-woodpecker-c9600cb4.json",
+  "bird": {
+    "id": "bird-arabian-woodpecker-c9600cb4",
+    "name": "Arabian woodpecker",
+    "english_name": "Arabian woodpecker",
+    "latin_name": "Dendrocoptes dorae",
+    "summary": "The Arabian woodpecker (Dendrocoptes dorae) or Sarat woodpecker, is a bird species of the family Picidae, native to the Sarawat Mountains o…",
+    "lat": "18.26722222",
+    "lng": "42.36805556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Dendrocoptes_dorae_by_James_Eaton.jpg/960px-Dendrocoptes_dorae_by_James_Eaton.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-沙拉瓦特山脈-7212be00",
+      "name": "沙拉瓦特山脈",
+      "summary": "沙拉瓦特山脈（阿拉伯語：جِبَالُ ٱلسَّرَوَاتِ，羅馬化：Jibāl as-Sarawāt）是阿拉伯半島西部的一座山脈，橫跨沙烏地阿拉伯西南部以及葉門西北部，與紅海之間隔著狹窄的帖哈麥平原。 沙拉瓦特山脈的最高點是位於葉門…",
+      "lat": "18.26722222",
+      "lng": "42.36805556"
+    },
+    {
+      "id": "loc-沙特阿拉伯-bb57c647",
+      "name": "沙特阿拉伯",
+      "summary": "沙烏地阿拉伯王國（阿拉伯語：المملكة العربية السعودية，羅馬化：al-Mamlakah ʿArabīyah as-Suʿūdīyah，），簡稱沙烏地阿拉伯或沙烏地（السُّعُودِيَّة），是位於西亞阿拉伯半島…",
+      "lat": "24",
+      "lng": "45"
+    },
+    {
+      "id": "loc-也门-80b75a25",
+      "name": "也门",
+      "summary": "也門共和國（阿拉伯語：الجمهورية اليمنية，al-Jumhūriyyah al-Yamaniyyah），通稱葉門（阿拉伯語：اليمن，羅馬化：al-Yaman），為西亞國家，位於阿拉伯半島西南角、阿拉伯海與紅海交界處，與阿…",
+      "lat": "15.34833333",
+      "lng": "44.20638889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-arabian-woodpecker-c9600cb4",
+      "subject": "Arabian woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-沙拉瓦特山脈-7212be00",
+      "object": "沙拉瓦特山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| Grainy picture of the Arabian woodpecker perched on a tree branch.]] The Arabian woodpecker (Dendrocoptes dorae) or Sarat woodpecker, is a bird species of the family Picidae, native to the Sarawat Mountains of Saudi Arabia and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-arabian-woodpecker-c9600cb4",
+      "subject": "Arabian woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-沙特阿拉伯-bb57c647",
+      "object": "沙特阿拉伯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| Grainy picture of the Arabian woodpecker perched on a tree branch.]] The Arabian woodpecker (Dendrocoptes dorae) or Sarat woodpecker, is a bird species of the family Picidae, native to the Sarawat Mountains of Saudi Arabia and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-arabian-woodpecker-c9600cb4",
+      "subject": "Arabian woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-也门-80b75a25",
+      "object": "也门",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| Grainy picture of the Arabian woodpecker perched on a tree branch.]] The Arabian woodpecker (Dendrocoptes dorae) or Sarat woodpecker, is a bird species of the family Picidae, native to the Sarawat Mountains of Saudi Arabia and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-arabian-woodpecker-c9600cb4",
+      "subject": "Arabian woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

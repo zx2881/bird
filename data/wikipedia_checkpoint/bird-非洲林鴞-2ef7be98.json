@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T23:14:17",
+  "requested_title": "African Wood Owl",
+  "resolved_title": "African wood owl",
+  "title_aliases": [
+    "African Wood Owl"
+  ],
+  "bird_id": "bird-非洲林鴞-2ef7be98",
+  "raw_file": "bird-非洲林鴞-2ef7be98.json",
+  "bird": {
+    "id": "bird-非洲林鴞-2ef7be98",
+    "name": "非洲林鴞",
+    "english_name": "African wood owl",
+    "latin_name": "Strix woodfordii",
+    "summary": "非洲林鴞（學名：Strix woodfordii）是一種中等大小的貓頭鷹。 非洲林鴞的眼睛深色及沒有耳羽。它們長30-36厘米及重240-350克。它們分佈在非洲塞內甘比亞邦聯至蘇丹及南至安哥拉、剛果民主共和國、肯雅及南非東岸。它們主要棲息在森林及林地。它們主要吃昆蟲，但也會吃…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/African_Wood_Owl.jpg/960px-African_Wood_Owl.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "name": "Andrew Smith (zoologist)",
+      "summary": "Sir Andrew Smith (3 December 1797 – 11 August 1872) was a British surgeon, explorer, ethnologist and zoologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-非洲林鴞-2ef7be98",
+      "subject": "非洲林鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "object": "Andrew Smith (zoologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The African wood owl (Strix woodfordii) or Woodford's owl, is a typical owl from the genus Strix in the family Strigidae and is arguably the most common forest owl in Africa. It inhabits wooded areas and possesses a distinctive call",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲林鴞-2ef7be98",
+      "subject": "非洲林鴞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

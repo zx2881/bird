@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:41:36",
+  "requested_title": "Mealy Amazon",
+  "resolved_title": "Mealy amazon",
+  "title_aliases": [
+    "Mealy Amazon"
+  ],
+  "bird_id": "bird-mealy-amazon-6384a536",
+  "raw_file": "bird-mealy-amazon-6384a536.json",
+  "bird": {
+    "id": "bird-mealy-amazon-6384a536",
+    "name": "Mealy amazon",
+    "english_name": "Mealy amazon",
+    "latin_name": "Amazona farinosa",
+    "summary": "The mealy amazon or mealy parrot (Amazona farinosa) is among the largest parrots in the genus Amazona, the amazon parrots. It is a mainly g…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mealy_Parrot%2C_Peru.jpg/960px-Mealy_Parrot%2C_Peru.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mealy-amazon-6384a536",
+      "subject": "Mealy amazon",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to tropical Central and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mealy-amazon-6384a536",
+      "subject": "Mealy amazon",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to tropical Central and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mealy-amazon-6384a536",
+      "subject": "Mealy amazon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-mealy-amazon-6384a536",
+      "subject": "Mealy amazon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is fairly common in most of its range, but has declined locally due to habitat loss and trapping for the wild parrot trade",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

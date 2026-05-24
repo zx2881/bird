@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:51:03",
+  "requested_title": "Mountain Tailorbird",
+  "resolved_title": "Mountain tailorbird",
+  "title_aliases": [
+    "Mountain Tailorbird"
+  ],
+  "bird_id": "bird-金头缝叶莺-fa71affd",
+  "raw_file": "bird-金头缝叶莺-fa71affd.json",
+  "bird": {
+    "id": "bird-金头缝叶莺-fa71affd",
+    "name": "金头缝叶莺",
+    "english_name": "Mountain tailorbird",
+    "latin_name": "Phyllergates cucullatus",
+    "summary": "金头缝叶莺（学名：Phyllergates cucullatus）又称栗头织叶莺，为树莺科拟缝叶莺属的鸟类。该物种的模式产地在爪哇。 2022年，为了与其新的分类地位相符，“中国鸟类名录”10.0版将金头缝叶莺中文名修改为金头拟缝叶莺。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Mountain_Tailorbird_0A2A2707.jpg/960px-Mountain_Tailorbird_0A2A2707.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-purvanchal-range-b5ede60e",
+      "name": "Purvanchal Range",
+      "summary": "The Purvanchal Range, or the Eastern Highlands, refers to the northern portion of the Indo-Burman Ranges.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金头缝叶莺-fa71affd",
+      "subject": "金头缝叶莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-purvanchal-range-b5ede60e",
+      "object": "Purvanchal Range",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|A close-up image from Arunachal Pradesh, India It is native to the Purvanchal Range, southern China and mountainous areas of Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金头缝叶莺-fa71affd",
+      "subject": "金头缝叶莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

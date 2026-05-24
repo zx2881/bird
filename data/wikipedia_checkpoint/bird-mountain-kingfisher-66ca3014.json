@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:46:08",
+  "requested_title": "Mountain Kingfisher",
+  "resolved_title": "Mountain kingfisher",
+  "title_aliases": [
+    "Mountain Kingfisher"
+  ],
+  "bird_id": "bird-mountain-kingfisher-66ca3014",
+  "raw_file": "bird-mountain-kingfisher-66ca3014.json",
+  "bird": {
+    "id": "bird-mountain-kingfisher-66ca3014",
+    "name": "Mountain kingfisher",
+    "english_name": "Mountain kingfisher",
+    "latin_name": "Syma megarhyncha",
+    "summary": "The mountain kingfisher (Syma megarhyncha) is a species of bird in the subfamily Halcyoninae in the family Alcedinidae. Adult males are 21–…",
+    "lat": "-4",
+    "lng": "136",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Syma_megarhyncha_218218377_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西巴布亚-b712982c",
+      "name": "西巴布亚",
+      "summary": "西巴布亚，又称西新几内亚，為新几内亚岛（又称伊里安岛）的西部，分為印度尼西亚的巴布亚省、西巴布亚省、中巴布亞省、高地巴布亞省、南巴布亞省。 14世纪初，在新几内亚岛西北部出现凯马纳王国。在殖民者到来之时，蒂多雷苏丹国控制多貝拉伊半島的部分…",
+      "lat": "-4",
+      "lng": "136"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mountain-kingfisher-66ca3014",
+      "subject": "Mountain kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-西巴布亚-b712982c",
+      "object": "西巴布亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mountain kingfisher is endemic to the island of New Guinea, and is found in both Western New Guinea and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-kingfisher-66ca3014",
+      "subject": "Mountain kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mountain kingfisher is endemic to the island of New Guinea, and is found in both Western New Guinea and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-kingfisher-66ca3014",
+      "subject": "Mountain kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "At lower elevations, the species is replaced by the yellow-billed kingfisher. The mountain kingfisher mainly inhabits primary forest and secondary growth within its range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-kingfisher-66ca3014",
+      "subject": "Mountain kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "At lower elevations, the species is replaced by the yellow-billed kingfisher. The mountain kingfisher mainly inhabits primary forest and secondary growth within its range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-kingfisher-66ca3014",
+      "subject": "Mountain kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:29:11",
+  "requested_title": "Rusty-breasted Wheatear",
+  "resolved_title": "Rusty-breasted wheatear",
+  "title_aliases": [
+    "Rusty-breasted Wheatear"
+  ],
+  "bird_id": "bird-rusty-breasted-wheatear-8dc99da1",
+  "raw_file": "bird-rusty-breasted-wheatear-8dc99da1.json",
+  "bird": {
+    "id": "bird-rusty-breasted-wheatear-8dc99da1",
+    "name": "Rusty-breasted wheatear",
+    "english_name": "Rusty-breasted wheatear",
+    "latin_name": "Oenanthe frenata",
+    "summary": "The rusty-breasted wheatear (Oenanthe frenata) is a species of bird in the Old World flycatcher family Muscicapidae that is native to the E…",
+    "lat": "10.705775",
+    "lng": "37.849282",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/2009-0726_Oenanthe_frenata%2C_LakeTana%2C_Ethiopia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-鹟科-916c7945",
+      "name": "鹟科",
+      "summary": "鹟科（学名：Muscicapidae）是鸟纲雀形目中的一个科，本科有51屬324種。 分類 鶲亞科 Muscicapinae 鶲屬 Muscicapa 紅嘴鴉雀屬 Conostoma 方尾鶲屬 Culicicapa 姬鶲屬 Ficedul…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-衣索比亞高原-20c47310",
+      "name": "衣索比亞高原",
+      "summary": "衣索比亞高原（又譯埃塞俄比亞高地）是非洲國家埃塞俄比亞、厄立特里亞和索馬里的一個高原，由一群堅固且大規模的山構成，在非洲之角的索馬里北部及衣索比亞。它有時也被稱為“非洲屋脊”（Roof of Africa），因為它的高度和很大的面積。 衣…",
+      "lat": "10.705775",
+      "lng": "37.849282"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rusty-breasted-wheatear-8dc99da1",
+      "subject": "Rusty-breasted wheatear",
+      "predicate": "distributed_in",
+      "object_id": "loc-鹟科-916c7945",
+      "object": "鹟科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2016 |title=Oenanthe frenata |volume=2016 |article-number=e.T103774137A104221676 |doi=10.2305/IUCN.UK.2016-3.RLTS.T103774137A104221676.en |access-date=3 July 2024}} | taxon = Oenanthe frenata | authority = (Heuglin, 1869) | synonyms = }} The rusty-breasted wheatear (Oenanthe frenata) is a species of bird in the Old World flycatcher family Muscicapidae that is native to the Ethiopian Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-breasted-wheatear-8dc99da1",
+      "subject": "Rusty-breasted wheatear",
+      "predicate": "distributed_in",
+      "object_id": "loc-衣索比亞高原-20c47310",
+      "object": "衣索比亞高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2016 |title=Oenanthe frenata |volume=2016 |article-number=e.T103774137A104221676 |doi=10.2305/IUCN.UK.2016-3.RLTS.T103774137A104221676.en |access-date=3 July 2024}} | taxon = Oenanthe frenata | authority = (Heuglin, 1869) | synonyms = }} The rusty-breasted wheatear (Oenanthe frenata) is a species of bird in the Old World flycatcher family Muscicapidae that is native to the Ethiopian Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-breasted-wheatear-8dc99da1",
+      "subject": "Rusty-breasted wheatear",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

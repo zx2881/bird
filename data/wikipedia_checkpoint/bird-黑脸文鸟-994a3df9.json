@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:47:13",
+  "requested_title": "Black-faced Munia",
+  "resolved_title": "Black-faced munia",
+  "title_aliases": [
+    "Black-faced Munia"
+  ],
+  "bird_id": "bird-黑脸文鸟-994a3df9",
+  "raw_file": "bird-黑脸文鸟-994a3df9.json",
+  "bird": {
+    "id": "bird-黑脸文鸟-994a3df9",
+    "name": "黑脸文鸟",
+    "english_name": "Black-faced munia",
+    "latin_name": "Lonchura molucca",
+    "summary": "黑脸文鸟（学名：Lonchura molucca），是梅花雀科文鸟属的一种，分布于东帝汶和印度尼西亚。该物种的保护状况被评为无危。 黑脸文鸟的栖息地包括亚热带或热带的湿润低地林、亚热带或热带的（低地）干草原、乡村花园、亚热带或热带的（低地）湿润疏灌丛和耕地。",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Molucco.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-东帝汶-7f03b6c1",
+      "name": "东帝汶",
+      "summary": "東帝汶民主共和國（德頓語：Repúblika Demokrátika Timor-Leste；葡萄牙語：República Democrática de Timor-Leste），通称东帝汶（德頓語：Timor Lorosa'e；葡萄牙語…",
+      "lat": "-8.55",
+      "lng": "125.56"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑脸文鸟-994a3df9",
+      "subject": "黑脸文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-faced munia (Lonchura molucca) is a species of estrildid finch found in Indonesia and East Timor",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑脸文鸟-994a3df9",
+      "subject": "黑脸文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-faced munia (Lonchura molucca) is a species of estrildid finch found in Indonesia and East Timor",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑脸文鸟-994a3df9",
+      "subject": "黑脸文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-东帝汶-7f03b6c1",
+      "object": "东帝汶",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-faced munia (Lonchura molucca) is a species of estrildid finch found in Indonesia and East Timor",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑脸文鸟-994a3df9",
+      "subject": "黑脸文鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

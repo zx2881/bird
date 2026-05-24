@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:15:12",
+  "requested_title": "Green-tailed Warbler",
+  "resolved_title": "Green-tailed warbler",
+  "title_aliases": [
+    "Green-tailed Warbler"
+  ],
+  "bird_id": "bird-green-tailed-warbler-a2394be0",
+  "raw_file": "bird-green-tailed-warbler-a2394be0.json",
+  "bird": {
+    "id": "bird-green-tailed-warbler-a2394be0",
+    "name": "Green-tailed warbler",
+    "english_name": "Green-tailed warbler",
+    "latin_name": "Microligea palustris",
+    "summary": "The green-tailed warbler (Microligea palustris), also known as the green-tailed ground-tanager, is a species of bird of the family Phaenico…",
+    "lat": "18.75",
+    "lng": "-70.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Green-tailed_Warbler%28Microligea_palustris%29_%288082776636%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-cordillera-central-dominican-republic-29eb134b",
+      "name": "Cordillera Central, Dominican Republic",
+      "summary": "The Cordillera Central is the highest mountain range in the Dominican Republic and in all of the Caribbean, running thr…",
+      "lat": "18.75",
+      "lng": "-70.5"
+    },
+    {
+      "id": "loc-hispaniolan-pine-forests-509c829e",
+      "name": "Hispaniolan pine forests",
+      "summary": "The Hispaniolan pine forests are a subtropical coniferous forest ecoregion found on the Caribbean island of Hispaniola,…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-貝阿塔島-bbaf45ae",
+      "name": "貝阿塔島",
+      "summary": "貝阿塔島（西班牙語：Isla Beata）是多明尼加共和國的島嶼，位於加勒比海，屬於大安地列斯群島的一部分，由佩德納萊斯省負責管轄，長9公里、寬4公里，面積27平方公里，島上無人居住。 外部連結 nautilusproject.com L…",
+      "lat": "17.57833333",
+      "lng": "-71.51166667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-tailed-warbler-a2394be0",
+      "subject": "Green-tailed warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-cordillera-central-dominican-republic-29eb134b",
+      "object": "Cordillera Central, Dominican Republic",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of the green-tailed warbler is found in the highlands of central Hispaniola that span the border between Haiti and the Dominican Republic, though it is found almost entirely in the latter country",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-tailed-warbler-a2394be0",
+      "subject": "Green-tailed warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-pine-forests-509c829e",
+      "object": "Hispaniolan pine forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There it inhabits broadleaf and pine montane forest with a dense understory at elevations up to about",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-tailed-warbler-a2394be0",
+      "subject": "Green-tailed warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-貝阿塔島-bbaf45ae",
+      "object": "貝阿塔島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "vasta is a disjunct population found in the southwestern Dominican Republic lowlands and Beata Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-tailed-warbler-a2394be0",
+      "subject": "Green-tailed warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "There it inhabits broadleaf and pine montane forest with a dense understory at elevations up to about",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-green-tailed-warbler-a2394be0",
+      "subject": "Green-tailed warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "There, it inhabits semi-arid scrublands near sea level",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-green-tailed-warbler-a2394be0",
+      "subject": "Green-tailed warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-green-tailed-warbler-a2394be0",
+      "subject": "Green-tailed warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The main potential threats are continuing habitat destruction and predation by introduced small Indian mongooses. It is considered locally common",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:17:22",
+  "requested_title": "Cape Rock Thrush",
+  "resolved_title": "Cape rock thrush",
+  "title_aliases": [
+    "Cape Rock Thrush"
+  ],
+  "bird_id": "bird-cape-rock-thrush-47a34dc2",
+  "raw_file": "bird-cape-rock-thrush-47a34dc2.json",
+  "bird": {
+    "id": "bird-cape-rock-thrush-47a34dc2",
+    "name": "Cape rock thrush",
+    "english_name": "Cape rock thrush",
+    "latin_name": "Monticola rupestris",
+    "summary": "The Cape Rock-Thrush (Monticola rupestris) is a member of the bird family Muscicapidae. This rock-thrush breeds in eastern and southern Sou…",
+    "lat": "-30",
+    "lng": "25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Monticola_rupestris_-Marakele_National_Park%2C_South_Africa_-male-8_%281%29.jpg/960px-Monticola_rupestris_-Marakele_National_Park%2C_South_Africa_-male-8_%281%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    },
+    {
+      "id": "loc-莱索托-debacd09",
+      "name": "莱索托",
+      "summary": "莱索托王国（索托語：Mmuso wa Lesotho，英語：Kingdom of Lesotho），简称莱索托，位处非洲南部，是全世界最大国中国，全境完全被南非共和国包围，接壤边境线909公里长。因地处高原，莱索托也被称为“天空王国”。莱…",
+      "lat": "-29.6",
+      "lng": "28.3"
+    },
+    {
+      "id": "loc-史瓦帝尼-8e8b2b40",
+      "name": "史瓦帝尼",
+      "summary": "史瓦帝尼王國（史瓦帝語：Umbuso weSwatini；英語：Kingdom of Eswatini），通稱史瓦帝尼（史瓦帝語：eSwatini；英語：Eswatini），是位於非洲南部的一个內陸國家。史瓦帝尼北、西、南三面均為南非所包…",
+      "lat": "-26.5",
+      "lng": "31.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cape-rock-thrush-47a34dc2",
+      "subject": "Cape rock thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This rock-thrush breeds in eastern and southern South Africa, Lesotho and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-rock-thrush-47a34dc2",
+      "subject": "Cape rock thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-莱索托-debacd09",
+      "object": "莱索托",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This rock-thrush breeds in eastern and southern South Africa, Lesotho and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-rock-thrush-47a34dc2",
+      "subject": "Cape rock thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-史瓦帝尼-8e8b2b40",
+      "object": "史瓦帝尼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This rock-thrush breeds in eastern and southern South Africa, Lesotho and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-rock-thrush-47a34dc2",
+      "subject": "Cape rock thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-cape-rock-thrush-47a34dc2",
+      "subject": "Cape rock thrush",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, localized declines have occurred due to habitat loss caused by urban expansion, mining, and increased tourism in mountainous regions. Although its conservation status remains stable, ongoing habitat fragmentation presents a potential threat to its long-term survival, particularly in areas undergoing rapid development or land-use changes. Conservation efforts aimed at preserving montane habitats and managing tourism in sensitive regions are essential for maintaining healthy populations",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:56:21",
+  "requested_title": "Yungas Antwren",
+  "resolved_title": "Yungas antwren",
+  "title_aliases": [
+    "Yungas Antwren"
+  ],
+  "bird_id": "bird-yungas-antwren-c463522d",
+  "raw_file": "bird-yungas-antwren-c463522d.json",
+  "bird": {
+    "id": "bird-yungas-antwren-c463522d",
+    "name": "Yungas antwren",
+    "english_name": "Yungas antwren",
+    "latin_name": "Myrmotherula grisea",
+    "summary": "The Yungas antwren or ashy antwren (Myrmotherula grisea) is a bird species in subfamily Thamnophilinae of family Thamnophilidae, the \"typic…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ashy_antwren_%28Myrmotherula_grisea%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yungas-antwren-c463522d",
+      "subject": "Yungas antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Downloaded from https://www.birds.cornell.edu/clementschecklist/download/ retrieved October 28, 2023 (Myrmotherula grisea) is a bird species in subfamily Thamnophilinae of family Thamnophilidae, the \"typical antbirds\". It is found in Bolivia and Peru.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yungas-antwren-c463522d",
+      "subject": "Yungas antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Downloaded from https://www.birds.cornell.edu/clementschecklist/download/ retrieved October 28, 2023 (Myrmotherula grisea) is a bird species in subfamily Thamnophilinae of family Thamnophilidae, the \"typical antbirds\". It is found in Bolivia and Peru.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yungas-antwren-c463522d",
+      "subject": "Yungas antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "18(4): 331–348 In both countries the Jungas antwren inhabits the mid-storey and subcanopy of evergreen forest in foothills and the submontane zone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yungas-antwren-c463522d",
+      "subject": "Yungas antwren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-yungas-antwren-c463522d",
+      "subject": "Yungas antwren",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"It is threatened by deforestation within its small geographic and elevational range, especially in La Paz and Cochabamba.\" \"Nevertheless, vast amounts of pristine forest remain in inaccessible areas within the species's elevational range, although it may be excluded by the harsh climate in some of these areas.\" It is considered uncommon to common but occurs in only one major protected area",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

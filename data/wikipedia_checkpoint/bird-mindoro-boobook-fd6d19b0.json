@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:18:06",
+  "requested_title": "Mindoro Boobook",
+  "resolved_title": "Mindoro boobook",
+  "title_aliases": [
+    "Mindoro Boobook"
+  ],
+  "bird_id": "bird-mindoro-boobook-fd6d19b0",
+  "raw_file": "bird-mindoro-boobook-fd6d19b0.json",
+  "bird": {
+    "id": "bird-mindoro-boobook-fd6d19b0",
+    "name": "Mindoro boobook",
+    "english_name": "Mindoro boobook",
+    "latin_name": "Ninox mindorensis",
+    "summary": "The Mindoro boobook or Mindoro hawk-owl (Ninox mindorensis) is a species of owl in the family Strigidae that is endemic to the Philippines.…",
+    "lat": "13.16666667",
+    "lng": "121.33333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Mindoro_Boobook_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-瑙漢湖-b24ebaeb",
+      "name": "瑙漢湖",
+      "summary": "瑙漢湖是菲律賓的湖泊，位於民都洛島，由東民都洛省負責管轄，長14公里、寬7公里，面積81.25平方公里，是該國第五大湖泊，海拔高度20米，最大水深45米，該湖被劃為國家公園。 外部連結 Ramsar information sheet",
+      "lat": "13.16666667",
+      "lng": "121.33333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mindoro-boobook-fd6d19b0",
+      "subject": "Mindoro boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-瑙漢湖-b24ebaeb",
+      "object": "瑙漢湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas in Mounts Iglit-Baco National Park (which is also the stronghold of the critically endangered Tamaraw) and Naujan Lake National Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mindoro-boobook-fd6d19b0",
+      "subject": "Mindoro boobook",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-mindoro-boobook-fd6d19b0",
+      "subject": "Mindoro boobook",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of legal and illegal logging, mining, conversion into farmlands and urbanization",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-mindoro-boobook-fd6d19b0",
+      "subject": "Mindoro boobook",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of legal and illegal logging, mining, conversion into farmlands and urbanization",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

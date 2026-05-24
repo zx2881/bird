@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:09:20",
+  "requested_title": "Northern Nightingale-Wren",
+  "resolved_title": "Northern nightingale-wren",
+  "title_aliases": [
+    "Northern Nightingale-Wren"
+  ],
+  "bird_id": "bird-northern-nightingale-wren-acdcb22a",
+  "raw_file": "bird-northern-nightingale-wren-acdcb22a.json",
+  "bird": {
+    "id": "bird-northern-nightingale-wren-acdcb22a",
+    "name": "Northern nightingale-wren",
+    "english_name": "Northern nightingale-wren",
+    "latin_name": "Microcerculus philomela",
+    "summary": "The northern nightingale-wren (Microcerculus philomela), or nightingale wren, is a species of passerine bird in the family Troglodytidae. I…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Microcerculus_philomela_1902.jpg/960px-Microcerculus_philomela_1902.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶森林-735a0725",
+      "name": "熱帶森林",
+      "summary": "热带森林是位於热带的森林，大致位於北回歸線與南回歸線之間。有些樹林很难被确定為热带森林。虽然温带地区的森林很容易根据树冠密度进行區分，但这种方法并不适用於热带森林。无论是在热带地区还是在其他地区，都没有一个单一的方法来界定什么是森林。不過…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-northern-nightingale-wren-acdcb22a",
+      "subject": "Northern nightingale-wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶森林-735a0725",
+      "object": "熱帶森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Mexico it ranges in elevation from near sea level to , and in Costa Rica occasionally up to that level but more commonly only as high as . The northern nightingale-wren inhabits the interior of lowland tropical forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-northern-nightingale-wren-acdcb22a",
+      "subject": "Northern nightingale-wren",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

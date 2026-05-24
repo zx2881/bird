@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:15:35",
+  "requested_title": "Little Woodswallow",
+  "resolved_title": "Little woodswallow",
+  "title_aliases": [
+    "Little Woodswallow"
+  ],
+  "bird_id": "bird-little-woodswallow-2bda6b84",
+  "raw_file": "bird-little-woodswallow-2bda6b84.json",
+  "bird": {
+    "id": "bird-little-woodswallow-2bda6b84",
+    "name": "Little woodswallow",
+    "english_name": "Little woodswallow",
+    "latin_name": "Artamus minor",
+    "summary": "The little woodswallow (Artamus minor), is a bird patchily distributed over much of mainland Australia, avoiding only the driest deserts an…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Little_Woodswallow_Bowra.JPG/960px-Little_Woodswallow_Bowra.JPG"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-little-woodswallow-2bda6b84",
+      "subject": "Little woodswallow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-little-woodswallow-2bda6b84",
+      "subject": "Little woodswallow",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Little woodswallows soar effortlessly above the treetops or along cliff faces when hunting flying insects&mdash;being small, they are easily confused with martins",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:42:33",
+  "requested_title": "Woodland Kingfisher",
+  "resolved_title": "Woodland kingfisher",
+  "title_aliases": [
+    "Woodland Kingfisher"
+  ],
+  "bird_id": "bird-woodland-kingfisher-7bb34943",
+  "raw_file": "bird-woodland-kingfisher-7bb34943.json",
+  "bird": {
+    "id": "bird-woodland-kingfisher-7bb34943",
+    "name": "Woodland kingfisher",
+    "english_name": "Woodland kingfisher",
+    "latin_name": "Halcyon senegalensis",
+    "summary": "The woodland kingfisher (Halcyon senegalensis) is a tree kingfisher that is widely distributed in Africa south of the Sahara. Taxonomy The…",
+    "lat": "23",
+    "lng": "13",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Woodland_Kingfisher_%28Halcyon_senegalensis%29_South_Africa.jpg/960px-Woodland_Kingfisher_%28Halcyon_senegalensis%29_South_Africa.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    },
+    {
+      "id": "loc-比勒陀利亞-013ccc79",
+      "name": "比勒陀利亞",
+      "summary": "比勒陀利亞（阿非利卡語：Pretoria，英語：Pretoria /prɪˈtɔːriə/，祖魯語：ePitoli，茨瓦納語：Tshwane；臺灣舊譯為普瑞陀利亞），亦稱為斐京，是位於南非豪登省北部的城市，同時也是南非的行政首都。南非總統…",
+      "lat": "-25.74611111",
+      "lng": "28.18805556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-woodland-kingfisher-7bb34943",
+      "subject": "Woodland kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|in Namibia thumb|in Uganda thumb|In The Gambia thumb The woodland kingfisher (Halcyon senegalensis) is a tree kingfisher that is widely distributed in Africa south of the Sahara",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-woodland-kingfisher-7bb34943",
+      "subject": "Woodland kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|in Namibia thumb|in Uganda thumb|In The Gambia thumb The woodland kingfisher (Halcyon senegalensis) is a tree kingfisher that is widely distributed in Africa south of the Sahara",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-woodland-kingfisher-7bb34943",
+      "subject": "Woodland kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-比勒陀利亞-013ccc79",
+      "object": "比勒陀利亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The woodland kingfisher is widely distributed in tropical Africa south of the Sahara and from Pretoria northwards",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-woodland-kingfisher-7bb34943",
+      "subject": "Woodland kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:13:19",
+  "requested_title": "Yellow-bellied Prinia",
+  "resolved_title": "Yellow-bellied prinia",
+  "title_aliases": [
+    "Yellow-bellied Prinia"
+  ],
+  "bird_id": "bird-黄腹鹪莺-c28dc219",
+  "raw_file": "bird-黄腹鹪莺-c28dc219.json",
+  "bird": {
+    "id": "bird-黄腹鹪莺-c28dc219",
+    "name": "黄腹鹪莺",
+    "english_name": "Yellow-bellied prinia",
+    "latin_name": "Prinia flaviventris",
+    "summary": "黄腹鹪莺（學名：Prinia flaviventris），又名灰头鹪莺，为扇尾鶯科鹪莺属的鸟类。该物种的模式产地在不丹。。鷦鶯屬的鳥類在臺灣俗稱望冬䳂仔（臺羅：bāng-tang-tiú-á）、望冬仔（臺羅：bāng-tang-á）；而望冬䳂仔（臺羅：bāng-tang-tiú…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Yellow-bellied_prinia_%28Prinia_flaviventris%29_Tonle_Sap.jpg/960px-Yellow-bellied_prinia_%28Prinia_flaviventris%29_Tonle_Sap.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "巴基斯坦伊斯兰共和国（乌尔都语：اسلامی جمہوریہ پاکستان‬；英语：Islamic Republic of Pakistan），通称巴基斯坦，位于南亚，东与印度比邻，南面是印度洋，西与伊朗接壤，西北和阿富汗相連，東北与中…",
+      "lat": "30",
+      "lng": "70"
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄腹鹪莺-c28dc219",
+      "subject": "黄腹鹪莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Pakistan, the southern Himalayan foothills, the northeastern Indian subcontinent, and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹鹪莺-c28dc219",
+      "subject": "黄腹鹪莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Pakistan, the southern Himalayan foothills, the northeastern Indian subcontinent, and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹鹪莺-c28dc219",
+      "subject": "黄腹鹪莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Pakistan, the southern Himalayan foothills, the northeastern Indian subcontinent, and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹鹪莺-c28dc219",
+      "subject": "黄腹鹪莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

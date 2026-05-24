@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:23:17",
+  "requested_title": "Northern Saw-whet Owl",
+  "resolved_title": "Northern saw-whet owl",
+  "title_aliases": [
+    "Northern Saw-whet Owl"
+  ],
+  "bird_id": "bird-northern-saw-whet-owl-2841a04e",
+  "raw_file": "bird-northern-saw-whet-owl-2841a04e.json",
+  "bird": {
+    "id": "bird-northern-saw-whet-owl-2841a04e",
+    "name": "Northern saw-whet owl",
+    "english_name": "Northern saw-whet owl",
+    "latin_name": "Aegolius acadicus",
+    "summary": "The northern saw-whet owl (Aegolius acadicus) is a species of small owl in the family Strigidae. The species is native to North America.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Male_Northern_Saw-whet_Owl_%287364047820%29.jpg/960px-Male_Northern_Saw-whet_Owl_%287364047820%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-northern-saw-whet-owl-2841a04e",
+      "subject": "Northern saw-whet owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is native to North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-northern-saw-whet-owl-2841a04e",
+      "subject": "Northern saw-whet owl",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Most birds nest in dense coniferous forests near wetlands during the breeding season, but may also breed in mixed-deciduous forests at the southern edge of their range in the eastern United States.Rasmussen, J.L., S.G",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-northern-saw-whet-owl-2841a04e",
+      "subject": "Northern saw-whet owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

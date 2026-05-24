@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:58:11",
+  "requested_title": "Blue-vented Hummingbird",
+  "resolved_title": "Blue-vented hummingbird",
+  "title_aliases": [
+    "Blue-vented Hummingbird"
+  ],
+  "bird_id": "bird-蓝臀蜂鸟-c7712fb5",
+  "raw_file": "bird-蓝臀蜂鸟-c7712fb5.json",
+  "bird": {
+    "id": "bird-蓝臀蜂鸟-c7712fb5",
+    "name": "蓝臀蜂鸟",
+    "english_name": "Blue-vented hummingbird",
+    "latin_name": "Saucerottia hoffmanni",
+    "summary": "蓝臀蜂鸟（学名：Saucerottia hoffmanni）是雨燕目蜂鸟科的一种鸟类。 蓝臀蜂鸟体重约4.5克，翼长约53.6毫米，嘴峰长约21.8毫米，喙宽度约2.4毫米，喙厚度约2毫米，跗蹠长约5.2毫米，尾长约29.8毫米。蓝臀蜂鸟在其分布区内为留鸟，其栖息在半开放的灌木…",
+    "lat": "10",
+    "lng": "-84",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Blue-vented_Hummingbird_Costa_Rica.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥斯达黎加-6c4f73ad",
+      "name": "哥斯达黎加",
+      "summary": "哥斯达黎加共和國（西班牙語：República de Costa Rica），通稱哥斯达黎加（Costa Rica），是中美洲国家，北邻尼加拉瓜，南与巴拿马接壤，首都為聖荷西。 哥斯达黎加是当今世界上第一个裁撤军队的国家。目前哥斯大黎加是…",
+      "lat": "10",
+      "lng": "-84"
+    },
+    {
+      "id": "loc-尼加拉瓜-7d1016c5",
+      "name": "尼加拉瓜",
+      "summary": "尼加拉瓜共和国（西班牙語：República de Nicaragua），通稱尼加拉瓜（西班牙語：Nicaragua），是位於中美洲的一個國家，為中美地峡面積最大的國家，其首都為馬納瓜。地理上北鄰洪都拉斯，南邊是哥斯達黎加，東臨加勒比海、…",
+      "lat": "13",
+      "lng": "-85"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝臀蜂鸟-c7712fb5",
+      "subject": "蓝臀蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥斯达黎加-6c4f73ad",
+      "object": "哥斯达黎加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Nicaragua.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝臀蜂鸟-c7712fb5",
+      "subject": "蓝臀蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼加拉瓜-7d1016c5",
+      "object": "尼加拉瓜",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Nicaragua.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝臀蜂鸟-c7712fb5",
+      "subject": "蓝臀蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits semi-open landscapes such as scrublands, savanna, the edges of mature forest, secondary forest, and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝臀蜂鸟-c7712fb5",
+      "subject": "蓝臀蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits semi-open landscapes such as scrublands, savanna, the edges of mature forest, secondary forest, and gardens",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-蓝臀蜂鸟-c7712fb5",
+      "subject": "蓝臀蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits semi-open landscapes such as scrublands, savanna, the edges of mature forest, secondary forest, and gardens",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-蓝臀蜂鸟-c7712fb5",
+      "subject": "蓝臀蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mature-forest",
+      "object": "成熟森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits semi-open landscapes such as scrublands, savanna, the edges of mature forest, secondary forest, and gardens",
+      "object_summary": "具备成熟林冠和树洞资源的森林生境。"
+    }
+  ]
+}

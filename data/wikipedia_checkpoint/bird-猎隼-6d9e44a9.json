@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:28:14",
+  "requested_title": "Saker Falcon",
+  "resolved_title": "Saker falcon",
+  "title_aliases": [
+    "Saker Falcon"
+  ],
+  "bird_id": "bird-猎隼-6d9e44a9",
+  "raw_file": "bird-猎隼-6d9e44a9.json",
+  "bird": {
+    "id": "bird-猎隼-6d9e44a9",
+    "name": "猎隼",
+    "english_name": "Saker falcon",
+    "latin_name": "Falco cherrug",
+    "summary": "猎隼（学名：Falco cherrug）为隼科隼属的鸟类。多生活于高山和高原。该物种的模式产地在印度。 保护 中国国家重点保护动物等级：一级 亚种 猎隼北方亚种（学名：Falco cherrug milvipes）。在中国大陆，分布于新疆、青海、四川、甘肃、内蒙古、辽宁、西藏、…",
+    "lat": "49",
+    "lng": "89",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Falco_cherrug_%28Marek_Szczepanek%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿尔泰山脉-1a06c867",
+      "name": "阿尔泰山脉",
+      "summary": "阿尔泰山脉（維吾爾語：ئالتاي تاغ تىزمىسى；俄語：Алтай；蒙古語：ᠠᠯᠲᠠᠢ · Алтай或ᠠᠯᠲᠠᠢ ᠶ᠋ᠢᠨᠨᠢᠷᠤᠭᠤ · Алтайн нуруу；哈薩克語：Алтай таулары）从中国新疆维吾尔自治区…",
+      "lat": "49",
+      "lng": "89"
+    },
+    {
+      "id": "loc-青藏高原-d19147a0",
+      "name": "青藏高原",
+      "summary": "青藏高原（藏語：བོད་ས་མཐོ，威利转写：Bod Sa mTho，藏语拼音：Pösamto），亦稱西藏高原、青康藏高原、海藏高原，是亚洲的高原地区，世界上最高的高原，平均海拔高度4500米，面积250万平方公里，有“世界屋脊”、“雪域…",
+      "lat": "33",
+      "lng": "88"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-猎隼-6d9e44a9",
+      "subject": "猎隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔泰山脉-1a06c867",
+      "object": "阿尔泰山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The migratory birds to the east from Altai Mountains spend the winter in the Qinghai-Tibet Plateau. The saker falcon is the second fastest bird in level flight after the white-throated needletail swift (unconfirmed), capable of reaching",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-猎隼-6d9e44a9",
+      "subject": "猎隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-青藏高原-d19147a0",
+      "object": "青藏高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The migratory birds to the east from Altai Mountains spend the winter in the Qinghai-Tibet Plateau. The saker falcon is the second fastest bird in level flight after the white-throated needletail swift (unconfirmed), capable of reaching",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-猎隼-6d9e44a9",
+      "subject": "猎隼",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-猎隼-6d9e44a9",
+      "subject": "猎隼",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Kazakhstan is estimated to lose up to 1,000 saker falcons per year. The species also faces pressure from habitat loss and destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

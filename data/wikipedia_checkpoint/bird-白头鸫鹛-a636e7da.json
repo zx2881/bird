@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:54:09",
+  "requested_title": "White-headed Babbler",
+  "resolved_title": "White-headed babbler",
+  "title_aliases": [
+    "White-headed Babbler"
+  ],
+  "bird_id": "bird-白头鸫鹛-a636e7da",
+  "raw_file": "bird-白头鸫鹛-a636e7da.json",
+  "bird": {
+    "id": "bird-白头鸫鹛-a636e7da",
+    "name": "白头鸫鹛",
+    "english_name": "White-headed babbler",
+    "latin_name": "Turdoides leucocephala",
+    "summary": "白头鸫鹛（学名：Turdoides leucocephala），是画眉科鸫鹛属的一种，分布于苏丹、厄立特里亚和埃塞俄比亚。全球活动范围约为283,000平方千米。该物种的保护状况被评为无危。 白头鸫鹛的栖息地包括干燥的稀树草原、亚热带或热带低地的干燥疏灌丛和河流、溪流。",
+    "lat": "15",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Cretzschmar%27s_Babbler_imported_from_iNaturalist_photo_73800189_on_10_January_2023.jpg/960px-Cretzschmar%27s_Babbler_imported_from_iNaturalist_photo_73800189_on_10_January_2023.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-厄立特里亚-7ee8b9af",
+      "name": "厄立特里亚",
+      "summary": "厄立特里亚国（英語：State of Eritrea，提格利尼亞語：ሃገረ ኤርትራ，阿拉伯語：دولة إرتريا）， 通稱厄利垂亞，是位於非洲東北部的国家，濒临红海，面积11.7万平方公里，人口約368萬人（2024年），首都为阿斯…",
+      "lat": "15",
+      "lng": "39"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-苏丹-2e3eec83",
+      "name": "苏丹",
+      "summary": "蘇丹共和國（阿拉伯語：جمهورية السودان；Republic of the Sudan），通稱蘇丹（阿拉伯語：السودان，羅馬化：Sūdān，/suːˈdɑːn/或/suːˈdæn/），南蘇丹獨立後亦被稱為北蘇丹，是位於東北…",
+      "lat": "15",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白头鸫鹛-a636e7da",
+      "subject": "白头鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄立特里亚-7ee8b9af",
+      "object": "厄立特里亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eritrea, Ethiopia, and Sudan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鸫鹛-a636e7da",
+      "subject": "白头鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eritrea, Ethiopia, and Sudan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鸫鹛-a636e7da",
+      "subject": "白头鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏丹-2e3eec83",
+      "object": "苏丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eritrea, Ethiopia, and Sudan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鸫鹛-a636e7da",
+      "subject": "白头鸫鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

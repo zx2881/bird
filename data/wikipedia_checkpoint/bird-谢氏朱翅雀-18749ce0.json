@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:01:12",
+  "requested_title": "Shelley's Crimsonwing",
+  "resolved_title": "Shelley's crimsonwing",
+  "title_aliases": [
+    "Shelley's Crimsonwing"
+  ],
+  "bird_id": "bird-谢氏朱翅雀-18749ce0",
+  "raw_file": "bird-谢氏朱翅雀-18749ce0.json",
+  "bird": {
+    "id": "bird-谢氏朱翅雀-18749ce0",
+    "name": "谢氏朱翅雀",
+    "english_name": "Shelley's crimsonwing",
+    "latin_name": "Cryptospiza shelleyi",
+    "summary": "谢氏朱翅雀（学名：Cryptospiza shelleyi），是梅花雀科朱翅雀属的一种，分布于布隆迪、刚果民主共和国、乌干达和卢旺达。全球活动范围约为46,200平方千米。该物种的保护状况被评为易危。 谢氏朱翅雀的平均体重约为17.6克。栖息于亚热带或热带的湿润山地林。",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cryptospiza_shelleyi.jpg/960px-Cryptospiza_shelleyi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "name": "理查德·鮑德勒·夏普",
+      "summary": "理查德·鮑德勒·夏普（英語：Richard Bowdler Sharpe，1847年11月22日—1909年12月25日）是一位英國動物學家兼鳥類學家，於大英博物館擔任鳥類標本的策展人。在其職涯裡，夏普出版了一些有關鳥類的專著，並整理出博…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-谢氏朱翅雀-18749ce0",
+      "subject": "谢氏朱翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "object": "理查德·鮑德勒·夏普",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Shelley's crimsonwing (Cryptospiza shelleyi) is a vulnerable species of estrildid finch native to the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-谢氏朱翅雀-18749ce0",
+      "subject": "谢氏朱翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Shelley's crimsonwing (Cryptospiza shelleyi) is a vulnerable species of estrildid finch native to the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-谢氏朱翅雀-18749ce0",
+      "subject": "谢氏朱翅雀",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-谢氏朱翅雀-18749ce0",
+      "subject": "谢氏朱翅雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It has shown population decline over the past few decades, with a current population estimate of 1,000–2,499. This is possibly related to uncontrolled deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

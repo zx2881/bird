@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:35:21",
+  "requested_title": "Rufous-tailed Lark",
+  "resolved_title": "Rufous-tailed lark",
+  "title_aliases": [
+    "Rufous-tailed Lark"
+  ],
+  "bird_id": "bird-棕尾漠百灵-c01b6969",
+  "raw_file": "bird-棕尾漠百灵-c01b6969.json",
+  "bird": {
+    "id": "bird-棕尾漠百灵-c01b6969",
+    "name": "棕尾漠百灵",
+    "english_name": "Rufous-tailed lark",
+    "latin_name": "Ammomanes phoenicura",
+    "summary": "棕尾漠百灵（学名：Ammomanes phoenicura），是百灵科漠百灵属的一种，分布于印度、尼泊尔和巴基斯坦。该物种的保护状况被评为无危。 棕尾漠百灵的平均体重约为25.6克。栖息地包括亚热带或热带的（低地）干草原和亚热带或热带的（低地）干燥疏灌丛。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Rufous-tailed_lark_-_Jamnagar%2C_Gujarat_2020-08-02.jpg/960px-Rufous-tailed_lark_-_Jamnagar%2C_Gujarat_2020-08-02.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-james-franklin-naturalist-3d86efd6",
+      "name": "James Franklin (naturalist)",
+      "summary": "James Franklin (c.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕尾漠百灵-c01b6969",
+      "subject": "棕尾漠百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-james-franklin-naturalist-3d86efd6",
+      "object": "James Franklin (naturalist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The rufous-tailed lark (Ammomanes phoenicura), also sometimes called the rufous-tailed finch-lark, is a ground bird found in the drier open stony habitats of India and parts of Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕尾漠百灵-c01b6969",
+      "subject": "棕尾漠百灵",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

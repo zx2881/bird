@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:47:15",
+  "requested_title": "Little Spiderhunter",
+  "resolved_title": "Little spiderhunter",
+  "title_aliases": [
+    "Little Spiderhunter"
+  ],
+  "bird_id": "bird-长嘴捕蛛鸟-61f14ecb",
+  "raw_file": "bird-长嘴捕蛛鸟-61f14ecb.json",
+  "bird": {
+    "id": "bird-长嘴捕蛛鸟-61f14ecb",
+    "name": "长嘴捕蛛鸟",
+    "english_name": "Little spiderhunter",
+    "latin_name": "Arachnothera longirostra",
+    "summary": "长嘴捕蛛鸟（学名：Arachnothera longirostris）为太阳鸟科捕蛛鸟属的鸟类。其种加词“longirostris”意为“长吻的”。分布于印度经尼泊尔至印度、中南半岛、马来半岛、印度尼西亚、菲律宾以及中国大陆的云南等地，多生活于村寨附近阔叶树丛的小乔木树上。该物…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/SpiderhunterSabah.jpg/960px-SpiderhunterSabah.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-长嘴捕蛛鸟-61f14ecb",
+      "subject": "长嘴捕蛛鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "longirostra (Sabah, Borneo) | status = LC | status_system = IUCN3.1 | status_ref = | genus = Arachnothera | species = longirostra | authority = (Latham, 1790) | synonyms = }} The little spiderhunter (Arachnothera longirostra) is a species of long-billed nectar-feeding bird in the family Nectariniidae found in the moist forests of South and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-长嘴捕蛛鸟-61f14ecb",
+      "subject": "长嘴捕蛛鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

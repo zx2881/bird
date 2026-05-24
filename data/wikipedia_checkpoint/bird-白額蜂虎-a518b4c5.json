@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:57:15",
+  "requested_title": "White-fronted Bee-eater",
+  "resolved_title": "White-fronted bee-eater",
+  "title_aliases": [
+    "White-fronted Bee-eater"
+  ],
+  "bird_id": "bird-白額蜂虎-a518b4c5",
+  "raw_file": "bird-白額蜂虎-a518b4c5.json",
+  "bird": {
+    "id": "bird-白額蜂虎-a518b4c5",
+    "name": "白額蜂虎",
+    "english_name": "White-fronted bee-eater",
+    "latin_name": "Merops bullockoides",
+    "summary": "白額蜂虎（学名：Merops bullockoides）是分佈在非洲亞赤道帶的蜂虎。 特徵 白額蜂虎色彩鮮艷，身體幼長，面部黑色，前額白色，尾巴方形，喉嚨呈鮮紅色。牠們的上身綠色，下身肉桂色。牠們的叫聲是低沉的嘎聲。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/White-fronted_bee-eater_%28Merops_bullockoides%29_Namibia.jpg/960px-White-fronted_bee-eater_%28Merops_bullockoides%29_Namibia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "name": "Andrew Smith (zoologist)",
+      "summary": "Sir Andrew Smith (3 December 1797 – 11 August 1872) was a British surgeon, explorer, ethnologist and zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南半球-461a2738",
+      "name": "南半球",
+      "summary": "南半球（英語：Southern Hemisphere）是指地球赤道以南的半球。南半球表面有80.9%是水，佔地球的57.1%；19.1%是陸地，佔地球的32.7%。 南半球包含了地球的五大洲：亚洲印度尼西亞南部、非洲中部及南部、大洋洲絕大…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白額蜂虎-a518b4c5",
+      "subject": "白額蜂虎",
+      "predicate": "distributed_in",
+      "object_id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "object": "Andrew Smith (zoologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-fronted bee-eater (Merops bullockoides) is a species of bee-eater widely distributed in sub-equatorial Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白額蜂虎-a518b4c5",
+      "subject": "白額蜂虎",
+      "predicate": "distributed_in",
+      "object_id": "loc-南半球-461a2738",
+      "object": "南半球",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "White-fronted bee-eaters are found in the vast savannah regions of sub-equatorial Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白額蜂虎-a518b4c5",
+      "subject": "白額蜂虎",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It nests in small colonies, digging holes in cliffs or earthen banks, and can usually be seen in low trees, waiting to hunt passing insects by making quick hawking flights or gliding down before hovering briefly to catch the prey",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-白額蜂虎-a518b4c5",
+      "subject": "白額蜂虎",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

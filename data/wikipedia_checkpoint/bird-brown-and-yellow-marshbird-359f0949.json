@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:38:04",
+  "requested_title": "Brown-and-yellow Marshbird",
+  "resolved_title": "Brown-and-yellow marshbird",
+  "title_aliases": [
+    "Brown-and-yellow Marshbird"
+  ],
+  "bird_id": "bird-brown-and-yellow-marshbird-359f0949",
+  "raw_file": "bird-brown-and-yellow-marshbird-359f0949.json",
+  "bird": {
+    "id": "bird-brown-and-yellow-marshbird-359f0949",
+    "name": "Brown-and-yellow marshbird",
+    "english_name": "Brown-and-yellow marshbird",
+    "latin_name": "Pseudoleistes virescens",
+    "summary": "The brown-and-yellow marshbird (Pseudoleistes virescens) is a species of bird in the family Icteridae. It is found in the Pampas and north…",
+    "lat": "-35",
+    "lng": "-62",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Brown-and-yellow_marshbird_%28Pseudoleistes_virescens%29_Colonia.jpg/960px-Brown-and-yellow_marshbird_%28Pseudoleistes_virescens%29_Colonia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-彭巴草原-529356bb",
+      "name": "彭巴草原",
+      "summary": "彭巴草原（西班牙語：Región pampeana 或 Pampa，“彭巴”在當地克丘亞語中為“平原”之意）也稱彭巴平原，是位於南美洲東南沿海的一片肥沃平原，主要範圍包括阿根廷的布宜諾斯艾利斯省、拉潘帕省、圣菲省、科爾多瓦省以及巴西南部的…",
+      "lat": "-35",
+      "lng": "-62"
+    },
+    {
+      "id": "loc-南里奥格兰德州-a29883e9",
+      "name": "南里奥格兰德州",
+      "summary": "南里奥格兰德州（葡萄牙語：Rio Grande do Sul，直译：「南方的大河」，發音：[ˈʁiw ˈɡɾɐ̃dʒi du ˈsuw] ），或称南大河州，是巴西最南端的一个州，东临大西洋，首府阿雷格里港，人口10,963,216。该州与…",
+      "lat": "-30",
+      "lng": "-53"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-and-yellow-marshbird-359f0949",
+      "subject": "Brown-and-yellow marshbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-彭巴草原-529356bb",
+      "object": "彭巴草原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Pampas and north to the Paraguayan border and Rio Grande do Sul, where its natural habitats are swamps and pastureland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-and-yellow-marshbird-359f0949",
+      "subject": "Brown-and-yellow marshbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-南里奥格兰德州-a29883e9",
+      "object": "南里奥格兰德州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Pampas and north to the Paraguayan border and Rio Grande do Sul, where its natural habitats are swamps and pastureland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-and-yellow-marshbird-359f0949",
+      "subject": "Brown-and-yellow marshbird",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the Pampas and north to the Paraguayan border and Rio Grande do Sul, where its natural habitats are swamps and pastureland",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-brown-and-yellow-marshbird-359f0949",
+      "subject": "Brown-and-yellow marshbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

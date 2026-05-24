@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:46:31",
+  "requested_title": "Pink-billed Lark",
+  "resolved_title": "Pink-billed lark",
+  "title_aliases": [
+    "Pink-billed Lark"
+  ],
+  "bird_id": "bird-粉嘴沙百灵-808f8a59",
+  "raw_file": "bird-粉嘴沙百灵-808f8a59.json",
+  "bird": {
+    "id": "bird-粉嘴沙百灵-808f8a59",
+    "name": "粉嘴沙百灵",
+    "english_name": "Pink-billed lark",
+    "latin_name": "Spizocorys conirostris",
+    "summary": "粉嘴沙百灵（学名：Spizocorys conirostris），是百灵科沙百灵属的一种，是游猎迁徙的候鸟，分布于纳米比亚、博茨瓦纳、莱索托、南非和赞比亚。全球活动范围约为1,330,000平方千米。该物种的保护状况被评为无危。 粉嘴沙百灵的平均体重约为14.2克。栖息地包括干…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Pink-billed_Lark_%28Spizocorys_conirostris%29_%288077320401%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-carl-jakob-sundevall-74842590",
+      "name": "Carl Jakob Sundevall",
+      "summary": "Carl Jakob Sundevall (22 October 1801 – 2 February 1875) was a Swedish zoologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-粉嘴沙百灵-808f8a59",
+      "subject": "粉嘴沙百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-carl-jakob-sundevall-74842590",
+      "object": "Carl Jakob Sundevall",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pink-billed lark (Spizocorys conirostris) is a species of lark in the family Alaudidae found in southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-粉嘴沙百灵-808f8a59",
+      "subject": "粉嘴沙百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical dry lowland grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-粉嘴沙百灵-808f8a59",
+      "subject": "粉嘴沙百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

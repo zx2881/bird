@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:21:16",
+  "requested_title": "Banded Cotinga",
+  "resolved_title": "Banded cotinga",
+  "title_aliases": [
+    "Banded Cotinga"
+  ],
+  "bird_id": "bird-條紋傘鳥-9af822ef",
+  "raw_file": "bird-條紋傘鳥-9af822ef.json",
+  "bird": {
+    "id": "bird-條紋傘鳥-9af822ef",
+    "name": "條紋傘鳥",
+    "english_name": "Banded cotinga",
+    "latin_name": "Cotinga maculata",
+    "summary": "條紋傘鳥（Cotinga maculata），又名帶斑傘鳥，是巴西東南部特有的傘鳥。牠們棲息在熱帶低地的潮濕森林，但受到失去棲息地的威脅。目前被IUCN列为濒危物种。 其种加词“maculata”意为“有斑点的”。",
+    "lat": "-16.5",
+    "lng": "-39.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Crejo%C3%A1_macho_-_Cotinga_maculata_-_Banded_cotinga.jpg/960px-Crejo%C3%A1_macho_-_Cotinga_maculata_-_Banded_cotinga.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大西洋沿岸森林-b6837c90",
+      "name": "大西洋沿岸森林",
+      "summary": "大西洋沿岸森林 （葡萄牙語：Mata Atlântica）是一片涵盖热带亚热带湿润阔叶林、热带亚热带干旱阔叶林、熱帶亞熱帶草地、稀樹草原和疏灌叢和红树林于一体的热带雨林保护区，位于巴西大西洋沿岸，最北到达北里约格朗德州，最南到达南里奥格兰…",
+      "lat": "-16.5",
+      "lng": "-39.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-條紋傘鳥-9af822ef",
+      "subject": "條紋傘鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋沿岸森林-b6837c90",
+      "object": "大西洋沿岸森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the canopy of the lowland Atlantic forest, and has a diet of seeds, berries, especially from Byrsonima sericea and ficuses, fruit, caterpillars, and other insects",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-條紋傘鳥-9af822ef",
+      "subject": "條紋傘鳥",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-條紋傘鳥-9af822ef",
+      "subject": "條紋傘鳥",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss as its population is estimated to number between 250 and 999 mature individuals",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-條紋傘鳥-9af822ef",
+      "subject": "條紋傘鳥",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The greatest threat to the banded cotinga's survival is deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

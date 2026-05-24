@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:11:22",
+  "requested_title": "White-browed Tapaculo",
+  "resolved_title": "White-browed tapaculo",
+  "title_aliases": [
+    "White-browed Tapaculo"
+  ],
+  "bird_id": "bird-white-browed-tapaculo-73029865",
+  "raw_file": "bird-white-browed-tapaculo-73029865.json",
+  "bird": {
+    "id": "bird-white-browed-tapaculo-73029865",
+    "name": "White-browed tapaculo",
+    "english_name": "White-browed tapaculo",
+    "latin_name": "Scytalopus superciliaris",
+    "summary": "The white-browed tapaculo (Scytalopus superciliaris) is a species of bird in the family Rhinocryptidae. It is found in northwestern Argenti…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Scytalopus_superciliaris_-_White-browed_Tapaculo_%28cropped%29.jpg/960px-Scytalopus_superciliaris_-_White-browed_Tapaculo_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-萨尔塔省-678dcbe3",
+      "name": "萨尔塔省",
+      "summary": "萨尔塔省（西班牙語：Provincia de Salta）為南美國家阿根廷二十三省之一，位於阿根廷西北部，省会萨尔塔。 萨尔塔省风光",
+      "lat": "-24.78333333",
+      "lng": "-65.41666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-browed-tapaculo-73029865",
+      "subject": "White-browed tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northwestern Argentina.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-tapaculo-73029865",
+      "subject": "White-browed tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨尔塔省-678dcbe3",
+      "object": "萨尔塔省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "santabarbarae is probably limited to the Santa Bárbara Mountains of Jujuy, though it might also extend into Salta Province. The white-browed tapaculo inhabits the undergrowth of Alnus and Polylepis woodlands, often in shaded rocky ravines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-tapaculo-73029865",
+      "subject": "White-browed tapaculo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:52:10",
+  "requested_title": "Bridled Sparrow",
+  "resolved_title": "Bridled sparrow",
+  "title_aliases": [
+    "Bridled Sparrow"
+  ],
+  "bird_id": "bird-bridled-sparrow-6a3d8607",
+  "raw_file": "bird-bridled-sparrow-6a3d8607.json",
+  "bird": {
+    "id": "bird-bridled-sparrow-6a3d8607",
+    "name": "Bridled sparrow",
+    "english_name": "Bridled sparrow",
+    "latin_name": "Peucaea mystacalis",
+    "summary": "The bridled sparrow (Peucaea mystacalis) is a species of bird in the family Passerellidae, the New World sparrows. It is endemic to Mexico.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Bridled_Sparrow_-_Oaxaca_-_Mexico_S4E9190_%2823024344799%29.jpg/960px-Bridled_Sparrow_-_Oaxaca_-_Mexico_S4E9190_%2823024344799%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-thorn-forest-4be049cb",
+      "name": "Thorn forest",
+      "summary": "A thorn forest is a dense scrubland with vegetation characteristic of dry subtropical and warm temperate areas with mon…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bridled-sparrow-6a3d8607",
+      "subject": "Bridled sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-thorn-forest-4be049cb",
+      "object": "Thorn forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits arid montane scrublands including thorn forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bridled-sparrow-6a3d8607",
+      "subject": "Bridled sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It primarily inhabits arid montane scrublands including thorn forest",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-bridled-sparrow-6a3d8607",
+      "subject": "Bridled sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-bridled-sparrow-6a3d8607",
+      "subject": "Bridled sparrow",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. \"No effects of human activity on Bridled Sparrow are documented, although it presumably is vulnerable to habitat degradation or loss.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

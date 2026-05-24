@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:24:58",
+  "requested_title": "Santa Marta Wren",
+  "resolved_title": "Santa Marta wren",
+  "title_aliases": [
+    "Santa Marta Wren"
+  ],
+  "bird_id": "bird-santa-marta-wren-c897b886",
+  "raw_file": "bird-santa-marta-wren-c897b886.json",
+  "bird": {
+    "id": "bird-santa-marta-wren-c897b886",
+    "name": "Santa Marta wren",
+    "english_name": "Santa Marta wren",
+    "latin_name": "Troglodytes monticola",
+    "summary": "The Santa Marta wren (Troglodytes monticola) is a species of bird in the family Troglodytidae. It is endemic to Colombia.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Troglodytes_monticola_map.svg/960px-Troglodytes_monticola_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-santa-marta-wren-c897b886",
+      "subject": "Santa Marta wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the edges of elfin forest, páramo, and scrub at tree line",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-santa-marta-wren-c897b886",
+      "subject": "Santa Marta wren",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

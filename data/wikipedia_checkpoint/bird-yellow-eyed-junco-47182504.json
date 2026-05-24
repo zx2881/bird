@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:57:30",
+  "requested_title": "Yellow-eyed Junco",
+  "resolved_title": "Yellow-eyed junco",
+  "title_aliases": [
+    "Yellow-eyed Junco"
+  ],
+  "bird_id": "bird-yellow-eyed-junco-47182504",
+  "raw_file": "bird-yellow-eyed-junco-47182504.json",
+  "bird": {
+    "id": "bird-yellow-eyed-junco-47182504",
+    "name": "Yellow-eyed junco",
+    "english_name": "Yellow-eyed junco",
+    "latin_name": "Junco phaeonotus",
+    "summary": "The yellow-eyed junco (Junco phaeonotus) is a species of bird in the family Passerellidae, the New World sparrows. It is found from the sou…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Yellow-eyed_Junco.jpg/960px-Yellow-eyed_Junco.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pine-oak-forest-1bf3f7a2",
+      "name": "Pine–oak forest",
+      "summary": "Pine–oak forest, pine–oak woodland, or oak–pine forest is a group of similar of ecosystems, primarily found in North an…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-eyed-junco-47182504",
+      "subject": "Yellow-eyed junco",
+      "predicate": "distributed_in",
+      "object_id": "loc-pine-oak-forest-1bf3f7a2",
+      "object": "Pine–oak forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits pine and pine-oak forest and also scrublands and brushy pastures and fields in the upper subtropical and temperate zones. Sources are in general agreement on its elevational range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-eyed-junco-47182504",
+      "subject": "Yellow-eyed junco",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It primarily inhabits pine and pine-oak forest and also scrublands and brushy pastures and fields in the upper subtropical and temperate zones. Sources are in general agreement on its elevational range",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-yellow-eyed-junco-47182504",
+      "subject": "Yellow-eyed junco",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

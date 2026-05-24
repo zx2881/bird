@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:36:21",
+  "requested_title": "Tibetan Blackbird",
+  "resolved_title": "Tibetan blackbird",
+  "title_aliases": [
+    "Tibetan Blackbird"
+  ],
+  "bird_id": "bird-藏乌鸫-cfb9510e",
+  "raw_file": "bird-藏乌鸫-cfb9510e.json",
+  "bird": {
+    "id": "bird-藏乌鸫-cfb9510e",
+    "name": "藏乌鸫",
+    "english_name": "Tibetan blackbird",
+    "latin_name": "Turdus maximus",
+    "summary": "藏乌鸫（学名：Turdus maximus），是雀形目鸫科的一种鸟类。 特征 藏乌鸫体重约89.5克，翼长约151.7毫米，嘴峰长约25.3毫米，喙宽度约5.4毫米，喙厚度约6.7毫米，跗蹠长约36毫米，尾长约126.5毫米。藏乌鸫在其分布区内为留鸟，其栖息在半开放的高大树木组…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Tibetan_Blackbird_%28Turdus_maximus%29_1_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-藏乌鸫-cfb9510e",
+      "subject": "藏乌鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Himalayas from northern Pakistan to southeastern Tibet",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藏乌鸫-cfb9510e",
+      "subject": "藏乌鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

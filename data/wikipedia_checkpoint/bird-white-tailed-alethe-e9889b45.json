@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:02:14",
+  "requested_title": "White-tailed Alethe",
+  "resolved_title": "White-tailed alethe",
+  "title_aliases": [
+    "White-tailed Alethe"
+  ],
+  "bird_id": "bird-white-tailed-alethe-e9889b45",
+  "raw_file": "bird-white-tailed-alethe-e9889b45.json",
+  "bird": {
+    "id": "bird-white-tailed-alethe-e9889b45",
+    "name": "White-tailed alethe",
+    "english_name": "White-tailed alethe",
+    "latin_name": "Alethe diademata",
+    "summary": "The white-tailed alethe (Alethe diademata) is a species of bird in the Old World flycatcher family Muscicapidae. It is found in western Afr…",
+    "lat": "14",
+    "lng": "-14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Alethe_diademata_-_Don_Wellmann_-_452550799.jpeg/960px-Alethe_diademata_-_Don_Wellmann_-_452550799.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-塞内加尔-8f96dd71",
+      "name": "塞内加尔",
+      "summary": "塞内加尔共和国（法語：République du Sénégal），通稱塞內加爾（法語：Sénégal），是西非国家，位于塞内加尔河的南岸，首都达喀尔。它的西边是大西洋，北边是毛里塔尼亚，东边是馬利，南边是几内亚和几内亚比绍。冈比亚在塞内…",
+      "lat": "14",
+      "lng": "-14"
+    },
+    {
+      "id": "loc-多哥-2982db76",
+      "name": "多哥",
+      "summary": "多哥共和国（法語：République togolaise），通稱多哥（法語：Togo），是位於西非的国家。多哥東部毗鄰贝南、北部接壤布基纳法索、西部鄰接迦納。此外，南部有一小段海岸线面向几内亚湾。多哥首都及最大城市为洛美。 历史 从15…",
+      "lat": "8",
+      "lng": "1"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-tailed-alethe-e9889b45",
+      "subject": "White-tailed alethe",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞内加尔-8f96dd71",
+      "object": "塞内加尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Africa from Senegal to Togo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-tailed-alethe-e9889b45",
+      "subject": "White-tailed alethe",
+      "predicate": "distributed_in",
+      "object_id": "loc-多哥-2982db76",
+      "object": "多哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Africa from Senegal to Togo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-tailed-alethe-e9889b45",
+      "subject": "White-tailed alethe",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

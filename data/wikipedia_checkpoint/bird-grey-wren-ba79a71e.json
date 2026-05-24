@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:03:21",
+  "requested_title": "Grey Wren",
+  "resolved_title": "Grey wren",
+  "title_aliases": [
+    "Grey Wren"
+  ],
+  "bird_id": "bird-grey-wren-ba79a71e",
+  "raw_file": "bird-grey-wren-ba79a71e.json",
+  "bird": {
+    "id": "bird-grey-wren-ba79a71e",
+    "name": "Grey wren",
+    "english_name": "Grey wren",
+    "latin_name": "Cantorchilus griseus",
+    "summary": "The grey wren (Cantorchilus griseus) is a species of bird in the family Troglodytidae. It is endemic to the southwestern part of Amazonas s…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Cantorchilus_griseus_108727526_%28cropped%29.jpg/960px-Cantorchilus_griseus_108727526_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-wren-ba79a71e",
+      "subject": "Grey wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a bird of thick vegetation, inhabiting overgrown clearings and the undergrowth of várzea forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-wren-ba79a71e",
+      "subject": "Grey wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

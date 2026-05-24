@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:16:47",
+  "requested_title": "Northern Boobook",
+  "resolved_title": "Northern boobook",
+  "title_aliases": [
+    "Northern Boobook"
+  ],
+  "bird_id": "bird-日本鹰鸮-697764f7",
+  "raw_file": "bird-日本鹰鸮-697764f7.json",
+  "bird": {
+    "id": "bird-日本鹰鸮-697764f7",
+    "name": "日本鹰鸮",
+    "english_name": "Northern boobook",
+    "latin_name": "Ninox japonica",
+    "summary": "褐鹰鸮（学名：Ninox japonica）也称北鹰鸮或北方鹰鸮，一种中型鸮形目鸟类，隶属于鸱鸮科鹰鸮属。是一種掠食性鴞類，分布於亞洲東部和南部國家。該物種直到最近仍被認為與Ninox scutulata為同種，Ninox scutulata包含11個亞種，分布範圍類似。 目前…",
+    "lat": "61",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ninox_japonica%2C_Japan.jpg/960px-Ninox_japonica%2C_Japan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-琉球群岛-345bcf20",
+      "name": "琉球群岛",
+      "summary": "The Ryukyu Islands (Japanese: 琉球列島, Hepburn: Ryūkyū Rettō), also known as the Nansei Islands (南西諸島, Nansei Shotō; lit.",
+      "lat": "26.5",
+      "lng": "127.9"
+    },
+    {
+      "id": "loc-中華民國-e9cfdf77",
+      "name": "中華民國",
+      "summary": "中華民國是位於東亞的民主共和國，曾在国际上广泛代表中國，現今多通稱「臺灣」。1912年建國時以前清之中國既有領土為疆域，經歷1949年政府遷臺，現有效管轄範圍包括臺灣本島、澎湖群島及其附屬島嶼，以及中國大陸福建沿岸的金門群島、馬祖列島等島…",
+      "lat": "24",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-日本鹰鸮-697764f7",
+      "subject": "日本鹰鸮",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They will typically&nbsp;winter in rainforests south of their summer home range and can occasionally be found in mixed or coniferous forests. Siberia and most of Southeastern Asia make up the geographical distribution of Ninox japonica. The migrant N",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本鹰鸮-697764f7",
+      "subject": "日本鹰鸮",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They will typically&nbsp;winter in rainforests south of their summer home range and can occasionally be found in mixed or coniferous forests. Siberia and most of Southeastern Asia make up the geographical distribution of Ninox japonica. The migrant N",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本鹰鸮-697764f7",
+      "subject": "日本鹰鸮",
+      "predicate": "distributed_in",
+      "object_id": "loc-琉球群岛-345bcf20",
+      "object": "琉球群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "totogo inhabits the Ryukyu Islands and Taiwan year-round",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本鹰鸮-697764f7",
+      "subject": "日本鹰鸮",
+      "predicate": "distributed_in",
+      "object_id": "loc-中華民國-e9cfdf77",
+      "object": "中華民國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "totogo inhabits the Ryukyu Islands and Taiwan year-round",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本鹰鸮-697764f7",
+      "subject": "日本鹰鸮",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

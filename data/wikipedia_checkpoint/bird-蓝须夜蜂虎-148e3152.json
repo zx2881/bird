@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:33:33",
+  "requested_title": "Blue-bearded Bee-eater",
+  "resolved_title": "Blue-bearded bee-eater",
+  "title_aliases": [
+    "Blue-bearded Bee-eater"
+  ],
+  "bird_id": "bird-蓝须夜蜂虎-148e3152",
+  "raw_file": "bird-蓝须夜蜂虎-148e3152.json",
+  "bird": {
+    "id": "bird-蓝须夜蜂虎-148e3152",
+    "name": "蓝须夜蜂虎",
+    "english_name": "Blue-bearded bee-eater",
+    "latin_name": "Nyctyornis athertoni",
+    "summary": "蓝须夜蜂虎（学名：Nyctyornis athertoni）为蜂虎科夜蜂虎属的鸟类。该物种的模式产地在孟加拉国。 亚种 蓝须夜蜂虎指名亚种（学名：Nyctyornis athertoni athertoni）。在中国大陆，分布于云南等地。该物种的模式产地在孟加拉国。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Nyctyornis_athertoni_-_Khao_Yai.jpg/960px-Nyctyornis_athertoni_-_Khao_Yai.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝须夜蜂虎-148e3152",
+      "subject": "蓝须夜蜂虎",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Vol 17}} | range_map = Nyctyornis athertoni extant map.png | range_map_caption = Distribution of the Nyctyornis athertoni }} The blue-bearded bee-eater (Nyctyornis athertoni) is a species of bee-eater found in much of the Indian subcontinent and parts of Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝须夜蜂虎-148e3152",
+      "subject": "蓝须夜蜂虎",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

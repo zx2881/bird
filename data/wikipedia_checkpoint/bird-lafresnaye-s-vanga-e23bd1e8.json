@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:22:17",
+  "requested_title": "Lafresnaye's Vanga",
+  "resolved_title": "Lafresnaye's vanga",
+  "title_aliases": [
+    "Lafresnaye's Vanga"
+  ],
+  "bird_id": "bird-lafresnaye-s-vanga-e23bd1e8",
+  "raw_file": "bird-lafresnaye-s-vanga-e23bd1e8.json",
+  "bird": {
+    "id": "bird-lafresnaye-s-vanga-e23bd1e8",
+    "name": "Lafresnaye's vanga",
+    "english_name": "Lafresnaye's vanga",
+    "latin_name": "Xenopirostris xenopirostris",
+    "summary": "Lafresnaye's vanga (Xenopirostris xenopirostris) is a species of bird in the vanga family Vangidae. The species is monotypic and one of thr…",
+    "lat": "-24.9",
+    "lng": "44.2",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lafresnaye%27s_vanga_%28Xenopirostris_xenopirostris%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-madagascar-spiny-forests-7edb62d1",
+      "name": "Madagascar spiny forests",
+      "summary": "The Madagascar spiny forests (also known as the Madagascar spiny thickets) is an ecoregion in the southwest of Madagasc…",
+      "lat": "-24.9",
+      "lng": "44.2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lafresnaye-s-vanga-e23bd1e8",
+      "subject": "Lafresnaye's vanga",
+      "predicate": "distributed_in",
+      "object_id": "loc-madagascar-spiny-forests-7edb62d1",
+      "object": "Madagascar spiny forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits sub-arid thorn scrub, in the Madagascar spiny forests ecoregion, particularly areas with large amounts of dead wood, from sea level to",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lafresnaye-s-vanga-e23bd1e8",
+      "subject": "Lafresnaye's vanga",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-lafresnaye-s-vanga-e23bd1e8",
+      "subject": "Lafresnaye's vanga",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It was uplisted from Least Concern to Near Threatened in 2022 as it is experiencing moderately rapid population decline owing to habitat degradation and loss within its range. The common name for the species is derived from the French ornithologist who described it, Frédéric de Lafresnaye",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

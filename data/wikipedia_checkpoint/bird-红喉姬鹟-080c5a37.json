@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:37:20",
+  "requested_title": "Taiga Flycatcher",
+  "resolved_title": "Taiga flycatcher",
+  "title_aliases": [
+    "Taiga Flycatcher"
+  ],
+  "bird_id": "bird-红喉姬鹟-080c5a37",
+  "raw_file": "bird-红喉姬鹟-080c5a37.json",
+  "bird": {
+    "id": "bird-红喉姬鹟-080c5a37",
+    "name": "红喉姬鹟",
+    "english_name": "Taiga flycatcher",
+    "latin_name": "Ficedula albicilla",
+    "summary": "红喉姬鹟（学名：Ficedula albicilla）是雀形目鹟科的一种鸟类。該物種曾被認為是紅胸姬鶲的亞種。 分類 該物種於1811年由彼得·西蒙·帕拉斯首次描述。屬名來自拉丁語，指的是一種吃無花果的小鳥（ficus，即無花果），據說在冬季會變成黑頂林鶯。種名albicill…",
+    "lat": "66",
+    "lng": "94",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Taiga_Flycatcher.jpg/960px-Taiga_Flycatcher.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    },
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红喉姬鹟-080c5a37",
+      "subject": "红喉姬鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in northern Eurasia from eastern Russia to Siberia and Mongolia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红喉姬鹟-080c5a37",
+      "subject": "红喉姬鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in northern Eurasia from eastern Russia to Siberia and Mongolia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红喉姬鹟-080c5a37",
+      "subject": "红喉姬鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

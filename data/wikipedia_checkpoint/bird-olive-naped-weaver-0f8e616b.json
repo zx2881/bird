@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:18:12",
+  "requested_title": "Olive-naped Weaver",
+  "resolved_title": "Olive-naped weaver",
+  "title_aliases": [
+    "Olive-naped Weaver"
+  ],
+  "bird_id": "bird-olive-naped-weaver-0f8e616b",
+  "raw_file": "bird-olive-naped-weaver-0f8e616b.json",
+  "bird": {
+    "id": "bird-olive-naped-weaver-0f8e616b",
+    "name": "Olive-naped weaver",
+    "english_name": "Olive-naped weaver",
+    "latin_name": "Ploceus brachypterus",
+    "summary": "The olive-naped weaver (Ploceus brachypterus) is a bird species in the family Ploceidae. It is found in West Africa from Senegal and Gambia…",
+    "lat": "12",
+    "lng": "3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Black-necked_Weaver_-_Ghana_S4E2483_%2822458282099%29.jpg/960px-Black-necked_Weaver_-_Ghana_S4E2483_%2822458282099%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-olive-naped-weaver-0f8e616b",
+      "subject": "Olive-naped weaver",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in West Africa from Senegal and Gambia to Cameroon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-naped-weaver-0f8e616b",
+      "subject": "Olive-naped weaver",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

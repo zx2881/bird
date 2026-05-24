@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:16:19",
+  "requested_title": "Stripe-throated Bulbul",
+  "resolved_title": "Stripe-throated bulbul",
+  "title_aliases": [
+    "Stripe-throated Bulbul"
+  ],
+  "bird_id": "bird-纹喉鹎-ea26712b",
+  "raw_file": "bird-纹喉鹎-ea26712b.json",
+  "bird": {
+    "id": "bird-纹喉鹎-ea26712b",
+    "name": "纹喉鹎",
+    "english_name": "Stripe-throated bulbul",
+    "latin_name": "Pycnonotus finlaysoni",
+    "summary": "纹喉鹎（学名：Pycnonotus finlaysoni）为鹎科鹎属的鸟类。分布于中南半岛以及中国大陆的云南等地，一般生活于不详。该物种的模式产地在马来西亚马六甲。 亚种 纹喉鹎云南亚种（学名：Pycnonotus finlaysoni eous）。在中国大陆，分布于云南等地。…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pycnonotus_finlaysoni_-_Kaeng_Krachan.jpg/960px-Pycnonotus_finlaysoni_-_Kaeng_Krachan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纹喉鹎-ea26712b",
+      "subject": "纹喉鹎",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in south-eastern Asia where its natural habitats are tropical moist lowland forest and tropical moist montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹喉鹎-ea26712b",
+      "subject": "纹喉鹎",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in south-eastern Asia where its natural habitats are tropical moist lowland forest and tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-纹喉鹎-ea26712b",
+      "subject": "纹喉鹎",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is a woodland bird found in secondary forests, thickets, scrubland, clearings and gardens, at altitudes up to about",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-纹喉鹎-ea26712b",
+      "subject": "纹喉鹎",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

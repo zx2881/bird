@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:24:05",
+  "requested_title": "Philippine Falconet",
+  "resolved_title": "Philippine falconet",
+  "title_aliases": [
+    "Philippine Falconet"
+  ],
+  "bird_id": "bird-菲律賓小隼-603b58b0",
+  "raw_file": "bird-菲律賓小隼-603b58b0.json",
+  "bird": {
+    "id": "bird-菲律賓小隼-603b58b0",
+    "name": "菲律賓小隼",
+    "english_name": "Philippine falconet",
+    "latin_name": "Microhierax erythrogenys",
+    "summary": "菲律賓小隼（學名：Microhierax erythrogenys），是隼科小隼屬猛禽，屬菲律賓特有種，廣泛分布於呂宋島、民答那峨島、民都洛島和米沙鄢群島但不存在於其他地方。 棲息地 牠們的自然棲息地是亞熱帶或熱帶低地原始或次生雨林，多數單獨或成對活動，棲身於老樹的樹枝和樹洞，…",
+    "lat": "11.15",
+    "lng": "122.48333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/PH_Falconet.jpg/960px-PH_Falconet.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律賓島嶼列表-dd2f0e99",
+      "name": "菲律賓島嶼列表",
+      "summary": "菲律賓是一個島國，由7,641座島嶼組成，大約可分成北部的呂宋、中部的米沙鄢群島、南部的棉兰老岛三個島群。以下依三個區域分類，列出菲律賓的主要島嶼。 呂宋 巴丹群島 巴布延群島 呂宋 波利略島 卡坦端內斯島 馬林杜克島 民都洛 卡拉棉群島…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-班乃岛-193265a7",
+      "name": "班乃岛",
+      "summary": "班乃岛（Panay），是菲律宾中部米沙鄢群岛西部的一个岛屿，位于民都洛岛东南，内格罗斯岛西北。 面积12011平方公里，人口3,973,877人（2007年）。气候炎热多雨；山地、丘陵相间，中部有较大的滨海平原。",
+      "lat": "11.15",
+      "lng": "122.48333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-菲律賓小隼-603b58b0",
+      "subject": "菲律賓小隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律賓島嶼列表-dd2f0e99",
+      "object": "菲律賓島嶼列表",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Philippine falconet is endemic to the Philippine archipelago. It is distributed across several Philippine islands (Luzon, Mindoro, Negros, Catanduanes, Bohol, Calicoan, Samar, Leyte, Cebu, Mindanao and Panay) and can be found in subtropical or tropical moist lowland forests. Philippine falconet usually occurs in pairs, or in family groups, and is usually singing",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-菲律賓小隼-603b58b0",
+      "subject": "菲律賓小隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-班乃岛-193265a7",
+      "object": "班乃岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Philippine falconet is endemic to the Philippine archipelago. It is distributed across several Philippine islands (Luzon, Mindoro, Negros, Catanduanes, Bohol, Calicoan, Samar, Leyte, Cebu, Mindanao and Panay) and can be found in subtropical or tropical moist lowland forests. Philippine falconet usually occurs in pairs, or in family groups, and is usually singing",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-菲律賓小隼-603b58b0",
+      "subject": "菲律賓小隼",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-菲律賓小隼-603b58b0",
+      "subject": "菲律賓小隼",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "2021.|archive-date=12 November 2021|archive-url=https://web.archive.org/web/20211112200304/http://globalraptors.org/grin/SpeciesResults.asp?specID=8299|url-status=dead}} Philippine falconets nest in woodpecker holes of dead trees, and can be seen fairly commonly within their suitable habitats. Although the Philippine falconet population is declining due to habitat loss, it is still evaluated as \"Least Concern\" globally",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-菲律賓小隼-603b58b0",
+      "subject": "菲律賓小隼",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range.{{Cite journal |last1=Clark |first1=William S",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

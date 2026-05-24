@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:27:11",
+  "requested_title": "Plain Thornbird",
+  "resolved_title": "Rufous-fronted thornbird",
+  "title_aliases": [
+    "Plain Thornbird",
+    "Rufous-fronted thornbird"
+  ],
+  "bird_id": "bird-rufous-fronted-thornbird-1bca9b4b",
+  "raw_file": "bird-rufous-fronted-thornbird-1bca9b4b.json",
+  "bird": {
+    "id": "bird-rufous-fronted-thornbird-1bca9b4b",
+    "name": "Rufous-fronted thornbird",
+    "english_name": "Rufous-fronted thornbird",
+    "latin_name": "Phacellodomus rufifrons",
+    "summary": "The rufous-fronted thornbird, or common thornbird, (Phacellodomus rufifrons) is a species of bird in the family Furnariidae. It is found in…",
+    "lat": "-15.56666667",
+    "lng": "-56.075",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Phacellodomus_rufifrons_-_Rufous-fronted_thornbird.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-马托格罗索州-b9e0d0d4",
+      "name": "马托格罗索州",
+      "summary": "马托格罗索州（葡萄牙語：Mato Grosso）是巴西西部的一个州，首府库亚巴。面积为903,357平方公里。人口2,856,999人。为巴西第三大州。为世界上仅存的大片未开发地区之一。自西北方向起顺时针分别与朗多尼亚州、亚马孙州、帕拉州…",
+      "lat": "-15.56666667",
+      "lng": "-56.075"
+    },
+    {
+      "id": "loc-南马托格罗索州-92888db4",
+      "name": "南马托格罗索州",
+      "summary": "南马托格罗索州（葡萄牙語：Mato Grosso do Sul）是巴西西部的一个州，首府大坎普，人口2,297,981人。该州与玻利维亚和巴拉圭接壤。 参见 南馬托格羅索州市鎮列表",
+      "lat": "-20.44277778",
+      "lng": "-54.64583333"
+    },
+    {
+      "id": "loc-图库曼省-433e3696",
+      "name": "图库曼省",
+      "summary": "圖庫曼省（西班牙語：Provincia de Tucumán）位於南美洲國家阿根廷北部，是該國的23個行省之一，首府為聖米格爾-德圖庫曼（San Miguel de Tucumán）。當地人暱稱其作「Tucumano」。 另見 图库曼议会…",
+      "lat": "-26.94",
+      "lng": "-65.34"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-fronted-thornbird-1bca9b4b",
+      "subject": "Rufous-fronted thornbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-马托格罗索州-b9e0d0d4",
+      "object": "马托格罗索州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sincipitalis: eastern Bolivia, Mato Grosso and Mato Grosso do Sul states in Brazil, north-central Paraguay, and northwestern Argentina as far south as Tucumán Province The rufous-fronted thornbird inhabits a variety of landscapes whose common features are dense thickets and at least some trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-fronted-thornbird-1bca9b4b",
+      "subject": "Rufous-fronted thornbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-南马托格罗索州-92888db4",
+      "object": "南马托格罗索州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sincipitalis: eastern Bolivia, Mato Grosso and Mato Grosso do Sul states in Brazil, north-central Paraguay, and northwestern Argentina as far south as Tucumán Province The rufous-fronted thornbird inhabits a variety of landscapes whose common features are dense thickets and at least some trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-fronted-thornbird-1bca9b4b",
+      "subject": "Rufous-fronted thornbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-图库曼省-433e3696",
+      "object": "图库曼省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sincipitalis: eastern Bolivia, Mato Grosso and Mato Grosso do Sul states in Brazil, north-central Paraguay, and northwestern Argentina as far south as Tucumán Province The rufous-fronted thornbird inhabits a variety of landscapes whose common features are dense thickets and at least some trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-fronted-thornbird-1bca9b4b",
+      "subject": "Rufous-fronted thornbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

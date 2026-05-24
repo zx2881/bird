@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:13:55",
+  "requested_title": "Pale-billed Woodpecker",
+  "resolved_title": "Pale-billed woodpecker",
+  "title_aliases": [
+    "Pale-billed Woodpecker"
+  ],
+  "bird_id": "bird-淡嘴啄木-5f07a444",
+  "raw_file": "bird-淡嘴啄木-5f07a444.json",
+  "bird": {
+    "id": "bird-淡嘴啄木-5f07a444",
+    "name": "淡嘴啄木",
+    "english_name": "Pale-billed woodpecker",
+    "latin_name": "Campephilus guatemalensis",
+    "summary": "淡嘴啄木鸟（學名：Campephilus guatemalensis，台湾作淡嘴啄木）屬於啄木鸟科紅頭啄木鳥屬。該鳥分布於墨西哥到巴拿马。 物種描述 該鸟身长31—38公分。指名亞種C.",
+    "lat": "16.53",
+    "lng": "-92.45",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pale-billed_woodpecker001.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-恰帕斯州-46de6417",
+      "name": "恰帕斯州",
+      "summary": "恰帕斯州（西班牙語：Chiapas），正式名称为恰帕斯自由和主权州（Estado Libre y Soberano de Chiapas），是墨西哥的一個州，位於該國東南部。東臨瓜地馬拉，南臨太平洋。 整體屬熱帶濕潤氣候。北部靠近塔巴斯科…",
+      "lat": "16.53",
+      "lng": "-92.45"
+    },
+    {
+      "id": "loc-尤卡坦半岛-c579ad5c",
+      "name": "尤卡坦半岛",
+      "summary": "猶加敦半島（西班牙語：Península de Yucatán）是位於中美洲北部、墨西哥东南部的半岛，墨西哥湾和加勒比海之间，将加勒比海从墨西哥湾中分离出。东靠加勒比海，西临墨西哥湾、坎佩切湾，东北隔尤卡坦海峡与古巴相望，面积達43,37…",
+      "lat": "19.55111111",
+      "lng": "-89.29638889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-淡嘴啄木-5f07a444",
+      "subject": "淡嘴啄木",
+      "predicate": "distributed_in",
+      "object_id": "loc-恰帕斯州-46de6417",
+      "object": "恰帕斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "guatemalensis, from Veracruz, Chiapas, and the Yucatán Peninsula south through Belize, Guatemala, El Salvador, Honduras, Nicaragua, and Costa Rica into western Panama The pale-billed woodpecker inhabits the interior and edges of a variety of forested landscapes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡嘴啄木-5f07a444",
+      "subject": "淡嘴啄木",
+      "predicate": "distributed_in",
+      "object_id": "loc-尤卡坦半岛-c579ad5c",
+      "object": "尤卡坦半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "guatemalensis, from Veracruz, Chiapas, and the Yucatán Peninsula south through Belize, Guatemala, El Salvador, Honduras, Nicaragua, and Costa Rica into western Panama The pale-billed woodpecker inhabits the interior and edges of a variety of forested landscapes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡嘴啄木-5f07a444",
+      "subject": "淡嘴啄木",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

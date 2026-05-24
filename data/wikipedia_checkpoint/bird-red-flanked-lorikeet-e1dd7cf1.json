@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:03:58",
+  "requested_title": "Red-flanked Lorikeet",
+  "resolved_title": "Red-flanked lorikeet",
+  "title_aliases": [
+    "Red-flanked Lorikeet"
+  ],
+  "bird_id": "bird-red-flanked-lorikeet-e1dd7cf1",
+  "raw_file": "bird-red-flanked-lorikeet-e1dd7cf1.json",
+  "bird": {
+    "id": "bird-red-flanked-lorikeet-e1dd7cf1",
+    "name": "Red-flanked lorikeet",
+    "english_name": "Red-flanked lorikeet",
+    "latin_name": "Hypocharmosyna placentis",
+    "summary": "The red-flanked lorikeet (Hypocharmosyna placentis) is a species of parrot in the family Psittaculidae. It is found in Mollucas, New Guinea…",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Charmosyna_placentis_-Jurong_Bird_Park_-pair-6a.jpg/960px-Charmosyna_placentis_-Jurong_Bird_Park_-pair-6a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-俾斯麦群岛-19ddf3e6",
+      "name": "俾斯麦群岛",
+      "summary": "俾斯麦群岛（英文：Bismarck Archipelago）是太平洋西南部一群岛，位于新几内亚岛东北，濒临俾斯麦海，由200多个岛屿组成，总陆地面积49700平方公里，主要岛屿有新不列颠岛、新爱尔兰岛等，人口31.4万人，现全部属于巴布亚…",
+      "lat": "-5",
+      "lng": "150.1"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-flanked-lorikeet-e1dd7cf1",
+      "subject": "Red-flanked lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mollucas, New Guinea and the Bismarck Archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-flanked-lorikeet-e1dd7cf1",
+      "subject": "Red-flanked lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mollucas, New Guinea and the Bismarck Archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-flanked-lorikeet-e1dd7cf1",
+      "subject": "Red-flanked lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-俾斯麦群岛-19ddf3e6",
+      "object": "俾斯麦群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mollucas, New Guinea and the Bismarck Archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-flanked-lorikeet-e1dd7cf1",
+      "subject": "Red-flanked lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

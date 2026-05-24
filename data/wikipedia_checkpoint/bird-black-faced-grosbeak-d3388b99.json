@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T23:03:36",
+  "requested_title": "Black-faced Grosbeak",
+  "resolved_title": "Black-faced grosbeak",
+  "title_aliases": [
+    "Black-faced Grosbeak"
+  ],
+  "bird_id": "bird-black-faced-grosbeak-d3388b99",
+  "raw_file": "bird-black-faced-grosbeak-d3388b99.json",
+  "bird": {
+    "id": "bird-black-faced-grosbeak-d3388b99",
+    "name": "Black-faced grosbeak",
+    "english_name": "Black-faced grosbeak",
+    "latin_name": "Caryothraustes poliogaster",
+    "summary": "The black-faced grosbeak (Caryothraustes poliogaster) is a large seed-eating bird in the cardinal family (Cardinalidae), which is a residen…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Black-faced_grosbeak_%28Caryothraustes_poliogaster%29_Orange_Walk.jpg/960px-Black-faced_grosbeak_%28Caryothraustes_poliogaster%29_Orange_Walk.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-faced-grosbeak-d3388b99",
+      "subject": "Black-faced grosbeak",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species breeds in the Central American lowlands and foothills from sea level to about 1000&nbsp;m altitude, and is found in the canopy and middle levels of dense wet forests, tall second growth, and semi-open habitats such as woodland edge and clearings",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-faced-grosbeak-d3388b99",
+      "subject": "Black-faced grosbeak",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

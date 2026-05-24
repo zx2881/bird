@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:00:12",
+  "requested_title": "Slaty Egret",
+  "resolved_title": "Slaty egret",
+  "title_aliases": [
+    "Slaty Egret"
+  ],
+  "bird_id": "bird-slaty-egret-9656f9f1",
+  "raw_file": "bird-slaty-egret-9656f9f1.json",
+  "bird": {
+    "id": "bird-slaty-egret-9656f9f1",
+    "name": "Slaty egret",
+    "english_name": "Slaty egret",
+    "latin_name": "Egretta vinaceigula",
+    "summary": "The slaty egret (Egretta vinaceigula) is a small, dark egret found in southern Africa. It is one of the species to which the Agreement on t…",
+    "lat": "-15",
+    "lng": "30",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Egretta_vinaceigula_13149944_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-赞比亚-5eceb6be",
+      "name": "赞比亚",
+      "summary": "赞比亚共和国（英語：Republic of Zambia），也稱尚比亞（英語：Zambia），是非洲東南部的一個內陸國家。与刚果民主共和国、坦桑尼亚、马拉维、莫桑比克、津巴布韦、博茨瓦纳、纳米比亚和安哥拉相邻。首都是卢萨卡。 历史 二千年…",
+      "lat": "-15",
+      "lng": "30"
+    },
+    {
+      "id": "loc-波札那-a47abf55",
+      "name": "波札那",
+      "summary": "博茨瓦纳共和国（英語：Republic of Botswana；茨瓦納語：Lefatshe la Botswana），通稱博茨瓦纳（Botswana），是位於非洲南部的內陸國家，全國國境皆為乾燥的台地地形，卡拉哈里沙漠占据了该国大約70%…",
+      "lat": "-24.65833333",
+      "lng": "25.90833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-slaty-egret-9656f9f1",
+      "subject": "Slaty egret",
+      "predicate": "distributed_in",
+      "object_id": "loc-赞比亚-5eceb6be",
+      "object": "赞比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The largest populations are found in Zambia and Botswana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slaty-egret-9656f9f1",
+      "subject": "Slaty egret",
+      "predicate": "distributed_in",
+      "object_id": "loc-波札那-a47abf55",
+      "object": "波札那",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The largest populations are found in Zambia and Botswana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slaty-egret-9656f9f1",
+      "subject": "Slaty egret",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-slaty-egret-9656f9f1",
+      "subject": "Slaty egret",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is classified as Vulnerable, the biggest threat being habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-slaty-egret-9656f9f1",
+      "subject": "Slaty egret",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "As a species the slaty egret is highly dependent on seasonal marshes which are threatened by human factors such as drainage (for cultivation), flood regulation and dams as along the Kafue River, the erosion of river catchments, water abstraction for irrigation, invasive non-native vegetation, human disturbance including excessive trampling and over grazing by livestock and the harvesting of reeds and other marsh vegetation for human use",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    },
+    {
+      "subject_id": "bird-slaty-egret-9656f9f1",
+      "subject": "Slaty egret",
+      "predicate": "threatened_by",
+      "object_id": "threat-wetland-drainage",
+      "object": "湿地排水",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "As a species the slaty egret is highly dependent on seasonal marshes which are threatened by human factors such as drainage (for cultivation), flood regulation and dams as along the Kafue River, the erosion of river catchments, water abstraction for irrigation, invasive non-native vegetation, human disturbance including excessive trampling and over grazing by livestock and the harvesting of reeds and other marsh vegetation for human use",
+      "object_summary": "湿地被排干转为农业或建设用地。"
+    }
+  ]
+}

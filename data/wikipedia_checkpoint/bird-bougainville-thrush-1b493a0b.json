@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T12:02:05",
+  "requested_title": "Bougainville Thrush",
+  "resolved_title": "Bougainville thrush",
+  "title_aliases": [
+    "Bougainville Thrush"
+  ],
+  "bird_id": "bird-bougainville-thrush-1b493a0b",
+  "raw_file": "bird-bougainville-thrush-1b493a0b.json",
+  "bird": {
+    "id": "bird-bougainville-thrush-1b493a0b",
+    "name": "Bougainville thrush",
+    "english_name": "Bougainville thrush",
+    "latin_name": "Zoothera atrigena",
+    "summary": "The Bougainville thrush (Zoothera atrigena) is a species of bird in the thrush family Turdidae. It is found in the montane forests of Bouga…",
+    "lat": "-6.24444444",
+    "lng": "155.38388889",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-布干维尔岛-c5623b90",
+      "name": "布干维尔岛",
+      "summary": "布干维尔岛（英语：Bougainville Island；本地名稱：Me'ekamui），是巴布亚新几内亚东端一岛屿，地理上属于所羅門群島的一部分，因此连同附近的布卡岛有时也被称为“北所罗门群岛”。布干维尔岛全岛面积为9,300平方公里，…",
+      "lat": "-6.24444444",
+      "lng": "155.38388889"
+    },
+    {
+      "id": "loc-所羅門群島-群島-4708e5d6",
+      "name": "所羅門群島 (群島)",
+      "summary": "所羅門群島是太平洋西南面的群島，位於澳大利亞東北方的美拉尼西亞（Melanesia）地區。西隔所羅門海與新幾內亞、俾斯麥群島相鄰。 政治上分屬兩個政治實體： 所罗门群岛，領土範圍為大部分的索羅門群島（28,896 km²，660,121人…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bougainville-thrush-1b493a0b",
+      "subject": "Bougainville thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-布干维尔岛-c5623b90",
+      "object": "布干维尔岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the montane forests of Bougainville Island in the Solomon Islands Archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bougainville-thrush-1b493a0b",
+      "subject": "Bougainville thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-所羅門群島-群島-4708e5d6",
+      "object": "所羅門群島 (群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the montane forests of Bougainville Island in the Solomon Islands Archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bougainville-thrush-1b493a0b",
+      "subject": "Bougainville thrush",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the montane forests of Bougainville Island in the Solomon Islands Archipelago",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-bougainville-thrush-1b493a0b",
+      "subject": "Bougainville thrush",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

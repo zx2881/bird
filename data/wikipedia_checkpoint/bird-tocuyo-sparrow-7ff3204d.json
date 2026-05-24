@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:51:11",
+  "requested_title": "Tocuyo Sparrow",
+  "resolved_title": "Tocuyo sparrow",
+  "title_aliases": [
+    "Tocuyo Sparrow"
+  ],
+  "bird_id": "bird-tocuyo-sparrow-7ff3204d",
+  "raw_file": "bird-tocuyo-sparrow-7ff3204d.json",
+  "bird": {
+    "id": "bird-tocuyo-sparrow-7ff3204d",
+    "name": "Tocuyo sparrow",
+    "english_name": "Tocuyo sparrow",
+    "latin_name": "Arremonops tocuyensis",
+    "summary": "The Tocuyo sparrow (Arremonops tocuyensis) is a species of bird in the family Passerellidae, the New World sparrows. It is found in Colombi…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tocuyo_Sparrow.jpg/960px-Tocuyo_Sparrow.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    },
+    {
+      "id": "loc-thorn-forest-4be049cb",
+      "name": "Thorn forest",
+      "summary": "A thorn forest is a dense scrubland with vegetation characteristic of dry subtropical and warm temperate areas with mon…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tocuyo-sparrow-7ff3204d",
+      "subject": "Tocuyo sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tocuyo-sparrow-7ff3204d",
+      "subject": "Tocuyo sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tocuyo-sparrow-7ff3204d",
+      "subject": "Tocuyo sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-thorn-forest-4be049cb",
+      "object": "Thorn forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits a variety of dry to moist low-stature landscapes including thorn forest and shrublands and brushy areas adjoining dry and deciduous forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tocuyo-sparrow-7ff3204d",
+      "subject": "Tocuyo sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits a variety of dry to moist low-stature landscapes including thorn forest and shrublands and brushy areas adjoining dry and deciduous forest",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-tocuyo-sparrow-7ff3204d",
+      "subject": "Tocuyo sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

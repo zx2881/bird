@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:59:37",
+  "requested_title": "White-necked Hawk",
+  "resolved_title": "White-necked hawk",
+  "title_aliases": [
+    "White-necked Hawk"
+  ],
+  "bird_id": "bird-white-necked-hawk-0a57c858",
+  "raw_file": "bird-white-necked-hawk-0a57c858.json",
+  "bird": {
+    "id": "bird-white-necked-hawk-0a57c858",
+    "name": "White-necked hawk",
+    "english_name": "White-necked hawk",
+    "latin_name": "Buteogallus lacernulatus",
+    "summary": "The white-necked hawk (Buteogallus lacernulatus) is a Vulnerable species of bird of prey in the subfamily Accipitrinae, the \"true\" hawks, o…",
+    "lat": "-16.5",
+    "lng": "-39.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/White-necked_Hawk..jpg/960px-White-necked_Hawk..jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-大西洋沿岸森林-b6837c90",
+      "name": "大西洋沿岸森林",
+      "summary": "大西洋沿岸森林 （葡萄牙語：Mata Atlântica）是一片涵盖热带亚热带湿润阔叶林、热带亚热带干旱阔叶林、熱帶亞熱帶草地、稀樹草原和疏灌叢和红树林于一体的热带雨林保护区，位于巴西大西洋沿岸，最北到达北里约格朗德州，最南到达南里奥格兰…",
+      "lat": "-16.5",
+      "lng": "-39.25"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-necked-hawk-0a57c858",
+      "subject": "White-necked hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mostly inhabits dense primary Atlantic Forest but has been recorded in secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-necked-hawk-0a57c858",
+      "subject": "White-necked hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋沿岸森林-b6837c90",
+      "object": "大西洋沿岸森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mostly inhabits dense primary Atlantic Forest but has been recorded in secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-necked-hawk-0a57c858",
+      "subject": "White-necked hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It mostly inhabits dense primary Atlantic Forest but has been recorded in secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-necked-hawk-0a57c858",
+      "subject": "White-necked hawk",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

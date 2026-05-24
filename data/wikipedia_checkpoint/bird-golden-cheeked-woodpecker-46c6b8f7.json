@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:16:28",
+  "requested_title": "Golden-cheeked Woodpecker",
+  "resolved_title": "Golden-cheeked woodpecker",
+  "title_aliases": [
+    "Golden-cheeked Woodpecker"
+  ],
+  "bird_id": "bird-golden-cheeked-woodpecker-46c6b8f7",
+  "raw_file": "bird-golden-cheeked-woodpecker-46c6b8f7.json",
+  "bird": {
+    "id": "bird-golden-cheeked-woodpecker-46c6b8f7",
+    "name": "Golden-cheeked woodpecker",
+    "english_name": "Golden-cheeked woodpecker",
+    "latin_name": "Melanerpes chrysogenys",
+    "summary": "The golden-cheeked woodpecker (Melanerpes chrysogenys) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is en…",
+    "lat": "25",
+    "lng": "-107.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Golden-cheeked_Woodpecker_2.jpg/960px-Golden-cheeked_Woodpecker_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-錫那羅亞州-5446db8e",
+      "name": "錫那羅亞州",
+      "summary": "錫那羅亞州（西班牙語：Sinaloa，西班牙語發音：[sinaˈloa] ，官方名称“锡那罗亚自由主权州”）是墨西哥三十一個州之一，1830年10月14日正式成立，下设20个市，首府兼最大城市为库利亚坎。该州总面积约58,328平方公里，…",
+      "lat": "25",
+      "lng": "-107.5"
+    },
+    {
+      "id": "loc-納亞里特州-2b9132aa",
+      "name": "納亞里特州",
+      "summary": "納亞里特州 （西班牙語：Nayarit）是墨西哥三十一個州之一，西臨太平洋。首府特皮克，下分20市。 1887年建立準州，1917年建州。",
+      "lat": "22",
+      "lng": "-105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-cheeked-woodpecker-46c6b8f7",
+      "subject": "Golden-cheeked woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-錫那羅亞州-5446db8e",
+      "object": "錫那羅亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of golden-cheeked woodpecker is found in western Mexico between Sinaloa and Nayarit",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-cheeked-woodpecker-46c6b8f7",
+      "subject": "Golden-cheeked woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-納亞里特州-2b9132aa",
+      "object": "納亞里特州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of golden-cheeked woodpecker is found in western Mexico between Sinaloa and Nayarit",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-cheeked-woodpecker-46c6b8f7",
+      "subject": "Golden-cheeked woodpecker",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits the interior and edges of mesophytic to xeric forest and more open landscapes like patches of forest, savanna with trees, and plantations",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-golden-cheeked-woodpecker-46c6b8f7",
+      "subject": "Golden-cheeked woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

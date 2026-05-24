@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:38:13",
+  "requested_title": "Cinereous Bunting",
+  "resolved_title": "Cinereous bunting",
+  "title_aliases": [
+    "Cinereous Bunting"
+  ],
+  "bird_id": "bird-苍头鹀-94adb0dc",
+  "raw_file": "bird-苍头鹀-94adb0dc.json",
+  "bird": {
+    "id": "bird-苍头鹀-94adb0dc",
+    "name": "苍头鹀",
+    "english_name": "Cinereous bunting",
+    "latin_name": "Emberiza cineracea",
+    "summary": "苍头鹀（学名：Emberiza cineracea）一种雀形目鸟类，隶属于鹀科鹀属。由德国鸟类学家克里斯蒂安·路德维希·布雷姆于1855年首次描述发表。 分布 苍头鹀在土耳其南部和伊朗南部繁殖，并在非洲东北部和也门的红海附近过冬。少数孤立的种群在欧洲边缘的爱琴海诸岛上生活。",
+    "lat": "22",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cinereous_Bunting_%28Emberiza_cineracea%29%2C_Lesvos%2C_Greece%2C_17.04.2015_%2817284201896%29_%28cropped%29.jpg/960px-Cinereous_Bunting_%28Emberiza_cineracea%29%2C_Lesvos%2C_Greece%2C_17.04.2015_%2817284201896%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-红海-665a7f6f",
+      "name": "红海",
+      "summary": "红海（阿拉伯語：البحر الأحمر；希伯來語：יַם סוּף；英語：Red Sea）位于非洲东北部与阿拉伯半岛之间，呈狭长型，长约2250公里，最宽355公里，均深490米，最深3040米，面积438,000平方公里。其西北面通过…",
+      "lat": "22",
+      "lng": "38"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-苍头鹀-94adb0dc",
+      "subject": "苍头鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-红海-665a7f6f",
+      "object": "红海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Turkey and southern Iran, and winters around the Red Sea in north-eastern Africa and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-苍头鹀-94adb0dc",
+      "subject": "苍头鹀",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

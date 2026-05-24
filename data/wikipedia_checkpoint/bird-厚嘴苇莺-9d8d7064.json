@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:55:10",
+  "requested_title": "Thick-billed Warbler",
+  "resolved_title": "Thick-billed warbler",
+  "title_aliases": [
+    "Thick-billed Warbler"
+  ],
+  "bird_id": "bird-厚嘴苇莺-9d8d7064",
+  "raw_file": "bird-厚嘴苇莺-9d8d7064.json",
+  "bird": {
+    "id": "bird-厚嘴苇莺-9d8d7064",
+    "name": "厚嘴苇莺",
+    "english_name": "Thick-billed warbler",
+    "latin_name": "Arundinax aedon",
+    "summary": "厚嘴苇莺（学名：Arundinax aedon）又称厚嘴芦莺，是雀形目苇莺科的一种鸟类。繁殖於溫帶的東古北界，從西伯利亞南部到蒙古西部。牠是遷徙性鳥類，於熱帶南亞和東南亞過冬。牠在西歐洲是非常罕見的迷鳥。 该物种的模式产地在西伯利亚。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Thick-billed_Warbler_1_%40_Kakkadampoil_2-2-14.jpg/960px-Thick-billed_Warbler_1_%40_Kakkadampoil_2-2-14.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南亚-1fa6ecaf",
+      "name": "南亚",
+      "summary": "南亚（英語：South Asia）是術語，以替換百年老詞「印度次大陸」，這老詞用來代表亞洲大陸的南部地區，主要是位於印度板塊和向南投射到印度洋的地方，當中包括8個主權國家：印度、巴基斯坦、孟加拉、斯里蘭卡、馬爾代夫、不丹、尼泊爾、阿富汗（…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-厚嘴苇莺-9d8d7064",
+      "subject": "厚嘴苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-南亚-1fa6ecaf",
+      "object": "南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in tropical South Asia and South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-厚嘴苇莺-9d8d7064",
+      "subject": "厚嘴苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in tropical South Asia and South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-厚嘴苇莺-9d8d7064",
+      "subject": "厚嘴苇莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:30:01",
+  "requested_title": "Chilean Woodstar",
+  "resolved_title": "Chilean woodstar",
+  "title_aliases": [
+    "Chilean Woodstar"
+  ],
+  "bird_id": "bird-智利蜂鸟-588591a0",
+  "raw_file": "bird-智利蜂鸟-588591a0.json",
+  "bird": {
+    "id": "bird-智利蜂鸟-588591a0",
+    "name": "智利蜂鸟",
+    "english_name": "Chilean woodstar",
+    "latin_name": "Eulidia yarrellii",
+    "summary": "The Chilean woodstar (Eulidia yarrellii) is a Critically Endangered species of hummingbird in tribe Mellisugini of subfamily Trochilinae, t…",
+    "lat": "-16.8",
+    "lng": "-70.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Eulidia_yarrellii.jpg/960px-Eulidia_yarrellii.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-莫克瓜大区-1df9b08e",
+      "name": "莫克瓜大区",
+      "summary": "莫克瓜大區（西班牙語：Departamento de Moquegua）是秘魯南部的一個大區，西南臨太平洋，由沿海地區延伸到高地。其名字在克丘亞語的意思是「安靜」的地方。首府莫克瓜，它是秘魯高GDP和國民教育水平的主要城市之一。 地理 本…",
+      "lat": "-16.8",
+      "lng": "-70.8"
+    },
+    {
+      "id": "loc-american-ornithological-society-5fde31a2",
+      "name": "American Ornithological Society",
+      "summary": "The American Ornithological Society (AOS) is an ornithological organization based in the United States.",
+      "lat": "41.866269",
+      "lng": "-87.616997"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-智利蜂鸟-588591a0",
+      "subject": "智利蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫克瓜大区-1df9b08e",
+      "object": "莫克瓜大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There are also undocumented sight records in Peru in the Tacna Region and possibly Moquegua Region; the South American Classification Committee of the American Ornithological Society considers the species \"hypothetical\" in that country. The Chilean woodstar inhabits scrub, thickets, and gardens along river valleys of the arid Arica area",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-智利蜂鸟-588591a0",
+      "subject": "智利蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-american-ornithological-society-5fde31a2",
+      "object": "American Ornithological Society",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There are also undocumented sight records in Peru in the Tacna Region and possibly Moquegua Region; the South American Classification Committee of the American Ornithological Society considers the species \"hypothetical\" in that country. The Chilean woodstar inhabits scrub, thickets, and gardens along river valleys of the arid Arica area",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-智利蜂鸟-588591a0",
+      "subject": "智利蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-智利蜂鸟-588591a0",
+      "subject": "智利蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population has hugely declined since then, with estimates of 1500 individuals in 2003, 1200 in 2007, and 500 in 2012. Habitat loss is the main threat to the Chilean woodstar, with only small patches of suitable native vegetation remaining due to increased conversion to agriculture",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-智利蜂鸟-588591a0",
+      "subject": "智利蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The effect of pesticides and competition with the Peruvian sheartail are possible threats, but this has not yet been proven",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:46:21",
+  "requested_title": "Tanager Finch",
+  "resolved_title": "Tanager finch",
+  "title_aliases": [
+    "Tanager Finch"
+  ],
+  "bird_id": "bird-唐納雀鵐-835ffd5c",
+  "raw_file": "bird-唐納雀鵐-835ffd5c.json",
+  "bird": {
+    "id": "bird-唐納雀鵐-835ffd5c",
+    "name": "唐納雀鵐",
+    "english_name": "Tanager finch",
+    "latin_name": "Oreothraupis arremonops",
+    "summary": "唐納雀鵐（學名：Oreothraupis arremonops）是雀鵐科唐納雀鵐屬下唯一一種鳥類。儘管俗名稱為唐納雀鵐（Tanager finch），但既非唐納雀也非燕雀科的雀鳥，而是分布在新世界的雀鵐。這種雀鵐曾分類至不同的科如鵐科、唐納雀科。 牠們分布在哥倫比亞和厄瓜多，自…",
+    "lat": "52.1882",
+    "lng": "0.132",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tanager_Finch.jpg/960px-Tanager_Finch.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-劍橋大學出版社-b74da073",
+      "name": "劍橋大學出版社",
+      "summary": "劍橋大學出版社（英語：Cambridge University Press）隸屬於英國劍橋大學，成立於1534年，是世界上僅次於牛津大學出版社的第二大大學出版社。 歷史 劍橋大學出版社為世上現存最古老的大學出版社之一。在1534年之前，剑…",
+      "lat": "52.1882",
+      "lng": "0.132"
+    },
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-唐納雀鵐-835ffd5c",
+      "subject": "唐納雀鵐",
+      "predicate": "distributed_in",
+      "object_id": "loc-劍橋大學出版社-b74da073",
+      "object": "劍橋大學出版社",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Da Fonseca |name-list-style=amp |publisher=Cambridge University Press |isbn=978-0-521-82502-3 |chapter-url=https://books.google.com/books?id=3W_TN0790vEC&pg=PA293}} It is found in Colombia and Ecuador, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-唐納雀鵐-835ffd5c",
+      "subject": "唐納雀鵐",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Da Fonseca |name-list-style=amp |publisher=Cambridge University Press |isbn=978-0-521-82502-3 |chapter-url=https://books.google.com/books?id=3W_TN0790vEC&pg=PA293}} It is found in Colombia and Ecuador, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-唐納雀鵐-835ffd5c",
+      "subject": "唐納雀鵐",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Da Fonseca |name-list-style=amp |publisher=Cambridge University Press |isbn=978-0-521-82502-3 |chapter-url=https://books.google.com/books?id=3W_TN0790vEC&pg=PA293}} It is found in Colombia and Ecuador, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-唐納雀鵐-835ffd5c",
+      "subject": "唐納雀鵐",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Da Fonseca |name-list-style=amp |publisher=Cambridge University Press |isbn=978-0-521-82502-3 |chapter-url=https://books.google.com/books?id=3W_TN0790vEC&pg=PA293}} It is found in Colombia and Ecuador, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-唐納雀鵐-835ffd5c",
+      "subject": "唐納雀鵐",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-唐納雀鵐-835ffd5c",
+      "subject": "唐納雀鵐",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-唐納雀鵐-835ffd5c",
+      "subject": "唐納雀鵐",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The most common threats being from deforestation and urbanization",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:19:24",
+  "requested_title": "White-tailed Cisticola",
+  "resolved_title": "White-tailed cisticola",
+  "title_aliases": [
+    "White-tailed Cisticola"
+  ],
+  "bird_id": "bird-white-tailed-cisticola-5b091c8b",
+  "raw_file": "bird-white-tailed-cisticola-5b091c8b.json",
+  "bird": {
+    "id": "bird-white-tailed-cisticola-5b091c8b",
+    "name": "White-tailed cisticola",
+    "english_name": "White-tailed cisticola",
+    "latin_name": "Cisticola anderseni",
+    "summary": "The white-tailed cisticola (Cisticola anderseni) is a species of bird in the family Cisticolidae. It is found in Tanzania.",
+    "lat": "-6",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Cisticola_anderseni_-_Tom_Field_-_476849178.jpeg/960px-Cisticola_anderseni_-_Tom_Field_-_476849178.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-tailed-cisticola-5b091c8b",
+      "subject": "White-tailed cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Tanzania. It was first recognised as a new species by Éric Burnier in the 1980s",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-tailed-cisticola-5b091c8b",
+      "subject": "White-tailed cisticola",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

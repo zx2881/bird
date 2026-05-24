@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:05:10",
+  "requested_title": "Yellow-spectacled Heleia",
+  "resolved_title": "Yellow-spectacled heleia",
+  "title_aliases": [
+    "Yellow-spectacled Heleia"
+  ],
+  "bird_id": "bird-yellow-spectacled-heleia-19f5e17e",
+  "raw_file": "bird-yellow-spectacled-heleia-19f5e17e.json",
+  "bird": {
+    "id": "bird-yellow-spectacled-heleia-19f5e17e",
+    "name": "Yellow-spectacled heleia",
+    "english_name": "Yellow-spectacled heleia",
+    "latin_name": "Heleia wallacei",
+    "summary": "The yellow-spectacled heleia (Heleia wallacei), also known as the yellow-ringed white-eye is a species of bird in the white-eye family of Z…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Yellow-ringed_White-eye_%28Zosterops_wallacei%29_%288074129047%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-spectacled-heleia-19f5e17e",
+      "subject": "Yellow-spectacled heleia",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Lesser Sunda Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-spectacled-heleia-19f5e17e",
+      "subject": "Yellow-spectacled heleia",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:06:03",
+  "requested_title": "Brown Lory",
+  "resolved_title": "Brown lory",
+  "title_aliases": [
+    "Brown Lory"
+  ],
+  "bird_id": "bird-brown-lory-d8a5fd11",
+  "raw_file": "bird-brown-lory-d8a5fd11.json",
+  "bird": {
+    "id": "bird-brown-lory-d8a5fd11",
+    "name": "Brown lory",
+    "english_name": "Brown lory",
+    "latin_name": "Chalcopsitta duivenbodei",
+    "summary": "The brown lory (Chalcopsitta duivenbodei), also called Duyvenbode's lory, is a species of parrot in the family Psittaculidae native to nort…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Brown_Lory_%28Chalcopsitta_duivenbodei%29-7.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-alphonse-dubois-5431727c",
+      "name": "Alphonse Dubois",
+      "summary": "Alphonse Joseph Charles Dubois (18 October 1839 at Aix-la-Chapelle – 1 June 1921 at Coxyde-sur-Mer) was a Belgian natur…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-lory-d8a5fd11",
+      "subject": "Brown lory",
+      "predicate": "distributed_in",
+      "object_id": "loc-alphonse-dubois-5431727c",
+      "object": "Alphonse Dubois",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The brown lory (Chalcopsitta duivenbodei), also called Duyvenbode's lory, is a species of parrot in the family Psittaculidae native to northern New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-lory-d8a5fd11",
+      "subject": "Brown lory",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The brown lory (Chalcopsitta duivenbodei), also called Duyvenbode's lory, is a species of parrot in the family Psittaculidae native to northern New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-lory-d8a5fd11",
+      "subject": "Brown lory",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

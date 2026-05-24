@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:21:21",
+  "requested_title": "Monteiro's Hornbill",
+  "resolved_title": "Monteiro's hornbill",
+  "title_aliases": [
+    "Monteiro's Hornbill"
+  ],
+  "bird_id": "bird-monteiro-s-hornbill-bd9aced3",
+  "raw_file": "bird-monteiro-s-hornbill-bd9aced3.json",
+  "bird": {
+    "id": "bird-monteiro-s-hornbill-bd9aced3",
+    "name": "Monteiro's hornbill",
+    "english_name": "Monteiro's hornbill",
+    "latin_name": "Tockus monteiri",
+    "summary": "Monteiro's hornbill (Tockus monteiri) is a species of hornbill that is native to the dry woodlands of southwestern Africa. It is a common,…",
+    "lat": "-21.825627",
+    "lng": "15.1951079",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Tockus_monteiri_%28606%29%2C_crop.jpg/960px-Tockus_monteiri_%28606%29%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-spitzkoppe-9c9835f1",
+      "name": "Spitzkoppe",
+      "summary": "The Spitzkoppe (from German for \"pointed dome\"; also referred to as Spitzkop, Groot Spitzkop, or the \"Matterhorn of Nam…",
+      "lat": "-21.825627",
+      "lng": "15.1951079"
+    },
+    {
+      "id": "loc-古斯塔夫-哈特勞布-2aa484d7",
+      "name": "古斯塔夫·哈特勞布",
+      "summary": "卡雷爾·約翰·古斯塔夫·哈特勞布（德語：Karel Johan Gustav Hartlaub，1814年11月8日—1900年11月29日）是一位德國醫生與鳥類學家。 哈特勞布出生於不來梅，學生時期住於波昂與柏林，並畢業於哥廷根的醫學院…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-monteiro-s-hornbill-bd9aced3",
+      "subject": "Monteiro's hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-spitzkoppe-9c9835f1",
+      "object": "Spitzkoppe",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Monteiro's hornbill (Tockus monteiri) is a species of hornbill that is native to the dry woodlands of southwestern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-monteiro-s-hornbill-bd9aced3",
+      "subject": "Monteiro's hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-古斯塔夫-哈特勞布-2aa484d7",
+      "object": "古斯塔夫·哈特勞布",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Monteiro's hornbill (Tockus monteiri) is a species of hornbill that is native to the dry woodlands of southwestern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-monteiro-s-hornbill-bd9aced3",
+      "subject": "Monteiro's hornbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

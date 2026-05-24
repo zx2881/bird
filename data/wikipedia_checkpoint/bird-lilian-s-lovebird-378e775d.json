@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:01:21",
+  "requested_title": "Lilian's Lovebird",
+  "resolved_title": "Lilian's lovebird",
+  "title_aliases": [
+    "Lilian's Lovebird"
+  ],
+  "bird_id": "bird-lilian-s-lovebird-378e775d",
+  "raw_file": "bird-lilian-s-lovebird-378e775d.json",
+  "bird": {
+    "id": "bird-lilian-s-lovebird-378e775d",
+    "name": "Lilian's lovebird",
+    "english_name": "Lilian's lovebird",
+    "latin_name": "Agapornis lilianae",
+    "summary": "Lilian's lovebird (Agapornis lilianae), also known as the Nyasa lovebird, is a small African parrot species of the lovebird genus. It is ma…",
+    "lat": "-14.83333333",
+    "lng": "35.33333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Agapornis_lilianae_%28Zambia%29.jpg/960px-Agapornis_lilianae_%28Zambia%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-george-ernest-shelley-e53a6526",
+      "name": "George Ernest Shelley",
+      "summary": "Captain George Ernest Shelley (15 May 1840 – 29 November 1910) was an English geologist and ornithologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-利翁代國家公園-a00a3e26",
+      "name": "利翁代國家公園",
+      "summary": "利翁代國家公園（Liwonde National Park）是非洲國家馬拉維的國家公園，位於該國南部希雷河平原，距離布蘭太爾160公里，佔地548平方公里，成立於1973年，野生動物有羚羊、非洲象、水牛、鱷魚、河馬等。 外部連結 Worl…",
+      "lat": "-14.83333333",
+      "lng": "35.33333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lilian-s-lovebird-378e775d",
+      "subject": "Lilian's lovebird",
+      "predicate": "distributed_in",
+      "object_id": "loc-george-ernest-shelley-e53a6526",
+      "object": "George Ernest Shelley",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "{{Speciesbox | image = Agapornis lilianae (Zambia).jpg | status = NT | status_system = IUCN3.1 | status_ref = | status2 = CITES_A2 | status2_system = CITES | status2_ref = | genus = Agapornis | species = lilianae | authority = Shelley, 1894 | range_map = Lillians_lovebird_distribution.gif | range_map_caption = Range in red",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lilian-s-lovebird-378e775d",
+      "subject": "Lilian's lovebird",
+      "predicate": "distributed_in",
+      "object_id": "loc-利翁代國家公園-a00a3e26",
+      "object": "利翁代國家公園",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In 2004 its numbers in the wild were estimated to be less than 20,000 individuals. It currently inhabits Liwonde National Park (LNP) and a few cluster groups occur in the surrounding forests outside LNP",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lilian-s-lovebird-378e775d",
+      "subject": "Lilian's lovebird",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

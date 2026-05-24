@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:00:19",
+  "requested_title": "Grey-backed Hawk",
+  "resolved_title": "Grey-backed hawk",
+  "title_aliases": [
+    "Grey-backed Hawk"
+  ],
+  "bird_id": "bird-grey-backed-hawk-c3d0e172",
+  "raw_file": "bird-grey-backed-hawk-c3d0e172.json",
+  "bird": {
+    "id": "bird-grey-backed-hawk-c3d0e172",
+    "name": "Grey-backed hawk",
+    "english_name": "Grey-backed hawk",
+    "latin_name": "Pseudastur occidentalis",
+    "summary": "The grey-backed hawk (Pseudastur occidentalis) is a Vulnerable species of bird of prey in subfamily Accipitrinae, the \"true\" hawks, of fami…",
+    "lat": "-2",
+    "lng": "-77.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Gray-backed_Hawk_-_South-Ecuador_S4E8637_%2815478568822%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-backed-hawk-c3d0e172",
+      "subject": "Grey-backed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and far northern Peru.{{cite web |url=https://www.worldbirdnames.org/bow/raptors/ |title=Hoatzin, New World vultures, Secretarybird, raptors |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-backed-hawk-c3d0e172",
+      "subject": "Grey-backed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and far northern Peru.{{cite web |url=https://www.worldbirdnames.org/bow/raptors/ |title=Hoatzin, New World vultures, Secretarybird, raptors |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-backed-hawk-c3d0e172",
+      "subject": "Grey-backed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits subtropical and tropical semi-deciduous and evergreen forest, cloudforest, and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-backed-hawk-c3d0e172",
+      "subject": "Grey-backed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits subtropical and tropical semi-deciduous and evergreen forest, cloudforest, and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-backed-hawk-c3d0e172",
+      "subject": "Grey-backed hawk",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:45:40",
+  "requested_title": "Cassin's Kingbird",
+  "resolved_title": "Cassin's kingbird",
+  "title_aliases": [
+    "Cassin's Kingbird"
+  ],
+  "bird_id": "bird-cassin-s-kingbird-0b1e73dc",
+  "raw_file": "bird-cassin-s-kingbird-0b1e73dc.json",
+  "bird": {
+    "id": "bird-cassin-s-kingbird-0b1e73dc",
+    "name": "Cassin's kingbird",
+    "english_name": "Cassin's kingbird",
+    "latin_name": "Tyrannus vociferans",
+    "summary": "Cassin's kingbird (Tyrannus vociferans) is a large tyrant flycatcher native to western North America. The name of this bird commemorates th…",
+    "lat": "44.15",
+    "lng": "-113.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Tyrannus_vociferans_163482312_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-william-swainson-ccfed77b",
+      "name": "William Swainson",
+      "summary": "William Swainson FLS, FRS (8 October 1789 – 6 December 1855), was an English ornithologist, malacologist, conchologist,…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-洛磯山脈-da6663da",
+      "name": "洛磯山脈",
+      "summary": "洛磯山脈（英語：Rocky Mountains）是北美洲西部科迪勒拉山系最东端的主要山脈，和其平行的有太平洋海岸山脈、喀斯喀特山脈及內華達山脈。 美国和加拿大对落基山脉的具体地理定义有所不同。加拿大定义仅从西部不列颠哥伦比亚省北部的利亚德…",
+      "lat": "44.15",
+      "lng": "-113.8"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cassin-s-kingbird-0b1e73dc",
+      "subject": "Cassin's kingbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-william-swainson-ccfed77b",
+      "object": "William Swainson",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Cassin's kingbird (Tyrannus vociferans) is a large tyrant flycatcher native to western North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cassin-s-kingbird-0b1e73dc",
+      "subject": "Cassin's kingbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-洛磯山脈-da6663da",
+      "object": "洛磯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Government lithograph of Cassin's kingbird]] In the summer, these birds can be found in California and from Montana to Utah, along the eastern Rocky Mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cassin-s-kingbird-0b1e73dc",
+      "subject": "Cassin's kingbird",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Their habitat includes rangelands and savannas",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-cassin-s-kingbird-0b1e73dc",
+      "subject": "Cassin's kingbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

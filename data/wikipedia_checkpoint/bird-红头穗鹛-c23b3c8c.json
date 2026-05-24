@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:30:19",
+  "requested_title": "Rufous-capped Babbler",
+  "resolved_title": "Rufous-capped babbler",
+  "title_aliases": [
+    "Rufous-capped Babbler"
+  ],
+  "bird_id": "bird-红头穗鹛-c23b3c8c",
+  "raw_file": "bird-红头穗鹛-c23b3c8c.json",
+  "bird": {
+    "id": "bird-红头穗鹛-c23b3c8c",
+    "name": "红头穗鹛",
+    "english_name": "Rufous-capped babbler",
+    "latin_name": "Cyanoderma ruficeps",
+    "summary": "红头穗鹛（学名：Cyanoderma ruficeps），又名山红头，是画眉科的一种。其分佈範圍從東喜馬拉雅山脈至北泰國、寮國、東中國至越南和台灣。它棲息於密生灌木或竹林的溫帶森林中，在IUCN紅色名錄上被列為無危物種。 分類 Stachyris ruficeps 是愛德華·布…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Rufous-capped_babbler_%28Cyanoderma_ruficeps_praecognitum%29_Shuangyu.jpg/960px-Rufous-capped_babbler_%28Cyanoderma_ruficeps_praecognitum%29_Shuangyu.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-温带森林-d84ee4db",
+      "name": "温带森林",
+      "summary": "温带森林是指位于温带地区，介于热带雨林和北方針葉林之间的森林。它是第二大陆地生物群落，佔世界森林面积的25% ，仅次于佔世界森林面積约33%的北方針葉林。南北半球均為温带森林，分佈在纬度25度至50度之间的區域 。由于其面积广阔，横跨多个…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "name": "國際自然保護聯盟瀕危物種紅色名錄",
+      "summary": "國際自然保護聯盟瀕危物種紅色名錄（或稱IUCN紅色名錄，簡稱紅皮書）於1963年開始編製，是全球動植物物種保護現狀最全面的名錄。此名錄由國際自然保護聯盟編製及維護。 IUCN紅色名錄是根據嚴格準則去評估數以千計物種及亞種的絕種風險所編製而…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红头穗鹛-c23b3c8c",
+      "subject": "红头穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-温带森林-d84ee4db",
+      "object": "温带森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits temperate forest with dense bushes or bamboo and is listed as Least Concern on the IUCN Red List. It is pale olive with a bright rufous crown and nape, measures long and weighs .{{cite book |year=2016 |editor1=del Hoyo, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红头穗鹛-c23b3c8c",
+      "subject": "红头穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "object": "國際自然保護聯盟瀕危物種紅色名錄",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits temperate forest with dense bushes or bamboo and is listed as Least Concern on the IUCN Red List. It is pale olive with a bright rufous crown and nape, measures long and weighs .{{cite book |year=2016 |editor1=del Hoyo, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红头穗鹛-c23b3c8c",
+      "subject": "红头穗鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-temperate-forest",
+      "object": "温带森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits temperate forest with dense bushes or bamboo and is listed as Least Concern on the IUCN Red List. It is pale olive with a bright rufous crown and nape, measures long and weighs .{{cite book |year=2016 |editor1=del Hoyo, J",
+      "object_summary": "温带岛屿或山地森林生态系统。"
+    },
+    {
+      "subject_id": "bird-红头穗鹛-c23b3c8c",
+      "subject": "红头穗鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

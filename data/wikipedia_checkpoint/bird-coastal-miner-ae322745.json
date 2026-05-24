@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:13:46",
+  "requested_title": "Coastal Miner",
+  "resolved_title": "Coastal miner",
+  "title_aliases": [
+    "Coastal Miner"
+  ],
+  "bird_id": "bird-coastal-miner-ae322745",
+  "raw_file": "bird-coastal-miner-ae322745.json",
+  "bird": {
+    "id": "bird-coastal-miner-ae322745",
+    "name": "Coastal miner",
+    "english_name": "Coastal miner",
+    "latin_name": "Geositta peruviana",
+    "summary": "The coastal miner (Geositta peruviana) is a species of bird in the subfamily Sclerurinae, the leaftossers and miners, of the ovenbird famil…",
+    "lat": "-3.88",
+    "lng": "-80.59",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Coastal_Miner.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-通贝斯大区-5cf0a14a",
+      "name": "通贝斯大区",
+      "summary": "通貝斯大區（西班牙語：Departamento de Tumbes）是秘魯西北部的一個大區，西臨太平洋，東接厄瓜多爾。面積4,045.86平方公里，2007年人口191,713人。首府通貝斯。 1942年11月25日建區，2005年曾經舉…",
+      "lat": "-3.88",
+      "lng": "-80.59"
+    },
+    {
+      "id": "loc-安卡什大区-7178e090",
+      "name": "安卡什大区",
+      "summary": "安卡什区（西班牙语：Ancash）是秘鲁北部的一个行政区，首府瓦拉斯，最大城市钦博特。该区北接拉利伯塔德區，东邻瓦努科大区、帕斯科大区，南连利馬區，西濒太平洋。安卡什区区名源于克丘亚语“anqash”一词，意为“蓝”。秘鲁最高峰瓦斯卡兰峰…",
+      "lat": "-9.53",
+      "lng": "-77.53"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-coastal-miner-ae322745",
+      "subject": "Coastal miner",
+      "predicate": "distributed_in",
+      "object_id": "loc-通贝斯大区-5cf0a14a",
+      "object": "通贝斯大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "paytae is the northernmost; it is found in the northwest between the departments of Tumbes and Ancash",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-coastal-miner-ae322745",
+      "subject": "Coastal miner",
+      "predicate": "distributed_in",
+      "object_id": "loc-安卡什大区-7178e090",
+      "object": "安卡什大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "paytae is the northernmost; it is found in the northwest between the departments of Tumbes and Ancash",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-coastal-miner-ae322745",
+      "subject": "Coastal miner",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

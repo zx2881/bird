@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:29:26",
+  "requested_title": "Yellow-green Tanager",
+  "resolved_title": "Yellow-green tanager",
+  "title_aliases": [
+    "Yellow-green Tanager"
+  ],
+  "bird_id": "bird-yellow-green-tanager-dbb205b8",
+  "raw_file": "bird-yellow-green-tanager-dbb205b8.json",
+  "bird": {
+    "id": "bird-yellow-green-tanager-dbb205b8",
+    "name": "Yellow-green tanager",
+    "english_name": "Yellow-green tanager",
+    "latin_name": "Bangsia flavovirens",
+    "summary": "The yellow-green tanager (Bangsia flavovirens) is a species of bird in the family Thraupidae. It was formerly known as the yellow-green bus…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bangsia_flavovirens_-_Yellow-green_Tanager_2_%28cropped%29.jpg/960px-Bangsia_flavovirens_-_Yellow-green_Tanager_2_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-green-tanager-dbb205b8",
+      "subject": "Yellow-green tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Keith |last3=Cadena|first3=Carlos|date=2016 |title= The Yellow-green Bush-tanager is neither a bush-tanager nor a sparrow: Molecular phylogenetics reveals that Chlorospingus flavovirens is a tanager (Aves: Passeriformes; Thraupidae) |journal=Zootaxa |volume=4136 |issue=2 |pages=373–81 |doi=10.11646/zootaxa.4136.2.7 |pmid=27395721 }} The yellow-green tanager is found in Colombia and Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-green-tanager-dbb205b8",
+      "subject": "Yellow-green tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Keith |last3=Cadena|first3=Carlos|date=2016 |title= The Yellow-green Bush-tanager is neither a bush-tanager nor a sparrow: Molecular phylogenetics reveals that Chlorospingus flavovirens is a tanager (Aves: Passeriformes; Thraupidae) |journal=Zootaxa |volume=4136 |issue=2 |pages=373–81 |doi=10.11646/zootaxa.4136.2.7 |pmid=27395721 }} The yellow-green tanager is found in Colombia and Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-green-tanager-dbb205b8",
+      "subject": "Yellow-green tanager",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-yellow-green-tanager-dbb205b8",
+      "subject": "Yellow-green tanager",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

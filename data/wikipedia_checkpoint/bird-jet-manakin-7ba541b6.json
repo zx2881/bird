@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:15:31",
+  "requested_title": "Jet Manakin",
+  "resolved_title": "Jet manakin",
+  "title_aliases": [
+    "Jet Manakin"
+  ],
+  "bird_id": "bird-jet-manakin-7ba541b6",
+  "raw_file": "bird-jet-manakin-7ba541b6.json",
+  "bird": {
+    "id": "bird-jet-manakin-7ba541b6",
+    "name": "Jet manakin",
+    "english_name": "Jet manakin",
+    "latin_name": "Chloropipo unicolor",
+    "summary": "The jet manakin (Chloropipo unicolor) is a species of bird in the family Pipridae. It is found in Bolivia, Ecuador, and Peru.",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Chloropipo_unicolor_Jet_Manakin_%28male%29%3B_Chontabamba%2C_Oxapampa%2C_Peru_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-jet-manakin-7ba541b6",
+      "subject": "Jet manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The jet manakin (Chloropipo unicolor) is a species of bird in the family Pipridae. It is found in Bolivia, Ecuador, and Peru.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jet-manakin-7ba541b6",
+      "subject": "Jet manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The jet manakin (Chloropipo unicolor) is a species of bird in the family Pipridae. It is found in Bolivia, Ecuador, and Peru.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jet-manakin-7ba541b6",
+      "subject": "Jet manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The jet manakin (Chloropipo unicolor) is a species of bird in the family Pipridae. It is found in Bolivia, Ecuador, and Peru.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jet-manakin-7ba541b6",
+      "subject": "Jet manakin",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "III | title =Birds of Peru | publisher =Princeton University Press | edition =revised and updated |series=Princeton Field Guides | date =2010 | location =Princeton, NJ | pages =500 |isbn = 978-0691130231 }} Though most sources do not include Bolivia in the species' range, the independent South American Classification Committee has records in that country. The jet manakin inhabits humid montane forest in the tropical zone. In elevation it is found between in Ecuador and between in Peru",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-jet-manakin-7ba541b6",
+      "subject": "Jet manakin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:16:21",
+  "requested_title": "Bonaparte's Gull",
+  "resolved_title": "Bonaparte's gull",
+  "title_aliases": [
+    "Bonaparte's Gull"
+  ],
+  "bird_id": "bird-bonaparte-s-gull-afe89de5",
+  "raw_file": "bird-bonaparte-s-gull-afe89de5.json",
+  "bird": {
+    "id": "bird-bonaparte-s-gull-afe89de5",
+    "name": "Bonaparte's gull",
+    "english_name": "Bonaparte's gull",
+    "latin_name": "Chroicocephalus philadelphia",
+    "summary": "Bonaparte's gull (Chroicocephalus philadelphia) is a member of the gull family Laridae found mainly in northern North America. At 28 to 38…",
+    "lat": "64",
+    "lng": "-152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bonaparte%27s_Gull_in_breeding_plumage_-_52016973462.jpg/960px-Bonaparte%27s_Gull_in_breeding_plumage_-_52016973462.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉斯加州-6d35b63b",
+      "name": "阿拉斯加州",
+      "summary": "阿拉斯加州（英語：Alaska，發音：/əˈlæskə/ ；舊譯「亞尼俺國」、「亞拉士加」）是美國位於北美洲最西北端的聯邦州。州以東與加拿大的英屬哥倫比亞省和育空地區相鄰，最西端位於阿圖島，並與俄羅斯在白令海峽以西有一海上邊界。以北有楚科…",
+      "lat": "64",
+      "lng": "-152"
+    },
+    {
+      "id": "loc-加拿大-25b69dbf",
+      "name": "加拿大",
+      "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢…",
+      "lat": "60",
+      "lng": "-110"
+    },
+    {
+      "id": "loc-魁北克省-4115e1c1",
+      "name": "魁北克省",
+      "summary": "魁北克省（法語：Québec）是位于加拿大东北部的一省。据加拿大统计局2025年数据，全省人口为9,110,616人。魁北克官方语言為法语，北美的法语人口主要集中在此。首府魁北克市，最大城市蒙特利尔。 魁北克是加拿大第二大的一級行政區，僅…",
+      "lat": "52",
+      "lng": "-72"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bonaparte-s-gull-afe89de5",
+      "subject": "Bonaparte's gull",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉斯加州-6d35b63b",
+      "object": "阿拉斯加州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bonaparte's gull breeds in boreal forest across southern Alaska and much of interior western Canada, as far east as central Quebec and south to within of the Canada – United States border. It avoids dense stands of conifers, instead choosing more open areas, such as the treed edges of bogs, fens, marshes, ponds, or islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bonaparte-s-gull-afe89de5",
+      "subject": "Bonaparte's gull",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大-25b69dbf",
+      "object": "加拿大",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bonaparte's gull breeds in boreal forest across southern Alaska and much of interior western Canada, as far east as central Quebec and south to within of the Canada – United States border. It avoids dense stands of conifers, instead choosing more open areas, such as the treed edges of bogs, fens, marshes, ponds, or islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bonaparte-s-gull-afe89de5",
+      "subject": "Bonaparte's gull",
+      "predicate": "distributed_in",
+      "object_id": "loc-魁北克省-4115e1c1",
+      "object": "魁北克省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bonaparte's gull breeds in boreal forest across southern Alaska and much of interior western Canada, as far east as central Quebec and south to within of the Canada – United States border. It avoids dense stands of conifers, instead choosing more open areas, such as the treed edges of bogs, fens, marshes, ponds, or islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bonaparte-s-gull-afe89de5",
+      "subject": "Bonaparte's gull",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Bonaparte's gull breeds in boreal forest across southern Alaska and much of interior western Canada, as far east as central Quebec and south to within of the Canada – United States border. It avoids dense stands of conifers, instead choosing more open areas, such as the treed edges of bogs, fens, marshes, ponds, or islands",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-bonaparte-s-gull-afe89de5",
+      "subject": "Bonaparte's gull",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

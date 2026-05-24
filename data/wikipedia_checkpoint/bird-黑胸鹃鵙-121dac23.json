@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:13:15",
+  "requested_title": "Black-bibbed Cicadabird",
+  "resolved_title": "Black-bibbed cicadabird",
+  "title_aliases": [
+    "Black-bibbed Cicadabird"
+  ],
+  "bird_id": "bird-黑胸鹃鵙-121dac23",
+  "raw_file": "bird-黑胸鹃鵙-121dac23.json",
+  "bird": {
+    "id": "bird-黑胸鹃鵙-121dac23",
+    "name": "黑胸鹃鵙",
+    "english_name": "Black-bibbed cicadabird",
+    "latin_name": "Edolisoma mindanense",
+    "summary": "黑胸鹃鵙（学名：Edolisoma mindanense）是山椒鸟科Edolisoma属的一种。为菲律宾的特有种。该物种十分稀有，对其习性所知不多。 黑胸鹃鵙的自然栖息地为亚热带或热带的湿润低地森林以及亚热带或热带的湿润山地林。该物种受栖息地减少威胁。",
+    "lat": "17.30805556",
+    "lng": "122.08611111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Black-bibbed_Cuckooshrike_Mindoro_Male.png"
+  },
+  "locations": [
+    {
+      "id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "name": "Northern Sierra Madre Natural Park",
+      "summary": "The Northern Sierra Madre Natural Park is the largest protected area of the Philippines covering the northern range of…",
+      "lat": "17.30805556",
+      "lng": "122.08611111"
+    },
+    {
+      "id": "loc-bataan-national-park-b6a954a6",
+      "name": "Bataan National Park",
+      "summary": "Bataan National Park is a protected area of the Philippines located in the mountainous interior of Bataan province in t…",
+      "lat": "14.65",
+      "lng": "120.6"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑胸鹃鵙-121dac23",
+      "subject": "黑胸鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "object": "Northern Sierra Madre Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Occurs in a few protected areas in Northern Sierra Madre Natural Park and Bataan National Park on Luzon, the Siburan Prison Penal Colony Forest Reserve and Mt",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑胸鹃鵙-121dac23",
+      "subject": "黑胸鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-bataan-national-park-b6a954a6",
+      "object": "Bataan National Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Occurs in a few protected areas in Northern Sierra Madre Natural Park and Bataan National Park on Luzon, the Siburan Prison Penal Colony Forest Reserve and Mt",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑胸鹃鵙-121dac23",
+      "subject": "黑胸鹃鵙",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-黑胸鹃鵙-121dac23",
+      "subject": "黑胸鹃鵙",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-黑胸鹃鵙-121dac23",
+      "subject": "黑胸鹃鵙",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Extensive lowland deforestation on all islands in its range is the main threat",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:38:14",
+  "requested_title": "Gray's Grasshopper Warbler",
+  "resolved_title": "Gray's grasshopper warbler",
+  "title_aliases": [
+    "Gray's Grasshopper Warbler"
+  ],
+  "bird_id": "bird-苍眉蝗莺-ce2594ca",
+  "raw_file": "bird-苍眉蝗莺-ce2594ca.json",
+  "bird": {
+    "id": "bird-苍眉蝗莺-ce2594ca",
+    "name": "苍眉蝗莺",
+    "english_name": "Gray's grasshopper warbler",
+    "latin_name": "Helopsaltes fasciolatus",
+    "summary": "苍眉蝗莺（学名：Helopsaltes fasciolatus）为蝗鶯科蝗莺属的鸟类。庫頁島蝗鶯過去曾被認為與其為同種異名。 其种加词“fasciolata”意为“有条带的”。",
+    "lat": "48",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Helopsaltes_amnicola_from_iNaturalist_photo_147015186.jpg/960px-Helopsaltes_amnicola_from_iNaturalist_photo_147015186.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    },
+    {
+      "id": "loc-黑龙江省-3e6fc955",
+      "name": "黑龙江省",
+      "summary": "黑龙江省，简称黑，位于中国东北地区北部，是中华人民共和国最靠北和最靠东的省份，省会驻地为哈尔滨。省人民政府駐哈尔滨市南岗区中山路202号。 中俄界河黑龙江为境内最大河流，省名由江名而来。省界东、北与俄罗斯接壤，南接吉林省，西邻内蒙古自治区…",
+      "lat": "48",
+      "lng": "129"
+    },
+    {
+      "id": "loc-朝鮮-地區-db3706d8",
+      "name": "朝鮮 (地區)",
+      "summary": "朝鮮，又稱韓、高丽等，是东亚的一个地区，位于欧亚大陆东端，包含朝鲜半岛（韓半岛）、济州岛及朝鲜半岛附近的几个岛屿。東北接壤俄罗斯，北面接壤中國，通過朝鲜海峡和日本海與日本隔海相望。其位处汉字文化圈内，传统上深受汉文化影响，但也在建筑、音乐…",
+      "lat": "38.31666667",
+      "lng": "127.23333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-苍眉蝗莺-ce2594ca",
+      "subject": "苍眉蝗莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This small passerine bird breeds in southern Siberia, northeastern China and Korea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-苍眉蝗莺-ce2594ca",
+      "subject": "苍眉蝗莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-黑龙江省-3e6fc955",
+      "object": "黑龙江省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This small passerine bird breeds in southern Siberia, northeastern China and Korea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-苍眉蝗莺-ce2594ca",
+      "subject": "苍眉蝗莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-朝鮮-地區-db3706d8",
+      "object": "朝鮮 (地區)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This small passerine bird breeds in southern Siberia, northeastern China and Korea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-苍眉蝗莺-ce2594ca",
+      "subject": "苍眉蝗莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

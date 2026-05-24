@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:50:12",
+  "requested_title": "Olive Sparrow",
+  "resolved_title": "Olive sparrow",
+  "title_aliases": [
+    "Olive Sparrow"
+  ],
+  "bird_id": "bird-olive-sparrow-6e537e1d",
+  "raw_file": "bird-olive-sparrow-6e537e1d.json",
+  "bird": {
+    "id": "bird-olive-sparrow-6e537e1d",
+    "name": "Olive sparrow",
+    "english_name": "Olive sparrow",
+    "latin_name": "Arremonops rufivirgatus",
+    "summary": "The olive sparrow (Arremonops rufivirgatus) is a species of bird in the family Passerellidae, the New World sparrows. It is found from Texa…",
+    "lat": "9.91666667",
+    "lng": "-84.06666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Olive_Sparrow_%28Arremonops_rufivirgatus%29_Edinbug%2C_Texas%2C_USA.png/960px-Olive_Sparrow_%28Arremonops_rufivirgatus%29_Edinbug%2C_Texas%2C_USA.png"
+  },
+  "locations": [
+    {
+      "id": "loc-costa-rican-central-valley-c376193e",
+      "name": "Costa Rican Central Valley",
+      "summary": "The Central Valley (Spanish: Valle Central) is a plateau and a geographic region of central Costa Rica.",
+      "lat": "9.91666667",
+      "lng": "-84.06666667"
+    },
+    {
+      "id": "loc-圣何塞省-哥斯达黎加-337dd9ed",
+      "name": "圣何塞省 (哥斯达黎加)",
+      "summary": "圣何塞省（西班牙語：Provincia de San José）是哥斯达黎加中部的一个省，北邻阿拉胡埃拉省和埃雷迪亚省，东接卡塔戈省和利蒙省，南面和西面与蓬塔雷纳斯省接壤。面積4,965.9平方公里，2003年人口1,435,447人。下…",
+      "lat": "9.6",
+      "lng": "-83.95"
+    },
+    {
+      "id": "loc-thorn-forest-4be049cb",
+      "name": "Thorn forest",
+      "summary": "A thorn forest is a dense scrubland with vegetation characteristic of dry subtropical and warm temperate areas with mon…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-olive-sparrow-6e537e1d",
+      "subject": "Olive sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-costa-rican-central-valley-c376193e",
+      "object": "Costa Rican Central Valley",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "superciliosus: Pacific slope from southwestern Nicaragua into northwestern Costa Rica to the Valle Central in San José Province The olive sparrow inhabits a variety of landscapes across its wide range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-sparrow-6e537e1d",
+      "subject": "Olive sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣何塞省-哥斯达黎加-337dd9ed",
+      "object": "圣何塞省 (哥斯达黎加)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "superciliosus: Pacific slope from southwestern Nicaragua into northwestern Costa Rica to the Valle Central in San José Province The olive sparrow inhabits a variety of landscapes across its wide range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-sparrow-6e537e1d",
+      "subject": "Olive sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-thorn-forest-4be049cb",
+      "object": "Thorn forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Knopf | date =2003 | location =New York | pages =370 | isbn =0-679-45121-8 }} In Mexico it occurs in chaparral, thorn forest, shrubby abandoned fields, the edges and clearings of subtropical forest, and the understory of tropical deciduous forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-sparrow-6e537e1d",
+      "subject": "Olive sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "On the Yucatán Peninsula it inhabits both humid forest and dry coastal scrublands. In Belize and Guatemala it is found mostly in semi-arid grasslands, savanna, and scrublands and to a lesser degree the edges of forest. In Costa Rica it is found on the edges and understory of forest and nearby secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-sparrow-6e537e1d",
+      "subject": "Olive sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "On the Yucatán Peninsula it inhabits both humid forest and dry coastal scrublands. In Belize and Guatemala it is found mostly in semi-arid grasslands, savanna, and scrublands and to a lesser degree the edges of forest. In Costa Rica it is found on the edges and understory of forest and nearby secondary forest",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-olive-sparrow-6e537e1d",
+      "subject": "Olive sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "On the Yucatán Peninsula it inhabits both humid forest and dry coastal scrublands. In Belize and Guatemala it is found mostly in semi-arid grasslands, savanna, and scrublands and to a lesser degree the edges of forest. In Costa Rica it is found on the edges and understory of forest and nearby secondary forest",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-olive-sparrow-6e537e1d",
+      "subject": "Olive sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

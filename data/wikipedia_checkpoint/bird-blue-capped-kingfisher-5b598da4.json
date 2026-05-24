@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:45:19",
+  "requested_title": "Blue-capped Kingfisher",
+  "resolved_title": "Blue-capped kingfisher",
+  "title_aliases": [
+    "Blue-capped Kingfisher"
+  ],
+  "bird_id": "bird-blue-capped-kingfisher-5b598da4",
+  "raw_file": "bird-blue-capped-kingfisher-5b598da4.json",
+  "bird": {
+    "id": "bird-blue-capped-kingfisher-5b598da4",
+    "name": "Blue-capped kingfisher",
+    "english_name": "Blue-capped kingfisher",
+    "latin_name": "Actenoides hombroni",
+    "summary": "The blue-capped kingfisher (Actenoides hombroni), also known as Hombron's kingfisher, is a species of bird in the family Alcedinidae endemi…",
+    "lat": "7.0711",
+    "lng": "122.0755",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Pajaro_1_page-0001_%28cropped%29.jpg/960px-Pajaro_1_page-0001_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pasonanca-natural-park-4873c699",
+      "name": "Pasonanca Natural Park",
+      "summary": "The Pasonanca Natural Park is a protected area that preserves a major watershed in the southern Philippine island of Mi…",
+      "lat": "7.0711",
+      "lng": "122.0755"
+    },
+    {
+      "id": "loc-mount-kitanglad-0c32fed1",
+      "name": "Mount Kitanglad",
+      "summary": "Mount Kitanglad is an inactive volcano located in the Kitanglad Mountain Range in Bukidnon province on Mindanao island.",
+      "lat": "8.14277778",
+      "lng": "124.9125"
+    },
+    {
+      "id": "loc-阿波火山-e8ee2894",
+      "name": "阿波火山",
+      "summary": "阿波火山（他加祿語：Bundok Apo）是一座位于菲律宾棉兰老岛东南部的活火山，海拔2,954公尺，为菲律宾最高峰。达沃市位于其东北方30公里处。近百年未喷发，有硫磺矿，覆盖着热带硬木林。 主峰及周围已经开辟为阿波火山国家公园（面积80…",
+      "lat": "6.9875",
+      "lng": "125.27083333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-capped-kingfisher-5b598da4",
+      "subject": "Blue-capped kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-pasonanca-natural-park-4873c699",
+      "object": "Pasonanca Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas like Pasonanca Natural Park, Mount Kitanglad National Park, Mount Apo National Park and Mt",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-capped-kingfisher-5b598da4",
+      "subject": "Blue-capped kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-mount-kitanglad-0c32fed1",
+      "object": "Mount Kitanglad",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas like Pasonanca Natural Park, Mount Kitanglad National Park, Mount Apo National Park and Mt",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-capped-kingfisher-5b598da4",
+      "subject": "Blue-capped kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿波火山-e8ee2894",
+      "object": "阿波火山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas like Pasonanca Natural Park, Mount Kitanglad National Park, Mount Apo National Park and Mt",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-capped-kingfisher-5b598da4",
+      "subject": "Blue-capped kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-blue-capped-kingfisher-5b598da4",
+      "subject": "Blue-capped kingfisher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss and its population is declining",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-blue-capped-kingfisher-5b598da4",
+      "subject": "Blue-capped kingfisher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

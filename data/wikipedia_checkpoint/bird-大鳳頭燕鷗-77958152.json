@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:14:32",
+  "requested_title": "Greater Crested Tern",
+  "resolved_title": "Greater crested tern",
+  "title_aliases": [
+    "Greater Crested Tern"
+  ],
+  "bird_id": "bird-大鳳頭燕鷗-77958152",
+  "raw_file": "bird-大鳳頭燕鷗-77958152.json",
+  "bird": {
+    "id": "bird-大鳳頭燕鷗-77958152",
+    "name": "大鳳頭燕鷗",
+    "english_name": "Greater crested tern",
+    "latin_name": "Thalasseus bergii",
+    "summary": "The greater crested tern (Thalasseus bergii), also called crested tern, swift tern, or great crested tern, is a tern in the family Laridae…",
+    "lat": "-6",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Thalasseus_bergii%2C_Gansbaai%2C_Western_Cape%2C_South_Africa_1.jpg/960px-Thalasseus_bergii%2C_Gansbaai%2C_Western_Cape%2C_South_Africa_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大鳳頭燕鷗-77958152",
+      "subject": "大鳳頭燕鷗",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "enigma) breeds in southern Africa from Namibia to Tanzania, and possibly on islands around Madagascar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大鳳頭燕鷗-77958152",
+      "subject": "大鳳頭燕鷗",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

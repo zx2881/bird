@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:35:54",
+  "requested_title": "White-lored Oriole",
+  "resolved_title": "White-lored oriole",
+  "title_aliases": [
+    "White-lored Oriole"
+  ],
+  "bird_id": "bird-white-lored-oriole-f5a0c998",
+  "raw_file": "bird-white-lored-oriole-f5a0c998.json",
+  "bird": {
+    "id": "bird-white-lored-oriole-f5a0c998",
+    "name": "White-lored oriole",
+    "english_name": "White-lored oriole",
+    "latin_name": "Oriolus albiloris",
+    "summary": "The white-lored oriole (Oriolus albiloris) is a species of bird in the family Oriolidae. It is endemic to Luzon island (Philippines).",
+    "lat": "17.30805556",
+    "lng": "122.08611111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/White-lored_Oriole2_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "name": "Northern Sierra Madre Natural Park",
+      "summary": "The Northern Sierra Madre Natural Park is the largest protected area of the Philippines covering the northern range of…",
+      "lat": "17.30805556",
+      "lng": "122.08611111"
+    },
+    {
+      "id": "loc-bataan-national-park-b6a954a6",
+      "name": "Bataan National Park",
+      "summary": "Bataan National Park is a protected area of the Philippines located in the mountainous interior of Bataan province in t…",
+      "lat": "14.65",
+      "lng": "120.6"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-lored-oriole-f5a0c998",
+      "subject": "White-lored oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "object": "Northern Sierra Madre Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas such as Northern Sierra Madre Natural Park and Bataan National Park but despite this legal protection, enforcement is lax and these areas continue to be deforested",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-lored-oriole-f5a0c998",
+      "subject": "White-lored oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-bataan-national-park-b6a954a6",
+      "object": "Bataan National Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas such as Northern Sierra Madre Natural Park and Bataan National Park but despite this legal protection, enforcement is lax and these areas continue to be deforested",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-lored-oriole-f5a0c998",
+      "subject": "White-lored oriole",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-white-lored-oriole-f5a0c998",
+      "subject": "White-lored oriole",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its threats are mainly habitat loss due to deforestation for lumber, mining and farmlands",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-white-lored-oriole-f5a0c998",
+      "subject": "White-lored oriole",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its threats are mainly habitat loss due to deforestation for lumber, mining and farmlands",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

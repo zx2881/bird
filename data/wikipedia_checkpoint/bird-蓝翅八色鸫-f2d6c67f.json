@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:12:31",
+  "requested_title": "Indian Pitta",
+  "resolved_title": "Indian pitta",
+  "title_aliases": [
+    "Indian Pitta"
+  ],
+  "bird_id": "bird-蓝翅八色鸫-f2d6c67f",
+  "raw_file": "bird-蓝翅八色鸫-f2d6c67f.json",
+  "bird": {
+    "id": "bird-蓝翅八色鸫-f2d6c67f",
+    "name": "蓝翅八色鸫",
+    "english_name": "Indian pitta",
+    "latin_name": "Pitta brachyura",
+    "summary": "蓝翅八色鸫（学名：Pitta brachyura），是八色鸫科八色鸫属的一种，是全面迁徙的候鸟，分布于印度、斯里兰卡、孟加拉国、中国大陆、尼泊尔和巴基斯坦。全球活动范围约为862,000平方千米。该物种的保护状况被评为无危。 蓝翅八色鸫的平均体重约为53.9克。栖息地包括城市、…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Indian_pitta_%28Pitta_brachyura%29_Photograph_by_Shantanu_Kuveskar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝翅八色鸫-f2d6c67f",
+      "subject": "蓝翅八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits scrub jungle, deciduous and dense evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝翅八色鸫-f2d6c67f",
+      "subject": "蓝翅八色鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

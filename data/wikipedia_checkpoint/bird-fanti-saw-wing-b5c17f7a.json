@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:38:38",
+  "requested_title": "Fanti Saw-wing",
+  "resolved_title": "Fanti saw-wing",
+  "title_aliases": [
+    "Fanti Saw-wing"
+  ],
+  "bird_id": "bird-fanti-saw-wing-b5c17f7a",
+  "raw_file": "bird-fanti-saw-wing-b5c17f7a.json",
+  "bird": {
+    "id": "bird-fanti-saw-wing-b5c17f7a",
+    "name": "Fanti saw-wing",
+    "english_name": "Fanti saw-wing",
+    "latin_name": "Psalidoprocne obscura",
+    "summary": "The Fanti saw-wing (Psalidoprocne obscura), also known as the Fanti rough-winged swallow, is a small passerine bird in the swallow family.…",
+    "lat": "14",
+    "lng": "-14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Fanti_Saw-wing_%28Psalidoprocne_obscura%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塞内加尔-8f96dd71",
+      "name": "塞内加尔",
+      "summary": "塞内加尔共和国（法語：République du Sénégal），通稱塞內加爾（法語：Sénégal），是西非国家，位于塞内加尔河的南岸，首都达喀尔。它的西边是大西洋，北边是毛里塔尼亚，东边是馬利，南边是几内亚和几内亚比绍。冈比亚在塞内…",
+      "lat": "14",
+      "lng": "-14"
+    },
+    {
+      "id": "loc-喀麦隆-9d17d92e",
+      "name": "喀麦隆",
+      "summary": "Cameroon, officially the Republic of Cameroon, is a country in Central Africa.",
+      "lat": "6",
+      "lng": "12"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-fanti-saw-wing-b5c17f7a",
+      "subject": "Fanti saw-wing",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞内加尔-8f96dd71",
+      "object": "塞内加尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Fanti saw-wing breeds in the lowlands of southern west Africa from Senegal to Cameroon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fanti-saw-wing-b5c17f7a",
+      "subject": "Fanti saw-wing",
+      "predicate": "distributed_in",
+      "object_id": "loc-喀麦隆-9d17d92e",
+      "object": "喀麦隆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Fanti saw-wing breeds in the lowlands of southern west Africa from Senegal to Cameroon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fanti-saw-wing-b5c17f7a",
+      "subject": "Fanti saw-wing",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:09:40",
+  "requested_title": "Slaty Cuckooshrike",
+  "resolved_title": "Slaty cuckooshrike",
+  "title_aliases": [
+    "Slaty Cuckooshrike"
+  ],
+  "bird_id": "bird-青灰鹃鵙-2e501cce",
+  "raw_file": "bird-青灰鹃鵙-2e501cce.json",
+  "bird": {
+    "id": "bird-青灰鹃鵙-2e501cce",
+    "name": "青灰鹃鵙",
+    "english_name": "Slaty cuckooshrike",
+    "latin_name": "Coracina schistacea",
+    "summary": "青灰鹃鵙（学名：Coracina schistacea）是山椒鸟科鸦鹃鵙属的一种，为印度尼西亚的特有种。其自然栖息地为亚热带或热带的湿润低地森林以及亚热带或热带的红树林。 参考文献 BirdLife International.",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Coracina_schistacea_583509206.jpg/960px-Coracina_schistacea_583509206.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-sula-islands-b6777b37",
+      "name": "Sula Islands",
+      "summary": "The Sula Islands are an archipelago of Indonesia.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-邦蓋島-a3db332d",
+      "name": "邦蓋島",
+      "summary": "邦蓋島是印度尼西亞的島嶼，位於中蘇拉威西省的最東端，是邦蓋群島的第二大島嶼，面積268平方公里，2000年人口普查顯示小島上有26,089名居民。行政上由邦盖海县管理，岛上主要城镇有西海岸的邦盖。",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-青灰鹃鵙-2e501cce",
+      "subject": "青灰鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in the Sula and Banggai Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-青灰鹃鵙-2e501cce",
+      "subject": "青灰鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-sula-islands-b6777b37",
+      "object": "Sula Islands",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in the Sula and Banggai Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-青灰鹃鵙-2e501cce",
+      "subject": "青灰鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-邦蓋島-a3db332d",
+      "object": "邦蓋島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in the Sula and Banggai Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-青灰鹃鵙-2e501cce",
+      "subject": "青灰鹃鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

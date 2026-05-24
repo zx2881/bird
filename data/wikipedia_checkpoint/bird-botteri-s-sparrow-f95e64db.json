@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:52:17",
+  "requested_title": "Botteri's Sparrow",
+  "resolved_title": "Botteri's sparrow",
+  "title_aliases": [
+    "Botteri's Sparrow"
+  ],
+  "bird_id": "bird-botteri-s-sparrow-f95e64db",
+  "raw_file": "bird-botteri-s-sparrow-f95e64db.json",
+  "bird": {
+    "id": "bird-botteri-s-sparrow-f95e64db",
+    "name": "Botteri's sparrow",
+    "english_name": "Botteri's sparrow",
+    "latin_name": "Peucaea botterii",
+    "summary": "Botteri's sparrow (Peucaea botterii) is a species of bird in the family Passerellidae, the New World sparrows. It is found from the southwe…",
+    "lat": "10.74833333",
+    "lng": "-85.15277778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/867_-_BOTTERI%27S_SPARROW_%281-22-14%29_survey_bird_L%2C_lado_de_loma%2C_lake_patagonia_ranch_estates%2C_scc%2C_az_-01_%2812092103435%29.jpg/960px-867_-_BOTTERI%27S_SPARROW_%281-22-14%29_survey_bird_L%2C_lado_de_loma%2C_lake_patagonia_ranch_estates%2C_scc%2C_az_-01_%2812092103435%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-瓜納卡斯特山脈-db010d2a",
+      "name": "瓜納卡斯特山脈",
+      "summary": "瓜納卡斯特山脈是哥斯達黎加的山脈，位於該國北部，毗鄰與尼加拉瓜接壤的邊境，全長110公里，最高點海拔高度2,028米，該山體在第四紀形成。",
+      "lat": "10.74833333",
+      "lng": "-85.15277778"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-botteri-s-sparrow-f95e64db",
+      "subject": "Botteri's sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓜納卡斯特山脈-db010d2a",
+      "object": "瓜納卡斯特山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "vulcanica: separate from others on Pacific slope in western Nicaragua and northwestern Costa Rica's Cordillera de Guanacaste The more northerly botterii group of Botteri's sparrow subspecies inhabits temperate and desert grasslands, savanna, oak woodlands, and coastal prairie at elevations from sea level to .{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-botteri-s-sparrow-f95e64db",
+      "subject": "Botteri's sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "vulcanica: separate from others on Pacific slope in western Nicaragua and northwestern Costa Rica's Cordillera de Guanacaste The more northerly botterii group of Botteri's sparrow subspecies inhabits temperate and desert grasslands, savanna, oak woodlands, and coastal prairie at elevations from sea level to .{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-botteri-s-sparrow-f95e64db",
+      "subject": "Botteri's sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "| pages =608 }} The southerly petenica group inhabits the same landscape types as the botterii group and also pine forest and lowland pine savanna. In northern Central America this group ranges from sea level to and in Costa Rica occurs between . Botteri's sparrow was not found in Arizona between the 1890s and the mid-20th century due to excessive grazing of livestock; now it is locally common in its Arizona range due to recovery of vegetation",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-botteri-s-sparrow-f95e64db",
+      "subject": "Botteri's sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "(2005) \"The Botteri's sparrow and exotic Arizona grasslands: an ecological trap or habitat regained?\" Condor 107(4): 731–741",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-botteri-s-sparrow-f95e64db",
+      "subject": "Botteri's sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

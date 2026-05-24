@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:53:38",
+  "requested_title": "Ceara Gnateater",
+  "resolved_title": "Rufous gnateater",
+  "title_aliases": [
+    "Ceara Gnateater",
+    "Rufous gnateater"
+  ],
+  "bird_id": "bird-rufous-gnateater-dc1b1ed2",
+  "raw_file": "bird-rufous-gnateater-dc1b1ed2.json",
+  "bird": {
+    "id": "bird-rufous-gnateater-dc1b1ed2",
+    "name": "Rufous gnateater",
+    "english_name": "Rufous gnateater",
+    "latin_name": "Conopophaga lineata",
+    "summary": "The rufous gnateater (Conopophaga lineata) is a passerine bird of the gnateater family, Conopophagidae. It is found in forest understory an…",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Conopophaga_lineata.jpg/960px-Conopophaga_lineata.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-南里奥格兰德州-a29883e9",
+      "name": "南里奥格兰德州",
+      "summary": "南里奥格兰德州（葡萄牙語：Rio Grande do Sul，直译：「南方的大河」，發音：[ˈʁiw ˈɡɾɐ̃dʒi du ˈsuw] ），或称南大河州，是巴西最南端的一个州，东临大西洋，首府阿雷格里港，人口10,963,216。该州与…",
+      "lat": "-30",
+      "lng": "-53"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-gnateater-dc1b1ed2",
+      "subject": "Rufous gnateater",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in forest understory and bushes in eastern Brazil from Rio Grande do Sul north to central Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-gnateater-dc1b1ed2",
+      "subject": "Rufous gnateater",
+      "predicate": "distributed_in",
+      "object_id": "loc-南里奥格兰德州-a29883e9",
+      "object": "南里奥格兰德州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in forest understory and bushes in eastern Brazil from Rio Grande do Sul north to central Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-gnateater-dc1b1ed2",
+      "subject": "Rufous gnateater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

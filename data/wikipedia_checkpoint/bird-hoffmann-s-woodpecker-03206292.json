@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:16:44",
+  "requested_title": "Hoffmann's Woodpecker",
+  "resolved_title": "Hoffmann's woodpecker",
+  "title_aliases": [
+    "Hoffmann's Woodpecker"
+  ],
+  "bird_id": "bird-hoffmann-s-woodpecker-03206292",
+  "raw_file": "bird-hoffmann-s-woodpecker-03206292.json",
+  "bird": {
+    "id": "bird-hoffmann-s-woodpecker-03206292",
+    "name": "Hoffmann's woodpecker",
+    "english_name": "Hoffmann's woodpecker",
+    "latin_name": "Melanerpes hoffmannii",
+    "summary": "Hoffmann's woodpecker (Melanerpes hoffmannii) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is found from…",
+    "lat": "13.31666667",
+    "lng": "-87.21666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Hoffmann%27s_Woodpecker.jpg/960px-Hoffmann%27s_Woodpecker.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喬盧特卡省-50457f38",
+      "name": "喬盧特卡省",
+      "summary": "喬盧特卡省（西班牙語：Choluteca）是宏都拉斯的一個省，位於該國最南部，西為豐塞卡灣，東、南為尼加拉瓜。面積4,211平方公里，2005年人口420,350人。首府喬盧特卡。 1825年建省，是最早的七個省之一。1893年山谷省自本…",
+      "lat": "13.31666667",
+      "lng": "-87.21666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hoffmann-s-woodpecker-03206292",
+      "subject": "Hoffmann's woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-喬盧特卡省-50457f38",
+      "object": "喬盧特卡省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Hoffmann's woodpecker is found from southwestern Honduras' Choluteca Department through Nicaragua on the Pacific slope to central Costa Rica. There is also one record from El Salvador. The species inhabits dry and deciduous forests and more open areas such as shade coffee plantations, urban parks, and house gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hoffmann-s-woodpecker-03206292",
+      "subject": "Hoffmann's woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-hoffmann-s-woodpecker-03206292",
+      "subject": "Hoffmann's woodpecker",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It has \"increased its distribution in recent years due in part to deforestation following growing human colonization\" but \"[e]limination of dead trees...negatively affects the population of this species, by limit[ing] the nesting substrates.\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

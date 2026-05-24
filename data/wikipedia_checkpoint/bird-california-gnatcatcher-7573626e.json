@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:39:10",
+  "requested_title": "California Gnatcatcher",
+  "resolved_title": "California gnatcatcher",
+  "title_aliases": [
+    "California Gnatcatcher"
+  ],
+  "bird_id": "bird-california-gnatcatcher-7573626e",
+  "raw_file": "bird-california-gnatcatcher-7573626e.json",
+  "bird": {
+    "id": "bird-california-gnatcatcher-7573626e",
+    "name": "California gnatcatcher",
+    "english_name": "California gnatcatcher",
+    "latin_name": "Polioptila californica",
+    "summary": "The California gnatcatcher (Polioptila californica) is a small, 10.8-centimetre-long (4.3 in) insectivorous bird which frequents dense coas…",
+    "lat": "28",
+    "lng": "-113.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/California_Gnatcatcher.jpg/960px-California_Gnatcatcher.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-下加利福尼亞半島-4e2a0f71",
+      "name": "下加利福尼亞半島",
+      "summary": "The Baja California peninsula (Spanish: Península de Baja California, lit.",
+      "lat": "28",
+      "lng": "-113.5"
+    },
+    {
+      "id": "loc-baja-california-desert-d74a85cf",
+      "name": "Baja California desert",
+      "summary": "The Baja California desert (Spanish: desierto de Baja California) is a desert ecoregion of Mexico's Baja California pen…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-gulf-of-california-xeric-scrub-fdc6fa0f",
+      "name": "Gulf of California xeric scrub",
+      "summary": "The Gulf of California xeric scrub (Spanish: Matorral xerófilo del Golfo de California) is a xeric shrubland ecoregion…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-california-gnatcatcher-7573626e",
+      "subject": "California gnatcatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-下加利福尼亞半島-4e2a0f71",
+      "object": "下加利福尼亞半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the main part of its range on the Baja California peninsula, the California gnatcatcher inhabits a variety of dry habitats including the Baja California desert and Gulf of California xeric scrub",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-california-gnatcatcher-7573626e",
+      "subject": "California gnatcatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-baja-california-desert-d74a85cf",
+      "object": "Baja California desert",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the main part of its range on the Baja California peninsula, the California gnatcatcher inhabits a variety of dry habitats including the Baja California desert and Gulf of California xeric scrub",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-california-gnatcatcher-7573626e",
+      "subject": "California gnatcatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-gulf-of-california-xeric-scrub-fdc6fa0f",
+      "object": "Gulf of California xeric scrub",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the main part of its range on the Baja California peninsula, the California gnatcatcher inhabits a variety of dry habitats including the Baja California desert and Gulf of California xeric scrub",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-california-gnatcatcher-7573626e",
+      "subject": "California gnatcatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

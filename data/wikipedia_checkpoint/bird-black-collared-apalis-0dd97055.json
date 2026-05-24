@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:02:19",
+  "requested_title": "Black-collared Apalis",
+  "resolved_title": "Black-collared apalis",
+  "title_aliases": [
+    "Black-collared Apalis"
+  ],
+  "bird_id": "bird-black-collared-apalis-0dd97055",
+  "raw_file": "bird-black-collared-apalis-0dd97055.json",
+  "bird": {
+    "id": "bird-black-collared-apalis-0dd97055",
+    "name": "Black-collared apalis",
+    "english_name": "Black-collared apalis",
+    "latin_name": "Oreolais pulcher",
+    "summary": "The black-collared apalis (Oreolais pulcher) is a species of bird in the family Cisticolidae. It is found in the Cameroonian Highlands fore…",
+    "lat": "6",
+    "lng": "11",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Oreolais_pulcher_-_Adrien_Jailloux_-_607546298.jpeg/960px-Oreolais_pulcher_-_Adrien_Jailloux_-_607546298.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-cameroonian-highlands-forests-458b5242",
+      "name": "Cameroonian Highlands forests",
+      "summary": "The Cameroonian Highlands forests, also known as the Cameroon Highlands forests, is a montane tropical moist broadleaf…",
+      "lat": "6",
+      "lng": "11"
+    },
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-collared-apalis-0dd97055",
+      "subject": "Black-collared apalis",
+      "predicate": "distributed_in",
+      "object_id": "loc-cameroonian-highlands-forests-458b5242",
+      "object": "Cameroonian Highlands forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cameroonian Highlands forests, western Kenya and the Albertine rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-collared-apalis-0dd97055",
+      "subject": "Black-collared apalis",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cameroonian Highlands forests, western Kenya and the Albertine rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-collared-apalis-0dd97055",
+      "subject": "Black-collared apalis",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cameroonian Highlands forests, western Kenya and the Albertine rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-collared-apalis-0dd97055",
+      "subject": "Black-collared apalis",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the Cameroonian Highlands forests, western Kenya and the Albertine rift montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-black-collared-apalis-0dd97055",
+      "subject": "Black-collared apalis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:26:42",
+  "requested_title": "Fulmar Prion",
+  "resolved_title": "Fulmar prion",
+  "title_aliases": [
+    "Fulmar Prion"
+  ],
+  "bird_id": "bird-fulmar-prion-b00245b3",
+  "raw_file": "bird-fulmar-prion-b00245b3.json",
+  "bird": {
+    "id": "bird-fulmar-prion-b00245b3",
+    "name": "Fulmar prion",
+    "english_name": "Fulmar prion",
+    "latin_name": "Pachyptila crassirostris",
+    "summary": "The fulmar prion (Pachyptila crassirostris) is a species of seabird in the family Procellariidae, found in the southern oceans. Etymology I…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Fulmar_prion.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海鳥-4f6bf339",
+      "name": "海鳥",
+      "summary": "海鳥是一種能夠適應海洋氣候環境的鳥類，而無論於生活習慣、生理運行等皆與其他鳥類大有不同。其有著強烈的趨同演化，因此所有海鳥的生態職位均十分類似。而海鳥最初出現於白堊紀之時，距今有近億年，但是與現代海鳥之關係並不大。若果論及現代海鳥之遠祖，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-fulmar-prion-b00245b3",
+      "subject": "Fulmar prion",
+      "predicate": "distributed_in",
+      "object_id": "loc-海鳥-4f6bf339",
+      "object": "海鳥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "crassirostris eatoni | synonyms = }} The fulmar prion (Pachyptila crassirostris) is a species of seabird in the family Procellariidae, found in the southern oceans",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fulmar-prion-b00245b3",
+      "subject": "Fulmar prion",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

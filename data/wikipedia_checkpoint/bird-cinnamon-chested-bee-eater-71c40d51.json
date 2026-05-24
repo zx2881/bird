@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:34:35",
+  "requested_title": "Cinnamon-chested Bee-eater",
+  "resolved_title": "Cinnamon-chested bee-eater",
+  "title_aliases": [
+    "Cinnamon-chested Bee-eater"
+  ],
+  "bird_id": "bird-cinnamon-chested-bee-eater-71c40d51",
+  "raw_file": "bird-cinnamon-chested-bee-eater-71c40d51.json",
+  "bird": {
+    "id": "bird-cinnamon-chested-bee-eater-71c40d51",
+    "name": "Cinnamon-chested bee-eater",
+    "english_name": "Cinnamon-chested bee-eater",
+    "latin_name": "Merops oreobates",
+    "summary": "The cinnamon-chested bee-eater (Merops oreobates) is a species of bird in the family Meropidae. It is mainly native to the Albertine Rift m…",
+    "lat": "-1",
+    "lng": "33",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cinnamon-chested_bee-eater_%28Merops_oreobates%29.jpg/960px-Cinnamon-chested_bee-eater_%28Merops_oreobates%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    },
+    {
+      "id": "loc-east-african-montane-forests-6313874b",
+      "name": "East African montane forests",
+      "summary": "The East African montane forests is a montane tropical moist forest ecoregion of eastern Africa.",
+      "lat": "-0.55",
+      "lng": "35.65"
+    },
+    {
+      "id": "loc-东非-af146c9c",
+      "name": "东非",
+      "summary": "东非即非洲的东部地区，根據聯合國的次分區共有18個国家或屬地： 埃塞俄比亞、索馬里（含索馬利蘭）、厄立特里亚和吉布提，以上几國在地理上稱為非洲之角 坦桑尼亚、肯尼亚、乌干达、卢旺达、布隆迪和南苏丹，以上六國組成東非共同體 赞比亚、津巴布韦…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-維多利亞湖-42b29c04",
+      "name": "維多利亞湖",
+      "summary": "維多利亞湖（英語：Lake Victoria）是非洲最大的淡水湖和世界第二大淡水湖，面積68,870平方公里，僅次於蘇必略湖，也是世界上最大的熱帶淡水湖。 如果依含水量來比較，維多利亞湖共有2760立方公里的淡水量，排名世界第七。維多利亞…",
+      "lat": "-1",
+      "lng": "33"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cinnamon-chested-bee-eater-71c40d51",
+      "subject": "Cinnamon-chested bee-eater",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is mainly native to the Albertine Rift montane forests and the East African montane forests of East Africa, in the regions surrounding Lake Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cinnamon-chested-bee-eater-71c40d51",
+      "subject": "Cinnamon-chested bee-eater",
+      "predicate": "distributed_in",
+      "object_id": "loc-east-african-montane-forests-6313874b",
+      "object": "East African montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is mainly native to the Albertine Rift montane forests and the East African montane forests of East Africa, in the regions surrounding Lake Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cinnamon-chested-bee-eater-71c40d51",
+      "subject": "Cinnamon-chested bee-eater",
+      "predicate": "distributed_in",
+      "object_id": "loc-东非-af146c9c",
+      "object": "东非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is mainly native to the Albertine Rift montane forests and the East African montane forests of East Africa, in the regions surrounding Lake Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cinnamon-chested-bee-eater-71c40d51",
+      "subject": "Cinnamon-chested bee-eater",
+      "predicate": "distributed_in",
+      "object_id": "loc-維多利亞湖-42b29c04",
+      "object": "維多利亞湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is mainly native to the Albertine Rift montane forests and the East African montane forests of East Africa, in the regions surrounding Lake Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cinnamon-chested-bee-eater-71c40d51",
+      "subject": "Cinnamon-chested bee-eater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:18:47",
+  "requested_title": "Green-breasted Bushshrike",
+  "resolved_title": "Green-breasted bushshrike",
+  "title_aliases": [
+    "Green-breasted Bushshrike"
+  ],
+  "bird_id": "bird-green-breasted-bushshrike-11542488",
+  "raw_file": "bird-green-breasted-bushshrike-11542488.json",
+  "bird": {
+    "id": "bird-green-breasted-bushshrike-11542488",
+    "name": "Green-breasted bushshrike",
+    "english_name": "Green-breasted bushshrike",
+    "latin_name": "Malaconotus gladiator",
+    "summary": "The green-breasted bushshrike or gladiator bushshrike (Malaconotus gladiator) is a species of bird in the family Malaconotidae. It is found…",
+    "lat": "6",
+    "lng": "11",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Die_V%C3%B6gel_Afrikas_%286425136275%29%2C_Malaconotus_gladiator%2C_Anton_Reichenow.jpg/960px-Die_V%C3%B6gel_Afrikas_%286425136275%29%2C_Malaconotus_gladiator%2C_Anton_Reichenow.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-cameroonian-highlands-forests-458b5242",
+      "name": "Cameroonian Highlands forests",
+      "summary": "The Cameroonian Highlands forests, also known as the Cameroon Highlands forests, is a montane tropical moist broadleaf…",
+      "lat": "6",
+      "lng": "11"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-breasted-bushshrike-11542488",
+      "subject": "Green-breasted bushshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-cameroonian-highlands-forests-458b5242",
+      "object": "Cameroonian Highlands forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cameroonian Highlands forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-breasted-bushshrike-11542488",
+      "subject": "Green-breasted bushshrike",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-green-breasted-bushshrike-11542488",
+      "subject": "Green-breasted bushshrike",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

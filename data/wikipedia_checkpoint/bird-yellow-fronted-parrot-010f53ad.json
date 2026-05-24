@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:32:49",
+  "requested_title": "Yellow-fronted Parrot",
+  "resolved_title": "Yellow-fronted parrot",
+  "title_aliases": [
+    "Yellow-fronted Parrot"
+  ],
+  "bird_id": "bird-yellow-fronted-parrot-010f53ad",
+  "raw_file": "bird-yellow-fronted-parrot-010f53ad.json",
+  "bird": {
+    "id": "bird-yellow-fronted-parrot-010f53ad",
+    "name": "Yellow-fronted parrot",
+    "english_name": "Yellow-fronted parrot",
+    "latin_name": "Poicephalus flavifrons",
+    "summary": "The yellow-fronted parrot (Poicephalus flavifrons) is a parrot endemic to the Ethiopian Highlands. It is a mostly green with a yellow head.",
+    "lat": "12",
+    "lng": "37.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Poicephalus_flavifrons_-near_Bishangari_Lodge%2C_Ethiopia-8.jpg/960px-Poicephalus_flavifrons_-near_Bishangari_Lodge%2C_Ethiopia-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塔納湖-4bf074c3",
+      "name": "塔納湖",
+      "summary": "塔納湖（阿姆哈拉语：ጣና ሐይቅ，拉丁化：Ṭānā Hāyḳ）是青尼羅河的發源地，也是埃塞俄比亞最大的湖泊，位於國家西北部海拔1,840公尺的高地（12°0′N 37°15′E），長度約84公里，闊度約66公里，最深深度為15公尺。塔納湖…",
+      "lat": "12",
+      "lng": "37.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-fronted-parrot-010f53ad",
+      "subject": "Yellow-fronted parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔納湖-4bf074c3",
+      "object": "塔納湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "plate 67.\"/> When two subspecies are recognized, the nominate is found in the highlands around Lake Tana and also in central Ethiopia, and P",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-fronted-parrot-010f53ad",
+      "subject": "Yellow-fronted parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

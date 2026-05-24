@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:23:13",
+  "requested_title": "Sickle-billed Vanga",
+  "resolved_title": "Sickle-billed vanga",
+  "title_aliases": [
+    "Sickle-billed Vanga"
+  ],
+  "bird_id": "bird-sickle-billed-vanga-5fc484e5",
+  "raw_file": "bird-sickle-billed-vanga-5fc484e5.json",
+  "bird": {
+    "id": "bird-sickle-billed-vanga-5fc484e5",
+    "name": "Sickle-billed vanga",
+    "english_name": "Sickle-billed vanga",
+    "latin_name": "Falculea palliata",
+    "summary": "The sickle-billed vanga (Falculea palliata) is a species of bird in the vanga family Vangidae. It is monotypic within the genus Falculea.",
+    "lat": "-17.6",
+    "lng": "45.2",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Sickle-billed_Vanga%2C_Ankarafantsika_National_Park%2C_Madagascar.jpg/960px-Sickle-billed_Vanga%2C_Ankarafantsika_National_Park%2C_Madagascar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-madagascar-dry-deciduous-forests-0f274417",
+      "name": "Madagascar dry deciduous forests",
+      "summary": "The Madagascar dry deciduous forests represent a tropical dry forest ecoregion situated in the western and northern par…",
+      "lat": "-17.6",
+      "lng": "45.2"
+    },
+    {
+      "id": "loc-madagascar-spiny-forests-7edb62d1",
+      "name": "Madagascar spiny forests",
+      "summary": "The Madagascar spiny forests (also known as the Madagascar spiny thickets) is an ecoregion in the southwest of Madagasc…",
+      "lat": "-24.9",
+      "lng": "44.2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sickle-billed-vanga-5fc484e5",
+      "subject": "Sickle-billed vanga",
+      "predicate": "distributed_in",
+      "object_id": "loc-madagascar-dry-deciduous-forests-0f274417",
+      "object": "Madagascar dry deciduous forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in dry deciduous forest as well as thorn-forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sickle-billed-vanga-5fc484e5",
+      "subject": "Sickle-billed vanga",
+      "predicate": "distributed_in",
+      "object_id": "loc-madagascar-spiny-forests-7edb62d1",
+      "object": "Madagascar spiny forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in dry deciduous forest as well as thorn-forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sickle-billed-vanga-5fc484e5",
+      "subject": "Sickle-billed vanga",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can also be found in open savanna and in wooded areas around villages",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-sickle-billed-vanga-5fc484e5",
+      "subject": "Sickle-billed vanga",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

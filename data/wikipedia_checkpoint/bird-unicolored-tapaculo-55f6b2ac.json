@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:11:58",
+  "requested_title": "Unicolored Tapaculo",
+  "resolved_title": "Unicolored tapaculo",
+  "title_aliases": [
+    "Unicolored Tapaculo"
+  ],
+  "bird_id": "bird-unicolored-tapaculo-55f6b2ac",
+  "raw_file": "bird-unicolored-tapaculo-55f6b2ac.json",
+  "bird": {
+    "id": "bird-unicolored-tapaculo-55f6b2ac",
+    "name": "Unicolored tapaculo",
+    "english_name": "Unicolored tapaculo",
+    "latin_name": "Scytalopus unicolor",
+    "summary": "The unicolored tapaculo (Scytalopus unicolor) is a species of bird in the family Rhinocryptidae. It is endemic to Peru.",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Scytalopus_unicolor_map.svg/960px-Scytalopus_unicolor_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-unicolored-tapaculo-55f6b2ac",
+      "subject": "Unicolored tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the dense understory of humid montane forest on the east side of the Andes at elevations of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-unicolored-tapaculo-55f6b2ac",
+      "subject": "Unicolored tapaculo",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the dense understory of humid montane forest on the east side of the Andes at elevations of",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-unicolored-tapaculo-55f6b2ac",
+      "subject": "Unicolored tapaculo",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-unicolored-tapaculo-55f6b2ac",
+      "subject": "Unicolored tapaculo",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The IUCN has assessed the unicolored tapaculo as being near threatened. However, although it is fairly common within its very small range and appears to tolerate disturbance, its habitat is very fragmented and at risk from fire",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

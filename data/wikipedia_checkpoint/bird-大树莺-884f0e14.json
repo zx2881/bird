@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:39:13",
+  "requested_title": "Chestnut-crowned Bush Warbler",
+  "resolved_title": "Chestnut-crowned bush warbler",
+  "title_aliases": [
+    "Chestnut-crowned Bush Warbler"
+  ],
+  "bird_id": "bird-大树莺-884f0e14",
+  "raw_file": "bird-大树莺-884f0e14.json",
+  "bird": {
+    "id": "bird-大树莺-884f0e14",
+    "name": "大树莺",
+    "english_name": "Chestnut-crowned bush warbler",
+    "latin_name": "Cettia major",
+    "summary": "大树莺（学名：Cettia major）为鶲科树莺属的鸟类。该物种分布在南亚地区，其模式产地在尼泊尔。 亚种 大树莺指名亚种（学名：Cettia major major）。在中国大陆，分布于西藏、四川、云南等地。该物种的模式产地在尼泊尔。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cettia_major_-_Ian_Dugdale_-_547329069.jpeg/960px-Cettia_major_-_Ian_Dugdale_-_547329069.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-弗雷德里克-穆爾-1a2967db",
+      "name": "弗雷德里克·穆爾",
+      "summary": "弗雷德里克·穆爾 FZS（英語：Frederic Moore，1830年5月13日—1907年5月10日）是一名英國昆蟲學家和插畫家。他出版了六卷《印度鱗翅目》和東印度公司收藏的鳥類目錄。 據說穆爾出生在布魯頓街33號，但這可能是不正確的…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南亚-1fa6ecaf",
+      "name": "南亚",
+      "summary": "南亚（英語：South Asia）是術語，以替換百年老詞「印度次大陸」，這老詞用來代表亞洲大陸的南部地區，主要是位於印度板塊和向南投射到印度洋的地方，當中包括8個主權國家：印度、巴基斯坦、孟加拉、斯里蘭卡、馬爾代夫、不丹、尼泊爾、阿富汗（…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大树莺-884f0e14",
+      "subject": "大树莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-弗雷德里克-穆爾-1a2967db",
+      "object": "弗雷德里克·穆爾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut-crowned bush warbler (Cettia major) is a species of warbler found in South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大树莺-884f0e14",
+      "subject": "大树莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-南亚-1fa6ecaf",
+      "object": "南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut-crowned bush warbler (Cettia major) is a species of warbler found in South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大树莺-884f0e14",
+      "subject": "大树莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-大树莺-884f0e14",
+      "subject": "大树莺",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Although overall population size has not been quantified, this is one of the species that is declining due to habitat destruction. Although its population trend is observed to be decreasing, its decline is not happening in rapid fashion",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

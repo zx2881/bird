@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:07:10",
+  "requested_title": "Giant Antpitta",
+  "resolved_title": "Giant antpitta",
+  "title_aliases": [
+    "Giant Antpitta"
+  ],
+  "bird_id": "bird-giant-antpitta-5c2106e6",
+  "raw_file": "bird-giant-antpitta-5c2106e6.json",
+  "bird": {
+    "id": "bird-giant-antpitta-5c2106e6",
+    "name": "Giant antpitta",
+    "english_name": "Giant antpitta",
+    "latin_name": "Grallaria gigantea",
+    "summary": "The giant antpitta (Grallaria gigantea) is a perching bird species in the antpitta family (Grallariidae). Rare and somewhat enigmatic, it i…",
+    "lat": "0.45",
+    "lng": "-78.05",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Giant_antpitta_%28Grallaria_gigantea_hylodroma%29_Paz_de_las_Aves.jpg/960px-Giant_antpitta_%28Grallaria_gigantea_hylodroma%29_Paz_de_las_Aves.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔奇省-dfefc6dd",
+      "name": "卡尔奇省",
+      "summary": "卡爾奇省（西班牙語：Provincia de Carchi），是厄瓜多爾北部的一個省，北界哥倫比亞。面積3,780.45平方公里，2001年人口152,939人，2010年人口164,524人。首府圖爾坎。 1880年4月19日建省，下分…",
+      "lat": "0.45",
+      "lng": "-78.05"
+    },
+    {
+      "id": "loc-通古拉瓦省-01287621",
+      "name": "通古拉瓦省",
+      "summary": "通古拉瓦省（西班牙語：Provincia del Tungurahua），是厄瓜多爾中部的一個省。面積3,334平方公里，2001年人口441,034人。首府安巴托。 1860年建省，下分九市。得名於同名的火山。",
+      "lat": "-1.23333333",
+      "lng": "-78.61666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-giant-antpitta-5c2106e6",
+      "subject": "Giant antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔奇省-dfefc6dd",
+      "object": "卡尔奇省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Formerly, it was found (and may still be found in protected habitats) in eastern Carchi and Tungurahua Provinces",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-giant-antpitta-5c2106e6",
+      "subject": "Giant antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-通古拉瓦省-01287621",
+      "object": "通古拉瓦省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Formerly, it was found (and may still be found in protected habitats) in eastern Carchi and Tungurahua Provinces",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-giant-antpitta-5c2106e6",
+      "subject": "Giant antpitta",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-giant-antpitta-5c2106e6",
+      "subject": "Giant antpitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Also, it is estimated to number less than 2,500 mature birds, with less than 1,000 in any one subpopulation. The main threats are unsustainable logging and land conversion for agriculture or narcotic plantations",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

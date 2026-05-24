@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:23:17",
+  "requested_title": "Black-headed Weaver",
+  "resolved_title": "Black-headed weaver",
+  "title_aliases": [
+    "Black-headed Weaver"
+  ],
+  "bird_id": "bird-black-headed-weaver-57fdb083",
+  "raw_file": "bird-black-headed-weaver-57fdb083.json",
+  "bird": {
+    "id": "bird-black-headed-weaver-57fdb083",
+    "name": "Black-headed weaver",
+    "english_name": "Black-headed weaver",
+    "latin_name": "Ploceus melanocephalus",
+    "summary": "The black-headed weaver (Ploceus melanocephalus), also known as yellow-backed weaver, is a species of bird in the family Ploceidae. It is a…",
+    "lat": "40.5",
+    "lng": "-4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Yellow_backed_weaver.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伊比利亚半岛-d6e67713",
+      "name": "伊比利亚半岛",
+      "summary": "伊比利亚半岛（西班牙語：la Península Ibérica、葡萄牙語：a Península Ibérica、加泰隆尼亞語：la Península Ibèrica、加利西亞語：a Península Ibérica、巴斯克語：Ib…",
+      "lat": "40.5",
+      "lng": "-4"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-headed-weaver-57fdb083",
+      "subject": "Black-headed weaver",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊比利亚半岛-d6e67713",
+      "object": "伊比利亚半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in West, Central, and East Africa, but it has also been introduced to the Iberian Peninsula.{{cite web|url=https://birdingcadizprovince.weebly.com/cadiz-birding-blog/aliens-amongst-us |title=Aliens amongst us",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-headed-weaver-57fdb083",
+      "subject": "Black-headed weaver",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|author=John Cantelo |work=Cadiz Birding Blog}} It is found in savanna and similar habitats, typically near water",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-black-headed-weaver-57fdb083",
+      "subject": "Black-headed weaver",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

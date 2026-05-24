@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:19:13",
+  "requested_title": "Blue-and-white Swallow",
+  "resolved_title": "Blue-and-white swallow",
+  "title_aliases": [
+    "Blue-and-white Swallow"
+  ],
+  "bird_id": "bird-blue-and-white-swallow-d8835bac",
+  "raw_file": "bird-blue-and-white-swallow-d8835bac.json",
+  "bird": {
+    "id": "bird-blue-and-white-swallow-d8835bac",
+    "name": "Blue-and-white swallow",
+    "english_name": "Blue-and-white swallow",
+    "latin_name": "Pygochelidon cyanoleuca",
+    "summary": "The blue-and-white swallow (Pygochelidon cyanoleuca) is a passerine bird that breeds from Nicaragua south throughout South America, except…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Pygochelidon_cyanoleuca_-Capao_do_Leao%2C_Rio_Grande_do_Sul%2C_Brazil-8.jpg/960px-Pygochelidon_cyanoleuca_-Capao_do_Leao%2C_Rio_Grande_do_Sul%2C_Brazil-8.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-blue-and-white-swallow-d8835bac",
+      "subject": "Blue-and-white swallow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-blue-and-white-swallow-d8835bac",
+      "subject": "Blue-and-white swallow",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This common and popular species has benefited greatly from deforestation and human settlement which have increased the amount of suitable habitat and food. Consequently, it is not considered threatened by the IUCN",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

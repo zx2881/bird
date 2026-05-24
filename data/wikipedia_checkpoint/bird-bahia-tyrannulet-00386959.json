@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:28:10",
+  "requested_title": "Bahia Tyrannulet",
+  "resolved_title": "Bahia tyrannulet",
+  "title_aliases": [
+    "Bahia Tyrannulet"
+  ],
+  "bird_id": "bird-bahia-tyrannulet-00386959",
+  "raw_file": "bird-bahia-tyrannulet-00386959.json",
+  "bird": {
+    "id": "bird-bahia-tyrannulet-00386959",
+    "name": "Bahia tyrannulet",
+    "english_name": "Bahia tyrannulet",
+    "latin_name": "Phylloscartes beckeri",
+    "summary": "The Bahia tyrannulet (Phylloscartes beckeri) is an Endangered species of bird in the family Tyrannidae, the tyrant flycatchers. It is endem…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Phylloscartes_beckeri_by_Thomaz_de_Carvalho_Callado.jpg/960px-Phylloscartes_beckeri_by_Thomaz_de_Carvalho_Callado.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bahia-tyrannulet-00386959",
+      "subject": "Bahia tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits primary and mature secondary highland evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-tyrannulet-00386959",
+      "subject": "Bahia tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits primary and mature secondary highland evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-tyrannulet-00386959",
+      "subject": "Bahia tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits primary and mature secondary highland evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-tyrannulet-00386959",
+      "subject": "Bahia tyrannulet",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-bahia-tyrannulet-00386959",
+      "subject": "Bahia tyrannulet",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Forests within its range are severely fragmented and under continuing threat from logging and conversion to agriculture and ranching. \"This tyrannid's global population of a few thousand individuals is likely to decline rapidly in the near future, unless effective protection of Chapada Diamantina and surrounding forests is achieved, or new populations are found between there and Boa Nova.\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

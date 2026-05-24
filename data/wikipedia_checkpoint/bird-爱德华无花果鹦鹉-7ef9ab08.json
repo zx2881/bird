@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:03:22",
+  "requested_title": "Edwards's Fig Parrot",
+  "resolved_title": "Edwards's fig parrot",
+  "title_aliases": [
+    "Edwards's Fig Parrot"
+  ],
+  "bird_id": "bird-爱德华无花果鹦鹉-7ef9ab08",
+  "raw_file": "bird-爱德华无花果鹦鹉-7ef9ab08.json",
+  "bird": {
+    "id": "bird-爱德华无花果鹦鹉-7ef9ab08",
+    "name": "爱德华无花果鹦鹉",
+    "english_name": "Edwards's fig parrot",
+    "latin_name": "Cyclopsitta edwardsii",
+    "summary": "愛德華無花果鸚鵡（学名：Psittaculirostris edwardsii）又名愛氏果鸚鵡，是分布於新幾內亞東北部的一種中型鸚鵡，棲息範圍由查雅普拉以東至莫雷貝省，生活於潮濕的低海拔開闊林地。名字來自法國鳥類學家阿方斯·米爾納-愛德華茲。 特徵 外型矮胖，全長約 18 公分…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Psittaculirostris_edwardsii.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-爱德华无花果鹦鹉-7ef9ab08",
+      "subject": "爱德华无花果鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Available at http://www.worldbirdnames.org/ is a species of parrot in the family Psittaculidae found in humid lowland forests in north-eastern New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-爱德华无花果鹦鹉-7ef9ab08",
+      "subject": "爱德华无花果鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

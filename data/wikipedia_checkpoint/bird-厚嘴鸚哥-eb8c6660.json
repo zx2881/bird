@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:42:39",
+  "requested_title": "Thick-billed Parrot",
+  "resolved_title": "Thick-billed parrot",
+  "title_aliases": [
+    "Thick-billed Parrot"
+  ],
+  "bird_id": "bird-厚嘴鸚哥-eb8c6660",
+  "raw_file": "bird-厚嘴鸚哥-eb8c6660.json",
+  "bird": {
+    "id": "bird-厚嘴鸚哥-eb8c6660",
+    "name": "厚嘴鸚哥",
+    "english_name": "Thick-billed parrot",
+    "latin_name": "Rhynchopsitta pachyrhyncha",
+    "summary": "厚嘴鸚哥（thick-billed parrot，學名：Rhynchopsitta pachyrhyncha）是金剛鸚鵡科厚嘴鸚哥屬之下的兩個物種之一，另一個是暗紅喙鸚鵡。分佈於墨西哥的西馬德雷山脈。 厚嘴鸚哥目前在野外的數量大約1,700隻，被國際自然保護聯盟（IUCN）列為…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Thick-billed_parrots_in_a_U.S._zoo.jpg/960px-Thick-billed_parrots_in_a_U.S._zoo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-美國原住民-6bf266e1",
+      "name": "美國原住民",
+      "summary": "美國原住民（英語：Native Americans），在不同場合與背景下也稱作美國印第安人（American Indians）、美國土著（Indigenous Americans）或簡稱印第安人（Indians），基本上美國原住民是指美國…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-厚嘴鸚哥-eb8c6660",
+      "subject": "厚嘴鸚哥",
+      "predicate": "distributed_in",
+      "object_id": "loc-美國原住民-6bf266e1",
+      "object": "美國原住民",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Accounts in both Arizona and New Mexico indicate birds visiting regularly, as well as over-wintering in Arizona. However, these accounts co-occurred with heavy shooting, logging, and development that extirpated the thick-billed parrot from its US range. The disruption of Native American ways of life greatly decreased the range of some bird species (like the boreal owl) that utilized Native American irrigation and farm land, and it is possible that the thick-billed parrot also suffered from this effect of European colonization",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-厚嘴鸚哥-eb8c6660",
+      "subject": "厚嘴鸚哥",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-厚嘴鸚哥-eb8c6660",
+      "subject": "厚嘴鸚哥",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Principal threats to the thick-billed parrot are illegal pet trade, habitat loss principally due to logging, climate change (hotter temperatures that raise the snow line and increasing fire threats), and predators especially hawks and owls",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-厚嘴鸚哥-eb8c6660",
+      "subject": "厚嘴鸚哥",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Principal threats to the thick-billed parrot are illegal pet trade, habitat loss principally due to logging, climate change (hotter temperatures that raise the snow line and increasing fire threats), and predators especially hawks and owls",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    },
+    {
+      "subject_id": "bird-厚嘴鸚哥-eb8c6660",
+      "subject": "厚嘴鸚哥",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Principal threats to the thick-billed parrot are illegal pet trade, habitat loss principally due to logging, climate change (hotter temperatures that raise the snow line and increasing fire threats), and predators especially hawks and owls",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

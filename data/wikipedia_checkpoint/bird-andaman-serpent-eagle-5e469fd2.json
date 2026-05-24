@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:26:51",
+  "requested_title": "Andaman Serpent Eagle",
+  "resolved_title": "Andaman serpent eagle",
+  "title_aliases": [
+    "Andaman Serpent Eagle"
+  ],
+  "bird_id": "bird-andaman-serpent-eagle-5e469fd2",
+  "raw_file": "bird-andaman-serpent-eagle-5e469fd2.json",
+  "bird": {
+    "id": "bird-andaman-serpent-eagle-5e469fd2",
+    "name": "Andaman serpent eagle",
+    "english_name": "Andaman serpent eagle",
+    "latin_name": "Spilornis elgini",
+    "summary": "The Andaman serpent eagle (Spilornis elgini), also known as the Andaman dark-serpent eagle or the dark serpent eagle, is a medium-sized bir…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Andaman_Serpent_Eagle_Albin_1.jpg/960px-Andaman_Serpent_Eagle_Albin_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-愛德華-布萊思-840f1191",
+      "name": "愛德華·布萊思",
+      "summary": "愛德華·布萊思（英語：Edward Blyth，1810年12月23日—1873年12月27日）是一位英國動物學家，其一生中的絕大部分時間都在印度加爾各答的孟加拉亞洲學會博物館內擔任策展人。 布萊思於1810年生於倫敦，於1841年移居至…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-andaman-serpent-eagle-5e469fd2",
+      "subject": "Andaman serpent eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-愛德華-布萊思-840f1191",
+      "object": "愛德華·布萊思",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Andaman serpent eagle (Spilornis elgini), also known as the Andaman dark-serpent eagle or the dark serpent eagle, is a medium-sized bird in the family Accipitridae, the raptor family, that is only found in India on the Andaman Islands. It is currently classified as vulnerable and is experiencing population declines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-andaman-serpent-eagle-5e469fd2",
+      "subject": "Andaman serpent eagle",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-andaman-serpent-eagle-5e469fd2",
+      "subject": "Andaman serpent eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "{| class=\"wikitable\" !Threat !Description |- |Agriculture |Increasing human populations on the islands require more food and therefore, the habitat of the Andaman serpent eagle is being converted into agricultural and grazing land for crops and livestock. |- |Logging |Since the Andaman islands are known for being heavily forested, they are also of interest to logging companies. This interest is further amplified by the need for more homes and agricultural fields for the increasing human presence",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-andaman-serpent-eagle-5e469fd2",
+      "subject": "Andaman serpent eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Andaman serpent eagle is currently considered vulnerable because it has a relatively small population in a limited habitat. Since the species is battling habitat degradation and encroachment from human movement to the larger islands, and logging, it is expected that their numbers will continue to decline over time",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-andaman-serpent-eagle-5e469fd2",
+      "subject": "Andaman serpent eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Andaman serpent eagle is currently considered vulnerable because it has a relatively small population in a limited habitat. Since the species is battling habitat degradation and encroachment from human movement to the larger islands, and logging, it is expected that their numbers will continue to decline over time",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:58:14",
+  "requested_title": "Banded Honeyeater",
+  "resolved_title": "Banded honeyeater",
+  "title_aliases": [
+    "Banded Honeyeater"
+  ],
+  "bird_id": "bird-banded-honeyeater-042be82b",
+  "raw_file": "bird-banded-honeyeater-042be82b.json",
+  "bird": {
+    "id": "bird-banded-honeyeater-042be82b",
+    "name": "Banded honeyeater",
+    "english_name": "Banded honeyeater",
+    "latin_name": "Cissomela pectoralis",
+    "summary": "The banded honeyeater (Cissomela pectoralis) is a species of honeyeater in the family Meliphagidae with a characteristic narrow black band…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Certhionyx_pectoralis_-_Banded_Honeyeater.jpg/960px-Certhionyx_pectoralis_-_Banded_Honeyeater.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "name": "國際自然保護聯盟瀕危物種紅色名錄",
+      "summary": "國際自然保護聯盟瀕危物種紅色名錄（或稱IUCN紅色名錄，簡稱紅皮書）於1963年開始編製，是全球動植物物種保護現狀最全面的名錄。此名錄由國際自然保護聯盟編製及維護。 IUCN紅色名錄是根據嚴格準則去評估數以千計物種及亞種的絕種風險所編製而…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-banded-honeyeater-042be82b",
+      "subject": "Banded honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "object": "國際自然保護聯盟瀕危物種紅色名錄",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The IUCN Red List rating, the Northern Territory Conservation Status and Queensland Conservation Status for this species is Least Concern (LC). The banded honeyeater inhabits tropical grassy woodland, open forests, mangroves and Melaleuca swamps",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-banded-honeyeater-042be82b",
+      "subject": "Banded honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The IUCN Red List rating, the Northern Territory Conservation Status and Queensland Conservation Status for this species is Least Concern (LC). The banded honeyeater inhabits tropical grassy woodland, open forests, mangroves and Melaleuca swamps",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-banded-honeyeater-042be82b",
+      "subject": "Banded honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

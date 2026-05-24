@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:17:03",
+  "requested_title": "Whistling Cisticola",
+  "resolved_title": "Whistling cisticola",
+  "title_aliases": [
+    "Whistling Cisticola"
+  ],
+  "bird_id": "bird-whistling-cisticola-d6ac4879",
+  "raw_file": "bird-whistling-cisticola-d6ac4879.json",
+  "bird": {
+    "id": "bird-whistling-cisticola-d6ac4879",
+    "name": "Whistling cisticola",
+    "english_name": "Whistling cisticola",
+    "latin_name": "Cisticola lateralis",
+    "summary": "The whistling cisticola (Cisticola lateralis) is a species of bird in the Cisticolidae family. It is native to the African tropical rainfor…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Whistling_Cisticola_-_Ghana_S4E2445_%2816700461533%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-热带雨林-5f5feb6f",
+      "name": "热带雨林",
+      "summary": "熱帶雨林主要分佈於東南亞、澳洲、南美洲亞馬遜河流域、非洲剛果河流域、中美洲、墨西哥和許多太平洋島嶼。根據世界自然基金會對各種生物群落的分類，熱帶雨林，或熱帶濕潤闊葉林（Tropical moist broadleaf forest），亦可…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-whistling-cisticola-d6ac4879",
+      "subject": "Whistling cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-热带雨林-5f5feb6f",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest and adjacent areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-whistling-cisticola-d6ac4879",
+      "subject": "Whistling cisticola",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

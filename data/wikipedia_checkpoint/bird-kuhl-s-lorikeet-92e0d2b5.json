@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:04:49",
+  "requested_title": "Kuhl's Lorikeet",
+  "resolved_title": "Kuhl's lorikeet",
+  "title_aliases": [
+    "Kuhl's Lorikeet"
+  ],
+  "bird_id": "bird-kuhl-s-lorikeet-92e0d2b5",
+  "raw_file": "bird-kuhl-s-lorikeet-92e0d2b5.json",
+  "bird": {
+    "id": "bird-kuhl-s-lorikeet-92e0d2b5",
+    "name": "Kuhl's lorikeet",
+    "english_name": "Kuhl's lorikeet",
+    "latin_name": "Vini kuhlii",
+    "summary": "Kuhl's lorikeet (Vini kuhlii), also called the Rimitara lorikeet, Kuhl's lory, manu 'ura (local appellation) or kura (Cook Islands), is a s…",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vini_kuhlii_109930405.jpg/960px-Vini_kuhlii_109930405.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-kuhl-s-lorikeet-92e0d2b5",
+      "subject": "Kuhl's lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is one of several species of Vini lorikeets found in islands ranging across the South Pacific",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kuhl-s-lorikeet-92e0d2b5",
+      "subject": "Kuhl's lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

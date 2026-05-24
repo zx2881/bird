@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:04:11",
+  "requested_title": "Swamp Sparrow",
+  "resolved_title": "Swamp sparrow",
+  "title_aliases": [
+    "Swamp Sparrow"
+  ],
+  "bird_id": "bird-swamp-sparrow-1e81debe",
+  "raw_file": "bird-swamp-sparrow-1e81debe.json",
+  "bird": {
+    "id": "bird-swamp-sparrow-1e81debe",
+    "name": "Swamp sparrow",
+    "english_name": "Swamp sparrow",
+    "latin_name": "Melospiza georgiana",
+    "summary": "The swamp sparrow (Melospiza georgiana) is a medium-sized New World sparrow related to the song sparrow. Description Measurements: Length:…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Melospiza_georgiana_MP_01%2C_crop.jpg/960px-Melospiza_georgiana_MP_01%2C_crop.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-swamp-sparrow-1e81debe",
+      "subject": "Swamp sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Their breeding habitat is marshes, including brackish marshes, across eastern North America and central Canada",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-swamp-sparrow-1e81debe",
+      "subject": "Swamp sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-swamp-sparrow-1e81debe",
+      "subject": "Swamp sparrow",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In its southern range and in coastal habitats their numbers have locally declined, in part due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

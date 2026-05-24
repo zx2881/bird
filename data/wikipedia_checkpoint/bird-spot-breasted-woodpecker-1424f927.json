@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:11:44",
+  "requested_title": "Spot-breasted Woodpecker",
+  "resolved_title": "Spot-breasted woodpecker",
+  "title_aliases": [
+    "Spot-breasted Woodpecker"
+  ],
+  "bird_id": "bird-spot-breasted-woodpecker-1424f927",
+  "raw_file": "bird-spot-breasted-woodpecker-1424f927.json",
+  "bird": {
+    "id": "bird-spot-breasted-woodpecker-1424f927",
+    "name": "Spot-breasted woodpecker",
+    "english_name": "Spot-breasted woodpecker",
+    "latin_name": "Colaptes punctigula",
+    "summary": "The spot-breasted woodpecker or spot-breasted flicker (Colaptes punctigula) is a species of bird in subfamily Picinae of the woodpecker fam…",
+    "lat": "-2.3096",
+    "lng": "-54.8881",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Spot-breasted_Woodpecker_700.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-亞諾斯-284e4bb1",
+      "name": "亞諾斯",
+      "summary": "亞諾斯（西班牙語：Llanos，西班牙語發音：[ˈʎanos]，本地發音：[ˈʝanos]）意即“平原”，是位於南美洲安第斯山脈以東的哥倫比亞和委內瑞拉境內的熱帶大草原。生態區域是氾濫草地和稀樹草原。 草原上的主要河流是奧里諾科河，這條河…",
+      "lat": "6.82311",
+      "lng": "-67.64928"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-spot-breasted-woodpecker-1424f927",
+      "subject": "Spot-breasted woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "guttatus, the Amazon Basin of eastern Ecuador, eastern Peru, northeastern Bolivia, and western to northeastern Brazil The spot-breasted woodpecker inhabits a wide variety of humid lowland landscapes both open and wooded, though it prefers sparse woodlands to dense ones",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spot-breasted-woodpecker-1424f927",
+      "subject": "Spot-breasted woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in rainforest, both deciduous and gallery forest, várzea, mangroves, llanos, palm savanna, and palm, shade coffee, and other treed plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spot-breasted-woodpecker-1424f927",
+      "subject": "Spot-breasted woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in rainforest, both deciduous and gallery forest, várzea, mangroves, llanos, palm savanna, and palm, shade coffee, and other treed plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spot-breasted-woodpecker-1424f927",
+      "subject": "Spot-breasted woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞諾斯-284e4bb1",
+      "object": "亞諾斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in rainforest, both deciduous and gallery forest, várzea, mangroves, llanos, palm savanna, and palm, shade coffee, and other treed plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spot-breasted-woodpecker-1424f927",
+      "subject": "Spot-breasted woodpecker",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in rainforest, both deciduous and gallery forest, várzea, mangroves, llanos, palm savanna, and palm, shade coffee, and other treed plantations",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-spot-breasted-woodpecker-1424f927",
+      "subject": "Spot-breasted woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

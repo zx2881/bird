@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T14:56:19",
+  "requested_title": "Chestnut-backed Laughingthrush",
+  "resolved_title": "Chestnut-backed laughingthrush",
+  "title_aliases": [
+    "Chestnut-backed Laughingthrush"
+  ],
+  "bird_id": "bird-栗背噪鹛-1ea40d4c",
+  "raw_file": "bird-栗背噪鹛-1ea40d4c.json",
+  "bird": {
+    "id": "bird-栗背噪鹛-1ea40d4c",
+    "name": "栗背噪鹛",
+    "english_name": "Chestnut-backed laughingthrush",
+    "latin_name": "Pterorhinus nuchalis",
+    "summary": "栗背噪鹛（学名：Pterorhinus nuchalis），是画眉科噪鹛属的一种，分布于印度和缅甸。该物种的保护状况被评为近危。 栗背噪鹛的平均体重约为71.0克。栖息地包括亚热带或热带的湿润低地林、亚热带或热带的（低地）季节性湿润草原和亚热带或热带的（低地）湿润疏灌丛。",
+    "lat": "26",
+    "lng": "91",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-印度东北部-8b6d1917",
+      "name": "印度东北部",
+      "summary": "Northeast India, officially the North Eastern Region (NER), is the easternmost region of India representing both a geog…",
+      "lat": "26",
+      "lng": "91"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗背噪鹛-1ea40d4c",
+      "subject": "栗背噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度东北部-8b6d1917",
+      "object": "印度东北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Northeast India and northern Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗背噪鹛-1ea40d4c",
+      "subject": "栗背噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Northeast India and northern Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗背噪鹛-1ea40d4c",
+      "subject": "栗背噪鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This species inhabits secondary growth, thickets, tall grasslands with scattered shrubs or dense bushes in stony scrub-covered ravines and hills, from the lowlands up to around . It is threatened by habitat loss",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-栗背噪鹛-1ea40d4c",
+      "subject": "栗背噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-栗背噪鹛-1ea40d4c",
+      "subject": "栗背噪鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species inhabits secondary growth, thickets, tall grasslands with scattered shrubs or dense bushes in stony scrub-covered ravines and hills, from the lowlands up to around . It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

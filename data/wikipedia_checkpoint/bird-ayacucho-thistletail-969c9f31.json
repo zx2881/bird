@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:28:42",
+  "requested_title": "Ayacucho Thistletail",
+  "resolved_title": "Ayacucho thistletail",
+  "title_aliases": [
+    "Ayacucho Thistletail"
+  ],
+  "bird_id": "bird-ayacucho-thistletail-969c9f31",
+  "raw_file": "bird-ayacucho-thistletail-969c9f31.json",
+  "bird": {
+    "id": "bird-ayacucho-thistletail-969c9f31",
+    "name": "Ayacucho thistletail",
+    "english_name": "Ayacucho thistletail",
+    "latin_name": "Asthenes ayacuchensis",
+    "summary": "The Ayacucho thistletail (Asthenes ayacuchensis) is a species of bird in the Furnariinae subfamily of the ovenbird family Furnariidae. It i…",
+    "lat": "-12.26277778",
+    "lng": "-73.97888889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Asthenes_ayacuchensis.jpg/960px-Asthenes_ayacuchensis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿普里馬克河-f1fc230a",
+      "name": "阿普里馬克河",
+      "summary": "阿普里馬克河（西班牙語：Río Apurímac）是全球最大河流系統亞馬遜河的源頭，發源至距離太平洋海岸160公里的秘魯西南部高5,597米的密斯米雪山，向西北流經庫斯科，阿普里馬克河在730.04公里的地方（12°15′46″S 73°…",
+      "lat": "-12.26277778",
+      "lng": "-73.97888889"
+    },
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ayacucho-thistletail-969c9f31",
+      "subject": "Ayacucho thistletail",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿普里馬克河-f1fc230a",
+      "object": "阿普里馬克河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Ayacucho thistletail is found in the northern part of Peru's Department of Ayacucho west of the Apurímac River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ayacucho-thistletail-969c9f31",
+      "subject": "Ayacucho thistletail",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits elfin forest and Polylepis woodlands in the tree line ecotone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ayacucho-thistletail-969c9f31",
+      "subject": "Ayacucho thistletail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-ayacucho-thistletail-969c9f31",
+      "subject": "Ayacucho thistletail",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. Its total range is \"perhaps just 500 km2 [190 mi2], within which elfin forest habitats are fragmented and degraded by anthropogenic disturbance.\"",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

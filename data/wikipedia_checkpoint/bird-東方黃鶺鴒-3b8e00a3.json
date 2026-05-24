@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:35:23",
+  "requested_title": "Eastern Yellow Wagtail",
+  "resolved_title": "Eastern yellow wagtail",
+  "title_aliases": [
+    "Eastern Yellow Wagtail"
+  ],
+  "bird_id": "bird-東方黃鶺鴒-3b8e00a3",
+  "raw_file": "bird-東方黃鶺鴒-3b8e00a3.json",
+  "bird": {
+    "id": "bird-東方黃鶺鴒-3b8e00a3",
+    "name": "東方黃鶺鴒",
+    "english_name": "Eastern yellow wagtail",
+    "latin_name": "Motacilla tschutschensis",
+    "summary": "黄鹡鸰（台湾作東黃鶺鴒，學名：Motacilla tschutschensis）為鶺鴒科鶺鴒屬的鳥類，夏季分布於東北亞、西伯利亞及阿拉斯加沿海地區，冬季則在東南亞一帶度冬，途經朝鮮半島、中國東半部等地。東方黃鶺鴒原被視為西方黃鶺鴒的一部分，統稱為黃鶺鴒，如今這個中文名稱通常專指…",
+    "lat": "64",
+    "lng": "-152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Eastern_Yellow_Wagtail_%28Motacilla_tschutschensis_tschutschensis%29%2C_Kamchatka%2C_Russia_06.jpg/960px-Eastern_Yellow_Wagtail_%28Motacilla_tschutschensis_tschutschensis%29%2C_Kamchatka%2C_Russia_06.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿拉斯加州-6d35b63b",
+      "name": "阿拉斯加州",
+      "summary": "阿拉斯加州（英語：Alaska，發音：/əˈlæskə/ ；舊譯「亞尼俺國」、「亞拉士加」）是美國位於北美洲最西北端的聯邦州。州以東與加拿大的英屬哥倫比亞省和育空地區相鄰，最西端位於阿圖島，並與俄羅斯在白令海峽以西有一海上邊界。以北有楚科…",
+      "lat": "64",
+      "lng": "-152"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-東方黃鶺鴒-3b8e00a3",
+      "subject": "東方黃鶺鴒",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species breeds in the East Palearctic and has a foothold in North America in Alaska",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-東方黃鶺鴒-3b8e00a3",
+      "subject": "東方黃鶺鴒",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉斯加州-6d35b63b",
+      "object": "阿拉斯加州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species breeds in the East Palearctic and has a foothold in North America in Alaska",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-東方黃鶺鴒-3b8e00a3",
+      "subject": "東方黃鶺鴒",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

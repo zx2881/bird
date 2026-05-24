@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:07:41",
+  "requested_title": "Cundinamarca Antpitta",
+  "resolved_title": "Cundinamarca antpitta",
+  "title_aliases": [
+    "Cundinamarca Antpitta"
+  ],
+  "bird_id": "bird-cundinamarca-antpitta-697b1501",
+  "raw_file": "bird-cundinamarca-antpitta-697b1501.json",
+  "bird": {
+    "id": "bird-cundinamarca-antpitta-697b1501",
+    "name": "Cundinamarca antpitta",
+    "english_name": "Cundinamarca antpitta",
+    "latin_name": "Grallaria kaestneri",
+    "summary": "The Cundinamarca antpitta (Grallaria kaestneri) is a species of bird in the family Grallariidae. It is endemic to Colombia.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cundinamarca_Antpitta_imported_from_iNaturalist_photo_347347147_on_17_April_2024.jpg/960px-Cundinamarca_Antpitta_imported_from_iNaturalist_photo_347347147_on_17_April_2024.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cundinamarca-antpitta-697b1501",
+      "subject": "Cundinamarca antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "However, it appears to have been extirpated from the northern part of its historical range. It inhabits humid montane forest and mature secondary woodland, where it greatly favors dense vegetation in the understorey",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cundinamarca-antpitta-697b1501",
+      "subject": "Cundinamarca antpitta",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "However, it appears to have been extirpated from the northern part of its historical range. It inhabits humid montane forest and mature secondary woodland, where it greatly favors dense vegetation in the understorey",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-cundinamarca-antpitta-697b1501",
+      "subject": "Cundinamarca antpitta",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-cundinamarca-antpitta-697b1501",
+      "subject": "Cundinamarca antpitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The species is threatened by the loss and degradation of its habitat, mainly as a consequence of logging, clearance for small-scale agriculture and grazing by goats",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-cundinamarca-antpitta-697b1501",
+      "subject": "Cundinamarca antpitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species has disappeared from completely cleared areas in the Farallondes de Medina and near Monterredondo.\" \"However, selective logging may even favour the species, in contrast to clear-cutting, which is clearly a threat and has generally occurred up to altitudes of 1,500-2,000 m on the east slope.\" \"[P]rojections of habitat loss as a consequence of deforestation suggest that between 2015 and 2040 the species may lose 46% of suitable habitat [so] the population may be declining by 20-29% over the next three generations.\" The Chingaza National Natural Park does host the Cundinamarca antpitta \"but further protected areas will be crucial for the species' conservation and survival\". Such a protected area, called Reserva Natural Refugio Tototoi, was created in 2023 by a partnership of the American Bird Conservancy, two Colombian non-governmental bodies, and a local family whose land adjoins the preserve",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

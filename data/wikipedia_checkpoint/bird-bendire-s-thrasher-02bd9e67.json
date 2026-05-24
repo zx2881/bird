@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:12:13",
+  "requested_title": "Bendire's Thrasher",
+  "resolved_title": "Bendire's thrasher",
+  "title_aliases": [
+    "Bendire's Thrasher"
+  ],
+  "bird_id": "bird-bendire-s-thrasher-02bd9e67",
+  "raw_file": "bird-bendire-s-thrasher-02bd9e67.json",
+  "bird": {
+    "id": "bird-bendire-s-thrasher-02bd9e67",
+    "name": "Bendire's thrasher",
+    "english_name": "Bendire's thrasher",
+    "latin_name": "Toxostoma bendirei",
+    "summary": "Bendire's thrasher (Toxostoma bendirei) is a medium-sized species of thrasher native to the southwestern United States and northwestern Mex…",
+    "lat": "37",
+    "lng": "-111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Bendires_Thrasher_%28Toxostoma_bendirei%29_%286960355495%29.jpg/960px-Bendires_Thrasher_%28Toxostoma_bendirei%29_%286960355495%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-elliott-coues-ce896c1c",
+      "name": "Elliott Coues",
+      "summary": "Elliott Ladd Coues (; September 9, 1842 – December 25, 1899) was an American army surgeon, historian, ornithologist, an…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-美國西南部-f5b57e7d",
+      "name": "美國西南部",
+      "summary": "美國西南部（英語：Southwestern United States、American Southwest或The Southwest）是美國西部的一個區域，比北部溫暖，但比東部乾燥。西南地区的人口分布比鄰近區域較為稀疏（以至于其城市也…",
+      "lat": "37",
+      "lng": "-111"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bendire-s-thrasher-02bd9e67",
+      "subject": "Bendire's thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-elliott-coues-ce896c1c",
+      "object": "Elliott Coues",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bendire's thrasher (Toxostoma bendirei) is a medium-sized species of thrasher native to the southwestern United States and northwestern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bendire-s-thrasher-02bd9e67",
+      "subject": "Bendire's thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-美國西南部-f5b57e7d",
+      "object": "美國西南部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bendire's thrasher (Toxostoma bendirei) is a medium-sized species of thrasher native to the southwestern United States and northwestern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bendire-s-thrasher-02bd9e67",
+      "subject": "Bendire's thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bendire's thrasher (Toxostoma bendirei) is a medium-sized species of thrasher native to the southwestern United States and northwestern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bendire-s-thrasher-02bd9e67",
+      "subject": "Bendire's thrasher",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

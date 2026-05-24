@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:41:18",
+  "requested_title": "Monotonous Lark",
+  "resolved_title": "Monotonous lark",
+  "title_aliases": [
+    "Monotonous Lark"
+  ],
+  "bird_id": "bird-雀歌百灵-798b5a80",
+  "raw_file": "bird-雀歌百灵-798b5a80.json",
+  "bird": {
+    "id": "bird-雀歌百灵-798b5a80",
+    "name": "雀歌百灵",
+    "english_name": "Monotonous lark",
+    "latin_name": "Mirafra passerina",
+    "summary": "雀歌百灵（学名：Mirafra passerina），是百灵科歌百灵属的一种，是游猎迁徙的候鸟，分布于纳米比亚、安哥拉、南非、赞比亚、津巴布韦、博茨瓦纳和莫桑比克。全球活动范围约为1,370,000平方千米。该物种的保护状况被评为无危。 雀歌百灵的平均体重约为25.1克。栖息地…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mirafra_passerina.jpg/960px-Mirafra_passerina.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-nils-carl-gustaf-fersen-gyldenstolpe-b0593126",
+      "name": "Nils Carl Gustaf Fersen Gyldenstolpe",
+      "summary": "Nils Carl Gustaf Fersen Gyldenstolpe (30 September 1886 – 10 April 1961) was a Swedish explorer, zoologist, and ornitho…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-雀歌百灵-798b5a80",
+      "subject": "雀歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-nils-carl-gustaf-fersen-gyldenstolpe-b0593126",
+      "object": "Nils Carl Gustaf Fersen Gyldenstolpe",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The monotonous lark (Mirafra passerina) is a species of lark in the family Alaudidae found in southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雀歌百灵-798b5a80",
+      "subject": "雀歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

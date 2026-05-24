@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:30:18",
+  "requested_title": "Carolina Chickadee",
+  "resolved_title": "Carolina chickadee",
+  "title_aliases": [
+    "Carolina Chickadee"
+  ],
+  "bird_id": "bird-carolina-chickadee-06505921",
+  "raw_file": "bird-carolina-chickadee-06505921.json",
+  "bird": {
+    "id": "bird-carolina-chickadee-06505921",
+    "name": "Carolina chickadee",
+    "english_name": "Carolina chickadee",
+    "latin_name": "Poecile carolinensis",
+    "summary": "The Carolina chickadee (Poecile carolinensis) is a small passerine bird in the tit family Paridae. It is largely found in the Southern Unit…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Carolina_Chickadee1_by_Dan_Pancamo.jpg/960px-Carolina_Chickadee1_by_Dan_Pancamo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-美國南部-ed383ca6",
+      "name": "美國南部",
+      "summary": "美國南部（英語：Southern United States，或 American South）也經常被簡稱為美南、迪克西、或直接稱為南部，構成了美國南部至東南部的一片廣大地區。這個地區帶有相當特殊的文化和歷史背景，包括了早期歐洲殖民時期…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-carolina-chickadee-06505921",
+      "subject": "Carolina chickadee",
+      "predicate": "distributed_in",
+      "object_id": "loc-美國南部-ed383ca6",
+      "object": "美國南部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is largely found in the Southern United States",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-carolina-chickadee-06505921",
+      "subject": "Carolina chickadee",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

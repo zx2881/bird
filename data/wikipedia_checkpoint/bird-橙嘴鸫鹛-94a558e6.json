@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T23:07:10",
+  "requested_title": "Orange-billed Babbler",
+  "resolved_title": "Orange-billed babbler",
+  "title_aliases": [
+    "Orange-billed Babbler"
+  ],
+  "bird_id": "bird-橙嘴鸫鹛-94a558e6",
+  "raw_file": "bird-橙嘴鸫鹛-94a558e6.json",
+  "bird": {
+    "id": "bird-橙嘴鸫鹛-94a558e6",
+    "name": "橙嘴鸫鹛",
+    "english_name": "Orange-billed babbler",
+    "latin_name": "Argya rufescens",
+    "summary": "橙嘴鸫鹛（学名：Turdoides rufescens），是画眉科鸫鹛属的一种，为斯里兰卡的特有种。该物种的保护状况被评为近危。 橙嘴鸫鹛的栖息地包括种植园、亚热带或热带的湿润低地林和亚热带或热带的（低地）湿润疏灌丛。",
+    "lat": "6.99722222",
+    "lng": "80.41111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Orange-billed_babbler_%2818909680320%29.jpg/960px-Orange-billed_babbler_%2818909680320%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-kitulgala-e78403d1",
+      "name": "Kitulgala",
+      "summary": "Kitulgala is a small town in the west of Sri Lanka.",
+      "lat": "6.99722222",
+      "lng": "80.41111111"
+    },
+    {
+      "id": "loc-辛哈拉加森林保护区-8915816b",
+      "name": "辛哈拉加森林保护区",
+      "summary": "辛哈拉加森林保护区（Sinharaja Forest Reserve）为斯里兰卡的国家公园之一，位于斯里兰卡西南部，是斯里兰卡唯一仅存的原始热带雨林。这里60%以上的树木都是当地特有树种，其中许多属于珍稀树种。保护区里还生存着很多当地特有…",
+      "lat": "6.41666667",
+      "lng": "80.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橙嘴鸫鹛-94a558e6",
+      "subject": "橙嘴鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-kitulgala-e78403d1",
+      "object": "Kitulgala",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although its habitat is under threat, it occurs in all the forests of the wet zone, and is quite common at prime sites like Kitulgala and Sinharaja",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙嘴鸫鹛-94a558e6",
+      "subject": "橙嘴鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-辛哈拉加森林保护区-8915816b",
+      "object": "辛哈拉加森林保护区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although its habitat is under threat, it occurs in all the forests of the wet zone, and is quite common at prime sites like Kitulgala and Sinharaja",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙嘴鸫鹛-94a558e6",
+      "subject": "橙嘴鸫鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

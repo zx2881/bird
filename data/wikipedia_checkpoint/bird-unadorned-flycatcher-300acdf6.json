@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:45:54",
+  "requested_title": "Unadorned Flycatcher",
+  "resolved_title": "Unadorned flycatcher",
+  "title_aliases": [
+    "Unadorned Flycatcher"
+  ],
+  "bird_id": "bird-unadorned-flycatcher-300acdf6",
+  "raw_file": "bird-unadorned-flycatcher-300acdf6.json",
+  "bird": {
+    "id": "bird-unadorned-flycatcher-300acdf6",
+    "name": "Unadorned flycatcher",
+    "english_name": "Unadorned flycatcher",
+    "latin_name": "Myiophobus inornatus",
+    "summary": "The unadorned flycatcher (Myiophobus inornatus) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is found in Boliv…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Unadorned_Flycatcher%2C_Paucartambo_Province%2C_Peru_imported_from_iNaturalist_photo_326643439_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-unadorned-flycatcher-300acdf6",
+      "subject": "Unadorned flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-unadorned-flycatcher-300acdf6",
+      "subject": "Unadorned flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-unadorned-flycatcher-300acdf6",
+      "subject": "Unadorned flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the understory to mid-story of humid montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-unadorned-flycatcher-300acdf6",
+      "subject": "Unadorned flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-unadorned-flycatcher-300acdf6",
+      "subject": "Unadorned flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered uncommon to fairly common in Peru. \"As is the case with all species of birds that occupy the interior of humid forests, Unadorned Flycatcher will be vulnerable to habitat loss or degradation through such activities such as logging, road construction, or expanding agriculture.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-unadorned-flycatcher-300acdf6",
+      "subject": "Unadorned flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered uncommon to fairly common in Peru. \"As is the case with all species of birds that occupy the interior of humid forests, Unadorned Flycatcher will be vulnerable to habitat loss or degradation through such activities such as logging, road construction, or expanding agriculture.\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

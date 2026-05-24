@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:03:09",
+  "requested_title": "Honduran Emerald",
+  "resolved_title": "Honduran emerald",
+  "title_aliases": [
+    "Honduran Emerald"
+  ],
+  "bird_id": "bird-洪都拉斯蜂鸟-4e187bce",
+  "raw_file": "bird-洪都拉斯蜂鸟-4e187bce.json",
+  "bird": {
+    "id": "bird-洪都拉斯蜂鸟-4e187bce",
+    "name": "洪都拉斯蜂鸟",
+    "english_name": "Honduran emerald",
+    "latin_name": "Amazilia luciae",
+    "summary": "洪都拉斯蜂鸟（学名：Amazilia luciae），是雨燕目蜂鸟科的一种鸟类。 洪都拉斯蜂鸟体重约4.5克，翼长约54.4毫米，嘴峰长约23毫米，喙宽度约2.1毫米，喙厚度约2.5毫米，跗蹠长约3.5毫米，尾长约34毫米。洪都拉斯蜂鸟在其分布区内为留鸟，其栖息在半开放的灌木丛…",
+    "lat": "15.13333333",
+    "lng": "-87.1",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Honduran_Emerald_%28Amazilia_luciae%29_%282495402213%29.jpg/960px-Honduran_Emerald_%28Amazilia_luciae%29_%282495402213%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-約羅省-df74e4d7",
+      "name": "約羅省",
+      "summary": "約羅省（西班牙語：Yoro）是宏都拉斯的一個省，位於該國北部。面積7,939平方公里，2005年人口503,886人。首府約羅。 1825年建省，是最早的七個省之一。1893年科爾特斯省由聖巴巴拉省和本省分出。下分十二個自治市。",
+      "lat": "15.13333333",
+      "lng": "-87.1"
+    },
+    {
+      "id": "loc-奧蘭喬省-5b574c91",
+      "name": "奧蘭喬省",
+      "summary": "奧蘭喬省（Departamento de Olancho）是宏都拉斯東南部的一個省。東南與尼加拉瓜接壤。面積23,905平方公里，是全國最大的省份。人口約500,000（2006年）。首府胡蒂卡爾帕。 1825年6月25日建省。下分二十三…",
+      "lat": "14.6",
+      "lng": "-86.2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-洪都拉斯蜂鸟-4e187bce",
+      "subject": "洪都拉斯蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-約羅省-df74e4d7",
+      "object": "約羅省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Honduran emerald is found in three widely separated areas of northern Honduras, in the departments of Santa Bárbara, Cortés, Yoro, and Olancho",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-洪都拉斯蜂鸟-4e187bce",
+      "subject": "洪都拉斯蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-奧蘭喬省-5b574c91",
+      "object": "奧蘭喬省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Honduran emerald is found in three widely separated areas of northern Honduras, in the departments of Santa Bárbara, Cortés, Yoro, and Olancho",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-洪都拉斯蜂鸟-4e187bce",
+      "subject": "洪都拉斯蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

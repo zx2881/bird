@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:00:39",
+  "requested_title": "Elegant Honeyeater",
+  "resolved_title": "Elegant honeyeater",
+  "title_aliases": [
+    "Elegant Honeyeater"
+  ],
+  "bird_id": "bird-elegant-honeyeater-72b92de5",
+  "raw_file": "bird-elegant-honeyeater-72b92de5.json",
+  "bird": {
+    "id": "bird-elegant-honeyeater-72b92de5",
+    "name": "Elegant honeyeater",
+    "english_name": "Elegant honeyeater",
+    "latin_name": "Meliphaga cinereifrons",
+    "summary": "The elegant honeyeater (Meliphaga cinereifrons) is a species of bird in the family Meliphagidae. It is native to the Bird's Tail Peninsula…",
+    "lat": "-8.83333333",
+    "lng": "147.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Meliphaga_cinereifrons_-_Jay_Pruett_-_335097632.jpeg/960px-Meliphaga_cinereifrons_-_Jay_Pruett_-_335097632.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴布亞半島-908a1ddc",
+      "name": "巴布亞半島",
+      "summary": "巴布亚半岛是巴布亚新几内亚的一个半岛，位于莱城东南。该半岛主体由欧文斯坦利山脉构成，拥有维多利亚山（4038米）等高峰。巴布亚新几内亚的首都及最大城市莫尔斯比港坐落于半岛南岸。 参考文献",
+      "lat": "-8.83333333",
+      "lng": "147.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-elegant-honeyeater-72b92de5",
+      "subject": "Elegant honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亞半島-908a1ddc",
+      "object": "巴布亞半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Bird's Tail Peninsula (Papua New Guinea)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-elegant-honeyeater-72b92de5",
+      "subject": "Elegant honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

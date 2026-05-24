@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:21:15",
+  "requested_title": "Red-throated Thrush",
+  "resolved_title": "Red-throated thrush",
+  "title_aliases": [
+    "Red-throated Thrush"
+  ],
+  "bird_id": "bird-赤颈鸫-5c8f0d11",
+  "raw_file": "bird-赤颈鸫-5c8f0d11.json",
+  "bird": {
+    "id": "bird-赤颈鸫-5c8f0d11",
+    "name": "赤颈鸫",
+    "english_name": "Red-throated thrush",
+    "latin_name": "Turdus ruficollis",
+    "summary": "赤颈鸫（学名：Turdus ruficollis）为鶲科鸫属的鸟类，俗名红脖鸫、红脖子穿草鸫。分布于前苏联、蒙古、伊朗、阿富汗、巴基斯坦、孟加拉、尼泊尔、不丹、缅甸、西欧、阿拉伯、也门以及中国大陆的东北、新疆、内蒙古、青海、甘肃、河北、北京、陕西、四川(美姑、德格四川、湖北、云…",
+    "lat": "61",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Red-throated_thrush_in_Nepal_%281%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    },
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-赤颈鸫-5c8f0d11",
+      "subject": "赤颈鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in East Siberia to North Manchuria wintering to West China, Myanmar, and Northeast India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤颈鸫-5c8f0d11",
+      "subject": "赤颈鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in East Siberia to North Manchuria wintering to West China, Myanmar, and Northeast India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤颈鸫-5c8f0d11",
+      "subject": "赤颈鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

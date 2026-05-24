@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:39:07",
+  "requested_title": "Dusky Lark",
+  "resolved_title": "Dusky lark",
+  "title_aliases": [
+    "Dusky Lark"
+  ],
+  "bird_id": "bird-黑歌百灵-587afa27",
+  "raw_file": "bird-黑歌百灵-587afa27.json",
+  "bird": {
+    "id": "bird-黑歌百灵-587afa27",
+    "name": "黑歌百灵",
+    "english_name": "Dusky lark",
+    "latin_name": "Pinarocorys nigricans",
+    "summary": "黑歌百灵（学名：Pinarocorys nigricans），是百灵科的一种，是全面迁徙的候鸟，分布于纳米比亚、安哥拉、南非、斯威士兰、马拉维、坦桑尼亚、津巴布韦、赞比亚、刚果民主共和国、博茨瓦纳和莫桑比克。全球活动范围约为3,880,000平方千米。该物种的保护状况被评为无危…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Dusky_Lark_%28Pinarocorys_nigricans%29_%286029254985%29_%28cropped%29.jpg/960px-Dusky_Lark_%28Pinarocorys_nigricans%29_%286029254985%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-carl-jakob-sundevall-74842590",
+      "name": "Carl Jakob Sundevall",
+      "summary": "Carl Jakob Sundevall (22 October 1801 – 2 February 1875) was a Swedish zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中部非洲-3fc4fb95",
+      "name": "中部非洲",
+      "summary": "中非（英語：Central Africa）即中部非洲地区，从撒哈拉沙漠与非洲大陆西部突起部分合围，不包括非洲大峡谷西部。有時中非單指中非共和國。区內用水全赖刚果河及其支流，流域面积仅次于亚马逊河。 国家列表 聯合國中部非洲次分區（英語：U…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑歌百灵-587afa27",
+      "subject": "黑歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-carl-jakob-sundevall-74842590",
+      "object": "Carl Jakob Sundevall",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The dusky lark (Pinarocorys nigricans), also known as the dusky bush lark or rufous-rumped bush lark, is a species of migratory lark in the family Alaudidae. It is native to southern Central Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑歌百灵-587afa27",
+      "subject": "黑歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-中部非洲-3fc4fb95",
+      "object": "中部非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern Central Africa; it is a summer migrant to more southerly areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑歌百灵-587afa27",
+      "subject": "黑歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

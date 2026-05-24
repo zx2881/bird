@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:07:12",
+  "requested_title": "White-throated Towhee",
+  "resolved_title": "White-throated towhee",
+  "title_aliases": [
+    "White-throated Towhee"
+  ],
+  "bird_id": "bird-white-throated-towhee-32baaf13",
+  "raw_file": "bird-white-throated-towhee-32baaf13.json",
+  "bird": {
+    "id": "bird-white-throated-towhee-32baaf13",
+    "name": "White-throated towhee",
+    "english_name": "White-throated towhee",
+    "latin_name": "Melozone albicollis",
+    "summary": "The white-throated towhee (Melozone albicollis) is a species of bird in the family Passerellidae, the New World sparrows. It is endemic to…",
+    "lat": "19",
+    "lng": "-97.88333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/White-throated_Towhee_-_Oaxaca_-_Mexico_S4E9162_%2822765145593%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-普埃布拉州-7e764552",
+      "name": "普埃布拉州",
+      "summary": "普埃布拉州（西班牙語：Puebla，西班牙語發音：[ˈpweβla]）是墨西哥中部偏東的一個州，位於首都墨西哥市以東。東為韋拉克魯斯州，西為伊達爾戈州、墨西哥州、莫雷洛斯州和特拉斯卡拉州，南為格雷羅州和瓦哈卡州。分217市，最大城市為普埃…",
+      "lat": "19",
+      "lng": "-97.88333333"
+    },
+    {
+      "id": "loc-格雷羅州-92d4434d",
+      "name": "格雷羅州",
+      "summary": "格雷羅州（西班牙語：Guerrero）是墨西哥南部的一個州，南臨太平洋。 參考文獻",
+      "lat": "17.61666667",
+      "lng": "-99.95"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-throated-towhee-32baaf13",
+      "subject": "White-throated towhee",
+      "predicate": "distributed_in",
+      "object_id": "loc-普埃布拉州-7e764552",
+      "object": "普埃布拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "marshalli is the more northerly of the two; it is found in southern Puebla and perhaps into eastern Guerrero",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-towhee-32baaf13",
+      "subject": "White-throated towhee",
+      "predicate": "distributed_in",
+      "object_id": "loc-格雷羅州-92d4434d",
+      "object": "格雷羅州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "marshalli is the more northerly of the two; it is found in southern Puebla and perhaps into eastern Guerrero",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-towhee-32baaf13",
+      "subject": "White-throated towhee",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

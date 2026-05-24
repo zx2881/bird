@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:40:24",
+  "requested_title": "Ash-breasted Tit-Tyrant",
+  "resolved_title": "Ash-breasted tit-tyrant",
+  "title_aliases": [
+    "Ash-breasted Tit-Tyrant"
+  ],
+  "bird_id": "bird-ash-breasted-tit-tyrant-0a5ca7ea",
+  "raw_file": "bird-ash-breasted-tit-tyrant-0a5ca7ea.json",
+  "bird": {
+    "id": "bird-ash-breasted-tit-tyrant-0a5ca7ea",
+    "name": "Ash-breasted tit-tyrant",
+    "english_name": "Ash-breasted tit-tyrant",
+    "latin_name": "Anairetes alpinus",
+    "summary": "The ash-breasted tit-tyrant (Anairetes alpinus) is a vulnerable species of bird in subfamily Elaeniinae of family Tyrannidae, the tyrant fl…",
+    "lat": "-13.26",
+    "lng": "-72.11",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Anairetes_alpinus_-_Ash-breasted_Tit-Tyrant_%28cropped%29.jpg/960px-Anairetes_alpinus_-_Ash-breasted_Tit-Tyrant_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-库斯科大区-f90044b4",
+      "name": "库斯科大区",
+      "summary": "庫斯科大區（西班牙語：Departamento del Cusco、克丘亞語：Qusqu suyu）是秘魯東南部的一個大區，北鄰烏卡亞利大區，東鄰馬德雷德迪奧斯和普諾大區，南鄰阿雷基帕大區，西鄰阿普里馬克、阿亞庫喬和胡寧大區。首府庫斯科，…",
+      "lat": "-13.26",
+      "lng": "-72.11"
+    },
+    {
+      "id": "loc-阿普里马克大区-9d96372a",
+      "name": "阿普里马克大区",
+      "summary": "阿普里馬克大區（西班牙語：Departamento de Apurímac）是秘魯中南部的一個大區，東鄰庫斯科大區，西鄰阿亞庫喬大區，以及南鄰阿雷基帕和阿亞庫喬大區。大區名稱是克丘亞語，意思是「眾神說話的地方」，形容當地許多高山（安第斯宗…",
+      "lat": "-14.16666667",
+      "lng": "-72.75555556"
+    },
+    {
+      "id": "loc-拉巴斯省-玻利維亞-3d3fe4fe",
+      "name": "拉巴斯省 (玻利維亞)",
+      "summary": "拉巴斯省（西班牙語：Departamento de La Paz）是玻利維亞西部的一個省份，省会为拉巴斯。全省面積为133,985平方公里，2024年人口数量为3,022,566人，人口数量在全國各省中排名第一。该省与秘鲁、智利接壤。 参…",
+      "lat": "-15",
+      "lng": "-68.35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ash-breasted-tit-tyrant-0a5ca7ea",
+      "subject": "Ash-breasted tit-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-库斯科大区-f90044b4",
+      "object": "库斯科大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "bolivianus is found in southeastern Peru's Cuzco and Apurímac departments and in La Paz Department in northwestern Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ash-breasted-tit-tyrant-0a5ca7ea",
+      "subject": "Ash-breasted tit-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿普里马克大区-9d96372a",
+      "object": "阿普里马克大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "bolivianus is found in southeastern Peru's Cuzco and Apurímac departments and in La Paz Department in northwestern Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ash-breasted-tit-tyrant-0a5ca7ea",
+      "subject": "Ash-breasted tit-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-拉巴斯省-玻利維亞-3d3fe4fe",
+      "object": "拉巴斯省 (玻利維亞)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "bolivianus is found in southeastern Peru's Cuzco and Apurímac departments and in La Paz Department in northwestern Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ash-breasted-tit-tyrant-0a5ca7ea",
+      "subject": "Ash-breasted tit-tyrant",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

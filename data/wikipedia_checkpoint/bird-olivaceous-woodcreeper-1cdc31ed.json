@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:14:23",
+  "requested_title": "Olivaceous Woodcreeper",
+  "resolved_title": "Olivaceous woodcreeper",
+  "title_aliases": [
+    "Olivaceous Woodcreeper"
+  ],
+  "bird_id": "bird-olivaceous-woodcreeper-1cdc31ed",
+  "raw_file": "bird-olivaceous-woodcreeper-1cdc31ed.json",
+  "bird": {
+    "id": "bird-olivaceous-woodcreeper-1cdc31ed",
+    "name": "Olivaceous woodcreeper",
+    "english_name": "Olivaceous woodcreeper",
+    "latin_name": "Sittasomus griseicapillus",
+    "summary": "The olivaceous woodcreeper (Sittasomus griseicapillus) is a passerine bird in subfamily Dendrocolaptinae of the ovenbird family Furnariidae…",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Sittasomus_griseicapillus_Olivaceous_Woodcreeper.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-olivaceous-woodcreeper-1cdc31ed",
+      "subject": "Olivaceous woodcreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sylviellus, southeastern and southern Brazil, southeastern Paraguay, and northeastern Argentina and Uruguay The olivaceous woodcreeper inhabits a variety of wooded landscapes, generally favoring all parts of mature forest but also occurring in secondary forest and plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olivaceous-woodcreeper-1cdc31ed",
+      "subject": "Olivaceous woodcreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In drier areas it occurs in scrublands, caatinga, and cerrado",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olivaceous-woodcreeper-1cdc31ed",
+      "subject": "Olivaceous woodcreeper",
+      "predicate": "lives_in",
+      "object_id": "hab-mature-forest",
+      "object": "成熟森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "sylviellus, southeastern and southern Brazil, southeastern Paraguay, and northeastern Argentina and Uruguay The olivaceous woodcreeper inhabits a variety of wooded landscapes, generally favoring all parts of mature forest but also occurring in secondary forest and plantations",
+      "object_summary": "具备成熟林冠和树洞资源的森林生境。"
+    },
+    {
+      "subject_id": "bird-olivaceous-woodcreeper-1cdc31ed",
+      "subject": "Olivaceous woodcreeper",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In drier areas it occurs in scrublands, caatinga, and cerrado",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-olivaceous-woodcreeper-1cdc31ed",
+      "subject": "Olivaceous woodcreeper",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

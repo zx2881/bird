@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:21:45",
+  "requested_title": "Katanga Masked Weaver",
+  "resolved_title": "Katanga masked weaver",
+  "title_aliases": [
+    "Katanga Masked Weaver"
+  ],
+  "bird_id": "bird-katanga-masked-weaver-3a86aa58",
+  "raw_file": "bird-katanga-masked-weaver-3a86aa58.json",
+  "bird": {
+    "id": "bird-katanga-masked-weaver-3a86aa58",
+    "name": "Katanga masked weaver",
+    "english_name": "Katanga masked weaver",
+    "latin_name": "Ploceus katangae",
+    "summary": "The Katanga masked weaver (Ploceus katangae) is a species of bird in the family Ploceidae. It is found in south-eastern Democratic Republic…",
+    "lat": "-9.41384",
+    "lng": "28.52188",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/20160605_0523_Bangweulu_Tisserin_du_Katanga.jpg/960px-20160605_0523_Bangweulu_Tisserin_du_Katanga.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-盧阿普拉河-afc2ca2a",
+      "name": "盧阿普拉河",
+      "summary": "The Luapula River is a north-flowing river of central Africa, within the Congo River watershed.",
+      "lat": "-9.41384",
+      "lng": "28.52188"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-katanga-masked-weaver-3a86aa58",
+      "subject": "Katanga masked weaver",
+      "predicate": "distributed_in",
+      "object_id": "loc-盧阿普拉河-afc2ca2a",
+      "object": "盧阿普拉河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Distributed along the Luapula River in the Democratic Republic of the Congo and in the species range in Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-katanga-masked-weaver-3a86aa58",
+      "subject": "Katanga masked weaver",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

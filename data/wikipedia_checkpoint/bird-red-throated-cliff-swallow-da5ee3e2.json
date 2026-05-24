@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:16:57",
+  "requested_title": "Red-throated Cliff Swallow",
+  "resolved_title": "Red-throated cliff swallow",
+  "title_aliases": [
+    "Red-throated Cliff Swallow"
+  ],
+  "bird_id": "bird-red-throated-cliff-swallow-da5ee3e2",
+  "raw_file": "bird-red-throated-cliff-swallow-da5ee3e2.json",
+  "bird": {
+    "id": "bird-red-throated-cliff-swallow-da5ee3e2",
+    "name": "Red-throated cliff swallow",
+    "english_name": "Red-throated cliff swallow",
+    "latin_name": "Petrochelidon rufigula",
+    "summary": "The red-throated cliff swallow (Petrochelidon rufigula), also known as the red-throated swallow, is a species of bird in the family Hirundi…",
+    "lat": "-12.5",
+    "lng": "18.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Petrochelidon_rufigula%2C_tussen_Kuito_en_Bi%C3%A9%2C_Birding_Weto%2C_a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    },
+    {
+      "id": "loc-刚果共和国-287170ca",
+      "name": "刚果共和国",
+      "summary": "刚果共和国（法語：République du Congo；基图巴语：Repubilika ya Kongo；林加拉语：Republiki ya Kongó），简称刚果、刚果（布拉柴维尔）或刚果（布），是非洲中部的一个国家，首都为布拉柴维尔…",
+      "lat": "-1.44",
+      "lng": "15.556"
+    },
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-throated-cliff-swallow-da5ee3e2",
+      "subject": "Red-throated cliff swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Angola, Republic of the Congo, DRC, Gabon, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-throated-cliff-swallow-da5ee3e2",
+      "subject": "Red-throated cliff swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果共和国-287170ca",
+      "object": "刚果共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Angola, Republic of the Congo, DRC, Gabon, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-throated-cliff-swallow-da5ee3e2",
+      "subject": "Red-throated cliff swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Angola, Republic of the Congo, DRC, Gabon, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-throated-cliff-swallow-da5ee3e2",
+      "subject": "Red-throated cliff swallow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

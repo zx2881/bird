@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:07:16",
+  "requested_title": "Madagascar Cuckooshrike",
+  "resolved_title": "Madagascar cuckooshrike",
+  "title_aliases": [
+    "Madagascar Cuckooshrike"
+  ],
+  "bird_id": "bird-马岛鹃鵙-7e17c9a2",
+  "raw_file": "bird-马岛鹃鵙-7e17c9a2.json",
+  "bird": {
+    "id": "bird-马岛鹃鵙-7e17c9a2",
+    "name": "马岛鹃鵙",
+    "english_name": "Madagascar cuckooshrike",
+    "latin_name": "Ceblepyris cinereus",
+    "summary": "马岛鹃鵙（学名：Coracina cinerea）是山椒鸟科鸦鹃鵙属的一种。绝大多数学者将科摩罗鹃鵙（C. cucullata）视为马岛鹃鵙的亚种。",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ashy_Cuckoo-shrike_%28Coracina_cinerea%29_in_tree.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    },
+    {
+      "id": "loc-马约特-20d4d339",
+      "name": "马约特",
+      "summary": "马约特（法語：Mayotte，法語發音：[majɔt] ；馬約特語：Maore；布希语：Maori），正式名称为馬約特省（département de Mayotte），是法国的海外省与单一领土集体，位于莫桑比克海峡，包括格朗德特尔岛、珀…",
+      "lat": "-12.84305556",
+      "lng": "45.13833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-马岛鹃鵙-7e17c9a2",
+      "subject": "马岛鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Madagascar, and Mayotte",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-马岛鹃鵙-7e17c9a2",
+      "subject": "马岛鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-马约特-20d4d339",
+      "object": "马约特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Madagascar, and Mayotte",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-马岛鹃鵙-7e17c9a2",
+      "subject": "马岛鹃鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

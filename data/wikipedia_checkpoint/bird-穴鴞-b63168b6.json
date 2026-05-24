@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:19:33",
+  "requested_title": "Burrowing Owl",
+  "resolved_title": "Burrowing owl",
+  "title_aliases": [
+    "Burrowing Owl"
+  ],
+  "bird_id": "bird-穴鴞-b63168b6",
+  "raw_file": "bird-穴鴞-b63168b6.json",
+  "bird": {
+    "id": "bird-穴鴞-b63168b6",
+    "name": "穴鴞",
+    "english_name": "Burrowing owl",
+    "latin_name": "Athene cunicularia",
+    "summary": "穴小鴞（學名：Athene cunicularia），鴟鴞科小鴞屬（Athene）的一種，因住在洞穴而得名。主要分布於北美洲及南美洲地區。常見於草原、牧地、農業地區、荒漠，或者低植被的乾燥區域。有別於其他種貓頭鷹僅活動於夜間，穴小鴞於日間依舊能照常活動，亦因此，其狩獵時間自黃昏…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Southern_burrowing_owl_%28Athene_cunicularia_cunicularia%29_Colonia.jpg/960px-Southern_burrowing_owl_%28Athene_cunicularia_cunicularia%29_Colonia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-穴鴞-b63168b6",
+      "subject": "穴鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cunicularia }} The burrowing owl (Athene cunicularia) is a small, long-legged, primarily terrestrial—though not flightless—species of owl native to the open landscapes of North and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-穴鴞-b63168b6",
+      "subject": "穴鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cunicularia }} The burrowing owl (Athene cunicularia) is a small, long-legged, primarily terrestrial—though not flightless—species of owl native to the open landscapes of North and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-穴鴞-b63168b6",
+      "subject": "穴鴞",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They are typically found in grasslands, rangelands, agricultural areas, deserts, or any other open, dry area with low vegetation. They nest and roost in burrows, and, despite their common name, do not often construct these dwellings themselves, rather repurposing disused burrows or tunnels previously excavated and inhabited by other species, such as American badgers (Taxidea taxus), foxes (Vulpes sp.), ground squirrels or prairie dogs (Cynomys spp.), among others",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-穴鴞-b63168b6",
+      "subject": "穴鴞",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Having evolved to live on open grasslands and prairie habitat (as well as badlands, chaparral and desert ecosystems), as opposed to dense forest, the burrowing owl has developed longer legs than other owls, a trait which enables it to sprint when pursuing its prey, not dissimilarly to the greater roadrunner, as well as providing momentum when taking flight; however, burrowing owls typically only become airborne for short bursts, such as when fleeing threats, and typically do not fly very high off of the ground",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-穴鴞-b63168b6",
+      "subject": "穴鴞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

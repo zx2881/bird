@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:15:06",
+  "requested_title": "House Finch",
+  "resolved_title": "House finch",
+  "title_aliases": [
+    "House Finch"
+  ],
+  "bird_id": "bird-house-finch-8d506311",
+  "raw_file": "bird-house-finch-8d506311.json",
+  "bird": {
+    "id": "bird-house-finch-8d506311",
+    "name": "House finch",
+    "english_name": "House finch",
+    "latin_name": "Haemorhous mexicanus",
+    "summary": "The house finch (Haemorhous mexicanus) is a North American bird in the finch family. It is native to Mexico and southwestern United States,…",
+    "lat": "23",
+    "lng": "-102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/House_finch_%2833688%292.jpg/960px-House_finch_%2833688%292.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-美國西南部-f5b57e7d",
+      "name": "美國西南部",
+      "summary": "美國西南部（英語：Southwestern United States、American Southwest或The Southwest）是美國西部的一個區域，比北部溫暖，但比東部乾燥。西南地区的人口分布比鄰近區域較為稀疏（以至于其城市也…",
+      "lat": "37",
+      "lng": "-111"
+    },
+    {
+      "id": "loc-加拿大-25b69dbf",
+      "name": "加拿大",
+      "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢…",
+      "lat": "60",
+      "lng": "-110"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-house-finch-8d506311",
+      "subject": "House finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Mexico and southwestern United States, but has since been introduced to the eastern part of North America and Hawaiʻi; it is now found year-round in almost all parts of the United States and most of Mexico, with breeding grounds well into Canada as far north as northern Alberta",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-house-finch-8d506311",
+      "subject": "House finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-美國西南部-f5b57e7d",
+      "object": "美國西南部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Mexico and southwestern United States, but has since been introduced to the eastern part of North America and Hawaiʻi; it is now found year-round in almost all parts of the United States and most of Mexico, with breeding grounds well into Canada as far north as northern Alberta",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-house-finch-8d506311",
+      "subject": "House finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大-25b69dbf",
+      "object": "加拿大",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Mexico and southwestern United States, but has since been introduced to the eastern part of North America and Hawaiʻi; it is now found year-round in almost all parts of the United States and most of Mexico, with breeding grounds well into Canada as far north as northern Alberta",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-house-finch-8d506311",
+      "subject": "House finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

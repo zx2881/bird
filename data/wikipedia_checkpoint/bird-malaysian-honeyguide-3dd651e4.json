@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:02:43",
+  "requested_title": "Malaysian Honeyguide",
+  "resolved_title": "Malaysian honeyguide",
+  "title_aliases": [
+    "Malaysian Honeyguide"
+  ],
+  "bird_id": "bird-malaysian-honeyguide-3dd651e4",
+  "raw_file": "bird-malaysian-honeyguide-3dd651e4.json",
+  "bird": {
+    "id": "bird-malaysian-honeyguide-3dd651e4",
+    "name": "Malaysian honeyguide",
+    "english_name": "Malaysian honeyguide",
+    "latin_name": "Indicator archipelagicus",
+    "summary": "The Malaysian honeyguide (Indicator archipelagicus) is a bird in the family Indicatoridae, which are paleotropical near passerine birds rel…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Indicator_archipelagicus_-_Ian_Dugdale_-_546786989.jpeg/960px-Indicator_archipelagicus_-_Ian_Dugdale_-_546786989.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-malaysian-honeyguide-3dd651e4",
+      "subject": "Malaysian honeyguide",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is native to Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malaysian-honeyguide-3dd651e4",
+      "subject": "Malaysian honeyguide",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-malaysian-honeyguide-3dd651e4",
+      "subject": "Malaysian honeyguide",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to ongoing habitat loss, local and sparse population, the Malaysian honeyguide is evaluated as Near Threatened on the IUCN Red List of Threatened Species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

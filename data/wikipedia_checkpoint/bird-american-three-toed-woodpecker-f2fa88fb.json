@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:17:04",
+  "requested_title": "American Three-toed Woodpecker",
+  "resolved_title": "American three-toed woodpecker",
+  "title_aliases": [
+    "American Three-toed Woodpecker"
+  ],
+  "bird_id": "bird-american-three-toed-woodpecker-f2fa88fb",
+  "raw_file": "bird-american-three-toed-woodpecker-f2fa88fb.json",
+  "bird": {
+    "id": "bird-american-three-toed-woodpecker-f2fa88fb",
+    "name": "American three-toed woodpecker",
+    "english_name": "American three-toed woodpecker",
+    "latin_name": "Picoides dorsalis",
+    "summary": "The American three-toed woodpecker (Picoides dorsalis) is a medium-sized woodpecker (family Picidae), which is native to North America. Des…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/American_Three-toed_Woodpecker_-_Picoides_dorsalis_%28Male%29.jpg/960px-American_Three-toed_Woodpecker_-_Picoides_dorsalis_%28Male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "name": "國際自然保護聯盟瀕危物種紅色名錄",
+      "summary": "國際自然保護聯盟瀕危物種紅色名錄（或稱IUCN紅色名錄，簡稱紅皮書）於1963年開始編製，是全球動植物物種保護現狀最全面的名錄。此名錄由國際自然保護聯盟編製及維護。 IUCN紅色名錄是根據嚴格準則去評估數以千計物種及亞種的絕種風險所編製而…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-american-three-toed-woodpecker-f2fa88fb",
+      "subject": "American three-toed woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟瀕危物種紅色名錄-ddaff039",
+      "object": "國際自然保護聯盟瀕危物種紅色名錄",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(t.) dorsalis distribution map.png | range_map2_caption = Eurasian and American three-toed woodpeckers ranges.{{Refn|group=n|name=IUCN_maps|IUCN (the source of status and spatial data of ranges in these maps) does not recognize P",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-american-three-toed-woodpecker-f2fa88fb",
+      "subject": "American three-toed woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(tridactylus) dorsalis as separate species.}} }} The American three-toed woodpecker (Picoides dorsalis) is a medium-sized woodpecker (family Picidae), which is native to North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-american-three-toed-woodpecker-f2fa88fb",
+      "subject": "American three-toed woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

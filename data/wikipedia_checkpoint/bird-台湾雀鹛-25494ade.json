@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:53:11",
+  "requested_title": "Grey-cheeked Fulvetta",
+  "resolved_title": "Grey-cheeked fulvetta",
+  "title_aliases": [
+    "Grey-cheeked Fulvetta"
+  ],
+  "bird_id": "bird-台湾雀鹛-25494ade",
+  "raw_file": "bird-台湾雀鹛-25494ade.json",
+  "bird": {
+    "id": "bird-台湾雀鹛-25494ade",
+    "name": "台湾雀鹛",
+    "english_name": "Grey-cheeked fulvetta",
+    "latin_name": "Alcippe morrisonia",
+    "summary": "台湾雀鹛（學名：Alcippe morrisonia，台湾作繡眼畫眉），曾稱灰眶雀鹛、繡眼雀鶥、白眶雀鶥，臺灣話稱大目箍仔（臺羅：tuā-ba̍k-khoo-á），是臺灣特有的雀形目雀鶥科雀鶥屬鳥類，以灰頭、白眼眶和褐黃腹部而明顯有別於臺灣其他鳥類，同時亦以鳴聲多樣著稱。其棲地…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Morrison%27s_fulvetta_%28Alcippe_morrisonia%29_Xindian.jpg/960px-Morrison%27s_fulvetta_%28Alcippe_morrisonia%29_Xindian.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-台湾雀鹛-25494ade",
+      "subject": "台湾雀鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a year-round resident throughout Taiwan. It is found in evergreen mountain forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-台湾雀鹛-25494ade",
+      "subject": "台湾雀鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is a year-round resident throughout Taiwan. It is found in evergreen mountain forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    }
+  ]
+}

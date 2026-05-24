@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:38:14",
+  "requested_title": "Swynnerton's Robin",
+  "resolved_title": "Swynnerton's robin",
+  "title_aliases": [
+    "Swynnerton's Robin"
+  ],
+  "bird_id": "bird-swynnerton-s-robin-32bdb8d2",
+  "raw_file": "bird-swynnerton-s-robin-32bdb8d2.json",
+  "bird": {
+    "id": "bird-swynnerton-s-robin-32bdb8d2",
+    "name": "Swynnerton's robin",
+    "english_name": "Swynnerton's robin",
+    "latin_name": "Swynnertonia swynnertoni",
+    "summary": "Swynnerton's robin (Swynnertonia swynnertoni) is a species of passerine bird belonging to the family Muscicapidae. It is monotypic within t…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Swynnertonia_swynnertoni%2C_Seldomseen%2C_Birding_Weto%2C_a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-chirinda-forest-botanical-reserve-7b11aa6c",
+      "name": "Chirinda Forest Botanical Reserve",
+      "summary": "The 950 hectares (2,300 acres) Chirinda Forest Botanical Reserve is situated on the slopes of Mount Selinda, 30 km (19…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-swynnerton-s-robin-32bdb8d2",
+      "subject": "Swynnerton's robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-chirinda-forest-botanical-reserve-7b11aa6c",
+      "object": "Chirinda Forest Botanical Reserve",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Zimbabwe this species is known to occur at the Chirinda Forest Botanical Reserve and a few small forested areas along the border with Mozambique. This species is almost confined to montane forest between in altitude, except the subpopulation found in the East Usambaras where it likely is found only in lowland evergreen forest at altitudes of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-swynnerton-s-robin-32bdb8d2",
+      "subject": "Swynnerton's robin",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In Zimbabwe this species is known to occur at the Chirinda Forest Botanical Reserve and a few small forested areas along the border with Mozambique. This species is almost confined to montane forest between in altitude, except the subpopulation found in the East Usambaras where it likely is found only in lowland evergreen forest at altitudes of",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-swynnerton-s-robin-32bdb8d2",
+      "subject": "Swynnerton's robin",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-swynnerton-s-robin-32bdb8d2",
+      "subject": "Swynnerton's robin",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Threats identified include forest clearance and disturbance and non-native invasive species, especially the ginger Hedychium",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

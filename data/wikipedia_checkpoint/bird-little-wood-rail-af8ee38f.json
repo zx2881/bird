@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:38:14",
+  "requested_title": "Little Wood Rail",
+  "resolved_title": "Little wood rail",
+  "title_aliases": [
+    "Little Wood Rail"
+  ],
+  "bird_id": "bird-little-wood-rail-af8ee38f",
+  "raw_file": "bird-little-wood-rail-af8ee38f.json",
+  "bird": {
+    "id": "bird-little-wood-rail-af8ee38f",
+    "name": "Little wood rail",
+    "english_name": "Little wood rail",
+    "latin_name": "Aramides mangle",
+    "summary": "The little wood rail (Aramides mangle) is a species of bird in the subfamily Rallinae of the rail, crake, and coot family Rallidae. It is e…",
+    "lat": "-5.66666667",
+    "lng": "-52.73333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/SARACURA-DO-MANGUE_%28Aramides_mangle%29_%2812284981715%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-帕拉州-02b5c5b2",
+      "name": "帕拉州",
+      "summary": "Pará (, pah-RAH; Brazilian Portuguese: [paˈɾa] ) is a state of Brazil, located in northern Brazil and traversed by the…",
+      "lat": "-5.66666667",
+      "lng": "-52.73333333"
+    },
+    {
+      "id": "loc-法屬圭亞那-f0f18b54",
+      "name": "法屬圭亞那",
+      "summary": "法屬圭亞那（法語：Guyane française），正式名称为圭亚那（Guyane，法語發音：[ɡɥijan] ；法屬圭亞那克里奧爾語：Lagwiyann），是法国的一个海外省与单一领土集体，位于南美洲北部大西洋畔，与巴西和苏里南交界，…",
+      "lat": "4",
+      "lng": "-53"
+    },
+    {
+      "id": "loc-mangrove-forest-f00f11aa",
+      "name": "Mangrove forest",
+      "summary": "Mangrove forests, also called mangrove swamps, mangrove thickets or mangals, are productive wetlands located in tropica…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-little-wood-rail-af8ee38f",
+      "subject": "Little wood rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-帕拉州-02b5c5b2",
+      "object": "帕拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The little wood rail is found in Brazil from northeastern Pará south along the coast to São Paulo state and somewhat inland in the northeast. It has also been documented as a vagrant in French Guiana.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-wood-rail-af8ee38f",
+      "subject": "Little wood rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-法屬圭亞那-f0f18b54",
+      "object": "法屬圭亞那",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The little wood rail is found in Brazil from northeastern Pará south along the coast to São Paulo state and somewhat inland in the northeast. It has also been documented as a vagrant in French Guiana.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-wood-rail-af8ee38f",
+      "subject": "Little wood rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-mangrove-forest-f00f11aa",
+      "object": "Mangrove forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "https://www.museum.lsu.edu/~Remsen/SACCCountryLists.htm retrieved July 24, 2022 The species mostly inhabits coastal swamps and lagoons including mangrove forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-wood-rail-af8ee38f",
+      "subject": "Little wood rail",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Inland it is found in caatinga, a rather dry biome.{{cite journal |last=Redies |first=H",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-wood-rail-af8ee38f",
+      "subject": "Little wood rail",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "https://www.museum.lsu.edu/~Remsen/SACCCountryLists.htm retrieved July 24, 2022 The species mostly inhabits coastal swamps and lagoons including mangrove forest",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-little-wood-rail-af8ee38f",
+      "subject": "Little wood rail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

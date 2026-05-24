@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T23:02:23",
+  "requested_title": "Bar-throated Minla",
+  "resolved_title": "Bar-throated minla",
+  "title_aliases": [
+    "Bar-throated Minla"
+  ],
+  "bird_id": "bird-斑喉希鹛-b3860755",
+  "raw_file": "bird-斑喉希鹛-b3860755.json",
+  "bird": {
+    "id": "bird-斑喉希鹛-b3860755",
+    "name": "斑喉希鹛",
+    "english_name": "Bar-throated minla",
+    "latin_name": "Actinodura strigula",
+    "summary": "斑喉希鹛（学名：Actinodura strigula），是斑翅鶥屬的一种，之前属于希鹛属，分布于不丹、老挝、中国大陆、越南、印度、泰国、缅甸、马来西亚和尼泊尔。全球活动范围约为815,000平方千米。该物种的保护状况被评为无危。 斑喉希鹛的平均体重约为19.2克，體長約17.…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Minla_strigula_-_Doi_Inthanon.jpg/960px-Minla_strigula_-_Doi_Inthanon.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-马来西亚-3f6d0e1e",
+      "name": "马来西亚",
+      "summary": "馬來西亞（馬来语、英語：Malaysia），简称大馬或馬國，是位於东南亚的多元种族國家。由前馬來亚联合邦、北婆羅洲（今沙巴）、砂拉越及新加坡於1963年9月16日所組成的联邦制、议会民主制、选举君主制和君主立宪制國家。 馬来西亚全国总面积…",
+      "lat": "2",
+      "lng": "112"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-斑喉希鹛-b3860755",
+      "subject": "斑喉希鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is found in montane forest from India to Malaysia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斑喉希鹛-b3860755",
+      "subject": "斑喉希鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来西亚-3f6d0e1e",
+      "object": "马来西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is found in montane forest from India to Malaysia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斑喉希鹛-b3860755",
+      "subject": "斑喉希鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species is found in montane forest from India to Malaysia",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-斑喉希鹛-b3860755",
+      "subject": "斑喉希鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

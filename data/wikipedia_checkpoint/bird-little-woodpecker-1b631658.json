@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:21:17",
+  "requested_title": "Little Woodpecker",
+  "resolved_title": "Little woodpecker",
+  "title_aliases": [
+    "Little Woodpecker"
+  ],
+  "bird_id": "bird-little-woodpecker-1b631658",
+  "raw_file": "bird-little-woodpecker-1b631658.json",
+  "bird": {
+    "id": "bird-little-woodpecker-1b631658",
+    "name": "Little woodpecker",
+    "english_name": "Little woodpecker",
+    "latin_name": "Veniliornis passerinus",
+    "summary": "The little woodpecker (Veniliornis passerinus) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is found in e…",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Veniliornis_passerinus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-little-woodpecker-1b631658",
+      "subject": "Little woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in gallery forest with bamboo stands, deciduous woodland, mangroves, secondary forest, wooded savanna, and caatinga",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-woodpecker-1b631658",
+      "subject": "Little woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in gallery forest with bamboo stands, deciduous woodland, mangroves, secondary forest, wooded savanna, and caatinga",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-woodpecker-1b631658",
+      "subject": "Little woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in gallery forest with bamboo stands, deciduous woodland, mangroves, secondary forest, wooded savanna, and caatinga",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-woodpecker-1b631658",
+      "subject": "Little woodpecker",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in gallery forest with bamboo stands, deciduous woodland, mangroves, secondary forest, wooded savanna, and caatinga",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-little-woodpecker-1b631658",
+      "subject": "Little woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

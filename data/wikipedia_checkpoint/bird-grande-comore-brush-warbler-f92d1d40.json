@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:23:29",
+  "requested_title": "Grande Comore Brush Warbler",
+  "resolved_title": "Grande Comore brush warbler",
+  "title_aliases": [
+    "Grande Comore Brush Warbler"
+  ],
+  "bird_id": "bird-grande-comore-brush-warbler-f92d1d40",
+  "raw_file": "bird-grande-comore-brush-warbler-f92d1d40.json",
+  "bird": {
+    "id": "bird-grande-comore-brush-warbler-f92d1d40",
+    "name": "Grande Comore brush warbler",
+    "english_name": "Grande Comore brush warbler",
+    "latin_name": "Nesillas brevicaudata",
+    "summary": "The Grande Comore brush warbler (Nesillas brevicaudata) is a species of Old World warbler in the family Acrocephalidae. It is found in Como…",
+    "lat": "-12.3",
+    "lng": "43.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Nesillas_brevicaudata_-_Mikael_Bauer_-_62104076.jpeg/960px-Nesillas_brevicaudata_-_Mikael_Bauer_-_62104076.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-葛摩-8cba7f2e",
+      "name": "葛摩",
+      "summary": "科摩罗联盟（法語：Union des Comores；阿拉伯語：جمهورية القمر المتحدة），通稱科摩罗，是非洲阿拉伯国家岛国，位于印度洋莫桑比克海峡北部，莫桑比克和马达加斯加之间。主要领土为三座火山岛：大科摩罗島、莫埃利…",
+      "lat": "-12.3",
+      "lng": "43.7"
+    },
+    {
+      "id": "loc-马约特-20d4d339",
+      "name": "马约特",
+      "summary": "马约特（法語：Mayotte，法語發音：[majɔt] ；馬約特語：Maore；布希语：Maori），正式名称为馬約特省（département de Mayotte），是法国的海外省与单一领土集体，位于莫桑比克海峡，包括格朗德特尔岛、珀…",
+      "lat": "-12.84305556",
+      "lng": "45.13833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grande-comore-brush-warbler-f92d1d40",
+      "subject": "Grande Comore brush warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-葛摩-8cba7f2e",
+      "object": "葛摩",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Comoros and Mayotte",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grande-comore-brush-warbler-f92d1d40",
+      "subject": "Grande Comore brush warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-马约特-20d4d339",
+      "object": "马约特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Comoros and Mayotte",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grande-comore-brush-warbler-f92d1d40",
+      "subject": "Grande Comore brush warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-grande-comore-brush-warbler-f92d1d40",
+      "subject": "Grande Comore brush warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

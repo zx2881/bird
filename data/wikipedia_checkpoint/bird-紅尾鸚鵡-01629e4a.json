@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:42:06",
+  "requested_title": "Red-tailed Amazon",
+  "resolved_title": "Red-tailed amazon",
+  "title_aliases": [
+    "Red-tailed Amazon"
+  ],
+  "bird_id": "bird-紅尾鸚鵡-01629e4a",
+  "raw_file": "bird-紅尾鸚鵡-01629e4a.json",
+  "bird": {
+    "id": "bird-紅尾鸚鵡-01629e4a",
+    "name": "紅尾鸚鵡",
+    "english_name": "Red-tailed amazon",
+    "latin_name": "Amazona brasiliensis",
+    "summary": "紅尾鸚鵡（Amazona brasiliensis），又名紅尾亞馬遜鸚鵡或紅尾亞馬遜鸚哥，是一種鸚鵡。牠們是巴西東南部聖保羅州及巴拉那州海岸區的特有種。牠們受到失去棲息地及被捕獵作寵物等威脅，被世界自然保護聯盟列為易危。於1991年至1992年，估計牠們只有少於2000隻。隨著…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Amazona_brasiliensis_001_1280.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-serra-do-mar-coastal-forests-e4135c1e",
+      "name": "Serra do Mar coastal forests",
+      "summary": "The Serra do Mar coastal forests is an ecoregion of the tropical moist forests biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紅尾鸚鵡-01629e4a",
+      "subject": "紅尾鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-serra-do-mar-coastal-forests-e4135c1e",
+      "object": "Serra do Mar coastal forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Serra do Mar coastal forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅尾鸚鵡-01629e4a",
+      "subject": "紅尾鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-紅尾鸚鵡-01629e4a",
+      "subject": "紅尾鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The bird has been threatened by habitat loss and capture for the wild bird trade, and is a symbol of the efforts to conserve one of the Earth's most biologically diverse ecosystems",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:32:24",
+  "requested_title": "Short-tailed Pygmy Tyrant",
+  "resolved_title": "Short-tailed pygmy tyrant",
+  "title_aliases": [
+    "Short-tailed Pygmy Tyrant"
+  ],
+  "bird_id": "bird-short-tailed-pygmy-tyrant-646fa772",
+  "raw_file": "bird-short-tailed-pygmy-tyrant-646fa772.json",
+  "bird": {
+    "id": "bird-short-tailed-pygmy-tyrant-646fa772",
+    "name": "Short-tailed pygmy tyrant",
+    "english_name": "Short-tailed pygmy tyrant",
+    "latin_name": "Myiornis ecaudatus",
+    "summary": "The short-tailed pygmy tyrant (Myiornis ecaudatus) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is found on Tr…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Myiornis_ecaudatus_-_Short-tailed_Pigmy-Tyrant_%28Manaus%29.jpg/960px-Myiornis_ecaudatus_-_Short-tailed_Pigmy-Tyrant_%28Manaus%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-forest-transition-08bcd761",
+      "name": "Forest transition",
+      "summary": "Forest transition refers to a geographic theory describing a reversal or turnaround in land-use trends for a given terr…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-short-tailed-pygmy-tyrant-646fa772",
+      "subject": "Short-tailed pygmy tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the interior, edges, and gaps in humid forest and also nearby secondary and transitional forest in the lowlands and Andean foothills",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-short-tailed-pygmy-tyrant-646fa772",
+      "subject": "Short-tailed pygmy tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-forest-transition-08bcd761",
+      "object": "Forest transition",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the interior, edges, and gaps in humid forest and also nearby secondary and transitional forest in the lowlands and Andean foothills",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-short-tailed-pygmy-tyrant-646fa772",
+      "subject": "Short-tailed pygmy tyrant",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

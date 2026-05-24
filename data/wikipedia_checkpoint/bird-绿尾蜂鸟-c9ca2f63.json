@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:06:29",
+  "requested_title": "Green-and-white Hummingbird",
+  "resolved_title": "Green-and-white hummingbird",
+  "title_aliases": [
+    "Green-and-white Hummingbird"
+  ],
+  "bird_id": "bird-绿尾蜂鸟-c9ca2f63",
+  "raw_file": "bird-绿尾蜂鸟-c9ca2f63.json",
+  "bird": {
+    "id": "bird-绿尾蜂鸟-c9ca2f63",
+    "name": "绿尾蜂鸟",
+    "english_name": "Green-and-white hummingbird",
+    "latin_name": "Elliotomyia viridicauda",
+    "summary": "绿尾蜂鸟（学名：Elliotomyia viridicauda），是雨燕目蜂鸟科的一种鸟类，该物种原属于薮蜂鸟属。 绿尾蜂鸟体重约6.1克，翼长约56.4毫米，嘴峰长约25.3毫米，喙宽度约2.4毫米，喙厚度约2毫米，跗蹠长约5毫米，尾长约34.8毫米。绿尾蜂鸟在其分布区内为留…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Green-and-White_Hummingbird.jpg/960px-Green-and-White_Hummingbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-绿尾蜂鸟-c9ca2f63",
+      "subject": "绿尾蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the edges and clearings of mature subtropical forest and also secondary forest between the elevations of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿尾蜂鸟-c9ca2f63",
+      "subject": "绿尾蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

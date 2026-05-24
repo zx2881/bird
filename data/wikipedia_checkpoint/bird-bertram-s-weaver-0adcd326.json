@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:59:23",
+  "requested_title": "Bertram's Weaver",
+  "resolved_title": "Bertram's weaver",
+  "title_aliases": [
+    "Bertram's Weaver"
+  ],
+  "bird_id": "bird-bertram-s-weaver-0adcd326",
+  "raw_file": "bird-bertram-s-weaver-0adcd326.json",
+  "bird": {
+    "id": "bird-bertram-s-weaver-0adcd326",
+    "name": "Bertram's weaver",
+    "english_name": "Bertram's weaver",
+    "latin_name": "Ploceus bertrandi",
+    "summary": "Bertram's weaver (Ploceus bertrandi), sometimes called Bertrand's weaver, is a species of bird in the family Ploceidae. It is native to the…",
+    "lat": "-8.6",
+    "lng": "35.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/HyphantornisBertrandiKeulemans.jpg/960px-HyphantornisBertrandiKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-eastern-arc-forests-7bdb2d85",
+      "name": "Eastern Arc forests",
+      "summary": "The Eastern Arc forests is a montane tropical moist forest ecoregion of eastern Africa.",
+      "lat": "-8.6",
+      "lng": "35.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bertram-s-weaver-0adcd326",
+      "subject": "Bertram's weaver",
+      "predicate": "distributed_in",
+      "object_id": "loc-eastern-arc-forests-7bdb2d85",
+      "object": "Eastern Arc forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Eastern Arc forests and mountains of Malawi",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bertram-s-weaver-0adcd326",
+      "subject": "Bertram's weaver",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:34:42",
+  "requested_title": "Amazonian Inezia",
+  "resolved_title": "Amazonian inezia",
+  "title_aliases": [
+    "Amazonian Inezia"
+  ],
+  "bird_id": "bird-amazonian-inezia-b9c58ad3",
+  "raw_file": "bird-amazonian-inezia-b9c58ad3.json",
+  "bird": {
+    "id": "bird-amazonian-inezia-b9c58ad3",
+    "name": "Amazonian inezia",
+    "english_name": "Amazonian inezia",
+    "latin_name": "Inezia (bird) subflava",
+    "summary": "The Amazonian inezia, or Amazonian tyrannulet, (Inezia subflava) is a species of passerine bird in the family Tyrannidae, the tyrant flycat…",
+    "lat": "-2.3096",
+    "lng": "-54.8881",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Inezia_subflava_-_Amazonian_inezia%2C_Anavilhanas_National_Park%2C_Novo_Air%C3%A3o%2C_Amazonas%2C_Brazil.jpg/960px-Inezia_subflava_-_Amazonian_inezia%2C_Anavilhanas_National_Park%2C_Novo_Air%C3%A3o%2C_Amazonas%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-amazonian-inezia-b9c58ad3",
+      "subject": "Amazonian inezia",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It probably also occurs in much of the rest of the Brazilian Amazon Basin",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-amazonian-inezia-b9c58ad3",
+      "subject": "Amazonian inezia",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in shrubby areas along watercourses, in swamp forest, and in várzea forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-amazonian-inezia-b9c58ad3",
+      "subject": "Amazonian inezia",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in shrubby areas along watercourses, in swamp forest, and in várzea forest",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-amazonian-inezia-b9c58ad3",
+      "subject": "Amazonian inezia",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

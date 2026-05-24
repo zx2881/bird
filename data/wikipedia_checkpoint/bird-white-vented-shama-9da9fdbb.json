@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:13:10",
+  "requested_title": "White-vented Shama",
+  "resolved_title": "White-vented shama",
+  "title_aliases": [
+    "White-vented Shama"
+  ],
+  "bird_id": "bird-white-vented-shama-9da9fdbb",
+  "raw_file": "bird-white-vented-shama-9da9fdbb.json",
+  "bird": {
+    "id": "bird-white-vented-shama-9da9fdbb",
+    "name": "White-vented shama",
+    "english_name": "White-vented shama",
+    "latin_name": "Copsychus niger",
+    "summary": "The white-vented shama (Copsychus niger) is a species of bird in the chat and flycatcher family Muscicapidae. It is endemic to the Palawan,…",
+    "lat": "9.74361111",
+    "lng": "118.66111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/White-vented_Shama.jpg/960px-White-vented_Shama.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "name": "Iwahig Prison and Penal Farm",
+      "summary": "Iwahig Prison and Penal Farm in Puerto Princesa, Palawan, Philippines is one of seven operating units of the Bureau of…",
+      "lat": "9.74361111",
+      "lng": "118.66111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-vented-shama-9da9fdbb",
+      "subject": "White-vented shama",
+      "predicate": "distributed_in",
+      "object_id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "object": "Iwahig Prison and Penal Farm",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in just one protected area in the Iwahig Prison and Penal Farm",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-vented-shama-9da9fdbb",
+      "subject": "White-vented shama",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-white-vented-shama-9da9fdbb",
+      "subject": "White-vented shama",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Palawan's forests are under threat due to illegal logging, deforestation, land conversion and mining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

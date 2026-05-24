@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:04:48",
+  "requested_title": "Slender Antbird",
+  "resolved_title": "Slender antbird",
+  "title_aliases": [
+    "Slender Antbird"
+  ],
+  "bird_id": "bird-slender-antbird-1133b4ab",
+  "raw_file": "bird-slender-antbird-1133b4ab.json",
+  "bird": {
+    "id": "bird-slender-antbird-1133b4ab",
+    "name": "Slender antbird",
+    "english_name": "Slender antbird",
+    "latin_name": "Rhopornis ardesiacus",
+    "summary": "The slender antbird (Rhopornis ardesiacus) is a Near Threatened species of bird in subfamily Thamnophilinae of family Thamnophilidae, the \"…",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Slender_Antbird_Rhopornis_ardesiaca.jpg/960px-Slender_Antbird_Rhopornis_ardesiaca.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-slender-antbird-1133b4ab",
+      "subject": "Slender antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also is found in the ecotones between that biome and both more humid forest and caatinga scrublands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slender-antbird-1133b4ab",
+      "subject": "Slender antbird",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also is found in the ecotones between that biome and both more humid forest and caatinga scrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-slender-antbird-1133b4ab",
+      "subject": "Slender antbird",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-slender-antbird-1133b4ab",
+      "subject": "Slender antbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is primarily threatened by habitat destruction associated with livestock farming. Though its nominal total range covers about , it actually inhabits areas totaling less than .Luiz, E.R., dos Santos, S.S., Flores, F.M., Zorzin, G., Ferreira, H.M., Camurugi, E., de Carvalho, H.D.S",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

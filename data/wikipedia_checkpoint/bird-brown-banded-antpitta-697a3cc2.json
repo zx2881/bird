@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:08:57",
+  "requested_title": "Brown-banded Antpitta",
+  "resolved_title": "Brown-banded antpitta",
+  "title_aliases": [
+    "Brown-banded Antpitta"
+  ],
+  "bird_id": "bird-brown-banded-antpitta-697a3cc2",
+  "raw_file": "bird-brown-banded-antpitta-697a3cc2.json",
+  "bird": {
+    "id": "bird-brown-banded-antpitta-697a3cc2",
+    "name": "Brown-banded antpitta",
+    "english_name": "Brown-banded antpitta",
+    "latin_name": "Grallaria milleri",
+    "summary": "The brown-banded antpitta (Grallaria milleri) is a vulnerable species of bird in the family Grallariidae. It is endemic to Colombia.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Brown-banded_antpitta_%28Grallaria_milleri%29_Caldas.jpg/960px-Brown-banded_antpitta_%28Grallaria_milleri%29_Caldas.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥倫比亞中部山脈-3a4c895f",
+      "name": "哥倫比亞中部山脈",
+      "summary": "哥倫比亞中部山脈（西班牙語：Cordillera Central），是哥倫比亞的山脈，屬於安第斯山脈的一部分，全長1,023公里，面積129,737平方公里，最高點是海拔高度5,364米的內瓦多·德·烏伊拉火山。",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-banded-antpitta-697a3cc2",
+      "subject": "Brown-banded antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥倫比亞中部山脈-3a4c895f",
+      "object": "哥倫比亞中部山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of the brown-banded antpitta is found in the Central Andes of Colombia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-banded-antpitta-697a3cc2",
+      "subject": "Brown-banded antpitta",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

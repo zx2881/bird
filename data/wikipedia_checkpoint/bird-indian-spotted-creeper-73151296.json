@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:06:20",
+  "requested_title": "Indian Spotted Creeper",
+  "resolved_title": "Indian spotted creeper",
+  "title_aliases": [
+    "Indian Spotted Creeper"
+  ],
+  "bird_id": "bird-indian-spotted-creeper-73151296",
+  "raw_file": "bird-indian-spotted-creeper-73151296.json",
+  "bird": {
+    "id": "bird-indian-spotted-creeper-73151296",
+    "name": "Indian spotted creeper",
+    "english_name": "Indian spotted creeper",
+    "latin_name": "Salpornis spilonota",
+    "summary": "The Indian spotted creeper (Salpornis spilonota) is a small passerine bird that is a member of the family Salpornithidae, which was previou…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Spotted_Creeper.jpg/960px-Spotted_Creeper.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-indian-spotted-creeper-73151296",
+      "subject": "Indian spotted creeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in patchily distributed localities mainly in the dry scrub and open deciduous forests of northern and central peninsular India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-indian-spotted-creeper-73151296",
+      "subject": "Indian spotted creeper",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

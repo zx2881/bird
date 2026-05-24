@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:23:16",
+  "requested_title": "Hill Swallow",
+  "resolved_title": "Hill swallow",
+  "title_aliases": [
+    "Hill Swallow"
+  ],
+  "bird_id": "bird-hill-swallow-9e538c32",
+  "raw_file": "bird-hill-swallow-9e538c32.json",
+  "bird": {
+    "id": "bird-hill-swallow-9e538c32",
+    "name": "Hill swallow",
+    "english_name": "Hill swallow",
+    "latin_name": "Hirundo domicola",
+    "summary": "The hill swallow (Hirundo domicola) is a small passerine bird in the swallow family. It breeds in southern India and Sri Lanka.",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Hill_Swallow_%28Hirundo_domicola%29_by_Dharani_Prakash.jpg/960px-Hill_Swallow_%28Hirundo_domicola%29_by_Dharani_Prakash.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-斯里蘭卡-b7d5c4b5",
+      "name": "斯里蘭卡",
+      "summary": "斯里兰卡民主社会主义共和国（僧伽羅語：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；坦米爾語：இலங்கை சனநாயக சோஷலிசக் குடியரசு；英語：Democratic Social…",
+      "lat": "7",
+      "lng": "81"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hill-swallow-9e538c32",
+      "subject": "Hill swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hill-swallow-9e538c32",
+      "subject": "Hill swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯里蘭卡-b7d5c4b5",
+      "object": "斯里蘭卡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hill-swallow-9e538c32",
+      "subject": "Hill swallow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

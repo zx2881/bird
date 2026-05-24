@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:07:19",
+  "requested_title": "Socotra Buzzard",
+  "resolved_title": "Socotra buzzard",
+  "title_aliases": [
+    "Socotra Buzzard"
+  ],
+  "bird_id": "bird-socotra-buzzard-46609742",
+  "raw_file": "bird-socotra-buzzard-46609742.json",
+  "bird": {
+    "id": "bird-socotra-buzzard-46609742",
+    "name": "Socotra buzzard",
+    "english_name": "Socotra buzzard",
+    "latin_name": "Buteo socotraensis",
+    "summary": "The Socotra buzzard (Buteo socotraensis) is a medium to large bird of prey that is sometimes considered a subspecies of the widespread comm…",
+    "lat": "12.51",
+    "lng": "53.92",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Buteo_socotraensis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-索科特拉岛-ad80bc64",
+      "name": "索科特拉岛",
+      "summary": "索科特拉岛（阿拉伯語：سقطرى，羅馬化：Suquṭrā；索科特拉語：ساقطْري，羅馬化：Saqaṭri），明代《郑和航海图》称为须多大屿、速古答剌，是非洲之角以东，印度洋西部一群岛，位于北纬12.18°～12.42°与东经53.19…",
+      "lat": "12.51",
+      "lng": "53.92"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-socotra-buzzard-46609742",
+      "subject": "Socotra buzzard",
+      "predicate": "distributed_in",
+      "object_id": "loc-索科特拉岛-ad80bc64",
+      "object": "索科特拉岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "As its name implies, it is native to the island of Socotra, Yemen. Although it is listed as vulnerable in the IUCN Red List, its population is considered to be stable",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-socotra-buzzard-46609742",
+      "subject": "Socotra buzzard",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

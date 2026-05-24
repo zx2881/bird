@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:50:21",
+  "requested_title": "Blanford's Lark",
+  "resolved_title": "Blanford's lark",
+  "title_aliases": [
+    "Blanford's Lark"
+  ],
+  "bird_id": "bird-布氏百灵-e0d9a561",
+  "raw_file": "bird-布氏百灵-e0d9a561.json",
+  "bird": {
+    "id": "bird-布氏百灵-e0d9a561",
+    "name": "布氏百灵",
+    "english_name": "Blanford's lark",
+    "latin_name": "Calandrella blanfordi",
+    "summary": "布氏百灵（学名：Calandrella blanfordi），是百灵科短趾百灵属的一种，分布于索马里、沙特阿拉伯、埃塞俄比亚、也门、厄立特里亚和阿曼。 布氏百灵的 参考文献 Calandrella blanfordi.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Calandrella_blanfordi_-_avocat_-_618599077.jpeg/960px-Calandrella_blanfordi_-_avocat_-_618599077.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-george-ernest-shelley-e53a6526",
+      "name": "George Ernest Shelley",
+      "summary": "Captain George Ernest Shelley (15 May 1840 – 29 November 1910) was an English geologist and ornithologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-布氏百灵-e0d9a561",
+      "subject": "布氏百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-george-ernest-shelley-e53a6526",
+      "object": "George Ernest Shelley",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Blanford's lark or Blanford's short-toed lark (Calandrella blanfordi) is a small passerine bird of the lark family, Alaudidae, which is native to north-eastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-布氏百灵-e0d9a561",
+      "subject": "布氏百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

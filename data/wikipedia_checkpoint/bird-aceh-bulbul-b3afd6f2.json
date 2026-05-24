@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:17:20",
+  "requested_title": "Aceh Bulbul",
+  "resolved_title": "Aceh bulbul",
+  "title_aliases": [
+    "Aceh Bulbul"
+  ],
+  "bird_id": "bird-aceh-bulbul-b3afd6f2",
+  "raw_file": "bird-aceh-bulbul-b3afd6f2.json",
+  "bird": {
+    "id": "bird-aceh-bulbul-b3afd6f2",
+    "name": "Aceh bulbul",
+    "english_name": "Aceh bulbul",
+    "latin_name": "Pycnonotus snouckaerti",
+    "summary": "The Aceh bulbul (Pycnonotus snouckaerti) is a species of songbird in the bulbul family of passerine birds. It is found in the mountains of…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Naturalis_Biodiversity_Center_-_RMNH.AVES.13772_2_-_Pycnonotus_bimaculatus_snouckaerti_Siebers%2C_1928_-_Pycnonotidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.13772_2_-_Pycnonotus_bimaculatus_snouckaerti_Siebers%2C_1928_-_Pycnonotidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-aceh-bulbul-b3afd6f2",
+      "subject": "Aceh bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Aceh bulbul (Pycnonotus snouckaerti) is a species of songbird in the bulbul family of passerine birds. It is found in the mountains of north-western Sumatra and is endemic to the island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-aceh-bulbul-b3afd6f2",
+      "subject": "Aceh bulbul",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:20:49",
+  "requested_title": "Sangkar White-eye",
+  "resolved_title": "Sangkar white-eye",
+  "title_aliases": [
+    "Sangkar White-eye"
+  ],
+  "bird_id": "bird-sangkar-white-eye-a3a35b4b",
+  "raw_file": "bird-sangkar-white-eye-a3a35b4b.json",
+  "bird": {
+    "id": "bird-sangkar-white-eye-a3a35b4b",
+    "name": "Sangkar white-eye",
+    "english_name": "Sangkar white-eye",
+    "latin_name": "Zosterops melanurus",
+    "summary": "The sangkar white-eye (Zosterops melanurus) is a bird species in the family Zosteropidae. It is also known as the Sunda white-eye.",
+    "lat": "-7.49166667",
+    "lng": "110.00444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Oriental_White-eye_%28Zosterops_palpebrosus%29_1.jpg/960px-Oriental_White-eye_%28Zosterops_palpebrosus%29_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sangkar-white-eye-a3a35b4b",
+      "subject": "Sangkar white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in forested habitats on the Indonesian islands of Java and Bali",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sangkar-white-eye-a3a35b4b",
+      "subject": "Sangkar white-eye",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

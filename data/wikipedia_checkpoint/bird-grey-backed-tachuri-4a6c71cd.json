@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:39:28",
+  "requested_title": "Grey-backed Tachuri",
+  "resolved_title": "Grey-backed tachuri",
+  "title_aliases": [
+    "Grey-backed Tachuri"
+  ],
+  "bird_id": "bird-grey-backed-tachuri-4a6c71cd",
+  "raw_file": "bird-grey-backed-tachuri-4a6c71cd.json",
+  "bird": {
+    "id": "bird-grey-backed-tachuri-4a6c71cd",
+    "name": "Grey-backed tachuri",
+    "english_name": "Grey-backed tachuri",
+    "latin_name": "Polystictus (bird) superciliaris",
+    "summary": "The grey-backed tachuri (Polystictus superciliaris) is a species of bird in subfamily Elaeniinae of family Tyrannidae, the tyrant flycatche…",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Polystictus_superciliaris_-_Grey-backed_Tachuri.JPG/960px-Polystictus_superciliaris_-_Grey-backed_Tachuri.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-backed-tachuri-4a6c71cd",
+      "subject": "Grey-backed tachuri",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "One population is found in central Bahia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-backed-tachuri-4a6c71cd",
+      "subject": "Grey-backed tachuri",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in brushy deserted pastures and, at higher elevations, grasslands and brushy edges of cloudforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-backed-tachuri-4a6c71cd",
+      "subject": "Grey-backed tachuri",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It primarily inhabits campos rupestres, a rocky grassland biome with scattered shrubs",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-grey-backed-tachuri-4a6c71cd",
+      "subject": "Grey-backed tachuri",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also occurs in brushy deserted pastures and, at higher elevations, grasslands and brushy edges of cloudforest",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-grey-backed-tachuri-4a6c71cd",
+      "subject": "Grey-backed tachuri",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

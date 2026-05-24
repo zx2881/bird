@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:50:04",
+  "requested_title": "Chaco Sparrow",
+  "resolved_title": "Chaco sparrow",
+  "title_aliases": [
+    "Chaco Sparrow"
+  ],
+  "bird_id": "bird-chaco-sparrow-676e8445",
+  "raw_file": "bird-chaco-sparrow-676e8445.json",
+  "bird": {
+    "id": "bird-chaco-sparrow-676e8445",
+    "name": "Chaco sparrow",
+    "english_name": "Chaco sparrow",
+    "latin_name": "Rhynchospiza strigiceps",
+    "summary": "The Chaco sparrow (Rhynchospiza strigiceps), formerly known as the stripe-capped sparrow, is a species of bird in the family Passerellidae.…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rhynchospiza_strigiceps_Chaco_Sparrow%3B_Chancan%C3%AD_natural_Reserve%2C_C%C3%B3rdoba%2C_Argentina.jpg/960px-Rhynchospiza_strigiceps_Chaco_Sparrow%3B_Chancan%C3%AD_natural_Reserve%2C_C%C3%B3rdoba%2C_Argentina.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-巴拉圭-029e9211",
+      "name": "巴拉圭",
+      "summary": "巴拉圭共和國（西班牙語：República del Paraguay、瓜拉尼語：Paraguái Tavakuairetã），通稱巴拉圭（西班牙語：Paraguay；瓜拉尼語：Paraguái），是位於南美洲的主權國家，也是位於南美洲的內…",
+      "lat": "-23",
+      "lng": "-58"
+    },
+    {
+      "id": "loc-大查科-6ce2328d",
+      "name": "大查科",
+      "summary": "大查科（西班牙語：Gran Chaco，直译：「大獵場」），又译作大厦谷，是南美洲中部的冲积平原。这个地名是由西班牙语“Gran”（大的）和瓜拉尼语“Chaco”（狩猎场）组成。 概述 大查科位于安第斯山脉以东，巴拉圭河－巴拉那河以西，亚…",
+      "lat": "-19.1622",
+      "lng": "-61.4702"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chaco-sparrow-676e8445",
+      "subject": "Chaco sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Paraguay.{{cite web |url=http://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chaco-sparrow-676e8445",
+      "subject": "Chaco sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉圭-029e9211",
+      "object": "巴拉圭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Paraguay.{{cite web |url=http://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chaco-sparrow-676e8445",
+      "subject": "Chaco sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-大查科-6ce2328d",
+      "object": "大查科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Chaco sparrow is a partial migrant found in the Gran Chaco region from south-central Paraguay into north-central Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chaco-sparrow-676e8445",
+      "subject": "Chaco sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

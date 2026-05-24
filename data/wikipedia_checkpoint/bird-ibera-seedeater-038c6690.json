@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:02:19",
+  "requested_title": "Ibera Seedeater",
+  "resolved_title": "Ibera seedeater",
+  "title_aliases": [
+    "Ibera Seedeater"
+  ],
+  "bird_id": "bird-ibera-seedeater-038c6690",
+  "raw_file": "bird-ibera-seedeater-038c6690.json",
+  "bird": {
+    "id": "bird-ibera-seedeater-038c6690",
+    "name": "Ibera seedeater",
+    "english_name": "Ibera seedeater",
+    "latin_name": "Sporophila iberaensis",
+    "summary": "The Ibera seedeater (Sporophila iberaensis) is a species of bird in the family Thraupidae, formerly included within the family of American…",
+    "lat": "-28.6",
+    "lng": "-57.817",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sporophila_iberaensis.jpg/960px-Sporophila_iberaensis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伊貝拉濕地-59d6b445",
+      "name": "伊貝拉濕地",
+      "summary": "伊貝拉濕地是阿根廷的濕地，位於該國東北部，由科連特斯省負責管轄，毗鄰與巴西和巴拉圭接壤的邊境，面積13,000平方公里，受亞熱帶氣候影響，該地區每年平均降雨量約1,700毫米。",
+      "lat": "-28.6",
+      "lng": "-57.817"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ibera-seedeater-038c6690",
+      "subject": "Ibera seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊貝拉濕地-59d6b445",
+      "object": "伊貝拉濕地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Iberá Wetlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ibera-seedeater-038c6690",
+      "subject": "Ibera seedeater",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the Iberá Wetlands",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-ibera-seedeater-038c6690",
+      "subject": "Ibera seedeater",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

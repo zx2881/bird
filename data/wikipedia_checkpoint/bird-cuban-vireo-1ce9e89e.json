@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:34:33",
+  "requested_title": "Cuban Vireo",
+  "resolved_title": "Cuban vireo",
+  "title_aliases": [
+    "Cuban Vireo"
+  ],
+  "bird_id": "bird-cuban-vireo-1ce9e89e",
+  "raw_file": "bird-cuban-vireo-1ce9e89e.json",
+  "bird": {
+    "id": "bird-cuban-vireo-1ce9e89e",
+    "name": "Cuban vireo",
+    "english_name": "Cuban vireo",
+    "latin_name": "Vireo gundlachii",
+    "summary": "The Cuban vireo (Vireo gundlachii) is a species of bird in the family Vireonidae, the vireos, greenlets, and shrike-babblers. It is endemic…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Cuban_Vireo_-_Cuba_S4E0897_%2822991166932%29.jpg/960px-Cuban_Vireo_-_Cuba_S4E0897_%2822991166932%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cuban-vireo-1ce9e89e",
+      "subject": "Cuban vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "orientalis\" southeastern Cuba The Cuban vireo primarily inhabits the edges of evergreen and deciduous forest, brushlands, thickets, and scrublands from sea level up to about but also occurs higher",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cuban-vireo-1ce9e89e",
+      "subject": "Cuban vireo",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "orientalis\" southeastern Cuba The Cuban vireo primarily inhabits the edges of evergreen and deciduous forest, brushlands, thickets, and scrublands from sea level up to about but also occurs higher",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-cuban-vireo-1ce9e89e",
+      "subject": "Cuban vireo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

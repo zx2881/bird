@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:14:18",
+  "requested_title": "Red-throated Twinspot",
+  "resolved_title": "Red-throated twinspot",
+  "title_aliases": [
+    "Red-throated Twinspot"
+  ],
+  "bird_id": "bird-朱胸斑雀-08108d8a",
+  "raw_file": "bird-朱胸斑雀-08108d8a.json",
+  "bird": {
+    "id": "bird-朱胸斑雀-08108d8a",
+    "name": "朱胸斑雀",
+    "english_name": "Red-throated twinspot",
+    "latin_name": "Hypargos niveoguttatus",
+    "summary": "朱胸斑雀（学名：Hypargos niveoguttatus），是梅花雀科斑雀属的一种，分布于津巴布韦、安哥拉、索马里、赞比亚、南非、马拉维、肯尼亚、坦桑尼亚、卢旺达、布隆迪、刚果民主共和国和莫桑比克。全球活动范围约为2,000,000平方千米。该物种的保护状况被评为无危。 朱…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Peters%27s_Twinspot%2C_Sakania%2C_DRC_%289999020853%29.jpg/960px-Peters%27s_Twinspot%2C_Sakania%2C_DRC_%289999020853%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-威廉-彼得斯-5a1d85dd",
+      "name": "威廉·彼得斯",
+      "summary": "威廉·卡爾·哈特維奇·彼得斯（德語：Wilhelm Karl Hartwich Peters，1815年4月22日—1883年4月20日）是一名德國博物學家和探險家。 他曾是解剖學家约翰内斯·彼得·米勒的助手，後來成為柏林動物博物館館長。…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-朱胸斑雀-08108d8a",
+      "subject": "朱胸斑雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-威廉-彼得斯-5a1d85dd",
+      "object": "威廉·彼得斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-throated twinspot (Hypargos niveoguttatus) or Peters's twinspot is a common species of bird found in sub-saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-朱胸斑雀-08108d8a",
+      "subject": "朱胸斑雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

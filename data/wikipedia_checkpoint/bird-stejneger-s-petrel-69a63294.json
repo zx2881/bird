@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:28:24",
+  "requested_title": "Stejneger's Petrel",
+  "resolved_title": "Stejneger's petrel",
+  "title_aliases": [
+    "Stejneger's Petrel"
+  ],
+  "bird_id": "bird-stejneger-s-petrel-69a63294",
+  "raw_file": "bird-stejneger-s-petrel-69a63294.json",
+  "bird": {
+    "id": "bird-stejneger-s-petrel-69a63294",
+    "name": "Stejneger's petrel",
+    "english_name": "Stejneger's petrel",
+    "latin_name": "Pterodroma longirostris",
+    "summary": "Stejneger's petrel (Pterodroma longirostris) is a species of seabird belonging to the family Procellaridae, the gadfly petrels, shearwaters…",
+    "lat": "-34",
+    "lng": "-71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Stejneger%27s_petrel_%28Pterodroma_longirostris%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-胡安-費爾南德斯群島-5ad4817f",
+      "name": "胡安·費爾南德斯群島",
+      "summary": "The Juan Fernández Islands (Spanish: Archipiélago Juan Fernández) are a sparsely inhabited series of islands in the Sou…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-stejneger-s-petrel-69a63294",
+      "subject": "Stejneger's petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-胡安-費爾南德斯群島-5ad4817f",
+      "object": "胡安·費爾南德斯群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Pacific Ocean, nesting in the Cerro de Los Inocentes mountain of the Juan Fernández Islands off Chile. Outside the breeding season Stejneger's petrel migrates to the waters of the north-west Pacific off Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stejneger-s-petrel-69a63294",
+      "subject": "Stejneger's petrel",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the Pacific Ocean, nesting in the Cerro de Los Inocentes mountain of the Juan Fernández Islands off Chile. Outside the breeding season Stejneger's petrel migrates to the waters of the north-west Pacific off Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stejneger-s-petrel-69a63294",
+      "subject": "Stejneger's petrel",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-stejneger-s-petrel-69a63294",
+      "subject": "Stejneger's petrel",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Stejneger's petrel is classified as Vulnerable by the International Union for Conservation of Nature. The population is thought to have declined, with the main threat being predation by introduced predators",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    },
+    {
+      "subject_id": "bird-stejneger-s-petrel-69a63294",
+      "subject": "Stejneger's petrel",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "They are also likely to be threatened by climate change",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

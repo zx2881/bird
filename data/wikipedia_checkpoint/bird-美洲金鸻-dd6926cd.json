@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:55:19",
+  "requested_title": "American Golden Plover",
+  "resolved_title": "American golden plover",
+  "title_aliases": [
+    "American Golden Plover"
+  ],
+  "bird_id": "bird-美洲金鸻-dd6926cd",
+  "raw_file": "bird-美洲金鸻-dd6926cd.json",
+  "bird": {
+    "id": "bird-美洲金鸻-dd6926cd",
+    "name": "美洲金鸻",
+    "english_name": "American golden plover",
+    "latin_name": "Pluvialis dominica",
+    "summary": "美洲金鸻（台湾作美洲金斑鴴）（学名：Pluvialis dominica），为鸻科斑鸻属的鸟类。该物种的模式产地在伊斯帕尼奥拉岛。 美洲金鸻体重约151.47克，翼长约181.8毫米，嘴峰长约26.3毫米，喙宽度约3.8毫米，喙厚度约5.1毫米，跗蹠长约39.9毫米，尾长约65…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/American_Golden_Plover_%287458262530%29.jpg/960px-American_Golden_Plover_%287458262530%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-美洲金鸻-dd6926cd",
+      "subject": "美洲金鸻",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are migratory and winter in southern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲金鸻-dd6926cd",
+      "subject": "美洲金鸻",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

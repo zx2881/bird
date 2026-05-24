@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:17:24",
+  "requested_title": "Rock Firefinch",
+  "resolved_title": "Rock firefinch",
+  "title_aliases": [
+    "Rock Firefinch"
+  ],
+  "bird_id": "bird-岩火雀-aa49894f",
+  "raw_file": "bird-岩火雀-aa49894f.json",
+  "bird": {
+    "id": "bird-岩火雀-aa49894f",
+    "name": "岩火雀",
+    "english_name": "Rock firefinch",
+    "latin_name": "Lagonosticta sanguinodorsalis",
+    "summary": "岩火雀（学名：Lagonosticta sanguinodorsalis）是梅花雀科火雀属的一种，分布于尼日利亚北部。其全球活动范围约29,000平方千米。该物种的保护状况被评为无危。 参考文献 BirdLife International.",
+    "lat": "9.5667",
+    "lng": "9.0833",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Rock_Firefinch_%28Lagonosticta_sanguinodorsalis%29%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喬斯高原-1fdf34e1",
+      "name": "喬斯高原",
+      "summary": "喬斯高原是尼日利亞中部的高原，面積8,600平方公里，周圍是高300至600米的懸崖，平均海拔高度1,280米，最高點海拔2,010米，是尼日利亞唯一有溫帶氣候的地區。",
+      "lat": "9.5667",
+      "lng": "9.0833"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-岩火雀-aa49894f",
+      "subject": "岩火雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-喬斯高原-1fdf34e1",
+      "object": "喬斯高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2024 |title=Lagonosticta sanguinodorsalis |volume=2024 |article-number=e.T22728552A263912773 |doi=10.2305/IUCN.UK.2024-2.RLTS.T22728552A263912773.en |access-date=3 June 2025}} | genus = Lagonosticta | species = sanguinodorsalis | authority = Payne, 1998 | range_map = Range Map.png | range_map_caption = Range map of rock firefinches }} The rock firefinch (Lagonosticta sanguinodorsalis) is a species of estrildid finch found in the Jos Plateau of central Nigeria and in Cameroon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-岩火雀-aa49894f",
+      "subject": "岩火雀",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "There is a distinct dry season from November to April and rainy season from May to October. Rock firefinches prefer inselbergs in bush savannah habitats and rocky outputs to build their nests in. Inselbergs are isolated hills or mountains that arise from a flat plain",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-岩火雀-aa49894f",
+      "subject": "岩火雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-岩火雀-aa49894f",
+      "subject": "岩火雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Habitat degradation is occurring at an alarming rate in Nigeria due to intensive wood-cutting and encroaching farmland to be used for domestic and commercial purposes",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

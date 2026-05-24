@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:25:01",
+  "requested_title": "Sao Tome Weaver",
+  "resolved_title": "São Tomé weaver",
+  "title_aliases": [
+    "Sao Tome Weaver",
+    "São Tomé weaver"
+  ],
+  "bird_id": "bird-s-o-tom-weaver-574b58ae",
+  "raw_file": "bird-s-o-tom-weaver-574b58ae.json",
+  "bird": {
+    "id": "bird-s-o-tom-weaver-574b58ae",
+    "name": "São Tomé weaver",
+    "english_name": "São Tomé weaver",
+    "latin_name": "Ploceus sanctithomae",
+    "summary": "The São Tomé weaver (Ploceus sanctithomae) is a species of bird in the family Ploceidae. It is endemic to São Tomé and Príncipe.",
+    "lat": "0.22",
+    "lng": "6.61",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Ploceus_sanctithomae_-_William_Stephens_-_469385930.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣多美岛-5361b9c6",
+      "name": "圣多美岛",
+      "summary": "圣多美岛（葡萄牙語：Ilha de São Tomé）是圣多美和普林西比第一大岛。该岛总面积854 km2（330 sq mi），总人口157,000（2009），占全国的96%。圣多美岛与周边小岛构成圣多美省。该岛位于赤道以北2 km，…",
+      "lat": "0.22",
+      "lng": "6.61"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-s-o-tom-weaver-574b58ae",
+      "subject": "São Tomé weaver",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣多美岛-5361b9c6",
+      "object": "圣多美岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in the island of São Tomé",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-s-o-tom-weaver-574b58ae",
+      "subject": "São Tomé weaver",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

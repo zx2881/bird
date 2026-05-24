@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:43:44",
+  "requested_title": "White-spotted Fantail",
+  "resolved_title": "White-spotted fantail",
+  "title_aliases": [
+    "White-spotted Fantail"
+  ],
+  "bird_id": "bird-white-spotted-fantail-5d45ad78",
+  "raw_file": "bird-white-spotted-fantail-5d45ad78.json",
+  "bird": {
+    "id": "bird-white-spotted-fantail-5d45ad78",
+    "name": "White-spotted fantail",
+    "english_name": "White-spotted fantail",
+    "latin_name": "Rhipidura albogularis",
+    "summary": "The white-spotted fantail or spot-breasted fantail (Rhipidura albogularis) is a small passerine bird. It is found in forest, scrub and cult…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/WS-Fantail-Sandeep.jpg/960px-WS-Fantail-Sandeep.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-spotted-fantail-5d45ad78",
+      "subject": "White-spotted fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in forest, scrub and cultivation in southern and central India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-spotted-fantail-5d45ad78",
+      "subject": "White-spotted fantail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

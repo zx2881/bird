@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:51:18",
+  "requested_title": "Van Hasselt's Sunbird",
+  "resolved_title": "Van Hasselt's sunbird",
+  "title_aliases": [
+    "Van Hasselt's Sunbird"
+  ],
+  "bird_id": "bird-van-hasselt-s-sunbird-f2e0a924",
+  "raw_file": "bird-van-hasselt-s-sunbird-f2e0a924.json",
+  "bird": {
+    "id": "bird-van-hasselt-s-sunbird-f2e0a924",
+    "name": "Van Hasselt's sunbird",
+    "english_name": "Van Hasselt's sunbird",
+    "latin_name": "Leptocoma brasiliana",
+    "summary": "Van Hasselt's sunbird (Leptocoma brasiliana), is a species of bird in the family Nectariniidae. It is found in Northeast India, Bangladesh…",
+    "lat": "26",
+    "lng": "91",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Leptocoma_brasiliana_%28male%29_-Singapore-8a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度东北部-8b6d1917",
+      "name": "印度东北部",
+      "summary": "印度东北部是指印度最东部的区域，包括互相毗邻的七个邦和锡金邦，其中阿魯那恰爾邦與中國有領土爭議（中國稱為藏南地區）。該地區與幾個鄰國共享5,182公里（3,220英里，約佔其總地理邊界的99%）的國際邊界，北部1,395公里（867英里）…",
+      "lat": "26",
+      "lng": "91"
+    },
+    {
+      "id": "loc-孟加拉国-ffb382f4",
+      "name": "孟加拉国",
+      "summary": "孟加拉人民共和国（孟加拉語：গণপ্রজাতন্ত্রী বাংলাদেশ，羅馬化：Gaṇaprajātantrī Vāṁlādeśa；英語：People's Republic of Bangladesh），通稱孟加拉国（孟加拉語：বাং…",
+      "lat": "24",
+      "lng": "90"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-van-hasselt-s-sunbird-f2e0a924",
+      "subject": "Van Hasselt's sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度东北部-8b6d1917",
+      "object": "印度东北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Northeast India, Bangladesh and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-van-hasselt-s-sunbird-f2e0a924",
+      "subject": "Van Hasselt's sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-孟加拉国-ffb382f4",
+      "object": "孟加拉国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Northeast India, Bangladesh and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-van-hasselt-s-sunbird-f2e0a924",
+      "subject": "Van Hasselt's sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Northeast India, Bangladesh and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-van-hasselt-s-sunbird-f2e0a924",
+      "subject": "Van Hasselt's sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

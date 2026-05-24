@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:21:10",
+  "requested_title": "Reunion Stonechat",
+  "resolved_title": "Réunion stonechat",
+  "title_aliases": [
+    "Reunion Stonechat",
+    "Réunion stonechat"
+  ],
+  "bird_id": "bird-留尼汪石-e658c402",
+  "raw_file": "bird-留尼汪石-e658c402.json",
+  "bird": {
+    "id": "bird-留尼汪石-e658c402",
+    "name": "留尼汪石䳭",
+    "english_name": "Réunion stonechat",
+    "latin_name": "Saxicola tectes",
+    "summary": "留尼汪石䳭（学名：Saxicola tectes）是一种鹟科石䳭属的鸟类，为留尼汪岛的特有种，远看似黑白相间，雌鸟上半身则偏棕色。这种雀形目鸟类其实占据了常见的小型鸫科鸟类的生态位，常分布于林间空地、开阔的山地灌木丛和石楠荒原，偶尔也会出现在花园中。其分布海拔高达2600米，包…",
+    "lat": "-21.2425",
+    "lng": "55.70888889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/R%C3%A9union_stonechat_%28Saxicola_tectes%29_male.jpg/960px-R%C3%A9union_stonechat_%28Saxicola_tectes%29_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-富爾奈斯火山-967629f5",
+      "name": "富爾奈斯火山",
+      "summary": "富爾奈斯火山（法語：Piton de la Fournaise，法語發音：[pitɔ̃ də la fuʁnɛz]，意为“熔爐峰”）是法屬印度洋火山島留尼旺的火山，位於該島東部留尼汪国家公园內，為世界遺產留尼汪岛的山峰，冰斗和峭壁一部，由…",
+      "lat": "-21.2425",
+      "lng": "55.70888889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-留尼汪石-e658c402",
+      "subject": "留尼汪石䳭",
+      "predicate": "distributed_in",
+      "object_id": "loc-富爾奈斯火山-967629f5",
+      "object": "富爾奈斯火山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found across the island in forests, shrublands and artificial environments such as gardens and plantations. This small passerine bird is common in clearings and open mountain bushlands there up to 2600 metres above sea level, including in the plains around Piton de la Fournaise",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-留尼汪石-e658c402",
+      "subject": "留尼汪石䳭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

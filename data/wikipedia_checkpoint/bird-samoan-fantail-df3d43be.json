@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:45:29",
+  "requested_title": "Samoan Fantail",
+  "resolved_title": "Samoan fantail",
+  "title_aliases": [
+    "Samoan Fantail"
+  ],
+  "bird_id": "bird-samoan-fantail-df3d43be",
+  "raw_file": "bird-samoan-fantail-df3d43be.json",
+  "bird": {
+    "id": "bird-samoan-fantail-df3d43be",
+    "name": "Samoan fantail",
+    "english_name": "Samoan fantail",
+    "latin_name": "Rhipidura nebulosa",
+    "summary": "The Samoan fantail (Rhipidura nebulosa) is a species of bird in the family Rhipiduridae. It is endemic to Samoa and is found in Upolu and S…",
+    "lat": "-13.745",
+    "lng": "-172.2175",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Rhipidura_nebulosa_-_Robert_Webster_-_256912765.jpeg/960px-Rhipidura_nebulosa_-_Robert_Webster_-_256912765.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-萨摩亚-7c0deb22",
+      "name": "萨摩亚",
+      "summary": "薩摩亞独立国（薩摩亞語：Malo Saʻoloto Tutoʻatasi o Sāmoa，英語：Independent State of Samoa），简称萨摩亚，是一個南太平洋岛国，約位於夏威夷与紐西蘭的中間、美屬薩摩亞的西方，為波利尼…",
+      "lat": "-13.745",
+      "lng": "-172.2175"
+    },
+    {
+      "id": "loc-乌波卢岛-4708d4a5",
+      "name": "乌波卢岛",
+      "summary": "乌波卢岛（Upolu Island）是萨摩亚两主岛中面积较小的一个，也是人口较多、经济较发达的一个，首都阿皮亚即位于该岛北部。该岛西隔阿波利马海峡与萨瓦伊岛相望。乌波卢岛是一个位于西南太平洋的火山岛，面积1125平方公里，人口约11万。…",
+      "lat": "-13.91666667",
+      "lng": "-171.75"
+    },
+    {
+      "id": "loc-萨瓦伊岛-321a64b1",
+      "name": "萨瓦伊岛",
+      "summary": "萨瓦伊岛（Savai'i Island）是萨摩亚两个主要岛屿中较大的一个，是一个位于西南太平洋的火山岛，隔阿波利马海峡与乌波卢岛相望。其西端距国际日期变更线仅20英里，因此有时也自称为“世界上最西的地方”。萨瓦伊岛面积约1610平方公里，…",
+      "lat": "-13.58333333",
+      "lng": "-172.41666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-samoan-fantail-df3d43be",
+      "subject": "Samoan fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨摩亚-7c0deb22",
+      "object": "萨摩亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Samoa and is found in Upolu and Savaiʻi islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-samoan-fantail-df3d43be",
+      "subject": "Samoan fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌波卢岛-4708d4a5",
+      "object": "乌波卢岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Samoa and is found in Upolu and Savaiʻi islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-samoan-fantail-df3d43be",
+      "subject": "Samoan fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨瓦伊岛-321a64b1",
+      "object": "萨瓦伊岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Samoa and is found in Upolu and Savaiʻi islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-samoan-fantail-df3d43be",
+      "subject": "Samoan fantail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:53:43",
+  "requested_title": "Malagasy Harrier",
+  "resolved_title": "Malagasy harrier",
+  "title_aliases": [
+    "Malagasy Harrier"
+  ],
+  "bird_id": "bird-malagasy-harrier-18cb1cf2",
+  "raw_file": "bird-malagasy-harrier-18cb1cf2.json",
+  "bird": {
+    "id": "bird-malagasy-harrier-18cb1cf2",
+    "name": "Malagasy harrier",
+    "english_name": "Malagasy harrier",
+    "latin_name": "Circus macrosceles",
+    "summary": "The Malagasy harrier (Circus macrosceles) is a bird of prey belonging to the marsh harrier group of harriers. It inhabits Madagascar and th…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Malagasy_Harrier_%28Circus_macrosceles%29.jpg/960px-Malagasy_Harrier_%28Circus_macrosceles%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    },
+    {
+      "id": "loc-科摩罗群岛-8f9bfcac",
+      "name": "科摩罗群岛",
+      "summary": "科摩罗群岛（法語：L'archipel des Comores）是位于非洲东南海岸莫桑比克东部与马达加斯加西南部上的一座火山群岛。该岛群在行政上由科摩罗（人口850,688）和法国海外省馬約特（人口270,372）管辖。科摩罗联盟宣称整个…",
+      "lat": "-12.2",
+      "lng": "44.25"
+    },
+    {
+      "id": "loc-印度洋-aaea0acf",
+      "name": "印度洋",
+      "summary": "印度洋（英語：Indian Ocean），位于亚洲、非洲、大洋洲和南极洲之间，印度位在印度洋北部的中央位置，這也是印度洋名稱的由來，印度洋大部分在南半球。總面积7491万平方公里，约占世界海洋总面积的21.1%，是世界第三大洋。印度洋的範…",
+      "lat": "-20",
+      "lng": "80"
+    },
+    {
+      "id": "loc-草沼-e1caf9f8",
+      "name": "草沼",
+      "summary": "草沼即草本沼泽（英語：marsh），也叫草泽，是一种主要生长草本植物的湿地，多半可以發現在湖岸或河岸邊，介於水生與陸生生態系統的過渡，一般未被淹没，但土壤维持水浸状态。优势植物有苔草、莎草和灯芯草等，另外也會有低矮的灌木生長。和草沼不同，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-malagasy-harrier-18cb1cf2",
+      "subject": "Malagasy harrier",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits Madagascar and the Comoro Islands in the Indian Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malagasy-harrier-18cb1cf2",
+      "subject": "Malagasy harrier",
+      "predicate": "distributed_in",
+      "object_id": "loc-科摩罗群岛-8f9bfcac",
+      "object": "科摩罗群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits Madagascar and the Comoro Islands in the Indian Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malagasy-harrier-18cb1cf2",
+      "subject": "Malagasy harrier",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度洋-aaea0acf",
+      "object": "印度洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits Madagascar and the Comoro Islands in the Indian Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malagasy-harrier-18cb1cf2",
+      "subject": "Malagasy harrier",
+      "predicate": "distributed_in",
+      "object_id": "loc-草沼-e1caf9f8",
+      "object": "草沼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Madagascar it is found in marshland and grassland across the island except for the south",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malagasy-harrier-18cb1cf2",
+      "subject": "Malagasy harrier",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In Madagascar it is found in marshland and grassland across the island except for the south",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-malagasy-harrier-18cb1cf2",
+      "subject": "Malagasy harrier",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

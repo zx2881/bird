@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:33:09",
+  "requested_title": "Orange-bellied Fruit Dove",
+  "resolved_title": "Orange-bellied fruit dove",
+  "title_aliases": [
+    "Orange-bellied Fruit Dove"
+  ],
+  "bird_id": "bird-橙腹果鸠-fdc7b2a0",
+  "raw_file": "bird-橙腹果鸠-fdc7b2a0.json",
+  "bird": {
+    "id": "bird-橙腹果鸠-fdc7b2a0",
+    "name": "橙腹果鸠",
+    "english_name": "Orange-bellied fruit dove",
+    "latin_name": "Ptilinopus iozonus",
+    "summary": "橙腹果鸠（学名：Ptilinopus iozonus），是鸽形目鸠鸽科的一种鸟类。 特征 橙腹果鸠体重约114克，翼长约117.8毫米，嘴峰长约16.1毫米，喙宽度约4.2毫米，喙厚度约4.2毫米，跗蹠长约21.6毫米，尾长约51.8毫米。橙腹果鸠在其分布区内为留鸟，其栖息在半…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Ptilinopus_iozonus.jpg/960px-Ptilinopus_iozonus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-阿魯群島-c5d8ff7a",
+      "name": "阿魯群島",
+      "summary": "阿魯群島（印尼语：Kepulauan Aru）是大洋洲的一組约95个低窪島嶼组成的群岛，位於印尼東部的馬魯古省，同时也是马鲁古省下的一个县。 行政区划 行政上，阿鲁群岛属于阿鲁群岛县（印尼语：Kabupaten Kepulauan Aru…",
+      "lat": "-6.2",
+      "lng": "134.5"
+    },
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橙腹果鸠-fdc7b2a0",
+      "subject": "橙腹果鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "jobiensis]] The dove is found in New Guinea, the Aru Islands and western Papuan islands where it inhabits lowland rainforest, secondary forest and mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙腹果鸠-fdc7b2a0",
+      "subject": "橙腹果鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿魯群島-c5d8ff7a",
+      "object": "阿魯群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "jobiensis]] The dove is found in New Guinea, the Aru Islands and western Papuan islands where it inhabits lowland rainforest, secondary forest and mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙腹果鸠-fdc7b2a0",
+      "subject": "橙腹果鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "jobiensis]] The dove is found in New Guinea, the Aru Islands and western Papuan islands where it inhabits lowland rainforest, secondary forest and mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙腹果鸠-fdc7b2a0",
+      "subject": "橙腹果鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:42:49",
+  "requested_title": "Tablas Fantail",
+  "resolved_title": "Tablas fantail",
+  "title_aliases": [
+    "Tablas Fantail"
+  ],
+  "bird_id": "bird-tablas-fantail-201196d5",
+  "raw_file": "bird-tablas-fantail-201196d5.json",
+  "bird": {
+    "id": "bird-tablas-fantail-201196d5",
+    "name": "Tablas fantail",
+    "english_name": "Tablas fantail",
+    "latin_name": "Rhipidura sauli",
+    "summary": "The Tablas fantail (Rhipidura sauli) is a fantail endemic to the Philippines on Tablas Island. Until recently, it was considered conspecifi…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Tablas_Fantail%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tablas-fantail-201196d5",
+      "subject": "Tablas fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits tropical moist lowland primary forest in areas with mature closed-canopy forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tablas-fantail-201196d5",
+      "subject": "Tablas fantail",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-tablas-fantail-201196d5",
+      "subject": "Tablas fantail",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-tablas-fantail-201196d5",
+      "subject": "Tablas fantail",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of legal and illegal logging, and conversion into farmlands through Slash-and-burn and other methods",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

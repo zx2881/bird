@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:10:11",
+  "requested_title": "White-bellied Crested Flycatcher",
+  "resolved_title": "White-bellied crested flycatcher",
+  "title_aliases": [
+    "White-bellied Crested Flycatcher"
+  ],
+  "bird_id": "bird-white-bellied-crested-flycatcher-3f6d499b",
+  "raw_file": "bird-white-bellied-crested-flycatcher-3f6d499b.json",
+  "bird": {
+    "id": "bird-white-bellied-crested-flycatcher-3f6d499b",
+    "name": "White-bellied crested flycatcher",
+    "english_name": "White-bellied crested flycatcher",
+    "latin_name": "Elminia albiventris",
+    "summary": "The white-bellied crested flycatcher (Elminia albiventris) is a bird species in the family Stenostiridae; it was formerly placed with the d…",
+    "lat": "6.5",
+    "lng": "10.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/White-bellied_Crested_Flycatcher_%28Elminia_albiventris%29_%28cropped%29.jpg/960px-White-bellied_Crested_Flycatcher_%28Elminia_albiventris%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴門達高原-7edb036b",
+      "name": "巴門達高原",
+      "summary": "巴門達高原是非洲中西部國家喀麥隆的高原，受赤道多雨氣候影響，每年平均降雨量1,000至2,000毫米，是薩納加河主要支流的發源地。",
+      "lat": "6.5",
+      "lng": "10.5"
+    },
+    {
+      "id": "loc-比奥科岛-c4254484",
+      "name": "比奥科岛",
+      "summary": "比奥科岛（Bioko），原名“费尔南多波岛”（西班牙語：Fernando Poo），是非洲西海岸几内亚湾中的一个火山岛，属赤道几内亚管辖，该国前首都马拉博即位于岛上。该岛面积为2,017平方公里，人口33万人。該島嶼原為西班牙殖民地，因其…",
+      "lat": "3.5",
+      "lng": "8.7"
+    },
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-bellied-crested-flycatcher-3f6d499b",
+      "subject": "White-bellied crested flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴門達高原-7edb036b",
+      "object": "巴門達高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, Bioko and the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bellied-crested-flycatcher-3f6d499b",
+      "subject": "White-bellied crested flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-比奥科岛-c4254484",
+      "object": "比奥科岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, Bioko and the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bellied-crested-flycatcher-3f6d499b",
+      "subject": "White-bellied crested flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, Bioko and the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bellied-crested-flycatcher-3f6d499b",
+      "subject": "White-bellied crested flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

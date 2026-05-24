@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:44:24",
+  "requested_title": "Common Yellowthroat",
+  "resolved_title": "Common yellowthroat",
+  "title_aliases": [
+    "Common Yellowthroat"
+  ],
+  "bird_id": "bird-common-yellowthroat-224f5b48",
+  "raw_file": "bird-common-yellowthroat-224f5b48.json",
+  "bird": {
+    "id": "bird-common-yellowthroat-224f5b48",
+    "name": "Common yellowthroat",
+    "english_name": "Common yellowthroat",
+    "latin_name": "Geothlypis trichas",
+    "summary": "The common yellowthroat (Geothlypis trichas) is a New World warbler. It is an abundant breeder in North America, ranging from southern Cana…",
+    "lat": "19",
+    "lng": "-71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Common_yellowthroat_in_PP_%2814155%29.jpg/960px-Common_yellowthroat_in_PP_%2814155%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西印度群岛-4d76f475",
+      "name": "西印度群岛",
+      "summary": "西印度群島（英語：West Indies；西班牙語：Indias Occidentales；法語：Indes occidentales）泛指南北美洲之間海域中的一個一連串的島群。北起美國佛羅里達半島南端；西起墨西哥尤卡坦半島東端。總島嶼數…",
+      "lat": "19",
+      "lng": "-71"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-common-yellowthroat-224f5b48",
+      "subject": "Common yellowthroat",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|location= Ithaca |publisher= Cornell Lab of Ornithology |url=https://bna.birds.cornell.edu/bna/species/448}} wintering in the southern parts of the breeding range, Central America and the West Indies",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-common-yellowthroat-224f5b48",
+      "subject": "Common yellowthroat",
+      "predicate": "distributed_in",
+      "object_id": "loc-西印度群岛-4d76f475",
+      "object": "西印度群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|location= Ithaca |publisher= Cornell Lab of Ornithology |url=https://bna.birds.cornell.edu/bna/species/448}} wintering in the southern parts of the breeding range, Central America and the West Indies",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-common-yellowthroat-224f5b48",
+      "subject": "Common yellowthroat",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Common yellowthroats breed in marshes and other wet areas with low, dense vegetation",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-common-yellowthroat-224f5b48",
+      "subject": "Common yellowthroat",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

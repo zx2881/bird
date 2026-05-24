@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:38:17",
+  "requested_title": "Western Orphean Warbler",
+  "resolved_title": "Western Orphean warbler",
+  "title_aliases": [
+    "Western Orphean Warbler"
+  ],
+  "bird_id": "bird-西歌林莺-04cf2d90",
+  "raw_file": "bird-西歌林莺-04cf2d90.json",
+  "bird": {
+    "id": "bird-西歌林莺-04cf2d90",
+    "name": "西歌林莺",
+    "english_name": "Western Orphean warbler",
+    "latin_name": "Curruca hortensis",
+    "summary": "西歌林莺（台湾作西方動聽林鶯）（学名：Curruca hortensis），是雀形目莺鹛科的一种鸟类。 特征 西歌林莺体重约21.9克，翼长约79毫米，嘴峰长约17.1毫米，喙宽度约3.6毫米，喙厚度约4.2毫米，跗蹠长约24.6毫米，尾长约68.8毫米。西歌林莺是候鸟，其栖息…",
+    "lat": "35",
+    "lng": "18",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Western_Orphean_Warbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-地中海-19a872a9",
+      "name": "地中海",
+      "summary": "地中海是一個位於歐洲南面、非洲北面以及亞洲西面的陸間海。东西长约4,000公里，南北最宽处大约为1,800公里，面積251.6万平方公里，是地球上最大的陸間海。地中海的平均深度是1,500米，最深處为5,267米。 地中海西部通过直布羅陀…",
+      "lat": "35",
+      "lng": "18"
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-西歌林莺-04cf2d90",
+      "subject": "西歌林莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-地中海-19a872a9",
+      "object": "地中海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species occurs in summer around the Mediterranean, through western Europe and extending into northwest Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西歌林莺-04cf2d90",
+      "subject": "西歌林莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西歌林莺-04cf2d90",
+      "subject": "西歌林莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

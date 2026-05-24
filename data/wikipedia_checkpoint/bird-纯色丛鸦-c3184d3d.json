@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:09:22",
+  "requested_title": "Unicolored Jay",
+  "resolved_title": "Unicolored jay",
+  "title_aliases": [
+    "Unicolored Jay"
+  ],
+  "bird_id": "bird-纯色丛鸦-c3184d3d",
+  "raw_file": "bird-纯色丛鸦-c3184d3d.json",
+  "bird": {
+    "id": "bird-纯色丛鸦-c3184d3d",
+    "name": "纯色丛鸦",
+    "english_name": "Unicolored jay",
+    "latin_name": "Aphelocoma unicolor",
+    "summary": "纯色丛鸦（学名：Aphelocoma unicolor），是鸦科丛鸦属的一种，分布于萨尔瓦多、尼加拉瓜、危地马拉、墨西哥和洪都拉斯。全球活动范围约为148,000平方千米。该物种的保护状况被评为无危。 其种加词unicolor意为“单色的”。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Aphelocoma_unicolor.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pine-oak-forest-1bf3f7a2",
+      "name": "Pine–oak forest",
+      "summary": "Pine–oak forest, pine–oak woodland, or oak–pine forest is a group of similar of ecosystems, primarily found in North an…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纯色丛鸦-c3184d3d",
+      "subject": "纯色丛鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-pine-oak-forest-1bf3f7a2",
+      "object": "Pine–oak forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| pages =447 }} In Chiapas it primarily inhabits pine-oak forest with a somewhat open canopy. Elsewhere it is found in pine-oak, cloudforest, and pine savanna. Sources differ on the species' overall elevational range with both and being stated",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纯色丛鸦-c3184d3d",
+      "subject": "纯色丛鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| pages =447 }} In Chiapas it primarily inhabits pine-oak forest with a somewhat open canopy. Elsewhere it is found in pine-oak, cloudforest, and pine savanna. Sources differ on the species' overall elevational range with both and being stated",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纯色丛鸦-c3184d3d",
+      "subject": "纯色丛鸦",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "| pages =447 }} In Chiapas it primarily inhabits pine-oak forest with a somewhat open canopy. Elsewhere it is found in pine-oak, cloudforest, and pine savanna. Sources differ on the species' overall elevational range with both and being stated",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-纯色丛鸦-c3184d3d",
+      "subject": "纯色丛鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

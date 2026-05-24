@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:11:34",
+  "requested_title": "Piura Hemispingus",
+  "resolved_title": "Black-eared hemispingus",
+  "title_aliases": [
+    "Black-eared Hemispingus",
+    "Western Hemispingus",
+    "Piura Hemispingus"
+  ],
+  "bird_id": "bird-black-eared-hemispingus-fd779737",
+  "raw_file": "bird-black-eared-hemispingus-fd779737.json",
+  "bird": {
+    "id": "bird-black-eared-hemispingus-fd779737",
+    "name": "Black-eared hemispingus",
+    "english_name": "Black-eared hemispingus",
+    "latin_name": "Sphenopsis melanotis",
+    "summary": "The black-eared hemispingus (Sphenopsis melanotis) is a species of bird in the family Thraupidae. It is found in humid highland forest in t…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/ChlorospingusMelanotisWolf.jpg/960px-ChlorospingusMelanotisWolf.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-eared-hemispingus-fd779737",
+      "subject": "Black-eared hemispingus",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in humid highland forest in the Andes of western Venezuela, through to western Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-eared-hemispingus-fd779737",
+      "subject": "Black-eared hemispingus",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in humid highland forest in the Andes of western Venezuela, through to western Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-eared-hemispingus-fd779737",
+      "subject": "Black-eared hemispingus",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in humid highland forest in the Andes of western Venezuela, through to western Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-eared-hemispingus-fd779737",
+      "subject": "Black-eared hemispingus",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

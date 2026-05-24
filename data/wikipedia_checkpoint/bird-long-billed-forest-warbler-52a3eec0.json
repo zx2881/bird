@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:02:26",
+  "requested_title": "Long-billed Forest Warbler",
+  "resolved_title": "Long-billed forest warbler",
+  "title_aliases": [
+    "Long-billed Forest Warbler"
+  ],
+  "bird_id": "bird-long-billed-forest-warbler-52a3eec0",
+  "raw_file": "bird-long-billed-forest-warbler-52a3eec0.json",
+  "bird": {
+    "id": "bird-long-billed-forest-warbler-52a3eec0",
+    "name": "Long-billed forest warbler",
+    "english_name": "Long-billed forest warbler",
+    "latin_name": "Artisornis moreaui",
+    "summary": "The long-billed forest warbler (Artisornis moreaui), also known as the long-billed tailorbird, is a songbird of the family Cisticolidae, fo…",
+    "lat": "-6",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Artisornis_moreaui_254029546.jpg/960px-Artisornis_moreaui_254029546.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    },
+    {
+      "id": "loc-莫桑比克-9371b65a",
+      "name": "莫桑比克",
+      "summary": "莫桑比克共和国（葡萄牙語：República de Moçambique，發音：[ʁɛˈpuβlikɐ ðɨ musɐ̃ˈbikɨ]），舊譯作莫三鼻給，現通稱莫三比克或莫桑比克，位於非洲東部，临印度洋，隔莫桑比克海峡与马达加斯加相望，以葡…",
+      "lat": "-18.25",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-long-billed-forest-warbler-52a3eec0",
+      "subject": "Long-billed forest warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Tanzania and Mozambique",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-long-billed-forest-warbler-52a3eec0",
+      "subject": "Long-billed forest warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫桑比克-9371b65a",
+      "object": "莫桑比克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Tanzania and Mozambique",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-long-billed-forest-warbler-52a3eec0",
+      "subject": "Long-billed forest warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-long-billed-forest-warbler-52a3eec0",
+      "subject": "Long-billed forest warbler",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-long-billed-forest-warbler-52a3eec0",
+      "subject": "Long-billed forest warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-long-billed-forest-warbler-52a3eec0",
+      "subject": "Long-billed forest warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "On this basis, the International Union for Conservation of Nature has assessed its conservation status as being \"critically endangered\"; however if its range turns out to be more extensive than is currently recognised, its rating is likely to be lowered to a less threatened category. The total population of the Mozambique forest warbler is conservatively estimated to include 50-249 mature individuals, but may be more numerous, and is considered stable. It is classified as endangered based on its small population and limited range. In 1945 the British ornithologist Constantine Benson identified a second population from bird skins collected by Jali Makawa in the Njesi Highlands of northern Mozambique",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

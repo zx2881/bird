@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:05:06",
+  "requested_title": "Tapajos Fire-eye",
+  "resolved_title": "Tapajos fire-eye",
+  "title_aliases": [
+    "Tapajos Fire-eye"
+  ],
+  "bird_id": "bird-tapajos-fire-eye-632a6250",
+  "raw_file": "bird-tapajos-fire-eye-632a6250.json",
+  "bird": {
+    "id": "bird-tapajos-fire-eye-632a6250",
+    "name": "Tapajos fire-eye",
+    "english_name": "Tapajos fire-eye",
+    "latin_name": "Pyriglena similis",
+    "summary": "The Tapajos fire-eye (Pyriglena similis) is an insectivorous bird in subfamily Thamnophilinae of family Thamnophilidae, the \"typical antbir…",
+    "lat": "-2.40833333",
+    "lng": "-54.73666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Pyriglena_similis_map.svg/960px-Pyriglena_similis_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-塔帕若斯河-128104de",
+      "name": "塔帕若斯河",
+      "summary": "塔帕若斯河（葡萄牙語：Rio Tapajós）是南美洲巴西的河流，河道全長約1,200英哩，發源自南緯14度25分的巴西高原，最後注入亞馬遜河。 塔帕若斯河的最長支流是特利斯皮里斯河。",
+      "lat": "-2.40833333",
+      "lng": "-54.73666667"
+    },
+    {
+      "id": "loc-欣古河-f6cbcd02",
+      "name": "欣古河",
+      "summary": "欣古河（葡萄牙語：Rio Xingu），巴西東北部河流，長1979公里，為亞馬遜河的東南支流。 欣古河源出巴西中部马托格罗索高原北麓，向北流至大古鲁帕岛以南注入亞馬遜河。该河上游多急流，下游宽广。",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tapajos-fire-eye-632a6250",
+      "subject": "Tapajos fire-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔帕若斯河-128104de",
+      "object": "塔帕若斯河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tapajos fire-eye is found in central Amazonian Brazil south of the Amazon between the Tapajos and Xingu rivers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tapajos-fire-eye-632a6250",
+      "subject": "Tapajos fire-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-欣古河-f6cbcd02",
+      "object": "欣古河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tapajos fire-eye is found in central Amazonian Brazil south of the Amazon between the Tapajos and Xingu rivers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tapajos-fire-eye-632a6250",
+      "subject": "Tapajos fire-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits dense understorey vegetation in lowland evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tapajos-fire-eye-632a6250",
+      "subject": "Tapajos fire-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-tapajos-fire-eye-632a6250",
+      "subject": "Tapajos fire-eye",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In 2016 it assessed the white-backed fire-eye as being of Least Concern, with an unknown population size whose trend is also unknown. \"Due to its relatively small distribution, it may be more at risk from habitat destruction than other species, though it is more capable than many forest birds of persisting in older second growth.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

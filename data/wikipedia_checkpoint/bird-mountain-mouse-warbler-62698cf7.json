@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:47:11",
+  "requested_title": "Mountain Mouse-warbler",
+  "resolved_title": "Mountain mouse-warbler",
+  "title_aliases": [
+    "Mountain Mouse-warbler"
+  ],
+  "bird_id": "bird-mountain-mouse-warbler-62698cf7",
+  "raw_file": "bird-mountain-mouse-warbler-62698cf7.json",
+  "bird": {
+    "id": "bird-mountain-mouse-warbler-62698cf7",
+    "name": "Mountain mouse-warbler",
+    "english_name": "Mountain mouse-warbler",
+    "latin_name": "Origma robusta",
+    "summary": "The mountain mouse-warbler (Origma robusta) is a species of bird in the family Acanthizidae. It is found in Indonesia and Papua New Guinea,…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Origma_robusta_-_Phil_Gregory_-_395451270.jpeg/960px-Origma_robusta_-_Phil_Gregory_-_395451270.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mountain-mouse-warbler-62698cf7",
+      "subject": "Mountain mouse-warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Papua New Guinea, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-mouse-warbler-62698cf7",
+      "subject": "Mountain mouse-warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Papua New Guinea, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-mouse-warbler-62698cf7",
+      "subject": "Mountain mouse-warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in Indonesia and Papua New Guinea, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-mountain-mouse-warbler-62698cf7",
+      "subject": "Mountain mouse-warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

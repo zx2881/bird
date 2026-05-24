@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:50:14",
+  "requested_title": "Horned Lark",
+  "resolved_title": "Horned lark",
+  "title_aliases": [
+    "Horned Lark"
+  ],
+  "bird_id": "bird-角百灵-a419c667",
+  "raw_file": "bird-角百灵-a419c667.json",
+  "bird": {
+    "id": "bird-角百灵-a419c667",
+    "name": "角百灵",
+    "english_name": "Horned lark",
+    "latin_name": "Eremophila (bird) alpestris",
+    "summary": "角百灵（学名：Eremophila alpestris）为百灵科角百灵属的鸟类。分布于伊朗、阿富汗、巴基斯坦、中亚、以及中国的新疆等地。 角百灵的平均体重约为34.9克。栖息地包括温带草原、亚热带或热带的（低地）干燥疏灌丛、牧草地、沙滩、沙洲、沙嘴、耕地、寒带疏灌丛、沙丘、亚热…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Horned_lark_%28eremophila_alpestris%29_01.jpg/960px-Horned_lark_%28eremophila_alpestris%29_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-自然系统第十版-55ca7965",
+      "name": "自然系统第十版",
+      "summary": "《自然系统》第十版（英語：10th edition of Systema Naturae）是18世纪瑞典生物学家卡尔·林奈所撰写的生物学专著，于1758年和1759年分别出版上下两卷。林奈在书中为动物定义了二名法命名法则（此前他曾在175…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-角百灵-a419c667",
+      "subject": "角百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "hoyti | image2 = Horned Lark on Seedskadee NWR (24752443620).jpg | status = LC | status_system = IUCN3.1 | status_ref = | genus = Eremophila (bird) | species = alpestris | authority = (Linnaeus, 1758) | subdivision_ranks = Subspecies | subdivision = See text | synonyms = *Alauda alpestris * Chionophila alpestris * Otocorys alpestris | range_map = EremophilaAlpestrisIUCN.svg | range_map_caption = Distribution map of horned lark }} The horned lark or shore lark (Eremophila alpestris) is a species of lark in the family Alaudidae found across the northern hemisphere",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-角百灵-a419c667",
+      "subject": "角百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-自然系统第十版-55ca7965",
+      "object": "自然系统第十版",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "hoyti | image2 = Horned Lark on Seedskadee NWR (24752443620).jpg | status = LC | status_system = IUCN3.1 | status_ref = | genus = Eremophila (bird) | species = alpestris | authority = (Linnaeus, 1758) | subdivision_ranks = Subspecies | subdivision = See text | synonyms = *Alauda alpestris * Chionophila alpestris * Otocorys alpestris | range_map = EremophilaAlpestrisIUCN.svg | range_map_caption = Distribution map of horned lark }} The horned lark or shore lark (Eremophila alpestris) is a species of lark in the family Alaudidae found across the northern hemisphere",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-角百灵-a419c667",
+      "subject": "角百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-角百灵-a419c667",
+      "subject": "角百灵",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In 2016, the Partners in Flight Landbird Conservation Plan detailed the horned lark as a \"Common Bird in Steep Decline,\" but the horned lark as of 2016 is not on the State of North America's Birds' Watch List. This species' decline could be contributed to the loss of habitat due to agricultural pesticides, the disturbed sites the birds prefer reverting to forested lands through reforestation efforts, urbanization and human encroachment as well as collisions at wind farms and at airports. In 2013, the [[United States Fish and Wildlife Service|U.S",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

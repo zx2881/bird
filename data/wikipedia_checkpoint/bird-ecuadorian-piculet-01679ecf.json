@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:03:51",
+  "requested_title": "Ecuadorian Piculet",
+  "resolved_title": "Ecuadorian piculet",
+  "title_aliases": [
+    "Ecuadorian Piculet"
+  ],
+  "bird_id": "bird-ecuadorian-piculet-01679ecf",
+  "raw_file": "bird-ecuadorian-piculet-01679ecf.json",
+  "bird": {
+    "id": "bird-ecuadorian-piculet-01679ecf",
+    "name": "Ecuadorian piculet",
+    "english_name": "Ecuadorian piculet",
+    "latin_name": "Picumnus sclateri",
+    "summary": "The Ecuadorian piculet (Picumnus sclateri) is a species of bird in subfamily Picumninae of the woodpecker family Picidae. It is found in Ec…",
+    "lat": "-1.05222",
+    "lng": "-80.4506",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ecuadorian_Piculet_-_Ecuador_S4E9348.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马纳比省-4e20b0f2",
+      "name": "马纳比省",
+      "summary": "马纳比省（西班牙語：Provincia de Manabí，又譯馬納維省）是厄瓜多尔西部的一个省，临太平洋岸。面积18,879平方公里，2001年人口1,186,025人。 马纳比省得名于当地的原住民，於1824年6月25日建省，下分二十…",
+      "lat": "-1.05222",
+      "lng": "-80.4506"
+    },
+    {
+      "id": "loc-瓜亚斯省-5514f400",
+      "name": "瓜亚斯省",
+      "summary": "瓜亞斯省（西班牙語：Provincia del Guayas），是厄瓜多爾中部的一個省，包括瓜亞基爾灣上的普納島，瓜亞斯河與其支流道萊河流經。面積20,503平方公里，2001年人口3,070,145人。首府瓜亞基爾，是該國最大的城市。…",
+      "lat": "-2.2",
+      "lng": "-79.9667"
+    },
+    {
+      "id": "loc-皮乌拉大区-9e4e9862",
+      "name": "皮乌拉大区",
+      "summary": "皮乌拉大区位于秘鲁北部，北临南美洲国家厄瓜多尔，东临太平洋。皮乌拉一词源于克丘亚语，意为“供给基地”。 皮乌拉大区总面积3.5万平方公里，2005年人口总计1630772。该地区管辖的分为8个省64个区。皮乌拉是大区的首府，皮乌拉省是境内…",
+      "lat": "-4.99",
+      "lng": "-80.41"
+    },
+    {
+      "id": "loc-兰巴耶克大区-6c102e51",
+      "name": "兰巴耶克大区",
+      "summary": "蘭巴耶克大區（西班牙語：Departamento de Lambayeque）是秘魯西北部的一個大區，西臨太平洋。面積14,231.30平方公里，2007年人口1,112,868人。首府奇克拉約。 1874年12月1日建區。下分3省38區。",
+      "lat": "-6.43333333",
+      "lng": "-79.86666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ecuadorian-piculet-01679ecf",
+      "subject": "Ecuadorian piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-马纳比省-4e20b0f2",
+      "object": "马纳比省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Ecuador from Manabí Province to northern Guayas Province",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ecuadorian-piculet-01679ecf",
+      "subject": "Ecuadorian piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓜亚斯省-5514f400",
+      "object": "瓜亚斯省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Ecuador from Manabí Province to northern Guayas Province",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ecuadorian-piculet-01679ecf",
+      "subject": "Ecuadorian piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-皮乌拉大区-9e4e9862",
+      "object": "皮乌拉大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "porcullae is found in northwestern Peru's departments of Piura and Lambayeque. The Ecuadorian piculet primarily inhabits deciduous forest and arid scrublands, though in Loja it also occurs in more humid landscapes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ecuadorian-piculet-01679ecf",
+      "subject": "Ecuadorian piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-兰巴耶克大区-6c102e51",
+      "object": "兰巴耶克大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "porcullae is found in northwestern Peru's departments of Piura and Lambayeque. The Ecuadorian piculet primarily inhabits deciduous forest and arid scrublands, though in Loja it also occurs in more humid landscapes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ecuadorian-piculet-01679ecf",
+      "subject": "Ecuadorian piculet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "porcullae is found in northwestern Peru's departments of Piura and Lambayeque. The Ecuadorian piculet primarily inhabits deciduous forest and arid scrublands, though in Loja it also occurs in more humid landscapes",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-ecuadorian-piculet-01679ecf",
+      "subject": "Ecuadorian piculet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-ecuadorian-piculet-01679ecf",
+      "subject": "Ecuadorian piculet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is described as uncommon in both countries and \"[h]uman activity has little short-term direct effect on [the] Ecuadorian Piculet, other than the local effects of habitat destruction.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:53:40",
+  "requested_title": "Yellow-eared Barbet",
+  "resolved_title": "Yellow-eared barbet",
+  "title_aliases": [
+    "Yellow-eared Barbet"
+  ],
+  "bird_id": "bird-黄耳拟啄木鸟-7c07b12f",
+  "raw_file": "bird-黄耳拟啄木鸟-7c07b12f.json",
+  "bird": {
+    "id": "bird-黄耳拟啄木鸟-7c07b12f",
+    "name": "黄耳拟啄木鸟",
+    "english_name": "Yellow-eared barbet",
+    "latin_name": "Psilopogon australis",
+    "summary": "黄耳拟啄木鸟（台湾作黃耳擬啄木）（学名：Psilopogon australis）为须鴷科拟啄木属的鸟类。该物种的模式产地在爪哇。 特征 黄耳拟啄木鸟体重约33.3克，翼长约74.2毫米，嘴峰长约17毫米，喙宽度约7.2毫米，喙厚度约8.3毫米，跗蹠长约18.6毫米，尾长约45…",
+    "lat": "-7.49166667",
+    "lng": "110.00444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Yellow-eared_Barbet_-_Meru_Bethiri_-_East_Java_MG_7202_%2829696590452%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-托马斯-霍斯菲尔德-0d750b27",
+      "name": "托马斯·霍斯菲尔德",
+      "summary": "托马斯·霍斯菲尔德（英語：Thomas Horsfield，1773年5月12日—1859年5月12日）是一位美国医生和博物学家，曾在印度尼西亚广泛工作，描述了该地区的多种植物和动物。他后来成为不列颠东印度公司伦敦博物馆的馆长。 早年经历…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    },
+    {
+      "id": "loc-巴厘省-6d7efef8",
+      "name": "巴厘省",
+      "summary": "峇里省（印尼語：Bali；峇里语：ᬩᬮᬶ），主要位於峇厘岛，是印度尼西亚33個一級行政區之一，也是著名的旅遊勝地。該島距離印尼首都雅加达約1,000公里，与爪哇岛之間僅有3.2公里寬海峽相隔，面积约5,630平方公里，其省會設於島上南部的…",
+      "lat": "-8.335",
+      "lng": "115.08805556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄耳拟啄木鸟-7c07b12f",
+      "subject": "黄耳拟啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-托马斯-霍斯菲尔德-0d750b27",
+      "object": "托马斯·霍斯菲尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-eared barbet (Psilopogon australis) is an Asian barbet native to Java and Bali",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄耳拟啄木鸟-7c07b12f",
+      "subject": "黄耳拟啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-eared barbet (Psilopogon australis) is an Asian barbet native to Java and Bali",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄耳拟啄木鸟-7c07b12f",
+      "subject": "黄耳拟啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴厘省-6d7efef8",
+      "object": "巴厘省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-eared barbet (Psilopogon australis) is an Asian barbet native to Java and Bali",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄耳拟啄木鸟-7c07b12f",
+      "subject": "黄耳拟啄木鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits shrubland and forest up to an altitude of . Bucco australis was the scientific name proposed by Thomas Horsfield in 1821 who described a barbet from Java with yellow cheeks and breast.{{cite journal |last1=Horsfield |first1=T",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-黄耳拟啄木鸟-7c07b12f",
+      "subject": "黄耳拟啄木鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

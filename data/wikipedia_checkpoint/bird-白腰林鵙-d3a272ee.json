@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:02:49",
+  "requested_title": "Northern White-crowned Shrike",
+  "resolved_title": "Northern white-crowned shrike",
+  "title_aliases": [
+    "Northern White-crowned Shrike"
+  ],
+  "bird_id": "bird-白腰林鵙-d3a272ee",
+  "raw_file": "bird-白腰林鵙-d3a272ee.json",
+  "bird": {
+    "id": "bird-白腰林鵙-d3a272ee",
+    "name": "白腰林鵙",
+    "english_name": "Northern white-crowned shrike",
+    "latin_name": "Eurocephalus ruppelli",
+    "summary": "白腰林鵙（学名：Eurocephalus ruppelli）是一种伯劳，分布于从苏丹和埃塞俄比亚南部至坦桑尼亚的东非。生活在干燥的荆棘丛、半荒漠和开放的刺槐林地里。该物种的二名法是为了纪念德国自然学家和探险家爱德华·吕佩尔。 描述 白腰林鵙体长16至23厘米，成鸟的头顶和腰部皆…",
+    "lat": "8",
+    "lng": "30",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Northern_White-crowned_Shrike_Eurocephalus_ruepelli_in_Tanzania_2943_Nevit.jpg/960px-Northern_White-crowned_Shrike_Eurocephalus_ruepelli_in_Tanzania_2943_Nevit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南蘇丹-d1d02289",
+      "name": "南蘇丹",
+      "summary": "南蘇丹共和國（英語：Republic of South Sudan），通稱南蘇丹（英語：South Sudan），是非洲東北部一個內陸國家，2011年從蘇丹獨立。東面是埃塞俄比亞，南面是剛果民主共和國、肯亞和烏干達，西面是中非共和國，北面…",
+      "lat": "8",
+      "lng": "30"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白腰林鵙-d3a272ee",
+      "subject": "白腰林鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-南蘇丹-d1d02289",
+      "object": "南蘇丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "anguitimens|outline=gray}} | synonyms = Eurocephalus rueppelli }} The northern white-crowned shrike or white-rumped shrike (Eurocephalus ruppelli), is a shrike found in dry thornbush, semi-desert, and open acacia woodland in east Africa from south eastern South Sudan and southern Ethiopia to Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腰林鵙-d3a272ee",
+      "subject": "白腰林鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "anguitimens|outline=gray}} | synonyms = Eurocephalus rueppelli }} The northern white-crowned shrike or white-rumped shrike (Eurocephalus ruppelli), is a shrike found in dry thornbush, semi-desert, and open acacia woodland in east Africa from south eastern South Sudan and southern Ethiopia to Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腰林鵙-d3a272ee",
+      "subject": "白腰林鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "anguitimens|outline=gray}} | synonyms = Eurocephalus rueppelli }} The northern white-crowned shrike or white-rumped shrike (Eurocephalus ruppelli), is a shrike found in dry thornbush, semi-desert, and open acacia woodland in east Africa from south eastern South Sudan and southern Ethiopia to Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腰林鵙-d3a272ee",
+      "subject": "白腰林鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

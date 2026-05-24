@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:58:49",
+  "requested_title": "Australian Ringneck",
+  "resolved_title": "Australian ringneck",
+  "title_aliases": [
+    "Australian Ringneck"
+  ],
+  "bird_id": "bird-林肯港環頸鸚鵡-329d0aca",
+  "raw_file": "bird-林肯港環頸鸚鵡-329d0aca.json",
+  "bird": {
+    "id": "bird-林肯港環頸鸚鵡-329d0aca",
+    "name": "林肯港環頸鸚鵡",
+    "english_name": "Australian ringneck",
+    "latin_name": "Barnardius zonarius",
+    "summary": "黑头环颈鹦鹉（學名：Barnardius zonarius，英語：Australian Ringneck、Port Lincoln Parrot，台湾作林肯港環頸鸚鵡），又稱林肯港鸚鵡、澳洲環頸鸚鵡、伯納德氏鸚鵡，是鸚形目舊世界鸚鵡科環頸鸚鵡屬下的唯一一種鳥類。該物種分布於除澳…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mallee_ringneck_42_-_Patchewollock.jpg/960px-Mallee_ringneck_42_-_Patchewollock.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-林肯港環頸鸚鵡-329d0aca",
+      "subject": "林肯港環頸鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "macgillivrayi }} The Australian ringneck (Barnardius zonarius) is a parrot native to Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-林肯港環頸鸚鵡-329d0aca",
+      "subject": "林肯港環頸鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

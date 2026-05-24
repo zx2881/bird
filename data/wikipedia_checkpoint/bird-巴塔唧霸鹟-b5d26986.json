@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:46:23",
+  "requested_title": "Patagonian Tyrant",
+  "resolved_title": "Patagonian tyrant",
+  "title_aliases": [
+    "Patagonian Tyrant"
+  ],
+  "bird_id": "bird-巴塔唧霸鹟-b5d26986",
+  "raw_file": "bird-巴塔唧霸鹟-b5d26986.json",
+  "bird": {
+    "id": "bird-巴塔唧霸鹟-b5d26986",
+    "name": "巴塔唧霸鹟",
+    "english_name": "Patagonian tyrant",
+    "latin_name": "Colorhamphus parvirostris",
+    "summary": "巴塔唧霸鹟（台湾作巴塔哥尼亞霸鶲，学名：Colorhamphus parvirostris），是雀形目霸鹟科的一种鸟类，属于单型的巴塔唧霸鹟属（学名：Colorhamphus）。 特征 巴塔唧霸鹟体重约10.6克，翼长约61.3毫米，喙宽度约3.4毫米，喙厚度约2.8毫米，嘴峰…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Viudita_%28Colorhamphus_parvirostris%29-4056-1500px-Ignacio-Azocar.jpg/960px-Viudita_%28Colorhamphus_parvirostris%29-4056-1500px-Ignacio-Azocar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-巴塔唧霸鹟-b5d26986",
+      "subject": "巴塔唧霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Chile",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巴塔唧霸鹟-b5d26986",
+      "subject": "巴塔唧霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Chile",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巴塔唧霸鹟-b5d26986",
+      "subject": "巴塔唧霸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-巴塔唧霸鹟-b5d26986",
+      "subject": "巴塔唧霸鹟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is also rare in the central and southern parts of its non-breeding range and somewhat more common in the smaller winter-only range. \"Although it has the status of Least Concern, it could be affected by habitat loss and degradation, mainly due to land use for urbanization, agriculture and forestry activities, as well as fires.\" Most of its habitat in Chile is not protected",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

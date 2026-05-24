@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:39:02",
+  "requested_title": "Snowy-throated Babbler",
+  "resolved_title": "Snowy-throated babbler",
+  "title_aliases": [
+    "Snowy-throated Babbler"
+  ],
+  "bird_id": "bird-奥氏穗鹛-d3e4fe11",
+  "raw_file": "bird-奥氏穗鹛-d3e4fe11.json",
+  "bird": {
+    "id": "bird-奥氏穗鹛-d3e4fe11",
+    "name": "奥氏穗鹛",
+    "english_name": "Snowy-throated babbler",
+    "latin_name": "Stachyris oglei",
+    "summary": "奥氏穗鹛（学名：Stachyris oglei），是画眉科穗鹛属的一种，分布于印度和缅甸。全球活动范围约为16,500平方千米。该物种的保护状况被评为易危。 奥氏穗鹛的栖息地包括亚热带或热带的湿润低地林和亚热带或热带的（低地）湿润疏灌丛。",
+    "lat": "26",
+    "lng": "91",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-印度东北部-8b6d1917",
+      "name": "印度东北部",
+      "summary": "印度东北部是指印度最东部的区域，包括互相毗邻的七个邦和锡金邦，其中阿魯那恰爾邦與中國有領土爭議（中國稱為藏南地區）。該地區與幾個鄰國共享5,182公里（3,220英里，約佔其總地理邊界的99%）的國際邊界，北部1,395公里（867英里）…",
+      "lat": "26",
+      "lng": "91"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-奥氏穗鹛-d3e4fe11",
+      "subject": "奥氏穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度东北部-8b6d1917",
+      "object": "印度东北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in mountains of far Northeast India, i.e",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-奥氏穗鹛-d3e4fe11",
+      "subject": "奥氏穗鹛",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-奥氏穗鹛-d3e4fe11",
+      "subject": "奥氏穗鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

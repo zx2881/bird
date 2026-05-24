@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:17:06",
+  "requested_title": "Blue Rock Thrush",
+  "resolved_title": "Blue rock thrush",
+  "title_aliases": [
+    "Blue Rock Thrush"
+  ],
+  "bird_id": "bird-蓝矶鸫-7c749f5b",
+  "raw_file": "bird-蓝矶鸫-7c749f5b.json",
+  "bird": {
+    "id": "bird-蓝矶鸫-7c749f5b",
+    "name": "蓝矶鸫",
+    "english_name": "Blue rock thrush",
+    "latin_name": "Monticola solitarius",
+    "summary": "蓝矶鸫（学名：Monticola solitarius）为鶲科矶鸫属的鸟类，俗名亚东蓝石鸫、水嘴、麻石青。這種類似鶇科的舊世界鶲科，曾經被歸類於鶇科家族。它在南歐、西北非以及從中亞到中國北部和馬來西亞繁殖。藍磯鶇是馬爾他的官方國鳥（其馬爾他語名稱為Merill），並曾出現在該國…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Monticola_solitarius%2C_Spain_1.jpg/960px-Monticola_solitarius%2C_Spain_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中亚-88133474",
+      "name": "中亚",
+      "summary": "中亚（英語：Central Asia；俄語：Средняя Азия / Центральная Азия）即亚洲中部，在地理上是指西至里海，东到中国新疆，南到阿富汗，北到俄罗斯的广大区域。而根据长期占据这片区域大部分领土的前苏联官方定义…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝矶鸫-7c749f5b",
+      "subject": "蓝矶鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-中亚-88133474",
+      "object": "中亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Europe, northwest Africa, and from Central Asia to northern China and Malaysia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝矶鸫-7c749f5b",
+      "subject": "蓝矶鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

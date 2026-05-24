@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:08:21",
+  "requested_title": "Bohemian Waxwing",
+  "resolved_title": "Bohemian waxwing",
+  "title_aliases": [
+    "Bohemian Waxwing"
+  ],
+  "bird_id": "bird-太平鸟-68556f37",
+  "raw_file": "bird-太平鸟-68556f37.json",
+  "bird": {
+    "id": "bird-太平鸟-68556f37",
+    "name": "太平鸟",
+    "english_name": "Bohemian waxwing",
+    "latin_name": "Bombycilla garrulus",
+    "summary": "太平鸟（学名：Bombycilla garrulus），又名黄连雀，為太平鳥屬下的一種鳥類。 分布 太平鸟广布于古北界，繁殖区西起欧洲北部延亚欧大陆经土耳其、塔吉克斯坦等中亚国家、阿富汗、蒙古、西伯利亚直抵东端的堪察加半岛，日本、朝鲜亦有本物种；在中国见于东部，北起黑龙江南直长…",
+    "lat": "44.15",
+    "lng": "-113.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bombycilla_garrulus%2C_Novosibirsk_1.jpg/960px-Bombycilla_garrulus%2C_Novosibirsk_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-洛磯山脈-da6663da",
+      "name": "洛磯山脈",
+      "summary": "洛磯山脈（英語：Rocky Mountains）是北美洲西部科迪勒拉山系最东端的主要山脈，和其平行的有太平洋海岸山脈、喀斯喀特山脈及內華達山脈。 美国和加拿大对落基山脉的具体地理定义有所不同。加拿大定义仅从西部不列颠哥伦比亚省北部的利亚德…",
+      "lat": "44.15",
+      "lng": "-113.8"
+    },
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-太平鸟-68556f37",
+      "subject": "太平鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-洛磯山脈-da6663da",
+      "object": "洛磯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Eurasia, its northern nesting limit is just short of the treeline, roughly at the 10&nbsp;°C July isotherm, and it breeds south locally to about 51°N. Most birds breed between 60–67°N, reaching 70°N in Scandinavia. The North American subspecies breeds in the northwestern and north central areas of the continent, its range extending southwards beyond the US border in the Rocky Mountains. This waxwing is migratory with much of the breeding range abandoned as the birds move south for the winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-太平鸟-68556f37",
+      "subject": "太平鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Birds do not usually return to the same wintering sites in successive years. One bird wintering in Ukraine was found to the east in Siberia in the following year.Newton (2010) p",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-太平鸟-68556f37",
+      "subject": "太平鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T12:05:14",
+  "requested_title": "Yellow-throated Nightingale-Thrush",
+  "resolved_title": "Yellow-throated nightingale-thrush",
+  "title_aliases": [
+    "Yellow-throated Nightingale-Thrush"
+  ],
+  "bird_id": "bird-yellow-throated-nightingale-thrush-e93a8508",
+  "raw_file": "bird-yellow-throated-nightingale-thrush-e93a8508.json",
+  "bird": {
+    "id": "bird-yellow-throated-nightingale-thrush-e93a8508",
+    "name": "Yellow-throated nightingale-thrush",
+    "english_name": "Yellow-throated nightingale-thrush",
+    "latin_name": "Catharus dryas",
+    "summary": "The yellow-throated nightingale-thrush or Gould's nightingale-thrush (Catharus dryas) is a species of bird in the family Turdidae, the thru…",
+    "lat": "17.055",
+    "lng": "-96.655",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Catharus_dryas_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-瓦哈卡州-e005144e",
+      "name": "瓦哈卡州",
+      "summary": "瓦哈卡州（西班牙語：Oaxaca，發音：[waˈχaka] ）是墨西哥合眾國的一個州，位於該國的南部，臨太平洋。2005年估計人口為 3,506,821人。首府瓦哈卡市。 历史 名称 瓦哈卡的州名来自其首府瓦哈卡市的名称。这个名字来自纳瓦…",
+      "lat": "17.055",
+      "lng": "-96.655"
+    },
+    {
+      "id": "loc-恰帕斯州-46de6417",
+      "name": "恰帕斯州",
+      "summary": "恰帕斯州（西班牙語：Chiapas），正式名称为恰帕斯自由和主权州（Estado Libre y Soberano de Chiapas），是墨西哥的一個州，位於該國東南部。東臨瓜地馬拉，南臨太平洋。 整體屬熱帶濕潤氣候。北部靠近塔巴斯科…",
+      "lat": "16.53",
+      "lng": "-92.45"
+    },
+    {
+      "id": "loc-pine-oak-forest-1bf3f7a2",
+      "name": "Pine–oak forest",
+      "summary": "Pine–oak forest, pine–oak woodland, or oak–pine forest is a group of similar of ecosystems, primarily found in North an…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-throated-nightingale-thrush-e93a8508",
+      "subject": "Yellow-throated nightingale-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦哈卡州-e005144e",
+      "object": "瓦哈卡州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "harrisoni is found in the southwestern Mexican state of Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-throated-nightingale-thrush-e93a8508",
+      "subject": "Yellow-throated nightingale-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-恰帕斯州-46de6417",
+      "object": "恰帕斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "ovandensis is found in the southern Mexican state of Chiapas. The nominate subspecies C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-throated-nightingale-thrush-e93a8508",
+      "subject": "Yellow-throated nightingale-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-pine-oak-forest-1bf3f7a2",
+      "object": "Pine–oak forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Another is in northern El Salvador and western Honduras and a third is in central Honduras. Other sources show a continuous range from Oaxaca through southern Guatemala, exclude the central Honduras population, and add a small range in extreme northwestern Nicaragua. The yellow-throated nightingale-thrush primarily inhabits humid tropical and subtropical forest where it favors damp ravines and areas along forest streams. South of Mexico it also inhabits pine-oak forest and higher-elevation coffee plantations. One source defines its elevational range as R",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-throated-nightingale-thrush-e93a8508",
+      "subject": "Yellow-throated nightingale-thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-yellow-throated-nightingale-thrush-e93a8508",
+      "subject": "Yellow-throated nightingale-thrush",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The largest threat posed stems from deforestation and the resultant loss of suitable habitat.\" On source considers it \"locally fairly common\" overall, \"uncommon to rare\" in Honduras, and almost unknown in Nicaragua. Another calls it common in northern Central America (Guatemala, El Salvador, and Honduras) without country-by-country detail",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

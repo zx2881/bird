@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:11:18",
+  "requested_title": "Kikuyu White-eye",
+  "resolved_title": "Kikuyu white-eye",
+  "title_aliases": [
+    "Kikuyu White-eye"
+  ],
+  "bird_id": "bird-kikuyu-white-eye-b64cd9f5",
+  "raw_file": "bird-kikuyu-white-eye-b64cd9f5.json",
+  "bird": {
+    "id": "bird-kikuyu-white-eye-b64cd9f5",
+    "name": "Kikuyu white-eye",
+    "english_name": "Kikuyu white-eye",
+    "latin_name": "Zosterops kikuyuensis",
+    "summary": "The Kikuyu white-eye (Zosterops kikuyuensis) is a species of bird in the family Zosteropidae. It was formerly considered a subspecies of mo…",
+    "lat": "-0.62765",
+    "lng": "36.70832",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Kikuyu_White-eye%2C_Nairobi_National_Park%2C_Kenya.jpg/960px-Kikuyu_White-eye%2C_Nairobi_National_Park%2C_Kenya.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-阿伯德爾山脈-62a9bae9",
+      "name": "阿伯德爾山脈",
+      "summary": "阿伯德爾山脈（英語：Aberdare Range；基庫尤語：Nyandarua），旧称萨蒂马山脉 (Sattima Range)，是非洲國家肯尼亞中西部的山脈，位於首都內羅比以北高地，西面是東非大裂谷。山脈全長160公里，平均海拔高度3,…",
+      "lat": "-0.62765",
+      "lng": "36.70832"
+    },
+    {
+      "id": "loc-肯尼亚山-6d3ad86d",
+      "name": "肯尼亚山",
+      "summary": "肯尼亚山（英語：Mount Kenya）为肯尼亚第一高峰及非洲第二高峰，仅次于乞力马扎罗山。最高主峰为巴蒂安峰（5,199米（17,057英尺））、内利恩峰（5,188米（17,021英尺））及勒纳纳峰（4,985米（16,355英尺））…",
+      "lat": "-0.15083333",
+      "lng": "37.3075"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-kikuyu-white-eye-b64cd9f5",
+      "subject": "Kikuyu white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central Kenya, in the Aberdare Mountains and on Mount Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kikuyu-white-eye-b64cd9f5",
+      "subject": "Kikuyu white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿伯德爾山脈-62a9bae9",
+      "object": "阿伯德爾山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central Kenya, in the Aberdare Mountains and on Mount Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kikuyu-white-eye-b64cd9f5",
+      "subject": "Kikuyu white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚山-6d3ad86d",
+      "object": "肯尼亚山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central Kenya, in the Aberdare Mountains and on Mount Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kikuyu-white-eye-b64cd9f5",
+      "subject": "Kikuyu white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

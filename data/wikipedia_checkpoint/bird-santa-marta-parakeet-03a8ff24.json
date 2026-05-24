@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:43:54",
+  "requested_title": "Santa Marta Parakeet",
+  "resolved_title": "Santa Marta parakeet",
+  "title_aliases": [
+    "Santa Marta Parakeet"
+  ],
+  "bird_id": "bird-santa-marta-parakeet-03a8ff24",
+  "raw_file": "bird-santa-marta-parakeet-03a8ff24.json",
+  "bird": {
+    "id": "bird-santa-marta-parakeet-03a8ff24",
+    "name": "Santa Marta parakeet",
+    "english_name": "Santa Marta parakeet",
+    "latin_name": "Pyrrhura viridicata",
+    "summary": "The Santa Marta parakeet (Pyrrhura viridicata) is an Endangered species of bird in subfamily Arinae of the family Psittacidae, the African…",
+    "lat": "10.86666667",
+    "lng": "-73.72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pyrrhura_viridicata_60458515.jpg/960px-Pyrrhura_viridicata_60458515.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣玛尔塔内华达山脉-fb9634d1",
+      "name": "圣玛尔塔内华达山脉",
+      "summary": "圣玛尔塔雪山（la Sierra Nevada de Santa Marta），又名尼维乌穆克（Niwi Úmuke），是一个相对孤立的一座热带雪山（并非山脉），在安第斯山脉支脉哥伦比亚东部山脉的尽头处但作为山系与之并不相连，不过雪山西缘…",
+      "lat": "10.86666667",
+      "lng": "-73.72"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-santa-marta-parakeet-03a8ff24",
+      "subject": "Santa Marta parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣玛尔塔内华达山脉-fb9634d1",
+      "object": "圣玛尔塔内华达山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Santa Marta parakeet is found only in the Sierra Nevada de Santa Marta, an isolated mountain range in northern Colombia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-santa-marta-parakeet-03a8ff24",
+      "subject": "Santa Marta parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also less frequently occurs in secondary forest and cultivated areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-santa-marta-parakeet-03a8ff24",
+      "subject": "Santa Marta parakeet",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It primarily inhabits humid pre-montane and montane forest, mostly in areas that receive at least of annual rainfall",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-santa-marta-parakeet-03a8ff24",
+      "subject": "Santa Marta parakeet",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

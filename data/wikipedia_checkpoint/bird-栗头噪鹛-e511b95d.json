@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:01:59",
+  "requested_title": "Chestnut-capped Laughingthrush",
+  "resolved_title": "Chestnut-capped laughingthrush",
+  "title_aliases": [
+    "Chestnut-capped Laughingthrush"
+  ],
+  "bird_id": "bird-栗头噪鹛-e511b95d",
+  "raw_file": "bird-栗头噪鹛-e511b95d.json",
+  "bird": {
+    "id": "bird-栗头噪鹛-e511b95d",
+    "name": "栗头噪鹛",
+    "english_name": "Chestnut-capped laughingthrush",
+    "latin_name": "Pterorhinus mitratus",
+    "summary": "栗头噪鹛（学名：Pterorhinus mitratus）是画眉科噪鹛属的一种，分布于文莱、泰国、印度尼西亚和马来西亚。该物种的保护状况被评为无危。 栗头噪鹛的平均体重约为62.0克。栖息地包括亚热带或热带的湿润低地林、亚热带或热带严重退化的前森林、亚热带或热带的湿润山地林和耕…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Petrorhinus_mitratus.jpg/960px-Petrorhinus_mitratus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗头噪鹛-e511b95d",
+      "subject": "栗头噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sumatra (Indonesia) and the Thai-Malay Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗头噪鹛-e511b95d",
+      "subject": "栗头噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

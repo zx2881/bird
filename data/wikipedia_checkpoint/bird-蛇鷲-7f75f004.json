@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:10:27",
+  "requested_title": "Secretarybird",
+  "resolved_title": "Secretarybird",
+  "title_aliases": [
+    "Secretarybird"
+  ],
+  "bird_id": "bird-蛇鷲-7f75f004",
+  "raw_file": "bird-蛇鷲-7f75f004.json",
+  "bird": {
+    "id": "bird-蛇鷲-7f75f004",
+    "name": "蛇鷲",
+    "english_name": "Secretarybird",
+    "latin_name": "Sagittarius serpentarius",
+    "summary": "蛇鷲（學名：Sagittarius serpentarius），又名蛇鹫、獵蛇鹫、鶴鷲、捕蛇鹫和秘書鳥，是一種大型及陸生的猛禽。它們是非洲的特有種，一般棲息在撒哈拉以南非洲的草原及大草原。它們是鷹形目下蛇鷲科的唯一物種，蛇鷲科內只有一屬一種。 在南非及蘇丹的紋章上是有蛇鷲的。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Secretary_bird_Mara_for_WC.jpg/960px-Secretary_bird_Mara_for_WC.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蛇鷲-7f75f004",
+      "subject": "蛇鷲",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is mostly terrestrial, spending most of its time on the ground, and is usually found in the open grasslands and savanna of the sub-Saharan region",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蛇鷲-7f75f004",
+      "subject": "蛇鷲",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is mostly terrestrial, spending most of its time on the ground, and is usually found in the open grasslands and savanna of the sub-Saharan region",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-蛇鷲-7f75f004",
+      "subject": "蛇鷲",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-蛇鷲-7f75f004",
+      "subject": "蛇鷲",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Although the secretarybird resides over a large range, the results of localized surveys suggest that the total population is experiencing a rapid decline, probably as a result of habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

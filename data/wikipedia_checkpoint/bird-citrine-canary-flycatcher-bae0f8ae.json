@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:09:24",
+  "requested_title": "Citrine Canary-flycatcher",
+  "resolved_title": "Citrine canary-flycatcher",
+  "title_aliases": [
+    "Citrine Canary-flycatcher"
+  ],
+  "bird_id": "bird-citrine-canary-flycatcher-bae0f8ae",
+  "raw_file": "bird-citrine-canary-flycatcher-bae0f8ae.json",
+  "bird": {
+    "id": "bird-citrine-canary-flycatcher-bae0f8ae",
+    "name": "Citrine canary-flycatcher",
+    "english_name": "Citrine canary-flycatcher",
+    "latin_name": "Culicicapa helianthea",
+    "summary": "The citrine canary-flycatcher (Culicicapa helianthea) is a species of bird in the family Stenostiridae. The term citrine refers to its yell…",
+    "lat": "-2",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Citrine_Canary-Flycatcher_0A2A2247.jpg/960px-Citrine_Canary-Flycatcher_0A2A2247.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-苏拉威西岛-6ebabd9a",
+      "name": "苏拉威西岛",
+      "summary": "苏拉威西岛（印尼語：Sulawesi）舊名西里伯或西里伯斯，《職方外紀》稱則勒伯（荷蘭語：Celebes），是印度尼西亚东部的一个大岛屿。 地理 苏拉威西岛按面积是世界第十一大岛，总面积为174,600平方公里，位于印度尼西亚东部，菲律宾…",
+      "lat": "-2",
+      "lng": "121"
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-citrine-canary-flycatcher-bae0f8ae",
+      "subject": "Citrine canary-flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏拉威西岛-6ebabd9a",
+      "object": "苏拉威西岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sulawesi and the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-citrine-canary-flycatcher-bae0f8ae",
+      "subject": "Citrine canary-flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sulawesi and the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-citrine-canary-flycatcher-bae0f8ae",
+      "subject": "Citrine canary-flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-citrine-canary-flycatcher-bae0f8ae",
+      "subject": "Citrine canary-flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

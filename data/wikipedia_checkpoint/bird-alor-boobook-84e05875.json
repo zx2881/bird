@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:14:22",
+  "requested_title": "Alor Boobook",
+  "resolved_title": "Alor boobook",
+  "title_aliases": [
+    "Alor Boobook"
+  ],
+  "bird_id": "bird-alor-boobook-84e05875",
+  "raw_file": "bird-alor-boobook-84e05875.json",
+  "bird": {
+    "id": "bird-alor-boobook-84e05875",
+    "name": "Alor boobook",
+    "english_name": "Alor boobook",
+    "latin_name": "Ninox plesseni",
+    "summary": "The Alor boobook (Ninox plesseni) is a species of owl in the family Strigidae. It is native to Pantar and Alor Islands in the eastern Lesse…",
+    "lat": "-8.41667",
+    "lng": "124.117",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Alor_boobook_%28Ninox_plesseni%29.jpg/960px-Alor_boobook_%28Ninox_plesseni%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-潘塔爾島-6c529167",
+      "name": "潘塔爾島",
+      "summary": "潘塔爾島是印度尼西亞的小島，是阿洛群島第二大島嶼，南北端和東西端各相距50公里和11至29公里，面積728平方公里，東面是阿洛島，西臨阿洛海峽，南面有翁拜海峽和帝汶島，北接班達海。居民多數從事自給農業和捕魚業，常見的農作物有稻米、玉米和木…",
+      "lat": "-8.41667",
+      "lng": "124.117"
+    },
+    {
+      "id": "loc-阿洛島-1cc78737",
+      "name": "阿洛島",
+      "summary": "阿洛島是印度尼西亞阿洛群島最大的島嶼，面積約2,800平方公里，位於小巽他群島的東端，東隔翁拜海峽是韋塔島和阿陶羅島，南隔阿洛海峽是帝汶島西部，北接班達海，西面有潘塔爾島、阿洛群島和巽他群島其他島嶼。阿洛島人口超過168,000，四分三信…",
+      "lat": "-8.25",
+      "lng": "124.75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-alor-boobook-84e05875",
+      "subject": "Alor boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-潘塔爾島-6c529167",
+      "object": "潘塔爾島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Pantar and Alor Islands in the eastern Lesser Sunda Islands.{{cite journal |last1=Trainor |first1= Colin R",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-alor-boobook-84e05875",
+      "subject": "Alor boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿洛島-1cc78737",
+      "object": "阿洛島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Pantar and Alor Islands in the eastern Lesser Sunda Islands.{{cite journal |last1=Trainor |first1= Colin R",
+      "object_summary": ""
+    }
+  ]
+}

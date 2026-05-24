@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:37:14",
+  "requested_title": "Tooth-billed Bowerbird",
+  "resolved_title": "Tooth-billed bowerbird",
+  "title_aliases": [
+    "Tooth-billed Bowerbird"
+  ],
+  "bird_id": "bird-锯嘴猫鸟-db152bd1",
+  "raw_file": "bird-锯嘴猫鸟-db152bd1.json",
+  "bird": {
+    "id": "bird-锯嘴猫鸟-db152bd1",
+    "name": "锯嘴猫鸟",
+    "english_name": "Tooth-billed bowerbird",
+    "latin_name": "Scenopoeetes dentirostris",
+    "summary": "锯嘴猫鸟（学名：Scenopoeetes dentirostris），也称齿嘴园丁鸟，是雀形目园丁鸟科的一种鸟类，也是锯嘴猫鸟属（学名：Scenopoeetes）的唯一物种。 锯嘴猫鸟体重约163.4克，翼长约145毫米，嘴峰长约30.4毫米，喙宽度约10.6毫米，喙厚度约13…",
+    "lat": "-15",
+    "lng": "143",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Tooth-billed_Bowerbird%2C_Lake_Eacham%2C_Queensland.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约克角半岛-2a6b68ec",
+      "name": "约克角半岛",
+      "summary": "约克角半岛（英語：Cape York Peninsula）是澳大利亚東北部昆士兰州的一个半岛，其北端约克角是澳大利亚大陆的极北点。该半岛在1770年由英国航海家詹姆斯·库克以约克公爵的封号命名。 约克角距新几内亚岛约140公里，两地由托雷…",
+      "lat": "-15",
+      "lng": "143"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-锯嘴猫鸟-db152bd1",
+      "subject": "锯嘴猫鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-约克角半岛-2a6b68ec",
+      "object": "约克角半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cape York Peninsula and northeast Queensland of northeast Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-锯嘴猫鸟-db152bd1",
+      "subject": "锯嘴猫鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

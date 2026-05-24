@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T22:24:09",
+  "requested_title": "Akun Eagle-Owl",
+  "resolved_title": "Akun eagle-owl",
+  "title_aliases": [
+    "Akun Eagle-Owl"
+  ],
+  "bird_id": "bird-akun-eagle-owl-0056817b",
+  "raw_file": "bird-akun-eagle-owl-0056817b.json",
+  "bird": {
+    "id": "bird-akun-eagle-owl-0056817b",
+    "name": "Akun eagle-owl",
+    "english_name": "Akun eagle-owl",
+    "latin_name": "Ketupa leucosticta",
+    "summary": "The akun eagle-owl (Ketupa leucosticta) is a species of owl in the family Strigidae and is native to the African tropical rainforest. Taxon…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Akun_Eagle-Owl_%28Ketupa_leucosticta%29_in_Ghana_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-古斯塔夫-哈特勞布-2aa484d7",
+      "name": "古斯塔夫·哈特勞布",
+      "summary": "Karel Johan Gustav Hartlaub (8 November 1814 – 29 November 1900) was a German physician and ornithologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-akun-eagle-owl-0056817b",
+      "subject": "Akun eagle-owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-古斯塔夫-哈特勞布-2aa484d7",
+      "object": "古斯塔夫·哈特勞布",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The akun eagle-owl (Ketupa leucosticta) is a species of owl in the family Strigidae and is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-akun-eagle-owl-0056817b",
+      "subject": "Akun eagle-owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

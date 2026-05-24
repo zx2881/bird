@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:36:34",
+  "requested_title": "Great Tit",
+  "resolved_title": "Great tit",
+  "title_aliases": [
+    "Great Tit"
+  ],
+  "bird_id": "bird-欧亚大山雀-9bf3fe85",
+  "raw_file": "bird-欧亚大山雀-9bf3fe85.json",
+  "bird": {
+    "id": "bird-欧亚大山雀-9bf3fe85",
+    "name": "欧亚大山雀",
+    "english_name": "Great tit",
+    "latin_name": "Parus major",
+    "summary": "欧亚大山雀（学名：Parus major），有时也简称大山雀，是山雀屬下的一種鳥類。 命名 欧亚大山雀的學名 Parus major 是由林奈在《自然系統》中命名的。屬名 Parus 來自拉丁語，原意即山雀；種加詞 major 的意思是“大的”。",
+    "lat": "65",
+    "lng": "-18",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Great_tit_%28Parus_major%29%2C_Parc_du_Rouge-Cloitre%2C_For%C3%AAt_de_Soignes%2C_Brussels_%2826194636951%29.jpg/960px-Great_tit_%28Parus_major%29%2C_Parc_du_Rouge-Cloitre%2C_For%C3%AAt_de_Soignes%2C_Brussels_%2826194636951%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北非-dbfa37f4",
+      "name": "北非",
+      "summary": "与撒哈拉以南非洲相对，北非（英语：North Africa或Northern Africa）即非洲大陆北部地区，习惯上为苏丹热带草原以北非洲广大区域。联合国定义的“北非”，是指撒哈拉沙漠以北地区，包括埃及、利比亚、阿尔及利亚、突尼斯、摩洛…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-冰岛-feed6a95",
+      "name": "冰岛",
+      "summary": "冰岛（冰島語：Ísland，發音：[ˈistlant] ）是北欧的一个共和制岛国，位于北大西洋和北冰洋交汇处。冰岛国土面积为10.3万平方公里，人口为39万，儘管面積不大，卻是欧洲人口密度最低的国家，也是世界范围内人口密度很小的国家之一。…",
+      "lat": "65",
+      "lng": "-18"
+    },
+    {
+      "id": "loc-地中海-19a872a9",
+      "name": "地中海",
+      "summary": "地中海是一個位於歐洲南面、非洲北面以及亞洲西面的陸間海。东西长约4,000公里，南北最宽处大约为1,800公里，面積251.6万平方公里，是地球上最大的陸間海。地中海的平均深度是1,500米，最深處为5,267米。 地中海西部通过直布羅陀…",
+      "lat": "35",
+      "lng": "18"
+    },
+    {
+      "id": "loc-温带阔叶混交林-fc0864f2",
+      "name": "温带阔叶混交林",
+      "summary": "Temperate broadleaf and mixed forest is a temperate climate terrestrial habitat type defined by the World Wide Fund for…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-欧亚大山雀-9bf3fe85",
+      "subject": "欧亚大山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-北非-dbfa37f4",
+      "object": "北非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in parts of North Africa where it is generally resident in any sort of woodland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-欧亚大山雀-9bf3fe85",
+      "subject": "欧亚大山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-冰岛-feed6a95",
+      "object": "冰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found across all of Europe except for Iceland and northern Scandinavia, including numerous Mediterranean islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-欧亚大山雀-9bf3fe85",
+      "subject": "欧亚大山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-地中海-19a872a9",
+      "object": "地中海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found across all of Europe except for Iceland and northern Scandinavia, including numerous Mediterranean islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-欧亚大山雀-9bf3fe85",
+      "subject": "欧亚大山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-温带阔叶混交林-fc0864f2",
+      "object": "温带阔叶混交林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is most commonly found in open deciduous woodland, mixed forests, forest edges and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-欧亚大山雀-9bf3fe85",
+      "subject": "欧亚大山雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

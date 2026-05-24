@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:11:32",
+  "requested_title": "Black-headed Jay",
+  "resolved_title": "Black-headed jay",
+  "title_aliases": [
+    "Black-headed Jay"
+  ],
+  "bird_id": "bird-黑头松鸦-2099162f",
+  "raw_file": "bird-黑头松鸦-2099162f.json",
+  "bird": {
+    "id": "bird-黑头松鸦-2099162f",
+    "name": "黑头松鸦",
+    "english_name": "Black-headed jay",
+    "latin_name": "Garrulus lanceolatus",
+    "summary": "黑头松鸦（学名：Garrulus lanceolatus）是鸦科松鸦属的一种，分布于印度、阿富汗、尼泊尔和巴基斯坦。该物种的保护状况被评为无危。 黑头松鸦的平均体重约为90.8克。栖息地包括亚热带或热带的高海拔疏灌丛、亚热带或热带的湿润山地林和耕地。",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Black-headed-jay-rkd_%28cropped%29.jpg/960px-Black-headed-jay-rkd_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑头松鸦-2099162f",
+      "subject": "黑头松鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in open wooded country across the Himalayas and into eastern Afghanistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑头松鸦-2099162f",
+      "subject": "黑头松鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:44:06",
+  "requested_title": "White-billed Starling",
+  "resolved_title": "White-billed starling",
+  "title_aliases": [
+    "White-billed Starling"
+  ],
+  "bird_id": "bird-white-billed-starling-118253ee",
+  "raw_file": "bird-white-billed-starling-118253ee.json",
+  "bird": {
+    "id": "bird-white-billed-starling-118253ee",
+    "name": "White-billed starling",
+    "english_name": "White-billed starling",
+    "latin_name": "Onychognathus albirostris",
+    "summary": "The white-billed starling (Onychognathus albirostris) is a species of starling in the family Sturnidae. It is found in Eritrea and Ethiopia.",
+    "lat": "15",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Onychognathus_albirostris_-_alanbedfordshaw_-_588167835.jpeg/960px-Onychognathus_albirostris_-_alanbedfordshaw_-_588167835.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-厄立特里亚-7ee8b9af",
+      "name": "厄立特里亚",
+      "summary": "厄立特里亚国（英語：State of Eritrea，提格利尼亞語：ሃገረ ኤርትራ，阿拉伯語：دولة إرتريا）， 通稱厄利垂亞，是位於非洲東北部的国家，濒临红海，面积11.7万平方公里，人口約368萬人（2024年），首都为阿斯…",
+      "lat": "15",
+      "lng": "39"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-billed-starling-118253ee",
+      "subject": "White-billed starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄立特里亚-7ee8b9af",
+      "object": "厄立特里亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eritrea and Ethiopia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-billed-starling-118253ee",
+      "subject": "White-billed starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eritrea and Ethiopia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-billed-starling-118253ee",
+      "subject": "White-billed starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

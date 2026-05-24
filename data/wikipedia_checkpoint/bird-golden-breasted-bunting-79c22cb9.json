@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:37:02",
+  "requested_title": "Golden-breasted Bunting",
+  "resolved_title": "Golden-breasted bunting",
+  "title_aliases": [
+    "Golden-breasted Bunting"
+  ],
+  "bird_id": "bird-golden-breasted-bunting-79c22cb9",
+  "raw_file": "bird-golden-breasted-bunting-79c22cb9.json",
+  "bird": {
+    "id": "bird-golden-breasted-bunting-79c22cb9",
+    "name": "Golden-breasted bunting",
+    "english_name": "Golden-breasted bunting",
+    "latin_name": "Emberiza flaviventris",
+    "summary": "The golden-breasted bunting (Emberiza flaviventris) is a passerine bird in the bunting family Emberizidae. It occurs in dry open woodlands…",
+    "lat": "23",
+    "lng": "13",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Emberiza_flaviventris_-Hluhluwe-Umfolozi_Game_Reserve%2C_South_Africa-8.jpg/960px-Emberiza_flaviventris_-Hluhluwe-Umfolozi_Game_Reserve%2C_South_Africa-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-breasted-bunting-79c22cb9",
+      "subject": "Golden-breasted bunting",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in dry open woodlands and moist savanna in Africa south of the Sahara, but is absent from the equatorial forest belt",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-breasted-bunting-79c22cb9",
+      "subject": "Golden-breasted bunting",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in dry open woodlands and moist savanna in Africa south of the Sahara, but is absent from the equatorial forest belt",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-golden-breasted-bunting-79c22cb9",
+      "subject": "Golden-breasted bunting",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

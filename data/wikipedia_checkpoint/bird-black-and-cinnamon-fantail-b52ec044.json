@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:42:40",
+  "requested_title": "Black-and-cinnamon Fantail",
+  "resolved_title": "Black-and-cinnamon fantail",
+  "title_aliases": [
+    "Black-and-cinnamon Fantail"
+  ],
+  "bird_id": "bird-black-and-cinnamon-fantail-b52ec044",
+  "raw_file": "bird-black-and-cinnamon-fantail-b52ec044.json",
+  "bird": {
+    "id": "bird-black-and-cinnamon-fantail-b52ec044",
+    "name": "Black-and-cinnamon fantail",
+    "english_name": "Black-and-cinnamon fantail",
+    "latin_name": "Rhipidura nigrocinnamomea",
+    "summary": "The black-and-cinnamon fantail (Rhipidura nigrocinnamomea) is a species of bird in the fantail family Rhipiduridae. It is endemic to the is…",
+    "lat": "6.9875",
+    "lng": "125.27083333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Black-and-Cinnamon_Fantail_-_Mindanao_-_Philippines_H8O0954_%2819433913741%29.jpg/960px-Black-and-Cinnamon_Fantail_-_Mindanao_-_Philippines_H8O0954_%2819433913741%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-棉兰老岛-8649cd6c",
+      "name": "棉兰老岛",
+      "summary": "棉蘭老島（菲律賓文：Mindanao）位于菲律賓群岛南部，是菲律賓第二大島（仅次于吕宋岛），也是世界第19大島。 根據2015年菲律賓人口普查，達沃市是島上人口最多的城市（1,632,991人），三寶顏（861,799）、卡加延德奧羅 （…",
+      "lat": "8",
+      "lng": "125"
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-阿波火山-e8ee2894",
+      "name": "阿波火山",
+      "summary": "阿波火山（他加祿語：Bundok Apo）是一座位于菲律宾棉兰老岛东南部的活火山，海拔2,954公尺，为菲律宾最高峰。达沃市位于其东北方30公里处。近百年未喷发，有硫磺矿，覆盖着热带硬木林。 主峰及周围已经开辟为阿波火山国家公园（面积80…",
+      "lat": "6.9875",
+      "lng": "125.27083333"
+    },
+    {
+      "id": "loc-kitanglad-mountain-range-f0040fa6",
+      "name": "Kitanglad Mountain Range",
+      "summary": "The Kitanglad Mountain Range dominates the northern central portion of the province of Bukidnon, Philippines.",
+      "lat": "8.13333333",
+      "lng": "124.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-and-cinnamon-fantail-b52ec044",
+      "subject": "Black-and-cinnamon fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-棉兰老岛-8649cd6c",
+      "object": "棉兰老岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the island of Mindanao in the Philippines where it is found in the tropical montane forests above 1,000 meters above sea level",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-cinnamon-fantail-b52ec044",
+      "subject": "Black-and-cinnamon fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the island of Mindanao in the Philippines where it is found in the tropical montane forests above 1,000 meters above sea level",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-cinnamon-fantail-b52ec044",
+      "subject": "Black-and-cinnamon fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿波火山-e8ee2894",
+      "object": "阿波火山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Mount Apo and Kitanglad Mountain Range but like all areas in the Philippines protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-cinnamon-fantail-b52ec044",
+      "subject": "Black-and-cinnamon fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-kitanglad-mountain-range-f0040fa6",
+      "object": "Kitanglad Mountain Range",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Mount Apo and Kitanglad Mountain Range but like all areas in the Philippines protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-cinnamon-fantail-b52ec044",
+      "subject": "Black-and-cinnamon fantail",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is endemic to the island of Mindanao in the Philippines where it is found in the tropical montane forests above 1,000 meters above sea level",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-black-and-cinnamon-fantail-b52ec044",
+      "subject": "Black-and-cinnamon fantail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

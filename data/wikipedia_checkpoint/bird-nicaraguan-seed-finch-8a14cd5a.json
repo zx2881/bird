@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:03:05",
+  "requested_title": "Nicaraguan Seed Finch",
+  "resolved_title": "Nicaraguan seed finch",
+  "title_aliases": [
+    "Nicaraguan Seed Finch"
+  ],
+  "bird_id": "bird-nicaraguan-seed-finch-8a14cd5a",
+  "raw_file": "bird-nicaraguan-seed-finch-8a14cd5a.json",
+  "bird": {
+    "id": "bird-nicaraguan-seed-finch-8a14cd5a",
+    "name": "Nicaraguan seed finch",
+    "english_name": "Nicaraguan seed finch",
+    "latin_name": "Sporophila nuttingi",
+    "summary": "The Nicaraguan seed finch (Sporophila nuttingi) is a species of bird in the family Thraupidae. It is found in Costa Rica, Nicaragua and nor…",
+    "lat": "10",
+    "lng": "-84",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Nicaraguan_Seed-Finch_2014-11-15_%281%29.jpg/960px-Nicaraguan_Seed-Finch_2014-11-15_%281%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥斯达黎加-6c4f73ad",
+      "name": "哥斯达黎加",
+      "summary": "哥斯达黎加共和國（西班牙語：República de Costa Rica），通稱哥斯达黎加（Costa Rica），是中美洲国家，北邻尼加拉瓜，南与巴拿马接壤，首都為聖荷西。 哥斯达黎加是当今世界上第一个裁撤军队的国家。目前哥斯大黎加是…",
+      "lat": "10",
+      "lng": "-84"
+    },
+    {
+      "id": "loc-尼加拉瓜-7d1016c5",
+      "name": "尼加拉瓜",
+      "summary": "尼加拉瓜共和国（西班牙語：República de Nicaragua），通稱尼加拉瓜（西班牙語：Nicaragua），是位於中美洲的一個國家，為中美地峡面積最大的國家，其首都為馬納瓜。地理上北鄰洪都拉斯，南邊是哥斯達黎加，東臨加勒比海、…",
+      "lat": "13",
+      "lng": "-85"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-nicaraguan-seed-finch-8a14cd5a",
+      "subject": "Nicaraguan seed finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥斯达黎加-6c4f73ad",
+      "object": "哥斯达黎加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica, Nicaragua and northwestern Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nicaraguan-seed-finch-8a14cd5a",
+      "subject": "Nicaraguan seed finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼加拉瓜-7d1016c5",
+      "object": "尼加拉瓜",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica, Nicaragua and northwestern Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nicaraguan-seed-finch-8a14cd5a",
+      "subject": "Nicaraguan seed finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica, Nicaragua and northwestern Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nicaraguan-seed-finch-8a14cd5a",
+      "subject": "Nicaraguan seed finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

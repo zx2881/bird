@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:55:14",
+  "requested_title": "Madagascar Buttonquail",
+  "resolved_title": "Madagascar buttonquail",
+  "title_aliases": [
+    "Madagascar Buttonquail"
+  ],
+  "bird_id": "bird-madagascar-buttonquail-949fe323",
+  "raw_file": "bird-madagascar-buttonquail-949fe323.json",
+  "bird": {
+    "id": "bird-madagascar-buttonquail-949fe323",
+    "name": "Madagascar buttonquail",
+    "english_name": "Madagascar buttonquail",
+    "latin_name": "Turnix nigricollis",
+    "summary": "The Madagascar buttonquail or Madagascan buttonquail (Turnix nigricollis) is a species of bird in the buttonquail family, Turnicidae, that…",
+    "lat": "-20.2",
+    "lng": "57.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Madagascar_Buttonquail_RWD.jpg/960px-Madagascar_Buttonquail_RWD.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-毛里求斯-6bbd3acd",
+      "name": "毛里求斯",
+      "summary": "毛里求斯共和國（英語：Republic of Mauritius；法語：République de Maurice；克利奧語：Repiblik Moris）位於馬達加斯加共和國以東800公里，為印度洋上的群島國家，以本島——模里西斯島以及…",
+      "lat": "-20.2",
+      "lng": "57.5"
+    },
+    {
+      "id": "loc-留尼汪-140c7f3c",
+      "name": "留尼汪",
+      "summary": "留尼汪（法語：La Réunion，發音：[la ʁeynjɔ̃] ；留尼旺克里奧爾語：La Rényon）是一座印度洋西部马斯克林群岛中的火山島，為法国的海外省，是欧盟的外延地区（OMR）之一，也是欧元区的一部分。東邊約190公里是模里…",
+      "lat": "-21.11444444",
+      "lng": "55.5325"
+    },
+    {
+      "id": "loc-格洛里厄斯群岛-2d178f78",
+      "name": "格洛里厄斯群岛",
+      "summary": "格洛里厄斯群岛（法語：Îles Glorieuses）是莫桑比克海峡北部的一个小群岛，由两个小岛和八块礁石组成，总陆地面积约5平方公里，岛屿地势地平，最高海拔只有12米。目前在法国占领下，但是马达加斯加和科摩罗均对此有领土要求。塞舌尔曾對…",
+      "lat": "-11.55",
+      "lng": "47.33333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-madagascar-buttonquail-949fe323",
+      "subject": "Madagascar buttonquail",
+      "predicate": "distributed_in",
+      "object_id": "loc-毛里求斯-6bbd3acd",
+      "object": "毛里求斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in grassland, open woodland, clearings, glades, the edges of forests, sandy and bushy locations, weedy places and cultivated areas, especially where cassava is grown. It has been introduced to Mauritius, where it is now likely extinct and is present on Réunion and the Glorioso Islands, although it is unclear whether it is native there",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-buttonquail-949fe323",
+      "subject": "Madagascar buttonquail",
+      "predicate": "distributed_in",
+      "object_id": "loc-留尼汪-140c7f3c",
+      "object": "留尼汪",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in grassland, open woodland, clearings, glades, the edges of forests, sandy and bushy locations, weedy places and cultivated areas, especially where cassava is grown. It has been introduced to Mauritius, where it is now likely extinct and is present on Réunion and the Glorioso Islands, although it is unclear whether it is native there",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-buttonquail-949fe323",
+      "subject": "Madagascar buttonquail",
+      "predicate": "distributed_in",
+      "object_id": "loc-格洛里厄斯群岛-2d178f78",
+      "object": "格洛里厄斯群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in grassland, open woodland, clearings, glades, the edges of forests, sandy and bushy locations, weedy places and cultivated areas, especially where cassava is grown. It has been introduced to Mauritius, where it is now likely extinct and is present on Réunion and the Glorioso Islands, although it is unclear whether it is native there",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-buttonquail-949fe323",
+      "subject": "Madagascar buttonquail",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in grassland, open woodland, clearings, glades, the edges of forests, sandy and bushy locations, weedy places and cultivated areas, especially where cassava is grown. It has been introduced to Mauritius, where it is now likely extinct and is present on Réunion and the Glorioso Islands, although it is unclear whether it is native there",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-madagascar-buttonquail-949fe323",
+      "subject": "Madagascar buttonquail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

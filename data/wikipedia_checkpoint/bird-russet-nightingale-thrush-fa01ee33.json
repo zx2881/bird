@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T12:07:13",
+  "requested_title": "Russet Nightingale-Thrush",
+  "resolved_title": "Russet nightingale-thrush",
+  "title_aliases": [
+    "Russet Nightingale-Thrush"
+  ],
+  "bird_id": "bird-russet-nightingale-thrush-fa01ee33",
+  "raw_file": "bird-russet-nightingale-thrush-fa01ee33.json",
+  "bird": {
+    "id": "bird-russet-nightingale-thrush-fa01ee33",
+    "name": "Russet nightingale-thrush",
+    "english_name": "Russet nightingale-thrush",
+    "latin_name": "Catharus occidentalis",
+    "summary": "The russet nightingale-thrush (Catharus occidentalis) is a species of bird in the family Turdidae, the thrushes and allies. It is endemic t…",
+    "lat": "17.055",
+    "lng": "-96.655",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Russet_Nightingale-thrush.jpg/960px-Russet_Nightingale-thrush.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-瓦哈卡州-e005144e",
+      "name": "瓦哈卡州",
+      "summary": "瓦哈卡州（西班牙語：Oaxaca，發音：[waˈχaka] ）是墨西哥合眾國的一個州，位於該國的南部，臨太平洋。2005年估計人口為 3,506,821人。首府瓦哈卡市。 历史 名称 瓦哈卡的州名来自其首府瓦哈卡市的名称。这个名字来自纳瓦…",
+      "lat": "17.055",
+      "lng": "-96.655"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-pine-oak-forest-1bf3f7a2",
+      "name": "Pine–oak forest",
+      "summary": "Pine–oak forest, pine–oak woodland, or oak–pine forest is a group of similar of ecosystems, primarily found in North an…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-russet-nightingale-thrush-fa01ee33",
+      "subject": "Russet nightingale-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦哈卡州-e005144e",
+      "object": "瓦哈卡州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "occidentalis: southern Mexico in western Guerrero and Oaxaca The russet nightingale-thrush inhabits montane evergreen, pine-oak, and oak forest in the subtropical and lower temperate zones",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-russet-nightingale-thrush-fa01ee33",
+      "subject": "Russet nightingale-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "occidentalis: southern Mexico in western Guerrero and Oaxaca The russet nightingale-thrush inhabits montane evergreen, pine-oak, and oak forest in the subtropical and lower temperate zones",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-russet-nightingale-thrush-fa01ee33",
+      "subject": "Russet nightingale-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-pine-oak-forest-1bf3f7a2",
+      "object": "Pine–oak forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "occidentalis: southern Mexico in western Guerrero and Oaxaca The russet nightingale-thrush inhabits montane evergreen, pine-oak, and oak forest in the subtropical and lower temperate zones",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-russet-nightingale-thrush-fa01ee33",
+      "subject": "Russet nightingale-thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

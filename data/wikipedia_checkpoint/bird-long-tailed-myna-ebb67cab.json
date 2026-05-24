@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:21:07",
+  "requested_title": "Long-tailed Myna",
+  "resolved_title": "Long-tailed myna",
+  "title_aliases": [
+    "Long-tailed Myna"
+  ],
+  "bird_id": "bird-long-tailed-myna-ebb67cab",
+  "raw_file": "bird-long-tailed-myna-ebb67cab.json",
+  "bird": {
+    "id": "bird-long-tailed-myna-ebb67cab",
+    "name": "Long-tailed myna",
+    "english_name": "Long-tailed myna",
+    "latin_name": "Mino kreffti",
+    "summary": "The long-tailed myna (Mino kreffti) is a member of the starling family. It is native to the Bismarck and Solomon archipelagos.",
+    "lat": "-8",
+    "lng": "159",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mino_kreffti_-_Abby_Darrah_-_582263630.jpeg/960px-Mino_kreffti_-_Abby_Darrah_-_582263630.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-所羅門群島-群島-4708e5d6",
+      "name": "所羅門群島 (群島)",
+      "summary": "所羅門群島是太平洋西南面的群島，位於澳大利亞東北方的美拉尼西亞（Melanesia）地區。西隔所羅門海與新幾內亞、俾斯麥群島相鄰。 政治上分屬兩個政治實體： 所罗门群岛，領土範圍為大部分的索羅門群島（28,896 km²，660,121人…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-long-tailed-myna-ebb67cab",
+      "subject": "Long-tailed myna",
+      "predicate": "distributed_in",
+      "object_id": "loc-所羅門群島-群島-4708e5d6",
+      "object": "所羅門群島 (群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Bismarck and Solomon archipelagos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-long-tailed-myna-ebb67cab",
+      "subject": "Long-tailed myna",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

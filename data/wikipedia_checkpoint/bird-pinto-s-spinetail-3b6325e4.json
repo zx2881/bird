@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:33:01",
+  "requested_title": "Pinto's Spinetail",
+  "resolved_title": "Pinto's spinetail",
+  "title_aliases": [
+    "Pinto's Spinetail"
+  ],
+  "bird_id": "bird-pinto-s-spinetail-3b6325e4",
+  "raw_file": "bird-pinto-s-spinetail-3b6325e4.json",
+  "bird": {
+    "id": "bird-pinto-s-spinetail-3b6325e4",
+    "name": "Pinto's spinetail",
+    "english_name": "Pinto's spinetail",
+    "latin_name": "Synallaxis infuscata",
+    "summary": "Pinto's spinetail (Synallaxis infuscata) is an Endangered species of bird in the Furnariinae subfamily of the ovenbird family Furnariidae.…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Synallaxis_infuscatus_Pinto%27s_Spinetail%3B_Lagoa_dos_Gatos%2C_Pernambuco%2C_Brazil.jpg/960px-Synallaxis_infuscatus_Pinto%27s_Spinetail%3B_Lagoa_dos_Gatos%2C_Pernambuco%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pinto-s-spinetail-3b6325e4",
+      "subject": "Pinto's spinetail",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits tropical lowland evergreen forest both primary and secondary, usually in dense undergrowth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pinto-s-spinetail-3b6325e4",
+      "subject": "Pinto's spinetail",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits tropical lowland evergreen forest both primary and secondary, usually in dense undergrowth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pinto-s-spinetail-3b6325e4",
+      "subject": "Pinto's spinetail",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

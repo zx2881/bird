@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:42:20",
+  "requested_title": "Blue-headed Hummingbird",
+  "resolved_title": "Blue-headed hummingbird",
+  "title_aliases": [
+    "Blue-headed Hummingbird"
+  ],
+  "bird_id": "bird-蓝头蜂鸟-9816be64",
+  "raw_file": "bird-蓝头蜂鸟-9816be64.json",
+  "bird": {
+    "id": "bird-蓝头蜂鸟-9816be64",
+    "name": "蓝头蜂鸟",
+    "english_name": "Blue-headed hummingbird",
+    "latin_name": "Riccordia bicolor",
+    "summary": "蓝头蜂鸟（学名：Riccordia bicolor），是雨燕目蜂鸟科的一种鸟类，该物种原属于单独的蓝头蜂鸟属（学名：Cyanophaia）。 蓝头蜂鸟体重约4.5克，翼长约59.8毫米，嘴峰长约19.3毫米，喙宽度约2.1毫米，喙厚度约1.7毫米，跗蹠长约4.7毫米，尾长约37…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Blue-headed_hummingbird.jpg/960px-Blue-headed_hummingbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝头蜂鸟-9816be64",
+      "subject": "蓝头蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits undisturbed forests and secondary forest along rivers. It is sedentary, meaning that it does not migrate at all",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝头蜂鸟-9816be64",
+      "subject": "蓝头蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-蓝头蜂鸟-9816be64",
+      "subject": "蓝头蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "BirdLife International, which provides the IUCN conservation status for birds, classifies the blue-headed hummingbird as near-threatened due to climate change and the resulting severe weather. The blue-headed hummingbird is common in its habitat, albeit sporadically distributed; estimates for population density have varied greatly",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

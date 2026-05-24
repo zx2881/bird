@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:41:12",
+  "requested_title": "Melodious Babbler",
+  "resolved_title": "Melodious babbler",
+  "title_aliases": [
+    "Melodious Babbler"
+  ],
+  "bird_id": "bird-巴拉望树鹛-e95e5454",
+  "raw_file": "bird-巴拉望树鹛-e95e5454.json",
+  "bird": {
+    "id": "bird-巴拉望树鹛-e95e5454",
+    "name": "巴拉望树鹛",
+    "english_name": "Melodious babbler",
+    "latin_name": "Malacopteron palawanense",
+    "summary": "巴拉望树鹛（学名：Malacopteron palawanense），是画眉科树鹛属的一种，为菲律宾的特有种。该物种的保护状况被评为近危。 巴拉望树鹛的平均体重约为32.4克。栖息地为亚热带或热带的湿润低地林。",
+    "lat": "9.74361111",
+    "lng": "118.66111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Melodious_Babbler.jpg/960px-Melodious_Babbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-颱風雷伊-2021年-50606cc4",
+      "name": "颱風雷伊 (2021年)",
+      "summary": "颱風雷伊（英語：Typhoon Rai，國際編號：2122，聯合颱風警報中心：WP282021，菲律賓大氣地球物理和天文服務管理局：Odette）是2021年太平洋颱風季第22個被命名的風暴。「雷伊」一名由密克羅尼西亞提供，指雅浦島石幣。…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "name": "Iwahig Prison and Penal Farm",
+      "summary": "Iwahig Prison and Penal Farm in Puerto Princesa, Palawan, Philippines is one of seven operating units of the Bureau of…",
+      "lat": "9.74361111",
+      "lng": "118.66111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-巴拉望树鹛-e95e5454",
+      "subject": "巴拉望树鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits tropical moist lowland primary forest and mature secondary forest only up to 100 meters above sea level. This species has been assessed a Vulnerable species in 2025 as there is believed to be a significant decline of this species due to the damage from Typhoon Odette",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巴拉望树鹛-e95e5454",
+      "subject": "巴拉望树鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-颱風雷伊-2021年-50606cc4",
+      "object": "颱風雷伊 (2021年)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits tropical moist lowland primary forest and mature secondary forest only up to 100 meters above sea level. This species has been assessed a Vulnerable species in 2025 as there is believed to be a significant decline of this species due to the damage from Typhoon Odette",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巴拉望树鹛-e95e5454",
+      "subject": "巴拉望树鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "object": "Iwahig Prison and Penal Farm",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in just one protected area in the Iwahig Prison and Penal Farm",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巴拉望树鹛-e95e5454",
+      "subject": "巴拉望树鹛",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-巴拉望树鹛-e95e5454",
+      "subject": "巴拉望树鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss due to deforestation, illegal logging and due to typhoons",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-巴拉望树鹛-e95e5454",
+      "subject": "巴拉望树鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss due to deforestation, illegal logging and due to typhoons",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:42:14",
+  "requested_title": "Ruddy Kingfisher",
+  "resolved_title": "Ruddy kingfisher",
+  "title_aliases": [
+    "Ruddy Kingfisher"
+  ],
+  "bird_id": "bird-赤翡翠-1dcaadca",
+  "raw_file": "bird-赤翡翠-1dcaadca.json",
+  "bird": {
+    "id": "bird-赤翡翠-1dcaadca",
+    "name": "赤翡翠",
+    "english_name": "Ruddy kingfisher",
+    "latin_name": "Halcyon coromanda",
+    "summary": "赤翡翠（学名：Halcyon coromanda）为翠鸟科翡翠属的鸟类。廣泛分布於東亞和東南亞。该物种的模式产地在印度。 亚种 Halcyon coromanda 包括以下亞種: 赤翡翠指名亚种 H.",
+    "lat": "-7.98",
+    "lng": "112.62",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ruddy_Kingfisher_0A2A7077.jpg/960px-Ruddy_Kingfisher_0A2A7077.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-瑪琅-8ab5f70c",
+      "name": "瑪琅",
+      "summary": "瑪琅（印尼語：Kota Malang）是印度尼西亞南部爪哇島東部東爪哇省下轄的一個城市，距離該省首府泗水90公里，面積110.06平方公里，2010年人口820,243人，人口密度為每平方公里6,171人；其居民主要信奉伊斯蘭教。 外部連…",
+      "lat": "-7.98",
+      "lng": "112.62"
+    },
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-赤翡翠-1dcaadca",
+      "subject": "赤翡翠",
+      "predicate": "distributed_in",
+      "object_id": "loc-瑪琅-8ab5f70c",
+      "object": "瑪琅",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The ruddy kingfisher (Halcyon coromanda) is a medium-sized tree kingfisher, widely distributed in east and southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤翡翠-1dcaadca",
+      "subject": "赤翡翠",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The ruddy kingfisher (Halcyon coromanda) is a medium-sized tree kingfisher, widely distributed in east and southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤翡翠-1dcaadca",
+      "subject": "赤翡翠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:52:08",
+  "requested_title": "Red-thighed Sparrowhawk",
+  "resolved_title": "Red-thighed sparrowhawk",
+  "title_aliases": [
+    "Red-thighed Sparrowhawk"
+  ],
+  "bird_id": "bird-red-thighed-sparrowhawk-3010db98",
+  "raw_file": "bird-red-thighed-sparrowhawk-3010db98.json",
+  "bird": {
+    "id": "bird-red-thighed-sparrowhawk-3010db98",
+    "name": "Red-thighed sparrowhawk",
+    "english_name": "Red-thighed sparrowhawk",
+    "latin_name": "Tachyspiza erythropus",
+    "summary": "The red-thighed sparrowhawk (Tachyspiza erythropus), alternatively known as the red-legged sparrowhawk or western little sparrowhawk, is a…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Tachyspiza_erythropus_-_Lionel_CASSET_-_460654521.jpeg/960px-Tachyspiza_erythropus_-_Lionel_CASSET_-_460654521.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-the-peregrine-fund-6b7c229a",
+      "name": "The Peregrine Fund",
+      "summary": "The Peregrine Fund (named after the bird of prey of the same name the peregrine falcon) is a non-profit organization fo…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-thighed-sparrowhawk-3010db98",
+      "subject": "Red-thighed sparrowhawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-the-peregrine-fund-6b7c229a",
+      "object": "The Peregrine Fund",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-thighed sparrowhawk is found in lowland primary rainforest, along the forest edges and in clearings, as well as in older secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-thighed-sparrowhawk-3010db98",
+      "subject": "Red-thighed sparrowhawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

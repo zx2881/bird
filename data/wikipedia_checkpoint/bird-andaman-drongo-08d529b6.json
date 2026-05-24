@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:46:07",
+  "requested_title": "Andaman Drongo",
+  "resolved_title": "Andaman drongo",
+  "title_aliases": [
+    "Andaman Drongo"
+  ],
+  "bird_id": "bird-andaman-drongo-08d529b6",
+  "raw_file": "bird-andaman-drongo-08d529b6.json",
+  "bird": {
+    "id": "bird-andaman-drongo-08d529b6",
+    "name": "Andaman drongo",
+    "english_name": "Andaman drongo",
+    "latin_name": "Dicrurus andamanensis",
+    "summary": "The Andaman Drongo (Dicrurus andamanensis) is a species of bird in the family Dicruridae. The species is endemic to the Andaman Islands of…",
+    "lat": "14.05",
+    "lng": "93.35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/AndamanDrongo.jpg/960px-AndamanDrongo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-科科群岛-4a32ce2c",
+      "name": "科科群岛",
+      "summary": "科科群岛（緬甸語：ကိုကိုးကျွန်း；英語：Coco Islands），是缅甸南部一群岛，西为孟加拉湾，东为安达曼海，南隔科科海峡与印度安達曼-尼科巴群島聯邦屬地相望。科科群岛位于安达曼群岛的最北端，战略位置极其重要。该群岛由大、…",
+      "lat": "14.05",
+      "lng": "93.35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-andaman-drongo-08d529b6",
+      "subject": "Andaman drongo",
+      "predicate": "distributed_in",
+      "object_id": "loc-科科群岛-4a32ce2c",
+      "object": "科科群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There are two subspecies, the nominate race being found across the main islands of the archipelago, and the race dicruriformis occurring on Great Coco Island and Table Island in the north of the chain",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-andaman-drongo-08d529b6",
+      "subject": "Andaman drongo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-andaman-drongo-08d529b6",
+      "subject": "Andaman drongo",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

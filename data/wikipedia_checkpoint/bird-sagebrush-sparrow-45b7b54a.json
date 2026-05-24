@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:01:07",
+  "requested_title": "Sagebrush Sparrow",
+  "resolved_title": "Sagebrush sparrow",
+  "title_aliases": [
+    "Sagebrush Sparrow"
+  ],
+  "bird_id": "bird-sagebrush-sparrow-45b7b54a",
+  "raw_file": "bird-sagebrush-sparrow-45b7b54a.json",
+  "bird": {
+    "id": "bird-sagebrush-sparrow-45b7b54a",
+    "name": "Sagebrush sparrow",
+    "english_name": "Sagebrush sparrow",
+    "latin_name": "Artemisiospiza nevadensis",
+    "summary": "The sagebrush sparrow (Artemisiospiza nevadensis) is a species of bird in the family Passerellidae, the New World sparrows. It is found in…",
+    "lat": "54",
+    "lng": "-125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/SagebrushSparrow.jpg/960px-SagebrushSparrow.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-不列颠哥伦比亚省-3432d47b",
+      "name": "不列颠哥伦比亚省",
+      "summary": "不列颠哥伦比亚（英語：British Columbia，香港、新加坡譯卑詩，台湾譯不列顛哥倫比亞，縮寫：B.C.；法語：Colombie-Britannique，縮寫：C.B.），或譯英屬哥倫比亞、中文另外又稱BC省，是加拿大最西部的省，…",
+      "lat": "54",
+      "lng": "-125"
+    },
+    {
+      "id": "loc-蒙大拿州-cf0308fd",
+      "name": "蒙大拿州",
+      "summary": "蒙大拿州（英語：Montana）是美國西北部的一州，州名來自於西班牙語的「montaña」（山），此州的面積381,156平方公里，在美國名列第四大，相當於日本國土面積大約100.5%，然而相對之下，人口相當稀少，據2025年估計僅1,1…",
+      "lat": "47",
+      "lng": "-110"
+    },
+    {
+      "id": "loc-堪薩斯州-392fcfc2",
+      "name": "堪薩斯州",
+      "summary": "堪薩斯州（英語：State of Kansas），簡稱堪州，是美國中西部的一個州，位於美國本土的正中心，美國本土地理中心點即位於此州，州名來自印地安蘇族的語言，代表了“南風之人”（People of the south wind）。郵政編…",
+      "lat": "38",
+      "lng": "-98"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sagebrush-sparrow-45b7b54a",
+      "subject": "Sagebrush sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-不列颠哥伦比亚省-3432d47b",
+      "object": "不列颠哥伦比亚省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| pages =614–615 }} There are records of vagrants along the west coast from British Columbia south and further east of its core range in Montana, Wyoming, Colorado, Kansas, Oklahoma, and Nebraska",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sagebrush-sparrow-45b7b54a",
+      "subject": "Sagebrush sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-蒙大拿州-cf0308fd",
+      "object": "蒙大拿州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| pages =614–615 }} There are records of vagrants along the west coast from British Columbia south and further east of its core range in Montana, Wyoming, Colorado, Kansas, Oklahoma, and Nebraska",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sagebrush-sparrow-45b7b54a",
+      "subject": "Sagebrush sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-堪薩斯州-392fcfc2",
+      "object": "堪薩斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| pages =614–615 }} There are records of vagrants along the west coast from British Columbia south and further east of its core range in Montana, Wyoming, Colorado, Kansas, Oklahoma, and Nebraska",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sagebrush-sparrow-45b7b54a",
+      "subject": "Sagebrush sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-sagebrush-sparrow-45b7b54a",
+      "subject": "Sagebrush sparrow",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered common throughout its range. \"Habitat loss in Great Basin and other shrub-dominated ecosystems by mechanical, chemical, and burning methods to remove big sagebrush and increase grasses and forbs for livestock grazing has probably had significant impact on Sagebrush Sparrow distribution, productivity, and long-term population trends.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:54:08",
+  "requested_title": "Vietnamese Cutia",
+  "resolved_title": "Vietnamese cutia",
+  "title_aliases": [
+    "Vietnamese Cutia"
+  ],
+  "bird_id": "bird-越南姬鹛-cc2eb1f3",
+  "raw_file": "bird-越南姬鹛-cc2eb1f3.json",
+  "bird": {
+    "id": "bird-越南姬鹛-cc2eb1f3",
+    "name": "越南姬鹛",
+    "english_name": "Vietnamese cutia",
+    "latin_name": "Cutia legalleni",
+    "summary": "越南姬鹛（学名：Cutia legalleni），是姬鹛属的一种，分布于老挝和越南。该物种的保护状况被评为近危。 越南姬鹛的栖息地为亚热带或热带的湿润山地林。",
+    "lat": "18",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Cutia_legalleni_Vietnamese_Cutia%3B_L%C3%A2m_%C4%90%E1%BB%93ng%2C_Vietnam.jpg/960px-Cutia_legalleni_Vietnamese_Cutia%3B_L%C3%A2m_%C4%90%E1%BB%93ng%2C_Vietnam.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-老挝-0d5ce5bc",
+      "name": "老挝",
+      "summary": "老挝人民民主共和国（寮語：ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ，简写：ສປປ ລາວ），通稱寮國（寮語：ລາວ），是位于東南亞中南半岛的社会主义国家，首都及最大城市为万象，通行寮语，面积23.68万平方公里，…",
+      "lat": "18",
+      "lng": "105"
+    },
+    {
+      "id": "loc-越南-29eeb04d",
+      "name": "越南",
+      "summary": "越南社会主义共和国（越南語：Cộng hòa Xã hội chủ nghĩa Việt Nam／共和社會主義越南，），通称越南（越南語：Việt Nam／越南），是位于东南亚中南半岛东端的社会主义国家。北接中国，西邻柬埔寨与老挝，全国人…",
+      "lat": "16",
+      "lng": "108"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-越南姬鹛-cc2eb1f3",
+      "subject": "越南姬鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-老挝-0d5ce5bc",
+      "object": "老挝",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Laos and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-越南姬鹛-cc2eb1f3",
+      "subject": "越南姬鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-越南-29eeb04d",
+      "object": "越南",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Laos and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-越南姬鹛-cc2eb1f3",
+      "subject": "越南姬鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is tropical moist montane forests. The Vietnamese Cutia is not considered threatened by the IUCN, but as its range is far more restricted than that of its western relative, it is classified as a Near Threatened species after the split",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-越南姬鹛-cc2eb1f3",
+      "subject": "越南姬鹛",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

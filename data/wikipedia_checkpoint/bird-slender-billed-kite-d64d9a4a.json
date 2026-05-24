@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:59:10",
+  "requested_title": "Slender-billed Kite",
+  "resolved_title": "Slender-billed kite",
+  "title_aliases": [
+    "Slender-billed Kite"
+  ],
+  "bird_id": "bird-slender-billed-kite-d64d9a4a",
+  "raw_file": "bird-slender-billed-kite-d64d9a4a.json",
+  "bird": {
+    "id": "bird-slender-billed-kite-d64d9a4a",
+    "name": "Slender-billed kite",
+    "english_name": "Slender-billed kite",
+    "latin_name": "Helicolestes hamatus",
+    "summary": "The slender-billed kite (Helicolestes hamatus) is a South American bird of prey in the family Accipitridae. It is found along a scattered r…",
+    "lat": "9",
+    "lng": "-80",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Helicolestes_hamatus_-_Slender-billed_kite%2C_Careiro_da_V%C3%A1rzea%2C_Amazonas%2C_Brazil.jpg/960px-Helicolestes_hamatus_-_Slender-billed_kite%2C_Careiro_da_V%C3%A1rzea%2C_Amazonas%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-slender-billed-kite-d64d9a4a",
+      "subject": "Slender-billed kite",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found along a scattered range in forested parts of tropical northern and central South America, and far eastern Panama. The species was recategorized into and has once again been removed from the genus Rostrhamus",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slender-billed-kite-d64d9a4a",
+      "subject": "Slender-billed kite",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found along a scattered range in forested parts of tropical northern and central South America, and far eastern Panama. The species was recategorized into and has once again been removed from the genus Rostrhamus",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slender-billed-kite-d64d9a4a",
+      "subject": "Slender-billed kite",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:36:10",
+  "requested_title": "Rose-faced Parrot",
+  "resolved_title": "Rose-faced parrot",
+  "title_aliases": [
+    "Rose-faced Parrot"
+  ],
+  "bird_id": "bird-rose-faced-parrot-555477dc",
+  "raw_file": "bird-rose-faced-parrot-555477dc.json",
+  "bird": {
+    "id": "bird-rose-faced-parrot-555477dc",
+    "name": "Rose-faced parrot",
+    "english_name": "Rose-faced parrot",
+    "latin_name": "Pyrilia pulchra",
+    "summary": "The rose-faced parrot (Pyrilia pulchra) is a species of bird in subfamily Arinae of the family Psittacidae, the African and New World parro…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2022-05-11_Rosenwangenpapagei_03.JPG/960px-2022-05-11_Rosenwangenpapagei_03.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rose-faced-parrot-555477dc",
+      "subject": "Rose-faced parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Ecuador.{{cite web |url=https://www.worldbirdnames.org/new/bow/parrots/ |title=Parrots, cockatoos |website=IOC World Bird List |version =v 13.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rose-faced-parrot-555477dc",
+      "subject": "Rose-faced parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Ecuador.{{cite web |url=https://www.worldbirdnames.org/new/bow/parrots/ |title=Parrots, cockatoos |website=IOC World Bird List |version =v 13.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rose-faced-parrot-555477dc",
+      "subject": "Rose-faced parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid to wet forest, mature secondary forest, plantations, and more open areas with scattered trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rose-faced-parrot-555477dc",
+      "subject": "Rose-faced parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

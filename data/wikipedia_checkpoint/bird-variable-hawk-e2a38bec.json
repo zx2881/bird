@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:01:05",
+  "requested_title": "Variable Hawk",
+  "resolved_title": "Variable hawk",
+  "title_aliases": [
+    "Variable Hawk"
+  ],
+  "bird_id": "bird-variable-hawk-e2a38bec",
+  "raw_file": "bird-variable-hawk-e2a38bec.json",
+  "bird": {
+    "id": "bird-variable-hawk-e2a38bec",
+    "name": "Variable hawk",
+    "english_name": "Variable hawk",
+    "latin_name": "Geranoaetus polyosoma",
+    "summary": "The variable hawk (Geranoaetus polyosoma) is a polymorphic species of bird of prey in the family Accipitridae. It is widespread and often c…",
+    "lat": "-41",
+    "lng": "-68",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Red-backed_Hawk_%28Buteo_polyosoma%29_1.jpg/960px-Red-backed_Hawk_%28Buteo_polyosoma%29_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴塔哥尼亞-65e27f32",
+      "name": "巴塔哥尼亞",
+      "summary": "巴塔哥尼亞（西班牙語：Patagonia，西班牙語發音：[pataˈɣonja]）位于南美洲南端，一般是指科羅拉多河以南（或以南緯40度為界）的地區，包括安第斯山脉的南端，主要位于阿根廷境內，小部分屬於智利。明《坤輿萬國全圖》謂之「巴大溫…",
+      "lat": "-41",
+      "lng": "-68"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-variable-hawk-e2a38bec",
+      "subject": "Variable hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴塔哥尼亞-65e27f32",
+      "object": "巴塔哥尼亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-backed race inhabits the widest range of areas of the variable hawk races, including above tree line in mountains, Pacific coastal foothills, Patagonian steppes, agricultural areas and edges of river galleries, beech woods and humid premontane and lowland forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-variable-hawk-e2a38bec",
+      "subject": "Variable hawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:51:26",
+  "requested_title": "Cinnamon-tailed Sparrow",
+  "resolved_title": "Cinnamon-tailed sparrow",
+  "title_aliases": [
+    "Cinnamon-tailed Sparrow"
+  ],
+  "bird_id": "bird-cinnamon-tailed-sparrow-b20ad458",
+  "raw_file": "bird-cinnamon-tailed-sparrow-b20ad458.json",
+  "bird": {
+    "id": "bird-cinnamon-tailed-sparrow-b20ad458",
+    "name": "Cinnamon-tailed sparrow",
+    "english_name": "Cinnamon-tailed sparrow",
+    "latin_name": "Peucaea sumichrasti",
+    "summary": "The cinnamon-tailed sparrow (Peucaea sumichrasti) is a Near Threatened species of bird in the family Passerellidae, the New World sparrows.…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Aimophila_sumichrasti.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-thorn-forest-4be049cb",
+      "name": "Thorn forest",
+      "summary": "A thorn forest is a dense scrubland with vegetation characteristic of dry subtropical and warm temperate areas with mon…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cinnamon-tailed-sparrow-b20ad458",
+      "subject": "Cinnamon-tailed sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-thorn-forest-4be049cb",
+      "object": "Thorn forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits arid scrublands and the edges of tropical thorn forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cinnamon-tailed-sparrow-b20ad458",
+      "subject": "Cinnamon-tailed sparrow",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits arid scrublands and the edges of tropical thorn forest",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-cinnamon-tailed-sparrow-b20ad458",
+      "subject": "Cinnamon-tailed sparrow",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

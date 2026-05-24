@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:25:23",
+  "requested_title": "Cassin's Flycatcher",
+  "resolved_title": "Cassin's flycatcher",
+  "title_aliases": [
+    "Cassin's Flycatcher"
+  ],
+  "bird_id": "bird-cassin-s-flycatcher-d9a386c0",
+  "raw_file": "bird-cassin-s-flycatcher-d9a386c0.json",
+  "bird": {
+    "id": "bird-cassin-s-flycatcher-d9a386c0",
+    "name": "Cassin's flycatcher",
+    "english_name": "Cassin's flycatcher",
+    "latin_name": "Muscicapa cassini",
+    "summary": "Cassin's flycatcher (Muscicapa cassini), also known as Cassin's grey flycatcher or Cassin's alseonax, is a species of bird in the family Mu…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Cassin%27s_Flycatcher_bwindi_jan06.jpg/960px-Cassin%27s_Flycatcher_bwindi_jan06.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cassin-s-flycatcher-d9a386c0",
+      "subject": "Cassin's flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cassin-s-flycatcher-d9a386c0",
+      "subject": "Cassin's flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical swamps",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-cassin-s-flycatcher-d9a386c0",
+      "subject": "Cassin's flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

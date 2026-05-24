@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:21:23",
+  "requested_title": "Grey Tit",
+  "resolved_title": "Grey tit",
+  "title_aliases": [
+    "Grey Tit"
+  ],
+  "bird_id": "bird-grey-tit-64fe5565",
+  "raw_file": "bird-grey-tit-64fe5565.json",
+  "bird": {
+    "id": "bird-grey-tit-64fe5565",
+    "name": "Grey tit",
+    "english_name": "Grey tit",
+    "latin_name": "Melaniparus afer",
+    "summary": "The grey tit (Melaniparus afer) is a species of bird in the tit family Paridae. It is found in Lesotho and South Africa.",
+    "lat": "-29.6",
+    "lng": "28.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Parus_afer_-Namaqua_National_Park%2C_Northern_Cape%2C_South_Africa_-adult-6.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-莱索托-debacd09",
+      "name": "莱索托",
+      "summary": "莱索托王国（索托語：Mmuso wa Lesotho，英語：Kingdom of Lesotho），简称莱索托，位处非洲南部，是全世界最大国中国，全境完全被南非共和国包围，接壤边境线909公里长。因地处高原，莱索托也被称为“天空王国”。莱…",
+      "lat": "-29.6",
+      "lng": "28.3"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-tit-64fe5565",
+      "subject": "Grey tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-莱索托-debacd09",
+      "object": "莱索托",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Lesotho and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-tit-64fe5565",
+      "subject": "Grey tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Lesotho and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-tit-64fe5565",
+      "subject": "Grey tit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

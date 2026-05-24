@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:34:33",
+  "requested_title": "Mountain Wagtail",
+  "resolved_title": "Mountain wagtail",
+  "title_aliases": [
+    "Mountain Wagtail"
+  ],
+  "bird_id": "bird-mountain-wagtail-057c0ccb",
+  "raw_file": "bird-mountain-wagtail-057c0ccb.json",
+  "bird": {
+    "id": "bird-mountain-wagtail-057c0ccb",
+    "name": "Mountain wagtail",
+    "english_name": "Mountain wagtail",
+    "latin_name": "Motacilla clara",
+    "summary": "The mountain wagtail (Motacilla clara), also known as the long-tailed wagtail or grey-backed wagtail, is a species of wagtail of the family…",
+    "lat": "11",
+    "lng": "-10",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Mountain_wagtail%2C_Motacilla_clara.jpg/960px-Mountain_wagtail%2C_Motacilla_clara.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-几内亚-d249039d",
+      "name": "几内亚",
+      "summary": "几内亚共和國（法語：République de Guinée），通稱几内亚（Guinée），是位於西非的國家，東南接科特迪瓦，南臨利比里亞，西鄰塞拉利昂，北鄰几内亚比绍、塞内加尔，北和東北與馬里接壤。尼日尔河、塞内加尔河、冈比亚河在几内亚…",
+      "lat": "11",
+      "lng": "-10"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mountain-wagtail-057c0ccb",
+      "subject": "Mountain wagtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-几内亚-d249039d",
+      "object": "几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mountain wagtail occurs in the Afromontane, from Guinea to Ethiopia south to South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-wagtail-057c0ccb",
+      "subject": "Mountain wagtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mountain wagtail occurs in the Afromontane, from Guinea to Ethiopia south to South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-wagtail-057c0ccb",
+      "subject": "Mountain wagtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The mountain wagtail occurs in the Afromontane, from Guinea to Ethiopia south to South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-wagtail-057c0ccb",
+      "subject": "Mountain wagtail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

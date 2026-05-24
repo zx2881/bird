@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:20:34",
+  "requested_title": "African Penguin",
+  "resolved_title": "African penguin",
+  "title_aliases": [
+    "African Penguin"
+  ],
+  "bird_id": "bird-南非企鹅-18694acd",
+  "raw_file": "bird-南非企鹅-18694acd.json",
+  "bird": {
+    "id": "bird-南非企鹅-18694acd",
+    "name": "南非企鹅",
+    "english_name": "African penguin",
+    "latin_name": "Spheniscus demersus",
+    "summary": "斑嘴環企鵝（學名：Spheniscus demersus），又名南非企鵝、非洲企鵝、公驢企鵝或黑腳企鵝，是一種生活在南部非洲沿岸的環企鵝屬鳥類。牠們僅分布於南部非洲，也是唯一一種分布於非洲的企鵝。牠們是魚食性，主要以沙丁魚或鯷魚為食，並生活在南非跟納米比亞沿岸的海岸或離島上。叫…",
+    "lat": "-33.83333333",
+    "lng": "25.83333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Wikimania_2018%2C_Cape_Town_%28_1050602%29%2C_crop.jpg/960px-Wikimania_2018%2C_Cape_Town_%28_1050602%29%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿爾哥亞灣-fd2bfcb1",
+      "name": "阿爾哥亞灣",
+      "summary": "阿爾哥亞灣（英語：Algoa Bay）為一處沿著南非東部海岸的廣闊海灣，位於好望角東方約425英里（683公里）。它是雷西腓角西部與主人角東部的邊界。海灣可達436公尺深。伊莉莎白港的海港城與港灣毗鄰，作為新庫哈的深水港設施。 外部連結…",
+      "lat": "-33.83333333",
+      "lng": "25.83333333"
+    },
+    {
+      "id": "loc-格貝哈-7a370888",
+      "name": "格貝哈",
+      "summary": "格貝哈，或译吉科巴哈（科薩語：Gqeberha，[ᶢǃʱɛ̀ɓéːxà]），原名伊丽莎白港（英語：Port Elizabeth，口语中常简称为“P.E.”），早期華人譯名坡厘士碧，南非主要港口之一，是东开普省人口最多的城市与文化经济中心。…",
+      "lat": "-33.95805556",
+      "lng": "25.6"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-南非企鹅-18694acd",
+      "subject": "南非企鹅",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the only penguin found in the Old World",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-南非企鹅-18694acd",
+      "subject": "南非企鹅",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿爾哥亞灣-fd2bfcb1",
+      "object": "阿爾哥亞灣",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The African penguin is found on the southern and southwestern coast of Africa, living in colonies on 27 islands between Namibia and Algoa Bay, near Port Elizabeth, South Africa. It is the only penguin species that breeds in Africa, and its presence gave name to the Penguin Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-南非企鹅-18694acd",
+      "subject": "南非企鹅",
+      "predicate": "distributed_in",
+      "object_id": "loc-格貝哈-7a370888",
+      "object": "格貝哈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The African penguin is found on the southern and southwestern coast of Africa, living in colonies on 27 islands between Namibia and Algoa Bay, near Port Elizabeth, South Africa. It is the only penguin species that breeds in Africa, and its presence gave name to the Penguin Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-南非企鹅-18694acd",
+      "subject": "南非企鹅",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-南非企鹅-18694acd",
+      "subject": "南非企鹅",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Once extremely numerous, the African penguin is now the rarest species of penguin, classified as critically endangered, with its population declining rapidly due to a combination of several threats, such as habitat loss, overfishing and climate change",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-南非企鹅-18694acd",
+      "subject": "南非企鹅",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Once extremely numerous, the African penguin is now the rarest species of penguin, classified as critically endangered, with its population declining rapidly due to a combination of several threats, such as habitat loss, overfishing and climate change",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

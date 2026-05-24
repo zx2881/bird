@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:52:15",
+  "requested_title": "Moluccan King Parrot",
+  "resolved_title": "Moluccan king parrot",
+  "title_aliases": [
+    "Moluccan King Parrot"
+  ],
+  "bird_id": "bird-moluccan-king-parrot-e77b81bb",
+  "raw_file": "bird-moluccan-king-parrot-e77b81bb.json",
+  "bird": {
+    "id": "bird-moluccan-king-parrot-e77b81bb",
+    "name": "Moluccan king parrot",
+    "english_name": "Moluccan king parrot",
+    "latin_name": "Alisterus amboinensis",
+    "summary": "The Moluccan king parrot (Alisterus amboinensis) is a parrot endemic to Peleng Island, Maluku, and West Papua in Indonesia. It is sometimes…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Alisterus_amboinensis_-Brevard_Zoo-8b-4c.jpg/960px-Alisterus_amboinensis_-Brevard_Zoo-8b-4c.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-bruce-beehler-583c1ec7",
+      "name": "Bruce Beehler",
+      "summary": "Bruce McPherson Beehler (born October 11, 1951, in Baltimore) is an American ornithologist and research associate of th…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-moluccan-king-parrot-e77b81bb",
+      "subject": "Moluccan king parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "left|thumb|At Brevard Zoo The Moluccan king parrot inhabits rainforests, but sometimes enters nearby plantations and gardens. Exceptionally, it occurs at altitude up to 2100 m, but more commonly below 1200&nbsp;m (New Guinea){{cite book|author=Beehler, B., T",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moluccan-king-parrot-e77b81bb",
+      "subject": "Moluccan king parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-bruce-beehler-583c1ec7",
+      "object": "Bruce Beehler",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "left|thumb|At Brevard Zoo The Moluccan king parrot inhabits rainforests, but sometimes enters nearby plantations and gardens. Exceptionally, it occurs at altitude up to 2100 m, but more commonly below 1200&nbsp;m (New Guinea){{cite book|author=Beehler, B., T",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moluccan-king-parrot-e77b81bb",
+      "subject": "Moluccan king parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-moluccan-king-parrot-e77b81bb",
+      "subject": "Moluccan king parrot",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Zimmerman|title=Birds of New Guinea|publisher=Princeton University Press|year=1986|isbn=0-691-08385-1|page=122}} or 1600&nbsp;m (Maluku). It is generally uncommon due to habitat loss and capture for the parrot trade, but remains locally common at least on the Sula Islands, Halmahera, and Buru. Overall, the species is not believed to be in immediate danger, and consequently is listed as least concern by BirdLife International and IUCN. As most parrots, the Moluccan king parrot is listed in Appendix II of CITES",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

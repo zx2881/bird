@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:36:14",
+  "requested_title": "Forbes's Blackbird",
+  "resolved_title": "Forbes's blackbird",
+  "title_aliases": [
+    "Forbes's Blackbird"
+  ],
+  "bird_id": "bird-福氏黑鹂-67b9b268",
+  "raw_file": "bird-福氏黑鹂-67b9b268.json",
+  "bird": {
+    "id": "bird-福氏黑鹂-67b9b268",
+    "name": "福氏黑鹂",
+    "english_name": "Forbes's blackbird",
+    "latin_name": "Anumara forbesi",
+    "summary": "福氏黑鹂（台湾作弗比斯氏南美黑鸝，学名：Anumara forbesi），是雀形目拟鹂科的一种鸟类，属于单型的福氏黑鹂属（学名：Anumara）。 特征 福氏黑鹂体重约65.9克，翼长约10.30厘米，喙宽度约6.6毫米，喙厚度约9.6毫米，嘴峰长约25.2毫米，跗蹠长约29.…",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Anumara_forbesi_-_Forbes%27s_Blackbird%3B_Tamandar%C3%A9%2C_Pernambuco%2C_Brazil.jpg/960px-Anumara_forbesi_-_Forbes%27s_Blackbird%3B_Tamandar%C3%A9%2C_Pernambuco%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-福氏黑鹂-67b9b268",
+      "subject": "福氏黑鹂",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Forbes's blackbird is a non-migratory species found in east and north-east Brazil in small and very fragmented habitats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-福氏黑鹂-67b9b268",
+      "subject": "福氏黑鹂",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-福氏黑鹂-67b9b268",
+      "subject": "福氏黑鹂",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The greatest threat to Forbes's blackbird is widespread habitat destruction and degradation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

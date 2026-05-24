@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:10:07",
+  "requested_title": "Rusty-browed Warbling Finch",
+  "resolved_title": "Rusty-browed warbling finch",
+  "title_aliases": [
+    "Rusty-browed Warbling Finch"
+  ],
+  "bird_id": "bird-rusty-browed-warbling-finch-6c062f17",
+  "raw_file": "bird-rusty-browed-warbling-finch-6c062f17.json",
+  "bird": {
+    "id": "bird-rusty-browed-warbling-finch-6c062f17",
+    "name": "Rusty-browed warbling finch",
+    "english_name": "Rusty-browed warbling finch",
+    "latin_name": "Microspingus erythrophrys",
+    "summary": "The rusty-browed warbling finch (Microspingus erythrophrys) is a species of bird in the family Thraupidae. It is found in Argentina and Bol…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Rusty-browed_Warbling-Finch_%288077592723%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rusty-browed-warbling-finch-6c062f17",
+      "subject": "Rusty-browed warbling finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-browed-warbling-finch-6c062f17",
+      "subject": "Rusty-browed warbling finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-browed-warbling-finch-6c062f17",
+      "subject": "Rusty-browed warbling finch",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-rusty-browed-warbling-finch-6c062f17",
+      "subject": "Rusty-browed warbling finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

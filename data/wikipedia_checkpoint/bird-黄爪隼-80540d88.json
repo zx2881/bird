@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:24:49",
+  "requested_title": "Lesser Kestrel",
+  "resolved_title": "Lesser kestrel",
+  "title_aliases": [
+    "Lesser Kestrel"
+  ],
+  "bird_id": "bird-黄爪隼-80540d88",
+  "raw_file": "bird-黄爪隼-80540d88.json",
+  "bird": {
+    "id": "bird-黄爪隼-80540d88",
+    "name": "黄爪隼",
+    "english_name": "Lesser kestrel",
+    "latin_name": "Falco naumanni",
+    "summary": "黄爪隼（学名：Falco naumanni）为隼科隼属的鸟类。是一種小型獵鷹。這種物種在地中海、阿富汗、中亞至中國和蒙古地區繁殖。它是一種夏季候鳥，在非洲和巴基斯坦過冬，有時甚至遷徙至印度和伊拉克。它在繁殖區以北很少見，在歐洲的分布範圍也在減少。該屬名源自晚期拉丁文falx,f…",
+    "lat": "30",
+    "lng": "70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Lesser_Kestrel_%28Male%29.jpg/960px-Lesser_Kestrel_%28Male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "巴基斯坦伊斯兰共和国（乌尔都语：اسلامی جمہوریہ پاکستان‬；英语：Islamic Republic of Pakistan），通称巴基斯坦，位于南亚，东与印度比邻，南面是印度洋，西与伊朗接壤，西北和阿富汗相連，東北与中…",
+      "lat": "30",
+      "lng": "70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄爪隼-80540d88",
+      "subject": "黄爪隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a summer migrant, wintering in Africa and Pakistan and sometimes even to India and Iraq",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄爪隼-80540d88",
+      "subject": "黄爪隼",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:13:39",
+  "requested_title": "Turkestan Ground Jay",
+  "resolved_title": "Turkestan ground jay",
+  "title_aliases": [
+    "Turkestan Ground Jay"
+  ],
+  "bird_id": "bird-里海地鸦-690a0bbf",
+  "raw_file": "bird-里海地鸦-690a0bbf.json",
+  "bird": {
+    "id": "bird-里海地鸦-690a0bbf",
+    "name": "里海地鸦",
+    "english_name": "Turkestan ground jay",
+    "latin_name": "Podoces panderi",
+    "summary": "里海地鸦（学名：Podoces panderi），是鸦科地鸦属的一种，分布于哈萨克斯坦、土库曼斯坦和乌兹别克斯坦。全球活动范围约为300,000平方千米。该物种的保护状况被评为无危。 里海地鸦的平均体重约为91.0克。栖息地为温带荒漠。",
+    "lat": "39",
+    "lng": "60",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Turkestan_Ground-Jay.jpg/960px-Turkestan_Ground-Jay.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-土库曼斯坦-53c22400",
+      "name": "土库曼斯坦",
+      "summary": "土库曼斯坦共和國（土庫曼語：Türkmenistan）是中亞西南部的內陸國，西鄰裏海，北東南分別與哈萨克斯坦、乌兹别克斯坦、阿富汗和伊朗接壤，面積49萬平方公里，是僅次於哈薩克斯坦的中亞第二大國家，約80％的國土被卡拉庫姆沙漠覆蓋。199…",
+      "lat": "39",
+      "lng": "60"
+    },
+    {
+      "id": "loc-乌兹别克斯坦-ad85c729",
+      "name": "乌兹别克斯坦",
+      "summary": "乌兹别克斯坦共和国（烏兹别克語：O'zbekiston Respublikasi；Ўзбекистон Республикаси），通稱乌兹别克斯坦，是一个位于中亚的內陸國家，也是全球的兩個雙重內陸國之一（另一個為列支敦斯登）。烏茲別克西…",
+      "lat": "42",
+      "lng": "64"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-里海地鸦-690a0bbf",
+      "subject": "里海地鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-土库曼斯坦-53c22400",
+      "object": "土库曼斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central Asia, particularly Kazakhstan, Turkmenistan, and Uzbekistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-里海地鸦-690a0bbf",
+      "subject": "里海地鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌兹别克斯坦-ad85c729",
+      "object": "乌兹别克斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central Asia, particularly Kazakhstan, Turkmenistan, and Uzbekistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-里海地鸦-690a0bbf",
+      "subject": "里海地鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

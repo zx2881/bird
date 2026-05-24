@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:01:03",
+  "requested_title": "Curl-crested Aracari",
+  "resolved_title": "Curl-crested aracari",
+  "title_aliases": [
+    "Curl-crested Aracari"
+  ],
+  "bird_id": "bird-curl-crested-aracari-1b3d2756",
+  "raw_file": "bird-curl-crested-aracari-1b3d2756.json",
+  "bird": {
+    "id": "bird-curl-crested-aracari-1b3d2756",
+    "name": "Curl-crested aracari",
+    "english_name": "Curl-crested aracari",
+    "latin_name": "Pteroglossus beauharnaisii",
+    "summary": "The curl-crested aracari or curl-crested araçari (Pteroglossus beauharnaisii) is a near-passerine bird in the toucan family Ramphastidae. I…",
+    "lat": "-2.3096",
+    "lng": "-54.8881",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Curl-crested_Aracari_at_Woodland_Park_Zoo.jpg/960px-Curl-crested_Aracari_at_Woodland_Park_Zoo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-亚马逊河-e416ee15",
+      "name": "亚马逊河",
+      "summary": "亚马逊河（葡萄牙語：Rio Amazonas；西班牙語：Río Amazonas；奇楚瓦語：Awqaq sipaskuna mayu；英語：Amazon River），也称亚马孙河，是一条位於南美洲北部的大型河流，自西向东流动。其发源自位…",
+      "lat": "-15.51777778",
+      "lng": "-71.69361111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-curl-crested-aracari-1b3d2756",
+      "subject": "Curl-crested aracari",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The curl-crested aracari is found in the southwestern Amazon Basin south of the Amazon River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-curl-crested-aracari-1b3d2756",
+      "subject": "Curl-crested aracari",
+      "predicate": "distributed_in",
+      "object_id": "loc-亚马逊河-e416ee15",
+      "object": "亚马逊河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The curl-crested aracari is found in the southwestern Amazon Basin south of the Amazon River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-curl-crested-aracari-1b3d2756",
+      "subject": "Curl-crested aracari",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

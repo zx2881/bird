@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:22:08",
+  "requested_title": "Brazilian Laniisoma",
+  "resolved_title": "Brazilian laniisoma",
+  "title_aliases": [
+    "Brazilian Laniisoma"
+  ],
+  "bird_id": "bird-brazilian-laniisoma-b409db4d",
+  "raw_file": "bird-brazilian-laniisoma-b409db4d.json",
+  "bird": {
+    "id": "bird-brazilian-laniisoma-b409db4d",
+    "name": "Brazilian laniisoma",
+    "english_name": "Brazilian laniisoma",
+    "latin_name": "Laniisoma elegans",
+    "summary": "The Brazilian laniisoma (Laniisoma elegans) is a species of bird in the family Tityridae, the tityras, becards, and allies. It is endemic t…",
+    "lat": "-9.57",
+    "lng": "-36.55",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Brazilian_Laniisoma%2C_REGUA%2C_Brazil_S4E1690_%2812814049155%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉戈斯州-fde6ddb0",
+      "name": "阿拉戈斯州",
+      "summary": "阿拉戈斯州（葡萄牙語：Alagoas，葡萄牙語發音：[alaˈɡoɐs]）是巴西26州之一， 位于巴西东北部。它與伯南布哥州、塞爾希培州和巴伊亞州接壤，東臨大西洋，首府马塞约（Maceio）。它擁有巴西1.6%的人口，下轄102個市鎮。…",
+      "lat": "-9.57",
+      "lng": "-36.55"
+    },
+    {
+      "id": "loc-圣卡塔琳娜州-610f6154",
+      "name": "圣卡塔琳娜州",
+      "summary": "圣卡塔琳娜州（葡萄牙語：Santa Catarina）是巴西南部的一个州，首府弗洛里亞諾波利斯，面积95,346.181平方公里，人口5,958,266人。 参见 胡利亚纳共和国",
+      "lat": "-27.25",
+      "lng": "-50.33333333"
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brazilian-laniisoma-b409db4d",
+      "subject": "Brazilian laniisoma",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉戈斯州-fde6ddb0",
+      "object": "阿拉戈斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southeastern Brazil from Alagoas south to eastern Santa Catarina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brazilian-laniisoma-b409db4d",
+      "subject": "Brazilian laniisoma",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣卡塔琳娜州-610f6154",
+      "object": "圣卡塔琳娜州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southeastern Brazil from Alagoas south to eastern Santa Catarina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brazilian-laniisoma-b409db4d",
+      "subject": "Brazilian laniisoma",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid primary forest and mature secondary forest and favors areas heavy with moss and vines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brazilian-laniisoma-b409db4d",
+      "subject": "Brazilian laniisoma",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid primary forest and mature secondary forest and favors areas heavy with moss and vines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brazilian-laniisoma-b409db4d",
+      "subject": "Brazilian laniisoma",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-brazilian-laniisoma-b409db4d",
+      "subject": "Brazilian laniisoma",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Agricultural conversion and deforestation for mining and plantation production historically threatened lowland forests",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

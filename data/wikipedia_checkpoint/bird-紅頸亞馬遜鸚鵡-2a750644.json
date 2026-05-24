@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:38:59",
+  "requested_title": "Red-necked Amazon",
+  "resolved_title": "Red-necked amazon",
+  "title_aliases": [
+    "Red-necked Amazon"
+  ],
+  "bird_id": "bird-紅頸亞馬遜鸚鵡-2a750644",
+  "raw_file": "bird-紅頸亞馬遜鸚鵡-2a750644.json",
+  "bird": {
+    "id": "bird-紅頸亞馬遜鸚鵡-2a750644",
+    "name": "紅頸亞馬遜鸚鵡",
+    "english_name": "Red-necked amazon",
+    "latin_name": "Amazona arausiaca",
+    "summary": "紅頸亞馬遜鸚鵡（學名：Amazona arausiaca），又名紅頸亞馬遜鸚哥或多明尼加鸚鵡，是多明尼加特有的一種鸚鵡。 紅頸亞馬遜鸚鵡是綠色的，身上散佈多種顏色。喉嚨上有紅色的羽毛。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Jaco_parrot_%28Amazona_arausiaca%29_in_Dominica_2026.jpg/960px-Jaco_parrot_%28Amazona_arausiaca%29_in_Dominica_2026.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加勒比岛屿列表-d9421032",
+      "name": "加勒比岛屿列表",
+      "summary": "本列表收录面积较大的加勒比地区岛屿。详细列表请参看各国岛屿列表。 佛罗里达礁岛群 美国 大松礁島（Big Pine Key）24°41′N 81°22′W 大礁島（Key Largo）25°5′N 80°27′W 基韋斯特島（Key We…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紅頸亞馬遜鸚鵡-2a750644",
+      "subject": "紅頸亞馬遜鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比岛屿列表-d9421032",
+      "object": "加勒比岛屿列表",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-necked amazon is only found in the Caribbean island of Dominica",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅頸亞馬遜鸚鵡-2a750644",
+      "subject": "紅頸亞馬遜鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-紅頸亞馬遜鸚鵡-2a750644",
+      "subject": "紅頸亞馬遜鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Threats included hunting, and, to a lesser extent, the pet trade",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-紅頸亞馬遜鸚鵡-2a750644",
+      "subject": "紅頸亞馬遜鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-trade",
+      "object": "非法贸易",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Today, hunting and illegal trade no longer pose a serious threat. More recent threats include the clearing of forests for agriculture, and hurricanes",
+      "object_summary": "为宠物或展示用途进行非法捕捉与交易。"
+    }
+  ]
+}

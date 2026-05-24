@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:56:13",
+  "requested_title": "Saipan Reed Warbler",
+  "resolved_title": "Saipan reed warbler",
+  "title_aliases": [
+    "Saipan Reed Warbler"
+  ],
+  "bird_id": "bird-saipan-reed-warbler-644360b3",
+  "raw_file": "bird-saipan-reed-warbler-644360b3.json",
+  "bird": {
+    "id": "bird-saipan-reed-warbler-644360b3",
+    "name": "Saipan reed warbler",
+    "english_name": "Saipan reed warbler",
+    "latin_name": "Acrocephalus hiwae",
+    "summary": "The Saipan reed warbler or gå'ga' karisu in Chamorro (Acrocephalus hiwae) is an endangered songbird of the Northern Mariana Islands. Taxono…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Saipan_Reed_Warbler_Acrocephalus_hiwae_on_Saipan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-saipan-reed-warbler-644360b3",
+      "subject": "Saipan reed warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "An estimated population of 2700 birds was reported in 2009 on Saipan, and on Alamagan 950 birds were reported in 2010. It inhabits wetlands, thickets and the margins of forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-saipan-reed-warbler-644360b3",
+      "subject": "Saipan reed warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "An estimated population of 2700 birds was reported in 2009 on Saipan, and on Alamagan 950 birds were reported in 2010. It inhabits wetlands, thickets and the margins of forests",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-saipan-reed-warbler-644360b3",
+      "subject": "Saipan reed warbler",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-saipan-reed-warbler-644360b3",
+      "subject": "Saipan reed warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Threats to the survival of the Saipan reed warbler include habitat destruction resulting from urban development and agriculture, the introduction of invasive species, and volcanic eruptions",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

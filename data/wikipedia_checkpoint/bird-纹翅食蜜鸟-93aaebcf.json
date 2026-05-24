@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:42:42",
+  "requested_title": "Striated Pardalote",
+  "resolved_title": "Striated pardalote",
+  "title_aliases": [
+    "Striated Pardalote"
+  ],
+  "bird_id": "bird-纹翅食蜜鸟-93aaebcf",
+  "raw_file": "bird-纹翅食蜜鸟-93aaebcf.json",
+  "bird": {
+    "id": "bird-纹翅食蜜鸟-93aaebcf",
+    "name": "纹翅食蜜鸟",
+    "english_name": "Striated pardalote",
+    "latin_name": "Pardalotus striatus",
+    "summary": "纹翅食蜜鸟（台湾作黃眉端斑啄果鳥，学名：Pardalotus striatus），是雀形目斑食蜜鸟科斑食蜜鸟属的一种鸟类。其种加词“striatus ”意为“有条纹的”。 纹翅食蜜鸟体重约11.44克，翼长约63.7毫米，嘴峰长约9毫米，喙宽度约3.4毫米，喙厚度约4毫米，跗蹠…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Pardalotus_with_nesting_material.jpg/960px-Pardalotus_with_nesting_material.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纹翅食蜜鸟-93aaebcf",
+      "subject": "纹翅食蜜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in all parts of Australia except some of the Western Australian deserts",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹翅食蜜鸟-93aaebcf",
+      "subject": "纹翅食蜜鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Striated pardalotes occupy a vast range of habitat types from tall mountain rainforest to arid scrubland, although they favour eucalyptus forest and woodlands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-纹翅食蜜鸟-93aaebcf",
+      "subject": "纹翅食蜜鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

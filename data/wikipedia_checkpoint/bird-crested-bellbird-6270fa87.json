@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:24:28",
+  "requested_title": "Crested Bellbird",
+  "resolved_title": "Crested bellbird",
+  "title_aliases": [
+    "Crested Bellbird"
+  ],
+  "bird_id": "bird-crested-bellbird-6270fa87",
+  "raw_file": "bird-crested-bellbird-6270fa87.json",
+  "bird": {
+    "id": "bird-crested-bellbird-6270fa87",
+    "name": "Crested bellbird",
+    "english_name": "Crested bellbird",
+    "latin_name": "Oreoica gutturalis",
+    "summary": "The crested bellbird (Oreoica gutturalis) is a medium-sized passerine bird in the family Oreoicidae. It is native to drier parts of Austral…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Crested_Bellbird_%285496774920%29.jpg/960px-Crested_Bellbird_%285496774920%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-crested-bellbird-6270fa87",
+      "subject": "Crested bellbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to drier parts of Australia where its typical habitats are acacia scrublands, eucalypt woodlands, spinifex and saltbush plains, and dunes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crested-bellbird-6270fa87",
+      "subject": "Crested bellbird",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The crested bellbird's habitat is usually found throughout the semi-arid coastlines and towards the drier interior areas of Australia, particularly in areas dominated by acacia scrublands, eucalypt woodlands, spinifex and chenopod (saltbush) plains or dunes.\"Birdlife,\" n.d",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-crested-bellbird-6270fa87",
+      "subject": "Crested bellbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-crested-bellbird-6270fa87",
+      "subject": "Crested bellbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The range of the crested bellbird has been contracted due to habitat destruction from land clearance, as this species is particularly susceptible to fragmentation.\"Birds in Backyards,\" n.d",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

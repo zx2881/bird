@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:41:06",
+  "requested_title": "Golden-winged Warbler",
+  "resolved_title": "Golden-winged warbler",
+  "title_aliases": [
+    "Golden-winged Warbler"
+  ],
+  "bird_id": "bird-golden-winged-warbler-08b4f586",
+  "raw_file": "bird-golden-winged-warbler-08b4f586.json",
+  "bird": {
+    "id": "bird-golden-winged-warbler-08b4f586",
+    "name": "Golden-winged warbler",
+    "english_name": "Golden-winged warbler",
+    "latin_name": "Vermivora chrysoptera",
+    "summary": "The golden-winged warbler (Vermivora chrysoptera) is a small migratory insectivorous bird in the New World warbler family Parulidae. It bre…",
+    "lat": "23",
+    "lng": "-102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Vermivora_chrysoptera_400767711.jpg/960px-Vermivora_chrysoptera_400767711.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-winged-warbler-08b4f586",
+      "subject": "Golden-winged warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Birds from the Appalachian population tend to migrate to South America to winter, while birds from the Great Lakes population tend to migrate to Central America and Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-winged-warbler-08b4f586",
+      "subject": "Golden-winged warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Birds from the Appalachian population tend to migrate to South America to winter, while birds from the Great Lakes population tend to migrate to Central America and Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-winged-warbler-08b4f586",
+      "subject": "Golden-winged warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Birds from the Appalachian population tend to migrate to South America to winter, while birds from the Great Lakes population tend to migrate to Central America and Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-winged-warbler-08b4f586",
+      "subject": "Golden-winged warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Golden-winged warblers forage in hanging dead leaves, which are often a result of intermediate disturbances to the forest plant community. During the breeding season, golden-winged warblers nest in shrubland and regenerating forest communities created and maintained by disturbance",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-golden-winged-warbler-08b4f586",
+      "subject": "Golden-winged warbler",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

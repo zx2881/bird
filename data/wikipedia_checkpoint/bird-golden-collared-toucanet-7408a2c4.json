@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:01:47",
+  "requested_title": "Golden-collared Toucanet",
+  "resolved_title": "Golden-collared toucanet",
+  "title_aliases": [
+    "Golden-collared Toucanet"
+  ],
+  "bird_id": "bird-golden-collared-toucanet-7408a2c4",
+  "raw_file": "bird-golden-collared-toucanet-7408a2c4.json",
+  "bird": {
+    "id": "bird-golden-collared-toucanet-7408a2c4",
+    "name": "Golden-collared toucanet",
+    "english_name": "Golden-collared toucanet",
+    "latin_name": "Selenidera reinwardtii",
+    "summary": "The golden-collared toucanet (Selenidera reinwardtii) is a near-passerine bird in the toucan family Ramphastidae. It is found in Bolivia, B…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Selenidera_reinwardtii_langsdorfii_-_Golden-collared_toucanet_%28male%29%3B_Careiro%2C_Amazonas%2C_Brazil.jpg/960px-Selenidera_reinwardtii_langsdorfii_-_Golden-collared_toucanet_%28male%29%3B_Careiro%2C_Amazonas%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-collared-toucanet-7408a2c4",
+      "subject": "Golden-collared toucanet",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the interior and edges of montane forest, forest in floodplains, and occasionally várzea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-collared-toucanet-7408a2c4",
+      "subject": "Golden-collared toucanet",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits the interior and edges of montane forest, forest in floodplains, and occasionally várzea",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-golden-collared-toucanet-7408a2c4",
+      "subject": "Golden-collared toucanet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

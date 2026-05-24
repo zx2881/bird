@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:10:47",
+  "requested_title": "Graceful Pitta",
+  "resolved_title": "Graceful pitta",
+  "title_aliases": [
+    "Graceful Pitta"
+  ],
+  "bird_id": "bird-黑冠八色鸫-5ea00da7",
+  "raw_file": "bird-黑冠八色鸫-5ea00da7.json",
+  "bird": {
+    "id": "bird-黑冠八色鸫-5ea00da7",
+    "name": "黑冠八色鸫",
+    "english_name": "Graceful pitta",
+    "latin_name": "Erythropitta venusta",
+    "summary": "黑冠八色鸫（学名：Erythropitta venusta）是八色鸫科红胸八色鸫属的一种，为印度尼西亚的特有种。全球活动范围约为71,500平方千米。该物种的保护状况被评为易危。 黑冠八色鸫的栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林。",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Graceful_Pitta_0A2A8564.jpg/960px-Graceful_Pitta_0A2A8564.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-森林砍伐-a42d3dcf",
+      "name": "森林砍伐",
+      "summary": "森林砍伐，或稱森林開伐、去森林化（Deforestation）、森林破壞，意為人為的將森林地轉成耕地、牧場、城市等非森林用途的行為。一般來說，森林開伐會造成環境退化和物種多樣性的減少。許多國家還在進行森林開伐，造成了氣候變遷和地理環境的改…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑冠八色鸫-5ea00da7",
+      "subject": "黑冠八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in Sumatra in Indonesia, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑冠八色鸫-5ea00da7",
+      "subject": "黑冠八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in Sumatra in Indonesia, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑冠八色鸫-5ea00da7",
+      "subject": "黑冠八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林砍伐-a42d3dcf",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits dense, moist woods with a thick understory of plants, but its habitat has been decreasing rapidly due to deforestation owing to the demand for palm oil, which Indonesia is the largest producer of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑冠八色鸫-5ea00da7",
+      "subject": "黑冠八色鸫",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in Sumatra in Indonesia, where its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-黑冠八色鸫-5ea00da7",
+      "subject": "黑冠八色鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黑冠八色鸫-5ea00da7",
+      "subject": "黑冠八色鸫",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-黑冠八色鸫-5ea00da7",
+      "subject": "黑冠八色鸫",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The graceful pitta has been legally protected from hunting since 1931. However, its population is primarily threatened by deforestation, besides minor agriculture and aquaculture",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-黑冠八色鸫-5ea00da7",
+      "subject": "黑冠八色鸫",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The graceful pitta has been legally protected from hunting since 1931. However, its population is primarily threatened by deforestation, besides minor agriculture and aquaculture",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

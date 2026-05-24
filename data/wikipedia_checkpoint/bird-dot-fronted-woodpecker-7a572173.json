@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:21:18",
+  "requested_title": "Dot-fronted Woodpecker",
+  "resolved_title": "Dot-fronted woodpecker",
+  "title_aliases": [
+    "Dot-fronted Woodpecker"
+  ],
+  "bird_id": "bird-dot-fronted-woodpecker-7a572173",
+  "raw_file": "bird-dot-fronted-woodpecker-7a572173.json",
+  "bird": {
+    "id": "bird-dot-fronted-woodpecker-7a572173",
+    "name": "Dot-fronted woodpecker",
+    "english_name": "Dot-fronted woodpecker",
+    "latin_name": "Veniliornis frontalis",
+    "summary": "The dot-fronted woodpecker (Veniliornis frontalis) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is found…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Dot-fronted_Woodpecker.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dot-fronted-woodpecker-7a572173",
+      "subject": "Dot-fronted woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=August 2022 |access-date=9 January 2023 }} It is found in Argentina and Bolivia.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dot-fronted-woodpecker-7a572173",
+      "subject": "Dot-fronted woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=August 2022 |access-date=9 January 2023 }} It is found in Argentina and Bolivia.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dot-fronted-woodpecker-7a572173",
+      "subject": "Dot-fronted woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

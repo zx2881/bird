@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:43:26",
+  "requested_title": "Perija Parakeet",
+  "resolved_title": "Painted parakeet",
+  "title_aliases": [
+    "Painted Parakeet",
+    "Perija Parakeet"
+  ],
+  "bird_id": "bird-painted-parakeet-0bc41562",
+  "raw_file": "bird-painted-parakeet-0bc41562.json",
+  "bird": {
+    "id": "bird-painted-parakeet-0bc41562",
+    "name": "Painted parakeet",
+    "english_name": "Painted parakeet",
+    "latin_name": "Pyrrhura picta",
+    "summary": "The painted parakeet (Pyrrhura picta), known as the painted conure in aviculture, is a species of bird in subfamily Arinae of the family Ps…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pyrrhura_picta_-_Painted_parakeet%3B_Presidente_Figueiredo%2C_Amazonas%2C_Brazil.jpg/960px-Pyrrhura_picta_-_Painted_parakeet%3B_Presidente_Figueiredo%2C_Amazonas%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-painted-parakeet-0bc41562",
+      "subject": "Painted parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits terra firme and várzea forests, forested savanna, and coastal sand-ridge forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-painted-parakeet-0bc41562",
+      "subject": "Painted parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits terra firme and várzea forests, forested savanna, and coastal sand-ridge forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-painted-parakeet-0bc41562",
+      "subject": "Painted parakeet",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits terra firme and várzea forests, forested savanna, and coastal sand-ridge forest",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-painted-parakeet-0bc41562",
+      "subject": "Painted parakeet",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-painted-parakeet-0bc41562",
+      "subject": "Painted parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The species is threatened by habitat loss for conversion to agricultural areas.\" It does occur in the largely intact Cerro Hoya National Park",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

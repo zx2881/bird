@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:18:04",
+  "requested_title": "Common Chiffchaff",
+  "resolved_title": "Common chiffchaff",
+  "title_aliases": [
+    "Common Chiffchaff"
+  ],
+  "bird_id": "bird-叽喳柳莺-48c29675",
+  "raw_file": "bird-叽喳柳莺-48c29675.json",
+  "bird": {
+    "id": "bird-叽喳柳莺-48c29675",
+    "name": "叽喳柳莺",
+    "english_name": "Common chiffchaff",
+    "latin_name": "Phylloscopus collybita",
+    "summary": "叽咋柳莺（学名：Phylloscopus collybita），又名囂鴓鳥，为柳莺科柳莺属的鸟类。是一種常見且廣泛分佈的柳鶯，主要在北歐及溫帶歐洲和古北界的開闊林地中繁殖。 這是一種遷徙性雀形目鳥類，冬季棲息於歐洲南部和西部、亞洲南部以及北非。其上半身呈綠褐色，下半身為灰白色，…",
+    "lat": "51.50722222",
+    "lng": "-0.1275",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Common_Chiffchaff_2025_04_04_01.jpg/960px-Common_Chiffchaff_2025_04_04_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "name": "路易·皮埃尔·维埃约",
+      "summary": "路易·皮埃尔·维埃约（法語：Louis Pierre Vieillot，1748年5月10日—1830年8月24日）是法国的鳥類學家。 维埃约是第一批用卡尔·林奈式二名法科学描述鸟类的研究者之一。至少有26个他命名的鸟类至今仍在学术界使用…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-伦敦-e32aa700",
+      "name": "伦敦",
+      "summary": "伦敦（英語：London；/ˈlʌndən/）是英国首都，也是英國最大都市以及其構成國英格蘭的首府，總人口約8,866,180人。位于泰晤士河流域，于公元50年由罗马人建立，当名为「伦蒂尼恩」，在此后两个世纪内为这一地区最重要的定居点之一…",
+      "lat": "51.50722222",
+      "lng": "-0.1275"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-叽喳柳莺-48c29675",
+      "subject": "叽喳柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "object": "路易·皮埃尔·维埃约",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2024 |title=Phylloscopus collybita |volume=2024 |article-number=e.T103843725A264567918 |doi=10.2305/IUCN.UK.2024-2.RLTS.T103843725A264567918.en |access-date=19 February 2026}} | image = Common Chiffchaff 2025 04 04 01.jpg | image_upright = 1.1 | image_caption = In France | image2 = Chiffchaff (Phylloscopus collybita) (W1CDR0001497 BD9).ogg | image2_caption = Typical song, recorded in the United Kingdom in 1977 | genus = Phylloscopus | species = collybita | authority = (Vieillot, 1817) | range_map = Phylloscopus collybita.png | range_map_upright = 1.1 | range_map_caption = }} The common chiffchaff (Phylloscopus collybita), or simply the chiffchaff, is a common and widespread leaf warbler which breeds in open woodlands throughout northern and temperate Europe and the Palearctic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-叽喳柳莺-48c29675",
+      "subject": "叽喳柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-伦敦-e32aa700",
+      "object": "伦敦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is often found near water, unlike the willow warbler which tolerates drier habitats. There is an increasing tendency to winter in western Europe well north of the traditional areas, especially in coastal southern England and the mild urban microclimate of London. These overwintering common chiffchaffs include some visitors of the eastern subspecies abietinus and tristis, so they are certainly not all birds which have bred locally, although some undoubtedly are",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-叽喳柳莺-48c29675",
+      "subject": "叽喳柳莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

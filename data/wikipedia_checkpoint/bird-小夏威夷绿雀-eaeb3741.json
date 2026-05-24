@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:26:05",
+  "requested_title": "Anianiau",
+  "resolved_title": "ʻAnianiau",
+  "title_aliases": [
+    "Anianiau",
+    "ʻAnianiau"
+  ],
+  "bird_id": "bird-小夏威夷绿雀-eaeb3741",
+  "raw_file": "bird-小夏威夷绿雀-eaeb3741.json",
+  "bird": {
+    "id": "bird-小夏威夷绿雀-eaeb3741",
+    "name": "小夏威夷绿雀",
+    "english_name": "ʻAnianiau",
+    "latin_name": "Magumma parva",
+    "summary": "小夏威夷绿雀（(Magumma parva)/ˌɑːniˌɑːniˈaʊ/，是夏威夷考艾岛特有的一种雀。 该物种是Hemignathus属的远亲（短嘴導顎雀和ʻamakihis），而它则被单独地归类于小夏威夷绿雀属中。",
+    "lat": "20",
+    "lng": "-157",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Magumma_parva.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-hawaiian-tropical-rainforests-3b92c5ed",
+      "name": "Hawaiian tropical rainforests",
+      "summary": "The Hawaiian tropical rainforests are a tropical moist broadleaf forest ecoregion in the Hawaiian Islands.",
+      "lat": "20",
+      "lng": "-157"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小夏威夷绿雀-eaeb3741",
+      "subject": "小夏威夷绿雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-hawaiian-tropical-rainforests-3b92c5ed",
+      "object": "Hawaiian tropical rainforests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Anianiau are found in mesic and wet forests at elevations above",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小夏威夷绿雀-eaeb3741",
+      "subject": "小夏威夷绿雀",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-小夏威夷绿雀-eaeb3741",
+      "subject": "小夏威夷绿雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Habitat degradation and invasion by non-native plants are the most significant threats to this species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

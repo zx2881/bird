@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:31:08",
+  "requested_title": "Chat Flycatcher",
+  "resolved_title": "Chat flycatcher",
+  "title_aliases": [
+    "Chat Flycatcher"
+  ],
+  "bird_id": "bird-chat-flycatcher-7cfc27bd",
+  "raw_file": "bird-chat-flycatcher-7cfc27bd.json",
+  "bird": {
+    "id": "bird-chat-flycatcher-7cfc27bd",
+    "name": "Chat flycatcher",
+    "english_name": "Chat flycatcher",
+    "latin_name": "Agricola infuscatus",
+    "summary": "The chat flycatcher (Agricola infuscatus) is a small passerine bird in the Old World flycatcher family Muscicapidae that is native to south…",
+    "lat": "-30",
+    "lng": "25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Bradornis_infuscatus.jpg/960px-Bradornis_infuscatus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "name": "Andrew Smith (zoologist)",
+      "summary": "Sir Andrew Smith (3 December 1797 – 11 August 1872) was a British surgeon, explorer, ethnologist and zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    },
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chat-flycatcher-7cfc27bd",
+      "subject": "Chat flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-andrew-smith-zoologist-0d5c7ea9",
+      "object": "Andrew Smith (zoologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2024 |title=Agricola infuscatus |volume=2024 |article-number=e.T22709040A263876477 |doi=10.2305/IUCN.UK.2024-2.RLTS.T22709040A263876477.en |access-date=12 February 2025}} | genus = Agricola | species = infuscatus | authority = (Smith, A, 1839) | synonyms = Bradornis infuscatusMelaenornis infuscatusSaxicola infuscata }} The chat flycatcher (Agricola infuscatus) is a small passerine bird in the Old World flycatcher family Muscicapidae that is native to southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chat-flycatcher-7cfc27bd",
+      "subject": "Chat flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chat flycatcher is found in South Africa, Botswana and Angola. The flycatcher frequently perches on low-lying bushes and telephone wires. Its natural habitat is dry savanna",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chat-flycatcher-7cfc27bd",
+      "subject": "Chat flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chat flycatcher is found in South Africa, Botswana and Angola. The flycatcher frequently perches on low-lying bushes and telephone wires. Its natural habitat is dry savanna",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chat-flycatcher-7cfc27bd",
+      "subject": "Chat flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The chat flycatcher is found in South Africa, Botswana and Angola. The flycatcher frequently perches on low-lying bushes and telephone wires. Its natural habitat is dry savanna",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-chat-flycatcher-7cfc27bd",
+      "subject": "Chat flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "However, it is also found in shrublands and woodlands throughout its range",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-chat-flycatcher-7cfc27bd",
+      "subject": "Chat flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

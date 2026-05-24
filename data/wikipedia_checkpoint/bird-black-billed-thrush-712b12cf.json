@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:56:09",
+  "requested_title": "Black-billed Thrush",
+  "resolved_title": "Black-billed thrush",
+  "title_aliases": [
+    "Black-billed Thrush"
+  ],
+  "bird_id": "bird-black-billed-thrush-712b12cf",
+  "raw_file": "bird-black-billed-thrush-712b12cf.json",
+  "bird": {
+    "id": "bird-black-billed-thrush-712b12cf",
+    "name": "Black-billed thrush",
+    "english_name": "Black-billed thrush",
+    "latin_name": "Turdus ignobilis",
+    "summary": "The black-billed thrush (Turdus ignobilis) is a species of bird in the family Turdidae. It is found in Bolivia, Brazil, Colombia, Ecuador,…",
+    "lat": "4.85",
+    "lng": "-76.38333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Black-billed_thrush_%28Turdus_ignobilis_debilis%29_Sumaco.jpg/960px-Black-billed_thrush_%28Turdus_ignobilis_debilis%29_Sumaco.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥倫比亞中部山脈-3a4c895f",
+      "name": "哥倫比亞中部山脈",
+      "summary": "哥倫比亞中部山脈（西班牙語：Cordillera Central），是哥倫比亞的山脈，屬於安第斯山脈的一部分，全長1,023公里，面積129,737平方公里，最高點是海拔高度5,364米的內瓦多·德·烏伊拉火山。",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-哥倫比亞西部山脈-7c4fdad6",
+      "name": "哥倫比亞西部山脈",
+      "summary": "哥倫比亞西部山脈（西班牙語：Cordillera Occidental），是哥倫比亞的山脈，屬於安第斯山脈的一部分，全長1,200公里，面積86,239平方公里，平均海拔高度2,000米，最高點海拔高度4,250米。",
+      "lat": "4.85",
+      "lng": "-76.38333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-billed-thrush-712b12cf",
+      "subject": "Black-billed thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥倫比亞中部山脈-3a4c895f",
+      "object": "哥倫比亞中部山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies is found in Colombia's Central and Eastern Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-thrush-712b12cf",
+      "subject": "Black-billed thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥倫比亞西部山脈-7c4fdad6",
+      "object": "哥倫比亞西部山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "goodfellowi is found in Colombia's Cauca River valley and on the western slope of the country's Western Andes. The range of T",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-billed-thrush-712b12cf",
+      "subject": "Black-billed thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

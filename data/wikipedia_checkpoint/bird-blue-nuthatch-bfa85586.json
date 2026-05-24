@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:18:22",
+  "requested_title": "Blue Nuthatch",
+  "resolved_title": "Blue nuthatch",
+  "title_aliases": [
+    "Blue Nuthatch"
+  ],
+  "bird_id": "bird-blue-nuthatch-bfa85586",
+  "raw_file": "bird-blue-nuthatch-bfa85586.json",
+  "bird": {
+    "id": "bird-blue-nuthatch-bfa85586",
+    "name": "Blue nuthatch",
+    "english_name": "Blue nuthatch",
+    "latin_name": "Sitta azurea",
+    "summary": "The blue nuthatch (Sitta azurea) is a bird species in the nuthatch family Sittidae. It is a medium-sized nuthatch, measuring 13.5 cm (5.3 i…",
+    "lat": "7",
+    "lng": "100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Blue_Nuthatch_-_Cibodas_Botanical_Garden%2C_Java%2C_Indonesia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-nuthatch-bfa85586",
+      "subject": "Blue nuthatch",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They can be found in the Malay Peninsula and on the islands of Sumatra and Java in Indonesia, where it inhabits subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest above in altitude",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-nuthatch-bfa85586",
+      "subject": "Blue nuthatch",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They can be found in the Malay Peninsula and on the islands of Sumatra and Java in Indonesia, where it inhabits subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest above in altitude",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-nuthatch-bfa85586",
+      "subject": "Blue nuthatch",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They can be found in the Malay Peninsula and on the islands of Sumatra and Java in Indonesia, where it inhabits subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest above in altitude",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-blue-nuthatch-bfa85586",
+      "subject": "Blue nuthatch",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "II: Birds |journal=Journal of the Federated Malay States Museums|publisher=Kelly & Walsh |volume= VIII|oclc=15726954|url=https://archive.org/stream/journaloffed411191124sela#page/n559/mode/2up|page=229}} The blue nuthatch is typically found on mountains, inhabiting subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-blue-nuthatch-bfa85586",
+      "subject": "Blue nuthatch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

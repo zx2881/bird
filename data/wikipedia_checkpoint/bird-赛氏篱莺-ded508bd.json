@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:25:13",
+  "requested_title": "Sykes's Warbler",
+  "resolved_title": "Sykes's warbler",
+  "title_aliases": [
+    "Sykes's Warbler"
+  ],
+  "bird_id": "bird-赛氏篱莺-ded508bd",
+  "raw_file": "bird-赛氏篱莺-ded508bd.json",
+  "bird": {
+    "id": "bird-赛氏篱莺-ded508bd",
+    "name": "赛氏篱莺",
+    "english_name": "Sykes's warbler",
+    "latin_name": "Iduna rama",
+    "summary": "赛氏篱莺（台湾作塞克氏鶯）（学名：Iduna rama），是雀形目苇莺科的一种鸟类。 特征 赛氏篱莺体重约9.3克，翼长约60.6毫米，嘴峰长约17.8毫米，喙宽度约3.1毫米，喙厚度约2.6毫米，跗蹠长约18.5毫米，尾长约52毫米。赛氏篱莺是候鸟，其栖息在开放的灌木丛中，食…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Syke%27s_Warbler_%28Hippolais_rama%29_on_Vilaiti_Siris_%28Samanea_saman%29_in_Kolkata_W_IMG_4659.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-威廉-亨利-赛克斯-571f524c",
+      "name": "威廉·亨利·赛克斯",
+      "summary": "威廉·亨利·赛克斯（英語：William Henry Sykes，1790年1月25日—1872年6月16日）是一位英国政治家、鸟类学家和印度学家，曾担任皇家统计学会会长和皇家亚洲学会主席。 参考文献 外部链接 1803年至2005年議事…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-莺科-7e5f1a24",
+      "name": "莺科",
+      "summary": "莺科（学名：Sylviidae）是鸟类DNA分类系统和鸟类全基因组测序分类系统中鸟纲雀形目的一个科。鶯科有2屬（林莺属及白喉林莺属）32種。在鸟类传统分类系统中，莺科的所有种作为鹟科下的一个亚科莺亚科(Sylviinae)的成员。莺科鸟类…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-赛氏篱莺-ded508bd",
+      "subject": "赛氏篱莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-威廉-亨利-赛克斯-571f524c",
+      "object": "威廉·亨利·赛克斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Sykes's warbler (Iduna rama) is an Old World warbler in the tree warbler family",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赛氏篱莺-ded508bd",
+      "subject": "赛氏篱莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-莺科-7e5f1a24",
+      "object": "莺科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Sykes's warbler (Iduna rama) is an Old World warbler in the tree warbler family",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赛氏篱莺-ded508bd",
+      "subject": "赛氏篱莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

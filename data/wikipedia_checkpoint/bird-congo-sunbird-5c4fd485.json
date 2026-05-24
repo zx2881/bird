@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:05:10",
+  "requested_title": "Congo Sunbird",
+  "resolved_title": "Congo sunbird",
+  "title_aliases": [
+    "Congo Sunbird"
+  ],
+  "bird_id": "bird-congo-sunbird-5c4fd485",
+  "raw_file": "bird-congo-sunbird-5c4fd485.json",
+  "bird": {
+    "id": "bird-congo-sunbird-5c4fd485",
+    "name": "Congo sunbird",
+    "english_name": "Congo sunbird",
+    "latin_name": "Cinnyris congensis",
+    "summary": "The Congo sunbird (Cinnyris congensis) is a species of bird in the family Nectariniidae. It is found in Republic of the Congo and Democrati…",
+    "lat": "-1.44",
+    "lng": "15.556",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-刚果共和国-287170ca",
+      "name": "刚果共和国",
+      "summary": "刚果共和国（法語：République du Congo；基图巴语：Repubilika ya Kongo；林加拉语：Republiki ya Kongó），简称刚果、刚果（布拉柴维尔）或刚果（布），是非洲中部的一个国家，首都为布拉柴维尔…",
+      "lat": "-1.44",
+      "lng": "15.556"
+    },
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    },
+    {
+      "id": "loc-刚果河-c5bc3c9a",
+      "name": "刚果河",
+      "summary": "刚果河（英語：Congo River，剛果語：Nzadi Kongo，林格拉語：Ebale Kongó，斯瓦希里語：Mto wa Kongo，法語：Fleuve Congo）是世界上最深的河流（最深處达220米），且还是非洲中西部最长的河…",
+      "lat": "-6.075",
+      "lng": "12.45"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-congo-sunbird-5c4fd485",
+      "subject": "Congo sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果共和国-287170ca",
+      "object": "刚果共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Republic of the Congo and Democratic Republic of the Congo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-congo-sunbird-5c4fd485",
+      "subject": "Congo sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Republic of the Congo and Democratic Republic of the Congo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-congo-sunbird-5c4fd485",
+      "subject": "Congo sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果河-c5bc3c9a",
+      "object": "刚果河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Known from the Republic of Congo and the Democratic Republic of the Congo, where it occurs in riverine forests along the banks of the middle Congo River and its tributaries",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-congo-sunbird-5c4fd485",
+      "subject": "Congo sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

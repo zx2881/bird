@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:25:46",
+  "requested_title": "White-fronted Tit",
+  "resolved_title": "White-fronted tit",
+  "title_aliases": [
+    "White-fronted Tit"
+  ],
+  "bird_id": "bird-white-fronted-tit-aa82a925",
+  "raw_file": "bird-white-fronted-tit-aa82a925.json",
+  "bird": {
+    "id": "bird-white-fronted-tit-aa82a925",
+    "name": "White-fronted tit",
+    "english_name": "White-fronted tit",
+    "latin_name": "Sittiparus semilarvatus",
+    "summary": "The white-fronted tit (Sittiparus semilarvatus) is a species of bird in the family Paridae. It is endemic to the Philippines found in the i…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/White-fronted_Tit.jpg/960px-White-fronted_Tit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-呂宋-58363350",
+      "name": "呂宋",
+      "summary": "呂宋（他加祿語：Luzon；白話字：Lū-sòng）是菲律賓最大的島，也是世界第15大島，面積109,965平方公里。呂宋島位於菲律賓北部，是首都馬尼拉的所在地。呂宋島在台灣南方，米沙鄢群島北方，南海東方，菲律宾海西方。《劍橋百科》介紹：…",
+      "lat": "16",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-fronted-tit-aa82a925",
+      "subject": "White-fronted tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines found in the islands of Luzon and Mindanao",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-fronted-tit-aa82a925",
+      "subject": "White-fronted tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-呂宋-58363350",
+      "object": "呂宋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines found in the islands of Luzon and Mindanao",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-fronted-tit-aa82a925",
+      "subject": "White-fronted tit",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-white-fronted-tit-aa82a925",
+      "subject": "White-fronted tit",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-white-fronted-tit-aa82a925",
+      "subject": "White-fronted tit",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

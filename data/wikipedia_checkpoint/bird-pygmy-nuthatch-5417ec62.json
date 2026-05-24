@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:19:15",
+  "requested_title": "Pygmy Nuthatch",
+  "resolved_title": "Pygmy nuthatch",
+  "title_aliases": [
+    "Pygmy Nuthatch"
+  ],
+  "bird_id": "bird-pygmy-nuthatch-5417ec62",
+  "raw_file": "bird-pygmy-nuthatch-5417ec62.json",
+  "bird": {
+    "id": "bird-pygmy-nuthatch-5417ec62",
+    "name": "Pygmy nuthatch",
+    "english_name": "Pygmy nuthatch",
+    "latin_name": "Sitta pygmaea",
+    "summary": "The pygmy nuthatch (Sitta pygmaea) is a tiny songbird, native to western North America. Description The pygmy nuthatch is 9–11 cm (3.5–4.3…",
+    "lat": "36.0552608",
+    "lng": "-112.1218355",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/PygmyNuthatch.jpg/960px-PygmyNuthatch.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大峽谷國家公園-28f7b466",
+      "name": "大峽谷國家公園",
+      "summary": "大峽谷國家公園（英語：Grand Canyon National Park）是世界七大自然奇观之一，位於美國西南部的國家公園，在1979年被联合国教科文组织列为世界自然遺產，以深達1500公尺，由科羅拉多河耗費萬年所切割出來的科羅拉多大峽…",
+      "lat": "36.0552608",
+      "lng": "-112.1218355"
+    },
+    {
+      "id": "loc-尼古拉斯-艾爾沃德-維戈斯-6f7bd040",
+      "name": "尼古拉斯·艾爾沃德·維戈斯",
+      "summary": "尼古拉斯·艾爾沃德·維戈斯（英語：Nicholas Aylward Vigors，1785年12月12日—1840年10月26日），爱尔兰动物学家和政治人物。 早年 維戈斯是一位上尉的长子。他曾在第29步兵軍團服役。他于1803年11月进…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pygmy-nuthatch-5417ec62",
+      "subject": "Pygmy nuthatch",
+      "predicate": "distributed_in",
+      "object_id": "loc-大峽谷國家公園-28f7b466",
+      "object": "大峽谷國家公園",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pygmy nuthatch (Sitta pygmaea) is a tiny songbird, native to western North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pygmy-nuthatch-5417ec62",
+      "subject": "Pygmy nuthatch",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼古拉斯-艾爾沃德-維戈斯-6f7bd040",
+      "object": "尼古拉斯·艾爾沃德·維戈斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pygmy nuthatch (Sitta pygmaea) is a tiny songbird, native to western North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pygmy-nuthatch-5417ec62",
+      "subject": "Pygmy nuthatch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

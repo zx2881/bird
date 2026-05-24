@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:23:17",
+  "requested_title": "Yellow-eyed Starling",
+  "resolved_title": "Yellow-eyed starling",
+  "title_aliases": [
+    "Yellow-eyed Starling"
+  ],
+  "bird_id": "bird-yellow-eyed-starling-a956edf3",
+  "raw_file": "bird-yellow-eyed-starling-a956edf3.json",
+  "bird": {
+    "id": "bird-yellow-eyed-starling-a956edf3",
+    "name": "Yellow-eyed starling",
+    "english_name": "Yellow-eyed starling",
+    "latin_name": "Aplonis mystacea",
+    "summary": "The yellow-eyed starling (Aplonis mystacea) is a species of starling in the family Sturnidae. It is found in Indonesia and Papua New Guinea.",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Yellow-eyed_Starling_-_Lagos_Zoo_-_The_Algarve%2C_Portugal_%281735258857%29.jpg/960px-Yellow-eyed_Starling_-_Lagos_Zoo_-_The_Algarve%2C_Portugal_%281735258857%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-eyed-starling-a956edf3",
+      "subject": "Yellow-eyed starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-eyed-starling-a956edf3",
+      "subject": "Yellow-eyed starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-eyed-starling-a956edf3",
+      "subject": "Yellow-eyed starling",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-yellow-eyed-starling-a956edf3",
+      "subject": "Yellow-eyed starling",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

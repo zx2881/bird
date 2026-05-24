@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:36:09",
+  "requested_title": "Fire-maned Bowerbird",
+  "resolved_title": "Fire-maned bowerbird",
+  "title_aliases": [
+    "Fire-maned Bowerbird"
+  ],
+  "bird_id": "bird-贝氏辉亭鸟-3403c2e3",
+  "raw_file": "bird-贝氏辉亭鸟-3403c2e3.json",
+  "bird": {
+    "id": "bird-贝氏辉亭鸟-3403c2e3",
+    "name": "贝氏辉亭鸟",
+    "english_name": "Fire-maned bowerbird",
+    "latin_name": "Sericulus bakeri",
+    "summary": "贝氏辉亭鸟（台湾作貝氏別墅鳥，学名：Sericulus bakeri），是雀形目园丁鸟科的一种鸟类。 贝氏辉亭鸟体重约176.46克，翼长约135.5毫米，嘴峰长约29.1毫米，喙宽度约8毫米，喙厚度约9.2毫米，跗蹠长约41.5毫米，尾长约89.1毫米。贝氏辉亭鸟在其分布区内…",
+    "lat": "-4.7166667",
+    "lng": "145.25",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-阿德爾伯特山脈-4735d05d",
+      "name": "阿德爾伯特山脈",
+      "summary": "阿德爾伯特山脈是巴布亞新幾內亞的山脈，位於該國中北部，由馬當省負責管轄，最高點海拔高度1,716米，該山脈是超過700種鳥類的棲息地。",
+      "lat": "-4.7166667",
+      "lng": "145.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-贝氏辉亭鸟-3403c2e3",
+      "subject": "贝氏辉亭鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿德爾伯特山脈-4735d05d",
+      "object": "阿德爾伯特山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The fire-maned bowerbird (Sericulus bakeri) is a medium-sized, approximately long, bowerbird that inhabits and endemic to the forests of the Adelbert Range in Papua New Guinea.{{cite journal |last1=Diamond |first1=Jared |last2=Bishop |first2=K",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-贝氏辉亭鸟-3403c2e3",
+      "subject": "贝氏辉亭鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-贝氏辉亭鸟-3403c2e3",
+      "subject": "贝氏辉亭鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to ongoing habitat loss and limited range, the fire-maned bowerbird is evaluated as near threatened on the IUCN Red List of Threatened Species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:04:14",
+  "requested_title": "West Papuan Lorikeet",
+  "resolved_title": "West Papuan lorikeet",
+  "title_aliases": [
+    "West Papuan Lorikeet"
+  ],
+  "bird_id": "bird-west-papuan-lorikeet-c148aec6",
+  "raw_file": "bird-west-papuan-lorikeet-c148aec6.json",
+  "bird": {
+    "id": "bird-west-papuan-lorikeet-c148aec6",
+    "name": "West Papuan lorikeet",
+    "english_name": "West Papuan lorikeet",
+    "latin_name": "Charmosyna papou",
+    "summary": "The West Papuan lorikeet (Charmosyna papou) is a species of parrot in the family Psittaculidae. It is found in New Guinea.",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Charmosyna_papou_-Fort_Worth_Zoo-8.jpg/960px-Charmosyna_papou_-Fort_Worth_Zoo-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-west-papuan-lorikeet-c148aec6",
+      "subject": "West Papuan lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-west-papuan-lorikeet-c148aec6",
+      "subject": "West Papuan lorikeet",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-west-papuan-lorikeet-c148aec6",
+      "subject": "West Papuan lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

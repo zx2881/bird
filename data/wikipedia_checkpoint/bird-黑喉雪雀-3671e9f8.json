@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:15:03",
+  "requested_title": "Pere David's Snowfinch",
+  "resolved_title": "Père David's snowfinch",
+  "title_aliases": [
+    "Pere David's Snowfinch",
+    "Père David's snowfinch"
+  ],
+  "bird_id": "bird-黑喉雪雀-3671e9f8",
+  "raw_file": "bird-黑喉雪雀-3671e9f8.json",
+  "bird": {
+    "id": "bird-黑喉雪雀-3671e9f8",
+    "name": "黑喉雪雀",
+    "english_name": "Père David's snowfinch",
+    "latin_name": "Pyrgilauda davidiana",
+    "summary": "黑喉雪雀（学名：Pyrgilauda davidiana）为文鸟科雪雀属的鸟类。在中国大陆，分布于青海、甘肃、宁夏以至东北等地，主要生活于海拔约2000-3500m 的草原、河谷阶地、农田及居民点附近。该物种的模式产地在内蒙古呼和浩特。 亚种 黑喉雪雀指名亚种（学名：Pyrgi…",
+    "lat": "61",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Pyrgilauda_davidiana.JPG/960px-Pyrgilauda_davidiana.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑喉雪雀-3671e9f8",
+      "subject": "黑喉雪雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mongolia, southern Siberia and northern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉雪雀-3671e9f8",
+      "subject": "黑喉雪雀",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is temperate grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-黑喉雪雀-3671e9f8",
+      "subject": "黑喉雪雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

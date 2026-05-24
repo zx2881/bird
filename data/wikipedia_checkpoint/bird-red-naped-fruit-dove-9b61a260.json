@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:32:39",
+  "requested_title": "Red-naped Fruit Dove",
+  "resolved_title": "Red-naped fruit dove",
+  "title_aliases": [
+    "Red-naped Fruit Dove"
+  ],
+  "bird_id": "bird-red-naped-fruit-dove-9b61a260",
+  "raw_file": "bird-red-naped-fruit-dove-9b61a260.json",
+  "bird": {
+    "id": "bird-red-naped-fruit-dove-9b61a260",
+    "name": "Red-naped fruit dove",
+    "english_name": "Red-naped fruit dove",
+    "latin_name": "Ptilinopus dohertyi",
+    "summary": "The red-naped fruit dove (Ptilinopus dohertyi) is a species of bird in the family Columbidae. It is endemic to Sumba.",
+    "lat": "-9.66666667",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Ptilinopus_dohertyi_572691107_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-松巴島-041c77b7",
+      "name": "松巴島",
+      "summary": "Sumba (Petjo: Soemba-eiland; Indonesian: pulau Sumba), natively also spelt as Humba, Hubba, Suba, or Zuba (in Sumba lan…",
+      "lat": "-9.66666667",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-naped-fruit-dove-9b61a260",
+      "subject": "Red-naped fruit dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-松巴島-041c77b7",
+      "object": "松巴島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is endemic to the island of Sumba in Indonesia, where it mostly inhabits montane forests at elevations above 500 m",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-naped-fruit-dove-9b61a260",
+      "subject": "Red-naped fruit dove",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-red-naped-fruit-dove-9b61a260",
+      "subject": "Red-naped fruit dove",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species is endemic to the island of Sumba in Indonesia, where it mostly inhabits montane forests at elevations above 500 m",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-red-naped-fruit-dove-9b61a260",
+      "subject": "Red-naped fruit dove",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-red-naped-fruit-dove-9b61a260",
+      "subject": "Red-naped fruit dove",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

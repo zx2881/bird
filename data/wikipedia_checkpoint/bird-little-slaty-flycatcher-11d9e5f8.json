@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:07:15",
+  "requested_title": "Little Slaty Flycatcher",
+  "resolved_title": "Little slaty flycatcher",
+  "title_aliases": [
+    "Little Slaty Flycatcher"
+  ],
+  "bird_id": "bird-little-slaty-flycatcher-11d9e5f8",
+  "raw_file": "bird-little-slaty-flycatcher-11d9e5f8.json",
+  "bird": {
+    "id": "bird-little-slaty-flycatcher-11d9e5f8",
+    "name": "Little slaty flycatcher",
+    "english_name": "Little slaty flycatcher",
+    "latin_name": "Ficedula basilanica",
+    "summary": "The little slaty flycatcher (Ficedula basilanica) is a species of bird in the family Muscicapidae. It is found on the islands of Mindanao,…",
+    "lat": "7.0711",
+    "lng": "122.0755",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Little_Slaty_Flycatcher_Male_%28cropped%29.jpg/960px-Little_Slaty_Flycatcher_Male_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pasonanca-natural-park-4873c699",
+      "name": "Pasonanca Natural Park",
+      "summary": "The Pasonanca Natural Park is a protected area that preserves a major watershed in the southern Philippine island of Mi…",
+      "lat": "7.0711",
+      "lng": "122.0755"
+    },
+    {
+      "id": "loc-阿波火山-e8ee2894",
+      "name": "阿波火山",
+      "summary": "阿波火山（他加祿語：Bundok Apo）是一座位于菲律宾棉兰老岛东南部的活火山，海拔2,954公尺，为菲律宾最高峰。达沃市位于其东北方30公里处。近百年未喷发，有硫磺矿，覆盖着热带硬木林。 主峰及周围已经开辟为阿波火山国家公园（面积80…",
+      "lat": "6.9875",
+      "lng": "125.27083333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-little-slaty-flycatcher-11d9e5f8",
+      "subject": "Little slaty flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-pasonanca-natural-park-4873c699",
+      "object": "Pasonanca Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the protected areas of Pasonanca Natural Park, Mount Apo National Park and Mt",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-slaty-flycatcher-11d9e5f8",
+      "subject": "Little slaty flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿波火山-e8ee2894",
+      "object": "阿波火山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the protected areas of Pasonanca Natural Park, Mount Apo National Park and Mt",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-slaty-flycatcher-11d9e5f8",
+      "subject": "Little slaty flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-little-slaty-flycatcher-11d9e5f8",
+      "subject": "Little slaty flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-little-slaty-flycatcher-11d9e5f8",
+      "subject": "Little slaty flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Extensive lowland deforestation on all islands in its range is the main threat",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

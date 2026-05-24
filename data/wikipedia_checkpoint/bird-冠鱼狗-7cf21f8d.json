@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:41:34",
+  "requested_title": "Crested Kingfisher",
+  "resolved_title": "Crested kingfisher",
+  "title_aliases": [
+    "Crested Kingfisher"
+  ],
+  "bird_id": "bird-冠鱼狗-7cf21f8d",
+  "raw_file": "bird-冠鱼狗-7cf21f8d.json",
+  "bird": {
+    "id": "bird-冠鱼狗-7cf21f8d",
+    "name": "冠鱼狗",
+    "english_name": "Crested kingfisher",
+    "latin_name": "Megaceryle lugubris",
+    "summary": "冠鱼狗（学名：Megaceryle lugubris）为翠鸟科大鱼狗属的鸟类。该物种的模式产地在日本。 冠鱼狗原属于鱼狗属（Ceryle），但按照DNA数据，改分到大鱼狗属。鱼狗属下只剩下斑鱼狗一种。",
+    "lat": "43.76666667",
+    "lng": "142.36666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Megaceryle_lugubris%2C_crop.jpg/960px-Megaceryle_lugubris%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旭川市-1c78eaab",
+      "name": "旭川市",
+      "summary": "旭川市（日語：旭川市／あさひかわし，羅馬化：Asahikawa shi）是位於日本北海道上川綜合振興局境內的市，為北海道僅次於札幌市的第二大城，現為中核市，也是振興局本部所在地。近年來以旭山動物園和旭川拉麵聞名日本國內外，現與釧路市同被指…",
+      "lat": "43.76666667",
+      "lng": "142.36666667"
+    },
+    {
+      "id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "name": "昆拉德·雅各布·特明克",
+      "summary": "昆拉德·雅各布·特明克（荷蘭語：Coenraad Jacob Temminck，1778年3月31日—1858年1月30日）是一名荷蘭貴族和動物學家。 生平 特明克於阿姆斯特丹出生，1820年出任位於萊頓的國家自然歷史博物館，直至去世。他…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-冠鱼狗-7cf21f8d",
+      "subject": "冠鱼狗",
+      "predicate": "distributed_in",
+      "object_id": "loc-旭川市-1c78eaab",
+      "object": "旭川市",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pallida at Asahikawa city in Japan | status = LC | status_system = IUCN3.1 | status_ref = | genus = Megaceryle | species = lugubris | authority = (Temminck, 1834) | range_map = Greater Pied Kingfisher.png | range_map_caption = | synonyms = Ceryle lugubris (Hartert, 1900) }} The crested kingfisher (Megaceryle lugubris) is a very large kingfisher that is native to parts of southern Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-冠鱼狗-7cf21f8d",
+      "subject": "冠鱼狗",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "object": "昆拉德·雅各布·特明克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pallida at Asahikawa city in Japan | status = LC | status_system = IUCN3.1 | status_ref = | genus = Megaceryle | species = lugubris | authority = (Temminck, 1834) | range_map = Greater Pied Kingfisher.png | range_map_caption = | synonyms = Ceryle lugubris (Hartert, 1900) }} The crested kingfisher (Megaceryle lugubris) is a very large kingfisher that is native to parts of southern Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-冠鱼狗-7cf21f8d",
+      "subject": "冠鱼狗",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-冠鱼狗-7cf21f8d",
+      "subject": "冠鱼狗",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In Japan, the crested kingfisher is considered a threatened species in 32 of the 47 prefectures because its population size and distribution have decreased due to habitat loss. Furthermore, a 1996 report from the Wildlife Conservation Society stated that the species was regionally at risk in the province of Bolikhamsai in Laos.{{Cite web |last=Yumpu.com |title=A Preliminary Wildlife and Habitat Survey of the Proposed Northern",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

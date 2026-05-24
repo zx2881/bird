@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:27:09",
+  "requested_title": "Caspian Tit",
+  "resolved_title": "Caspian tit",
+  "title_aliases": [
+    "Caspian Tit"
+  ],
+  "bird_id": "bird-caspian-tit-dbf60829",
+  "raw_file": "bird-caspian-tit-dbf60829.json",
+  "bird": {
+    "id": "bird-caspian-tit-dbf60829",
+    "name": "Caspian tit",
+    "english_name": "Caspian tit",
+    "latin_name": "Poecile hyrcanus",
+    "summary": "The Caspian tit (Poecile hyrcanus) is a passerine bird in the tit family. It breeds in the deciduous mountain forests with its core populat…",
+    "lat": "32",
+    "lng": "53",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Poecile_hyrcanus_351030492.jpg/960px-Poecile_hyrcanus_351030492.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-希爾卡尼亞森林-e895dda7",
+      "name": "希爾卡尼亞森林",
+      "summary": "裏海希爾卡尼亞混合森林（Caspian Hyrcanian mixed forests）生態區是世界溫帶闊葉混合林生物群系的其中一處，這片生態區擁有鬱蔥的低地森林以及山地森林，面積約55,000平方公里（21,000平方英里），主要位於裏…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-伊朗-b572d23a",
+      "name": "伊朗",
+      "summary": "伊朗伊斯蘭共和國（波斯語：جمهوری اسلامی ایران，Jomhuriye Eslâmiye Irân，[dʒomhuːˌɾije eslɒːˌmije ʔiːˈɾɒn]），通称伊朗（波斯語：ایران，Irān，[ʔiːˈɾɒ…",
+      "lat": "32",
+      "lng": "53"
+    },
+    {
+      "id": "loc-阿塞拜疆-8e40d268",
+      "name": "阿塞拜疆",
+      "summary": "阿塞拜疆共和国（阿塞拜疆語：Azərbaycan Respublikası），通称亞塞拜然（阿塞拜疆語：Azərbaycan），是一个位于東歐和西亞交界处以及外高加索东部的跨大陆国家，所处地区是连接东欧和西亚的十字路口 ，东临裏海，南接伊…",
+      "lat": "40.3",
+      "lng": "47.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-caspian-tit-dbf60829",
+      "subject": "Caspian tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-希爾卡尼亞森林-e895dda7",
+      "object": "希爾卡尼亞森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the deciduous mountain forests with its core population concentrated in the Hyrcanian forests of Iran, just extending into Azerbaijan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-caspian-tit-dbf60829",
+      "subject": "Caspian tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊朗-b572d23a",
+      "object": "伊朗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the deciduous mountain forests with its core population concentrated in the Hyrcanian forests of Iran, just extending into Azerbaijan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-caspian-tit-dbf60829",
+      "subject": "Caspian tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿塞拜疆-8e40d268",
+      "object": "阿塞拜疆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the deciduous mountain forests with its core population concentrated in the Hyrcanian forests of Iran, just extending into Azerbaijan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-caspian-tit-dbf60829",
+      "subject": "Caspian tit",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It breeds in the deciduous mountain forests with its core population concentrated in the Hyrcanian forests of Iran, just extending into Azerbaijan",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-caspian-tit-dbf60829",
+      "subject": "Caspian tit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

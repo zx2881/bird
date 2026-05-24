@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:03:48",
+  "requested_title": "Plum-faced Lorikeet",
+  "resolved_title": "Plum-faced lorikeet",
+  "title_aliases": [
+    "Plum-faced Lorikeet"
+  ],
+  "bird_id": "bird-plum-faced-lorikeet-6c5a83b3",
+  "raw_file": "bird-plum-faced-lorikeet-6c5a83b3.json",
+  "bird": {
+    "id": "bird-plum-faced-lorikeet-6c5a83b3",
+    "name": "Plum-faced lorikeet",
+    "english_name": "Plum-faced lorikeet",
+    "latin_name": "Oreopsittacus arfaki",
+    "summary": "The plum-faced lorikeet (Oreopsittacus arfaki), also known as the whiskered lorikeet, is a species of parrot in the family Psittaculidae. I…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Oreopsittacus_arfaki_%28pair%29_-captive-8a-4c.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞高地-05e346ed",
+      "name": "新幾內亞高地",
+      "summary": "新几内亚高地是新幾內亞島上的山脉。其最高点为印度尼西亚境内的查亞峰，海拔4,884米（16,024英尺），同时也是大洋洲的最高峰。该山脉大致呈东西走向横贯全岛，西起印度尼西亞温达马湾县，向东一直延伸至巴布亞新幾內亞米爾恩灣省。 参考文献",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-plum-faced-lorikeet-6c5a83b3",
+      "subject": "Plum-faced lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞高地-05e346ed",
+      "object": "新幾內亞高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "plate 22.\"/> It is found in the New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-plum-faced-lorikeet-6c5a83b3",
+      "subject": "Plum-faced lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

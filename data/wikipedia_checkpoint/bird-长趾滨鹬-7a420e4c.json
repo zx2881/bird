@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:06:15",
+  "requested_title": "Long-toed Stint",
+  "resolved_title": "Long-toed stint",
+  "title_aliases": [
+    "Long-toed Stint"
+  ],
+  "bird_id": "bird-长趾滨鹬-7a420e4c",
+  "raw_file": "bird-长趾滨鹬-7a420e4c.json",
+  "bird": {
+    "id": "bird-长趾滨鹬-7a420e4c",
+    "name": "长趾滨鹬",
+    "english_name": "Long-toed stint",
+    "latin_name": "Calidris subminuta",
+    "summary": "长趾滨鹬（学名：Calidris subminuta），又稱雲雀鷸，为鹬科滨鹬属的鸟类。在中国大陆，分布于华东、西至甘肃、青海、四川、云南、西藏等地。该物种的模式产地在西伯利亚。 屬名來自古希臘語 kalidris 或 skalidris，這是亞里士多德用來形容一些灰色水邊鳥類…",
+    "lat": "-28.10888889",
+    "lng": "146.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Calidris_subminuta_-_Pak_Thale.jpg/960px-Calidris_subminuta_-_Pak_Thale.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大拉西亞-3d7bd98e",
+      "name": "澳大拉西亞",
+      "summary": "澳大拉西亚（英語：Australasia）一般指大洋洲的一个地区，包含了澳大利亚、新西兰和邻近的太平洋岛屿。 澳大拉西亚一詞是由法国學者布羅塞於1756年出版的《到南方陸地航行的歷史》（Histoire des navigations a…",
+      "lat": "-28.10888889",
+      "lng": "146.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-长趾滨鹬-7a420e4c",
+      "subject": "长趾滨鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大拉西亞-3d7bd98e",
+      "object": "澳大拉西亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|access-date=2024-06-22 |website=nzbirdsonline.org.nz}} and is strongly migratory, wintering in south and south east Asia and Australasia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-长趾滨鹬-7a420e4c",
+      "subject": "长趾滨鹬",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:33:22",
+  "requested_title": "Chivi Vireo",
+  "resolved_title": "Chivi vireo",
+  "title_aliases": [
+    "Chivi Vireo"
+  ],
+  "bird_id": "bird-chivi-vireo-4843c1e6",
+  "raw_file": "bird-chivi-vireo-4843c1e6.json",
+  "bird": {
+    "id": "bird-chivi-vireo-4843c1e6",
+    "name": "Chivi vireo",
+    "english_name": "Chivi vireo",
+    "latin_name": "Vireo chivi",
+    "summary": "The chivi vireo (Vireo chivi) is a small South American songbird in the family Vireonidae. It was formerly considered a subspecies of the r…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Chivi_Vireo%2C_Carlsen_Field%2C_Trinidad_%2834888074290%29.jpg/960px-Chivi_Vireo%2C_Carlsen_Field%2C_Trinidad_%2834888074290%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chivi-vireo-4843c1e6",
+      "subject": "Chivi vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the non-breeding season these populations travel north as far as Venezuela, eastern Colombia, eastern Ecuador, and eastern Peru. It inhabits the canopy and subcanopy of dry to wet forests, along with borders, light woodland, restinga, gallery forest in the cerrado, dense scrub, small tree groves, and secondary growth with tall trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chivi-vireo-4843c1e6",
+      "subject": "Chivi vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits semi-deciduous, várzea and secondary forests in Peru, ascending into montane valleys in the south",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chivi-vireo-4843c1e6",
+      "subject": "Chivi vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits semi-deciduous, várzea and secondary forests in Peru, ascending into montane valleys in the south",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chivi-vireo-4843c1e6",
+      "subject": "Chivi vireo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

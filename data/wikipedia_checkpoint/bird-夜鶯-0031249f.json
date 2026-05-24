@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:46:15",
+  "requested_title": "Common Nightingale",
+  "resolved_title": "Common nightingale",
+  "title_aliases": [
+    "Common Nightingale"
+  ],
+  "bird_id": "bird-夜鶯-0031249f",
+  "raw_file": "bird-夜鶯-0031249f.json",
+  "bird": {
+    "id": "bird-夜鶯-0031249f",
+    "name": "夜鶯",
+    "english_name": "Common nightingale",
+    "latin_name": "Luscinia megarhynchos",
+    "summary": "夜鶯（学名：Luscinia megarhynchos，又名新疆歌鸲，俗名夜歌鸲），為雀形目歌鸲属的一種鸟类。與其他鳥類不同，夜鶯是少有的在夜間鳴叫的鳥類，故得其名。 夜鶯體色灰褐，羽色不絢麗，但叫聲高昂、音域極廣，是玩賞鳥的種類之一。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Luscinia_megarhynchos_-_Common_nightingale_-_Nachtegaal_%28cropped%29.jpg/960px-Luscinia_megarhynchos_-_Common_nightingale_-_Nachtegaal_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-夜鶯-0031249f",
+      "subject": "夜鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a migratory insectivorous species breeding in forest and scrub in Europe and the Palearctic, and wintering in Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-夜鶯-0031249f",
+      "subject": "夜鶯",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

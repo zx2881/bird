@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:57:51",
+  "requested_title": "Horned Parakeet",
+  "resolved_title": "Horned parakeet",
+  "title_aliases": [
+    "Horned Parakeet"
+  ],
+  "bird_id": "bird-獨角鸚鵡-fb055eea",
+  "raw_file": "bird-獨角鸚鵡-fb055eea.json",
+  "bird": {
+    "id": "bird-獨角鸚鵡-fb055eea",
+    "name": "獨角鸚鵡",
+    "english_name": "Horned parakeet",
+    "latin_name": "Eunymphicus cornutus",
+    "summary": "獨角鸚鵡（Eunymphicus cornutus），又名角鸚鵡或翎冠鸚鵡，是新喀里多尼亞特有的一種大型綠色鸚鵡。牠們的頭部上有兩支黑色羽毛，末端紅色，故得此名。牠們的頸背黃色，面部黑色及紅色，翼及尾巴藍色。 獨角鸚鵡棲息在潮濕的針葉林，尤喜歡貝殼杉屬及南洋杉屬。牠們成對或以小…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Horned_Parakeet_3487_Copyright_TP_ONG.JPG"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-獨角鸚鵡-fb055eea",
+      "subject": "獨角鸚鵡",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It preferentially selects rainforest and laurel forest habitat, but will accept scrublands or savannah",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-獨角鸚鵡-fb055eea",
+      "subject": "獨角鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-獨角鸚鵡-fb055eea",
+      "subject": "獨角鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The main threats to the horned parakeet are the black rat, the wildcat, the introduced Rusa deer, logging, La Nina (wet) years, and Psittacine beak and feather disease, a severe virus which is known to affect ~42 species of parrots. Humans poaching the birds for local trade is rare, because the birds' nests are difficult to find, and more importantly, there are no ingrained local customs regarding keeping birds as pets. The horned parakeet is listed by the IUCN as Vulnerable, due to their restricted range and small, declining population size",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    },
+    {
+      "subject_id": "bird-獨角鸚鵡-fb055eea",
+      "subject": "獨角鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The main threats to the horned parakeet are the black rat, the wildcat, the introduced Rusa deer, logging, La Nina (wet) years, and Psittacine beak and feather disease, a severe virus which is known to affect ~42 species of parrots. Humans poaching the birds for local trade is rare, because the birds' nests are difficult to find, and more importantly, there are no ingrained local customs regarding keeping birds as pets. The horned parakeet is listed by the IUCN as Vulnerable, due to their restricted range and small, declining population size",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:12:23",
+  "requested_title": "Sinaloa Martin",
+  "resolved_title": "Sinaloa martin",
+  "title_aliases": [
+    "Sinaloa Martin"
+  ],
+  "bird_id": "bird-sinaloa-martin-a2c9ddff",
+  "raw_file": "bird-sinaloa-martin-a2c9ddff.json",
+  "bird": {
+    "id": "bird-sinaloa-martin-a2c9ddff",
+    "name": "Sinaloa martin",
+    "english_name": "Sinaloa martin",
+    "latin_name": "Progne sinaloae",
+    "summary": "The Sinaloa martin (Progne sinaloae) is a Vulnerable species of bird in the family Hirundinidae, the swallows and martins. It breeds in Mex…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Progne_sinaloae_-_Nigel_Voaden_-_2360317.jpeg/960px-Progne_sinaloae_-_Nigel_Voaden_-_2360317.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-edward-william-nelson-2e4eef24",
+      "name": "Edward William Nelson",
+      "summary": "Edward William Nelson (May 8, 1855 – May 19, 1934) was an American naturalist and ethnologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-pine-oak-forest-1bf3f7a2",
+      "name": "Pine–oak forest",
+      "summary": "Pine–oak forest, pine–oak woodland, or oak–pine forest is a group of similar of ecosystems, primarily found in North an…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sinaloa-martin-a2c9ddff",
+      "subject": "Sinaloa martin",
+      "predicate": "distributed_in",
+      "object_id": "loc-edward-william-nelson-2e4eef24",
+      "object": "Edward William Nelson",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sinaloa martin (Progne sinaloae) is a Vulnerable species of bird in the family Hirundinidae, the swallows and martins. It breeds in Mexico; its wintering range is not known but is believed to be in South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sinaloa-martin-a2c9ddff",
+      "subject": "Sinaloa martin",
+      "predicate": "distributed_in",
+      "object_id": "loc-pine-oak-forest-1bf3f7a2",
+      "object": "Pine–oak forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "https://www.museum.lsu.edu/~Remsen/SACCCountryLists.htm retrieved November 30, 2025 In Mexico the Sinaloa martin primarily inhabits pine and pine-oak forest in the subtropical and lower tropical zones",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sinaloa-martin-a2c9ddff",
+      "subject": "Sinaloa martin",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-sinaloa-martin-a2c9ddff",
+      "subject": "Sinaloa martin",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The causes of the decline in this species are unknown.\" Some authors suggest that logging of Mexico's montane forest has contributed but hesitate to name that the only cause",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

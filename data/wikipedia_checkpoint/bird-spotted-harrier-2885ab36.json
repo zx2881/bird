@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:51:16",
+  "requested_title": "Spotted Harrier",
+  "resolved_title": "Spotted harrier",
+  "title_aliases": [
+    "Spotted Harrier"
+  ],
+  "bird_id": "bird-spotted-harrier-2885ab36",
+  "raw_file": "bird-spotted-harrier-2885ab36.json",
+  "bird": {
+    "id": "bird-spotted-harrier-2885ab36",
+    "name": "Spotted harrier",
+    "english_name": "Spotted harrier",
+    "latin_name": "Circus assimilis",
+    "summary": "The spotted harrier (Circus assimilis) also known as the smoke hawk, is a large Australasian bird of prey belonging to the family Accipitri…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Spha4360w.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-东帝汶-7f03b6c1",
+      "name": "东帝汶",
+      "summary": "東帝汶民主共和國（德頓語：Repúblika Demokrátika Timor-Leste；葡萄牙語：República Democrática de Timor-Leste），通称东帝汶（德頓語：Timor Lorosa'e；葡萄牙語…",
+      "lat": "-8.55",
+      "lng": "125.56"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-spotted-harrier-2885ab36",
+      "subject": "Spotted harrier",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted harrier is native to Australia and Indonesia, however vagrant populations have been seen in Timor-Leste",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-harrier-2885ab36",
+      "subject": "Spotted harrier",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted harrier is native to Australia and Indonesia, however vagrant populations have been seen in Timor-Leste",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-harrier-2885ab36",
+      "subject": "Spotted harrier",
+      "predicate": "distributed_in",
+      "object_id": "loc-东帝汶-7f03b6c1",
+      "object": "东帝汶",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted harrier is native to Australia and Indonesia, however vagrant populations have been seen in Timor-Leste",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-harrier-2885ab36",
+      "subject": "Spotted harrier",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can be most commonly found in native grassland however it is also seen in agricultural land and inland wetlands for the purpose of foraging. thumb|Subadult flying at Pilbara, Western Australia, Australia",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-spotted-harrier-2885ab36",
+      "subject": "Spotted harrier",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can be most commonly found in native grassland however it is also seen in agricultural land and inland wetlands for the purpose of foraging. thumb|Subadult flying at Pilbara, Western Australia, Australia",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-spotted-harrier-2885ab36",
+      "subject": "Spotted harrier",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

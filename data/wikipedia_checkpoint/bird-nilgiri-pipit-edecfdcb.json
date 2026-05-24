@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:48:06",
+  "requested_title": "Nilgiri Pipit",
+  "resolved_title": "Nilgiri pipit",
+  "title_aliases": [
+    "Nilgiri Pipit"
+  ],
+  "bird_id": "bird-nilgiri-pipit-edecfdcb",
+  "raw_file": "bird-nilgiri-pipit-edecfdcb.json",
+  "bird": {
+    "id": "bird-nilgiri-pipit-edecfdcb",
+    "name": "Nilgiri pipit",
+    "english_name": "Nilgiri pipit",
+    "latin_name": "Anthus nilghiriensis",
+    "summary": "The Nilgiri pipit (Anthus nilghiriensis) is a distinctive species of pipit that is endemic to the high altitude hills of southern India. Ri…",
+    "lat": "10.45",
+    "lng": "77.5161",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Nilgir_Pipit_%28Anthus_nilghiriensis%29_18-Apr-2007_12-12-32_PM.JPG/960px-Nilgir_Pipit_%28Anthus_nilghiriensis%29_18-Apr-2007_12-12-32_PM.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-帕拉尼-dbee9af3",
+      "name": "帕拉尼",
+      "summary": "帕拉尼（Palani），是印度泰米尔纳德邦Dindigul县的一个城镇。总人口67175（2001年）。 人口 该地2001年总人口67175人，其中男性33940人，女性33235人；0—6岁人口6719人，其中男3408人，女3311…",
+      "lat": "10.45",
+      "lng": "77.5161"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-nilgiri-pipit-edecfdcb",
+      "subject": "Nilgiri pipit",
+      "predicate": "distributed_in",
+      "object_id": "loc-帕拉尼-dbee9af3",
+      "object": "帕拉尼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Museum specimens exist from the Palani ranges but habitat changes may have led to its reduction or extirpation as the species was not found in surveys in the 21st century.{{cite journal|title=Reassessment of the distribution and threat status of the Western Ghats endemic bird, Nilgiri Pipit Anthus nilghiriensis|journal=Current Science|volume=107|issue=4|pages=622–630 |year=2014 |url=http://www.currentscience.ac.in/Volumes/107/04/0622.pdf|author1=Robin, V.V",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nilgiri-pipit-edecfdcb",
+      "subject": "Nilgiri pipit",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

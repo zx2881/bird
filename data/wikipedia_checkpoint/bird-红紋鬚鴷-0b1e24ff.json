@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:58:33",
+  "requested_title": "Scarlet-banded Barbet",
+  "resolved_title": "Scarlet-banded barbet",
+  "title_aliases": [
+    "Scarlet-banded Barbet"
+  ],
+  "bird_id": "bird-红紋鬚鴷-0b1e24ff",
+  "raw_file": "bird-红紋鬚鴷-0b1e24ff.json",
+  "bird": {
+    "id": "bird-红紋鬚鴷-0b1e24ff",
+    "name": "红紋鬚鴷",
+    "english_name": "Scarlet-banded barbet",
+    "latin_name": "Capito wallacei",
+    "summary": "红领须啄木鸟（學名：Capito wallacei，台湾作紅紋鬚鴷）屬於美洲拟啄木鸟科美洲擬鴷屬， 為秘鲁特有种之一，世界自然保護聯盟（IUCN）將其評估為「易危物種」。 分布及棲息地 此物種僅發現於秘魯洛雷托地區科迪列拉阿蘇爾國家公園內1538峰山脊。其棲息地為海拔約1350…",
+    "lat": "-9.96",
+    "lng": "-73.19",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Capito_wallacei.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-乌卡亚利大区-12d96350",
+      "name": "乌卡亚利大区",
+      "summary": "烏卡亞利大區（西班牙語：Departamento de Ucayali）是秘魯東部的一個大區，東鄰巴西，位於亞馬遜平原。烏卡亞利河—亞馬遜河的主要水源—流經本區，區名亦由此而來。面積101,830.64平方公里，2007年人口402,44…",
+      "lat": "-9.96",
+      "lng": "-73.19"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红紋鬚鴷-0b1e24ff",
+      "subject": "红紋鬚鴷",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌卡亚利大区-12d96350",
+      "object": "乌卡亚利大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(It was mistakenly listed as being in Ucayali, Peru, in its formal description.) There it inhabits humid, mossy, sub-montane and montane forest at elevations between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红紋鬚鴷-0b1e24ff",
+      "subject": "红紋鬚鴷",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "(It was mistakenly listed as being in Ucayali, Peru, in its formal description.) There it inhabits humid, mossy, sub-montane and montane forest at elevations between",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-红紋鬚鴷-0b1e24ff",
+      "subject": "红紋鬚鴷",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

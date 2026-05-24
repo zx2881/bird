@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:05:14",
+  "requested_title": "White-winged Apalis",
+  "resolved_title": "White-winged apalis",
+  "title_aliases": [
+    "White-winged Apalis"
+  ],
+  "bird_id": "bird-white-winged-apalis-cc5eb921",
+  "raw_file": "bird-white-winged-apalis-cc5eb921.json",
+  "bird": {
+    "id": "bird-white-winged-apalis-cc5eb921",
+    "name": "White-winged apalis",
+    "english_name": "White-winged apalis",
+    "latin_name": "Apalis chariessa",
+    "summary": "The white-winged apalis (Apalis chariessa) is a species of bird in the family Cisticolidae. It is found in Kenya, Malawi, Mozambique, and T…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Apalis_chariessa%2C_crop.jpg/960px-Apalis_chariessa%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-马拉维-83b8e25a",
+      "name": "马拉维",
+      "summary": "马拉维共和国（英語：Republic of Malawi；齊切瓦語：Dziko la Malaŵi），通稱馬拉威（齊切瓦語：Malaŵi；英語：Malawi），是一個位於非洲東南部的內陸國家，鄰接贊比亞、莫桑比克及坦桑尼亞。國土位於南緯9…",
+      "lat": "-13.5",
+      "lng": "34"
+    },
+    {
+      "id": "loc-莫桑比克-9371b65a",
+      "name": "莫桑比克",
+      "summary": "莫桑比克共和国（葡萄牙語：República de Moçambique，發音：[ʁɛˈpuβlikɐ ðɨ musɐ̃ˈbikɨ]），舊譯作莫三鼻給，現通稱莫三比克或莫桑比克，位於非洲東部，临印度洋，隔莫桑比克海峡与马达加斯加相望，以葡…",
+      "lat": "-18.25",
+      "lng": "35"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-winged-apalis-cc5eb921",
+      "subject": "White-winged apalis",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Malawi, Mozambique, and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-apalis-cc5eb921",
+      "subject": "White-winged apalis",
+      "predicate": "distributed_in",
+      "object_id": "loc-马拉维-83b8e25a",
+      "object": "马拉维",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Malawi, Mozambique, and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-apalis-cc5eb921",
+      "subject": "White-winged apalis",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫桑比克-9371b65a",
+      "object": "莫桑比克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Malawi, Mozambique, and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-apalis-cc5eb921",
+      "subject": "White-winged apalis",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Malawi, Mozambique, and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-apalis-cc5eb921",
+      "subject": "White-winged apalis",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-white-winged-apalis-cc5eb921",
+      "subject": "White-winged apalis",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

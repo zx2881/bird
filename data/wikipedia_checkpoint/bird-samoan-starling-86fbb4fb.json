@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:27:54",
+  "requested_title": "Samoan Starling",
+  "resolved_title": "Samoan starling",
+  "title_aliases": [
+    "Samoan Starling"
+  ],
+  "bird_id": "bird-samoan-starling-86fbb4fb",
+  "raw_file": "bird-samoan-starling-86fbb4fb.json",
+  "bird": {
+    "id": "bird-samoan-starling-86fbb4fb",
+    "name": "Samoan starling",
+    "english_name": "Samoan starling",
+    "latin_name": "Aplonis atrifusca",
+    "summary": "The Samoan starling (Aplonis atrifusca) is a large starling of the family Sturnidae. It is found in the Samoan Islands.",
+    "lat": "-14.26666667",
+    "lng": "-171.2",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Aplonis_atrifusca_-_Ben_Hayden_-_27523307.jpeg/960px-Aplonis_atrifusca_-_Ben_Hayden_-_27523307.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-萨摩亚群岛-3738c73e",
+      "name": "萨摩亚群岛",
+      "summary": "The Samoan Islands (Samoan: Motu o Sāmoa) are an archipelago covering 3,030 km2 (1,170 sq mi) in the central South Paci…",
+      "lat": "-14.26666667",
+      "lng": "-171.2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-samoan-starling-86fbb4fb",
+      "subject": "Samoan starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨摩亚群岛-3738c73e",
+      "object": "萨摩亚群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Samoan Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-samoan-starling-86fbb4fb",
+      "subject": "Samoan starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

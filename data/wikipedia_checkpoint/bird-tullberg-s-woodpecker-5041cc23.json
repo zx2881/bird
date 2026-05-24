@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:08:35",
+  "requested_title": "Tullberg's Woodpecker",
+  "resolved_title": "Tullberg's woodpecker",
+  "title_aliases": [
+    "Tullberg's Woodpecker"
+  ],
+  "bird_id": "bird-tullberg-s-woodpecker-5041cc23",
+  "raw_file": "bird-tullberg-s-woodpecker-5041cc23.json",
+  "bird": {
+    "id": "bird-tullberg-s-woodpecker-5041cc23",
+    "name": "Tullberg's woodpecker",
+    "english_name": "Tullberg's woodpecker",
+    "latin_name": "Campethera tullbergi",
+    "summary": "Tullberg's woodpecker (Campethera tullbergi) is a species of bird in the family Picidae. It is found in western Cameroon, adjacent Nigeria,…",
+    "lat": "6",
+    "lng": "12",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-喀麦隆-9d17d92e",
+      "name": "喀麦隆",
+      "summary": "喀麥隆共和國（法語：République du Cameroun；英語：Republic of Cameroon），通稱喀麥隆（法語：Cameroun；英語：Cameroon），是位於非洲中西部的單一制共和國。喀麥隆西方與奈及利亞接壤，東…",
+      "lat": "6",
+      "lng": "12"
+    },
+    {
+      "id": "loc-奈及利亞-df32ce50",
+      "name": "奈及利亞",
+      "summary": "奈及利亞聯邦共和國（英語：Federal Republic of Nigeria），通称奈及利亞（英語：Nigeria），是西非國家，位於非洲的幾內亞灣西岸頂點，鄰國包括西邊的贝宁，北邊的尼日尔，東北方與乍得接壤一小段國界，正東則是喀麥隆…",
+      "lat": "8",
+      "lng": "10"
+    },
+    {
+      "id": "loc-比奥科岛-c4254484",
+      "name": "比奥科岛",
+      "summary": "比奥科岛（Bioko），原名“费尔南多波岛”（西班牙語：Fernando Poo），是非洲西海岸几内亚湾中的一个火山岛，属赤道几内亚管辖，该国前首都马拉博即位于岛上。该岛面积为2,017平方公里，人口33万人。該島嶼原為西班牙殖民地，因其…",
+      "lat": "3.5",
+      "lng": "8.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tullberg-s-woodpecker-5041cc23",
+      "subject": "Tullberg's woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-喀麦隆-9d17d92e",
+      "object": "喀麦隆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Cameroon, adjacent Nigeria, and Bioko island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tullberg-s-woodpecker-5041cc23",
+      "subject": "Tullberg's woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-奈及利亞-df32ce50",
+      "object": "奈及利亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Cameroon, adjacent Nigeria, and Bioko island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tullberg-s-woodpecker-5041cc23",
+      "subject": "Tullberg's woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-比奥科岛-c4254484",
+      "object": "比奥科岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in western Cameroon, adjacent Nigeria, and Bioko island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tullberg-s-woodpecker-5041cc23",
+      "subject": "Tullberg's woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

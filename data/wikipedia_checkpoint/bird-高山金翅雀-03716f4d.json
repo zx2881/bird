@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:16:22",
+  "requested_title": "Yellow-breasted Greenfinch",
+  "resolved_title": "Yellow-breasted greenfinch",
+  "title_aliases": [
+    "Yellow-breasted Greenfinch"
+  ],
+  "bird_id": "bird-高山金翅雀-03716f4d",
+  "raw_file": "bird-高山金翅雀-03716f4d.json",
+  "bird": {
+    "id": "bird-高山金翅雀-03716f4d",
+    "name": "高山金翅雀",
+    "english_name": "Yellow-breasted greenfinch",
+    "latin_name": "Chloris spinoides",
+    "summary": "高山金翅雀（学名：Chloris spinoides）为雀科绿金翅雀属的鸟类。分布于阿富汗、巴基斯坦、尼泊尔、不丹、锡金、印度、缅甸以及中国大陆的西藏等地，主要栖息于海拔2000-4000m 的松林、农田及坡地灌丛中。该物种的模式产地在喜马拉雅山脉。 亚种 高山金翅雀指名亚种（…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Chloris_spinoides.jpg/960px-Chloris_spinoides.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-尼古拉斯-艾爾沃德-維戈斯-6f7bd040",
+      "name": "尼古拉斯·艾爾沃德·維戈斯",
+      "summary": "尼古拉斯·艾爾沃德·維戈斯（英語：Nicholas Aylward Vigors，1785年12月12日—1840年10月26日），爱尔兰动物学家和政治人物。 早年 維戈斯是一位上尉的长子。他曾在第29步兵軍團服役。他于1803年11月进…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-高山金翅雀-03716f4d",
+      "subject": "高山金翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼古拉斯-艾爾沃德-維戈斯-6f7bd040",
+      "object": "尼古拉斯·艾爾沃德·維戈斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|right|Eggs at MHNT|Muséum de Toulouse The yellow-breasted greenfinch (Chloris spinoides) is a small passerine bird in the family Fringillidae that is native to the northern regions of the Indian subcontinent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高山金翅雀-03716f4d",
+      "subject": "高山金翅雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

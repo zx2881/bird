@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:11:09",
+  "requested_title": "Kafa White-eye",
+  "resolved_title": "Kafa white-eye",
+  "title_aliases": [
+    "Kafa White-eye"
+  ],
+  "bird_id": "bird-kafa-white-eye-0eb66336",
+  "raw_file": "bird-kafa-white-eye-0eb66336.json",
+  "bird": {
+    "id": "bird-kafa-white-eye-0eb66336",
+    "name": "Kafa white-eye",
+    "english_name": "Kafa white-eye",
+    "latin_name": "Zosterops kaffensis",
+    "summary": "The Kafa white-eye (Zosterops kaffensis) is a small passerine bird in the white-eye family, Zosteropidae. It is found in west and southwest…",
+    "lat": "2.72916667",
+    "lng": "36.92333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Zosterops_kaffensis_-_avocat_-_610332326.jpeg/960px-Zosterops_kaffensis_-_avocat_-_610332326.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-庫拉爾山-74c9c499",
+      "name": "庫拉爾山",
+      "summary": "庫拉爾山是東非國家肯雅的死火山，位於該國北部圖爾卡納湖以東，距離羅揚加拉尼約50公里，海拔高度2,285米，自1978年成為生物圈保護區。 外部連結 http://www.kilimanjaro.cc/eam/kulal.htm（页面存档…",
+      "lat": "2.72916667",
+      "lng": "36.92333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-kafa-white-eye-0eb66336",
+      "subject": "Kafa white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-庫拉爾山-74c9c499",
+      "object": "庫拉爾山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in west and southwest Ethiopia as well as on Mount Kulal in north Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kafa-white-eye-0eb66336",
+      "subject": "Kafa white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:19:41",
+  "requested_title": "Tanimbar Boobook",
+  "resolved_title": "Tanimbar boobook",
+  "title_aliases": [
+    "Tanimbar Boobook"
+  ],
+  "bird_id": "bird-tanimbar-boobook-4db7d6b7",
+  "raw_file": "bird-tanimbar-boobook-4db7d6b7.json",
+  "bird": {
+    "id": "bird-tanimbar-boobook-4db7d6b7",
+    "name": "Tanimbar boobook",
+    "english_name": "Tanimbar boobook",
+    "latin_name": "Ninox forbesi",
+    "summary": "The Tanimbar boobook, or Tanimbar hawk-owl (Ninox forbesi), is a species of owl in the family Strigidae. It is found in the Tanimbar Island…",
+    "lat": "-7.5",
+    "lng": "131.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Tanimbar_boobook_%28Ninox_forbesi%29.jpg/960px-Tanimbar_boobook_%28Ninox_forbesi%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塔寧巴爾群島-b051ba35",
+      "name": "塔寧巴爾群島",
+      "summary": "The Tanimbar Islands (Indonesian: Kepulauan Tanimbar; Indonesian pronunciation: [kəpuˌlawan̪ t̪aˈnimbar]), also called…",
+      "lat": "-7.5",
+      "lng": "131.5"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tanimbar-boobook-4db7d6b7",
+      "subject": "Tanimbar boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔寧巴爾群島-b051ba35",
+      "object": "塔寧巴爾群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Tanimbar Islands of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tanimbar-boobook-4db7d6b7",
+      "subject": "Tanimbar boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Tanimbar Islands of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tanimbar-boobook-4db7d6b7",
+      "subject": "Tanimbar boobook",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-tanimbar-boobook-4db7d6b7",
+      "subject": "Tanimbar boobook",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

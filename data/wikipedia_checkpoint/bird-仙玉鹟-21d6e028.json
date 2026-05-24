@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:08:17",
+  "requested_title": "Fairy Flycatcher",
+  "resolved_title": "Fairy flycatcher",
+  "title_aliases": [
+    "Fairy Flycatcher"
+  ],
+  "bird_id": "bird-仙玉鹟-21d6e028",
+  "raw_file": "bird-仙玉鹟-21d6e028.json",
+  "bird": {
+    "id": "bird-仙玉鹟-21d6e028",
+    "name": "仙玉鹟",
+    "english_name": "Fairy flycatcher",
+    "latin_name": "Stenostira scita",
+    "summary": "仙玉鹟（台湾作細嘴鶲，学名：Stenostira scita），是雀形目玉鹟科仙玉鹟属的一种鸟类。 仙玉鹟体重约5.9克，翼长约54.2毫米，嘴峰长约12.3毫米，喙宽度约2.7毫米，喙厚度约2.9毫米，跗蹠长约17.6毫米，尾长约55.5毫米。仙玉鹟在其分布区内为留鸟，其栖息…",
+    "lat": "-32.27",
+    "lng": "22.31",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Fairy_Warbler_-_South_Africa_S4E7312_%2817143048570%29.jpg/960px-Fairy_Warbler_-_South_Africa_S4E7312_%2817143048570%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡魯地區-517135fa",
+      "name": "卡魯地區",
+      "summary": "卡魯地區（Karoo）是南非西南部的一個地區，屬於半乾旱氣候景觀，人煙稀少。 卡魯地區包含大卡魯（Great Karoo）和小卡魯（Klein Karoo）。小卡魯位於斯瓦特山脈和奧特尼夸山脈之間，面積較小；大卡魯位於開普褶皺帶以北，實際…",
+      "lat": "-32.27",
+      "lng": "22.31"
+    },
+    {
+      "id": "loc-凡波斯-b26c163a",
+      "name": "凡波斯",
+      "summary": "凡波斯（南非語：fynbos，荷蘭語發音：[ˈfəinbɒs]，英語化發音：/ˈfeɪnbɒs/），指南非西開普省及東開普省沿海山區的天然灌木植被帶，屬於地中海型氣候冬季多雨區的硬葉植被。凡波斯是開普植物區的主體，生態上歸入地中海森林、疏…",
+      "lat": "-34.16666667",
+      "lng": "18.375"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-仙玉鹟-21d6e028",
+      "subject": "仙玉鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡魯地區-517135fa",
+      "object": "卡魯地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Stenostira scita is a common seasonal migrant, breeding in karoo scrub and fynbos in the southern highlands, and migrating north in to spend the southern winter in thorn scrub at lower altitudes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-仙玉鹟-21d6e028",
+      "subject": "仙玉鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-凡波斯-b26c163a",
+      "object": "凡波斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Stenostira scita is a common seasonal migrant, breeding in karoo scrub and fynbos in the southern highlands, and migrating north in to spend the southern winter in thorn scrub at lower altitudes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-仙玉鹟-21d6e028",
+      "subject": "仙玉鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

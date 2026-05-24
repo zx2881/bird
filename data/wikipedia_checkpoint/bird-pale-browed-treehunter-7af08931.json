@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:19:27",
+  "requested_title": "Pale-browed Treehunter",
+  "resolved_title": "Pale-browed treehunter",
+  "title_aliases": [
+    "Pale-browed Treehunter"
+  ],
+  "bird_id": "bird-pale-browed-treehunter-7af08931",
+  "raw_file": "bird-pale-browed-treehunter-7af08931.json",
+  "bird": {
+    "id": "bird-pale-browed-treehunter-7af08931",
+    "name": "Pale-browed treehunter",
+    "english_name": "Pale-browed treehunter",
+    "latin_name": "Cichlocolaptes leucophrus",
+    "summary": "The pale-browed treehunter (Cichlocolaptes leucophrus) is a species of bird in the Furnariinae subfamily of the ovenbird family Furnariidae…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Cichlocolaptes_leucophrus_-_Pale-browed_Treehunter.JPG/960px-Cichlocolaptes_leucophrus_-_Pale-browed_Treehunter.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pale-browed-treehunter-7af08931",
+      "subject": "Pale-browed treehunter",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits humid lowland and montane evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-browed-treehunter-7af08931",
+      "subject": "Pale-browed treehunter",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

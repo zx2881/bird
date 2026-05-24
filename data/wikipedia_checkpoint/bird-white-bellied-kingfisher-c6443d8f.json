@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:37:37",
+  "requested_title": "White-bellied Kingfisher",
+  "resolved_title": "White-bellied kingfisher",
+  "title_aliases": [
+    "White-bellied Kingfisher"
+  ],
+  "bird_id": "bird-white-bellied-kingfisher-c6443d8f",
+  "raw_file": "bird-white-bellied-kingfisher-c6443d8f.json",
+  "bird": {
+    "id": "bird-white-bellied-kingfisher-c6443d8f",
+    "name": "White-bellied kingfisher",
+    "english_name": "White-bellied kingfisher",
+    "latin_name": "Corythornis leucogaster",
+    "summary": "The white-bellied kingfisher (Corythornis leucogaster) is a species of kingfisher in the subfamily Alcedininae that occurs in Mali and thro…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/White-bellied_kingfisher_%28Corythornis_leucogaster_bowdleri%29_Ankasa.jpg/960px-White-bellied_kingfisher_%28Corythornis_leucogaster_bowdleri%29_Ankasa.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-louis-fraser-08f5f799",
+      "name": "Louis Fraser",
+      "summary": "Louis Fraser (1810 – 1866) was a British zoologist and collector.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-翠鸟亚科-7980b011",
+      "name": "翠鸟亚科",
+      "summary": "翠鸟亚科（学名：Alcedininae）在动物分类学上是佛法僧目翠鸟科中的一个亚科。 翠鸟亚科的分布很广，从非洲到南亚和东亚一直到澳大利亚。普通翠鸟也生活在欧洲和亚洲北部。",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-bellied-kingfisher-c6443d8f",
+      "subject": "White-bellied kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-louis-fraser-08f5f799",
+      "object": "Louis Fraser",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-bellied kingfisher (Corythornis leucogaster) is a species of kingfisher in the subfamily Alcedininae that occurs in Mali and throughout the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bellied-kingfisher-c6443d8f",
+      "subject": "White-bellied kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-翠鸟亚科-7980b011",
+      "object": "翠鸟亚科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-bellied kingfisher (Corythornis leucogaster) is a species of kingfisher in the subfamily Alcedininae that occurs in Mali and throughout the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bellied-kingfisher-c6443d8f",
+      "subject": "White-bellied kingfisher",
+      "predicate": "lives_in",
+      "object_id": "hab-rainforest",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The white-bellied kingfisher (Corythornis leucogaster) is a species of kingfisher in the subfamily Alcedininae that occurs in Mali and throughout the African tropical rainforest",
+      "object_summary": "结构复杂且冠层完整的高生物多样性森林。"
+    },
+    {
+      "subject_id": "bird-white-bellied-kingfisher-c6443d8f",
+      "subject": "White-bellied kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

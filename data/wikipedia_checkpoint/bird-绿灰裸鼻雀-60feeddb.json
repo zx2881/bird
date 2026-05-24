@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:35:11",
+  "requested_title": "Glaucous Tanager",
+  "resolved_title": "Glaucous tanager",
+  "title_aliases": [
+    "Glaucous Tanager"
+  ],
+  "bird_id": "bird-绿灰裸鼻雀-60feeddb",
+  "raw_file": "bird-绿灰裸鼻雀-60feeddb.json",
+  "bird": {
+    "id": "bird-绿灰裸鼻雀-60feeddb",
+    "name": "绿灰裸鼻雀",
+    "english_name": "Glaucous tanager",
+    "latin_name": "Thraupis glaucocolpa",
+    "summary": "绿灰裸鼻雀（台湾作藍綠裸鼻雀，学名：Thraupis glaucocolpa），是雀形目裸鼻雀科的一种鸟类。 绿灰裸鼻雀体重约31.6克，翼长约88毫米，嘴峰长约17.3毫米，喙宽度约6.5毫米，喙厚度约7.5毫米，跗蹠长约20.5毫米，尾长约60.6毫米。绿灰裸鼻雀在其分布区…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Thraupis_glaucocolpa.jpg/960px-Thraupis_glaucocolpa.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-绿灰裸鼻雀-60feeddb",
+      "subject": "绿灰裸鼻雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿灰裸鼻雀-60feeddb",
+      "subject": "绿灰裸鼻雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿灰裸鼻雀-60feeddb",
+      "subject": "绿灰裸鼻雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

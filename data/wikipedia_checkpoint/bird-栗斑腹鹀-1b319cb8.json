@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:41:03",
+  "requested_title": "Jankowski's Bunting",
+  "resolved_title": "Jankowski's bunting",
+  "title_aliases": [
+    "Jankowski's Bunting"
+  ],
+  "bird_id": "bird-栗斑腹鹀-1b319cb8",
+  "raw_file": "bird-栗斑腹鹀-1b319cb8.json",
+  "bird": {
+    "id": "bird-栗斑腹鹀-1b319cb8",
+    "name": "栗斑腹鹀",
+    "english_name": "Jankowski's bunting",
+    "latin_name": "Emberiza jankowskii",
+    "summary": "栗斑腹鹀（学名：Emberiza jankowskii）为雀科鹀属的鸟类，俗名红肚麻雀。分布于俄罗斯、朝鲜以及中国大陆的东北、辽宁、北戴河等地，多栖息于在东部沿海地区栖于海拔300m 的有矮树的山坡草地或河岸丘陵草地的灌丛间以及在西部内陆地区栖于210-320m 的低灌丛、山麓…",
+    "lat": "43",
+    "lng": "125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/EmberizaJankowskiKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-俄羅斯遠東地區-53945c47",
+      "name": "俄羅斯遠東地區",
+      "summary": "俄羅斯遠東地區（俄語：Дальний Восток России，羅馬化：Dalny Vostok Rossii，發音：[ˈdalʲnʲɪj vɐˈstok rɐˈsʲii]），位於俄羅斯東部，為西伯利亞貝加爾湖東部與太平洋之間；其中所屬…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    },
+    {
+      "id": "loc-朝鮮-地區-db3706d8",
+      "name": "朝鮮 (地區)",
+      "summary": "朝鮮，又稱韓、高丽等，是东亚的一个地区，位于欧亚大陆东端，包含朝鲜半岛（韓半岛）、济州岛及朝鲜半岛附近的几个岛屿。東北接壤俄罗斯，北面接壤中國，通過朝鲜海峡和日本海與日本隔海相望。其位处汉字文化圈内，传统上深受汉文化影响，但也在建筑、音乐…",
+      "lat": "38.31666667",
+      "lng": "127.23333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗斑腹鹀-1b319cb8",
+      "subject": "栗斑腹鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄羅斯遠東地區-53945c47",
+      "object": "俄羅斯遠東地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Russian Far East, Manchuria and far northeastern Korea, where its natural habitats are temperate shrubland and grassland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗斑腹鹀-1b319cb8",
+      "subject": "栗斑腹鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Russian Far East, Manchuria and far northeastern Korea, where its natural habitats are temperate shrubland and grassland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗斑腹鹀-1b319cb8",
+      "subject": "栗斑腹鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-朝鮮-地區-db3706d8",
+      "object": "朝鮮 (地區)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Russian Far East, Manchuria and far northeastern Korea, where its natural habitats are temperate shrubland and grassland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗斑腹鹀-1b319cb8",
+      "subject": "栗斑腹鹀",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It breeds in the Russian Far East, Manchuria and far northeastern Korea, where its natural habitats are temperate shrubland and grassland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-栗斑腹鹀-1b319cb8",
+      "subject": "栗斑腹鹀",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It breeds in the Russian Far East, Manchuria and far northeastern Korea, where its natural habitats are temperate shrubland and grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-栗斑腹鹀-1b319cb8",
+      "subject": "栗斑腹鹀",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-栗斑腹鹀-1b319cb8",
+      "subject": "栗斑腹鹀",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In 2020 it was discovered to be breeding in Mongolia. The species is threatened by habitat loss, caused by overgrazing and changes in agriculture. It is currently listed as endangered. The bird's English name honours the Polish collector Michał Jankowski, who collected a specimen on 9 March 1886 on his estate in Sidemi in the Primorsky Krai",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

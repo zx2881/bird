@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:38:09",
+  "requested_title": "Yellow-crowned Flowerpecker",
+  "resolved_title": "Yellow-crowned flowerpecker",
+  "title_aliases": [
+    "Yellow-crowned Flowerpecker"
+  ],
+  "bird_id": "bird-黄冠啄花鸟-4925a9ae",
+  "raw_file": "bird-黄冠啄花鸟-4925a9ae.json",
+  "bird": {
+    "id": "bird-黄冠啄花鸟-4925a9ae",
+    "name": "黄冠啄花鸟",
+    "english_name": "Yellow-crowned flowerpecker",
+    "latin_name": "Dicaeum anthonyi",
+    "summary": "黄冠啄花鸟（学名：Dicaeum anthonyi），是啄花鸟科啄花鸟属的一种，为菲律宾的特有种。该物种的保护状况被评为近危。 黄冠啄花鸟的平均体重约为10.9克。栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Dicaeum_anthonyi.jpg/960px-Dicaeum_anthonyi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-國際自然保護聯盟-2992ef64",
+      "name": "國際自然保護聯盟",
+      "summary": "國際自然與自然資源保護聯盟（英語：International Union for Conservation of Nature and Natural Resources），通稱為國際自然保護聯盟（英語：International Uni…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄冠啄花鸟-4925a9ae",
+      "subject": "黄冠啄花鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟-2992ef64",
+      "object": "國際自然保護聯盟",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits tropical moist montane forest from 1,500 to 2,000 meters above sea level. The International Union for Conservation of Nature assessed this species in 2023 as Least-concern. Prior to this, it was assessed as near threatened with its population being estimated as 10,000 to 19,999 mature individuals",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄冠啄花鸟-4925a9ae",
+      "subject": "黄冠啄花鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It was formerly conspecific with the Flame-crowned flowerpecker of Mindanao. Its natural habitat is tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-黄冠啄花鸟-4925a9ae",
+      "subject": "黄冠啄花鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits tropical moist montane forest from 1,500 to 2,000 meters above sea level. The International Union for Conservation of Nature assessed this species in 2023 as Least-concern. Prior to this, it was assessed as near threatened with its population being estimated as 10,000 to 19,999 mature individuals",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-黄冠啄花鸟-4925a9ae",
+      "subject": "黄冠啄花鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黄冠啄花鸟-4925a9ae",
+      "subject": "黄冠啄花鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is becoming rare due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-黄冠啄花鸟-4925a9ae",
+      "subject": "黄冠啄花鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, forest loss is a threat especially in its lower altitude limits which are more prone to legal and illegal logging, mining and conversion into farmland and road development",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

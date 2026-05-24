@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:57:04",
+  "requested_title": "Grey-browed Wren",
+  "resolved_title": "Grey-browed wren",
+  "title_aliases": [
+    "Grey-browed Wren"
+  ],
+  "bird_id": "bird-grey-browed-wren-4927f153",
+  "raw_file": "bird-grey-browed-wren-4927f153.json",
+  "bird": {
+    "id": "bird-grey-browed-wren-4927f153",
+    "name": "Grey-browed wren",
+    "english_name": "Grey-browed wren",
+    "latin_name": "Pheugopedius schulenbergi",
+    "summary": "The grey-browed wren (Pheugopedius schulenbergi) is a small passerine bird in the wren family Troglodytidae. It is found in northern Peru n…",
+    "lat": "-7.967438",
+    "lng": "-77.297745",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pheugopedius_schulenbergi_map.svg/960px-Pheugopedius_schulenbergi_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-馬拉尼翁河-cfb9e961",
+      "name": "馬拉尼翁河",
+      "summary": "馬拉尼翁河（西班牙語：Río Marañón）發源自秘魯利馬東北160公里，向西北方向流經安第斯山脈河谷到達南緯5度36分，然後轉往東北方向橫越安第斯山脈，與烏卡亞利河（Ucayali River）匯流，成為亞馬遜河。",
+      "lat": "-7.967438",
+      "lng": "-77.297745"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-browed-wren-4927f153",
+      "subject": "Grey-browed wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-馬拉尼翁河-cfb9e961",
+      "object": "馬拉尼翁河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern Peru north of the Río Marañón",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-browed-wren-4927f153",
+      "subject": "Grey-browed wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

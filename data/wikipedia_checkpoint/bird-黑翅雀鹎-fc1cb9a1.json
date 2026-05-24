@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:17:44",
+  "requested_title": "Common Iora",
+  "resolved_title": "Common iora",
+  "title_aliases": [
+    "Common Iora"
+  ],
+  "bird_id": "bird-黑翅雀鹎-fc1cb9a1",
+  "raw_file": "bird-黑翅雀鹎-fc1cb9a1.json",
+  "bird": {
+    "id": "bird-黑翅雀鹎-fc1cb9a1",
+    "name": "黑翅雀鹎",
+    "english_name": "Common iora",
+    "latin_name": "Aegithina tiphia",
+    "summary": "黑翅雀鹎（学名：Aegithina tiphia）为和平鸟科雀鹎属的鸟类。分布于斯里兰卡、印度半岛、尼泊尔、锡金、不丹、经孟加拉至中南半岛、南抵印度尼西亚以及中国大陆的云南等地，多生活于海拔1600米以下的低山和平坝、多在开阔的次生阔叶林、杂木灌丛、村寨庭园附近、路边林木灌丛。…",
+    "lat": "24.12",
+    "lng": "91.45083333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Common-ioraM-Sandeep.jpg/960px-Common-ioraM-Sandeep.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-satchari-national-park-db16df89",
+      "name": "Satchari National Park",
+      "summary": "Satchari National Park (Bengali: সাতছড়ি জাতীয় উদ্যান) is a national park in Habiganj District, Bangladesh.",
+      "lat": "24.12",
+      "lng": "91.45083333"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑翅雀鹎-fc1cb9a1",
+      "subject": "黑翅雀鹎",
+      "predicate": "distributed_in",
+      "object_id": "loc-satchari-national-park-db16df89",
+      "object": "Satchari National Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "multicolor: female in Satchari National Park, Bangladesh]] The common iora (Aegithina tiphia) is a small passerine bird found across the tropical Indian subcontinent and Southeast Asia, with populations showing plumage variations, some of which are designated as subspecies",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑翅雀鹎-fc1cb9a1",
+      "subject": "黑翅雀鹎",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "multicolor: female in Satchari National Park, Bangladesh]] The common iora (Aegithina tiphia) is a small passerine bird found across the tropical Indian subcontinent and Southeast Asia, with populations showing plumage variations, some of which are designated as subspecies",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑翅雀鹎-fc1cb9a1",
+      "subject": "黑翅雀鹎",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

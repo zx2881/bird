@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:14:12",
+  "requested_title": "Dark-winged Miner",
+  "resolved_title": "Dark-winged miner",
+  "title_aliases": [
+    "Dark-winged Miner"
+  ],
+  "bird_id": "bird-dark-winged-miner-5883580c",
+  "raw_file": "bird-dark-winged-miner-5883580c.json",
+  "bird": {
+    "id": "bird-dark-winged-miner-5883580c",
+    "name": "Dark-winged miner",
+    "english_name": "Dark-winged miner",
+    "latin_name": "Geositta saxicolina",
+    "summary": "The dark-winged miner (Geositta saxicolina) is a species of bird in the subfamily Sclerurinae, the leaftossers and miners, of the ovenbird…",
+    "lat": "-19",
+    "lng": "-68",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Dark-winged_miner.JPG/960px-Dark-winged_miner.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-阿尔蒂普拉诺高原-8a676b92",
+      "name": "阿尔蒂普拉诺高原",
+      "summary": "阿尔蒂普拉诺高原（西班牙語：Altiplano，意为高地平原）也稱為玻利维亚高原，位於南美洲中部安第斯山脉最宽广处，是世界上继青藏高原之后的又一片平均海拔超过3,000米的大高原，南美洲最大湖的的喀喀湖是其最为著名的地理特色。 阿尔蒂普拉…",
+      "lat": "-19",
+      "lng": "-68"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dark-winged-miner-5883580c",
+      "subject": "Dark-winged miner",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔蒂普拉诺高原-8a676b92",
+      "object": "阿尔蒂普拉诺高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the Altiplano, where it favors gently sloping grasslands with a rocky substrate",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dark-winged-miner-5883580c",
+      "subject": "Dark-winged miner",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the Altiplano, where it favors gently sloping grasslands with a rocky substrate",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-dark-winged-miner-5883580c",
+      "subject": "Dark-winged miner",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

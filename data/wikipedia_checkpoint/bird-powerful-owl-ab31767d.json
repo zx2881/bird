@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:12:11",
+  "requested_title": "Powerful Owl",
+  "resolved_title": "Powerful owl",
+  "title_aliases": [
+    "Powerful Owl"
+  ],
+  "bird_id": "bird-powerful-owl-ab31767d",
+  "raw_file": "bird-powerful-owl-ab31767d.json",
+  "bird": {
+    "id": "bird-powerful-owl-ab31767d",
+    "name": "Powerful owl",
+    "english_name": "Powerful owl",
+    "latin_name": "Ninox strenua",
+    "summary": "The powerful owl (Ninox strenua), a species of owl native to south-eastern and eastern Australia, is the largest owl on the continent. It i…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Powerful_Owl_0A2A8181.jpg/960px-Powerful_Owl_0A2A8181.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-古尔德-f8020282",
+      "name": "约翰·古尔德",
+      "summary": "约翰·古尔德 FRS（英語：John Gould，1804年9月14日—1881年2月3日）是19世纪一位英国鸟类学家。1804年生于英格兰，也是一位商人、艺术家。1838年后与其妻一同前往澳大利亚，在当地发现并為许多新物种命名。 早年…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-大分水岭-ee037759",
+      "name": "大分水岭",
+      "summary": "大分水岭（英語：Great Dividing Range），也称东部高地（Eastern Highlands），亦音譯作大狄維亭山脈，是澳大利亚大陆东部沿岸大致与海岸线平行的山脉、丘陵和高原的总称，北起约克角半岛，南至维多利亚州西部，长3…",
+      "lat": "-25",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-powerful-owl-ab31767d",
+      "subject": "Powerful owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-古尔德-f8020282",
+      "object": "约翰·古尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The powerful owl (Ninox strenua), a species of owl native to south-eastern and eastern Australia, is the largest owl on the continent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-powerful-owl-ab31767d",
+      "subject": "Powerful owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The powerful owl (Ninox strenua), a species of owl native to south-eastern and eastern Australia, is the largest owl on the continent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-powerful-owl-ab31767d",
+      "subject": "Powerful owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-大分水岭-ee037759",
+      "object": "大分水岭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in coastal areas and in the Great Dividing Range, rarely more than inland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-powerful-owl-ab31767d",
+      "subject": "Powerful owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-powerful-owl-ab31767d",
+      "subject": "Powerful owl",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The IUCN Red List of Threatened Species also refers to this species as the powerful boobook. An apex predator in its narrow distribution, powerful owls are often opportunists, like most predators, but generally are dedicated to hunting arboreal mammals, in particular small to medium-sized marsupials",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

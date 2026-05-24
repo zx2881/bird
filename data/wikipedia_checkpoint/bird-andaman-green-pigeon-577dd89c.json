@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:24:17",
+  "requested_title": "Andaman Green Pigeon",
+  "resolved_title": "Andaman green pigeon",
+  "title_aliases": [
+    "Andaman Green Pigeon"
+  ],
+  "bird_id": "bird-andaman-green-pigeon-577dd89c",
+  "raw_file": "bird-andaman-green-pigeon-577dd89c.json",
+  "bird": {
+    "id": "bird-andaman-green-pigeon-577dd89c",
+    "name": "Andaman green pigeon",
+    "english_name": "Andaman green pigeon",
+    "latin_name": "Treron chloropterus",
+    "summary": "The Andaman green pigeon (Treron chloropterus) is a pigeon in the genus Treron. It is found in the Andaman and Nicobar Islands.",
+    "lat": "11.68",
+    "lng": "92.72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Andaman_Green-pigeon_flight.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-安达曼-尼科巴群岛-168e8c58",
+      "name": "安达曼-尼科巴群岛",
+      "summary": "安達曼-尼科巴群島（英語：Andaman and Nicobar Islands；孟加拉語：আন্দামান ও নিকোবর দ্বীপপুঞ্জ；坦米爾語：அந்தமான் நிக்கோபார் தீவுகள்；印地語：अंडमान…",
+      "lat": "11.68",
+      "lng": "92.72"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-andaman-green-pigeon-577dd89c",
+      "subject": "Andaman green pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-安达曼-尼科巴群岛-168e8c58",
+      "object": "安达曼-尼科巴群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Andaman and Nicobar Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-andaman-green-pigeon-577dd89c",
+      "subject": "Andaman green pigeon",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

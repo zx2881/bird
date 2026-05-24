@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:41:31",
+  "requested_title": "Nava's Wren",
+  "resolved_title": "Nava's wren",
+  "title_aliases": [
+    "Nava's Wren"
+  ],
+  "bird_id": "bird-nava-s-wren-7f96e5a1",
+  "raw_file": "bird-nava-s-wren-7f96e5a1.json",
+  "bird": {
+    "id": "bird-nava-s-wren-7f96e5a1",
+    "name": "Nava's wren",
+    "english_name": "Nava's wren",
+    "latin_name": "Hylorchilus navai",
+    "summary": "Nava's wren (Hylorchilus navai) is a species of bird in the family Troglodytidae. It is endemic to Mexico.",
+    "lat": "19.5272",
+    "lng": "-96.9225",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Nava%27a_Wren_-_Chiapas_-_Mexico_S4E7498_%2816548132603%29.jpg/960px-Nava%27a_Wren_-_Chiapas_-_Mexico_S4E7498_%2816548132603%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-韋拉克魯斯州-51279fa6",
+      "name": "韋拉克魯斯州",
+      "summary": "韋拉克魯斯州（西班牙語：Veracruz，西班牙語發音：[beɾaˈkɾus]）是墨西哥的一個州，位於該國中部偏東，東部面向墨西哥灣。人口僅次於墨西哥州和聯邦區，居全國第三，首府哈拉帕。 正式州名為Veracruz de Ignacio…",
+      "lat": "19.5272",
+      "lng": "-96.9225"
+    },
+    {
+      "id": "loc-恰帕斯州-46de6417",
+      "name": "恰帕斯州",
+      "summary": "恰帕斯州（西班牙語：Chiapas），正式名称为恰帕斯自由和主权州（Estado Libre y Soberano de Chiapas），是墨西哥的一個州，位於該國東南部。東臨瓜地馬拉，南臨太平洋。 整體屬熱帶濕潤氣候。北部靠近塔巴斯科…",
+      "lat": "16.53",
+      "lng": "-92.45"
+    },
+    {
+      "id": "loc-瓦哈卡州-e005144e",
+      "name": "瓦哈卡州",
+      "summary": "瓦哈卡州（西班牙語：Oaxaca，發音：[waˈχaka] ）是墨西哥合眾國的一個州，位於該國的南部，臨太平洋。2005年估計人口為 3,506,821人。首府瓦哈卡市。 历史 名称 瓦哈卡的州名来自其首府瓦哈卡市的名称。这个名字来自纳瓦…",
+      "lat": "17.055",
+      "lng": "-96.655"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-nava-s-wren-7f96e5a1",
+      "subject": "Nava's wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-韋拉克魯斯州-51279fa6",
+      "object": "韋拉克魯斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Nava's wren occurs in a small area of southern Mexico, in southeastern Veracruz, western Chiapas, and barely into northeastern Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nava-s-wren-7f96e5a1",
+      "subject": "Nava's wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-恰帕斯州-46de6417",
+      "object": "恰帕斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Nava's wren occurs in a small area of southern Mexico, in southeastern Veracruz, western Chiapas, and barely into northeastern Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nava-s-wren-7f96e5a1",
+      "subject": "Nava's wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦哈卡州-e005144e",
+      "object": "瓦哈卡州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Nava's wren occurs in a small area of southern Mexico, in southeastern Veracruz, western Chiapas, and barely into northeastern Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nava-s-wren-7f96e5a1",
+      "subject": "Nava's wren",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

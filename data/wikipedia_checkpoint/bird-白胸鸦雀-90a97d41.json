@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T14:48:34",
+  "requested_title": "White-breasted Parrotbill",
+  "resolved_title": "White-breasted parrotbill",
+  "title_aliases": [
+    "White-breasted Parrotbill"
+  ],
+  "bird_id": "bird-白胸鸦雀-90a97d41",
+  "raw_file": "bird-白胸鸦雀-90a97d41.json",
+  "bird": {
+    "id": "bird-白胸鸦雀-90a97d41",
+    "name": "白胸鸦雀",
+    "english_name": "White-breasted parrotbill",
+    "latin_name": "Paradoxornis ruficeps",
+    "summary": "白胸鸦雀（台湾作紅頭鴉雀）（学名：Paradoxornis ruficeps）为鸦雀科鸦雀属的鸟类。分布于尼泊尔、不丹、印度、缅甸、越南以及中国大陆的西藏、云南等地，主要栖息于海拔900米高处的树林和草丛间以及常在细枝或草茎上穿梭活动。该物种的模式产地在不丹。 特征 白胸鸦雀体…",
+    "lat": "22",
+    "lng": "96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Paradoxornis_ruficeps.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-eastern-himalayas-e24606b2",
+      "name": "Eastern Himalayas",
+      "summary": "The Eastern Himalayas extend from eastern Nepal across Northeast India, Bhutan, the Tibet Autonomous Region to Yunnan i…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    },
+    {
+      "id": "loc-老挝-0d5ce5bc",
+      "name": "老挝",
+      "summary": "老挝人民民主共和国（寮語：ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ，简写：ສປປ ລາວ），通稱寮國（寮語：ລາວ），是位于東南亞中南半岛的社会主义国家，首都及最大城市为万象，通行寮语，面积23.68万平方公里，…",
+      "lat": "18",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白胸鸦雀-90a97d41",
+      "subject": "白胸鸦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-eastern-himalayas-e24606b2",
+      "object": "Eastern Himalayas",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eastern Himalaya, Myanmar, Laos and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白胸鸦雀-90a97d41",
+      "subject": "白胸鸦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eastern Himalaya, Myanmar, Laos and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白胸鸦雀-90a97d41",
+      "subject": "白胸鸦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-老挝-0d5ce5bc",
+      "object": "老挝",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eastern Himalaya, Myanmar, Laos and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白胸鸦雀-90a97d41",
+      "subject": "白胸鸦雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

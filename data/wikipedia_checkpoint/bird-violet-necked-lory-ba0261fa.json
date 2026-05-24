@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:06:51",
+  "requested_title": "Violet-necked Lory",
+  "resolved_title": "Violet-necked lory",
+  "title_aliases": [
+    "Violet-necked Lory"
+  ],
+  "bird_id": "bird-violet-necked-lory-ba0261fa",
+  "raw_file": "bird-violet-necked-lory-ba0261fa.json",
+  "bird": {
+    "id": "bird-violet-necked-lory-ba0261fa",
+    "name": "Violet-necked lory",
+    "english_name": "Violet-necked lory",
+    "latin_name": "Trichoglossus squamatus",
+    "summary": "The violet-necked lory (Trichoglossus squamatus) is a species of parrot in the family Psittaculidae. It is endemic to Indonesia, where it i…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Violet_Necked_Lory.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    },
+    {
+      "id": "loc-西巴布亞省-0305f298",
+      "name": "西巴布亞省",
+      "summary": "西巴布亚省（印尼語：Provinsi Papua Barat）是印度尼西亚东部的一个省，省域包括新几内亚岛西部的极乐鸟半岛、博布莱半岛和附近的拉贾安帕特群岛，是西新几内亚两省之一。首府及最大城市為马诺夸里。2010年统计人口共760,85…",
+      "lat": "-0.86666667",
+      "lng": "134.08333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-violet-necked-lory-ba0261fa",
+      "subject": "Violet-necked lory",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it is found in the northern Maluku Islands and west Papuan islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-violet-necked-lory-ba0261fa",
+      "subject": "Violet-necked lory",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it is found in the northern Maluku Islands and west Papuan islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-violet-necked-lory-ba0261fa",
+      "subject": "Violet-necked lory",
+      "predicate": "distributed_in",
+      "object_id": "loc-西巴布亞省-0305f298",
+      "object": "西巴布亞省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it is found in the northern Maluku Islands and west Papuan islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-violet-necked-lory-ba0261fa",
+      "subject": "Violet-necked lory",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:51:40",
+  "requested_title": "Andean Negrito",
+  "resolved_title": "Andean negrito",
+  "title_aliases": [
+    "Andean Negrito"
+  ],
+  "bird_id": "bird-andean-negrito-b47a7ae3",
+  "raw_file": "bird-andean-negrito-b47a7ae3.json",
+  "bird": {
+    "id": "bird-andean-negrito-b47a7ae3",
+    "name": "Andean negrito",
+    "english_name": "Andean negrito",
+    "latin_name": "Lessonia oreas",
+    "summary": "The Andean negrito (Lessonia oreas) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is found in Argentina, Bolivi…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Andean_Negrito_%28Lessonia_oreas%29_on_the_ground%2C_side_view.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲利普-斯克莱特-0722f03b",
+      "name": "菲利普·斯克莱特",
+      "summary": "菲利普·勒特利·斯克莱特（英語：Philip Lutley Sclater，1829年11月4日—1913年6月27日）是一位英国律师和动物学家，主要从事鳥類學研究，开创性地建立了动物地理学分区。 参考资料 外部链接 维基共享资源上的相關…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-osbert-salvin-f71e3068",
+      "name": "Osbert Salvin",
+      "summary": "Osbert Salvin (25 February 1835 – 1 June 1898) was an English naturalist, ornithologist, and herpetologist best known f…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-andean-negrito-b47a7ae3",
+      "subject": "Andean negrito",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲利普-斯克莱特-0722f03b",
+      "object": "菲利普·斯克莱特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Andean negrito (Lessonia oreas) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is found in Argentina, Bolivia, Chile, and Peru.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-andean-negrito-b47a7ae3",
+      "subject": "Andean negrito",
+      "predicate": "distributed_in",
+      "object_id": "loc-osbert-salvin-f71e3068",
+      "object": "Osbert Salvin",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Andean negrito (Lessonia oreas) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is found in Argentina, Bolivia, Chile, and Peru.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-andean-negrito-b47a7ae3",
+      "subject": "Andean negrito",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

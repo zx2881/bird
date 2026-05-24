@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:26:29",
+  "requested_title": "Black-winged Flycatcher-shrike",
+  "resolved_title": "Black-winged flycatcher-shrike",
+  "title_aliases": [
+    "Black-winged Flycatcher-shrike"
+  ],
+  "bird_id": "bird-黑翅鹟鵙-c8974978",
+  "raw_file": "bird-黑翅鹟鵙-c8974978.json",
+  "bird": {
+    "id": "bird-黑翅鹟鵙-c8974978",
+    "name": "黑翅鹟鵙",
+    "english_name": "Black-winged flycatcher-shrike",
+    "latin_name": "Hemipus hirundinaceus",
+    "summary": "黑翅鹟鵙（学名：Hemipus hirundinaceus）是鹟鵙属的一种，在传统上被归入山椒鸟科里。该物种可在马来半岛及大巽他群岛发现，分布于文莱、印度尼西亚、马来西亚、缅甸和泰国。其自然栖息地为亚热带或热带的湿润低地森林以及亚热带或热带的红树林。 参考文献",
+    "lat": "7",
+    "lng": "100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Black-winged_Flycatcher-Shrike_-_Gunung_Gede_-_West_Java_MG_3861_%2829773557386%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    },
+    {
+      "id": "loc-大巽他群岛-1408928e",
+      "name": "大巽他群岛",
+      "summary": "大巽（xùn）他群岛（印尼語：Kepulauan Sunda Besar）位于马来群岛西部，与小巽他群岛合称巽他群岛。主要岛屿包括婆罗洲、爪哇岛、苏拉威西岛和苏门答腊。大巽他群岛由文莱、印尼和马来西亚管辖。 参见 小巽他群岛 马来群岛 第…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森林道路-357b7194",
+      "name": "森林道路",
+      "summary": "林道是樹林中為便於机动车以及自行車通行而專門開闢的道路。好一點的森林道路上可能會铺有柏油。在许多地方，要在不違反森林管理法以及保護法的情況下才能開闢林道。 参考文献",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑翅鹟鵙-c8974978",
+      "subject": "黑翅鹟鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Malay Peninsula and the Greater Sunda Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑翅鹟鵙-c8974978",
+      "subject": "黑翅鹟鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-大巽他群岛-1408928e",
+      "object": "大巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Malay Peninsula and the Greater Sunda Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑翅鹟鵙-c8974978",
+      "subject": "黑翅鹟鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林道路-357b7194",
+      "object": "森林道路",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-winged flycatcher-shrike lives in the canopy of lowland forests and forest edges and along forest roads and streams, and it sometimes occurs in swamps, mangroves and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑翅鹟鵙-c8974978",
+      "subject": "黑翅鹟鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-winged flycatcher-shrike lives in the canopy of lowland forests and forest edges and along forest roads and streams, and it sometimes occurs in swamps, mangroves and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑翅鹟鵙-c8974978",
+      "subject": "黑翅鹟鵙",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The black-winged flycatcher-shrike lives in the canopy of lowland forests and forest edges and along forest roads and streams, and it sometimes occurs in swamps, mangroves and secondary forest",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-黑翅鹟鵙-c8974978",
+      "subject": "黑翅鹟鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黑翅鹟鵙-c8974978",
+      "subject": "黑翅鹟鵙",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population is declining because of habitat loss, but not rapidly enough to make it vulnerable, so the IUCN has assessed it to be a least-concern species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:23:13",
+  "requested_title": "Black-footed Albatross",
+  "resolved_title": "Black-footed albatross",
+  "title_aliases": [
+    "Black-footed Albatross"
+  ],
+  "bird_id": "bird-黑脚信天翁-5e59a53d",
+  "raw_file": "bird-黑脚信天翁-5e59a53d.json",
+  "bird": {
+    "id": "bird-黑脚信天翁-5e59a53d",
+    "name": "黑脚信天翁",
+    "english_name": "Black-footed albatross",
+    "latin_name": "Phoebastria nigripes",
+    "summary": "黑脚信天翁（学名：Phoebastria nigripes）为信天翁科北太平洋信天翁属的鸟类。是一種大型的海鳥，分布于北太平洋以及中国大陆的沿海、台湾海峡，多生活于大洋中的岛屿。该物种的模式产地在太平洋。。 除了2.5%的族群，其他大多數的黑腳信天翁都分布在西北夏威夷群島。這是…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Black_footed_albatross1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北半球-6e1922ec",
+      "name": "北半球",
+      "summary": "北半球（英語：Northern Hemisphere）是指地球赤道以北的半球。北半球表面有60.7%是水，佔地球的42.9%；39.3%是陸地，佔地球的67.3%。 北半球的陸地包含了亞洲大部份、歐洲全部、非洲北半部、北美洲全部、南美洲北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-島嶼-f510d951",
+      "name": "島嶼",
+      "summary": "島嶼或島（英語：island）是指於海洋、江河或湖泊中被水体圍繞，面积小于大陆的陆地区域。世界上面积最大的岛屿是北美洲的格陵兰岛，面积更大的陸地則不再被視為島嶼，而叫做「大陸」。在狹小的地域集中2個或以上的島嶼，即成「島嶼群」，大規模的島…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑脚信天翁-5e59a53d",
+      "subject": "黑脚信天翁",
+      "predicate": "distributed_in",
+      "object_id": "loc-北半球-6e1922ec",
+      "object": "北半球",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is one of three species of albatross that range in the Northern Hemisphere, nesting on isolated tropical islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑脚信天翁-5e59a53d",
+      "subject": "黑脚信天翁",
+      "predicate": "distributed_in",
+      "object_id": "loc-島嶼-f510d951",
+      "object": "島嶼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is one of three species of albatross that range in the Northern Hemisphere, nesting on isolated tropical islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑脚信天翁-5e59a53d",
+      "subject": "黑脚信天翁",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

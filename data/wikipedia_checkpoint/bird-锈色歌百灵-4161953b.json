@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:38:08",
+  "requested_title": "Rusty Bush Lark",
+  "resolved_title": "Rusty bush lark",
+  "title_aliases": [
+    "Rusty Bush Lark"
+  ],
+  "bird_id": "bird-锈色歌百灵-4161953b",
+  "raw_file": "bird-锈色歌百灵-4161953b.json",
+  "bird": {
+    "id": "bird-锈色歌百灵-4161953b",
+    "name": "锈色歌百灵",
+    "english_name": "Rusty bush lark",
+    "latin_name": "Calendulauda rufa",
+    "summary": "The rusty bush lark (Calendulauda rufa), also known as the rusty lark, is a species of lark in the family Alaudidae found in the Sahel regi…",
+    "lat": "15",
+    "lng": "19",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Mirafra_rufa_distribution_map.png/960px-Mirafra_rufa_distribution_map.png"
+  },
+  "locations": [
+    {
+      "id": "loc-hubert-lynes-d725273a",
+      "name": "Hubert Lynes",
+      "summary": "Rear-Admiral Hubert Lynes (27 November 1874 – 10 November 1942) was a British admiral whose First World War service was…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-乍得-7954a3ba",
+      "name": "乍得",
+      "summary": "乍得共和国（阿拉伯語：جمهورية تشاد；法語：République du Tchad），通稱乍得（阿拉伯語：تشاد，羅馬化：Tšād，發音：[tʃaːd]；法語：Tchad，發音：[tʃa(d)]），是非洲中部的一个内陆国家，北…",
+      "lat": "15",
+      "lng": "19"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-锈色歌百灵-4161953b",
+      "subject": "锈色歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-hubert-lynes-d725273a",
+      "object": "Hubert Lynes",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2024 |title=Calendulauda rufa |volume=2024 |article-number=e.T22717101A263888587 |doi=10.2305/IUCN.UK.2024-2.RLTS.T22717101A263888587.en |access-date=2 August 2025}} | genus = Calendulauda | species = rufa | authority = (Lynes, 1920) | subdivision_ranks = Subspecies | subdivision = See text | synonyms = | range_map = Mirafra rufa distribution map.png }} The rusty bush lark (Calendulauda rufa), also known as the rusty lark, is a species of lark in the family Alaudidae found in the Sahel region of north-central Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-锈色歌百灵-4161953b",
+      "subject": "锈色歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-乍得-7954a3ba",
+      "object": "乍得",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is typically found inhabiting the dry savannah ecoregions of Chad, Mali, Niger, Sudan, and Togo. It occurs in dry savanna with scattered open Combretum woodland. Despite being listed by IUCN as 'Least Concern', none were seen between May 1931 and 2 February 2026, when one was seen in south-central Chad; this sighting resulted in the first live photographs of the species ever taken",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-锈色歌百灵-4161953b",
+      "subject": "锈色歌百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is typically found inhabiting the dry savannah ecoregions of Chad, Mali, Niger, Sudan, and Togo. It occurs in dry savanna with scattered open Combretum woodland. Despite being listed by IUCN as 'Least Concern', none were seen between May 1931 and 2 February 2026, when one was seen in south-central Chad; this sighting resulted in the first live photographs of the species ever taken",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-锈色歌百灵-4161953b",
+      "subject": "锈色歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

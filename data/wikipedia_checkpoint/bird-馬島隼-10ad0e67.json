@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:25:20",
+  "requested_title": "Malagasy Kestrel",
+  "resolved_title": "Malagasy kestrel",
+  "title_aliases": [
+    "Malagasy Kestrel"
+  ],
+  "bird_id": "bird-馬島隼-10ad0e67",
+  "raw_file": "bird-馬島隼-10ad0e67.json",
+  "bird": {
+    "id": "bird-馬島隼-10ad0e67",
+    "name": "馬島隼",
+    "english_name": "Malagasy kestrel",
+    "latin_name": "Falco newtoni",
+    "summary": "馬島隼（Falco newtoni）是細小的猛禽。其學名是為紀念英國鳥類學家愛德華·紐頓（Edward Newton）。馬島隼有兩個亞種，分別在馬達加斯加及阿爾達布拉群島。牠們的最近親是塞舌爾隼，曾一度被認為是同一物種。牠們的共同祖先似乎是在很近期才分支，有可能是少於100萬年…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Madagascar_Kestrel_RWD.jpg/960px-Madagascar_Kestrel_RWD.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    },
+    {
+      "id": "loc-阿尔达布拉环礁-7ad55991",
+      "name": "阿尔达布拉环礁",
+      "summary": "阿尔达布拉环礁（Aldabra Atoll），是世界第二大珊瑚环礁，印度洋上塞席爾共和國外岛中阿爾達布拉群島的一部分。由于地理位置极其孤立而无人居住，阿尔达布拉环礁几乎完全没有受到人类的破坏。有阿尔达布拉象龟等独特生物，1982年列入联合…",
+      "lat": "-9.41666667",
+      "lng": "46.35"
+    },
+    {
+      "id": "loc-马约特-20d4d339",
+      "name": "马约特",
+      "summary": "马约特（法語：Mayotte，法語發音：[majɔt] ；馬約特語：Maore；布希语：Maori），正式名称为馬約特省（département de Mayotte），是法国的海外省与单一领土集体，位于莫桑比克海峡，包括格朗德特尔岛、珀…",
+      "lat": "-12.84305556",
+      "lng": "45.13833333"
+    },
+    {
+      "id": "loc-葛摩-8cba7f2e",
+      "name": "葛摩",
+      "summary": "科摩罗联盟（法語：Union des Comores；阿拉伯語：جمهورية القمر المتحدة），通稱科摩罗，是非洲阿拉伯国家岛国，位于印度洋莫桑比克海峡北部，莫桑比克和马达加斯加之间。主要领土为三座火山岛：大科摩罗島、莫埃利…",
+      "lat": "-12.3",
+      "lng": "43.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-馬島隼-10ad0e67",
+      "subject": "馬島隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in two subspecies on Madagascar and at Aldabra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-馬島隼-10ad0e67",
+      "subject": "馬島隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔达布拉环礁-7ad55991",
+      "object": "阿尔达布拉环礁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in two subspecies on Madagascar and at Aldabra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-馬島隼-10ad0e67",
+      "subject": "馬島隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-马约特-20d4d339",
+      "object": "马约特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Malagasy kestrel has a large range of occurrence and it is native to Madagascar, Mayotte, and the Comores",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-馬島隼-10ad0e67",
+      "subject": "馬島隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-葛摩-8cba7f2e",
+      "object": "葛摩",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Malagasy kestrel has a large range of occurrence and it is native to Madagascar, Mayotte, and the Comores",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-馬島隼-10ad0e67",
+      "subject": "馬島隼",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is a breeding resident on Madagascar where it occurs in savannas and wetlands but also artificial landscapes in the vicinity of human settlements in altitudes from 0 to 2000 asl",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-馬島隼-10ad0e67",
+      "subject": "馬島隼",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is a breeding resident on Madagascar where it occurs in savannas and wetlands but also artificial landscapes in the vicinity of human settlements in altitudes from 0 to 2000 asl",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-馬島隼-10ad0e67",
+      "subject": "馬島隼",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:06:20",
+  "requested_title": "Hooded Robin",
+  "resolved_title": "Hooded robin",
+  "title_aliases": [
+    "Hooded Robin"
+  ],
+  "bird_id": "bird-hooded-robin-10a160fe",
+  "raw_file": "bird-hooded-robin-10a160fe.json",
+  "bird": {
+    "id": "bird-hooded-robin-10a160fe",
+    "name": "Hooded robin",
+    "english_name": "Hooded robin",
+    "latin_name": "Melanodryas cucullata",
+    "summary": "The hooded robin (Melanodryas cucullata) is a small passerine bird native to Australia. Like many brightly coloured robins of the Petroicid…",
+    "lat": "-33.12388889",
+    "lng": "150.28166667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Melanodryas_cucullata_-_Glen_Davis.jpg/960px-Melanodryas_cucullata_-_Glen_Davis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-glen-davis-new-south-wales-cfc09dfb",
+      "name": "Glen Davis, New South Wales",
+      "summary": "Glen Davis is a village in the Central Tablelands of New South Wales, Australia.",
+      "lat": "-33.12388889",
+      "lng": "150.28166667"
+    },
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-约克角半岛-2a6b68ec",
+      "name": "约克角半岛",
+      "summary": "约克角半岛（英語：Cape York Peninsula）是澳大利亚東北部昆士兰州的一个半岛，其北端约克角是澳大利亚大陆的极北点。该半岛在1770年由英国航海家詹姆斯·库克以约克公爵的封号命名。 约克角距新几内亚岛约140公里，两地由托雷…",
+      "lat": "-15",
+      "lng": "143"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hooded-robin-10a160fe",
+      "subject": "Hooded robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-glen-davis-new-south-wales-cfc09dfb",
+      "object": "Glen Davis, New South Wales",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The hooded robin (Melanodryas cucullata) is a small passerine bird native to Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hooded-robin-10a160fe",
+      "subject": "Hooded robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The hooded robin (Melanodryas cucullata) is a small passerine bird native to Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hooded-robin-10a160fe",
+      "subject": "Hooded robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The hooded robin (Melanodryas cucullata) is a small passerine bird native to Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hooded-robin-10a160fe",
+      "subject": "Hooded robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-约克角半岛-2a6b68ec",
+      "object": "约克角半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "westralensis extends through the northern arid and southwestern arid regions of Australia, respectively, with overlap in the central arid regions. The hooded robin is not found in Tasmania, on the Nullarbor Plain, Cape York or inland around the Simpson Desert",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hooded-robin-10a160fe",
+      "subject": "Hooded robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

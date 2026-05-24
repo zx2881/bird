@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:46:18",
+  "requested_title": "Buff-rumped Thornbill",
+  "resolved_title": "Buff-rumped thornbill",
+  "title_aliases": [
+    "Buff-rumped Thornbill"
+  ],
+  "bird_id": "bird-buff-rumped-thornbill-88a1ce3f",
+  "raw_file": "bird-buff-rumped-thornbill-88a1ce3f.json",
+  "bird": {
+    "id": "bird-buff-rumped-thornbill-88a1ce3f",
+    "name": "Buff-rumped thornbill",
+    "english_name": "Buff-rumped thornbill",
+    "latin_name": "Acanthiza reguloides",
+    "summary": "The buff-rumped thornbill (Acanthiza reguloides) is a small passerine bird species belonging to the genus Acanthiza, most of which are ende…",
+    "lat": "-26.7383",
+    "lng": "150.6283",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Acanthiza_reguloides.jpg/960px-Acanthiza_reguloides.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-chinchilla-queensland-56491304",
+      "name": "Chinchilla, Queensland",
+      "summary": "Chinchilla is a rural town and locality in the Western Downs Region, Queensland, Australia.",
+      "lat": "-26.7383",
+      "lng": "150.6283"
+    },
+    {
+      "id": "loc-cobar-2a8ec147",
+      "name": "Cobar",
+      "summary": "Cobar is a town in Outback New South Wales, Australia, whose economy is based mainly upon base metals and gold mining.",
+      "lat": "-31.49972222",
+      "lng": "145.83194444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-buff-rumped-thornbill-88a1ce3f",
+      "subject": "Buff-rumped thornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-chinchilla-queensland-56491304",
+      "object": "Chinchilla, Queensland",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Primarily distributed in eastern Australia, the buff-rumped thornbill's range spans from Chinchilla, Queensland, west to Cobar, New South Wales, across Victoria and southeastern South Australia. This is an area of approximately 2 000 000 km2. This adaptable species thrives in dry sclerophyll forests and open eucalypt woodlands that have an open or sparse understorey. [[File:Distribution of the Buff Rumped Thornbill in Australia.jpg|thumb|Distribution of Acanthiza reguloides within Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-rumped-thornbill-88a1ce3f",
+      "subject": "Buff-rumped thornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-cobar-2a8ec147",
+      "object": "Cobar",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Primarily distributed in eastern Australia, the buff-rumped thornbill's range spans from Chinchilla, Queensland, west to Cobar, New South Wales, across Victoria and southeastern South Australia. This is an area of approximately 2 000 000 km2. This adaptable species thrives in dry sclerophyll forests and open eucalypt woodlands that have an open or sparse understorey. [[File:Distribution of the Buff Rumped Thornbill in Australia.jpg|thumb|Distribution of Acanthiza reguloides within Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-rumped-thornbill-88a1ce3f",
+      "subject": "Buff-rumped thornbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

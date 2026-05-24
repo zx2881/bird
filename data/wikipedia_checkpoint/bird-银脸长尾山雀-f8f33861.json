@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:36:12",
+  "requested_title": "Sooty Bushtit",
+  "resolved_title": "Sooty bushtit",
+  "title_aliases": [
+    "Sooty Bushtit"
+  ],
+  "bird_id": "bird-银脸长尾山雀-f8f33861",
+  "raw_file": "bird-银脸长尾山雀-f8f33861.json",
+  "bird": {
+    "id": "bird-银脸长尾山雀-f8f33861",
+    "name": "银脸长尾山雀",
+    "english_name": "Sooty bushtit",
+    "latin_name": "Aegithalos fuliginosus",
+    "summary": "银脸长尾山雀（学名：Aegithalos fuliginosus）为山雀科长尾山雀属的鸟类，是中国的特有物种。分布于甘肃、陕西、四川、湖北等地，多生活于1000米以上的高山森林间。该物种的模式产地在四川宝兴。 参考文献",
+    "lat": "38",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Aegithalos_fuliginosus_09993.jpg/960px-Aegithalos_fuliginosus_09993.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-甘肃省-c30bd5f5",
+      "name": "甘肃省",
+      "summary": "甘肃省，通称甘肃（），简称甘或陇，是中华人民共和国省份，位於中国西北地区、黄河上游，省会为兰州市，面积45万平方公里，排名第7。“甘肃”因甘州（今张掖）与肃州（今酒泉）而得名。 历史 甘肃为华夏文明的发祥地，天水的伏羲文化历史久远，被称为…",
+      "lat": "38",
+      "lng": "102"
+    },
+    {
+      "id": "loc-陕西省-a5e652a3",
+      "name": "陕西省",
+      "summary": "陕西省，简称陕或秦，又称三秦，是中华人民共和国的一个内陆省份，位于中国中部偏北地区，由关中、陕北和陕南三个地理区域组成；其西邻甘肃省及宁夏回族自治区，北接内蒙古自治区，东邻山西省及河南省，东南部至西南部与湖北省、重庆市及四川省相连；在地理…",
+      "lat": "35.6",
+      "lng": "109.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-银脸长尾山雀-f8f33861",
+      "subject": "银脸长尾山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-甘肃省-c30bd5f5",
+      "object": "甘肃省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The sooty bushtit inhabits mostly forested mountainous areas in central China, specifically in Sichuan, southern Gansu, southern Shaanxi, and southwestern Hubei",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-银脸长尾山雀-f8f33861",
+      "subject": "银脸长尾山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-陕西省-a5e652a3",
+      "object": "陕西省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The sooty bushtit inhabits mostly forested mountainous areas in central China, specifically in Sichuan, southern Gansu, southern Shaanxi, and southwestern Hubei",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-银脸长尾山雀-f8f33861",
+      "subject": "银脸长尾山雀",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is endemic to central China, where it inhabits foothill and montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-银脸长尾山雀-f8f33861",
+      "subject": "银脸长尾山雀",
+      "predicate": "lives_in",
+      "object_id": "hab-open-mountain",
+      "object": "开阔山地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The sooty bushtit inhabits mostly forested mountainous areas in central China, specifically in Sichuan, southern Gansu, southern Shaanxi, and southwestern Hubei",
+      "object_summary": "地形开阔且便于大翼展鸟类活动的山地区域。"
+    },
+    {
+      "subject_id": "bird-银脸长尾山雀-f8f33861",
+      "subject": "银脸长尾山雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

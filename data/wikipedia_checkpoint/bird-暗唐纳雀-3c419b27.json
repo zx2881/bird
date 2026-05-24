@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:16:08",
+  "requested_title": "Puerto Rican Tanager",
+  "resolved_title": "Puerto Rican tanager",
+  "title_aliases": [
+    "Puerto Rican Tanager"
+  ],
+  "bird_id": "bird-暗唐纳雀-3c419b27",
+  "raw_file": "bird-暗唐纳雀-3c419b27.json",
+  "bird": {
+    "id": "bird-暗唐纳雀-3c419b27",
+    "name": "暗唐纳雀",
+    "english_name": "Puerto Rican tanager",
+    "latin_name": "Nesospingus speculiferus",
+    "summary": "暗唐纳雀（台湾作波多黎各唐納雀，学名：Nesospingus speculiferus），是雀形目暗唐纳雀科的唯一一种鸟类。 暗唐纳雀体重约35.2克，翼长约84.5毫米，嘴峰长约21.4毫米，喙宽度约6.6毫米，喙厚度约8毫米，跗蹠长约23毫米，尾长约62毫米。暗唐纳雀在其分…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Puerto_Rican_Tanager.jpg/960px-Puerto_Rican_Tanager.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-暗唐纳雀-3c419b27",
+      "subject": "暗唐纳雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Puerto Rican tanager is restricted to mid- to high-elevation ( montane forests on the island of Puerto Rico. It typically inhabits mature and second growth montane subtropical rain and wet forests, as well as subtropical lower montane forests.{{cite journal |author=Collazo, A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗唐纳雀-3c419b27",
+      "subject": "暗唐纳雀",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Puerto Rican tanager is restricted to mid- to high-elevation ( montane forests on the island of Puerto Rico. It typically inhabits mature and second growth montane subtropical rain and wet forests, as well as subtropical lower montane forests.{{cite journal |author=Collazo, A",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-暗唐纳雀-3c419b27",
+      "subject": "暗唐纳雀",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

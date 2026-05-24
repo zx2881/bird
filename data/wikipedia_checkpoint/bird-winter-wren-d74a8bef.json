@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:11:10",
+  "requested_title": "Winter Wren",
+  "resolved_title": "Winter wren",
+  "title_aliases": [
+    "Winter Wren"
+  ],
+  "bird_id": "bird-winter-wren-d74a8bef",
+  "raw_file": "bird-winter-wren-d74a8bef.json",
+  "bird": {
+    "id": "bird-winter-wren-d74a8bef",
+    "name": "Winter wren",
+    "english_name": "Winter wren",
+    "latin_name": "Troglodytes hiemalis",
+    "summary": "The winter wren (Troglodytes hiemalis) is a very small North American bird and a member of the mainly New World wren family Troglodytidae.…",
+    "lat": "54",
+    "lng": "-125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Winter_wren_in_Prospect_Park_%2832249%29.jpg/960px-Winter_wren_in_Prospect_Park_%2832249%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-温带针叶林-0bea7fe2",
+      "name": "温带针叶林",
+      "summary": "温带针叶林是世界自然基金会定义的一种生態區，即一片長有針葉樹或闊葉樹的樹林。温带针叶林主要分布在夏暖冬凉以及冬季温和、降雨量大的沿海地区，或气候较干燥的内陆或山地地区。此外，一种独立的栖息地类型，热带针叶林，则更多的存在于热带气候中。 不…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-不列颠哥伦比亚省-3432d47b",
+      "name": "不列颠哥伦比亚省",
+      "summary": "不列颠哥伦比亚（英語：British Columbia，香港、新加坡譯卑詩，台湾譯不列顛哥倫比亞，縮寫：B.C.；法語：Colombie-Britannique，縮寫：C.B.），或譯英屬哥倫比亞、中文另外又稱BC省，是加拿大最西部的省，…",
+      "lat": "54",
+      "lng": "-125"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-winter-wren-d74a8bef",
+      "subject": "Winter wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-温带针叶林-0bea7fe2",
+      "object": "温带针叶林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "troglodytes having priority), until they were split in 2010. It breeds in coniferous forests from British Columbia to the Atlantic Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-winter-wren-d74a8bef",
+      "subject": "Winter wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-不列颠哥伦比亚省-3432d47b",
+      "object": "不列颠哥伦比亚省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "troglodytes having priority), until they were split in 2010. It breeds in coniferous forests from British Columbia to the Atlantic Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-winter-wren-d74a8bef",
+      "subject": "Winter wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

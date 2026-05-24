@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:51:52",
+  "requested_title": "Cinereous Harrier",
+  "resolved_title": "Cinereous harrier",
+  "title_aliases": [
+    "Cinereous Harrier"
+  ],
+  "bird_id": "bird-灰鷂-54102329",
+  "raw_file": "bird-灰鷂-54102329.json",
+  "bird": {
+    "id": "bird-灰鷂-54102329",
+    "name": "灰鷂",
+    "english_name": "Cinereous harrier",
+    "latin_name": "Circus cinereus",
+    "summary": "斑腹鹞（學名：Circus cinereus，西班牙語：Aguilucho vari，台湾作灰鷂），是鷹形目鷹科鷂屬下的一種鳥類。其分佈範圍從火地群岛延伸至阿根廷、智利、玻利維亞、巴拉圭、秘魯和巴西南部；跨越安第斯山脈延伸至哥倫比亞。這種鳥類的族群正在下降，但由於其廣闊的分布範…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Cinereous_harrier_%28Circus_cinereus%29_male_Leona_Amarga.jpg/960px-Cinereous_harrier_%28Circus_cinereus%29_male_Leona_Amarga.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-阿尔蒂普拉诺高原-8a676b92",
+      "name": "阿尔蒂普拉诺高原",
+      "summary": "阿尔蒂普拉诺高原（西班牙語：Altiplano，意为高地平原）也稱為玻利维亚高原，位於南美洲中部安第斯山脉最宽广处，是世界上继青藏高原之后的又一片平均海拔超过3,000米的大高原，南美洲最大湖的的喀喀湖是其最为著名的地理特色。 阿尔蒂普拉…",
+      "lat": "-19",
+      "lng": "-68"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰鷂-54102329",
+      "subject": "灰鷂",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird can be found in different open habitats, ranging from lowland marshes to the Andean Altiplano at a maximum altitude of 4000 meters (13123&nbsp;ft)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰鷂-54102329",
+      "subject": "灰鷂",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔蒂普拉诺高原-8a676b92",
+      "object": "阿尔蒂普拉诺高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird can be found in different open habitats, ranging from lowland marshes to the Andean Altiplano at a maximum altitude of 4000 meters (13123&nbsp;ft)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰鷂-54102329",
+      "subject": "灰鷂",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This bird can be found in different open habitats, ranging from lowland marshes to the Andean Altiplano at a maximum altitude of 4000 meters (13123&nbsp;ft)",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-灰鷂-54102329",
+      "subject": "灰鷂",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

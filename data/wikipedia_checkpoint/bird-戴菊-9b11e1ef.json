@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:03:10",
+  "requested_title": "Goldcrest",
+  "resolved_title": "Goldcrest",
+  "title_aliases": [
+    "Goldcrest"
+  ],
+  "bird_id": "bird-戴菊-9b11e1ef",
+  "raw_file": "bird-戴菊-9b11e1ef.json",
+  "bird": {
+    "id": "bird-戴菊-9b11e1ef",
+    "name": "戴菊",
+    "english_name": "Goldcrest",
+    "latin_name": "Regulus regulus",
+    "summary": "戴菊（学名：Regulus regulus）为戴菊科戴菊属的鸟类。是一種非常小的雀形目鳥類，屬於戴菊科。牠鮮豔的金黃色冠羽，以及在歐洲民間傳說中被稱為「鳥中之王」，這些都賦予了其英文及學名的來源。學名R. regulus意為「小國王」或「王子」。在其廣大的分佈範圍中，確認了多個…",
+    "lat": "63",
+    "lng": "17",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Goldcrest_1.jpg/960px-Goldcrest_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-照葉林-bbcafe01",
+      "name": "照葉林",
+      "summary": "照葉林（laurilignosa）又稱副熱帶常綠闊葉林、亚热带季雨林或月桂林，是副熱帶溼潤氣候條件下的典型植被。高溫多雨，全年沒有明顯乾季的熱帶地區者，稱為雨林，是生物種類最多的地區。 生態 照葉林在暖溫帶地區呈片狀分佈，通常佔據地形庇護…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-芬諾斯堪底亞-838029a5",
+      "name": "芬諾斯堪底亞",
+      "summary": "芬諾斯堪底亞或稱芬諾-斯堪地納維亞，指科拉半島、斯堪地那維亞半島、卡累利阿及芬蘭地區的地質及地理名詞。地理上，該詞亦指挪威、瑞典及芬蘭等地的芬諾斯堪地盾，而該地盾為波羅的地盾的一部分。 在文化方面，芬諾斯堪底亞指歷史上較相近的薩米人、芬蘭…",
+      "lat": "63",
+      "lng": "17"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-戴菊-9b11e1ef",
+      "subject": "戴菊",
+      "predicate": "distributed_in",
+      "object_id": "loc-照葉林-bbcafe01",
+      "object": "照葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The height and nature of any undergrowth is irrelevant. Unlike more specialised birds such as the Eurasian nuthatch and the Eurasian treecreeper, both of which forage on tree trunks, the kinglets do not need large woodlands, and their population density is independent of forest size. Once breeding is over, this species will readily move into deciduous trees and shrubs, heathland and similar more open habitats. The Tenerife subspecies occurs in the mountain region previously occupied by laurisilva, but now dominated by tree heaths",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-戴菊-9b11e1ef",
+      "subject": "戴菊",
+      "predicate": "distributed_in",
+      "object_id": "loc-芬諾斯堪底亞-838029a5",
+      "object": "芬諾斯堪底亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Birds winter in Europe and Asia south of the breeding range. Birds in northern Fennoscandia and Russia vacate their territories between late August and early November, with most leaving in late September to mid-October as the first cold weather arrives",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-戴菊-9b11e1ef",
+      "subject": "戴菊",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

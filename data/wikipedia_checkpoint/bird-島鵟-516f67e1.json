@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:01:58",
+  "requested_title": "Ridgway's Hawk",
+  "resolved_title": "Ridgway's hawk",
+  "title_aliases": [
+    "Ridgway's Hawk"
+  ],
+  "bird_id": "bird-島鵟-516f67e1",
+  "raw_file": "bird-島鵟-516f67e1.json",
+  "bird": {
+    "id": "bird-島鵟-516f67e1",
+    "name": "島鵟",
+    "english_name": "Ridgway's hawk",
+    "latin_name": "Buteo ridgwayi",
+    "summary": "島鵟（學名：Buteo ridgwayi）是一種猛禽，屬於鳥綱隼形目鷹科鵟屬。原分佈於海地、多明尼加共和國及附近的海島上，但在2006年的普查中發現牠們目前僅分佈在多明尼加共和國東南面的國家公園內，主要為潮濕的石灰石森林。棲地嚴重破壞及當地居民誤會以家禽為食導致數量劇減，全球僅…",
+    "lat": "19",
+    "lng": "-71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ridgeway%27s_Hawk_%28Buteo_ridgwayi%29_%288082820954%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伊斯帕尼奥拉岛-4e46d7cc",
+      "name": "伊斯帕尼奥拉岛",
+      "summary": "伊斯帕尼奥拉島（西班牙語：Isla de La Española；法語：Île d’Hispaniola；海地克里奧爾語：Ispayola，意即西班牙島），泰諾人稱海地島（泰諾語：Haiti，直译：「群山之地」），是加勒比地區大安的列斯群…",
+      "lat": "19",
+      "lng": "-71"
+    },
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-島鵟-516f67e1",
+      "subject": "島鵟",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊斯帕尼奥拉岛-4e46d7cc",
+      "object": "伊斯帕尼奥拉岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Cory|Cory]], 1883) | synonyms = Rupornis ridgwayi | range_map = Buteo ridgwayi map.svg | range_map_caption = Range in green }} Ridgway's hawk (Buteo ridgwayi) is a bird of prey in the family Accipitridae endemic to the island of Hispaniola (both Haiti and the Dominican Republic) in the Caribbean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-島鵟-516f67e1",
+      "subject": "島鵟",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Cory|Cory]], 1883) | synonyms = Rupornis ridgwayi | range_map = Buteo ridgwayi map.svg | range_map_caption = Range in green }} Ridgway's hawk (Buteo ridgwayi) is a bird of prey in the family Accipitridae endemic to the island of Hispaniola (both Haiti and the Dominican Republic) in the Caribbean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-島鵟-516f67e1",
+      "subject": "島鵟",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-島鵟-516f67e1",
+      "subject": "島鵟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is classified as Critically Endangered because of habitat destruction and human persecution in the Dominican Republic; however, due to conservation efforts, the population is now increasing. It is named in honour of the ornithologist Robert Ridgway",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

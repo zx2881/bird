@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:33:11",
+  "requested_title": "Rufous-fronted Parakeet",
+  "resolved_title": "Rufous-fronted parakeet",
+  "title_aliases": [
+    "Rufous-fronted Parakeet"
+  ],
+  "bird_id": "bird-rufous-fronted-parakeet-b186d76c",
+  "raw_file": "bird-rufous-fronted-parakeet-b186d76c.json",
+  "bird": {
+    "id": "bird-rufous-fronted-parakeet-b186d76c",
+    "name": "Rufous-fronted parakeet",
+    "english_name": "Rufous-fronted parakeet",
+    "latin_name": "Bolborhynchus ferrugineifrons",
+    "summary": "The rufous-fronted parakeet (Bolborhynchus ferrugineifrons) is a species of parrot in the family Psittacidae. Endemic to Colombia, its natu…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Rufous-fronted_Parakeet_%28Bolborhynchus_ferrugineifrons%29.jpg/500px-Rufous-fronted_Parakeet_%28Bolborhynchus_ferrugineifrons%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-fronted-parakeet-b186d76c",
+      "subject": "Rufous-fronted parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is endemic to Colombia where it is found in two areas of the High Andes at altitudes between about",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-fronted-parakeet-b186d76c",
+      "subject": "Rufous-fronted parakeet",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The largest population is on the Volcán Ruiz-Tolima massif in the Central Cordillera but there is a smaller population on Puracé Volcano in the Cauca Department, and the bird's range may well include the intervening area. Its typical habitat is páramo, a high altitude grass and shrub ecosystem lying between the high snow-capped mountains and the montane forest below, and sub-páramo",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-rufous-fronted-parakeet-b186d76c",
+      "subject": "Rufous-fronted parakeet",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-rufous-fronted-parakeet-b186d76c",
+      "subject": "Rufous-fronted parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat destruction and is classified as \"vulnerable\" by the International Union for Conservation of Nature",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

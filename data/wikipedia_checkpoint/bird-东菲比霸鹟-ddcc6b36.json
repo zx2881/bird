@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:48:39",
+  "requested_title": "Eastern Phoebe",
+  "resolved_title": "Eastern phoebe",
+  "title_aliases": [
+    "Eastern Phoebe"
+  ],
+  "bird_id": "bird-东菲比霸鹟-ddcc6b36",
+  "raw_file": "bird-东菲比霸鹟-ddcc6b36.json",
+  "bird": {
+    "id": "bird-东菲比霸鹟-ddcc6b36",
+    "name": "东菲比霸鹟",
+    "english_name": "Eastern phoebe",
+    "latin_name": "Sayornis phoebe",
+    "summary": "东菲比霸鹟（学名：Sayornis phoebe）为雀形目霸鹟科下的一个鸟种, 分布于分布于北美洲东部 。 参考文献 外部連結",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sayornis_phoebe_-Owen_Conservation_Park%2C_Madison%2C_Wisconsin%2C_USA-8.jpg/960px-Sayornis_phoebe_-Owen_Conservation_Park%2C_Madison%2C_Wisconsin%2C_USA-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-东菲比霸鹟-ddcc6b36",
+      "subject": "东菲比霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in the southernmost United States and Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-东菲比霸鹟-ddcc6b36",
+      "subject": "东菲比霸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

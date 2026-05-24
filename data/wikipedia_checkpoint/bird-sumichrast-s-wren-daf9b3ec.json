@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:41:25",
+  "requested_title": "Sumichrast's Wren",
+  "resolved_title": "Sumichrast's wren",
+  "title_aliases": [
+    "Sumichrast's Wren"
+  ],
+  "bird_id": "bird-sumichrast-s-wren-daf9b3ec",
+  "raw_file": "bird-sumichrast-s-wren-daf9b3ec.json",
+  "bird": {
+    "id": "bird-sumichrast-s-wren-daf9b3ec",
+    "name": "Sumichrast's wren",
+    "english_name": "Sumichrast's wren",
+    "latin_name": "Hylorchilus sumichrasti",
+    "summary": "Sumichrast's wren (Hylorchilus sumichrasti), also known as the slender-billed wren, is a species of bird in the family Troglodytidae. It is…",
+    "lat": "19.5272",
+    "lng": "-96.9225",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hylorchilus_sumichrasti_69419369.jpg/960px-Hylorchilus_sumichrasti_69419369.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-韋拉克魯斯州-51279fa6",
+      "name": "韋拉克魯斯州",
+      "summary": "韋拉克魯斯州（西班牙語：Veracruz，西班牙語發音：[beɾaˈkɾus]）是墨西哥的一個州，位於該國中部偏東，東部面向墨西哥灣。人口僅次於墨西哥州和聯邦區，居全國第三，首府哈拉帕。 正式州名為Veracruz de Ignacio…",
+      "lat": "19.5272",
+      "lng": "-96.9225"
+    },
+    {
+      "id": "loc-瓦哈卡州-e005144e",
+      "name": "瓦哈卡州",
+      "summary": "瓦哈卡州（西班牙語：Oaxaca，發音：[waˈχaka] ）是墨西哥合眾國的一個州，位於該國的南部，臨太平洋。2005年估計人口為 3,506,821人。首府瓦哈卡市。 历史 名称 瓦哈卡的州名来自其首府瓦哈卡市的名称。这个名字来自纳瓦…",
+      "lat": "17.055",
+      "lng": "-96.655"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sumichrast-s-wren-daf9b3ec",
+      "subject": "Sumichrast's wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-韋拉克魯斯州-51279fa6",
+      "object": "韋拉克魯斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Sumichrast's wren occurs in a small area of Mexico, from central Veracruz into northern Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sumichrast-s-wren-daf9b3ec",
+      "subject": "Sumichrast's wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦哈卡州-e005144e",
+      "object": "瓦哈卡州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Sumichrast's wren occurs in a small area of Mexico, from central Veracruz into northern Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sumichrast-s-wren-daf9b3ec",
+      "subject": "Sumichrast's wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understory of humid forest, both evergreen and semi-deciduous, and also shady coffee plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sumichrast-s-wren-daf9b3ec",
+      "subject": "Sumichrast's wren",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-sumichrast-s-wren-daf9b3ec",
+      "subject": "Sumichrast's wren",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Both its range and population are probably in decline owing to increasing habitat loss and degradation.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

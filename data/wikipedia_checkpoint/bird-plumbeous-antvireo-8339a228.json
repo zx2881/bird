@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:58:29",
+  "requested_title": "Plumbeous Antvireo",
+  "resolved_title": "Plumbeous antvireo",
+  "title_aliases": [
+    "Plumbeous Antvireo"
+  ],
+  "bird_id": "bird-plumbeous-antvireo-8339a228",
+  "raw_file": "bird-plumbeous-antvireo-8339a228.json",
+  "bird": {
+    "id": "bird-plumbeous-antvireo-8339a228",
+    "name": "Plumbeous antvireo",
+    "english_name": "Plumbeous antvireo",
+    "latin_name": "Dysithamnus plumbeus",
+    "summary": "The plumbeous antvireo (Dysithamnus plumbeus) is a Vulnerable species of bird in subfamily Thamnophilinae of family Thamnophilidae, the \"ty…",
+    "lat": "-16.5",
+    "lng": "-39.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Dysithamnus_plumbeus_-_Plumbeous_antvireo.jpg/960px-Dysithamnus_plumbeus_-_Plumbeous_antvireo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大西洋沿岸森林-b6837c90",
+      "name": "大西洋沿岸森林",
+      "summary": "大西洋沿岸森林 （葡萄牙語：Mata Atlântica）是一片涵盖热带亚热带湿润阔叶林、热带亚热带干旱阔叶林、熱帶亞熱帶草地、稀樹草原和疏灌叢和红树林于一体的热带雨林保护区，位于巴西大西洋沿岸，最北到达北里约格朗德州，最南到达南里奥格兰…",
+      "lat": "-16.5",
+      "lng": "-39.25"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-plumbeous-antvireo-8339a228",
+      "subject": "Plumbeous antvireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋沿岸森林-b6837c90",
+      "object": "大西洋沿岸森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a bird of the Atlantic Forest, where it inhabits the understory of evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-plumbeous-antvireo-8339a228",
+      "subject": "Plumbeous antvireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a bird of the Atlantic Forest, where it inhabits the understory of evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-plumbeous-antvireo-8339a228",
+      "subject": "Plumbeous antvireo",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

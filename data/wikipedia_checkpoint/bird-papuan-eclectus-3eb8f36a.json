@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:53:58",
+  "requested_title": "Papuan Eclectus",
+  "resolved_title": "Papuan eclectus",
+  "title_aliases": [
+    "Papuan Eclectus"
+  ],
+  "bird_id": "bird-papuan-eclectus-3eb8f36a",
+  "raw_file": "bird-papuan-eclectus-3eb8f36a.json",
+  "bird": {
+    "id": "bird-papuan-eclectus-3eb8f36a",
+    "name": "Papuan eclectus",
+    "english_name": "Papuan eclectus",
+    "latin_name": "Eclectus polychloros",
+    "summary": "The Papuan eclectus, red-sided eclectus, or New Guinea eclectus (Eclectus polychloros) is a parrot species which is native to New Guinea. L…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Eclectus_roratus_polychloros_qtl1.jpg/960px-Eclectus_roratus_polychloros_qtl1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喬瓦尼-安東尼奧-斯科波利-63de771d",
+      "name": "喬瓦尼·安東尼奧·斯科波利",
+      "summary": "乔瓦尼·安东尼奥·斯科波利（義大利語：Giovanni Antonio Scopoli，1723年6月3日—1788年5月8日），有时也使用拉丁化名字约翰内斯·安东尼乌斯·斯科波利乌斯（拉丁語：Johannes Antonius Scop…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-papuan-eclectus-3eb8f36a",
+      "subject": "Papuan eclectus",
+      "predicate": "distributed_in",
+      "object_id": "loc-喬瓦尼-安東尼奧-斯科波利-63de771d",
+      "object": "喬瓦尼·安東尼奧·斯科波利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Papuan eclectus, red-sided eclectus, or New Guinea eclectus (Eclectus polychloros) is a parrot species which is native to New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-papuan-eclectus-3eb8f36a",
+      "subject": "Papuan eclectus",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Papuan eclectus, red-sided eclectus, or New Guinea eclectus (Eclectus polychloros) is a parrot species which is native to New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-papuan-eclectus-3eb8f36a",
+      "subject": "Papuan eclectus",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

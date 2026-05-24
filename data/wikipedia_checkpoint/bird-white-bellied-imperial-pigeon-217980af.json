@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:30:58",
+  "requested_title": "White-bellied Imperial Pigeon",
+  "resolved_title": "White-bellied imperial pigeon",
+  "title_aliases": [
+    "White-bellied Imperial Pigeon"
+  ],
+  "bird_id": "bird-white-bellied-imperial-pigeon-217980af",
+  "raw_file": "bird-white-bellied-imperial-pigeon-217980af.json",
+  "bird": {
+    "id": "bird-white-bellied-imperial-pigeon-217980af",
+    "name": "White-bellied imperial pigeon",
+    "english_name": "White-bellied imperial pigeon",
+    "latin_name": "Ducula forsteni",
+    "summary": "The white-bellied imperial pigeon (Ducula forsteni) is a species of bird in the pigeon family Columbidae. First described by the French orn…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/White-bellied_Imperial_Pigeon_RWD.jpg/960px-White-bellied_Imperial_Pigeon_RWD.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-bellied-imperial-pigeon-217980af",
+      "subject": "White-bellied imperial pigeon",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits primary forest, dense secondary forest, and isolated areas of hill forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bellied-imperial-pigeon-217980af",
+      "subject": "White-bellied imperial pigeon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-white-bellied-imperial-pigeon-217980af",
+      "subject": "White-bellied imperial pigeon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, its population is declining due to habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

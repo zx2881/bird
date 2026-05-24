@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:52:11",
+  "requested_title": "Tit-like Dacnis",
+  "resolved_title": "Tit-like dacnis",
+  "title_aliases": [
+    "Tit-like Dacnis"
+  ],
+  "bird_id": "bird-tit-like-dacnis-3f85fd53",
+  "raw_file": "bird-tit-like-dacnis-3f85fd53.json",
+  "bird": {
+    "id": "bird-tit-like-dacnis-3f85fd53",
+    "name": "Tit-like dacnis",
+    "english_name": "Tit-like dacnis",
+    "latin_name": "Xenodacnis parina",
+    "summary": "The tit-like dacnis (Xenodacnis parina) is a small neotropical passerine bird found in southern Ecuador and Peru. In Spanish, it is known a…",
+    "lat": "-2",
+    "lng": "-77.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Xenodacnis_parina_Male_-_March_2021.jpg/960px-Xenodacnis_parina_Male_-_March_2021.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-让-路易-卡巴尼斯-cc679863",
+      "name": "让·路易·卡巴尼斯",
+      "summary": "让·路易·卡巴尼斯（法語：Jean Louis Cabanis，1816年3月8日—1906年2月20日），法裔德国著名鸟类研究学家。 卡巴尼斯出生于柏林，1835年至1839年在柏林大学完成学业后，旅行到了北美，携带大量的自然标本返回德…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tit-like-dacnis-3f85fd53",
+      "subject": "Tit-like dacnis",
+      "predicate": "distributed_in",
+      "object_id": "loc-让-路易-卡巴尼斯-cc679863",
+      "object": "让·路易·卡巴尼斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tit-like dacnis (Xenodacnis parina) is a small neotropical passerine bird found in southern Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tit-like-dacnis-3f85fd53",
+      "subject": "Tit-like dacnis",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tit-like dacnis (Xenodacnis parina) is a small neotropical passerine bird found in southern Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tit-like-dacnis-3f85fd53",
+      "subject": "Tit-like dacnis",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tit-like dacnis (Xenodacnis parina) is a small neotropical passerine bird found in southern Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tit-like-dacnis-3f85fd53",
+      "subject": "Tit-like dacnis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

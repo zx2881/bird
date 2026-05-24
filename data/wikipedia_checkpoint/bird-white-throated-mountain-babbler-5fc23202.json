@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:50:08",
+  "requested_title": "White-throated Mountain Babbler",
+  "resolved_title": "White-throated mountain babbler",
+  "title_aliases": [
+    "White-throated Mountain Babbler"
+  ],
+  "bird_id": "bird-white-throated-mountain-babbler-5fc23202",
+  "raw_file": "bird-white-throated-mountain-babbler-5fc23202.json",
+  "bird": {
+    "id": "bird-white-throated-mountain-babbler-5fc23202",
+    "name": "White-throated mountain babbler",
+    "english_name": "White-throated mountain babbler",
+    "latin_name": "Turdoides gilberti",
+    "summary": "The white-throated mountain babbler (Turdoides gilberti) is a passerine bird in the family Leiothrichidae. It is native to the Cameroonian…",
+    "lat": "6",
+    "lng": "11",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-cameroonian-highlands-forests-458b5242",
+      "name": "Cameroonian Highlands forests",
+      "summary": "The Cameroonian Highlands forests, also known as the Cameroon Highlands forests, is a montane tropical moist broadleaf…",
+      "lat": "6",
+      "lng": "11"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-throated-mountain-babbler-5fc23202",
+      "subject": "White-throated mountain babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-cameroonian-highlands-forests-458b5242",
+      "object": "Cameroonian Highlands forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Cameroonian Highlands forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-mountain-babbler-5fc23202",
+      "subject": "White-throated mountain babbler",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-white-throated-mountain-babbler-5fc23202",
+      "subject": "White-throated mountain babbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

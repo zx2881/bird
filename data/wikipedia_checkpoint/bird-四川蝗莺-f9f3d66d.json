@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:44:08",
+  "requested_title": "Sichuan Bush Warbler",
+  "resolved_title": "Sichuan bush warbler",
+  "title_aliases": [
+    "Sichuan Bush Warbler"
+  ],
+  "bird_id": "bird-四川蝗莺-f9f3d66d",
+  "raw_file": "bird-四川蝗莺-f9f3d66d.json",
+  "bird": {
+    "id": "bird-四川蝗莺-f9f3d66d",
+    "name": "四川蝗莺",
+    "english_name": "Sichuan bush warbler",
+    "latin_name": "Locustella chengi",
+    "summary": "四川蝗莺（学名：Locustella chengi），是中国特有的一种蝗莺属鸟类。它们分布于四川、贵州、湖南、湖北和陕西，可能在江西也有分布。 四川蝗莺原名为四川短翅莺，2022年，为了与其新的分类地位相符，“中国鸟类名录”10.0版将四川短翅莺的中文名修改为四川短翅蝗莺。",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Locustella_chengi.jpg/960px-Locustella_chengi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-四川蝗莺-f9f3d66d",
+      "subject": "四川蝗莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Unlike its congener the russet bush warbler, which is found in the same mountains and also in the Himalayas, Vietnam, the Philippines, and Indonesia, the Sichuan bush warbler prefers elevations below 7,500 feet.{{Cite journal|first1=P",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-四川蝗莺-f9f3d66d",
+      "subject": "四川蝗莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

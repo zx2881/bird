@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T23:15:16",
+  "requested_title": "Pearly-breasted Conebill",
+  "resolved_title": "Pearly-breasted conebill",
+  "title_aliases": [
+    "Pearly-breasted Conebill"
+  ],
+  "bird_id": "bird-pearly-breasted-conebill-fb56ee21",
+  "raw_file": "bird-pearly-breasted-conebill-fb56ee21.json",
+  "bird": {
+    "id": "bird-pearly-breasted-conebill-fb56ee21",
+    "name": "Pearly-breasted conebill",
+    "english_name": "Pearly-breasted conebill",
+    "latin_name": "Conirostrum margaritae",
+    "summary": "The pearly-breasted conebill (Conirostrum margaritae) is a species of bird in the family Thraupidae. Habitat It is native to riverine areas…",
+    "lat": "-15.51777778",
+    "lng": "-71.69361111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Conirostrum_margaritae.png/960px-Conirostrum_margaritae.png"
+  },
+  "locations": [
+    {
+      "id": "loc-亚马逊河-e416ee15",
+      "name": "亚马逊河",
+      "summary": "亚马逊河（葡萄牙語：Rio Amazonas；西班牙語：Río Amazonas；奇楚瓦語：Awqaq sipaskuna mayu；英語：Amazon River），也称亚马孙河，是一条位於南美洲北部的大型河流，自西向东流动。其发源自位…",
+      "lat": "-15.51777778",
+      "lng": "-71.69361111"
+    },
+    {
+      "id": "loc-馬莫雷河-56dff1ca",
+      "name": "馬莫雷河",
+      "summary": "馬莫雷河（Río Mamoré）是玻利維亞的大型河流，也是亞馬遜河的主要支流之一，河道全長1,930公里（1,200英哩），平均流量為每秒11,649立方米，流域面積637,401.1平方公里。 參考資料 Edward D.",
+      "lat": "-10.38333333",
+      "lng": "-65.38333333"
+    },
+    {
+      "id": "loc-馬德雷德迪奧斯河-2e3137a0",
+      "name": "馬德雷德迪奧斯河",
+      "summary": "馬德雷德迪奧斯河（西班牙語：Río Madre de Dios）是南美洲的河流，位於亞馬遜河盆地，屬於貝尼河的支流，河道全長1,150公里，集水區面積超過100,000平方公里，流經秘魯和玻利維亞。 参考文献 外部連結 Madre de…",
+      "lat": "-12.28333333",
+      "lng": "-70.86666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pearly-breasted-conebill-fb56ee21",
+      "subject": "Pearly-breasted conebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-亚马逊河-e416ee15",
+      "object": "亚马逊河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to riverine areas of the Amazon River, and is also found in northern Bolivia (confluent of Mamoré and Madre de Dios River)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pearly-breasted-conebill-fb56ee21",
+      "subject": "Pearly-breasted conebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-馬莫雷河-56dff1ca",
+      "object": "馬莫雷河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to riverine areas of the Amazon River, and is also found in northern Bolivia (confluent of Mamoré and Madre de Dios River)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pearly-breasted-conebill-fb56ee21",
+      "subject": "Pearly-breasted conebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-馬德雷德迪奧斯河-2e3137a0",
+      "object": "馬德雷德迪奧斯河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to riverine areas of the Amazon River, and is also found in northern Bolivia (confluent of Mamoré and Madre de Dios River)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pearly-breasted-conebill-fb56ee21",
+      "subject": "Pearly-breasted conebill",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

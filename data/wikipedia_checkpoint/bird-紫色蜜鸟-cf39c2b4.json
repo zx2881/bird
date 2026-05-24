@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:07:08",
+  "requested_title": "Purple Sunbird",
+  "resolved_title": "Purple sunbird",
+  "title_aliases": [
+    "Purple Sunbird"
+  ],
+  "bird_id": "bird-紫色蜜鸟-cf39c2b4",
+  "raw_file": "bird-紫色蜜鸟-cf39c2b4.json",
+  "bird": {
+    "id": "bird-紫色蜜鸟-cf39c2b4",
+    "name": "紫色蜜鸟",
+    "english_name": "Purple sunbird",
+    "latin_name": "Cinnyris asiaticus",
+    "summary": "紫色蜜鸟（学名：Cinnyris asiaticus）又称紫色花蜜鸟或紫花蜜鸟，为太阳鸟科雙領花蜜鳥屬的鸟类。分布于阿拉伯、伊朗、阿富汗、印度、尼泊尔、锡金、孟加拉、中南半岛、斯里兰卡以及中国大陆的云南等地，多栖息于海拔约950米以下的常绿阔叶林或村寨附近的丛林间。该物种的模式…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Purple_Sunbird_%28Nectarinia_asiatica%29-_Male_%28Breeding%29_on_Kapok_%28Ceiba_pentandra%29_in_Kolkata_I_IMG_1893.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫色蜜鸟-cf39c2b4",
+      "subject": "紫色蜜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|pages=343–356 |journal=Journal of the Bombay Natural History Society |volume=18 |issue=2 |year=1908 |url=https://archive.org/stream/journalofbombayn18bomb#page/346/mode/2up}} The nominate subspecies is distributed in India east of the desert region and south of the Himalayas extending to the west and south of India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫色蜜鸟-cf39c2b4",
+      "subject": "紫色蜜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|pages=343–356 |journal=Journal of the Bombay Natural History Society |volume=18 |issue=2 |year=1908 |url=https://archive.org/stream/journalofbombayn18bomb#page/346/mode/2up}} The nominate subspecies is distributed in India east of the desert region and south of the Himalayas extending to the west and south of India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫色蜜鸟-cf39c2b4",
+      "subject": "紫色蜜鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

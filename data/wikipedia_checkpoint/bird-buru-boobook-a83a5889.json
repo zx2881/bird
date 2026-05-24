@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:20:04",
+  "requested_title": "Buru Boobook",
+  "resolved_title": "Buru boobook",
+  "title_aliases": [
+    "Buru Boobook"
+  ],
+  "bird_id": "bird-buru-boobook-a83a5889",
+  "raw_file": "bird-buru-boobook-a83a5889.json",
+  "bird": {
+    "id": "bird-buru-boobook-a83a5889",
+    "name": "Buru boobook",
+    "english_name": "Buru boobook",
+    "latin_name": "Ninox hantu",
+    "summary": "The Buru boobook (Ninox hantu) is a species of owl in the family Strigidae. It is found in Indonesia.",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Buru_boobook_%28Ninox_hantu%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-buru-boobook-a83a5889",
+      "subject": "Buru boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buru-boobook-a83a5889",
+      "subject": "Buru boobook",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-buru-boobook-a83a5889",
+      "subject": "Buru boobook",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

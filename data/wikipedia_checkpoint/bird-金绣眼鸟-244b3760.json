@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:00:16",
+  "requested_title": "Golden White-eye",
+  "resolved_title": "Golden white-eye",
+  "title_aliases": [
+    "Golden White-eye"
+  ],
+  "bird_id": "bird-金绣眼鸟-244b3760",
+  "raw_file": "bird-金绣眼鸟-244b3760.json",
+  "bird": {
+    "id": "bird-金绣眼鸟-244b3760",
+    "name": "金绣眼鸟",
+    "english_name": "Golden white-eye",
+    "latin_name": "Cleptornis marchei",
+    "summary": "金绣眼鸟（台湾作金色繡眼，学名：Cleptornis marchei），是雀形目绣眼鸟科的一种鸟类，属于单型的金绣眼鸟属（学名：Cleptornis）。 金绣眼鸟体重约20.2克，翼长约72.3毫米，喙宽度约3.6毫米，喙厚度约4毫米，嘴峰长约18毫米，跗蹠长约25.1毫米，尾…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Golden_White-Eye_palm.jpg/960px-Golden_White-Eye_palm.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金绣眼鸟-244b3760",
+      "subject": "金绣眼鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is common in native forests, particularly limestone forests, but also occurs in open shrubland and suburban areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金绣眼鸟-244b3760",
+      "subject": "金绣眼鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is common in native forests, particularly limestone forests, but also occurs in open shrubland and suburban areas",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-金绣眼鸟-244b3760",
+      "subject": "金绣眼鸟",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-金绣眼鸟-244b3760",
+      "subject": "金绣眼鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "All three species are insectivorous and were theorised to have declined due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-金绣眼鸟-244b3760",
+      "subject": "金绣眼鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Nevertheless, the species remained relatively abundant, and the current world population is estimated at around 71,997 birds. The species is nonetheless evaluated as Endangered by the IUCN because the population is expected to undergo a rapid decline if the brown tree snake becomes established on Saipan. The primary threat to this species is the brown tree snake, a native of Australia, New Guinea and the Solomon Islands, which eliminated all 12 landbird species on nearby Guam after being accidentally introduced. The snake has not yet become established on Saipan, one of the two islands that compose the range of the golden white-eye, and which holds the largest population of the species. The isolation of Aguijan makes the introduction of brown tree snakes there unlikely, but the small population there is vulnerable as the island is only 718 ha (1774 acres) in size and a direct hit by a supertyphoon could wipe them out. Efforts are under way to breed the species in captivity{{cite news|first=Jeffrey |last=Bonner |title=Reptilian invasion: Saving Pacific island birds from snakes |year=2008 |url=http://www.stltoday.com/stltoday/lifestyle/stories.nsf/travel/story/D121C8812E3E31D1862574B9006CCB82?OpenDocument |work=St",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

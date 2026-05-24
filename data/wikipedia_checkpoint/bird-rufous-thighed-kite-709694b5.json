@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:54:11",
+  "requested_title": "Rufous-thighed Kite",
+  "resolved_title": "Rufous-thighed kite",
+  "title_aliases": [
+    "Rufous-thighed Kite"
+  ],
+  "bird_id": "bird-rufous-thighed-kite-709694b5",
+  "raw_file": "bird-rufous-thighed-kite-709694b5.json",
+  "bird": {
+    "id": "bird-rufous-thighed-kite-709694b5",
+    "name": "Rufous-thighed kite",
+    "english_name": "Rufous-thighed kite",
+    "latin_name": "Harpagus diodon",
+    "summary": "The rufous-thighed kite (Harpagus diodon) is a species of bird of prey in subfamily Accipitrinae, the \"true\" hawks, of family Accipitridae.…",
+    "lat": "-23.55",
+    "lng": "-46.63333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Rufous-thighed_Kite_%28Harpagus_diodon%29.jpg/960px-Rufous-thighed_Kite_%28Harpagus_diodon%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-聖保羅-巴西-03c4060c",
+      "name": "聖保羅 (巴西)",
+      "summary": "聖保羅（葡萄牙語：São Paulo，葡萄牙語發音：[sɐ̃w̃ ˈpawlu] ，葡萄牙語意为'圣保罗'），巴西東南部州分聖保羅州首府，也是巴西，拉丁美洲乃至南半球最大的都市，市內人口超過1,100萬。據2011年數據，全城人口包含近郊…",
+      "lat": "-23.55",
+      "lng": "-46.63333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-thighed-kite-709694b5",
+      "subject": "Rufous-thighed kite",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It favors primary forest but can be found in secondary forest that has aged enough to have a closed canopy",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-thighed-kite-709694b5",
+      "subject": "Rufous-thighed kite",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It favors primary forest but can be found in secondary forest that has aged enough to have a closed canopy",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-thighed-kite-709694b5",
+      "subject": "Rufous-thighed kite",
+      "predicate": "distributed_in",
+      "object_id": "loc-聖保羅-巴西-03c4060c",
+      "object": "聖保羅 (巴西)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It has been found in both dense and more open forests and even once in a forest patch within the city of São Paulo, Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-thighed-kite-709694b5",
+      "subject": "Rufous-thighed kite",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

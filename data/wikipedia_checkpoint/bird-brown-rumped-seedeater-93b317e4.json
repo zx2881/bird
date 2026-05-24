@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:20:35",
+  "requested_title": "Brown-rumped Seedeater",
+  "resolved_title": "Brown-rumped seedeater",
+  "title_aliases": [
+    "Brown-rumped Seedeater"
+  ],
+  "bird_id": "bird-brown-rumped-seedeater-93b317e4",
+  "raw_file": "bird-brown-rumped-seedeater-93b317e4.json",
+  "bird": {
+    "id": "bird-brown-rumped-seedeater-93b317e4",
+    "name": "Brown-rumped seedeater",
+    "english_name": "Brown-rumped seedeater",
+    "latin_name": "Crithagra tristriata",
+    "summary": "The brown-rumped seedeater (Crithagra tristriata) is a species of finch in the family Fringillidae. It is native to the Ethiopian Highlands…",
+    "lat": "10.705775",
+    "lng": "37.849282",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Serinus_tristriatus_-Ethiopia-8.jpg/960px-Serinus_tristriatus_-Ethiopia-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-衣索比亞高原-20c47310",
+      "name": "衣索比亞高原",
+      "summary": "衣索比亞高原（又譯埃塞俄比亞高地）是非洲國家埃塞俄比亞、厄立特里亞和索馬里的一個高原，由一群堅固且大規模的山構成，在非洲之角的索馬里北部及衣索比亞。它有時也被稱為“非洲屋脊”（Roof of Africa），因為它的高度和很大的面積。 衣…",
+      "lat": "10.705775",
+      "lng": "37.849282"
+    },
+    {
+      "id": "loc-卡尔卡尔州-2b40d246",
+      "name": "卡尔卡尔州",
+      "summary": "Karkaar is a mountain range which ranges from Somalia's northwestern border with Ethiopia, until Cape Guardafui.",
+      "lat": "9.91666667",
+      "lng": "49.4"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-rumped-seedeater-93b317e4",
+      "subject": "Brown-rumped seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-衣索比亞高原-20c47310",
+      "object": "衣索比亞高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Ethiopian Highlands and Karkaar (Somaliland)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-rumped-seedeater-93b317e4",
+      "subject": "Brown-rumped seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔卡尔州-2b40d246",
+      "object": "卡尔卡尔州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Ethiopian Highlands and Karkaar (Somaliland)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-rumped-seedeater-93b317e4",
+      "subject": "Brown-rumped seedeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

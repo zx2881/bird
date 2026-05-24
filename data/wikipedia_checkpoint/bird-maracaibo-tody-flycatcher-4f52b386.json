@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:29:50",
+  "requested_title": "Maracaibo Tody-Flycatcher",
+  "resolved_title": "Maracaibo tody-flycatcher",
+  "title_aliases": [
+    "Maracaibo Tody-Flycatcher"
+  ],
+  "bird_id": "bird-maracaibo-tody-flycatcher-4f52b386",
+  "raw_file": "bird-maracaibo-tody-flycatcher-4f52b386.json",
+  "bird": {
+    "id": "bird-maracaibo-tody-flycatcher-4f52b386",
+    "name": "Maracaibo tody-flycatcher",
+    "english_name": "Maracaibo tody-flycatcher",
+    "latin_name": "Todirostrum viridanum",
+    "summary": "The Maracaibo tody-flycatcher (Todirostrum viridanum), also known as the short-tailed tody-flycatcher, is a species of bird in the family T…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Todirostrum_viridanum.jpg/960px-Todirostrum_viridanum.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-扁轴木属-86f96e07",
+      "name": "扁轴木属",
+      "summary": "扁轴木属（学名：Parkinsonia）是云实科下的一个属，为乔木或灌木植物。该属共有约4种，分布于南美、非洲和大洋洲。 物种 本属包括以下物种： 扁轴木 Parkinsonia aculeata 栽培种 扁轴木 Parkinsonia…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-maracaibo-tody-flycatcher-4f52b386",
+      "subject": "Maracaibo tody-flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-扁轴木属-86f96e07",
+      "object": "扁轴木属",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species primarily inhabits semi-arid and arid coastal scrublands and woodlands where it favors areas with Acacia, Cercidium, Cardon, and Opuntia vegetation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-maracaibo-tody-flycatcher-4f52b386",
+      "subject": "Maracaibo tody-flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "To a much lesser extent it is also found in tropical deciduous forest and gallery forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-maracaibo-tody-flycatcher-4f52b386",
+      "subject": "Maracaibo tody-flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species primarily inhabits semi-arid and arid coastal scrublands and woodlands where it favors areas with Acacia, Cercidium, Cardon, and Opuntia vegetation",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-maracaibo-tody-flycatcher-4f52b386",
+      "subject": "Maracaibo tody-flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-maracaibo-tody-flycatcher-4f52b386",
+      "subject": "Maracaibo tody-flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Although expanses of suitable habitat remain within its limited range, substantial areas have been destroyed, principally around Lago de Maracaibo, as a result of burgeoning tourism, development pressures, overgrazing, firewood-gathering and pollution.\" It is considered fairly common and occurs in several protected areas",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    }
+  ]
+}

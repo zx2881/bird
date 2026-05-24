@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:58:37",
+  "requested_title": "Bahia Antwren",
+  "resolved_title": "Bahia antwren",
+  "title_aliases": [
+    "Bahia Antwren"
+  ],
+  "bird_id": "bird-bahia-antwren-c057349a",
+  "raw_file": "bird-bahia-antwren-c057349a.json",
+  "bird": {
+    "id": "bird-bahia-antwren-c057349a",
+    "name": "Bahia antwren",
+    "english_name": "Bahia antwren",
+    "latin_name": "Herpsilochmus pileatus",
+    "summary": "The Bahia antwren (Herpsilochmus pileatus) or pileated antwren is a Vulnerable species of bird in subfamily Thamnophilinae of family Thamno…",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Herpsilochmus_pileatus_Bahia_Antwren%3B_Parque_Nacional_Pau_Brasil%2C_Porto_Seguro%2C_Bahia%2C_Brazil.jpg/960px-Herpsilochmus_pileatus_Bahia_Antwren%3B_Parque_Nacional_Pau_Brasil%2C_Porto_Seguro%2C_Bahia%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    },
+    {
+      "id": "loc-萨尔瓦多-巴西-1701bc8d",
+      "name": "萨尔瓦多 (巴西)",
+      "summary": "萨尔瓦多（葡萄牙語：Salvador，全名São Salvador da Baía de Todos os Santos，意为“万圣湾边的圣萨尔瓦多”）是巴西東北的一座滨海城市，巴伊亚州的首府。萨尔瓦多很长时间里直接被称为巴伊亚（葡萄牙語…",
+      "lat": "-12.97472222",
+      "lng": "-38.47666667"
+    },
+    {
+      "id": "loc-trancoso-bahia-bb825f2a",
+      "name": "Trancoso, Bahia",
+      "summary": "Trancoso is a district in the municipality of Porto Seguro in the state of Bahia, Brazil.",
+      "lat": "-16.59055556",
+      "lng": "-39.09583333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bahia-antwren-c057349a",
+      "subject": "Bahia antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bahia antwren is found in coastal Bahia, Brazil, from south of Salvador to the area of Transcoso",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-antwren-c057349a",
+      "subject": "Bahia antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨尔瓦多-巴西-1701bc8d",
+      "object": "萨尔瓦多 (巴西)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bahia antwren is found in coastal Bahia, Brazil, from south of Salvador to the area of Transcoso",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-antwren-c057349a",
+      "subject": "Bahia antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-trancoso-bahia-bb825f2a",
+      "object": "Trancoso, Bahia",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bahia antwren is found in coastal Bahia, Brazil, from south of Salvador to the area of Transcoso",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bahia-antwren-c057349a",
+      "subject": "Bahia antwren",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:27:14",
+  "requested_title": "Pacific Pygmy Owl",
+  "resolved_title": "Pacific pygmy owl",
+  "title_aliases": [
+    "Pacific Pygmy Owl"
+  ],
+  "bird_id": "bird-pacific-pygmy-owl-23b37082",
+  "raw_file": "bird-pacific-pygmy-owl-23b37082.json",
+  "bird": {
+    "id": "bird-pacific-pygmy-owl-23b37082",
+    "name": "Pacific pygmy owl",
+    "english_name": "Pacific pygmy owl",
+    "latin_name": "Glaucidium peruanum",
+    "summary": "The Pacific pygmy owl (Glaucidium peruanum), or Peruvian pygmy owl, is a small \"typical owl\" in subfamily Surniinae. It is found in Chile,…",
+    "lat": "-34",
+    "lng": "-71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Peruvian_Pygmy-Owl_%28Glaucidium_peruanum%29_El_Empalme%2C_Ecuador.jpg/960px-Peruvian_Pygmy-Owl_%28Glaucidium_peruanum%29_El_Empalme%2C_Ecuador.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-托海-870bdffe",
+      "name": "托海",
+      "summary": "托喀依（维吾尔老文字：توقاي‎，拉丁维吾尔文：toqay，拼音字母：tok̂ay；尉犁维吾尔语及柯尔克孜语称托阔依 توقوي tok̂oy，尉犁音：[tʰoqʰo̞j]），作为沙漠绿色走廊是一种主要分布于内流河湾处的乔、灌、草及胡杨…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pacific-pygmy-owl-23b37082",
+      "subject": "Pacific pygmy owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Chile, Ecuador, and Peru.{{cite web |url=https://www.worldbirdnames.org/new/bow/owls/ |title=Owls |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pacific-pygmy-owl-23b37082",
+      "subject": "Pacific pygmy owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Chile, Ecuador, and Peru.{{cite web |url=https://www.worldbirdnames.org/new/bow/owls/ |title=Owls |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pacific-pygmy-owl-23b37082",
+      "subject": "Pacific pygmy owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Chile, Ecuador, and Peru.{{cite web |url=https://www.worldbirdnames.org/new/bow/owls/ |title=Owls |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pacific-pygmy-owl-23b37082",
+      "subject": "Pacific pygmy owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-托海-870bdffe",
+      "object": "托海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits a variety of moist to arid landscapes including deciduous and riparian forest, arid lowland and montane scrublands, agricultural areas with large trees, and gardens in built-up areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pacific-pygmy-owl-23b37082",
+      "subject": "Pacific pygmy owl",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits a variety of moist to arid landscapes including deciduous and riparian forest, arid lowland and montane scrublands, agricultural areas with large trees, and gardens in built-up areas",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-pacific-pygmy-owl-23b37082",
+      "subject": "Pacific pygmy owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

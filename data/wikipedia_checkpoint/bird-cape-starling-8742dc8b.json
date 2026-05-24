@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:20:18",
+  "requested_title": "Cape Starling",
+  "resolved_title": "Cape starling",
+  "title_aliases": [
+    "Cape Starling"
+  ],
+  "bird_id": "bird-cape-starling-8742dc8b",
+  "raw_file": "bird-cape-starling-8742dc8b.json",
+  "bird": {
+    "id": "bird-cape-starling-8742dc8b",
+    "name": "Cape starling",
+    "english_name": "Cape starling",
+    "latin_name": "Lamprotornis nitens",
+    "summary": "The Cape starling (Lamprotornis nitens), also known as red-shouldered glossy-starling or Cape glossy starling, is a species of starling in…",
+    "lat": "-24",
+    "lng": "28",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/159_Cape_starling_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/960px-159_Cape_starling_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南部非洲-488ef0f2",
+      "name": "南部非洲",
+      "summary": "南部非洲（英语：Southern Africa）即非洲大陆南部地区，不常简称為南非，“南非”（英语：South Africa）通常指南非共和国。联合国地理方案的南部非洲次分区包括下列五個南部非洲关税同盟国家： 博茨瓦纳 史瓦帝尼（斯威士兰…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-bushveld-993cb357",
+      "name": "Bushveld",
+      "summary": "The Bushveld (from Afrikaans: bosveld, Afrikaans: bos 'bush' and Afrikaans: veld) is a sub-tropical woodland ecoregion…",
+      "lat": "-24",
+      "lng": "28"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cape-starling-8742dc8b",
+      "subject": "Cape starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-南部非洲-488ef0f2",
+      "object": "南部非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Southern Africa, where it lives in woodlands, bushveld and in suburbs",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-starling-8742dc8b",
+      "subject": "Cape starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-bushveld-993cb357",
+      "object": "Bushveld",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Southern Africa, where it lives in woodlands, bushveld and in suburbs",
+      "object_summary": ""
+    }
+  ]
+}

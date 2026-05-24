@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:14:26",
+  "requested_title": "Chapin's Flycatcher",
+  "resolved_title": "Chapin's flycatcher",
+  "title_aliases": [
+    "Chapin's Flycatcher"
+  ],
+  "bird_id": "bird-chapin-s-flycatcher-c532176a",
+  "raw_file": "bird-chapin-s-flycatcher-c532176a.json",
+  "bird": {
+    "id": "bird-chapin-s-flycatcher-c532176a",
+    "name": "Chapin's flycatcher",
+    "english_name": "Chapin's flycatcher",
+    "latin_name": "Fraseria lendu",
+    "summary": "Chapin's flycatcher (Fraseria lendu) is a bird species in the Old World flycatcher family (Muscicapidae). It is native to the Albertine Rif…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Chapin%27s_Flycatcher_%28Muscicapa_lendu%29_JM.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chapin-s-flycatcher-c532176a",
+      "subject": "Chapin's flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chapin-s-flycatcher-c532176a",
+      "subject": "Chapin's flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-chapin-s-flycatcher-c532176a",
+      "subject": "Chapin's flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-chapin-s-flycatcher-c532176a",
+      "subject": "Chapin's flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T14:55:09",
+  "requested_title": "White-necked Laughingthrush",
+  "resolved_title": "White-necked laughingthrush",
+  "title_aliases": [
+    "White-necked Laughingthrush"
+  ],
+  "bird_id": "bird-白颈噪鹛-b2fc5f6b",
+  "raw_file": "bird-白颈噪鹛-b2fc5f6b.json",
+  "bird": {
+    "id": "bird-白颈噪鹛-b2fc5f6b",
+    "name": "白颈噪鹛",
+    "english_name": "White-necked laughingthrush",
+    "latin_name": "Garrulax strepitans",
+    "summary": "白颈噪鹛（学名：Garrulax strepitans），是画眉科噪鹛属的一种，分布于缅甸、泰国、老挝和中国大陆。该物种的保护状况被评为无危。 白颈噪鹛的栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林。该物种的模式产地在缅甸Tenasserim。",
+    "lat": "25.04944444",
+    "lng": "102.70888889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Garrulax_strepitans_-_Mae_Wong.jpg/960px-Garrulax_strepitans_-_Mae_Wong.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-云南省-f689e1a8",
+      "name": "云南省",
+      "summary": "云南省，简称云或滇，因清代境內有迤东道、迤西道、迤南道三迤，故又簡稱迤，是中华人民共和国西南边疆地区的省份。云南地形复杂多变，以高原与山地为主，海拔落差大，呈“西北高、东南低”地势格局。气候类型多样，从高原气候到热带、亚热带气候均有分布，…",
+      "lat": "25.04944444",
+      "lng": "102.70888889"
+    },
+    {
+      "id": "loc-老挝-0d5ce5bc",
+      "name": "老挝",
+      "summary": "老挝人民民主共和国（寮語：ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ，简写：ສປປ ລາວ），通稱寮國（寮語：ລາວ），是位于東南亞中南半岛的社会主义国家，首都及最大城市为万象，通行寮语，面积23.68万平方公里，…",
+      "lat": "18",
+      "lng": "105"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    },
+    {
+      "id": "loc-泰国-6e4d220d",
+      "name": "泰国",
+      "summary": "泰王国（泰語：ราชอาณาจักรไทย，皇家轉寫：Ratcha-anachak Thai），通稱泰国（泰語：ประเทศไทย，皇家轉寫：Prathet Thai），舊称暹罗（泰語：สยาม，皇家轉寫：Sayam），是东南亚的君主立宪…",
+      "lat": "15",
+      "lng": "101"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白颈噪鹛-b2fc5f6b",
+      "subject": "白颈噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-云南省-f689e1a8",
+      "object": "云南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Yunnan, Laos, Myanmar and Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白颈噪鹛-b2fc5f6b",
+      "subject": "白颈噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-老挝-0d5ce5bc",
+      "object": "老挝",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Yunnan, Laos, Myanmar and Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白颈噪鹛-b2fc5f6b",
+      "subject": "白颈噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Yunnan, Laos, Myanmar and Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白颈噪鹛-b2fc5f6b",
+      "subject": "白颈噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰国-6e4d220d",
+      "object": "泰国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Yunnan, Laos, Myanmar and Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白颈噪鹛-b2fc5f6b",
+      "subject": "白颈噪鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its altitudinal range is between . It typically occurs in lowland and montane broad-leaved forest and scrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-白颈噪鹛-b2fc5f6b",
+      "subject": "白颈噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-白颈噪鹛-b2fc5f6b",
+      "subject": "白颈噪鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population trend is probably in decline because of habitat destruction, but the total population is large and the decline is not sufficiently rapid to cause concern",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

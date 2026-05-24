@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:16:12",
+  "requested_title": "Black-bellied Firefinch",
+  "resolved_title": "Black-bellied firefinch",
+  "title_aliases": [
+    "Black-bellied Firefinch"
+  ],
+  "bird_id": "bird-黑腹火雀-b59167e7",
+  "raw_file": "bird-黑腹火雀-b59167e7.json",
+  "bird": {
+    "id": "bird-黑腹火雀-b59167e7",
+    "name": "黑腹火雀",
+    "english_name": "Black-bellied firefinch",
+    "latin_name": "Lagonosticta rara",
+    "summary": "黑腹火雀（学名：Lagonosticta rara）是梅花雀科火雀属的一种，为非洲的常见物种。其全球活动范围有2,300,000平方千米。分布于贝宁、布基纳法索、喀麦隆、中非共和国、乍得、刚果民主共和国、科特迪瓦、加纳、几内亚、肯尼亚、利比里亚、尼日利亚、塞内加尔、塞拉利昂、苏…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Black-bellied_Firefinch.JPG/960px-Black-bellied_Firefinch.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-orazio-antinori-0169ccfa",
+      "name": "Orazio Antinori",
+      "summary": "Orazio Antinori (28 October 1811 – 26 August 1882) was an Italian explorer and zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-guinean-forest-savanna-mosaic-94afefb0",
+      "name": "Guinean forest–savanna mosaic",
+      "summary": "The Guinean forest-savanna, also known as the Guinean forest-savanna transition, is a distinctive ecological region loc…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑腹火雀-b59167e7",
+      "subject": "黑腹火雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-orazio-antinori-0169ccfa",
+      "object": "Orazio Antinori",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-bellied firefinch (Lagonosticta rara) is a common species of estrildid finch found in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑腹火雀-b59167e7",
+      "subject": "黑腹火雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-guinean-forest-savanna-mosaic-94afefb0",
+      "object": "Guinean forest–savanna mosaic",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Guinean forest–savanna mosaic, the southern Sahel and northern Sudan (region)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑腹火雀-b59167e7",
+      "subject": "黑腹火雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

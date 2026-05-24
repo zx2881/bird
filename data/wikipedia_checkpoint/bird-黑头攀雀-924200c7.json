@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:13:23",
+  "requested_title": "Black-headed Penduline Tit",
+  "resolved_title": "Black-headed penduline tit",
+  "title_aliases": [
+    "Black-headed Penduline Tit"
+  ],
+  "bird_id": "bird-黑头攀雀-924200c7",
+  "raw_file": "bird-黑头攀雀-924200c7.json",
+  "bird": {
+    "id": "bird-黑头攀雀-924200c7",
+    "name": "黑头攀雀",
+    "english_name": "Black-headed penduline tit",
+    "latin_name": "Remiz macronyx",
+    "summary": "黑头攀雀（学名：Remiz macronyx），是雀形目攀雀科的一种鸟类。 特征 黑头攀雀体重约9.3克，翼长约56.1毫米，嘴峰长约10.6毫米，喙宽度约3.1毫米，喙厚度约3.9毫米，跗蹠长约13.7毫米，尾长约48.5毫米。黑头攀雀是候鸟，其栖息在半开放的湖泊、沼泽等湿地…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Remiz_macronyx_-_James_Eaton_-_351030638.jpeg/960px-Remiz_macronyx_-_James_Eaton_-_351030638.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-中亚-88133474",
+      "name": "中亚",
+      "summary": "中亚（英語：Central Asia；俄語：Средняя Азия / Центральная Азия）即亚洲中部，在地理上是指西至里海，东到中国新疆，南到阿富汗，北到俄罗斯的广大区域。而根据长期占据这片区域大部分领土的前苏联官方定义…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-湖泊-0d5da6a5",
+      "name": "湖泊",
+      "summary": "湖泊（lake）是内陆洼地中相对静止、有一定面积，不与海洋发生直接联系的水体。全世界共有约1.17亿个湖泊，共覆盖了地球近500万平方公里。 從地球歷史上來看，湖泊只是暫時存在的水體，會受到泥沙淤積而慢慢陸化；除了少數古老湖泊，如貝加爾湖…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-河流-f3845624",
+      "name": "河流",
+      "summary": "河流（江、河）是自然汇入海洋、湖泊的流水，通常为淡水。在少数情况下，河流流入地下或者在汇入另一水体之前便干涸。河流有時會匯入另一條河流。较小的河流可能会被称作溪流、支流等。 河流是水循环的一环。河流中的水主要来自其流域降水形成的地表径流和…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑头攀雀-924200c7",
+      "subject": "黑头攀雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-中亚-88133474",
+      "object": "中亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Central Asia in reed beds along lakes or rivers. Its distribution is fragmented. It is the least thoroughly-documented bird in the Remiz genus, and has been described as one of the most poorly-known birds in Central Asia.{{Cite journal |last1=Kittelberger |first1=Kyle D",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑头攀雀-924200c7",
+      "subject": "黑头攀雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-湖泊-0d5da6a5",
+      "object": "湖泊",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Central Asia in reed beds along lakes or rivers. Its distribution is fragmented. It is the least thoroughly-documented bird in the Remiz genus, and has been described as one of the most poorly-known birds in Central Asia.{{Cite journal |last1=Kittelberger |first1=Kyle D",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑头攀雀-924200c7",
+      "subject": "黑头攀雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-河流-f3845624",
+      "object": "河流",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Central Asia in reed beds along lakes or rivers. Its distribution is fragmented. It is the least thoroughly-documented bird in the Remiz genus, and has been described as one of the most poorly-known birds in Central Asia.{{Cite journal |last1=Kittelberger |first1=Kyle D",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑头攀雀-924200c7",
+      "subject": "黑头攀雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

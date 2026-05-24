@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:52:11",
+  "requested_title": "Little Swift",
+  "resolved_title": "Little swift",
+  "title_aliases": [
+    "Little Swift"
+  ],
+  "bird_id": "bird-欧洲小雨燕-3ca19c80",
+  "raw_file": "bird-欧洲小雨燕-3ca19c80.json",
+  "bird": {
+    "id": "bird-欧洲小雨燕-3ca19c80",
+    "name": "欧洲小雨燕",
+    "english_name": "Little swift",
+    "latin_name": "Apus affinis",
+    "summary": "欧洲小雨燕（学名：Apus affinis）为雨燕科雨燕属的鸟类。该物种的模式产地在印度。 亚种 欧洲小雨燕包括以下亚种 （学名：Apus affinis aerobates Brooke, 1969） 欧洲小雨燕指名亚种（学名：Apus affinis affinis (J.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Little_swift%2C_Apus_affinis%2C_at_Kruger_National_Park%2C_South_Africa%2C_crop.jpg/960px-Little_swift%2C_Apus_affinis%2C_at_Kruger_National_Park%2C_South_Africa%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-爱德华-格雷-d3ba7764",
+      "name": "约翰·爱德华·格雷",
+      "summary": "约翰·爱德华·格雷 FRS（英語：John Edward Gray，1800年2月12日—1875年3月7日），英国动物学家，1833年和他人一起創立英国皇家昆虫学会。1840年至1874年聖誕節任大英博物馆动物学部门负责人，之後倫敦博物…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西亚-a96480a2",
+      "name": "西亚",
+      "summary": "西亞（英語：West Asia，通稱：Western Asia），或稱西南亞（英語：South-west Asia 或 Southwest Asia，通稱：South-western Asia 或 Southwestern Asia），指…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-欧洲小雨燕-3ca19c80",
+      "subject": "欧洲小雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-爱德华-格雷-d3ba7764",
+      "object": "约翰·爱德华·格雷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The little swift (Apus affinis) is a small species of swift found in Africa and southwestern Asia, and are vagrants and local breeders in southern Europe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-欧洲小雨燕-3ca19c80",
+      "subject": "欧洲小雨燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-西亚-a96480a2",
+      "object": "西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The little swift (Apus affinis) is a small species of swift found in Africa and southwestern Asia, and are vagrants and local breeders in southern Europe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-欧洲小雨燕-3ca19c80",
+      "subject": "欧洲小雨燕",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They are found both in urban areas and at rocky cliffs where they build nests in a way typical of all members of the order Apodiformes",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-欧洲小雨燕-3ca19c80",
+      "subject": "欧洲小雨燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-欧洲小雨燕-3ca19c80",
+      "subject": "欧洲小雨燕",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species has a wide distribution and its population is increasing, and as a result is classified as \"Least Concern\" by the International Union for Conservation of Nature and Natural Resources. The population of the species is expanding and increasing, mainly due to its tendency to build nests in man-made structures. However, in Turkey a local decline of about 50% was observed due to habitat loss resulting from dam construction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:59:17",
+  "requested_title": "Glossy Antshrike",
+  "resolved_title": "Glossy antshrike",
+  "title_aliases": [
+    "Glossy Antshrike"
+  ],
+  "bird_id": "bird-glossy-antshrike-09ad1ef7",
+  "raw_file": "bird-glossy-antshrike-09ad1ef7.json",
+  "bird": {
+    "id": "bird-glossy-antshrike-09ad1ef7",
+    "name": "Glossy antshrike",
+    "english_name": "Glossy antshrike",
+    "latin_name": "Sakesphorus luctuosus",
+    "summary": "The glossy antshrike (Sakesphorus luctuosus) is a species of bird in subfamily Thamnophilinae of family Thamnophilidae, the \"typical antbir…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sakesphorus_luctuosus_-_Glossy_Antshrike.JPG/960px-Sakesphorus_luctuosus_-_Glossy_Antshrike.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-glossy-antshrike-09ad1ef7",
+      "subject": "Glossy antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits forest and woodlands along rivers and smaller watercourses, mainly in igapó and várzea but also in areas that seldom flood",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-glossy-antshrike-09ad1ef7",
+      "subject": "Glossy antshrike",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

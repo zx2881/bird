@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:57:38",
+  "requested_title": "Rufous-fronted Laughingthrush",
+  "resolved_title": "Rufous-fronted laughingthrush",
+  "title_aliases": [
+    "Rufous-fronted Laughingthrush"
+  ],
+  "bird_id": "bird-红额噪鹛-e51410a1",
+  "raw_file": "bird-红额噪鹛-e51410a1.json",
+  "bird": {
+    "id": "bird-红额噪鹛-e51410a1",
+    "name": "红额噪鹛",
+    "english_name": "Rufous-fronted laughingthrush",
+    "latin_name": "Garrulax rufifrons",
+    "summary": "红额噪鹛（学名：Garrulax rufifrons），是画眉科噪鹛属的一种，为印度尼西亚的特有种。该物种的保护状况被评为極危。 红额噪鹛的栖息地为亚热带或热带的湿润山地林。",
+    "lat": "-7.49166667",
+    "lng": "110.00444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Garrulax_rufifrons_-_Forest_Botial-Jarvis_-_313034603.jpeg/960px-Garrulax_rufifrons_-_Forest_Botial-Jarvis_-_313034603.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "An evergreen forest is a forest made up of evergreen trees.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红额噪鹛-e51410a1",
+      "subject": "红额噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Java, where it occurs in evergreen tropical montane forests at . It feeds on insects and fruit.{{cite book |last=Becking |first=J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红额噪鹛-e51410a1",
+      "subject": "红额噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Java, where it occurs in evergreen tropical montane forests at . It feeds on insects and fruit.{{cite book |last=Becking |first=J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红额噪鹛-e51410a1",
+      "subject": "红额噪鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is endemic to Java, where it occurs in evergreen tropical montane forests at . It feeds on insects and fruit.{{cite book |last=Becking |first=J",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-红额噪鹛-e51410a1",
+      "subject": "红额噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

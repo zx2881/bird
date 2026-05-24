@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:59:11",
+  "requested_title": "Pale-breasted Thrush",
+  "resolved_title": "Pale-breasted thrush",
+  "title_aliases": [
+    "Pale-breasted Thrush"
+  ],
+  "bird_id": "bird-pale-breasted-thrush-f7e90edb",
+  "raw_file": "bird-pale-breasted-thrush-f7e90edb.json",
+  "bird": {
+    "id": "bird-pale-breasted-thrush-f7e90edb",
+    "name": "Pale-breasted thrush",
+    "english_name": "Pale-breasted thrush",
+    "latin_name": "Turdus leucomelas",
+    "summary": "The pale-breasted thrush (Turdus leucomelas) is a species of bird in the family Turdidae. It is found in every mainland South American coun…",
+    "lat": "-22.07",
+    "lng": "-48.4336",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Turdus_leucomelas.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣保罗州-de4bdb34",
+      "name": "圣保罗州",
+      "summary": "圣保罗州（葡萄牙語：São Paulo，葡萄牙語發音：[sɐ̃w̃ 'paw.lo]）是巴西的一个州，以圣保罗的名字命名。圣保罗州是巴西重要的工业和经济区。 地理 圣保罗州的面积248,209.426平方公里，人口44,411,238人（…",
+      "lat": "-22.07",
+      "lng": "-48.4336"
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "name": "路易·皮埃尔·维埃约",
+      "summary": "路易·皮埃尔·维埃约（法語：Louis Pierre Vieillot，1748年5月10日—1830年8月24日）是法国的鳥類學家。 维埃约是第一批用卡尔·林奈式二名法科学描述鸟类的研究者之一。至少有26个他命名的鸟类至今仍在学术界使用…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pale-breasted-thrush-f7e90edb",
+      "subject": "Pale-breasted thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣保罗州-de4bdb34",
+      "object": "圣保罗州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pale-breasted thrush (Turdus leucomelas) is a species of bird in the family Turdidae. It is found in every mainland South American country except Chile and Ecuador.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-breasted-thrush-f7e90edb",
+      "subject": "Pale-breasted thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pale-breasted thrush (Turdus leucomelas) is a species of bird in the family Turdidae. It is found in every mainland South American country except Chile and Ecuador.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-breasted-thrush-f7e90edb",
+      "subject": "Pale-breasted thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "object": "路易·皮埃尔·维埃约",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pale-breasted thrush (Turdus leucomelas) is a species of bird in the family Turdidae. It is found in every mainland South American country except Chile and Ecuador.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-breasted-thrush-f7e90edb",
+      "subject": "Pale-breasted thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

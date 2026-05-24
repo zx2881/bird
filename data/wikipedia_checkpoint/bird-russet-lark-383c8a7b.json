@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:42:14",
+  "requested_title": "Russet Lark",
+  "resolved_title": "Russet lark",
+  "title_aliases": [
+    "Russet Lark"
+  ],
+  "bird_id": "bird-russet-lark-383c8a7b",
+  "raw_file": "bird-russet-lark-383c8a7b.json",
+  "bird": {
+    "id": "bird-russet-lark-383c8a7b",
+    "name": "Russet lark",
+    "english_name": "Russet lark",
+    "latin_name": "Corypha (bird) sharpii",
+    "summary": "The russet lark (Corypha sharpii), also known as Sharpe's lark, is a species of lark in the family Alaudidae found in Somalia. Taxonomy The…",
+    "lat": "10",
+    "lng": "49",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-索马里-5b5a7d76",
+      "name": "索马里",
+      "summary": "索馬里联邦共和国（索馬里語：Jamhuuriyadda Federaalka Soomaaliya；阿拉伯語：جمهورية الصومال الفدرالية，Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya；英語…",
+      "lat": "10",
+      "lng": "49"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-russet-lark-383c8a7b",
+      "subject": "Russet lark",
+      "predicate": "distributed_in",
+      "object_id": "loc-索马里-5b5a7d76",
+      "object": "索马里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The russet lark (Corypha sharpii), also known as Sharpe's lark, is a species of lark in the family Alaudidae found in Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-russet-lark-383c8a7b",
+      "subject": "Russet lark",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

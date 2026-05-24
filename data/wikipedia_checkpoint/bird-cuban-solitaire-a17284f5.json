@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:57:05",
+  "requested_title": "Cuban Solitaire",
+  "resolved_title": "Cuban solitaire",
+  "title_aliases": [
+    "Cuban Solitaire"
+  ],
+  "bird_id": "bird-cuban-solitaire-a17284f5",
+  "raw_file": "bird-cuban-solitaire-a17284f5.json",
+  "bird": {
+    "id": "bird-cuban-solitaire-a17284f5",
+    "name": "Cuban solitaire",
+    "english_name": "Cuban solitaire",
+    "latin_name": "Myadestes elisabeth",
+    "summary": "The Cuban solitaire (Myadestes elisabeth), also known as the Cuban nightingale, is a species of bird in the family Turdidae, the thrushes.…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cuban_Solitaire_-_Cuba_S4E9751_%2817233178372%29.jpg/960px-Cuban_Solitaire_-_Cuba_S4E9751_%2817233178372%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cuban-solitaire-a17284f5",
+      "subject": "Cuban solitaire",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits pine, semi-deciduous, and evergreen forest in the hills and mountains.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cuban-solitaire-a17284f5",
+      "subject": "Cuban solitaire",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

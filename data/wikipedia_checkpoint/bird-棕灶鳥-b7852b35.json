@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:23:18",
+  "requested_title": "Rufous Hornero",
+  "resolved_title": "Rufous hornero",
+  "title_aliases": [
+    "Rufous Hornero"
+  ],
+  "bird_id": "bird-棕灶鳥-b7852b35",
+  "raw_file": "bird-棕灶鳥-b7852b35.json",
+  "bird": {
+    "id": "bird-棕灶鳥-b7852b35",
+    "name": "棕灶鳥",
+    "english_name": "Rufous hornero",
+    "latin_name": "Furnarius rufus",
+    "summary": "棕灶鳥（學名：Furnarius rufus）是南美洲東部一種大型的灶鳥。它們棲息在次生叢林、草坪及農地，也會走到人類居住的地方。它們分佈在巴西東部、玻利維亞、巴拉圭、烏拉圭以及阿根廷北和中部。它們是巴拉圭及阿根廷的冠灶鳥的近親。它們是阿根廷的國鳥，其下有4個亞種。 特徵 棕灶…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Rufous_hornero_%28Furnarius_rufus%29_Colonia.jpg/960px-Rufous_hornero_%28Furnarius_rufus%29_Colonia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕灶鳥-b7852b35",
+      "subject": "棕灶鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in eastern South America and is the national bird of Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕灶鳥-b7852b35",
+      "subject": "棕灶鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in eastern South America and is the national bird of Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕灶鳥-b7852b35",
+      "subject": "棕灶鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

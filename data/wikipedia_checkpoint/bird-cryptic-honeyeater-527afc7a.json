@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:00:34",
+  "requested_title": "Cryptic Honeyeater",
+  "resolved_title": "Cryptic honeyeater",
+  "title_aliases": [
+    "Cryptic Honeyeater"
+  ],
+  "bird_id": "bird-cryptic-honeyeater-527afc7a",
+  "raw_file": "bird-cryptic-honeyeater-527afc7a.json",
+  "bird": {
+    "id": "bird-cryptic-honeyeater-527afc7a",
+    "name": "Cryptic honeyeater",
+    "english_name": "Cryptic honeyeater",
+    "latin_name": "Meliphaga imitatrix",
+    "summary": "The cryptic honeyeater (Meliphaga imitatrix), also known as the imitatress honeyeater, is a species of bird in the family Meliphagidae. It…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Meliphaga_gracilis_-_Julatten.jpg/960px-Meliphaga_gracilis_-_Julatten.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cryptic-honeyeater-527afc7a",
+      "subject": "Cryptic honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northeastern Queensland in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cryptic-honeyeater-527afc7a",
+      "subject": "Cryptic honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

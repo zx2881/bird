@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:01:12",
+  "requested_title": "Scarlet-chested Sunbird",
+  "resolved_title": "Scarlet-chested sunbird",
+  "title_aliases": [
+    "Scarlet-chested Sunbird"
+  ],
+  "bird_id": "bird-scarlet-chested-sunbird-5aa6b0bf",
+  "raw_file": "bird-scarlet-chested-sunbird-5aa6b0bf.json",
+  "bird": {
+    "id": "bird-scarlet-chested-sunbird-5aa6b0bf",
+    "name": "Scarlet-chested sunbird",
+    "english_name": "Scarlet-chested sunbird",
+    "latin_name": "Chalcomitra senegalensis",
+    "summary": "The scarlet-chested sunbird (Chalcomitra senegalensis) is a species of bird in the family Nectariniidae. It is found in many areas of Sub-S…",
+    "lat": "-26.5",
+    "lng": "31.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Scarlet-chested_sunbird%2C_Chalcomitra_senegalensis%2C_at_Lake_Chivero%2C_Harare%2C_Zimbabwe_-_male_%2821247780653%29.jpg/960px-Scarlet-chested_sunbird%2C_Chalcomitra_senegalensis%2C_at_Lake_Chivero%2C_Harare%2C_Zimbabwe_-_male_%2821247780653%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-史瓦帝尼-8e8b2b40",
+      "name": "史瓦帝尼",
+      "summary": "史瓦帝尼王國（史瓦帝語：Umbuso weSwatini；英語：Kingdom of Eswatini），通稱史瓦帝尼（史瓦帝語：eSwatini；英語：Eswatini），是位於非洲南部的一个內陸國家。史瓦帝尼北、西、南三面均為南非所包…",
+      "lat": "-26.5",
+      "lng": "31.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-scarlet-chested-sunbird-5aa6b0bf",
+      "subject": "Scarlet-chested sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in many areas of Sub-Saharan Africa, and from South Sudan to South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scarlet-chested-sunbird-5aa6b0bf",
+      "subject": "Scarlet-chested sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-史瓦帝尼-8e8b2b40",
+      "object": "史瓦帝尼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Angola, Benin, Botswana, Burkina Faso, Burundi, Cameroon, Central African Republic, Chad, Democratic Republic of the Congo, Eswatini, Ivory Coast, Eritrea, Ethiopia, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Malawi, Mali, Mauritania, Mozambique, Namibia, Niger, Nigeria, Rwanda, Senegal, Sierra Leone, South Africa, Sudan, Tanzania, Togo, Uganda, Zambia, and Zimbabwe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scarlet-chested-sunbird-5aa6b0bf",
+      "subject": "Scarlet-chested sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

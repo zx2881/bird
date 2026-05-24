@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:20:40",
+  "requested_title": "White-tailed Cotinga",
+  "resolved_title": "White-tailed cotinga",
+  "title_aliases": [
+    "White-tailed Cotinga"
+  ],
+  "bird_id": "bird-white-tailed-cotinga-9fd61c47",
+  "raw_file": "bird-white-tailed-cotinga-9fd61c47.json",
+  "bird": {
+    "id": "bird-white-tailed-cotinga-9fd61c47",
+    "name": "White-tailed cotinga",
+    "english_name": "White-tailed cotinga",
+    "latin_name": "Xipholena lamellipennis",
+    "summary": "The white tailed cotinga (Xipholena lamellipennis) is a Near Threatened species of bird in the family Cotingidae. It is endemic to Brazil.",
+    "lat": "-2.3096",
+    "lng": "-54.8881",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Xipholena_lamellipennis_-_White-tailed_Cotinga_%28male%29%3B_Carajas_National_Forest%2C_Para%2C_Brazil.jpg/960px-Xipholena_lamellipennis_-_White-tailed_Cotinga_%28male%29%3B_Carajas_National_Forest%2C_Para%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-亚马逊河-e416ee15",
+      "name": "亚马逊河",
+      "summary": "亚马逊河（葡萄牙語：Rio Amazonas；西班牙語：Río Amazonas；奇楚瓦語：Awqaq sipaskuna mayu；英語：Amazon River），也称亚马孙河，是一条位於南美洲北部的大型河流，自西向东流动。其发源自位…",
+      "lat": "-15.51777778",
+      "lng": "-71.69361111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-tailed-cotinga-9fd61c47",
+      "subject": "White-tailed cotinga",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-tailed cotinga is found in the lower Amazon Basin of Brazil south of the Amazon River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-tailed-cotinga-9fd61c47",
+      "subject": "White-tailed cotinga",
+      "predicate": "distributed_in",
+      "object_id": "loc-亚马逊河-e416ee15",
+      "object": "亚马逊河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-tailed cotinga is found in the lower Amazon Basin of Brazil south of the Amazon River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-tailed-cotinga-9fd61c47",
+      "subject": "White-tailed cotinga",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-white-tailed-cotinga-9fd61c47",
+      "subject": "White-tailed cotinga",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The primary threat to this species is accelerating deforestation in the Amazon basin as land is cleared for cattle ranching, soy production, selective logging and escaped fires, facilitated by expansion of the road network.\" It is poorly known and \"[a]pparently nowhere common; as its congeners, however, it is a treetop bird easily overlooked in areas of unbroken forest\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

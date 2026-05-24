@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:26:11",
+  "requested_title": "Cape Canary",
+  "resolved_title": "Cape canary",
+  "title_aliases": [
+    "Cape Canary"
+  ],
+  "bird_id": "bird-cape-canary-9822d845",
+  "raw_file": "bird-cape-canary-9822d845.json",
+  "bird": {
+    "id": "bird-cape-canary-9822d845",
+    "name": "Cape canary",
+    "english_name": "Cape canary",
+    "latin_name": "Serinus canicollis",
+    "summary": "The Cape canary (Serinus canicollis) is a small passerine bird in the finch family. It is a resident breeder in southern Africa and has bee…",
+    "lat": "-32.27",
+    "lng": "22.31",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Cape_Canary_%28Serinus_canicollis%29_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡魯地區-517135fa",
+      "name": "卡魯地區",
+      "summary": "卡魯地區（Karoo）是南非西南部的一個地區，屬於半乾旱氣候景觀，人煙稀少。 卡魯地區包含大卡魯（Great Karoo）和小卡魯（Klein Karoo）。小卡魯位於斯瓦特山脈和奧特尼夸山脈之間，面積較小；大卡魯位於開普褶皺帶以北，實際…",
+      "lat": "-32.27",
+      "lng": "22.31"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cape-canary-9822d845",
+      "subject": "Cape canary",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡魯地區-517135fa",
+      "object": "卡魯地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird on average has a life span of 3.8 years. They also move with irregular flocks sometimes, traveling to non-breeding areas such as the northern Karoo. In the southern Cape, numbers increase during spring, while the species is largely absent from the drier northern parts of its range in summer",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-canary-9822d845",
+      "subject": "Cape canary",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is a residential bird but shows seasonal and altitudinal movements, sometimes forming large flocks outside the breeding season. Its habitat is fynbos, grassland and gardens, preferably in highland areas",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-cape-canary-9822d845",
+      "subject": "Cape canary",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

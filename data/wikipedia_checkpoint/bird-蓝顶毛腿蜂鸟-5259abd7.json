@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:01:09",
+  "requested_title": "Blue-capped Puffleg",
+  "resolved_title": "Blue-capped puffleg",
+  "title_aliases": [
+    "Blue-capped Puffleg"
+  ],
+  "bird_id": "bird-蓝顶毛腿蜂鸟-5259abd7",
+  "raw_file": "bird-蓝顶毛腿蜂鸟-5259abd7.json",
+  "bird": {
+    "id": "bird-蓝顶毛腿蜂鸟-5259abd7",
+    "name": "蓝顶毛腿蜂鸟",
+    "english_name": "Blue-capped puffleg",
+    "latin_name": "Eriocnemis glaucopoides",
+    "summary": "蓝顶毛腿蜂鸟（台湾作藍頂鬆腿蜂鳥，学名：Eriocnemis glaucopoides），是雨燕目蜂鸟科的一种鸟类。 蓝顶毛腿蜂鸟体重约3.7克，翼长约50.3毫米，嘴峰长约25毫米，喙宽度约1.8毫米，喙厚度约2.1毫米，跗蹠长约4.3毫米，尾长约38毫米。蓝顶毛腿蜂鸟在其分…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Eriocnemis_glaucopoides_107016220.jpg/960px-Eriocnemis_glaucopoides_107016220.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝顶毛腿蜂鸟-5259abd7",
+      "subject": "蓝顶毛腿蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Bolivia.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝顶毛腿蜂鸟-5259abd7",
+      "subject": "蓝顶毛腿蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Bolivia.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝顶毛腿蜂鸟-5259abd7",
+      "subject": "蓝顶毛腿蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It generally inhabits humid slopes of grass and dense shrubs and the edges of cloudforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝顶毛腿蜂鸟-5259abd7",
+      "subject": "蓝顶毛腿蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

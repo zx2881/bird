@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:37:03",
+  "requested_title": "Papuan White-eye",
+  "resolved_title": "Papuan white-eye",
+  "title_aliases": [
+    "Papuan White-eye"
+  ],
+  "bird_id": "bird-papuan-white-eye-fd51ffc6",
+  "raw_file": "bird-papuan-white-eye-fd51ffc6.json",
+  "bird": {
+    "id": "bird-papuan-white-eye-fd51ffc6",
+    "name": "Papuan white-eye",
+    "english_name": "Papuan white-eye",
+    "latin_name": "Zosterops novaeguineae",
+    "summary": "The Papuan white-eye (Zosterops novaeguineae), sometimes known as the New Guinea white-eye, is a species of bird in the family Zosteropidae…",
+    "lat": "-6.2",
+    "lng": "134.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Zosterops_novaeguineae_-_Micha_Baum_-_369018087.jpeg/960px-Zosterops_novaeguineae_-_Micha_Baum_-_369018087.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿魯群島-c5d8ff7a",
+      "name": "阿魯群島",
+      "summary": "阿魯群島（印尼语：Kepulauan Aru）是大洋洲的一組约95个低窪島嶼组成的群岛，位於印尼東部的馬魯古省，同时也是马鲁古省下的一个县。 行政区划 行政上，阿鲁群岛属于阿鲁群岛县（印尼语：Kabupaten Kepulauan Aru…",
+      "lat": "-6.2",
+      "lng": "134.5"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-巴布亞半島-908a1ddc",
+      "name": "巴布亞半島",
+      "summary": "巴布亚半岛是巴布亚新几内亚的一个半岛，位于莱城东南。该半岛主体由欧文斯坦利山脉构成，拥有维多利亚山（4038米）等高峰。巴布亚新几内亚的首都及最大城市莫尔斯比港坐落于半岛南岸。 参考文献",
+      "lat": "-8.83333333",
+      "lng": "147.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-papuan-white-eye-fd51ffc6",
+      "subject": "Papuan white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿魯群島-c5d8ff7a",
+      "object": "阿魯群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Aru Islands and New Guinea (mainly Huon, Bird's Head and Papuan Peninsula)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-papuan-white-eye-fd51ffc6",
+      "subject": "Papuan white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Aru Islands and New Guinea (mainly Huon, Bird's Head and Papuan Peninsula)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-papuan-white-eye-fd51ffc6",
+      "subject": "Papuan white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亞半島-908a1ddc",
+      "object": "巴布亞半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Aru Islands and New Guinea (mainly Huon, Bird's Head and Papuan Peninsula)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-papuan-white-eye-fd51ffc6",
+      "subject": "Papuan white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

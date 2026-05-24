@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:56:10",
+  "requested_title": "Green-striped Brushfinch",
+  "resolved_title": "Green-striped brushfinch",
+  "title_aliases": [
+    "Green-striped Brushfinch"
+  ],
+  "bird_id": "bird-green-striped-brushfinch-22269813",
+  "raw_file": "bird-green-striped-brushfinch-22269813.json",
+  "bird": {
+    "id": "bird-green-striped-brushfinch-22269813",
+    "name": "Green-striped brushfinch",
+    "english_name": "Green-striped brushfinch",
+    "latin_name": "Arremon virenticeps",
+    "summary": "The green-striped brushfinch (Arremon virenticeps) is a species of bird in the family Passerellidae, the New World sparrows. It is endemic…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Arremon_virenticeps_193245496.jpg/960px-Arremon_virenticeps_193245496.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-pine-oak-forest-1bf3f7a2",
+      "name": "Pine–oak forest",
+      "summary": "Pine–oak forest, pine–oak woodland, or oak–pine forest is a group of similar of ecosystems, primarily found in North an…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-striped-brushfinch-22269813",
+      "subject": "Green-striped brushfinch",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits semi-humid to humid montane evergreen forest, pine-oak forest, and fir forest in the subtropical and temperate zones.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-striped-brushfinch-22269813",
+      "subject": "Green-striped brushfinch",
+      "predicate": "distributed_in",
+      "object_id": "loc-pine-oak-forest-1bf3f7a2",
+      "object": "Pine–oak forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits semi-humid to humid montane evergreen forest, pine-oak forest, and fir forest in the subtropical and temperate zones.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-striped-brushfinch-22269813",
+      "subject": "Green-striped brushfinch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

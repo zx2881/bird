@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:56:19",
+  "requested_title": "Elliot's Laughingthrush",
+  "resolved_title": "Elliot's laughingthrush",
+  "title_aliases": [
+    "Elliot's Laughingthrush"
+  ],
+  "bird_id": "bird-橙翅噪鹛-5bc7e850",
+  "raw_file": "bird-橙翅噪鹛-5bc7e850.json",
+  "bird": {
+    "id": "bird-橙翅噪鹛-5bc7e850",
+    "name": "橙翅噪鹛",
+    "english_name": "Elliot's laughingthrush",
+    "latin_name": "Trochalopteron elliotii",
+    "summary": "橙翅噪鹛（学名：Trochalopteron elliotii），是圓翅噪鶥屬（原属噪鹛属）的一种鸟类，分布于印度和中国大陆。该物种的保护状况被评为无危。2021年1月，由特有种升级为中国国家二级保护动物。 橙翅噪鹛的栖息地包括乡村花园、亚热带或热带的高海拔疏灌丛、亚热带或热带…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Trochalopteron_elliotii.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橙翅噪鹛-5bc7e850",
+      "subject": "橙翅噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central China and far northeastern India, in shrubs and in forests with a combination of coniferous and deciduous trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙翅噪鹛-5bc7e850",
+      "subject": "橙翅噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central China and far northeastern India, in shrubs and in forests with a combination of coniferous and deciduous trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙翅噪鹛-5bc7e850",
+      "subject": "橙翅噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

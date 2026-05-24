@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:17:18",
+  "requested_title": "Blue-crowned Trogon",
+  "resolved_title": "Blue-crowned trogon",
+  "title_aliases": [
+    "Blue-crowned Trogon"
+  ],
+  "bird_id": "bird-blue-crowned-trogon-15da2ea5",
+  "raw_file": "bird-blue-crowned-trogon-15da2ea5.json",
+  "bird": {
+    "id": "bird-blue-crowned-trogon-15da2ea5",
+    "name": "Blue-crowned trogon",
+    "english_name": "Blue-crowned trogon",
+    "latin_name": "Trogon curucui",
+    "summary": "The blue-crowned trogon (Trogon curucui) is a species of bird in the family Trogonidae, the quetzals and trogons. It is found in Brazil, Ar…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Blue-crowned_trogon_%28Trogon_curucui_peruvianus%29_male_Sumaco.jpg/960px-Blue-crowned_trogon_%28Trogon_curucui_peruvianus%29_male_Sumaco.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-塔帕若斯河-128104de",
+      "name": "塔帕若斯河",
+      "summary": "塔帕若斯河（葡萄牙語：Rio Tapajós）是南美洲巴西的河流，河道全長約1,200英哩，發源自南緯14度25分的巴西高原，最後注入亞馬遜河。 塔帕若斯河的最長支流是特利斯皮里斯河。",
+      "lat": "-2.40833333",
+      "lng": "-54.73666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-crowned-trogon-15da2ea5",
+      "subject": "Blue-crowned trogon",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "peruvianus is found in the Andean foothills of southern Colombia, eastern Ecuador and Peru, and northwestern Bolivia and from there east into Amazonian Brazil as far as the Tapajós River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-crowned-trogon-15da2ea5",
+      "subject": "Blue-crowned trogon",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔帕若斯河-128104de",
+      "object": "塔帕若斯河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "peruvianus is found in the Andean foothills of southern Colombia, eastern Ecuador and Peru, and northwestern Bolivia and from there east into Amazonian Brazil as far as the Tapajós River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-crowned-trogon-15da2ea5",
+      "subject": "Blue-crowned trogon",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is also found in savanna woodland, dry palm forest, caatinga, and scrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-blue-crowned-trogon-15da2ea5",
+      "subject": "Blue-crowned trogon",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is also found in savanna woodland, dry palm forest, caatinga, and scrublands",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-blue-crowned-trogon-15da2ea5",
+      "subject": "Blue-crowned trogon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

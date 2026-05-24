@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:27:32",
+  "requested_title": "Dark-fronted Babbler",
+  "resolved_title": "Dark-fronted babbler",
+  "title_aliases": [
+    "Dark-fronted Babbler"
+  ],
+  "bird_id": "bird-dark-fronted-babbler-1afdf90d",
+  "raw_file": "bird-dark-fronted-babbler-1afdf90d.json",
+  "bird": {
+    "id": "bird-dark-fronted-babbler-1afdf90d",
+    "name": "Dark-fronted babbler",
+    "english_name": "Dark-fronted babbler",
+    "latin_name": "Dumetia atriceps",
+    "summary": "The dark-fronted babbler (Dumetia atriceps) is an Old World babbler found in the Western Ghats of India and the forests of Sri Lanka. They…",
+    "lat": "10.16972222",
+    "lng": "77.06111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Dark-fronted_Babbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-画眉科-0cfbbd7a",
+      "name": "画眉科",
+      "summary": "画眉科（學名：Timaliidae），物种拆分后该科也称为林鹛科，又稱知目科，在鸟类DNA分类系统中是鸟纲雀形目中的一个科。 画眉科鸟类为中小型鸣禽。喙细直而侧扁，先端有不同程度的下弯，上喙尖多具缺刻；鼻孔被羽或须毛覆盖；翅短圆；尾长，呈…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西高止山脉-2da8035f",
+      "name": "西高止山脉",
+      "summary": "西高止山脉（Western Ghats，卡纳达语：ಸಹ್ಯಾದ್ರಿ）是印度南部的一座山脉，位于德干高原的西部，呈南北走向，长度约1600公里，海拔平均为900米，纵穿马哈拉施特拉邦、卡纳塔克邦和喀拉拉邦。西高止山脉东坡平缓，西坡陡峭。…",
+      "lat": "10.16972222",
+      "lng": "77.06111111"
+    },
+    {
+      "id": "loc-斯里蘭卡-b7d5c4b5",
+      "name": "斯里蘭卡",
+      "summary": "斯里兰卡民主社会主义共和国（僧伽羅語：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；坦米爾語：இலங்கை சனநாயக சோஷலிசக் குடியரசு；英語：Democratic Social…",
+      "lat": "7",
+      "lng": "81"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dark-fronted-babbler-1afdf90d",
+      "subject": "Dark-fronted babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-画眉科-0cfbbd7a",
+      "object": "画眉科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Jerdon|Jerdon]], 1839) | range_map=RhopocichlaAtriceps.svg | synonyms = }} The dark-fronted babbler (Dumetia atriceps) is an Old World babbler found in the Western Ghats of India and the forests of Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dark-fronted-babbler-1afdf90d",
+      "subject": "Dark-fronted babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-西高止山脉-2da8035f",
+      "object": "西高止山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Jerdon|Jerdon]], 1839) | range_map=RhopocichlaAtriceps.svg | synonyms = }} The dark-fronted babbler (Dumetia atriceps) is an Old World babbler found in the Western Ghats of India and the forests of Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dark-fronted-babbler-1afdf90d",
+      "subject": "Dark-fronted babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯里蘭卡-b7d5c4b5",
+      "object": "斯里蘭卡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Jerdon|Jerdon]], 1839) | range_map=RhopocichlaAtriceps.svg | synonyms = }} The dark-fronted babbler (Dumetia atriceps) is an Old World babbler found in the Western Ghats of India and the forests of Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dark-fronted-babbler-1afdf90d",
+      "subject": "Dark-fronted babbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

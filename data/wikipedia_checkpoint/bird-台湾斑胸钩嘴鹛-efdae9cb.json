@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:39:19",
+  "requested_title": "Black-necklaced Scimitar Babbler",
+  "resolved_title": "Black-necklaced scimitar babbler",
+  "title_aliases": [
+    "Black-necklaced Scimitar Babbler"
+  ],
+  "bird_id": "bird-台湾斑胸钩嘴鹛-efdae9cb",
+  "raw_file": "bird-台湾斑胸钩嘴鹛-efdae9cb.json",
+  "bird": {
+    "id": "bird-台湾斑胸钩嘴鹛-efdae9cb",
+    "name": "台湾斑胸钩嘴鹛",
+    "english_name": "Black-necklaced scimitar babbler",
+    "latin_name": "Erythrogenys erythrocnemis",
+    "summary": "台湾斑胸钩嘴鹛（学名：Erythrogenys erythrocnemis），又名大彎嘴鶥或大彎嘴畫眉，是雀形目画眉科大彎嘴鶥屬的一种，亦為臺灣本島的特有種，多見於全島低海拔至中海拔的闊葉林或灌叢中，警覺性高，不易觀察，是島上不普遍的留鳥。 台湾斑胸钩嘴鹛体重约58.15克，翼…",
+    "lat": "24",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/RBD7602_Erythrogenys_erythrocnemis_%2852700055447%29.jpg/960px-RBD7602_Erythrogenys_erythrocnemis_%2852700055447%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中華民國-e9cfdf77",
+      "name": "中華民國",
+      "summary": "中華民國是位於東亞的民主共和國，曾在国际上广泛代表中國，現今多通稱「臺灣」。1912年建國時以前清之中國既有領土為疆域，經歷1949年政府遷臺，現有效管轄範圍包括臺灣本島、澎湖群島及其附屬島嶼，以及中國大陸福建沿岸的金門群島、馬祖列島等島…",
+      "lat": "24",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-台湾斑胸钩嘴鹛-efdae9cb",
+      "subject": "台湾斑胸钩嘴鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-中華民國-e9cfdf77",
+      "object": "中華民國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-台湾斑胸钩嘴鹛-efdae9cb",
+      "subject": "台湾斑胸钩嘴鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

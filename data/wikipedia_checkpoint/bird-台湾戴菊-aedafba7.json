@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:01:08",
+  "requested_title": "Flamecrest",
+  "resolved_title": "Flamecrest",
+  "title_aliases": [
+    "Flamecrest"
+  ],
+  "bird_id": "bird-台湾戴菊-aedafba7",
+  "raw_file": "bird-台湾戴菊-aedafba7.json",
+  "bird": {
+    "id": "bird-台湾戴菊-aedafba7",
+    "name": "台湾戴菊",
+    "english_name": "Flamecrest",
+    "latin_name": "Regulus goodfellowi",
+    "summary": "台湾戴菊（学名：Regulus goodfellowi），又名火冠戴菊鳥，臺灣話稱杉仔鳥(sam-á-tsiáu)，为戴菊科戴菊属的鸟类，是台湾的特有种。分布于台湾等地。该物种的模式产地在台湾。 描述 火冠戴菊鳥是一種小型雀形目鳴禽，外觀與鶯類似。牠的體長僅為9 cm（3.5英…",
+    "lat": "23.52722222",
+    "lng": "120.72777778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/TarokoNP-chen07.jpg/960px-TarokoNP-chen07.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-温带针叶林-0bea7fe2",
+      "name": "温带针叶林",
+      "summary": "温带针叶林是世界自然基金会定义的一种生態區，即一片長有針葉樹或闊葉樹的樹林。温带针叶林主要分布在夏暖冬凉以及冬季温和、降雨量大的沿海地区，或气候较干燥的内陆或山地地区。此外，一种独立的栖息地类型，热带针叶林，则更多的存在于热带气候中。 不…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿里山山脈-738467a7",
+      "name": "阿里山山脈",
+      "summary": "阿里山山脈為台灣五大山脈之一，位於玉山山脈西方，兩座山脈隔著陳有蘭溪與楠梓仙溪遙相呼應。阿里山山脈北起南投縣濁水溪南岸的鹿谷鄉秀峰村，南抵高雄市燕巢區的雞冠山（或小港區鳳鼻頭）。稜脈大致呈現北北東往南南西的走向，長約225公里，平均高度二…",
+      "lat": "23.52722222",
+      "lng": "120.72777778"
+    },
+    {
+      "id": "loc-合歡山-2369bc81",
+      "name": "合歡山",
+      "summary": "合歡山（太魯閣語：Dgiyaq Bburaw），1960年曾被更名為介壽山，是台灣中央山脈主脊北段的一座高山，主脊的部分位於南投縣仁愛鄉大同村、德鹿谷村、花蓮縣秀林鄉富世村的交界，而合歡山主峰的山頂位在中央山脈主脊往西岔出的支稜上，標高3…",
+      "lat": "24.18138889",
+      "lng": "121.28138889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-台湾戴菊-aedafba7",
+      "subject": "台湾戴菊",
+      "predicate": "distributed_in",
+      "object_id": "loc-温带针叶林-0bea7fe2",
+      "object": "温带针叶林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It usually inhabits evergreen trees in coniferous forests over 2,000&nbsp;m above sea level, though it is commonest above 2,500&nbsp;m and ranges upward to 3,700&nbsp;m",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-台湾戴菊-aedafba7",
+      "subject": "台湾戴菊",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿里山山脈-738467a7",
+      "object": "阿里山山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Mountains it inhabits include Alishan, Da Yu Ling, Hehuanshan, Yu Shan, and the higher areas of Anmashan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-台湾戴菊-aedafba7",
+      "subject": "台湾戴菊",
+      "predicate": "distributed_in",
+      "object_id": "loc-合歡山-2369bc81",
+      "object": "合歡山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Mountains it inhabits include Alishan, Da Yu Ling, Hehuanshan, Yu Shan, and the higher areas of Anmashan",
+      "object_summary": ""
+    }
+  ]
+}

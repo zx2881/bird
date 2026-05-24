@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:59:53",
+  "requested_title": "Iberian Grey Shrike",
+  "resolved_title": "Iberian grey shrike",
+  "title_aliases": [
+    "Iberian Grey Shrike"
+  ],
+  "bird_id": "bird-南灰伯勞-b729a6b9",
+  "raw_file": "bird-南灰伯勞-b729a6b9.json",
+  "bird": {
+    "id": "bird-南灰伯勞-b729a6b9",
+    "name": "南灰伯勞",
+    "english_name": "Iberian grey shrike",
+    "latin_name": "Lanius meridionalis",
+    "summary": "南灰伯勞（學名：Lanius meridionalis），屬於伯勞科伯劳属，與灰伯勞關係密切。雖然牠們一起出現，但並不互相交配。牠們因為選擇居住地方不同而分開。 (Sangster et al., 2002) 参考文献 Sangster, George; Knox, Alan…",
+    "lat": "40.5",
+    "lng": "-4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Pican%C3%A7o-real%2C_Southern_Grey_Shrike_%2853118436233%29_%28cropped%29.jpg/960px-Pican%C3%A7o-real%2C_Southern_Grey_Shrike_%2853118436233%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伊比利亚半岛-d6e67713",
+      "name": "伊比利亚半岛",
+      "summary": "The Iberian Peninsula (IPA: eye-BEER-ee-ən), also known as Iberia, is a peninsula in southwestern Europe.",
+      "lat": "40.5",
+      "lng": "-4"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-南灰伯勞-b729a6b9",
+      "subject": "南灰伯勞",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊比利亚半岛-d6e67713",
+      "object": "伊比利亚半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Iberian grey shrike is endemic to southwestern Europe where it occurs across most of the Iberian Peninsula, extending into southern France. It breeds in open habitats, such as open, dry plains, typically on limestone heath or stony grassland with some scrub and single trees and bushes trees and bushes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-南灰伯勞-b729a6b9",
+      "subject": "南灰伯勞",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Iberian grey shrike is endemic to southwestern Europe where it occurs across most of the Iberian Peninsula, extending into southern France. It breeds in open habitats, such as open, dry plains, typically on limestone heath or stony grassland with some scrub and single trees and bushes trees and bushes",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-南灰伯勞-b729a6b9",
+      "subject": "南灰伯勞",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:33:21",
+  "requested_title": "Eastern Yellow Robin",
+  "resolved_title": "Eastern yellow robin",
+  "title_aliases": [
+    "Eastern Yellow Robin"
+  ],
+  "bird_id": "bird-eastern-yellow-robin-8c971aac",
+  "raw_file": "bird-eastern-yellow-robin-8c971aac.json",
+  "bird": {
+    "id": "bird-eastern-yellow-robin-8c971aac",
+    "name": "Eastern yellow robin",
+    "english_name": "Eastern yellow robin",
+    "latin_name": "Eopsaltria australis",
+    "summary": "The eastern yellow robin (Eopsaltria australis) is an Australasian robin of coastal and sub-coastal eastern Australia. The extent of the ea…",
+    "lat": "-33.04222222",
+    "lng": "150.78611111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Eopsaltria_australis_-_Mogo_Campground.jpg/960px-Eopsaltria_australis_-_Mogo_Campground.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-yengo-national-park-ea55503d",
+      "name": "Yengo National Park",
+      "summary": "The Yengo National Park is a protected national park that is located in the Lower Hunter region of New South Wales, in…",
+      "lat": "-33.04222222",
+      "lng": "150.78611111"
+    },
+    {
+      "id": "loc-新南威爾士州-7a88cf32",
+      "name": "新南威爾士州",
+      "summary": "新南威爾斯州（英語：New South Wales，缩写为NSW），或譯紐修威省，简称新州、紐省，是澳洲人口最多的一州；位於澳洲的東南部，昆士兰州以南、维多利亞州以北，南澳州以東，首府在悉尼，境內包圍整個澳洲首都領地。新南威爾斯今劃分為1…",
+      "lat": "-32",
+      "lng": "147"
+    },
+    {
+      "id": "loc-乔治-肖-89c41fbc",
+      "name": "乔治·肖",
+      "summary": "乔治·肖（英語：George Shaw，1751年12月10日—1813年7月22日）是英國植物學家及動物學家。 生平 肖生於白金漢郡的一個村落內，於牛津大學莫德林學院受教育，並在1772年取得其碩士學位后成為執業醫生。1786年起在牛津…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-mallee-woodlands-and-shrublands-a78decc8",
+      "name": "Mallee Woodlands and Shrublands",
+      "summary": "Mallee Woodlands and Shrublands is one of 32 Major Vegetation Groups defined by the Australian Government Department of…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-eastern-yellow-robin-8c971aac",
+      "subject": "Eastern yellow robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-yengo-national-park-ea55503d",
+      "object": "Yengo National Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "[[File:Eastern Yellow Robin Range.png|thumb|Range: subsp",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-yellow-robin-8c971aac",
+      "subject": "Eastern yellow robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-新南威爾士州-7a88cf32",
+      "object": "新南威爾士州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "[[File:Eastern Yellow Robin Range.png|thumb|Range: subsp",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-yellow-robin-8c971aac",
+      "subject": "Eastern yellow robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-乔治-肖-89c41fbc",
+      "object": "乔治·肖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "[[File:Eastern Yellow Robin Range.png|thumb|Range: subsp",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-yellow-robin-8c971aac",
+      "subject": "Eastern yellow robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-mallee-woodlands-and-shrublands-a78decc8",
+      "object": "Mallee Woodlands and Shrublands",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The eastern yellow robin occupies a wide range of habitats: heaths, mallee, acacia scrub, woodlands, and sclerophyll forests, but is most often found in damper places or near water",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-yellow-robin-8c971aac",
+      "subject": "Eastern yellow robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

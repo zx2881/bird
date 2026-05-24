@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:20:18",
+  "requested_title": "Turati's Boubou",
+  "resolved_title": "Turati's boubou",
+  "title_aliases": [
+    "Turati's Boubou"
+  ],
+  "bird_id": "bird-turati-s-boubou-5fa760cd",
+  "raw_file": "bird-turati-s-boubou-5fa760cd.json",
+  "bird": {
+    "id": "bird-turati-s-boubou-5fa760cd",
+    "name": "Turati's boubou",
+    "english_name": "Turati's boubou",
+    "latin_name": "Laniarius turatii",
+    "summary": "Turati's boubou (Laniarius turatii) is a species of bird in the family Malaconotidae. It is found in Guinea, Guinea-Bissau, and Sierra Leon…",
+    "lat": "11",
+    "lng": "-10",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-几内亚-d249039d",
+      "name": "几内亚",
+      "summary": "几内亚共和國（法語：République de Guinée），通稱几内亚（Guinée），是位於西非的國家，東南接科特迪瓦，南臨利比里亞，西鄰塞拉利昂，北鄰几内亚比绍、塞内加尔，北和東北與馬里接壤。尼日尔河、塞内加尔河、冈比亚河在几内亚…",
+      "lat": "11",
+      "lng": "-10"
+    },
+    {
+      "id": "loc-幾內亞比索-49fb9962",
+      "name": "幾內亞比索",
+      "summary": "幾內亞比紹共和國（葡萄牙語：República da Guiné-Bissau，發音：[ʁɛˈpuβlikɐ ðɐ ɣiˈnɛ βiˈsaw]），通称几内亚比绍（葡萄牙語：Guiné-Bissau），有时简称几比，是一個位於西非的國家，曾…",
+      "lat": "12",
+      "lng": "-15"
+    },
+    {
+      "id": "loc-塞拉利昂-91a82141",
+      "name": "塞拉利昂",
+      "summary": "塞拉利昂共和国（英語：Republic of Sierra Leone），通稱塞拉利昂（英語：Sierra Leone），位于西非大西洋岸，北部及东部被几内亚包圍、东南与利比里亚接壤，首都弗里敦。 中文译名 “Sierra Leone”一…",
+      "lat": "8.5",
+      "lng": "-12.1"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-turati-s-boubou-5fa760cd",
+      "subject": "Turati's boubou",
+      "predicate": "distributed_in",
+      "object_id": "loc-几内亚-d249039d",
+      "object": "几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Guinea, Guinea-Bissau, and Sierra Leone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-turati-s-boubou-5fa760cd",
+      "subject": "Turati's boubou",
+      "predicate": "distributed_in",
+      "object_id": "loc-幾內亞比索-49fb9962",
+      "object": "幾內亞比索",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Guinea, Guinea-Bissau, and Sierra Leone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-turati-s-boubou-5fa760cd",
+      "subject": "Turati's boubou",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞拉利昂-91a82141",
+      "object": "塞拉利昂",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Guinea, Guinea-Bissau, and Sierra Leone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-turati-s-boubou-5fa760cd",
+      "subject": "Turati's boubou",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is moist savanna",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-turati-s-boubou-5fa760cd",
+      "subject": "Turati's boubou",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

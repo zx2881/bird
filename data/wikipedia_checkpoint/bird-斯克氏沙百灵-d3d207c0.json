@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:47:23",
+  "requested_title": "Sclater's Lark",
+  "resolved_title": "Sclater's lark",
+  "title_aliases": [
+    "Sclater's Lark"
+  ],
+  "bird_id": "bird-斯克氏沙百灵-d3d207c0",
+  "raw_file": "bird-斯克氏沙百灵-d3d207c0.json",
+  "bird": {
+    "id": "bird-斯克氏沙百灵-d3d207c0",
+    "name": "斯克氏沙百灵",
+    "english_name": "Sclater's lark",
+    "latin_name": "Spizocorys sclateri",
+    "summary": "斯克氏沙百灵（学名：Spizocorys sclateri），是百灵科沙百灵属的一种，分布于纳米比亚和南非。全球活动范围约为316,000平方千米。该物种的保护状况被评为近危。 斯克氏沙百灵的平均体重约为19.0克。栖息地包括亚热带或热带的（低地）干草原和亚热带或热带的（低地）…",
+    "lat": "-22",
+    "lng": "17",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Spizocorys_sclateri_92973589.jpg/960px-Spizocorys_sclateri_92973589.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-纳米比亚-0e5bfcb6",
+      "name": "纳米比亚",
+      "summary": "納米比亞共和國（德語：Republik Namibia，英語：Republic of Namibia），通稱納米比亞（Namibia），是位於南部非洲西面的共和國。它西部瀕臨大西洋，北部接壤贊比亞和安哥拉，東部連接博茨瓦纳，而在南部則與南…",
+      "lat": "-22",
+      "lng": "17"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-斯克氏沙百灵-d3d207c0",
+      "subject": "斯克氏沙百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-纳米比亚-0e5bfcb6",
+      "object": "纳米比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Namibia and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斯克氏沙百灵-d3d207c0",
+      "subject": "斯克氏沙百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Namibia and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斯克氏沙百灵-d3d207c0",
+      "subject": "斯克氏沙百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical dry shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-斯克氏沙百灵-d3d207c0",
+      "subject": "斯克氏沙百灵",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-斯克氏沙百灵-d3d207c0",
+      "subject": "斯克氏沙百灵",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:19:35",
+  "requested_title": "Black-throated Accentor",
+  "resolved_title": "Black-throated accentor",
+  "title_aliases": [
+    "Black-throated Accentor"
+  ],
+  "bird_id": "bird-黑喉岩鹨-be536c32",
+  "raw_file": "bird-黑喉岩鹨-be536c32.json",
+  "bird": {
+    "id": "bird-黑喉岩鹨-be536c32",
+    "name": "黑喉岩鹨",
+    "english_name": "Black-throated accentor",
+    "latin_name": "Prunella atrogularis",
+    "summary": "黑喉岩鹨（学名：Prunella atrogularis）为岩鹨科岩鹨属的鸟类。在中国大陆，分布于新疆、西藏等地。该物种的模式产地在巴基斯坦Semi-Palatine。 亚种 黑喉岩鹨指名亚种（学名：Prunella atrogularis atrogularis）。分布于俄罗…",
+    "lat": "42",
+    "lng": "80",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Black-throated_Accentor_%28Prunella_atrogularis%29_%2815275386173%29.jpg/960px-Black-throated_Accentor_%28Prunella_atrogularis%29_%2815275386173%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-天山山脉-28323f98",
+      "name": "天山山脉",
+      "summary": "天山山脉（維吾爾語：تەڭرىتاغ / Tengri Tagh / Тәңри тағ；哈薩克語：Täñırtauy / ٴتاڭىرتاۋ / Тәңіртау；吉爾吉斯語：Ала-Тоо/تەڭىر-توو；东干文：Тянсан，小…",
+      "lat": "42",
+      "lng": "80"
+    },
+    {
+      "id": "loc-阿尔泰山脉-1a06c867",
+      "name": "阿尔泰山脉",
+      "summary": "阿尔泰山脉（維吾爾語：ئالتاي تاغ تىزمىسى；俄語：Алтай；蒙古語：ᠠᠯᠲᠠᠢ · Алтай或ᠠᠯᠲᠠᠢ ᠶ᠋ᠢᠨᠨᠢᠷᠤᠭᠤ · Алтайн нуруу；哈薩克語：Алтай таулары）从中国新疆维吾尔自治区…",
+      "lat": "49",
+      "lng": "89"
+    },
+    {
+      "id": "loc-阿富汗-1b59b990",
+      "name": "阿富汗",
+      "summary": "阿富汗伊斯兰酋长国，通称阿富汗，是位于亚洲中南部的内陆国家，坐落在亚洲的心脏地区。根据地理分区的不同定义，阿富汗被认为处在南亚、中亚、西亚、中东。阿富汗是擁有多样文化的国家，因地理上位于东方与西方的交界點，古时曾是重要的贸易中心和游牧民族…",
+      "lat": "34.51666667",
+      "lng": "69.18333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑喉岩鹨-be536c32",
+      "subject": "黑喉岩鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-天山山脉-28323f98",
+      "object": "天山山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "atrogularis (Compiled by: BirdLife International and Handbook of the Birds of the World (2016) 2016.) }} The black-throated accentor (Prunella atrogularis) is a small passerine bird found in the Ural, Tian Shan and Altai Mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉岩鹨-be536c32",
+      "subject": "黑喉岩鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔泰山脉-1a06c867",
+      "object": "阿尔泰山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "atrogularis (Compiled by: BirdLife International and Handbook of the Birds of the World (2016) 2016.) }} The black-throated accentor (Prunella atrogularis) is a small passerine bird found in the Ural, Tian Shan and Altai Mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉岩鹨-be536c32",
+      "subject": "黑喉岩鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿富汗-1b59b990",
+      "object": "阿富汗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in Afghanistan and neighboring countries",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑喉岩鹨-be536c32",
+      "subject": "黑喉岩鹨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

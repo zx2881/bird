@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:34:09",
+  "requested_title": "Sunda Blue Flycatcher",
+  "resolved_title": "Sunda blue flycatcher",
+  "title_aliases": [
+    "Sunda Blue Flycatcher"
+  ],
+  "bird_id": "bird-大嘴仙鹟-101c3fc0",
+  "raw_file": "bird-大嘴仙鹟-101c3fc0.json",
+  "bird": {
+    "id": "bird-大嘴仙鹟-101c3fc0",
+    "name": "大嘴仙鹟",
+    "english_name": "Sunda blue flycatcher",
+    "latin_name": "Cyornis caerulatus",
+    "summary": "大嘴仙鹟（学名：Cyornis caerulatus，英文名：Sunda blue flycatcher）是雀形目鹟科仙鹟属的一种鸟类。该物种分布于印度尼西亚的苏门答腊岛和婆罗洲等地，生活在亚热带或热带潮湿的低地森林中。目前被世界自然保护联盟列为易危物种。 参考资料",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Naturalis_Biodiversity_Center_-_ZMA.AVES.14151_1_LAT_-_Cyornis_caerulatus_albiventer_Junge%2C_1933_-_Muscicapidae_-_skin_-_preserved_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_ZMA.AVES.14151_1_LAT_-_Cyornis_caerulatus_albiventer_Junge%2C_1933_-_Muscicapidae_-_skin_-_preserved_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大嘴仙鹟-101c3fc0",
+      "subject": "大嘴仙鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大嘴仙鹟-101c3fc0",
+      "subject": "大嘴仙鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大嘴仙鹟-101c3fc0",
+      "subject": "大嘴仙鹟",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-大嘴仙鹟-101c3fc0",
+      "subject": "大嘴仙鹟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

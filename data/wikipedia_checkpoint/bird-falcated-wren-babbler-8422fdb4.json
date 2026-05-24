@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:49:25",
+  "requested_title": "Falcated Wren-Babbler",
+  "resolved_title": "Falcated wren-babbler",
+  "title_aliases": [
+    "Falcated Wren-Babbler"
+  ],
+  "bird_id": "bird-falcated-wren-babbler-8422fdb4",
+  "raw_file": "bird-falcated-wren-babbler-8422fdb4.json",
+  "bird": {
+    "id": "bird-falcated-wren-babbler-8422fdb4",
+    "name": "Falcated wren-babbler",
+    "english_name": "Falcated wren-babbler",
+    "latin_name": "Ptilocichla falcata",
+    "summary": "The falcated wren-babbler (Ptilocichla falcata) is a species of bird in the family Pellorneidae. It is endemic to Palawan.",
+    "lat": "10.16666667",
+    "lng": "118.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/FalcatedWrenBabbler11032023.jpg/960px-FalcatedWrenBabbler11032023.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-普林塞萨港地下河国家公园-656774b8",
+      "name": "普林塞萨港地下河国家公园",
+      "summary": "普林塞萨港地下河国家公园（英語：Puerto Princesa Subterranean River National Park），台湾譯作公主港地下河國家公園，為菲律宾一處自然保护区，位於菲律賓島群呂宋部份西南部的巴拉望島。該公園於19…",
+      "lat": "10.16666667",
+      "lng": "118.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-falcated-wren-babbler-8422fdb4",
+      "subject": "Falcated wren-babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits tropical moist lowland primary forest up to 800 meters above sea level",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-falcated-wren-babbler-8422fdb4",
+      "subject": "Falcated wren-babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-普林塞萨港地下河国家公园-656774b8",
+      "object": "普林塞萨港地下河国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in just one protected area in Puerto Princesa Subterranean River National Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-falcated-wren-babbler-8422fdb4",
+      "subject": "Falcated wren-babbler",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-falcated-wren-babbler-8422fdb4",
+      "subject": "Falcated wren-babbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss Along with the Melodious babbler and Palawan flycatcher, they have been dubbed the Tres Amigos (Spanish) or Three Friends as some of the most sought after birds in Palawan",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-falcated-wren-babbler-8422fdb4",
+      "subject": "Falcated wren-babbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Forest loss, due to legal and illegal logging, mining and conversion into farmland and urban development, is its main threat",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

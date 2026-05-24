@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:13:13",
+  "requested_title": "Common Miner",
+  "resolved_title": "Common miner",
+  "title_aliases": [
+    "Common Miner"
+  ],
+  "bird_id": "bird-common-miner-60f166ba",
+  "raw_file": "bird-common-miner-60f166ba.json",
+  "bird": {
+    "id": "bird-common-miner-60f166ba",
+    "name": "Common miner",
+    "english_name": "Common miner",
+    "latin_name": "Geositta cunicularia",
+    "summary": "The common miner (Geositta cunicularia) is a passerine bird in the subfamily Sclerurinae, the leaftossers and miners, of the ovenbird famil…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Common_miner_%28Geositta_cunicularia_cunicularia%29_Leona_Amarga.jpg/960px-Common_miner_%28Geositta_cunicularia_cunicularia%29_Leona_Amarga.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-central-andean-dry-puna-03a01e41",
+      "name": "Central Andean dry puna",
+      "summary": "The Central Andean dry puna (NT1001) is an ecoregion in the montane grasslands and shrublands biome, located in the And…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-common-miner-60f166ba",
+      "subject": "Common miner",
+      "predicate": "distributed_in",
+      "object_id": "loc-central-andean-dry-puna-03a01e41",
+      "object": "Central Andean dry puna",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "https://www.museum.lsu.edu/~Remsen/SACCCountryLists.htm retrieved April 15, 2023 The common miner inhabits open landscapes including puna and temperate grasslands, arid lowland scrublands, and moister restinga scrublands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-common-miner-60f166ba",
+      "subject": "Common miner",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "https://www.museum.lsu.edu/~Remsen/SACCCountryLists.htm retrieved April 15, 2023 The common miner inhabits open landscapes including puna and temperate grasslands, arid lowland scrublands, and moister restinga scrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-common-miner-60f166ba",
+      "subject": "Common miner",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "https://www.museum.lsu.edu/~Remsen/SACCCountryLists.htm retrieved April 15, 2023 The common miner inhabits open landscapes including puna and temperate grasslands, arid lowland scrublands, and moister restinga scrublands",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-common-miner-60f166ba",
+      "subject": "Common miner",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-common-miner-60f166ba",
+      "subject": "Common miner",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. In habitats with light to moderate human disturbance it is considered common to locally abundant",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

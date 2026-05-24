@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:37:19",
+  "requested_title": "Pale Baywing",
+  "resolved_title": "Pale baywing",
+  "title_aliases": [
+    "Pale Baywing"
+  ],
+  "bird_id": "bird-pale-baywing-ba8a7447",
+  "raw_file": "bird-pale-baywing-ba8a7447.json",
+  "bird": {
+    "id": "bird-pale-baywing-ba8a7447",
+    "name": "Pale baywing",
+    "english_name": "Pale baywing",
+    "latin_name": "Agelaioides fringillarius",
+    "summary": "The pale baywing (Agelaioides fringillarius), formerly known as the pale cowbird, is a species of bird in the family Icteridae. It is curre…",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Agelaioides_badius_fringillarius_-Brazil-3-3c.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pale-baywing-ba8a7447",
+      "subject": "Pale baywing",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to northeastern Brazil, where it is primarily found in the Caatinga and the northern Cerrado",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-baywing-ba8a7447",
+      "subject": "Pale baywing",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

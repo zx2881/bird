@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:14:41",
+  "requested_title": "Daurian Jackdaw",
+  "resolved_title": "Daurian jackdaw",
+  "title_aliases": [
+    "Daurian Jackdaw"
+  ],
+  "bird_id": "bird-达乌里寒鸦-c83d4ec8",
+  "raw_file": "bird-达乌里寒鸦-c83d4ec8.json",
+  "bird": {
+    "id": "bird-达乌里寒鸦-c83d4ec8",
+    "name": "达乌里寒鸦",
+    "english_name": "Daurian jackdaw",
+    "latin_name": "Coloeus dauuricus",
+    "summary": "达乌里寒鸦（学名：Coloeus dauuricus），又名寒鸦、慈鸦、燕乌、孝鸟、小山老鸹、侉老鸹、麦鸦、白脖寒鸦、白腹寒鸦、东方寒鴉。是鸦科寒鸦属的一种，是全面迁徙的候鸟，分布于法国、韩国、日本、哈萨克斯坦、中国、荷兰、丹麦、俄罗斯、朝鲜和蒙古。该物种的保护状况被评为无危。…",
+    "lat": "32.09055556",
+    "lng": "130.35277778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Coloeus_dauuricus%2C_adult%2C_Izumi%2C_Kagoshima%2C_Japan_3.jpg/960px-Coloeus_dauuricus%2C_adult%2C_Izumi%2C_Kagoshima%2C_Japan_3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-出水市-30a0d920",
+      "name": "出水市",
+      "summary": "出水市（日語：出水市／いずみし，羅馬化：Izumi shi）是位于日本鹿兒島縣西北部的城市，以鶴的棲息地聞名。 人口 歷史 年表 1889年4月1日：實施町村制，現在的轄區，分別隸屬出水郡上出水村、中出水村、野田村、高尾野村、下出水村。",
+      "lat": "32.09055556",
+      "lng": "130.35277778"
+    },
+    {
+      "id": "loc-彼得-西蒙-帕拉斯-926bc8f2",
+      "name": "彼得·西蒙·帕拉斯",
+      "summary": "彼得·西蒙·帕拉斯（德語：Peter Simon Pallas，1741年9月22日—1811年9月8日）是一位德國博物学家，出生于柏林，曾先后在哥廷根大学和莱登大学学习，之后帕拉斯前往西欧考察，期间研究出了新的动物分类。1767年受叶卡…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-达乌里寒鸦-c83d4ec8",
+      "subject": "达乌里寒鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-出水市-30a0d920",
+      "object": "出水市",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Daurian jackdaw (Coloeus dauuricus) is a bird in the crow family, Corvidae, native to eastern Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-达乌里寒鸦-c83d4ec8",
+      "subject": "达乌里寒鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-彼得-西蒙-帕拉斯-926bc8f2",
+      "object": "彼得·西蒙·帕拉斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Daurian jackdaw (Coloeus dauuricus) is a bird in the crow family, Corvidae, native to eastern Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-达乌里寒鸦-c83d4ec8",
+      "subject": "达乌里寒鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

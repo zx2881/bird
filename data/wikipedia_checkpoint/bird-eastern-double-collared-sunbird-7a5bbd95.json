@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:51:39",
+  "requested_title": "Eastern Double-collared Sunbird",
+  "resolved_title": "Eastern double-collared sunbird",
+  "title_aliases": [
+    "Eastern Double-collared Sunbird"
+  ],
+  "bird_id": "bird-eastern-double-collared-sunbird-7a5bbd95",
+  "raw_file": "bird-eastern-double-collared-sunbird-7a5bbd95.json",
+  "bird": {
+    "id": "bird-eastern-double-collared-sunbird-7a5bbd95",
+    "name": "Eastern double-collared sunbird",
+    "english_name": "Eastern double-collared sunbird",
+    "latin_name": "Cinnyris mediocris",
+    "summary": "The eastern double-collared sunbird (Cinnyris mediocris) is a species of bird in the family Nectariniidae. It is found in upland areas of K…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Eastern_Double-collared_Sunbird%2C_Ngorongoro_Crater_%288494806979%29.jpg/960px-Eastern_Double-collared_Sunbird%2C_Ngorongoro_Crater_%288494806979%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-eastern-double-collared-sunbird-7a5bbd95",
+      "subject": "Eastern double-collared sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in upland areas of Kenya and northern Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-double-collared-sunbird-7a5bbd95",
+      "subject": "Eastern double-collared sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in upland areas of Kenya and northern Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-double-collared-sunbird-7a5bbd95",
+      "subject": "Eastern double-collared sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

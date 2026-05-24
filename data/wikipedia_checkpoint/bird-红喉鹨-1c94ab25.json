@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:20:11",
+  "requested_title": "Red-throated Pipit",
+  "resolved_title": "Red-throated pipit",
+  "title_aliases": [
+    "Red-throated Pipit"
+  ],
+  "bird_id": "bird-红喉鹨-1c94ab25",
+  "raw_file": "bird-红喉鹨-1c94ab25.json",
+  "bird": {
+    "id": "bird-红喉鹨-1c94ab25",
+    "name": "红喉鹨",
+    "english_name": "Red-throated pipit",
+    "latin_name": "Anthus cervinus",
+    "summary": "红喉鹨（学名：Anthus cervinus），又名赤喉鹨，为鶺鸰科鹨属的鸟类。在歐洲北部和古北界的遠北地區繁殖，並在阿拉斯加北部有少量分佈。它是一種長途遷徙的候鳥，冬季會遷徙至非洲、南及東亞，以及美國西海岸。它是歐洲西部的迷鳥。 詞源 其學名來自拉丁語。屬名Anthus 是草…",
+    "lat": "64",
+    "lng": "-152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Red-throated_Pipit.jpg/960px-Red-throated_Pipit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉斯加州-6d35b63b",
+      "name": "阿拉斯加州",
+      "summary": "阿拉斯加州（英語：Alaska，發音：/əˈlæskə/ ；舊譯「亞尼俺國」、「亞拉士加」）是美國位於北美洲最西北端的聯邦州。州以東與加拿大的英屬哥倫比亞省和育空地區相鄰，最西端位於阿圖島，並與俄羅斯在白令海峽以西有一海上邊界。以北有楚科…",
+      "lat": "64",
+      "lng": "-152"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红喉鹨-1c94ab25",
+      "subject": "红喉鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉斯加州-6d35b63b",
+      "object": "阿拉斯加州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cervinus }} The red-throated pipit (Anthus cervinus) is a small passerine bird, which breeds in the far north of Europe and the Palearctic, with a foothold in northern Alaska",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红喉鹨-1c94ab25",
+      "subject": "红喉鹨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:19:51",
+  "requested_title": "Great Spotted Woodpecker",
+  "resolved_title": "Great spotted woodpecker",
+  "title_aliases": [
+    "Great Spotted Woodpecker"
+  ],
+  "bird_id": "bird-大斑啄木鸟-334144ad",
+  "raw_file": "bird-大斑啄木鸟-334144ad.json",
+  "bird": {
+    "id": "bird-大斑啄木鸟-334144ad",
+    "name": "大斑啄木鸟",
+    "english_name": "Great spotted woodpecker",
+    "latin_name": "Dendrocopos major",
+    "summary": "大斑啄木鸟（学名Dendrocopos major）又名赤鴷、臭奔得儿木、花奔得儿木、花啄木、白花啄木鸟、啄木冠、叼木冠。 生态环境 常见于森林树丛间，善攀登，但只会上不会下，若想向下移动则只能向下跳跃，而不能像鳾科鸟类那样头下脚上地活动。",
+    "lat": "53",
+    "lng": "-8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg/960px-Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-爱尔兰岛-85c9123b",
+      "name": "爱尔兰岛",
+      "summary": "爱尔兰岛（愛爾蘭語：Éire，英語：Ireland）是位於欧洲西北部的大西洋島嶼，以面積計算是歐洲第三大島。島上大部分區域屬於爱尔兰共和国的領土，至於島上東北部的北愛爾蘭地區之主權則屬於英国。 整個愛爾蘭島的人口為620萬人。其中居住在愛…",
+      "lat": "53",
+      "lng": "-8"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大斑啄木鸟-334144ad",
+      "subject": "大斑啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-爱尔兰岛-85c9123b",
+      "object": "爱尔兰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|upright|Large trees provide habitat for excavating feeding holes. The species ranges across Eurasia from Ireland to Japan, and in North Africa from Morocco to Tunisia; it is absent only from those areas too cold or dry to have suitable woodland habitat. It is found in a wide variety of woodlands, broadleaf, coniferous or mixed, and in modified habitats like parks, gardens and olive groves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大斑啄木鸟-334144ad",
+      "subject": "大斑啄木鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:53:16",
+  "requested_title": "Green-backed Robin",
+  "resolved_title": "Green-backed robin",
+  "title_aliases": [
+    "Green-backed Robin"
+  ],
+  "bird_id": "bird-green-backed-robin-5f8e1b98",
+  "raw_file": "bird-green-backed-robin-5f8e1b98.json",
+  "bird": {
+    "id": "bird-green-backed-robin-5f8e1b98",
+    "name": "Green-backed robin",
+    "english_name": "Green-backed robin",
+    "latin_name": "Pachycephalopsis hattamensis",
+    "summary": "The green-backed robin (Pachycephalopsis hattamensis) is a species of bird in the family Petroicidae. It is found in New Guinea.",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Pachycephalopsis_hattamensis_-_The_Birds_of_New_Guinea_%28cropped%29.jpg/960px-Pachycephalopsis_hattamensis_-_The_Birds_of_New_Guinea_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-william-matthew-hart-ac6c53ce",
+      "name": "William Matthew Hart",
+      "summary": "William Matthew Hart (1830-1908) was an Irish-born English bird illustrator and lithographer who worked for John Gould.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-christian-erich-hermann-von-meyer-3e6bc969",
+      "name": "Christian Erich Hermann von Meyer",
+      "summary": "Christian Erich Hermann von Meyer (3 September 1801 – 2 April 1869), known as Hermann von Meyer, was a German palaeonto…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-backed-robin-5f8e1b98",
+      "subject": "Green-backed robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-william-matthew-hart-ac6c53ce",
+      "object": "William Matthew Hart",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green-backed robin (Pachycephalopsis hattamensis) is a species of bird in the family Petroicidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-backed-robin-5f8e1b98",
+      "subject": "Green-backed robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-christian-erich-hermann-von-meyer-3e6bc969",
+      "object": "Christian Erich Hermann von Meyer",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green-backed robin (Pachycephalopsis hattamensis) is a species of bird in the family Petroicidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-backed-robin-5f8e1b98",
+      "subject": "Green-backed robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-backed-robin-5f8e1b98",
+      "subject": "Green-backed robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:55:37",
+  "requested_title": "Black-browed Barbet",
+  "resolved_title": "Black-browed barbet",
+  "title_aliases": [
+    "Black-browed Barbet"
+  ],
+  "bird_id": "bird-马来拟啄木鸟-8d382cc2",
+  "raw_file": "bird-马来拟啄木鸟-8d382cc2.json",
+  "bird": {
+    "id": "bird-马来拟啄木鸟-8d382cc2",
+    "name": "马来拟啄木鸟",
+    "english_name": "Black-browed barbet",
+    "latin_name": "Psilopogon oorti",
+    "summary": "马来拟啄木鸟（台湾作黑眉擬啄木，學名：Psilopogon oorti），又名馬來擬啄木，為鬚鴷科擬啄木屬的鳥類，分布於馬來西亞半島與蘇門答臘西側的淺山森林和果園。本種曾包含五個亞種，包含中國東南部、臺灣與中南半島東部的族群，但這些族群因羽色、叫聲與遺傳關係都與本種有不小差異，…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Black-browed_Barbet_-_Malaysia_MG_6603_%2816222423359%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来西亚半岛-8b666768",
+      "name": "马来西亚半岛",
+      "summary": "马来西亚半岛（英語：Peninsular Malaysia，馬來語：Semenanjung Malaysia），簡稱大马半岛，其他通称马来亚半岛、马来半岛或西马，亦称為马来亚（英語：Malaya，馬來語：Malaya），是马来西亚国土在马…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-马来拟啄木鸟-8d382cc2",
+      "subject": "马来拟啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来西亚半岛-8b666768",
+      "object": "马来西亚半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Müller]], 1836) | synonyms = Megalaima oorti }} The black-browed barbet (Psilopogon oorti) is an Asian barbet native to Peninsular Malaysia and Sumatra, where it inhabits foremost forests between altitude",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-马来拟啄木鸟-8d382cc2",
+      "subject": "马来拟啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Müller]], 1836) | synonyms = Megalaima oorti }} The black-browed barbet (Psilopogon oorti) is an Asian barbet native to Peninsular Malaysia and Sumatra, where it inhabits foremost forests between altitude",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-马来拟啄木鸟-8d382cc2",
+      "subject": "马来拟啄木鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

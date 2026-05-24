@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:21:21",
+  "requested_title": "Three-wattled Bellbird",
+  "resolved_title": "Three-wattled bellbird",
+  "title_aliases": [
+    "Three-wattled Bellbird"
+  ],
+  "bird_id": "bird-three-wattled-bellbird-bfc95011",
+  "raw_file": "bird-three-wattled-bellbird-bfc95011.json",
+  "bird": {
+    "id": "bird-three-wattled-bellbird-bfc95011",
+    "name": "Three-wattled bellbird",
+    "english_name": "Three-wattled bellbird",
+    "latin_name": "Procnias tricarunculatus",
+    "summary": "The three-wattled bellbird (Procnias tricarunculatus) is a Central American migratory bird of the cotinga family. The sexes are very dissim…",
+    "lat": "15",
+    "lng": "-86.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Three-wattled_Bellbird_%28Procnias_tricarunculata%29_%285818992683%29.jpg/960px-Three-wattled_Bellbird_%28Procnias_tricarunculata%29_%285818992683%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-洪都拉斯-455c9715",
+      "name": "洪都拉斯",
+      "summary": "洪都拉斯共和國（西班牙語：República de Honduras），通稱洪都拉斯（Honduras），是位於中美洲的共和制國家，西側國界，北半部與危地馬拉接壤，南半部與薩爾瓦多相連；南鄰尼加拉瓜邊界；東、北面濱加勒比海；南面（偏西）以…",
+      "lat": "15",
+      "lng": "-86.5"
+    },
+    {
+      "id": "loc-尼加拉瓜-7d1016c5",
+      "name": "尼加拉瓜",
+      "summary": "尼加拉瓜共和国（西班牙語：República de Nicaragua），通稱尼加拉瓜（西班牙語：Nicaragua），是位於中美洲的一個國家，為中美地峡面積最大的國家，其首都為馬納瓜。地理上北鄰洪都拉斯，南邊是哥斯達黎加，東臨加勒比海、…",
+      "lat": "13",
+      "lng": "-85"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-three-wattled-bellbird-bfc95011",
+      "subject": "Three-wattled bellbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-洪都拉斯-455c9715",
+      "object": "洪都拉斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The three-wattled bellbird breeds in mountainous regions of Costa Rica and migrates to western Honduras, Nicaragua and Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-three-wattled-bellbird-bfc95011",
+      "subject": "Three-wattled bellbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼加拉瓜-7d1016c5",
+      "object": "尼加拉瓜",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The three-wattled bellbird breeds in mountainous regions of Costa Rica and migrates to western Honduras, Nicaragua and Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-three-wattled-bellbird-bfc95011",
+      "subject": "Three-wattled bellbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The three-wattled bellbird breeds in mountainous regions of Costa Rica and migrates to western Honduras, Nicaragua and Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-three-wattled-bellbird-bfc95011",
+      "subject": "Three-wattled bellbird",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

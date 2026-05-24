@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:11:07",
+  "requested_title": "Malabar Trogon",
+  "resolved_title": "Malabar trogon",
+  "title_aliases": [
+    "Malabar Trogon"
+  ],
+  "bird_id": "bird-malabar-trogon-b39e17b9",
+  "raw_file": "bird-malabar-trogon-b39e17b9.json",
+  "bird": {
+    "id": "bird-malabar-trogon-b39e17b9",
+    "name": "Malabar trogon",
+    "english_name": "Malabar trogon",
+    "latin_name": "Harpactes fasciatus",
+    "summary": "The Malabar trogon (Harpactes fasciatus) is a species of bird in the trogon family. It is found in the forests of India and Sri Lanka.",
+    "lat": "10.16972222",
+    "lng": "77.06111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/MalabarTrogon.ogv/960px--MalabarTrogon.ogv.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-斯里蘭卡-b7d5c4b5",
+      "name": "斯里蘭卡",
+      "summary": "斯里兰卡民主社会主义共和国（僧伽羅語：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；坦米爾語：இலங்கை சனநாயக சோஷலிசக் குடியரசு；英語：Democratic Social…",
+      "lat": "7",
+      "lng": "81"
+    },
+    {
+      "id": "loc-西高止山脉-2da8035f",
+      "name": "西高止山脉",
+      "summary": "西高止山脉（Western Ghats，卡纳达语：ಸಹ್ಯಾದ್ರಿ）是印度南部的一座山脉，位于德干高原的西部，呈南北走向，长度约1600公里，海拔平均为900米，纵穿马哈拉施特拉邦、卡纳塔克邦和喀拉拉邦。西高止山脉东坡平缓，西坡陡峭。…",
+      "lat": "10.16972222",
+      "lng": "77.06111111"
+    },
+    {
+      "id": "loc-東高止山脈-07832831",
+      "name": "東高止山脈",
+      "summary": "東高止山脈是印度的山脈，位於該國東岸，全長約1,500公里，橫跨奧里薩邦、安得拉邦、卡納塔克邦和泰米爾納德邦，最高點海拔高度1,680米。",
+      "lat": "18.22805556",
+      "lng": "82.72305556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-malabar-trogon-b39e17b9",
+      "subject": "Malabar trogon",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the forests of India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malabar-trogon-b39e17b9",
+      "subject": "Malabar trogon",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯里蘭卡-b7d5c4b5",
+      "object": "斯里蘭卡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the forests of India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malabar-trogon-b39e17b9",
+      "subject": "Malabar trogon",
+      "predicate": "distributed_in",
+      "object_id": "loc-西高止山脉-2da8035f",
+      "object": "西高止山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In India, it is mainly found in the Western Ghats, hill forests of central India and in parts of the Eastern Ghats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malabar-trogon-b39e17b9",
+      "subject": "Malabar trogon",
+      "predicate": "distributed_in",
+      "object_id": "loc-東高止山脈-07832831",
+      "object": "東高止山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In India, it is mainly found in the Western Ghats, hill forests of central India and in parts of the Eastern Ghats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malabar-trogon-b39e17b9",
+      "subject": "Malabar trogon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:41:37",
+  "requested_title": "Grey Whistler",
+  "resolved_title": "Grey whistler",
+  "title_aliases": [
+    "Grey Whistler"
+  ],
+  "bird_id": "bird-灰啸鹟-3d97fb9c",
+  "raw_file": "bird-灰啸鹟-3d97fb9c.json",
+  "bird": {
+    "id": "bird-灰啸鹟-3d97fb9c",
+    "name": "灰啸鹟",
+    "english_name": "Grey whistler",
+    "latin_name": "Pachycephala simplex",
+    "summary": "灰啸鹟（学名：Pachycephala simplex），是啸鹟科啸鹟属的一种，分布于印度尼西亚、巴布亚新几内亚和澳大利亚。其种加词“simplex ”意为“简单、单一的”。 参考文献 Pachycephala simplex.",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Pachycephala_simplex_simplex_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰啸鹟-3d97fb9c",
+      "subject": "灰啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern Australia and New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰啸鹟-3d97fb9c",
+      "subject": "灰啸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

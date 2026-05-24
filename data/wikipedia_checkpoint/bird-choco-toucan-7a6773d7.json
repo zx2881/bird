@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:00:22",
+  "requested_title": "Choco Toucan",
+  "resolved_title": "Choco toucan",
+  "title_aliases": [
+    "Choco Toucan"
+  ],
+  "bird_id": "bird-choco-toucan-7a6773d7",
+  "raw_file": "bird-choco-toucan-7a6773d7.json",
+  "bird": {
+    "id": "bird-choco-toucan-7a6773d7",
+    "name": "Choco toucan",
+    "english_name": "Choco toucan",
+    "latin_name": "Ramphastos brevis",
+    "summary": "The Choco toucan (Ramphastos brevis) is a near-passerine bird in the family Ramphastidae, the toucans, toucanets, and aracaris. It is found…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Choco_toucan.jpg/960px-Choco_toucan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-rodolphe-meyer-de-schauensee-5b537de2",
+      "name": "Rodolphe Meyer de Schauensee",
+      "summary": "Rodolphe Meyer de Schauensee (; January 4, 1901 – April 24, 1984) was a Swiss-American ornithologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-choco-toucan-7a6773d7",
+      "subject": "Choco toucan",
+      "predicate": "distributed_in",
+      "object_id": "loc-rodolphe-meyer-de-schauensee-5b537de2",
+      "object": "Rodolphe Meyer de Schauensee",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Choco toucan (Ramphastos brevis) is a near-passerine bird in the family Ramphastidae, the toucans, toucanets, and aracaris",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-choco-toucan-7a6773d7",
+      "subject": "Choco toucan",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

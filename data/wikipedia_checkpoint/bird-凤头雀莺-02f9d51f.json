@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:32:02",
+  "requested_title": "Crested Tit-warbler",
+  "resolved_title": "Crested tit-warbler",
+  "title_aliases": [
+    "Crested Tit-warbler"
+  ],
+  "bird_id": "bird-凤头雀莺-02f9d51f",
+  "raw_file": "bird-凤头雀莺-02f9d51f.json",
+  "bird": {
+    "id": "bird-凤头雀莺-02f9d51f",
+    "name": "凤头雀莺",
+    "english_name": "Crested tit-warbler",
+    "latin_name": "Leptopoecile elegans",
+    "summary": "凤头雀莺（学名：Leptopoecile elegans）为鶲科雀莺属的鸟类，是中国的特有种。分布于青海、甘肃、四川、西藏等地。 参考文献",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Leptopoecile_elegans_-_Wang.QG_-_514719036.jpeg/960px-Leptopoecile_elegans_-_Wang.QG_-_514719036.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-凤头雀莺-02f9d51f",
+      "subject": "凤头雀莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in China and possibly India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-凤头雀莺-02f9d51f",
+      "subject": "凤头雀莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in China and possibly India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-凤头雀莺-02f9d51f",
+      "subject": "凤头雀莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

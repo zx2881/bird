@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:41:42",
+  "requested_title": "Wallacean Whistler",
+  "resolved_title": "Wallacean whistler",
+  "title_aliases": [
+    "Wallacean Whistler"
+  ],
+  "bird_id": "bird-印尼啸鹟-025c4d16",
+  "raw_file": "bird-印尼啸鹟-025c4d16.json",
+  "bird": {
+    "id": "bird-印尼啸鹟-025c4d16",
+    "name": "印尼啸鹟",
+    "english_name": "Wallacean whistler",
+    "latin_name": "Pachycephala arctitorquis",
+    "summary": "印尼啸鹟（学名：Pachycephala arctitorquis），是啸鹟科啸鹟属的一种，为印度尼西亚的特有种。该物种的保护状况被评为无危。 印尼啸鹟的栖息地包括种植园、亚热带或热带的红树林、乡村花园和亚热带或热带的湿润低地林。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pachycephala_arctitorquis_kebirensis_-_desertnaturalist_-_332125101.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-印尼啸鹟-025c4d16",
+      "subject": "印尼啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the eastern Lesser Sunda Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-印尼啸鹟-025c4d16",
+      "subject": "印尼啸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

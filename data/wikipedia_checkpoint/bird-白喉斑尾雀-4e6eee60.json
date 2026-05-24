@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:19:13",
+  "requested_title": "White-throated Barbtail",
+  "resolved_title": "White-throated barbtail",
+  "title_aliases": [
+    "White-throated Barbtail"
+  ],
+  "bird_id": "bird-白喉斑尾雀-4e6eee60",
+  "raw_file": "bird-白喉斑尾雀-4e6eee60.json",
+  "bird": {
+    "id": "bird-白喉斑尾雀-4e6eee60",
+    "name": "白喉斑尾雀",
+    "english_name": "White-throated barbtail",
+    "latin_name": "Premnoplex tatei",
+    "summary": "白喉斑尾雀（学名：Premnoplex tatei），是雀形目灶鸟科斑尾雀属的一种鸟类，是委内瑞拉的特有物种。 白喉斑尾雀体重约16.3克，翼长约59.5毫米，喙宽度约3.1毫米，喙厚度约3.8毫米，嘴峰长约18.2毫米，跗蹠长约21.4毫米，尾长约56毫米。",
+    "lat": "10.06666667",
+    "lng": "-64.71666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Premnoplex_tatei_map.svg/960px-Premnoplex_tatei_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-安索阿特吉州-984daa3e",
+      "name": "安索阿特吉州",
+      "summary": "安索阿特吉州（西班牙語：Estado Anzoátegui）是委內瑞拉東北部的一個州，北臨加勒比海，南界奧里諾科河。面積43,300平方公里，2007年人口1,477,900人。首府巴塞隆納。 1909年建州。下分有一個自治市。省名紀念獨…",
+      "lat": "10.06666667",
+      "lng": "-64.71666667"
+    },
+    {
+      "id": "loc-莫納加斯州-27daa75d",
+      "name": "莫納加斯州",
+      "summary": "莫納加斯州（西班牙語：Estado Monagas）是委內瑞拉東部的一個州，東北臨帕里亞灣。面積28,900平方公里，2007年人口855,300人。首府馬圖林。 1909年建州。下分十三個自治市。州名紀念第十一、三任總統何塞·塔德奧·莫…",
+      "lat": "9.43",
+      "lng": "-63.08"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白喉斑尾雀-4e6eee60",
+      "subject": "白喉斑尾雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-安索阿特吉州-984daa3e",
+      "object": "安索阿特吉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies is found along several mountain ranges in the northeastern Venezuelan states of Anzoátegui, Sucre and Monagas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉斑尾雀-4e6eee60",
+      "subject": "白喉斑尾雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫納加斯州-27daa75d",
+      "object": "莫納加斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies is found along several mountain ranges in the northeastern Venezuelan states of Anzoátegui, Sucre and Monagas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉斑尾雀-4e6eee60",
+      "subject": "白喉斑尾雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits wet, mossy, montane evergreen forest, where it favors an understory dominated by small palms and plants of the Arum family (Araceae)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉斑尾雀-4e6eee60",
+      "subject": "白喉斑尾雀",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-白喉斑尾雀-4e6eee60",
+      "subject": "白喉斑尾雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The principal threats \"to both species are habitat loss and fragmentation for agricultural expansion\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

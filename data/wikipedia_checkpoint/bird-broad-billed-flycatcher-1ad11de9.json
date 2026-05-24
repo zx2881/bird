@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:50:38",
+  "requested_title": "Broad-billed Flycatcher",
+  "resolved_title": "Broad-billed flycatcher",
+  "title_aliases": [
+    "Broad-billed Flycatcher"
+  ],
+  "bird_id": "bird-broad-billed-flycatcher-1ad11de9",
+  "raw_file": "bird-broad-billed-flycatcher-1ad11de9.json",
+  "bird": {
+    "id": "bird-broad-billed-flycatcher-1ad11de9",
+    "name": "Broad-billed flycatcher",
+    "english_name": "Broad-billed flycatcher",
+    "latin_name": "Myiagra ruficollis",
+    "summary": "The broad-billed flycatcher (Myiagra ruficollis) is a species of bird in the family Monarchidae. It is found in northern Australia, the Les…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Myiagra_ruficollis_-_Broad-billed_Flycatcher.jpg/960px-Myiagra_ruficollis_-_Broad-billed_Flycatcher.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-broad-billed-flycatcher-1ad11de9",
+      "subject": "Broad-billed flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern Australia, the Lesser Sunda Islands and southern New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-broad-billed-flycatcher-1ad11de9",
+      "subject": "Broad-billed flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern Australia, the Lesser Sunda Islands and southern New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-broad-billed-flycatcher-1ad11de9",
+      "subject": "Broad-billed flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

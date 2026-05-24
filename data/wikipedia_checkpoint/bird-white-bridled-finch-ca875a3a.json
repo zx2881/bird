@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T23:19:01",
+  "requested_title": "White-bridled Finch",
+  "resolved_title": "White-bridled finch",
+  "title_aliases": [
+    "White-bridled Finch"
+  ],
+  "bird_id": "bird-white-bridled-finch-ca875a3a",
+  "raw_file": "bird-white-bridled-finch-ca875a3a.json",
+  "bird": {
+    "id": "bird-white-bridled-finch-ca875a3a",
+    "name": "White-bridled finch",
+    "english_name": "White-bridled finch",
+    "latin_name": "Melanodera melanodera",
+    "summary": "The white-bridled finch (Melanodera melanodera), also known as the canary-winged finch or black-throated finch, is a small passerine bird b…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Melanodera_melanodera_%281%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-bridled-finch-ca875a3a",
+      "subject": "White-bridled finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in grassland in southernmost South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-bridled-finch-ca875a3a",
+      "subject": "White-bridled finch",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in grassland in southernmost South America",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-white-bridled-finch-ca875a3a",
+      "subject": "White-bridled finch",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is typically found in flat areas of grassland, heathland, farmland, or dunes",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-white-bridled-finch-ca875a3a",
+      "subject": "White-bridled finch",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is typically found in flat areas of grassland, heathland, farmland, or dunes",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-white-bridled-finch-ca875a3a",
+      "subject": "White-bridled finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

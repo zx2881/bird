@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:16:53",
+  "requested_title": "Kinglet Manakin",
+  "resolved_title": "Kinglet manakin",
+  "title_aliases": [
+    "Kinglet Manakin"
+  ],
+  "bird_id": "bird-kinglet-manakin-1034b479",
+  "raw_file": "bird-kinglet-manakin-1034b479.json",
+  "bird": {
+    "id": "bird-kinglet-manakin-1034b479",
+    "name": "Kinglet manakin",
+    "english_name": "Kinglet manakin",
+    "latin_name": "Machaeropterus regulus",
+    "summary": "The kinglet manakin or eastern striped manakin (Machaeropterus regulus) is a small South American species of passerine bird in the manakin…",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Machaeropterus_regulus_-_Stripped_manakin_%28male%29.jpg/960px-Machaeropterus_regulus_-_Stripped_manakin_%28male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    },
+    {
+      "id": "loc-里約熱內盧州-12dcec68",
+      "name": "里約熱內盧州",
+      "summary": "里約熱內盧州（葡萄牙語：Rio de Janeiro，ˈhiw dʒi ʒʌˈnejɾu） 是巴西的一個州。 里約熱內盧州面積43,696.1km²。該州首府是1763年由葡萄牙人建立的里約熱內盧，該市也是州內最大的城市。",
+      "lat": "-22.9",
+      "lng": "-43.2"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-kinglet-manakin-1034b479",
+      "subject": "Kinglet manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The kinglet manakin is found in coastal southeastern Brazil from northeastern Bahia south at least to northern Rio de Janeiro state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kinglet-manakin-1034b479",
+      "subject": "Kinglet manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-里約熱內盧州-12dcec68",
+      "object": "里約熱內盧州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The kinglet manakin is found in coastal southeastern Brazil from northeastern Bahia south at least to northern Rio de Janeiro state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kinglet-manakin-1034b479",
+      "subject": "Kinglet manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid lowland forest including secondary forest and restinga",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kinglet-manakin-1034b479",
+      "subject": "Kinglet manakin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:55:20",
+  "requested_title": "Slaty-backed Jungle Flycatcher",
+  "resolved_title": "Slaty-backed jungle flycatcher",
+  "title_aliases": [
+    "Slaty-backed Jungle Flycatcher"
+  ],
+  "bird_id": "bird-slaty-backed-jungle-flycatcher-a60510e4",
+  "raw_file": "bird-slaty-backed-jungle-flycatcher-a60510e4.json",
+  "bird": {
+    "id": "bird-slaty-backed-jungle-flycatcher-a60510e4",
+    "name": "Slaty-backed jungle flycatcher",
+    "english_name": "Slaty-backed jungle flycatcher",
+    "latin_name": "Vauriella goodfellowi",
+    "summary": "The slaty-backed jungle flycatcher (Vauriella goodfellowi), also known as the Goodfellow's jungle flycatcher or the Mindanao jungle flycatc…",
+    "lat": "6.9875",
+    "lng": "125.27083333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Goodfellow%27s_Jungle_Flycatcher_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿波火山-e8ee2894",
+      "name": "阿波火山",
+      "summary": "阿波火山（他加祿語：Bundok Apo）是一座位于菲律宾棉兰老岛东南部的活火山，海拔2,954公尺，为菲律宾最高峰。达沃市位于其东北方30公里处。近百年未喷发，有硫磺矿，覆盖着热带硬木林。 主峰及周围已经开辟为阿波火山国家公园（面积80…",
+      "lat": "6.9875",
+      "lng": "125.27083333"
+    },
+    {
+      "id": "loc-kitanglad-mountain-range-f0040fa6",
+      "name": "Kitanglad Mountain Range",
+      "summary": "The Kitanglad Mountain Range dominates the northern central portion of the province of Bukidnon, Philippines.",
+      "lat": "8.13333333",
+      "lng": "124.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-slaty-backed-jungle-flycatcher-a60510e4",
+      "subject": "Slaty-backed jungle flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿波火山-e8ee2894",
+      "object": "阿波火山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Mount Apo and Kitanglad Mountain Range but like all areas in the Philippines protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slaty-backed-jungle-flycatcher-a60510e4",
+      "subject": "Slaty-backed jungle flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-kitanglad-mountain-range-f0040fa6",
+      "object": "Kitanglad Mountain Range",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Mount Apo and Kitanglad Mountain Range but like all areas in the Philippines protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slaty-backed-jungle-flycatcher-a60510e4",
+      "subject": "Slaty-backed jungle flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-slaty-backed-jungle-flycatcher-a60510e4",
+      "subject": "Slaty-backed jungle flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-slaty-backed-jungle-flycatcher-a60510e4",
+      "subject": "Slaty-backed jungle flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-slaty-backed-jungle-flycatcher-a60510e4",
+      "subject": "Slaty-backed jungle flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its main threat is habitat loss through deforestation, mining, land conversion and slash-and-burn",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

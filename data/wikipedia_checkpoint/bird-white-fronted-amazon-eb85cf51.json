@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:40:33",
+  "requested_title": "White-fronted Amazon",
+  "resolved_title": "White-fronted amazon",
+  "title_aliases": [
+    "White-fronted Amazon"
+  ],
+  "bird_id": "bird-white-fronted-amazon-eb85cf51",
+  "raw_file": "bird-white-fronted-amazon-eb85cf51.json",
+  "bird": {
+    "id": "bird-white-fronted-amazon-eb85cf51",
+    "name": "White-fronted amazon",
+    "english_name": "White-fronted amazon",
+    "latin_name": "Amazona albifrons",
+    "summary": "The white-fronted amazon (Amazona albifrons) also known as the white-fronted parrot, or spectacled amazon parrot, is a Central American spe…",
+    "lat": "23",
+    "lng": "-102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/White-fronted_amazon_%28Amazona_albifrons%29_1.jpeg/960px-White-fronted_amazon_%28Amazona_albifrons%29_1.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-fronted-amazon-eb85cf51",
+      "subject": "White-fronted amazon",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-fronted amazon is native to Central America and Mexico; and is most often seen in small flocks of up to 20 birds",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-fronted-amazon-eb85cf51",
+      "subject": "White-fronted amazon",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-fronted amazon is native to Central America and Mexico; and is most often seen in small flocks of up to 20 birds",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-fronted-amazon-eb85cf51",
+      "subject": "White-fronted amazon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

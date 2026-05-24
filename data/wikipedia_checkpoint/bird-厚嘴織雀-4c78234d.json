@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:14:42",
+  "requested_title": "Thick-billed Weaver",
+  "resolved_title": "Thick-billed weaver",
+  "title_aliases": [
+    "Thick-billed Weaver"
+  ],
+  "bird_id": "bird-厚嘴織雀-4c78234d",
+  "raw_file": "bird-厚嘴織雀-4c78234d.json",
+  "bird": {
+    "id": "bird-厚嘴織雀-4c78234d",
+    "name": "厚嘴織雀",
+    "english_name": "Thick-billed weaver",
+    "latin_name": "Amblyospiza albifrons",
+    "summary": "厚嘴織雀（英語：thick-billed weaver，學名：Amblyospiza albifrons）屬於織布文鳥科，是厚嘴織雀屬當中唯一的物種。厚嘴織雀廣泛分布於撒哈拉以南非洲各處。 厚嘴織雀首先於1831年被愛爾蘭鳥類學家尼古拉斯·艾爾沃德·維戈斯所描述。依棲息地不同，…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Amblyospiza_albifrons_-Pretoria%2C_South_Africa_-male-8%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-carl-jakob-sundevall-74842590",
+      "name": "Carl Jakob Sundevall",
+      "summary": "Carl Jakob Sundevall (22 October 1801 – 2 February 1875) was a Swedish zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-尼古拉斯-艾爾沃德-維戈斯-6f7bd040",
+      "name": "尼古拉斯·艾爾沃德·維戈斯",
+      "summary": "尼古拉斯·艾爾沃德·維戈斯（英語：Nicholas Aylward Vigors，1785年12月12日—1840年10月26日），爱尔兰动物学家和政治人物。 早年 維戈斯是一位上尉的长子。他曾在第29步兵軍團服役。他于1803年11月进…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-厚嘴織雀-4c78234d",
+      "subject": "厚嘴織雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-carl-jakob-sundevall-74842590",
+      "object": "Carl Jakob Sundevall",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "woltersi, Mozambique | status = LC | status_system = IUCN3.1 | status_ref = | genus = Amblyospiza | parent_authority = Sundevall, 1850 | species = albifrons | authority = (Vigors, 1831) | synonyms = * Pyrrhula albifrons Vigors, 1831 }} The thick-billed weaver (Amblyospiza albifrons), or grosbeak weaver, is a distinctive and bold species of weaver bird that is native to the Afrotropics",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-厚嘴織雀-4c78234d",
+      "subject": "厚嘴織雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼古拉斯-艾爾沃德-維戈斯-6f7bd040",
+      "object": "尼古拉斯·艾爾沃德·維戈斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "woltersi, Mozambique | status = LC | status_system = IUCN3.1 | status_ref = | genus = Amblyospiza | parent_authority = Sundevall, 1850 | species = albifrons | authority = (Vigors, 1831) | synonyms = * Pyrrhula albifrons Vigors, 1831 }} The thick-billed weaver (Amblyospiza albifrons), or grosbeak weaver, is a distinctive and bold species of weaver bird that is native to the Afrotropics",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-厚嘴織雀-4c78234d",
+      "subject": "厚嘴織雀",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Thick-billed weavers breed in reedy wetlands and can be found around forest edge outside the breeding season",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-厚嘴織雀-4c78234d",
+      "subject": "厚嘴織雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

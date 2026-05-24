@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:14:27",
+  "requested_title": "Greater Flameback",
+  "resolved_title": "Greater flameback",
+  "title_aliases": [
+    "Greater Flameback"
+  ],
+  "bird_id": "bird-greater-flameback-9d7e92d3",
+  "raw_file": "bird-greater-flameback-9d7e92d3.json",
+  "bird": {
+    "id": "bird-greater-flameback-9d7e92d3",
+    "name": "Greater flameback",
+    "english_name": "Greater flameback",
+    "latin_name": "Chrysocolaptes guttacristatus",
+    "summary": "The greater flameback (Chrysocolaptes guttacristatus), also known as the greater goldenback or large golden-backed woodpecker, is a woodpec…",
+    "lat": "11.6264",
+    "lng": "76.0889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chrysocolaptes_guttacristatus%2C_Kaeng_Krachan.jpg/960px-Chrysocolaptes_guttacristatus%2C_Kaeng_Krachan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-瓦亞納德縣-8e8cf627",
+      "name": "瓦亞納德縣",
+      "summary": "瓦亞納德縣（Wayanad district）是印度喀拉拉邦的一個縣，位於該國西南部，面積2,131平方公里，識字率為89.32%，2001年人口816,558，人口密度每平方公里383人。 外部連結 Official site of W…",
+      "lat": "11.6264",
+      "lng": "76.0889"
+    },
+    {
+      "id": "loc-喀拉拉邦-e9ea6246",
+      "name": "喀拉拉邦",
+      "summary": "喀拉拉邦（馬拉雅拉姆語：കേരളം；印地語：केरल，拉丁字母转写：Kerala），印度西南部的一个邦，濒临阿拉伯海，全邦面积为38,863 平方公里，是印度面積第21大邦，北部和東北部與卡納塔克邦接壤，東部和南部與泰米爾納德邦接壤，西部…",
+      "lat": "10",
+      "lng": "76.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-greater-flameback-9d7e92d3",
+      "subject": "Greater flameback",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦亞納德縣-8e8cf627",
+      "object": "瓦亞納德縣",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "socialis, recorded in Wayanad district, Kerala]] This flameback is a species associated with a diversity of rather open forest habitat, such as found in the foothills of the Himalayas or in the Western Ghats; it also inhabits mangrove forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-greater-flameback-9d7e92d3",
+      "subject": "Greater flameback",
+      "predicate": "distributed_in",
+      "object_id": "loc-喀拉拉邦-e9ea6246",
+      "object": "喀拉拉邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "socialis, recorded in Wayanad district, Kerala]] This flameback is a species associated with a diversity of rather open forest habitat, such as found in the foothills of the Himalayas or in the Western Ghats; it also inhabits mangrove forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-greater-flameback-9d7e92d3",
+      "subject": "Greater flameback",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

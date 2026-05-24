@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:48:24",
+  "requested_title": "Sombre Kingfisher",
+  "resolved_title": "Sombre kingfisher",
+  "title_aliases": [
+    "Sombre Kingfisher"
+  ],
+  "bird_id": "bird-sombre-kingfisher-95d258ae",
+  "raw_file": "bird-sombre-kingfisher-95d258ae.json",
+  "bird": {
+    "id": "bird-sombre-kingfisher-95d258ae",
+    "name": "Sombre kingfisher",
+    "english_name": "Sombre kingfisher",
+    "latin_name": "Todiramphus funebris",
+    "summary": "The sombre kingfisher (Todiramphus funebris) is a species of bird in the family Alcedinidae. It is endemic to island of Halmahera, in North…",
+    "lat": "0.65",
+    "lng": "127.9",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Sombre_Kingfisher_0A2A5250.jpg/960px-Sombre_Kingfisher_0A2A5250.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哈马黑拉岛-c847bfe6",
+      "name": "哈马黑拉岛",
+      "summary": "哈马黑拉岛（Halmahera Island），又名济罗罗岛（Jilolo或Gilolo），是印度尼西亚摩鹿加群岛主岛，，是马鲁古群岛中最大的岛屿 。它是印度尼西亚北马鲁古省的一部分，该省首府索菲菲 （Sofifi）位于该岛的西海岸 哈尔…",
+      "lat": "0.65",
+      "lng": "127.9"
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sombre-kingfisher-95d258ae",
+      "subject": "Sombre kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-哈马黑拉岛-c847bfe6",
+      "object": "哈马黑拉岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The sombre kingfisher occurs only on Halmahera, where it inhabits primary forest (frequently close to clearings), swamp-forest, mature secondary woodland, and mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sombre-kingfisher-95d258ae",
+      "subject": "Sombre kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The sombre kingfisher occurs only on Halmahera, where it inhabits primary forest (frequently close to clearings), swamp-forest, mature secondary woodland, and mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sombre-kingfisher-95d258ae",
+      "subject": "Sombre kingfisher",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The sombre kingfisher occurs only on Halmahera, where it inhabits primary forest (frequently close to clearings), swamp-forest, mature secondary woodland, and mangroves",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-sombre-kingfisher-95d258ae",
+      "subject": "Sombre kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-sombre-kingfisher-95d258ae",
+      "subject": "Sombre kingfisher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

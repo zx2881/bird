@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:03:13",
+  "requested_title": "Negros Leaf Warbler",
+  "resolved_title": "Negros leaf warbler",
+  "title_aliases": [
+    "Negros Leaf Warbler"
+  ],
+  "bird_id": "bird-negros-leaf-warbler-7d6e007e",
+  "raw_file": "bird-negros-leaf-warbler-7d6e007e.json",
+  "bird": {
+    "id": "bird-negros-leaf-warbler-7d6e007e",
+    "name": "Negros leaf warbler",
+    "english_name": "Negros leaf warbler",
+    "latin_name": "Phylloscopus nigrorum",
+    "summary": "The Negros leaf warbler (Phylloscopus nigrorum) is a songbird species from the leaf warbler family (Phylloscopidae). It was formerly includ…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Negros_Leaf_Warbler.jpg/960px-Negros_Leaf_Warbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-negros-leaf-warbler-7d6e007e",
+      "subject": "Negros leaf warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-negros-leaf-warbler-7d6e007e",
+      "subject": "Negros leaf warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This species habitat is primary and secondary montane forest above 800 meters above sea level The IUCN does not yet recognize this as a full species but this species is not believed be threatened as it has a large range",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-negros-leaf-warbler-7d6e007e",
+      "subject": "Negros leaf warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, deforestation in the Philippines continues throughout the country due to slash and burn farming, mining, illegal logging and habitat conversion",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

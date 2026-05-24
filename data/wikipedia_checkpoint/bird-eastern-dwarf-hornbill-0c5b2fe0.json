@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:22:35",
+  "requested_title": "Eastern Dwarf Hornbill",
+  "resolved_title": "Eastern dwarf hornbill",
+  "title_aliases": [
+    "Eastern Dwarf Hornbill"
+  ],
+  "bird_id": "bird-eastern-dwarf-hornbill-0c5b2fe0",
+  "raw_file": "bird-eastern-dwarf-hornbill-0c5b2fe0.json",
+  "bird": {
+    "id": "bird-eastern-dwarf-hornbill-0c5b2fe0",
+    "name": "Eastern dwarf hornbill",
+    "english_name": "Eastern dwarf hornbill",
+    "latin_name": "Horizocerus granti",
+    "summary": "The eastern dwarf hornbill (Horizocerus granti) is a species of hornbill in the family Bucerotidae. It is native to the Congo Basin.",
+    "lat": "0",
+    "lng": "22",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Horizocerus_granti_-_Robin_Fjellstr%C3%B6m_-_270724099.jpeg/960px-Horizocerus_granti_-_Robin_Fjellstr%C3%B6m_-_270724099.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-刚果盆地-baa9864a",
+      "name": "刚果盆地",
+      "summary": "刚果盆地（斯瓦希里語：bonde la Kongo，法語：Bassin du Congo），又称扎伊尔盆地，是剛果河的沉積盆地，位于非洲中西部，橫跨喀麦隆、中非共和国、刚果民主共和国、赤道几内亚、加蓬和刚果共和国。刚果盆地是非洲最大盆地，…",
+      "lat": "0",
+      "lng": "22"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-eastern-dwarf-hornbill-0c5b2fe0",
+      "subject": "Eastern dwarf hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果盆地-baa9864a",
+      "object": "刚果盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Congo Basin",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-dwarf-hornbill-0c5b2fe0",
+      "subject": "Eastern dwarf hornbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

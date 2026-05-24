@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:58:01",
+  "requested_title": "Large-tailed Antshrike",
+  "resolved_title": "Large-tailed antshrike",
+  "title_aliases": [
+    "Large-tailed Antshrike"
+  ],
+  "bird_id": "bird-large-tailed-antshrike-1542ec09",
+  "raw_file": "bird-large-tailed-antshrike-1542ec09.json",
+  "bird": {
+    "id": "bird-large-tailed-antshrike-1542ec09",
+    "name": "Large-tailed antshrike",
+    "english_name": "Large-tailed antshrike",
+    "latin_name": "Mackenziaena leachii",
+    "summary": "The large-tailed antshrike (Mackenziaena leachii) is a species of bird in subfamily Thamnophilinae of family Thamnophilidae, the \"typical a…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Mackenziaena_leachii_-Piraju%2C_Sao_Paulo%2C_Brazil-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-george-such-2c535a4d",
+      "name": "George Such",
+      "summary": "George Such (1798–1879) was an English physician and ornithologist, and a member of the Linnean Society of London.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-large-tailed-antshrike-1542ec09",
+      "subject": "Large-tailed antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-george-such-2c535a4d",
+      "object": "George Such",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The large-tailed antshrike (Mackenziaena leachii) is a species of bird in subfamily Thamnophilinae of family Thamnophilidae, the \"typical antbirds\". It is found in Argentina, Brazil, Paraguay, and Uruguay.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-large-tailed-antshrike-1542ec09",
+      "subject": "Large-tailed antshrike",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In the more northerly part of its range it occurs in humid foothill and montane forest, especially in areas with large stands of bamboo",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-large-tailed-antshrike-1542ec09",
+      "subject": "Large-tailed antshrike",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:07:01",
+  "requested_title": "Tepui Antpitta",
+  "resolved_title": "Tepui antpitta",
+  "title_aliases": [
+    "Tepui Antpitta"
+  ],
+  "bird_id": "bird-tepui-antpitta-dff845e7",
+  "raw_file": "bird-tepui-antpitta-dff845e7.json",
+  "bird": {
+    "id": "bird-tepui-antpitta-dff845e7",
+    "name": "Tepui antpitta",
+    "english_name": "Tepui antpitta",
+    "latin_name": "Myrmothera simplex",
+    "summary": "The tepui antpitta or brown-breasted antpitta (Myrmothera simplex) is a species of bird in the family Grallariidae. It is found in Brazil,…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Myrmothera_simplex_-_Tepui_Antpitta.jpg/960px-Myrmothera_simplex_-_Tepui_Antpitta.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tepui-antpitta-dff845e7",
+      "subject": "Tepui antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "duidae: several tepuis in Amazonas state The tepui antpitta inhabits dense pre-montane rainforest and cloudforest on the slopes of tepuis, and on their summits more open stunted forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tepui-antpitta-dff845e7",
+      "subject": "Tepui antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "duidae: several tepuis in Amazonas state The tepui antpitta inhabits dense pre-montane rainforest and cloudforest on the slopes of tepuis, and on their summits more open stunted forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tepui-antpitta-dff845e7",
+      "subject": "Tepui antpitta",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

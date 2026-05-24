@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:59:14",
+  "requested_title": "Dickcissel",
+  "resolved_title": "Dickcissel",
+  "title_aliases": [
+    "Dickcissel"
+  ],
+  "bird_id": "bird-美洲雀-82c4e279",
+  "raw_file": "bird-美洲雀-82c4e279.json",
+  "bird": {
+    "id": "bird-美洲雀-82c4e279",
+    "name": "美洲雀",
+    "english_name": "Dickcissel",
+    "latin_name": "Spiza americana",
+    "summary": "美洲雀（学名：Spiza americana），是雀形目主红雀科的一种鸟类，属于单型的美洲雀属（学名：Spiza）。 特征 美洲雀体重约26.18克，翼长约77.9毫米，喙宽度约5.5毫米，喙厚度约7.5毫米，嘴峰长约15.1毫米，跗蹠长约22.3毫米，尾长约56.1毫米。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/927_-_DICKCISSEL_%285-28-2018%29_rick_evans_prairie_w_m_a%2C_hemstead_co%2C_ar_-01_%283%29_%2842677954221%29.jpg/960px-927_-_DICKCISSEL_%285-28-2018%29_rick_evans_prairie_w_m_a%2C_hemstead_co%2C_ar_-01_%283%29_%2842677954221%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-美國中西部-8859bce5",
+      "name": "美國中西部",
+      "summary": "美國中西部（英語：Midwest）通常指的是美國地理上中北部的地区，根據美國人口普查局的定義，其包括美國中北部的12個州：伊利諾州、印第安納州、愛荷華州、堪薩斯州、密西根州、明尼蘇達州、密蘇里州、內布拉斯加州、北達科他州、俄亥俄州、南達科…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-美洲雀-82c4e279",
+      "subject": "美洲雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-美國中西部-8859bce5",
+      "object": "美國中西部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds on the prairie grasslands of the Midwestern United States and winters in Central America, northern Colombia, and northern Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-美洲雀-82c4e279",
+      "subject": "美洲雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

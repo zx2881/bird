@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:02:10",
+  "requested_title": "Hainan Leaf Warbler",
+  "resolved_title": "Hainan leaf warbler",
+  "title_aliases": [
+    "Hainan Leaf Warbler"
+  ],
+  "bird_id": "bird-海南柳莺-ef724f47",
+  "raw_file": "bird-海南柳莺-ef724f47.json",
+  "bird": {
+    "id": "bird-海南柳莺-ef724f47",
+    "name": "海南柳莺",
+    "english_name": "Hainan leaf warbler",
+    "latin_name": "Phylloscopus hainanus",
+    "summary": "The Hainan leaf warbler or Hainan leaf-warbler (Phylloscopus hainanus) is a species of Old World warbler in the family Phylloscopidae. It i…",
+    "lat": "19.2",
+    "lng": "109.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Hainan_Leaf_Warbler%2C_Hainan%2C_CN-HA%2C_CN_iNaturalist.jpg/960px-Hainan_Leaf_Warbler%2C_Hainan%2C_CN-HA%2C_CN_iNaturalist.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海南省-a01c9da8",
+      "name": "海南省",
+      "summary": "海南省，简称琼，是中华人民共和国唯一全境位于热带的省份，省会位于海口市。海南省是一个以海洋为主体的岛屿省份，亦是中华人民共和国总面积和海洋面积最大的省份。全省户籍总人口约1048.31万人，不过每年冬季会有大量候鸟型流动人口（進出约972…",
+      "lat": "19.2",
+      "lng": "109.7"
+    },
+    {
+      "id": "loc-平均海拔-ddd8aa74",
+      "name": "平均海拔",
+      "summary": "平均海拔（英語：Above mean sea level，缩写：AMSL）又称为海拔高度，是指以平均海平面高度作为高程基准面起测定的地面或空中高度，对地理测量，飞行控制，电台设定，气象研究都有决定性作用。 所谓平均海平面高度实际是并不存在…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-海南柳莺-ef724f47",
+      "subject": "海南柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-海南省-a01c9da8",
+      "object": "海南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to mountains of southern Hainan Island, China. Hainan leaf warbler inhabits primary, selectively logged, and secondary forest as well as scrub at elevations of above sea level",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-海南柳莺-ef724f47",
+      "subject": "海南柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-平均海拔-ddd8aa74",
+      "object": "平均海拔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to mountains of southern Hainan Island, China. Hainan leaf warbler inhabits primary, selectively logged, and secondary forest as well as scrub at elevations of above sea level",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-海南柳莺-ef724f47",
+      "subject": "海南柳莺",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-海南柳莺-ef724f47",
+      "subject": "海南柳莺",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Moreover, it is threatened by habitat loss and fragmentation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

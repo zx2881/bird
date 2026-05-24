@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T23:07:02",
+  "requested_title": "Rufous Babbler",
+  "resolved_title": "Rufous babbler",
+  "title_aliases": [
+    "Rufous Babbler"
+  ],
+  "bird_id": "bird-棕鸫鹛-97b40c44",
+  "raw_file": "bird-棕鸫鹛-97b40c44.json",
+  "bird": {
+    "id": "bird-棕鸫鹛-97b40c44",
+    "name": "棕鸫鹛",
+    "english_name": "Rufous babbler",
+    "latin_name": "Argya subrufa",
+    "summary": "棕鸫鹛（学名：Turdoides subrufa），是画眉科鸫鹛属的一种，为印度的特有种。该物种的保护状况被评为无危。 棕鸫鹛的平均体重约为67.5克。栖息地包括亚热带或热带的湿润低地林、亚热带或热带的（低地）季节性湿润草原和亚热带或热带的（低地）湿润疏灌丛。",
+    "lat": "10.16972222",
+    "lng": "77.06111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Rufous_Babbler_Sandeep.jpg/960px-Rufous_Babbler_Sandeep.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西高止山脉-2da8035f",
+      "name": "西高止山脉",
+      "summary": "西高止山脉（Western Ghats，卡纳达语：ಸಹ್ಯಾದ್ರಿ）是印度南部的一座山脉，位于德干高原的西部，呈南北走向，长度约1600公里，海拔平均为900米，纵穿马哈拉施特拉邦、卡纳塔克邦和喀拉拉邦。西高止山脉东坡平缓，西坡陡峭。…",
+      "lat": "10.16972222",
+      "lng": "77.06111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕鸫鹛-97b40c44",
+      "subject": "棕鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-西高止山脉-2da8035f",
+      "object": "西高止山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Jerdon|Jerdon]], 1839) | synonyms = Turdoides subrufusLayardia subrufaTimalia subrufaTurdoides subrufaTimalia poecilorhyncha }} The rufous babbler (Argya subrufa) is an endemic species of bird found in the Western Ghats of southern India of the family Leiothrichidae It is dark brown and long tailed, and is usually seen foraging in noisy groups along open hillsides with a mixture of grass, bracken and forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕鸫鹛-97b40c44",
+      "subject": "棕鸫鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

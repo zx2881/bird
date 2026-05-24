@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:01:48",
+  "requested_title": "Tawny-tufted Toucanet",
+  "resolved_title": "Tawny-tufted toucanet",
+  "title_aliases": [
+    "Tawny-tufted Toucanet"
+  ],
+  "bird_id": "bird-tawny-tufted-toucanet-d95aff05",
+  "raw_file": "bird-tawny-tufted-toucanet-d95aff05.json",
+  "bird": {
+    "id": "bird-tawny-tufted-toucanet-d95aff05",
+    "name": "Tawny-tufted toucanet",
+    "english_name": "Tawny-tufted toucanet",
+    "latin_name": "Selenidera nattereri",
+    "summary": "The tawny-tufted toucanet (Selenidera nattereri) is a near-passerine bird in the toucan family Ramphastidae. It is found in Brazil, Colombi…",
+    "lat": "-4.63583333",
+    "lng": "-70.26583333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Tawny-tufted_Toucanet.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-索利蒙伊斯河-9e8b4353",
+      "name": "索利蒙伊斯河",
+      "summary": "索利莫伊斯河（葡萄牙語：Rio Solimões，葡萄牙語發音：[soliˈmõjs]），是巴西境內亞馬遜河上游的河段，從其與內格羅河的匯合處向上游延伸至秘魯邊境。索利莫伊斯河全長約1,600公里（990英里），流經寬約80公里（50英里…",
+      "lat": "-4.63583333",
+      "lng": "-70.26583333"
+    },
+    {
+      "id": "loc-内格罗河-亚马孙河支流-a2458a6f",
+      "name": "内格罗河 (亚马孙河支流)",
+      "summary": "内格罗河（葡萄牙語：Rio Negro，西班牙語：Río Negro）意思为“黑河”，是亚马逊河北岸最大的一条支流。它的源头是奥里诺科河和亚马逊河的分水岭，它和奥里诺科河之间有卡西基亚雷河相通。 内格罗河的源头在哥伦比亚境内，名为古艾尼亚…",
+      "lat": "-3.13333333",
+      "lng": "-59.90833333"
+    },
+    {
+      "id": "loc-american-ornithological-society-5fde31a2",
+      "name": "American Ornithological Society",
+      "summary": "The American Ornithological Society (AOS) is an ornithological organization based in the United States.",
+      "lat": "41.866269",
+      "lng": "-87.616997"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tawny-tufted-toucanet-d95aff05",
+      "subject": "Tawny-tufted toucanet",
+      "predicate": "distributed_in",
+      "object_id": "loc-索利蒙伊斯河-9e8b4353",
+      "object": "索利蒙伊斯河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tawny-tufted toucanet is patchily distributed from extreme eastern Colombia through southern Venezuela into northwestern Brazil north of the Solimões (upper Amazon) River as far east as the upper Rio Negro. Unconfirmed sight records in Guyana lead the South American Classification Committee of the American Ornithological Society to call it hypothetical in that country. It inhabits forests, usually those on sandy soil and near waterways",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-tufted-toucanet-d95aff05",
+      "subject": "Tawny-tufted toucanet",
+      "predicate": "distributed_in",
+      "object_id": "loc-内格罗河-亚马孙河支流-a2458a6f",
+      "object": "内格罗河 (亚马孙河支流)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tawny-tufted toucanet is patchily distributed from extreme eastern Colombia through southern Venezuela into northwestern Brazil north of the Solimões (upper Amazon) River as far east as the upper Rio Negro. Unconfirmed sight records in Guyana lead the South American Classification Committee of the American Ornithological Society to call it hypothetical in that country. It inhabits forests, usually those on sandy soil and near waterways",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-tufted-toucanet-d95aff05",
+      "subject": "Tawny-tufted toucanet",
+      "predicate": "distributed_in",
+      "object_id": "loc-american-ornithological-society-5fde31a2",
+      "object": "American Ornithological Society",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tawny-tufted toucanet is patchily distributed from extreme eastern Colombia through southern Venezuela into northwestern Brazil north of the Solimões (upper Amazon) River as far east as the upper Rio Negro. Unconfirmed sight records in Guyana lead the South American Classification Committee of the American Ornithological Society to call it hypothetical in that country. It inhabits forests, usually those on sandy soil and near waterways",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-tufted-toucanet-d95aff05",
+      "subject": "Tawny-tufted toucanet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

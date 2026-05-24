@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:07:48",
+  "requested_title": "Jocotoco Antpitta",
+  "resolved_title": "Jocotoco antpitta",
+  "title_aliases": [
+    "Jocotoco Antpitta"
+  ],
+  "bird_id": "bird-jocotoco-antpitta-2bd16397",
+  "raw_file": "bird-jocotoco-antpitta-2bd16397.json",
+  "bird": {
+    "id": "bird-jocotoco-antpitta-2bd16397",
+    "name": "Jocotoco antpitta",
+    "english_name": "Jocotoco antpitta",
+    "latin_name": "Grallaria ridgelyi",
+    "summary": "The jocotoco antpitta (Grallaria ridgelyi) is an endangered species of bird in the family Grallariidae. It is found in Ecuador and Peru.",
+    "lat": "-2",
+    "lng": "-77.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Grallaria_ridgelyi_-Tapichalaca_Reserve%2C_Ecuador-8.jpg/960px-Grallaria_ridgelyi_-Tapichalaca_Reserve%2C_Ecuador-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-niels-krabbe-fe386989",
+      "name": "Niels Krabbe",
+      "summary": "Niels Kaare Krabbe (born 1 July 1951) is a Danish ornithologist and bird conservationist for many years based at the Ve…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-jocotoco-antpitta-2bd16397",
+      "subject": "Jocotoco antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-niels-krabbe-fe386989",
+      "object": "Niels Krabbe",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "{{speciesbox | name = Jocotoco antpitta | image=Grallaria ridgelyi -Tapichalaca Reserve, Ecuador-8.jpg | image_caption=In Tapichalaca Reserve, Ecuador | status = EN | status_system = IUCN3.1 | status_ref = | genus = Grallaria | species = ridgelyi | authority = Krabbe, Agro, Rice, Jacome, Navarrete & Sornoza, 1999 | range_map = Jocotoco_Antpitta_range.png | range_map_caption = Known Ecuadorian range in blue",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jocotoco-antpitta-2bd16397",
+      "subject": "Jocotoco antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jocotoco-antpitta-2bd16397",
+      "subject": "Jocotoco antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jocotoco-antpitta-2bd16397",
+      "subject": "Jocotoco antpitta",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-jocotoco-antpitta-2bd16397",
+      "subject": "Jocotoco antpitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, \"[m]uch of the range is threatened by logging and gold mining, including areas within Podocarpus National Park\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

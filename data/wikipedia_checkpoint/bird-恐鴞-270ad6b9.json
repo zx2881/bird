@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:48:23",
+  "requested_title": "Fearful Owl",
+  "resolved_title": "Fearful owl",
+  "title_aliases": [
+    "Fearful Owl"
+  ],
+  "bird_id": "bird-恐鴞-270ad6b9",
+  "raw_file": "bird-恐鴞-270ad6b9.json",
+  "bird": {
+    "id": "bird-恐鴞-270ad6b9",
+    "name": "恐鴞",
+    "english_name": "Fearful owl",
+    "latin_name": "Asio solomonensis",
+    "summary": "恐鴞（學名Nesasio solomonensis）是一種中等大小的貓頭鷹，是所羅門群島和巴布亞新畿內亞布干維爾省的特有種。它們一般棲息在海拔800米以上的森林。它們會在樹穴及裂縫中築巢。 恐鴞的面盤呈赤紅色，內側白色，眼眉也是白色的。它們的上身呈褐色，下身赭色，有黑色斑紋。它…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Gufo_delle_Isole_Salomone.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海平面-96b1a973",
+      "name": "海平面",
+      "summary": "海平面（英語：Sea level）是地球單一或多個海洋表面的平均水平，由此可以測量諸如海拔等高度。平均海平面（MSL）是一種垂直基準，一個標準化的大地測量參考點。例如製圖和航海中的海圖基準面，或是航空中測量標準海平面的大氣壓力，以便校準飛…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-恐鴞-270ad6b9",
+      "subject": "恐鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-海平面-96b1a973",
+      "object": "海平面",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is generally seen at elevations of up to above sea level, where it is found in tall lowland or hill forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-恐鴞-270ad6b9",
+      "subject": "恐鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is generally seen at elevations of up to above sea level, where it is found in tall lowland or hill forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-恐鴞-270ad6b9",
+      "subject": "恐鴞",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-恐鴞-270ad6b9",
+      "subject": "恐鴞",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by logging and deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

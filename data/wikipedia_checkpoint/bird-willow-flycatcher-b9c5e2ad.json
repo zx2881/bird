@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:49:00",
+  "requested_title": "Willow Flycatcher",
+  "resolved_title": "Willow flycatcher",
+  "title_aliases": [
+    "Willow Flycatcher"
+  ],
+  "bird_id": "bird-willow-flycatcher-b9c5e2ad",
+  "raw_file": "bird-willow-flycatcher-b9c5e2ad.json",
+  "bird": {
+    "id": "bird-willow-flycatcher-b9c5e2ad",
+    "name": "Willow flycatcher",
+    "english_name": "Willow flycatcher",
+    "latin_name": "Empidonax traillii",
+    "summary": "The willow flycatcher (Empidonax traillii) is a small insect-eating, migrant bird of the tyrant flycatcher family native to North America.…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/20250524_willow_flycatcher_major_donnelly_PD202635.jpg/960px-20250524_willow_flycatcher_major_donnelly_PD202635.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-詹姆斯-奥杜邦-22603310",
+      "name": "约翰·詹姆斯·奥杜邦",
+      "summary": "约翰·詹姆斯·奥杜邦（英語：John James Audubon；法語：Jean-Jacques Audubon；1785年4月26日—1851年1月27日），美国画家、博物学家，法裔美國人，他绘制的鸟类图鉴《美国鸟类》被称作“美国国宝”…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-willow-flycatcher-b9c5e2ad",
+      "subject": "Willow flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-詹姆斯-奥杜邦-22603310",
+      "object": "约翰·詹姆斯·奥杜邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "traillii, Connecticut | genus = Empidonax | species = traillii | authority = (Audubon, 1828) | range_map = Empidonax traillii map.svg | range_map_caption = Approximate distribution map }} thumb |right|Summer breeding and winter ranges of willow flycatcher subspecies from United States Geological Survey|USGS southwestern willow flycatcher survey protocol The willow flycatcher (Empidonax traillii) is a small insect-eating, migrant bird of the tyrant flycatcher family native to North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-willow-flycatcher-b9c5e2ad",
+      "subject": "Willow flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "traillii, Connecticut | genus = Empidonax | species = traillii | authority = (Audubon, 1828) | range_map = Empidonax traillii map.svg | range_map_caption = Approximate distribution map }} thumb |right|Summer breeding and winter ranges of willow flycatcher subspecies from United States Geological Survey|USGS southwestern willow flycatcher survey protocol The willow flycatcher (Empidonax traillii) is a small insect-eating, migrant bird of the tyrant flycatcher family native to North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-willow-flycatcher-b9c5e2ad",
+      "subject": "Willow flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

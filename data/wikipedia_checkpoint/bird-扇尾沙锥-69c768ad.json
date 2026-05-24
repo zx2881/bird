@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:02:22",
+  "requested_title": "Common Snipe",
+  "resolved_title": "Common snipe",
+  "title_aliases": [
+    "Common Snipe"
+  ],
+  "bird_id": "bird-扇尾沙锥-69c768ad",
+  "raw_file": "bird-扇尾沙锥-69c768ad.json",
+  "bird": {
+    "id": "bird-扇尾沙锥-69c768ad",
+    "name": "扇尾沙锥",
+    "english_name": "Common snipe",
+    "latin_name": "Gallinago gallinago",
+    "summary": "扇尾沙锥（学名：Gallinago gallinago）为鹬科田鷸屬的鸟类。是一種矮壯的小型涉禽，原產於古北界。该物种的模式产地在瑞典。 分佈與棲地 它們的繁殖棲地包括沼澤、酸性泥炭沼澤、凍原和濕草地，遍布整個古北界。在北部，其分佈範圍從冰島延伸至不列顛群島北部和北部的芬諾斯堪…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Common_snipe_%28Gallinago_gallinago%29_2022.jpg/960px-Common_snipe_%28Gallinago_gallinago%29_2022.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南亚-1fa6ecaf",
+      "name": "南亚",
+      "summary": "南亚（英語：South Asia）是術語，以替換百年老詞「印度次大陸」，這老詞用來代表亞洲大陸的南部地區，主要是位於印度板塊和向南投射到印度洋的地方，當中包括8個主權國家：印度、巴基斯坦、孟加拉、斯里蘭卡、馬爾代夫、不丹、尼泊爾、阿富汗（…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-扇尾沙锥-69c768ad",
+      "subject": "扇尾沙锥",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "gallinago }} The common snipe (Gallinago gallinago, formerly also known as Gallinago cælestis) is a small, stocky wader native to the Old World, where it breeds in marshes, bogs, tundra and wet meadows",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-扇尾沙锥-69c768ad",
+      "subject": "扇尾沙锥",
+      "predicate": "distributed_in",
+      "object_id": "loc-南亚-1fa6ecaf",
+      "object": "南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, with European birds wintering in southern and western Europe and Africa (south to the Equator), and Asian migrants moving to tropical southern Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-扇尾沙锥-69c768ad",
+      "subject": "扇尾沙锥",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "gallinago }} The common snipe (Gallinago gallinago, formerly also known as Gallinago cælestis) is a small, stocky wader native to the Old World, where it breeds in marshes, bogs, tundra and wet meadows",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-扇尾沙锥-69c768ad",
+      "subject": "扇尾沙锥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-扇尾沙锥-69c768ad",
+      "subject": "扇尾沙锥",
+      "predicate": "threatened_by",
+      "object_id": "threat-wetland-drainage",
+      "object": "湿地排水",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Populations on the southern fringes of the breeding range in Europe are however declining with local extinction in some areas (notably in parts of England and Germany), mainly due to field drainage and agricultural intensification. The Agreement on the Conservation of African-Eurasian Migratory Waterbirds (AEWA) applies to the species",
+      "object_summary": "湿地被排干转为农业或建设用地。"
+    }
+  ]
+}

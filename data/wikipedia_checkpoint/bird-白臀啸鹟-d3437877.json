@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:41:21",
+  "requested_title": "White-vented Whistler",
+  "resolved_title": "White-vented whistler",
+  "title_aliases": [
+    "White-vented Whistler"
+  ],
+  "bird_id": "bird-白臀啸鹟-d3437877",
+  "raw_file": "bird-白臀啸鹟-d3437877.json",
+  "bird": {
+    "id": "bird-白臀啸鹟-d3437877",
+    "name": "白臀啸鹟",
+    "english_name": "White-vented whistler",
+    "latin_name": "Pachycephala homeyeri",
+    "summary": "白臀啸鹟（学名：Pachycephala homeyeri），是啸鹟科啸鹟属的一种，分布于马来西亚和菲律宾。该物种的保护状况被评为无危。 白臀啸鹟的平均体重约为26.0克。栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林。",
+    "lat": "10.4111",
+    "lng": "123.1318",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/White-vented_Whistler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-central-cebu-protected-landscape-263408e0",
+      "name": "Central Cebu Protected Landscape",
+      "summary": "The Central Cebu Protected Landscape (CCPL) is a protected area located in the mountains and drainage basins of central…",
+      "lat": "10.50916667",
+      "lng": "123.82611111"
+    },
+    {
+      "id": "loc-坎拉翁火山-45d11580",
+      "name": "坎拉翁火山",
+      "summary": "坎拉翁火山（宿霧語：Kanlaon）是菲律宾内格罗斯岛中北部一座活火山，位于巴科洛德东南32公里，是内格罗斯岛的最高点和米沙鄢群岛的最高点，海拔 2,465 公尺（8,087 英尺）。已建立坎拉翁火山国家公园。 坎拉翁火山是世界第42島嶼…",
+      "lat": "10.4111",
+      "lng": "123.1318"
+    },
+    {
+      "id": "loc-northern-negros-natural-park-9db95fe5",
+      "name": "Northern Negros Natural Park",
+      "summary": "The Northern Negros Natural Park is a protected area of the Philippines located in the northern mountainous forest regi…",
+      "lat": "10.63333333",
+      "lng": "123.21666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白臀啸鹟-d3437877",
+      "subject": "白臀啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-central-cebu-protected-landscape-263408e0",
+      "object": "Central Cebu Protected Landscape",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Central Cebu Protected Landscape, Mount Kanlaon and Northern Negros Natural Park but like all areas in the Philippines, protection is lax and deforestation continues despite this protection on paper",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臀啸鹟-d3437877",
+      "subject": "白臀啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-坎拉翁火山-45d11580",
+      "object": "坎拉翁火山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Central Cebu Protected Landscape, Mount Kanlaon and Northern Negros Natural Park but like all areas in the Philippines, protection is lax and deforestation continues despite this protection on paper",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臀啸鹟-d3437877",
+      "subject": "白臀啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-northern-negros-natural-park-9db95fe5",
+      "object": "Northern Negros Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Central Cebu Protected Landscape, Mount Kanlaon and Northern Negros Natural Park but like all areas in the Philippines, protection is lax and deforestation continues despite this protection on paper",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臀啸鹟-d3437877",
+      "subject": "白臀啸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-白臀啸鹟-d3437877",
+      "subject": "白臀啸鹟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, its habitat in the Philippines continues to be deforested throughout the country due to slash and burn farming, mining, illegal logging and habitat conversion",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

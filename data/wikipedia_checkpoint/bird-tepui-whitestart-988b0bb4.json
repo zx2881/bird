@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:47:16",
+  "requested_title": "Tepui Whitestart",
+  "resolved_title": "Tepui whitestart",
+  "title_aliases": [
+    "Tepui Whitestart"
+  ],
+  "bird_id": "bird-tepui-whitestart-988b0bb4",
+  "raw_file": "bird-tepui-whitestart-988b0bb4.json",
+  "bird": {
+    "id": "bird-tepui-whitestart-988b0bb4",
+    "name": "Tepui whitestart",
+    "english_name": "Tepui whitestart",
+    "latin_name": "Myioborus castaneocapilla",
+    "summary": "The tepui whitestart or tepui redstart (Myioborus castaneocapilla) is a species of bird in the family Parulidae. It is found in humid highl…",
+    "lat": "7",
+    "lng": "-65",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tepui_Redstart_%28Myioborus_castaneocapillus%29_-_The_birds_of_British_Guiana.jpg/960px-Tepui_Redstart_%28Myioborus_castaneocapillus%29_-_The_birds_of_British_Guiana.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    },
+    {
+      "id": "loc-圭亚那-037a419a",
+      "name": "圭亚那",
+      "summary": "蓋亞那合作共和国（英語：Co-operative Republic of Guyana），通称圭亚那（英語：Guyana），位於南美洲北部，是南美洲一个以英語為官方語言的国家，也是英联邦成员國。東鄰蘇利南，南臨巴西，西鄰委内瑞拉，北鄰大西…",
+      "lat": "5",
+      "lng": "-59"
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tepui-whitestart-988b0bb4",
+      "subject": "Tepui whitestart",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in humid highland forest, woodland and scrub in the tepuis in southern Venezuela, western Guyana and northern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tepui-whitestart-988b0bb4",
+      "subject": "Tepui whitestart",
+      "predicate": "distributed_in",
+      "object_id": "loc-圭亚那-037a419a",
+      "object": "圭亚那",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in humid highland forest, woodland and scrub in the tepuis in southern Venezuela, western Guyana and northern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tepui-whitestart-988b0bb4",
+      "subject": "Tepui whitestart",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in humid highland forest, woodland and scrub in the tepuis in southern Venezuela, western Guyana and northern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tepui-whitestart-988b0bb4",
+      "subject": "Tepui whitestart",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

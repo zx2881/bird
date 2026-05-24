@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:46:59",
+  "requested_title": "Bismarck Crow",
+  "resolved_title": "Bismarck crow",
+  "title_aliases": [
+    "Bismarck Crow"
+  ],
+  "bird_id": "bird-bismarck-crow-24589a65",
+  "raw_file": "bird-bismarck-crow-24589a65.json",
+  "bird": {
+    "id": "bird-bismarck-crow-24589a65",
+    "name": "Bismarck crow",
+    "english_name": "Bismarck crow",
+    "latin_name": "Corvus insularis",
+    "summary": "The Bismarck crow (Corvus insularis) is a species of crow found in the Bismarck Archipelago. It was considered by many authorities to be a…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bismarck_Crow_imported_from_iNaturalist_photo_406257676_on_8_August_2024.jpg/960px-Bismarck_Crow_imported_from_iNaturalist_photo_406257676_on_8_August_2024.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-奧斯卡-海因洛特-188f10ba",
+      "name": "奧斯卡·海因洛特",
+      "summary": "奧斯卡·海因洛特（Oskar Heinroth ，1871年3月1日—1945年5月31日）是一位德國動物學家，出生於黑森梅因茲-卡斯提爾。1895年獲基爾大學醫學博士學位，1898年到1913年，他便以一名科學助教的身分進行鴨與雁的行為…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bismarck-crow-24589a65",
+      "subject": "Bismarck crow",
+      "predicate": "distributed_in",
+      "object_id": "loc-奧斯卡-海因洛特-188f10ba",
+      "object": "奧斯卡·海因洛特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bismarck crow (Corvus insularis) is a species of crow found in the Bismarck Archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bismarck-crow-24589a65",
+      "subject": "Bismarck crow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

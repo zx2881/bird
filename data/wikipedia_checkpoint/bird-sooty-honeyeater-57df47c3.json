@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:48:40",
+  "requested_title": "Sooty Honeyeater",
+  "resolved_title": "Sooty honeyeater",
+  "title_aliases": [
+    "Sooty Honeyeater"
+  ],
+  "bird_id": "bird-sooty-honeyeater-57df47c3",
+  "raw_file": "bird-sooty-honeyeater-57df47c3.json",
+  "bird": {
+    "id": "bird-sooty-honeyeater-57df47c3",
+    "name": "Sooty honeyeater",
+    "english_name": "Sooty honeyeater",
+    "latin_name": "Melionyx fuscus",
+    "summary": "The sooty honeyeater (Melionyx fuscus) is a species of bird in the family Meliphagidae. It is found in the New Guinea Highlands.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Melionyx_fuscus_-_Nigel_Voaden_-_3080297.jpeg/960px-Melionyx_fuscus_-_Nigel_Voaden_-_3080297.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞高地-05e346ed",
+      "name": "新幾內亞高地",
+      "summary": "新几内亚高地是新幾內亞島上的山脉。其最高点为印度尼西亚境内的查亞峰，海拔4,884米（16,024英尺），同时也是大洋洲的最高峰。该山脉大致呈东西走向横贯全岛，西起印度尼西亞温达马湾县，向东一直延伸至巴布亞新幾內亞米爾恩灣省。 参考文献",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sooty-honeyeater-57df47c3",
+      "subject": "Sooty honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞高地-05e346ed",
+      "object": "新幾內亞高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sooty-honeyeater-57df47c3",
+      "subject": "Sooty honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-sooty-honeyeater-57df47c3",
+      "subject": "Sooty honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

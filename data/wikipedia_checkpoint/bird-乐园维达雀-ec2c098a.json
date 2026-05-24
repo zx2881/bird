@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:05:15",
+  "requested_title": "Long-tailed Paradise Whydah",
+  "resolved_title": "Long-tailed paradise whydah",
+  "title_aliases": [
+    "Long-tailed Paradise Whydah"
+  ],
+  "bird_id": "bird-乐园维达雀-ec2c098a",
+  "raw_file": "bird-乐园维达雀-ec2c098a.json",
+  "bird": {
+    "id": "bird-乐园维达雀-ec2c098a",
+    "name": "乐园维达雀",
+    "english_name": "Long-tailed paradise whydah",
+    "latin_name": "Vidua paradisaea",
+    "summary": "乐园维达雀（台湾作天堂維達雀，学名：Vidua paradisaea），是雀形目维达雀科的一种鸟类。 特征 乐园维达雀体重约20.35克，翼长约78.6毫米，喙宽度约5.2毫米，喙厚度约6.9毫米，嘴峰长约12.1毫米，跗蹠长约16毫米，尾长约59.7毫米。",
+    "lat": "9",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Long-tailed_paradise-whydah_%28Vidua_paradisaea%29_male.jpg/960px-Long-tailed_paradise-whydah_%28Vidua_paradisaea%29_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    },
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-乐园维达雀-ec2c098a",
+      "subject": "乐园维达雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a small passerine with a short, stubby bill, found across eastern and southern Africa from Ethiopia south to South Africa and west to Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乐园维达雀-ec2c098a",
+      "subject": "乐园维达雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a small passerine with a short, stubby bill, found across eastern and southern Africa from Ethiopia south to South Africa and west to Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乐园维达雀-ec2c098a",
+      "subject": "乐园维达雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a small passerine with a short, stubby bill, found across eastern and southern Africa from Ethiopia south to South Africa and west to Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乐园维达雀-ec2c098a",
+      "subject": "乐园维达雀",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The long-tailed paradise whydahs are found in grassland, savanna and open woodland where they live in bushed grassland around cultivation. The majority of the time, these whydahs stay away from surface waters",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-乐园维达雀-ec2c098a",
+      "subject": "乐园维达雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

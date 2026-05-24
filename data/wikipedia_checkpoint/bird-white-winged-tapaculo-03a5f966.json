@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:11:12",
+  "requested_title": "White-winged Tapaculo",
+  "resolved_title": "White-winged tapaculo",
+  "title_aliases": [
+    "White-winged Tapaculo"
+  ],
+  "bird_id": "bird-white-winged-tapaculo-03a5f966",
+  "raw_file": "bird-white-winged-tapaculo-03a5f966.json",
+  "bird": {
+    "id": "bird-white-winged-tapaculo-03a5f966",
+    "name": "White-winged tapaculo",
+    "english_name": "White-winged tapaculo",
+    "latin_name": "Scytalopus krabbei",
+    "summary": "The white-winged tapaculo (Scytalopus krabbei) is a species of bird in the tapaculo family, Rhinocryptidae. It was described in 2020 by the…",
+    "lat": "-5.22583333",
+    "lng": "-75.74805556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Scytalopus_krabbei_map.svg/960px-Scytalopus_krabbei_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-瓦亞加河-f9b2256a",
+      "name": "瓦亞加河",
+      "summary": "瓦亞加河（Río Huallaga）是亞馬遜盆地馬拉尼翁河的支流，發源自秘魯中部安第斯山脈，與馬拉尼翁河匯流，河道全長300英哩（480公里），闊度40米至100米。 瓦亞加河全程都是洪流，流經一系列的峽谷，有42個急流，河谷兩岸種滿可可…",
+      "lat": "-5.22583333",
+      "lng": "-75.74805556"
+    },
+    {
+      "id": "loc-endemic-bird-area-77dfcb2a",
+      "name": "Endemic Bird Area",
+      "summary": "An Endemic Bird Area (EBA) is an area of land identified by BirdLife International as being important for habitat-based…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-winged-tapaculo-03a5f966",
+      "subject": "White-winged tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦亞加河-f9b2256a",
+      "object": "瓦亞加河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is likely also present in the remote and poorly-explored region north of Río Huallaga along the eastern slope of the Andes. It inhabits wet shrub forest and montane forest, but might prefer shrub-line vegetation interspersed with open tussock grassland in areas where it occurs alongside Tschudi's tapaculo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-tapaculo-03a5f966",
+      "subject": "White-winged tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-endemic-bird-area-77dfcb2a",
+      "object": "Endemic Bird Area",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a restricted-range species and only occurs in mountain ranges within the North-east Peruvian cordilleras Endemic Bird Area, which is relatively unthreatened",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-tapaculo-03a5f966",
+      "subject": "White-winged tapaculo",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is known only from north-central Peru, where it inhabits wet shrub forest and montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-white-winged-tapaculo-03a5f966",
+      "subject": "White-winged tapaculo",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is likely also present in the remote and poorly-explored region north of Río Huallaga along the eastern slope of the Andes. It inhabits wet shrub forest and montane forest, but might prefer shrub-line vegetation interspersed with open tussock grassland in areas where it occurs alongside Tschudi's tapaculo",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-white-winged-tapaculo-03a5f966",
+      "subject": "White-winged tapaculo",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is likely also present in the remote and poorly-explored region north of Río Huallaga along the eastern slope of the Andes. It inhabits wet shrub forest and montane forest, but might prefer shrub-line vegetation interspersed with open tussock grassland in areas where it occurs alongside Tschudi's tapaculo",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-white-winged-tapaculo-03a5f966",
+      "subject": "White-winged tapaculo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

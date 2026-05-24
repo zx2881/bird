@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:23:59",
+  "requested_title": "Long-tailed Cinclodes",
+  "resolved_title": "Long-tailed cinclodes",
+  "title_aliases": [
+    "Long-tailed Cinclodes"
+  ],
+  "bird_id": "bird-long-tailed-cinclodes-a9a4c402",
+  "raw_file": "bird-long-tailed-cinclodes-a9a4c402.json",
+  "bird": {
+    "id": "bird-long-tailed-cinclodes-a9a4c402",
+    "name": "Long-tailed cinclodes",
+    "english_name": "Long-tailed cinclodes",
+    "latin_name": "Cinclodes pabsti",
+    "summary": "The long-tailed cinclodes (Cinclodes pabsti) is a Near Threatened species of bird in the Furnariinae subfamily of the ovenbird family Furna…",
+    "lat": "-27.25",
+    "lng": "-50.33333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Cinclodes_pabsti_-_Long-tailed_cinclodes.JPG/960px-Cinclodes_pabsti_-_Long-tailed_cinclodes.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-圣卡塔琳娜州-610f6154",
+      "name": "圣卡塔琳娜州",
+      "summary": "圣卡塔琳娜州（葡萄牙語：Santa Catarina）是巴西南部的一个州，首府弗洛里亞諾波利斯，面积95,346.181平方公里，人口5,958,266人。 参见 胡利亚纳共和国",
+      "lat": "-27.25",
+      "lng": "-50.33333333"
+    },
+    {
+      "id": "loc-南里奥格兰德州-a29883e9",
+      "name": "南里奥格兰德州",
+      "summary": "南里奥格兰德州（葡萄牙語：Rio Grande do Sul，直译：「南方的大河」，發音：[ˈʁiw ˈɡɾɐ̃dʒi du ˈsuw] ），或称南大河州，是巴西最南端的一个州，东临大西洋，首府阿雷格里港，人口10,963,216。该州与…",
+      "lat": "-30",
+      "lng": "-53"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-long-tailed-cinclodes-a9a4c402",
+      "subject": "Long-tailed cinclodes",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣卡塔琳娜州-610f6154",
+      "object": "圣卡塔琳娜州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of the long-tailed cinclodes is found in extreme southeastern Brazil between southeastern Santa Catarina and northeastern Rio Grande do Sul",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-long-tailed-cinclodes-a9a4c402",
+      "subject": "Long-tailed cinclodes",
+      "predicate": "distributed_in",
+      "object_id": "loc-南里奥格兰德州-a29883e9",
+      "object": "南里奥格兰德州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of the long-tailed cinclodes is found in extreme southeastern Brazil between southeastern Santa Catarina and northeastern Rio Grande do Sul",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-long-tailed-cinclodes-a9a4c402",
+      "subject": "Long-tailed cinclodes",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits open landscapes such as temperate grasslands, pastures, and agricultural land",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-long-tailed-cinclodes-a9a4c402",
+      "subject": "Long-tailed cinclodes",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits campos rupestres, a montane savanna landscape with a patchwork of rock outcrops and open fields",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-long-tailed-cinclodes-a9a4c402",
+      "subject": "Long-tailed cinclodes",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

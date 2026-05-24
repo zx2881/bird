@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:06:12",
+  "requested_title": "Red-billed Oxpecker",
+  "resolved_title": "Red-billed oxpecker",
+  "title_aliases": [
+    "Red-billed Oxpecker"
+  ],
+  "bird_id": "bird-紅嘴牛椋鳥-a1deff8b",
+  "raw_file": "bird-紅嘴牛椋鳥-a1deff8b.json",
+  "bird": {
+    "id": "bird-紅嘴牛椋鳥-a1deff8b",
+    "name": "紅嘴牛椋鳥",
+    "english_name": "Red-billed oxpecker",
+    "latin_name": "Buphagus erythrorynchus",
+    "summary": "紅嘴牛椋鳥（學名：Buphagus erythrorhynchus）屬於雀形目椋鳥科椋鳥屬，是一種分布於非洲的牛椋鳥。常棲息於斑馬，非洲水牛，犀牛，巨羚，黑斑瞪羚，河馬，長頸鹿，甚至大象身上，尋找毛髮皮膚中的寄生蟲，扁蝨和皮屑。足型為對稱型，即兩趾朝前，兩趾朝後，這樣就能以任何…",
+    "lat": "23",
+    "lng": "13",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Buphagus_erythrorhynchus00.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    },
+    {
+      "id": "loc-中非共和國-9f30e181",
+      "name": "中非共和國",
+      "summary": "中非共和國（法語：République centrafricaine；桑戈語：Ködörösêse tî Bêafrîka），通稱中非，是位於非洲中部的國家。作為一內陸國家，中非從西邊起依順時針方向，分別与喀麥隆、乍得、蘇丹、南蘇丹、剛果…",
+      "lat": "7",
+      "lng": "21"
+    },
+    {
+      "id": "loc-南蘇丹-d1d02289",
+      "name": "南蘇丹",
+      "summary": "南蘇丹共和國（英語：Republic of South Sudan），通稱南蘇丹（英語：South Sudan），是非洲東北部一個內陸國家，2011年從蘇丹獨立。東面是埃塞俄比亞，南面是剛果民主共和國、肯亞和烏干達，西面是中非共和國，北面…",
+      "lat": "8",
+      "lng": "30"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紅嘴牛椋鳥-a1deff8b",
+      "subject": "紅嘴牛椋鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the eastern savannah of sub-Saharan Africa, from the Central African Republic east to South Sudan and south to northern and eastern South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅嘴牛椋鳥-a1deff8b",
+      "subject": "紅嘴牛椋鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-中非共和國-9f30e181",
+      "object": "中非共和國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the eastern savannah of sub-Saharan Africa, from the Central African Republic east to South Sudan and south to northern and eastern South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅嘴牛椋鳥-a1deff8b",
+      "subject": "紅嘴牛椋鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-南蘇丹-d1d02289",
+      "object": "南蘇丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the eastern savannah of sub-Saharan Africa, from the Central African Republic east to South Sudan and south to northern and eastern South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅嘴牛椋鳥-a1deff8b",
+      "subject": "紅嘴牛椋鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the eastern savannah of sub-Saharan Africa, from the Central African Republic east to South Sudan and south to northern and eastern South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅嘴牛椋鳥-a1deff8b",
+      "subject": "紅嘴牛椋鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

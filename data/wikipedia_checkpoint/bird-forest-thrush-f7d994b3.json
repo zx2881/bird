@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:50:37",
+  "requested_title": "Forest Thrush",
+  "resolved_title": "Forest thrush",
+  "title_aliases": [
+    "Forest Thrush"
+  ],
+  "bird_id": "bird-forest-thrush-f7d994b3",
+  "raw_file": "bird-forest-thrush-f7d994b3.json",
+  "bird": {
+    "id": "bird-forest-thrush-f7d994b3",
+    "name": "Forest thrush",
+    "english_name": "Forest thrush",
+    "latin_name": "Turdus lherminieri",
+    "summary": "The forest thrush (Turdus lherminieri) is a Near Threatened species of bird in the family Turdidae, the thrushes and allies. It is found on…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Turdus_lherminieri_photographed_by_St%C3%A9phane_Morin_in_2008.png/960px-Turdus_lherminieri_photographed_by_St%C3%A9phane_Morin_in_2008.png"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "An old-growth forest is a forest that has developed over a long period of time without disturbance.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-forest-thrush-f7d994b3",
+      "subject": "Forest thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Lucia]] The forest thrush inhabits tropical evergreen forest both primary and secondary",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-forest-thrush-f7d994b3",
+      "subject": "Forest thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Lucia]] The forest thrush inhabits tropical evergreen forest both primary and secondary",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-forest-thrush-f7d994b3",
+      "subject": "Forest thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Lucia]] The forest thrush inhabits tropical evergreen forest both primary and secondary",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-forest-thrush-f7d994b3",
+      "subject": "Forest thrush",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-forest-thrush-f7d994b3",
+      "subject": "Forest thrush",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Minor threats include hunting, logging, and invasive species",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-forest-thrush-f7d994b3",
+      "subject": "Forest thrush",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Minor threats include hunting, logging, and invasive species",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-forest-thrush-f7d994b3",
+      "subject": "Forest thrush",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Climate change-induced storms and flooding are a threat of unknown magnitude.{{Cite journal |last=Jean-Pierre |first=Aurélie |last2=Loranger-Merciris |first2=G",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

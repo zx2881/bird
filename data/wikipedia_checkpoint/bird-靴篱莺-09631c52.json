@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:55:36",
+  "requested_title": "Booted Warbler",
+  "resolved_title": "Booted warbler",
+  "title_aliases": [
+    "Booted Warbler"
+  ],
+  "bird_id": "bird-靴篱莺-09631c52",
+  "raw_file": "bird-靴篱莺-09631c52.json",
+  "bird": {
+    "id": "bird-靴篱莺-09631c52",
+    "name": "靴篱莺",
+    "english_name": "Booted warbler",
+    "latin_name": "Iduna caligata",
+    "summary": "靴篱莺（学名：Iduna caligata）为鶲科蘆鶯屬的鸟类。是屬於樹鶯類的舊世界鶯。它過去曾被認為與塞克氏鶯是同一物種，但現在通常將兩者視為不同的物種。 分類 亞歷山大·凱瑟林和約翰·海因里希·布拉修斯沒有解釋屬名Iduna的由來，然而在北歐神話中，伊登（Iduna）是春天…",
+    "lat": "66",
+    "lng": "94",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Booted_Warbler_-_Kazakistan_S4E0786_%2817330623545%29.jpg/960px-Booted_Warbler_-_Kazakistan_S4E0786_%2817330623545%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-斯里蘭卡-b7d5c4b5",
+      "name": "斯里蘭卡",
+      "summary": "斯里兰卡民主社会主义共和国（僧伽羅語：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；坦米爾語：இலங்கை சனநாயக சோஷலிசக் குடியரசு；英語：Democratic Social…",
+      "lat": "7",
+      "lng": "81"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-靴篱莺-09631c52",
+      "subject": "靴篱莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The booted warbler itself breeds from central Russia to western China, and migrates to winter in the Indian subcontinent as far south as Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-靴篱莺-09631c52",
+      "subject": "靴篱莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The booted warbler itself breeds from central Russia to western China, and migrates to winter in the Indian subcontinent as far south as Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-靴篱莺-09631c52",
+      "subject": "靴篱莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯里蘭卡-b7d5c4b5",
+      "object": "斯里蘭卡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The booted warbler itself breeds from central Russia to western China, and migrates to winter in the Indian subcontinent as far south as Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-靴篱莺-09631c52",
+      "subject": "靴篱莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

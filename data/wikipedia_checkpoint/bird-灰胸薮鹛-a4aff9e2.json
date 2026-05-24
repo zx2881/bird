@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T23:05:08",
+  "requested_title": "Emei Shan Liocichla",
+  "resolved_title": "Emei Shan liocichla",
+  "title_aliases": [
+    "Emei Shan Liocichla"
+  ],
+  "bird_id": "bird-灰胸薮鹛-a4aff9e2",
+  "raw_file": "bird-灰胸薮鹛-a4aff9e2.json",
+  "bird": {
+    "id": "bird-灰胸薮鹛-a4aff9e2",
+    "name": "灰胸薮鹛",
+    "english_name": "Emei Shan liocichla",
+    "latin_name": "Liocichla omeiensis",
+    "summary": "The Emei Shan liocichla (Liocichla omeiensis), also known as the Omei Shan or grey-faced liocichla, is a passerine bird in the family Leiot…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Liocichla_omeiensis_-_Wang.QG_-_519709588.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰胸薮鹛-a4aff9e2",
+      "subject": "灰胸薮鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|last6=Fu |first6=Yiqiang |date=2020 |title=Individual Identification Based on the Songs of the Emei Shan Liocichla (Liocichla omeiensis) |journal=Pakistan Journal of Zoology |volume=52 |issue=2 |doi=10.17582/journal.pjz/20170510120508 |issn=0030-9923|doi-access=free }} in mountain ranges in Southern Sichuan, China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰胸薮鹛-a4aff9e2",
+      "subject": "灰胸薮鹛",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-灰胸薮鹛-a4aff9e2",
+      "subject": "灰胸薮鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss through logging and conversion to agriculture",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-灰胸薮鹛-a4aff9e2",
+      "subject": "灰胸薮鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss through logging and conversion to agriculture",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

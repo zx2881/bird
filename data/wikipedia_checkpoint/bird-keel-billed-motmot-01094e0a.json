@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:36:33",
+  "requested_title": "Keel-billed Motmot",
+  "resolved_title": "Keel-billed motmot",
+  "title_aliases": [
+    "Keel-billed Motmot"
+  ],
+  "bird_id": "bird-keel-billed-motmot-01094e0a",
+  "raw_file": "bird-keel-billed-motmot-01094e0a.json",
+  "bird": {
+    "id": "bird-keel-billed-motmot-01094e0a",
+    "name": "Keel-billed motmot",
+    "english_name": "Keel-billed motmot",
+    "latin_name": "Electron carinatum",
+    "summary": "The keel-billed motmot (Electron carinatum) is a Vulnerable species of bird in the motmot family Momotidae. It is found in Belize, Costa Ri…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Keel-billed_Motmot_-_Sarapiqui_-_Costa_Rica_S4E0981_%2826404351020%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-keel-billed-motmot-01094e0a",
+      "subject": "Keel-billed motmot",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| page =322 }} The keel-billed motmot inhabits humid evergreen forest, and favors steep-sided gullies with streams",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-keel-billed-motmot-01094e0a",
+      "subject": "Keel-billed motmot",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-keel-billed-motmot-01094e0a",
+      "subject": "Keel-billed motmot",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In most areas it is threatened by continuing habitat loss due to logging, conversion to banana plantations, other agriculture, and ranching, and to human settlement",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-keel-billed-motmot-01094e0a",
+      "subject": "Keel-billed motmot",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In most areas it is threatened by continuing habitat loss due to logging, conversion to banana plantations, other agriculture, and ranching, and to human settlement",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

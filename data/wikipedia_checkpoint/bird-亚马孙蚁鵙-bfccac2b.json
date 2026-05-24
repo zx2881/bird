@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:01:25",
+  "requested_title": "Amazonian Antshrike",
+  "resolved_title": "Amazonian antshrike",
+  "title_aliases": [
+    "Amazonian Antshrike"
+  ],
+  "bird_id": "bird-亚马孙蚁鵙-bfccac2b",
+  "raw_file": "bird-亚马孙蚁鵙-bfccac2b.json",
+  "bird": {
+    "id": "bird-亚马孙蚁鵙-bfccac2b",
+    "name": "亚马孙蚁鵙",
+    "english_name": "Amazonian antshrike",
+    "latin_name": "Thamnophilus amazonicus",
+    "summary": "亚马孙蚁鵙（学名：Thamnophilus amazonicus）又名亚马逊蚁鵙，是蚁鵙科蚁鵙属的一种。它们生活在巴西的亚马孙盆地中，东起马拉尼昂州，西至哥伦比亚、厄瓜多尔、秘鲁和玻利维亚皆有分布。此外，它们还分布在圭亚那、苏里南、法属圭亚那以及委内瑞拉的两个地区。 亚热带和热…",
+    "lat": "-6.18333333",
+    "lng": "-45.61666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Thamnophilus_amazonicus_-_Amazonian_Antshrike_%28male%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-菲利普-斯克莱特-0722f03b",
+      "name": "菲利普·斯克莱特",
+      "summary": "菲利普·勒特利·斯克莱特（英語：Philip Lutley Sclater，1829年11月4日—1913年6月27日）是一位英国律师和动物学家，主要从事鳥類學研究，开创性地建立了动物地理学分区。 参考资料 外部链接 维基共享资源上的相關…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-马拉尼昂州-4d31ff74",
+      "name": "马拉尼昂州",
+      "summary": "馬拉尼昂州（葡萄牙語：Maranhão，IPA：ma.ɾa.'ɲɐ̃w̃是巴西的一個州，位於東北部大西洋岸。面積331,983平方公里，2005年人口6,109,694人。首府聖路易斯。自2015年1月1日起，该州由巴西共产党执政。 倫索…",
+      "lat": "-6.18333333",
+      "lng": "-45.61666667"
+    },
+    {
+      "id": "loc-forest-transition-08bcd761",
+      "name": "Forest transition",
+      "summary": "Forest transition refers to a geographic theory describing a reversal or turnaround in land-use trends for a given terr…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-亚马孙蚁鵙-bfccac2b",
+      "subject": "亚马孙蚁鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲利普-斯克莱特-0722f03b",
+      "object": "菲利普·斯克莱特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Amazonian antshrike (Thamnophilus amazonicus) is a species of bird in subfamily Thamnophilinae of family Thamnophilidae, the \"typical antbirds\". It is found in every mainland South American country except Argentina, Chile, Paraguay, and Uruguay.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-亚马孙蚁鵙-bfccac2b",
+      "subject": "亚马孙蚁鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-马拉尼昂州-4d31ff74",
+      "object": "马拉尼昂州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "paraensis: Brazil south of the Amazon east from the Tocantins River to western Maranhão The Amazonian antshrike inhabits somewhat different landscapes across its range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-亚马孙蚁鵙-bfccac2b",
+      "subject": "亚马孙蚁鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-forest-transition-08bcd761",
+      "object": "Forest transition",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "obscurus also inhabits edges but occurs as well in the forest interior, dense secondary forest, and stands of Guadua bamboo in terra firme and transitional forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-亚马孙蚁鵙-bfccac2b",
+      "subject": "亚马孙蚁鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-亚马孙蚁鵙-bfccac2b",
+      "subject": "亚马孙蚁鵙",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered fairly common in Colombia, local in Ecuador, uncommon and local in Peru, locally common in Venezuela, and uncommon to locally common elsewhere. It occurs in \"vast areas of protected suitable habitat\" and \"adapts well to second growth in some portions of its range, thus rendering it less vulnerable to habitat disturbance\"",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

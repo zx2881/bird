@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:35:27",
+  "requested_title": "Grey-cheeked Parakeet",
+  "resolved_title": "Grey-cheeked parakeet",
+  "title_aliases": [
+    "Grey-cheeked Parakeet"
+  ],
+  "bird_id": "bird-grey-cheeked-parakeet-26f77b4e",
+  "raw_file": "bird-grey-cheeked-parakeet-26f77b4e.json",
+  "bird": {
+    "id": "bird-grey-cheeked-parakeet-26f77b4e",
+    "name": "Grey-cheeked parakeet",
+    "english_name": "Grey-cheeked parakeet",
+    "latin_name": "Brotogeris pyrrhoptera",
+    "summary": "The grey-cheeked parakeet (Brotogeris pyrrhoptera), less commonly known as fire-winged parakeet, is a vulnerable species of bird. It is in…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Brotogeris_pyrrhoptera_-Guayas_-Ecuador-8.jpg/960px-Brotogeris_pyrrhoptera_-Guayas_-Ecuador-8.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-grey-cheeked-parakeet-26f77b4e",
+      "subject": "Grey-cheeked parakeet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits a variety of landscapes including both deciduous and evergreen forests and more open woodlands, and also scrublands and cultivated areas",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-grey-cheeked-parakeet-26f77b4e",
+      "subject": "Grey-cheeked parakeet",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-grey-cheeked-parakeet-26f77b4e",
+      "subject": "Grey-cheeked parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The illegal cage-bird trade and habitat loss are the principal threats.\" \"Natural habitats are being destroyed through agricultural conversion, logging and grazing by goats and cattle, which prevents forest regeneration, seriously threatens deciduous forests and possibly depletes suitable nesting sites.\" The export of grey-cheeked parrots is banned in both Ecuador and Peru, and the species occurs in at least four protected areas",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-grey-cheeked-parakeet-26f77b4e",
+      "subject": "Grey-cheeked parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The illegal cage-bird trade and habitat loss are the principal threats.\" \"Natural habitats are being destroyed through agricultural conversion, logging and grazing by goats and cattle, which prevents forest regeneration, seriously threatens deciduous forests and possibly depletes suitable nesting sites.\" The export of grey-cheeked parrots is banned in both Ecuador and Peru, and the species occurs in at least four protected areas",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

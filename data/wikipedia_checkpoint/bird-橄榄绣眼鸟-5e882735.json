@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:34:19",
+  "requested_title": "Reunion Olive White-eye",
+  "resolved_title": "Réunion olive white-eye",
+  "title_aliases": [
+    "Reunion Olive White-eye",
+    "Réunion olive white-eye"
+  ],
+  "bird_id": "bird-橄榄绣眼鸟-5e882735",
+  "raw_file": "bird-橄榄绣眼鸟-5e882735.json",
+  "bird": {
+    "id": "bird-橄榄绣眼鸟-5e882735",
+    "name": "橄榄绣眼鸟",
+    "english_name": "Réunion olive white-eye",
+    "latin_name": "Zosterops olivaceus",
+    "summary": "橄榄绣眼鸟（学名：Zosterops olivaceus）是一种绣眼鸟科绣眼鸟属的鸟类，分布于留尼汪。 分类 1760年，法国动物学家马蒂兰·雅克·布里松基于波旁岛（今留尼汪）带到巴黎的一副标本，将对于留尼汪橄榄绣眼鸟的描述记载在他的《鸟类学》（Ornithologie）一书中…",
+    "lat": "-21.15",
+    "lng": "55.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zosterops_olivaceus.jpg/960px-Zosterops_olivaceus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-留尼汪国家公园-f826de16",
+      "name": "留尼汪国家公园",
+      "summary": "留尼旺國家公園（法語：Parc national de La Réunion）是法国海外省留尼汪的國家公園，在西印度洋。國家公園建立於2007年3月5日，保護留尼旺內陸山區萊歐特有生態系統，覆蓋全島約42%面積，有留岛鹃鵙、留島日行守宮等…",
+      "lat": "-21.15",
+      "lng": "55.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橄榄绣眼鸟-5e882735",
+      "subject": "橄榄绣眼鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-留尼汪国家公园-f826de16",
+      "object": "留尼汪国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is frequently found in the Réunion National Park or in the Bélouve forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橄榄绣眼鸟-5e882735",
+      "subject": "橄榄绣眼鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

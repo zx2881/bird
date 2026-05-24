@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:34:04",
+  "requested_title": "Meratus Blue Flycatcher",
+  "resolved_title": "Meratus blue flycatcher",
+  "title_aliases": [
+    "Meratus Blue Flycatcher"
+  ],
+  "bird_id": "bird-meratus-blue-flycatcher-661f795a",
+  "raw_file": "bird-meratus-blue-flycatcher-661f795a.json",
+  "bird": {
+    "id": "bird-meratus-blue-flycatcher-661f795a",
+    "name": "Meratus blue flycatcher",
+    "english_name": "Meratus blue flycatcher",
+    "latin_name": "Cyornis kadayangensis",
+    "summary": "The Meratus blue flycatcher (Cyornis kadayangensis) is a species of bird in the Old World flycatcher family, Muscicapidae. The species was…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Cyornis_kadayangensis_male.jpg/960px-Cyornis_kadayangensis_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-重点鸟区-0b8dda42",
+      "name": "重点鸟区",
+      "summary": "重点鸟类和生物多样性区域（英語：Important Bird and Biodiversity Area）又称重点鸟区（Important Bird Area）、重要鸟区、重要鸟类栖息地、重点鸟类栖息地，是国际鸟盟策划并推动的一项保护工作…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-meratus-blue-flycatcher-661f795a",
+      "subject": "Meratus blue flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is most common at elevations between and inhabits montane rainforest, secondary forest, and rubber plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-meratus-blue-flycatcher-661f795a",
+      "subject": "Meratus blue flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-重点鸟区-0b8dda42",
+      "object": "重点鸟区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Meratus Mountains it inhabits are designated as an Important Bird Area by BirdLife International. Recommended conservation measures for the species include surveys to accurately estimate its population, finding the demand for the species in the songbird trade, and finding suitable tracts of habitat to protect",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-meratus-blue-flycatcher-661f795a",
+      "subject": "Meratus blue flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-meratus-blue-flycatcher-661f795a",
+      "subject": "Meratus blue flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss and the songbird trade",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-meratus-blue-flycatcher-661f795a",
+      "subject": "Meratus blue flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is moderately dependent on forests and is mainly threatened by habitat loss, especially at lower elevations, where deforestation due to agriculture has led to almost complete loss of forests in some areas",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-meratus-blue-flycatcher-661f795a",
+      "subject": "Meratus blue flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is also threatened by the Indonesian trade in songbirds, having first been recorded from local songbird markets in 2022. Pellet-gun hunting and the wildlife trade have caused declines in many other species of small birds in the Meratus Mountains; demand from the trade has also seen swift falls in the populations of other Indonesian Cyornis flycatchers like the Javan blue flycatcher. Anecdotal reports from the Meratus Mountains have found that increasing ecotourism for birdwatching in the region may reduce incentives to poach birds. The species is not protected by Indonesian law and is currently known from a single protected area, the Pleihari Martapura Wildlife Reserve, which covers only a portion of its altitudinal range",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

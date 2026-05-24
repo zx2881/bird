@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:01:18",
+  "requested_title": "Mountain Saw-wing",
+  "resolved_title": "Mountain saw-wing",
+  "title_aliases": [
+    "Mountain Saw-wing"
+  ],
+  "bird_id": "bird-mountain-saw-wing-82909ad1",
+  "raw_file": "bird-mountain-saw-wing-82909ad1.json",
+  "bird": {
+    "id": "bird-mountain-saw-wing-82909ad1",
+    "name": "Mountain saw-wing",
+    "english_name": "Mountain saw-wing",
+    "latin_name": "Psalidoprocne fuliginosa",
+    "summary": "The mountain saw-wing (Psalidoprocne fuliginosa), also known as the mountain rough-winged swallow or the Cameroon Mountain rough-winged swa…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Mountain_Saw-wing.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-mount-cameroon-and-bioko-montane-forests-edb8c7d6",
+      "name": "Mount Cameroon and Bioko montane forests",
+      "summary": "The Mount Cameroon and Bioko montane forests is a tropical moist broadleaf forest ecoregion in central Africa.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mountain-saw-wing-82909ad1",
+      "subject": "Mountain saw-wing",
+      "predicate": "distributed_in",
+      "object_id": "loc-mount-cameroon-and-bioko-montane-forests-edb8c7d6",
+      "object": "Mount Cameroon and Bioko montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Mount Cameroon and Bioko montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-saw-wing-82909ad1",
+      "subject": "Mountain saw-wing",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

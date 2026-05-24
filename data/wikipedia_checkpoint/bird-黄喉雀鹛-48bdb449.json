@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:41:44",
+  "requested_title": "Yellow-throated Fulvetta",
+  "resolved_title": "Yellow-throated fulvetta",
+  "title_aliases": [
+    "Yellow-throated Fulvetta"
+  ],
+  "bird_id": "bird-黄喉雀鹛-48bdb449",
+  "raw_file": "bird-黄喉雀鹛-48bdb449.json",
+  "bird": {
+    "id": "bird-黄喉雀鹛-48bdb449",
+    "name": "黄喉雀鹛",
+    "english_name": "Yellow-throated fulvetta",
+    "latin_name": "Schoeniparus cinereus",
+    "summary": "The yellow-throated fulvetta (Schoeniparus cinereus) is a species of bird in the family Pellorneidae. Its common name is misleading, becaus…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Yellow-throated_Fulvetta_Khangchendzonga_National_Park_West_Sikkim_India_29.10.2015.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿鲁纳恰尔邦-5df417bf",
+      "name": "阿鲁纳恰尔邦",
+      "summary": "阿鲁纳恰尔邦（印地語：अरुणाचल प्रदेश，英語：Arunachal Pradesh），又譯阿鲁纳查尔、阿倫納曹，是印度的一個邦，原為東北邊境特區（NEFA），與南部的阿薩姆邦和那加蘭邦接壤，西临不丹、東接緬甸，北与中华人民共和国…",
+      "lat": "27.06",
+      "lng": "93.37"
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄喉雀鹛-48bdb449",
+      "subject": "黄喉雀鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿鲁纳恰尔邦-5df417bf",
+      "object": "阿鲁纳恰尔邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|From Eaglenest Wildlife Sanctuary in [[Arunachal Pradesh, India.]] thumb|left|From Eaglenest Wildlife Sanctuary in [[Arunachal Pradesh, India.]] It is found in south-eastern Asia from the Himalayas to north-central Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄喉雀鹛-48bdb449",
+      "subject": "黄喉雀鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|From Eaglenest Wildlife Sanctuary in [[Arunachal Pradesh, India.]] thumb|left|From Eaglenest Wildlife Sanctuary in [[Arunachal Pradesh, India.]] It is found in south-eastern Asia from the Himalayas to north-central Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄喉雀鹛-48bdb449",
+      "subject": "黄喉雀鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-黄喉雀鹛-48bdb449",
+      "subject": "黄喉雀鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

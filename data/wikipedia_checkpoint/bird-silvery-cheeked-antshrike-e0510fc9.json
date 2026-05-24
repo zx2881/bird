@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:58:09",
+  "requested_title": "Silvery-cheeked Antshrike",
+  "resolved_title": "Silvery-cheeked antshrike",
+  "title_aliases": [
+    "Silvery-cheeked Antshrike"
+  ],
+  "bird_id": "bird-silvery-cheeked-antshrike-e0510fc9",
+  "raw_file": "bird-silvery-cheeked-antshrike-e0510fc9.json",
+  "bird": {
+    "id": "bird-silvery-cheeked-antshrike-e0510fc9",
+    "name": "Silvery-cheeked antshrike",
+    "english_name": "Silvery-cheeked antshrike",
+    "latin_name": "Sakesphoroides cristatus",
+    "summary": "The silvery-cheeked antshrike (Sakesphoroides cristatus) is a species of bird in subfamily Thamnophilinae of family Thamnophilidae, the \"ty…",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Silvery-cheeked_Antshrike_Sakesphorus_cristatus.jpg/960px-Silvery-cheeked_Antshrike_Sakesphorus_cristatus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-silvery-cheeked-antshrike-e0510fc9",
+      "subject": "Silvery-cheeked antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understorey to mid-story of deciduous forest and arid caatinga, and also the ecotone between deciduous and ridgetop evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-silvery-cheeked-antshrike-e0510fc9",
+      "subject": "Silvery-cheeked antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understorey to mid-story of deciduous forest and arid caatinga, and also the ecotone between deciduous and ridgetop evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-silvery-cheeked-antshrike-e0510fc9",
+      "subject": "Silvery-cheeked antshrike",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

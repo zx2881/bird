@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:48:27",
+  "requested_title": "Marsh Owl",
+  "resolved_title": "Marsh owl",
+  "title_aliases": [
+    "Marsh Owl"
+  ],
+  "bird_id": "bird-marsh-owl-639ed24c",
+  "raw_file": "bird-marsh-owl-639ed24c.json",
+  "bird": {
+    "id": "bird-marsh-owl-639ed24c",
+    "name": "Marsh owl",
+    "english_name": "Marsh owl",
+    "latin_name": "Asio capensis",
+    "summary": "The marsh owl (Asio capensis) is a medium to large species of owl in the family Strigidae. Description Medium-sized, dark brown with a pump…",
+    "lat": "-32",
+    "lng": "27",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Asio_capensis_%28Buho_moro_-_Marsh_Owl%29%2C_Merga_Zerga%2C_Marruecos.jpg/960px-Asio_capensis_%28Buho_moro_-_Marsh_Owl%29%2C_Merga_Zerga%2C_Marruecos.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-東開普省-ad5136c6",
+      "name": "東開普省",
+      "summary": "東開普省（阿非利卡語：Oos-Kaap，英語：Eastern Cape），是南非九個省之一，前身為開普省的東部。面積169,580平方公里，2001年人口為6,436,761人。首府比紹，最大城市伊莉莎白港。 历史 地理 人口 经济 国家…",
+      "lat": "-32",
+      "lng": "27"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-marsh-owl-639ed24c",
+      "subject": "Marsh owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-東開普省-ad5136c6",
+      "object": "東開普省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are common in the grasslands of southern Africa, occurring in the northern regions of South Africa down to the province of the Eastern Cape. They are also found in Zimbabwe on the Mashonaland plateau, and in the Makgadikgadi lacustrine depression in Botswana. They have also been recorded on the floodplains on the Namibian coast and in isolated populations in Morocco and Madagascar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-marsh-owl-639ed24c",
+      "subject": "Marsh owl",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The marsh owl's habitat preference is open grassland, marshlands and short scrub,Harrison, J.A., Allan, D.G., Underhill, L.G., Herremans, M., Tree, A.J., Parker, V",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-marsh-owl-639ed24c",
+      "subject": "Marsh owl",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The marsh owl's habitat preference is open grassland, marshlands and short scrub,Harrison, J.A., Allan, D.G., Underhill, L.G., Herremans, M., Tree, A.J., Parker, V",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-marsh-owl-639ed24c",
+      "subject": "Marsh owl",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "BirdLife South Africa, Johannesburg typically near marshy grounds, vleis or dams. Marsh owls prefer to nest on the ground and they have also been observed leaving certain areas during drought-stricken times. Their preferred habitat tends to be vulnerable to destruction due to agriculture or overgrazing",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-marsh-owl-639ed24c",
+      "subject": "Marsh owl",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They are common in the grasslands of southern Africa, occurring in the northern regions of South Africa down to the province of the Eastern Cape. They are also found in Zimbabwe on the Mashonaland plateau, and in the Makgadikgadi lacustrine depression in Botswana. They have also been recorded on the floodplains on the Namibian coast and in isolated populations in Morocco and Madagascar",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-marsh-owl-639ed24c",
+      "subject": "Marsh owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

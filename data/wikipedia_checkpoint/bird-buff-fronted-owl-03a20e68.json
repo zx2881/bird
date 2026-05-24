@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:23:21",
+  "requested_title": "Buff-fronted Owl",
+  "resolved_title": "Buff-fronted owl",
+  "title_aliases": [
+    "Buff-fronted Owl"
+  ],
+  "bird_id": "bird-buff-fronted-owl-03a20e68",
+  "raw_file": "bird-buff-fronted-owl-03a20e68.json",
+  "bird": {
+    "id": "bird-buff-fronted-owl-03a20e68",
+    "name": "Buff-fronted owl",
+    "english_name": "Buff-fronted owl",
+    "latin_name": "Aegolius harrisii",
+    "summary": "The buff-fronted owl (Aegolius harrisii) is a small owl. It is found in widely separated areas in every South American country except Frenc…",
+    "lat": "4",
+    "lng": "-53",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Aegolius_harrisii-Buff-fronted_Owl.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-法屬圭亞那-f0f18b54",
+      "name": "法屬圭亞那",
+      "summary": "法屬圭亞那（法語：Guyane française），正式名称为圭亚那（Guyane，法語發音：[ɡɥijan] ；法屬圭亞那克里奧爾語：Lagwiyann），是法国的一个海外省与单一领土集体，位于南美洲北部大西洋畔，与巴西和苏里南交界，…",
+      "lat": "4",
+      "lng": "-53"
+    },
+    {
+      "id": "loc-蘇利南-5c6361e2",
+      "name": "蘇利南",
+      "summary": "蘇利南共和國（荷蘭語：Republiek Suriname），通稱蘇利南（Suriname；/ˈsʊərɪnæm, -nɑːm/ SOOR-in-A(H)M），舊稱洵南、荷屬圭亞那，位於南美洲東北部，地理上亦屬加勒比地區與西印度群島範疇。…",
+      "lat": "4",
+      "lng": "-56"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-buff-fronted-owl-03a20e68",
+      "subject": "Buff-fronted owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-法屬圭亞那-f0f18b54",
+      "object": "法屬圭亞那",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in widely separated areas in every South American country except French Guiana and Suriname.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-fronted-owl-03a20e68",
+      "subject": "Buff-fronted owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇利南-5c6361e2",
+      "object": "蘇利南",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in widely separated areas in every South American country except French Guiana and Suriname.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-fronted-owl-03a20e68",
+      "subject": "Buff-fronted owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

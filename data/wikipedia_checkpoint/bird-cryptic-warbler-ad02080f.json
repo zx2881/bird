@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:36:33",
+  "requested_title": "Cryptic Warbler",
+  "resolved_title": "Cryptic warbler",
+  "title_aliases": [
+    "Cryptic Warbler"
+  ],
+  "bird_id": "bird-cryptic-warbler-ad02080f",
+  "raw_file": "bird-cryptic-warbler-ad02080f.json",
+  "bird": {
+    "id": "bird-cryptic-warbler-ad02080f",
+    "name": "Cryptic warbler",
+    "english_name": "Cryptic warbler",
+    "latin_name": "Cryptosylvicola randrianasoloi",
+    "summary": "The cryptic warbler (Cryptosylvicola randrianasoloi) is a species of Malagasy warbler in the family Bernieridae. It was formerly placed in…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cryptic_Warbler_iNaturalist.jpg/960px-Cryptic_Warbler_iNaturalist.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cryptic-warbler-ad02080f",
+      "subject": "Cryptic warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although found in many habitats, the cryptic warbler prefers evergreen, humid rain forest between elevation. It can be found in the canopy and sub-canopy of trees and shrubs between off the ground, with a diet consisting of insects. Its breeding season lasts from October to December",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cryptic-warbler-ad02080f",
+      "subject": "Cryptic warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

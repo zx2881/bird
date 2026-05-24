@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:59:02",
+  "requested_title": "White-eared Honeyeater",
+  "resolved_title": "White-eared honeyeater",
+  "title_aliases": [
+    "White-eared Honeyeater"
+  ],
+  "bird_id": "bird-white-eared-honeyeater-3f163c94",
+  "raw_file": "bird-white-eared-honeyeater-3f163c94.json",
+  "bird": {
+    "id": "bird-white-eared-honeyeater-3f163c94",
+    "name": "White-eared honeyeater",
+    "english_name": "White-eared honeyeater",
+    "latin_name": "Nesoptilotis leucotis",
+    "summary": "The white-eared honeyeater (Nesoptilotis leucotis) is a medium-sized honeyeater found in Australia. It is a member of the family Meliphagid…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/White-eared_Honeyeater_-_Blackheath.jpg/960px-White-eared_Honeyeater_-_Blackheath.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-eared-honeyeater-3f163c94",
+      "subject": "White-eared honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|White-eared honeyeater thumb|White-eared honeyeater The white-eared honeyeater (Nesoptilotis leucotis) is a medium-sized honeyeater found in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-eared-honeyeater-3f163c94",
+      "subject": "White-eared honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|White-eared honeyeater thumb|White-eared honeyeater The white-eared honeyeater (Nesoptilotis leucotis) is a medium-sized honeyeater found in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-eared-honeyeater-3f163c94",
+      "subject": "White-eared honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The white-eared honeyeater's preferred habitat is in forests, woodlands, heathlands, mallee and dry inland scrublands. A eucalyptus canopy, rough bark and a shrub layer are the most important requirements for white-eared honeyeaters",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-white-eared-honeyeater-3f163c94",
+      "subject": "White-eared honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-white-eared-honeyeater-3f163c94",
+      "subject": "White-eared honeyeater",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Although the white-eared honeyeater has a decreasing population, it has an extensive distribution, and is considered to be of least concern on the IUCN Red List. Threats to the white-eared honeyeater include habitat degradation, fire and loss of understory",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

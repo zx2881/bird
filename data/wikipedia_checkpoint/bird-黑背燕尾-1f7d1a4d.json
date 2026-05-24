@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:51:13",
+  "requested_title": "Black-backed Forktail",
+  "resolved_title": "Black-backed forktail",
+  "title_aliases": [
+    "Black-backed Forktail"
+  ],
+  "bird_id": "bird-黑背燕尾-1f7d1a4d",
+  "raw_file": "bird-黑背燕尾-1f7d1a4d.json",
+  "bird": {
+    "id": "bird-黑背燕尾-1f7d1a4d",
+    "name": "黑背燕尾",
+    "english_name": "Black-backed forktail",
+    "latin_name": "Enicurus immaculatus",
+    "summary": "The black-backed forktail (Enicurus immaculatus), occasionally referred to as the black-throated forktail, is a forktail species in the fam…",
+    "lat": "24.9",
+    "lng": "91.86666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Black-backed_forktail_%2816807008853%29.jpg/960px-Black-backed_forktail_%2816807008853%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-錫爾赫特-9b5a98a6",
+      "name": "錫爾赫特",
+      "summary": "锡尔赫特（孟加拉語：সিলেট，發音：[sileʈ] ；英語：Sylhet；又译锡莱特）為錫爾赫特專區及錫爾赫特縣的首府及主要城市，位於孟加拉國東北部，於2009年3月取得孟加拉都會城市(metropolitan city)的地位。錫爾赫…",
+      "lat": "24.9",
+      "lng": "91.86666667"
+    },
+    {
+      "id": "loc-吉大港-42043b7f",
+      "name": "吉大港",
+      "summary": "吉大港（孟加拉語：চট্টগ্রাম，羅馬化：Côṭṭôgrām，發音：[ˈt͡ʃɔʈːoɡram] ；英語：Chittagong）是孟加拉国第二大城市以及第一大港，吉大港区的首府，人口5,658,560人（2020年），且仍然持續增长，…",
+      "lat": "22.335",
+      "lng": "91.8325"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑背燕尾-1f7d1a4d",
+      "subject": "黑背燕尾",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Indian subcontinent and in some adjoining regions of Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑背燕尾-1f7d1a4d",
+      "subject": "黑背燕尾",
+      "predicate": "distributed_in",
+      "object_id": "loc-錫爾赫特-9b5a98a6",
+      "object": "錫爾赫特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is also found in the Sylhet and Chittagong regions of Bangladesh, where it is uncommon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑背燕尾-1f7d1a4d",
+      "subject": "黑背燕尾",
+      "predicate": "distributed_in",
+      "object_id": "loc-吉大港-42043b7f",
+      "object": "吉大港",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is also found in the Sylhet and Chittagong regions of Bangladesh, where it is uncommon",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑背燕尾-1f7d1a4d",
+      "subject": "黑背燕尾",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-river",
+      "object": "山地河流",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The black-backed forktail's habitat of choice is near fast-flowing rivers and streams in moist tropical broadleaf forest and subtropical lowland forest. It frequents rocks and boulders within or bordering streams, as well as mud or sand banks bordering rapidly moving stretches of water. The western end of the species's range is in Garhwal, in the northwest portion of the Indian state of Uttarakhand",
+      "object_summary": "冷水、清澈且流速较高的繁殖河流环境。"
+    },
+    {
+      "subject_id": "bird-黑背燕尾-1f7d1a4d",
+      "subject": "黑背燕尾",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

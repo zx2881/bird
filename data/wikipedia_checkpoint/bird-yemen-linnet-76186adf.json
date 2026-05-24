@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:22:07",
+  "requested_title": "Yemen Linnet",
+  "resolved_title": "Yemen linnet",
+  "title_aliases": [
+    "Yemen Linnet"
+  ],
+  "bird_id": "bird-yemen-linnet-76186adf",
+  "raw_file": "bird-yemen-linnet-76186adf.json",
+  "bird": {
+    "id": "bird-yemen-linnet-76186adf",
+    "name": "Yemen linnet",
+    "english_name": "Yemen linnet",
+    "latin_name": "Linaria (bird) yemenensis",
+    "summary": "The Yemen linnet (Linaria yemenensis) is a species of finch in the family Fringillidae. It is native to the Southwestern Arabian foothills…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Linaria_yemenensis_261076382.jpg/960px-Linaria_yemenensis_261076382.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-southwestern-arabian-foothills-savanna-80da05a8",
+      "name": "Southwestern Arabian foothills savanna",
+      "summary": "The Southwestern Arabian foothills savanna, also known as the Southwestern Arabian Escarpment shrublands and woodlands,…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yemen-linnet-76186adf",
+      "subject": "Yemen linnet",
+      "predicate": "distributed_in",
+      "object_id": "loc-southwestern-arabian-foothills-savanna-80da05a8",
+      "object": "Southwestern Arabian foothills savanna",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Southwestern Arabian foothills savanna (Saudi Arabia and Yemen)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yemen-linnet-76186adf",
+      "subject": "Yemen linnet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical dry shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-yemen-linnet-76186adf",
+      "subject": "Yemen linnet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

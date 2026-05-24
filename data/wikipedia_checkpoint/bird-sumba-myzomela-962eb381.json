@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:53:14",
+  "requested_title": "Sumba Myzomela",
+  "resolved_title": "Sumba myzomela",
+  "title_aliases": [
+    "Sumba Myzomela"
+  ],
+  "bird_id": "bird-sumba-myzomela-962eb381",
+  "raw_file": "bird-sumba-myzomela-962eb381.json",
+  "bird": {
+    "id": "bird-sumba-myzomela-962eb381",
+    "name": "Sumba myzomela",
+    "english_name": "Sumba myzomela",
+    "latin_name": "Myzomela dammermani",
+    "summary": "The Sumba myzomela (Myzomela dammermani) is a species of bird in the family Meliphagidae. It is endemic to Sumba in the western Lesser Sund…",
+    "lat": "-9.66666667",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Myzomela_dammermani_-_Christoph_Moning_-_107994728_%28cropped%29.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-松巴島-041c77b7",
+      "name": "松巴島",
+      "summary": "松巴島（印尼語：Sumba）是印度尼西亞東部東努沙登加拉省的島嶼，屬於小巽他群島，位於松巴哇島東南、弗洛勒斯島西南、帝汶以西、澳洲以北。 面積11,153平方公里，2005年人口611,422。松巴島大部地区海拔600－1000米的高原，…",
+      "lat": "-9.66666667",
+      "lng": "120"
+    },
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sumba-myzomela-962eb381",
+      "subject": "Sumba myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-松巴島-041c77b7",
+      "object": "松巴島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Sumba in the western Lesser Sunda Islands of Indonesia, where it is found in forest with a significant component of deciduous trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sumba-myzomela-962eb381",
+      "subject": "Sumba myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Sumba in the western Lesser Sunda Islands of Indonesia, where it is found in forest with a significant component of deciduous trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sumba-myzomela-962eb381",
+      "subject": "Sumba myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Sumba in the western Lesser Sunda Islands of Indonesia, where it is found in forest with a significant component of deciduous trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sumba-myzomela-962eb381",
+      "subject": "Sumba myzomela",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

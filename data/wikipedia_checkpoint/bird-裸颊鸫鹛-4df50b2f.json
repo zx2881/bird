@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:54:03",
+  "requested_title": "Bare-cheeked Babbler",
+  "resolved_title": "Bare-cheeked babbler",
+  "title_aliases": [
+    "Bare-cheeked Babbler"
+  ],
+  "bird_id": "bird-裸颊鸫鹛-4df50b2f",
+  "raw_file": "bird-裸颊鸫鹛-4df50b2f.json",
+  "bird": {
+    "id": "bird-裸颊鸫鹛-4df50b2f",
+    "name": "裸颊鸫鹛",
+    "english_name": "Bare-cheeked babbler",
+    "latin_name": "Turdoides gymnogenys",
+    "summary": "裸颊鸫鹛（学名：Turdoides gymnogenys），是画眉科鸫鹛属的一种，分布于安哥拉和纳米比亚。全球活动范围约为196,000平方千米。该物种的保护状况被评为无危。 裸颊鸫鹛的平均体重约为75.2克。栖息地包括亚热带或热带的旱林、干燥的稀树草原、亚热带或热带的（低地）…",
+    "lat": "-18.05555556",
+    "lng": "13.84055556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Bare-cheeked_Babbler-5996_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg/960px-Bare-cheeked_Babbler-5996_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-庫內內區-cdeebf5a",
+      "name": "庫內內區",
+      "summary": "庫內內區（英語：Kunene Region）是納米比亞的一個區，位於該國南部，北隔庫內內河與安哥拉相望，西面大西洋。面積約144,255平方公里，2011年人口86,856人。首府奧普沃。下分6分區。 参考文献",
+      "lat": "-18.05555556",
+      "lng": "13.84055556"
+    },
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-裸颊鸫鹛-4df50b2f",
+      "subject": "裸颊鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-庫內內區-cdeebf5a",
+      "object": "庫內內區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bare-cheeked babbler is a passerine bird in the family Leiothrichidae and is native to arid savannas of southwestern Africa, specifically northwestern Namibia and southwestern Angola. It is known for its brown feathers and the bare skin on its cheeks. The species is listed as Least Concern by the International Union for Conservation of Nature and is a commonly found local bird",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-裸颊鸫鹛-4df50b2f",
+      "subject": "裸颊鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bare-cheeked babbler is a passerine bird in the family Leiothrichidae and is native to arid savannas of southwestern Africa, specifically northwestern Namibia and southwestern Angola. It is known for its brown feathers and the bare skin on its cheeks. The species is listed as Least Concern by the International Union for Conservation of Nature and is a commonly found local bird",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-裸颊鸫鹛-4df50b2f",
+      "subject": "裸颊鸫鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-裸颊鸫鹛-4df50b2f",
+      "subject": "裸颊鸫鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "They have a stable population and have a large range. Their main threats include overgrazing and habitat loss, but much of its habitat lies in protected areas, supporting long-term stability",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

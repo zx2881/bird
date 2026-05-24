@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:31:16",
+  "requested_title": "Basra Reed Warbler",
+  "resolved_title": "Basra reed warbler",
+  "title_aliases": [
+    "Basra Reed Warbler"
+  ],
+  "bird_id": "bird-basra-reed-warbler-cd377726",
+  "raw_file": "bird-basra-reed-warbler-cd377726.json",
+  "bird": {
+    "id": "bird-basra-reed-warbler-cd377726",
+    "name": "Basra reed warbler",
+    "english_name": "Basra reed warbler",
+    "latin_name": "Acrocephalus (bird) griseldis",
+    "summary": "The Basra reed warbler (Acrocephalus griseldis) is a \"warbler\" of the genus Acrocephalus. It is a near-endemic breeder in the Tigris–Euphra…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Acrocephalus_griseldis_103893396.jpg/960px-Acrocephalus_griseldis_103893396.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东非-af146c9c",
+      "name": "东非",
+      "summary": "东非即非洲的东部地区，根據聯合國的次分區共有18個国家或屬地： 埃塞俄比亞、索馬里（含索馬利蘭）、厄立特里亚和吉布提，以上几國在地理上稱為非洲之角 坦桑尼亚、肯尼亚、乌干达、卢旺达、布隆迪和南苏丹，以上六國組成東非共同體 赞比亚、津巴布韦…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-basra-reed-warbler-cd377726",
+      "subject": "Basra reed warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-东非-af146c9c",
+      "object": "东非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in East Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-basra-reed-warbler-cd377726",
+      "subject": "Basra reed warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In 2007, the species was discovered as a breeding bird in northern Israel. Due to the drainage of the Mesopotamian marshes throughout the 1980s and the 1990s, and the subsequent near destruction of its native habitat, the Basra reed warbler is considered an endangered species.Jabbar, M",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-basra-reed-warbler-cd377726",
+      "subject": "Basra reed warbler",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-basra-reed-warbler-cd377726",
+      "subject": "Basra reed warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-wetland-drainage",
+      "object": "湿地排水",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In 2007, the species was discovered as a breeding bird in northern Israel. Due to the drainage of the Mesopotamian marshes throughout the 1980s and the 1990s, and the subsequent near destruction of its native habitat, the Basra reed warbler is considered an endangered species.Jabbar, M",
+      "object_summary": "湿地被排干转为农业或建设用地。"
+    }
+  ]
+}

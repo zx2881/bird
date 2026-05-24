@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:16:15",
+  "requested_title": "Grey-capped Social Weaver",
+  "resolved_title": "Grey-capped social weaver",
+  "title_aliases": [
+    "Grey-capped Social Weaver"
+  ],
+  "bird_id": "bird-grey-capped-social-weaver-e7085c21",
+  "raw_file": "bird-grey-capped-social-weaver-e7085c21.json",
+  "bird": {
+    "id": "bird-grey-capped-social-weaver-e7085c21",
+    "name": "Grey-capped social weaver",
+    "english_name": "Grey-capped social weaver",
+    "latin_name": "Pseudonigrita arnaudi",
+    "summary": "The grey-capped social weaver (Pseudonigrita arnaudi) is a sparrow-like liver-colored bird, with a pale grey crown, a dark grey bill, a whi…",
+    "lat": "-1",
+    "lng": "33",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pseudonigrita-arnaudi-Amboseli.JPG/960px-Pseudonigrita-arnaudi-Amboseli.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-維多利亞湖-42b29c04",
+      "name": "維多利亞湖",
+      "summary": "維多利亞湖（英語：Lake Victoria）是非洲最大的淡水湖和世界第二大淡水湖，面積68,870平方公里，僅次於蘇必略湖，也是世界上最大的熱帶淡水湖。 如果依含水量來比較，維多利亞湖共有2760立方公里的淡水量，排名世界第七。維多利亞…",
+      "lat": "-1",
+      "lng": "33"
+    },
+    {
+      "id": "loc-马拉维湖-54cf4562",
+      "name": "马拉维湖",
+      "summary": "马拉维湖（Lake Malawi），亦称尼亚萨湖（Lake Nyasa），非洲南部大湖，位于东非大裂谷的最南端。 马拉维、坦桑尼亚和莫桑比克三國環繞該湖。马拉维和坦桑尼亚对该湖的划分有争议，马拉维认为整个湖面均是其领土，而坦桑尼亚坚持要以…",
+      "lat": "-12",
+      "lng": "34.5"
+    },
+    {
+      "id": "loc-达累斯萨拉姆-519f1c2e",
+      "name": "达累斯萨拉姆",
+      "summary": "达累斯萨拉姆（斯瓦希里語：Dar es Salaam，台湾译作三蘭港）（意譯為「安府」／「平安之寓所／宅第」）是坦桑尼亚最大的城市兼旧都，以及同名省份——达累斯萨拉姆区的首府，堪称是坦桑尼亚的经济首都。面积162.5平方公里，都会区人口2…",
+      "lat": "-6.81611111",
+      "lng": "39.28027778"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-capped-social-weaver-e7085c21",
+      "subject": "Grey-capped social weaver",
+      "predicate": "distributed_in",
+      "object_id": "loc-維多利亞湖-42b29c04",
+      "object": "維多利亞湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "arnaudi dorsalis occurs in Tanzania, in a zone between the south shore of Lake Victoria to north of Lake Malawi, and an isolated population just south of Dar es Salaam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-capped-social-weaver-e7085c21",
+      "subject": "Grey-capped social weaver",
+      "predicate": "distributed_in",
+      "object_id": "loc-马拉维湖-54cf4562",
+      "object": "马拉维湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "arnaudi dorsalis occurs in Tanzania, in a zone between the south shore of Lake Victoria to north of Lake Malawi, and an isolated population just south of Dar es Salaam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-capped-social-weaver-e7085c21",
+      "subject": "Grey-capped social weaver",
+      "predicate": "distributed_in",
+      "object_id": "loc-达累斯萨拉姆-519f1c2e",
+      "object": "达累斯萨拉姆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "arnaudi dorsalis occurs in Tanzania, in a zone between the south shore of Lake Victoria to north of Lake Malawi, and an isolated population just south of Dar es Salaam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-capped-social-weaver-e7085c21",
+      "subject": "Grey-capped social weaver",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

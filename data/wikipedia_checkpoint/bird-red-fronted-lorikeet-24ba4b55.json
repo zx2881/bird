@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:03:54",
+  "requested_title": "Red-fronted Lorikeet",
+  "resolved_title": "Red-fronted lorikeet",
+  "title_aliases": [
+    "Red-fronted Lorikeet"
+  ],
+  "bird_id": "bird-red-fronted-lorikeet-24ba4b55",
+  "raw_file": "bird-red-fronted-lorikeet-24ba4b55.json",
+  "bird": {
+    "id": "bird-red-fronted-lorikeet-24ba4b55",
+    "name": "Red-fronted lorikeet",
+    "english_name": "Red-fronted lorikeet",
+    "latin_name": "Hypocharmosyna rubronotata",
+    "summary": "The red-fronted lorikeet (Hypocharmosyna rubronotata), also known as the red-spotted lorikeet or red-rumped lorikeet is a species of parrot…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Charmosyna_rubronotata.jpg/960px-Charmosyna_rubronotata.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-比亞克島-facd641d",
+      "name": "比亞克島",
+      "summary": "比亚克岛亦作韋亞克島（Wiak Islands），印度尼西亞官方語作Pulau Biak。 印度尼西亞巴布亞北部海岸外斯考滕群島（Schouten Islands）的最大島嶼。属于巴布亚省比亚克农福尔县。位於极乐鸟湾入口處。島長72公里（…",
+      "lat": "-1",
+      "lng": "136"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-fronted-lorikeet-24ba4b55",
+      "subject": "Red-fronted lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern New Guinea and the island of Biak",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-fronted-lorikeet-24ba4b55",
+      "subject": "Red-fronted lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-比亞克島-facd641d",
+      "object": "比亞克島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern New Guinea and the island of Biak",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-fronted-lorikeet-24ba4b55",
+      "subject": "Red-fronted lorikeet",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-red-fronted-lorikeet-24ba4b55",
+      "subject": "Red-fronted lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

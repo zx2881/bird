@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:34:26",
+  "requested_title": "Mangrove Vireo",
+  "resolved_title": "Mangrove vireo",
+  "title_aliases": [
+    "Mangrove Vireo"
+  ],
+  "bird_id": "bird-mangrove-vireo-63c7ae33",
+  "raw_file": "bird-mangrove-vireo-63c7ae33.json",
+  "bird": {
+    "id": "bird-mangrove-vireo-63c7ae33",
+    "name": "Mangrove vireo",
+    "english_name": "Mangrove vireo",
+    "latin_name": "Vireo pallens",
+    "summary": "The mangrove vireo (Vireo pallens) is a species of bird in the family Vireonidae, the vireos, greenlets, and shrike-babblers. It is found M…",
+    "lat": "13.34888889",
+    "lng": "-81.37472222",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Vireo_pallens.jpg/960px-Vireo_pallens.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-普羅維登西亞島-1b8938b1",
+      "name": "普羅維登西亞島",
+      "summary": "普羅維登西亞島（西班牙語：Isla de Providencia）是哥倫比亞的島嶼，位於加勒比海，由聖安德列斯-普羅維登西亞省負責管轄，長7公里、寬4公里，面積17平方公里，最高點海拔高度360米，人口約5,000。 參看 聖安德烈斯島…",
+      "lat": "13.34888889",
+      "lng": "-81.37472222"
+    },
+    {
+      "id": "loc-santa-catalina-island-colombia-a855dd92",
+      "name": "Santa Catalina Island (Colombia)",
+      "summary": "Santa Catalina Island is a small Colombian island in the Caribbean Sea.",
+      "lat": "13.38833333",
+      "lng": "-81.37361111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mangrove-vireo-63c7ae33",
+      "subject": "Mangrove vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-普羅維登西亞島-1b8938b1",
+      "object": "普羅維登西亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "approximans: Isla de Providencia and Isla Santa Catalina off the east coast of Nicaragua The mangrove vireo inhabits different landscapes on the Pacific and Caribbean sides",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-vireo-63c7ae33",
+      "subject": "Mangrove vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-santa-catalina-island-colombia-a855dd92",
+      "object": "Santa Catalina Island (Colombia)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "approximans: Isla de Providencia and Isla Santa Catalina off the east coast of Nicaragua The mangrove vireo inhabits different landscapes on the Pacific and Caribbean sides",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-vireo-63c7ae33",
+      "subject": "Mangrove vireo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

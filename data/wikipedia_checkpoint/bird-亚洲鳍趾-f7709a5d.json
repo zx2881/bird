@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:37:04",
+  "requested_title": "Masked Finfoot",
+  "resolved_title": "Masked finfoot",
+  "title_aliases": [
+    "Masked Finfoot"
+  ],
+  "bird_id": "bird-亚洲鳍趾-f7709a5d",
+  "raw_file": "bird-亚洲鳍趾-f7709a5d.json",
+  "bird": {
+    "id": "bird-亚洲鳍趾-f7709a5d",
+    "name": "亚洲鳍趾䴘",
+    "english_name": "Masked finfoot",
+    "latin_name": "Heliopais personatus",
+    "summary": "亚洲鳍趾䴘（台湾作擬鰭腳日鷈，学名：Heliopais personatus），是鹤形目日鷉科的一种鸟类。 特征 亚洲鳍趾䴘体重约510克，翼长约23.95厘米，喙宽度约6.6毫米，喙厚度约12.2毫米，嘴峰长约52.8毫米，跗蹠长约47.6毫米，尾长约108.2毫米。",
+    "lat": "2",
+    "lng": "112",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Masked_Finfoot.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来西亚-3f6d0e1e",
+      "name": "马来西亚",
+      "summary": "馬來西亞（馬来语、英語：Malaysia），简称大馬或馬國，是位於东南亚的多元种族國家。由前馬來亚联合邦、北婆羅洲（今沙巴）、砂拉越及新加坡於1963年9月16日所組成的联邦制、议会民主制、选举君主制和君主立宪制國家。 馬来西亚全国总面积…",
+      "lat": "2",
+      "lng": "112"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-亚洲鳍趾-f7709a5d",
+      "subject": "亚洲鳍趾䴘",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来西亚-3f6d0e1e",
+      "object": "马来西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The masked finfoot can be found in a range of habitats across the eastern Indian subcontinent through to Malaysia and Indonesia in a variety of fresh to brackish wetlands, although due to habitat destruction it has disappeared from most of this range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-亚洲鳍趾-f7709a5d",
+      "subject": "亚洲鳍趾䴘",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The masked finfoot can be found in a range of habitats across the eastern Indian subcontinent through to Malaysia and Indonesia in a variety of fresh to brackish wetlands, although due to habitat destruction it has disappeared from most of this range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-亚洲鳍趾-f7709a5d",
+      "subject": "亚洲鳍趾䴘",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The masked finfoot can be found in a range of habitats across the eastern Indian subcontinent through to Malaysia and Indonesia in a variety of fresh to brackish wetlands, although due to habitat destruction it has disappeared from most of this range",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-亚洲鳍趾-f7709a5d",
+      "subject": "亚洲鳍趾䴘",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-亚洲鳍趾-f7709a5d",
+      "subject": "亚洲鳍趾䴘",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Major threats to the species are human disturbance and habitat loss in the low-lying forested wetlands that it inhabits. The bird is protected in Malaysia",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-亚洲鳍趾-f7709a5d",
+      "subject": "亚洲鳍趾䴘",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Major threats to the species are human disturbance and habitat loss in the low-lying forested wetlands that it inhabits. The bird is protected in Malaysia",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

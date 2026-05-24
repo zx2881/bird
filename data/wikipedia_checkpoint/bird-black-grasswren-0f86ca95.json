@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:38:49",
+  "requested_title": "Black Grasswren",
+  "resolved_title": "Black grasswren",
+  "title_aliases": [
+    "Black Grasswren"
+  ],
+  "bird_id": "bird-black-grasswren-0f86ca95",
+  "raw_file": "bird-black-grasswren-0f86ca95.json",
+  "bird": {
+    "id": "bird-black-grasswren-0f86ca95",
+    "name": "Black grasswren",
+    "english_name": "Black grasswren",
+    "latin_name": "Amytornis housei",
+    "summary": "The black grasswren (Amytornis housei), known as dalal to the Wunambal people, is a species of bird in the family Maluridae. It is endemic…",
+    "lat": "-14.80666667",
+    "lng": "125.70805556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Amytornis_housei_-_Robert_Clayton_-_407664107.jpeg/960px-Amytornis_housei_-_Robert_Clayton_-_407664107.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-mitchell-river-national-park-western-australia-9e1d46b9",
+      "name": "Mitchell River National Park (Western Australia)",
+      "summary": "Mitchell River National Park is a national park in the Kimberley region of Western Australia, 2,140 kilometres (1,330 m…",
+      "lat": "-14.80666667",
+      "lng": "125.70805556"
+    },
+    {
+      "id": "loc-金伯利-西澳-1cd658a5",
+      "name": "金伯利 (西澳)",
+      "summary": "金伯利（Kimberley）是澳大利亚西澳大利亚州的九个地区之一，位于西澳州的北部，西临印度洋，北临帝汶海，南为大沙沙漠和塔纳米沙漠，东则与澳大利亚北领地接壤。 该地区以位于南非的金伯利钻石矿区命名，因这两个区域在地形、风景和资源方面均有…",
+      "lat": "-17.49145",
+      "lng": "124.53265"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-grasswren-0f86ca95",
+      "subject": "Black grasswren",
+      "predicate": "distributed_in",
+      "object_id": "loc-mitchell-river-national-park-western-australia-9e1d46b9",
+      "object": "Mitchell River National Park (Western Australia)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "27)|journal=Emu|volume=70|issue=4|pages=193–95|url=http://www.publish.csiro.au/mu/pdf/MU970193|doi=10.1071/mu970193|url-access=subscription}} Its natural habitat is Mediterranean-type shrubby vegetation and open woodland, punctuated by large sandstone boulders and slabs. It inhabits the Mitchell River National Park in the Kimberley region of north-west WA. It has been classified as least concern",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-grasswren-0f86ca95",
+      "subject": "Black grasswren",
+      "predicate": "distributed_in",
+      "object_id": "loc-金伯利-西澳-1cd658a5",
+      "object": "金伯利 (西澳)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "27)|journal=Emu|volume=70|issue=4|pages=193–95|url=http://www.publish.csiro.au/mu/pdf/MU970193|doi=10.1071/mu970193|url-access=subscription}} Its natural habitat is Mediterranean-type shrubby vegetation and open woodland, punctuated by large sandstone boulders and slabs. It inhabits the Mitchell River National Park in the Kimberley region of north-west WA. It has been classified as least concern",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-grasswren-0f86ca95",
+      "subject": "Black grasswren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

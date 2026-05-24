@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:53:35",
+  "requested_title": "Maranon Sparrow",
+  "resolved_title": "Marañón sparrow",
+  "title_aliases": [
+    "Maranon Sparrow",
+    "Marañón sparrow"
+  ],
+  "bird_id": "bird-mara-n-sparrow-917ae3ec",
+  "raw_file": "bird-mara-n-sparrow-917ae3ec.json",
+  "bird": {
+    "id": "bird-mara-n-sparrow-917ae3ec",
+    "name": "Marañón sparrow",
+    "english_name": "Marañón sparrow",
+    "latin_name": "Arremon nigriceps",
+    "summary": "The Maranon sparrow (Arremon nigriceps) is a Near Threatened species of passerine bird in the New World sparrow family Passerellidae. It is…",
+    "lat": "-7.967438",
+    "lng": "-77.297745",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Arremon_nigriceps_-_David_F._Belmonte_-_349555551.jpeg/960px-Arremon_nigriceps_-_David_F._Belmonte_-_349555551.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-馬拉尼翁河-cfb9e961",
+      "name": "馬拉尼翁河",
+      "summary": "馬拉尼翁河（西班牙語：Río Marañón）發源自秘魯利馬東北160公里，向西北方向流經安第斯山脈河谷到達南緯5度36分，然後轉往東北方向橫越安第斯山脈，與烏卡亞利河（Ucayali River）匯流，成為亞馬遜河。",
+      "lat": "-7.967438",
+      "lng": "-77.297745"
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mara-n-sparrow-917ae3ec",
+      "subject": "Marañón sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-馬拉尼翁河-cfb9e961",
+      "object": "馬拉尼翁河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Maranon sparrow is found in the upper watershed of the Marañón River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mara-n-sparrow-917ae3ec",
+      "subject": "Marañón sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits somewhat dry tropical deciduous forest and gallery forest; locally it occurs in more humid evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mara-n-sparrow-917ae3ec",
+      "subject": "Marañón sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits somewhat dry tropical deciduous forest and gallery forest; locally it occurs in more humid evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mara-n-sparrow-917ae3ec",
+      "subject": "Marañón sparrow",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-mara-n-sparrow-917ae3ec",
+      "subject": "Marañón sparrow",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Due to the species' preference for forests, it is vulnerable to the loss and degradation of habitat, mainly through logging and expansion of agriculture and livestock pastures",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

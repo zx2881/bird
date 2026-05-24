@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:28:04",
+  "requested_title": "Red-breasted Swallow",
+  "resolved_title": "Red-breasted swallow",
+  "title_aliases": [
+    "Red-breasted Swallow"
+  ],
+  "bird_id": "bird-red-breasted-swallow-6da32016",
+  "raw_file": "bird-red-breasted-swallow-6da32016.json",
+  "bird": {
+    "id": "bird-red-breasted-swallow-6da32016",
+    "name": "Red-breasted swallow",
+    "english_name": "Red-breasted swallow",
+    "latin_name": "Cecropis semirufa",
+    "summary": "The red-breasted swallow (Cecropis semirufa), also known as the rufous-chested swallow, is a member of the family Hirundinidae, found in Su…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Red-breasted_Swallow_%28Hirundo_semirufa%29_%2830987147586%29.jpg/960px-Red-breasted_Swallow_%28Hirundo_semirufa%29_%2830987147586%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-carl-jakob-sundevall-74842590",
+      "name": "Carl Jakob Sundevall",
+      "summary": "Carl Jakob Sundevall (22 October 1801 – 2 February 1875) was a Swedish zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-breasted-swallow-6da32016",
+      "subject": "Red-breasted swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-carl-jakob-sundevall-74842590",
+      "object": "Carl Jakob Sundevall",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-breasted swallow (Cecropis semirufa), also known as the rufous-chested swallow, is a member of the family Hirundinidae, found in Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-breasted-swallow-6da32016",
+      "subject": "Red-breasted swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-breasted swallow (Cecropis semirufa), also known as the rufous-chested swallow, is a member of the family Hirundinidae, found in Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-breasted-swallow-6da32016",
+      "subject": "Red-breasted swallow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

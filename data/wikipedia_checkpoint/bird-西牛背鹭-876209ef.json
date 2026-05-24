@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:43:02",
+  "requested_title": "Western Cattle Egret",
+  "resolved_title": "Western cattle egret",
+  "title_aliases": [
+    "Western Cattle Egret"
+  ],
+  "bird_id": "bird-西牛背鹭-876209ef",
+  "raw_file": "bird-西牛背鹭-876209ef.json",
+  "bird": {
+    "id": "bird-西牛背鹭-876209ef",
+    "name": "西牛背鹭",
+    "english_name": "Western cattle egret",
+    "latin_name": "Ardea ibis",
+    "summary": "西牛背鹭（學名：Bubulcus ibis，台湾作西方牛背鷺），又稱西方黃頭鷺，是鹈形目鹭科牛背鷺屬的一个种。 特征 身长约51cm，与其他鹭的区别在体型较粗壮，颈较短而头圆，嘴较短厚。",
+    "lat": "39",
+    "lng": "-8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Kuhreiher_am_Strand_in_%C3%84gypten_9528BE.jpg/960px-Kuhreiher_am_Strand_in_%C3%84gypten_9528BE.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-葡萄牙-127a3e2b",
+      "name": "葡萄牙",
+      "summary": "葡萄牙共和國（葡萄牙語：República Portuguesa），簡稱葡萄牙（Portugal [puɾtuˈɣaɫ]）或葡國，是位於西南歐伊比利亞半島上的一個共和制國家，實行單一制和半總統制政體，以里斯本為首都。葡萄牙的西部及南部瀕臨…",
+      "lat": "39",
+      "lng": "-8"
+    },
+    {
+      "id": "loc-惠普斯奈德动物园-97490805",
+      "name": "惠普斯奈德动物园",
+      "summary": "ZSL惠普斯奈德动物园（ZSL Whipsnade Zoo），原名惠普斯奈德野生动物园（Whipsnade Wild Animal Park），是英国贝德福德郡鄧斯特布爾附近惠普斯奈德的一个动物园。它是伦敦动物学会拥有的两个动物园之一（另…",
+      "lat": "51.84972222",
+      "lng": "-0.54416667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-西牛背鹭-876209ef",
+      "subject": "西牛背鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-葡萄牙-127a3e2b",
+      "object": "葡萄牙",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Range expansion in the Americas (click to magnify) The cattle egret has undergone one of the most rapid and wide reaching natural expansions of any bird species. It was originally native to parts of southern Spain and Portugal, tropical and subtropical Africa and western Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西牛背鹭-876209ef",
+      "subject": "西牛背鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-惠普斯奈德动物园-97490805",
+      "object": "惠普斯奈德动物园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Numerous birds were also released by Whipsnade Zoo in England, but the species was never established. Although the cattle egret sometimes feeds in shallow water, unlike most herons it is typically found in fields and dry grassy habitats, reflecting its greater dietary reliance on terrestrial insects rather than aquatic prey",
+      "object_summary": ""
+    }
+  ]
+}

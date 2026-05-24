@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:15:43",
+  "requested_title": "Golden-crowned Manakin",
+  "resolved_title": "Golden-crowned manakin",
+  "title_aliases": [
+    "Golden-crowned Manakin"
+  ],
+  "bird_id": "bird-golden-crowned-manakin-2863097d",
+  "raw_file": "bird-golden-crowned-manakin-2863097d.json",
+  "bird": {
+    "id": "bird-golden-crowned-manakin-2863097d",
+    "name": "Golden-crowned manakin",
+    "english_name": "Golden-crowned manakin",
+    "latin_name": "Lepidothrix vilasboasi",
+    "summary": "The golden-crowned manakin (Lepidothrix vilasboasi) is a small species of perching bird in the manakin family (Pipridae) endemic to Brazil.…",
+    "lat": "-5.66666667",
+    "lng": "-52.73333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Lepidothrix_vilasboasi_Golden-crowned_Manakin_%28male%29.jpg/960px-Lepidothrix_vilasboasi_Golden-crowned_Manakin_%28male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-帕拉州-02b5c5b2",
+      "name": "帕拉州",
+      "summary": "帕拉（葡萄牙語：Pará，巴西葡萄牙语發音：[pa.'ɾa]）是巴西北部的一个州，首府貝倫。与帕拉州相邻的巴西州份有阿马帕州、马拉尼昂州、托坎廷斯州、马托格罗索州、亚马孙州和罗赖马州。 该州与圭亚那、苏里南接壤。",
+      "lat": "-5.66666667",
+      "lng": "-52.73333333"
+    },
+    {
+      "id": "loc-塔帕若斯河-128104de",
+      "name": "塔帕若斯河",
+      "summary": "塔帕若斯河（葡萄牙語：Rio Tapajós）是南美洲巴西的河流，河道全長約1,200英哩，發源自南緯14度25分的巴西高原，最後注入亞馬遜河。 塔帕若斯河的最長支流是特利斯皮里斯河。",
+      "lat": "-2.40833333",
+      "lng": "-54.73666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-crowned-manakin-2863097d",
+      "subject": "Golden-crowned manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-帕拉州-02b5c5b2",
+      "object": "帕拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The golden-crowned manakin has a small range in Brazil's southwestern Pará along the upper Cururu and Jamanxim rivers; both are tributaries of the Tapajós River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-crowned-manakin-2863097d",
+      "subject": "Golden-crowned manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔帕若斯河-128104de",
+      "object": "塔帕若斯河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The golden-crowned manakin has a small range in Brazil's southwestern Pará along the upper Cururu and Jamanxim rivers; both are tributaries of the Tapajós River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-crowned-manakin-2863097d",
+      "subject": "Golden-crowned manakin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-golden-crowned-manakin-2863097d",
+      "subject": "Golden-crowned manakin",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The species is threatened by ongoing deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-golden-crowned-manakin-2863097d",
+      "subject": "Golden-crowned manakin",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Though it \"[a]ppears to tolerate significant forest perturbation, including selective logging...Fieldwork [is] urgently required with the aim of determining the species’ current status and distribution, and the extent of habitat destruction and further threats at known sites\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:07:12",
+  "requested_title": "Bolivian Warbling Finch",
+  "resolved_title": "Bolivian warbling finch",
+  "title_aliases": [
+    "Bolivian Warbling Finch"
+  ],
+  "bird_id": "bird-bolivian-warbling-finch-b488f426",
+  "raw_file": "bird-bolivian-warbling-finch-b488f426.json",
+  "bird": {
+    "id": "bird-bolivian-warbling-finch-b488f426",
+    "name": "Bolivian warbling finch",
+    "english_name": "Bolivian warbling finch",
+    "latin_name": "Poospiza boliviana",
+    "summary": "The Bolivian warbling finch (Poospiza boliviana) is a species of bird in the family Thraupidae. It is found in Argentina and Bolivia.",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Poospiza_bolviana_-_Bolivian_Warbling-finch_%28cropped%29.jpg/960px-Poospiza_bolviana_-_Bolivian_Warbling-finch_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bolivian-warbling-finch-b488f426",
+      "subject": "Bolivian warbling finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bolivian-warbling-finch-b488f426",
+      "subject": "Bolivian warbling finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Bolivia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bolivian-warbling-finch-b488f426",
+      "subject": "Bolivian warbling finch",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical high-altitude shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-bolivian-warbling-finch-b488f426",
+      "subject": "Bolivian warbling finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

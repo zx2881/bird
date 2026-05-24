@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:01:47",
+  "requested_title": "Bay Wren",
+  "resolved_title": "Bay wren",
+  "title_aliases": [
+    "Bay Wren"
+  ],
+  "bird_id": "bird-bay-wren-e7e45127",
+  "raw_file": "bird-bay-wren-e7e45127.json",
+  "bird": {
+    "id": "bird-bay-wren-e7e45127",
+    "name": "Bay wren",
+    "english_name": "Bay wren",
+    "latin_name": "Cantorchilus nigricapillus",
+    "summary": "The bay wren (Cantorchilus nigricapillus) is a species of bird in the family Troglodytidae. It is native to southern Central America and no…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Bay_Wren.jpg/960px-Bay_Wren.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bay-wren-e7e45127",
+      "subject": "Bay wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to southern Central America and northwestern South America.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bay-wren-e7e45127",
+      "subject": "Bay wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits dense, fairly low, vegetation such as thickets along watercourses, overgrown clearings, roadsides, and the understory of secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bay-wren-e7e45127",
+      "subject": "Bay wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

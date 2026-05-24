@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:33:34",
+  "requested_title": "Apurimac Spinetail",
+  "resolved_title": "Apurímac spinetail",
+  "title_aliases": [
+    "Apurimac Spinetail",
+    "Apurímac spinetail"
+  ],
+  "bird_id": "bird-apur-mac-spinetail-3c75c30f",
+  "raw_file": "bird-apur-mac-spinetail-3c75c30f.json",
+  "bird": {
+    "id": "bird-apur-mac-spinetail-3c75c30f",
+    "name": "Apurímac spinetail",
+    "english_name": "Apurímac spinetail",
+    "latin_name": "Synallaxis courseni",
+    "summary": "The Apurimac spinetail (Synallaxis courseni) is a Vulnerable species of bird in the Furnariinae subfamily of the ovenbird family Furnariida…",
+    "lat": "-13.55944444",
+    "lng": "-72.93305556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Synallaxis_courseni_-_Apur%C3%ADmac_Spinetail%3B_Abancay%2C_Apur%C3%ADmac%2C_Per%C3%BA.jpg/960px-Synallaxis_courseni_-_Apur%C3%ADmac_Spinetail%3B_Abancay%2C_Apur%C3%ADmac%2C_Per%C3%BA.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安派山-203e4fec",
+      "name": "安派山",
+      "summary": "安派山（西班牙語：Ampay），是秘魯的山峰，位於該國南部阿普里馬克大區，由阿班凱區、瓦尼帕卡區和坦布爾科區負責管轄，屬於安地斯山脈的一部分，海拔高度5,236米。 參考資料 Peru 1:100 000, Abancay (28-q).",
+      "lat": "-13.55944444",
+      "lng": "-72.93305556"
+    },
+    {
+      "id": "loc-阿普里馬克河-f1fc230a",
+      "name": "阿普里馬克河",
+      "summary": "阿普里馬克河（西班牙語：Río Apurímac）是全球最大河流系統亞馬遜河的源頭，發源至距離太平洋海岸160公里的秘魯西南部高5,597米的密斯米雪山，向西北流經庫斯科，阿普里馬克河在730.04公里的地方（12°15′46″S 73°…",
+      "lat": "-12.26277778",
+      "lng": "-73.97888889"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-apur-mac-spinetail-3c75c30f",
+      "subject": "Apurímac spinetail",
+      "predicate": "distributed_in",
+      "object_id": "loc-安派山-203e4fec",
+      "object": "安派山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Apurimac spinetail has a very small range in south-central Peru, on the slopes of Ampay, a large mountain southwest of the Apurimac River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-apur-mac-spinetail-3c75c30f",
+      "subject": "Apurímac spinetail",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿普里馬克河-f1fc230a",
+      "object": "阿普里馬克河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Apurimac spinetail has a very small range in south-central Peru, on the slopes of Ampay, a large mountain southwest of the Apurimac River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-apur-mac-spinetail-3c75c30f",
+      "subject": "Apurímac spinetail",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits cloudforest, humid Podocarpus forest, and regrowing vegetation in clearings and landslide scars",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-apur-mac-spinetail-3c75c30f",
+      "subject": "Apurímac spinetail",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

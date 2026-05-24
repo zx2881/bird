@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:10:12",
+  "requested_title": "Buff-throated Warbling Finch",
+  "resolved_title": "Buff-throated warbling finch",
+  "title_aliases": [
+    "Buff-throated Warbling Finch"
+  ],
+  "bird_id": "bird-buff-throated-warbling-finch-f7c07cf8",
+  "raw_file": "bird-buff-throated-warbling-finch-f7c07cf8.json",
+  "bird": {
+    "id": "bird-buff-throated-warbling-finch-f7c07cf8",
+    "name": "Buff-throated warbling finch",
+    "english_name": "Buff-throated warbling finch",
+    "latin_name": "Microspingus lateralis",
+    "summary": "The buff-throated warbling finch (Microspingus lateralis) is a species of bird in the family Thraupidae. It is found in forest borders and…",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Poospiza_lateralis_-Extrema%2C_Minas_Gerais%2C_Brazil-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-buff-throated-warbling-finch-f7c07cf8",
+      "subject": "Buff-throated warbling finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in forest borders and woodland in south-eastern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-throated-warbling-finch-f7c07cf8",
+      "subject": "Buff-throated warbling finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

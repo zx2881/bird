@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:24:24",
+  "requested_title": "Blue-and-yellow Tanager",
+  "resolved_title": "Blue-and-yellow tanager",
+  "title_aliases": [
+    "Blue-and-yellow Tanager"
+  ],
+  "bird_id": "bird-橙腹裸鼻雀-b4ec1567",
+  "raw_file": "bird-橙腹裸鼻雀-b4ec1567.json",
+  "bird": {
+    "id": "bird-橙腹裸鼻雀-b4ec1567",
+    "name": "橙腹裸鼻雀",
+    "english_name": "Blue-and-yellow tanager",
+    "latin_name": "Rauenia bonariensis",
+    "summary": "橙腹裸鼻雀（台湾作橙黃腹裸鼻雀，学名：Rauenia bonariensis），是雀形目唐纳雀科的一种鸟类，属于单型的橙腹裸鼻雀属（学名：Rauenia）。 亚种 R.",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Thraupis_bonariensis.jpg/960px-Thraupis_bonariensis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橙腹裸鼻雀-b4ec1567",
+      "subject": "橙腹裸鼻雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Uruguay, Brazil, Paraguay, Bolivia, extreme northern border Chile, and Andean Peru and Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙腹裸鼻雀-b4ec1567",
+      "subject": "橙腹裸鼻雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

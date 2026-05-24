@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:07:51",
+  "requested_title": "Japanese Green Woodpecker",
+  "resolved_title": "Japanese green woodpecker",
+  "title_aliases": [
+    "Japanese Green Woodpecker"
+  ],
+  "bird_id": "bird-japanese-green-woodpecker-2e9995a4",
+  "raw_file": "bird-japanese-green-woodpecker-2e9995a4.json",
+  "bird": {
+    "id": "bird-japanese-green-woodpecker-2e9995a4",
+    "name": "Japanese green woodpecker",
+    "english_name": "Japanese green woodpecker",
+    "latin_name": "Picus awokera",
+    "summary": "Japanese green woodpecker or Japanese woodpecker (Picus awokera) is a medium-sized woodpecker similar and closely related to the European g…",
+    "lat": "38.0675",
+    "lng": "138.3975",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Picus_awokera_female_20240317-_YAS7056-3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-粟島-新潟縣-c0a2158b",
+      "name": "粟島 (新潟縣)",
+      "summary": "粟島（日語：あわしま）是位於日本新潟縣北部日本海中的一個島嶼，全島屬新潟縣岩船郡粟島浦村管轄。面積9.86平方公里。島嶼東側有兩個村莊。粟島東海岸發現了5處繩文時代的遺跡，顯示該島在當時就應該有人居住。1964年，受新潟地震的影響，粟島整…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-佐渡岛-78e6470c",
+      "name": "佐渡岛",
+      "summary": "佐渡島（日語：佐渡島／さどがしま，羅馬化：Sadogashima）是位於日本海東部的一個島嶼，屬日本新潟縣佐渡市管轄，海岸線全長262.7公里。2021年8月，佐渡島有人口50,252人。佐渡島面積854.76平方公里，是日本四大主島以外…",
+      "lat": "38.0675",
+      "lng": "138.3975"
+    },
+    {
+      "id": "loc-对马-81a71956",
+      "name": "对马",
+      "summary": "對馬（日語：対馬／つしま，羅馬化：Tsushima）是位於日本九州北方玄界灘以西的島嶼，為日本列島第8大島嶼，全境屬长崎县对马市管轄。該島東側的海域為對馬海峽、西側則為釜山海峽。除了對馬主島外，附近還有百多個屬島，合稱為「對馬列島」或「對…",
+      "lat": "34.41666667",
+      "lng": "129.33333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-japanese-green-woodpecker-2e9995a4",
+      "subject": "Japanese green woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-粟島-新潟縣-c0a2158b",
+      "object": "粟島 (新潟縣)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This woodpecker is found in most big islands of Japan, and also smaller islands like Tobishima, Awashima, Sado and Tsushima",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-japanese-green-woodpecker-2e9995a4",
+      "subject": "Japanese green woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-佐渡岛-78e6470c",
+      "object": "佐渡岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This woodpecker is found in most big islands of Japan, and also smaller islands like Tobishima, Awashima, Sado and Tsushima",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-japanese-green-woodpecker-2e9995a4",
+      "subject": "Japanese green woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-对马-81a71956",
+      "object": "对马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This woodpecker is found in most big islands of Japan, and also smaller islands like Tobishima, Awashima, Sado and Tsushima",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-japanese-green-woodpecker-2e9995a4",
+      "subject": "Japanese green woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

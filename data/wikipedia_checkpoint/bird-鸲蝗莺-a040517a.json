@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:57:54",
+  "requested_title": "Savi's Warbler",
+  "resolved_title": "Savi's warbler",
+  "title_aliases": [
+    "Savi's Warbler"
+  ],
+  "bird_id": "bird-鸲蝗莺-a040517a",
+  "raw_file": "bird-鸲蝗莺-a040517a.json",
+  "bird": {
+    "id": "bird-鸲蝗莺-a040517a",
+    "name": "鸲蝗莺",
+    "english_name": "Savi's warbler",
+    "latin_name": "Locustella luscinioides",
+    "summary": "鸲蝗莺（学名：Locustella luscinioides），是雀形目蝗莺科的一种鸟类。 特征 鸲蝗莺体重约13.89克，翼长约70.2毫米，嘴峰长约15.6毫米，喙宽度约2.7毫米，喙厚度约3毫米，跗蹠长约20.8毫米，尾长约54.2毫米。鸲蝗莺是候鸟，其栖息在开放的湖泊、…",
+    "lat": "23",
+    "lng": "13",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Locustellaluscinioides.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鸲蝗莺-a040517a",
+      "subject": "鸲蝗莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in northern and sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鸲蝗莺-a040517a",
+      "subject": "鸲蝗莺",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is known as an occasional visitor to the United Kingdom (where a few pairs breed sporadically), Ireland, Belgium, Switzerland, Corsica, Sardinia, Malta, Cyprus and Israel. Savi's warbler is to be found in reed beds, marshes and lagoons with reeds, sedges and other marsh vegetation, perhaps with scattered sallows or bushes",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-鸲蝗莺-a040517a",
+      "subject": "鸲蝗莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

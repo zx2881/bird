@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:07:06",
+  "requested_title": "White-winged Robin",
+  "resolved_title": "White-winged robin",
+  "title_aliases": [
+    "White-winged Robin"
+  ],
+  "bird_id": "bird-white-winged-robin-f59df04c",
+  "raw_file": "bird-white-winged-robin-f59df04c.json",
+  "bird": {
+    "id": "bird-white-winged-robin-f59df04c",
+    "name": "White-winged robin",
+    "english_name": "White-winged robin",
+    "latin_name": "Melanodryas sigillata",
+    "summary": "The white-winged robin (Melanodryas sigillata) is a species of bird in the Australasian robin family Petroicidae. Taxonomy The white-winged…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/White-winged_Robin_%282914587778%29.jpg/960px-White-winged_Robin_%282914587778%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-查理斯-沃爾特-德-維斯-ada37776",
+      "name": "查理斯·沃爾特·德·維斯",
+      "summary": "查理斯·沃爾特·德·維斯（英語：Charles Walter de Vis，1829年5月9日—1915年8月30日）， 在1882年之前稱“德維斯”（Devis），是一位英國動物學家 及鳥類學家。 德·維斯出生於英國伯明翰， 1849年…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞高地-05e346ed",
+      "name": "新幾內亞高地",
+      "summary": "新几内亚高地是新幾內亞島上的山脉。其最高点为印度尼西亚境内的查亞峰，海拔4,884米（16,024英尺），同时也是大洋洲的最高峰。该山脉大致呈东西走向横贯全岛，西起印度尼西亞温达马湾县，向东一直延伸至巴布亞新幾內亞米爾恩灣省。 参考文献",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-winged-robin-f59df04c",
+      "subject": "White-winged robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-查理斯-沃爾特-德-維斯-ada37776",
+      "object": "查理斯·沃爾特·德·維斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-winged robin (Melanodryas sigillata) is a species of bird in the Australasian robin family Petroicidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-robin-f59df04c",
+      "subject": "White-winged robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞高地-05e346ed",
+      "object": "新幾內亞高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-winged robin is found in the New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-robin-f59df04c",
+      "subject": "White-winged robin",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-white-winged-robin-f59df04c",
+      "subject": "White-winged robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:46:05",
+  "requested_title": "Pampas Pipit",
+  "resolved_title": "Pampas pipit",
+  "title_aliases": [
+    "Pampas Pipit"
+  ],
+  "bird_id": "bird-pampas-pipit-d8670c0c",
+  "raw_file": "bird-pampas-pipit-d8670c0c.json",
+  "bird": {
+    "id": "bird-pampas-pipit-d8670c0c",
+    "name": "Pampas pipit",
+    "english_name": "Pampas pipit",
+    "latin_name": "Anthus chacoensis",
+    "summary": "The Pampas pipit (Anthus chacoensis) is a species of bird in the family Motacillidae, the wagtails and pipits. It is found in Argentina and…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Anthus_chacoensis_Pampas_Pipit%3B_Saavedra%2C_Buenos_Aires%2C_Argentina.jpg/960px-Anthus_chacoensis_Pampas_Pipit%3B_Saavedra%2C_Buenos_Aires%2C_Argentina.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-巴拉圭-029e9211",
+      "name": "巴拉圭",
+      "summary": "巴拉圭共和國（西班牙語：República del Paraguay、瓜拉尼語：Paraguái Tavakuairetã），通稱巴拉圭（西班牙語：Paraguay；瓜拉尼語：Paraguái），是位於南美洲的主權國家，也是位於南美洲的內…",
+      "lat": "-23",
+      "lng": "-58"
+    },
+    {
+      "id": "loc-彭巴草原-529356bb",
+      "name": "彭巴草原",
+      "summary": "彭巴草原（西班牙語：Región pampeana 或 Pampa，“彭巴”在當地克丘亞語中為“平原”之意）也稱彭巴平原，是位於南美洲東南沿海的一片肥沃平原，主要範圍包括阿根廷的布宜諾斯艾利斯省、拉潘帕省、圣菲省、科爾多瓦省以及巴西南部的…",
+      "lat": "-35",
+      "lng": "-62"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pampas-pipit-d8670c0c",
+      "subject": "Pampas pipit",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Paraguay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pampas-pipit-d8670c0c",
+      "subject": "Pampas pipit",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉圭-029e9211",
+      "object": "巴拉圭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Paraguay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pampas-pipit-d8670c0c",
+      "subject": "Pampas pipit",
+      "predicate": "distributed_in",
+      "object_id": "loc-彭巴草原-529356bb",
+      "object": "彭巴草原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It nominally inhabits grasslands of the Pampas but is \"now found almost entirely in agricultural fields!\" (emphasis in original)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pampas-pipit-d8670c0c",
+      "subject": "Pampas pipit",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It nominally inhabits grasslands of the Pampas but is \"now found almost entirely in agricultural fields!\" (emphasis in original)",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-pampas-pipit-d8670c0c",
+      "subject": "Pampas pipit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

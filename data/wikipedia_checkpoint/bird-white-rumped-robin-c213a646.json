@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:34:07",
+  "requested_title": "White-rumped Robin",
+  "resolved_title": "White-rumped robin",
+  "title_aliases": [
+    "White-rumped Robin"
+  ],
+  "bird_id": "bird-white-rumped-robin-c213a646",
+  "raw_file": "bird-white-rumped-robin-c213a646.json",
+  "bird": {
+    "id": "bird-white-rumped-robin-c213a646",
+    "name": "White-rumped robin",
+    "english_name": "White-rumped robin",
+    "latin_name": "Melanodryas bimaculata",
+    "summary": "The white-rumped robin (Melanodryas bimaculata) is a species of bird in the Australasian robin family Petroicidae. It is found in New Guine…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/White-rumped_Robin_%28Peneothello_bimaculata%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-托馬索-薩爾瓦多里-8e61e436",
+      "name": "托馬索·薩爾瓦多里",
+      "summary": "托馬索·薩爾瓦多里，全稱阿代拉多·托馬索·薩爾瓦多里·帕萊奧蒂伯爵（Count Adelardo Tommaso Salvadori Paleotti，1835年9月30日—1923年10月9日）是一位義大利動物學家與鳥類學家。 生平簡介…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-rumped-robin-c213a646",
+      "subject": "White-rumped robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-托馬索-薩爾瓦多里-8e61e436",
+      "object": "托馬索·薩爾瓦多里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-rumped robin (Melanodryas bimaculata) is a species of bird in the Australasian robin family Petroicidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-rumped-robin-c213a646",
+      "subject": "White-rumped robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-rumped-robin-c213a646",
+      "subject": "White-rumped robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:24:08",
+  "requested_title": "Western Whipbird",
+  "resolved_title": "Western whipbird",
+  "title_aliases": [
+    "Western Whipbird"
+  ],
+  "bird_id": "bird-western-whipbird-f100cf07",
+  "raw_file": "bird-western-whipbird-f100cf07.json",
+  "bird": {
+    "id": "bird-western-whipbird-f100cf07",
+    "name": "Western whipbird",
+    "english_name": "Western whipbird",
+    "latin_name": "Psophodes nigrogularis",
+    "summary": "The western whipbird (Psophodes nigrogularis) is a passerine bird found in several scattered populations in Southwest Australia. It is pred…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Psophodes_nigrogularis_564911614.jpg/960px-Psophodes_nigrogularis_564911614.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-古尔德-f8020282",
+      "name": "约翰·古尔德",
+      "summary": "约翰·古尔德 FRS（英語：John Gould，1804年9月14日—1881年2月3日）是19世纪一位英国鸟类学家。1804年生于英格兰，也是一位商人、艺术家。1838年后与其妻一同前往澳大利亚，在当地发现并為许多新物种命名。 早年…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-southwest-australia-ccb9e1f6",
+      "name": "Southwest Australia",
+      "summary": "Southwest Australia is a biogeographic region in Western Australia.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-western-whipbird-f100cf07",
+      "subject": "Western whipbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-古尔德-f8020282",
+      "object": "约翰·古尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The western whipbird (Psophodes nigrogularis) is a passerine bird found in several scattered populations in Southwest Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-western-whipbird-f100cf07",
+      "subject": "Western whipbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-southwest-australia-ccb9e1f6",
+      "object": "Southwest Australia",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The western whipbird (Psophodes nigrogularis) is a passerine bird found in several scattered populations in Southwest Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-western-whipbird-f100cf07",
+      "subject": "Western whipbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

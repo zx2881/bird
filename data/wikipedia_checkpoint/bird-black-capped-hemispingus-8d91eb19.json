@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:11:05",
+  "requested_title": "Black-capped Hemispingus",
+  "resolved_title": "Black-capped hemispingus",
+  "title_aliases": [
+    "Black-capped Hemispingus"
+  ],
+  "bird_id": "bird-black-capped-hemispingus-8d91eb19",
+  "raw_file": "bird-black-capped-hemispingus-8d91eb19.json",
+  "bird": {
+    "id": "bird-black-capped-hemispingus-8d91eb19",
+    "name": "Black-capped hemispingus",
+    "english_name": "Black-capped hemispingus",
+    "latin_name": "Kleinothraupis atropileus",
+    "summary": "The black-capped hemispingus (Kleinothraupis atropileus) is a species of bird in the family Thraupidae. It is found in the Andes mountains…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kleinothraupis_atropileus.jpg/960px-Kleinothraupis_atropileus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "Dwarf forest, elfin forest, or pygmy forest is an uncommon ecosystem featuring miniature trees, inhabited by small spec…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-capped-hemispingus-8d91eb19",
+      "subject": "Black-capped hemispingus",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits moist montane and dwarf forests with large amounts of Chusquea bamboo at elevations of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-capped-hemispingus-8d91eb19",
+      "subject": "Black-capped hemispingus",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-black-capped-hemispingus-8d91eb19",
+      "subject": "Black-capped hemispingus",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

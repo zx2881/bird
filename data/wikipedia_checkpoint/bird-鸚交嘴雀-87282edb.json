@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:23:02",
+  "requested_title": "Parrot Crossbill",
+  "resolved_title": "Parrot crossbill",
+  "title_aliases": [
+    "Parrot Crossbill"
+  ],
+  "bird_id": "bird-鸚交嘴雀-87282edb",
+  "raw_file": "bird-鸚交嘴雀-87282edb.json",
+  "bird": {
+    "id": "bird-鸚交嘴雀-87282edb",
+    "name": "鸚交嘴雀",
+    "english_name": "Parrot crossbill",
+    "latin_name": "Loxia pytyopsittacus",
+    "summary": "鸚交嘴雀（英語：Parrot Crossbill、學名：Loxia pytyopsittacus）是雀形目的一種小型鳥類，其種小名pytyopsittacus來自拉丁文的松樹（pitus, pituos）與鸚鵡（psittakos）。本種生活在西北歐至俄羅斯西部的松林，在蘇格蘭…",
+    "lat": "66",
+    "lng": "94",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Loxia_pytyopsittacus%2C_Budby_Common_3.jpg/960px-Loxia_pytyopsittacus%2C_Budby_Common_3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鸚交嘴雀-87282edb",
+      "subject": "鸚交嘴雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird breeds in the pine forests of northwest Europe and into western Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鸚交嘴雀-87282edb",
+      "subject": "鸚交嘴雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

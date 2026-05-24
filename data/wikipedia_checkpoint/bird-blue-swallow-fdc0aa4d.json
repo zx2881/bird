@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:22:16",
+  "requested_title": "Blue Swallow",
+  "resolved_title": "Blue swallow",
+  "title_aliases": [
+    "Blue Swallow"
+  ],
+  "bird_id": "bird-blue-swallow-fdc0aa4d",
+  "raw_file": "bird-blue-swallow-fdc0aa4d.json",
+  "bird": {
+    "id": "bird-blue-swallow-fdc0aa4d",
+    "name": "Blue swallow",
+    "english_name": "Blue swallow",
+    "latin_name": "Hirundo atrocaerulea",
+    "summary": "The blue swallow (Hirundo atrocaerulea) is a small bird within the swallow family which is in the order Passeriformes. Swallows are somewha…",
+    "lat": "-1",
+    "lng": "33",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Blue_Swallow_-_Hirundo_atrocaerulea.jpg/960px-Blue_Swallow_-_Hirundo_atrocaerulea.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    },
+    {
+      "id": "loc-維多利亞湖-42b29c04",
+      "name": "維多利亞湖",
+      "summary": "維多利亞湖（英語：Lake Victoria）是非洲最大的淡水湖和世界第二大淡水湖，面積68,870平方公里，僅次於蘇必略湖，也是世界上最大的熱帶淡水湖。 如果依含水量來比較，維多利亞湖共有2760立方公里的淡水量，排名世界第七。維多利亞…",
+      "lat": "-1",
+      "lng": "33"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-swallow-fdc0aa4d",
+      "subject": "Blue swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Afromontane (from South Africa to Tanzania), wintering north of Lake Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-swallow-fdc0aa4d",
+      "subject": "Blue swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Afromontane (from South Africa to Tanzania), wintering north of Lake Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-swallow-fdc0aa4d",
+      "subject": "Blue swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-維多利亞湖-42b29c04",
+      "object": "維多利亞湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Afromontane (from South Africa to Tanzania), wintering north of Lake Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-swallow-fdc0aa4d",
+      "subject": "Blue swallow",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This bird breeds in montane grassland, preferring high rainfall, undulating areas",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-blue-swallow-fdc0aa4d",
+      "subject": "Blue swallow",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

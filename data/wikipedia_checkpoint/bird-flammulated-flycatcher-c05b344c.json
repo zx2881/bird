@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:40:40",
+  "requested_title": "Flammulated Flycatcher",
+  "resolved_title": "Flammulated flycatcher",
+  "title_aliases": [
+    "Flammulated Flycatcher"
+  ],
+  "bird_id": "bird-flammulated-flycatcher-c05b344c",
+  "raw_file": "bird-flammulated-flycatcher-c05b344c.json",
+  "bird": {
+    "id": "bird-flammulated-flycatcher-c05b344c",
+    "name": "Flammulated flycatcher",
+    "english_name": "Flammulated flycatcher",
+    "latin_name": "Ramphotrigon flammulatum",
+    "summary": "The flammulated flycatcher (Ramphotrigon flammulatum) is a species of bird in the family Tyrannidae. It was formerly placed in the monotypi…",
+    "lat": "25",
+    "lng": "-107.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Flammulated_Flycatcher_%28Papamoscas_Jaspeado%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-錫那羅亞州-5446db8e",
+      "name": "錫那羅亞州",
+      "summary": "錫那羅亞州（西班牙語：Sinaloa，西班牙語發音：[sinaˈloa] ，官方名称“锡那罗亚自由主权州”）是墨西哥三十一個州之一，1830年10月14日正式成立，下设20个市，首府兼最大城市为库利亚坎。该州总面积约58,328平方公里，…",
+      "lat": "25",
+      "lng": "-107.5"
+    },
+    {
+      "id": "loc-恰帕斯州-46de6417",
+      "name": "恰帕斯州",
+      "summary": "恰帕斯州（西班牙語：Chiapas），正式名称为恰帕斯自由和主权州（Estado Libre y Soberano de Chiapas），是墨西哥的一個州，位於該國東南部。東臨瓜地馬拉，南臨太平洋。 整體屬熱帶濕潤氣候。北部靠近塔巴斯科…",
+      "lat": "16.53",
+      "lng": "-92.45"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-flammulated-flycatcher-c05b344c",
+      "subject": "Flammulated flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-錫那羅亞州-5446db8e",
+      "object": "錫那羅亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This flycatcher is endemic to the Pacific lowlands of Mexico's western coast from Sinaloa to western Chiapas, while possibly extending into Guatemala, although this has not been confirmed. The total area that it lives in is estimated to be . Its range is discontinuous and it is found in low densities when present. It lives in dry deciduous forest, arid and semi-arid thorn forest, and scrubby woodland at about above sea level. This species is non-migratory",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flammulated-flycatcher-c05b344c",
+      "subject": "Flammulated flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-恰帕斯州-46de6417",
+      "object": "恰帕斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This flycatcher is endemic to the Pacific lowlands of Mexico's western coast from Sinaloa to western Chiapas, while possibly extending into Guatemala, although this has not been confirmed. The total area that it lives in is estimated to be . Its range is discontinuous and it is found in low densities when present. It lives in dry deciduous forest, arid and semi-arid thorn forest, and scrubby woodland at about above sea level. This species is non-migratory",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flammulated-flycatcher-c05b344c",
+      "subject": "Flammulated flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

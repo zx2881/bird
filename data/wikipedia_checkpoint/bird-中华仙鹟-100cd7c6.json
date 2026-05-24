@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:32:40",
+  "requested_title": "Chinese Blue Flycatcher",
+  "resolved_title": "Chinese blue flycatcher",
+  "title_aliases": [
+    "Chinese Blue Flycatcher"
+  ],
+  "bird_id": "bird-中华仙鹟-100cd7c6",
+  "raw_file": "bird-中华仙鹟-100cd7c6.json",
+  "bird": {
+    "id": "bird-中华仙鹟-100cd7c6",
+    "name": "中华仙鹟",
+    "english_name": "Chinese blue flycatcher",
+    "latin_name": "Cyornis glaucicomans",
+    "summary": "中华仙鹟（台湾作中華藍仙鶲）（学名：Cyornis glaucicomans），是雀形目鹟科的一种鸟类。 特征 中华仙鹟体重约14.2克，翼长约78.6毫米，嘴峰长约13.9毫米，喙宽度约4.5毫米，喙厚度约3.8毫米，跗蹠长约17.5毫米，尾长约65毫米。中华仙鹟在其分布区内…",
+    "lat": "4.63333333",
+    "lng": "102.23333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cyornis_glaucicomans_-_Kaeng_Krachan.jpg/960px-Cyornis_glaucicomans_-_Kaeng_Krachan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-丹那沙林山脉-24cb7d1b",
+      "name": "丹那沙林山脉",
+      "summary": "丹那沙林山脉（緬甸語：တနင်္သာရီ တောင်တန်း，泰語：ทิวเขาตะนาวศรี，馬來語：Banjaran Tenasserim）是位於東南亞的一座山脈，為泰國與緬甸的界山，往南一路延伸至馬來半島。最高峰為馬來西亞境內的大…",
+      "lat": "4.63333333",
+      "lng": "102.23333333"
+    },
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-中华仙鹟-100cd7c6",
+      "subject": "中华仙鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Chinese blue flycatcher is native to mid-southern China; it winters to the Tenasserim Hills and the Malay Peninsula. It previously was considered a subspecies of the blue-throated blue flycatcher",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-中华仙鹟-100cd7c6",
+      "subject": "中华仙鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-丹那沙林山脉-24cb7d1b",
+      "object": "丹那沙林山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Chinese blue flycatcher is native to mid-southern China; it winters to the Tenasserim Hills and the Malay Peninsula. It previously was considered a subspecies of the blue-throated blue flycatcher",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-中华仙鹟-100cd7c6",
+      "subject": "中华仙鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Chinese blue flycatcher is native to mid-southern China; it winters to the Tenasserim Hills and the Malay Peninsula. It previously was considered a subspecies of the blue-throated blue flycatcher",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-中华仙鹟-100cd7c6",
+      "subject": "中华仙鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

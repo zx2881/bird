@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:21:14",
+  "requested_title": "Drakensberg Siskin",
+  "resolved_title": "Drakensberg siskin",
+  "title_aliases": [
+    "Drakensberg Siskin"
+  ],
+  "bird_id": "bird-drakensberg-siskin-da70ae6b",
+  "raw_file": "bird-drakensberg-siskin-da70ae6b.json",
+  "bird": {
+    "id": "bird-drakensberg-siskin-da70ae6b",
+    "name": "Drakensberg siskin",
+    "english_name": "Drakensberg siskin",
+    "latin_name": "Crithagra symonsi",
+    "summary": "The Drakensberg siskin (Crithagra symonsi) is a small passerine bird in the finch family. It is an endemic resident breeder in the eastern…",
+    "lat": "-29.38333333",
+    "lng": "29.45",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Male_Drakensberg_Siskin_2019_01_27_10_25_20_1129cr.jpg/960px-Male_Drakensberg_Siskin_2019_01_27_10_25_20_1129cr.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-德拉肯斯山脉-816e89d1",
+      "name": "德拉肯斯山脉",
+      "summary": "德拉肯斯山脉（阿非利卡語：Drakensberge，英語：Drakensberg，荷蘭語：Drakensbergen，意为“龙山”）又称乌卡兰巴山脉（祖鲁语：uKhahlamba），是位于南非和莱索托境内的一组高大山脉。山体由花岗岩组成，…",
+      "lat": "-29.38333333",
+      "lng": "29.45"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-drakensberg-siskin-da70ae6b",
+      "subject": "Drakensberg siskin",
+      "predicate": "distributed_in",
+      "object_id": "loc-德拉肯斯山脉-816e89d1",
+      "object": "德拉肯斯山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This locally common but shy and unobtrusive siskin is found in the scrubby valleys and hillsides of the Drakensberg mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-drakensberg-siskin-da70ae6b",
+      "subject": "Drakensberg siskin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

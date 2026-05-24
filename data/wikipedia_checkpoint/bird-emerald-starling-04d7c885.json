@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:51:11",
+  "requested_title": "Emerald Starling",
+  "resolved_title": "Emerald starling",
+  "title_aliases": [
+    "Emerald Starling"
+  ],
+  "bird_id": "bird-emerald-starling-04d7c885",
+  "raw_file": "bird-emerald-starling-04d7c885.json",
+  "bird": {
+    "id": "bird-emerald-starling-04d7c885",
+    "name": "Emerald starling",
+    "english_name": "Emerald starling",
+    "latin_name": "Lamprotornis iris",
+    "summary": "The emerald starling (Lamprotornis iris) is also known as the iris glossy starling. It is a small starling with a metallic green crown, upp…",
+    "lat": "12",
+    "lng": "3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Emerald_starling_U.S._zoo_jpg.jpg/960px-Emerald_starling_U.S._zoo_jpg.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    },
+    {
+      "id": "loc-科特迪瓦-bc133098",
+      "name": "科特迪瓦",
+      "summary": "科特迪瓦共和國（法語：République de Côte d'Ivoire），通稱科特迪瓦（Côte d'Ivoire），是西非國家，東接迦納，南臨几内亚湾，西及利比里亚和几内亚，北鄰馬利、布基纳法索。象牙海岸的首都是亚穆苏克罗，而最大…",
+      "lat": "8",
+      "lng": "-5"
+    },
+    {
+      "id": "loc-几内亚-d249039d",
+      "name": "几内亚",
+      "summary": "几内亚共和國（法語：République de Guinée），通稱几内亚（Guinée），是位於西非的國家，東南接科特迪瓦，南臨利比里亞，西鄰塞拉利昂，北鄰几内亚比绍、塞内加尔，北和東北與馬里接壤。尼日尔河、塞内加尔河、冈比亚河在几内亚…",
+      "lat": "11",
+      "lng": "-10"
+    },
+    {
+      "id": "loc-塞拉利昂-91a82141",
+      "name": "塞拉利昂",
+      "summary": "塞拉利昂共和国（英語：Republic of Sierra Leone），通稱塞拉利昂（英語：Sierra Leone），位于西非大西洋岸，北部及东部被几内亚包圍、东南与利比里亚接壤，首都弗里敦。 中文译名 “Sierra Leone”一…",
+      "lat": "8.5",
+      "lng": "-12.1"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-emerald-starling-04d7c885",
+      "subject": "Emerald starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "One of the smallest species among starlings, the emerald starling is distributed in West Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-emerald-starling-04d7c885",
+      "subject": "Emerald starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-科特迪瓦-bc133098",
+      "object": "科特迪瓦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits lowlands and savanna of Côte d'Ivoire, Guinea and Sierra Leone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-emerald-starling-04d7c885",
+      "subject": "Emerald starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-几内亚-d249039d",
+      "object": "几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits lowlands and savanna of Côte d'Ivoire, Guinea and Sierra Leone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-emerald-starling-04d7c885",
+      "subject": "Emerald starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞拉利昂-91a82141",
+      "object": "塞拉利昂",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits lowlands and savanna of Côte d'Ivoire, Guinea and Sierra Leone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-emerald-starling-04d7c885",
+      "subject": "Emerald starling",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits lowlands and savanna of Côte d'Ivoire, Guinea and Sierra Leone",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-emerald-starling-04d7c885",
+      "subject": "Emerald starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

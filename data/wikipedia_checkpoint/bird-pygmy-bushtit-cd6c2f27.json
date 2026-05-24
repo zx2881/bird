@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:35:01",
+  "requested_title": "Pygmy Bushtit",
+  "resolved_title": "Pygmy bushtit",
+  "title_aliases": [
+    "Pygmy Bushtit"
+  ],
+  "bird_id": "bird-pygmy-bushtit-cd6c2f27",
+  "raw_file": "bird-pygmy-bushtit-cd6c2f27.json",
+  "bird": {
+    "id": "bird-pygmy-bushtit-cd6c2f27",
+    "name": "Pygmy bushtit",
+    "english_name": "Pygmy bushtit",
+    "latin_name": "Aegithalos exilis",
+    "summary": "The pygmy bushtit (Aegithalos exilis), also called the pygmy tit, is the smallest species of passerine bird. It is in the Aegithalidae fami…",
+    "lat": "7",
+    "lng": "97",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pygmy_Tit_%28Psaltria_exilis%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东洋界-3b791bb2",
+      "name": "东洋界",
+      "summary": "東洋界，或稱極東區、東洋區、東方區、印馬區（Indomalayan realm），是八個生物地理分區之一，涵蓋南亞與東南亞。 東洋界以前大都由森林覆蓋，主要是熱帶和亞熱帶濕潤闊葉林。東洋界的熱帶雨林的樹木大多是龍腦香科。",
+      "lat": "7",
+      "lng": "97"
+    },
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pygmy-bushtit-cd6c2f27",
+      "subject": "Pygmy bushtit",
+      "predicate": "distributed_in",
+      "object_id": "loc-东洋界-3b791bb2",
+      "object": "东洋界",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pygmy bushtit is the only Indomalayan member of the Aegithalidae family. It is only found on the island of Java in Indonesia where it inhabits montane forests and plantations above 1,000 metres (3,300&nbsp;ft), but can occasionally be seen as low as 830 metres (2,720&nbsp;ft). They live on the edge of coniferous and open tree forests in the mountains of central and western Java",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pygmy-bushtit-cd6c2f27",
+      "subject": "Pygmy bushtit",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pygmy bushtit is the only Indomalayan member of the Aegithalidae family. It is only found on the island of Java in Indonesia where it inhabits montane forests and plantations above 1,000 metres (3,300&nbsp;ft), but can occasionally be seen as low as 830 metres (2,720&nbsp;ft). They live on the edge of coniferous and open tree forests in the mountains of central and western Java",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pygmy-bushtit-cd6c2f27",
+      "subject": "Pygmy bushtit",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This drab-coloured bird is endemic to Indonesia, where it is only found in montane forests on the island of Java",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-pygmy-bushtit-cd6c2f27",
+      "subject": "Pygmy bushtit",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The pygmy bushtit is the only Indomalayan member of the Aegithalidae family. It is only found on the island of Java in Indonesia where it inhabits montane forests and plantations above 1,000 metres (3,300&nbsp;ft), but can occasionally be seen as low as 830 metres (2,720&nbsp;ft). They live on the edge of coniferous and open tree forests in the mountains of central and western Java",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-pygmy-bushtit-cd6c2f27",
+      "subject": "Pygmy bushtit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-pygmy-bushtit-cd6c2f27",
+      "subject": "Pygmy bushtit",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The pygmy tits current threats are unknown, however the densely populated island of Java could faces issues as the mountain forests could be threatened by deforestation over time",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

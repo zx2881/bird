@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:34:11",
+  "requested_title": "Forest Wagtail",
+  "resolved_title": "Forest wagtail",
+  "title_aliases": [
+    "Forest Wagtail"
+  ],
+  "bird_id": "bird-山鶺鴒-f3aecea1",
+  "raw_file": "bird-山鶺鴒-f3aecea1.json",
+  "bird": {
+    "id": "bird-山鶺鴒-f3aecea1",
+    "name": "山鶺鴒",
+    "english_name": "Forest wagtail",
+    "latin_name": "Dendronanthus indicus",
+    "summary": "山鶺鴒（学名：Dendronanthus indicus）为鶺鴒科山鶺鴒屬下的一个种。其獨特的羽色使其與其他鶺鴒明顯區別開來，且它擺尾的方式為左右擺動，而不是其他鶺鴒常見的上下擺動。它是唯一會在樹上築巢的鶺鴒物種。主要棲息於森林棲地，在東亞的溫帶地區繁殖，冬季遷徙至熱帶亞洲，從…",
+    "lat": "7",
+    "lng": "81",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Forest_Wagtail_%28cropped%29.jpg/960px-Forest_Wagtail_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-斯里蘭卡-b7d5c4b5",
+      "name": "斯里蘭卡",
+      "summary": "斯里兰卡民主社会主义共和国（僧伽羅語：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；坦米爾語：இலங்கை சனநாயக சோஷலிசக் குடியரசு；英語：Democratic Social…",
+      "lat": "7",
+      "lng": "81"
+    },
+    {
+      "id": "loc-安达曼群岛-38540853",
+      "name": "安达曼群岛",
+      "summary": "安达曼群岛（英語：Andaman Islands；印地語：अण्डमान द्वीप समूह）是印度洋北部的群岛，位于孟加拉湾和安达曼海交界处，北距缅甸本土197公里，南距印度尼西亚苏门答腊岛547公里。该群岛由576个岛屿组成，总面积…",
+      "lat": "12.5",
+      "lng": "92.75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-山鶺鴒-f3aecea1",
+      "subject": "山鶺鴒",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯里蘭卡-b7d5c4b5",
+      "object": "斯里蘭卡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It migrates to the warmer parts of Asia in winter and it has been suggested that they reach southern India and Sri Lanka via the Andaman Islands. It has been recorded as a vagrant in the Maldives{{cite journal| last1=Anderson | first1=R.C.| last2=Baldock | first2=M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山鶺鴒-f3aecea1",
+      "subject": "山鶺鴒",
+      "predicate": "distributed_in",
+      "object_id": "loc-安达曼群岛-38540853",
+      "object": "安达曼群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It migrates to the warmer parts of Asia in winter and it has been suggested that they reach southern India and Sri Lanka via the Andaman Islands. It has been recorded as a vagrant in the Maldives{{cite journal| last1=Anderson | first1=R.C.| last2=Baldock | first2=M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山鶺鴒-f3aecea1",
+      "subject": "山鶺鴒",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

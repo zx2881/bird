@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:25:39",
+  "requested_title": "American Kestrel",
+  "resolved_title": "American kestrel",
+  "title_aliases": [
+    "American Kestrel"
+  ],
+  "bird_id": "bird-美国隼-dd9742cd",
+  "raw_file": "bird-美国隼-dd9742cd.json",
+  "bird": {
+    "id": "bird-美国隼-dd9742cd",
+    "name": "美国隼",
+    "english_name": "American kestrel",
+    "latin_name": "Falco sparverius",
+    "summary": "美洲隼（Falco sparverius），北美洲体型最小、最常见的隼属猛禽。于南美洲亦有分布。背部呈赤褐色及条纹。体型和羽毛两性异形，雌性体型大于同龄雄性，幼鸟毛色与成鸟相近。 繁殖范围西起阿拉斯加西侧至加拿大北部和新斯科舍省，南跨北美洲，延伸至中墨西哥和加勒比海域。可定居于…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/American_kestrel_%28Falco_sparverius_cinnamominus%29_male_Leona_Amarga.jpg/960px-American_kestrel_%28Falco_sparverius_cinnamominus%29_male_Leona_Amarga.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-美国隼-dd9742cd",
+      "subject": "美国隼",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It nests in cavities in trees, cliffs, buildings, and other structures",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-美国隼-dd9742cd",
+      "subject": "美国隼",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "American kestrels are found in a wide variety of habitats, including grasslands, meadows, deserts and other open to semi-open regions",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-美国隼-dd9742cd",
+      "subject": "美国隼",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-美国隼-dd9742cd",
+      "subject": "美国隼",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "A population increase occurred in the 18th and 19th centuries, probably due to deforestation for agriculture",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:45:19",
+  "requested_title": "Harpy Eagle",
+  "resolved_title": "Harpy eagle",
+  "title_aliases": [
+    "Harpy Eagle"
+  ],
+  "bird_id": "bird-角雕-d8f76a68",
+  "raw_file": "bird-角雕-d8f76a68.json",
+  "bird": {
+    "id": "bird-角雕-d8f76a68",
+    "name": "角雕",
+    "english_name": "Harpy eagle",
+    "latin_name": "Harpia harpyja",
+    "summary": "角鵰（学名：Harpia harpyja），又名哈佩鵰或哈比鷹，是新熱帶界的一種鷹。牠們最初是由卡爾·林奈於1758年所描述，並命名為Vultur harpyja。後來被編入自立的角鵰屬中。 角鵰的名字是與希臘神話的哈耳庇厄有關，哈耳庇厄是一種人面鷹身的怪物，負責將死人帶到哈底…",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Harpia_harpyja_001_800.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-角雕-d8f76a68",
+      "subject": "角雕",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It usually inhabits tropical lowland rainforests in the upper (emergent) canopy layer",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-角雕-d8f76a68",
+      "subject": "角雕",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The eagle is most common in Brazil, where it is found across the entire country. With the exception of some areas of the aforementioned Panama and Costa Rica, the species is nearly extinct in Central America, likely due to the logging industry's decimation of much of the Meso-American rainforests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-角雕-d8f76a68",
+      "subject": "角雕",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The eagle is most common in Brazil, where it is found across the entire country. With the exception of some areas of the aforementioned Panama and Costa Rica, the species is nearly extinct in Central America, likely due to the logging industry's decimation of much of the Meso-American rainforests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-角雕-d8f76a68",
+      "subject": "角雕",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-角雕-d8f76a68",
+      "subject": "角雕",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened primarily by habitat loss due to the expansion of logging, cattle ranching, agriculture, and prospecting",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-角雕-d8f76a68",
+      "subject": "角雕",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened primarily by habitat loss due to the expansion of logging, cattle ranching, agriculture, and prospecting",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

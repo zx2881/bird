@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:18:07",
+  "requested_title": "Grey Bush Chat",
+  "resolved_title": "Grey bush chat",
+  "title_aliases": [
+    "Grey Bush Chat"
+  ],
+  "bird_id": "bird-灰林鶺-75ce6591",
+  "raw_file": "bird-灰林鶺-75ce6591.json",
+  "bird": {
+    "id": "bird-灰林鶺-75ce6591",
+    "name": "灰林鶺",
+    "english_name": "Grey bush chat",
+    "latin_name": "Saxicola ferreus",
+    "summary": "灰林鶺（学名：Saxicola ferrea）又名灰丛鸲，为鶲科石䳭屬的鸟类，俗名灰丛树石栖鸟。分布于阿富汗、巴基斯坦、向东至中國南疆诸邻国、台湾岛以及中国大陆的甘肃、陕西、江苏、浙江、安徽、江西、湖北、湖南、福建、广东、广西、四川、贵州、云南、西藏、北京等地，主要栖息于海拔3…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Grey_Bushchat_%28male%29_I_IMG_6728.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-尼泊尔-231a45b7",
+      "name": "尼泊尔",
+      "summary": "尼泊尔联邦民主共和国（尼泊爾語：सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल），通称尼泊尔（नेपाल），是南亚喜马拉雅山脉地区的内陆国家，北与中国相接，其余三面与印度为鄰，与孟加拉国仅隔27公里的走廊。尼泊爾的領…",
+      "lat": "28.16666667",
+      "lng": "84.25"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰林鶺-75ce6591",
+      "subject": "灰林鶺",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Himalayas, southern China, Taiwan, Nepal and mainland Southeast Asia. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰林鶺-75ce6591",
+      "subject": "灰林鶺",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼泊尔-231a45b7",
+      "object": "尼泊尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Himalayas, southern China, Taiwan, Nepal and mainland Southeast Asia. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰林鶺-75ce6591",
+      "subject": "灰林鶺",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Himalayas, southern China, Taiwan, Nepal and mainland Southeast Asia. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰林鶺-75ce6591",
+      "subject": "灰林鶺",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the Himalayas, southern China, Taiwan, Nepal and mainland Southeast Asia. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-灰林鶺-75ce6591",
+      "subject": "灰林鶺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

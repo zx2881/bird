@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:40:12",
+  "requested_title": "Black-breasted Thrush",
+  "resolved_title": "Black-breasted thrush",
+  "title_aliases": [
+    "Black-breasted Thrush"
+  ],
+  "bird_id": "bird-黑胸鸫-1e00c9e0",
+  "raw_file": "bird-黑胸鸫-1e00c9e0.json",
+  "bird": {
+    "id": "bird-黑胸鸫-1e00c9e0",
+    "name": "黑胸鸫",
+    "english_name": "Black-breasted thrush",
+    "latin_name": "Turdus dissimilis",
+    "summary": "黑胸鸫（学名：Turdus dissimilis）为鶲科鸫属的鸟类。分布于巴基斯坦、印度、缅甸、泰国、老挝、越南以及中国大陆的贵州、云南、广西等地，常见于栖息在海拔1200-1700米丘陵地带、常见在坝区或低山丘地带活动以及多在乔木和灌丛间活动。该物种的模式产地在孟加拉国及喜马…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Turdus_dissimilis_male_-_Ang_Khang.jpg/960px-Turdus_dissimilis_male_-_Ang_Khang.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "name": "熱帶和亞熱帶旱生闊葉林",
+      "summary": "热带及亚热带旱生阔叶林（英語：tropical and subtropical dry broadleaf forests），简称旱生林（dry forest）是一种WWF定义的栖地生境并用来命名以此为代表的生物群系。其所需的气候类型较常…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑胸鸫-1e00c9e0",
+      "subject": "黑胸鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|From Khonoma village, [[Nagaland, India.]] The bird is found from north-eastern India to northern Vietnam. Their preferred habitats are tropical and subtropical montane forests that are moist. Other suitable habitats that are less important include tropical and subtropical dry forests – for native populations that are resident – as well as tropical/subtropical moist shrubland and mangroves located above the level of high tide. In southwestern China, these birds can also be found in hilly areas. They are typically found at relatively high elevations of between to high",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑胸鸫-1e00c9e0",
+      "subject": "黑胸鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "object": "熱帶和亞熱帶旱生闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|From Khonoma village, [[Nagaland, India.]] The bird is found from north-eastern India to northern Vietnam. Their preferred habitats are tropical and subtropical montane forests that are moist. Other suitable habitats that are less important include tropical and subtropical dry forests – for native populations that are resident – as well as tropical/subtropical moist shrubland and mangroves located above the level of high tide. In southwestern China, these birds can also be found in hilly areas. They are typically found at relatively high elevations of between to high",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑胸鸫-1e00c9e0",
+      "subject": "黑胸鸫",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "thumb|left|From Khonoma village, [[Nagaland, India.]] The bird is found from north-eastern India to northern Vietnam. Their preferred habitats are tropical and subtropical montane forests that are moist. Other suitable habitats that are less important include tropical and subtropical dry forests – for native populations that are resident – as well as tropical/subtropical moist shrubland and mangroves located above the level of high tide. In southwestern China, these birds can also be found in hilly areas. They are typically found at relatively high elevations of between to high",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-黑胸鸫-1e00c9e0",
+      "subject": "黑胸鸫",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "thumb|left|From Khonoma village, [[Nagaland, India.]] The bird is found from north-eastern India to northern Vietnam. Their preferred habitats are tropical and subtropical montane forests that are moist. Other suitable habitats that are less important include tropical and subtropical dry forests – for native populations that are resident – as well as tropical/subtropical moist shrubland and mangroves located above the level of high tide. In southwestern China, these birds can also be found in hilly areas. They are typically found at relatively high elevations of between to high",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-黑胸鸫-1e00c9e0",
+      "subject": "黑胸鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

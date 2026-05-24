@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:46:27",
+  "requested_title": "Crested Goshawk",
+  "resolved_title": "Crested goshawk",
+  "title_aliases": [
+    "Crested Goshawk"
+  ],
+  "bird_id": "bird-凤头鹰-6c2c6330",
+  "raw_file": "bird-凤头鹰-6c2c6330.json",
+  "bird": {
+    "id": "bird-凤头鹰-6c2c6330",
+    "name": "凤头鹰",
+    "english_name": "Crested goshawk",
+    "latin_name": "Lophospiza trivirgata",
+    "summary": "凤头鹰（學名：Lophospiza trivirgata，台湾作鳳頭蒼鷹），又名鳳頭雀鷹、粉鳥鷹（臺羅：hún-tsiáu-ing）、打鳥鷹或斑鳩鷹仔（臺羅：pan-kah-ing-á），是鷹形目鷹科Lophospiza屬下的一種中型猛禽。本物種的分布範圍相當廣泛，遍及東亞、東…",
+    "lat": "22.35186",
+    "lng": "114.15353",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/C-Goshawk-Sandeep.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "name": "昆拉德·雅各布·特明克",
+      "summary": "昆拉德·雅各布·特明克（荷蘭語：Coenraad Jacob Temminck，1778年3月31日—1858年1月30日）是一名荷蘭貴族和動物學家。 生平 特明克於阿姆斯特丹出生，1820年出任位於萊頓的國家自然歷史博物館，直至去世。他…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-金山郊野公園-fe5db6ab",
+      "name": "金山郊野公園",
+      "summary": "金山郊野公園（英語：Kam Shan Country Park ）是香港的一個郊野公園，位置由九龍西北部伸延至新界西南部，佔地達3.37平方公里。金山郊野公園以公園内的最高峰金山命名，金山一帶以經常有獼猴出沒著名，故又名馬騮山（「馬騮」在…",
+      "lat": "22.35186",
+      "lng": "114.15353"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-凤头鹰-6c2c6330",
+      "subject": "凤头鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "object": "昆拉德·雅各布·特明克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| synonyms = * Falco trivirgatus Temminck, 1982 * Accipiter trivirgatus }} The crested goshawk (Lophospiza trivirgata) is a bird of prey in the family Accipitridae that is widely distributed in tropical Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-凤头鹰-6c2c6330",
+      "subject": "凤头鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-金山郊野公園-fe5db6ab",
+      "object": "金山郊野公園",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in Kam Shan Country Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-凤头鹰-6c2c6330",
+      "subject": "凤头鹰",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

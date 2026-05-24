@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:49:13",
+  "requested_title": "Purple-breasted Sunbird",
+  "resolved_title": "Purple-breasted sunbird",
+  "title_aliases": [
+    "Purple-breasted Sunbird"
+  ],
+  "bird_id": "bird-purple-breasted-sunbird-670aaed0",
+  "raw_file": "bird-purple-breasted-sunbird-670aaed0.json",
+  "bird": {
+    "id": "bird-purple-breasted-sunbird-670aaed0",
+    "name": "Purple-breasted sunbird",
+    "english_name": "Purple-breasted sunbird",
+    "latin_name": "Nectarinia purpureiventris",
+    "summary": "The purple-breasted sunbird (Nectarinia purpureiventris) is a species of bird in the family Nectariniidae. It is native to the Albertine Ri…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Sunbird_%288209000171%29.jpg/960px-Sunbird_%288209000171%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-purple-breasted-sunbird-670aaed0",
+      "subject": "Purple-breasted sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-breasted-sunbird-670aaed0",
+      "subject": "Purple-breasted sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:42:51",
+  "requested_title": "Nashville Warbler",
+  "resolved_title": "Nashville warbler",
+  "title_aliases": [
+    "Nashville Warbler"
+  ],
+  "bird_id": "bird-nashville-warbler-24d6ac7a",
+  "raw_file": "bird-nashville-warbler-24d6ac7a.json",
+  "bird": {
+    "id": "bird-nashville-warbler-24d6ac7a",
+    "name": "Nashville warbler",
+    "english_name": "Nashville warbler",
+    "latin_name": "Leiothlypis ruficapilla",
+    "summary": "The Nashville warbler (Leiothlypis ruficapilla) is a small songbird in the New World warbler family, found in North and Central America. It…",
+    "lat": "34",
+    "lng": "-117",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Nashville_Warbler_-_Hunter_Canyon_-_Huachuca_Mtns_-_Sierra_Vista_-_AZ_-_2015-09-03at10-37-163_%2821738186340%29.jpg/960px-Nashville_Warbler_-_Hunter_Canyon_-_Huachuca_Mtns_-_Sierra_Vista_-_AZ_-_2015-09-03at10-37-163_%2821738186340%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-alexander-wilson-ornithologist-ebfffab1",
+      "name": "Alexander Wilson (ornithologist)",
+      "summary": "Alexander Wilson (July 6, 1766 – August 23, 1813) was a Scottish-American poet, ornithologist, naturalist, and illustra…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森莺科-76e24430",
+      "name": "森莺科",
+      "summary": "森莺科（学名：Parulidae），亦称为林莺科，是雀形目的一科，由生活于新大陆的小型鸣禽构成，又称为新大陆莺。它们与旧大陆莺与澳洲莺并没有直接的亲缘关系。 森莺科鸟类常拥有艳丽的体羽。它们大多在树林间觅食昆虫，但橙顶灶莺（Seiurus…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南加利福尼亞州-5b1bbeb0",
+      "name": "南加利福尼亞州",
+      "summary": "加州南部（Southern California）是美國加州南部的大都市圈，範圍包含大洛杉磯地區及聖地牙哥都會區。加州南部範圍從文图拉延伸至聖地牙哥，其南端則是美墨邊境。 參考 Historical Society of Southern…",
+      "lat": "34",
+      "lng": "-117"
+    },
+    {
+      "id": "loc-得克萨斯州-8487bfae",
+      "name": "得克萨斯州",
+      "summary": "得克萨斯州（英語：State of Texas，/ˈtɛksəs/，當地 /ˈtɛksɪz/； 西班牙語：Estado de Texas，Estado de Tejas），简称德州，旧译德沙士；是全美國土地面積和人口第二大的州（面積僅次於…",
+      "lat": "31",
+      "lng": "-99"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-nashville-warbler-24d6ac7a",
+      "subject": "Nashville warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-alexander-wilson-ornithologist-ebfffab1",
+      "object": "Alexander Wilson (ornithologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Nashville warbler (Leiothlypis ruficapilla) is a small songbird in the New World warbler family, found in North and Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nashville-warbler-24d6ac7a",
+      "subject": "Nashville warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-森莺科-76e24430",
+      "object": "森莺科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Nashville warbler (Leiothlypis ruficapilla) is a small songbird in the New World warbler family, found in North and Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nashville-warbler-24d6ac7a",
+      "subject": "Nashville warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-南加利福尼亞州-5b1bbeb0",
+      "object": "南加利福尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in parts of the northern and western United States and southern Canada, and migrates to winter in southern California and Texas, Mexico, and the north of Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nashville-warbler-24d6ac7a",
+      "subject": "Nashville warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-得克萨斯州-8487bfae",
+      "object": "得克萨斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in parts of the northern and western United States and southern Canada, and migrates to winter in southern California and Texas, Mexico, and the north of Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-nashville-warbler-24d6ac7a",
+      "subject": "Nashville warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

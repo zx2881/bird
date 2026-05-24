@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:27:25",
+  "requested_title": "Lesser Goldfinch",
+  "resolved_title": "Lesser goldfinch",
+  "title_aliases": [
+    "Lesser Goldfinch"
+  ],
+  "bird_id": "bird-暗背金翅雀-748d9997",
+  "raw_file": "bird-暗背金翅雀-748d9997.json",
+  "bird": {
+    "id": "bird-暗背金翅雀-748d9997",
+    "name": "暗背金翅雀",
+    "english_name": "Lesser goldfinch",
+    "latin_name": "Spinus psaltria",
+    "summary": "暗背金翅雀（學名：Spinus psaltria），是燕雀科 、金雀属下的一种雀，分布于美洲，由美国西部至南美洲西北部 。 描述 雄雀的头顶和背部毛色多样，从纯黑色到绿色，腹面是鲜黄色，双翼的羽毛上有白色斑纹，尾羽边也有斑纹。雌雀的颜色较浅，羽毛斑纹较小 。",
+    "lat": "19",
+    "lng": "-96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Lesser_Goldfinch_%28_Eastern_race%29_Kerr_WMA_Kerrville_TX_2018-05-06_12-11-15-2_%2842881554344%29.jpg/960px-Lesser_Goldfinch_%28_Eastern_race%29_Kerr_WMA_Kerrville_TX_2018-05-06_12-11-15-2_%2842881554344%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-thomas-say-795476ab",
+      "name": "Thomas Say",
+      "summary": "Thomas Say (June 27, 1787 – October 10, 1834) was an American entomologist, conchologist, and herpetologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-美洲-f26eed21",
+      "name": "美洲",
+      "summary": "亚美利加洲（英語：Americas）簡稱美洲，位于西半球，自然地理分为北美洲和南美洲，其中北美洲可进一步划分为北美地区、中美洲（联合国地理方案将墨西哥视为中美洲的一部分）和加勒比地区（西印度群岛）三个地理区域。美洲的总面積達4254.9万…",
+      "lat": "19",
+      "lng": "-96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-暗背金翅雀-748d9997",
+      "subject": "暗背金翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-thomas-say-795476ab",
+      "object": "Thomas Say",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The lesser goldfinch (Spinus psaltria) is a small finch in the genus Spinus native to the Americas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗背金翅雀-748d9997",
+      "subject": "暗背金翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-美洲-f26eed21",
+      "object": "美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The lesser goldfinch (Spinus psaltria) is a small finch in the genus Spinus native to the Americas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗背金翅雀-748d9997",
+      "subject": "暗背金翅雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

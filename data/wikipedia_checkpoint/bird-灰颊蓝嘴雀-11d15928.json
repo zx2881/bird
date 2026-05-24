@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:12:22",
+  "requested_title": "Grant's Bluebill",
+  "resolved_title": "Grant's bluebill",
+  "title_aliases": [
+    "Grant's Bluebill"
+  ],
+  "bird_id": "bird-灰颊蓝嘴雀-11d15928",
+  "raw_file": "bird-灰颊蓝嘴雀-11d15928.json",
+  "bird": {
+    "id": "bird-灰颊蓝嘴雀-11d15928",
+    "name": "灰颊蓝嘴雀",
+    "english_name": "Grant's bluebill",
+    "latin_name": "Spermophaga poliogenys",
+    "summary": "灰颊蓝嘴雀（学名：Spermophaga poliogenys）是梅花雀科蓝嘴雀属的一种，分布于刚果民主共和国、乌干达和刚果。全球活动范围约为354,000平方千米。该物种的保护状况被评为无危。 灰颊蓝嘴雀的平均体重约为19.8克。其栖息于亚热带或热带的湿润低地林。",
+    "lat": "-1.44",
+    "lng": "15.556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Spermophaga_poliogenys.png"
+  },
+  "locations": [
+    {
+      "id": "loc-威廉-羅伯特-奧格爾維-格蘭特-af0ec995",
+      "name": "威廉·羅伯特·奧格爾維-格蘭特",
+      "summary": "威廉·羅伯特·奧格爾維-格蘭特（英語：William Robert Ogilvie-Grant，1863年3月25日—1924年7月26日）是一名蘇格蘭鳥類學家。 早年生活和教育 奧格爾維-格蘭特出生於1863年3月25日，是喬治·亨利·…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-刚果共和国-287170ca",
+      "name": "刚果共和国",
+      "summary": "刚果共和国（法語：République du Congo；基图巴语：Repubilika ya Kongo；林加拉语：Republiki ya Kongó），简称刚果、刚果（布拉柴维尔）或刚果（布），是非洲中部的一个国家，首都为布拉柴维尔…",
+      "lat": "-1.44",
+      "lng": "15.556"
+    },
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    },
+    {
+      "id": "loc-乌干达-8bd6d93b",
+      "name": "乌干达",
+      "summary": "烏干達共和國（斯瓦希里語：Jamhuri ya Uganda，英語：Republic of Uganda），通稱烏干達，是位於東非的內陸國家。 烏干達名稱來自於過去班圖人建立的布干達王國。歐洲列強在十九世紀後葉進入東非內陸後，烏干達在18…",
+      "lat": "1",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰颊蓝嘴雀-11d15928",
+      "subject": "灰颊蓝嘴雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-威廉-羅伯特-奧格爾維-格蘭特-af0ec995",
+      "object": "威廉·羅伯特·奧格爾維-格蘭特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Grant's bluebill (Spermophaga poliogenys) is a species of estrildid finch found in forests in central Africa in subtropical forests or in moist lowlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰颊蓝嘴雀-11d15928",
+      "subject": "灰颊蓝嘴雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果共和国-287170ca",
+      "object": "刚果共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Republic of Congo, the Democratic Republic of the Congo and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰颊蓝嘴雀-11d15928",
+      "subject": "灰颊蓝嘴雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Republic of Congo, the Democratic Republic of the Congo and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰颊蓝嘴雀-11d15928",
+      "subject": "灰颊蓝嘴雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌干达-8bd6d93b",
+      "object": "乌干达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Republic of Congo, the Democratic Republic of the Congo and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰颊蓝嘴雀-11d15928",
+      "subject": "灰颊蓝嘴雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

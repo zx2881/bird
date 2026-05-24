@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:52:36",
+  "requested_title": "Buru Racket-tail",
+  "resolved_title": "Buru racket-tail",
+  "title_aliases": [
+    "Buru Racket-tail"
+  ],
+  "bird_id": "bird-布島扇尾鸚鵡-2d3bb70a",
+  "raw_file": "bird-布島扇尾鸚鵡-2d3bb70a.json",
+  "bird": {
+    "id": "bird-布島扇尾鸚鵡-2d3bb70a",
+    "name": "布島扇尾鸚鵡",
+    "english_name": "Buru racket-tail",
+    "latin_name": "Prioniturus mada",
+    "summary": "布島扇尾鸚鵡 (學名Prioniturus mada)，是一種僅見於印尼布魯島的鸚鵡。 描述 本種呈綠色，身長 32 公分（12.5 英吋）。喙黑色，喙基色較淺。尾下覆羽黃色。成年雄鳥背藍色，自頭後延伸至背脊中間，再到前翅上方。雌鳥的藍色斑僅見於頸背。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Prioniturus_mada_-captive-8a-2c.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-布島扇尾鸚鵡-2d3bb70a",
+      "subject": "布島扇尾鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Prioniturus mada is usually found in elevations up to approximately 1600 meters where it is found in many different types of forest habitat",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-布島扇尾鸚鵡-2d3bb70a",
+      "subject": "布島扇尾鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Like most other Indonesian birds, the Buru racket-tail is threatened by habitat destruction due to deforestation to make ways for plantations (especially palm oil), logging, and mining operations",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-布島扇尾鸚鵡-2d3bb70a",
+      "subject": "布島扇尾鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Like most other Indonesian birds, the Buru racket-tail is threatened by habitat destruction due to deforestation to make ways for plantations (especially palm oil), logging, and mining operations",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

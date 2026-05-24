@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T22:34:11",
+  "requested_title": "Choco Screech Owl",
+  "resolved_title": "Chocó screech owl",
+  "title_aliases": [
+    "Choco Screech Owl",
+    "Chocó screech owl"
+  ],
+  "bird_id": "bird-choc-screech-owl-7b314a9b",
+  "raw_file": "bird-choc-screech-owl-7b314a9b.json",
+  "bird": {
+    "id": "bird-choc-screech-owl-7b314a9b",
+    "name": "Chocó screech owl",
+    "english_name": "Chocó screech owl",
+    "latin_name": "Megascops centralis",
+    "summary": "The Chocó screech owl (Megascops centralis) is a species of owl in the family Strigidae. It is found from central Panama to western Ecuador.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Megascops_centralis_272416024.jpg/960px-Megascops_centralis_272416024.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-choc-screech-owl-7b314a9b",
+      "subject": "Chocó screech owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the interior and borders of humid primary and secondary forest in lowlands and foothills",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-choc-screech-owl-7b314a9b",
+      "subject": "Chocó screech owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the interior and borders of humid primary and secondary forest in lowlands and foothills",
+      "object_summary": ""
+    }
+  ]
+}

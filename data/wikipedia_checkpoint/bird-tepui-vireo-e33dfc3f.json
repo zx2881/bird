@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:32:20",
+  "requested_title": "Tepui Vireo",
+  "resolved_title": "Tepui vireo",
+  "title_aliases": [
+    "Tepui Vireo"
+  ],
+  "bird_id": "bird-tepui-vireo-e33dfc3f",
+  "raw_file": "bird-tepui-vireo-e33dfc3f.json",
+  "bird": {
+    "id": "bird-tepui-vireo-e33dfc3f",
+    "name": "Tepui vireo",
+    "english_name": "Tepui vireo",
+    "latin_name": "Vireo sclateri",
+    "summary": "The tepui vireo, or tepui greenlet, (Vireo sclateri) is a species of bird in the family Vireonidae, the vireos, greenlets, and shrike-babbl…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tepui_Greenlet_Smithsonian_Front.jpg/960px-Tepui_Greenlet_Smithsonian_Front.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-osbert-salvin-f71e3068",
+      "name": "Osbert Salvin",
+      "summary": "Osbert Salvin (25 February 1835 – 1 June 1898) was an English naturalist, ornithologist, and herpetologist best known f…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-frederick-ducane-godman-e9eed1b1",
+      "name": "Frederick DuCane Godman",
+      "summary": "Frederick DuCane Godman DCL FRS FLS FGS FRGS FES FZS MRI FRHS (15 January 1834 – 19 February 1919) was an English lepid…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tepui-vireo-e33dfc3f",
+      "subject": "Tepui vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-osbert-salvin-f71e3068",
+      "object": "Osbert Salvin",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tepui vireo, or tepui greenlet, (Vireo sclateri) is a species of bird in the family Vireonidae, the vireos, greenlets, and shrike-babblers. It is found in Brazil, Guyana, Suriname, and Venezuela.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tepui-vireo-e33dfc3f",
+      "subject": "Tepui vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-frederick-ducane-godman-e9eed1b1",
+      "object": "Frederick DuCane Godman",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tepui vireo, or tepui greenlet, (Vireo sclateri) is a species of bird in the family Vireonidae, the vireos, greenlets, and shrike-babblers. It is found in Brazil, Guyana, Suriname, and Venezuela.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tepui-vireo-e33dfc3f",
+      "subject": "Tepui vireo",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the interior and edges of humid and wet montane forest on the tepuis, where it ranges in elevation between .{{cite book | last =Hilty | first =Steven L",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-tepui-vireo-e33dfc3f",
+      "subject": "Tepui vireo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:29:29",
+  "requested_title": "Olive Thrush",
+  "resolved_title": "Olive thrush",
+  "title_aliases": [
+    "Olive Thrush"
+  ],
+  "bird_id": "bird-橄欖鶇-221de31b",
+  "raw_file": "bird-橄欖鶇-221de31b.json",
+  "bird": {
+    "id": "bird-橄欖鶇-221de31b",
+    "name": "橄欖鶇",
+    "english_name": "Olive thrush",
+    "latin_name": "Turdus olivaceus",
+    "summary": "橄欖鶇（學名：Turdus olivaceus）是鶇屬下的一種鳥類。其种加词“olivaceus”意为“橄榄色的”。生活在非洲東部從厄立特里亞和埃塞俄比亞到好望角的高原地區。自然棲息地是叢林，但是也會出沒於人類的公園裡。 其身長約為24厘米（9.4英寸），重約101克（3.6盎…",
+    "lat": "-34.35805556",
+    "lng": "18.47555556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Olive-thrush.jpg/960px-Olive-thrush.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-好望角-5d7d604b",
+      "name": "好望角",
+      "summary": "好望角（阿非利卡語：Kaap die Goeie Hoop，[ˌkɑːp di ˌχujə ˈɦʊəp]；荷蘭語：Kaap de Goede Hoop，[ˌkaːb də ˌɣudə ˈɦoːp] ；葡萄牙語：Cabo da Boa Es…",
+      "lat": "-34.35805556",
+      "lng": "18.47555556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橄欖鶇-221de31b",
+      "subject": "橄欖鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-好望角-5d7d604b",
+      "object": "好望角",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in African highlands from the montane regions in Eastern and Central Africa in the north to the Cape of Good Hope in the south. It is a bird of forest and woodland, but has locally adapted to parks and large gardens in suburban areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橄欖鶇-221de31b",
+      "subject": "橄欖鶇",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

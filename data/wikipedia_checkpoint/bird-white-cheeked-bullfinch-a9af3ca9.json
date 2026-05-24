@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:11:03",
+  "requested_title": "White-cheeked Bullfinch",
+  "resolved_title": "White-cheeked bullfinch",
+  "title_aliases": [
+    "White-cheeked Bullfinch"
+  ],
+  "bird_id": "bird-white-cheeked-bullfinch-a9af3ca9",
+  "raw_file": "bird-white-cheeked-bullfinch-a9af3ca9.json",
+  "bird": {
+    "id": "bird-white-cheeked-bullfinch-a9af3ca9",
+    "name": "White-cheeked bullfinch",
+    "english_name": "White-cheeked bullfinch",
+    "latin_name": "Pyrrhula leucogenis",
+    "summary": "The white-cheeked bullfinch (Pyrrhula leucogenis) is a species of finch in the family Fringillidae. It is found in mountain regions of the…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/White-cheeked_Bullfinch_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-cheeked-bullfinch-a9af3ca9",
+      "subject": "White-cheeked bullfinch",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in mountain regions of the Philippines on the islands of Luzon and Mindanao",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-cheeked-bullfinch-a9af3ca9",
+      "subject": "White-cheeked bullfinch",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is tropical moist montane forests above 1,250 meters above sea level",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-white-cheeked-bullfinch-a9af3ca9",
+      "subject": "White-cheeked bullfinch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

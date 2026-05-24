@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:18:16",
+  "requested_title": "Beautiful Nuthatch",
+  "resolved_title": "Beautiful nuthatch",
+  "title_aliases": [
+    "Beautiful Nuthatch"
+  ],
+  "bird_id": "bird-丽鳾-2578923c",
+  "raw_file": "bird-丽鳾-2578923c.json",
+  "bird": {
+    "id": "bird-丽鳾-2578923c",
+    "name": "丽鳾",
+    "english_name": "Beautiful nuthatch",
+    "latin_name": "Sitta formosa",
+    "summary": "丽鳾（学名：Sitta formosa）为鳾科鳾属的鸟类。分布于锡金、印度、缅甸、老挝、越南以及中国大陆的云南等地，主要生活于沟谷林乔木树顶，主食昆虫。该物种的模式产地在印度大吉岭。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Pair_of_Beautiful_Nuthatch.jpg/960px-Pair_of_Beautiful_Nuthatch.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-纳开-南腾国家公园-7be727f4",
+      "name": "纳开-南腾国家公园",
+      "summary": "纳开-南腾国家公园位于老挝甘蒙省纳开县，是东南亚最后的荒野之一。纳开-南腾国家公园覆盖了约4,270平方公里的安南山脉及相邻的纳开高原，横跨甘蒙省和博利坎赛省。根据2019年2月15日第36号总理令，该公园于2019年2月15日被指定为国…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-丽鳾-2578923c",
+      "subject": "丽鳾",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although the species is found in most of the countries making up the mainland of Southeast Asia, it appears to be rare throughout its range, its population being highly local where it is found",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-丽鳾-2578923c",
+      "subject": "丽鳾",
+      "predicate": "distributed_in",
+      "object_id": "loc-纳开-南腾国家公园-7be727f4",
+      "object": "纳开-南腾国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Data on the bird from Laos is erratic, but there are reports of sightings north of Phou Kobo, and of large numbers of the species wintering in the center of the country in the pristine wilderness of Nakai–Nam Theun",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-丽鳾-2578923c",
+      "subject": "丽鳾",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-丽鳾-2578923c",
+      "subject": "丽鳾",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its localised occurrence within its range makes rigorous estimates of its population difficult, but its habitat is threatened by deforestation and the species appears to be in decline",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

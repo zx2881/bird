@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:16:08",
+  "requested_title": "Black-cheeked Woodpecker",
+  "resolved_title": "Black-cheeked woodpecker",
+  "title_aliases": [
+    "Black-cheeked Woodpecker"
+  ],
+  "bird_id": "bird-black-cheeked-woodpecker-d76a31da",
+  "raw_file": "bird-black-cheeked-woodpecker-d76a31da.json",
+  "bird": {
+    "id": "bird-black-cheeked-woodpecker-d76a31da",
+    "name": "Black-cheeked woodpecker",
+    "english_name": "Black-cheeked woodpecker",
+    "latin_name": "Melanerpes pucherani",
+    "summary": "The black-cheeked woodpecker (Melanerpes pucherani) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is found…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Black-cheeked_woodpecker_%28Melanerpes_pucherani%29_male_making_nest_Orange_Walk.jpg/960px-Black-cheeked_woodpecker_%28Melanerpes_pucherani%29_male_making_nest_Orange_Walk.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-cheeked-woodpecker-d76a31da",
+      "subject": "Black-cheeked woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "https://www.museum.lsu.edu/~Remsen/SACCCountryLists.htm retrieved 24 July 2022 The black-cheeked woodpecker inhabits the interior and edges of humid to wet evergreen forest, mature secondary forest and abandoned plantations, and clearings with scattered trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-cheeked-woodpecker-d76a31da",
+      "subject": "Black-cheeked woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "https://www.museum.lsu.edu/~Remsen/SACCCountryLists.htm retrieved 24 July 2022 The black-cheeked woodpecker inhabits the interior and edges of humid to wet evergreen forest, mature secondary forest and abandoned plantations, and clearings with scattered trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-cheeked-woodpecker-d76a31da",
+      "subject": "Black-cheeked woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-black-cheeked-woodpecker-d76a31da",
+      "subject": "Black-cheeked woodpecker",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It occurs in several protected areas, but \"[n]umbers decline with extensive deforestation.\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

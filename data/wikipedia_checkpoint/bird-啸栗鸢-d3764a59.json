@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:54:38",
+  "requested_title": "Whistling Kite",
+  "resolved_title": "Whistling kite",
+  "title_aliases": [
+    "Whistling Kite"
+  ],
+  "bird_id": "bird-啸栗鸢-d3764a59",
+  "raw_file": "bird-啸栗鸢-d3764a59.json",
+  "bird": {
+    "id": "bird-啸栗鸢-d3764a59",
+    "name": "啸栗鸢",
+    "english_name": "Whistling kite",
+    "latin_name": "Haliastur sphenurus",
+    "summary": "啸栗鸢（学名：Haliastur sphenurus）是一种体型中等的昼行性猛禽，分布于澳大利亚、新喀里多尼亚和新几内亚等地。 体长50–60厘米，翼展123–146厘米，重380–1,050克。雌性比雄性要大。头小尾长腿短。尾部、胸部和翅膀为棕色，飞羽为黑色，幼鸟翅膀上有非常…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Haliastur_sphenurus_2_-_Pitt_Town.jpg/960px-Haliastur_sphenurus_2_-_Pitt_Town.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-岸-4d4f1e5c",
+      "name": "岸",
+      "summary": "岸（又稱濱），分為海岸、湖岸及河岸，是在水面和陆地接触处，经波浪、潮汐、海流等作用下形成的滨水地带，其中有眾多沉積物堆積而形成的岸稱為灘。 海水作用 波浪，經常造成侵蝕 海流，經常造成堆積 潮汐 海岸類型 依構成物質區分 可分為岩岸與沙岸…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-旱季-98213416",
+      "name": "旱季",
+      "summary": "旱季，或稱乾季，指在降水量有顯著差別的地區，其一年中降水相对较少的月份。 请注意，在某些地區的某些年份，在“旱季”里每隔一两天下一场不大也不小的雨。所以“旱”是相对于“雨季”里每天下雨甚至连续数日不断地下雨而言的。",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-啸栗鸢-d3764a59",
+      "subject": "啸栗鸢",
+      "predicate": "distributed_in",
+      "object_id": "loc-岸-4d4f1e5c",
+      "object": "岸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "A species of open or lightly wooded areas, whistling kites are typically found near water, at elevations ranging from sea level to 1400 meters. Though the species as a whole is generally sedentary, some Australian birds are known to be nomadic, wandering to coastal areas in northern Australia during the dry season; some south Australian birds migrate to the south in the autumn. There is some evidence that the species is declining locally in southern Australia due to the drainage of wetlands and an accompanying decline in food supplies",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-啸栗鸢-d3764a59",
+      "subject": "啸栗鸢",
+      "predicate": "distributed_in",
+      "object_id": "loc-旱季-98213416",
+      "object": "旱季",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "A species of open or lightly wooded areas, whistling kites are typically found near water, at elevations ranging from sea level to 1400 meters. Though the species as a whole is generally sedentary, some Australian birds are known to be nomadic, wandering to coastal areas in northern Australia during the dry season; some south Australian birds migrate to the south in the autumn. There is some evidence that the species is declining locally in southern Australia due to the drainage of wetlands and an accompanying decline in food supplies",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-啸栗鸢-d3764a59",
+      "subject": "啸栗鸢",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "A species of open or lightly wooded areas, whistling kites are typically found near water, at elevations ranging from sea level to 1400 meters. Though the species as a whole is generally sedentary, some Australian birds are known to be nomadic, wandering to coastal areas in northern Australia during the dry season; some south Australian birds migrate to the south in the autumn. There is some evidence that the species is declining locally in southern Australia due to the drainage of wetlands and an accompanying decline in food supplies",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-啸栗鸢-d3764a59",
+      "subject": "啸栗鸢",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

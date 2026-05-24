@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:32:01",
+  "requested_title": "Salmon-crested Cockatoo",
+  "resolved_title": "Salmon-crested cockatoo",
+  "title_aliases": [
+    "Salmon-crested Cockatoo"
+  ],
+  "bird_id": "bird-鲑色凤头鹦鹉-3f396a11",
+  "raw_file": "bird-鲑色凤头鹦鹉-3f396a11.json",
+  "bird": {
+    "id": "bird-鲑色凤头鹦鹉-3f396a11",
+    "name": "鲑色凤头鹦鹉",
+    "english_name": "Salmon-crested cockatoo",
+    "latin_name": "Cacatua moluccensis",
+    "summary": "鲑色凤头鹦鹉（學名：Cacatua moluccensis）又名摩鹿加凤头鹦鹉、朱路冠凤头鹦鹉、红葵凤头鹦鹉。母鸟虹膜带红色，公鸟为黑褐色。体长50厘米，寿命可达60年。分布在印尼摩鹿加群岛。栖息地为开阔的林地、红树林、沼泽，偶尔集群出没。食用包括坚果、椰果、种子、浆果、昆虫等…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Cacatua_moluccensis_-Cincinnati_Zoo-8a.jpg/960px-Cacatua_moluccensis_-Cincinnati_Zoo-8a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鲑色凤头鹦鹉-3f396a11",
+      "subject": "鲑色凤头鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the wild, the salmon-crested cockatoo inhabits lowland forests below",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鲑色凤头鹦鹉-3f396a11",
+      "subject": "鲑色凤头鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-鲑色凤头鹦鹉-3f396a11",
+      "subject": "鲑色凤头鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Numbers have declined due to illegal trapping for the cage-bird trade and habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

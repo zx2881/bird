@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:21:08",
+  "requested_title": "Red-throated Tit",
+  "resolved_title": "Red-throated tit",
+  "title_aliases": [
+    "Red-throated Tit"
+  ],
+  "bird_id": "bird-red-throated-tit-0782e9d4",
+  "raw_file": "bird-red-throated-tit-0782e9d4.json",
+  "bird": {
+    "id": "bird-red-throated-tit-0782e9d4",
+    "name": "Red-throated tit",
+    "english_name": "Red-throated tit",
+    "latin_name": "Melaniparus fringillinus",
+    "summary": "The red-throated tit (Melaniparus fringillinus) is a species of bird in the family Paridae. It is found in Kenya and Tanzania, where its na…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Melaniparus_fringillinus_-_Valentin_Moser_-_451430486.jpeg/960px-Melaniparus_fringillinus_-_Valentin_Moser_-_451430486.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-throated-tit-0782e9d4",
+      "subject": "Red-throated tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya and Tanzania, where its natural habitat is dry savanna",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-throated-tit-0782e9d4",
+      "subject": "Red-throated tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya and Tanzania, where its natural habitat is dry savanna",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-throated-tit-0782e9d4",
+      "subject": "Red-throated tit",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in Kenya and Tanzania, where its natural habitat is dry savanna",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-red-throated-tit-0782e9d4",
+      "subject": "Red-throated tit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

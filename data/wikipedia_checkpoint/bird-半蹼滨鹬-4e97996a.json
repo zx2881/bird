@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:06:23",
+  "requested_title": "Semipalmated Sandpiper",
+  "resolved_title": "Semipalmated sandpiper",
+  "title_aliases": [
+    "Semipalmated Sandpiper"
+  ],
+  "bird_id": "bird-半蹼滨鹬-4e97996a",
+  "raw_file": "bird-半蹼滨鹬-4e97996a.json",
+  "bird": {
+    "id": "bird-半蹼滨鹬-4e97996a",
+    "name": "半蹼滨鹬",
+    "english_name": "Semipalmated sandpiper",
+    "latin_name": "Calidris pusilla",
+    "summary": "半蹼滨鹬（学名：Calidris pusilla），是鸻形目丘鹬科的一种鸟类。 特征 半蹼滨鹬体重约27.5克，翼长约92.7毫米，嘴峰长约22.2毫米，喙宽度约2.6毫米，喙厚度约4.2毫米，跗蹠长约20.7毫米，尾长约39.7毫米。半蹼滨鹬是候鸟，其栖息在开放的草原环境中，…",
+    "lat": "40",
+    "lng": "-100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Semipalmated_sandpiper_%28Calidris_pusilla%29_-_Heislerville_Wildlife_Management_Area%2C_New_Jersey%2C_USA.png/960px-Semipalmated_sandpiper_%28Calidris_pusilla%29_-_Heislerville_Wildlife_Management_Area%2C_New_Jersey%2C_USA.png"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-美国-1efc9783",
+      "name": "美国",
+      "summary": "美利堅合眾國（英語：United States of America，縮寫：USA），简称美国、美利堅（英語：America）或合眾國（United States，縮寫：US），是位於北美洲的聯邦制共和國。其由50個州、首都华盛顿哥伦比亚…",
+      "lat": "40",
+      "lng": "-100"
+    },
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-半蹼滨鹬-4e97996a",
+      "subject": "半蹼滨鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are long distance migrants and winter in coastal South America, with some going to the southern United States and the Caribbean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-半蹼滨鹬-4e97996a",
+      "subject": "半蹼滨鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-美国-1efc9783",
+      "object": "美国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are long distance migrants and winter in coastal South America, with some going to the southern United States and the Caribbean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-半蹼滨鹬-4e97996a",
+      "subject": "半蹼滨鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are long distance migrants and winter in coastal South America, with some going to the southern United States and the Caribbean",
+      "object_summary": ""
+    }
+  ]
+}

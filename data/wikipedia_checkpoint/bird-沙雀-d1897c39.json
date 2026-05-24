@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:13:15",
+  "requested_title": "Trumpeter Finch",
+  "resolved_title": "Trumpeter finch",
+  "title_aliases": [
+    "Trumpeter Finch"
+  ],
+  "bird_id": "bird-沙雀-d1897c39",
+  "raw_file": "bird-沙雀-d1897c39.json",
+  "bird": {
+    "id": "bird-沙雀-d1897c39",
+    "name": "沙雀",
+    "english_name": "Trumpeter finch",
+    "latin_name": "Bucanetes githagineus",
+    "summary": "沙雀（学名：Bucanetes githagineus），是雀形目燕雀科的一种鸟类。 沙雀体重约19.6克，翼长约81.9毫米，嘴峰长约11.3毫米，喙宽度约6.5毫米，喙厚度约8.8毫米，跗蹠长约16.2毫米，尾长约53.1毫米。沙雀是部分迁徙的鸟类，其栖息在开放的沙漠中，食…",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Trumpeter_finch_%28Bucanetes_githagineus_zedlitzi%29_male_Kebili.jpg/960px-Trumpeter_finch_%28Bucanetes_githagineus_zedlitzi%29_male_Kebili.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    },
+    {
+      "id": "loc-英格兰-91695792",
+      "name": "英格兰",
+      "summary": "英格蘭（英語：England；古英語：Englaland），又稱作英國、英倫，漢語舊稱“英吉利”，為英國的構成國之一，位於大不列顛島東南部，蘇格蘭以南，威爾斯以東，是英國面積最大、人口最多、經濟最發達的一個地区。雖然就傳統上一般可以認為其…",
+      "lat": "53.13",
+      "lng": "-1.38"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-沙雀-d1897c39",
+      "subject": "沙雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the Middle East, it is found in Egypt east to Iraq and south in the Arabian Peninsula to Yemen and Oman and north into Turkey and Armenia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-沙雀-d1897c39",
+      "subject": "沙雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-英格兰-91695792",
+      "object": "英格兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The European breeding population is found in habitats where there is no tree cover but there is sparse scrub less than a metre in height, while the birds in the Canary Islands nest on sandy plains with halophytic and xerophytic scrub, as well as in more typical habitats. In the summer of 2005, there was a notable irruption of this species into northwestern Europe, with several birds reaching as far as England",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-沙雀-d1897c39",
+      "subject": "沙雀",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They can also be found in vast open steppe areas where there are dry desolate hills with sparse low scrubby vegetation, edges of fields, on mountain slopes, in stony plains where there are no trees, cliffs, ravines, gorges and wadis",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-沙雀-d1897c39",
+      "subject": "沙雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

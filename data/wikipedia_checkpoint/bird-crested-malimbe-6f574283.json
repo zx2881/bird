@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:33:13",
+  "requested_title": "Crested Malimbe",
+  "resolved_title": "Crested malimbe",
+  "title_aliases": [
+    "Crested Malimbe"
+  ],
+  "bird_id": "bird-crested-malimbe-6f574283",
+  "raw_file": "bird-crested-malimbe-6f574283.json",
+  "bird": {
+    "id": "bird-crested-malimbe-6f574283",
+    "name": "Crested malimbe",
+    "english_name": "Crested malimbe",
+    "latin_name": "Malimbus malimbicus",
+    "summary": "The crested malimbe (Malimbus malimbicus) is a species of bird in the family Ploceidae. It is native to the African tropical rainforest.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Crested_Malimbe_-_Kakum_-_Ghana_S4E1412_%2822229307983%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-crested-malimbe-6f574283",
+      "subject": "Crested malimbe",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crested-malimbe-6f574283",
+      "subject": "Crested malimbe",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

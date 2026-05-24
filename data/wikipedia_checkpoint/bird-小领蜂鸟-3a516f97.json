@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:12:22",
+  "requested_title": "Flame-throated Sunangel",
+  "resolved_title": "Flame-throated sunangel",
+  "title_aliases": [
+    "Flame-throated Sunangel"
+  ],
+  "bird_id": "bird-小领蜂鸟-3a516f97",
+  "raw_file": "bird-小领蜂鸟-3a516f97.json",
+  "bird": {
+    "id": "bird-小领蜂鸟-3a516f97",
+    "name": "小领蜂鸟",
+    "english_name": "Flame-throated sunangel",
+    "latin_name": "Heliangelus micraster",
+    "summary": "小领蜂鸟（学名：Heliangelus micraster），是雨燕目蜂鸟科的一种鸟类。 小领蜂鸟体重约3.9克，翼长约63.5毫米，嘴峰长约16.5毫米，喙宽度约1.8毫米，喙厚度约1.3毫米，跗蹠长约5.3毫米，尾长约43.5毫米。小领蜂鸟在其分布区内为留鸟，其栖息在密集的…",
+    "lat": "-2",
+    "lng": "-77.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Little_Sunangel_-_Ecuador_S4E1895.jpg/960px-Little_Sunangel_-_Ecuador_S4E1895.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-卡哈马卡大区-32cb54f1",
+      "name": "卡哈马卡大区",
+      "summary": "卡哈馬卡大區（西班牙語：Departamento de Cajamarca）是秘魯北部的一個大區，北鄰厄瓜多爾，地處亞馬遜平原和安第斯山脈之間。面積33,317.54平方公里。2007年人口1,359,023人。首府卡哈馬卡。 成立於18…",
+      "lat": "-6.61",
+      "lng": "-78.78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小领蜂鸟-3a516f97",
+      "subject": "小领蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and Peru.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 12.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小领蜂鸟-3a516f97",
+      "subject": "小领蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and Peru.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 12.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小领蜂鸟-3a516f97",
+      "subject": "小领蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡哈马卡大区-32cb54f1",
+      "object": "卡哈马卡大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cutervensis is found in Peru's Department of Cajamarca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小领蜂鸟-3a516f97",
+      "subject": "小领蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

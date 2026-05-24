@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:46:04",
+  "requested_title": "Chestnut-rumped Thornbill",
+  "resolved_title": "Chestnut-rumped thornbill",
+  "title_aliases": [
+    "Chestnut-rumped Thornbill"
+  ],
+  "bird_id": "bird-chestnut-rumped-thornbill-19b6af3c",
+  "raw_file": "bird-chestnut-rumped-thornbill-19b6af3c.json",
+  "bird": {
+    "id": "bird-chestnut-rumped-thornbill-19b6af3c",
+    "name": "Chestnut-rumped thornbill",
+    "english_name": "Chestnut-rumped thornbill",
+    "latin_name": "Acanthiza uropygialis",
+    "summary": "The chestnut-rumped thornbill (Acanthiza uropygialis) is a small passerine bird in the family Acanthizidae, endemic to Australia. Specially…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Chestnut-rumped_Thornbill_0A2A8295.jpg/960px-Chestnut-rumped_Thornbill_0A2A8295.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-mallee-woodlands-and-shrublands-a78decc8",
+      "name": "Mallee Woodlands and Shrublands",
+      "summary": "Mallee Woodlands and Shrublands is one of 32 Major Vegetation Groups defined by the Australian Government Department of…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chestnut-rumped-thornbill-19b6af3c",
+      "subject": "Chestnut-rumped thornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-mallee-woodlands-and-shrublands-a78decc8",
+      "object": "Mallee Woodlands and Shrublands",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in dry woodlands and shrublands, mainly of mulga and malleeRix, C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chestnut-rumped-thornbill-19b6af3c",
+      "subject": "Chestnut-rumped thornbill",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They are found in dry woodlands and shrublands, mainly of mulga and malleeRix, C",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-chestnut-rumped-thornbill-19b6af3c",
+      "subject": "Chestnut-rumped thornbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

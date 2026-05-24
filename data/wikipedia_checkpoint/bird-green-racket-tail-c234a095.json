@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:53:36",
+  "requested_title": "Green Racket-tail",
+  "resolved_title": "Green racket-tail",
+  "title_aliases": [
+    "Green Racket-tail"
+  ],
+  "bird_id": "bird-green-racket-tail-c234a095",
+  "raw_file": "bird-green-racket-tail-c234a095.json",
+  "bird": {
+    "id": "bird-green-racket-tail-c234a095",
+    "name": "Green racket-tail",
+    "english_name": "Green racket-tail",
+    "latin_name": "Prioniturus luconensis",
+    "summary": "The green racket-tail (Prioniturus luconensis) is an endemic parrot of the Philippines where it is found on Luzon and Marinduque. This spec…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Green_Racket-tail.png/960px-Green_Racket-tail.png"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-racket-tail-c234a095",
+      "subject": "Green racket-tail",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Green racket-tails can be found in the canopy of tropical lowland rainforests in elevations of up to where it mainly prefers primary forest but is also seen in secondary forest and forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-racket-tail-c234a095",
+      "subject": "Green racket-tail",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Green racket-tails can be found in the canopy of tropical lowland rainforests in elevations of up to where it mainly prefers primary forest but is also seen in secondary forest and forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-racket-tail-c234a095",
+      "subject": "Green racket-tail",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Green racket-tails can be found in the canopy of tropical lowland rainforests in elevations of up to where it mainly prefers primary forest but is also seen in secondary forest and forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-racket-tail-c234a095",
+      "subject": "Green racket-tail",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Green racket-tails can be found in the canopy of tropical lowland rainforests in elevations of up to where it mainly prefers primary forest but is also seen in secondary forest and forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-racket-tail-c234a095",
+      "subject": "Green racket-tail",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-green-racket-tail-c234a095",
+      "subject": "Green racket-tail",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "E.| last= duPont| year= 1971| title= Philippine Birds| publisher= Delaware Museum of Natural History| location= Greenville}} This species was once common, but is rapidly declining and is currently classified as endangered due to lowland deforestation and capture for cage-bird trade",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

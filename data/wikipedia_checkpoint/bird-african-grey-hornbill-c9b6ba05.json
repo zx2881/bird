@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:20:42",
+  "requested_title": "African Grey Hornbill",
+  "resolved_title": "African grey hornbill",
+  "title_aliases": [
+    "African Grey Hornbill"
+  ],
+  "bird_id": "bird-african-grey-hornbill-c9b6ba05",
+  "raw_file": "bird-african-grey-hornbill-c9b6ba05.json",
+  "bird": {
+    "id": "bird-african-grey-hornbill-c9b6ba05",
+    "name": "African grey hornbill",
+    "english_name": "African grey hornbill",
+    "latin_name": "Lophoceros nasutus",
+    "summary": "The African grey hornbill (Lophoceros nasutus) is a member of the hornbill family of mainly tropical near-passerine birds found in the Old…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/African_grey_hornbill_%28Tockus_nasutus_nasutus%29_male.jpg/960px-African_grey_hornbill_%28Tockus_nasutus_nasutus%29_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-african-grey-hornbill-c9b6ba05",
+      "subject": "African grey hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "epirhinus}} | synonyms = * Buceros nasutus * Tockus nasutus }} The African grey hornbill (Lophoceros nasutus) is a member of the hornbill family of mainly tropical near-passerine birds found in the Old World",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-african-grey-hornbill-c9b6ba05",
+      "subject": "African grey hornbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

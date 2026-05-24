@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:19:38",
+  "requested_title": "Kipengere Seedeater",
+  "resolved_title": "Kipengere seedeater",
+  "title_aliases": [
+    "Kipengere Seedeater"
+  ],
+  "bird_id": "bird-kipengere-seedeater-05fdaff8",
+  "raw_file": "bird-kipengere-seedeater-05fdaff8.json",
+  "bird": {
+    "id": "bird-kipengere-seedeater-05fdaff8",
+    "name": "Kipengere seedeater",
+    "english_name": "Kipengere seedeater",
+    "latin_name": "Crithagra melanochroa",
+    "summary": "The Kipengere seedeater (Crithagra melanochroa), also known as the Tanzania seedeater, is a species of finch in the family Fringillidae. It…",
+    "lat": "-7.76666667",
+    "lng": "36.81666667",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-烏德宗瓦山脈-b8fa363c",
+      "name": "烏德宗瓦山脈",
+      "summary": "烏德宗瓦山脈是東非國家坦桑尼亞的山脈，位於多多馬東南面，是多種野生動物的棲息地，最高點海拔高度2,579米，烏德宗瓦山脈國家公園涵蓋該山脈大部分範圍。 外部連結 TANAPA - Udzungwa Mountains National P…",
+      "lat": "-7.76666667",
+      "lng": "36.81666667"
+    },
+    {
+      "id": "loc-基彭蓋雷嶺-dbc6be14",
+      "name": "基彭蓋雷嶺",
+      "summary": "基彭蓋雷嶺是東非國家莫桑比克的山脈，位於該國西南部馬拉維湖北端，全長約200公里，最高點海拔高度2,961米，每年平均降雨量達2,000毫米。",
+      "lat": "-9.5",
+      "lng": "34.16666667"
+    },
+    {
+      "id": "loc-倫圭山-1a699fc9",
+      "name": "倫圭山",
+      "summary": "Mount Rungwe is a volcanic mountain in Mbeya Region, in Tanzania's Southern Highlands.",
+      "lat": "-9.11666667",
+      "lng": "33.63333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-kipengere-seedeater-05fdaff8",
+      "subject": "Kipengere seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-烏德宗瓦山脈-b8fa363c",
+      "object": "烏德宗瓦山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Kipengere seedeater is found in montane forest and shrubland in the Udzungwa Mountains, Kipengere Range, and Mount Rungwe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kipengere-seedeater-05fdaff8",
+      "subject": "Kipengere seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-基彭蓋雷嶺-dbc6be14",
+      "object": "基彭蓋雷嶺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Kipengere seedeater is found in montane forest and shrubland in the Udzungwa Mountains, Kipengere Range, and Mount Rungwe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kipengere-seedeater-05fdaff8",
+      "subject": "Kipengere seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-倫圭山-1a699fc9",
+      "object": "倫圭山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Kipengere seedeater is found in montane forest and shrubland in the Udzungwa Mountains, Kipengere Range, and Mount Rungwe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kipengere-seedeater-05fdaff8",
+      "subject": "Kipengere seedeater",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Kipengere seedeater is found in montane forest and shrubland in the Udzungwa Mountains, Kipengere Range, and Mount Rungwe",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-kipengere-seedeater-05fdaff8",
+      "subject": "Kipengere seedeater",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Kipengere seedeater is found in montane forest and shrubland in the Udzungwa Mountains, Kipengere Range, and Mount Rungwe",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-kipengere-seedeater-05fdaff8",
+      "subject": "Kipengere seedeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-kipengere-seedeater-05fdaff8",
+      "subject": "Kipengere seedeater",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

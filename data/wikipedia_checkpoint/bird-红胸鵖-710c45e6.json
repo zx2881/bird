@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:29:06",
+  "requested_title": "Buff-breasted Wheatear",
+  "resolved_title": "Buff-breasted wheatear",
+  "title_aliases": [
+    "Buff-breasted Wheatear"
+  ],
+  "bird_id": "bird-红胸鵖-710c45e6",
+  "raw_file": "bird-红胸鵖-710c45e6.json",
+  "bird": {
+    "id": "bird-红胸鵖-710c45e6",
+    "name": "红胸鵖",
+    "english_name": "Buff-breasted wheatear",
+    "latin_name": "Oenanthe bottae",
+    "summary": "The buff-breasted wheatear (Oenanthe bottae), also known as Botta's wheatear or the red-breasted wheatear, is a species of bird in the Old…",
+    "lat": "15.34833333",
+    "lng": "44.20638889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Buff-breasted_Wheatear_%28Oenanthe_bottae%29%2C_Asir%2C_Saudi_Arabia_01.jpg/960px-Buff-breasted_Wheatear_%28Oenanthe_bottae%29%2C_Asir%2C_Saudi_Arabia_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-也门-80b75a25",
+      "name": "也门",
+      "summary": "也門共和國（阿拉伯語：الجمهورية اليمنية，al-Jumhūriyyah al-Yamaniyyah），通稱葉門（阿拉伯語：اليمن，羅馬化：al-Yaman），為西亞國家，位於阿拉伯半島西南角、阿拉伯海與紅海交界處，與阿…",
+      "lat": "15.34833333",
+      "lng": "44.20638889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红胸鵖-710c45e6",
+      "subject": "红胸鵖",
+      "predicate": "distributed_in",
+      "object_id": "loc-也门-80b75a25",
+      "object": "也门",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Asir Mountains of western Saudi Arabia and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红胸鵖-710c45e6",
+      "subject": "红胸鵖",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical high-altitude grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-红胸鵖-710c45e6",
+      "subject": "红胸鵖",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

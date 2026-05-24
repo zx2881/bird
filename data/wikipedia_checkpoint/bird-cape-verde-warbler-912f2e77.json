@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:32:08",
+  "requested_title": "Cape Verde Warbler",
+  "resolved_title": "Cape Verde warbler",
+  "title_aliases": [
+    "Cape Verde Warbler"
+  ],
+  "bird_id": "bird-cape-verde-warbler-912f2e77",
+  "raw_file": "bird-cape-verde-warbler-912f2e77.json",
+  "bird": {
+    "id": "bird-cape-verde-warbler-912f2e77",
+    "name": "Cape Verde warbler",
+    "english_name": "Cape Verde warbler",
+    "latin_name": "Acrocephalus (bird) brevipennis",
+    "summary": "The Cape Verde warbler (Acrocephalus brevipennis) is an Old World warbler in the genus Acrocephalus. It is also known as the Cape Verde can…",
+    "lat": "16.615",
+    "lng": "-24.271",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Acrocephalus_brevipennis_294A5867_Kapverdenrohrs%C3%A4nger%2C_Version_b.jpg/960px-Acrocephalus_brevipennis_294A5867_Kapverdenrohrs%C3%A4nger%2C_Version_b.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-聖尼古勞島-b97673ea",
+      "name": "聖尼古勞島",
+      "summary": "聖尼古勞島（葡萄牙語：São Nicolau），又译为圣尼古拉岛，是西非國家佛得角的島嶼，位於聖盧西亞島和薩爾島之間，屬於向風群島。長45公里、寬22公里，面積343平方公里，最高點海拔高度1,312米。2015年人口数量为12,424人…",
+      "lat": "16.615",
+      "lng": "-24.271"
+    },
+    {
+      "id": "loc-聖地牙哥島-維德角-50103143",
+      "name": "聖地牙哥島 (維德角)",
+      "summary": "聖地亚哥島（葡萄牙語：Ilha de Santiago，得名于雅各）是維德角最大的島嶼，屬於背風群島的一部分，長75公里、寬35公里，面積達991平方公里，最高點海拔高度1,394米，位於大西洋。聖地亚哥島是該國最重要的農業中心。該國約一…",
+      "lat": "15.06666667",
+      "lng": "-23.63333333"
+    },
+    {
+      "id": "loc-barragem-de-poil-o-01cdfd01",
+      "name": "Barragem de Poilão",
+      "summary": "Barragem de Poilão is a dam located in the eastern part of the island of Santiago, Cape Verde, in the municipality of S…",
+      "lat": "15.0757",
+      "lng": "-23.554"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cape-verde-warbler-912f2e77",
+      "subject": "Cape Verde warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-聖尼古勞島-b97673ea",
+      "object": "聖尼古勞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "After a specimen was found in a Lisbon museum, a survey was made on São Nicolau island in 1998 and some individuals were found there.{{cite journal|last=Hazevoet |first=C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-verde-warbler-912f2e77",
+      "subject": "Cape Verde warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-聖地牙哥島-維德角-50103143",
+      "object": "聖地牙哥島 (維德角)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2005 |title=Discovery of Cape Verde Warbler Acrocephalus brevipennis on Fogo, Cape Verde Islands |journal=Bulletin of the African Bird Club |volume=12 |issue=3|pages=147–149 |doi=10.5962/p.309752 |doi-access=free }} and further survey found it was widespread across the north of the island up to altitudes of about 1,300 m. On Santiago it can be found across the whole island, including in Barragem de Poilão, [[São Jorge dos Órgãos|S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-verde-warbler-912f2e77",
+      "subject": "Cape Verde warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-barragem-de-poil-o-01cdfd01",
+      "object": "Barragem de Poilão",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2005 |title=Discovery of Cape Verde Warbler Acrocephalus brevipennis on Fogo, Cape Verde Islands |journal=Bulletin of the African Bird Club |volume=12 |issue=3|pages=147–149 |doi=10.5962/p.309752 |doi-access=free }} and further survey found it was widespread across the north of the island up to altitudes of about 1,300 m. On Santiago it can be found across the whole island, including in Barragem de Poilão, [[São Jorge dos Órgãos|S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-verde-warbler-912f2e77",
+      "subject": "Cape Verde warbler",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-cape-verde-warbler-912f2e77",
+      "subject": "Cape Verde warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population trend of the Cape Verde warbler is thought to be declining, probably because of habitat destruction and the droughts that have beset the islands.{{cite book|last=Hazevoet |first=C",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

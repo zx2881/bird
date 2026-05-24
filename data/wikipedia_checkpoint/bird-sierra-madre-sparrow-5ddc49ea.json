@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:03:30",
+  "requested_title": "Sierra Madre Sparrow",
+  "resolved_title": "Sierra Madre sparrow",
+  "title_aliases": [
+    "Sierra Madre Sparrow"
+  ],
+  "bird_id": "bird-sierra-madre-sparrow-5ddc49ea",
+  "raw_file": "bird-sierra-madre-sparrow-5ddc49ea.json",
+  "bird": {
+    "id": "bird-sierra-madre-sparrow-5ddc49ea",
+    "name": "Sierra Madre sparrow",
+    "english_name": "Sierra Madre sparrow",
+    "latin_name": "Xenospiza baileyi",
+    "summary": "The Sierra Madre sparrow (Xenospiza baileyi), also known as Bailey's sparrow, is an endangered, range-restricted, enigmatic American sparro…",
+    "lat": "25.95611111",
+    "lng": "-107.04777778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Xenospiza_baileyi_202570677.jpg/960px-Xenospiza_baileyi_202570677.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西馬德雷山脈-aa5d3446",
+      "name": "西馬德雷山脈",
+      "summary": "西馬德雷山脈（Sierra Madre Occidental），是墨西哥的主要山脈之一，位於墨西哥高原西緣，其名意为“西部母山脈”。 西馬德雷山脈西北起于美国亚利桑那州图森附近，向东南沿墨西哥太平洋海岸延伸至墨西哥中部境内，全长約1500…",
+      "lat": "25.95611111",
+      "lng": "-107.04777778"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sierra-madre-sparrow-5ddc49ea",
+      "subject": "Sierra Madre sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-西馬德雷山脈-aa5d3446",
+      "object": "西馬德雷山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is endemic to some mountain ranges in and near the Sierra Madre Occidental, Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sierra-madre-sparrow-5ddc49ea",
+      "subject": "Sierra Madre sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is endemic to some mountain ranges in and near the Sierra Madre Occidental, Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sierra-madre-sparrow-5ddc49ea",
+      "subject": "Sierra Madre sparrow",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-sierra-madre-sparrow-5ddc49ea",
+      "subject": "Sierra Madre sparrow",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is endemic to Mexico and is threatened with extinction through habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

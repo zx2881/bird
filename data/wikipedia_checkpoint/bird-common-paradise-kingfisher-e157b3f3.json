@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:43:40",
+  "requested_title": "Common Paradise Kingfisher",
+  "resolved_title": "Common paradise kingfisher",
+  "title_aliases": [
+    "Common Paradise Kingfisher"
+  ],
+  "bird_id": "bird-common-paradise-kingfisher-e157b3f3",
+  "raw_file": "bird-common-paradise-kingfisher-e157b3f3.json",
+  "bird": {
+    "id": "bird-common-paradise-kingfisher-e157b3f3",
+    "name": "Common paradise kingfisher",
+    "english_name": "Common paradise kingfisher",
+    "latin_name": "Tanysiptera galatea",
+    "summary": "The common paradise kingfisher (Tanysiptera galatea), also known as the Galatea paradise kingfisher and the racquet-tailed kingfisher, is a…",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Common_Paradise-Kingfisher_0A2A1308.jpg/960px-Common_Paradise-Kingfisher_0A2A1308.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-common-paradise-kingfisher-e157b3f3",
+      "subject": "Common paradise kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in subtropical or tropical moist lowland forests of the Maluku Islands and New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-common-paradise-kingfisher-e157b3f3",
+      "subject": "Common paradise kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in subtropical or tropical moist lowland forests of the Maluku Islands and New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-common-paradise-kingfisher-e157b3f3",
+      "subject": "Common paradise kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in subtropical or tropical moist lowland forests of the Maluku Islands and New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-common-paradise-kingfisher-e157b3f3",
+      "subject": "Common paradise kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-common-paradise-kingfisher-e157b3f3",
+      "subject": "Common paradise kingfisher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population trend for this bird is thought to be downward as logging takes place in its forest habitat, but the rate of decline is not great enough to cause concern and the International Union for Conservation of Nature has assessed its conservation status as being of \"least concern\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

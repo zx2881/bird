@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:27:22",
+  "requested_title": "New Zealand Falcon",
+  "resolved_title": "New Zealand falcon",
+  "title_aliases": [
+    "New Zealand Falcon"
+  ],
+  "bird_id": "bird-new-zealand-falcon-5609919e",
+  "raw_file": "bird-new-zealand-falcon-5609919e.json",
+  "bird": {
+    "id": "bird-new-zealand-falcon-5609919e",
+    "name": "New Zealand falcon",
+    "english_name": "New Zealand falcon",
+    "latin_name": "Falco novaeseelandiae",
+    "summary": "The New Zealand falcon (Māori: kārearea, kārewarewa, or kāiaia; Falco novaeseelandiae) is New Zealand's only falcon, and one of only four l…",
+    "lat": "-42",
+    "lng": "173",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/NZ_Falcon_-_Karearea_02.JPG/960px-NZ_Falcon_-_Karearea_02.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-新西兰-f3c9507e",
+      "name": "新西兰",
+      "summary": "新西兰（英語：New Zealand）又称奥特亚罗瓦（毛利語：Aotearoa，直译：「长白云之乡」），位於太平洋西南部的主權島國，是英联邦新西蘭王國的主體部分，首都為惠灵顿，最大的城市為奧克蘭。紐西蘭主要由兩大島嶼組成：北島（Te Ik…",
+      "lat": "-42",
+      "lng": "173"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-new-zealand-falcon-5609919e",
+      "subject": "New Zealand falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-新西兰-f3c9507e",
+      "object": "新西兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The New Zealand falcon is only found in New Zealand. The native habitat of the eastern falcons in the eastern and central South Island is open country and steppes, with nests on steep slopes or rock ledges. In native podocarp broadleaf forests of the North Island the bush falcon hunts at forest edges and nests in pre-existing tree structures such as epiphytes and tree cavities of mature trees, or on a sheltered ground area.Seaton R., Minot E",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-new-zealand-falcon-5609919e",
+      "subject": "New Zealand falcon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

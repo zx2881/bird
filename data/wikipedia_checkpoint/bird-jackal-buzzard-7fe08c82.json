@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:05:19",
+  "requested_title": "Jackal Buzzard",
+  "resolved_title": "Jackal buzzard",
+  "title_aliases": [
+    "Jackal Buzzard"
+  ],
+  "bird_id": "bird-jackal-buzzard-7fe08c82",
+  "raw_file": "bird-jackal-buzzard-7fe08c82.json",
+  "bird": {
+    "id": "bird-jackal-buzzard-7fe08c82",
+    "name": "Jackal buzzard",
+    "english_name": "Jackal buzzard",
+    "latin_name": "Buteo rufofuscus",
+    "summary": "The jackal buzzard (Buteo rufofuscus) is a fairly large African bird of prey. The taxonomy of this species has caused some confusion in the…",
+    "lat": "-30",
+    "lng": "25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Buteo_rufofuscus_-Itala_Game_Reserve%2C_KwaZulu-Natal%2C_South_Africa_-flying-6.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-jackal-buzzard-7fe08c82",
+      "subject": "Jackal buzzard",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits most of South Africa, with an absence at some of the north-central region but common in the northeast of the country",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jackal-buzzard-7fe08c82",
+      "subject": "Jackal buzzard",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Foraging site selection by three raptors in relation to grassland burning in a montane habitat",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-jackal-buzzard-7fe08c82",
+      "subject": "Jackal buzzard",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

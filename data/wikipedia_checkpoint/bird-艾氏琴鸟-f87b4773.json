@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:34:35",
+  "requested_title": "Albert's Lyrebird",
+  "resolved_title": "Albert's lyrebird",
+  "title_aliases": [
+    "Albert's Lyrebird"
+  ],
+  "bird_id": "bird-艾氏琴鸟-f87b4773",
+  "raw_file": "bird-艾氏琴鸟-f87b4773.json",
+  "bird": {
+    "id": "bird-艾氏琴鸟-f87b4773",
+    "name": "艾氏琴鸟",
+    "english_name": "Albert's lyrebird",
+    "latin_name": "Menura alberti",
+    "summary": "艾氏琴鸟（台湾作亞博特琴鳥，学名：Menura alberti），又称艾伯氏琴鸟，是雀形目琴鸟科的一种鸟类。 艾氏琴鸟体重约928克，翼长约261.9毫米，嘴峰长约41.9毫米，喙宽度约7.1毫米，喙厚度约8.2毫米，跗蹠长约101.1毫米，尾长约441.1毫米。艾氏琴鸟在其分…",
+    "lat": "-28.39722222",
+    "lng": "153.27083333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Lyrebird_Albert_f_20091125.JPG/960px-Lyrebird_Albert_f_20091125.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-昆士蘭州東南部-2478d059",
+      "name": "昆士蘭州東南部",
+      "summary": "昆士蘭州東南部（South East Queensland；SEQ）是澳大利亞昆士蘭州的地域統稱，全境人口佔州內達2/3的比例；轄境有22,420平方公里，北自陽光海岸，南接黃金海岸與新南威爾斯州－堤維德岬的邊界，西與另一州內主要城市－圖…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-mount-warning-b516b3a1",
+      "name": "Mount Warning",
+      "summary": "Mount Warning (Bundjalung: Wollumbin, Wool-oom-bin), a mountain in the Tweed Range in the Northern Rivers region of New…",
+      "lat": "-28.39722222",
+      "lng": "153.27083333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-艾氏琴鸟-f87b4773",
+      "subject": "艾氏琴鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆士蘭州東南部-2478d059",
+      "object": "昆士蘭州東南部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Birds Australia Report Series 9. The bird's distribution is now restricted to several small areas of mountain ranges in the vicinity of far south-east Queensland and far north-east New South Wales; with much of the remaining habitat occurring in reserves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艾氏琴鸟-f87b4773",
+      "subject": "艾氏琴鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-mount-warning-b516b3a1",
+      "object": "Mount Warning",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "A large concentration is found in the Mount Warning area",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艾氏琴鸟-f87b4773",
+      "subject": "艾氏琴鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-艾氏琴鸟-f87b4773",
+      "subject": "艾氏琴鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-global-warming",
+      "object": "气候变暖",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In New South Wales, the birds are listed as least concern under the Threatened Species Conservation Act 1995 (New South Wales), as of December 2013, and in Queensland they are listed as near threatened under the Nature Conservation Act 1992 (Queensland), as of July 2012. The major threats to Albert's lyrebird include the intense management of forests and the replacement of optimal habitat with plantations of unsuitable species, such as eucalypts or hoop pines; invasion of logged or otherwise damaged habitat by weeds, especially Lantana camara, which reduces suitability of the habitat; damage to habitat by grazing stock; encroachment of urban or rural development close to habitat of Albert's lyrebirds; and predation by introduced red foxes (Vulpes vulpes), feral dogs and cats, and domestic dogs and cats, where the birds are located close to human settlements. Some isolated populations are threatened simply because they are so small, and because population densities are lower than expected in optimal habitats close to areas of human settlement. Global warming and its anticipated effects (habitat change, alteration to fire frequency/intensity) could be a potential threat to the lyrebird in the future and large-scale fires could potentially impact upon the entire population. Because the range of the species is confined to such a small geographic area, a threatening event, such as a severe regional drought, has the potential to affect all individuals",
+      "object_summary": "长期升温改变海冰和海洋环境条件。"
+    }
+  ]
+}

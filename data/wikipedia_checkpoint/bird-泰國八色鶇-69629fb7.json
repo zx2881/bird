@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:12:02",
+  "requested_title": "Gurney's Pitta",
+  "resolved_title": "Gurney's pitta",
+  "title_aliases": [
+    "Gurney's Pitta"
+  ],
+  "bird_id": "bird-泰國八色鶇-69629fb7",
+  "raw_file": "bird-泰國八色鶇-69629fb7.json",
+  "bird": {
+    "id": "bird-泰國八色鶇-69629fb7",
+    "name": "泰國八色鶇",
+    "english_name": "Gurney's pitta",
+    "latin_name": "Hydrornis gurneyi",
+    "summary": "泰國八色鶇（学名：Hydrornis gurneyi），是八色鸫科蓝八色鸫属的一种，分佈于泰國和緬甸。全球活动范围约为2,400平方千米。该物种的保护状况被评为濒危。 泰国八色鸫的平均体重约为73.2克。栖息地包括种植园、亚热带或热带的湿润低地林和亚热带或热带的沼泽林。",
+    "lat": "7",
+    "lng": "100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Gurney%27s_Pitta_%28male%29_-_Pitta_gurneyi_%283466943227%29.jpg/960px-Gurney%27s_Pitta_%28male%29_-_Pitta_gurneyi_%283466943227%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-泰國八色鶇-69629fb7",
+      "subject": "泰國八色鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Malay Peninsula, with populations mainly in Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-泰國八色鶇-69629fb7",
+      "subject": "泰國八色鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the Malay Peninsula, with populations mainly in Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-泰國八色鶇-69629fb7",
+      "subject": "泰國八色鶇",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

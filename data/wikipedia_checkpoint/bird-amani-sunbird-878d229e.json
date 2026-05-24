@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:57:50",
+  "requested_title": "Amani Sunbird",
+  "resolved_title": "Amani sunbird",
+  "title_aliases": [
+    "Amani Sunbird"
+  ],
+  "bird_id": "bird-amani-sunbird-878d229e",
+  "raw_file": "bird-amani-sunbird-878d229e.json",
+  "bird": {
+    "id": "bird-amani-sunbird-878d229e",
+    "name": "Amani sunbird",
+    "english_name": "Amani sunbird",
+    "latin_name": "Hedydipna pallidigaster",
+    "summary": "The Amani sunbird (Hedydipna pallidigaster) is a species of bird in the family Nectariniidae. It is found in Kenya and Tanzania.",
+    "lat": "-4.75",
+    "lng": "38.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Hedydipna_pallidigaster_-_Thibaud_Aronson_-_279716881.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    },
+    {
+      "id": "loc-烏桑巴拉山脈-7e1b0ea2",
+      "name": "烏桑巴拉山脈",
+      "summary": "烏桑巴拉山脈（Usambara Mountains）是坦桑尼亞東北部的出脈，長110公里、闊64公里，最高點海拔2,440米，山脈在20億年前形成，山區居民大多從事自給農業，當地人口以每年4%增長，高於全國平均增長率2.1%。",
+      "lat": "-4.75",
+      "lng": "38.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-amani-sunbird-878d229e",
+      "subject": "Amani sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-amani-sunbird-878d229e",
+      "subject": "Amani sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-amani-sunbird-878d229e",
+      "subject": "Amani sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-烏桑巴拉山脈-7e1b0ea2",
+      "object": "烏桑巴拉山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in open woodlands, low density forests, and the Usambara and Udzungwa mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-amani-sunbird-878d229e",
+      "subject": "Amani sunbird",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-amani-sunbird-878d229e",
+      "subject": "Amani sunbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Retrieved July 29th, 2013. It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

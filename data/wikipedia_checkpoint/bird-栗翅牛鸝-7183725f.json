@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:37:26",
+  "requested_title": "Greyish Baywing",
+  "resolved_title": "Grayish baywing",
+  "title_aliases": [
+    "Greyish Baywing",
+    "Grayish baywing"
+  ],
+  "bird_id": "bird-栗翅牛鸝-7183725f",
+  "raw_file": "bird-栗翅牛鸝-7183725f.json",
+  "bird": {
+    "id": "bird-栗翅牛鸝-7183725f",
+    "name": "栗翅牛鸝",
+    "english_name": "Grayish baywing",
+    "latin_name": "Agelaioides badius",
+    "summary": "栗翅牛鸝（Agelaioides badius）是屬於擬黃鸝科的一种鸟。它在阿根廷、玻利维亚、乌拉圭、巴拉圭和巴西南部和中北部等地被發現。栗翅牛鸝體長為18釐米。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Baywing_%28Agelaioides_badius%29.jpg/960px-Baywing_%28Agelaioides_badius%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pale-baywing-ba8a7447",
+      "name": "Pale baywing",
+      "summary": "The pale baywing (Agelaioides fringillarius), formerly known as the pale cowbird, is a species of bird in the family Ic…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗翅牛鸝-7183725f",
+      "subject": "栗翅牛鸝",
+      "predicate": "distributed_in",
+      "object_id": "loc-pale-baywing-ba8a7447",
+      "object": "Pale baywing",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the northern half of Argentina, Bolivia, Uruguay, Paraguay and southern and central Brazil, The isolated population in north-eastern Brazil is usually now considered a separate species, the pale baywing (Agelaioides fringillarius)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗翅牛鸝-7183725f",
+      "subject": "栗翅牛鸝",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

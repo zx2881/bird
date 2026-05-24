@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:39:07",
+  "requested_title": "Black-chested Sparrow",
+  "resolved_title": "Black-chested sparrow",
+  "title_aliases": [
+    "Black-chested Sparrow"
+  ],
+  "bird_id": "bird-black-chested-sparrow-599a8f67",
+  "raw_file": "bird-black-chested-sparrow-599a8f67.json",
+  "bird": {
+    "id": "bird-black-chested-sparrow-599a8f67",
+    "name": "Black-chested sparrow",
+    "english_name": "Black-chested sparrow",
+    "latin_name": "Peucaea humeralis",
+    "summary": "The black-chested sparrow (Peucaea humeralis) is a species of bird in the family Passerellidae, the New World sparrows. It is endemic to Me…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Peucaea_humeralis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-thorn-forest-4be049cb",
+      "name": "Thorn forest",
+      "summary": "A thorn forest is a dense scrubland with vegetation characteristic of dry subtropical and warm temperate areas with mon…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-chested-sparrow-599a8f67",
+      "subject": "Black-chested sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-thorn-forest-4be049cb",
+      "object": "Thorn forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits arid lowland and montane scrub forest and thorn forest in the tropical and lower subtropical zones.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-chested-sparrow-599a8f67",
+      "subject": "Black-chested sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

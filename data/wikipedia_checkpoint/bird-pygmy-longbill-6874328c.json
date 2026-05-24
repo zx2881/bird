@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:48:42",
+  "requested_title": "Pygmy Longbill",
+  "resolved_title": "Pygmy longbill",
+  "title_aliases": [
+    "Pygmy Longbill"
+  ],
+  "bird_id": "bird-pygmy-longbill-6874328c",
+  "raw_file": "bird-pygmy-longbill-6874328c.json",
+  "bird": {
+    "id": "bird-pygmy-longbill-6874328c",
+    "name": "Pygmy longbill",
+    "english_name": "Pygmy longbill",
+    "latin_name": "Oedistoma pygmaeum",
+    "summary": "The pygmy longbill or pygmy honeyeater (Oedistoma pygmaeum) is a species of bird in the family Melanocharitidae. It is one of the two speci…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Oedistoma_pygmaeum_-_The_Birds_of_New_Guinea_%28cropped%29.jpg/960px-Oedistoma_pygmaeum_-_The_Birds_of_New_Guinea_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pygmy-longbill-6874328c",
+      "subject": "Pygmy longbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is one of the two species in the genus Oedistoma, which also includes the spectacled longbill. It is found in New Guinea and adjacent islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pygmy-longbill-6874328c",
+      "subject": "Pygmy longbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

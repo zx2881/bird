@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:46:08",
+  "requested_title": "Cape May Warbler",
+  "resolved_title": "Cape May warbler",
+  "title_aliases": [
+    "Cape May Warbler"
+  ],
+  "bird_id": "bird-cape-may-warbler-5af0c7f7",
+  "raw_file": "bird-cape-may-warbler-5af0c7f7.json",
+  "bird": {
+    "id": "bird-cape-may-warbler-5af0c7f7",
+    "name": "Cape May warbler",
+    "english_name": "Cape May warbler",
+    "latin_name": "Setophaga tigrina",
+    "summary": "The Cape May warbler (Setophaga tigrina) is a species of New World warbler. It breeds in northern North America.",
+    "lat": "19",
+    "lng": "-71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Setophaga_tigrina_Male.jpg/960px-Setophaga_tigrina_Male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西印度群岛-4d76f475",
+      "name": "西印度群岛",
+      "summary": "西印度群島（英語：West Indies；西班牙語：Indias Occidentales；法語：Indes occidentales）泛指南北美洲之間海域中的一個一連串的島群。北起美國佛羅里達半島南端；西起墨西哥尤卡坦半島東端。總島嶼數…",
+      "lat": "19",
+      "lng": "-71"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cape-may-warbler-5af0c7f7",
+      "subject": "Cape May warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in northern North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-may-warbler-5af0c7f7",
+      "subject": "Cape May warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-西印度群岛-4d76f475",
+      "object": "西印度群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in the West Indies",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-may-warbler-5af0c7f7",
+      "subject": "Cape May warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

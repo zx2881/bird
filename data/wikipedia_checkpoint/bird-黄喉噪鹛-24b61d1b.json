@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:01:13",
+  "requested_title": "Yellow-throated Laughingthrush",
+  "resolved_title": "Yellow-throated laughingthrush",
+  "title_aliases": [
+    "Yellow-throated Laughingthrush"
+  ],
+  "bird_id": "bird-黄喉噪鹛-24b61d1b",
+  "raw_file": "bird-黄喉噪鹛-24b61d1b.json",
+  "bird": {
+    "id": "bird-黄喉噪鹛-24b61d1b",
+    "name": "黄喉噪鹛",
+    "english_name": "Yellow-throated laughingthrush",
+    "latin_name": "Pterorhinus galbanus",
+    "summary": "黄喉噪鹛（学名：Pterorhinus galbanus），是画眉科噪鹛属的一种，分布于印度、缅甸和孟加拉国。该物种的保护状况被评为无危。 黄喉噪鹛的平均体重约为56.0克。栖息地包括亚热带或热带的湿润低地林、亚热带或热带的（低地）季节性湿润草原和亚热带或热带的（低地）湿润疏灌…",
+    "lat": "27",
+    "lng": "96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/GarrulaxGalbanusGould.jpg/960px-GarrulaxGalbanusGould.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-帕凯山-84d8b006",
+      "name": "帕凯山",
+      "summary": "帕凯山（英語：Patkai，又译作巴特开山、巴坎山），是緬甸西北與印度接界的山区。帕凯山是阿拉干山脈（若开山脉）（Rakhine Range）主脉，喜馬拉雅山脈東南山麓，其下有Patkai-Bum、Garo-Khasi-Jaintia與L…",
+      "lat": "27",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄喉噪鹛-24b61d1b",
+      "subject": "黄喉噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-帕凯山-84d8b006",
+      "object": "帕凯山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in grassy areas with bushes and trees, scrub and forest in the Patkai mountain range. Until recently, it included the blue-crowned laughingthrush as a subspecies, but unlike that species the crown of the yellow-throated laughingthrush is pale grey (not bluish)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄喉噪鹛-24b61d1b",
+      "subject": "黄喉噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

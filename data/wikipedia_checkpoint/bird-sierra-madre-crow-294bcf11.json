@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:39:50",
+  "requested_title": "Sierra Madre Crow",
+  "resolved_title": "Sierra Madre crow",
+  "title_aliases": [
+    "Sierra Madre Crow"
+  ],
+  "bird_id": "bird-sierra-madre-crow-294bcf11",
+  "raw_file": "bird-sierra-madre-crow-294bcf11.json",
+  "bird": {
+    "id": "bird-sierra-madre-crow-294bcf11",
+    "name": "Sierra Madre crow",
+    "english_name": "Sierra Madre crow",
+    "latin_name": "Corvus sierramadrensis",
+    "summary": "The Sierra Madre crow (Corvus sierramadrensis) is a passerine bird in the crow family Corvidae that is endemic to the island of Luzon in th…",
+    "lat": "17.30805556",
+    "lng": "122.08611111",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "name": "Northern Sierra Madre Natural Park",
+      "summary": "The Northern Sierra Madre Natural Park is the largest protected area of the Philippines covering the northern range of…",
+      "lat": "17.30805556",
+      "lng": "122.08611111"
+    },
+    {
+      "id": "loc-kalbario-patapat-natural-park-31e01e81",
+      "name": "Kalbario–Patapat Natural Park",
+      "summary": "The Kalbario–Patapat Natural Park is a protected area in the Philippines, located on the Patapat Mountains in the munic…",
+      "lat": "18.5325",
+      "lng": "120.91388889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sierra-madre-crow-294bcf11",
+      "subject": "Sierra Madre crow",
+      "predicate": "distributed_in",
+      "object_id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "object": "Northern Sierra Madre Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Occurs in a few protected areas like the Northern Sierra Madre Natural Park and Kalbario–Patapat Natural Park ut actual protection and enforcement from illegal logging and hunting are lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sierra-madre-crow-294bcf11",
+      "subject": "Sierra Madre crow",
+      "predicate": "distributed_in",
+      "object_id": "loc-kalbario-patapat-natural-park-31e01e81",
+      "object": "Kalbario–Patapat Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Occurs in a few protected areas like the Northern Sierra Madre Natural Park and Kalbario–Patapat Natural Park ut actual protection and enforcement from illegal logging and hunting are lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sierra-madre-crow-294bcf11",
+      "subject": "Sierra Madre crow",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-sierra-madre-crow-294bcf11",
+      "subject": "Sierra Madre crow",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss and hunting",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-sierra-madre-crow-294bcf11",
+      "subject": "Sierra Madre crow",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss and hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

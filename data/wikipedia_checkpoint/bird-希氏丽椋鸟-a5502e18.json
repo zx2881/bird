@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:49:07",
+  "requested_title": "Hildebrandt's Starling",
+  "resolved_title": "Hildebrandt's starling",
+  "title_aliases": [
+    "Hildebrandt's Starling"
+  ],
+  "bird_id": "bird-希氏丽椋鸟-a5502e18",
+  "raw_file": "bird-希氏丽椋鸟-a5502e18.json",
+  "bird": {
+    "id": "bird-希氏丽椋鸟-a5502e18",
+    "name": "希氏丽椋鸟",
+    "english_name": "Hildebrandt's starling",
+    "latin_name": "Lamprotornis hildebrandti",
+    "summary": "希氏丽椋鸟（学名：Lamprotornis hildebrandti）是一種椋鳥科鳥類。该物种以德国收藏家约翰内斯·希尔德布兰特（Johannes Hildebrandt）的名字命名，他是捐贈第一個希氏麗椋鳥標本的人。 分布和习性 希氏丽椋鸟分布于肯亚和坦桑尼亚海拔500-2,…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Lamprotornis_hildebrandti_-Tanzania-8-2c.jpg/960px-Lamprotornis_hildebrandti_-Tanzania-8-2c.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-希氏丽椋鸟-a5502e18",
+      "subject": "希氏丽椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Hildebrandt's starling is found in Kenya and Tanzania, where it occupies open country between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-希氏丽椋鸟-a5502e18",
+      "subject": "希氏丽椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Hildebrandt's starling is found in Kenya and Tanzania, where it occupies open country between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-希氏丽椋鸟-a5502e18",
+      "subject": "希氏丽椋鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

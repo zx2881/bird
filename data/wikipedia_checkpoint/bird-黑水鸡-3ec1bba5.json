@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:42:11",
+  "requested_title": "Common Moorhen",
+  "resolved_title": "Common moorhen",
+  "title_aliases": [
+    "Common Moorhen"
+  ],
+  "bird_id": "bird-黑水鸡-3ec1bba5",
+  "raw_file": "bird-黑水鸡-3ec1bba5.json",
+  "bird": {
+    "id": "bird-黑水鸡-3ec1bba5",
+    "name": "黑水鸡",
+    "english_name": "Common moorhen",
+    "latin_name": "Gallinula chloropus",
+    "summary": "黑水鸡（學名：Gallinula chloropus）为秧鸡科黑水雞屬的鸟类，又名红冠水鸡、水鵁鴒（臺羅：tsuí-ka-līng）、烏水雞（臺羅：oo-tsuí-ke）、田雞仔（臺羅：tshân-ke-á）。分佈在古北界的許多地區，從非洲到歐洲和亞洲。该物种遍布世界各地，模式…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Common_moorhen_%28Gallinula_chloropus%29_France.jpg/960px-Common_moorhen_%28Gallinula_chloropus%29_France.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-热带雨林-5f5feb6f",
+      "name": "热带雨林",
+      "summary": "熱帶雨林主要分佈於東南亞、澳洲、南美洲亞馬遜河流域、非洲剛果河流域、中美洲、墨西哥和許多太平洋島嶼。根據世界自然基金會對各種生物群落的分類，熱帶雨林，或熱帶濕潤闊葉林（Tropical moist broadleaf forest），亦可…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑水鸡-3ec1bba5",
+      "subject": "黑水鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is distributed across many parts of the Old World, across Africa, Europe, and Asia. It lives around well-vegetated marshes, ponds, canals and other wetlands. The species is not found in the polar regions or many tropical rainforests; generally it is one of the most common Old World rail species, together with the Eurasian coot in some regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑水鸡-3ec1bba5",
+      "subject": "黑水鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-热带雨林-5f5feb6f",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is distributed across many parts of the Old World, across Africa, Europe, and Asia. It lives around well-vegetated marshes, ponds, canals and other wetlands. The species is not found in the polar regions or many tropical rainforests; generally it is one of the most common Old World rail species, together with the Eurasian coot in some regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑水鸡-3ec1bba5",
+      "subject": "黑水鸡",
+      "predicate": "lives_in",
+      "object_id": "hab-rainforest",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is distributed across many parts of the Old World, across Africa, Europe, and Asia. It lives around well-vegetated marshes, ponds, canals and other wetlands. The species is not found in the polar regions or many tropical rainforests; generally it is one of the most common Old World rail species, together with the Eurasian coot in some regions",
+      "object_summary": "结构复杂且冠层完整的高生物多样性森林。"
+    },
+    {
+      "subject_id": "bird-黑水鸡-3ec1bba5",
+      "subject": "黑水鸡",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is distributed across many parts of the Old World, across Africa, Europe, and Asia. It lives around well-vegetated marshes, ponds, canals and other wetlands. The species is not found in the polar regions or many tropical rainforests; generally it is one of the most common Old World rail species, together with the Eurasian coot in some regions",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-黑水鸡-3ec1bba5",
+      "subject": "黑水鸡",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is distributed across many parts of the Old World, across Africa, Europe, and Asia. It lives around well-vegetated marshes, ponds, canals and other wetlands. The species is not found in the polar regions or many tropical rainforests; generally it is one of the most common Old World rail species, together with the Eurasian coot in some regions",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-黑水鸡-3ec1bba5",
+      "subject": "黑水鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:17:17",
+  "requested_title": "Black-lored Cisticola",
+  "resolved_title": "Black-lored cisticola",
+  "title_aliases": [
+    "Black-lored Cisticola"
+  ],
+  "bird_id": "bird-black-lored-cisticola-f533ad3f",
+  "raw_file": "bird-black-lored-cisticola-f533ad3f.json",
+  "bird": {
+    "id": "bird-black-lored-cisticola-f533ad3f",
+    "name": "Black-lored cisticola",
+    "english_name": "Black-lored cisticola",
+    "latin_name": "Cisticola nigriloris",
+    "summary": "The black-lored cisticola (Cisticola nigriloris) is a species of bird in the family Cisticolidae. It is found in Malawi, Tanzania, and Zamb…",
+    "lat": "-13.5",
+    "lng": "34",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Cisticola_nigriloris_-_markusgmeiner_-_54805687.jpeg/960px-Cisticola_nigriloris_-_markusgmeiner_-_54805687.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-马拉维-83b8e25a",
+      "name": "马拉维",
+      "summary": "马拉维共和国（英語：Republic of Malawi；齊切瓦語：Dziko la Malaŵi），通稱馬拉威（齊切瓦語：Malaŵi；英語：Malawi），是一個位於非洲東南部的內陸國家，鄰接贊比亞、莫桑比克及坦桑尼亞。國土位於南緯9…",
+      "lat": "-13.5",
+      "lng": "34"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    },
+    {
+      "id": "loc-赞比亚-5eceb6be",
+      "name": "赞比亚",
+      "summary": "赞比亚共和国（英語：Republic of Zambia），也稱尚比亞（英語：Zambia），是非洲東南部的一個內陸國家。与刚果民主共和国、坦桑尼亚、马拉维、莫桑比克、津巴布韦、博茨瓦纳、纳米比亚和安哥拉相邻。首都是卢萨卡。 历史 二千年…",
+      "lat": "-15",
+      "lng": "30"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-lored-cisticola-f533ad3f",
+      "subject": "Black-lored cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-马拉维-83b8e25a",
+      "object": "马拉维",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Malawi, Tanzania, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-lored-cisticola-f533ad3f",
+      "subject": "Black-lored cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Malawi, Tanzania, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-lored-cisticola-f533ad3f",
+      "subject": "Black-lored cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-赞比亚-5eceb6be",
+      "object": "赞比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Malawi, Tanzania, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-lored-cisticola-f533ad3f",
+      "subject": "Black-lored cisticola",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical dry shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-black-lored-cisticola-f533ad3f",
+      "subject": "Black-lored cisticola",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

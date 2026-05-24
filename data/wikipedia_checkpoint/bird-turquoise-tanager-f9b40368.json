@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:30:55",
+  "requested_title": "Turquoise Tanager",
+  "resolved_title": "Turquoise tanager",
+  "title_aliases": [
+    "Turquoise Tanager"
+  ],
+  "bird_id": "bird-turquoise-tanager-f9b40368",
+  "raw_file": "bird-turquoise-tanager-f9b40368.json",
+  "bird": {
+    "id": "bird-turquoise-tanager-f9b40368",
+    "name": "Turquoise tanager",
+    "english_name": "Turquoise tanager",
+    "latin_name": "Tangara mexicana",
+    "summary": "The turquoise tanager (Tangara mexicana) is a medium-sized passerine bird in the tanager family Thraupidae. It is a resident bird from Trin…",
+    "lat": "23",
+    "lng": "-102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sa%C3%ADra-de-bando.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-大西洋沿岸森林-b6837c90",
+      "name": "大西洋沿岸森林",
+      "summary": "大西洋沿岸森林 （葡萄牙語：Mata Atlântica）是一片涵盖热带亚热带湿润阔叶林、热带亚热带干旱阔叶林、熱帶亞熱帶草地、稀樹草原和疏灌叢和红树林于一体的热带雨林保护区，位于巴西大西洋沿岸，最北到达北里约格朗德州，最南到达南里奥格兰…",
+      "lat": "-16.5",
+      "lng": "-39.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-turquoise-tanager-f9b40368",
+      "subject": "Turquoise tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Despite its scientific name, it is not found in Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-turquoise-tanager-f9b40368",
+      "subject": "Turquoise tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋沿岸森林-b6837c90",
+      "object": "大西洋沿岸森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was formerly treated as being conspecific with the white-bellied tanager which is found in the Atlantic Forest of eastern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-turquoise-tanager-f9b40368",
+      "subject": "Turquoise tanager",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

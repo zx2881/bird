@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:35:04",
+  "requested_title": "Pale Blue Flycatcher",
+  "resolved_title": "Pale blue flycatcher",
+  "title_aliases": [
+    "Pale Blue Flycatcher"
+  ],
+  "bird_id": "bird-纯蓝仙鹟-be5457ba",
+  "raw_file": "bird-纯蓝仙鹟-be5457ba.json",
+  "bird": {
+    "id": "bird-纯蓝仙鹟-be5457ba",
+    "name": "纯蓝仙鹟",
+    "english_name": "Pale blue flycatcher",
+    "latin_name": "Cyornis unicolor",
+    "summary": "纯蓝仙鶲（学名：Cyornis unicolor）为鶲科仙鶲属的鸟类。该物种的模式产地在印度。其种加词unicolor意为“单色的”。 亚种 纯蓝仙鶲海南亚种（学名：Cyornis unicolor diaoluoensis）。在中国大陆，分布于海南等地。该物种的模式产地在海南。",
+    "lat": "22",
+    "lng": "96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Pale_Blue_Flycatcher_0A2A0654.jpg/960px-Pale_Blue_Flycatcher_0A2A0654.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纯蓝仙鹟-be5457ba",
+      "subject": "纯蓝仙鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bangladesh, Bhutan, Brunei, Cambodia, China, Hong Kong, India, Indonesia, Laos, Malaysia, Myanmar, Nepal, Thailand, and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纯蓝仙鹟-be5457ba",
+      "subject": "纯蓝仙鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

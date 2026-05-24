@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:53:18",
+  "requested_title": "Brown Barbet",
+  "resolved_title": "Brown barbet",
+  "title_aliases": [
+    "Brown Barbet"
+  ],
+  "bird_id": "bird-brown-barbet-96007f09",
+  "raw_file": "bird-brown-barbet-96007f09.json",
+  "bird": {
+    "id": "bird-brown-barbet-96007f09",
+    "name": "Brown barbet",
+    "english_name": "Brown barbet",
+    "latin_name": "Caloramphus fuliginosus",
+    "summary": "The brown barbet (Caloramphus fuliginosus) is a species of bird in the family Megalaimidae. It is found in Borneo.",
+    "lat": "0",
+    "lng": "114",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Caloramphus_fuliginosus_233033483.jpg/960px-Caloramphus_fuliginosus_233033483.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-barbet-96007f09",
+      "subject": "Brown barbet",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-barbet-96007f09",
+      "subject": "Brown barbet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-brown-barbet-96007f09",
+      "subject": "Brown barbet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "& Donsker}} (2015) - IOC World Bird Names (version 5.2) It is threatened by habitat loss, and has lost approximately half of its connected habitat since 1973.{{Cite journal |last=Ocampo-Peñuela |first=Natalia |last2=Garcia-Ulloa |first2=John |last3=Kornecki |first3=Itto |last4=Philipson |first4=Christopher D",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

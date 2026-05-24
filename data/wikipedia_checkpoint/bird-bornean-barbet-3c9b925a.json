@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:53:41",
+  "requested_title": "Bornean Barbet",
+  "resolved_title": "Bornean barbet",
+  "title_aliases": [
+    "Bornean Barbet"
+  ],
+  "bird_id": "bird-bornean-barbet-3c9b925a",
+  "raw_file": "bird-bornean-barbet-3c9b925a.json",
+  "bird": {
+    "id": "bird-bornean-barbet-3c9b925a",
+    "name": "Bornean barbet",
+    "english_name": "Bornean barbet",
+    "latin_name": "Psilopogon eximius",
+    "summary": "The Bornean barbet (Psilopogon eximius) is a species of bird in the Megalaimidae family. It is found in Indonesia and Malaysia where it is…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Psilopogon_eximius_-_khalebyordan_-_623810849_%28cropped%29.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-马来西亚-3f6d0e1e",
+      "name": "马来西亚",
+      "summary": "馬來西亞（馬来语、英語：Malaysia），简称大馬或馬國，是位於东南亚的多元种族國家。由前馬來亚联合邦、北婆羅洲（今沙巴）、砂拉越及新加坡於1963年9月16日所組成的联邦制、议会民主制、选举君主制和君主立宪制國家。 馬来西亚全国总面积…",
+      "lat": "2",
+      "lng": "112"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bornean-barbet-3c9b925a",
+      "subject": "Bornean barbet",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Malaysia where it is endemic to the island of Borneo.{{cite book |title=Phillipps' Field Guide to the Birds of Borneo |author=Phillipps, Q",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bornean-barbet-3c9b925a",
+      "subject": "Bornean barbet",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来西亚-3f6d0e1e",
+      "object": "马来西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Malaysia where it is endemic to the island of Borneo.{{cite book |title=Phillipps' Field Guide to the Birds of Borneo |author=Phillipps, Q",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bornean-barbet-3c9b925a",
+      "subject": "Bornean barbet",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Malaysia where it is endemic to the island of Borneo.{{cite book |title=Phillipps' Field Guide to the Birds of Borneo |author=Phillipps, Q",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bornean-barbet-3c9b925a",
+      "subject": "Bornean barbet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:05:04",
+  "requested_title": "Dubois's Seedeater",
+  "resolved_title": "Dubois's seedeater",
+  "title_aliases": [
+    "Dubois's Seedeater"
+  ],
+  "bird_id": "bird-dubois-s-seedeater-4d6481bd",
+  "raw_file": "bird-dubois-s-seedeater-4d6481bd.json",
+  "bird": {
+    "id": "bird-dubois-s-seedeater-4d6481bd",
+    "name": "Dubois's seedeater",
+    "english_name": "Dubois's seedeater",
+    "latin_name": "Sporophila ardesiaca",
+    "summary": "Dubois's seedeater (Sporophila ardesiaca) is a species of bird in the family Thraupidae. It is closely related to, and possibly better cons…",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Sporophila_ardesiaca_-_Dubois%27s_Seedeater_%28male%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dubois-s-seedeater-4d6481bd",
+      "subject": "Dubois's seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Dubois's seedeater is endemic to east-central Brazil, where it is found in a wide range of semi-open habitats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dubois-s-seedeater-4d6481bd",
+      "subject": "Dubois's seedeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

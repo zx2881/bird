@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:15:20",
+  "requested_title": "Black-crowned Palm-tanager",
+  "resolved_title": "Black-crowned palm-tanager",
+  "title_aliases": [
+    "Black-crowned Palm-tanager"
+  ],
+  "bird_id": "bird-black-crowned-palm-tanager-a4094f10",
+  "raw_file": "bird-black-crowned-palm-tanager-a4094f10.json",
+  "bird": {
+    "id": "bird-black-crowned-palm-tanager-a4094f10",
+    "name": "Black-crowned palm-tanager",
+    "english_name": "Black-crowned palm-tanager",
+    "latin_name": "Phaenicophilus palmarum",
+    "summary": "The black-crowned palm-tanager or black-crowned tanager (Phaenicophilus palmarum) is a species of bird of the family Phaenicophilidae, the…",
+    "lat": "19",
+    "lng": "-70.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Black-crowned_Palm_Warbler.jpg/960px-Black-crowned_Palm_Warbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-hispaniolan-dry-forests-a6589008",
+      "name": "Hispaniolan dry forests",
+      "summary": "The Hispaniolan dry forests are a tropical dry broadleaf forest ecoregion on the island of Hispaniola (split between th…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-hispaniolan-moist-forests-f45c8144",
+      "name": "Hispaniolan moist forests",
+      "summary": "The Hispaniolan moist forests are a tropical moist broadleaf forest ecoregion on the island of Hispaniola.",
+      "lat": "19",
+      "lng": "-70.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-crowned-palm-tanager-a4094f10",
+      "subject": "Black-crowned palm-tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-crowned palm-tanager or black-crowned tanager (Phaenicophilus palmarum) is a species of bird of the family Phaenicophilidae, the Hispaniolan palm-tanagers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-crowned-palm-tanager-a4094f10",
+      "subject": "Black-crowned palm-tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-dry-forests-a6589008",
+      "object": "Hispaniolan dry forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits almost every landscape on Hispaniola, in many forest types from dry to humid and open to dense",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-crowned-palm-tanager-a4094f10",
+      "subject": "Black-crowned palm-tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-moist-forests-f45c8144",
+      "object": "Hispaniolan moist forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits almost every landscape on Hispaniola, in many forest types from dry to humid and open to dense",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-crowned-palm-tanager-a4094f10",
+      "subject": "Black-crowned palm-tanager",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

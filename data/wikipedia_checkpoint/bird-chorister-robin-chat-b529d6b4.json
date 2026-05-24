@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:42:07",
+  "requested_title": "Chorister Robin-Chat",
+  "resolved_title": "Chorister robin-chat",
+  "title_aliases": [
+    "Chorister Robin-Chat"
+  ],
+  "bird_id": "bird-chorister-robin-chat-b529d6b4",
+  "raw_file": "bird-chorister-robin-chat-b529d6b4.json",
+  "bird": {
+    "id": "bird-chorister-robin-chat-b529d6b4",
+    "name": "Chorister robin-chat",
+    "english_name": "Chorister robin-chat",
+    "latin_name": "Cossypha dichroa",
+    "summary": "The chorister robin-chat (Cossypha dichroa) (previously known as the chorister robin) is a species of bird in the Old World flycatcher fami…",
+    "lat": "-30",
+    "lng": "25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Chorister_Robin-Chat_2016_06_11_6798.jpg/960px-Chorister_Robin-Chat_2016_06_11_6798.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    },
+    {
+      "id": "loc-史瓦帝尼-8e8b2b40",
+      "name": "史瓦帝尼",
+      "summary": "史瓦帝尼王國（史瓦帝語：Umbuso weSwatini；英語：Kingdom of Eswatini），通稱史瓦帝尼（史瓦帝語：eSwatini；英語：Eswatini），是位於非洲南部的一个內陸國家。史瓦帝尼北、西、南三面均為南非所包…",
+      "lat": "-26.5",
+      "lng": "31.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chorister-robin-chat-b529d6b4",
+      "subject": "Chorister robin-chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in South Africa and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chorister-robin-chat-b529d6b4",
+      "subject": "Chorister robin-chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-史瓦帝尼-8e8b2b40",
+      "object": "史瓦帝尼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in South Africa and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chorister-robin-chat-b529d6b4",
+      "subject": "Chorister robin-chat",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

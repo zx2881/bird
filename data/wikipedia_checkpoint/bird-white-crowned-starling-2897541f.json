@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:53:17",
+  "requested_title": "White-crowned Starling",
+  "resolved_title": "White-crowned starling",
+  "title_aliases": [
+    "White-crowned Starling"
+  ],
+  "bird_id": "bird-white-crowned-starling-2897541f",
+  "raw_file": "bird-white-crowned-starling-2897541f.json",
+  "bird": {
+    "id": "bird-white-crowned-starling-2897541f",
+    "name": "White-crowned starling",
+    "english_name": "White-crowned starling",
+    "latin_name": "Lamprotornis albicapillus",
+    "summary": "The white-crowned starling (Lamprotornis albicapillus) is a species of starling in the family Sturnidae. It is found in Djibouti, Ethiopia,…",
+    "lat": "11.5",
+    "lng": "43",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Spreo_albicapillus.jpg/960px-Spreo_albicapillus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-吉布提-1cd999eb",
+      "name": "吉布提",
+      "summary": "吉布提共和國（阿拉伯語：جمهوريه جيبوتي；法語：République de Djibouti；索馬里語：Jamhuuriyadda Jabuuti；阿法爾語：Gabuutih Ummuuno） 通稱吉布地，是一个位于非洲东北部…",
+      "lat": "11.5",
+      "lng": "43"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-索马里-5b5a7d76",
+      "name": "索马里",
+      "summary": "索馬里联邦共和国（索馬里語：Jamhuuriyadda Federaalka Soomaaliya；阿拉伯語：جمهورية الصومال الفدرالية，Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya；英語…",
+      "lat": "10",
+      "lng": "49"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-crowned-starling-2897541f",
+      "subject": "White-crowned starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-吉布提-1cd999eb",
+      "object": "吉布提",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Djibouti, Ethiopia, Kenya, and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-crowned-starling-2897541f",
+      "subject": "White-crowned starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Djibouti, Ethiopia, Kenya, and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-crowned-starling-2897541f",
+      "subject": "White-crowned starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Djibouti, Ethiopia, Kenya, and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-crowned-starling-2897541f",
+      "subject": "White-crowned starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-索马里-5b5a7d76",
+      "object": "索马里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Djibouti, Ethiopia, Kenya, and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-crowned-starling-2897541f",
+      "subject": "White-crowned starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

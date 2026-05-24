@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:03:08",
+  "requested_title": "Chestnut-breasted Nigrita",
+  "resolved_title": "Chestnut-breasted nigrita",
+  "title_aliases": [
+    "Chestnut-breasted Nigrita"
+  ],
+  "bird_id": "bird-栗胸黑雀-94ecfa46",
+  "raw_file": "bird-栗胸黑雀-94ecfa46.json",
+  "bird": {
+    "id": "bird-栗胸黑雀-94ecfa46",
+    "name": "栗胸黑雀",
+    "english_name": "Chestnut-breasted nigrita",
+    "latin_name": "Nigrita bicolor",
+    "summary": "栗胸黑雀（学名：Nigrita bicolor）是梅花雀科黑雀属的一种，在非洲分布广泛。其全球活动范围有3,000,000平方千米。 种名 bicolor 意为“二色的”。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Chestnut-breasted_nigrita_%28Nigrita_bicolor_bicolor%29_Ankasa.jpg/960px-Chestnut-breasted_nigrita_%28Nigrita_bicolor_bicolor%29_Ankasa.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-古斯塔夫-哈特勞布-2aa484d7",
+      "name": "古斯塔夫·哈特勞布",
+      "summary": "卡雷爾·約翰·古斯塔夫·哈特勞布（德語：Karel Johan Gustav Hartlaub，1814年11月8日—1900年11月29日）是一位德國醫生與鳥類學家。 哈特勞布出生於不來梅，學生時期住於波昂與柏林，並畢業於哥廷根的醫學院…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗胸黑雀-94ecfa46",
+      "subject": "栗胸黑雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-古斯塔夫-哈特勞布-2aa484d7",
+      "object": "古斯塔夫·哈特勞布",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chestnut-breasted nigrita (Nigrita bicolor) is a common species of estrildid finch found in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗胸黑雀-94ecfa46",
+      "subject": "栗胸黑雀",
+      "predicate": "lives_in",
+      "object_id": "hab-rainforest",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The chestnut-breasted nigrita inhabits subtropical/ tropical (lowland) forest, mangrove and shrubland habitats of the African tropical rainforest",
+      "object_summary": "结构复杂且冠层完整的高生物多样性森林。"
+    },
+    {
+      "subject_id": "bird-栗胸黑雀-94ecfa46",
+      "subject": "栗胸黑雀",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The chestnut-breasted nigrita inhabits subtropical/ tropical (lowland) forest, mangrove and shrubland habitats of the African tropical rainforest",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-栗胸黑雀-94ecfa46",
+      "subject": "栗胸黑雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

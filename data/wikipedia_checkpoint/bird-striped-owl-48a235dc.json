@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:49:16",
+  "requested_title": "Striped Owl",
+  "resolved_title": "Striped owl",
+  "title_aliases": [
+    "Striped Owl"
+  ],
+  "bird_id": "bird-striped-owl-48a235dc",
+  "raw_file": "bird-striped-owl-48a235dc.json",
+  "bird": {
+    "id": "bird-striped-owl-48a235dc",
+    "name": "Striped owl",
+    "english_name": "Striped owl",
+    "latin_name": "Asio clamator",
+    "summary": "The striped owl (Asio clamator) is a medium-sized owl with large ear tufts and a brownish-white facial disk rimmed with black. Its beak is…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Coruja-orelhuda_no_Zool%C3%B3gico_de_Sorocaba.JPG/960px-Coruja-orelhuda_no_Zool%C3%B3gico_de_Sorocaba.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-striped-owl-48a235dc",
+      "subject": "Striped owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to South America and parts of Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-striped-owl-48a235dc",
+      "subject": "Striped owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to South America and parts of Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-striped-owl-48a235dc",
+      "subject": "Striped owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

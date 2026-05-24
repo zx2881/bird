@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:00:04",
+  "requested_title": "Chestnut-bellied Hummingbird",
+  "resolved_title": "Chestnut-bellied hummingbird",
+  "title_aliases": [
+    "Chestnut-bellied Hummingbird"
+  ],
+  "bird_id": "bird-栗腹蜂鸟-376a75e2",
+  "raw_file": "bird-栗腹蜂鸟-376a75e2.json",
+  "bird": {
+    "id": "bird-栗腹蜂鸟-376a75e2",
+    "name": "栗腹蜂鸟",
+    "english_name": "Chestnut-bellied hummingbird",
+    "latin_name": "Saucerottia castaneiventris",
+    "summary": "栗腹蜂鸟（学名：Saucerottia castaneiventris），是雨燕目蜂鸟科的一种鸟类。 栗腹蜂鸟体重约5克，翼长约52毫米，嘴峰长约21.9毫米，喙宽度约1.9毫米，喙厚度约1.6毫米，跗蹠长约5.2毫米，尾长约30.2毫米。栗腹蜂鸟在其分布区内为留鸟，其栖息在密…",
+    "lat": "5.48663889",
+    "lng": "-73.76883333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/MonographTrochi5Goul_0116a.jpg/960px-MonographTrochi5Goul_0116a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-su-rez-river-36b802ea",
+      "name": "Suárez River",
+      "summary": "The Suárez River, originally Saravita, is a river in the Eastern Ranges of the Colombian Andes.",
+      "lat": "5.48663889",
+      "lng": "-73.76883333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗腹蜂鸟-376a75e2",
+      "subject": "栗腹蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-su-rez-river-36b802ea",
+      "object": "Suárez River",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|Chicamocha Canyon The chestnut-bellied hummingbird appears to be restricted to the dryer parts of the Magdalena Valley of Colombia, with a core known range in the Chicamocha, Suárez and Chucurí River valleys",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗腹蜂鸟-376a75e2",
+      "subject": "栗腹蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-栗腹蜂鸟-376a75e2",
+      "subject": "栗腹蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In the twenty-first century there has been expansive economic growth, due to a gold rush in 1996 and also increasing logging",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}
