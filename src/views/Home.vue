@@ -4,47 +4,78 @@
       <div class="search-section">
         <div class="search-wrapper">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+            <circle cx="11" cy="11" r="8" />
+            <path d="M21 21l-4.35-4.35" />
           </svg>
-          <input v-model="searchQuery" type="text" class="search-input" placeholder="搜索鸟类名称、学名或关系关键词…" @input="handleSearch" />
+          <input
+            v-model="searchQuery"
+            type="text"
+            class="search-input"
+            placeholder="搜索鸟类中文名、英文名或学名…"
+            @input="handleSearch"
+          />
         </div>
         <div v-if="searchResults.length" class="search-dropdown">
-          <div v-for="item in searchResults" :key="item.id" class="search-result-item" @click="goToBird(item)">
+          <button
+            v-for="item in searchResults"
+            :key="item.id"
+            type="button"
+            class="search-result-item"
+            @click="selectSearchResult(item)"
+          >
             <div class="result-name">{{ item.name }}</div>
-            <div class="result-meta">{{ item.englishName }} · {{ typeLabelMap[item.type] }}</div>
-          </div>
+            <div class="result-meta">{{ item.englishName || '暂无英文名' }} · {{ item.latinName || '暂无学名' }}</div>
+          </button>
         </div>
       </div>
     </div>
 
     <div class="home-layout">
-      <div class="home-sidebar">
-        <!-- 探索模式下的路径查询 -->
-        <template v-if="graphMode === 'explore'">
-          <GraphAnalyzer @path-found="onPathFound" @clear-path="onClearPath" />
-        </template>
-        <!-- 导出面板：两种模式显示不同按钮 -->
-        <div class="panel export-panel">
-          <h3 class="analyzer-title">导出</h3>
-          <div class="export-btns">
-            <button v-if="graphMode === 'academic'" class="export-btn highlight-btn" @click="exportAcademicPNG">
-              下载高清图 (PNG)
-            </button>
-            <button v-if="graphMode === 'explore'" class="export-btn" @click="exportPNG(containerRef)">PNG 截图</button>
-            <button class="export-btn" @click="exportJSON(store.nodes, store.links)">JSON 数据</button>
-            <button class="export-btn" @click="exportGraphML(store.nodes, store.links)">GraphML</button>
+      <aside class="home-sidebar">
+        <section class="panel insight-panel">
+          <h3 class="panel-title">数据加载状态</h3>
+          <div class="metric-grid">
+            <div class="metric-card">
+              <span class="metric-value">{{ store.totalBirdCount }}</span>
+              <span class="metric-label">鸟类索引</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">{{ store.loadedBirdCount }}</span>
+              <span class="metric-label">已进图物种</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">{{ store.nodeCount }}</span>
+              <span class="metric-label">当前节点</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">{{ store.linkCount }}</span>
+              <span class="metric-label">当前关系</span>
+            </div>
           </div>
-        </div>
-      </div>
+          <p class="panel-note">{{ loadSummary }}</p>
+        </section>
+
+        <section class="panel guide-panel">
+          <h3 class="panel-title">探索方式</h3>
+          <p class="panel-note">首屏只铺开轻量预览节点，按统一散点方式填满画布，不再先画一层分类骨架。</p>
+          <p class="panel-note">搜索或点击节点时，前端才会继续请求 `nodes/[node_id].json`，把该节点的一度邻域织入当前图谱。</p>
+        </section>
+
+        <section class="panel export-panel">
+          <h3 class="panel-title">导出当前子图</h3>
+          <div class="export-btns">
+            <button type="button" class="export-btn" @click="exportPNG(containerRef)">PNG 截图</button>
+            <button type="button" class="export-btn" @click="exportJSON(store.nodes, store.links)">JSON 数据</button>
+            <button type="button" class="export-btn" @click="exportGraphML(store.nodes, store.links)">GraphML</button>
+          </div>
+        </section>
+      </aside>
 
       <section class="graph-panel">
         <div class="graph-header">
           <div>
-            <h2>
-              <template v-if="graphMode === 'academic'">发表级学术网络图</template>
-              <template v-else>鸟类知识图谱</template>
-            </h2>
-            <p class="graph-summary">{{ graphMode === 'academic' ? academicSummary : graphSummary }}</p>
+            <h2>3D 分片异步鸟类知识图谱</h2>
+            <p class="graph-summary">{{ graphSummary }}</p>
           </div>
           <div class="legend">
             <span v-for="item in legendItems" :key="item.label">
@@ -54,67 +85,41 @@
         </div>
 
         <div class="graph-toolbar">
-          <!-- 视图模式切换 -->
-          <div class="toolbar-group">
-            <span class="toolbar-label">视图</span>
+          <div class="toolbar-group wide">
+            <span class="toolbar-label">上下文实体</span>
             <div class="pill-group">
-              <button class="pill" :class="{ active: graphMode === 'explore' }" @click="graphMode = 'explore'">探索模式</button>
-              <button class="pill" :class="{ active: graphMode === 'academic' }" @click="graphMode = 'academic'">学术模式</button>
+              <button
+                v-for="item in filterableTypeItems"
+                :key="item.type"
+                type="button"
+                class="pill"
+                :class="{ active: activeContextTypes.includes(item.type) }"
+                @click="toggleContextType(item.type)"
+              >
+                {{ item.label }}
+              </button>
             </div>
           </div>
-
-          <!-- 探索模式下的控制项 -->
-          <template v-if="graphMode === 'explore'">
-            <div class="toolbar-group">
-              <span class="toolbar-label">鸟类密度</span>
-              <div class="pill-group">
-                <button v-for="opt in graphLimitOptions" :key="opt.value" type="button"
-                  class="pill" :class="{ active: graphBirdLimit === opt.value }"
-                  @click="graphBirdLimit = opt.value">{{ opt.label }}</button>
-              </div>
-            </div>
-            <div class="toolbar-group">
-              <span class="toolbar-label">标签</span>
-              <div class="pill-group">
-                <button v-for="opt in labelModeOptions" :key="opt.value" type="button"
-                  class="pill" :class="{ active: labelMode === opt.value }"
-                  @click="labelMode = opt.value">{{ opt.label }}</button>
-              </div>
-            </div>
-            <div class="toolbar-group wide">
-              <span class="toolbar-label">显示实体</span>
-              <div class="pill-group">
-                <button v-for="item in filterableTypeItems" :key="item.type" type="button"
-                  class="pill" :class="{ active: activeContextTypes.includes(item.type) }"
-                  @click="toggleContextType(item.type)">{{ item.label }}</button>
-              </div>
-            </div>
-          </template>
-
+          <div class="toolbar-group compact">
+            <span class="toolbar-label">标签策略</span>
+            <p class="toolbar-copy">画布上默认不常驻文本标签，悬停节点时通过提示层查看名称与分类。</p>
+          </div>
           <div class="toolbar-actions">
-            <button v-if="graphMode === 'explore'" class="pill reset-btn" @click="resetGraphControls">重置</button>
+            <button type="button" class="pill reset-btn" @click="resetContextFilters">重置视图</button>
           </div>
         </div>
 
         <div ref="containerRef" class="graph-canvas">
-          <div v-if="!store.loaded" class="graph-loading">
+          <div v-if="showInitialLoading" class="graph-loading">
             <div class="loading-spinner"></div>
-            <p>正在加载图谱数据…</p>
+            <p>正在加载搜索索引与轻量总览图…</p>
           </div>
-          <Transition v-else name="graph-fade" mode="out-in">
-            <!-- 探索模式：Sigma.js 画布 -->
-            <SigmaCanvas v-if="graphMode === 'explore'"
-              :bird-limit="graphBirdLimit"
-              :label-mode="labelMode"
-              :focus-entity-id="focusEntityId"
-              :active-types="activeContextTypes"
-              :highlight-path="highlightPath"
-              :dark-mode="uiStore.darkMode"
-              @node-click="handleNodeClick"
-            />
-            <!-- 学术模式：D3 发表级学术网络图 -->
-            <AcademicGraph v-else ref="academicGraphRef" :search-query="searchQuery" />
-          </Transition>
+          <SigmaCanvas
+            v-else
+            :active-types="activeContextTypes"
+            :dark-mode="uiStore.darkMode"
+            @node-click="handleNodeClick"
+          />
         </div>
       </section>
     </div>
@@ -125,12 +130,10 @@
 import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useDebounceFn } from '@vueuse/core'
+import SigmaCanvas from '../graph/SigmaCanvas.vue'
+import { useGraphExport } from '../composables/useGraphExport.js'
 import { useGraphStore } from '../stores/graphStore.js'
 import { useUIStore } from '../stores/uiStore.js'
-import SigmaCanvas from '../graph/SigmaCanvas.vue'
-import AcademicGraph from '../graph/AcademicGraph.vue'
-import GraphAnalyzer from '../graph/GraphAnalyzer.vue'
-import { useGraphExport } from '../composables/useGraphExport.js'
 
 const router = useRouter()
 const store = useGraphStore()
@@ -138,192 +141,500 @@ const uiStore = useUIStore()
 const { exportPNG, exportJSON, exportGraphML } = useGraphExport()
 
 const containerRef = ref(null)
-const academicGraphRef = ref(null)
 const searchQuery = ref('')
 const searchResults = ref([])
-
-// 模式切换
-const graphMode = ref('explore')
-
-// 探索模式控制项
-const graphBirdLimit = ref(80)
-const labelMode = ref('smart')
 const activeContextTypes = ref(['location', 'habitat', 'status', 'threat'])
-const focusEntityId = ref('')
-const highlightPath = ref([])
-
-const typeLabelMap = { bird: '鸟类', location: '地点', habitat: '栖息地', status: '保护等级', threat: '威胁因素', taxonomy: '分类单元' }
 
 const legendItems = [
-  { type: 'bird', label: '鸟类', color: '#7f8fa6' }, { type: 'location', label: '地点', color: '#6f9e98' },
-  { type: 'habitat', label: '栖息地', color: '#8da56b' }, { type: 'status', label: '保护等级', color: '#b59a62' },
-  { type: 'threat', label: '威胁因素', color: '#9f727a' }, { type: 'taxonomy', label: '分类单元', color: '#8b84ab' }
+  { label: '首屏轻量节点', color: '#eaf3ff' },
+  { label: '按需展开节点', color: '#9fc0ff' }
 ]
 
-const graphLimitOptions = [
-  { value: 40, label: '40' }, { value: 80, label: '80' },
-  { value: 160, label: '160' }, { value: 0, label: '全部' }
+const filterableTypeItems = [
+  { type: 'location', label: '地点' },
+  { type: 'habitat', label: '栖息地' },
+  { type: 'status', label: '保护等级' },
+  { type: 'threat', label: '威胁因素' }
 ]
 
-const labelModeOptions = [
-  { value: 'smart', label: '智能' }, { value: 'birds', label: '仅鸟类' }, { value: 'all', label: '全部' }
-]
-
-const filterableTypeItems = legendItems.filter(item => item.type !== 'bird')
+const showInitialLoading = computed(() => !store.loaded || (store.previewLoading && store.nodeCount === 0))
 
 const graphSummary = computed(() => {
-  if (!store.nodes.length) return '正在加载图谱数据。'
-  return `${store.nodeCount} 个节点 · ${store.linkCount} 条关系`
+  if (!store.loaded) return '首屏正在加载 summary.json 与轻量总览图入口。'
+  if (store.previewLoading && store.nodeCount === 0) {
+    return '正在请求 graph_preview.json，并把全部预览节点按统一分布铺到 3D 画布上。'
+  }
+  if (store.previewLoading) {
+    return `轻量总览图正在继续织入，当前已入图 ${store.loadedBirdCount}/${store.totalBirdCount} 种，节点 ${store.nodeCount} 个，关系 ${store.linkCount} 条。`
+  }
+  if (store.previewLoaded) {
+    return `首页轻量总览图已载入全部 ${store.totalBirdCount} 种鸟类的基础节点；当前画布采用统一散点排布，点击节点时再按需请求对应分片详情。`
+  }
+  return `当前画布中已织入 ${store.nodeCount} 个节点、${store.linkCount} 条关系；其中 ${store.loadedBirdCount}/${store.totalBirdCount} 种鸟类已按需载入。`
 })
 
-const academicSummary = computed(() => {
-  const birds = store.nodes.filter(n => n.type === 'bird').length
-  return `${birds} 种鸟类 · IUCN 保护等级着色 · 力导向布局`
+const loadSummary = computed(() => {
+  if (!store.loaded) return '首屏只加载轻量搜索索引，不把全量详情属性一次性塞进浏览器内存。'
+  if (store.previewLoading && store.nodeCount === 0) {
+    return `正在后台加载 graph_preview.json：${store.previewLoadProgress.loaded}/${store.previewLoadProgress.total}，失败 ${store.previewLoadProgress.failed}。`
+  }
+  if (store.previewLoading) {
+    return `正在后台加载 graph_preview.json：${store.previewLoadProgress.loaded}/${store.previewLoadProgress.total}，失败 ${store.previewLoadProgress.failed}。`
+  }
+  if (store.previewLoaded) {
+    return '首页已经完成轻量总览加载。图中节点当前只带基础名字与轻量关系，详情属性会在点击后再请求 nodes/[node_id].json。'
+  }
+  const expandedChunks = Math.max(0, store.loadedChunkCount - 1)
+  return `当前已展开 ${expandedChunks} 个局部切片。后续每次搜索或点击节点，只会额外请求对应的静态 JSON 分片。`
 })
 
 const handleSearch = useDebounceFn(() => {
-  const q = searchQuery.value.trim().toLowerCase()
-  if (!q) { searchResults.value = []; return }
-  searchResults.value = store.nodes.filter(n => n.type === 'bird').filter(n => {
-    const fields = [n.name, n.englishName, n.latinName].filter(Boolean)
-    return fields.some(f => f.toLowerCase().includes(q))
-  }).slice(0, 8)
-}, 200)
+  const query = searchQuery.value.trim()
+  searchResults.value = query ? store.findBirdMatches(query, 8) : []
+}, 120)
 
-function goToBird(item) {
-  if (item.type === 'bird') router.push(`/bird/${item.id}`)
+async function selectSearchResult(item) {
   searchQuery.value = item.name
   searchResults.value = []
+  await store.loadNodeChunk(item.id)
+  router.push(`/bird/${item.id}`)
 }
 
-function handleNodeClick(node) {
-  if (node.type === 'bird') router.push(`/bird/${node.id}`)
-  else focusEntityId.value = node.id
+async function handleNodeClick(node) {
+  store.setActiveNode(node.id)
+
+  if (node.type === 'bird') {
+    await store.loadNodeChunk(node.id)
+    router.push(`/bird/${node.id}`)
+    return
+  }
+
+  if (node.expandable) {
+    await store.loadNodeChunk(node.id)
+    return
+  }
+
+  store.requestNodeFocus(node.id)
 }
 
 function toggleContextType(type) {
-  if (activeContextTypes.value.includes(type))
-    activeContextTypes.value = activeContextTypes.value.filter(t => t !== type)
-  else activeContextTypes.value = [...activeContextTypes.value, type]
+  if (activeContextTypes.value.includes(type)) {
+    activeContextTypes.value = activeContextTypes.value.filter(item => item !== type)
+    return
+  }
+  activeContextTypes.value = [...activeContextTypes.value, type]
 }
 
-function resetGraphControls() {
-  graphBirdLimit.value = 80; labelMode.value = 'smart'
+function resetContextFilters() {
   activeContextTypes.value = ['location', 'habitat', 'status', 'threat']
-  focusEntityId.value = ''; highlightPath.value = []
-}
-
-function onPathFound(path) { highlightPath.value = path }
-function onClearPath() { highlightPath.value = [] }
-
-// 学术模式高清导出
-function exportAcademicPNG() {
-  academicGraphRef.value?.exportHighResPNG()
+  store.requestGraphFit()
 }
 
 onMounted(async () => {
-  if (!store.loaded) await store.loadData()
+  await store.loadInitialData()
+  void store.loadGraphPreview()
 })
 </script>
 
 <style scoped>
-.home-page { display: flex; flex-direction: column; gap: 18px; }
-.home-hero { display: flex; justify-content: center; padding: 28px 18px 0; }
-.search-section { position: relative; width: 100%; max-width: 680px; }
-.search-wrapper { position: relative; display: flex; align-items: center; }
-.search-icon { position: absolute; left: 20px; width: 22px; height: 22px; color: rgba(18, 48, 59, 0.4); pointer-events: none; }
-.search-input { width: 100%; padding: 18px 24px 18px 56px; border: 2px solid rgba(15, 118, 110, 0.2); border-radius: 999px; background: var(--card-bg); backdrop-filter: blur(10px); font-size: 17px; outline: none; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(31, 64, 76, 0.08); color: var(--text-color); }
-.search-input:focus { border-color: var(--accent); box-shadow: 0 8px 32px rgba(15, 118, 110, 0.15); }
-.search-input::placeholder { color: var(--text-secondary); }
-.search-dropdown { position: absolute; top: 100%; left: 0; right: 0; margin-top: 8px; border-radius: 20px; background: var(--card-bg); backdrop-filter: blur(20px); border: 1px solid var(--panel-border); box-shadow: var(--shadow); overflow: hidden; z-index: 100; }
-.search-result-item { padding: 14px 20px; cursor: pointer; transition: background 0.15s ease; }
-.search-result-item:hover { background: var(--accent-soft); }
-.result-name { font-weight: 600; color: var(--heading-color); }
-.result-meta { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  animation: pageIn 0.4s ease-out;
+}
 
-.home-layout { display: flex; gap: 18px; }
-.home-sidebar { width: 280px; flex-shrink: 0; display: flex; flex-direction: column; gap: 14px; }
+.home-hero {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  padding: 28px 18px 0;
+}
+
+.search-section {
+  position: relative;
+  z-index: 12;
+  width: 100%;
+  max-width: 720px;
+}
+
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px;
+  width: 22px;
+  height: 22px;
+  color: rgba(18, 48, 59, 0.4);
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 18px 24px 18px 56px;
+  border: 2px solid rgba(15, 118, 110, 0.2);
+  border-radius: 999px;
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(31, 64, 76, 0.08);
+  color: var(--text-color);
+  font-size: 17px;
+  outline: none;
+  transition: all 0.28s ease;
+}
+
+.search-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 8px 32px rgba(15, 118, 110, 0.14);
+}
+
+.search-dropdown {
+  position: absolute;
+  inset: auto 0 0 0;
+  top: calc(100% + 8px);
+  border-radius: 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--panel-border);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  z-index: 20;
+}
+
+.search-result-item {
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.search-result-item:hover {
+  background: var(--accent-soft);
+}
+
+.result-name {
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.result-meta {
+  margin-top: 2px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.home-layout {
+  display: flex;
+  gap: 18px;
+}
+
+.home-sidebar {
+  position: relative;
+  z-index: 10;
+  width: 320px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
 
 .graph-panel {
-  flex: 1; display: flex; flex-direction: column; gap: 14px;
-  padding: 20px; border-radius: 24px;
+  position: relative;
+  z-index: 10;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 720px;
+  padding: 20px;
+  border-radius: 24px;
   border: 1px solid var(--graph-border);
   background: var(--graph-bg);
   box-shadow: var(--graph-shadow);
+  animation: panelIn 0.5s ease-out;
 }
 
-.graph-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
-.graph-header h2 { margin: 0; font-size: 19px; color: var(--graph-heading); }
-.graph-summary { margin: 4px 0 0; font-size: 13px; color: var(--graph-muted); }
-.legend { display: flex; flex-wrap: wrap; gap: 10px; }
-.legend span { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--graph-muted); }
-.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.32); }
+.panel {
+  padding: 16px;
+}
+
+.panel-title {
+  margin: 0 0 12px;
+  font-size: 15px;
+  color: var(--heading-color);
+}
+
+.panel-note {
+  margin: 12px 0 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.metric-card {
+  padding: 12px;
+  border-radius: 16px;
+  background: var(--accent-soft);
+  border: 1px solid var(--panel-border);
+}
+
+.metric-value {
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.metric-label {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.export-btn {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--panel-border);
+  background: var(--nav-bg);
+  color: var(--text-color);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.export-btn:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+.export-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.graph-header {
+  position: relative;
+  z-index: 12;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.graph-header h2 {
+  margin: 0;
+  font-size: 19px;
+  color: var(--graph-heading);
+}
+
+.graph-summary {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: var(--graph-muted);
+  line-height: 1.6;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--graph-muted);
+}
+
+.legend i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+}
 
 .graph-toolbar {
-  display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-start;
-  padding: 12px 14px; border-radius: 16px;
+  position: relative;
+  z-index: 12;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 12px 14px;
+  border-radius: 16px;
   background: var(--graph-toolbar-bg);
   border: 1px solid var(--graph-toolbar-border);
 }
-.toolbar-group { display: flex; flex-direction: column; gap: 6px; min-width: 90px; }
-.toolbar-group.wide { flex: 1 1 240px; }
-.toolbar-label { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--graph-muted); }
-.toolbar-actions { display: flex; gap: 6px; align-items: flex-end; margin-left: auto; }
-.pill-group { display: flex; flex-wrap: wrap; gap: 6px; }
-.pill {
-  padding: 6px 12px; border-radius: 999px; border: 1px solid var(--graph-pill-border);
-  background: var(--graph-pill-bg); color: var(--graph-pill-text); cursor: pointer;
-  font-size: 12px; transition: all 0.15s ease;
+
+.toolbar-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 120px;
 }
-.pill:hover { border-color: var(--graph-pill-hover-border); }
+
+.toolbar-group.wide {
+  flex: 1 1 280px;
+}
+
+.toolbar-group.compact {
+  max-width: 240px;
+}
+
+.toolbar-label {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--graph-muted);
+}
+
+.toolbar-copy {
+  margin: 0;
+  font-size: 12px;
+  color: var(--graph-muted);
+  line-height: 1.5;
+}
+
+.toolbar-actions {
+  margin-left: auto;
+}
+
+.pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pill {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--graph-pill-border);
+  background: var(--graph-pill-bg);
+  color: var(--graph-pill-text);
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.15s ease;
+}
+
+.pill:hover {
+  border-color: var(--graph-pill-hover-border);
+}
+
 .pill.active {
   border-color: var(--graph-pill-active-border);
   background: var(--graph-pill-active-bg);
   color: var(--graph-pill-active-text);
   font-weight: 600;
 }
-.reset-btn { margin-left: 4px; background: var(--graph-pill-bg); border-color: var(--graph-pill-border); }
 
-.graph-canvas { width: 100%; flex: 1; min-height: 520px; border-radius: 16px; overflow: hidden; border: 1px solid var(--graph-canvas-border); position: relative; }
+.reset-btn {
+  background: var(--graph-pill-bg);
+}
 
-/* ── 动效 ── */
-.home-page { animation: pageIn 0.4s ease-out; }
-@keyframes pageIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-
-.graph-panel { animation: panelIn 0.5s ease-out; }
-@keyframes panelIn { from { opacity: 0; transform: scale(0.98); } to { opacity: 1; transform: scale(1); } }
-
-.graph-canvas { transition: border-color 0.3s ease; }
-.graph-fade-enter-active, .graph-fade-leave-active { transition: opacity 0.25s ease, transform 0.25s ease; }
-.graph-fade-enter-from { opacity: 0; transform: scale(0.97); }
-.graph-fade-leave-to { opacity: 0; transform: scale(0.97); }
-
-.pill { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
-.pill:active { transform: scale(0.95); }
-
-.export-panel { padding: 16px; }
-.analyzer-title { margin: 0 0 12px; font-size: 15px; color: var(--heading-color); }
-.export-btns { display: flex; flex-direction: column; gap: 8px; }
-.export-btn { padding: 10px 14px; border-radius: 12px; border: 1px solid var(--panel-border); background: var(--nav-bg); color: var(--text-color); font-size: 13px; cursor: pointer; text-align: left; transition: all 0.2s; }
-.export-btn:hover { background: var(--accent-soft); border-color: var(--accent); }
-.highlight-btn { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 700; }
-.highlight-btn:hover { opacity: 0.9; }
+.graph-canvas {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  min-height: 620px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--graph-canvas-border);
+  background: #1a1a1a;
+}
 
 .graph-loading {
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  height: 100%; min-height: 400px; gap: 16px; color: var(--graph-muted);
+  position: relative;
+  z-index: 12;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 420px;
+  height: 100%;
+  gap: 16px;
+  color: var(--graph-muted);
 }
+
 .loading-spinner {
-  width: 40px; height: 40px; border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   border: 3px solid var(--panel-border);
   border-top-color: var(--accent);
   animation: spin 0.8s linear infinite;
 }
-@keyframes spin { to { transform: rotate(360deg); } }
 
-@media (max-width: 960px) {
-  .home-layout { flex-direction: column; }
-  .home-sidebar { width: 100%; flex-direction: row; flex-wrap: wrap; }
-  .home-sidebar > * { flex: 1; min-width: 200px; }
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pageIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes panelIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 1080px) {
+  .home-layout {
+    flex-direction: column;
+  }
+
+  .home-sidebar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
+
+@media (max-width: 860px) {
+  .home-sidebar {
+    grid-template-columns: 1fr;
+  }
+
+  .graph-header {
+    flex-direction: column;
+  }
+
+  .graph-canvas {
+    min-height: 520px;
+  }
 }
 </style>

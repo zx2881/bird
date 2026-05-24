@@ -44,7 +44,24 @@ DEFAULT_CHECKPOINT_DIR = DEFAULT_DATA_DIR / "wikipedia_checkpoint"
 BUILD_SCRIPT = ROOT / "scripts" / "build_knowledge_json.py"
 CHECKPOINT_VERSION = 1
 
-BIRDS_HEADERS = ["id", "name", "english_name", "latin_name", "summary", "lat", "lng", "image_url", "order", "family", "order_cn", "family_cn"]
+BIRDS_HEADERS = [
+    "id",
+    "name",
+    "english_name",
+    "latin_name",
+    "summary",
+    "lat",
+    "lng",
+    "image_url",
+    "order",
+    "family",
+    "genus",
+    "species",
+    "order_cn",
+    "family_cn",
+    "genus_cn",
+    "species_cn",
+]
 LOCATIONS_HEADERS = ["id", "name", "summary", "lat", "lng"]
 RELATIONS_HEADERS = [
     "subject_id",
@@ -1051,7 +1068,7 @@ def maybe_build_json(build_json: bool) -> None:
     if not build_json:
         return
     if not BUILD_SCRIPT.exists():
-        print("未找到 build_knowledge_json.py，跳过 knowledge.json 构建。", file=sys.stderr)
+        print("未找到 build_knowledge_json.py，跳过静态数据构建。", file=sys.stderr)
         return
     exit_code = __import__("subprocess").run([sys.executable, str(BUILD_SCRIPT)], check=False).returncode
     if exit_code != 0:
