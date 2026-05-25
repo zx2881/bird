@@ -1,6 +1,6 @@
 """
-通过 Wikipedia / Wikidata API 获取鸟类的分类信息（目 / 科 / 属 / 种），
-回填到 birds.csv，并补充目 / 科两级 belongs_to 关系。
+通过 Wikipedia / Wikidata API 获取鸟类的分类信息（界 / 门 / 纲 / 目 / 科 / 属 / 种），
+回填到 birds.csv，并补充完整分类链关系。
 
 数据源:
   1. en.wikipedia.org API → 精确标题或搜索结果 → 获取 wikibase_item (Wikidata QID)
@@ -8,12 +8,11 @@
 
 输出:
   - birds.csv 新增列:
-    order, family, genus, species,
-    order_cn, family_cn, genus_cn, species_cn
-  - relations.csv 新增 belongs_to 关系（目 / 科两级）
+    kingdom, phylum, class, order, family, genus, species,
+    kingdom_cn, phylum_cn, class_cn, order_cn, family_cn, genus_cn, species_cn
+  - relations.csv 新增 belongs_to 关系（界 / 门 / 纲 / 目 / 科 / 属 / 种）
 
 说明:
-  - 不写入“纲”，按当前项目约束仅保留目 / 科 / 属 / 种
   - 非中文字段优先使用 P225（科学分类名），避免 species 列落成英文俗名
   - 查询链路带缓存，同一属 / 科 / 目不会重复拉取实体，速度显著快于串行逐层请求
   - --build-json 会继续调用 build_knowledge_json.py，生成 public/data/ 下的静态分片
@@ -44,12 +43,18 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA_DIR = ROOT / "data"
 BUILD_SCRIPT = ROOT / "scripts" / "build_knowledge_json.py"
 
-TARGET_RANKS = ("order", "family", "genus", "species")
+TARGET_RANKS = ("kingdom", "phylum", "class", "order", "family", "genus", "species")
 TAXONOMY_COLUMNS = [
+    "kingdom",
+    "phylum",
+    "class",
     "order",
     "family",
     "genus",
     "species",
+    "kingdom_cn",
+    "phylum_cn",
+    "class_cn",
     "order_cn",
     "family_cn",
     "genus_cn",
@@ -80,6 +85,9 @@ RELATIONS_HEADERS = [
 ]
 
 RANK_LABELS = {
+    "Q36732": "kingdom",
+    "Q38348": "phylum",
+    "Q37517": "class",
     "Q36602": "order",
     "Q35409": "family",
     "Q34740": "genus",
@@ -87,6 +95,9 @@ RANK_LABELS = {
 }
 
 RANK_DISPLAY = {
+    "kingdom": "界",
+    "phylum": "门",
+    "class": "纲",
     "order": "目",
     "family": "科",
     "genus": "属",
@@ -475,7 +486,7 @@ def build_taxon_relations(
     taxonomy: Dict[str, Dict[str, str]],
 ) -> List[Dict[str, str]]:
     relations: List[Dict[str, str]] = []
-    for rank in ("order", "family"):
+    for rank in TARGET_RANKS:
         entry = taxonomy.get(rank, {})
         scientific_name = entry.get("name", "").strip()
         chinese_name = entry.get("name_cn", "").strip()
@@ -499,7 +510,7 @@ def build_taxon_relations(
 
 
 def already_has_taxonomy(bird_row: Dict[str, str]) -> bool:
-    return all((bird_row.get(column, "") or "").strip() for column in ("order", "family", "genus", "species"))
+    return all((bird_row.get(column, "") or "").strip() for column in TARGET_RANKS)
 
 
 def populate_taxonomy_fields(bird_row: Dict[str, str], taxonomy: Dict[str, Dict[str, str]]) -> None:
@@ -536,7 +547,7 @@ def prune_wikidata_taxon_relations(
     taxonomy: Dict[str, Dict[str, str]],
 ) -> List[Dict[str, str]]:
     removable_names = set()
-    for rank in ("order", "family"):
+    for rank in TARGET_RANKS:
         entry = taxonomy.get(rank, {})
         for value in (entry.get("name", "").strip(), entry.get("name_cn", "").strip()):
             if value:
@@ -660,7 +671,7 @@ def main() -> None:
 
             missing_ranks = [
                 RANK_DISPLAY[rank]
-                for rank in ("order", "family")
+                for rank in TARGET_RANKS
                 if not bird_row.get(rank, "").strip()
             ]
             if missing_ranks:

@@ -217,6 +217,97 @@ LOCATION_HINT_WORDS = {
     "new zealand",
 }
 
+COUNTRY_LOCATION_NAMES = {
+    "China",
+    "Japan",
+    "South Korea",
+    "North Korea",
+    "Mongolia",
+    "Russia",
+    "India",
+    "Nepal",
+    "Bhutan",
+    "Myanmar",
+    "Vietnam",
+    "Laos",
+    "Thailand",
+    "Cambodia",
+    "Philippines",
+    "Indonesia",
+    "Malaysia",
+    "Singapore",
+    "Australia",
+    "New Zealand",
+    "United States",
+    "United States of America",
+    "Canada",
+    "Mexico",
+    "Brazil",
+    "Argentina",
+    "Chile",
+    "Peru",
+    "South Africa",
+    "Kenya",
+    "Tanzania",
+    "Ethiopia",
+    "United Kingdom",
+    "France",
+    "Germany",
+    "Italy",
+    "Spain",
+    "Portugal",
+    "Netherlands",
+    "Poland",
+    "Norway",
+    "Sweden",
+    "Finland",
+    "Denmark",
+    "中国",
+    "中华人民共和国",
+    "日本",
+    "韩国",
+    "朝鲜",
+    "蒙古",
+    "俄罗斯",
+    "印度",
+    "尼泊尔",
+    "不丹",
+    "缅甸",
+    "越南",
+    "老挝",
+    "泰国",
+    "柬埔寨",
+    "菲律宾",
+    "印度尼西亚",
+    "马来西亚",
+    "新加坡",
+    "澳大利亚",
+    "新西兰",
+    "美国",
+    "加拿大",
+    "墨西哥",
+    "巴西",
+    "阿根廷",
+    "智利",
+    "秘鲁",
+    "南非",
+    "肯尼亚",
+    "坦桑尼亚",
+    "埃塞俄比亚",
+    "英国",
+    "法国",
+    "德国",
+    "意大利",
+    "西班牙",
+    "葡萄牙",
+    "荷兰",
+    "波兰",
+    "挪威",
+    "瑞典",
+    "芬兰",
+    "丹麦",
+}
+
 DISTRIBUTION_SECTION_RE = re.compile(
     r"distribution|range|habitat|ecology|migration|migrat|population and distribution",
     re.IGNORECASE,
@@ -545,6 +636,16 @@ def looks_like_location_title(title: str) -> bool:
     return any(keyword in lowered for keyword in LOCATION_HINT_WORDS) or bool(re.search(r"[A-Z][a-z]+(?: [A-Z][a-z]+)+", title))
 
 
+def is_country_location_name(name: str) -> bool:
+    text = (name or "").strip()
+    if not text:
+        return False
+    if text in COUNTRY_LOCATION_NAMES:
+        return True
+    lowered = text.lower()
+    return lowered in {item.lower() for item in COUNTRY_LOCATION_NAMES}
+
+
 def resolve_location_bundle(crawler: WikiCrawler, title: str, lang: str = "en") -> Optional[PageBundle]:
     try:
         bundle = crawler.fetch_page_bundle(title, wiki=lang, include_wikitext=False)
@@ -805,6 +906,8 @@ def collect_distribution_relations(
                 if bundle is None:
                     continue
                 location_row = build_location_row(bundle, crawler)
+                if is_country_location_name(location_row["name"]) or is_country_location_name(bundle.resolved_title):
+                    continue
                 if location_row["id"] in seen_object_ids:
                     continue
                 seen_object_ids.add(location_row["id"])
