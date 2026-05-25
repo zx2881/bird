@@ -4,9 +4,21 @@ export function useGraphExport() {
     if (!container) return
     const canvas = container.querySelector('canvas')
     if (!canvas) return
+    const output = document.createElement('canvas')
+    const width = canvas.width || canvas.clientWidth
+    const height = canvas.height || canvas.clientHeight
+    output.width = width
+    output.height = height
+
+    const ctx = output.getContext('2d')
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark'
+    ctx.fillStyle = isDark ? '#0b1018' : '#101827'
+    ctx.fillRect(0, 0, width, height)
+    ctx.drawImage(canvas, 0, 0, width, height)
+
     const link = document.createElement('a')
     link.download = `bird-graph-${Date.now()}.png`
-    link.href = canvas.toDataURL('image/png')
+    link.href = output.toDataURL('image/png')
     link.click()
   }
 

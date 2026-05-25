@@ -57,7 +57,7 @@
 
         <section class="panel guide-panel">
           <h3 class="panel-title">探索方式</h3>
-          <p class="panel-note">首屏只铺开轻量预览节点，按统一散点方式填满画布，不再先画一层分类骨架。</p>
+          <p class="panel-note">首屏展示鸟类与界、门、纲、目、科分类骨架，属和种在点击物种后按需织入。</p>
           <p class="panel-note">搜索或点击节点时，前端才会继续请求 `nodes/[node_id].json`，把该节点的一度邻域织入当前图谱。</p>
         </section>
 
@@ -102,7 +102,7 @@
           </div>
           <div class="toolbar-group compact">
             <span class="toolbar-label">标签策略</span>
-            <p class="toolbar-copy">画布上默认不常驻文本标签，悬停节点时通过提示层查看名称与分类。</p>
+            <p class="toolbar-copy">悬停查看实体名称与分类，当前节点和主要分类线会显示关系标签。</p>
           </div>
           <div class="toolbar-actions">
             <button type="button" class="pill reset-btn" @click="resetContextFilters">重置视图</button>
@@ -143,7 +143,7 @@ const { exportPNG, exportJSON, exportGraphML } = useGraphExport()
 const containerRef = ref(null)
 const searchQuery = ref('')
 const searchResults = ref([])
-const activeContextTypes = ref(['location', 'habitat', 'status', 'threat'])
+const activeContextTypes = ref(['taxonomy', 'location', 'habitat', 'status', 'threat'])
 
 const legendItems = [
   { label: '首屏轻量节点', color: '#eaf3ff' },
@@ -151,6 +151,7 @@ const legendItems = [
 ]
 
 const filterableTypeItems = [
+  { type: 'taxonomy', label: '分类' },
   { type: 'location', label: '地点' },
   { type: 'habitat', label: '栖息地' },
   { type: 'status', label: '保护等级' },
@@ -162,13 +163,13 @@ const showInitialLoading = computed(() => !store.loaded || (store.previewLoading
 const graphSummary = computed(() => {
   if (!store.loaded) return '首屏正在加载 summary.json 与轻量总览图入口。'
   if (store.previewLoading && store.nodeCount === 0) {
-    return '正在请求 graph_preview.json，并把全部预览节点按统一分布铺到 3D 画布上。'
+    return '正在请求 graph_preview.json，并把鸟类与高层分类节点铺到 3D 画布上。'
   }
   if (store.previewLoading) {
     return `轻量总览图正在继续织入，当前已入图 ${store.loadedBirdCount}/${store.totalBirdCount} 种，节点 ${store.nodeCount} 个，关系 ${store.linkCount} 条。`
   }
   if (store.previewLoaded) {
-    return `首页轻量总览图已载入全部 ${store.totalBirdCount} 种鸟类的基础节点；当前画布采用统一散点排布，点击节点时再按需请求对应分片详情。`
+    return `首页轻量总览图已载入全部 ${store.totalBirdCount} 种鸟类和高层分类；点击节点时再按需请求对应分片详情。`
   }
   return `当前画布中已织入 ${store.nodeCount} 个节点、${store.linkCount} 条关系；其中 ${store.loadedBirdCount}/${store.totalBirdCount} 种鸟类已按需载入。`
 })
@@ -226,7 +227,7 @@ function toggleContextType(type) {
 }
 
 function resetContextFilters() {
-  activeContextTypes.value = ['location', 'habitat', 'status', 'threat']
+  activeContextTypes.value = ['taxonomy', 'location', 'habitat', 'status', 'threat']
   store.requestGraphFit()
 }
 
@@ -270,7 +271,7 @@ onMounted(async () => {
   left: 20px;
   width: 22px;
   height: 22px;
-  color: rgba(18, 48, 59, 0.4);
+  color: var(--text-secondary);
   pointer-events: none;
 }
 

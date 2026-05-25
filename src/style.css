@@ -119,6 +119,25 @@ a:hover { text-decoration: underline; }
 .leaflet-popup-content a { color: var(--accent); font-weight: 600; }
 .leaflet-popup-content a:hover { text-decoration: underline; }
 
+[data-theme="dark"] .leaflet-container { background: #0f172a; }
+[data-theme="dark"] .leaflet-control-zoom a,
+[data-theme="dark"] .leaflet-control-attribution,
+[data-theme="dark"] .leaflet-popup-content-wrapper,
+[data-theme="dark"] .leaflet-popup-tip {
+  background: #0f172a;
+  color: #e2e8f0;
+  border-color: rgba(148, 163, 184, 0.24);
+}
+
+.scene-tooltip,
+.graph-tooltip,
+.three-d-graph-tooltip {
+  color: var(--text-color) !important;
+  background: var(--card-bg) !important;
+  border: 1px solid var(--panel-border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
 @media (max-width: 720px) {
   .shell { padding: 14px; }
 }

@@ -16,6 +16,24 @@ function makeAssetUrl(path) {
   return `${base}${path}`
 }
 
+const COUNTRY_LOCATION_NAMES = new Set([
+  '中国', '中华人民共和国', '日本', '韩国', '朝鲜', '蒙古', '俄罗斯', '俄羅斯', '印度', '尼泊尔', '不丹',
+  '缅甸', '越南', '老挝', '泰国', '柬埔寨', '菲律宾', '印度尼西亚', '马来西亚', '新加坡',
+  '澳大利亚', '新西兰', '美国', '加拿大', '墨西哥', '巴西', '阿根廷', '智利', '秘鲁',
+  '南非', '肯尼亚', '坦桑尼亚', '埃塞俄比亚', '英国', '法国', '德国', '意大利', '西班牙',
+  '葡萄牙', '荷兰', '波兰', '挪威', '瑞典', '芬兰', '丹麦',
+  'china', 'japan', 'south korea', 'north korea', 'mongolia', 'russia', 'india', 'nepal', 'bhutan',
+  'myanmar', 'vietnam', 'laos', 'thailand', 'cambodia', 'philippines', 'indonesia', 'malaysia',
+  'singapore', 'australia', 'new zealand', 'united states', 'united states of america', 'canada',
+  'mexico', 'brazil', 'argentina', 'chile', 'peru', 'south africa', 'kenya', 'tanzania', 'ethiopia',
+  'united kingdom', 'france', 'germany', 'italy', 'spain', 'portugal', 'netherlands', 'poland',
+  'norway', 'sweden', 'finland', 'denmark'
+])
+
+function isCountryLocation(node) {
+  return node?.type === 'location' && COUNTRY_LOCATION_NAMES.has(String(node.name || '').trim().toLowerCase())
+}
+
 function normalizeNode(node) {
   const normalized = {
     ...node,
@@ -23,14 +41,31 @@ function normalizeNode(node) {
     englishName: node.englishName || '',
     latinName: node.latinName || '',
     summary: node.summary || '',
+    shortSummary: node.shortSummary || '',
     imageUrl: node.imageUrl || '',
     status: node.status || '',
+    kingdom: node.kingdom || '',
+    phylum: node.phylum || '',
+    class: node.class || '',
     order: node.order || '',
     family: node.family || '',
+    genus: node.genus || '',
+    species: node.species || '',
+    kingdomCn: node.kingdomCn || '',
+    phylumCn: node.phylumCn || '',
+    classCn: node.classCn || '',
     orderCn: node.orderCn || '',
     familyCn: node.familyCn || '',
+    genusCn: node.genusCn || '',
+    speciesCn: node.speciesCn || '',
+    kingdomId: node.kingdomId || '',
+    phylumId: node.phylumId || '',
+    classId: node.classId || '',
     orderId: node.orderId || '',
     familyId: node.familyId || '',
+    genusId: node.genusId || '',
+    speciesId: node.speciesId || '',
+    taxonomyIds: node.taxonomyIds || {},
     taxonomyLevel: node.taxonomyLevel || '',
     locations: uniqueStrings(node.locations),
     habitats: uniqueStrings(node.habitats),
@@ -59,16 +94,35 @@ function mergeNodeData(existing, incoming) {
   }
 
   if (!incoming.summary && existing.summary) merged.summary = existing.summary
+  if (!incoming.shortSummary && existing.shortSummary) merged.shortSummary = existing.shortSummary
   if (!incoming.englishName && existing.englishName) merged.englishName = existing.englishName
   if (!incoming.latinName && existing.latinName) merged.latinName = existing.latinName
   if (!incoming.imageUrl && existing.imageUrl) merged.imageUrl = existing.imageUrl
   if (!incoming.status && existing.status) merged.status = existing.status
+  if (!incoming.kingdom && existing.kingdom) merged.kingdom = existing.kingdom
+  if (!incoming.phylum && existing.phylum) merged.phylum = existing.phylum
+  if (!incoming.class && existing.class) merged.class = existing.class
   if (!incoming.order && existing.order) merged.order = existing.order
   if (!incoming.family && existing.family) merged.family = existing.family
+  if (!incoming.genus && existing.genus) merged.genus = existing.genus
+  if (!incoming.species && existing.species) merged.species = existing.species
+  if (!incoming.kingdomCn && existing.kingdomCn) merged.kingdomCn = existing.kingdomCn
+  if (!incoming.phylumCn && existing.phylumCn) merged.phylumCn = existing.phylumCn
+  if (!incoming.classCn && existing.classCn) merged.classCn = existing.classCn
   if (!incoming.orderCn && existing.orderCn) merged.orderCn = existing.orderCn
   if (!incoming.familyCn && existing.familyCn) merged.familyCn = existing.familyCn
+  if (!incoming.genusCn && existing.genusCn) merged.genusCn = existing.genusCn
+  if (!incoming.speciesCn && existing.speciesCn) merged.speciesCn = existing.speciesCn
+  if (!incoming.kingdomId && existing.kingdomId) merged.kingdomId = existing.kingdomId
+  if (!incoming.phylumId && existing.phylumId) merged.phylumId = existing.phylumId
+  if (!incoming.classId && existing.classId) merged.classId = existing.classId
   if (!incoming.orderId && existing.orderId) merged.orderId = existing.orderId
   if (!incoming.familyId && existing.familyId) merged.familyId = existing.familyId
+  if (!incoming.genusId && existing.genusId) merged.genusId = existing.genusId
+  if (!incoming.speciesId && existing.speciesId) merged.speciesId = existing.speciesId
+  if (!Object.keys(incoming.taxonomyIds || {}).length && Object.keys(existing.taxonomyIds || {}).length) {
+    merged.taxonomyIds = existing.taxonomyIds
+  }
   if (!incoming.taxonomyLevel && existing.taxonomyLevel) merged.taxonomyLevel = existing.taxonomyLevel
   if (incoming.x == null && existing.x != null) merged.x = existing.x
   if (incoming.y == null && existing.y != null) merged.y = existing.y
@@ -109,6 +163,23 @@ function inflateSummaryItems(summary) {
     bird.searchText = [bird.name, bird.englishName, bird.latinName].filter(Boolean).join(' ').toLowerCase()
     return bird
   })
+}
+
+const PREVIEW_TAXONOMY_LEVELS = new Set(['kingdom', 'phylum', 'class', 'order', 'family'])
+
+function trimGraphPreviewPayload(payload) {
+  const keepNodeIds = new Set()
+  const nodes = (payload.nodes || []).filter(node => {
+    const keep = node.type !== 'taxonomy' || PREVIEW_TAXONOMY_LEVELS.has(node.taxonomyLevel)
+    if (keep) keepNodeIds.add(node.id)
+    return keep
+  })
+
+  return {
+    ...payload,
+    nodes,
+    links: (payload.links || []).filter(link => keepNodeIds.has(link.source) && keepNodeIds.has(link.target))
+  }
 }
 
 export const useGraphStore = defineStore('graph', () => {
@@ -237,6 +308,7 @@ export const useGraphStore = defineStore('graph', () => {
     for (const payload of payloads || []) {
       for (const rawNode of payload.nodes || []) {
         const incoming = normalizeNode(rawNode)
+        if (isCountryLocation(incoming)) continue
         const existing = nodeMap.value.get(incoming.id)
         const merged = existing ? mergeNodeData(existing, incoming) : incoming
         nodeMap.value.set(merged.id, merged)
@@ -370,7 +442,8 @@ export const useGraphStore = defineStore('graph', () => {
 
     previewPromise = fetchJson('data/graph_preview.json')
       .then(preview => {
-        mergeGraphData(preview, {
+        const trimmedPreview = trimGraphPreviewPayload(preview)
+        mergeGraphData(trimmedPreview, {
           chunkId: previewChunkId,
           centerId: null
         })

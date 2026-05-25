@@ -84,6 +84,14 @@
         </div>
 
         <div class="detail-info-grid">
+          <div
+            v-for="item in taxonomyItems"
+            :key="item.label"
+            class="info-item"
+          >
+            <span class="info-label">{{ item.label }}</span>
+            <span class="info-value">{{ item.value }}</span>
+          </div>
           <div class="info-item">
             <span class="info-label">英文名</span>
             <span class="info-value">{{ bird.englishName || '暂无' }}</span>
@@ -91,14 +99,6 @@
           <div class="info-item">
             <span class="info-label">学名</span>
             <span class="info-value"><em>{{ bird.latinName || '暂无' }}</em></span>
-          </div>
-          <div class="info-item">
-            <span class="info-label">所属目</span>
-            <span class="info-value">{{ bird.orderCn || bird.order || '暂无' }}</span>
-          </div>
-          <div class="info-item">
-            <span class="info-label">所属科</span>
-            <span class="info-value">{{ bird.familyCn || bird.family || '暂无' }}</span>
           </div>
           <div class="info-item">
             <span class="info-label">主要分布</span>
@@ -218,6 +218,19 @@ const switchResults = computed(() => {
 
 const incidentLinks = computed(() => store.getIncidentLinks(birdId.value))
 
+const taxonomyItems = computed(() => {
+  const node = bird.value || {}
+  return [
+    ['界', node.kingdomCn || node.kingdom || '动物界'],
+    ['门', node.phylumCn || node.phylum || '脊索动物门'],
+    ['纲', node.classCn || node.class || '鸟纲'],
+    ['目', node.orderCn || node.order],
+    ['科', node.familyCn || node.family],
+    ['属', node.genusCn || node.genus],
+    ['种', node.speciesCn || node.species || node.name]
+  ].map(([label, value]) => ({ label, value: value || '暂无' }))
+})
+
 function formatList(values) {
   return Array.isArray(values) && values.length ? values.join('、') : '暂无'
 }
@@ -253,11 +266,16 @@ function initDetailMap() {
 
   detailMapInstance = L.map(detailMapRef.value, {
     zoomControl: true,
-    scrollWheelZoom: false
+    scrollWheelZoom: true,
+    worldCopyJump: false,
+    maxBounds: [[-85, -180], [85, 180]],
+    maxBoundsViscosity: 1
   }).setView([bird.value.lat, bird.value.lng], 5)
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
+    noWrap: true,
+    bounds: [[-85, -180], [85, 180]],
     attribution: '&copy; OpenStreetMap contributors'
   }).addTo(detailMapInstance)
 
@@ -483,7 +501,7 @@ onBeforeUnmount(() => {
   padding: 6px 14px;
   border-radius: 999px;
   border: 1px solid var(--panel-border);
-  background: rgba(255, 255, 255, 0.72);
+  background: var(--nav-bg);
   color: var(--accent);
   cursor: pointer;
 }

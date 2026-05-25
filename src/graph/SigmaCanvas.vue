@@ -51,14 +51,32 @@ const PREVIEW_NODE_COLOR = '#eaf3ff'
 const DETAIL_NODE_COLOR = '#9fc0ff'
 const BACKGROUND_DARK = '#0b1018'
 const BACKGROUND_LIGHT = '#101827'
-const LINK_COLOR = 'rgba(229, 239, 255, 0.18)'
+const LINK_COLOR_DARK = 'rgba(210, 230, 255, 0.46)'
+const LINK_COLOR_LIGHT = 'rgba(210, 230, 255, 0.4)'
+const HIGH_TAXONOMY_LEVELS = new Set(['kingdom', 'phylum', 'class', 'order', 'family'])
+const TAXONOMY_LABELS = {
+  kingdom: '界',
+  phylum: '门',
+  class: '纲',
+  order: '目',
+  family: '科',
+  genus: '属',
+  species: '种'
+}
 
 function isPreviewNode(node) {
   return node?.type === 'bird' || node?.type === 'taxonomy'
 }
 
+function isHighTaxonomyNode(node) {
+  return node?.type === 'taxonomy' && HIGH_TAXONOMY_LEVELS.has(node.taxonomyLevel)
+}
+
 function isNodeVisible(node) {
   if (!node) return false
+  if (node.type === 'taxonomy') {
+    return props.activeTypes.includes('taxonomy') && (isHighTaxonomyNode(node) || store.getIncidentLinks(node.id).length > 0)
+  }
   if (isPreviewNode(node)) return true
   return props.activeTypes.includes(node.type)
 }
@@ -81,8 +99,68 @@ function hitRadius(node) {
 
 function linkDistance(link) {
   if (!link) return 64
-  if (link.relation === 'belongs_to_family' || link.relation === 'belongs_to_order') return 56
+  if (link.relation?.startsWith('belongs_to_')) return 56
   return 42
+}
+
+function relationLabel(link) {
+  return link?.label || link?.relation || ''
+}
+
+function endpointId(endpoint) {
+  return typeof endpoint === 'object' ? endpoint?.id : endpoint
+}
+
+function shouldShowLinkLabel(link) {
+  if (!link) return false
+  if (store.activeNodeId && (endpointId(link.source) === store.activeNodeId || endpointId(link.target) === store.activeNodeId)) return true
+  return link.relation?.startsWith('belongs_to_') && !['belongs_to_genus', 'belongs_to_species'].includes(link.relation)
+}
+
+function buildLinkLabelObject(link) {
+  if (!shouldShowLinkLabel(link)) return null
+  const text = relationLabel(link)
+  if (!text) return null
+
+  const canvas = document.createElement('canvas')
+  const context = canvas.getContext('2d')
+  const fontSize = 28
+  context.font = `700 ${fontSize}px "Source Han Sans SC", Arial, sans-serif`
+  const width = Math.ceil(context.measureText(text).width + 28)
+  canvas.width = Math.max(72, width)
+  canvas.height = 44
+  context.font = `700 ${fontSize}px "Source Han Sans SC", Arial, sans-serif`
+  context.textAlign = 'center'
+  context.textBaseline = 'middle'
+  context.fillStyle = props.darkMode ? 'rgba(8, 20, 35, 0.82)' : 'rgba(248, 250, 252, 0.88)'
+  context.strokeStyle = props.darkMode ? 'rgba(125, 211, 252, 0.45)' : 'rgba(15, 118, 110, 0.3)'
+  context.lineWidth = 2
+  roundRect(context, 1, 1, canvas.width - 2, canvas.height - 2, 14)
+  context.fill()
+  context.stroke()
+  context.fillStyle = props.darkMode ? '#f8fafc' : '#12303b'
+  context.fillText(text, canvas.width / 2, canvas.height / 2 + 1)
+
+  const texture = new THREE.CanvasTexture(canvas)
+  texture.colorSpace = THREE.SRGBColorSpace
+  const material = new THREE.SpriteMaterial({ map: texture, transparent: true, depthWrite: false })
+  const sprite = new THREE.Sprite(material)
+  sprite.scale.set(canvas.width * 0.16, canvas.height * 0.16, 1)
+  return sprite
+}
+
+function roundRect(context, x, y, width, height, radius) {
+  context.beginPath()
+  context.moveTo(x + radius, y)
+  context.lineTo(x + width - radius, y)
+  context.quadraticCurveTo(x + width, y, x + width, y + radius)
+  context.lineTo(x + width, y + height - radius)
+  context.quadraticCurveTo(x + width, y + height, x + width - radius, y + height)
+  context.lineTo(x + radius, y + height)
+  context.quadraticCurveTo(x, y + height, x, y + height - radius)
+  context.lineTo(x, y + radius)
+  context.quadraticCurveTo(x, y, x + radius, y)
+  context.closePath()
 }
 
 function stableHash(value) {
@@ -294,6 +372,10 @@ function buildTooltip(node) {
   if (raw.latinName) lines.push(`<div style="opacity:.82;">${raw.latinName}</div>`)
   if (raw.orderCn || raw.order) lines.push(`<div style="opacity:.7;">目：${raw.orderCn || raw.order}</div>`)
   if (raw.familyCn || raw.family) lines.push(`<div style="opacity:.7;">科：${raw.familyCn || raw.family}</div>`)
+  if (raw.genusCn || raw.genus) lines.push(`<div style="opacity:.7;">属：${raw.genusCn || raw.genus}</div>`)
+  if (raw.type === 'taxonomy' && raw.taxonomyLevel) {
+    lines.push(`<div style="opacity:.7;">分类层级：${TAXONOMY_LABELS[raw.taxonomyLevel] || raw.taxonomyLevel}</div>`)
+  }
 
   return lines.join('')
 }
@@ -398,6 +480,7 @@ function materializeGraphData() {
       source: link.source,
       target: link.target,
       relation: link.relation,
+      label: link.label,
       distance: linkDistance(link)
     }))
 
@@ -421,10 +504,20 @@ function ensureGraph() {
     .showNavInfo(false)
     .enableNodeDrag(true)
     .nodeOpacity(1)
-    .linkOpacity(0.2)
-    .linkWidth(() => 0.36)
-    .linkColor(() => LINK_COLOR)
+    .linkOpacity(0.48)
+    .linkWidth(link => (shouldShowLinkLabel(link) ? 1.15 : 0.56))
+    .linkColor(() => (props.darkMode ? LINK_COLOR_DARK : LINK_COLOR_LIGHT))
     .linkDirectionalParticles(0)
+    .linkLabel(link => relationLabel(link))
+    .linkHoverPrecision(6)
+    .linkThreeObject(link => buildLinkLabelObject(link))
+    .linkThreeObjectExtend(true)
+    .linkPositionUpdate((sprite, { start, end }) => {
+      if (!sprite) return
+      sprite.position.x = start.x + (end.x - start.x) / 2
+      sprite.position.y = start.y + (end.y - start.y) / 2
+      sprite.position.z = start.z + (end.z - start.z) / 2
+    })
     .nodeLabel(buildTooltip)
     .nodeThreeObject(node => buildNodeObject(node))
     .onNodeClick(node => {
@@ -450,7 +543,7 @@ function ensureGraph() {
     return isPreviewNode(node) ? -56 : -32
   })
   graph.d3Force('link').distance(link => link.distance).strength(link => {
-    if (link.relation === 'belongs_to_family' || link.relation === 'belongs_to_order') return 0.18
+    if (link.relation?.startsWith('belongs_to_')) return 0.16
     return 0.12
   })
   graph.d3VelocityDecay(0.78)

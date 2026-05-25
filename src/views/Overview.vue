@@ -124,8 +124,16 @@ function initOverviewMap() {
     setTimeout(initOverviewMap, 200)
     return
   }
-  mapInstance = L.map(el, { zoomControl: true, worldCopyJump: true }).setView([20, 110], 2)
+  mapInstance = L.map(el, {
+    zoomControl: true,
+    scrollWheelZoom: true,
+    worldCopyJump: false,
+    maxBounds: [[-85, -180], [85, 180]],
+    maxBoundsViscosity: 1
+  }).setView([20, 110], 2)
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18,
+    noWrap: true,
+    bounds: [[-85, -180], [85, 180]],
     attribution: '&copy; OpenStreetMap contributors' }).addTo(mapInstance)
   markersLayer = L.layerGroup().addTo(mapInstance)
   store.birdNodes.forEach(bird => {
