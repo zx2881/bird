@@ -23,9 +23,9 @@ const routes = [
     props: true
   },
   {
-    path: '/editor',
-    name: 'Editor',
-    component: () => import('../views/Editor.vue')
+    path: '/semantic-search',
+    name: 'SemanticSearch',
+    component: () => import('../views/SemanticSearch.vue')
   }
 ]
 

@@ -27,11 +27,13 @@
         </svg>
         <span>类别</span>
       </router-link>
-      <router-link to="/editor" class="nav-link" active-class="nav-link--active">
+      <router-link to="/semantic-search" class="nav-link" active-class="nav-link--active">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+          <circle cx="11" cy="11" r="8"/>
+          <path d="M21 21l-4.35-4.35"/>
+          <path d="M11 8v6M8 11h6"/>
         </svg>
-        <span>编辑</span>
+        <span>语义搜索</span>
       </router-link>
       <button class="nav-link theme-btn" @click="uiStore.toggleDarkMode()" :title="uiStore.darkMode ? '切换亮色' : '切换暗色'">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

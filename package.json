@@ -14,7 +14,11 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "build:embeddings": "python scripts/build_embeddings.py",
+    "build:graph-embeddings": "python scripts/build_graph_embeddings.py",
+    "build:location-chunks": "python scripts/build_location_chunks.py",
+    "search:server": "python scripts/search_server.py"
   },
   "dependencies": {
     "@antv/g6": "^5.1.1",
