@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:14:59",
+  "requested_title": "Black-winged Kite",
+  "resolved_title": "Black-winged kite",
+  "title_aliases": [
+    "Black-winged Kite"
+  ],
+  "bird_id": "bird-黑翅鸢-bd317cfc",
+  "raw_file": "bird-黑翅鸢-bd317cfc.json",
+  "bird": {
+    "id": "bird-黑翅鸢-bd317cfc",
+    "name": "黑翅鸢",
+    "english_name": "Black-winged kite",
+    "latin_name": "Elanus caeruleus",
+    "summary": "黑翅鸢（学名：Elanus caeruleus），又名黑肩鳶（不是指分布於澳大利亞、學名為Elanus axillari的物種黑肩鳶 ）。鹰科鳶亞科黑翅鸢属的一種鸟类。主要分布于東洋界和非洲的田野和半沙漠，另外在新幾內亞、欧洲伊比利半島、尼羅河流域和阿特拉斯山脈以北的沿海地區也…",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Black-shouldered_Kite_%28Elanus_caeruleus%29_in_Hyderabad_W_IMG_4418.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑翅鸢-bd317cfc",
+      "subject": "黑翅鸢",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The iris is dark in young birds.|left]] Several geographic populations have been named as subspecies and these include the nominate subspecies which occurs in Spain, Africa and Arabia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑翅鸢-bd317cfc",
+      "subject": "黑翅鸢",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

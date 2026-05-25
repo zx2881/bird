@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:31:17",
+  "requested_title": "Pale Flycatcher",
+  "resolved_title": "Pale flycatcher",
+  "title_aliases": [
+    "Pale Flycatcher"
+  ],
+  "bird_id": "bird-pale-flycatcher-f77b85f8",
+  "raw_file": "bird-pale-flycatcher-f77b85f8.json",
+  "bird": {
+    "id": "bird-pale-flycatcher-f77b85f8",
+    "name": "Pale flycatcher",
+    "english_name": "Pale flycatcher",
+    "latin_name": "Agricola pallidus",
+    "summary": "The pale flycatcher (Agricola pallidus) is a passerine bird of the Old World flycatcher family Muscicapidae, native to Sub-Saharan Africa.…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pale_Flycatcher_-_Kenya_IMG_4603_%2819138559049%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-鹟科-916c7945",
+      "name": "鹟科",
+      "summary": "鹟科（学名：Muscicapidae）是鸟纲雀形目中的一个科，本科有51屬324種。 分類 鶲亞科 Muscicapinae 鶲屬 Muscicapa 紅嘴鴉雀屬 Conostoma 方尾鶲屬 Culicicapa 姬鶲屬 Ficedul…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pale-flycatcher-f77b85f8",
+      "subject": "Pale flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-鹟科-916c7945",
+      "object": "鹟科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "BHL | synonyms = Musicapa pallida (protonym)Melaenornis pallidus Bradornis pallidus }} The pale flycatcher (Agricola pallidus) is a passerine bird of the Old World flycatcher family Muscicapidae, native to Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-flycatcher-f77b85f8",
+      "subject": "Pale flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "BHL | synonyms = Musicapa pallida (protonym)Melaenornis pallidus Bradornis pallidus }} The pale flycatcher (Agricola pallidus) is a passerine bird of the Old World flycatcher family Muscicapidae, native to Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-flycatcher-f77b85f8",
+      "subject": "Pale flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

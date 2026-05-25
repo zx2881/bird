@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:52:50",
+  "requested_title": "Rufous-faced Crake",
+  "resolved_title": "Rufous-faced crake",
+  "title_aliases": [
+    "Rufous-faced Crake"
+  ],
+  "bird_id": "bird-rufous-faced-crake-523a6889",
+  "raw_file": "bird-rufous-faced-crake-523a6889.json",
+  "bird": {
+    "id": "bird-rufous-faced-crake-523a6889",
+    "name": "Rufous-faced crake",
+    "english_name": "Rufous-faced crake",
+    "latin_name": "Rufirallus xenopterus",
+    "summary": "The rufous-faced crake (Rufirallus xenopterus) is a species of bird in subfamily Rallinae of family Rallidae, the rails, gallinules, and co…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Laterallus_xenopterus_-_Rufous-faced_crake%3B_Dourado%2C_S%C3%A3o_Paulo%2C_Brazil.jpg/960px-Laterallus_xenopterus_-_Rufous-faced_crake%3B_Dourado%2C_S%C3%A3o_Paulo%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-巴拉圭-029e9211",
+      "name": "巴拉圭",
+      "summary": "巴拉圭共和國（西班牙語：República del Paraguay、瓜拉尼語：Paraguái Tavakuairetã），通稱巴拉圭（西班牙語：Paraguay；瓜拉尼語：Paraguái），是位於南美洲的主權國家，也是位於南美洲的內…",
+      "lat": "-23",
+      "lng": "-58"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-faced-crake-523a6889",
+      "subject": "Rufous-faced crake",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia, Brazil, and Paraguay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-faced-crake-523a6889",
+      "subject": "Rufous-faced crake",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia, Brazil, and Paraguay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-faced-crake-523a6889",
+      "subject": "Rufous-faced crake",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉圭-029e9211",
+      "object": "巴拉圭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia, Brazil, and Paraguay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-faced-crake-523a6889",
+      "subject": "Rufous-faced crake",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Pierre |first3=Paul |date=1998 |title=Rufous-faced Crake Laterallus xenopterus: a new species for Bolivia, with notes on its identification, distribution, ecology and conservation |url=https://www.neotropicalbirdclub.org/wp-content/uploads/2016/02/Cotinga-09-1998-76-80.pdf |journal=Cotinga |volume=9 |pages=76–80 |access-date= November 29, 2022}} It inhabits marshes, especially the zones of moist to shallowly flooded tussocky or matted grass",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-rufous-faced-crake-523a6889",
+      "subject": "Rufous-faced crake",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-rufous-faced-crake-523a6889",
+      "subject": "Rufous-faced crake",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The most significant threat is possibly the widespread use of pesticides, fertilisers and other chemicals.\"",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:20:53",
+  "requested_title": "Snowy Cotinga",
+  "resolved_title": "Snowy cotinga",
+  "title_aliases": [
+    "Snowy Cotinga"
+  ],
+  "bird_id": "bird-snowy-cotinga-a825d7d2",
+  "raw_file": "bird-snowy-cotinga-a825d7d2.json",
+  "bird": {
+    "id": "bird-snowy-cotinga-a825d7d2",
+    "name": "Snowy cotinga",
+    "english_name": "Snowy cotinga",
+    "latin_name": "Carpodectes nitidus",
+    "summary": "The snowy cotinga (Carpodectes nitidus) is a medium-sized species of passerine bird in the family Cotingidae. It is found in Costa Rica, Ho…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Snowy_Cotinga_-_Sarapiqui_-_Costa_Rica_S4E1046_%2826584977742%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-snowy-cotinga-a825d7d2",
+      "subject": "Snowy cotinga",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "14(1): 127–128. The species inhabits the canopy of humid evergreen forest and nearby secondary forest in the tropical zone. In elevation it ranges overall from sea level to though only rarely as high as in Costa Rica",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-snowy-cotinga-a825d7d2",
+      "subject": "Snowy cotinga",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "14(1): 127–128. The species inhabits the canopy of humid evergreen forest and nearby secondary forest in the tropical zone. In elevation it ranges overall from sea level to though only rarely as high as in Costa Rica",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-snowy-cotinga-a825d7d2",
+      "subject": "Snowy cotinga",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

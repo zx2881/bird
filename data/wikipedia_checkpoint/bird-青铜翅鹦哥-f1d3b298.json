@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:37:22",
+  "requested_title": "Bronze-winged Parrot",
+  "resolved_title": "Bronze-winged parrot",
+  "title_aliases": [
+    "Bronze-winged Parrot"
+  ],
+  "bird_id": "bird-青铜翅鹦哥-f1d3b298",
+  "raw_file": "bird-青铜翅鹦哥-f1d3b298.json",
+  "bird": {
+    "id": "bird-青铜翅鹦哥-f1d3b298",
+    "name": "青铜翅鹦哥",
+    "english_name": "Bronze-winged parrot",
+    "latin_name": "Pionus chalcopterus",
+    "summary": "青銅翅鸚鵡（學名：Pionus chalcopterus），是鹦鹉科 Pionus 屬的一种鸟。原棲地為南美洲的西北部海拔500-2000米的安地斯山脈。 青銅翅鸚鵡的羽色與大多數以綠色系為主的鸚鵡有很大的差異，身體大部份為蔵青色，翅膀的覆羽則為青銅色，鳥喙為蠟黃色，喉部有白色…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Bronze-winged_Parrot_%28Pionus_chalcopterus%29.jpg/960px-Bronze-winged_Parrot_%28Pionus_chalcopterus%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-青铜翅鹦哥-f1d3b298",
+      "subject": "青铜翅鹦哥",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a short-tailed stocky parrot found in forest and woodland in north-western South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-青铜翅鹦哥-f1d3b298",
+      "subject": "青铜翅鹦哥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

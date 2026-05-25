@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:11:16",
+  "requested_title": "Grey Noddy",
+  "resolved_title": "Grey noddy",
+  "title_aliases": [
+    "Grey Noddy"
+  ],
+  "bird_id": "bird-灰燕鸥-a1aa70cf",
+  "raw_file": "bird-灰燕鸥-a1aa70cf.json",
+  "bird": {
+    "id": "bird-灰燕鸥-a1aa70cf",
+    "name": "灰燕鸥",
+    "english_name": "Grey noddy",
+    "latin_name": "Anous albivitta",
+    "summary": "灰燕鸥（学名：Anous albivitta），是鸻形目鸥科的一种鸟类。 亚种 Anous albivitta albivitta，分布在豪勋爵岛、诺福克岛、克马德克群岛和汤加。",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Grey_Ternlet_flight_NZ_jan05.jpg/960px-Grey_Ternlet_flight_NZ_jan05.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰燕鸥-a1aa70cf",
+      "subject": "灰燕鸥",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in subtropical and warm temperate waters of the south Pacific Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰燕鸥-a1aa70cf",
+      "subject": "灰燕鸥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

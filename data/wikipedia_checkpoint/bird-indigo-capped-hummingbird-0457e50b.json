@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:59:16",
+  "requested_title": "Indigo-capped Hummingbird",
+  "resolved_title": "Indigo-capped hummingbird",
+  "title_aliases": [
+    "Indigo-capped Hummingbird"
+  ],
+  "bird_id": "bird-indigo-capped-hummingbird-0457e50b",
+  "raw_file": "bird-indigo-capped-hummingbird-0457e50b.json",
+  "bird": {
+    "id": "bird-indigo-capped-hummingbird-0457e50b",
+    "name": "Indigo-capped hummingbird",
+    "english_name": "Indigo-capped hummingbird",
+    "latin_name": "Saucerottia cyanifrons",
+    "summary": "The indigo-capped hummingbird (Saucerottia cyanifrons) is a species of hummingbird in the \"emeralds\", tribe Trochilini of subfamily Trochil…",
+    "lat": "7.9",
+    "lng": "-72.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Indigo-capped_Hummingbird_%28Amazilia_cyanifrons%29_%288079781711%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北桑坦德省-ca34fa4d",
+      "name": "北桑坦德省",
+      "summary": "北桑坦德省（Norte de Santander）是哥倫比亞东北部的省份，面积为21648平方千米，2018年人口为1,391,366，省會库库塔。 参考来源",
+      "lat": "7.9",
+      "lng": "-72.5"
+    },
+    {
+      "id": "loc-马格达莱纳河-e48598f3",
+      "name": "马格达莱纳河",
+      "summary": "马格达莱纳河（西班牙語：Río Magdalena）是哥伦比亚境内的主要河流。它得名于圣经人物抹大拉的马里亚。 马格达莱纳河发源于哥伦比亚乌伊拉省境内的安第斯山脉，向北流淌，最终在巴兰基亚注入加勒比海，全长约1,540公里，流域面积26万…",
+      "lat": "11.11666667",
+      "lng": "-74.85"
+    },
+    {
+      "id": "loc-考卡河-4d65ba69",
+      "name": "考卡河",
+      "summary": "考卡河（西班牙語：Río Cauca）是哥倫比亞西部的河流，全長1,349公里，集水區面積約63,300平方公里，最終在聖克魯斯德蒙波斯以南注入馬格達萊納河。 外部連結 （西班牙文） Corporación Regional del Ca…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-indigo-capped-hummingbird-0457e50b",
+      "subject": "Indigo-capped hummingbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-北桑坦德省-ca34fa4d",
+      "object": "北桑坦德省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The indigo-capped hummingbird is found in north and central Colombia, principally in Norte de Santander Department, the Magdalena River valley, and the upper Cauca River valley",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-indigo-capped-hummingbird-0457e50b",
+      "subject": "Indigo-capped hummingbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-马格达莱纳河-e48598f3",
+      "object": "马格达莱纳河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The indigo-capped hummingbird is found in north and central Colombia, principally in Norte de Santander Department, the Magdalena River valley, and the upper Cauca River valley",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-indigo-capped-hummingbird-0457e50b",
+      "subject": "Indigo-capped hummingbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-考卡河-4d65ba69",
+      "object": "考卡河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The indigo-capped hummingbird is found in north and central Colombia, principally in Norte de Santander Department, the Magdalena River valley, and the upper Cauca River valley",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-indigo-capped-hummingbird-0457e50b",
+      "subject": "Indigo-capped hummingbird",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits semi-open to open landscapes such as the edges of wet forest, savanna, shrubby areas, plantations, and gardens; most of these are fairly dry",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-indigo-capped-hummingbird-0457e50b",
+      "subject": "Indigo-capped hummingbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

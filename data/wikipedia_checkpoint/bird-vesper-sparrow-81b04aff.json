@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:00:13",
+  "requested_title": "Vesper Sparrow",
+  "resolved_title": "Vesper sparrow",
+  "title_aliases": [
+    "Vesper Sparrow"
+  ],
+  "bird_id": "bird-vesper-sparrow-81b04aff",
+  "raw_file": "bird-vesper-sparrow-81b04aff.json",
+  "bird": {
+    "id": "bird-vesper-sparrow-81b04aff",
+    "name": "Vesper sparrow",
+    "english_name": "Vesper sparrow",
+    "latin_name": "Pooecetes gramineus",
+    "summary": "The vesper sparrow (Pooecetes gramineus) is a medium-sized New World sparrow. The only member of the genus Pooecetes, it is a pale sparrow…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Pooecetes_gramineus_-USA-8_%28cropped%29.jpg/960px-Pooecetes_gramineus_-USA-8_%28cropped%29.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-vesper-sparrow-81b04aff",
+      "subject": "Vesper sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-vesper-sparrow-81b04aff",
+      "subject": "Vesper sparrow",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The loss of farmland due to conversions to more developed regions has created a degree of habitat loss caused by a reduction in space available for nesting",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

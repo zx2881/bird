@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:27:46",
+  "requested_title": "Comoro Blue Vanga",
+  "resolved_title": "Madagascar blue vanga",
+  "title_aliases": [
+    "Madagascar Blue Vanga",
+    "Comoro Blue Vanga"
+  ],
+  "bird_id": "bird-madagascar-blue-vanga-0e24ccfc",
+  "raw_file": "bird-madagascar-blue-vanga-0e24ccfc.json",
+  "bird": {
+    "id": "bird-madagascar-blue-vanga-0e24ccfc",
+    "name": "Madagascar blue vanga",
+    "english_name": "Madagascar blue vanga",
+    "latin_name": "Cyanolanius madagascarinus",
+    "summary": "The Madagascar blue vanga (Cyanolanius madagascarinus) is a bird species in the family Vangidae. It is found in Madagascar, where its natur…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Blue_Vanga.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "name": "熱帶和亞熱帶旱生闊葉林",
+      "summary": "热带及亚热带旱生阔叶林（英語：tropical and subtropical dry broadleaf forests），简称旱生林（dry forest）是一种WWF定义的栖地生境并用来命名以此为代表的生物群系。其所需的气候类型较常…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-madagascar-blue-vanga-0e24ccfc",
+      "subject": "Madagascar blue vanga",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Madagascar, where its natural habitats are subtropical or tropical dry forest and subtropical or tropical moist lowland forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-blue-vanga-0e24ccfc",
+      "subject": "Madagascar blue vanga",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "object": "熱帶和亞熱帶旱生闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Madagascar, where its natural habitats are subtropical or tropical dry forest and subtropical or tropical moist lowland forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-blue-vanga-0e24ccfc",
+      "subject": "Madagascar blue vanga",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Madagascar, where its natural habitats are subtropical or tropical dry forest and subtropical or tropical moist lowland forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-blue-vanga-0e24ccfc",
+      "subject": "Madagascar blue vanga",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

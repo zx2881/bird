@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:49:22",
+  "requested_title": "Seychelles Paradise Flycatcher",
+  "resolved_title": "Seychelles paradise flycatcher",
+  "title_aliases": [
+    "Seychelles Paradise Flycatcher"
+  ],
+  "bird_id": "bird-塞舌尔寿带-e36a5832",
+  "raw_file": "bird-塞舌尔寿带-e36a5832.json",
+  "bird": {
+    "id": "bird-塞舌尔寿带-e36a5832",
+    "name": "塞舌尔寿带",
+    "english_name": "Seychelles paradise flycatcher",
+    "latin_name": "Terpsiphone corvina",
+    "summary": "塞舌尔寿带（Terpsiphone corvina）是一种极危的寿带鸟，是塞舌尔的特有种。 描述 雄性塞舌尔寿带体长约为20厘米，其两个黑色的中央尾羽可以长至30厘米。雌性则能长至16-18厘米。雄性呈黑色和深蓝色，而雌性翅膀和尾羽呈红棕色，腿则是蓝色的。",
+    "lat": "-4.58333333",
+    "lng": "55.66666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Seychelles_Paradise-flycatcher.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塞舌尔-ad0b587d",
+      "name": "塞舌尔",
+      "summary": "塞舌爾共和國（塞舌尔克里奥尔语：Repiblik Sesel；法語：République des Seychelles；英語：Republic of Seychelles），通稱塞席爾，是位於坦桑尼亞以東、印度洋中西部的一個群岛国家。塞舌…",
+      "lat": "-4.58333333",
+      "lng": "55.66666667"
+    },
+    {
+      "id": "loc-拉迪格岛-4b41b65c",
+      "name": "拉迪格岛",
+      "summary": "拉迪格岛（法語：La Digue）是塞舌尔第四大有人居住的岛，位于普拉兰岛东面和费利西泰岛西面。岛上人口约2000人，主要居住在西海岸的拉帕斯村（La Passe）和拉雷尤因村（La Réunion），面积10平方公里。拉迪格岛的名称来自…",
+      "lat": "-4.38",
+      "lng": "55.84666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-塞舌尔寿带-e36a5832",
+      "subject": "塞舌尔寿带",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞舌尔-ad0b587d",
+      "object": "塞舌尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a forest-dwelling bird endemic to the Seychelles where it is native to the island of La Digue. Males have glossy black plumage with elongated tail feathers, while females are reddish-brown with pale underparts and no long tail feathers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-塞舌尔寿带-e36a5832",
+      "subject": "塞舌尔寿带",
+      "predicate": "distributed_in",
+      "object_id": "loc-拉迪格岛-4b41b65c",
+      "object": "拉迪格岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a forest-dwelling bird endemic to the Seychelles where it is native to the island of La Digue. Males have glossy black plumage with elongated tail feathers, while females are reddish-brown with pale underparts and no long tail feathers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-塞舌尔寿带-e36a5832",
+      "subject": "塞舌尔寿带",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-塞舌尔寿带-e36a5832",
+      "subject": "塞舌尔寿带",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The threats it faces are a result of its specific habitat requirements which are incompatible with the habitat loss and fragmentation taking place on La Digue, due to increasing tourism and the expansion of settlements",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

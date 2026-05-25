@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T23:03:28",
+  "requested_title": "Great Horned Owl",
+  "resolved_title": "Great horned owl",
+  "title_aliases": [
+    "Great Horned Owl"
+  ],
+  "bird_id": "bird-大鵰鴞-1c2d9232",
+  "raw_file": "bird-大鵰鴞-1c2d9232.json",
+  "bird": {
+    "id": "bird-大鵰鴞-1c2d9232",
+    "name": "大鵰鴞",
+    "english_name": "Great horned owl",
+    "latin_name": "Bubo virginianus",
+    "summary": "大角鴞（學名：Bubo virginianus）是美洲一種中型的貓頭鷹。牠們的適應力強，是美洲分佈得最廣的鴟鴞科。 南美洲南部的小鵰鴞經常被認為是大角鴞的亞種。",
+    "lat": "19",
+    "lng": "-96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Bubo_virginianus_06.jpg/960px-Bubo_virginianus_06.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-美洲-f26eed21",
+      "name": "美洲",
+      "summary": "亚美利加洲（英語：Americas）簡稱美洲，位于西半球，自然地理分为北美洲和南美洲，其中北美洲可进一步划分为北美地区、中美洲（联合国地理方案将墨西哥视为中美洲的一部分）和加勒比地区（西印度群岛）三个地理区域。美洲的总面積達4254.9万…",
+      "lat": "19",
+      "lng": "-96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大鵰鴞-1c2d9232",
+      "subject": "大鵰鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-美洲-f26eed21",
+      "object": "美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=1966 |title=The World of the Great Horned Owl |publisher=Lippingcott Company |location=Philadelphia |asin=B0006BN8QG}} is a large owl native to the Americas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大鵰鴞-1c2d9232",
+      "subject": "大鵰鴞",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|last2=Yahner |year=1994 |title=Habitat characteristics of Great Horned Owls in southcentral Pennsylvania |journal=Journal of Raptor Research |issue=28 |pages=164–170 |url=https://archive.org/details/biostor-215685}} In prairies, grasslands and deserts, they can successfully live year-round as long as there are rocky canyons, steep gullies and/or wooded coulees with shade-giving trees to provide shelter and nesting sites.{{cite journal |last1=Smith |first1=D",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-大鵰鴞-1c2d9232",
+      "subject": "大鵰鴞",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|last2=Yahner |year=1994 |title=Habitat characteristics of Great Horned Owls in southcentral Pennsylvania |journal=Journal of Raptor Research |issue=28 |pages=164–170 |url=https://archive.org/details/biostor-215685}} In prairies, grasslands and deserts, they can successfully live year-round as long as there are rocky canyons, steep gullies and/or wooded coulees with shade-giving trees to provide shelter and nesting sites.{{cite journal |last1=Smith |first1=D",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-大鵰鴞-1c2d9232",
+      "subject": "大鵰鴞",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|last2=Krabbe |year=1990 |title=Birds of the high Andes |publisher=Zoological Museum, University of Copenhagen, and Apollo Books |location=Svendborg, Denmark |isbn=87-88757-16-1}} They are generally rare in non-tidal wetland habitat{{cite journal |last1=Accordi |first1=I",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-大鵰鴞-1c2d9232",
+      "subject": "大鵰鴞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

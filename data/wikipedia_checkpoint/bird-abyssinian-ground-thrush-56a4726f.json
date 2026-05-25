@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T12:09:04",
+  "requested_title": "Abyssinian Ground Thrush",
+  "resolved_title": "Abyssinian ground thrush",
+  "title_aliases": [
+    "Abyssinian Ground Thrush"
+  ],
+  "bird_id": "bird-abyssinian-ground-thrush-56a4726f",
+  "raw_file": "bird-abyssinian-ground-thrush-56a4726f.json",
+  "bird": {
+    "id": "bird-abyssinian-ground-thrush-56a4726f",
+    "name": "Abyssinian ground thrush",
+    "english_name": "Abyssinian ground thrush",
+    "latin_name": "Geokichla piaggiae",
+    "summary": "The Abyssinian ground thrush (Geokichla piaggiae) is a thrush from the family Turdidae which is native to north-east Africa where it lives…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Abyssinian_Ground-thrush_%28Zoothera_piaggiae%29_perched.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-carlo-piaggia-896577d7",
+      "name": "Carlo Piaggia",
+      "summary": "Carlo Piaggia (January 4, 1827 – January 17, 1882) was an Italian explorer of the region of Uganda and the Southern Nil…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-abyssinian-ground-thrush-56a4726f",
+      "subject": "Abyssinian ground thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Abyssinian ground thrush (Geokichla piaggiae) is a thrush from the family Turdidae which is native to north-east Africa where it lives at high altitude in montane forests. Its binomial nomenclature honors the 19th century Italian explorer of East Africa Carlo Piaggia.{{cite journal|title=Carlo Piaggia, the definition of \"gallery forests\", and forest avifauna in Central Africa|date=31 December 2023|volume=40|pages=157-170|author=Spartaco Gippoliti|author2=Luca Lupi |journal=Boll",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-abyssinian-ground-thrush-56a4726f",
+      "subject": "Abyssinian ground thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-carlo-piaggia-896577d7",
+      "object": "Carlo Piaggia",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Abyssinian ground thrush (Geokichla piaggiae) is a thrush from the family Turdidae which is native to north-east Africa where it lives at high altitude in montane forests. Its binomial nomenclature honors the 19th century Italian explorer of East Africa Carlo Piaggia.{{cite journal|title=Carlo Piaggia, the definition of \"gallery forests\", and forest avifauna in Central Africa|date=31 December 2023|volume=40|pages=157-170|author=Spartaco Gippoliti|author2=Luca Lupi |journal=Boll",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-abyssinian-ground-thrush-56a4726f",
+      "subject": "Abyssinian ground thrush",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Abyssinian ground thrush occurs in the undergrowth of evergreen montane forest in high rainfall regions between , mostly above , although occasionally found lower",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-abyssinian-ground-thrush-56a4726f",
+      "subject": "Abyssinian ground thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

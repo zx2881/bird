@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:06:45",
+  "requested_title": "Beautiful Jay",
+  "resolved_title": "Beautiful jay",
+  "title_aliases": [
+    "Beautiful Jay"
+  ],
+  "bird_id": "bird-丽蓝头鹊-e33a8eed",
+  "raw_file": "bird-丽蓝头鹊-e33a8eed.json",
+  "bird": {
+    "id": "bird-丽蓝头鹊-e33a8eed",
+    "name": "丽蓝头鹊",
+    "english_name": "Beautiful jay",
+    "latin_name": "Cyanolyca pulchra",
+    "summary": "丽蓝头鹊（学名：Cyanolyca pulchra），是鸦科蓝头鹊属的一种，分布于厄瓜多尔和哥伦比亚。全球活动范围约为19,700平方千米。该物种的保护状况被评为近危。 丽蓝头鹊的栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林。",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Cyanolyca_pulchra_-NW_Ecuador-6.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-丽蓝头鹊-e33a8eed",
+      "subject": "丽蓝头鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(retrieved from http://www.hbw.com/node/60702 on 10 March 2017). It is found in Colombia and Ecuador, where its habitat includes humid montane forest and cloud forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-丽蓝头鹊-e33a8eed",
+      "subject": "丽蓝头鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(retrieved from http://www.hbw.com/node/60702 on 10 March 2017). It is found in Colombia and Ecuador, where its habitat includes humid montane forest and cloud forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-丽蓝头鹊-e33a8eed",
+      "subject": "丽蓝头鹊",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "(retrieved from http://www.hbw.com/node/60702 on 10 March 2017). It is found in Colombia and Ecuador, where its habitat includes humid montane forest and cloud forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-丽蓝头鹊-e33a8eed",
+      "subject": "丽蓝头鹊",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-丽蓝头鹊-e33a8eed",
+      "subject": "丽蓝头鹊",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The chicks fledged 24 days after hatching. It is becoming rare due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:01:07",
+  "requested_title": "Carmelite Sunbird",
+  "resolved_title": "Carmelite sunbird",
+  "title_aliases": [
+    "Carmelite Sunbird"
+  ],
+  "bird_id": "bird-carmelite-sunbird-12b7762e",
+  "raw_file": "bird-carmelite-sunbird-12b7762e.json",
+  "bird": {
+    "id": "bird-carmelite-sunbird-12b7762e",
+    "name": "Carmelite sunbird",
+    "english_name": "Carmelite sunbird",
+    "latin_name": "Chalcomitra fuliginosa",
+    "summary": "The Carmelite sunbird (Chalcomitra fuliginosa) is a species of bird in the family Nectariniidae. It is found in Liberia as well as the lowe…",
+    "lat": "6.5",
+    "lng": "-9.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Chalcomitra_fuliginosa_Keulemans.jpg/960px-Chalcomitra_fuliginosa_Keulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-利比里亚-dd5651d0",
+      "name": "利比里亚",
+      "summary": "利比里亞共和國（英語：Republic of Liberia），通稱賴比瑞亞（英語：Liberia），是位於西非海岸的国家，北接几内亚，西北接塞拉利昂，东邻象牙海岸，西南濒大西洋的總統制共和國家。该国大约有543.7萬人口，国土面积为43…",
+      "lat": "6.5",
+      "lng": "-9.5"
+    },
+    {
+      "id": "loc-刚果河-c5bc3c9a",
+      "name": "刚果河",
+      "summary": "刚果河（英語：Congo River，剛果語：Nzadi Kongo，林格拉語：Ebale Kongó，斯瓦希里語：Mto wa Kongo，法語：Fleuve Congo）是世界上最深的河流（最深處达220米），且还是非洲中西部最长的河…",
+      "lat": "-6.075",
+      "lng": "12.45"
+    },
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-carmelite-sunbird-12b7762e",
+      "subject": "Carmelite sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-利比里亚-dd5651d0",
+      "object": "利比里亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Liberia as well as the lower Congo River and coastal areas of western and central Africa down to central Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-carmelite-sunbird-12b7762e",
+      "subject": "Carmelite sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果河-c5bc3c9a",
+      "object": "刚果河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Liberia as well as the lower Congo River and coastal areas of western and central Africa down to central Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-carmelite-sunbird-12b7762e",
+      "subject": "Carmelite sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Liberia as well as the lower Congo River and coastal areas of western and central Africa down to central Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-carmelite-sunbird-12b7762e",
+      "subject": "Carmelite sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

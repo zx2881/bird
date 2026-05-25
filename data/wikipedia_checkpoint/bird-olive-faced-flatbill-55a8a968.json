@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:29:17",
+  "requested_title": "Olive-faced Flatbill",
+  "resolved_title": "Olive-faced flatbill",
+  "title_aliases": [
+    "Olive-faced Flatbill"
+  ],
+  "bird_id": "bird-olive-faced-flatbill-55a8a968",
+  "raw_file": "bird-olive-faced-flatbill-55a8a968.json",
+  "bird": {
+    "id": "bird-olive-faced-flatbill-55a8a968",
+    "name": "Olive-faced flatbill",
+    "english_name": "Olive-faced flatbill",
+    "latin_name": "Tolmomyias viridiceps",
+    "summary": "The olive-faced flatbill or olive-faced flycatcher (Tolmomyias viridiceps) is a species of bird in the tyrant flycatcher family Tyrannidae.…",
+    "lat": "-7.2",
+    "lng": "-76.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tolmomyias_viridiceps_108240354_%28cropped%29.jpg/960px-Tolmomyias_viridiceps_108240354_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣马丁大区-d34ca014",
+      "name": "圣马丁大区",
+      "summary": "聖馬丁大區（西班牙語：Departamento de San Martín）是秘魯中北部的一個大區。面積为51,253.31平方公里，人口为989,973人（2007年）。首府莫約班巴，最大城市塔拉波托。 1906年9月4日建區，並以拉丁…",
+      "lat": "-7.2",
+      "lng": "-76.8"
+    },
+    {
+      "id": "loc-胡宁大区-e8a2aec2",
+      "name": "胡宁大区",
+      "summary": "胡寧大區（Departamento de Junín）是秘魯中部的一個大區，地處阿爾蒂普拉諾高原之上。面積44,197.23平方公里，2007年人口1,091,619人。首府萬卡約。 1821年2月12日建區。下分9省123區。",
+      "lat": "-11.48",
+      "lng": "-74.98"
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-olive-faced-flatbill-55a8a968",
+      "subject": "Olive-faced flatbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣马丁大区-d34ca014",
+      "object": "圣马丁大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "zimmeri is found in northern and central Peru between San Martín and Junín departments",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-faced-flatbill-55a8a968",
+      "subject": "Olive-faced flatbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-胡宁大区-e8a2aec2",
+      "object": "胡宁大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "zimmeri is found in northern and central Peru between San Martín and Junín departments",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-faced-flatbill-55a8a968",
+      "subject": "Olive-faced flatbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species primarily inhabits forest along rivers including the edges of várzea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-faced-flatbill-55a8a968",
+      "subject": "Olive-faced flatbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It less often is found in terra firme and savanna woodland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-olive-faced-flatbill-55a8a968",
+      "subject": "Olive-faced flatbill",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It less often is found in terra firme and savanna woodland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-olive-faced-flatbill-55a8a968",
+      "subject": "Olive-faced flatbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

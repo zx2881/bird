@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:17:15",
+  "requested_title": "Chad Firefinch",
+  "resolved_title": "Chad firefinch",
+  "title_aliases": [
+    "Chad Firefinch"
+  ],
+  "bird_id": "bird-赖氏火雀-29dfe35d",
+  "raw_file": "bird-赖氏火雀-29dfe35d.json",
+  "bird": {
+    "id": "bird-赖氏火雀-29dfe35d",
+    "name": "赖氏火雀",
+    "english_name": "Chad firefinch",
+    "latin_name": "Lagonosticta umbrinodorsalis",
+    "summary": "赖氏火雀（学名：Lagonosticta umbrinodorsalis）是梅花雀科火雀属的一种，少量生活于中部非洲。该种曾被归为红腹火雀的亚种，但现在已被普遍视为独立物种。 体长10至11厘米，雄鸟身体大部分区域为亮品红色，上半身较暗。鸟冠和脖颈为灰色，肛部为黑色。喙厚呈圆锥…",
+    "lat": "15",
+    "lng": "19",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Chad_Firefinch%2C_Poli%2C_Cameroon_%285891148921%29.jpg/960px-Chad_Firefinch%2C_Poli%2C_Cameroon_%285891148921%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-乍得-7954a3ba",
+      "name": "乍得",
+      "summary": "乍得共和国（阿拉伯語：جمهورية تشاد；法語：République du Tchad），通稱乍得（阿拉伯語：تشاد，羅馬化：Tšād，發音：[tʃaːd]；法語：Tchad，發音：[tʃa(d)]），是非洲中部的一个内陆国家，北…",
+      "lat": "15",
+      "lng": "19"
+    },
+    {
+      "id": "loc-喀麦隆-9d17d92e",
+      "name": "喀麦隆",
+      "summary": "喀麥隆共和國（法語：République du Cameroun；英語：Republic of Cameroon），通稱喀麥隆（法語：Cameroun；英語：Cameroon），是位於非洲中西部的單一制共和國。喀麥隆西方與奈及利亞接壤，東…",
+      "lat": "6",
+      "lng": "12"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-赖氏火雀-29dfe35d",
+      "subject": "赖氏火雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-乍得-7954a3ba",
+      "object": "乍得",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in south-west Chad where it is fairly common and north-east Cameroon where it is rare",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赖氏火雀-29dfe35d",
+      "subject": "赖氏火雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-喀麦隆-9d17d92e",
+      "object": "喀麦隆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in south-west Chad where it is fairly common and north-east Cameroon where it is rare",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赖氏火雀-29dfe35d",
+      "subject": "赖氏火雀",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits on grasslands, and rocky hillsides in areas of arid savannah with tall grass",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-赖氏火雀-29dfe35d",
+      "subject": "赖氏火雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

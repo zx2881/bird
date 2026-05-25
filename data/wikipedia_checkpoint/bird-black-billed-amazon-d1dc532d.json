@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:40:30",
+  "requested_title": "Black-billed Amazon",
+  "resolved_title": "Black-billed amazon",
+  "title_aliases": [
+    "Black-billed Amazon"
+  ],
+  "bird_id": "bird-black-billed-amazon-d1dc532d",
+  "raw_file": "bird-black-billed-amazon-d1dc532d.json",
+  "bird": {
+    "id": "bird-black-billed-amazon-d1dc532d",
+    "name": "Black-billed amazon",
+    "english_name": "Black-billed amazon",
+    "latin_name": "Amazona agilis",
+    "summary": "The black-billed amazon (Amazona agilis) is a parrot endemic to Jamaica. Sometimes called the black-billed parrot, this amazon parrot is mo…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Amazona_agilis_-Cockpit_Country%2C_Jamaica-8_%281%29.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-black-billed-amazon-d1dc532d",
+      "subject": "Black-billed amazon",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-black-billed-amazon-d1dc532d",
+      "subject": "Black-billed amazon",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The black-billed amazon was once as common as the yellow-billed amazon, but has become much rarer due to deforestation and hurricane damage fragmenting its forest, poaching for food and the pet trade in wild parrots.{{ cite book | last=Collar | first=N.J",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    },
+    {
+      "subject_id": "bird-black-billed-amazon-d1dc532d",
+      "subject": "Black-billed amazon",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The black-billed amazon was once as common as the yellow-billed amazon, but has become much rarer due to deforestation and hurricane damage fragmenting its forest, poaching for food and the pet trade in wild parrots.{{ cite book | last=Collar | first=N.J",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:51:30",
+  "requested_title": "Pallid Harrier",
+  "resolved_title": "Pallid harrier",
+  "title_aliases": [
+    "Pallid Harrier"
+  ],
+  "bird_id": "bird-草原鹞-fbbc92dd",
+  "raw_file": "bird-草原鹞-fbbc92dd.json",
+  "bird": {
+    "id": "bird-草原鹞-fbbc92dd",
+    "name": "草原鹞",
+    "english_name": "Pallid harrier",
+    "latin_name": "Circus macrourus",
+    "summary": "草原鹞（学名：Circus macrourus）为鹰科鹞属的鸟类。在中国大陆，分布于新疆、河北、江西、江苏、广西、西藏、海南等地，主要生活于干燥的草原和树木稀疏的平原。该物种的模式产地在俄罗斯南部Voronezh。 保护 中国国家重点保护动物等级：二级 参考文献",
+    "lat": "32",
+    "lng": "53",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pallid_harrier.jpg/960px-Pallid_harrier.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中亚-88133474",
+      "name": "中亚",
+      "summary": "中亚（英語：Central Asia；俄語：Средняя Азия / Центральная Азия）即亚洲中部，在地理上是指西至里海，东到中国新疆，南到阿富汗，北到俄罗斯的广大区域。而根据长期占据这片区域大部分领土的前苏联官方定义…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-伊朗-b572d23a",
+      "name": "伊朗",
+      "summary": "伊朗伊斯蘭共和國（波斯語：جمهوری اسلامی ایران，Jomhuriye Eslâmiye Irân，[dʒomhuːˌɾije eslɒːˌmije ʔiːˈɾɒn]），通称伊朗（波斯語：ایران，Irān，[ʔiːˈɾɒ…",
+      "lat": "32",
+      "lng": "53"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-草原鹞-fbbc92dd",
+      "subject": "草原鹞",
+      "predicate": "distributed_in",
+      "object_id": "loc-中亚-88133474",
+      "object": "中亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern parts of eastern Europe and central Asia and Iran and winters mainly in India and southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-草原鹞-fbbc92dd",
+      "subject": "草原鹞",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊朗-b572d23a",
+      "object": "伊朗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern parts of eastern Europe and central Asia and Iran and winters mainly in India and southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-草原鹞-fbbc92dd",
+      "subject": "草原鹞",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern parts of eastern Europe and central Asia and Iran and winters mainly in India and southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-草原鹞-fbbc92dd",
+      "subject": "草原鹞",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

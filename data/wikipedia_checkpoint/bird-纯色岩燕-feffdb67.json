@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:42:53",
+  "requested_title": "Dusky Crag Martin",
+  "resolved_title": "Dusky crag martin",
+  "title_aliases": [
+    "Dusky Crag Martin"
+  ],
+  "bird_id": "bird-纯色岩燕-feffdb67",
+  "raw_file": "bird-纯色岩燕-feffdb67.json",
+  "bird": {
+    "id": "bird-纯色岩燕-feffdb67",
+    "name": "纯色岩燕",
+    "english_name": "Dusky crag martin",
+    "latin_name": "Ptyonoprogne concolor",
+    "summary": "纯色岩燕（学名：Ptyonoprogne concolor）为燕科岩燕属的鸟类。其种加词“concolor”意为“同色的”。分布于印度、孟加拉、缅甸、泰国、老挝以及中国大陆的云南等地，多活动于山谷、山前旷地或沿河流在空中飞行。该物种的模式产地在印度德干高原。 亚种 纯色岩燕云南…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ptyonoprogne_concolor_by_Anis_Shaikh_15.jpg/960px-Ptyonoprogne_concolor_by_Anis_Shaikh_15.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-尼尔吉里丘陵-bc06da92",
+      "name": "尼尔吉里丘陵",
+      "summary": "尼尔吉里丘陵（英語：Nilgiri Mountains，國際音標：[n̪iːlɐɡiɾi]）位于泰米尔纳德邦，北边与西高止山脉相连。最高峰是Doddabetta峰，海拔2637米。“尼尔吉里”是“青山”的意思，来自梵文的nīla“藍色”和…",
+      "lat": "11.375",
+      "lng": "76.75833"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纯色岩燕-feffdb67",
+      "subject": "纯色岩燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of the dusky crag martin breeds in much of the Indian subcontinent from the base of the Himalayas south to the Nilgiri mountains and east to West Bengal, and P",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纯色岩燕-feffdb67",
+      "subject": "纯色岩燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼尔吉里丘陵-bc06da92",
+      "object": "尼尔吉里丘陵",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of the dusky crag martin breeds in much of the Indian subcontinent from the base of the Himalayas south to the Nilgiri mountains and east to West Bengal, and P",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纯色岩燕-feffdb67",
+      "subject": "纯色岩燕",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The dusky crag martin is largely resident apart from local movements after breeding, but it has bred in Malaysia at least once, and occurred as a vagrant to Sri Lanka and probably Borneo. The natural breeding habitat is hilly or mountainous country with cliffs, gorges and caves, with nesting typically up to an altitude of about , although up to in Thailand.Robson (2004) p",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-纯色岩燕-feffdb67",
+      "subject": "纯色岩燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

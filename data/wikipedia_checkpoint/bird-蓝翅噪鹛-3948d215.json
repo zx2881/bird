@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:55:05",
+  "requested_title": "Blue-winged Laughingthrush",
+  "resolved_title": "Blue-winged laughingthrush",
+  "title_aliases": [
+    "Blue-winged Laughingthrush"
+  ],
+  "bird_id": "bird-蓝翅噪鹛-3948d215",
+  "raw_file": "bird-蓝翅噪鹛-3948d215.json",
+  "bird": {
+    "id": "bird-蓝翅噪鹛-3948d215",
+    "name": "蓝翅噪鹛",
+    "english_name": "Blue-winged laughingthrush",
+    "latin_name": "Trochalopteron squamatum",
+    "summary": "蓝翅噪鹛（学名：Trochalopteron squamatum），又名鳞斑噪鹛，为圓翅噪鶥屬的鸟类，分布于尼泊尔、锡金、不丹、印度、缅甸、越南以及中国大陆的云南等地，常见于沟谷常绿阔叶林下灌木丛中。该物种的模式产地在喜马拉雅山脉地区。 参考文献",
+    "lat": "25.04944444",
+    "lng": "102.70888889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Blue-winged_Laughingthrush_Pangolakha_Sikkim_India_30.10.2016.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-eastern-himalayas-e24606b2",
+      "name": "Eastern Himalayas",
+      "summary": "The Eastern Himalayas extend from eastern Nepal across Northeast India, Bhutan, the Tibet Autonomous Region to Yunnan i…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-云南省-f689e1a8",
+      "name": "云南省",
+      "summary": "云南省，简称云或滇，因清代境內有迤东道、迤西道、迤南道三迤，故又簡稱迤，是中华人民共和国西南边疆地区的省份。云南地形复杂多变，以高原与山地为主，海拔落差大，呈“西北高、东南低”地势格局。气候类型多样，从高原气候到热带、亚热带气候均有分布，…",
+      "lat": "25.04944444",
+      "lng": "102.70888889"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    },
+    {
+      "id": "loc-老挝-0d5ce5bc",
+      "name": "老挝",
+      "summary": "老挝人民民主共和国（寮語：ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ，简写：ສປປ ລາວ），通稱寮國（寮語：ລາວ），是位于東南亞中南半岛的社会主义国家，首都及最大城市为万象，通行寮语，面积23.68万平方公里，…",
+      "lat": "18",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝翅噪鹛-3948d215",
+      "subject": "蓝翅噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-eastern-himalayas-e24606b2",
+      "object": "Eastern Himalayas",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eastern Himalaya, Yunnan, Myanmar and Laos where its natural habitat is the dense undergrowth of subtropical or tropical moist broadleaved evergreen montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝翅噪鹛-3948d215",
+      "subject": "蓝翅噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-云南省-f689e1a8",
+      "object": "云南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eastern Himalaya, Yunnan, Myanmar and Laos where its natural habitat is the dense undergrowth of subtropical or tropical moist broadleaved evergreen montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝翅噪鹛-3948d215",
+      "subject": "蓝翅噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eastern Himalaya, Yunnan, Myanmar and Laos where its natural habitat is the dense undergrowth of subtropical or tropical moist broadleaved evergreen montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝翅噪鹛-3948d215",
+      "subject": "蓝翅噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-老挝-0d5ce5bc",
+      "object": "老挝",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eastern Himalaya, Yunnan, Myanmar and Laos where its natural habitat is the dense undergrowth of subtropical or tropical moist broadleaved evergreen montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝翅噪鹛-3948d215",
+      "subject": "蓝翅噪鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in Eastern Himalaya, Yunnan, Myanmar and Laos where its natural habitat is the dense undergrowth of subtropical or tropical moist broadleaved evergreen montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-蓝翅噪鹛-3948d215",
+      "subject": "蓝翅噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

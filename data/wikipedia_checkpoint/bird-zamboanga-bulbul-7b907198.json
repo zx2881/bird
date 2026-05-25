@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:30:18",
+  "requested_title": "Zamboanga Bulbul",
+  "resolved_title": "Zamboanga bulbul",
+  "title_aliases": [
+    "Zamboanga Bulbul"
+  ],
+  "bird_id": "bird-zamboanga-bulbul-7b907198",
+  "raw_file": "bird-zamboanga-bulbul-7b907198.json",
+  "bird": {
+    "id": "bird-zamboanga-bulbul-7b907198",
+    "name": "Zamboanga bulbul",
+    "english_name": "Zamboanga bulbul",
+    "latin_name": "Hypsipetes rufigularis",
+    "summary": "The Zamboanga bulbul (Hypsipetes rufigularis) is a songbird species in the bulbul family, Pycnonotidae. It is endemic to the Philippines, w…",
+    "lat": "7.0711",
+    "lng": "122.0755",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Zamboanga_Bulbul.jpg/960px-Zamboanga_Bulbul.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pasonanca-natural-park-4873c699",
+      "name": "Pasonanca Natural Park",
+      "summary": "The Pasonanca Natural Park is a protected area that preserves a major watershed in the southern Philippine island of Mi…",
+      "lat": "7.0711",
+      "lng": "122.0755"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-zamboanga-bulbul-7b907198",
+      "subject": "Zamboanga bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-pasonanca-natural-park-4873c699",
+      "object": "Pasonanca Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Found in the protected area of Pasonanca Natural Park but still continues to experience encroachment",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-zamboanga-bulbul-7b907198",
+      "subject": "Zamboanga bulbul",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-zamboanga-bulbul-7b907198",
+      "subject": "Zamboanga bulbul",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is becoming rare due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

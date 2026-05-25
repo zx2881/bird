@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:58:19",
+  "requested_title": "Pink-billed Parrotfinch",
+  "resolved_title": "Pink-billed parrotfinch",
+  "title_aliases": [
+    "Pink-billed Parrotfinch"
+  ],
+  "bird_id": "bird-黑脸鹦雀-e3a76e6a",
+  "raw_file": "bird-黑脸鹦雀-e3a76e6a.json",
+  "bird": {
+    "id": "bird-黑脸鹦雀-e3a76e6a",
+    "name": "黑脸鹦雀",
+    "english_name": "Pink-billed parrotfinch",
+    "latin_name": "Erythrura kleinschmidti",
+    "summary": "黑脸鹦雀（学名：Erythrura kleinschmidti）是斐济维提岛上的一种梅花雀。主要分布于维提岛中部和东部地区的无人成熟林中。该物种的保护状况被评为易危。 参考文献",
+    "lat": "-17.8",
+    "lng": "178",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AmblynuraKleinschmidtiSmit.jpg/960px-AmblynuraKleinschmidtiSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-维提岛-85ba004b",
+      "name": "维提岛",
+      "summary": "维提岛（斐濟語：Viti Levu，發音：[ˈβitʃi ˈleβu]，意为“大斐济”），斐济第一大岛。位于太平洋南部，在南纬17°44′，东经178°；东西长144公里，南北宽80公里，面积约10,490平方公里，人口约58万，约占全国…",
+      "lat": "-17.8",
+      "lng": "178"
+    },
+    {
+      "id": "loc-亞薩瓦群島-032aabee",
+      "name": "亞薩瓦群島",
+      "summary": "亞薩瓦群島（Yasawa Islands、Yasawa Group）是太平洋島國斐濟的群島，由約20個火山島組成，面積約135平方公里，受熱帶氣候影響，島上山峰海拔高度250至600米，人口約1,120。",
+      "lat": "-16.91666667",
+      "lng": "177.33333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑脸鹦雀-e3a76e6a",
+      "subject": "黑脸鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-维提岛-85ba004b",
+      "object": "维提岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pink-billed parrotfinch is endemic to Fiji, thought to be only found in the wetter central and eastern parts of the largest island, Viti Levu but has also been observed on the Yasawa Islands to the north-west in 2012",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑脸鹦雀-e3a76e6a",
+      "subject": "黑脸鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞薩瓦群島-032aabee",
+      "object": "亞薩瓦群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pink-billed parrotfinch is endemic to Fiji, thought to be only found in the wetter central and eastern parts of the largest island, Viti Levu but has also been observed on the Yasawa Islands to the north-west in 2012",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑脸鹦雀-e3a76e6a",
+      "subject": "黑脸鹦雀",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-黑脸鹦雀-e3a76e6a",
+      "subject": "黑脸鹦雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Assuming 4,000&nbsp;km2 (1,500&nbsp;mi2) of suitable habitat gives an estimated population of 2,500 to 10,000 birds. Although the introduced mongoose has caused the decline in numbers of several ground-living birds on Viti Levu and Vanua Levu, the rarity of the pink-billed parrotfinch cannot be directly attributed to this or any other introduced vertebrate. The relatively small population is believed to be declining due to continuing deforestation, half of the island's mature woodland having already been cleared for agriculture or planting with mahogany",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-黑脸鹦雀-e3a76e6a",
+      "subject": "黑脸鹦雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Assuming 4,000&nbsp;km2 (1,500&nbsp;mi2) of suitable habitat gives an estimated population of 2,500 to 10,000 birds. Although the introduced mongoose has caused the decline in numbers of several ground-living birds on Viti Levu and Vanua Levu, the rarity of the pink-billed parrotfinch cannot be directly attributed to this or any other introduced vertebrate. The relatively small population is believed to be declining due to continuing deforestation, half of the island's mature woodland having already been cleared for agriculture or planting with mahogany",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

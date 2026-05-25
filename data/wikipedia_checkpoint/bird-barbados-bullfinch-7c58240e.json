@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:16:19",
+  "requested_title": "Barbados Bullfinch",
+  "resolved_title": "Barbados bullfinch",
+  "title_aliases": [
+    "Barbados Bullfinch"
+  ],
+  "bird_id": "bird-barbados-bullfinch-7c58240e",
+  "raw_file": "bird-barbados-bullfinch-7c58240e.json",
+  "bird": {
+    "id": "bird-barbados-bullfinch-7c58240e",
+    "name": "Barbados bullfinch",
+    "english_name": "Barbados bullfinch",
+    "latin_name": "Loxigilla barbadensis",
+    "summary": "The Barbados bullfinch (Loxigilla barbadensis) is a seedeater bird that is found only on the Caribbean island-nation of Barbados, where it…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Lesser_antillean_bird3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-barbados-bullfinch-7c58240e",
+      "subject": "Barbados bullfinch",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The birds' habitat includes shrubbery and forest undergrowth; the species has adapted well to humans, often being found in close proximity to areas of human habitation, such as gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-barbados-bullfinch-7c58240e",
+      "subject": "Barbados bullfinch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

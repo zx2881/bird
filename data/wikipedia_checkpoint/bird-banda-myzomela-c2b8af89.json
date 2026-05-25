@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:21:03",
+  "requested_title": "Banda Myzomela",
+  "resolved_title": "Banda myzomela",
+  "title_aliases": [
+    "Banda Myzomela"
+  ],
+  "bird_id": "bird-banda-myzomela-c2b8af89",
+  "raw_file": "bird-banda-myzomela-c2b8af89.json",
+  "bird": {
+    "id": "bird-banda-myzomela-c2b8af89",
+    "name": "Banda myzomela",
+    "english_name": "Banda myzomela",
+    "latin_name": "Myzomela boiei",
+    "summary": "The Banda myzomela (Myzomela boiei) is a bird species in the family Meliphagidae. It is endemic to Indonesia, and found in the Banda, Babar…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Myzomela_boiei_1843.jpg/960px-Myzomela_boiei_1843.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-塔寧巴爾群島-b051ba35",
+      "name": "塔寧巴爾群島",
+      "summary": "塔寧巴爾群島是印度尼西亞馬魯古省的群島，由約65個島嶼組成，位於阿鲁群岛和卡伊群島西南、巴巴群島和帝汶以東，把班達海和阿拉弗拉海分開，土地總面積5,440平方公里，人口約61,000，其中44,000信奉基督教。行政上隶属马鲁古省的西东南…",
+      "lat": "-7.5",
+      "lng": "131.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-banda-myzomela-c2b8af89",
+      "subject": "Banda myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, and found in the Banda, Babar and the Tanimbar Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-banda-myzomela-c2b8af89",
+      "subject": "Banda myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔寧巴爾群島-b051ba35",
+      "object": "塔寧巴爾群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, and found in the Banda, Babar and the Tanimbar Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-banda-myzomela-c2b8af89",
+      "subject": "Banda myzomela",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:31:56",
+  "requested_title": "Blue-eyed Cockatoo",
+  "resolved_title": "Blue-eyed cockatoo",
+  "title_aliases": [
+    "Blue-eyed Cockatoo"
+  ],
+  "bird_id": "bird-蓝眼凤头鹦鹉-3fb74992",
+  "raw_file": "bird-蓝眼凤头鹦鹉-3fb74992.json",
+  "bird": {
+    "id": "bird-蓝眼凤头鹦鹉-3fb74992",
+    "name": "蓝眼凤头鹦鹉",
+    "english_name": "Blue-eyed cockatoo",
+    "latin_name": "Cacatua ophthalmica",
+    "summary": "蓝眼凤头鹦鹉（学名：Cacatua ophthalmica），拥有较小的头冠，因为其蓝色的眼圈而得名。体长50厘米，野外寿命约为40-50年。以种子、坚果、水果、昆虫等为食。主要分布在森林附近，繁殖期为每年5至10月，每次产卵1到2枚，孵化期28天。人工养殖的个体非常罕见。 外…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cacatua_ophthalmica_-Vogelpark_Walsrode-6b-3c.jpg/960px-Cacatua_ophthalmica_-Vogelpark_Walsrode-6b-3c.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-蓝眼凤头鹦鹉-3fb74992",
+      "subject": "蓝眼凤头鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-蓝眼凤头鹦鹉-3fb74992",
+      "subject": "蓝眼凤头鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-trade",
+      "object": "非法贸易",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This rapid clearing is to be thought to have an effect in the cockatoo's breeding, which would cause a decline in the population. Illegal trade has also caused a market for this species, adding pressure to their decline",
+      "object_summary": "为宠物或展示用途进行非法捕捉与交易。"
+    }
+  ]
+}

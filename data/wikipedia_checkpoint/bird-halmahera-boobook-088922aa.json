@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:19:19",
+  "requested_title": "Halmahera Boobook",
+  "resolved_title": "Halmahera boobook",
+  "title_aliases": [
+    "Halmahera Boobook"
+  ],
+  "bird_id": "bird-halmahera-boobook-088922aa",
+  "raw_file": "bird-halmahera-boobook-088922aa.json",
+  "bird": {
+    "id": "bird-halmahera-boobook-088922aa",
+    "name": "Halmahera boobook",
+    "english_name": "Halmahera boobook",
+    "latin_name": "Ninox hypogramma",
+    "summary": "The Halmahera boobook (Ninox hypogramma) is a species of owl in the family Strigidae. It inhabits the Indonesian islands of Halmahera, Tern…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/NinoxHypogrammaKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-哈马黑拉岛-c847bfe6",
+      "name": "哈马黑拉岛",
+      "summary": "哈马黑拉岛（Halmahera Island），又名济罗罗岛（Jilolo或Gilolo），是印度尼西亚摩鹿加群岛主岛，，是马鲁古群岛中最大的岛屿 。它是印度尼西亚北马鲁古省的一部分，该省首府索菲菲 （Sofifi）位于该岛的西海岸 哈尔…",
+      "lat": "0.65",
+      "lng": "127.9"
+    },
+    {
+      "id": "loc-特爾納特-741eda12",
+      "name": "特爾納特",
+      "summary": "特尔纳特（印尼語：Ternate），是印度尼西亚北马鲁古省的最大城市，也是马鲁古群岛的第二大城市，人口约20万。位于马鲁古群岛北部的特尔纳特岛上。特尔纳特曾是北马鲁古省的首府，2010年北马鲁古省首府迁到哈马黑拉岛新建中的城市索菲菲。 特…",
+      "lat": "0.78",
+      "lng": "127.38194444"
+    },
+    {
+      "id": "loc-巴占群島-ac276241",
+      "name": "巴占群島",
+      "summary": "巴占群島是印度尼西亞的群島，屬於摩鹿加群島的一部分，由80座島嶼組成，行政方面由北馬魯古省南哈马黑拉县負責管轄，最高點海拔高度2,120米，居民人口約13,000，最大的島嶼面積1,800平方公里。",
+      "lat": "-0.615",
+      "lng": "127.515"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-halmahera-boobook-088922aa",
+      "subject": "Halmahera boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the Indonesian islands of Halmahera, Ternate and Bacan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-halmahera-boobook-088922aa",
+      "subject": "Halmahera boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-哈马黑拉岛-c847bfe6",
+      "object": "哈马黑拉岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the Indonesian islands of Halmahera, Ternate and Bacan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-halmahera-boobook-088922aa",
+      "subject": "Halmahera boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-特爾納特-741eda12",
+      "object": "特爾納特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the Indonesian islands of Halmahera, Ternate and Bacan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-halmahera-boobook-088922aa",
+      "subject": "Halmahera boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴占群島-ac276241",
+      "object": "巴占群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the Indonesian islands of Halmahera, Ternate and Bacan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-halmahera-boobook-088922aa",
+      "subject": "Halmahera boobook",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-halmahera-boobook-088922aa",
+      "subject": "Halmahera boobook",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

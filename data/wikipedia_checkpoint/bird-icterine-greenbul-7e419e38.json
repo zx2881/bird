@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:10:38",
+  "requested_title": "Icterine Greenbul",
+  "resolved_title": "Icterine greenbul",
+  "title_aliases": [
+    "Icterine Greenbul"
+  ],
+  "bird_id": "bird-icterine-greenbul-7e419e38",
+  "raw_file": "bird-icterine-greenbul-7e419e38.json",
+  "bird": {
+    "id": "bird-icterine-greenbul-7e419e38",
+    "name": "Icterine greenbul",
+    "english_name": "Icterine greenbul",
+    "latin_name": "Phyllastrephus icterinus",
+    "summary": "The icterine greenbul (Phyllastrephus icterinus) is a species of songbird in the bulbul family, Pycnonotidae. It is native to the African t…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Icterine_Greenbul_imported_from_iNaturalist_photo_225196965_on_4_September_2024_%28cropped%29.jpg/960px-Icterine_Greenbul_imported_from_iNaturalist_photo_225196965_on_4_September_2024_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-icterine-greenbul-7e419e38",
+      "subject": "Icterine greenbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-icterine-greenbul-7e419e38",
+      "subject": "Icterine greenbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The icterine greenbul is found in Africa from Guinea to Ghana; southern Nigeria to western and southern Uganda, eastern and central Democratic Republic of the Congo and extreme north-western Angola. Its natural habitats are subtropical or tropical dry forests, subtropical or tropical moist lowland forests, and moist savanna",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-icterine-greenbul-7e419e38",
+      "subject": "Icterine greenbul",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The icterine greenbul is found in Africa from Guinea to Ghana; southern Nigeria to western and southern Uganda, eastern and central Democratic Republic of the Congo and extreme north-western Angola. Its natural habitats are subtropical or tropical dry forests, subtropical or tropical moist lowland forests, and moist savanna",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-icterine-greenbul-7e419e38",
+      "subject": "Icterine greenbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

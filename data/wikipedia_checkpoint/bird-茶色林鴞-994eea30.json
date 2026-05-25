@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T23:06:08",
+  "requested_title": "Fulvous Owl",
+  "resolved_title": "Fulvous owl",
+  "title_aliases": [
+    "Fulvous Owl"
+  ],
+  "bird_id": "bird-茶色林鴞-994eea30",
+  "raw_file": "bird-茶色林鴞-994eea30.json",
+  "bird": {
+    "id": "bird-茶色林鴞-994eea30",
+    "name": "茶色林鴞",
+    "english_name": "Fulvous owl",
+    "latin_name": "Strix fulvescens",
+    "summary": "茶色林鴞（學名Strix fulvescens）是一種棲息在中美洲雲林內的貓頭鷹。它們的棲息地只限於高海拔的山區，由1200-3000米，包括瓜地馬拉、洪都拉斯及薩爾瓦多的雲林。雖然它們主要是夜間活動的，但有時也可在日間見到它們。 參考",
+    "lat": "16.53",
+    "lng": "-92.45",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Fulvous_Owl_%28Strix_fulvescens%29.jpg/960px-Fulvous_Owl_%28Strix_fulvescens%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-恰帕斯州-46de6417",
+      "name": "恰帕斯州",
+      "summary": "恰帕斯州（西班牙語：Chiapas），正式名称为恰帕斯自由和主权州（Estado Libre y Soberano de Chiapas），是墨西哥的一個州，位於該國東南部。東臨瓜地馬拉，南臨太平洋。 整體屬熱帶濕潤氣候。北部靠近塔巴斯科…",
+      "lat": "16.53",
+      "lng": "-92.45"
+    },
+    {
+      "id": "loc-瓦哈卡州-e005144e",
+      "name": "瓦哈卡州",
+      "summary": "Oaxaca, officially the Free and Sovereign State of Oaxaca, is one of the 32 states that compose the Federative Entities…",
+      "lat": "17.055",
+      "lng": "-96.655"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-國際自然保護聯盟-2992ef64",
+      "name": "國際自然保護聯盟",
+      "summary": "國際自然與自然資源保護聯盟（英語：International Union for Conservation of Nature and Natural Resources），通稱為國際自然保護聯盟（英語：International Uni…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-茶色林鴞-994eea30",
+      "subject": "茶色林鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-恰帕斯州-46de6417",
+      "object": "恰帕斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The fulvous owl is found in highland regions in the Mexican states of Chiapas and Oaxaca, Guatemala, Honduras, and El Salvador. Its existence in Oaxaca was reported in 1950, but locations from which the specimens were collected had been challenged",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-茶色林鴞-994eea30",
+      "subject": "茶色林鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦哈卡州-e005144e",
+      "object": "瓦哈卡州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The fulvous owl is found in highland regions in the Mexican states of Chiapas and Oaxaca, Guatemala, Honduras, and El Salvador. Its existence in Oaxaca was reported in 1950, but locations from which the specimens were collected had been challenged",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-茶色林鴞-994eea30",
+      "subject": "茶色林鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "A montane species, it is found at altitudes between above sea level. The species is found in montane evergreen pine forests and humid pine-oak forests, and more generally within a cloud forest habitat. The International Union for Conservation of Nature estimates that the population of the species is between 20,000 and 50,000 individuals, although the population is suspected to be declining as a result of habitat loss",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-茶色林鴞-994eea30",
+      "subject": "茶色林鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟-2992ef64",
+      "object": "國際自然保護聯盟",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "A montane species, it is found at altitudes between above sea level. The species is found in montane evergreen pine forests and humid pine-oak forests, and more generally within a cloud forest habitat. The International Union for Conservation of Nature estimates that the population of the species is between 20,000 and 50,000 individuals, although the population is suspected to be declining as a result of habitat loss",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-茶色林鴞-994eea30",
+      "subject": "茶色林鴞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

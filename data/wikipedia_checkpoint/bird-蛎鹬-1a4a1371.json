@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:55:06",
+  "requested_title": "Eurasian Oystercatcher",
+  "resolved_title": "Eurasian oystercatcher",
+  "title_aliases": [
+    "Eurasian Oystercatcher"
+  ],
+  "bird_id": "bird-蛎鹬-1a4a1371",
+  "raw_file": "bird-蛎鹬-1a4a1371.json",
+  "bird": {
+    "id": "bird-蛎鹬-1a4a1371",
+    "name": "蛎鹬",
+    "english_name": "Eurasian oystercatcher",
+    "latin_name": "Haematopus ostralegus",
+    "summary": "蛎鹬（学名：Haematopus ostralegus，又称为欧亚蛎鹬）又名蛎鸻，为蛎鹬科蛎鹬属的鸟类。该物种的模式产地在波罗的海。牠擁有鮮明的黑白羽毛、長而筆直的橙紅色喙、紅色的眼睛和相對短的暗粉紅色腿。雌雄外觀相似，但雌鳥的喙比雄鳥稍長。 這是最廣泛分布的蠣鴴科鳥類，擁有三…",
+    "lat": "53",
+    "lng": "-8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Haematopus_ostralegus_He.jpg/960px-Haematopus_ostralegus_He.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-爱尔兰岛-85c9123b",
+      "name": "爱尔兰岛",
+      "summary": "爱尔兰岛（愛爾蘭語：Éire，英語：Ireland）是位於欧洲西北部的大西洋島嶼，以面積計算是歐洲第三大島。島上大部分區域屬於爱尔兰共和国的領土，至於島上東北部的北愛爾蘭地區之主權則屬於英国。 整個愛爾蘭島的人口為620萬人。其中居住在愛…",
+      "lat": "53",
+      "lng": "-8"
+    },
+    {
+      "id": "loc-大不列顛島-c1658bb7",
+      "name": "大不列顛島",
+      "summary": "Great Britain is an island in the North Atlantic Ocean off the north-west coast of continental Europe, consisting of th…",
+      "lat": "54",
+      "lng": "-2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蛎鹬-1a4a1371",
+      "subject": "蛎鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-爱尔兰岛-85c9123b",
+      "object": "爱尔兰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although the species is present all year in Ireland, Great Britain and the adjacent European coasts, there is still migratory movement; the large flocks that are found in the estuaries of south-west England in winter mainly breed in northern England or Scotland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蛎鹬-1a4a1371",
+      "subject": "蛎鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-大不列顛島-c1658bb7",
+      "object": "大不列顛島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although the species is present all year in Ireland, Great Britain and the adjacent European coasts, there is still migratory movement; the large flocks that are found in the estuaries of south-west England in winter mainly breed in northern England or Scotland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蛎鹬-1a4a1371",
+      "subject": "蛎鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-coastal-wetland",
+      "object": "海岸湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Although the species is present all year in Ireland, Great Britain and the adjacent European coasts, there is still migratory movement; the large flocks that are found in the estuaries of south-west England in winter mainly breed in northern England or Scotland",
+      "object_summary": "海湾、泻湖、盐沼与河口组成的复合湿地。"
+    },
+    {
+      "subject_id": "bird-蛎鹬-1a4a1371",
+      "subject": "蛎鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-estuary",
+      "object": "河口",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Although the species is present all year in Ireland, Great Britain and the adjacent European coasts, there is still migratory movement; the large flocks that are found in the estuaries of south-west England in winter mainly breed in northern England or Scotland",
+      "object_summary": "淡水与海水交汇形成的高生产力边缘生态系统。"
+    },
+    {
+      "subject_id": "bird-蛎鹬-1a4a1371",
+      "subject": "蛎鹬",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

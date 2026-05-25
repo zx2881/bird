@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:29:23",
+  "requested_title": "Caatinga Cacholote",
+  "resolved_title": "Caatinga cacholote",
+  "title_aliases": [
+    "Caatinga Cacholote"
+  ],
+  "bird_id": "bird-caatinga-cacholote-fcff41d6",
+  "raw_file": "bird-caatinga-cacholote-fcff41d6.json",
+  "bird": {
+    "id": "bird-caatinga-cacholote-fcff41d6",
+    "name": "Caatinga cacholote",
+    "english_name": "Caatinga cacholote",
+    "latin_name": "Pseudoseisura cristata",
+    "summary": "The Caatinga cacholote (Pseudoseisura cristata) is a species of bird in the Furnariinae subfamily of the ovenbird family Furnariidae. It is…",
+    "lat": "-6.18333333",
+    "lng": "-45.61666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Pseudoseisura_cristata_-Paraiba%2C_Brasil-8.jpg/960px-Pseudoseisura_cristata_-Paraiba%2C_Brasil-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马拉尼昂州-4d31ff74",
+      "name": "马拉尼昂州",
+      "summary": "馬拉尼昂州（葡萄牙語：Maranhão，IPA：ma.ɾa.'ɲɐ̃w̃是巴西的一個州，位於東北部大西洋岸。面積331,983平方公里，2005年人口6,109,694人。首府聖路易斯。自2015年1月1日起，该州由巴西共产党执政。 倫索…",
+      "lat": "-6.18333333",
+      "lng": "-45.61666667"
+    },
+    {
+      "id": "loc-帕拉伊巴州-34c0ad3d",
+      "name": "帕拉伊巴州",
+      "summary": "帕拉伊巴州（葡萄牙語：Paraíba，葡萄牙語發音：[paɾaˈibɐ]）是巴西东北部一州，濒临大西洋。帕拉伊巴州是美洲大陆最東处。在2010年，此州人口為3,766,528人。 教育 葡萄牙語是官方語言，但英語和西班牙語也是部分中學課程…",
+      "lat": "-7.16666667",
+      "lng": "-36.83333333"
+    },
+    {
+      "id": "loc-米纳斯吉拉斯州-f090fcd8",
+      "name": "米纳斯吉拉斯州",
+      "summary": "米纳斯吉拉斯州（葡萄牙語：Minas Gerais，[ˈminɐz ʒeˈɾajs] ；直译：「一般〔普通〕的矿山」）是巴西东南部一个州，人口约两千万。是巴西第二人口大州，国内生产总值也排名全国第三。该州以山、瀑布、历史名城、宝石，以及盛…",
+      "lat": "-19.78222222",
+      "lng": "-43.95138889"
+    },
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-caatinga-cacholote-fcff41d6",
+      "subject": "Caatinga cacholote",
+      "predicate": "distributed_in",
+      "object_id": "loc-马拉尼昂州-4d31ff74",
+      "object": "马拉尼昂州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Caatinga cacholote is found in eastern Brazil in an area bounded roughly by eastern Maranhão, Paraíba, and central Minas Gerais",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-caatinga-cacholote-fcff41d6",
+      "subject": "Caatinga cacholote",
+      "predicate": "distributed_in",
+      "object_id": "loc-帕拉伊巴州-34c0ad3d",
+      "object": "帕拉伊巴州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Caatinga cacholote is found in eastern Brazil in an area bounded roughly by eastern Maranhão, Paraíba, and central Minas Gerais",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-caatinga-cacholote-fcff41d6",
+      "subject": "Caatinga cacholote",
+      "predicate": "distributed_in",
+      "object_id": "loc-米纳斯吉拉斯州-f090fcd8",
+      "object": "米纳斯吉拉斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Caatinga cacholote is found in eastern Brazil in an area bounded roughly by eastern Maranhão, Paraíba, and central Minas Gerais",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-caatinga-cacholote-fcff41d6",
+      "subject": "Caatinga cacholote",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the woodlands and scrub of the Caatinga biome and also tropical deciduous forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-caatinga-cacholote-fcff41d6",
+      "subject": "Caatinga cacholote",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:10:03",
+  "requested_title": "Wedge-tailed Hillstar",
+  "resolved_title": "Wedge-tailed hillstar",
+  "title_aliases": [
+    "Wedge-tailed Hillstar"
+  ],
+  "bird_id": "bird-楔尾山蜂鸟-fd7ef156",
+  "raw_file": "bird-楔尾山蜂鸟-fd7ef156.json",
+  "bird": {
+    "id": "bird-楔尾山蜂鸟-fd7ef156",
+    "name": "楔尾山蜂鸟",
+    "english_name": "Wedge-tailed hillstar",
+    "latin_name": "Oreotrochilus adela",
+    "summary": "楔尾山蜂鸟（学名：Oreotrochilus adela），是雨燕目蜂鸟科的一种鸟类。 楔尾山蜂鸟体重约7.9克，翼长约65.4毫米，嘴峰长约32.3毫米，喙宽度约2.4毫米，喙厚度约2.4毫米，跗蹠长约8.4毫米，尾长约49.2毫米。楔尾山蜂鸟是部分迁徙的鸟类，其栖息在半开放…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Oreotrochilus_adela_256755748.jpg/960px-Oreotrochilus_adela_256755748.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-楔尾山蜂鸟-fd7ef156",
+      "subject": "楔尾山蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Bolivia.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-楔尾山蜂鸟-fd7ef156",
+      "subject": "楔尾山蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina and Bolivia.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-楔尾山蜂鸟-fd7ef156",
+      "subject": "楔尾山蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits semi-arid to seasonally humid areas of the Andes below the puna grasslands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-楔尾山蜂鸟-fd7ef156",
+      "subject": "楔尾山蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits semi-arid to seasonally humid areas of the Andes below the puna grasslands",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-楔尾山蜂鸟-fd7ef156",
+      "subject": "楔尾山蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

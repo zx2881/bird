@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:53:07",
+  "requested_title": "Pied Starling",
+  "resolved_title": "Pied starling",
+  "title_aliases": [
+    "Pied Starling"
+  ],
+  "bird_id": "bird-pied-starling-65c103c9",
+  "raw_file": "bird-pied-starling-65c103c9.json",
+  "bird": {
+    "id": "bird-pied-starling-65c103c9",
+    "name": "Pied starling",
+    "english_name": "Pied starling",
+    "latin_name": "Lamprotornis bicolor",
+    "summary": "The pied starling or African pied starling (Lamprotornis bicolor) is a bird endemic to South Africa, Lesotho and Eswatini. It is common in…",
+    "lat": "-32.27",
+    "lng": "22.31",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pied_Starling_%28Spreo_bicolor%29_%2832553081476%29.jpg/960px-Pied_Starling_%28Spreo_bicolor%29_%2832553081476%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡魯地區-517135fa",
+      "name": "卡魯地區",
+      "summary": "卡魯地區（Karoo）是南非西南部的一個地區，屬於半乾旱氣候景觀，人煙稀少。 卡魯地區包含大卡魯（Great Karoo）和小卡魯（Klein Karoo）。小卡魯位於斯瓦特山脈和奧特尼夸山脈之間，面積較小；大卡魯位於開普褶皺帶以北，實際…",
+      "lat": "-32.27",
+      "lng": "22.31"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pied-starling-65c103c9",
+      "subject": "Pied starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡魯地區-517135fa",
+      "object": "卡魯地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in open habitats such as grassland, karoo scrub, thornbush and agricultural land, and often associates with farm animals",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-starling-65c103c9",
+      "subject": "Pied starling",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in open habitats such as grassland, karoo scrub, thornbush and agricultural land, and often associates with farm animals",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-pied-starling-65c103c9",
+      "subject": "Pied starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

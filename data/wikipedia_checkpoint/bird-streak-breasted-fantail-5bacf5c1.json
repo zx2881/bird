@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:44:20",
+  "requested_title": "Streak-breasted Fantail",
+  "resolved_title": "Streak-breasted fantail",
+  "title_aliases": [
+    "Streak-breasted Fantail"
+  ],
+  "bird_id": "bird-streak-breasted-fantail-5bacf5c1",
+  "raw_file": "bird-streak-breasted-fantail-5bacf5c1.json",
+  "bird": {
+    "id": "bird-streak-breasted-fantail-5bacf5c1",
+    "name": "Streak-breasted fantail",
+    "english_name": "Streak-breasted fantail",
+    "latin_name": "Rhipidura dedemi",
+    "summary": "The streak-breasted fantail (Rhipidura dedemi) is a species of bird in the family Rhipiduridae. It is endemic to Indonesia, where it occurs…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Rhipidura_dedemi_-_desertnaturalist_-_247224148.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-斯兰岛-1a93c673",
+      "name": "斯兰岛",
+      "summary": "斯兰岛（印尼語：Pulau Seram），又译为塞兰岛（Ceram、Seran或Serang），印度尼西亚摩鹿加群岛主要岛屿之一，位于哈马黑拉岛以南，紧邻安汶岛，属马鲁古省管辖，分属三个县：自西向东分别是西斯兰县、中马鲁古县和东斯兰县。该…",
+      "lat": "-3.13333333",
+      "lng": "129.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-streak-breasted-fantail-5bacf5c1",
+      "subject": "Streak-breasted fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in Seram Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-streak-breasted-fantail-5bacf5c1",
+      "subject": "Streak-breasted fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯兰岛-1a93c673",
+      "object": "斯兰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in Seram Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-streak-breasted-fantail-5bacf5c1",
+      "subject": "Streak-breasted fantail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

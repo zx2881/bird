@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:51:37",
+  "requested_title": "Hen Harrier",
+  "resolved_title": "Hen harrier",
+  "title_aliases": [
+    "Hen Harrier"
+  ],
+  "bird_id": "bird-白尾鹞-bd0ee665",
+  "raw_file": "bird-白尾鹞-bd0ee665.json",
+  "bird": {
+    "id": "bird-白尾鹞-bd0ee665",
+    "name": "白尾鹞",
+    "english_name": "Hen harrier",
+    "latin_name": "Circus cyaneus",
+    "summary": "白尾鹞（学名：Circus cyaneus），为鹰科鹞属的鸟类。多生活于沼泽以及牧场。该物种的模式产地在欧洲、非洲。 它會在冬季遷徙到更南方的地區。歐亞大陸的鳥類會移動到南歐和南方溫帶亞洲。在氣候最溫和的地區，如法國和大不列顛，灰澤鵟全年都可能出現，但冬季高地大多無人居住。",
+    "lat": "50",
+    "lng": "80",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Circus_cyaneus_265961899.jpg/960px-Circus_cyaneus_265961899.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-草沼-e1caf9f8",
+      "name": "草沼",
+      "summary": "草沼即草本沼泽（英語：marsh），也叫草泽，是一种主要生长草本植物的湿地，多半可以發現在湖岸或河岸邊，介於水生與陸生生態系統的過渡，一般未被淹没，但土壤维持水浸状态。优势植物有苔草、莎草和灯芯草等，另外也會有低矮的灌木生長。和草沼不同，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-歐亞大陸-c6f303b6",
+      "name": "歐亞大陸",
+      "summary": "亚欧大陆或欧亚大陆，西方国家称为欧罗细亚（英語：Eurasia），是亚细亚洲和欧罗巴洲的合稱，也可以视为亚欧非大陆的一个部分。面积5475.9万平方公里。 亚、欧二洲单从地理学和地质学方面考虑并非两个独立的大陆，应属同一个地球表面面积最大…",
+      "lat": "50",
+      "lng": "80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白尾鹞-bd0ee665",
+      "subject": "白尾鹞",
+      "predicate": "distributed_in",
+      "object_id": "loc-草沼-e1caf9f8",
+      "object": "草沼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in open areas such as marshes and grasslands in Eurasia and is migratory, moving further south outside of the breeding season",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾鹞-bd0ee665",
+      "subject": "白尾鹞",
+      "predicate": "distributed_in",
+      "object_id": "loc-歐亞大陸-c6f303b6",
+      "object": "歐亞大陸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in open areas such as marshes and grasslands in Eurasia and is migratory, moving further south outside of the breeding season",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾鹞-bd0ee665",
+      "subject": "白尾鹞",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It breeds in open areas such as marshes and grasslands in Eurasia and is migratory, moving further south outside of the breeding season",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-白尾鹞-bd0ee665",
+      "subject": "白尾鹞",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It breeds in open areas such as marshes and grasslands in Eurasia and is migratory, moving further south outside of the breeding season",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-白尾鹞-bd0ee665",
+      "subject": "白尾鹞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-白尾鹞-bd0ee665",
+      "subject": "白尾鹞",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is therefore classified as \"least concern\". However, in Britain and Ireland, hen harrier populations are in a critical state, mainly due to habitat loss and illegal shooting on grouse moors. The hen harrier is on the British red list. There is sufficient suitable habitat to support over 300 breeding pairs of hen harriers in England alone, yet only 34 successful nests were recorded in 2022",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

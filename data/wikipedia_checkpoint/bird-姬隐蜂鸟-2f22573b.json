@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:04:53",
+  "requested_title": "Minute Hermit",
+  "resolved_title": "Minute hermit",
+  "title_aliases": [
+    "Minute Hermit"
+  ],
+  "bird_id": "bird-姬隐蜂鸟-2f22573b",
+  "raw_file": "bird-姬隐蜂鸟-2f22573b.json",
+  "bird": {
+    "id": "bird-姬隐蜂鸟-2f22573b",
+    "name": "姬隐蜂鸟",
+    "english_name": "Minute hermit",
+    "latin_name": "Phaethornis idaliae",
+    "summary": "姬隐蜂鸟（台湾作微隱蜂鳥，学名：Phaethornis idaliae），是雨燕目蜂鸟科的一种鸟类。 姬隐蜂鸟体重约2.6克，翼长约34.4毫米，嘴峰长约23.1毫米，喙宽度约1.7毫米，喙厚度约1.8毫米，跗蹠长约3.8毫米，尾长约26.8毫米。姬隐蜂鸟在其分布区内为留鸟，其…",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Phaethornis_idaliae.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    },
+    {
+      "id": "loc-里約熱內盧州-12dcec68",
+      "name": "里約熱內盧州",
+      "summary": "Rio de Janeiro (Brazilian Portuguese pronunciation: [ˈʁi.u d(ʒi) ʒɐˈne(j)ɾu] ) is one of the 27 federative units of Bra…",
+      "lat": "-22.9",
+      "lng": "-43.2"
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-姬隐蜂鸟-2f22573b",
+      "subject": "姬隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The minute hermit is found in southeastern Brazil from approximately Bahia south to Rio de Janeiro state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-姬隐蜂鸟-2f22573b",
+      "subject": "姬隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-里約熱內盧州-12dcec68",
+      "object": "里約熱內盧州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The minute hermit is found in southeastern Brazil from approximately Bahia south to Rio de Janeiro state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-姬隐蜂鸟-2f22573b",
+      "subject": "姬隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understory of primary or lightly disturbed forest including their edges, and also mature secondary forest and forested islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-姬隐蜂鸟-2f22573b",
+      "subject": "姬隐蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understory of primary or lightly disturbed forest including their edges, and also mature secondary forest and forested islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-姬隐蜂鸟-2f22573b",
+      "subject": "姬隐蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

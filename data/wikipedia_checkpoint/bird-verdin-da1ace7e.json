@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:12:05",
+  "requested_title": "Verdin",
+  "resolved_title": "Verdin",
+  "title_aliases": [
+    "Verdin"
+  ],
+  "bird_id": "bird-verdin-da1ace7e",
+  "raw_file": "bird-verdin-da1ace7e.json",
+  "bird": {
+    "id": "bird-verdin-da1ace7e",
+    "name": "Verdin",
+    "english_name": "Verdin",
+    "latin_name": "Auriparus flaviceps",
+    "summary": "The verdin (Auriparus flaviceps) is a species of penduline tit. It is the only species in the genus Auriparus and the only representative o…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Verdin_5029_m.jpg/960px-Verdin_5029_m.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-verdin-da1ace7e",
+      "subject": "Verdin",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the only species in the genus Auriparus and the only representative of the Old World family Remizidae to be found in North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-verdin-da1ace7e",
+      "subject": "Verdin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-verdin-da1ace7e",
+      "subject": "Verdin",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This decline could mean that the species has experienced a cumulative decrease of 60% in that 47-year period. Threats to verdin populations include habitat loss as a result of urbanization, human structure collisions, and predation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

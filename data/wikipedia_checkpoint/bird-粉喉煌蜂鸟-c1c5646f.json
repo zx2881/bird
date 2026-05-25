@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:40:57",
+  "requested_title": "Volcano Hummingbird",
+  "resolved_title": "Volcano hummingbird",
+  "title_aliases": [
+    "Volcano Hummingbird"
+  ],
+  "bird_id": "bird-粉喉煌蜂鸟-c1c5646f",
+  "raw_file": "bird-粉喉煌蜂鸟-c1c5646f.json",
+  "bird": {
+    "id": "bird-粉喉煌蜂鸟-c1c5646f",
+    "name": "粉喉煌蜂鸟",
+    "english_name": "Volcano hummingbird",
+    "latin_name": "Selasphorus flammula",
+    "summary": "粉喉煌蜂鸟（学名：Selasphorus flammula），是雨燕目蜂鸟科的一种鸟类。 粉喉煌蜂鸟体重约2.69克，翼长约40.2毫米，嘴峰长约14.5毫米，喙宽度约1.6毫米，喙厚度约1.5毫米，跗蹠长约3.9毫米，尾长约28.8毫米。粉喉煌蜂鸟在其分布区内为留鸟，其栖息在…",
+    "lat": "10.2",
+    "lng": "-84.233",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Selasphorus_flammula_458779536.jpg/960px-Selasphorus_flammula_458779536.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥斯达黎加-6c4f73ad",
+      "name": "哥斯达黎加",
+      "summary": "哥斯达黎加共和國（西班牙語：República de Costa Rica），通稱哥斯达黎加（Costa Rica），是中美洲国家，北邻尼加拉瓜，南与巴拿马接壤，首都為聖荷西。 哥斯达黎加是当今世界上第一个裁撤军队的国家。目前哥斯大黎加是…",
+      "lat": "10",
+      "lng": "-84"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-波阿斯火山-29ceed51",
+      "name": "波阿斯火山",
+      "summary": "The Poás Volcano (Spanish: Volcán Poás), is an active 2,697-metre (8,848 ft) stratovolcano in central Costa Rica locate…",
+      "lat": "10.2",
+      "lng": "-84.233"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-粉喉煌蜂鸟-c1c5646f",
+      "subject": "粉喉煌蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥斯达黎加-6c4f73ad",
+      "object": "哥斯达黎加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-粉喉煌蜂鸟-c1c5646f",
+      "subject": "粉喉煌蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-粉喉煌蜂鸟-c1c5646f",
+      "subject": "粉喉煌蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-波阿斯火山-29ceed51",
+      "object": "波阿斯火山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "simoni is found on Volcanes Poás and Barva (or Barba) in central Costa Rica. The species inhabits a variety of semi-open to open habitats on high mountain slopes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-粉喉煌蜂鸟-c1c5646f",
+      "subject": "粉喉煌蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

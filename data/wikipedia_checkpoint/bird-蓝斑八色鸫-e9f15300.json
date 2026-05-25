@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:11:01",
+  "requested_title": "Blue-banded Pitta",
+  "resolved_title": "Blue-banded pitta",
+  "title_aliases": [
+    "Blue-banded Pitta"
+  ],
+  "bird_id": "bird-蓝斑八色鸫-e9f15300",
+  "raw_file": "bird-蓝斑八色鸫-e9f15300.json",
+  "bird": {
+    "id": "bird-蓝斑八色鸫-e9f15300",
+    "name": "蓝斑八色鸫",
+    "english_name": "Blue-banded pitta",
+    "latin_name": "Erythropitta arquata",
+    "summary": "蓝斑八色鸫（学名：Erythropitta arcuata），是八色鸫科红胸八色鸫属的一种，其种加词“arcuata”意为“弓形的”、“弯曲的”。分布于文莱、印度尼西亚和马来西亚。该物种的保护状况被评为无危。 蓝斑八色鸫的平均体重约为54.0克。栖息地包括亚热带或热带的湿润低地…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/0A2A4626_Blue-banded_Pitta.jpg/960px-0A2A4626_Blue-banded_Pitta.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-borneo-montane-rain-forests-b163cfe7",
+      "name": "Borneo montane rain forests",
+      "summary": "The Borneo montane rain forests is an ecoregion on the island of Borneo in Southeast Asia.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝斑八色鸫-e9f15300",
+      "subject": "蓝斑八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-borneo-montane-rain-forests-b163cfe7",
+      "object": "Borneo montane rain forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to lowlands of the Borneo montane rain forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝斑八色鸫-e9f15300",
+      "subject": "蓝斑八色鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

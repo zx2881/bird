@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:40:10",
+  "requested_title": "Unstreaked Tit-Tyrant",
+  "resolved_title": "Unstreaked tit-tyrant",
+  "title_aliases": [
+    "Unstreaked Tit-Tyrant"
+  ],
+  "bird_id": "bird-無紋雀霸鶲-6701cd75",
+  "raw_file": "bird-無紋雀霸鶲-6701cd75.json",
+  "bird": {
+    "id": "bird-無紋雀霸鶲-6701cd75",
+    "name": "無紋雀霸鶲",
+    "english_name": "Unstreaked tit-tyrant",
+    "latin_name": "Uromyias agraphia",
+    "summary": "無紋雀霸鶲是霸鶲科的一個物種，為秘魯的特有種，棲息於熱帶與副熱帶的山地樹林裡。 參考資料 del Hoyo, Josep; Elliott, Andrew; Christie, David (编).",
+    "lat": "-6.22",
+    "lng": "-77.85",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Unstreaked_Tit-tyrant_%28Anairetes_agraphia%29.jpg/960px-Unstreaked_Tit-tyrant_%28Anairetes_agraphia%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亚马孙大区-38aaf113",
+      "name": "亚马孙大区",
+      "summary": "亚马孙大区是秘鲁北部的一个行政区，首府查查波亚斯。亚马孙大区西接卡哈马卡大区，南邻拉利伯塔德大区，东接洛雷托大区和圣马丁大区，北面和西面与厄瓜多尔接壤。 亚马孙区大部分面积被热带雨林覆盖（72.93%）。",
+      "lat": "-6.22",
+      "lng": "-77.85"
+    },
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-無紋雀霸鶲-6701cd75",
+      "subject": "無紋雀霸鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-亚马孙大区-38aaf113",
+      "object": "亚马孙大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cordillera Colán in central Amazonas Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-無紋雀霸鶲-6701cd75",
+      "subject": "無紋雀霸鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The unstreaked tit-tyrant inhabits humid montane and elfin forest, where it strongly favors stands of Chusquea bamboo and forest openings",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-無紋雀霸鶲-6701cd75",
+      "subject": "無紋雀霸鶲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:42:44",
+  "requested_title": "Lucy's Warbler",
+  "resolved_title": "Lucy's warbler",
+  "title_aliases": [
+    "Lucy's Warbler"
+  ],
+  "bird_id": "bird-lucy-s-warbler-e34e87df",
+  "raw_file": "bird-lucy-s-warbler-e34e87df.json",
+  "bird": {
+    "id": "bird-lucy-s-warbler-e34e87df",
+    "name": "Lucy's warbler",
+    "english_name": "Lucy's warbler",
+    "latin_name": "Leiothlypis luciae",
+    "summary": "Lucy's warbler (Leiothlypis luciae) is a small New World warbler found in North America. This species ranges includes southwestern United S…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Lucys_Warbler.jpg/960px-Lucys_Warbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森莺科-76e24430",
+      "name": "森莺科",
+      "summary": "森莺科（学名：Parulidae），亦称为林莺科，是雀形目的一科，由生活于新大陆的小型鸣禽构成，又称为新大陆莺。它们与旧大陆莺与澳洲莺并没有直接的亲缘关系。 森莺科鸟类常拥有艳丽的体羽。它们大多在树林间觅食昆虫，但橙顶灶莺（Seiurus…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lucy-s-warbler-e34e87df",
+      "subject": "Lucy's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-森莺科-76e24430",
+      "object": "森莺科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "luciae | synonyms = Vermivora luciae Oreothlypis luciae }} Lucy's warbler (Leiothlypis luciae) is a small New World warbler found in North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lucy-s-warbler-e34e87df",
+      "subject": "Lucy's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "luciae | synonyms = Vermivora luciae Oreothlypis luciae }} Lucy's warbler (Leiothlypis luciae) is a small New World warbler found in North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lucy-s-warbler-e34e87df",
+      "subject": "Lucy's warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

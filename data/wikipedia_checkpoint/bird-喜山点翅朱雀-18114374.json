@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:05:01",
+  "requested_title": "Spot-winged Rosefinch",
+  "resolved_title": "Spot-winged rosefinch",
+  "title_aliases": [
+    "Spot-winged Rosefinch"
+  ],
+  "bird_id": "bird-喜山点翅朱雀-18114374",
+  "raw_file": "bird-喜山点翅朱雀-18114374.json",
+  "bird": {
+    "id": "bird-喜山点翅朱雀-18114374",
+    "name": "喜山点翅朱雀",
+    "english_name": "Spot-winged rosefinch",
+    "latin_name": "Carpodacus rodopeplus",
+    "summary": "喜山点翅朱雀（台湾作點斑朱雀）（学名：Carpodacus rodopeplus）又称点翅朱雀，为雀科朱雀属的鸟类。分布于印度、巴基斯坦、锡金以及中国大陆的西藏等地，多见于海拔2000-4500m 间、栖息于常绿阔叶林、针阔混交林或高山针叶林中、也见于高山草原和低灌丛以及或林缘…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Spot-winged_Rosefinch.jpg/960px-Spot-winged_Rosefinch.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-尼泊尔-231a45b7",
+      "name": "尼泊尔",
+      "summary": "尼泊尔联邦民主共和国（尼泊爾語：सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल），通称尼泊尔（नेपाल），是南亚喜马拉雅山脉地区的内陆国家，北与中国相接，其余三面与印度为鄰，与孟加拉国仅隔27公里的走廊。尼泊爾的領…",
+      "lat": "28.16666667",
+      "lng": "84.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-喜山点翅朱雀-18114374",
+      "subject": "喜山点翅朱雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in India and Nepal",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-喜山点翅朱雀-18114374",
+      "subject": "喜山点翅朱雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼泊尔-231a45b7",
+      "object": "尼泊尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in India and Nepal",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-喜山点翅朱雀-18114374",
+      "subject": "喜山点翅朱雀",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical high-altitude shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-喜山点翅朱雀-18114374",
+      "subject": "喜山点翅朱雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

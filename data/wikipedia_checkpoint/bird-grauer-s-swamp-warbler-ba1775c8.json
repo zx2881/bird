@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:46:11",
+  "requested_title": "Grauer's Swamp Warbler",
+  "resolved_title": "Grauer's swamp warbler",
+  "title_aliases": [
+    "Grauer's Swamp Warbler"
+  ],
+  "bird_id": "bird-grauer-s-swamp-warbler-ba1775c8",
+  "raw_file": "bird-grauer-s-swamp-warbler-ba1775c8.json",
+  "bird": {
+    "id": "bird-grauer-s-swamp-warbler-ba1775c8",
+    "name": "Grauer's swamp warbler",
+    "english_name": "Grauer's swamp warbler",
+    "latin_name": "Bradypterus graueri",
+    "summary": "Grauer's swamp warbler (Bradypterus graueri) is a species of Old World warbler in the family Locustellidae. It is native to the Albertine R…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Bradypterus_graueri_-_Mikael_Bauer_-_111373577.jpeg/960px-Bradypterus_graueri_-_Mikael_Bauer_-_111373577.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grauer-s-swamp-warbler-ba1775c8",
+      "subject": "Grauer's swamp warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grauer-s-swamp-warbler-ba1775c8",
+      "subject": "Grauer's swamp warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Grauer's swamp warbler is endemic to the Albertine Rift and is found in montane papyrus swamps above 1900m",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-grauer-s-swamp-warbler-ba1775c8",
+      "subject": "Grauer's swamp warbler",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-grauer-s-swamp-warbler-ba1775c8",
+      "subject": "Grauer's swamp warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

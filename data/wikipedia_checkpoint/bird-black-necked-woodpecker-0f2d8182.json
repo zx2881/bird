@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:11:37",
+  "requested_title": "Black-necked Woodpecker",
+  "resolved_title": "Black-necked woodpecker",
+  "title_aliases": [
+    "Black-necked Woodpecker"
+  ],
+  "bird_id": "bird-black-necked-woodpecker-0f2d8182",
+  "raw_file": "bird-black-necked-woodpecker-0f2d8182.json",
+  "bird": {
+    "id": "bird-black-necked-woodpecker-0f2d8182",
+    "name": "Black-necked woodpecker",
+    "english_name": "Black-necked woodpecker",
+    "latin_name": "Colaptes atricollis",
+    "summary": "The black-necked woodpecker or black-necked flicker (Colaptes atricollis) is a species of bird in subfamily Picinae of the woodpecker famil…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Black-necked_Woodpecker_%28Colaptes_atricollis%29.jpg/960px-Black-necked_Woodpecker_%28Colaptes_atricollis%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-necked-woodpecker-0f2d8182",
+      "subject": "Black-necked woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits a variety of semi-arid to arid landscapes including drier cloudforest, montane scrublands with cacti, desert scrublands, and deciduous woodlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-necked-woodpecker-0f2d8182",
+      "subject": "Black-necked woodpecker",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits a variety of semi-arid to arid landscapes including drier cloudforest, montane scrublands with cacti, desert scrublands, and deciduous woodlands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-black-necked-woodpecker-0f2d8182",
+      "subject": "Black-necked woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

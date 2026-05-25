@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:47:08",
+  "requested_title": "Pale Spiderhunter",
+  "resolved_title": "Pale spiderhunter",
+  "title_aliases": [
+    "Pale Spiderhunter"
+  ],
+  "bird_id": "bird-pale-spiderhunter-b811a17d",
+  "raw_file": "bird-pale-spiderhunter-b811a17d.json",
+  "bird": {
+    "id": "bird-pale-spiderhunter-b811a17d",
+    "name": "Pale spiderhunter",
+    "english_name": "Pale spiderhunter",
+    "latin_name": "Arachnothera dilutior",
+    "summary": "The pale spiderhunter (Arachnothera dilutior) is a species of bird in the family Nectariniidae. It is endemic to the Philippines found only…",
+    "lat": "9.74361111",
+    "lng": "118.66111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/PPUR2024-27_-_Pale_spiderhunter.jpg/960px-PPUR2024-27_-_Pale_spiderhunter.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "name": "Iwahig Prison and Penal Farm",
+      "summary": "Iwahig Prison and Penal Farm in Puerto Princesa, Palawan, Philippines is one of seven operating units of the Bureau of…",
+      "lat": "9.74361111",
+      "lng": "118.66111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pale-spiderhunter-b811a17d",
+      "subject": "Pale spiderhunter",
+      "predicate": "distributed_in",
+      "object_id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "object": "Iwahig Prison and Penal Farm",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in just one protected area in the Iwahig Prison and Penal Farm",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-spiderhunter-b811a17d",
+      "subject": "Pale spiderhunter",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-pale-spiderhunter-b811a17d",
+      "subject": "Pale spiderhunter",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, Palawan's forests are under threat due to illegal logging, deforestation, land conversion and mining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

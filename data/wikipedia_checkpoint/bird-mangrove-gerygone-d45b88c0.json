@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:44:19",
+  "requested_title": "Mangrove Gerygone",
+  "resolved_title": "Mangrove gerygone",
+  "title_aliases": [
+    "Mangrove Gerygone"
+  ],
+  "bird_id": "bird-mangrove-gerygone-d45b88c0",
+  "raw_file": "bird-mangrove-gerygone-d45b88c0.json",
+  "bird": {
+    "id": "bird-mangrove-gerygone-d45b88c0",
+    "name": "Mangrove gerygone",
+    "english_name": "Mangrove gerygone",
+    "latin_name": "Gerygone levigaster",
+    "summary": "The mangrove gerygone (Gerygone levigaster) is a species of bird in the Australian warbler family Acanthizidae. The species is also known a…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Gerygone_levigaster_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-金伯利-西澳-1cd658a5",
+      "name": "金伯利 (西澳)",
+      "summary": "金伯利（Kimberley）是澳大利亚西澳大利亚州的九个地区之一，位于西澳州的北部，西临印度洋，北临帝汶海，南为大沙沙漠和塔纳米沙漠，东则与澳大利亚北领地接壤。 该地区以位于南非的金伯利钻石矿区命名，因这两个区域在地形、风景和资源方面均有…",
+      "lat": "-17.49145",
+      "lng": "124.53265"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mangrove-gerygone-d45b88c0",
+      "subject": "Mangrove gerygone",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pallida, found in southern New Guinea, the nominate race G",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-gerygone-d45b88c0",
+      "subject": "Mangrove gerygone",
+      "predicate": "distributed_in",
+      "object_id": "loc-金伯利-西澳-1cd658a5",
+      "object": "金伯利 (西澳)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Where its range overlaps with that of the large-billed gerygone in the Kimberley it is actually displaced from the mangroves and is instead found in scrubland dominated by paperbarks and acacia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mangrove-gerygone-d45b88c0",
+      "subject": "Mangrove gerygone",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Where its range overlaps with that of the large-billed gerygone in the Kimberley it is actually displaced from the mangroves and is instead found in scrubland dominated by paperbarks and acacia",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-mangrove-gerygone-d45b88c0",
+      "subject": "Mangrove gerygone",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

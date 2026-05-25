@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:08:17",
+  "requested_title": "African Hawk-Eagle",
+  "resolved_title": "African hawk-eagle",
+  "title_aliases": [
+    "African Hawk-Eagle"
+  ],
+  "bird_id": "bird-非洲隼雕-1e5ad0e0",
+  "raw_file": "bird-非洲隼雕-1e5ad0e0.json",
+  "bird": {
+    "id": "bird-非洲隼雕-1e5ad0e0",
+    "name": "非洲隼雕",
+    "english_name": "African hawk-eagle",
+    "latin_name": "Aquila spilogaster",
+    "summary": "非洲隼雕（學名：Aquila spilogaster）是一種猛禽，牠們一般會在多樹木的山上出現，在樹木的交叉枝幹上建造一個直徑大約1米的鳥巢。 非洲隼雕身長55到68公分，上半身呈黑色。牠們會狩獵哺乳動物、爬行動物及鳥類，牠們會發出尖銳的kluu-kluu-kluu的叫聲。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/African_hawk-eagle_%28Aquila_spilogaster%29.jpg/960px-African_hawk-eagle_%28Aquila_spilogaster%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-非洲隼雕-1e5ad0e0",
+      "subject": "非洲隼雕",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|last7=Kabra |first7=Sonia |last8=Kocum |first8=Annett |last9=Krosby |first9=Meade |last10=KvaløY |first10=Kirsti |last11=Mindell |first11=David |last12=Rasmussen |first12=Pamela |last13=RøV |first13=Nils |last14=Wadleigh |first14=Rachel |last15=Wink |first15=Michael |date=2017-01-09 |title=Phylogeny and new taxonomy of the Booted Eagles (Accipitriformes: Aquilinae) |url=https://www.mapress.com/zt/article/view/zootaxa.4216.4.1 |journal=Zootaxa |volume=4216 |issue=4 |pages=301–320 |doi=10.11646/zootaxa.4216.4.1 |issn=1175-5334 |pmid= 28183111|hdl=11250/2443953 |hdl-access=free }} The African hawk-eagle breeds in tropical Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲隼雕-1e5ad0e0",
+      "subject": "非洲隼雕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:51:15",
+  "requested_title": "Purple-rumped Sunbird",
+  "resolved_title": "Purple-rumped sunbird",
+  "title_aliases": [
+    "Purple-rumped Sunbird"
+  ],
+  "bird_id": "bird-purple-rumped-sunbird-2c9bd5f7",
+  "raw_file": "bird-purple-rumped-sunbird-2c9bd5f7.json",
+  "bird": {
+    "id": "bird-purple-rumped-sunbird-2c9bd5f7",
+    "name": "Purple-rumped sunbird",
+    "english_name": "Purple-rumped sunbird",
+    "latin_name": "Leptocoma zeylonica",
+    "summary": "The purple-rumped sunbird (Leptocoma zeylonica) is a sunbird endemic to the Indian Subcontinent. Like other sunbirds, they are small in siz…",
+    "lat": "22",
+    "lng": "96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/PR-SunbirdM-Sandeep.jpg/960px-PR-SunbirdM-Sandeep.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-purple-rumped-sunbird-2c9bd5f7",
+      "subject": "Purple-rumped sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Records from Myanmar are not certain. This species is found in a variety of habitats with trees, including scrub and cultivation and is usually absent from dense forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-rumped-sunbird-2c9bd5f7",
+      "subject": "Purple-rumped sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:02:52",
+  "requested_title": "Dusky Antbird",
+  "resolved_title": "Dusky antbird",
+  "title_aliases": [
+    "Dusky Antbird"
+  ],
+  "bird_id": "bird-dusky-antbird-203ca8ff",
+  "raw_file": "bird-dusky-antbird-203ca8ff.json",
+  "bird": {
+    "id": "bird-dusky-antbird-203ca8ff",
+    "name": "Dusky antbird",
+    "english_name": "Dusky antbird",
+    "latin_name": "Cercomacroides tyrannina",
+    "summary": "The dusky antbird or tyrannine antbird (Cercomacroides tyrannina) is a passerine bird in subfamily Thamnophilinae of family Thamnophilidae,…",
+    "lat": "1",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Cercomacra_tyrannina_-_Dusky_Antbird_%28male%29_%28cropped%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-圭亚那-地区-7d32a67b",
+      "name": "圭亚那 (地区)",
+      "summary": "圭亚那（西班牙語：Las Guayanas；英語：The Guianas；法語：Guyanes；荷蘭語：Guyana's；葡萄牙語：Guianas）是南美洲北部、西北部的一个地区，并被划分为了数个主权国家和区域。前哥伦布时期，圭亚那地区的…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿馬帕州-7196747a",
+      "name": "阿馬帕州",
+      "summary": "阿馬帕（葡萄牙語：Amapá）是巴西的一州，位於巴西的北部，北鄰法屬圭亞那，東臨大西洋，南臨巴西的帕拉州。该州属于广义的圭亚那地区，在殖民時代稱作葡屬圭亞那，是葡萄牙帝國巴西殖民地的一部分。 地理 阿馬帕位於亞馬遜河河口附近，境內90%被…",
+      "lat": "1",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dusky-antbird-203ca8ff",
+      "subject": "Dusky antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-圭亚那-地区-7d32a67b",
+      "object": "圭亚那 (地区)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "saturatior: from southern and eastern Bolívar in Venezuela east through the Guianas and northeastern Brazil north of the Amazon to the Atlantic in Amapá The dusky antbird inhabits the understorey of evergreen forest, where it overwhelmingly favors the forest edges and clearings and the edges of watercourses",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-antbird-203ca8ff",
+      "subject": "Dusky antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿馬帕州-7196747a",
+      "object": "阿馬帕州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "saturatior: from southern and eastern Bolívar in Venezuela east through the Guianas and northeastern Brazil north of the Amazon to the Atlantic in Amapá The dusky antbird inhabits the understorey of evergreen forest, where it overwhelmingly favors the forest edges and clearings and the edges of watercourses",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-antbird-203ca8ff",
+      "subject": "Dusky antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "saturatior: from southern and eastern Bolívar in Venezuela east through the Guianas and northeastern Brazil north of the Amazon to the Atlantic in Amapá The dusky antbird inhabits the understorey of evergreen forest, where it overwhelmingly favors the forest edges and clearings and the edges of watercourses",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-antbird-203ca8ff",
+      "subject": "Dusky antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in secondary forest but only that bordering taller forest and having a dense understorey",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-antbird-203ca8ff",
+      "subject": "Dusky antbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

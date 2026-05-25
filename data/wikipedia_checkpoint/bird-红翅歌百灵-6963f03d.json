@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:45:25",
+  "requested_title": "Red-winged Lark",
+  "resolved_title": "Red-winged lark",
+  "title_aliases": [
+    "Red-winged Lark"
+  ],
+  "bird_id": "bird-红翅歌百灵-6963f03d",
+  "raw_file": "bird-红翅歌百灵-6963f03d.json",
+  "bird": {
+    "id": "bird-红翅歌百灵-6963f03d",
+    "name": "红翅歌百灵",
+    "english_name": "Red-winged lark",
+    "latin_name": "Corypha (bird) hypermetra",
+    "summary": "红翅歌百灵（学名：Mirafra hypermetra），是百灵科歌百灵属的一种，分布于索马里、苏丹、埃塞俄比亚、肯尼亚、坦桑尼亚和乌干达。全球活动范围约为657,000平方千米。该物种的保护状况被评为无危。 红翅歌百灵的平均体重约为63.7克。栖息地包括干燥的稀树草原和亚热带…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Red-winged_Lark%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安东-赖歇诺-43b8e534",
+      "name": "安东·赖歇诺",
+      "summary": "安东·赖歇诺（德語：Anton Reichenow，1847年8月1日—1941年7月6日）是德国鳥類學家和爬虫两栖类学家。 生平 安东·赖歇诺是德国鸟类研究学家吉恩·路易斯·卡巴尼斯的女婿，1874年至1921年在柏林自然博物馆长期工作…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红翅歌百灵-6963f03d",
+      "subject": "红翅歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-安东-赖歇诺-43b8e534",
+      "object": "安东·赖歇诺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-winged lark (Corypha hypermetra) is a species of lark in the family Alaudidae found in eastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红翅歌百灵-6963f03d",
+      "subject": "红翅歌百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs within Ethiopia, Kenya, Somalia, South Sudan, Tanzania and Uganda, and its estimated global extent of occurrence is 660,000&nbsp;km2. Its total population has yet to be quantified, but is believed to be large. Its natural habitat is savanna in tropical to subtropical dry, open, lowland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-红翅歌百灵-6963f03d",
+      "subject": "红翅歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:22:13",
+  "requested_title": "Baudo Oropendola",
+  "resolved_title": "Baudó oropendola",
+  "title_aliases": [
+    "Baudo Oropendola",
+    "Baudó oropendola"
+  ],
+  "bird_id": "bird-baud-oropendola-68eb2572",
+  "raw_file": "bird-baud-oropendola-68eb2572.json",
+  "bird": {
+    "id": "bird-baud-oropendola-68eb2572",
+    "name": "Baudó oropendola",
+    "english_name": "Baudó oropendola",
+    "latin_name": "Psarocolius cassini",
+    "summary": "The Baudó oropendola (Psarocolius cassini) is a species of bird in the family Icteridae. It is endemic to Colombia.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Baud%C3%B3_Oropendola_imported_from_iNaturalist_photo_232315629_on_15_April_2024.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-baud-oropendola-68eb2572",
+      "subject": "Baudó oropendola",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-baud-oropendola-68eb2572",
+      "subject": "Baudó oropendola",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "cassini as being \"endangered\"; this is because of the small number of locations from which it is known, and the degradation of its habitat as deforestation takes place for logging, the creation of oil palm plantations, agricultural activities and road-building. It is estimated that the total population of the bird numbers between 1000 and 2500 individuals and is likely to be declining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

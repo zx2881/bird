@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:37:49",
+  "requested_title": "Caribbean Elaenia",
+  "resolved_title": "Caribbean elaenia",
+  "title_aliases": [
+    "Caribbean Elaenia"
+  ],
+  "bird_id": "bird-caribbean-elaenia-0aeef197",
+  "raw_file": "bird-caribbean-elaenia-0aeef197.json",
+  "bird": {
+    "id": "bird-caribbean-elaenia-0aeef197",
+    "name": "Caribbean elaenia",
+    "english_name": "Caribbean elaenia",
+    "latin_name": "Elaenia martinica",
+    "summary": "The Caribbean elaenia (Elaenia martinica) is a species of bird in subfamily Elaeniinae of family Tyrannidae, the tyrant flycatchers. It is…",
+    "lat": "14",
+    "lng": "-61",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Caribbean_Elaenia.jpg/960px-Caribbean_Elaenia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-小安的列斯群岛-d6bade2c",
+      "name": "小安的列斯群岛",
+      "summary": "小安的列斯群岛（英語：Lesser Antilles，西班牙語：Antillas Menores），又称加勒比群岛，是位于加勒比海西印度群岛中安的列斯群岛东部和南部的岛群。群岛呈圆弧状，从波多黎各以东开始，向南穿过背风群岛和向风群岛，几乎…",
+      "lat": "14",
+      "lng": "-61"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-caribbean-elaenia-0aeef197",
+      "subject": "Caribbean elaenia",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the canopy and on the edges of humid evergreen forest, in deciduous woodland, scrublands, parks and gardens, open land with a scattering of trees and shrubs, and coastally in mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-caribbean-elaenia-0aeef197",
+      "subject": "Caribbean elaenia",
+      "predicate": "distributed_in",
+      "object_id": "loc-小安的列斯群岛-d6bade2c",
+      "object": "小安的列斯群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in the mountains of the southern Lesser Antilles",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-caribbean-elaenia-0aeef197",
+      "subject": "Caribbean elaenia",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the canopy and on the edges of humid evergreen forest, in deciduous woodland, scrublands, parks and gardens, open land with a scattering of trees and shrubs, and coastally in mangroves",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-caribbean-elaenia-0aeef197",
+      "subject": "Caribbean elaenia",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

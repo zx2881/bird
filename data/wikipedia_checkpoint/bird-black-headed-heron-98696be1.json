@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:43:05",
+  "requested_title": "Black-headed Heron",
+  "resolved_title": "Black-headed heron",
+  "title_aliases": [
+    "Black-headed Heron"
+  ],
+  "bird_id": "bird-black-headed-heron-98696be1",
+  "raw_file": "bird-black-headed-heron-98696be1.json",
+  "bird": {
+    "id": "bird-black-headed-heron-98696be1",
+    "name": "Black-headed heron",
+    "english_name": "Black-headed heron",
+    "latin_name": "Ardea melanocephala",
+    "summary": "The black-headed heron (Ardea melanocephala) is a wading bird of the heron family Ardeidae, common throughout much of sub-Saharan Africa an…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Black-headed_Heron_%28Ardea_melanocephala%29.jpg/960px-Black-headed_Heron_%28Ardea_melanocephala%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨季-36373815",
+      "name": "雨季",
+      "summary": "雨季，指在降水量有顯著季節差異的地區，年降水量主要發生的月份，通常持續一個或多個月 。擁有雨季的地區分佈在熱帶和亞熱帶。 根據柯本氣候分類法，對於熱帶氣候，雨季定義為平均降水量60毫米以上的月份。不同的氣候類型，雨季也不盡相同。以北半球為…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-headed-heron-98696be1",
+      "subject": "Black-headed heron",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨季-36373815",
+      "object": "雨季",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species usually breeds in the wet season in colonies in trees, reedbeds or cliffs",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-headed-heron-98696be1",
+      "subject": "Black-headed heron",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This species usually breeds in the wet season in colonies in trees, reedbeds or cliffs",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-black-headed-heron-98696be1",
+      "subject": "Black-headed heron",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

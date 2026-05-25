@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:12:16",
+  "requested_title": "Sao Tome White-eye",
+  "resolved_title": "São Tomé white-eye",
+  "title_aliases": [
+    "Sao Tome White-eye",
+    "São Tomé white-eye"
+  ],
+  "bird_id": "bird-s-o-tom-white-eye-04fb58bf",
+  "raw_file": "bird-s-o-tom-white-eye-04fb58bf.json",
+  "bird": {
+    "id": "bird-s-o-tom-white-eye-04fb58bf",
+    "name": "São Tomé white-eye",
+    "english_name": "São Tomé white-eye",
+    "latin_name": "Zosterops feae",
+    "summary": "The São Tomé white-eye (Zosterops feae) is a species of bird in the family Zosteropidae. It is endemic to the island of São Tomé, where it…",
+    "lat": "0.22",
+    "lng": "6.61",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Zosterops_feae_cropped.jpg/960px-Zosterops_feae_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣多美岛-5361b9c6",
+      "name": "圣多美岛",
+      "summary": "圣多美岛（葡萄牙語：Ilha de São Tomé）是圣多美和普林西比第一大岛。该岛总面积854 km2（330 sq mi），总人口157,000（2009），占全国的96%。圣多美岛与周边小岛构成圣多美省。该岛位于赤道以北2 km，…",
+      "lat": "0.22",
+      "lng": "6.61"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-s-o-tom-white-eye-04fb58bf",
+      "subject": "São Tomé white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣多美岛-5361b9c6",
+      "object": "圣多美岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the island of São Tomé, where it occurs in the central massif and in the southwest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-s-o-tom-white-eye-04fb58bf",
+      "subject": "São Tomé white-eye",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-s-o-tom-white-eye-04fb58bf",
+      "subject": "São Tomé white-eye",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

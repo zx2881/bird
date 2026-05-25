@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T23:20:11",
+  "requested_title": "Sulphur-throated Finch",
+  "resolved_title": "Sulphur-throated finch",
+  "title_aliases": [
+    "Sulphur-throated Finch"
+  ],
+  "bird_id": "bird-sulphur-throated-finch-6f8285bc",
+  "raw_file": "bird-sulphur-throated-finch-6f8285bc.json",
+  "bird": {
+    "id": "bird-sulphur-throated-finch-6f8285bc",
+    "name": "Sulphur-throated finch",
+    "english_name": "Sulphur-throated finch",
+    "latin_name": "Sicalis taczanowskii",
+    "summary": "The sulphur-throated finch (Sicalis taczanowskii) is a species of bird in the family Thraupidae. It is found in Ecuador and Peru.",
+    "lat": "-2",
+    "lng": "-77.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sicalis_taczanowskii_-_Sulphur-throated_Finch_-_male.jpg/960px-Sicalis_taczanowskii_-_Sulphur-throated_Finch_-_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sulphur-throated-finch-6f8285bc",
+      "subject": "Sulphur-throated finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sulphur-throated-finch-6f8285bc",
+      "subject": "Sulphur-throated finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sulphur-throated-finch-6f8285bc",
+      "subject": "Sulphur-throated finch",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical dry shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-sulphur-throated-finch-6f8285bc",
+      "subject": "Sulphur-throated finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

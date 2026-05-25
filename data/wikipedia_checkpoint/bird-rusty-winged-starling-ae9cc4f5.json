@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:25:03",
+  "requested_title": "Rusty-winged Starling",
+  "resolved_title": "Rusty-winged starling",
+  "title_aliases": [
+    "Rusty-winged Starling"
+  ],
+  "bird_id": "bird-rusty-winged-starling-ae9cc4f5",
+  "raw_file": "bird-rusty-winged-starling-ae9cc4f5.json",
+  "bird": {
+    "id": "bird-rusty-winged-starling-ae9cc4f5",
+    "name": "Rusty-winged starling",
+    "english_name": "Rusty-winged starling",
+    "latin_name": "Aplonis zelandica",
+    "summary": "The rusty-winged starling (Aplonis zelandica) is a species of starling in the family Sturnidae. It is found in the Santa Cruz Islands and V…",
+    "lat": "-11",
+    "lng": "166.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Naturalis_Biodiversity_Center_-_RMNH.AVES.143307_1_-_Aplonis_zelandica_subsp._-_Sturnidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.143307_1_-_Aplonis_zelandica_subsp._-_Sturnidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣克鲁斯群岛-a4b4e7a4",
+      "name": "圣克鲁斯群岛",
+      "summary": "The Santa Cruz Islands form an archipelago in Temotu Province, Solomon Islands.",
+      "lat": "-11",
+      "lng": "166.25"
+    },
+    {
+      "id": "loc-瓦努阿图-ad87e29a",
+      "name": "瓦努阿图",
+      "summary": "瓦努阿图（台湾作萬那杜）（比斯拉馬語：Vanuatu）是位於太平洋西南部的島國，於1980年脫離英國與法國的殖民並獨立建國，由80多個岛屿（68個有人居住）组成，屬於美拉尼西亞群島的一部分，其一年四季均為熱帶海洋性氣候。 歷史 大約公元前…",
+      "lat": "-17",
+      "lng": "168"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rusty-winged-starling-ae9cc4f5",
+      "subject": "Rusty-winged starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣克鲁斯群岛-a4b4e7a4",
+      "object": "圣克鲁斯群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Santa Cruz Islands and Vanuatu",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-winged-starling-ae9cc4f5",
+      "subject": "Rusty-winged starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦努阿图-ad87e29a",
+      "object": "瓦努阿图",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Santa Cruz Islands and Vanuatu",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-winged-starling-ae9cc4f5",
+      "subject": "Rusty-winged starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-rusty-winged-starling-ae9cc4f5",
+      "subject": "Rusty-winged starling",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss arising from the deriving force of human overpopulation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

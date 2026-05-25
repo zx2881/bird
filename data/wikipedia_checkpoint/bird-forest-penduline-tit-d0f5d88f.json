@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:14:14",
+  "requested_title": "Forest Penduline Tit",
+  "resolved_title": "Forest penduline tit",
+  "title_aliases": [
+    "Forest Penduline Tit"
+  ],
+  "bird_id": "bird-forest-penduline-tit-d0f5d88f",
+  "raw_file": "bird-forest-penduline-tit-d0f5d88f.json",
+  "bird": {
+    "id": "bird-forest-penduline-tit-d0f5d88f",
+    "name": "Forest penduline tit",
+    "english_name": "Forest penduline tit",
+    "latin_name": "Anthoscopus flavifrons",
+    "summary": "The forest penduline tit (Anthoscopus flavifrons) is a species of bird in the family Remizidae. It is native to the African tropical rainfo…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Anthoscopus_flavifrons_distribution_map.png/960px-Anthoscopus_flavifrons_distribution_map.png"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-forest-penduline-tit-d0f5d88f",
+      "subject": "Forest penduline tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-forest-penduline-tit-d0f5d88f",
+      "subject": "Forest penduline tit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

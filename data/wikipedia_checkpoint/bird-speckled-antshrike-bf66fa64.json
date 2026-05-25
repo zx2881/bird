@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:57:15",
+  "requested_title": "Speckled Antshrike",
+  "resolved_title": "Speckled antshrike",
+  "title_aliases": [
+    "Speckled Antshrike"
+  ],
+  "bird_id": "bird-speckled-antshrike-bf66fa64",
+  "raw_file": "bird-speckled-antshrike-bf66fa64.json",
+  "bird": {
+    "id": "bird-speckled-antshrike-bf66fa64",
+    "name": "Speckled antshrike",
+    "english_name": "Speckled antshrike",
+    "latin_name": "Xenornis setifrons",
+    "summary": "The speckled antshrike or spiny-faced antshrike (Xenornis setifrons) is a Near Threatened species of bird in subfamily Thamnophilinae of fa…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Xenornis_setifrons_-_Spiny-faced_Antshrike.jpg/960px-Xenornis_setifrons_-_Spiny-faced_Antshrike.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-speckled-antshrike-bf66fa64",
+      "subject": "Speckled antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-speckled-antshrike-bf66fa64",
+      "subject": "Speckled antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-speckled-antshrike-bf66fa64",
+      "subject": "Speckled antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid evergreen forest where it occurs almost entirely in dense understorey vegetation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-speckled-antshrike-bf66fa64",
+      "subject": "Speckled antshrike",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-speckled-antshrike-bf66fa64",
+      "subject": "Speckled antshrike",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Due to its high forest dependence, the species is at risk of habitat loss through logging of forests for agricultural purposes...[m]ining, the completion of the Pan-American highway and the impact of rising human population resulting from such projects are potentially important future threats.\" It is generally considered rate but is fairly common locally",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-speckled-antshrike-bf66fa64",
+      "subject": "Speckled antshrike",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Due to its high forest dependence, the species is at risk of habitat loss through logging of forests for agricultural purposes...[m]ining, the completion of the Pan-American highway and the impact of rising human population resulting from such projects are potentially important future threats.\" It is generally considered rate but is fairly common locally",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

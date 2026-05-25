@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:14:47",
+  "requested_title": "Common Redstart",
+  "resolved_title": "Common redstart",
+  "title_aliases": [
+    "Common Redstart"
+  ],
+  "bird_id": "bird-欧亚红尾鸲-8bf34475",
+  "raw_file": "bird-欧亚红尾鸲-8bf34475.json",
+  "bird": {
+    "id": "bird-欧亚红尾鸲-8bf34475",
+    "name": "欧亚红尾鸲",
+    "english_name": "Common redstart",
+    "latin_name": "Phoenicurus phoenicurus",
+    "summary": "欧亚红尾鸲（學名：Phoenicurus phoenicurus，英語：Common redstart，台湾作紅尾鴝），或稱普通红尾鸲，是雀形目紅尾鴝屬的小型鸟类。這個物種是一種在歐、亞繁殖，在非洲過冬的雜食性侯鳥，有兩個亞種。其雄鳥具黑色的面部、白線的眉線及橙紅褐色的胸腹，而…",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Phoenicurus_phoenicurus_08%28js%29%2C_Lodz_%28Poland%29.jpg/960px-Phoenicurus_phoenicurus_08%28js%29%2C_Lodz_%28Poland%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    },
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    },
+    {
+      "id": "loc-塞内加尔-8f96dd71",
+      "name": "塞内加尔",
+      "summary": "塞内加尔共和国（法語：République du Sénégal），通稱塞內加爾（法語：Sénégal），是西非国家，位于塞内加尔河的南岸，首都达喀尔。它的西边是大西洋，北边是毛里塔尼亚，东边是馬利，南边是几内亚和几内亚比绍。冈比亚在塞内…",
+      "lat": "14",
+      "lng": "-14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-欧亚红尾鸲-8bf34475",
+      "subject": "欧亚红尾鸲",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It winters in central Africa and Arabia, south of the Sahara Desert but north of the Equator, from Senegal east to Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-欧亚红尾鸲-8bf34475",
+      "subject": "欧亚红尾鸲",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It winters in central Africa and Arabia, south of the Sahara Desert but north of the Equator, from Senegal east to Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-欧亚红尾鸲-8bf34475",
+      "subject": "欧亚红尾鸲",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞内加尔-8f96dd71",
+      "object": "塞内加尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It winters in central Africa and Arabia, south of the Sahara Desert but north of the Equator, from Senegal east to Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-欧亚红尾鸲-8bf34475",
+      "subject": "欧亚红尾鸲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

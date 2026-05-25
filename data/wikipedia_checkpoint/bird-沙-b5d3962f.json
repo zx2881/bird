@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:29:17",
+  "requested_title": "Isabelline Wheatear",
+  "resolved_title": "Isabelline wheatear",
+  "title_aliases": [
+    "Isabelline Wheatear"
+  ],
+  "bird_id": "bird-沙-b5d3962f",
+  "raw_file": "bird-沙-b5d3962f.json",
+  "bird": {
+    "id": "bird-沙-b5d3962f",
+    "name": "沙䳭",
+    "english_name": "Isabelline wheatear",
+    "latin_name": "Oenanthe isabellina",
+    "summary": "沙䳭（学名：Oenanthe isabellina）为鶲科䳭属的鸟类，俗名黄褐色石栖鸟。分布于西伯利亚、高加索、阿富汗、伊朗、伊拉克、欧洲、巴基斯坦、印度、非洲以及中国大陆的内蒙古、甘肃、青海、新疆、陕西等地，一般栖息于干旱荒漠，如砾石荒漠、灌丛荒漠、固定沙丘地带、干旱区的农耕…",
+    "lat": "30",
+    "lng": "70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Isabelline_wheatear_%28Oenanthe_isabellina%29_male%2C_non-breeding.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中亚-88133474",
+      "name": "中亚",
+      "summary": "中亚（英語：Central Asia；俄語：Средняя Азия / Центральная Азия）即亚洲中部，在地理上是指西至里海，东到中国新疆，南到阿富汗，北到俄罗斯的广大区域。而根据长期占据这片区域大部分领土的前苏联官方定义…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "巴基斯坦伊斯兰共和国（乌尔都语：اسلامی جمہوریہ پاکستان‬；英语：Islamic Republic of Pakistan），通称巴基斯坦，位于南亚，东与印度比邻，南面是印度洋，西与伊朗接壤，西北和阿富汗相連，東北与中…",
+      "lat": "30",
+      "lng": "70"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-沙-b5d3962f",
+      "subject": "沙䳭",
+      "predicate": "distributed_in",
+      "object_id": "loc-中亚-88133474",
+      "object": "中亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its habitat is steppe and open countryside and it breeds in southern Russia and Central Asia to northern Pakistan, wintering in Africa and northwestern India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-沙-b5d3962f",
+      "subject": "沙䳭",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its habitat is steppe and open countryside and it breeds in southern Russia and Central Asia to northern Pakistan, wintering in Africa and northwestern India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-沙-b5d3962f",
+      "subject": "沙䳭",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its habitat is steppe and open countryside and it breeds in southern Russia and Central Asia to northern Pakistan, wintering in Africa and northwestern India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-沙-b5d3962f",
+      "subject": "沙䳭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

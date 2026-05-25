@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:10:56",
+  "requested_title": "White-throated Woodpecker",
+  "resolved_title": "White-throated woodpecker",
+  "title_aliases": [
+    "White-throated Woodpecker"
+  ],
+  "bird_id": "bird-white-throated-woodpecker-fff17c9f",
+  "raw_file": "bird-white-throated-woodpecker-fff17c9f.json",
+  "bird": {
+    "id": "bird-white-throated-woodpecker-fff17c9f",
+    "name": "White-throated woodpecker",
+    "english_name": "White-throated woodpecker",
+    "latin_name": "Piculus leucolaemus",
+    "summary": "The white-throated woodpecker (Piculus leucolaemus) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is found…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Piculus_leucolaemus_-_White-throated_woodpecker_%28male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-throated-woodpecker-fff17c9f",
+      "subject": "White-throated woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits mature humid terra firme forest and várzea forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-woodpecker-fff17c9f",
+      "subject": "White-throated woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits mature humid terra firme forest and várzea forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-woodpecker-fff17c9f",
+      "subject": "White-throated woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

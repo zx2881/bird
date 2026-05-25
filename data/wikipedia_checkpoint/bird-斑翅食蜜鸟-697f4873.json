@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:42:23",
+  "requested_title": "Spotted Pardalote",
+  "resolved_title": "Spotted pardalote",
+  "title_aliases": [
+    "Spotted Pardalote"
+  ],
+  "bird_id": "bird-斑翅食蜜鸟-697f4873",
+  "raw_file": "bird-斑翅食蜜鸟-697f4873.json",
+  "bird": {
+    "id": "bird-斑翅食蜜鸟-697f4873",
+    "name": "斑翅食蜜鸟",
+    "english_name": "Spotted pardalote",
+    "latin_name": "Pardalotus punctatus",
+    "summary": "斑翅食蜜鸟（台湾作斑啄果鳥，学名：Pardalotus punctatus），是雀形目斑食蜜鸟科斑食蜜鸟属的一种鸟类。 斑翅食蜜鸟体重约8.7克，翼长约56.5毫米，嘴峰长约8毫米，喙宽度约3.2毫米，喙厚度约3.7毫米，跗蹠长约17.4毫米，尾长约27.6毫米。斑翅食蜜鸟在其…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Pardalotus_punctatus_2_-_Glen_Davis.jpg/960px-Pardalotus_punctatus_2_-_Glen_Davis.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-乔治-肖-89c41fbc",
+      "name": "乔治·肖",
+      "summary": "乔治·肖（英語：George Shaw，1751年12月10日—1813年7月22日）是英國植物學家及動物學家。 生平 肖生於白金漢郡的一個村落內，於牛津大學莫德林學院受教育，並在1772年取得其碩士學位后成為執業醫生。1786年起在牛津…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-斑翅食蜜鸟-697f4873",
+      "subject": "斑翅食蜜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-乔治-肖-89c41fbc",
+      "object": "乔治·肖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted pardalote (Pardalotus punctatus) is a small passerine bird native to eastern and southern Australia, at elevations of up to",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斑翅食蜜鸟-697f4873",
+      "subject": "斑翅食蜜鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

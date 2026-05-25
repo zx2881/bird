@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:09:48",
+  "requested_title": "Western Wattled Cuckooshrike",
+  "resolved_title": "Western wattled cuckooshrike",
+  "title_aliases": [
+    "Western Wattled Cuckooshrike"
+  ],
+  "bird_id": "bird-加纳鹃鵙-dbf003a2",
+  "raw_file": "bird-加纳鹃鵙-dbf003a2.json",
+  "bird": {
+    "id": "bird-加纳鹃鵙-dbf003a2",
+    "name": "加纳鹃鵙",
+    "english_name": "Western wattled cuckooshrike",
+    "latin_name": "Lobotos lobatus",
+    "summary": "加纳鹃鵙（学名：Campephaga lobata）是山椒鸟科鹃鵙属的一种，分布于科特迪瓦、加纳、几内亚、利比里亚和塞拉利昂。其自然栖息地为亚热带或热带的湿润低地森林以及亚热带或热带的沼泽。该物种受栖息地减少威胁。 参考文献 BirdLife International.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Lobotos_lobatus_male_1838.jpg/960px-Lobotos_lobatus_male_1838.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-upper-guinean-forests-6bea057e",
+      "name": "Upper Guinean forests",
+      "summary": "The Upper Guinean forests is a tropical seasonal forest region of West Africa.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-加纳鹃鵙-dbf003a2",
+      "subject": "加纳鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-upper-guinean-forests-6bea057e",
+      "object": "Upper Guinean forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Upper Guinean Forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-加纳鹃鵙-dbf003a2",
+      "subject": "加纳鹃鵙",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-加纳鹃鵙-dbf003a2",
+      "subject": "加纳鹃鵙",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:56:19",
+  "requested_title": "Tawny-breasted Honeyeater",
+  "resolved_title": "Tawny-breasted honeyeater",
+  "title_aliases": [
+    "Tawny-breasted Honeyeater"
+  ],
+  "bird_id": "bird-tawny-breasted-honeyeater-ed6264e8",
+  "raw_file": "bird-tawny-breasted-honeyeater-ed6264e8.json",
+  "bird": {
+    "id": "bird-tawny-breasted-honeyeater-ed6264e8",
+    "name": "Tawny-breasted honeyeater",
+    "english_name": "Tawny-breasted honeyeater",
+    "latin_name": "Xanthotis flaviventer",
+    "summary": "The tawny-breasted honeyeater (Xanthotis flaviventer) is a species of bird in the family Meliphagidae. It is found in Australia, Indonesia,…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Anthochaera_chrysotis_-_1825-1839_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_%28cropped%29.tif/lossy-page1-960px-Anthochaera_chrysotis_-_1825-1839_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_%28cropped%29.tif.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tawny-breasted-honeyeater-ed6264e8",
+      "subject": "Tawny-breasted honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Australia, Indonesia, and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-breasted-honeyeater-ed6264e8",
+      "subject": "Tawny-breasted honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Australia, Indonesia, and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-breasted-honeyeater-ed6264e8",
+      "subject": "Tawny-breasted honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Australia, Indonesia, and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tawny-breasted-honeyeater-ed6264e8",
+      "subject": "Tawny-breasted honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

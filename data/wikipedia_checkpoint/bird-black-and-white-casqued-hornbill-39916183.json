@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:23:14",
+  "requested_title": "Black-and-white-casqued Hornbill",
+  "resolved_title": "Black-and-white-casqued hornbill",
+  "title_aliases": [
+    "Black-and-white-casqued Hornbill"
+  ],
+  "bird_id": "bird-black-and-white-casqued-hornbill-39916183",
+  "raw_file": "bird-black-and-white-casqued-hornbill-39916183.json",
+  "bird": {
+    "id": "bird-black-and-white-casqued-hornbill-39916183",
+    "name": "Black-and-white-casqued hornbill",
+    "english_name": "Black-and-white-casqued hornbill",
+    "latin_name": "Bycanistes subcylindricus",
+    "summary": "The black-and-white-casqued hornbill (Bycanistes subcylindricus), also known as the grey-cheeked hornbill, is a large black and white hornb…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Black-and-white-casqued_Hornbill_-_Bronx_Zoo.jpg/960px-Black-and-white-casqued_Hornbill_-_Bronx_Zoo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-科特迪瓦-bc133098",
+      "name": "科特迪瓦",
+      "summary": "科特迪瓦共和國（法語：République de Côte d'Ivoire），通稱科特迪瓦（Côte d'Ivoire），是西非國家，東接迦納，南臨几内亚湾，西及利比里亚和几内亚，北鄰馬利、布基纳法索。象牙海岸的首都是亚穆苏克罗，而最大…",
+      "lat": "8",
+      "lng": "-5"
+    },
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-and-white-casqued-hornbill-39916183",
+      "subject": "Black-and-white-casqued hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-and-white-casqued hornbill is found in wooded habitats in central and western Africa, ranging from western Kenya to Côte d'Ivoire with an isolated population in north Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-white-casqued-hornbill-39916183",
+      "subject": "Black-and-white-casqued hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-科特迪瓦-bc133098",
+      "object": "科特迪瓦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-and-white-casqued hornbill is found in wooded habitats in central and western Africa, ranging from western Kenya to Côte d'Ivoire with an isolated population in north Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-white-casqued-hornbill-39916183",
+      "subject": "Black-and-white-casqued hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-and-white-casqued hornbill is found in wooded habitats in central and western Africa, ranging from western Kenya to Côte d'Ivoire with an isolated population in north Angola",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-white-casqued-hornbill-39916183",
+      "subject": "Black-and-white-casqued hornbill",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They are tropical birds that live in regions with high amounts of forests and is rarely seen in on flat lands, especially due to its arboreal nature",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-black-and-white-casqued-hornbill-39916183",
+      "subject": "Black-and-white-casqued hornbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

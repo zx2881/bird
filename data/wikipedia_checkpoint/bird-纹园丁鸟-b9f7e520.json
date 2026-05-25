@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:37:38",
+  "requested_title": "Streaked Bowerbird",
+  "resolved_title": "Streaked bowerbird",
+  "title_aliases": [
+    "Streaked Bowerbird"
+  ],
+  "bird_id": "bird-纹园丁鸟-b9f7e520",
+  "raw_file": "bird-纹园丁鸟-b9f7e520.json",
+  "bird": {
+    "id": "bird-纹园丁鸟-b9f7e520",
+    "name": "纹园丁鸟",
+    "english_name": "Streaked bowerbird",
+    "latin_name": "Amblyornis subalaris",
+    "summary": "纹园丁鸟（台湾作橙冠園丁鳥，学名：Amblyornis subalaris），是雀形目园丁鸟科的一种鸟类。 纹园丁鸟体重约108.88克，翼长约120.2毫米，嘴峰长约26.1毫米，喙宽度约6.9毫米，喙厚度约8.3毫米，跗蹠长约34毫米，尾长约88.2毫米。纹园丁鸟在其分布区…",
+    "lat": "-8.83333333",
+    "lng": "147.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Amblyornis_subalaris_by_Bowdler_Sharpe.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "name": "理查德·鮑德勒·夏普",
+      "summary": "理查德·鮑德勒·夏普（英語：Richard Bowdler Sharpe，1847年11月22日—1909年12月25日）是一位英國動物學家兼鳥類學家，於大英博物館擔任鳥類標本的策展人。在其職涯裡，夏普出版了一些有關鳥類的專著，並整理出博…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-巴布亞半島-908a1ddc",
+      "name": "巴布亞半島",
+      "summary": "The Papuan Peninsula, also known as the Bird's Tail Peninsula, is a large peninsula in Papua New Guinea, southeast of t…",
+      "lat": "-8.83333333",
+      "lng": "147.5"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纹园丁鸟-b9f7e520",
+      "subject": "纹园丁鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "object": "理查德·鮑德勒·夏普",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The streaked bowerbird (Amblyornis subalaris) is a species of bowerbird, native to the Bird's Tail Peninsula (southeastern New Guinea)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹园丁鸟-b9f7e520",
+      "subject": "纹园丁鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亞半島-908a1ddc",
+      "object": "巴布亞半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The streaked bowerbird (Amblyornis subalaris) is a species of bowerbird, native to the Bird's Tail Peninsula (southeastern New Guinea)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹园丁鸟-b9f7e520",
+      "subject": "纹园丁鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The streaked bowerbird (Amblyornis subalaris) is a species of bowerbird, native to the Bird's Tail Peninsula (southeastern New Guinea)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹园丁鸟-b9f7e520",
+      "subject": "纹园丁鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

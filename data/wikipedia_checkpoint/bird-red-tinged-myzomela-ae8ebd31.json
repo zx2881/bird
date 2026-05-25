@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:52:07",
+  "requested_title": "Red-tinged Myzomela",
+  "resolved_title": "Red-tinged myzomela",
+  "title_aliases": [
+    "Red-tinged Myzomela"
+  ],
+  "bird_id": "bird-red-tinged-myzomela-ae8ebd31",
+  "raw_file": "bird-red-tinged-myzomela-ae8ebd31.json",
+  "bird": {
+    "id": "bird-red-tinged-myzomela-ae8ebd31",
+    "name": "Red-tinged myzomela",
+    "english_name": "Red-tinged myzomela",
+    "latin_name": "Myzomela rubrotincta",
+    "summary": "The red-tinged myzomela (Myzomela rubrotincta) is a species of bird in the family Meliphagidae. It was formerly considered a subspecies of…",
+    "lat": "-1.5",
+    "lng": "127.75",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-世界鸟类学家联合会-2334810d",
+      "name": "世界鸟类学家联合会",
+      "summary": "世界鸟类学家联合会（英語：International Ornithologists' Union），原称国际鸟类学委员会（International Ornithological Committee），是国际鸟类学大会（Internati…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-奧比群島-ed30ae28",
+      "name": "奧比群島",
+      "summary": "奧比群島是印度尼西亞的群島，位於布魯島和斯蘭島以北，北面有德那第島，南面有安汶島，行政方面由北摩鹿加省南哈马黑拉县負責管轄，最大島嶼是奧比島。",
+      "lat": "-1.5",
+      "lng": "127.75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-tinged-myzomela-ae8ebd31",
+      "subject": "Red-tinged myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-世界鸟类学家联合会-2334810d",
+      "object": "世界鸟类学家联合会",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was formerly considered a subspecies of the dusky myzomela (Myzomela obscura), but was split as a distinct species by the IOC in 2021. It is found in the Obi Islands of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-tinged-myzomela-ae8ebd31",
+      "subject": "Red-tinged myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-奧比群島-ed30ae28",
+      "object": "奧比群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was formerly considered a subspecies of the dusky myzomela (Myzomela obscura), but was split as a distinct species by the IOC in 2021. It is found in the Obi Islands of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-tinged-myzomela-ae8ebd31",
+      "subject": "Red-tinged myzomela",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

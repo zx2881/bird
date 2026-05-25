@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:28:21",
+  "requested_title": "Bold-striped Tit-Babbler",
+  "resolved_title": "Bold-striped tit-babbler",
+  "title_aliases": [
+    "Bold-striped Tit-Babbler"
+  ],
+  "bird_id": "bird-bold-striped-tit-babbler-6da1712d",
+  "raw_file": "bird-bold-striped-tit-babbler-6da1712d.json",
+  "bird": {
+    "id": "bird-bold-striped-tit-babbler-6da1712d",
+    "name": "Bold-striped tit-babbler",
+    "english_name": "Bold-striped tit-babbler",
+    "latin_name": "Mixornis bornensis",
+    "summary": "The bold-striped tit-babbler (Mixornis bornensis) is a species of Old World babbler found in Southeast Asia. Description The bold-striped t…",
+    "lat": "0",
+    "lng": "114",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bold-striped_Tit-babbler%2C_Puncak_Tengger_Tahura_Sultan_Adam%2C_South_Kalimantan%2C_Borneo_1.jpg/960px-Bold-striped_Tit-babbler%2C_Puncak_Tengger_Tahura_Sultan_Adam%2C_South_Kalimantan%2C_Borneo_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    },
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bold-striped-tit-babbler-6da1712d",
+      "subject": "Bold-striped tit-babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Lynx Edicions, Barcelona. found in Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bold-striped-tit-babbler-6da1712d",
+      "subject": "Bold-striped tit-babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bold-striped tit-babbler is found in Borneo and Java",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bold-striped-tit-babbler-6da1712d",
+      "subject": "Bold-striped tit-babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bold-striped tit-babbler is found in Borneo and Java",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bold-striped-tit-babbler-6da1712d",
+      "subject": "Bold-striped tit-babbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:36:24",
+  "requested_title": "Spotted Bowerbird",
+  "resolved_title": "Spotted bowerbird",
+  "title_aliases": [
+    "Spotted Bowerbird"
+  ],
+  "bird_id": "bird-斑大亭鸟-4dfffaea",
+  "raw_file": "bird-斑大亭鸟-4dfffaea.json",
+  "bird": {
+    "id": "bird-斑大亭鸟-4dfffaea",
+    "name": "斑大亭鸟",
+    "english_name": "Spotted bowerbird",
+    "latin_name": "Chlamydera maculata",
+    "summary": "斑大亭鸟（台湾作點斑大園丁鳥，学名：Chlamydera maculata），是雀形目园丁鸟科的一种鸟类。 斑大亭鸟体重约139.99克，翼长约145.5毫米，嘴峰长约30.5毫米，喙宽度约8毫米，喙厚度约9.8毫米，跗蹠长约39.8毫米，尾长约109.5毫米。斑大亭鸟在其分布…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Spotted_Bowerbird_-_Chlamydera_maculata_%28cropped%29.jpg/960px-Spotted_Bowerbird_-_Chlamydera_maculata_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-古尔德-f8020282",
+      "name": "约翰·古尔德",
+      "summary": "约翰·古尔德 FRS（英語：John Gould，1804年9月14日—1881年2月3日）是19世纪一位英国鸟类学家。1804年生于英格兰，也是一位商人、艺术家。1838年后与其妻一同前往澳大利亚，在当地发现并為许多新物种命名。 早年…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-斑大亭鸟-4dfffaea",
+      "subject": "斑大亭鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-古尔德-f8020282",
+      "object": "约翰·古尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted bowerbird (Chlamydera maculata) is a sedentary, mid-sized passerine found across broad parts of the drier habitats of eastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-斑大亭鸟-4dfffaea",
+      "subject": "斑大亭鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

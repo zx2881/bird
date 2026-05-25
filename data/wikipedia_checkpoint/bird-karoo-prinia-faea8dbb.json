@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:14:28",
+  "requested_title": "Karoo Prinia",
+  "resolved_title": "Karoo prinia",
+  "title_aliases": [
+    "Karoo Prinia"
+  ],
+  "bird_id": "bird-karoo-prinia-faea8dbb",
+  "raw_file": "bird-karoo-prinia-faea8dbb.json",
+  "bird": {
+    "id": "bird-karoo-prinia-faea8dbb",
+    "name": "Karoo prinia",
+    "english_name": "Karoo prinia",
+    "latin_name": "Prinia maculosa",
+    "summary": "The Karoo prinia or spotted prinia (Prinia maculosa) is a small passerine bird. It is a resident breeder in South Africa, Lesotho and far s…",
+    "lat": "-32.27",
+    "lng": "22.31",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Karoo_%28Spotted%29_Prinia_%2810537833606%29.jpg/960px-Karoo_%28Spotted%29_Prinia_%2810537833606%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡魯地區-517135fa",
+      "name": "卡魯地區",
+      "summary": "卡魯地區（Karoo）是南非西南部的一個地區，屬於半乾旱氣候景觀，人煙稀少。 卡魯地區包含大卡魯（Great Karoo）和小卡魯（Klein Karoo）。小卡魯位於斯瓦特山脈和奧特尼夸山脈之間，面積較小；大卡魯位於開普褶皺帶以北，實際…",
+      "lat": "-32.27",
+      "lng": "22.31"
+    },
+    {
+      "id": "loc-凡波斯-b26c163a",
+      "name": "凡波斯",
+      "summary": "凡波斯（南非語：fynbos，荷蘭語發音：[ˈfəinbɒs]，英語化發音：/ˈfeɪnbɒs/），指南非西開普省及東開普省沿海山區的天然灌木植被帶，屬於地中海型氣候冬季多雨區的硬葉植被。凡波斯是開普植物區的主體，生態上歸入地中海森林、疏…",
+      "lat": "-34.16666667",
+      "lng": "18.375"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-karoo-prinia-faea8dbb",
+      "subject": "Karoo prinia",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡魯地區-517135fa",
+      "object": "卡魯地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a species found in karoo scrub, fynbos and bracken-covered slopes in semi-desert and mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-karoo-prinia-faea8dbb",
+      "subject": "Karoo prinia",
+      "predicate": "distributed_in",
+      "object_id": "loc-凡波斯-b26c163a",
+      "object": "凡波斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a species found in karoo scrub, fynbos and bracken-covered slopes in semi-desert and mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-karoo-prinia-faea8dbb",
+      "subject": "Karoo prinia",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

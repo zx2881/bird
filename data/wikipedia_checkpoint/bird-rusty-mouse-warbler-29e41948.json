@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:47:13",
+  "requested_title": "Rusty Mouse-warbler",
+  "resolved_title": "Rusty mouse-warbler",
+  "title_aliases": [
+    "Rusty Mouse-warbler"
+  ],
+  "bird_id": "bird-rusty-mouse-warbler-29e41948",
+  "raw_file": "bird-rusty-mouse-warbler-29e41948.json",
+  "bird": {
+    "id": "bird-rusty-mouse-warbler-29e41948",
+    "name": "Rusty mouse-warbler",
+    "english_name": "Rusty mouse-warbler",
+    "latin_name": "Origma murina",
+    "summary": "The rusty mouse-warbler (Origma murina), is a species of bird in the family Acanthizidae. It is found in Indonesia and Papua New Guinea, in…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Naturalis_Biodiversity_Center_-_RMNH.AVES.135542_1_-_Crateroscelis_murina_murina_%28Sclater%2C_1858%29_-_Acanthizidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.135542_1_-_Crateroscelis_murina_murina_%28Sclater%2C_1858%29_-_Acanthizidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rusty-mouse-warbler-29e41948",
+      "subject": "Rusty mouse-warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Papua New Guinea, in a 1,270,000 km² distribution. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-mouse-warbler-29e41948",
+      "subject": "Rusty mouse-warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Papua New Guinea, in a 1,270,000 km² distribution. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-mouse-warbler-29e41948",
+      "subject": "Rusty mouse-warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Papua New Guinea, in a 1,270,000 km² distribution. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-mouse-warbler-29e41948",
+      "subject": "Rusty mouse-warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in Indonesia and Papua New Guinea, in a 1,270,000 km² distribution. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-rusty-mouse-warbler-29e41948",
+      "subject": "Rusty mouse-warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

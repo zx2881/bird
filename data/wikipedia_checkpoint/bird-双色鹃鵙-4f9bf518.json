@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:07:38",
+  "requested_title": "Pied Cuckooshrike",
+  "resolved_title": "Pied cuckooshrike",
+  "title_aliases": [
+    "Pied Cuckooshrike"
+  ],
+  "bird_id": "bird-双色鹃鵙-4f9bf518",
+  "raw_file": "bird-双色鹃鵙-4f9bf518.json",
+  "bird": {
+    "id": "bird-双色鹃鵙-4f9bf518",
+    "name": "双色鹃鵙",
+    "english_name": "Pied cuckooshrike",
+    "latin_name": "Coracina bicolor",
+    "summary": "双色鹃鵙（学名：Coracina bicolor）是山椒鸟科鸦鹃鵙属的一种。为印度尼西亚的特有种。其自然栖息地为亚热带或热带的湿润低地森林以及亚热带或热带的红树林。该物种因栖息地减少而受到威胁。 种名 bicolor 意为“二色的”。",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Coracina_bicolor_1898.jpg/960px-Coracina_bicolor_1898.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-苏拉威西岛-6ebabd9a",
+      "name": "苏拉威西岛",
+      "summary": "苏拉威西岛（印尼語：Sulawesi）舊名西里伯或西里伯斯，《職方外紀》稱則勒伯（荷蘭語：Celebes），是印度尼西亚东部的一个大岛屿。 地理 苏拉威西岛按面积是世界第十一大岛，总面积为174,600平方公里，位于印度尼西亚东部，菲律宾…",
+      "lat": "-2",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-双色鹃鵙-4f9bf518",
+      "subject": "双色鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it is found in Sulawesi",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-双色鹃鵙-4f9bf518",
+      "subject": "双色鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏拉威西岛-6ebabd9a",
+      "object": "苏拉威西岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it is found in Sulawesi",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-双色鹃鵙-4f9bf518",
+      "subject": "双色鹃鵙",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-双色鹃鵙-4f9bf518",
+      "subject": "双色鹃鵙",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

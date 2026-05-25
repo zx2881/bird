@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:13:24",
+  "requested_title": "Orange River White-eye",
+  "resolved_title": "Orange River white-eye",
+  "title_aliases": [
+    "Orange River White-eye"
+  ],
+  "bird_id": "bird-orange-river-white-eye-60007235",
+  "raw_file": "bird-orange-river-white-eye-60007235.json",
+  "bird": {
+    "id": "bird-orange-river-white-eye-60007235",
+    "name": "Orange River white-eye",
+    "english_name": "Orange River white-eye",
+    "latin_name": "Zosterops pallidus",
+    "summary": "The Orange River white-eye (Zosterops pallidus) is a species of bird in the family Zosteropidae, which is native to Namibia and South Afric…",
+    "lat": "-22",
+    "lng": "17",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Cape-white-eye-001_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-纳米比亚-0e5bfcb6",
+      "name": "纳米比亚",
+      "summary": "納米比亞共和國（德語：Republik Namibia，英語：Republic of Namibia），通稱納米比亞（Namibia），是位於南部非洲西面的共和國。它西部瀕臨大西洋，北部接壤贊比亞和安哥拉，東部連接博茨瓦纳，而在南部則與南…",
+      "lat": "-22",
+      "lng": "17"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-orange-river-white-eye-60007235",
+      "subject": "Orange River white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-纳米比亚-0e5bfcb6",
+      "object": "纳米比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "virens) only}} }} The Orange River white-eye (Zosterops pallidus) is a species of bird in the family Zosteropidae, which is native to Namibia and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-river-white-eye-60007235",
+      "subject": "Orange River white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "virens) only}} }} The Orange River white-eye (Zosterops pallidus) is a species of bird in the family Zosteropidae, which is native to Namibia and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-river-white-eye-60007235",
+      "subject": "Orange River white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

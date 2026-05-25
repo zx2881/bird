@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:09:40",
+  "requested_title": "Crested Gallito",
+  "resolved_title": "Crested gallito",
+  "title_aliases": [
+    "Crested Gallito"
+  ],
+  "bird_id": "bird-crested-gallito-2eff52fd",
+  "raw_file": "bird-crested-gallito-2eff52fd.json",
+  "bird": {
+    "id": "bird-crested-gallito-2eff52fd",
+    "name": "Crested gallito",
+    "english_name": "Crested gallito",
+    "latin_name": "Rhinocrypta lanceolata",
+    "summary": "The crested gallito (Rhinocrypta lanceolata) is a species of suboscine passerine bird in the tapaculo family Rhinocryptidae. It is the only…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Rhinocrypta_lanceolata_195444027.jpg/960px-Rhinocrypta_lanceolata_195444027.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-巴拉圭-029e9211",
+      "name": "巴拉圭",
+      "summary": "巴拉圭共和國（西班牙語：República del Paraguay、瓜拉尼語：Paraguái Tavakuairetã），通稱巴拉圭（西班牙語：Paraguay；瓜拉尼語：Paraguái），是位於南美洲的主權國家，也是位於南美洲的內…",
+      "lat": "-23",
+      "lng": "-58"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-crested-gallito-2eff52fd",
+      "subject": "Crested gallito",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Bolivia, and Paraguay.{{cite web |url=http://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crested-gallito-2eff52fd",
+      "subject": "Crested gallito",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Bolivia, and Paraguay.{{cite web |url=http://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crested-gallito-2eff52fd",
+      "subject": "Crested gallito",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉圭-029e9211",
+      "object": "巴拉圭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Bolivia, and Paraguay.{{cite web |url=http://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.1) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crested-gallito-2eff52fd",
+      "subject": "Crested gallito",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

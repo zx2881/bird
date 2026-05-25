@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:19:17",
+  "requested_title": "Churring Cisticola",
+  "resolved_title": "Churring cisticola",
+  "title_aliases": [
+    "Churring Cisticola"
+  ],
+  "bird_id": "bird-churring-cisticola-b0a04a6f",
+  "raw_file": "bird-churring-cisticola-b0a04a6f.json",
+  "bird": {
+    "id": "bird-churring-cisticola-b0a04a6f",
+    "name": "Churring cisticola",
+    "english_name": "Churring cisticola",
+    "latin_name": "Cisticola njombe",
+    "summary": "The churring cisticola (Cisticola njombe) is a species of bird in the family Cisticolidae. It is found in Malawi, Tanzania, and Zambia.",
+    "lat": "-13.5",
+    "lng": "34",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Churring_Cisticola_-_Malawi_S4E2167_%2816700461993%29.jpg/960px-Churring_Cisticola_-_Malawi_S4E2167_%2816700461993%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马拉维-83b8e25a",
+      "name": "马拉维",
+      "summary": "马拉维共和国（英語：Republic of Malawi；齊切瓦語：Dziko la Malaŵi），通稱馬拉威（齊切瓦語：Malaŵi；英語：Malawi），是一個位於非洲東南部的內陸國家，鄰接贊比亞、莫桑比克及坦桑尼亞。國土位於南緯9…",
+      "lat": "-13.5",
+      "lng": "34"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    },
+    {
+      "id": "loc-赞比亚-5eceb6be",
+      "name": "赞比亚",
+      "summary": "赞比亚共和国（英語：Republic of Zambia），也稱尚比亞（英語：Zambia），是非洲東南部的一個內陸國家。与刚果民主共和国、坦桑尼亚、马拉维、莫桑比克、津巴布韦、博茨瓦纳、纳米比亚和安哥拉相邻。首都是卢萨卡。 历史 二千年…",
+      "lat": "-15",
+      "lng": "30"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-churring-cisticola-b0a04a6f",
+      "subject": "Churring cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-马拉维-83b8e25a",
+      "object": "马拉维",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Malawi, Tanzania, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-churring-cisticola-b0a04a6f",
+      "subject": "Churring cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Malawi, Tanzania, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-churring-cisticola-b0a04a6f",
+      "subject": "Churring cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-赞比亚-5eceb6be",
+      "object": "赞比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Malawi, Tanzania, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-churring-cisticola-b0a04a6f",
+      "subject": "Churring cisticola",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical high-elevation grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-churring-cisticola-b0a04a6f",
+      "subject": "Churring cisticola",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

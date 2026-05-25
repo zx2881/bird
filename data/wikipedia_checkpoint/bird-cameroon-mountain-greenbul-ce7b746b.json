@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:06:14",
+  "requested_title": "Cameroon Mountain Greenbul",
+  "resolved_title": "Cameroon mountain greenbul",
+  "title_aliases": [
+    "Cameroon Mountain Greenbul"
+  ],
+  "bird_id": "bird-cameroon-mountain-greenbul-ce7b746b",
+  "raw_file": "bird-cameroon-mountain-greenbul-ce7b746b.json",
+  "bird": {
+    "id": "bird-cameroon-mountain-greenbul-ce7b746b",
+    "name": "Cameroon mountain greenbul",
+    "english_name": "Cameroon mountain greenbul",
+    "latin_name": "Arizelocichla montana",
+    "summary": "The Cameroon mountain greenbul (Arizelocichla montana) is a species of the bulbul family of passerine birds. It is found in the Cameroonian…",
+    "lat": "6",
+    "lng": "11",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Die_V%C3%B6gel_Afrikas_%281902%29_Tafel_16_%286425141179%29.jpg/960px-Die_V%C3%B6gel_Afrikas_%281902%29_Tafel_16_%286425141179%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-cameroonian-highlands-forests-458b5242",
+      "name": "Cameroonian Highlands forests",
+      "summary": "The Cameroonian Highlands forests, also known as the Cameroon Highlands forests, is a montane tropical moist broadleaf…",
+      "lat": "6",
+      "lng": "11"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cameroon-mountain-greenbul-ce7b746b",
+      "subject": "Cameroon mountain greenbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-cameroonian-highlands-forests-458b5242",
+      "object": "Cameroonian Highlands forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cameroonian Highlands forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cameroon-mountain-greenbul-ce7b746b",
+      "subject": "Cameroon mountain greenbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-cameroon-mountain-greenbul-ce7b746b",
+      "subject": "Cameroon mountain greenbul",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is suspected to become rarer due to habitat loss, largely from agriculture, although this is not enough to approach the thresholds for Vulnerable status",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

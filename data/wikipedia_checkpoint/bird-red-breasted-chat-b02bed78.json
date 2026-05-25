@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:58:33",
+  "requested_title": "Red-breasted Chat",
+  "resolved_title": "Red-breasted chat",
+  "title_aliases": [
+    "Red-breasted Chat"
+  ],
+  "bird_id": "bird-red-breasted-chat-b02bed78",
+  "raw_file": "bird-red-breasted-chat-b02bed78.json",
+  "bird": {
+    "id": "bird-red-breasted-chat-b02bed78",
+    "name": "Red-breasted chat",
+    "english_name": "Red-breasted chat",
+    "latin_name": "Granatellus venustus",
+    "summary": "The red-breasted chat (Granatellus venustus) is a species of bird in the family Cardinalidae, the cardinals or cardinal grosbeaks. It is en…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Red-breasted_Chat_-_Oaxaca_-_Mexico_S4E8587_%2823040934886%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-thorn-forest-4be049cb",
+      "name": "Thorn forest",
+      "summary": "A thorn forest is a dense scrubland with vegetation characteristic of dry subtropical and warm temperate areas with mon…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-breasted-chat-b02bed78",
+      "subject": "Red-breasted chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-thorn-forest-4be049cb",
+      "object": "Thorn forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits thorn forest and scrubby woodland and can be found in the understory of secondary forest and other heavy growth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-breasted-chat-b02bed78",
+      "subject": "Red-breasted chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits thorn forest and scrubby woodland and can be found in the understory of secondary forest and other heavy growth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-breasted-chat-b02bed78",
+      "subject": "Red-breasted chat",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

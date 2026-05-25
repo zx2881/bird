@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:18:10",
+  "requested_title": "Northern Grosbeak-Canary",
+  "resolved_title": "Northern grosbeak-canary",
+  "title_aliases": [
+    "Northern Grosbeak-Canary"
+  ],
+  "bird_id": "bird-northern-grosbeak-canary-2cfab005",
+  "raw_file": "bird-northern-grosbeak-canary-2cfab005.json",
+  "bird": {
+    "id": "bird-northern-grosbeak-canary-2cfab005",
+    "name": "Northern grosbeak-canary",
+    "english_name": "Northern grosbeak-canary",
+    "latin_name": "Crithagra donaldsoni",
+    "summary": "The northern grosbeak-canary or Abyssinian grosbeak-canary (Crithagra donaldsoni) is a species of passerine bird in the finch family Fringi…",
+    "lat": "9",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/SerinusKeulemans.jpg/960px-SerinusKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-索马里-5b5a7d76",
+      "name": "索马里",
+      "summary": "索馬里联邦共和国（索馬里語：Jamhuuriyadda Federaalka Soomaaliya；阿拉伯語：جمهورية الصومال الفدرالية，Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya；英語…",
+      "lat": "10",
+      "lng": "49"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-northern-grosbeak-canary-2cfab005",
+      "subject": "Northern grosbeak-canary",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ethiopia, Kenya, and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-northern-grosbeak-canary-2cfab005",
+      "subject": "Northern grosbeak-canary",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ethiopia, Kenya, and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-northern-grosbeak-canary-2cfab005",
+      "subject": "Northern grosbeak-canary",
+      "predicate": "distributed_in",
+      "object_id": "loc-索马里-5b5a7d76",
+      "object": "索马里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Ethiopia, Kenya, and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-northern-grosbeak-canary-2cfab005",
+      "subject": "Northern grosbeak-canary",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

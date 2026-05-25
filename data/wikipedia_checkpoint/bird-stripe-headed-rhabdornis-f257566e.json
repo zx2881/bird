@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:19:11",
+  "requested_title": "Stripe-headed Rhabdornis",
+  "resolved_title": "Stripe-headed rhabdornis",
+  "title_aliases": [
+    "Stripe-headed Rhabdornis"
+  ],
+  "bird_id": "bird-stripe-headed-rhabdornis-f257566e",
+  "raw_file": "bird-stripe-headed-rhabdornis-f257566e.json",
+  "bird": {
+    "id": "bird-stripe-headed-rhabdornis-f257566e",
+    "name": "Stripe-headed rhabdornis",
+    "english_name": "Stripe-headed rhabdornis",
+    "latin_name": "Rhabdornis mystacalis",
+    "summary": "The stripe-headed rhabdornis or stripe-headed creeper (Rhabdornis mystacalis), also known as the stripe-sided rhabdornis, is a species of b…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/7575_Stripe-sided_Rhabdornis_3.jpg/960px-7575_Stripe-sided_Rhabdornis_3.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-stripe-headed-rhabdornis-f257566e",
+      "subject": "Stripe-headed rhabdornis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-stripe-headed-rhabdornis-f257566e",
+      "subject": "Stripe-headed rhabdornis",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population is still decreasing due to the habitat loss and deforestation in the Philippines",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-stripe-headed-rhabdornis-f257566e",
+      "subject": "Stripe-headed rhabdornis",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population is still decreasing due to the habitat loss and deforestation in the Philippines",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

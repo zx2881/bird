@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:01:40",
+  "requested_title": "White-masked Antbird",
+  "resolved_title": "White-masked antbird",
+  "title_aliases": [
+    "White-masked Antbird"
+  ],
+  "bird_id": "bird-white-masked-antbird-efcc4f61",
+  "raw_file": "bird-white-masked-antbird-efcc4f61.json",
+  "bird": {
+    "id": "bird-white-masked-antbird-efcc4f61",
+    "name": "White-masked antbird",
+    "english_name": "White-masked antbird",
+    "latin_name": "Pithys castaneus",
+    "summary": "The white-masked antbird (Pithys castaneus) is a Near Threatened species of bird in subfamily Thamnophilinae of family Thamnophilidae, the…",
+    "lat": "-6.22",
+    "lng": "-77.85",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Pithys_castaneus_map.svg/960px-Pithys_castaneus_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-亚马孙大区-38aaf113",
+      "name": "亚马孙大区",
+      "summary": "亚马孙大区是秘鲁北部的一个行政区，首府查查波亚斯。亚马孙大区西接卡哈马卡大区，南邻拉利伯塔德大区，东接洛雷托大区和圣马丁大区，北面和西面与厄瓜多尔接壤。 亚马孙区大部分面积被热带雨林覆盖（72.93%）。",
+      "lat": "-6.22",
+      "lng": "-77.85"
+    },
+    {
+      "id": "loc-洛雷托大区-f06273fa",
+      "name": "洛雷托大区",
+      "summary": "洛雷托大區（西班牙語：Departamento de Loreto）是秘魯東北部的一個大區，地處亞馬遜平原之上，東南鄰巴西，東北鄰哥倫比亞，西北鄰厄瓜多爾。面積368,851.95平方公里，佔全國面積三分之一。2007年，人口884144…",
+      "lat": "-4",
+      "lng": "-74.32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-masked-antbird-efcc4f61",
+      "subject": "White-masked antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-亚马孙大区-38aaf113",
+      "object": "亚马孙大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-masked antbird is found in northern Peru in a small area from northeastern Amazonas Department into western Loreto",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-masked-antbird-efcc4f61",
+      "subject": "White-masked antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-洛雷托大区-f06273fa",
+      "object": "洛雷托大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-masked antbird is found in northern Peru in a small area from northeastern Amazonas Department into western Loreto",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-masked-antbird-efcc4f61",
+      "subject": "White-masked antbird",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

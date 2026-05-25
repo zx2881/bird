@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:04:45",
+  "requested_title": "Musician Wren",
+  "resolved_title": "Musician wren",
+  "title_aliases": [
+    "Musician Wren"
+  ],
+  "bird_id": "bird-musician-wren-cb82671c",
+  "raw_file": "bird-musician-wren-cb82671c.json",
+  "bird": {
+    "id": "bird-musician-wren-cb82671c",
+    "name": "Musician wren",
+    "english_name": "Musician wren",
+    "latin_name": "Cyphorhinus arada",
+    "summary": "The musician wren or organ wren (Cyphorhinus arada) is a species of wren named for its elaborate song. It is native to the Amazon rainfores…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cyphorhinus_arada_arada_-_Musician_wren%2C_Pte._Figueiredo%2C_Amazonas%2C_Brazil.jpg/960px-Cyphorhinus_arada_arada_-_Musician_wren%2C_Pte._Figueiredo%2C_Amazonas%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜雨林-bf3e16da",
+      "name": "亞馬遜雨林",
+      "summary": "亞馬遜雨林（葡萄牙語：Amazônia、西班牙語：Amazonia），又稱亞馬遜河雨林，位於南美洲亞馬遜盆地的熱帶雨林，佔地僅存約500萬平方公里，使這片雨林生機盎然的就是亞馬遜河。雨林橫越了8個國家：巴西（佔森林60%面積）、哥倫比亞、…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "South America is a continent entirely in the Western Hemisphere and mostly in the Southern Hemisphere, with a considera…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-musician-wren-cb82671c",
+      "subject": "Musician wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜雨林-bf3e16da",
+      "object": "亞馬遜雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Amazon rainforest in South America, from the lowlands into the foothills of the Andes.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-musician-wren-cb82671c",
+      "subject": "Musician wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Amazon rainforest in South America, from the lowlands into the foothills of the Andes.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-musician-wren-cb82671c",
+      "subject": "Musician wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "modulator, eastern Peru, northern Bolivia, and western Brazil south of the Amazon as far east as Rio Madeira The musician wren generally inhabits the lower levels of humid forest; in Brazil it is also found in várzea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-musician-wren-cb82671c",
+      "subject": "Musician wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

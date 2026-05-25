@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:03:14",
+  "requested_title": "Grey-headed Nigrita",
+  "resolved_title": "Grey-headed nigrita",
+  "title_aliases": [
+    "Grey-headed Nigrita"
+  ],
+  "bird_id": "bird-灰冠黑雀-0e0b3e63",
+  "raw_file": "bird-灰冠黑雀-0e0b3e63.json",
+  "bird": {
+    "id": "bird-灰冠黑雀-0e0b3e63",
+    "name": "灰冠黑雀",
+    "english_name": "Grey-headed nigrita",
+    "latin_name": "Nigrita canicapillus",
+    "summary": "灰冠黑雀（学名：Nigrita canicapilla）是梅花雀科黑雀属的一种，在非洲分布广泛。其全球活动范围有3,700,000平方公里（370,000,000公頃）。分布于安哥拉、贝宁、喀麦隆、中非共和国、刚果共和国、刚果民主共和国、科特迪瓦、赤道几内亚、加蓬、冈比亚、加纳…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Uganda_2011_246-crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-hugh-edwin-strickland-4cc3f28e",
+      "name": "Hugh Edwin Strickland",
+      "summary": "Hugh Edwin Strickland (2 March 1811 – 14 September 1853) was an English geologist, ornithologist, naturalist and system…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰冠黑雀-0e0b3e63",
+      "subject": "灰冠黑雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-hugh-edwin-strickland-4cc3f28e",
+      "object": "Hugh Edwin Strickland",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-headed nigrita (Nigrita canicapillus) is a common species of estrildid finch found in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰冠黑雀-0e0b3e63",
+      "subject": "灰冠黑雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

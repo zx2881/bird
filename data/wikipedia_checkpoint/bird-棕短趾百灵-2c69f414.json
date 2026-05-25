@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:53:29",
+  "requested_title": "Somali Short-toed Lark",
+  "resolved_title": "Somali short-toed lark",
+  "title_aliases": [
+    "Somali Short-toed Lark"
+  ],
+  "bird_id": "bird-棕短趾百灵-2c69f414",
+  "raw_file": "bird-棕短趾百灵-2c69f414.json",
+  "bird": {
+    "id": "bird-棕短趾百灵-2c69f414",
+    "name": "棕短趾百灵",
+    "english_name": "Somali short-toed lark",
+    "latin_name": "Alaudala somalica",
+    "summary": "棕短趾百灵（学名：Calandrella somalica），是百灵科短趾百灵属的一种，是游猎迁徙的候鸟，分布于索马里、肯尼亚、坦桑尼亚和埃塞俄比亚。全球活动范围约为298,000平方千米。该物种的保护状况被评为无危。 棕短趾百灵的栖息地为亚热带或热带的（低地）干草原。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Alaudula_somalica.jpg/960px-Alaudula_somalica.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "name": "理查德·鮑德勒·夏普",
+      "summary": "理查德·鮑德勒·夏普（英語：Richard Bowdler Sharpe，1847年11月22日—1909年12月25日）是一位英國動物學家兼鳥類學家，於大英博物館擔任鳥類標本的策展人。在其職涯裡，夏普出版了一些有關鳥類的專著，並整理出博…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕短趾百灵-2c69f414",
+      "subject": "棕短趾百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "object": "理查德·鮑德勒·夏普",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Somali short-toed lark (Alaudala somalica) is a small passerine bird of the lark family found in eastern and north-eastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕短趾百灵-2c69f414",
+      "subject": "棕短趾百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The habitat of the Somali short-toed lark is subtropical or tropical dry lowland grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-棕短趾百灵-2c69f414",
+      "subject": "棕短趾百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

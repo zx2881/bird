@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:08:07",
+  "requested_title": "Grauer's Broadbill",
+  "resolved_title": "Grauer's broadbill",
+  "title_aliases": [
+    "Grauer's Broadbill"
+  ],
+  "bird_id": "bird-非洲绿阔嘴鸟-80e3e864",
+  "raw_file": "bird-非洲绿阔嘴鸟-80e3e864.json",
+  "bird": {
+    "id": "bird-非洲绿阔嘴鸟-80e3e864",
+    "name": "非洲绿阔嘴鸟",
+    "english_name": "Grauer's broadbill",
+    "latin_name": "Pseudocalyptomena graueri",
+    "summary": "非洲绿阔嘴鸟（学名：Pseudocalyptomena graueri），是阔嘴鸟科非洲绿阔嘴鸟属的一种，分布于刚果民主共和国和乌干达。全球活动范围约为18,600平方千米。该物种的保护状况被评为易危。 非洲绿阔嘴鸟的平均体重约为31.8克。栖息地包括耕地、亚热带或热带严重退化…",
+    "lat": "-9",
+    "lng": "34",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PseudocalyptomenaGraueriKeulemans.jpg/960px-PseudocalyptomenaGraueriKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-2e19d96a",
+      "name": "Albertine Rift",
+      "summary": "The Albertine Rift is the western branch of the East African Rift, covering parts of Uganda, the Democratic Republic of…",
+      "lat": "-9",
+      "lng": "34"
+    },
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    },
+    {
+      "id": "loc-乌干达-8bd6d93b",
+      "name": "乌干达",
+      "summary": "烏干達共和國（斯瓦希里語：Jamhuri ya Uganda，英語：Republic of Uganda），通稱烏干達，是位於東非的內陸國家。 烏干達名稱來自於過去班圖人建立的布干達王國。歐洲列強在十九世紀後葉進入東非內陸後，烏干達在18…",
+      "lat": "1",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-非洲绿阔嘴鸟-80e3e864",
+      "subject": "非洲绿阔嘴鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-2e19d96a",
+      "object": "Albertine Rift",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in tropical moist montane forest, and is endemic to the Albertine Rift Mountains of the Democratic Republic of Congo and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲绿阔嘴鸟-80e3e864",
+      "subject": "非洲绿阔嘴鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in tropical moist montane forest, and is endemic to the Albertine Rift Mountains of the Democratic Republic of Congo and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲绿阔嘴鸟-80e3e864",
+      "subject": "非洲绿阔嘴鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌干达-8bd6d93b",
+      "object": "乌干达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in tropical moist montane forest, and is endemic to the Albertine Rift Mountains of the Democratic Republic of Congo and Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲绿阔嘴鸟-80e3e864",
+      "subject": "非洲绿阔嘴鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in tropical moist montane forest, and is endemic to the Albertine Rift Mountains of the Democratic Republic of Congo and Uganda",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-非洲绿阔嘴鸟-80e3e864",
+      "subject": "非洲绿阔嘴鸟",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-非洲绿阔嘴鸟-80e3e864",
+      "subject": "非洲绿阔嘴鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by deforestation and habitat degradation, particularly as its currently known distribution overlaps with areas that have seen massive human population influxes in the recent past",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-非洲绿阔嘴鸟-80e3e864",
+      "subject": "非洲绿阔嘴鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by deforestation and habitat degradation, particularly as its currently known distribution overlaps with areas that have seen massive human population influxes in the recent past",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

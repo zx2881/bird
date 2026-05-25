@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:27:30",
+  "requested_title": "Prairie Falcon",
+  "resolved_title": "Prairie falcon",
+  "title_aliases": [
+    "Prairie Falcon"
+  ],
+  "bird_id": "bird-prairie-falcon-fd8ea7e5",
+  "raw_file": "bird-prairie-falcon-fd8ea7e5.json",
+  "bird": {
+    "id": "bird-prairie-falcon-fd8ea7e5",
+    "name": "Prairie falcon",
+    "english_name": "Prairie falcon",
+    "latin_name": "Falco mexicanus",
+    "summary": "The prairie falcon (Falco mexicanus) is a medium-sized falcon found in Western North America. A separate species from the peregrine falcon,…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/USGS_Prairie_Falcon.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-赫爾曼-施萊格爾-8481bd0b",
+      "name": "赫爾曼·施萊格爾",
+      "summary": "赫爾曼·施萊格爾（德語：Hermann Schlegel，1804年6月10日—1884年1月17日），德國鳥類學家暨爬蟲兩棲類學家。由於其多數著名的研究都是在荷蘭完成，因此常也被認為是荷蘭的科學家。 生平 早年生涯 施萊格爾生於德國阿爾…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-western-north-america-14188f76",
+      "name": "Western North America",
+      "summary": "Western North America is the western edge of the North American continent that borders the Pacific Ocean.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-prairie-falcon-fd8ea7e5",
+      "subject": "Prairie falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-赫爾曼-施萊格爾-8481bd0b",
+      "object": "赫爾曼·施萊格爾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|right|A prairie falcon in Arizona. The prairie falcon (Falco mexicanus) is a medium-sized falcon found in Western North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-prairie-falcon-fd8ea7e5",
+      "subject": "Prairie falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-western-north-america-14188f76",
+      "object": "Western North America",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|right|A prairie falcon in Arizona. The prairie falcon (Falco mexicanus) is a medium-sized falcon found in Western North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-prairie-falcon-fd8ea7e5",
+      "subject": "Prairie falcon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

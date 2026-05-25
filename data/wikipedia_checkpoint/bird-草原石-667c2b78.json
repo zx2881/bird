@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:19:04",
+  "requested_title": "Whinchat",
+  "resolved_title": "Whinchat",
+  "title_aliases": [
+    "Whinchat"
+  ],
+  "bird_id": "bird-草原石-667c2b78",
+  "raw_file": "bird-草原石-667c2b78.json",
+  "bird": {
+    "id": "bird-草原石-667c2b78",
+    "name": "草原石䳭",
+    "english_name": "Whinchat",
+    "latin_name": "Saxicola rubetra",
+    "summary": "草原石䳭（学名：Saxicola rubetra，英語：Whinchat）是一种小型迁徙雀类，在欧洲、西亚繁育，在中非过冬。草原石䳭曾经一度被认定为鸫科，但现在被认为是鹟科。雌雄两性都具有浓重的眉纹，背部发棕，喉部、胸部颜色较浅，腹部发白，羽毛的根部、外缘也为白色，但是到了繁殖…",
+    "lat": "32",
+    "lng": "-6",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tarier_des_pr%C3%A8s_Zaghouan_NP001.jpg/960px-Tarier_des_pr%C3%A8s_Zaghouan_NP001.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩洛哥-4adc9885",
+      "name": "摩洛哥",
+      "summary": "摩洛哥王国（阿拉伯語：المملكة المغربية，柏柏爾語：ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ），通稱摩洛哥（المغرب；ⵍⵎⵖⵔⵉⴱ），是北非西端马格里布的一个君主立宪制国家。其东部与阿尔及利亚接壤，南部其实际管辖的西撒哈拉地区与…",
+      "lat": "32",
+      "lng": "-6"
+    },
+    {
+      "id": "loc-阿尔及利亚-0afc9337",
+      "name": "阿尔及利亚",
+      "summary": "Algeria, officially the People's Democratic Republic of Algeria, is a country in the Maghreb region of North Africa.",
+      "lat": "28",
+      "lng": "2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-草原石-667c2b78",
+      "subject": "草原石䳭",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩洛哥-4adc9885",
+      "object": "摩洛哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Small numbers also winter in northwestern Africa in Morocco, northern Algeria and Tunisia. Available stopover sites are important for the successful migration of whinchat between Africa and Europe, where they face the barriers of the Sahara and Mediterranean Sea.{{cite journal | author1= Blackburn, E",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-草原石-667c2b78",
+      "subject": "草原石䳭",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔及利亚-0afc9337",
+      "object": "阿尔及利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Small numbers also winter in northwestern Africa in Morocco, northern Algeria and Tunisia. Available stopover sites are important for the successful migration of whinchat between Africa and Europe, where they face the barriers of the Sahara and Mediterranean Sea.{{cite journal | author1= Blackburn, E",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-草原石-667c2b78",
+      "subject": "草原石䳭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:10:19",
+  "requested_title": "Bushy-crested Jay",
+  "resolved_title": "Bushy-crested jay",
+  "title_aliases": [
+    "Bushy-crested Jay"
+  ],
+  "bird_id": "bird-浓冠鸦-b202bd1a",
+  "raw_file": "bird-浓冠鸦-b202bd1a.json",
+  "bird": {
+    "id": "bird-浓冠鸦-b202bd1a",
+    "name": "浓冠鸦",
+    "english_name": "Bushy-crested jay",
+    "latin_name": "Cyanocorax melanocyaneus",
+    "summary": "浓冠鸦（学名：Cyanocorax melanocyaneus），是鸦科蓝鸦属的一种，分布于萨尔瓦多、危地马拉、尼加拉瓜和洪都拉斯。全球活动范围约为118,000平方千米。该物种的保护状况被评为无危。 浓冠鸦的平均体重约为105.5克。栖息地包括种植园、亚热带或热带的湿润低地林…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Bushy-crested_Jay_2496235716.jpg/960px-Bushy-crested_Jay_2496235716.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-浓冠鸦-b202bd1a",
+      "subject": "浓冠鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Central America, where its natural habitats are subtropical or tropical moist montane forests and heavily degraded former forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-浓冠鸦-b202bd1a",
+      "subject": "浓冠鸦",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in Central America, where its natural habitats are subtropical or tropical moist montane forests and heavily degraded former forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-浓冠鸦-b202bd1a",
+      "subject": "浓冠鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

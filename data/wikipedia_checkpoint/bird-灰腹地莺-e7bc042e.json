@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:38:35",
+  "requested_title": "Grey-bellied Tesia",
+  "resolved_title": "Grey-bellied tesia",
+  "title_aliases": [
+    "Grey-bellied Tesia"
+  ],
+  "bird_id": "bird-灰腹地莺-e7bc042e",
+  "raw_file": "bird-灰腹地莺-e7bc042e.json",
+  "bird": {
+    "id": "bird-灰腹地莺-e7bc042e",
+    "name": "灰腹地莺",
+    "english_name": "Grey-bellied tesia",
+    "latin_name": "Tesia cyaniventer",
+    "summary": "灰腹地莺（学名：Tesia cyaniventer）为鶲科地莺属的鸟类。在中国大陆，分布于西藏、云南、广西等地。该物种的模式产地在尼泊尔。 参考文献",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Grey_Bellied_Tesia_0A2A1494.jpg/960px-Grey_Bellied_Tesia_0A2A1494.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "中南半岛（法語：Indochine），又稱印度支那半島（简称印度支那、印支）、东南亚大陆地区、东南亚半岛地区等，是亞洲東南部東臨南海、西瀕印度洋的半島，在印度次大陸以東、中国大陆以南，包括今日的緬甸、泰國、老撾、柬埔寨、越南、马来半岛等地…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-豆蔻山脈-2948a02c",
+      "name": "豆蔻山脈",
+      "summary": "豆蔻山脉（高棉語：ជួរភ្នំក្រវាញ，泰語：เขาบรรทัด），是一处位于东南亚中南半岛的一处山脉，主要部分位于柬埔寨西南部，一部分延伸到泰国境内。最高点奥拉山海拔1771米，也是柬埔寨的最高峰。 外部链接 World Wild…",
+      "lat": "12",
+      "lng": "103.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰腹地莺-e7bc042e",
+      "subject": "灰腹地莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its range extends from the Himalayas through southern China and Indochina (the Cardamom and Annamite ranges in particular)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰腹地莺-e7bc042e",
+      "subject": "灰腹地莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its range extends from the Himalayas through southern China and Indochina (the Cardamom and Annamite ranges in particular)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰腹地莺-e7bc042e",
+      "subject": "灰腹地莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-豆蔻山脈-2948a02c",
+      "object": "豆蔻山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its range extends from the Himalayas through southern China and Indochina (the Cardamom and Annamite ranges in particular)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰腹地莺-e7bc042e",
+      "subject": "灰腹地莺",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-灰腹地莺-e7bc042e",
+      "subject": "灰腹地莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

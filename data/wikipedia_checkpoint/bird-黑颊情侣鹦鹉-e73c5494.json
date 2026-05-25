@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:01:23",
+  "requested_title": "Black-cheeked Lovebird",
+  "resolved_title": "Black-cheeked lovebird",
+  "title_aliases": [
+    "Black-cheeked Lovebird"
+  ],
+  "bird_id": "bird-黑颊情侣鹦鹉-e73c5494",
+  "raw_file": "bird-黑颊情侣鹦鹉-e73c5494.json",
+  "bird": {
+    "id": "bird-黑颊情侣鹦鹉-e73c5494",
+    "name": "黑颊情侣鹦鹉",
+    "english_name": "Black-cheeked lovebird",
+    "latin_name": "Agapornis nigrigenis",
+    "summary": "黑颊情侣鹦鹉（ Agapornis nigrigenis ）是情侣鹦鹉属中的一种小型鹦鹉。它的全身主要为绿色，有着棕色的头，红色的喙和白色的眼周。 它是赞比亚西南部一个小地区的特有种，非常容易受到栖息地破坏的影响。",
+    "lat": "-15",
+    "lng": "30",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Black-checked_Lovebird_RWD.jpg/960px-Black-checked_Lovebird_RWD.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-赞比亚-5eceb6be",
+      "name": "赞比亚",
+      "summary": "赞比亚共和国（英語：Republic of Zambia），也稱尚比亞（英語：Zambia），是非洲東南部的一個內陸國家。与刚果民主共和国、坦桑尼亚、马拉维、莫桑比克、津巴布韦、博茨瓦纳、纳米比亚和安哥拉相邻。首都是卢萨卡。 历史 二千年…",
+      "lat": "-15",
+      "lng": "30"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑颊情侣鹦鹉-e73c5494",
+      "subject": "黑颊情侣鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-赞比亚-5eceb6be",
+      "object": "赞比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is mainly green and has a brown head, red beak, and white eyerings. It is endemic to a relatively small range in southwest Zambia, where it is vulnerable to habitat loss",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑颊情侣鹦鹉-e73c5494",
+      "subject": "黑颊情侣鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-黑颊情侣鹦鹉-e73c5494",
+      "subject": "黑颊情侣鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is listed as a vulnerable species as its population is in decline due to continuous habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-黑颊情侣鹦鹉-e73c5494",
+      "subject": "黑颊情侣鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This is due to gradual desiccation of water bodies, causing drought, farming practices, hunting and trapping, fishing, logging and diseases",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-黑颊情侣鹦鹉-e73c5494",
+      "subject": "黑颊情侣鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This is due to gradual desiccation of water bodies, causing drought, farming practices, hunting and trapping, fishing, logging and diseases",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

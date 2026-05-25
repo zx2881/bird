@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T12:10:20",
+  "requested_title": "Slaty-backed Thrush",
+  "resolved_title": "Slaty-backed thrush",
+  "title_aliases": [
+    "Slaty-backed Thrush"
+  ],
+  "bird_id": "bird-slaty-backed-thrush-0a0d18e3",
+  "raw_file": "bird-slaty-backed-thrush-0a0d18e3.json",
+  "bird": {
+    "id": "bird-slaty-backed-thrush-0a0d18e3",
+    "name": "Slaty-backed thrush",
+    "english_name": "Slaty-backed thrush",
+    "latin_name": "Geokichla schistacea",
+    "summary": "The slaty-backed thrush (Geokichla schistacea) is a passerine bird in the Asian thrush genus. It is found in the Tanimbar Islands.",
+    "lat": "-7.5",
+    "lng": "131.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Zoothera-schistacea-keulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塔寧巴爾群島-b051ba35",
+      "name": "塔寧巴爾群島",
+      "summary": "塔寧巴爾群島是印度尼西亞馬魯古省的群島，由約65個島嶼組成，位於阿鲁群岛和卡伊群島西南、巴巴群島和帝汶以東，把班達海和阿拉弗拉海分開，土地總面積5,440平方公里，人口約61,000，其中44,000信奉基督教。行政上隶属马鲁古省的西东南…",
+      "lat": "-7.5",
+      "lng": "131.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-slaty-backed-thrush-0a0d18e3",
+      "subject": "Slaty-backed thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔寧巴爾群島-b051ba35",
+      "object": "塔寧巴爾群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Tanimbar Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-slaty-backed-thrush-0a0d18e3",
+      "subject": "Slaty-backed thrush",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:59:13",
+  "requested_title": "Whiskered Yuhina",
+  "resolved_title": "Whiskered yuhina",
+  "title_aliases": [
+    "Whiskered Yuhina"
+  ],
+  "bird_id": "bird-黄颈凤鹛-ce0e754c",
+  "raw_file": "bird-黄颈凤鹛-ce0e754c.json",
+  "bird": {
+    "id": "bird-黄颈凤鹛-ce0e754c",
+    "name": "黄颈凤鹛",
+    "english_name": "Whiskered yuhina",
+    "latin_name": "Yuhina flavicollis",
+    "summary": "黄颈凤鹛（学名：Yuhina flavicollis）为鶲科凤鹛属的鸟类。分布于印度、尼泊尔、不丹、印度、孟加拉、缅甸、泰国、老挝以及中国大陆的云南、西藏等地，主要生活于一般分布在海拔1220-2440米间的山地，常活动于山坡次生阔叶林、山坡灌丛、常绿阔叶林及沟谷林阔叶树上。该…",
+    "lat": "26",
+    "lng": "91",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Whiskered_Yuhina.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度东北部-8b6d1917",
+      "name": "印度东北部",
+      "summary": "印度东北部是指印度最东部的区域，包括互相毗邻的七个邦和锡金邦，其中阿魯那恰爾邦與中國有領土爭議（中國稱為藏南地區）。該地區與幾個鄰國共享5,182公里（3,220英里，約佔其總地理邊界的99%）的國際邊界，北部1,395公里（867英里）…",
+      "lat": "26",
+      "lng": "91"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄颈凤鹛-ce0e754c",
+      "subject": "黄颈凤鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度东北部-8b6d1917",
+      "object": "印度东北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The whiskered yuhina is sometimes found in mixed hunting parties with other yuhina and fulvetta species, but it has also been reported to not associate with mixed hunting parties in some areas. It is described as one of the commonest yuhinas in the Himalayas, although it is relatively uncommon to rare at low elevations. It prefers relatively undisturbed closed canopy cover. It is one among several other birds hunted by livestock herders in Northeast India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄颈凤鹛-ce0e754c",
+      "subject": "黄颈凤鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its range extends across the Himalayan forests in northern India to northeast Indian states, Nepal, Bhutan, Bangladesh and in the east to Indochina including Laos, Myanmar, Thailand, and Vietnam. Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-黄颈凤鹛-ce0e754c",
+      "subject": "黄颈凤鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

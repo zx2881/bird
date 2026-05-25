@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:17:03",
+  "requested_title": "Black-backed Woodpecker",
+  "resolved_title": "Black-backed woodpecker",
+  "title_aliases": [
+    "Black-backed Woodpecker"
+  ],
+  "bird_id": "bird-black-backed-woodpecker-9511d8f3",
+  "raw_file": "bird-black-backed-woodpecker-9511d8f3.json",
+  "bird": {
+    "id": "bird-black-backed-woodpecker-9511d8f3",
+    "name": "Black-backed woodpecker",
+    "english_name": "Black-backed woodpecker",
+    "latin_name": "Picoides arcticus",
+    "summary": "The black-backed woodpecker (Picoides arcticus), also known as the Arctic three-toed woodpecker, is a medium-sized woodpecker (23 cm (9.1 i…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Picoides_arcticus_-Brunswick%2C_Vermont%2C_USA_-male-8.jpg/960px-Picoides_arcticus_-Brunswick%2C_Vermont%2C_USA_-male-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-william-swainson-ccfed77b",
+      "name": "William Swainson",
+      "summary": "William Swainson FLS, FRS (8 October 1789 – 6 December 1855), was an English ornithologist, malacologist, conchologist,…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-backed-woodpecker-9511d8f3",
+      "subject": "Black-backed woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-william-swainson-ccfed77b",
+      "object": "William Swainson",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-backed woodpecker (Picoides arcticus), also known as the Arctic three-toed woodpecker, is a medium-sized woodpecker ( long) inhabiting the forests of North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-backed-woodpecker-9511d8f3",
+      "subject": "Black-backed woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

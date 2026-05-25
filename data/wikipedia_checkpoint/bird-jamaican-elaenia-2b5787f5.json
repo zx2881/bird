@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:36:07",
+  "requested_title": "Jamaican Elaenia",
+  "resolved_title": "Jamaican elaenia",
+  "title_aliases": [
+    "Jamaican Elaenia"
+  ],
+  "bird_id": "bird-jamaican-elaenia-2b5787f5",
+  "raw_file": "bird-jamaican-elaenia-2b5787f5.json",
+  "bird": {
+    "id": "bird-jamaican-elaenia-2b5787f5",
+    "name": "Jamaican elaenia",
+    "english_name": "Jamaican elaenia",
+    "latin_name": "Myiopagis cotta",
+    "summary": "The Small Jamaican elaenia (Myiopagis cotta) is a species of bird in the family Tyrannidae. It is endemic to Jamaica.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Myiopagis_cotta_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林砍伐-a42d3dcf",
+      "name": "森林砍伐",
+      "summary": "森林砍伐，或稱森林開伐、去森林化（Deforestation）、森林破壞，意為人為的將森林地轉成耕地、牧場、城市等非森林用途的行為。一般來說，森林開伐會造成環境退化和物種多樣性的減少。許多國家還在進行森林開伐，造成了氣候變遷和地理環境的改…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-jamaican-elaenia-2b5787f5",
+      "subject": "Jamaican elaenia",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林砍伐-a42d3dcf",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Jamaican elaenia is native to Jamaica where 75% of its original forest has been cleared and what remains of that is majority second growth. The 25% that remains of original forest remains on high mountains and cliffs and places that are undisturbed by humans or places that prove to be more difficult to get to or uninhabitable land. Likewise, land in Jamaica is also protected by the John Crow national park. Their habitat is also exposed to hurricane damage, use of pesticides, plantations, forest removal, forest fires, and urbanization",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jamaican-elaenia-2b5787f5",
+      "subject": "Jamaican elaenia",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Jamaican elaenia is native to Jamaica where 75% of its original forest has been cleared and what remains of that is majority second growth. The 25% that remains of original forest remains on high mountains and cliffs and places that are undisturbed by humans or places that prove to be more difficult to get to or uninhabitable land. Likewise, land in Jamaica is also protected by the John Crow national park. Their habitat is also exposed to hurricane damage, use of pesticides, plantations, forest removal, forest fires, and urbanization",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-jamaican-elaenia-2b5787f5",
+      "subject": "Jamaican elaenia",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

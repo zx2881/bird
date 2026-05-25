@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:03:19",
+  "requested_title": "Large Fig Parrot",
+  "resolved_title": "Large fig parrot",
+  "title_aliases": [
+    "Large Fig Parrot"
+  ],
+  "bird_id": "bird-大无花果鹦鹉-ee758332",
+  "raw_file": "bird-大无花果鹦鹉-ee758332.json",
+  "bird": {
+    "id": "bird-大无花果鹦鹉-ee758332",
+    "name": "大无花果鹦鹉",
+    "english_name": "Large fig parrot",
+    "latin_name": "Cyclopsitta desmarestii",
+    "summary": "大無花果鸚鵡（学名：Psittaculirostris desmarestii）又名德氏果鸚鵡或德氏無花果鸚鵡，是分布於新幾內亞西北部、南部、西南部及西北部外海幾座島嶼的一種中型鸚鵡，生活於低海拔森林或開闊林地。 特徵 全長約 18 至 20 公分，體重 108 至 126 公…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Buntbrust-Feigenpapagei_Psittaculirostris_desmarestrii_090501_We_228.JPG/960px-Buntbrust-Feigenpapagei_Psittaculirostris_desmarestrii_090501_We_228.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大无花果鹦鹉-ee758332",
+      "subject": "大无花果鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the West Papuan Islands, Indonesia and in southern and western New Guinea (Indonesia and Papua New Guinea).<ref name=\"Forshaw (2006)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大无花果鹦鹉-ee758332",
+      "subject": "大无花果鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the West Papuan Islands, Indonesia and in southern and western New Guinea (Indonesia and Papua New Guinea).<ref name=\"Forshaw (2006)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大无花果鹦鹉-ee758332",
+      "subject": "大无花果鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

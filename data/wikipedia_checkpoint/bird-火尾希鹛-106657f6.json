@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T23:04:20",
+  "requested_title": "Red-tailed Minla",
+  "resolved_title": "Red-tailed minla",
+  "title_aliases": [
+    "Red-tailed Minla"
+  ],
+  "bird_id": "bird-火尾希鹛-106657f6",
+  "raw_file": "bird-火尾希鹛-106657f6.json",
+  "bird": {
+    "id": "bird-火尾希鹛-106657f6",
+    "name": "火尾希鹛",
+    "english_name": "Red-tailed minla",
+    "latin_name": "Minla ignotincta",
+    "summary": "火尾希鹛（学名：Minla ignotincta）又称红尾希鹛，是希鹛属的唯一一种，分布于不丹、孟加拉国、老挝、中国大陆、越南、印度、缅甸和尼泊尔。该物种的保护状况被评为无危。 火尾希鹛的平均体重约为14.3克。栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林。该物…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Red-tailed_minla_01.jpg/960px-Red-tailed_minla_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-火尾希鹛-106657f6",
+      "subject": "火尾希鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the only species in the genus Minla. It is found in the Indian subcontinent and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-火尾希鹛-106657f6",
+      "subject": "火尾希鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-火尾希鹛-106657f6",
+      "subject": "火尾希鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

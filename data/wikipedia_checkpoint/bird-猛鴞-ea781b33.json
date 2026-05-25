@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:22:05",
+  "requested_title": "Northern Hawk-Owl",
+  "resolved_title": "Northern hawk-owl",
+  "title_aliases": [
+    "Northern Hawk-Owl"
+  ],
+  "bird_id": "bird-猛鴞-ea781b33",
+  "raw_file": "bird-猛鴞-ea781b33.json",
+  "bird": {
+    "id": "bird-猛鴞-ea781b33",
+    "name": "猛鴞",
+    "english_name": "Northern hawk-owl",
+    "latin_name": "Surnia ulula",
+    "summary": "猛鴞（學名：Surnia ulula），又名北方鷹鴞或長尾鴞，是一種貓頭鷹。它們雖又稱「鷹鴞」，但並非屬於鷹鴞屬，而是猛鴞屬下的唯一物種。 特徵 猛鴞的體型中等大小，雙翼的形狀及長的尾巴像鷹，故又稱北方鷹鴞。它們長約35-43厘米，翼展69-82厘米。頭部很圓，眼睛黃色，上身呈…",
+    "lat": "61",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Surnia_ulula_-_Northern_Hawk-Owl%2C_H%C3%B6kuggla.jpg/960px-Surnia_ulula_-_Northern_Hawk-Owl%2C_H%C3%B6kuggla.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    },
+    {
+      "id": "loc-大不列顛島-c1658bb7",
+      "name": "大不列顛島",
+      "summary": "大不列颠岛（英語：Great Britain；蘇格蘭蓋爾語：Breatainn Mhòr；威爾斯語：Prydain Fawr；康瓦爾語：Breten Veur）是一个位于欧洲西北部的岛屿，面積209,331平方公里，是全世界第九大岛屿，也…",
+      "lat": "54",
+      "lng": "-2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-猛鴞-ea781b33",
+      "subject": "猛鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "2008\"/> The other two subspecies are found in northeastern Europe and Siberia: S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-猛鴞-ea781b33",
+      "subject": "猛鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-大不列顛島-c1658bb7",
+      "object": "大不列顛島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "ulula can occasionally be found in more southern areas such as Great Britain, southern Russia and Scandinavia, following explosions of prey. Northern hawk-owls are unevenly distributed and highly variable throughout the boreal forest. They live mostly in open coniferous forests, or coniferous forests mixed with deciduous species such as larch, birch, poplar, and willow",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-猛鴞-ea781b33",
+      "subject": "猛鴞",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They are found in muskegs, clearings, swamp valleys, meadows, or recently burnt areas, and generally avoid dense spruce-fir forests. Their winter habitat is usually the same as the breeding habitat",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-猛鴞-ea781b33",
+      "subject": "猛鴞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

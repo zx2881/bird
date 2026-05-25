@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:22:42",
+  "requested_title": "Two-barred Crossbill",
+  "resolved_title": "Two-barred crossbill",
+  "title_aliases": [
+    "Two-barred Crossbill"
+  ],
+  "bird_id": "bird-白翅交嘴雀-d2715e82",
+  "raw_file": "bird-白翅交嘴雀-d2715e82.json",
+  "bird": {
+    "id": "bird-白翅交嘴雀-d2715e82",
+    "name": "白翅交嘴雀",
+    "english_name": "Two-barred crossbill",
+    "latin_name": "Loxia leucoptera",
+    "summary": "The two-barred crossbill or white-winged crossbill (Loxia leucoptera) is a small passerine bird in the finch family Fringillidae. It breeds…",
+    "lat": "64",
+    "lng": "-152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Whitewingedcrossbillmale09.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉斯加州-6d35b63b",
+      "name": "阿拉斯加州",
+      "summary": "阿拉斯加州（英語：Alaska，發音：/əˈlæskə/ ；舊譯「亞尼俺國」、「亞拉士加」）是美國位於北美洲最西北端的聯邦州。州以東與加拿大的英屬哥倫比亞省和育空地區相鄰，最西端位於阿圖島，並與俄羅斯在白令海峽以西有一海上邊界。以北有楚科…",
+      "lat": "64",
+      "lng": "-152"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白翅交嘴雀-d2715e82",
+      "subject": "白翅交嘴雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉斯加州-6d35b63b",
+      "object": "阿拉斯加州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird breeds in the coniferous forests of Alaska, Canada, the northernmost United States and across the Palearctic extending into northeast Europe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白翅交嘴雀-d2715e82",
+      "subject": "白翅交嘴雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

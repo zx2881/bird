@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:14:16",
+  "requested_title": "Bananaquit",
+  "resolved_title": "Bananaquit",
+  "title_aliases": [
+    "Bananaquit"
+  ],
+  "bird_id": "bird-蕉森鶯-0870f8fd",
+  "raw_file": "bird-蕉森鶯-0870f8fd.json",
+  "bird": {
+    "id": "bird-蕉森鶯-0870f8fd",
+    "name": "蕉森鶯",
+    "english_name": "Bananaquit",
+    "latin_name": "Coereba flaveola",
+    "summary": "曲嘴森莺（台湾作蕉森鶯，学名：Coereba flaveola），是雀形目唐纳雀科的一种鸟类，属于单型的曲嘴森莺属（学名：Coereba），有時亦被划分为单独的蕉森鶯科（学名：Coerebidae）。它分布於西印度群岛和墨西哥南部。蕉森鶯長度僅十多公分，食物為花蜜、昆虫和果实，…",
+    "lat": "19",
+    "lng": "-96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Bananaquits.jpg/960px-Bananaquits.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-美洲-f26eed21",
+      "name": "美洲",
+      "summary": "The Americas, sometimes collectively called America, are a landmass comprising the totality of North America and South…",
+      "lat": "19",
+      "lng": "-96"
+    },
+    {
+      "id": "loc-古巴-b585ac9f",
+      "name": "古巴",
+      "summary": "古巴共和国（西班牙語：República de Cuba），通称古巴（Cuba），是美洲西印度群島西部的社会主义国家，介於北緯19°與24°、西經74°與85°之間。該國地處墨西哥灣口，西隔尤卡坦海峡與墨西哥尤卡坦半岛相望，南鄰牙買加和開…",
+      "lat": "22",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-佛罗里达州-2bd04b45",
+      "name": "佛罗里达州",
+      "summary": "佛罗里达州（英語：State of Florida），简称佛州，是位于美国东南部的一个州。该州西临墨西哥湾，西北与阿拉巴马州接壤，北邻佐治亚州，东濒大西洋，南接佛罗里达海峡，并与古巴隔海相望。佛罗里达州大部分土地位于墨西哥湾和大西洋之间的…",
+      "lat": "28",
+      "lng": "-82"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蕉森鶯-0870f8fd",
+      "subject": "蕉森鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-美洲-f26eed21",
+      "object": "美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This small, active nectarivore is found in warmer parts of the Americas and is generally common",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蕉森鶯-0870f8fd",
+      "subject": "蕉森鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-古巴-b585ac9f",
+      "object": "古巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found throughout the West Indies, except for Cuba. Birds from the Bahamas are rare visitors to Florida. It occurs in a wide range of open to semi-open habitats, including gardens and parks, but it is rare or absent in deserts, dense forests (e.g",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蕉森鶯-0870f8fd",
+      "subject": "蕉森鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-佛罗里达州-2bd04b45",
+      "object": "佛罗里达州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found throughout the West Indies, except for Cuba. Birds from the Bahamas are rare visitors to Florida. It occurs in a wide range of open to semi-open habitats, including gardens and parks, but it is rare or absent in deserts, dense forests (e.g",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蕉森鶯-0870f8fd",
+      "subject": "蕉森鶯",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

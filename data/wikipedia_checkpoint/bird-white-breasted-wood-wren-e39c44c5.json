@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:14:13",
+  "requested_title": "White-breasted Wood Wren",
+  "resolved_title": "White-breasted wood wren",
+  "title_aliases": [
+    "White-breasted Wood Wren"
+  ],
+  "bird_id": "bird-white-breasted-wood-wren-e39c44c5",
+  "raw_file": "bird-white-breasted-wood-wren-e39c44c5.json",
+  "bird": {
+    "id": "bird-white-breasted-wood-wren-e39c44c5",
+    "name": "White-breasted wood wren",
+    "english_name": "White-breasted wood wren",
+    "latin_name": "Henicorhina leucosticta",
+    "summary": "The white-breasted wood wren (Henicorhina leucosticta) is a small songbird of the wren family. It is a resident breeding species from centr…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Henicorhina_leucosticta_-_White-breasted_Wood_Wren%3B_Balbina%2C_Amazonas%2C_Brazil.jpg/960px-Henicorhina_leucosticta_-_White-breasted_Wood_Wren%3B_Balbina%2C_Amazonas%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-平均海拔-ddd8aa74",
+      "name": "平均海拔",
+      "summary": "平均海拔（英語：Above mean sea level，缩写：AMSL）又称为海拔高度，是指以平均海平面高度作为高程基准面起测定的地面或空中高度，对地理测量，飞行控制，电台设定，气象研究都有决定性作用。 所谓平均海平面高度实际是并不存在…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-breasted-wood-wren-e39c44c5",
+      "subject": "White-breasted wood wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-平均海拔-ddd8aa74",
+      "object": "平均海拔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "leucosticta breeds in lowlands and foothills up to above sea level in tropical wet forest and adjacent tall second growth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-breasted-wood-wren-e39c44c5",
+      "subject": "White-breasted wood wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "leucosticta breeds in lowlands and foothills up to above sea level in tropical wet forest and adjacent tall second growth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-breasted-wood-wren-e39c44c5",
+      "subject": "White-breasted wood wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "leucosticta breeds in lowlands and foothills up to above sea level in tropical wet forest and adjacent tall second growth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-breasted-wood-wren-e39c44c5",
+      "subject": "White-breasted wood wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

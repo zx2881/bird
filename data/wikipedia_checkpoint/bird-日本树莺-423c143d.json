@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:42:57",
+  "requested_title": "Japanese Bush Warbler",
+  "resolved_title": "Japanese bush warbler",
+  "title_aliases": [
+    "Japanese Bush Warbler"
+  ],
+  "bird_id": "bird-日本树莺-423c143d",
+  "raw_file": "bird-日本树莺-423c143d.json",
+  "bird": {
+    "id": "bird-日本树莺-423c143d",
+    "name": "日本树莺",
+    "english_name": "Japanese bush warbler",
+    "latin_name": "Horornis diphone",
+    "summary": "日本樹鶯（学名：Horornis diphone）又名短翅樹鶯，为樹鶯科山樹鶯屬的鳥類。日文稱為uguisu（鶯），經常是先聞其聲而不見其影。牠獨特的繁殖歌聲可在春季開始時遍及日本大部分地區。 該物種的模式產地在日本小笠原群島。",
+    "lat": "43",
+    "lng": "125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Cettia_diphone_%28crying%29.JPG/960px-Cettia_diphone_%28crying%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    },
+    {
+      "id": "loc-中華民國-e9cfdf77",
+      "name": "中華民國",
+      "summary": "中華民國是位於東亞的民主共和國，曾在国际上广泛代表中國，現今多通稱「臺灣」。1912年建國時以前清之中國既有領土為疆域，經歷1949年政府遷臺，現有效管轄範圍包括臺灣本島、澎湖群島及其附屬島嶼，以及中國大陸福建沿岸的金門群島、馬祖列島等島…",
+      "lat": "24",
+      "lng": "121"
+    },
+    {
+      "id": "loc-歐胡島-c3e2957b",
+      "name": "歐胡島",
+      "summary": "瓦胡岛 （夏威夷語：Oʻahu，英語：Oahu，/oʊˈɑːhuː/），又譯為欧胡岛，或被称为“聚集之岛”，或“奧雅胡”，是夏威夷群島中面積第三大的島嶼，也是群島中人口最多的島嶼，聚集了夏威夷州总人口的大约三分之二。夏威夷州首府所在地檀香…",
+      "lat": "21.5",
+      "lng": "-158"
+    },
+    {
+      "id": "loc-夏威夷群島-745dad04",
+      "name": "夏威夷群島",
+      "summary": "The Hawaiian Islands (Hawaiian: Mokupuni Hawaiʻi) are an archipelago of eight major volcanic islands, several atolls, a…",
+      "lat": "20.9",
+      "lng": "-156.6"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-日本树莺-423c143d",
+      "subject": "日本树莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In summer the Japanese bush warbler can also be found in Hokkaidō, Manchuria, Korea, and central China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本树莺-423c143d",
+      "subject": "日本树莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-中華民國-e9cfdf77",
+      "object": "中華民國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In winter, the bush-warbler can also be found in southern China and Taiwan. It was introduced to Oahu between 1929 and 1941 and has since spread throughout the main Hawaiian Islands. In summer, it ranges from low hills to high mountains, preferring bamboo thickets and black pine trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本树莺-423c143d",
+      "subject": "日本树莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-歐胡島-c3e2957b",
+      "object": "歐胡島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In winter, the bush-warbler can also be found in southern China and Taiwan. It was introduced to Oahu between 1929 and 1941 and has since spread throughout the main Hawaiian Islands. In summer, it ranges from low hills to high mountains, preferring bamboo thickets and black pine trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本树莺-423c143d",
+      "subject": "日本树莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏威夷群島-745dad04",
+      "object": "夏威夷群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In winter, the bush-warbler can also be found in southern China and Taiwan. It was introduced to Oahu between 1929 and 1941 and has since spread throughout the main Hawaiian Islands. In summer, it ranges from low hills to high mountains, preferring bamboo thickets and black pine trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本树莺-423c143d",
+      "subject": "日本树莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

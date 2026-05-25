@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:35:16",
+  "requested_title": "Demoiselle Crane",
+  "resolved_title": "Demoiselle crane",
+  "title_aliases": [
+    "Demoiselle Crane"
+  ],
+  "bird_id": "bird-蓑羽鹤-10be0c14",
+  "raw_file": "bird-蓑羽鹤-10be0c14.json",
+  "bird": {
+    "id": "bird-蓑羽鹤-10be0c14",
+    "name": "蓑羽鹤",
+    "english_name": "Demoiselle crane",
+    "latin_name": "Grus virgo",
+    "summary": "蓑羽鹤（学名：Grus virgo），又名闺秀鹤、處子鹤，是一種生活在歐羅西伯利亞中部的鶴類，分佈範圍從黑海到蒙古和中國東北。在土耳其也有少量繁殖群體。這些鶴是候鳥。來自歐亞西部的鳥類會在非洲過冬，而來自亞洲、蒙古和中國的鳥類則會在印度次大陸過冬。這種鳥在印度文化中具有象徵意義…",
+    "lat": "44",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Demoiselle_Cranes_at_Tal_Chappar.jpg/960px-Demoiselle_Cranes_at_Tal_Chappar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-黑海-4e08ade6",
+      "name": "黑海",
+      "summary": "黑海是欧亚大陆的一个陆间海，被欧洲、高加索和安那托利亞半岛所包围。黑海通过博斯普鲁斯海峽之後進入另一個陸間海—馬摩拉海，通過達達尼爾海峽後与地中海的爱琴海区域相联。西亚和东欧被这一系列水体分隔开来。黑海在北面通过刻赤海峽与亞速海相连。流入…",
+      "lat": "44",
+      "lng": "35"
+    },
+    {
+      "id": "loc-中国东北地区-cb57c10c",
+      "name": "中国东北地区",
+      "summary": "中国东北地区，简称中国东北或东北，清初称盛京统部，雍正之后已普遍称东三省，近代曾經被称作關東、滿洲，是中国的一個地理大区。 現在中華人民共和國的东北地区，廣義上指辽宁省、吉林省、黑龙江省以及内蒙古自治区的呼伦贝尔市、兴安盟、赤峰市、通辽市…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-歐亞大陸-c6f303b6",
+      "name": "歐亞大陸",
+      "summary": "亚欧大陆或欧亚大陆，西方国家称为欧罗细亚（英語：Eurasia），是亚细亚洲和欧罗巴洲的合稱，也可以视为亚欧非大陆的一个部分。面积5475.9万平方公里。 亚、欧二洲单从地理学和地质学方面考虑并非两个独立的大陆，应属同一个地球表面面积最大…",
+      "lat": "50",
+      "lng": "80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓑羽鹤-10be0c14",
+      "subject": "蓑羽鹤",
+      "predicate": "distributed_in",
+      "object_id": "loc-黑海-4e08ade6",
+      "object": "黑海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "virgo }} The demoiselle crane (Grus virgo) is a species of crane found in central Eurosiberia, ranging from the Black Sea to Mongolia and Northeast China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓑羽鹤-10be0c14",
+      "subject": "蓑羽鹤",
+      "predicate": "distributed_in",
+      "object_id": "loc-中国东北地区-cb57c10c",
+      "object": "中国东北地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "virgo }} The demoiselle crane (Grus virgo) is a species of crane found in central Eurosiberia, ranging from the Black Sea to Mongolia and Northeast China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓑羽鹤-10be0c14",
+      "subject": "蓑羽鹤",
+      "predicate": "distributed_in",
+      "object_id": "loc-歐亞大陸-c6f303b6",
+      "object": "歐亞大陸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The demoiselle crane breeds in central Eurasia from the Black Sea east to Mongolia and northeast China",
+      "object_summary": ""
+    }
+  ]
+}

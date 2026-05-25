@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:36:18",
+  "requested_title": "Bald Parrot",
+  "resolved_title": "Bald parrot",
+  "title_aliases": [
+    "Bald Parrot"
+  ],
+  "bird_id": "bird-bald-parrot-6697c550",
+  "raw_file": "bird-bald-parrot-6697c550.json",
+  "bird": {
+    "id": "bird-bald-parrot-6697c550",
+    "name": "Bald parrot",
+    "english_name": "Bald parrot",
+    "latin_name": "Pyrilia aurantiocephala",
+    "summary": "The bald parrot (Pyrilia aurantiocephala) or orange-headed parrot is a species of parrot in the family Psittacidae. It is endemic to the ea…",
+    "lat": "-3.37555556",
+    "lng": "-58.77305556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Bald_parrot.JPG/960px-Bald_parrot.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-马代拉河-c159f3fd",
+      "name": "马代拉河",
+      "summary": "马代拉河（葡萄牙語：Rio Madeira）是南美洲的河流，河道全長約3,350公里，是亞馬遜河右岸最長的支流。 2007年7月，巴西政府批准興建兩座用作水力發電的水壩，遭環境人士以破壞生態環境為由反對。",
+      "lat": "-3.37555556",
+      "lng": "-58.77305556"
+    },
+    {
+      "id": "loc-塔帕若斯河-128104de",
+      "name": "塔帕若斯河",
+      "summary": "塔帕若斯河（葡萄牙語：Rio Tapajós）是南美洲巴西的河流，河道全長約1,200英哩，發源自南緯14度25分的巴西高原，最後注入亞馬遜河。 塔帕若斯河的最長支流是特利斯皮里斯河。",
+      "lat": "-2.40833333",
+      "lng": "-54.73666667"
+    },
+    {
+      "id": "loc-特利斯皮里斯河-e2bfe665",
+      "name": "特利斯皮里斯河",
+      "summary": "特利斯皮里斯河（葡萄牙語：Teles Pires或Rio São Manuel）是巴西一條長約1370公里的河流。 特利斯皮里斯河流經馬托格羅索州，下游是馬托格羅索及帕拉兩州的邊界。特利斯皮里斯河出口與茹魯埃納河匯合成為塔帕若斯河。塔帕若…",
+      "lat": "-7.35027778",
+      "lng": "-58.13833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bald-parrot-6697c550",
+      "subject": "Bald parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-马代拉河-c159f3fd",
+      "object": "马代拉河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bald parrots can be found in the humid tropical lowlands spreading throughout the Lower River Madeira and Upper River Tapajós and River Teles Pires, in central Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bald-parrot-6697c550",
+      "subject": "Bald parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔帕若斯河-128104de",
+      "object": "塔帕若斯河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bald parrots can be found in the humid tropical lowlands spreading throughout the Lower River Madeira and Upper River Tapajós and River Teles Pires, in central Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bald-parrot-6697c550",
+      "subject": "Bald parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-特利斯皮里斯河-e2bfe665",
+      "object": "特利斯皮里斯河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bald parrots can be found in the humid tropical lowlands spreading throughout the Lower River Madeira and Upper River Tapajós and River Teles Pires, in central Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bald-parrot-6697c550",
+      "subject": "Bald parrot",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-bald-parrot-6697c550",
+      "subject": "Bald parrot",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is considered near threatened by BirdLife International (and consequently IUCN) due to the widespread deforestation of the Amazon",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

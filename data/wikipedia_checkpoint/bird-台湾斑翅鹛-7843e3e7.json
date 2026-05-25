@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T23:01:46",
+  "requested_title": "Taiwan Barwing",
+  "resolved_title": "Taiwan barwing",
+  "title_aliases": [
+    "Taiwan Barwing"
+  ],
+  "bird_id": "bird-台湾斑翅鹛-7843e3e7",
+  "raw_file": "bird-台湾斑翅鹛-7843e3e7.json",
+  "bird": {
+    "id": "bird-台湾斑翅鹛-7843e3e7",
+    "name": "台湾斑翅鹛",
+    "english_name": "Taiwan barwing",
+    "latin_name": "Actinodura morrisoniana",
+    "summary": "The Taiwan barwing or Formosan barwing (Actinodura morrisoniana) is a species of bird in the family Leiothrichidae. It is found in Taiwan.",
+    "lat": "24",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Actinodure_de_Ta%C3%AFwan.jpg/960px-Actinodure_de_Ta%C3%AFwan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中華民國-e9cfdf77",
+      "name": "中華民國",
+      "summary": "中華民國是位於東亞的民主共和國，曾在国际上广泛代表中國，現今多通稱「臺灣」。1912年建國時以前清之中國既有領土為疆域，經歷1949年政府遷臺，現有效管轄範圍包括臺灣本島、澎湖群島及其附屬島嶼，以及中國大陸福建沿岸的金門群島、馬祖列島等島…",
+      "lat": "24",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-台湾斑翅鹛-7843e3e7",
+      "subject": "台湾斑翅鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-中華民國-e9cfdf77",
+      "object": "中華民國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-台湾斑翅鹛-7843e3e7",
+      "subject": "台湾斑翅鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

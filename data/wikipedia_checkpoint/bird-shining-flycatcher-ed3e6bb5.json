@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:51:04",
+  "requested_title": "Shining Flycatcher",
+  "resolved_title": "Shining flycatcher",
+  "title_aliases": [
+    "Shining Flycatcher"
+  ],
+  "bird_id": "bird-shining-flycatcher-ed3e6bb5",
+  "raw_file": "bird-shining-flycatcher-ed3e6bb5.json",
+  "bird": {
+    "id": "bird-shining-flycatcher-ed3e6bb5",
+    "name": "Shining flycatcher",
+    "english_name": "Shining flycatcher",
+    "latin_name": "Myiagra alecto",
+    "summary": "The shining flycatcher (Myiagra alecto) is a species of bird in the family Monarchidae. It is found in northern Australia, and from the Mol…",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/A1_8930_DxO-Edit.jpg/960px-A1_8930_DxO-Edit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    },
+    {
+      "id": "loc-俾斯麦群岛-19ddf3e6",
+      "name": "俾斯麦群岛",
+      "summary": "俾斯麦群岛（英文：Bismarck Archipelago）是太平洋西南部一群岛，位于新几内亚岛东北，濒临俾斯麦海，由200多个岛屿组成，总陆地面积49700平方公里，主要岛屿有新不列颠岛、新爱尔兰岛等，人口31.4万人，现全部属于巴布亚…",
+      "lat": "-5",
+      "lng": "150.1"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-shining-flycatcher-ed3e6bb5",
+      "subject": "Shining flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern Australia, and from the Moluccas to the Bismarck Archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-shining-flycatcher-ed3e6bb5",
+      "subject": "Shining flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-俾斯麦群岛-19ddf3e6",
+      "object": "俾斯麦群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern Australia, and from the Moluccas to the Bismarck Archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-shining-flycatcher-ed3e6bb5",
+      "subject": "Shining flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

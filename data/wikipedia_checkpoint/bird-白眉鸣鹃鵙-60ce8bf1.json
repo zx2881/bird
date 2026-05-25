@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:11:04",
+  "requested_title": "White-browed Triller",
+  "resolved_title": "White-browed triller",
+  "title_aliases": [
+    "White-browed Triller"
+  ],
+  "bird_id": "bird-白眉鸣鹃鵙-60ce8bf1",
+  "raw_file": "bird-白眉鸣鹃鵙-60ce8bf1.json",
+  "bird": {
+    "id": "bird-白眉鸣鹃鵙-60ce8bf1",
+    "name": "白眉鸣鹃鵙",
+    "english_name": "White-browed triller",
+    "latin_name": "Lalage moesta",
+    "summary": "白眉鸣鹃鵙（学名：Lalage moesta）是山椒鸟科鸣鹃鵙属的一种，为印度尼西亚的特有种。 参考文献 BirdLife International.",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Lalage_moesta_-_James_Eaton_-_337788044.jpeg/960px-Lalage_moesta_-_James_Eaton_-_337788044.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-塔寧巴爾群島-b051ba35",
+      "name": "塔寧巴爾群島",
+      "summary": "塔寧巴爾群島是印度尼西亞馬魯古省的群島，由約65個島嶼組成，位於阿鲁群岛和卡伊群島西南、巴巴群島和帝汶以東，把班達海和阿拉弗拉海分開，土地總面積5,440平方公里，人口約61,000，其中44,000信奉基督教。行政上隶属马鲁古省的西东南…",
+      "lat": "-7.5",
+      "lng": "131.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白眉鸣鹃鵙-60ce8bf1",
+      "subject": "白眉鸣鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in the Tanimbar Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眉鸣鹃鵙-60ce8bf1",
+      "subject": "白眉鸣鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔寧巴爾群島-b051ba35",
+      "object": "塔寧巴爾群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in the Tanimbar Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眉鸣鹃鵙-60ce8bf1",
+      "subject": "白眉鸣鹃鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

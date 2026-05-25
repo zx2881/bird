@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:56:41",
+  "requested_title": "Black-hooded Antwren",
+  "resolved_title": "Black-hooded antwren",
+  "title_aliases": [
+    "Black-hooded Antwren"
+  ],
+  "bird_id": "bird-black-hooded-antwren-0628c912",
+  "raw_file": "bird-black-hooded-antwren-0628c912.json",
+  "bird": {
+    "id": "bird-black-hooded-antwren-0628c912",
+    "name": "Black-hooded antwren",
+    "english_name": "Black-hooded antwren",
+    "latin_name": "Formicivora erythronotos",
+    "summary": "The black-hooded antwren (Formicivora erythronotos) is an Endangered Species of bird in subfamily Thamnophilinae of family Thamnophilidae,…",
+    "lat": "-22.9",
+    "lng": "-43.2",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black-hooded_Antwren._RJ_01.jpg/960px-Black-hooded_Antwren._RJ_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-里約熱內盧州-12dcec68",
+      "name": "里約熱內盧州",
+      "summary": "里約熱內盧州（葡萄牙語：Rio de Janeiro，ˈhiw dʒi ʒʌˈnejɾu） 是巴西的一個州。 里約熱內盧州面積43,696.1km²。該州首府是1763年由葡萄牙人建立的里約熱內盧，該市也是州內最大的城市。",
+      "lat": "-22.9",
+      "lng": "-43.2"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-hooded-antwren-0628c912",
+      "subject": "Black-hooded antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-里約熱內盧州-12dcec68",
+      "object": "里約熱內盧州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is now found in several subpopulations along the coast of Baía da Ilha Grande in Rio de Janeiro state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-hooded-antwren-0628c912",
+      "subject": "Black-hooded antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There it typically inhabits areas in the early stages of succession such as young second growth and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-hooded-antwren-0628c912",
+      "subject": "Black-hooded antwren",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

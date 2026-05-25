@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:04:14",
+  "requested_title": "Black-cheeked Waxbill",
+  "resolved_title": "Black-cheeked waxbill",
+  "title_aliases": [
+    "Black-cheeked Waxbill"
+  ],
+  "bird_id": "bird-红腰梅花雀-004cd2fe",
+  "raw_file": "bird-红腰梅花雀-004cd2fe.json",
+  "bird": {
+    "id": "bird-红腰梅花雀-004cd2fe",
+    "name": "红腰梅花雀",
+    "english_name": "Black-cheeked waxbill",
+    "latin_name": "Brunhilda (bird) charmosyna",
+    "summary": "红腰梅花雀（学名：Brunhilda charmosyna），是梅花雀科Brunhilda属的一种，分布于索马里、肯尼亚、乌干达、苏丹和埃塞俄比亚。全球活动范围约为398,000平方千米。该物种的保护状况被评为无危。 红腰梅花雀的平均体重约为7.4克。栖息地包括干燥的稀树草原、…",
+    "lat": "-2.925",
+    "lng": "37.51",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Black-cheeked_Waxbill%2C_Loitokitok%2C_Kenya_1.jpg/960px-Black-cheeked_Waxbill%2C_Loitokitok%2C_Kenya_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-loitokitok-c7dbbda9",
+      "name": "Loitokitok",
+      "summary": "Loitokitok, also Oloitokitok, or Loitoktok is a town in Kajiado County, Kajiado South Constituency close to the Tanzani…",
+      "lat": "-2.925",
+      "lng": "37.51"
+    },
+    {
+      "id": "loc-安东-赖歇诺-43b8e534",
+      "name": "安东·赖歇诺",
+      "summary": "安东·赖歇诺（德語：Anton Reichenow，1847年8月1日—1941年7月6日）是德国鳥類學家和爬虫两栖类学家。 生平 安东·赖歇诺是德国鸟类研究学家吉恩·路易斯·卡巴尼斯的女婿，1874年至1921年在柏林自然博物馆长期工作…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红腰梅花雀-004cd2fe",
+      "subject": "红腰梅花雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-loitokitok-c7dbbda9",
+      "object": "Loitokitok",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-cheeked waxbill or red-rumped waxbill (Brunhilda charmosyna) is a common species of estrildid finch found in east Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红腰梅花雀-004cd2fe",
+      "subject": "红腰梅花雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-安东-赖歇诺-43b8e534",
+      "object": "安东·赖歇诺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-cheeked waxbill or red-rumped waxbill (Brunhilda charmosyna) is a common species of estrildid finch found in east Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红腰梅花雀-004cd2fe",
+      "subject": "红腰梅花雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

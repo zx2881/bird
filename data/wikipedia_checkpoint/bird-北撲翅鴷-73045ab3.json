@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:12:25",
+  "requested_title": "Northern Flicker",
+  "resolved_title": "Northern flicker",
+  "title_aliases": [
+    "Northern Flicker"
+  ],
+  "bird_id": "bird-北撲翅鴷-73045ab3",
+  "raw_file": "bird-北撲翅鴷-73045ab3.json",
+  "bird": {
+    "id": "bird-北撲翅鴷-73045ab3",
+    "name": "北撲翅鴷",
+    "english_name": "Northern flicker",
+    "latin_name": "Colaptes auratus",
+    "summary": "北撲翅鴷（學名：Colaptes auratus）是撲翅鴷屬下的一種中型啄木鳥，分佈于北美洲大部和中美洲部分地區、古巴及開曼群島。這是一種在分佈地區常見的鳥類，其俗稱有上百種。 分類 其下有十個亞種。指名亞種Colaptes auratus auratus（英語稱“yellow…",
+    "lat": "19.32",
+    "lng": "-81.229",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Northern_yellow-shafted_flicker_male_%2833737%29_%28cropped%29.jpg/960px-Northern_yellow-shafted_flicker_male_%2833737%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-開曼群島-3c7bf239",
+      "name": "開曼群島",
+      "summary": "开曼群岛（英語：Cayman Islands /ˈkeɪmən/或/keɪˈmæn/），有時也譯為凯门群島或蓋曼群島，是英国在美洲加勒比海西印度群岛的一块海外属地，由大開曼、小开曼和開曼布拉克3个岛屿组成。開曼群島是世界第四大离岸金融中心…",
+      "lat": "19.32",
+      "lng": "-81.229"
+    },
+    {
+      "id": "loc-舍布魯克-7d53b877",
+      "name": "舍布魯克",
+      "summary": "舍布魯克（法語：Sherbrooke、法語發音：[ʃɛʁˈbʁʊk] ）是加拿大的一個城市。位於魁北克省西南部。2006年，該市大約有人口17萬人。是艾第地區（法語：Estrie）的最大城市。該市早期由说英語的居民居多，但現在已變為法語居…",
+      "lat": "45.4",
+      "lng": "-71.9"
+    },
+    {
+      "id": "loc-下加利福尼亞半島-4e2a0f71",
+      "name": "下加利福尼亞半島",
+      "summary": "下加利福尼亞半島（西班牙語：Península de Baja California）位於墨西哥西部，從北端的蒂華納到南端的聖盧卡角，全長1250公里，把太平洋與加利福尼亞灣分隔開來，政治上分為下加利福尼亞州和南下加利福尼亞州。 相關內容…",
+      "lat": "28",
+      "lng": "-113.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北撲翅鴷-73045ab3",
+      "subject": "北撲翅鴷",
+      "predicate": "distributed_in",
+      "object_id": "loc-開曼群島-3c7bf239",
+      "object": "開曼群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to most of North America, parts of Central America, Cuba, and the Cayman Islands, and is one of the few woodpecker species that migrate",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北撲翅鴷-73045ab3",
+      "subject": "北撲翅鴷",
+      "predicate": "distributed_in",
+      "object_id": "loc-舍布魯克-7d53b877",
+      "object": "舍布魯克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=2023-07-07 |title=Northern Flicker (Colaptes auratus), version 2.0 |url=https://birdsoftheworld-org.proxy3.library.mcgill.ca/bow/species/norfli/cur/movement#migroute |access-date=2023-10-11 |website=Birds of the World}} Individuals that breed farther north travel greater distances than their migratory southern conspecifics, often resulting in the convergence of northern and southern populations at wintering sites. This discrepancy likely arises from the species' ground foraging behavior, where prey can only be found in snow-free locations. Furthermore, females tend to winter farther north than males, suggesting that parental investment and division of reproductive labour are key factors in determining individual migratory behavior. Rising temperatures have been shown to trigger migration prematurely in northern flickers as well as many other migratory bird species, as evidenced in Sherbrooke, Quebec.{{Cite journal |last1=Jones |first1=Norman K",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北撲翅鴷-73045ab3",
+      "subject": "北撲翅鴷",
+      "predicate": "distributed_in",
+      "object_id": "loc-下加利福尼亞半島-4e2a0f71",
+      "object": "下加利福尼亞半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "states winter in Texas, Oklahoma, and Arkansas. Those breeding from southern Ontario and Michigan to New England winter from eastern Texas to the Carolinas, whereas those breeding in British Columbia and the Pacific Northwest winter from central California to the Baja California peninsula in Mexico. During migration, northern flickers may form flocks.{{Cite journal |last1=Gow |first1=Elizabeth A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北撲翅鴷-73045ab3",
+      "subject": "北撲翅鴷",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

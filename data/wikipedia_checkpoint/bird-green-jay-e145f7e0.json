@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:10:06",
+  "requested_title": "Green Jay",
+  "resolved_title": "Green jay",
+  "title_aliases": [
+    "Green Jay"
+  ],
+  "bird_id": "bird-green-jay-e145f7e0",
+  "raw_file": "bird-green-jay-e145f7e0.json",
+  "bird": {
+    "id": "bird-green-jay-e145f7e0",
+    "name": "Green jay",
+    "english_name": "Green jay",
+    "latin_name": "Cyanocorax luxuosus",
+    "summary": "The green jay (Cyanocorax luxuosus) is a species of New World jay, found in southern Texas, Mexico, and northern Central America. Adults ar…",
+    "lat": "31",
+    "lng": "-99",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Green_jay_%28Cyanocorax_luxuosus%29_in_Mission%2C_Texas%2C_USA.png/960px-Green_jay_%28Cyanocorax_luxuosus%29_in_Mission%2C_Texas%2C_USA.png"
+  },
+  "locations": [
+    {
+      "id": "loc-新大陸-9610a4be",
+      "name": "新大陸",
+      "summary": "新大陸（拉丁語：Mundus novus），或譯為新世界，是歐洲人於15世紀末發現美洲大陸及鄰近群島後對這片新土地的稱呼。相對概念為亚欧非大陆等「旧大陆」。 词源 “新世界”（Mundus Novus）一词最初是在亚美利哥·韦斯普奇于15…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-得克萨斯州-8487bfae",
+      "name": "得克萨斯州",
+      "summary": "得克萨斯州（英語：State of Texas，/ˈtɛksəs/，當地 /ˈtɛksɪz/； 西班牙語：Estado de Texas，Estado de Tejas），简称德州，旧译德沙士；是全美國土地面積和人口第二大的州（面積僅次於…",
+      "lat": "31",
+      "lng": "-99"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-jay-e145f7e0",
+      "subject": "Green jay",
+      "predicate": "distributed_in",
+      "object_id": "loc-新大陸-9610a4be",
+      "object": "新大陸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "P.]], 1839) | synonyms = | range_map = Cyanocorax luxuosus map.svg }} The green jay (Cyanocorax luxuosus) is a species of New World jay, found in southern Texas, Mexico, and northern Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-jay-e145f7e0",
+      "subject": "Green jay",
+      "predicate": "distributed_in",
+      "object_id": "loc-得克萨斯州-8487bfae",
+      "object": "得克萨斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "P.]], 1839) | synonyms = | range_map = Cyanocorax luxuosus map.svg }} The green jay (Cyanocorax luxuosus) is a species of New World jay, found in southern Texas, Mexico, and northern Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-jay-e145f7e0",
+      "subject": "Green jay",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "P.]], 1839) | synonyms = | range_map = Cyanocorax luxuosus map.svg }} The green jay (Cyanocorax luxuosus) is a species of New World jay, found in southern Texas, Mexico, and northern Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-jay-e145f7e0",
+      "subject": "Green jay",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "P.]], 1839) | synonyms = | range_map = Cyanocorax luxuosus map.svg }} The green jay (Cyanocorax luxuosus) is a species of New World jay, found in southern Texas, Mexico, and northern Central America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-jay-e145f7e0",
+      "subject": "Green jay",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

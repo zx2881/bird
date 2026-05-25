@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:10:39",
+  "requested_title": "San Blas Jay",
+  "resolved_title": "San Blas jay",
+  "title_aliases": [
+    "San Blas Jay"
+  ],
+  "bird_id": "bird-黑蓝冠鸦-328476d5",
+  "raw_file": "bird-黑蓝冠鸦-328476d5.json",
+  "bird": {
+    "id": "bird-黑蓝冠鸦-328476d5",
+    "name": "黑蓝冠鸦",
+    "english_name": "San Blas jay",
+    "latin_name": "Cyanocorax sanblasianus",
+    "summary": "黑蓝冠鸦（学名：Cyanocorax sanblasianus），是鸦科蓝鸦属的一种，为墨西哥的特有种。全球活动范围约为67,600平方千米。该物种的保护状况被评为无危。 黑蓝冠鸦的平均体重约为113.8克。栖息地包括亚热带或热带的（低地）干燥疏灌丛、亚热带或热带的旱林、耕地、…",
+    "lat": "22",
+    "lng": "-105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/San_Blas_Jay%2C_Puerto_Vallarta_Botanical_Gardens.jpg/960px-San_Blas_Jay%2C_Puerto_Vallarta_Botanical_Gardens.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-納亞里特州-2b9132aa",
+      "name": "納亞里特州",
+      "summary": "納亞里特州 （西班牙語：Nayarit）是墨西哥三十一個州之一，西臨太平洋。首府特皮克，下分20市。 1887年建立準州，1917年建州。",
+      "lat": "22",
+      "lng": "-105"
+    },
+    {
+      "id": "loc-哈利斯科州-d4fcf9ec",
+      "name": "哈利斯科州",
+      "summary": "哈利斯科州（西班牙語：Jalisco，發音：[xaˈlisko] ），是墨西哥西南部的一個州。面積79,085 平方公里（與鄰近的州有領土爭議）。首府瓜達拉哈拉。州名來自納瓦特爾語的“Xalixco”，意思是沙地。 墨西哥最大的淡水湖查帕…",
+      "lat": "20.67638889",
+      "lng": "-103.34583333"
+    },
+    {
+      "id": "loc-科利馬州-1a64f8d6",
+      "name": "科利馬州",
+      "summary": "科利馬州（西班牙語：Colima）是墨西哥三十一個州之一，西臨太平洋。首府科利馬市。 州名有三個可能來源，都來自納瓦特爾語： 祖先征服之地 火神之地 河水轉彎之地 參考文獻",
+      "lat": "19.1",
+      "lng": "-103.9"
+    },
+    {
+      "id": "loc-格雷羅州-92d4434d",
+      "name": "格雷羅州",
+      "summary": "格雷羅州（西班牙語：Guerrero）是墨西哥南部的一個州，南臨太平洋。 參考文獻",
+      "lat": "17.61666667",
+      "lng": "-99.95"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑蓝冠鸦-328476d5",
+      "subject": "黑蓝冠鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-納亞里特州-2b9132aa",
+      "object": "納亞里特州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "nelsoni is found in southwestern Mexico, from Nayarit, Jalisco and Colima southward to western Guerrero; and C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑蓝冠鸦-328476d5",
+      "subject": "黑蓝冠鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-哈利斯科州-d4fcf9ec",
+      "object": "哈利斯科州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "nelsoni is found in southwestern Mexico, from Nayarit, Jalisco and Colima southward to western Guerrero; and C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑蓝冠鸦-328476d5",
+      "subject": "黑蓝冠鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-科利馬州-1a64f8d6",
+      "object": "科利馬州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "nelsoni is found in southwestern Mexico, from Nayarit, Jalisco and Colima southward to western Guerrero; and C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑蓝冠鸦-328476d5",
+      "subject": "黑蓝冠鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-格雷羅州-92d4434d",
+      "object": "格雷羅州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "nelsoni is found in southwestern Mexico, from Nayarit, Jalisco and Colima southward to western Guerrero; and C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑蓝冠鸦-328476d5",
+      "subject": "黑蓝冠鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

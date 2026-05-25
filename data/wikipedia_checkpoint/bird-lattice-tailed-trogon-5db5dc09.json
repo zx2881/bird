@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:15:20",
+  "requested_title": "Lattice-tailed Trogon",
+  "resolved_title": "Lattice-tailed trogon",
+  "title_aliases": [
+    "Lattice-tailed Trogon"
+  ],
+  "bird_id": "bird-lattice-tailed-trogon-5db5dc09",
+  "raw_file": "bird-lattice-tailed-trogon-5db5dc09.json",
+  "bird": {
+    "id": "bird-lattice-tailed-trogon-5db5dc09",
+    "name": "Lattice-tailed trogon",
+    "english_name": "Lattice-tailed trogon",
+    "latin_name": "Trogon clathratus",
+    "summary": "The lattice-tailed trogon (Trogon clathratus) is a species of bird in the family Trogonidae, the quetzals and trogons. It is found in Costa…",
+    "lat": "10",
+    "lng": "-84",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Trogon_clathratus_-_%28female%29_-Costa_Rica-6.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥斯达黎加-6c4f73ad",
+      "name": "哥斯达黎加",
+      "summary": "哥斯达黎加共和國（西班牙語：República de Costa Rica），通稱哥斯达黎加（Costa Rica），是中美洲国家，北邻尼加拉瓜，南与巴拿马接壤，首都為聖荷西。 哥斯达黎加是当今世界上第一个裁撤军队的国家。目前哥斯大黎加是…",
+      "lat": "10",
+      "lng": "-84"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lattice-tailed-trogon-5db5dc09",
+      "subject": "Lattice-tailed trogon",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥斯达黎加-6c4f73ad",
+      "object": "哥斯达黎加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lattice-tailed-trogon-5db5dc09",
+      "subject": "Lattice-tailed trogon",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama.{{cite web |url=https://www.worldbirdnames.org/ |title=IOC World Bird List (v 11.2) |last1=Gill |first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lattice-tailed-trogon-5db5dc09",
+      "subject": "Lattice-tailed trogon",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the midstory and lower canopy of mature humid to wet foothill and lower mountain forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-lattice-tailed-trogon-5db5dc09",
+      "subject": "Lattice-tailed trogon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

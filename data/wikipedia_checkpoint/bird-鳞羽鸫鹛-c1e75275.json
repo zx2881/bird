@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T14:54:00",
+  "requested_title": "Scaly Babbler",
+  "resolved_title": "Scaly babbler",
+  "title_aliases": [
+    "Scaly Babbler"
+  ],
+  "bird_id": "bird-鳞羽鸫鹛-c1e75275",
+  "raw_file": "bird-鳞羽鸫鹛-c1e75275.json",
+  "bird": {
+    "id": "bird-鳞羽鸫鹛-c1e75275",
+    "name": "鳞羽鸫鹛",
+    "english_name": "Scaly babbler",
+    "latin_name": "Turdoides squamulata",
+    "summary": "鳞羽鸫鹛（学名：Turdoides squamulata），是画眉科鸫鹛属的一种，分布于索马里、肯尼亚和埃塞俄比亚。全球活动范围约为66,400平方千米。该物种的保护状况被评为无危。 鳞羽鸫鹛的平均体重约为69.5克。栖息地包括亚热带或热带的旱林、亚热带或热带的（低地）干燥疏灌…",
+    "lat": "0.1659",
+    "lng": "42.7727",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flickr_-_Rainbirder_-_Scaly_Babbler_%28Turdoides_squamulatus%29_%281%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-謝貝利河-cb34f8e7",
+      "name": "謝貝利河",
+      "summary": "The Shebelle River (Oromo: Laga Shabeellee, Somali: Webi Shabeelle, Amharic: እደላ, Italian: fiume Uebi Scebeli) also kno…",
+      "lat": "0.1659",
+      "lng": "42.7727"
+    },
+    {
+      "id": "loc-tana-river-f1f5ea2b",
+      "name": "Tana River",
+      "summary": "Tana River may refer to: Tana River (Alaska), a river in Alaska, United States Tana River (Cuba), a river in southern C…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鳞羽鸫鹛-c1e75275",
+      "subject": "鳞羽鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-謝貝利河-cb34f8e7",
+      "object": "謝貝利河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Jubba, Shebelle and Tana rivers and Kenyan shoreline",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鳞羽鸫鹛-c1e75275",
+      "subject": "鳞羽鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-tana-river-f1f5ea2b",
+      "object": "Tana River",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Jubba, Shebelle and Tana rivers and Kenyan shoreline",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鳞羽鸫鹛-c1e75275",
+      "subject": "鳞羽鸫鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

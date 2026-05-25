@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:41:14",
+  "requested_title": "Chestnut Rail",
+  "resolved_title": "Chestnut rail",
+  "title_aliases": [
+    "Chestnut Rail"
+  ],
+  "bird_id": "bird-栗腹秧鸡-432ede82",
+  "raw_file": "bird-栗腹秧鸡-432ede82.json",
+  "bird": {
+    "id": "bird-栗腹秧鸡-432ede82",
+    "name": "栗腹秧鸡",
+    "english_name": "Chestnut rail",
+    "latin_name": "Gallirallus castaneoventris",
+    "summary": "栗腹秧鸡（学名：Eulabeornis castaneoventris）是秧鸡科栗腹秧鸡属下的唯一物种，它发现于阿鲁群岛和澳大利亚北部，栖息于亚热带及热带的红树林。 参考文献",
+    "lat": "-6.2",
+    "lng": "134.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chestnut_Rail_A4804.jpg/960px-Chestnut_Rail_A4804.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿魯群島-c5d8ff7a",
+      "name": "阿魯群島",
+      "summary": "阿魯群島（印尼语：Kepulauan Aru）是大洋洲的一組约95个低窪島嶼组成的群岛，位於印尼東部的馬魯古省，同时也是马鲁古省下的一个县。 行政区划 行政上，阿鲁群岛属于阿鲁群岛县（印尼语：Kabupaten Kepulauan Aru…",
+      "lat": "-6.2",
+      "lng": "134.5"
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗腹秧鸡-432ede82",
+      "subject": "栗腹秧鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿魯群島-c5d8ff7a",
+      "object": "阿魯群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Aru Islands and northern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗腹秧鸡-432ede82",
+      "subject": "栗腹秧鸡",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Aru Islands and northern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗腹秧鸡-432ede82",
+      "subject": "栗腹秧鸡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

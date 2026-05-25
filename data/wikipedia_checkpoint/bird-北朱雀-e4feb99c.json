@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:07:11",
+  "requested_title": "Pallas's Rosefinch",
+  "resolved_title": "Pallas's rosefinch",
+  "title_aliases": [
+    "Pallas's Rosefinch"
+  ],
+  "bird_id": "bird-北朱雀-e4feb99c",
+  "raw_file": "bird-北朱雀-e4feb99c.json",
+  "bird": {
+    "id": "bird-北朱雀-e4feb99c",
+    "name": "北朱雀",
+    "english_name": "Pallas's rosefinch",
+    "latin_name": "Carpodacus roseus",
+    "summary": "北朱雀（学名：Carpodacus roseus）为雀科朱雀属的鸟类，俗名靠山红。分布于西伯利亚、阿尔泰山西部、贝加尔湖、萨哈林岛、蒙古、日本、朝鲜半岛以及中国大陆的吉林、辽宁、内蒙古、宁夏、甘肃、河北、陕西、山西、山东、河南、江苏等地，一般栖息于山区针阔混交林、阔叶林和丘陵的…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Carpodacus_roseus.jpg/960px-Carpodacus_roseus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-日本-4dbed2e6",
+      "name": "日本",
+      "summary": "日本國（日語：日本国〔日本國〕／にっぽんこく／にほんこく，羅馬化：nippon koku/nihon koku），通稱日本，是位於東亞的島嶼國家。國土全境由北海道、本州、四國、九州等本土四島為基礎的14,125座島嶼組成，周圍被太平洋及鄂…",
+      "lat": "36",
+      "lng": "138"
+    },
+    {
+      "id": "loc-朝鮮-地區-db3706d8",
+      "name": "朝鮮 (地區)",
+      "summary": "朝鮮，又稱韓、高丽等，是东亚的一个地区，位于欧亚大陆东端，包含朝鲜半岛（韓半岛）、济州岛及朝鲜半岛附近的几个岛屿。東北接壤俄罗斯，北面接壤中國，通過朝鲜海峡和日本海與日本隔海相望。其位处汉字文化圈内，传统上深受汉文化影响，但也在建筑、音乐…",
+      "lat": "38.31666667",
+      "lng": "127.23333333"
+    },
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北朱雀-e4feb99c",
+      "subject": "北朱雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in China, Japan, Kazakhstan, Korea, Mongolia, and Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北朱雀-e4feb99c",
+      "subject": "北朱雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本-4dbed2e6",
+      "object": "日本",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in China, Japan, Kazakhstan, Korea, Mongolia, and Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北朱雀-e4feb99c",
+      "subject": "北朱雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-朝鮮-地區-db3706d8",
+      "object": "朝鮮 (地區)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in China, Japan, Kazakhstan, Korea, Mongolia, and Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北朱雀-e4feb99c",
+      "subject": "北朱雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in China, Japan, Kazakhstan, Korea, Mongolia, and Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北朱雀-e4feb99c",
+      "subject": "北朱雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

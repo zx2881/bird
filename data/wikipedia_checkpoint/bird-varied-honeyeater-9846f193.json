@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:01:07",
+  "requested_title": "Varied Honeyeater",
+  "resolved_title": "Varied honeyeater",
+  "title_aliases": [
+    "Varied Honeyeater"
+  ],
+  "bird_id": "bird-varied-honeyeater-9846f193",
+  "raw_file": "bird-varied-honeyeater-9846f193.json",
+  "bird": {
+    "id": "bird-varied-honeyeater-9846f193",
+    "name": "Varied honeyeater",
+    "english_name": "Varied honeyeater",
+    "latin_name": "Gavicalis versicolor",
+    "summary": "The varied honeyeater (Gavicalis versicolor) is a species of bird in the family Meliphagidae. It is found in coastal areas of New Guinea an…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Lichenostomus_versicolor_3838.jpg/960px-Lichenostomus_versicolor_3838.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-约克角半岛-2a6b68ec",
+      "name": "约克角半岛",
+      "summary": "约克角半岛（英語：Cape York Peninsula）是澳大利亚東北部昆士兰州的一个半岛，其北端约克角是澳大利亚大陆的极北点。该半岛在1770年由英国航海家詹姆斯·库克以约克公爵的封号命名。 约克角距新几内亚岛约140公里，两地由托雷…",
+      "lat": "-15",
+      "lng": "143"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-varied-honeyeater-9846f193",
+      "subject": "Varied honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in coastal areas of New Guinea and eastern Cape York Peninsula in Queensland, Australia. Its natural habitat is subtropical or tropical mangrove forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-varied-honeyeater-9846f193",
+      "subject": "Varied honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-约克角半岛-2a6b68ec",
+      "object": "约克角半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in coastal areas of New Guinea and eastern Cape York Peninsula in Queensland, Australia. Its natural habitat is subtropical or tropical mangrove forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-varied-honeyeater-9846f193",
+      "subject": "Varied honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in coastal areas of New Guinea and eastern Cape York Peninsula in Queensland, Australia. Its natural habitat is subtropical or tropical mangrove forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-varied-honeyeater-9846f193",
+      "subject": "Varied honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

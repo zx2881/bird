@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:26:18",
+  "requested_title": "Violet Crow",
+  "resolved_title": "Violet crow",
+  "title_aliases": [
+    "Violet Crow"
+  ],
+  "bird_id": "bird-violet-crow-7ba21048",
+  "raw_file": "bird-violet-crow-7ba21048.json",
+  "bird": {
+    "id": "bird-violet-crow-7ba21048",
+    "name": "Violet crow",
+    "english_name": "Violet crow",
+    "latin_name": "Corvus violaceus",
+    "summary": "The violet crow (Corvus violaceus) is a species of the crow family, Corvidae, native to Seram, an island in Indonesia. It was long consider…",
+    "lat": "-3.13333333",
+    "lng": "129.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Naturalis_Biodiversity_Center_-_RMNH.AVES.14747_1_-_Corvus_enca_violaceus_Bonaparte%2C_1851_-_Corvidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.14747_1_-_Corvus_enca_violaceus_Bonaparte%2C_1851_-_Corvidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "name": "夏尔·吕西安·波拿巴",
+      "summary": "夏尔·吕西安·朱尔·朱尔·波拿巴（法語：Charles Lucien Jules Laurent Bonaparte，發音：[ʃaʁl lysjɛ̃ ʒyl lɔʁɑ̃ bɔnapaʁt]；1803年5月24日—1857年7月29日）是一…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-斯兰岛-1a93c673",
+      "name": "斯兰岛",
+      "summary": "斯兰岛（印尼語：Pulau Seram），又译为塞兰岛（Ceram、Seran或Serang），印度尼西亚摩鹿加群岛主要岛屿之一，位于哈马黑拉岛以南，紧邻安汶岛，属马鲁古省管辖，分属三个县：自西向东分别是西斯兰县、中马鲁古县和东斯兰县。该…",
+      "lat": "-3.13333333",
+      "lng": "129.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-violet-crow-7ba21048",
+      "subject": "Violet crow",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "object": "夏尔·吕西安·波拿巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The violet crow (Corvus violaceus) is a species of the crow family, Corvidae, native to Seram, an island in Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-violet-crow-7ba21048",
+      "subject": "Violet crow",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯兰岛-1a93c673",
+      "object": "斯兰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The violet crow (Corvus violaceus) is a species of the crow family, Corvidae, native to Seram, an island in Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-violet-crow-7ba21048",
+      "subject": "Violet crow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:55:05",
+  "requested_title": "Tooth-billed Wren",
+  "resolved_title": "Tooth-billed wren",
+  "title_aliases": [
+    "Tooth-billed Wren"
+  ],
+  "bird_id": "bird-锯嘴鹪鹩-c85ec7b9",
+  "raw_file": "bird-锯嘴鹪鹩-c85ec7b9.json",
+  "bird": {
+    "id": "bird-锯嘴鹪鹩-c85ec7b9",
+    "name": "锯嘴鹪鹩",
+    "english_name": "Tooth-billed wren",
+    "latin_name": "Odontorchilus cinereus",
+    "summary": "锯嘴鹪鹩（学名：Odontorchilus cinereus）是鹪鹩科锯嘴鹪鹩属的鸟类。分布于玻利维亚和巴西。 分类学和系统学 锯嘴鹪鹩与另一种鹪鹩灰背锯嘴鹪鹩同属。有学者认为二者为同种或为一个复合种。锯鹪鹩是没有细分亚种的单型种。",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Odontorchilus_cinereus_-_Tooth-billed_Wren.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-锯嘴鹪鹩-c85ec7b9",
+      "subject": "锯嘴鹪鹩",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Brazil.Schulenberg, T",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-锯嘴鹪鹩-c85ec7b9",
+      "subject": "锯嘴鹪鹩",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Brazil.Schulenberg, T",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-锯嘴鹪鹩-c85ec7b9",
+      "subject": "锯嘴鹪鹩",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

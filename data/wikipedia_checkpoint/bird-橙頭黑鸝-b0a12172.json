@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:43:20",
+  "requested_title": "Saffron-cowled Blackbird",
+  "resolved_title": "Saffron-cowled blackbird",
+  "title_aliases": [
+    "Saffron-cowled Blackbird"
+  ],
+  "bird_id": "bird-橙頭黑鸝-b0a12172",
+  "raw_file": "bird-橙頭黑鸝-b0a12172.json",
+  "bird": {
+    "id": "bird-橙頭黑鸝-b0a12172",
+    "name": "橙頭黑鸝",
+    "english_name": "Saffron-cowled blackbird",
+    "latin_name": "Xanthopsar flavus",
+    "summary": "橙頭黑鸝（学名：Xanthopsar flavus）是擬黃鸝科橙頭黑鸝屬唯一一種，分布在阿根廷、巴西、巴拉圭及烏拉圭（在烏鴉峽谷（Quebrada de los Cuervos）發現）。牠們棲息在亞熱帶或熱帶低地乾旱草原、季節性氾濫草原及草坪，牠們受到失去棲息地的威脅。 參考",
+    "lat": "-32.9275",
+    "lng": "-54.45694444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Xanthopsar_flavus_en_Ba%C3%B1ado_Los_Indios%2C_Rocha%2C_Uruguay.jpg/960px-Xanthopsar_flavus_en_Ba%C3%B1ado_Los_Indios%2C_Rocha%2C_Uruguay.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-quebrada-de-los-cuervos-b19d6573",
+      "name": "Quebrada de los Cuervos",
+      "summary": "The Quebrada de los Cuervos (Spanish for Crows Ravine) is an important landform in Treinta y Tres Department, Uruguay.",
+      "lat": "-32.9275",
+      "lng": "-54.45694444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橙頭黑鸝-b0a12172",
+      "subject": "橙頭黑鸝",
+      "predicate": "distributed_in",
+      "object_id": "loc-quebrada-de-los-cuervos-b19d6573",
+      "object": "Quebrada de los Cuervos",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Brazil, Paraguay, and in Uruguay at the Quebrada de los Cuervos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙頭黑鸝-b0a12172",
+      "subject": "橙頭黑鸝",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-橙頭黑鸝-b0a12172",
+      "subject": "橙頭黑鸝",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:44:24",
+  "requested_title": "Flame-winged Parakeet",
+  "resolved_title": "Flame-winged parakeet",
+  "title_aliases": [
+    "Flame-winged Parakeet"
+  ],
+  "bird_id": "bird-flame-winged-parakeet-0040b1f7",
+  "raw_file": "bird-flame-winged-parakeet-0040b1f7.json",
+  "bird": {
+    "id": "bird-flame-winged-parakeet-0040b1f7",
+    "name": "Flame-winged parakeet",
+    "english_name": "Flame-winged parakeet",
+    "latin_name": "Pyrrhura calliptera",
+    "summary": "The flame-winged parakeet (Pyrrhura calliptera), also known as the brown-breasted parakeet, is a species of parrot in the family Psittacida…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Pyrrhura_calliptera_-_Reserva_Bosque_Guajira.jpg/960px-Pyrrhura_calliptera_-_Reserva_Bosque_Guajira.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥倫比亞東部山脈-8173292d",
+      "name": "哥倫比亞東部山脈",
+      "summary": "哥倫比亞東部山脈（西班牙語：Cordillera Oriental），是哥倫比亞的山脈，屬於安第斯山脈的一部分，全長1,200公里，面積144,252平方公里，最高點是海拔高度5,410米的白里塔庫巴峰。",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-flame-winged-parakeet-0040b1f7",
+      "subject": "Flame-winged parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥倫比亞東部山脈-8173292d",
+      "object": "哥倫比亞東部山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although its range was originally much larger, it is now only found in fragmented populations on the eastern slope of the Eastern Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flame-winged-parakeet-0040b1f7",
+      "subject": "Flame-winged parakeet",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-flame-winged-parakeet-0040b1f7",
+      "subject": "Flame-winged parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

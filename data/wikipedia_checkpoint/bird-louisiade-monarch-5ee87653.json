@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:51:23",
+  "requested_title": "Louisiade Monarch",
+  "resolved_title": "Louisiade monarch",
+  "title_aliases": [
+    "Louisiade Monarch"
+  ],
+  "bird_id": "bird-louisiade-monarch-5ee87653",
+  "raw_file": "bird-louisiade-monarch-5ee87653.json",
+  "bird": {
+    "id": "bird-louisiade-monarch-5ee87653",
+    "name": "Louisiade monarch",
+    "english_name": "Louisiade monarch",
+    "latin_name": "Symposiachrus melanopterus",
+    "summary": "The Louisiade monarch (Symposiachrus melanopterus) is a species of bird in the family Monarchidae endemic to Papua New Guinea. It is found…",
+    "lat": "-11.2",
+    "lng": "153",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Naturalis_Biodiversity_Center_-_RMNH.AVES.136132_1_-_Monarcha_trivirgatus_melanopterus_Gray%2C_1858_-_Monarchidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.136132_1_-_Monarcha_trivirgatus_melanopterus_Gray%2C_1858_-_Monarchidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-路易西亞德群島-137d12e8",
+      "name": "路易西亞德群島",
+      "summary": "路易西亞德群島是巴布亞新幾內亞的群島，位於該國東南面太平洋海域，北面是所羅門海，南面是珊瑚海，由10個火山島和90個珊瑚島組成，總面積1,600平方公里，人口約17,000。 外部連結 Louisiade Archipelago rain…",
+      "lat": "-11.2",
+      "lng": "153"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-louisiade-monarch-5ee87653",
+      "subject": "Louisiade monarch",
+      "predicate": "distributed_in",
+      "object_id": "loc-路易西亞德群島-137d12e8",
+      "object": "路易西亞德群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Louisiade Archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-louisiade-monarch-5ee87653",
+      "subject": "Louisiade monarch",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss.<!--- citation?",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

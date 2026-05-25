@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:03:07",
+  "requested_title": "Alpine Chough",
+  "resolved_title": "Alpine chough",
+  "title_aliases": [
+    "Alpine Chough"
+  ],
+  "bird_id": "bird-黄嘴山鸦-9f895965",
+  "raw_file": "bird-黄嘴山鸦-9f895965.json",
+  "bird": {
+    "id": "bird-黄嘴山鸦-9f895965",
+    "name": "黄嘴山鸦",
+    "english_name": "Alpine chough",
+    "latin_name": "Pyrrhocorax graculus",
+    "summary": "The Alpine chough (; chuf) or yellow-billed chough (Pyrrhocorax graculus) is a bird in the crow family, one of only two species in the genu…",
+    "lat": "46.58",
+    "lng": "8.62",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Alpine_Chough_by_Jim_Higham.jpg/960px-Alpine_Chough_by_Jim_Higham.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿尔卑斯山-b9b2af0b",
+      "name": "阿尔卑斯山",
+      "summary": "阿尔卑斯山（德語：Alpen [ˈalpn̩] ；義大利語：Alpi [ˈalpi]；法語：Alpes [alp]；斯洛維尼亞語：Alpe [ˈáːlpɛ]；羅曼什語：Alps）是歐洲次高及橫跨範圍最廣的山脈，它覆蓋了意大利北部邊界、法國…",
+      "lat": "46.58",
+      "lng": "8.62"
+    },
+    {
+      "id": "loc-中亚-88133474",
+      "name": "中亚",
+      "summary": "中亚（英語：Central Asia；俄語：Средняя Азия / Центральная Азия）即亚洲中部，在地理上是指西至里海，东到中国新疆，南到阿富汗，北到俄罗斯的广大区域。而根据长期占据这片区域大部分领土的前苏联官方定义…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄嘴山鸦-9f895965",
+      "subject": "黄嘴山鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尔卑斯山-b9b2af0b",
+      "object": "阿尔卑斯山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|alt= high grey bare cliffs behind a meadow|Cliffs with nearby alpine pasture provide nesting sites. The Alpine chough breeds in mountains from Spain eastwards through southern Europe and the Alps across Central Asia and the Himalayas to western China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄嘴山鸦-9f895965",
+      "subject": "黄嘴山鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-中亚-88133474",
+      "object": "中亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|alt= high grey bare cliffs behind a meadow|Cliffs with nearby alpine pasture provide nesting sites. The Alpine chough breeds in mountains from Spain eastwards through southern Europe and the Alps across Central Asia and the Himalayas to western China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄嘴山鸦-9f895965",
+      "subject": "黄嘴山鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|alt= high grey bare cliffs behind a meadow|Cliffs with nearby alpine pasture provide nesting sites. The Alpine chough breeds in mountains from Spain eastwards through southern Europe and the Alps across Central Asia and the Himalayas to western China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄嘴山鸦-9f895965",
+      "subject": "黄嘴山鸦",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "thumb|alt= high grey bare cliffs behind a meadow|Cliffs with nearby alpine pasture provide nesting sites. The Alpine chough breeds in mountains from Spain eastwards through southern Europe and the Alps across Central Asia and the Himalayas to western China",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-黄嘴山鸦-9f895965",
+      "subject": "黄嘴山鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黄嘴山鸦-9f895965",
+      "subject": "黄嘴山鸦",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Climate change may present a long-term threat, by shifting the necessary Alpine habitat to higher altitudes",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    },
+    {
+      "subject_id": "bird-黄嘴山鸦-9f895965",
+      "subject": "黄嘴山鸦",
+      "predicate": "threatened_by",
+      "object_id": "threat-global-warming",
+      "object": "气候变暖",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "2|url=http://www.acta-zoologica-bulgarica.eu/downloads/acta-zoologica-bulgarica/2008/supplement-2-119-132.pdf | pages= 119–132}} Foraging habitat can also be lost to human activities such as the construction of ski resorts and other tourist development on former alpine meadows. Populations of choughs are stable or increasing in areas where traditional pastoral or other low intensity agriculture persists, but are declining or have become locally extinct where intensive farming methods have been introduced, such as Brittany, England, south-west Portugal and mainland Scotland. Choughs can be locally threatened by the accumulation of pesticides and heavy metals in the mountain soils, heavy rain, shooting and other human disturbances, but a longer-term threat comes from global warming, which would cause the species' preferred Alpine climate zone to shift to higher, more restricted areas, or locally to disappear entirely.{{cite journal | last= Sekercioglu | first= Cagan H | author2= Schneider, Stephen H",
+      "object_summary": "长期升温改变海冰和海洋环境条件。"
+    },
+    {
+      "subject_id": "bird-黄嘴山鸦-9f895965",
+      "subject": "黄嘴山鸦",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "2|url=http://www.acta-zoologica-bulgarica.eu/downloads/acta-zoologica-bulgarica/2008/supplement-2-119-132.pdf | pages= 119–132}} Foraging habitat can also be lost to human activities such as the construction of ski resorts and other tourist development on former alpine meadows. Populations of choughs are stable or increasing in areas where traditional pastoral or other low intensity agriculture persists, but are declining or have become locally extinct where intensive farming methods have been introduced, such as Brittany, England, south-west Portugal and mainland Scotland. Choughs can be locally threatened by the accumulation of pesticides and heavy metals in the mountain soils, heavy rain, shooting and other human disturbances, but a longer-term threat comes from global warming, which would cause the species' preferred Alpine climate zone to shift to higher, more restricted areas, or locally to disappear entirely.{{cite journal | last= Sekercioglu | first= Cagan H | author2= Schneider, Stephen H",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

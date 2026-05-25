@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:37:28",
+  "requested_title": "African Pygmy Kingfisher",
+  "resolved_title": "African pygmy kingfisher",
+  "title_aliases": [
+    "African Pygmy Kingfisher"
+  ],
+  "bird_id": "bird-african-pygmy-kingfisher-0e932731",
+  "raw_file": "bird-african-pygmy-kingfisher-0e932731.json",
+  "bird": {
+    "id": "bird-african-pygmy-kingfisher-0e932731",
+    "name": "African pygmy kingfisher",
+    "english_name": "African pygmy kingfisher",
+    "latin_name": "Ispidina picta",
+    "summary": "The African pygmy kingfisher (Ispidina picta) is a small insectivorous kingfisher found in the Afrotropics, mostly in woodland habitats. Ta…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/023_African_pygmy_kingfisher_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/960px-023_African_pygmy_kingfisher_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-彼得-博达尔特-2288b0e6",
+      "name": "彼得·博达尔特",
+      "summary": "彼得·博达尔特（荷蘭語：Pieter Boddaert，發音：[ˈpitər ˈbɔdaːrt]；1733年5月26日—1795年5月6日）是一名荷蘭的醫生及博物學家。 博塔埃特的父親是米德爾堡的法學家及詩人(1694–1760)。與其父…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-african-pygmy-kingfisher-0e932731",
+      "subject": "African pygmy kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-彼得-博达尔特-2288b0e6",
+      "object": "彼得·博达尔特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The African pygmy kingfisher (Ispidina picta) is a small insectivorous kingfisher found in the Afrotropics, mostly in woodland habitats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-african-pygmy-kingfisher-0e932731",
+      "subject": "African pygmy kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in woodland, savanna and coastal forest, and it is not bound to water",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-african-pygmy-kingfisher-0e932731",
+      "subject": "African pygmy kingfisher",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in woodland, savanna and coastal forest, and it is not bound to water",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-african-pygmy-kingfisher-0e932731",
+      "subject": "African pygmy kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

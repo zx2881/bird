@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:45:21",
+  "requested_title": "Lark Sparrow",
+  "resolved_title": "Lark sparrow",
+  "title_aliases": [
+    "Lark Sparrow"
+  ],
+  "bird_id": "bird-鷚雀鵐-16080efc",
+  "raw_file": "bird-鷚雀鵐-16080efc.json",
+  "bird": {
+    "id": "bird-鷚雀鵐-16080efc",
+    "name": "鷚雀鵐",
+    "english_name": "Lark sparrow",
+    "latin_name": "Chondestes grammacus",
+    "summary": "云雀鹀（台湾作鷚雀鵐，学名：Chondestes grammacus），是雀形目雀鹀科的一种鸟类，属于单型的云雀鹀属（学名：Chondestes）。 云雀鹀体重约29克，翼长约85.5毫米，喙宽度约5.1毫米，喙厚度约7.1毫米，嘴峰长约15.1毫米，跗蹠长约20.1毫米，尾长…",
+    "lat": "60",
+    "lng": "-110",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/LarkSparrow.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加拿大-25b69dbf",
+      "name": "加拿大",
+      "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢…",
+      "lat": "60",
+      "lng": "-110"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-危地马拉-16f6f3de",
+      "name": "危地马拉",
+      "summary": "瓜地馬拉共和國（西班牙語：República de Guatemala），通稱瓜地馬拉（Guatemala），是中美洲北部的一個國家。該國地理位置優越，北接墨西哥，東北鄰伯利茲，東南與洪都拉斯和薩爾瓦多接壤，西瀕太平洋，東臨加勒比海的洪都…",
+      "lat": "15.5",
+      "lng": "-90.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鷚雀鵐-16080efc",
+      "subject": "鷚雀鵐",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大-25b69dbf",
+      "object": "加拿大",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Canada, much of the United States, and northern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鷚雀鵐-16080efc",
+      "subject": "鷚雀鵐",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Canada, much of the United States, and northern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鷚雀鵐-16080efc",
+      "subject": "鷚雀鵐",
+      "predicate": "distributed_in",
+      "object_id": "loc-危地马拉-16f6f3de",
+      "object": "危地马拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The populations in Mexico and adjacent states of the United States are resident, but other birds are migratory, wintering in the southern United States, Mexico and south to Guatemala",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鷚雀鵐-16080efc",
+      "subject": "鷚雀鵐",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

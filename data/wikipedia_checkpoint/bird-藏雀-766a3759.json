@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:06:14",
+  "requested_title": "Tibetan Rosefinch",
+  "resolved_title": "Tibetan rosefinch",
+  "title_aliases": [
+    "Tibetan Rosefinch"
+  ],
+  "bird_id": "bird-藏雀-766a3759",
+  "raw_file": "bird-藏雀-766a3759.json",
+  "bird": {
+    "id": "bird-藏雀-766a3759",
+    "name": "藏雀",
+    "english_name": "Tibetan rosefinch",
+    "latin_name": "Carpodacus roborowskii",
+    "summary": "藏雀（学名：Carpodacus roborowskii）为雀科朱雀属的鸟类，是青藏高原的特有物种。分布于青海等地，一般生活于海拔4000-5400m 间荒芜、多岩石的高山旷野、高山草地和山坡的小灌木间。该物种的模式产地在青海布尔罕布达山脉。 参考文献",
+    "lat": "34.79833333",
+    "lng": "99.4625",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Tibetan_Rosefinch_%28Carpodacus_roborowskii%29_male_in_China.jpg/960px-Tibetan_Rosefinch_%28Carpodacus_roborowskii%29_male_in_China.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿尼玛卿山-204c7dcf",
+      "name": "阿尼玛卿山",
+      "summary": "阿尼玛卿山（阿尼玛卿雪山，藏語：ཨ་མྱེས་རྨ་ཆེན།，威利转写：a myes rma chen，THL：Amyé Machen，藏语拼音：A'nyê Maqên）也译“阿米玛卿”，位于青海省东南部的果洛藏族自治州玛沁县雪山乡，为藏…",
+      "lat": "34.79833333",
+      "lng": "99.4625"
+    },
+    {
+      "id": "loc-昆仑山脉-25d80e6b",
+      "name": "昆仑山脉",
+      "summary": "昆仑山脉（维吾尔老文字：قۇرۇم تېغى，拉丁维吾尔文：Qurum Teghi；藏語：ཁུ་ནུ་རི་རྒྱུད，威利转写：khu nu ri rgyud，藏语拼音：Kunu Ri'gyü）西起帕米尔高原东部，东到柴达木河上游谷地，…",
+      "lat": "36",
+      "lng": "84"
+    },
+    {
+      "id": "loc-青海省-9c801d60",
+      "name": "青海省",
+      "summary": "青海省，简称青，为中国一级行政区，位于中国西部、青藏高原东北部。因境内有全中国最大的内陆咸水湖——青海湖而得名，省会是西宁。青海是长江、黄河、澜沧江的发源地，故被称为“三江源”。省人民政府驻西宁市城中区西大街12号。 历史 早在2萬年前青…",
+      "lat": "35",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-藏雀-766a3759",
+      "subject": "藏雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿尼玛卿山-204c7dcf",
+      "object": "阿尼玛卿山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tibetan rosefinch is found in northeastern Tibet, in the Buckhan Boda Shan, Amne Machin and Kunlun mountains in Qinghai",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藏雀-766a3759",
+      "subject": "藏雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆仑山脉-25d80e6b",
+      "object": "昆仑山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tibetan rosefinch is found in northeastern Tibet, in the Buckhan Boda Shan, Amne Machin and Kunlun mountains in Qinghai",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藏雀-766a3759",
+      "subject": "藏雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-青海省-9c801d60",
+      "object": "青海省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tibetan rosefinch is found in northeastern Tibet, in the Buckhan Boda Shan, Amne Machin and Kunlun mountains in Qinghai",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藏雀-766a3759",
+      "subject": "藏雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

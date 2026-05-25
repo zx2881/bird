@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:07:08",
+  "requested_title": "Grey Catbird",
+  "resolved_title": "Gray catbird",
+  "title_aliases": [
+    "Grey Catbird",
+    "Gray catbird"
+  ],
+  "bird_id": "bird-灰猫嘲鸫-fa8fd951",
+  "raw_file": "bird-灰猫嘲鸫-fa8fd951.json",
+  "bird": {
+    "id": "bird-灰猫嘲鸫-fa8fd951",
+    "name": "灰猫嘲鸫",
+    "english_name": "Gray catbird",
+    "latin_name": "Dumetella carolinensis",
+    "summary": "灰嘲鸫（學名：Dumetella carolinensis，台湾作灰貓嘲鶇）是雀形目嘲鸫科灰貓嘲鶇屬下唯一的鳥類。主要分布於北美洲，會進行遷徙往來加拿大南部至美國東南部及加勒比地區。牠們為雜食性，以水果、昆蟲為食，是嘲鶇科家族中體型最小的成員之一。也是北美洲東部數量豐富、眾所周…",
+    "lat": "44.15",
+    "lng": "-113.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Gray_catbird_%2885315%29.jpg/960px-Gray_catbird_%2885315%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-洛磯山脈-da6663da",
+      "name": "洛磯山脈",
+      "summary": "洛磯山脈（英語：Rocky Mountains）是北美洲西部科迪勒拉山系最东端的主要山脈，和其平行的有太平洋海岸山脈、喀斯喀特山脈及內華達山脈。 美国和加拿大对落基山脉的具体地理定义有所不同。加拿大定义仅从西部不列颠哥伦比亚省北部的利亚德…",
+      "lat": "44.15",
+      "lng": "-113.8"
+    },
+    {
+      "id": "loc-科迪勒拉山系-a55d156e",
+      "name": "科迪勒拉山系",
+      "summary": "美洲科迪勒拉山系（英語：American Cordillera；西班牙語：Cordillera Americana）是南北美洲大陆西端的众多山脉系统的统称，北起阿拉斯加，南到火地岛，绵延约15,000公里（9,300英里），是世界上最长的…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰猫嘲鸫-fa8fd951",
+      "subject": "灰猫嘲鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-洛磯山脈-da6663da",
+      "object": "洛磯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Native to most of temperate North America east of the Rocky Mountains, gray catbirds migrate to the southeastern United States, Mexico, Central America, and the Caribbean in winter; except for the occasional vagrant they always stay east of the American Cordillera",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰猫嘲鸫-fa8fd951",
+      "subject": "灰猫嘲鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-科迪勒拉山系-a55d156e",
+      "object": "科迪勒拉山系",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Native to most of temperate North America east of the Rocky Mountains, gray catbirds migrate to the southeastern United States, Mexico, Central America, and the Caribbean in winter; except for the occasional vagrant they always stay east of the American Cordillera",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰猫嘲鸫-fa8fd951",
+      "subject": "灰猫嘲鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-灰猫嘲鸫-fa8fd951",
+      "subject": "灰猫嘲鸫",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is not considered threatened by the IUCN due to its large range and numbers. On Bermuda however, gray catbirds were once very common, but their numbers have been greatly reduced in recent years by deforestation and nest predation by introduced species (including the great kiskadee Pitangus sulphuratus and the European starling Sturnus vulgaris)",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

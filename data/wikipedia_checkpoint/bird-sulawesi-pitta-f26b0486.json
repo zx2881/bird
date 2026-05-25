@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:10:33",
+  "requested_title": "Sulawesi Pitta",
+  "resolved_title": "Sulawesi pitta",
+  "title_aliases": [
+    "Sulawesi Pitta"
+  ],
+  "bird_id": "bird-sulawesi-pitta-f26b0486",
+  "raw_file": "bird-sulawesi-pitta-f26b0486.json",
+  "bird": {
+    "id": "bird-sulawesi-pitta-f26b0486",
+    "name": "Sulawesi pitta",
+    "english_name": "Sulawesi pitta",
+    "latin_name": "Erythropitta celebensis",
+    "summary": "The Sulawesi pitta (Erythropitta celebensis) is a species of pitta. It was considered a subspecies of the red-bellied pitta.",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sulawesi_Pitta_from_North_Sulawesi.jpg/960px-Sulawesi_Pitta_from_North_Sulawesi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-苏拉威西岛-6ebabd9a",
+      "name": "苏拉威西岛",
+      "summary": "苏拉威西岛（印尼語：Sulawesi）舊名西里伯或西里伯斯，《職方外紀》稱則勒伯（荷蘭語：Celebes），是印度尼西亚东部的一个大岛屿。 地理 苏拉威西岛按面积是世界第十一大岛，总面积为174,600平方公里，位于印度尼西亚东部，菲律宾…",
+      "lat": "-2",
+      "lng": "121"
+    },
+    {
+      "id": "loc-托吉安群島-dc24fa7f",
+      "name": "托吉安群島",
+      "summary": "托吉安群島是印度尼西亞的群島，由56個島嶼組成，位於托米尼灣，島上有37個村落。群島有雨林覆蓋，周圍則是珊瑚礁，是玳瑁、綠蠵龜和儒艮的棲息地和繁殖地區。行政上由中苏拉威西省托久乌纳乌纳县管理。群岛大部分地区属于托吉安群岛国家公园。 外部連…",
+      "lat": "-0.39166667",
+      "lng": "121.95777778"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sulawesi-pitta-f26b0486",
+      "subject": "Sulawesi pitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia where it occurs in Sulawesi, Manterawu, and Togian Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sulawesi-pitta-f26b0486",
+      "subject": "Sulawesi pitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏拉威西岛-6ebabd9a",
+      "object": "苏拉威西岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia where it occurs in Sulawesi, Manterawu, and Togian Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sulawesi-pitta-f26b0486",
+      "subject": "Sulawesi pitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-托吉安群島-dc24fa7f",
+      "object": "托吉安群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia where it occurs in Sulawesi, Manterawu, and Togian Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sulawesi-pitta-f26b0486",
+      "subject": "Sulawesi pitta",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-sulawesi-pitta-f26b0486",
+      "subject": "Sulawesi pitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

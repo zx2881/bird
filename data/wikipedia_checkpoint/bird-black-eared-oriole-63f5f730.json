@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:35:29",
+  "requested_title": "Black-eared Oriole",
+  "resolved_title": "Black-eared oriole",
+  "title_aliases": [
+    "Black-eared Oriole"
+  ],
+  "bird_id": "bird-black-eared-oriole-63f5f730",
+  "raw_file": "bird-black-eared-oriole-63f5f730.json",
+  "bird": {
+    "id": "bird-black-eared-oriole-63f5f730",
+    "name": "Black-eared oriole",
+    "english_name": "Black-eared oriole",
+    "latin_name": "Oriolus bouroensis",
+    "summary": "The black-eared oriole (Oriolus bouroensis), or Buru oriole, is a species of bird in the family Oriolidae. It is native to Buru island.",
+    "lat": "-3.425",
+    "lng": "126.6675",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Oriolus_bouroensis_247589422.jpg/960px-Oriolus_bouroensis_247589422.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-布魯島-4739164a",
+      "name": "布魯島",
+      "summary": "布魯島（印尼語：Pulau Buru），清代書籍譯作武羅、木魯、布盧，又譯務羅、未羅、普路、布襦、部魯，是印度尼西亞摩鹿加省的熱帶小島，位於安汶島和斯蘭島以西，面積8,473平方公里，是摩鹿加群島的第三大島嶼，2012年人口約206,84…",
+      "lat": "-3.425",
+      "lng": "126.6675"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-eared-oriole-63f5f730",
+      "subject": "Black-eared oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-布魯島-4739164a",
+      "object": "布魯島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Buru island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-eared-oriole-63f5f730",
+      "subject": "Black-eared oriole",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

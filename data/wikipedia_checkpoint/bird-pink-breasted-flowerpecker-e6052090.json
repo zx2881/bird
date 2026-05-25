@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:45:35",
+  "requested_title": "Pink-breasted Flowerpecker",
+  "resolved_title": "Pink-breasted flowerpecker",
+  "title_aliases": [
+    "Pink-breasted Flowerpecker"
+  ],
+  "bird_id": "bird-pink-breasted-flowerpecker-e6052090",
+  "raw_file": "bird-pink-breasted-flowerpecker-e6052090.json",
+  "bird": {
+    "id": "bird-pink-breasted-flowerpecker-e6052090",
+    "name": "Pink-breasted flowerpecker",
+    "english_name": "Pink-breasted flowerpecker",
+    "latin_name": "Dicaeum keiense",
+    "summary": "The pink-breasted flowerpecker (Dicaeum keiense) is a species of bird in the family Dicaeidae that is native to the south and southeast Mal…",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dicaeum_keiense_-_James_Eaton_-_440527568.jpeg/960px-Dicaeum_keiense_-_James_Eaton_-_440527568.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-托馬索-薩爾瓦多里-8e61e436",
+      "name": "托馬索·薩爾瓦多里",
+      "summary": "托馬索·薩爾瓦多里，全稱阿代拉多·托馬索·薩爾瓦多里·帕萊奧蒂伯爵（Count Adelardo Tommaso Salvadori Paleotti，1835年9月30日—1923年10月9日）是一位義大利動物學家與鳥類學家。 生平簡介…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "The Maluku Islands ( mə-LUU-koo, -⁠LOO-; Indonesian: Kepulauan Maluku, IPA: [kəpuˈlawan maˈluku]) or the Moluccas ( mə-…",
+      "lat": "-3",
+      "lng": "129"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pink-breasted-flowerpecker-e6052090",
+      "subject": "Pink-breasted flowerpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-托馬索-薩爾瓦多里-8e61e436",
+      "object": "托馬索·薩爾瓦多里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pink-breasted flowerpecker (Dicaeum keiense) is a species of bird in the family Dicaeidae that is native to the south and southeast Maluku Islands of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pink-breasted-flowerpecker-e6052090",
+      "subject": "Pink-breasted flowerpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pink-breasted flowerpecker (Dicaeum keiense) is a species of bird in the family Dicaeidae that is native to the south and southeast Maluku Islands of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pink-breasted-flowerpecker-e6052090",
+      "subject": "Pink-breasted flowerpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

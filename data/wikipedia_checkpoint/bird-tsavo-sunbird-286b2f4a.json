@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:05:18",
+  "requested_title": "Tsavo Sunbird",
+  "resolved_title": "Tsavo sunbird",
+  "title_aliases": [
+    "Tsavo Sunbird"
+  ],
+  "bird_id": "bird-tsavo-sunbird-286b2f4a",
+  "raw_file": "bird-tsavo-sunbird-286b2f4a.json",
+  "bird": {
+    "id": "bird-tsavo-sunbird-286b2f4a",
+    "name": "Tsavo sunbird",
+    "english_name": "Tsavo sunbird",
+    "latin_name": "Cinnyris tsavoensis",
+    "summary": "The Tsavo sunbird (Cinnyris tsavoensis) is a small passerine bird of Kenya and Tanzania. It is sometimes lumped with the purple-banded sunb…",
+    "lat": "-2.96666667",
+    "lng": "38.46666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tsavo_Sunbird_%28Cinnyris_tsavoensis%29_%2831644749997%29.jpg/960px-Tsavo_Sunbird_%28Cinnyris_tsavoensis%29_%2831644749997%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-tsavo-6b36256e",
+      "name": "Tsavo",
+      "summary": "Tsavo is a region of Kenya located where the Uganda Railway crosses the Tsavo River, close to where it meets the Athi-G…",
+      "lat": "-2.96666667",
+      "lng": "38.46666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tsavo-sunbird-286b2f4a",
+      "subject": "Tsavo sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-tsavo-6b36256e",
+      "object": "Tsavo",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Tsavo region of southeastern Kenya and nearby northern Tanzania, but not on the coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tsavo-sunbird-286b2f4a",
+      "subject": "Tsavo sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

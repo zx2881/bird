@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:53:32",
+  "requested_title": "Blue-eared Barbet",
+  "resolved_title": "Blue-eared barbet",
+  "title_aliases": [
+    "Blue-eared Barbet"
+  ],
+  "bird_id": "bird-蓝耳拟啄木鸟-956afa68",
+  "raw_file": "bird-蓝耳拟啄木鸟-956afa68.json",
+  "bird": {
+    "id": "bird-蓝耳拟啄木鸟-956afa68",
+    "name": "蓝耳拟啄木鸟",
+    "english_name": "Blue-eared barbet",
+    "latin_name": "Psilopogon cyanotis",
+    "summary": "蓝耳拟啄木鸟（台湾作藍耳擬啄木）（学名：Psilopogon cyanotis），是䴕形目拟啄木鸟科的一种鸟类。 特征 蓝耳拟啄木鸟体重约33.3克，翼长约75.4毫米，嘴峰长约18毫米，喙宽度约7.7毫米，喙厚度约8.4毫米，跗蹠长约17.8毫米，尾长约38.6毫米。蓝耳拟啄…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Blue-eared_barbet_%40_Murlen.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-愛德華-布萊思-840f1191",
+      "name": "愛德華·布萊思",
+      "summary": "愛德華·布萊思（英語：Edward Blyth，1810年12月23日—1873年12月27日）是一位英國動物學家，其一生中的絕大部分時間都在印度加爾各答的孟加拉亞洲學會博物館內擔任策展人。 布萊思於1810年生於倫敦，於1841年移居至…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "中南半岛（法語：Indochine），又稱印度支那半島（简称印度支那、印支）、东南亚大陆地区、东南亚半岛地区等，是亞洲東南部東臨南海、西瀕印度洋的半島，在印度次大陸以東、中国大陆以南，包括今日的緬甸、泰國、老撾、柬埔寨、越南、马来半岛等地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝耳拟啄木鸟-956afa68",
+      "subject": "蓝耳拟啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-愛德華-布萊思-840f1191",
+      "object": "愛德華·布萊思",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue-eared barbet (Psilopogon cyanotis) is a barbet in the Megalaimidae family native to mainland Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝耳拟啄木鸟-956afa68",
+      "subject": "蓝耳拟啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue-eared barbet (Psilopogon cyanotis) is a barbet in the Megalaimidae family native to mainland Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝耳拟啄木鸟-956afa68",
+      "subject": "蓝耳拟啄木鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits shrublands and forests up to an altitude of . It nests in tree cavities",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-蓝耳拟啄木鸟-956afa68",
+      "subject": "蓝耳拟啄木鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:08:23",
+  "requested_title": "Visayan Broadbill",
+  "resolved_title": "Visayan broadbill",
+  "title_aliases": [
+    "Visayan Broadbill"
+  ],
+  "bird_id": "bird-米沙岛阔嘴鸟-73c79224",
+  "raw_file": "bird-米沙岛阔嘴鸟-73c79224.json",
+  "bird": {
+    "id": "bird-米沙岛阔嘴鸟-73c79224",
+    "name": "米沙岛阔嘴鸟",
+    "english_name": "Visayan broadbill",
+    "latin_name": "Sarcophanops samarensis",
+    "summary": "米沙岛阔嘴鸟（学名：Eurylaimus samarensis），是阔嘴鸟科阔嘴鸟属的一种，为菲律宾的特有种。全球活动范围约为22,800平方千米。该物种的保护状况被评为易危。 米沙岛阔嘴鸟的平均体重约为37.5克。栖息地为亚热带或热带的湿润低地林。",
+    "lat": "12.03611111",
+    "lng": "125.21111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/VisayanWattledBroadbillFemale1.jpg/960px-VisayanWattledBroadbillFemale1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "name": "Rajah Sikatuna Protected Landscape",
+      "summary": "The Rajah Sikatuna Protected Landscape is a protected landscape area of forested limestone hills, grasslands and natura…",
+      "lat": "9.70527778",
+      "lng": "124.12416667"
+    },
+    {
+      "id": "loc-samar-island-natural-park-2cae892d",
+      "name": "Samar Island Natural Park",
+      "summary": "The Samar Island Natural Park, in Samar, is the largest contiguous tract of old-growth forest in the Philippines.",
+      "lat": "12.03611111",
+      "lng": "125.21111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-米沙岛阔嘴鸟-73c79224",
+      "subject": "米沙岛阔嘴鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "object": "Rajah Sikatuna Protected Landscape",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This occurs in a few protected areas such as Rajah Sikatuna Protected Landscape and Samar Island Natural Park however protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-米沙岛阔嘴鸟-73c79224",
+      "subject": "米沙岛阔嘴鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-samar-island-natural-park-2cae892d",
+      "object": "Samar Island Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This occurs in a few protected areas such as Rajah Sikatuna Protected Landscape and Samar Island Natural Park however protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-米沙岛阔嘴鸟-73c79224",
+      "subject": "米沙岛阔嘴鸟",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-米沙岛阔嘴鸟-73c79224",
+      "subject": "米沙岛阔嘴鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-米沙岛阔嘴鸟-73c79224",
+      "subject": "米沙岛阔嘴鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Extensive lowland deforestation on all islands in its range is the main threat",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

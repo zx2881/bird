@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:49:07",
+  "requested_title": "Bornean Stubtail",
+  "resolved_title": "Bornean stubtail",
+  "title_aliases": [
+    "Bornean Stubtail"
+  ],
+  "bird_id": "bird-bornean-stubtail-0db872fc",
+  "raw_file": "bird-bornean-stubtail-0db872fc.json",
+  "bird": {
+    "id": "bird-bornean-stubtail-0db872fc",
+    "name": "Bornean stubtail",
+    "english_name": "Bornean stubtail",
+    "latin_name": "Urosphena whiteheadi",
+    "summary": "The Bornean stubtail (Urosphena whiteheadi) is a species of bird in the cettiid warbler family Cettiidae. It is endemic to the island of Bo…",
+    "lat": "0.66666667",
+    "lng": "113.83333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bornean_Stubtail_0A2A1444.jpg/960px-Bornean_Stubtail_0A2A1444.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-m-ller-mountains-a6dcc06e",
+      "name": "Müller Mountains",
+      "summary": "The Müller Mountains (Indonesian: Pegunungan Muller) are a mountain range in Central Borneo.",
+      "lat": "0.66666667",
+      "lng": "113.83333333"
+    },
+    {
+      "id": "loc-杜利特山-165eda3d",
+      "name": "杜利特山",
+      "summary": "杜利特山（马来语：Gunung Dulit，英语：Mount Dulit）是婆罗洲的一座山。它的顶峰海拔1,311米，位于马来西亚砂拉越州北部的峇南河源头。它是婆罗洲山脉的西部异常地区，大部分被山地热带雨林覆盖。它被用来为多种植物和动物命…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-forest-floor-c342c180",
+      "name": "Forest floor",
+      "summary": "The forest floor, also called detritus or duff, is the part of a forest ecosystem that mediates between the living, abo…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bornean-stubtail-0db872fc",
+      "subject": "Bornean stubtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-m-ller-mountains-a6dcc06e",
+      "object": "Müller Mountains",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Endemic to Borneo, the Bornean stubtail is found in the mountain ranges of Borneo, from Mount Kinabalu south to Liang Kubung, the Müller Mountains, Mount Dulit, and Gunung Menyapa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bornean-stubtail-0db872fc",
+      "subject": "Bornean stubtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-杜利特山-165eda3d",
+      "object": "杜利特山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Endemic to Borneo, the Bornean stubtail is found in the mountain ranges of Borneo, from Mount Kinabalu south to Liang Kubung, the Müller Mountains, Mount Dulit, and Gunung Menyapa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bornean-stubtail-0db872fc",
+      "subject": "Bornean stubtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-forest-floor-c342c180",
+      "object": "Forest floor",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the forest floor and undergrowth of montane forests at altitudes of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bornean-stubtail-0db872fc",
+      "subject": "Bornean stubtail",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is endemic to the island of Borneo, where it inhabits forest floors and undergrowth in montane forests at elevations of",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-bornean-stubtail-0db872fc",
+      "subject": "Bornean stubtail",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits the forest floor and undergrowth of montane forests at altitudes of",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-bornean-stubtail-0db872fc",
+      "subject": "Bornean stubtail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

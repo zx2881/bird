@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:13:07",
+  "requested_title": "Taita White-eye",
+  "resolved_title": "Taita white-eye",
+  "title_aliases": [
+    "Taita White-eye"
+  ],
+  "bird_id": "bird-taita-white-eye-29682866",
+  "raw_file": "bird-taita-white-eye-29682866.json",
+  "bird": {
+    "id": "bird-taita-white-eye-29682866",
+    "name": "Taita white-eye",
+    "english_name": "Taita white-eye",
+    "latin_name": "Zosterops silvanus",
+    "summary": "Taita white-eye (Zosterops silvanus) is a species of bird in the family Zosteropidae. It includes numerous subspecies, sometimes considered…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Zosterops_silvanus_-_Gino_Brignoli_-_53983429.jpeg/960px-Zosterops_silvanus_-_Gino_Brignoli_-_53983429.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-taita-white-eye-29682866",
+      "subject": "Taita white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is only found in Taita Hills in southeastern Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-taita-white-eye-29682866",
+      "subject": "Taita white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|last8=Sarmento Cabral |first8=Juliano |date=July 2022 |title=Hybridization may aid evolutionary rescue of an endangered East African passerine |journal=Evolutionary Applications |volume=15 |issue=7 |pages=1177–1188 |doi=10.1111/eva.13440 |pmid=35899253 |pmc=9309464 |bibcode=2022EvApp..15.1177V |issn=1752-4571|hdl=1854/LU-01H05KG780T68Z9E9WH2758MBN |hdl-access=free }} It breeds in cloud forests. It is often observed in mixed flocks with the pale white-eye",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-taita-white-eye-29682866",
+      "subject": "Taita white-eye",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-taita-white-eye-29682866",
+      "subject": "Taita white-eye",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "IUCN categorizes it as vulnerable. It is threatened by severe habitat loss and fragmentation, mainly as a result of the deforestation of the Taita Hills.{{Cite journal |last1=Vedder |first1=Daniel |last2=Lens |first2=Luc |last3=Martin |first3=Claudia A",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-taita-white-eye-29682866",
+      "subject": "Taita white-eye",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "IUCN categorizes it as vulnerable. It is threatened by severe habitat loss and fragmentation, mainly as a result of the deforestation of the Taita Hills.{{Cite journal |last1=Vedder |first1=Daniel |last2=Lens |first2=Luc |last3=Martin |first3=Claudia A",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:16:11",
+  "requested_title": "New Britain Sparrowhawk",
+  "resolved_title": "New Britain sparrowhawk",
+  "title_aliases": [
+    "New Britain Sparrowhawk"
+  ],
+  "bird_id": "bird-new-britain-sparrowhawk-cb7a03ac",
+  "raw_file": "bird-new-britain-sparrowhawk-cb7a03ac.json",
+  "bird": {
+    "id": "bird-new-britain-sparrowhawk-cb7a03ac",
+    "name": "New Britain sparrowhawk",
+    "english_name": "New Britain sparrowhawk",
+    "latin_name": "Tachyspiza brachyura",
+    "summary": "The New Britain sparrowhawk (Tachyspiza brachyura) is a threatened species of bird of prey. It is endemic to two Papua New Guinea islands,…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_britain_sparrowhawk_range_map.png/960px-New_britain_sparrowhawk_range_map.png"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-new-britain-sparrowhawk-cb7a03ac",
+      "subject": "New Britain sparrowhawk",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This species lives in tropical to subtropical, moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-new-britain-sparrowhawk-cb7a03ac",
+      "subject": "New Britain sparrowhawk",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-new-britain-sparrowhawk-cb7a03ac",
+      "subject": "New Britain sparrowhawk",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "it is estimated that the population is only between 1,000 and 2,499 individuals. The main threat to the continued existence of this species is habitat destruction which has led to the birds' decline in lowland forests",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

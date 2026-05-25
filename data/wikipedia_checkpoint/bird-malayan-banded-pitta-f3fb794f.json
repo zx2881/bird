@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:11:42",
+  "requested_title": "Malayan Banded Pitta",
+  "resolved_title": "Malayan banded pitta",
+  "title_aliases": [
+    "Malayan Banded Pitta"
+  ],
+  "bird_id": "bird-malayan-banded-pitta-f3fb794f",
+  "raw_file": "bird-malayan-banded-pitta-f3fb794f.json",
+  "bird": {
+    "id": "bird-malayan-banded-pitta-f3fb794f",
+    "name": "Malayan banded pitta",
+    "english_name": "Malayan banded pitta",
+    "latin_name": "Hydrornis irena",
+    "summary": "The Malayan banded pitta (Hydrornis irena) is a species of bird in the family Pittidae. Other common names include the blue-tailed pitta, t…",
+    "lat": "15",
+    "lng": "101",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hydrornis_irena_-_Sri_Phang_Nga.jpg/960px-Hydrornis_irena_-_Sri_Phang_Nga.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-泰国-6e4d220d",
+      "name": "泰国",
+      "summary": "泰王国（泰語：ราชอาณาจักรไทย，皇家轉寫：Ratcha-anachak Thai），通稱泰国（泰語：ประเทศไทย，皇家轉寫：Prathet Thai），舊称暹罗（泰語：สยาม，皇家轉寫：Sayam），是东南亚的君主立宪…",
+      "lat": "15",
+      "lng": "101"
+    },
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-malayan-banded-pitta-f3fb794f",
+      "subject": "Malayan banded pitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰国-6e4d220d",
+      "object": "泰国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Thailand, the Malay Peninsula and Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malayan-banded-pitta-f3fb794f",
+      "subject": "Malayan banded pitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Thailand, the Malay Peninsula and Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malayan-banded-pitta-f3fb794f",
+      "subject": "Malayan banded pitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Thailand, the Malay Peninsula and Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malayan-banded-pitta-f3fb794f",
+      "subject": "Malayan banded pitta",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It typically inhabits primary lowland evergreen forests, including swamp forests, but can occur at altitudes of up to",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-malayan-banded-pitta-f3fb794f",
+      "subject": "Malayan banded pitta",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

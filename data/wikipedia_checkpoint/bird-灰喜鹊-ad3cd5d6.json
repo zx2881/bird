@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:05:40",
+  "requested_title": "Azure-winged Magpie",
+  "resolved_title": "Azure-winged magpie",
+  "title_aliases": [
+    "Azure-winged Magpie"
+  ],
+  "bird_id": "bird-灰喜鹊-ad3cd5d6",
+  "raw_file": "bird-灰喜鹊-ad3cd5d6.json",
+  "bird": {
+    "id": "bird-灰喜鹊-ad3cd5d6",
+    "name": "灰喜鹊",
+    "english_name": "Azure-winged magpie",
+    "latin_name": "Cyanopica cyanus",
+    "summary": "灰喜鹊（学名：Cyanopica cyanus），俗稱蓝鹊、灰鹊、马尾鹊、羊乌鹊、山喜鹊或蓝膀喜鹊。 特征 灰喜鹊是中等体形的鸦科鸟类，体长约40厘米，本物种较另一种城市中常见的鸦科鸟类喜鹊体形明显要小很多，并且较修长。灰喜鹊雄雌同形同色，成鸟头顶、颈侧、后颈为饱满的黑色，在黑…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2011_Blauelster_in_Shanghai.jpg/960px-2011_Blauelster_in_Shanghai.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰喜鹊-ad3cd5d6",
+      "subject": "灰喜鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits various types of coniferous (mainly pine) and broadleaf forest, including parks and gardens in the eastern populations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰喜鹊-ad3cd5d6",
+      "subject": "灰喜鹊",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:32:03",
+  "requested_title": "Lesser Greenlet",
+  "resolved_title": "Lesser greenlet",
+  "title_aliases": [
+    "Lesser Greenlet"
+  ],
+  "bird_id": "bird-lesser-greenlet-809eb278",
+  "raw_file": "bird-lesser-greenlet-809eb278.json",
+  "bird": {
+    "id": "bird-lesser-greenlet-809eb278",
+    "name": "Lesser greenlet",
+    "english_name": "Lesser greenlet",
+    "latin_name": "Pachysylvia decurtata",
+    "summary": "The lesser greenlet (Pachysylvia decurtata) is a small passerine bird in the family Vireonidae, the vireos, greenlets, and shrike-babblers.…",
+    "lat": "-3.88",
+    "lng": "-80.59",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Lesser_Greenlet_%28Hylophilus_decurtatus%29_%287222933432%29.jpg/960px-Lesser_Greenlet_%28Hylophilus_decurtatus%29_%287222933432%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-通贝斯大区-5cf0a14a",
+      "name": "通贝斯大区",
+      "summary": "通貝斯大區（西班牙語：Departamento de Tumbes）是秘魯西北部的一個大區，西臨太平洋，東接厄瓜多爾。面積4,045.86平方公里，2007年人口191,713人。首府通貝斯。 1942年11月25日建區，2005年曾經舉…",
+      "lat": "-3.88",
+      "lng": "-80.59"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lesser-greenlet-809eb278",
+      "subject": "Lesser greenlet",
+      "predicate": "distributed_in",
+      "object_id": "loc-通贝斯大区-5cf0a14a",
+      "object": "通贝斯大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "minor: Pacific slope of western Colombia south through Ecuador just into far northwestern Peru's Tumbes Department The lesser greenlet inhabits a variety of landscapes in the tropical zone",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-greenlet-809eb278",
+      "subject": "Lesser greenlet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

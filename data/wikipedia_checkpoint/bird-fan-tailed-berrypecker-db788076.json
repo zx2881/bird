@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:49:17",
+  "requested_title": "Fan-tailed Berrypecker",
+  "resolved_title": "Fan-tailed berrypecker",
+  "title_aliases": [
+    "Fan-tailed Berrypecker"
+  ],
+  "bird_id": "bird-fan-tailed-berrypecker-db788076",
+  "raw_file": "bird-fan-tailed-berrypecker-db788076.json",
+  "bird": {
+    "id": "bird-fan-tailed-berrypecker-db788076",
+    "name": "Fan-tailed berrypecker",
+    "english_name": "Fan-tailed berrypecker",
+    "latin_name": "Melanocharis versteri",
+    "summary": "The fan-tailed berrypecker (Melanocharis versteri) is a species of bird in the family Melanocharitidae. It is found in New Guinea.",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Melanocharis_versteri_3089680_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-fan-tailed-berrypecker-db788076",
+      "subject": "Fan-tailed berrypecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fan-tailed-berrypecker-db788076",
+      "subject": "Fan-tailed berrypecker",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-fan-tailed-berrypecker-db788076",
+      "subject": "Fan-tailed berrypecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

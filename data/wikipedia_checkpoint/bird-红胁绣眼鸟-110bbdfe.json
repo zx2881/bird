@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:07:08",
+  "requested_title": "Chestnut-flanked White-eye",
+  "resolved_title": "Chestnut-flanked white-eye",
+  "title_aliases": [
+    "Chestnut-flanked White-eye"
+  ],
+  "bird_id": "bird-红胁绣眼鸟-110bbdfe",
+  "raw_file": "bird-红胁绣眼鸟-110bbdfe.json",
+  "bird": {
+    "id": "bird-红胁绣眼鸟-110bbdfe",
+    "name": "红胁绣眼鸟",
+    "english_name": "Chestnut-flanked white-eye",
+    "latin_name": "Zosterops erythropleurus",
+    "summary": "红胁绣眼鸟（学名：Zosterops erythropleurus）为绣眼鸟科绣眼鸟属的鸟类，俗名：粉眼、红胁粉眼、北粉眼、白眼儿、红腿粉眼。該物種於1863年由羅伯特·斯文豪首次描述。其棲息於森林，並偏好較深的混合林及針葉林。 描述 紅脇繡眼體長10.5公分，兩脅有顯著的栗色…",
+    "lat": "43",
+    "lng": "125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Zosterops_erythropleurus.jpg/960px-Zosterops_erythropleurus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    },
+    {
+      "id": "loc-云南省-f689e1a8",
+      "name": "云南省",
+      "summary": "云南省，简称云或滇，因清代境內有迤东道、迤西道、迤南道三迤，故又簡稱迤，是中华人民共和国西南边疆地区的省份。云南地形复杂多变，以高原与山地为主，海拔落差大，呈“西北高、东南低”地势格局。气候类型多样，从高原气候到热带、亚热带气候均有分布，…",
+      "lat": "25.04944444",
+      "lng": "102.70888889"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红胁绣眼鸟-110bbdfe",
+      "subject": "红胁绣眼鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, breeding in Manchuria and migrating to central China, the province of Yunnan and northern Southeast Asia in the winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红胁绣眼鸟-110bbdfe",
+      "subject": "红胁绣眼鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-云南省-f689e1a8",
+      "object": "云南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, breeding in Manchuria and migrating to central China, the province of Yunnan and northern Southeast Asia in the winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红胁绣眼鸟-110bbdfe",
+      "subject": "红胁绣眼鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, breeding in Manchuria and migrating to central China, the province of Yunnan and northern Southeast Asia in the winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红胁绣眼鸟-110bbdfe",
+      "subject": "红胁绣眼鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

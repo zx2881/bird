@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:02:03",
+  "requested_title": "Red-shouldered Hawk",
+  "resolved_title": "Red-shouldered hawk",
+  "title_aliases": [
+    "Red-shouldered Hawk"
+  ],
+  "bird_id": "bird-赤肩鵟-14738f9f",
+  "raw_file": "bird-赤肩鵟-14738f9f.json",
+  "bird": {
+    "id": "bird-赤肩鵟-14738f9f",
+    "name": "赤肩鵟",
+    "english_name": "Red-shouldered hawk",
+    "latin_name": "Buteo lineatus",
+    "summary": "赤肩鵟（学名：Buteo lineatus）为鹰科鵟屬的一种鸟，分布于北美洲，该物种于1788年由约翰·弗里德里希·格梅林描述，被IUCN列为无危物种。雄性体长大约为38至58公分，雌性体长大约为47至61公分。 其种加词“Lineatus”意为“有线纹的”。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Red-shouldered_Hawk_%28Buteo_lineatus%29_-_Blue_Cypress_Lake%2C_Florida.jpg/960px-Red-shouldered_Hawk_%28Buteo_lineatus%29_-_Blue_Cypress_Lake%2C_Florida.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-赤肩鵟-14738f9f",
+      "subject": "赤肩鵟",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In the east, they live in bottomland hardwood stands, flooded deciduous swamps, and upland mixed deciduous–conifer forests",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-赤肩鵟-14738f9f",
+      "subject": "赤肩鵟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-赤肩鵟-14738f9f",
+      "subject": "赤肩鵟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The main conservation threat to the widespread species is deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-赤肩鵟-14738f9f",
+      "subject": "赤肩鵟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In spite of these dangers, habitat loss remains the biggest threat to red-shouldered hawks",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:54:15",
+  "requested_title": "North Island Robin",
+  "resolved_title": "North Island robin",
+  "title_aliases": [
+    "North Island Robin"
+  ],
+  "bird_id": "bird-北岛鸲鹟-d349483d",
+  "raw_file": "bird-北岛鸲鹟-d349483d.json",
+  "bird": {
+    "id": "bird-北岛鸲鹟-d349483d",
+    "name": "北岛鸲鹟",
+    "english_name": "North Island robin",
+    "latin_name": "Petroica longipes",
+    "summary": "北岛鸲鹟（學名：Petroica longipes）是鴝鶲科的一種鳥類，分佈於紐西蘭北島。牠們曾一度被認為是南島及斯圖爾特島的南島鴝鶲亞種之一，但牠們的線粒體DNA序列顯示於更新世就與鴝鶲分開演化，故是屬於兩個不同的物種。北岛鸲鹟主要分佈在北島的中部，小部份在島嶼灣、小巴里爾島…",
+    "lat": "-39",
+    "lng": "176",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/North_Island_Robin-edit.jpg/960px-North_Island_Robin-edit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-prosper-garnot-7753453b",
+      "name": "Prosper Garnot",
+      "summary": "Prosper Garnot (13 January 1794 – 8 October 1838) was a French surgeon and naturalist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北島-紐西蘭-9849287a",
+      "name": "北島 (紐西蘭)",
+      "summary": "北岛（英語：North Island；毛利語：Te Ika-a-Māui）与南岛组成新西兰的主体，是世界第十四大岛屿。 面積：113,729 km² 人口：3,596,200 (June 2016) 76%的新西兰人口居住于北岛，而其中大…",
+      "lat": "-39",
+      "lng": "176"
+    },
+    {
+      "id": "loc-新西兰-f3c9507e",
+      "name": "新西兰",
+      "summary": "新西兰（英語：New Zealand）又称奥特亚罗瓦（毛利語：Aotearoa，直译：「长白云之乡」），位於太平洋西南部的主權島國，是英联邦新西蘭王國的主體部分，首都為惠灵顿，最大的城市為奧克蘭。紐西蘭主要由兩大島嶼組成：北島（Te Ik…",
+      "lat": "-42",
+      "lng": "173"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北岛鸲鹟-d349483d",
+      "subject": "北岛鸲鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-prosper-garnot-7753453b",
+      "object": "Prosper Garnot",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "alt=The distribution of the North Island robin stretches from the Taranaki region to the Bay of Plenty region, with smaller populations scattered throughout the North Island|thumb|Approximate distribution of the North Island Robin. The North Island robin (Petroica longipes; , ) is a species of Australasian robin endemic to the North Island of New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北岛鸲鹟-d349483d",
+      "subject": "北岛鸲鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-北島-紐西蘭-9849287a",
+      "object": "北島 (紐西蘭)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "alt=The distribution of the North Island robin stretches from the Taranaki region to the Bay of Plenty region, with smaller populations scattered throughout the North Island|thumb|Approximate distribution of the North Island Robin. The North Island robin (Petroica longipes; , ) is a species of Australasian robin endemic to the North Island of New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北岛鸲鹟-d349483d",
+      "subject": "北岛鸲鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-新西兰-f3c9507e",
+      "object": "新西兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "alt=The distribution of the North Island robin stretches from the Taranaki region to the Bay of Plenty region, with smaller populations scattered throughout the North Island|thumb|Approximate distribution of the North Island Robin. The North Island robin (Petroica longipes; , ) is a species of Australasian robin endemic to the North Island of New Zealand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北岛鸲鹟-d349483d",
+      "subject": "北岛鸲鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

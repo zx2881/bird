@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:03:52",
+  "requested_title": "Scaled Piculet",
+  "resolved_title": "Scaled piculet",
+  "title_aliases": [
+    "Scaled Piculet"
+  ],
+  "bird_id": "bird-scaled-piculet-10c1d363",
+  "raw_file": "bird-scaled-piculet-10c1d363.json",
+  "bird": {
+    "id": "bird-scaled-piculet-10c1d363",
+    "name": "Scaled piculet",
+    "english_name": "Scaled piculet",
+    "latin_name": "Picumnus squamulatus",
+    "summary": "The scaled piculet (Picumnus squamulatus) is a species of bird in subfamily Picumninae of the woodpecker family Picidae. It is found in Col…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Scaled_Piculet_Telegrafista_Escamado_%28Picumnus_squamulatus_rohli%29_%28%E2%99%80%29_3.jpg/960px-Scaled_Piculet_Telegrafista_Escamado_%28Picumnus_squamulatus_rohli%29_%28%E2%99%80%29_3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-scaled-piculet-10c1d363",
+      "subject": "Scaled piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The scaled piculet inhabits a variety of semi-open to open landscapes including gallery forest, the edges of primary forest, secondary forest, deciduous woodland, farmland with scattered trees, and pastures",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scaled-piculet-10c1d363",
+      "subject": "Scaled piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The scaled piculet inhabits a variety of semi-open to open landscapes including gallery forest, the edges of primary forest, secondary forest, deciduous woodland, farmland with scattered trees, and pastures",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scaled-piculet-10c1d363",
+      "subject": "Scaled piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The scaled piculet inhabits a variety of semi-open to open landscapes including gallery forest, the edges of primary forest, secondary forest, deciduous woodland, farmland with scattered trees, and pastures",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scaled-piculet-10c1d363",
+      "subject": "Scaled piculet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:19:34",
+  "requested_title": "Purple-throated Fruitcrow",
+  "resolved_title": "Purple-throated fruitcrow",
+  "title_aliases": [
+    "Purple-throated Fruitcrow"
+  ],
+  "bird_id": "bird-purple-throated-fruitcrow-4b852d50",
+  "raw_file": "bird-purple-throated-fruitcrow-4b852d50.json",
+  "bird": {
+    "id": "bird-purple-throated-fruitcrow-4b852d50",
+    "name": "Purple-throated fruitcrow",
+    "english_name": "Purple-throated fruitcrow",
+    "latin_name": "Querula purpurata",
+    "summary": "The purple-throated fruitcrow (Querula purpurata) is a species of bird in the family Cotingidae, the cotingas. It is found in Costa Rica, P…",
+    "lat": "9.11777778",
+    "lng": "-79.72027778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Querula_purpurata_-_Purple-throated_Fruitcrow_%28male%29%3B_Parauapebas%2C_Par%C3%A1%2C_Brazil.jpg/960px-Querula_purpurata_-_Purple-throated_Fruitcrow_%28male%29%3B_Parauapebas%2C_Par%C3%A1%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴拿馬運河區-65e034dc",
+      "name": "巴拿馬運河區",
+      "summary": "巴拿馬運河區（英語：Panama Canal Zone，西班牙語：Zona del Canal de Panamá），是1903年至1979年期間，美國位於巴拿馬運河的租借地。運河區包括巴拿馬運河本身，以及除巴拿馬城與科隆外（均由巴拿馬共…",
+      "lat": "9.11777778",
+      "lng": "-79.72027778"
+    },
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-purple-throated-fruitcrow-4b852d50",
+      "subject": "Purple-throated fruitcrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿馬運河區-65e034dc",
+      "object": "巴拿馬運河區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "One population is found in Central America from southeastern Nicaragua south along the Caribbean side of Costa Rica and Panama and also on the Pacific side of Panama from the Canal Zone south",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-throated-fruitcrow-4b852d50",
+      "subject": "Purple-throated fruitcrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "According to some sources it skirts a wide band of northern Amazonia. However, van Perlo's field guide shows the species occupying the entirety of the Amazon Basin. The purple-throated fruitcrow inhabits lowland evergreen forest in the tropical zone, where it prefers the forest's midstory to canopy.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-throated-fruitcrow-4b852d50",
+      "subject": "Purple-throated fruitcrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "According to some sources it skirts a wide band of northern Amazonia. However, van Perlo's field guide shows the species occupying the entirety of the Amazon Basin. The purple-throated fruitcrow inhabits lowland evergreen forest in the tropical zone, where it prefers the forest's midstory to canopy.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-throated-fruitcrow-4b852d50",
+      "subject": "Purple-throated fruitcrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

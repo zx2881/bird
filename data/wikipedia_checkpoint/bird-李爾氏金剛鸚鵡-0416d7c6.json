@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:46:05",
+  "requested_title": "Lear's Macaw",
+  "resolved_title": "Lear's macaw",
+  "title_aliases": [
+    "Lear's Macaw"
+  ],
+  "bird_id": "bird-李爾氏金剛鸚鵡-0416d7c6",
+  "raw_file": "bird-李爾氏金剛鸚鵡-0416d7c6.json",
+  "bird": {
+    "id": "bird-李爾氏金剛鸚鵡-0416d7c6",
+    "name": "李爾氏金剛鸚鵡",
+    "english_name": "Lear's macaw",
+    "latin_name": "Anodorhynchus leari",
+    "summary": "李爾氏金剛鸚鵡（学名：Anodorhynchus leari，英文名：Lear's Macaw、Indigo Macaw 或 Lear's Hyacinthine Macaw（Hyacinthine 意指「擁有如風信子般的紫藍色」，Hyacinthine Macaw 則是指紫藍…",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Anodorhynchus_leari_-Rio_de_Janeiro_Zoo%2C_Brazil-8a.jpg/960px-Anodorhynchus_leari_-Rio_de_Janeiro_Zoo%2C_Brazil-8a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-李爾氏金剛鸚鵡-0416d7c6",
+      "subject": "李爾氏金剛鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits a dry desert-like shrubby environment known as caatinga, and roosts and nests in cavities in sandstone cliffs",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-李爾氏金剛鸚鵡-0416d7c6",
+      "subject": "李爾氏金剛鸚鵡",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits a dry desert-like shrubby environment known as caatinga, and roosts and nests in cavities in sandstone cliffs",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-李爾氏金剛鸚鵡-0416d7c6",
+      "subject": "李爾氏金剛鸚鵡",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "right|thumb|Sandstone cliffs in Bahia, Brazil right|thumb|Nests in sandstone cliffs in Bahia, Brazil For a century and a half after it had been described, the species was only known from sporadic occurrences in the bird trade, and the whereabouts of the wild population was unknown. A wild population was eventually discovered in 1978 by ornithologist Helmut Sick in Bahia in the interior northeast of Brazil",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-李爾氏金剛鸚鵡-0416d7c6",
+      "subject": "李爾氏金剛鸚鵡",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In response to this, tens of thousands of palms were propagated and planted in fenced-off areas in the early 2000s. Lear's macaw also requires pre-existing natural cavities found in the sandstone cliffs in which to nest",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-李爾氏金剛鸚鵡-0416d7c6",
+      "subject": "李爾氏金剛鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-李爾氏金剛鸚鵡-0416d7c6",
+      "subject": "李爾氏金剛鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The 'Threats' section was updated to emphasise reduction of food resources due to habitat loss caused by the historical expansion of agricultural development in the region (criterion B1b(iii))",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

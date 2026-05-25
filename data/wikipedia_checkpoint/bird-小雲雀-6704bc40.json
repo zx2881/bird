@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:43:05",
+  "requested_title": "Oriental Skylark",
+  "resolved_title": "Oriental skylark",
+  "title_aliases": [
+    "Oriental Skylark"
+  ],
+  "bird_id": "bird-小雲雀-6704bc40",
+  "raw_file": "bird-小雲雀-6704bc40.json",
+  "bird": {
+    "id": "bird-小雲雀-6704bc40",
+    "name": "小雲雀",
+    "english_name": "Oriental skylark",
+    "latin_name": "Alauda gulgula",
+    "summary": "小雲雀（學名：Alauda gulgula），属于百靈科雲雀屬，俗名朝天柱、百灵、阿兰、天鹨、阿鹨、告天鸟、大鹨。分布于前苏联、伊朗、阿富汗、巴基斯坦、尼泊尔、印度、缅甸、越南、斯里兰卡、菲律宾、台湾以及中国大陆的青海、甘肃、宁夏、陕西、西藏、四川、贵州、湖南、江西、广西、海南…",
+    "lat": "7",
+    "lng": "97",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Oriental_Lark_%2849172375968%29.jpg/960px-Oriental_Lark_%2849172375968%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-james-franklin-naturalist-3d86efd6",
+      "name": "James Franklin (naturalist)",
+      "summary": "James Franklin (c.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东洋界-3b791bb2",
+      "name": "东洋界",
+      "summary": "東洋界，或稱極東區、東洋區、東方區、印馬區（Indomalayan realm），是八個生物地理分區之一，涵蓋南亞與東南亞。 東洋界以前大都由森林覆蓋，主要是熱帶和亞熱帶濕潤闊葉林。東洋界的熱帶雨林的樹木大多是龍腦香科。",
+      "lat": "7",
+      "lng": "97"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小雲雀-6704bc40",
+      "subject": "小雲雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-james-franklin-naturalist-3d86efd6",
+      "object": "James Franklin (naturalist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "gulgula near Hyderabad, India | status = LC | status_system = IUCN3.1 | status_ref = | genus = Alauda | species = gulgula | authority = Franklin, 1831 | subdivision_ranks = Subspecies | subdivision = See text | synonyms = | range_map = Alauda gulgula distribution map.png }} The Oriental skylark (Alauda gulgula) is a species of skylark found in the Sino-Indian region and parts of central Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小雲雀-6704bc40",
+      "subject": "小雲雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-东洋界-3b791bb2",
+      "object": "东洋界",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "gulgula near Hyderabad, India | status = LC | status_system = IUCN3.1 | status_ref = | genus = Alauda | species = gulgula | authority = Franklin, 1831 | subdivision_ranks = Subspecies | subdivision = See text | synonyms = | range_map = Alauda gulgula distribution map.png }} The Oriental skylark (Alauda gulgula) is a species of skylark found in the Sino-Indian region and parts of central Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小雲雀-6704bc40",
+      "subject": "小雲雀",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Like other skylarks, it is found in open grassland where it feeds on seeds and insects",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-小雲雀-6704bc40",
+      "subject": "小雲雀",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs from sea level up to 4,300&nbsp;m altitude, and is usually found in open areas with short vegetation, such as grasslands, marshes, the edges of lakes, etc",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-小雲雀-6704bc40",
+      "subject": "小雲雀",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs from sea level up to 4,300&nbsp;m altitude, and is usually found in open areas with short vegetation, such as grasslands, marshes, the edges of lakes, etc",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-小雲雀-6704bc40",
+      "subject": "小雲雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

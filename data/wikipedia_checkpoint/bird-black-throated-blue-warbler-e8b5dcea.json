@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:46:18",
+  "requested_title": "Black-throated Blue Warbler",
+  "resolved_title": "Black-throated blue warbler",
+  "title_aliases": [
+    "Black-throated Blue Warbler"
+  ],
+  "bird_id": "bird-black-throated-blue-warbler-e8b5dcea",
+  "raw_file": "bird-black-throated-blue-warbler-e8b5dcea.json",
+  "bird": {
+    "id": "bird-black-throated-blue-warbler-e8b5dcea",
+    "name": "Black-throated blue warbler",
+    "english_name": "Black-throated blue warbler",
+    "latin_name": "Setophaga caerulescens",
+    "summary": "The black-throated blue warbler (Setophaga caerulescens) is a small passerine bird of the New World warbler family. Its breeding ranges are…",
+    "lat": "21.98333333",
+    "lng": "-79.03333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Black-throated_blue_warblers_%287140435321%29.jpg/960px-Black-throated_blue_warblers_%287140435321%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-温带阔叶混交林-fc0864f2",
+      "name": "温带阔叶混交林",
+      "summary": "温带阔叶混交林是一种温带陆地生物群系，位于阔叶树生态区，和针叶树与阔叶树的针叶混交林生态区。 “温带阔叶混交林”这一术语，由世界自然基金会（WWF）使用，在全球生物地理学中，作为组织生态区的生物群落之一。",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-大安的列斯群岛-83616b90",
+      "name": "大安的列斯群岛",
+      "summary": "大安地列斯群島（英語：Greater Antilles；西班牙語：Antillas Mayores）是加勒比海中较大的岛屿群，包括古巴、伊斯帕尼奥拉岛、波多黎各、牙买加、纳瓦萨岛和开曼群岛。其中伊斯帕尼奥拉岛分属海地和多米尼加共和国两个国…",
+      "lat": "21.98333333",
+      "lng": "-79.03333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-throated-blue-warbler-e8b5dcea",
+      "subject": "Black-throated blue warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-温带阔叶混交林-fc0864f2",
+      "object": "温带阔叶混交林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in temperate mature deciduous forests or mixed coniferous-deciduous forest with a thick understory",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-throated-blue-warbler-e8b5dcea",
+      "subject": "Black-throated blue warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-大安的列斯群岛-83616b90",
+      "object": "大安的列斯群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is often found in hilly and mountainous regions in the northeastern United States and southeastern Canada. In late summer, it migrates to the tropical wooded and scrub habitats in the Greater Antilles for wintering",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-throated-blue-warbler-e8b5dcea",
+      "subject": "Black-throated blue warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

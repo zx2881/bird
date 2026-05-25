@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:35:14",
+  "requested_title": "Northern Raven",
+  "resolved_title": "Common raven",
+  "title_aliases": [
+    "Northern Raven",
+    "Common raven"
+  ],
+  "bird_id": "bird-渡鴉-49117f12",
+  "raw_file": "bird-渡鴉-49117f12.json",
+  "bird": {
+    "id": "bird-渡鴉-49117f12",
+    "name": "渡鴉",
+    "english_name": "Common raven",
+    "latin_name": "Corvus corax",
+    "summary": "渡鴉（學名：Corvus corax，英語：common raven）是一種全身黑色的大型雀形目鴉屬鳥類，俗称为胖头鸟。分佈於北半球，是所有鴉科中分佈最廣泛的一類。目前已知有八個亞種，不同亞種之間在外表上只有些許不同，但在遺傳學上差異則較明顯。 渡鴉是最大的兩種烏鴉之一，可能與…",
+    "lat": "26.35",
+    "lng": "68.85",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Corvus_corax.jpg/960px-Corvus_corax.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北半球-6e1922ec",
+      "name": "北半球",
+      "summary": "北半球（英語：Northern Hemisphere）是指地球赤道以北的半球。北半球表面有60.7%是水，佔地球的42.9%；39.3%是陸地，佔地球的67.3%。 北半球的陸地包含了亞洲大部份、歐洲全部、非洲北半部、北美洲全部、南美洲北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-信德省-04c4fac0",
+      "name": "信德省",
+      "summary": "信德省（Sindh；信德語：سنڌ；烏爾都語：سندھ；羅馬化拼寫曾作Sind）是巴基斯坦的四個省之一。信德省位於該國東南部地區，是巴基斯坦總面積第三大省，人口僅次於旁遮普省的第二大省。它分別與北部的巴基斯坦俾路支省和旁遮普省以及東部的印…",
+      "lat": "26.35",
+      "lng": "68.85"
+    },
+    {
+      "id": "loc-gamekeepers-in-the-united-kingdom-c6fb8eb3",
+      "name": "Gamekeepers in the United Kingdom",
+      "summary": "In the United Kingdom, a gamekeeper (often abbreviated to keeper) is a person who manages an area of countryside (e.g.,…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-渡鴉-49117f12",
+      "subject": "渡鴉",
+      "predicate": "distributed_in",
+      "object_id": "loc-北半球-6e1922ec",
+      "object": "北半球",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the most widely distributed of all corvids, found across the Northern Hemisphere",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-渡鴉-49117f12",
+      "subject": "渡鴉",
+      "predicate": "distributed_in",
+      "object_id": "loc-信德省-04c4fac0",
+      "object": "信德省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "subcorax) occurs in the Sindh district of Pakistan and adjoining regions of northwestern India. They are generally resident within their range for the whole year",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-渡鴉-49117f12",
+      "subject": "渡鴉",
+      "predicate": "distributed_in",
+      "object_id": "loc-gamekeepers-in-the-united-kingdom-c6fb8eb3",
+      "object": "Gamekeepers in the United Kingdom",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "139 thumb|Two juvenile common ravens in Palm Desert, California In the United Kingdom, the range is currently increasing after improved legal protection, but illegal persecution by gamekeepers remains a problem in many areas. It favours mountainous or coastal terrain, but can also be found in parks with tall trees suitable for use as habitation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-渡鴉-49117f12",
+      "subject": "渡鴉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

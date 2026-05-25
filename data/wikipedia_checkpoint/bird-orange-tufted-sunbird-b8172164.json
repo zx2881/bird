@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:05:22",
+  "requested_title": "Orange-tufted Sunbird",
+  "resolved_title": "Orange-tufted sunbird",
+  "title_aliases": [
+    "Orange-tufted Sunbird"
+  ],
+  "bird_id": "bird-orange-tufted-sunbird-b8172164",
+  "raw_file": "bird-orange-tufted-sunbird-b8172164.json",
+  "bird": {
+    "id": "bird-orange-tufted-sunbird-b8172164",
+    "name": "Orange-tufted sunbird",
+    "english_name": "Orange-tufted sunbird",
+    "latin_name": "Cinnyris bouvieri",
+    "summary": "The orange-tufted sunbird (Cinnyris bouvieri) is a species of bird in the family Nectariniidae. It is found in moist savanna, the grassy ed…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Orange-tufted_Sunbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-george-ernest-shelley-e53a6526",
+      "name": "George Ernest Shelley",
+      "summary": "Captain George Ernest Shelley (15 May 1840 – 29 November 1910) was an English geologist and ornithologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-orange-tufted-sunbird-b8172164",
+      "subject": "Orange-tufted sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-george-ernest-shelley-e53a6526",
+      "object": "George Ernest Shelley",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The orange-tufted sunbird (Cinnyris bouvieri) is a species of bird in the family Nectariniidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-tufted-sunbird-b8172164",
+      "subject": "Orange-tufted sunbird",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in moist savanna, the grassy edges of gallery forest and of isolated tropical forests in Africa",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-orange-tufted-sunbird-b8172164",
+      "subject": "Orange-tufted sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

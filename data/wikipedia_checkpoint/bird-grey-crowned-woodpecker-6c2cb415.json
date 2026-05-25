@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:11:27",
+  "requested_title": "Grey-crowned Woodpecker",
+  "resolved_title": "Grey-crowned woodpecker",
+  "title_aliases": [
+    "Grey-crowned Woodpecker"
+  ],
+  "bird_id": "bird-grey-crowned-woodpecker-6c2cb415",
+  "raw_file": "bird-grey-crowned-woodpecker-6c2cb415.json",
+  "bird": {
+    "id": "bird-grey-crowned-woodpecker-6c2cb415",
+    "name": "Grey-crowned woodpecker",
+    "english_name": "Grey-crowned woodpecker",
+    "latin_name": "Colaptes auricularis",
+    "summary": "The grey-crowned woodpecker (Colaptes auricularis) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is endemi…",
+    "lat": "29.64611111",
+    "lng": "-110.86888889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Colaptes_auricularis_2945161.jpg/960px-Colaptes_auricularis_2945161.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-索諾拉州-c6e6953f",
+      "name": "索諾拉州",
+      "summary": "索諾拉州 （西班牙語：Sonora）是墨西哥三十一個州之一，西臨加利福尼亞灣，北鄰美國新墨西哥州和亞利桑那州，西北隔科羅拉多河與下加利福尼亞半島分開。首府埃莫西約，下分72市。 蒂布龙岛面积1201平方公里，无人居住。",
+      "lat": "29.64611111",
+      "lng": "-110.86888889"
+    },
+    {
+      "id": "loc-奇瓦瓦州-792e79b1",
+      "name": "奇瓦瓦州",
+      "summary": "契瓦瓦州（西班牙語：Chihuahua，發音：[tʃiˈwawa] ）位於墨西哥西北內陸，北靠美國新墨西哥州和德克薩斯州，面積達24.7萬平方公里，是該國面積最大的州，佔全國面積的八分之一。 地理 奇瓦瓦除了有廣大的沙漠外，其森林面積比墨…",
+      "lat": "28.63916667",
+      "lng": "-106.07333333"
+    },
+    {
+      "id": "loc-瓦哈卡州-e005144e",
+      "name": "瓦哈卡州",
+      "summary": "瓦哈卡州（西班牙語：Oaxaca，發音：[waˈχaka] ）是墨西哥合眾國的一個州，位於該國的南部，臨太平洋。2005年估計人口為 3,506,821人。首府瓦哈卡市。 历史 名称 瓦哈卡的州名来自其首府瓦哈卡市的名称。这个名字来自纳瓦…",
+      "lat": "17.055",
+      "lng": "-96.655"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-crowned-woodpecker-6c2cb415",
+      "subject": "Grey-crowned woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-索諾拉州-c6e6953f",
+      "object": "索諾拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-crowned woodpecker is found in western Mexico from southern Sonora and Chihuahua to southern Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-crowned-woodpecker-6c2cb415",
+      "subject": "Grey-crowned woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-奇瓦瓦州-792e79b1",
+      "object": "奇瓦瓦州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-crowned woodpecker is found in western Mexico from southern Sonora and Chihuahua to southern Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-crowned-woodpecker-6c2cb415",
+      "subject": "Grey-crowned woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦哈卡州-e005144e",
+      "object": "瓦哈卡州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-crowned woodpecker is found in western Mexico from southern Sonora and Chihuahua to southern Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-crowned-woodpecker-6c2cb415",
+      "subject": "Grey-crowned woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:08:27",
+  "requested_title": "Brown-eared Woodpecker",
+  "resolved_title": "Brown-eared woodpecker",
+  "title_aliases": [
+    "Brown-eared Woodpecker"
+  ],
+  "bird_id": "bird-brown-eared-woodpecker-63c97031",
+  "raw_file": "bird-brown-eared-woodpecker-63c97031.json",
+  "bird": {
+    "id": "bird-brown-eared-woodpecker-63c97031",
+    "name": "Brown-eared woodpecker",
+    "english_name": "Brown-eared woodpecker",
+    "latin_name": "Pardipicus caroli",
+    "summary": "The brown-eared woodpecker (Pardipicus caroli) is a species of bird in the family Picidae. It is native to the African tropical rainforest.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Campethera_caroli.jpg/960px-Campethera_caroli.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶森林-735a0725",
+      "name": "熱帶森林",
+      "summary": "热带森林是位於热带的森林，大致位於北回歸線與南回歸線之間。有些樹林很难被确定為热带森林。虽然温带地区的森林很容易根据树冠密度进行區分，但这种方法并不适用於热带森林。无论是在热带地区还是在其他地区，都没有一个单一的方法来界定什么是森林。不過…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-eared-woodpecker-63c97031",
+      "subject": "Brown-eared woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶森林-735a0725",
+      "object": "熱帶森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-eared-woodpecker-63c97031",
+      "subject": "Brown-eared woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

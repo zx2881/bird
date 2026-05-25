@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:01:59",
+  "requested_title": "Rufous-gorgeted Flycatcher",
+  "resolved_title": "Rufous-gorgeted flycatcher",
+  "title_aliases": [
+    "Rufous-gorgeted Flycatcher"
+  ],
+  "bird_id": "bird-橙胸姬鶲-7b8a5efd",
+  "raw_file": "bird-橙胸姬鶲-7b8a5efd.json",
+  "bird": {
+    "id": "bird-橙胸姬鶲-7b8a5efd",
+    "name": "橙胸姬鶲",
+    "english_name": "Rufous-gorgeted flycatcher",
+    "latin_name": "Ficedula strophiata",
+    "summary": "The rufous-gorgeted flycatcher (Ficedula strophiata) is a species of bird in the family Muscicapidae. It is native to the Himalayas and Pat…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Rufous-gorgeted_Flycatcher_0A2A2978.jpg/960px-Rufous-gorgeted_Flycatcher_0A2A2978.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-越南-29eeb04d",
+      "name": "越南",
+      "summary": "越南社会主义共和国（越南語：Cộng hòa Xã hội chủ nghĩa Việt Nam／共和社會主義越南，），通称越南（越南語：Việt Nam／越南），是位于东南亚中南半岛东端的社会主义国家。北接中国，西邻柬埔寨与老挝，全国人…",
+      "lat": "16",
+      "lng": "108"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-橙胸姬鶲-7b8a5efd",
+      "subject": "橙胸姬鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas and Patkai ranges, central/southern China, northern Indochina and eastern Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙胸姬鶲-7b8a5efd",
+      "subject": "橙胸姬鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-越南-29eeb04d",
+      "object": "越南",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas and Patkai ranges, central/southern China, northern Indochina and eastern Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-橙胸姬鶲-7b8a5efd",
+      "subject": "橙胸姬鶲",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-橙胸姬鶲-7b8a5efd",
+      "subject": "橙胸姬鶲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

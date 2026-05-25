@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:09:17",
+  "requested_title": "Red-tailed Greenbul",
+  "resolved_title": "Red-tailed greenbul",
+  "title_aliases": [
+    "Red-tailed Greenbul"
+  ],
+  "bird_id": "bird-red-tailed-greenbul-99771dc2",
+  "raw_file": "bird-red-tailed-greenbul-99771dc2.json",
+  "bird": {
+    "id": "bird-red-tailed-greenbul-99771dc2",
+    "name": "Red-tailed greenbul",
+    "english_name": "Red-tailed greenbul",
+    "latin_name": "Criniger calurus",
+    "summary": "The red-tailed greenbul (Criniger calurus), also known as the red-tailed bulbul, is a species of songbird in the bulbul family, Pycnonotida…",
+    "lat": "5.3536",
+    "lng": "-1.3833",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Red-tailed_Greenbul_from_Canopy_Walkway_-_Kakum_NP_-_Ghana_14_S4E1441_%2816177963596%29.jpg/960px-Red-tailed_Greenbul_from_Canopy_Walkway_-_Kakum_NP_-_Ghana_14_S4E1441_%2816177963596%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡庫姆國家公園-2ca638ed",
+      "name": "卡庫姆國家公園",
+      "summary": "卡庫姆國家公園（英語：Kakum National Park）是西非國家加納的國家公園，位於中部大區，位於海岸角以北30公里，佔地375平方公里，建立於1992年，整個園區被熱帶雨林覆蓋，野生動物包括超過500不同品種的蝴蝶。園中設有離地…",
+      "lat": "5.3536",
+      "lng": "-1.3833"
+    },
+    {
+      "id": "loc-john-cassin-e85093a4",
+      "name": "John Cassin",
+      "summary": "John Cassin (September 6, 1813 – January 10, 1869) was an American ornithologist from Pennsylvania.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-熱帶森林-735a0725",
+      "name": "熱帶森林",
+      "summary": "热带森林是位於热带的森林，大致位於北回歸線與南回歸線之間。有些樹林很难被确定為热带森林。虽然温带地区的森林很容易根据树冠密度进行區分，但这种方法并不适用於热带森林。无论是在热带地区还是在其他地区，都没有一个单一的方法来界定什么是森林。不過…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-tailed-greenbul-99771dc2",
+      "subject": "Red-tailed greenbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡庫姆國家公園-2ca638ed",
+      "object": "卡庫姆國家公園",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-tailed greenbul (Criniger calurus), also known as the red-tailed bulbul, is a species of songbird in the bulbul family, Pycnonotidae, native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-tailed-greenbul-99771dc2",
+      "subject": "Red-tailed greenbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-john-cassin-e85093a4",
+      "object": "John Cassin",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-tailed greenbul (Criniger calurus), also known as the red-tailed bulbul, is a species of songbird in the bulbul family, Pycnonotidae, native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-tailed-greenbul-99771dc2",
+      "subject": "Red-tailed greenbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶森林-735a0725",
+      "object": "熱帶森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-tailed greenbul (Criniger calurus), also known as the red-tailed bulbul, is a species of songbird in the bulbul family, Pycnonotidae, native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-tailed-greenbul-99771dc2",
+      "subject": "Red-tailed greenbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

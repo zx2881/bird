@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:16:33",
+  "requested_title": "Yucatan Woodpecker",
+  "resolved_title": "Yucatan woodpecker",
+  "title_aliases": [
+    "Yucatan Woodpecker"
+  ],
+  "bird_id": "bird-yucatan-woodpecker-37ab60c2",
+  "raw_file": "bird-yucatan-woodpecker-37ab60c2.json",
+  "bird": {
+    "id": "bird-yucatan-woodpecker-37ab60c2",
+    "name": "Yucatan woodpecker",
+    "english_name": "Yucatan woodpecker",
+    "latin_name": "Melanerpes pygmaeus",
+    "summary": "The Yucatan woodpecker (Melanerpes pygmaeus) is a species of bird in the family Picidae. It is sometimes referred to as the red-vented wood…",
+    "lat": "17.06666667",
+    "lng": "-88.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yucat%C3%A1n_woodpecker_%28Melanerpes_pygmaeus_rubricomus%29-side-Mexico-Yucat%C3%A1n-Celest%C3%BAn.jpg/960px-Yucat%C3%A1n_woodpecker_%28Melanerpes_pygmaeus_rubricomus%29-side-Mexico-Yucat%C3%A1n-Celest%C3%BAn.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伯利兹-91ef5836",
+      "name": "伯利兹",
+      "summary": "貝里斯（英語：Belize），又稱贝里斯，香港舊譯百利士。前身为英属洪都拉斯，是中美洲东海岸的一个独立国家。伯利兹北部与墨西哥接壤，南部和西部与瓜地马拉接壤，东部濒临加勒比海。該國领土长约290公里（180英里）、宽约110公里（68英里…",
+      "lat": "17.06666667",
+      "lng": "-88.7"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-尤卡坦半岛-c579ad5c",
+      "name": "尤卡坦半岛",
+      "summary": "猶加敦半島（西班牙語：Península de Yucatán）是位於中美洲北部、墨西哥东南部的半岛，墨西哥湾和加勒比海之间，将加勒比海从墨西哥湾中分离出。东靠加勒比海，西临墨西哥湾、坎佩切湾，东北隔尤卡坦海峡与古巴相望，面积達43,37…",
+      "lat": "19.55111111",
+      "lng": "-89.29638889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yucatan-woodpecker-37ab60c2",
+      "subject": "Yucatan woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-伯利兹-91ef5836",
+      "object": "伯利兹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is sometimes referred to as the red-vented woodpecker. The Yucatan woodpecker is found in Belize and Mexico, and ranges over the entire Yucatán Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yucatan-woodpecker-37ab60c2",
+      "subject": "Yucatan woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is sometimes referred to as the red-vented woodpecker. The Yucatan woodpecker is found in Belize and Mexico, and ranges over the entire Yucatán Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yucatan-woodpecker-37ab60c2",
+      "subject": "Yucatan woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-尤卡坦半岛-c579ad5c",
+      "object": "尤卡坦半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is sometimes referred to as the red-vented woodpecker. The Yucatan woodpecker is found in Belize and Mexico, and ranges over the entire Yucatán Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yucatan-woodpecker-37ab60c2",
+      "subject": "Yucatan woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:02:11",
+  "requested_title": "Rwenzori Double-collared Sunbird",
+  "resolved_title": "Rwenzori double-collared sunbird",
+  "title_aliases": [
+    "Rwenzori Double-collared Sunbird"
+  ],
+  "bird_id": "bird-rwenzori-double-collared-sunbird-ce175aff",
+  "raw_file": "bird-rwenzori-double-collared-sunbird-ce175aff.json",
+  "bird": {
+    "id": "bird-rwenzori-double-collared-sunbird-ce175aff",
+    "name": "Rwenzori double-collared sunbird",
+    "english_name": "Rwenzori double-collared sunbird",
+    "latin_name": "Cinnyris stuhlmanni",
+    "summary": "The Rwenzori double-collared sunbird (Cinnyris stuhlmanni), also called Stuhlmann's sunbird or the Rwanda double-collared sunbird, is a spe…",
+    "lat": "0.38583333",
+    "lng": "29.87166667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ruwenzori_Double-collared_Sunbird_%28cropped%29.JPG/960px-Ruwenzori_Double-collared_Sunbird_%28cropped%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-鲁文佐里山脉-3c650736",
+      "name": "鲁文佐里山脉",
+      "summary": "鲁文佐里山脉（Rwenzori）是非洲中部的一座山脉，位于刚果民主共和国和乌干达的交界地区。山脉最高峰为斯坦利山的玛格丽塔峰，海拔5,109米。1952年，山脉的部分地区建立为鲁文佐里山国家公园，后被列为联合国教科文组织世界遗产。 地理…",
+      "lat": "0.38583333",
+      "lng": "29.87166667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rwenzori-double-collared-sunbird-ce175aff",
+      "subject": "Rwenzori double-collared sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-鲁文佐里山脉-3c650736",
+      "object": "鲁文佐里山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Ruwenzori range of mountains in south central Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rwenzori-double-collared-sunbird-ce175aff",
+      "subject": "Rwenzori double-collared sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-rwenzori-double-collared-sunbird-ce175aff",
+      "subject": "Rwenzori double-collared sunbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

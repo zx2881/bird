@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:51:06",
+  "requested_title": "Marbled Honeyeater",
+  "resolved_title": "Marbled honeyeater",
+  "title_aliases": [
+    "Marbled Honeyeater"
+  ],
+  "bird_id": "bird-marbled-honeyeater-0b26847c",
+  "raw_file": "bird-marbled-honeyeater-0b26847c.json",
+  "bird": {
+    "id": "bird-marbled-honeyeater-0b26847c",
+    "name": "Marbled honeyeater",
+    "english_name": "Marbled honeyeater",
+    "latin_name": "Pycnopygius cinereus",
+    "summary": "The marbled honeyeater (Pycnopygius cinereus) is a species of bird in the family Meliphagidae. The size of the marbled honeyeater is found…",
+    "lat": "-6",
+    "lng": "147",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/PtilotisMarmorataSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞高地-05e346ed",
+      "name": "新幾內亞高地",
+      "summary": "新几内亚高地是新幾內亞島上的山脉。其最高点为印度尼西亚境内的查亞峰，海拔4,884米（16,024英尺），同时也是大洋洲的最高峰。该山脉大致呈东西走向横贯全岛，西起印度尼西亞温达马湾县，向东一直延伸至巴布亞新幾內亞米爾恩灣省。 参考文献",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-marbled-honeyeater-0b26847c",
+      "subject": "Marbled honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞高地-05e346ed",
+      "object": "新幾內亞高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-marbled-honeyeater-0b26847c",
+      "subject": "Marbled honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Pycnopygius cinereus cinereus, is found in the eastern highlands of Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-marbled-honeyeater-0b26847c",
+      "subject": "Marbled honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Marbled honeyeaters are found in the hill forest and lower and middle montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-marbled-honeyeater-0b26847c",
+      "subject": "Marbled honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

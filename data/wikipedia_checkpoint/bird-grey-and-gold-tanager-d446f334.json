@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:37:28",
+  "requested_title": "Grey-and-gold Tanager",
+  "resolved_title": "Grey-and-gold tanager",
+  "title_aliases": [
+    "Grey-and-gold Tanager"
+  ],
+  "bird_id": "bird-grey-and-gold-tanager-d446f334",
+  "raw_file": "bird-grey-and-gold-tanager-d446f334.json",
+  "bird": {
+    "id": "bird-grey-and-gold-tanager-d446f334",
+    "name": "Grey-and-gold tanager",
+    "english_name": "Grey-and-gold tanager",
+    "latin_name": "Poecilostreptus palmeri",
+    "summary": "The grey-and-gold tanager (Poecilostreptus palmeri) is a species of bird in the family Thraupidae. It is found in Colombia, Ecuador, and Pa…",
+    "lat": "8.16666667",
+    "lng": "-77.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Poecilostreptus_palmeri_-_Gray-and-gold_Tanager_%28cropped%29.jpg/960px-Poecilostreptus_palmeri_-_Gray-and-gold_Tanager_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-達連山脈-d197ff7d",
+      "name": "達連山脈",
+      "summary": "達連山脈是南美洲的山脈，橫跨哥倫比亞西北部和巴拿馬東部，全長35公里，平均海拔高度437米，最高點海拔高度1,875米，該地區每50年發生6至7次地震。",
+      "lat": "8.16666667",
+      "lng": "-77.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-and-gold-tanager-d446f334",
+      "subject": "Grey-and-gold tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Ecuador, and Panama (Serranía del Darién and western Andean slope of Colombia and Ecuador)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-and-gold-tanager-d446f334",
+      "subject": "Grey-and-gold tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Ecuador, and Panama (Serranía del Darién and western Andean slope of Colombia and Ecuador)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-and-gold-tanager-d446f334",
+      "subject": "Grey-and-gold tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Ecuador, and Panama (Serranía del Darién and western Andean slope of Colombia and Ecuador)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-and-gold-tanager-d446f334",
+      "subject": "Grey-and-gold tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-達連山脈-d197ff7d",
+      "object": "達連山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Ecuador, and Panama (Serranía del Darién and western Andean slope of Colombia and Ecuador)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-and-gold-tanager-d446f334",
+      "subject": "Grey-and-gold tanager",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

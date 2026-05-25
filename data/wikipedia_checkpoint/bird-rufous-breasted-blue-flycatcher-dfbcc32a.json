@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:30:45",
+  "requested_title": "Rufous-breasted Blue Flycatcher",
+  "resolved_title": "Rufous-breasted blue flycatcher",
+  "title_aliases": [
+    "Rufous-breasted Blue Flycatcher"
+  ],
+  "bird_id": "bird-rufous-breasted-blue-flycatcher-dfbcc32a",
+  "raw_file": "bird-rufous-breasted-blue-flycatcher-dfbcc32a.json",
+  "bird": {
+    "id": "bird-rufous-breasted-blue-flycatcher-dfbcc32a",
+    "name": "Rufous-breasted blue flycatcher",
+    "english_name": "Rufous-breasted blue flycatcher",
+    "latin_name": "Cyornis camarinensis",
+    "summary": "The rufous-breasted blue flycatcher (Cyornis camarinensis) is a species of bird in the family Muscicapidae. It is endemic to the Philippine…",
+    "lat": "12.77",
+    "lng": "124.05",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-bulusan-volcano-natural-park-84145c6c",
+      "name": "Bulusan Volcano Natural Park",
+      "summary": "The Bulusan Volcano Natural Park is a 3,673-hectare (9,080-acre) protected area of rainforest surrounding Mount Bulusan…",
+      "lat": "12.77",
+      "lng": "124.05"
+    },
+    {
+      "id": "loc-caramoan-national-park-06d69173",
+      "name": "Caramoan National Park",
+      "summary": "The Caramoan National Park is a 347-hectare (860-acre) national park and protected area in Camarines Sur, Philippines.",
+      "lat": "13.78333333",
+      "lng": "123.75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-breasted-blue-flycatcher-dfbcc32a",
+      "subject": "Rufous-breasted blue flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-bulusan-volcano-natural-park-84145c6c",
+      "object": "Bulusan Volcano Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Prior to 2025, this species was listed as a vulnerable species. It is found in the protected areas in Bulusan Volcano Natural Park, Caramoan National Park and Mount Isarog but actual protection from deforestation is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-breasted-blue-flycatcher-dfbcc32a",
+      "subject": "Rufous-breasted blue flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-caramoan-national-park-06d69173",
+      "object": "Caramoan National Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Prior to 2025, this species was listed as a vulnerable species. It is found in the protected areas in Bulusan Volcano Natural Park, Caramoan National Park and Mount Isarog but actual protection from deforestation is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-breasted-blue-flycatcher-dfbcc32a",
+      "subject": "Rufous-breasted blue flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-rufous-breasted-blue-flycatcher-dfbcc32a",
+      "subject": "Rufous-breasted blue flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population is believed to be declining with populations estimated between 2,500 and 10,000 mature individuals with populations believe to be declining due to ongoing habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

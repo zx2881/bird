@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:49:27",
+  "requested_title": "Little Forktail",
+  "resolved_title": "Little forktail",
+  "title_aliases": [
+    "Little Forktail"
+  ],
+  "bird_id": "bird-小燕尾-6dcb50fd",
+  "raw_file": "bird-小燕尾-6dcb50fd.json",
+  "bird": {
+    "id": "bird-小燕尾-6dcb50fd",
+    "name": "小燕尾",
+    "english_name": "Little forktail",
+    "latin_name": "Enicurus scouleri",
+    "summary": "小燕尾（学名：Enicurus scouleri）又名小剪尾， 臺灣話稱烏白噹仔，为鶲科燕尾属的鸟类，俗名小剪尾、点水鸦雀。其學名紀念格拉斯哥的約翰·斯考勒醫生。 描述 雌雄羽色相似，為黑白相間的羽毛。上半身為黑色，額頭為白色；翅膀上有一道白色的帶狀羽毛延伸至下背部，小小的黑色…",
+    "lat": "42",
+    "lng": "80",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Little_Forktail.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-天山山脉-28323f98",
+      "name": "天山山脉",
+      "summary": "天山山脉（維吾爾語：تەڭرىتاغ / Tengri Tagh / Тәңри тағ；哈薩克語：Täñırtauy / ٴتاڭىرتاۋ / Тәңіртау；吉爾吉斯語：Ала-Тоо/تەڭىر-توو；东干文：Тянсан，小…",
+      "lat": "42",
+      "lng": "80"
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-中華民國-e9cfdf77",
+      "name": "中華民國",
+      "summary": "中華民國是位於東亞的民主共和國，曾在国际上广泛代表中國，現今多通稱「臺灣」。1912年建國時以前清之中國既有領土為疆域，經歷1949年政府遷臺，現有效管轄範圍包括臺灣本島、澎湖群島及其附屬島嶼，以及中國大陸福建沿岸的金門群島、馬祖列島等島…",
+      "lat": "24",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小燕尾-6dcb50fd",
+      "subject": "小燕尾",
+      "predicate": "distributed_in",
+      "object_id": "loc-天山山脉-28323f98",
+      "object": "天山山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Tian Shan and Himalayan mountain ranges, southern China and Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小燕尾-6dcb50fd",
+      "subject": "小燕尾",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Tian Shan and Himalayan mountain ranges, southern China and Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小燕尾-6dcb50fd",
+      "subject": "小燕尾",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Tian Shan and Himalayan mountain ranges, southern China and Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小燕尾-6dcb50fd",
+      "subject": "小燕尾",
+      "predicate": "distributed_in",
+      "object_id": "loc-中華民國-e9cfdf77",
+      "object": "中華民國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Tian Shan and Himalayan mountain ranges, southern China and Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小燕尾-6dcb50fd",
+      "subject": "小燕尾",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

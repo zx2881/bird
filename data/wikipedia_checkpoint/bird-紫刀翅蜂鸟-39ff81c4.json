@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:50:10",
+  "requested_title": "Violet Sabrewing",
+  "resolved_title": "Violet sabrewing",
+  "title_aliases": [
+    "Violet Sabrewing"
+  ],
+  "bird_id": "bird-紫刀翅蜂鸟-39ff81c4",
+  "raw_file": "bird-紫刀翅蜂鸟-39ff81c4.json",
+  "bird": {
+    "id": "bird-紫刀翅蜂鸟-39ff81c4",
+    "name": "紫刀翅蜂鸟",
+    "english_name": "Violet sabrewing",
+    "latin_name": "Campylopterus hemileucurus",
+    "summary": "紫刀翅蜂鳥（學名：Campylopterus hemileucurus，英語：Violet sabrewing，西班牙語：Colibrí morado），是雨燕目蜂鳥科刀翅蜂鳥屬下的一種鳥類。這種鳥類分佈於墨西哥及中美洲的山區及森林邊緣，以花蜜及昆蟲為食。牠們目前有兩個亞種，是…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Violet_sabrewing_%28Campylopterus_hemileucurus_mellitus%29_male_in_flight.jpg/960px-Violet_sabrewing_%28Campylopterus_hemileucurus_mellitus%29_male_in_flight.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫刀翅蜂鸟-39ff81c4",
+      "subject": "紫刀翅蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the edges and interior of humid evergreen montane forest and mature secondary forest, banana plantations, and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫刀翅蜂鸟-39ff81c4",
+      "subject": "紫刀翅蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits the edges and interior of humid evergreen montane forest and mature secondary forest, banana plantations, and gardens",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-紫刀翅蜂鸟-39ff81c4",
+      "subject": "紫刀翅蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-紫刀翅蜂鸟-39ff81c4",
+      "subject": "紫刀翅蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No specific threats have been identified. \"This species can tolerate habitat disturbance, however, as long as some forest cover or tall second growth persists.\"",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

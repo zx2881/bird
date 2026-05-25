@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:04:20",
+  "requested_title": "Spotted Redshank",
+  "resolved_title": "Spotted redshank",
+  "title_aliases": [
+    "Spotted Redshank"
+  ],
+  "bird_id": "bird-鹤鹬-3f2e7edf",
+  "raw_file": "bird-鹤鹬-3f2e7edf.json",
+  "bird": {
+    "id": "bird-鹤鹬-3f2e7edf",
+    "name": "鹤鹬",
+    "english_name": "Spotted redshank",
+    "latin_name": "Tringa erythropus",
+    "summary": "鹤鹬（学名：Tringa erythropus）为鸟纲鸻形目鹬科鹬属的一种鸟类。是一種大型涉禽（岸鳥）。屬名Tringa是烏利塞·阿爾德羅萬迪在1599年根據古希臘語trungas（亞里士多德提到的一種像畫眉鳥大小、擁有白色臀部且會上下擺動尾巴的涉水鳥）給予白腰草鷸的新拉丁語名…",
+    "lat": "68",
+    "lng": "20",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Spottedredshankbreedingplumage2.jpg/960px-Spottedredshankbreedingplumage2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-萨米-地区-046d4eb3",
+      "name": "萨米 (地区)",
+      "summary": "薩米（北薩米語：Sápmi），又称为拉普兰（瑞典語：Lappland），是指北欧原住民薩米人傳統居住的文化區。萨米地区位于芬诺斯坎底亚北部，包括科拉半岛一带以及斯堪的那维亚半岛北部，分属挪威、瑞典及芬蘭北部和俄羅斯科拉半島北部，领域北至巴…",
+      "lat": "68",
+      "lng": "20"
+    },
+    {
+      "id": "loc-楚科奇自治区-00fe126b",
+      "name": "楚科奇自治区",
+      "summary": "楚科奇自治區（俄語：Чуко́тский автоно́мный о́круг，羅馬化：Chukotsky avtonomny okrug；楚科奇語：Чукоткакэн автономныкэн округ），通稱楚科奇（Чуко́тк…",
+      "lat": "66.66666667",
+      "lng": "171"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鹤鹬-3f2e7edf",
+      "subject": "鹤鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨米-地区-046d4eb3",
+      "object": "萨米 (地区)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted redshank breeds in the Arctic across much of the Palearctic, from Lapland in the west to Chukotskaya in the east",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鹤鹬-3f2e7edf",
+      "subject": "鹤鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-楚科奇自治区-00fe126b",
+      "object": "楚科奇自治区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The spotted redshank breeds in the Arctic across much of the Palearctic, from Lapland in the west to Chukotskaya in the east",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鹤鹬-3f2e7edf",
+      "subject": "鹤鹬",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

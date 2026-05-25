@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:39:17",
+  "requested_title": "Brown-chested Martin",
+  "resolved_title": "Brown-chested martin",
+  "title_aliases": [
+    "Brown-chested Martin"
+  ],
+  "bird_id": "bird-brown-chested-martin-b5d84241",
+  "raw_file": "bird-brown-chested-martin-b5d84241.json",
+  "bird": {
+    "id": "bird-brown-chested-martin-b5d84241",
+    "name": "Brown-chested martin",
+    "english_name": "Brown-chested martin",
+    "latin_name": "Progne tapera",
+    "summary": "The brown-chested martin (Progne tapera) is a species of passerine bird in the family Hirundinidae, the swallows and martins. It is found r…",
+    "lat": "-36.61666667",
+    "lng": "-64.28333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Brown-chested_martin_%28Progne_tapera%29_Colonia.jpg/960px-Brown-chested_martin_%28Progne_tapera%29_Colonia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-拉潘帕省-26e9f7b4",
+      "name": "拉潘帕省",
+      "summary": "拉潘帕省（西班牙語：La Pampa）為南美國家阿根廷二十三省之一，位於阿根廷中部，首府為圣罗莎。",
+      "lat": "-36.61666667",
+      "lng": "-64.28333333"
+    },
+    {
+      "id": "loc-布宜诺斯艾利斯省-7df6a0bd",
+      "name": "布宜诺斯艾利斯省",
+      "summary": "布宜诺斯艾利斯省（西班牙語：Buenos Aires）為南美國家阿根廷二十三省之一，是阿根廷二十四个自治省份（estados autogobernados）之一或者一级司法管辖权（jurisdicciones de primer orde…",
+      "lat": "-37",
+      "lng": "-60"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-chested-martin-b5d84241",
+      "subject": "Brown-chested martin",
+      "predicate": "distributed_in",
+      "object_id": "loc-拉潘帕省-26e9f7b4",
+      "object": "拉潘帕省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Panama and throughout South America east of the Andes as far south as La Pampa and Buenos Aires provinces in Argentina. The brown-chested martin inhabits semi-open to open landscapes such as grasslands, cultivated areas, clearings in forest, and human settlements",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-chested-martin-b5d84241",
+      "subject": "Brown-chested martin",
+      "predicate": "distributed_in",
+      "object_id": "loc-布宜诺斯艾利斯省-7df6a0bd",
+      "object": "布宜诺斯艾利斯省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Panama and throughout South America east of the Andes as far south as La Pampa and Buenos Aires provinces in Argentina. The brown-chested martin inhabits semi-open to open landscapes such as grasslands, cultivated areas, clearings in forest, and human settlements",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-chested-martin-b5d84241",
+      "subject": "Brown-chested martin",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in Panama and throughout South America east of the Andes as far south as La Pampa and Buenos Aires provinces in Argentina. The brown-chested martin inhabits semi-open to open landscapes such as grasslands, cultivated areas, clearings in forest, and human settlements",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-brown-chested-martin-b5d84241",
+      "subject": "Brown-chested martin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

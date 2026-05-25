@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:57:10",
+  "requested_title": "Grey Gull",
+  "resolved_title": "Grey gull",
+  "title_aliases": [
+    "Grey Gull"
+  ],
+  "bird_id": "bird-grey-gull-424a1f5a",
+  "raw_file": "bird-grey-gull-424a1f5a.json",
+  "bird": {
+    "id": "bird-grey-gull-424a1f5a",
+    "name": "Grey gull",
+    "english_name": "Grey gull",
+    "latin_name": "Leucophaeus modestus",
+    "summary": "The grey gull, also known as garuma gull (Leucophaeus modestus), is a medium-sized gull native to South America. Unusual among gulls, it br…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/GrayGull.jpg/960px-GrayGull.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-gull-424a1f5a",
+      "subject": "Grey gull",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2018 |title=Larus modestus |volume=2018 |article-number=e.T22694292A132539083 |doi=10.2305/IUCN.UK.2018-2.RLTS.T22694292A132539083.en |access-date=22 February 2025}} | genus = Leucophaeus | species = modestus | authority = (Tschudi, 1843) | synonyms = Larus modestus | range_map = Leucophaeus modestus map.svg }} The grey gull, also known as garuma gull (Leucophaeus modestus), is a medium-sized gull native to South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-gull-424a1f5a",
+      "subject": "Grey gull",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

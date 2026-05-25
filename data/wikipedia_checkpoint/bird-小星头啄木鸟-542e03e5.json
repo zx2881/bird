@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:17:33",
+  "requested_title": "Japanese Pygmy Woodpecker",
+  "resolved_title": "Japanese pygmy woodpecker",
+  "title_aliases": [
+    "Japanese Pygmy Woodpecker"
+  ],
+  "bird_id": "bird-小星头啄木鸟-542e03e5",
+  "raw_file": "bird-小星头啄木鸟-542e03e5.json",
+  "bird": {
+    "id": "bird-小星头啄木鸟-542e03e5",
+    "name": "小星头啄木鸟",
+    "english_name": "Japanese pygmy woodpecker",
+    "latin_name": "Yungipicus kizuki",
+    "summary": "小星头啄木鸟（学名：Yungipicus kizuki）为啄木鸟科啄木鸟属的鸟类。该物种的模式产地在日本。 亚种 小星头啄木鸟东北亚种（学名：Yungipicus kizuki permutatus）。在中国大陆，分布于辽宁等地。该物种的模式产地在西伯利亚。",
+    "lat": "51",
+    "lng": "143",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Japanese_pygmy_woodpecker_in_Sakai%2C_Osaka%2C_February_2016.jpg/960px-Japanese_pygmy_woodpecker_in_Sakai%2C_Osaka%2C_February_2016.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-库页岛-54809d94",
+      "name": "库页岛",
+      "summary": "库页岛，俄羅斯稱萨哈林岛（俄語：Сахалин，羅馬化：Sakhalin），日本稱樺太島（日語：樺太／からふと，羅馬化：Karafuto），為北太平洋的一座島嶼，位於日本北海道以北、外滿州韃靼海峽以東。其面積約76,400平方公里，是俄羅…",
+      "lat": "51",
+      "lng": "143"
+    },
+    {
+      "id": "loc-琉球群岛-345bcf20",
+      "name": "琉球群岛",
+      "summary": "琉球群島（日語：琉球列島／りゅうきゅうれっとう，羅馬化：Ryūkyū rettō，發音：[ɾʲɯː.kʲɯː ɾeꜜt.toː]）是太平洋西部的一系列島嶼群，位於台灣與九州之間；現由日本統治，並由日本方面稱為南西諸島（南西諸島／なんせいし…",
+      "lat": "26.5",
+      "lng": "127.9"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小星头啄木鸟-542e03e5",
+      "subject": "小星头啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-库页岛-54809d94",
+      "object": "库页岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This woodpecker is found in Korea, northeastern China, southeastern Siberia, Sakhalin, Japan and the Ryukyu Islands. It occurs up to in elevation, and its habitat consists of many types of coniferous and deciduous forests, including lowland, upland and riverine forests, and also parks and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小星头啄木鸟-542e03e5",
+      "subject": "小星头啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-琉球群岛-345bcf20",
+      "object": "琉球群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This woodpecker is found in Korea, northeastern China, southeastern Siberia, Sakhalin, Japan and the Ryukyu Islands. It occurs up to in elevation, and its habitat consists of many types of coniferous and deciduous forests, including lowland, upland and riverine forests, and also parks and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小星头啄木鸟-542e03e5",
+      "subject": "小星头啄木鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

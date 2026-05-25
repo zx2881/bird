@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:50:55",
+  "requested_title": "Merida Wren",
+  "resolved_title": "Mérida wren",
+  "title_aliases": [
+    "Merida Wren",
+    "Mérida wren"
+  ],
+  "bird_id": "bird-m-rida-wren-ff81f59b",
+  "raw_file": "bird-m-rida-wren-ff81f59b.json",
+  "bird": {
+    "id": "bird-m-rida-wren-ff81f59b",
+    "name": "Mérida wren",
+    "english_name": "Mérida wren",
+    "latin_name": "Cistothorus meridae",
+    "summary": "The Mérida wren (Cistothorus meridae), or paramo wren, is a species of bird in the family Troglodytidae. It is endemic to Venezuela.",
+    "lat": "9.417",
+    "lng": "-70.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Cistothorus_meridae_map.svg/960px-Cistothorus_meridae_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-特鲁希略州-0375b35b",
+      "name": "特鲁希略州",
+      "summary": "特魯希略州（西班牙語：Estado Trujillo）是委內瑞拉西部的一個州，西北臨馬拉開波湖。面積7,400平方公里，2007年人口711,400人。首府特魯希略。 1899年建州。下分二十個自治市。",
+      "lat": "9.417",
+      "lng": "-70.5"
+    },
+    {
+      "id": "loc-塔奇拉州-f10a6506",
+      "name": "塔奇拉州",
+      "summary": "Táchira State (Spanish: Estado Táchira, IPA: [esˈtaðo ˈtatʃiɾa]) is one of the 23 states of Venezuela.",
+      "lat": "7.94",
+      "lng": "-72.12"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-m-rida-wren-ff81f59b",
+      "subject": "Mérida wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-特鲁希略州-0375b35b",
+      "object": "特鲁希略州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mérida wren is found in the Andes of Venezuela from Trujillo south to northeastern Táchira",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-m-rida-wren-ff81f59b",
+      "subject": "Mérida wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔奇拉州-f10a6506",
+      "object": "塔奇拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mérida wren is found in the Andes of Venezuela from Trujillo south to northeastern Táchira",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-m-rida-wren-ff81f59b",
+      "subject": "Mérida wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

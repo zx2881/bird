@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:03:35",
+  "requested_title": "Santa Marta Antbird",
+  "resolved_title": "Santa Marta antbird",
+  "title_aliases": [
+    "Santa Marta Antbird"
+  ],
+  "bird_id": "bird-santa-marta-antbird-23968086",
+  "raw_file": "bird-santa-marta-antbird-23968086.json",
+  "bird": {
+    "id": "bird-santa-marta-antbird-23968086",
+    "name": "Santa Marta antbird",
+    "english_name": "Santa Marta antbird",
+    "latin_name": "Drymophila hellmayri",
+    "summary": "The Santa Marta antbird (Drymophila hellmayri) is a Near Threatened species of bird in subfamily Thamnophilinae of family Thamnophilidae, t…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Drymophila_hellmayri.jpg/960px-Drymophila_hellmayri.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-santa-marta-antbird-23968086",
+      "subject": "Santa Marta antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understorey to mid-storey of evergreen forest and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-santa-marta-antbird-23968086",
+      "subject": "Santa Marta antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understorey to mid-storey of evergreen forest and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-santa-marta-antbird-23968086",
+      "subject": "Santa Marta antbird",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-santa-marta-antbird-23968086",
+      "subject": "Santa Marta antbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Remaining habitat is threatened by agricultural expansion, logging, burning and drought.\" It does occur in one protected area, the private El Dorado Bird Reserve",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

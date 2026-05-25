@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:09:05",
+  "requested_title": "Ashy Woodpecker",
+  "resolved_title": "Ashy woodpecker",
+  "title_aliases": [
+    "Ashy Woodpecker"
+  ],
+  "bird_id": "bird-ashy-woodpecker-3fd52b7e",
+  "raw_file": "bird-ashy-woodpecker-3fd52b7e.json",
+  "bird": {
+    "id": "bird-ashy-woodpecker-3fd52b7e",
+    "name": "Ashy woodpecker",
+    "english_name": "Ashy woodpecker",
+    "latin_name": "Mulleripicus fulvus",
+    "summary": "The ashy woodpecker (Mulleripicus fulvus) is a species of bird in the woodpecker family Picidae. It is endemic to Sulawesi and surrounding…",
+    "lat": "-0.39166667",
+    "lng": "121.95777778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ashy_Woodpecker_%28Mulleripicus_fulvus%29_on_tree_trunk_%28crop_1%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-托吉安群島-dc24fa7f",
+      "name": "托吉安群島",
+      "summary": "托吉安群島是印度尼西亞的群島，由56個島嶼組成，位於托米尼灣，島上有37個村落。群島有雨林覆蓋，周圍則是珊瑚礁，是玳瑁、綠蠵龜和儒艮的棲息地和繁殖地區。行政上由中苏拉威西省托久乌纳乌纳县管理。群岛大部分地区属于托吉安群岛国家公园。 外部連…",
+      "lat": "-0.39166667",
+      "lng": "121.95777778"
+    },
+    {
+      "id": "loc-邦盖县-b24b0fab",
+      "name": "邦盖县",
+      "summary": "邦盖县（印尼語：Kabupaten Banggai）是印度尼西亚中苏拉威西省的一个县，位于苏拉威西岛东半岛东部，北滨托米尼湾，东是马鲁古海，东南隔珀伦海峡与邦盖群岛县相望，县治位于卢武克。2010年统计，邦盖县共有323,872人。邦盖县…",
+      "lat": "-0.957091",
+      "lng": "122.558593"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ashy-woodpecker-3fd52b7e",
+      "subject": "Ashy woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-托吉安群島-dc24fa7f",
+      "object": "托吉安群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "fulvus, which is found in northern Sulawesi, the islands of Lembeh and Manterawu, and the archipelagos of Togian and Banggai; and M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ashy-woodpecker-3fd52b7e",
+      "subject": "Ashy woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-邦盖县-b24b0fab",
+      "object": "邦盖县",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "fulvus, which is found in northern Sulawesi, the islands of Lembeh and Manterawu, and the archipelagos of Togian and Banggai; and M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ashy-woodpecker-3fd52b7e",
+      "subject": "Ashy woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

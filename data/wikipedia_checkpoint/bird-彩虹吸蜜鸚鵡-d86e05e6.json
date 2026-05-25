@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:07:02",
+  "requested_title": "Rainbow Lorikeet",
+  "resolved_title": "Rainbow lorikeet",
+  "title_aliases": [
+    "Rainbow Lorikeet"
+  ],
+  "bird_id": "bird-彩虹吸蜜鸚鵡-d86e05e6",
+  "raw_file": "bird-彩虹吸蜜鸚鵡-d86e05e6.json",
+  "bird": {
+    "id": "bird-彩虹吸蜜鸚鵡-d86e05e6",
+    "name": "彩虹吸蜜鸚鵡",
+    "english_name": "Rainbow lorikeet",
+    "latin_name": "Trichoglossus moluccanus",
+    "summary": "彩虹吸蜜鸚鵡（學名：Trichoglossus moluccanus）是舊世界鸚鵡科吸蜜鸚鵡屬下的一種鳥類。這種鳥類分佈於澳洲東部及塔斯馬尼亞，並被引入至西澳洲；主要以花蜜、花粉為食。當前有兩個亞種，是澳洲體型最大的吸蜜鸚鵡。 該物種長期被視為是新幾內亞彩虹吸蜜鸚鵡的亞種之一，…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg/960px-Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-彩虹吸蜜鸚鵡-d86e05e6",
+      "subject": "彩虹吸蜜鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The rainbow lorikeet (Trichoglossus moluccanus) is a species of parrot found in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-彩虹吸蜜鸚鵡-d86e05e6",
+      "subject": "彩虹吸蜜鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The rainbow lorikeet (Trichoglossus moluccanus) is a species of parrot found in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-彩虹吸蜜鸚鵡-d86e05e6",
+      "subject": "彩虹吸蜜鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-彩虹吸蜜鸚鵡-d86e05e6",
+      "subject": "彩虹吸蜜鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "rosenbergii, the Biak lorikeet (which possibly is worthy of treatment as a separate species), being threatened by habitat loss and capture for the parrot trade.Juniper, T., & M",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

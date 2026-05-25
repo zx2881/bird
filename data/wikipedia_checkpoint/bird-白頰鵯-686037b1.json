@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:20:27",
+  "requested_title": "Himalayan Bulbul",
+  "resolved_title": "Himalayan bulbul",
+  "title_aliases": [
+    "Himalayan Bulbul"
+  ],
+  "bird_id": "bird-白頰鵯-686037b1",
+  "raw_file": "bird-白頰鵯-686037b1.json",
+  "bird": {
+    "id": "bird-白頰鵯-686037b1",
+    "name": "白頰鵯",
+    "english_name": "Himalayan bulbul",
+    "latin_name": "Pycnonotus leucogenys",
+    "summary": "白頰鵯（學名Pycnonotus leucogenys）是鵯科下的一種鳴禽。它們分佈在阿富汗、不丹、印度、尼泊爾、巴基斯坦、伊拉克、塔吉克斯坦及沙地阿拉伯。 白頰鵯雛鳥若與人一起生活，則會變得對人類友善。",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Himalayan_bulbul_%28Pycnonotus_leucogenys%29_Cropped.jpg/960px-Himalayan_bulbul_%28Pycnonotus_leucogenys%29_Cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白頰鵯-686037b1",
+      "subject": "白頰鵯",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in and near the Himalayas. The Himalayan bulbul frequents forests and shrubland and also comes into gardens and parks",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白頰鵯-686037b1",
+      "subject": "白頰鵯",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in and near the Himalayas. The Himalayan bulbul frequents forests and shrubland and also comes into gardens and parks",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-白頰鵯-686037b1",
+      "subject": "白頰鵯",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:35:18",
+  "requested_title": "Layard's Warbler",
+  "resolved_title": "Layard's warbler",
+  "title_aliases": [
+    "Layard's Warbler"
+  ],
+  "bird_id": "bird-layard-s-warbler-51b643ad",
+  "raw_file": "bird-layard-s-warbler-51b643ad.json",
+  "bird": {
+    "id": "bird-layard-s-warbler-51b643ad",
+    "name": "Layard's warbler",
+    "english_name": "Layard's warbler",
+    "latin_name": "Curruca layardi",
+    "summary": "Layard's warbler (Curruca layardi) or Layard's tit-babbler, is a species of Old World warbler in the family Sylviidae. It is found in Lesot…",
+    "lat": "-29.6",
+    "lng": "28.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Layard%27s_Tit-Babbler_2017_08_12_5272.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-莱索托-debacd09",
+      "name": "莱索托",
+      "summary": "莱索托王国（索托語：Mmuso wa Lesotho，英語：Kingdom of Lesotho），简称莱索托，位处非洲南部，是全世界最大国中国，全境完全被南非共和国包围，接壤边境线909公里长。因地处高原，莱索托也被称为“天空王国”。莱…",
+      "lat": "-29.6",
+      "lng": "28.3"
+    },
+    {
+      "id": "loc-纳米比亚-0e5bfcb6",
+      "name": "纳米比亚",
+      "summary": "納米比亞共和國（德語：Republik Namibia，英語：Republic of Namibia），通稱納米比亞（Namibia），是位於南部非洲西面的共和國。它西部瀕臨大西洋，北部接壤贊比亞和安哥拉，東部連接博茨瓦纳，而在南部則與南…",
+      "lat": "-22",
+      "lng": "17"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-layard-s-warbler-51b643ad",
+      "subject": "Layard's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-莱索托-debacd09",
+      "object": "莱索托",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Lesotho, Namibia, and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-layard-s-warbler-51b643ad",
+      "subject": "Layard's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-纳米比亚-0e5bfcb6",
+      "object": "纳米比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Lesotho, Namibia, and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-layard-s-warbler-51b643ad",
+      "subject": "Layard's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Lesotho, Namibia, and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-layard-s-warbler-51b643ad",
+      "subject": "Layard's warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical dry shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-layard-s-warbler-51b643ad",
+      "subject": "Layard's warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

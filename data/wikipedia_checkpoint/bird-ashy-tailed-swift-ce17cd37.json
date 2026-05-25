@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:49:06",
+  "requested_title": "Ashy-tailed Swift",
+  "resolved_title": "Ashy-tailed swift",
+  "title_aliases": [
+    "Ashy-tailed Swift"
+  ],
+  "bird_id": "bird-ashy-tailed-swift-ce17cd37",
+  "raw_file": "bird-ashy-tailed-swift-ce17cd37.json",
+  "bird": {
+    "id": "bird-ashy-tailed-swift-ce17cd37",
+    "name": "Ashy-tailed swift",
+    "english_name": "Ashy-tailed swift",
+    "latin_name": "Chaetura andrei",
+    "summary": "The ashy-tailed swift or Andre's swift (Chaetura andrei) is a Vulnerable species of bird in subfamily Apodinae of the swift family Apodidae…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chaetura_andrei_map.svg/960px-Chaetura_andrei_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-委內瑞拉海岸山脈-bfc734e6",
+      "name": "委內瑞拉海岸山脈",
+      "summary": "委內瑞拉海岸山脈（西班牙語：Cordillera de la Costa），又称委内瑞拉加勒比山系，是委内瑞拉的一个山脉系统，也是委内瑞拉八个自然区之一，沿委内瑞拉北部海岸的中部和东部延伸。该山脉是安第斯山脉的东北延伸，也被称为海上安第斯…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ashy-tailed-swift-ce17cd37",
+      "subject": "Ashy-tailed swift",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉海岸山脈-bfc734e6",
+      "object": "委內瑞拉海岸山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Ashy-tailed swift is endemic to Venezuela, found in deciduous forest of the eastern lowlands and the eastern Coastal Range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ashy-tailed-swift-ce17cd37",
+      "subject": "Ashy-tailed swift",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

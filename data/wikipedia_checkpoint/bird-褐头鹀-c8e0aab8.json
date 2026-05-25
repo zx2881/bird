@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:40:13",
+  "requested_title": "Red-headed Bunting",
+  "resolved_title": "Red-headed bunting",
+  "title_aliases": [
+    "Red-headed Bunting"
+  ],
+  "bird_id": "bird-褐头鹀-c8e0aab8",
+  "raw_file": "bird-褐头鹀-c8e0aab8.json",
+  "bird": {
+    "id": "bird-褐头鹀-c8e0aab8",
+    "name": "褐头鹀",
+    "english_name": "Red-headed bunting",
+    "latin_name": "Emberiza bruniceps",
+    "summary": "褐头鹀（学名：Emberiza bruniceps）为雀科鹀属的鸟类，俗名红头雀、紅头鹀。分布于俄罗斯、伊朗、哈薩克、吉爾吉斯、塔吉克、土庫曼、烏茲別克、阿富汗、印度、孟加拉和中國。多见于开阔地区的草原、半荒漠的灌丛和草丛中、也在沙漠的小绿洲和山区荒地、常在多水的人造景观中和住…",
+    "lat": "41",
+    "lng": "75",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Red-headed_bunting_-_Timbi_Lake%2C_Vadodara_2020-01-01.jpg/960px-Red-headed_bunting_-_Timbi_Lake%2C_Vadodara_2020-01-01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-吉尔吉斯斯坦-d5abe705",
+      "name": "吉尔吉斯斯坦",
+      "summary": "吉尔吉斯共和国（吉爾吉斯語：Кыргыз Республикасы，羅馬化：Kyrgyz Respublikasy；俄語：Кыргызская Республика，羅馬化：Kyrgyzskaya Respublika），通称吉尔吉斯斯坦…",
+      "lat": "41",
+      "lng": "75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-褐头鹀-c8e0aab8",
+      "subject": "褐头鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-吉尔吉斯斯坦-d5abe705",
+      "object": "吉尔吉斯斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in central Asia, including Afghanistan, Iran, Kazakhstan, Kyrgyzstan, Mongolia; Russian Federation (European Russia, Central Asian Russia), Tajikistan, Turkmenistan, Uzbekistan and China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐头鹀-c8e0aab8",
+      "subject": "褐头鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-褐头鹀-c8e0aab8",
+      "subject": "褐头鹀",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-trade",
+      "object": "非法贸易",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Reports in Britain have declined dramatically over recent years, coinciding with the decline in some Emberizidae species from the impact of illegal trade",
+      "object_summary": "为宠物或展示用途进行非法捕捉与交易。"
+    }
+  ]
+}

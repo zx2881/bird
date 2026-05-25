@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:53:56",
+  "requested_title": "Rufescent Antshrike",
+  "resolved_title": "Rufescent antshrike",
+  "title_aliases": [
+    "Rufescent Antshrike"
+  ],
+  "bird_id": "bird-rufescent-antshrike-7a97ad96",
+  "raw_file": "bird-rufescent-antshrike-7a97ad96.json",
+  "bird": {
+    "id": "bird-rufescent-antshrike-7a97ad96",
+    "name": "Rufescent antshrike",
+    "english_name": "Rufescent antshrike",
+    "latin_name": "Thamnistes rufescens",
+    "summary": "The rufescent antshrike (Thamnistes rufescens) is a passerine bird in subfamily Myrmornithinae of family Thamnophilidae, the \"typical antbi…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Thamnistes_rufescens_-_Thibaud_Aronson_-_96728955.jpeg/960px-Thamnistes_rufescens_-_Thibaud_Aronson_-_96728955.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufescent-antshrike-7a97ad96",
+      "subject": "Rufescent antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufescent-antshrike-7a97ad96",
+      "subject": "Rufescent antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufescent-antshrike-7a97ad96",
+      "subject": "Rufescent antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits lowland and lower montane evergreen forest and adjacent secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufescent-antshrike-7a97ad96",
+      "subject": "Rufescent antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits lowland and lower montane evergreen forest and adjacent secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufescent-antshrike-7a97ad96",
+      "subject": "Rufescent antshrike",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"No immediate threats have been noted, although the foothill/mid-elevation forests inhabited by this species throughout its range are under threat of deforestation for logging and agriculture",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

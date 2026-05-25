@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:17:04",
+  "requested_title": "Bearded Vulture",
+  "resolved_title": "Bearded vulture",
+  "title_aliases": [
+    "Bearded Vulture"
+  ],
+  "bird_id": "bird-胡兀鷲-29659067",
+  "raw_file": "bird-胡兀鷲-29659067.json",
+  "bird": {
+    "id": "bird-胡兀鷲-29659067",
+    "name": "胡兀鷲",
+    "english_name": "Bearded vulture",
+    "latin_name": "Gypaetus barbatus",
+    "summary": "胡兀鷲（學名：Gypaetus barbatus）是胡兀鷲屬中唯一的成員。牠們一般會選擇分佈在歐洲南部、非洲東部、北部和賴索托、西亞、中亞和西藏的高山上產卵，而牠們每次大約能生下一至兩顆蛋。牠們通常會選擇在冬天生蛋，因為這樣做牠們所生的蛋才可以趕上在春天孵化。雖然人們已成功的從…",
+    "lat": "-29.38333333",
+    "lng": "29.45",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/010e_Wild_Bearded_Vulture_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg/960px-010e_Wild_Bearded_Vulture_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-德拉肯斯山脉-816e89d1",
+      "name": "德拉肯斯山脉",
+      "summary": "德拉肯斯山脉（阿非利卡語：Drakensberge，英語：Drakensberg，荷蘭語：Drakensbergen，意为“龙山”）又称乌卡兰巴山脉（祖鲁语：uKhahlamba），是位于南非和莱索托境内的一组高大山脉。山体由花岗岩组成，…",
+      "lat": "-29.38333333",
+      "lng": "29.45"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-胡兀鷲-29659067",
+      "subject": "胡兀鷲",
+      "predicate": "distributed_in",
+      "object_id": "loc-德拉肯斯山脉-816e89d1",
+      "object": "德拉肯斯山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "An isolated population inhabits the Drakensberg in South Africa.{{cite book |author1=Ferguson-Lees, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-胡兀鷲-29659067",
+      "subject": "胡兀鷲",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "An isolated population inhabits the Drakensberg in South Africa.{{cite book |author1=Ferguson-Lees, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-胡兀鷲-29659067",
+      "subject": "胡兀鷲",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

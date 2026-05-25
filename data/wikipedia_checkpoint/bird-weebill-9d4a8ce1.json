@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:46:25",
+  "requested_title": "Weebill",
+  "resolved_title": "Weebill",
+  "title_aliases": [
+    "Weebill"
+  ],
+  "bird_id": "bird-weebill-9d4a8ce1",
+  "raw_file": "bird-weebill-9d4a8ce1.json",
+  "bird": {
+    "id": "bird-weebill-9d4a8ce1",
+    "name": "Weebill",
+    "english_name": "Weebill",
+    "latin_name": "Smicrornis brevirostris",
+    "summary": "The weebill (Smicrornis brevirostris) is a species of bird in the family Acanthizidae. It is an insectivorous passerine that is found throu…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Weebill_Smicrornis_brevirostris%29_12_September_2015_Cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-古尔德-f8020282",
+      "name": "约翰·古尔德",
+      "summary": "约翰·古尔德 FRS（英語：John Gould，1804年9月14日—1881年2月3日）是19世纪一位英国鸟类学家。1804年生于英格兰，也是一位商人、艺术家。1838年后与其妻一同前往澳大利亚，在当地发现并為许多新物种命名。 早年…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-mallee-woodlands-and-shrublands-a78decc8",
+      "name": "Mallee Woodlands and Shrublands",
+      "summary": "Mallee Woodlands and Shrublands is one of 32 Major Vegetation Groups defined by the Australian Government Department of…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-weebill-9d4a8ce1",
+      "subject": "Weebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-古尔德-f8020282",
+      "object": "约翰·古尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|right|Subspecies flavescens, Northern Territory The weebill (Smicrornis brevirostris) is a species of bird in the family Acanthizidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-weebill-9d4a8ce1",
+      "subject": "Weebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The weebill is found in woodlands and forests across most of mainland Australia, excluding Tasmania. All four subspecies of weebills are sedentary in their range, and numbers are regular throughout the year",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-weebill-9d4a8ce1",
+      "subject": "Weebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-mallee-woodlands-and-shrublands-a78decc8",
+      "object": "Mallee Woodlands and Shrublands",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are most commonly found in the canopies of dry, open eucalyptus forests, woodlands and mallee, occasionally coming down to the midstory to feed primarily on small insects and their larvae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-weebill-9d4a8ce1",
+      "subject": "Weebill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-weebill-9d4a8ce1",
+      "subject": "Weebill",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Widespread and common in its habitat throughout its range on mainland Australia, the weebill is evaluated as Least Concern on the IUCN Red List of Threatened Species. However, like many woodland birds throughout Australia, local declines have been noted, these being consequent upon habitat loss and fragmentation caused by deforestation of Eucalyptus woodlands and other anthropogenic changes to the characteristics of the land",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-weebill-9d4a8ce1",
+      "subject": "Weebill",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Widespread and common in its habitat throughout its range on mainland Australia, the weebill is evaluated as Least Concern on the IUCN Red List of Threatened Species. However, like many woodland birds throughout Australia, local declines have been noted, these being consequent upon habitat loss and fragmentation caused by deforestation of Eucalyptus woodlands and other anthropogenic changes to the characteristics of the land",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

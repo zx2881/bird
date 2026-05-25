@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:00:13",
+  "requested_title": "Yellow-breasted Warbler",
+  "resolved_title": "Yellow-breasted warbler",
+  "title_aliases": [
+    "Yellow-breasted Warbler"
+  ],
+  "bird_id": "bird-yellow-breasted-warbler-702df322",
+  "raw_file": "bird-yellow-breasted-warbler-702df322.json",
+  "bird": {
+    "id": "bird-yellow-breasted-warbler-702df322",
+    "name": "Yellow-breasted warbler",
+    "english_name": "Yellow-breasted warbler",
+    "latin_name": "Phylloscopus montis",
+    "summary": "The yellow-breasted warbler (Phylloscopus montis) is a species of Old World warbler in the family Phylloscopidae. It is found in Indonesia,…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Phylloscopus_montis_88.jpg/960px-Phylloscopus_montis_88.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-马来西亚-3f6d0e1e",
+      "name": "马来西亚",
+      "summary": "馬來西亞（馬来语、英語：Malaysia），简称大馬或馬國，是位於东南亚的多元种族國家。由前馬來亚联合邦、北婆羅洲（今沙巴）、砂拉越及新加坡於1963年9月16日所組成的联邦制、议会民主制、选举君主制和君主立宪制國家。 馬来西亚全国总面积…",
+      "lat": "2",
+      "lng": "112"
+    },
+    {
+      "id": "loc-巴拉望省-b942e012",
+      "name": "巴拉望省",
+      "summary": "巴拉望省（Palawan），是菲律宾民马罗巴区下属的一个省，由主岛巴拉望岛，以及周边的卡拉棉群岛（1,753平方公里）、库约群岛、巴拉巴克岛等小岛组成，南隔巴拉巴克海峡与加里曼丹岛相望。另外，菲律宾声称部分南沙群岛（卡拉延群島）也归属该省…",
+      "lat": "10",
+      "lng": "118.83"
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-breasted-warbler-702df322",
+      "subject": "Yellow-breasted warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia, Malaysia, and Palawan Island in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-breasted-warbler-702df322",
+      "subject": "Yellow-breasted warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来西亚-3f6d0e1e",
+      "object": "马来西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia, Malaysia, and Palawan Island in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-breasted-warbler-702df322",
+      "subject": "Yellow-breasted warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉望省-b942e012",
+      "object": "巴拉望省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia, Malaysia, and Palawan Island in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-breasted-warbler-702df322",
+      "subject": "Yellow-breasted warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia, Malaysia, and Palawan Island in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-breasted-warbler-702df322",
+      "subject": "Yellow-breasted warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

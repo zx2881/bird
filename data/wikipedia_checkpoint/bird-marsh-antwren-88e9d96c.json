@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:57:08",
+  "requested_title": "Marsh Antwren",
+  "resolved_title": "Marsh antwren",
+  "title_aliases": [
+    "Marsh Antwren"
+  ],
+  "bird_id": "bird-marsh-antwren-88e9d96c",
+  "raw_file": "bird-marsh-antwren-88e9d96c.json",
+  "bird": {
+    "id": "bird-marsh-antwren-88e9d96c",
+    "name": "Marsh antwren",
+    "english_name": "Marsh antwren",
+    "latin_name": "Formicivora acutirostris",
+    "summary": "The marsh antwren (Formicivora acutirostris) is an insectivorous bird in subfamily Thamnophilinae of family Thamnophilidae, the \"typical an…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Sao_Paulo_Antwren_%28male%29_-Sao_Paulo%2C_Brazil.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-marsh-antwren-88e9d96c",
+      "subject": "Marsh antwren",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "As its name implies, the marsh antwren primarily inhabits coastal and riverine marshes; it occurs less frequently in flooded plains and in the transition zone between mangroves and drier land",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-marsh-antwren-88e9d96c",
+      "subject": "Marsh antwren",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-marsh-antwren-88e9d96c",
+      "subject": "Marsh antwren",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Some patches of habitat, including the type-locality, are under constant human pressure and have been reduced by fires, allotments and landfills.\" Conversion of habitat for other uses, pollution, and the effects of climate change are also threats",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    },
+    {
+      "subject_id": "bird-marsh-antwren-88e9d96c",
+      "subject": "Marsh antwren",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Some patches of habitat, including the type-locality, are under constant human pressure and have been reduced by fires, allotments and landfills.\" Conversion of habitat for other uses, pollution, and the effects of climate change are also threats",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    }
+  ]
+}

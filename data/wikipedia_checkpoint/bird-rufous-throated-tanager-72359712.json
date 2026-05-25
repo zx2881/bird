@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:36:23",
+  "requested_title": "Rufous-throated Tanager",
+  "resolved_title": "Rufous-throated tanager",
+  "title_aliases": [
+    "Rufous-throated Tanager"
+  ],
+  "bird_id": "bird-rufous-throated-tanager-72359712",
+  "raw_file": "bird-rufous-throated-tanager-72359712.json",
+  "bird": {
+    "id": "bird-rufous-throated-tanager-72359712",
+    "name": "Rufous-throated tanager",
+    "english_name": "Rufous-throated tanager",
+    "latin_name": "Ixothraupis rufigula",
+    "summary": "The rufous-throated tanager (Ixothraupis rufigula) is a species of bird in the family Thraupidae. It is found in Colombia and Ecuador.",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Rufous-throated_Tanager_%28Tangara_rufigula%29.jpg/960px-Rufous-throated_Tanager_%28Tangara_rufigula%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-throated-tanager-72359712",
+      "subject": "Rufous-throated tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-throated-tanager-72359712",
+      "subject": "Rufous-throated tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-throated-tanager-72359712",
+      "subject": "Rufous-throated tanager",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

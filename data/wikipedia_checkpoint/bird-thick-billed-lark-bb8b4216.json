@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:35:09",
+  "requested_title": "Thick-billed Lark",
+  "resolved_title": "Thick-billed lark",
+  "title_aliases": [
+    "Thick-billed Lark"
+  ],
+  "bird_id": "bird-thick-billed-lark-bb8b4216",
+  "raw_file": "bird-thick-billed-lark-bb8b4216.json",
+  "bird": {
+    "id": "bird-thick-billed-lark-bb8b4216",
+    "name": "Thick-billed lark",
+    "english_name": "Thick-billed lark",
+    "latin_name": "Ramphocoris clotbey",
+    "summary": "The thick-billed lark (Ramphocoris clotbey) or Clotbey lark is a species of lark in the family Alaudidae. Taxonomy and systematics It was n…",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Thick-billed_lark_%28Ramphocoris_clotbey%29_Kebili.jpg/960px-Thick-billed_lark_%28Ramphocoris_clotbey%29_Kebili.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-thick-billed-lark-bb8b4216",
+      "subject": "Thick-billed lark",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern Africa from Mauritania and Morocco to Libya, also in central regions of the Arabian Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-thick-billed-lark-bb8b4216",
+      "subject": "Thick-billed lark",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

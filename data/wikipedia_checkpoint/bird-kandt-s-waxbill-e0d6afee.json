@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:06:01",
+  "requested_title": "Kandt's Waxbill",
+  "resolved_title": "Kandt's waxbill",
+  "title_aliases": [
+    "Kandt's Waxbill"
+  ],
+  "bird_id": "bird-kandt-s-waxbill-e0d6afee",
+  "raw_file": "bird-kandt-s-waxbill-e0d6afee.json",
+  "bird": {
+    "id": "bird-kandt-s-waxbill-e0d6afee",
+    "name": "Kandt's waxbill",
+    "english_name": "Kandt's waxbill",
+    "latin_name": "Estrilda kandti",
+    "summary": "Kandt's waxbill (Estrilda kandti) is a species of estrildid finch found in central Africa. It is sometimes considered conspecific with the…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Estrilda_kandti.jpg/960px-Estrilda_kandti.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安东-赖歇诺-43b8e534",
+      "name": "安东·赖歇诺",
+      "summary": "安东·赖歇诺（德語：Anton Reichenow，1847年8月1日—1941年7月6日）是德国鳥類學家和爬虫两栖类学家。 生平 安东·赖歇诺是德国鸟类研究学家吉恩·路易斯·卡巴尼斯的女婿，1874年至1921年在柏林自然博物馆长期工作…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-kandt-s-waxbill-e0d6afee",
+      "subject": "Kandt's waxbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-安东-赖歇诺-43b8e534",
+      "object": "安东·赖歇诺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Kandt's waxbill (Estrilda kandti) is a species of estrildid finch found in central Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kandt-s-waxbill-e0d6afee",
+      "subject": "Kandt's waxbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

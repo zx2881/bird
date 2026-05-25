@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:07:33",
+  "requested_title": "Hooded Cuckooshrike",
+  "resolved_title": "Hooded cuckooshrike",
+  "title_aliases": [
+    "Hooded Cuckooshrike"
+  ],
+  "bird_id": "bird-黑冠鹃鵙-8c80c65a",
+  "raw_file": "bird-黑冠鹃鵙-8c80c65a.json",
+  "bird": {
+    "id": "bird-黑冠鹃鵙-8c80c65a",
+    "name": "黑冠鹃鵙",
+    "english_name": "Hooded cuckooshrike",
+    "latin_name": "Coracina longicauda",
+    "summary": "黑冠鹃鵙（学名：Coracina longicauda）是山椒鸟科鸦鹃鵙属的一种。分布于印度尼西亚和巴布亚新几内亚。其自然栖息地为亚热带或热带的湿润山地。 种加词 longicauda 意为“长尾的”。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Coracina_longicauda_3114193.jpg/960px-Coracina_longicauda_3114193.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞高地-05e346ed",
+      "name": "新幾內亞高地",
+      "summary": "新几内亚高地是新幾內亞島上的山脉。其最高点为印度尼西亚境内的查亞峰，海拔4,884米（16,024英尺），同时也是大洋洲的最高峰。该山脉大致呈东西走向横贯全岛，西起印度尼西亞温达马湾县，向东一直延伸至巴布亞新幾內亞米爾恩灣省。 参考文献",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑冠鹃鵙-8c80c65a",
+      "subject": "黑冠鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞高地-05e346ed",
+      "object": "新幾內亞高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑冠鹃鵙-8c80c65a",
+      "subject": "黑冠鹃鵙",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-黑冠鹃鵙-8c80c65a",
+      "subject": "黑冠鹃鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

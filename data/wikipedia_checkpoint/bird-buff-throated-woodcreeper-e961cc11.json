@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:16:27",
+  "requested_title": "Buff-throated Woodcreeper",
+  "resolved_title": "Buff-throated woodcreeper",
+  "title_aliases": [
+    "Buff-throated Woodcreeper"
+  ],
+  "bird_id": "bird-buff-throated-woodcreeper-e961cc11",
+  "raw_file": "bird-buff-throated-woodcreeper-e961cc11.json",
+  "bird": {
+    "id": "bird-buff-throated-woodcreeper-e961cc11",
+    "name": "Buff-throated woodcreeper",
+    "english_name": "Buff-throated woodcreeper",
+    "latin_name": "Xiphorhynchus guttatus",
+    "summary": "The buff-throated woodcreeper (Xiphorhynchus guttatus) is a species of bird in the subfamily Dendrocolaptinae of the ovenbird family Furnar…",
+    "lat": "-5.08",
+    "lng": "-39.65",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Xiphorhyinchus_guttatus_-_Buff-throated_Woodcreeper.JPG/960px-Xiphorhyinchus_guttatus_-_Buff-throated_Woodcreeper.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-塞阿拉州-3f292f1e",
+      "name": "塞阿拉州",
+      "summary": "塞阿拉州（葡萄牙語：Ceará，[seaˈɾa] ）是巴西26个联邦州之一，位于东北地区北部，东邻北里奥格兰德州和帕拉伊巴州，南邻伯南布哥州，西邻皮奥伊州，北和东北方向濒临大西洋。塞阿拉州面积为148,894.442平方千米，占东北地区面…",
+      "lat": "-5.08",
+      "lng": "-39.65"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-buff-throated-woodcreeper-e961cc11",
+      "subject": "Buff-throated woodcreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞阿拉州-3f292f1e",
+      "object": "塞阿拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "gracilirostris, Serra do Baturité in northeastern Brazil's Ceará state The buff-throated woodcreeper generally inhabits humid evergreen forest, but varies in details across its very large range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-throated-woodcreeper-e961cc11",
+      "subject": "Buff-throated woodcreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "gracilirostris, Serra do Baturité in northeastern Brazil's Ceará state The buff-throated woodcreeper generally inhabits humid evergreen forest, but varies in details across its very large range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-throated-woodcreeper-e961cc11",
+      "subject": "Buff-throated woodcreeper",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-buff-throated-woodcreeper-e961cc11",
+      "subject": "Buff-throated woodcreeper",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats to either have been identified. The nominate subspecies is \"largely restricted to scattered fragments of lowland Atlantic Forest, and likely to be moderately to highly sensitive to continued loss of forest.\" The other two subspecies of the \"buff-throated\" group are considered fairly common to common, and \"probably only moderately sensitive to disturbance\"",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

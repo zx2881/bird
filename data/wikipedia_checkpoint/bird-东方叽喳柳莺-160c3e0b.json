@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:52:15",
+  "requested_title": "Mountain Chiffchaff",
+  "resolved_title": "Mountain chiffchaff",
+  "title_aliases": [
+    "Mountain Chiffchaff"
+  ],
+  "bird_id": "bird-东方叽喳柳莺-160c3e0b",
+  "raw_file": "bird-东方叽喳柳莺-160c3e0b.json",
+  "bird": {
+    "id": "bird-东方叽喳柳莺-160c3e0b",
+    "name": "东方叽喳柳莺",
+    "english_name": "Mountain chiffchaff",
+    "latin_name": "Phylloscopus sindianus",
+    "summary": "东方叽咋柳莺（学名：Phylloscopus sindianus）为柳莺科柳莺属的鸟类，又称中亚叽咋柳莺。分布于东亚，西伯利亚，以及中国大陆新疆、西藏等地。它原来是叽咋柳莺的亚种，2003年被认定为独立物种。 参考文献",
+    "lat": "42.26111111",
+    "lng": "44.12111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Mountain_Chiffchaff_-_Shreeram_M_V_-_Suru_Valley.jpg/960px-Mountain_Chiffchaff_-_Shreeram_M_V_-_Suru_Valley.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-高加索-d137c140",
+      "name": "高加索",
+      "summary": "高加索（喬治亞語：კავკასია；車臣語、俄語：Кавказ）是位於西亞及東歐交界處，黑海、裏海之間高加索山脈的地區，《元史·速不台傳》稱之為太和嶺，總面積約44萬平方公里。該地名根據古羅馬學者老普林尼著作《博物志》的追溯，是來自斯基泰…",
+      "lat": "42.26111111",
+      "lng": "44.12111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-东方叽喳柳莺-160c3e0b",
+      "subject": "东方叽喳柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-高加索-d137c140",
+      "object": "高加索",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Brooks]], 1880 | subdivision_ranks = | range_map = Phylloscopus_sindianus_distribution_map.png }} The mountain chiffchaff or eastern chiffchaff (Phylloscopus sindianus) is a species of leaf warbler found in the Caucasus (P",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-东方叽喳柳莺-160c3e0b",
+      "subject": "东方叽喳柳莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

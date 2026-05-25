@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:47:41",
+  "requested_title": "Red-fronted Macaw",
+  "resolved_title": "Red-fronted macaw",
+  "title_aliases": [
+    "Red-fronted Macaw"
+  ],
+  "bird_id": "bird-红额金刚鹦鹉-83b6727d",
+  "raw_file": "bird-红额金刚鹦鹉-83b6727d.json",
+  "bird": {
+    "id": "bird-红额金刚鹦鹉-83b6727d",
+    "name": "红额金刚鹦鹉",
+    "english_name": "Red-fronted macaw",
+    "latin_name": "Ara rubrogenys",
+    "summary": "红额金刚鹦鹉（學名：Ara rubrogenys）是大型金刚鹦鹉中体型最小的。体长60厘米。头、面颊、肩分布有橘红色羽毛，生活在玻利维亚，数量稀少，语言能力强。 不同于一般鹦鹉，本种栖息在干燥的森林。巢穴分布在岩壁洞穴中与高树上，以种子、浆果、坚果为食。4岁时可以开始繁殖。繁殖…",
+    "lat": "36.20868",
+    "lng": "-95.92978",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Ara_rubrogenys_-Tulsa_Zoo%2C_Oklahoma%2C_USA-8a-3c.jpg/960px-Ara_rubrogenys_-Tulsa_Zoo%2C_Oklahoma%2C_USA-8a-3c.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-tulsa-zoo-abff3e97",
+      "name": "Tulsa Zoo",
+      "summary": "The Tulsa Zoo is an 84-acre (34 ha) zoo located in Tulsa, Oklahoma, United States.",
+      "lat": "36.20868",
+      "lng": "-95.92978"
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-圣克鲁斯-德拉谢拉-acd09634",
+      "name": "圣克鲁斯-德拉谢拉",
+      "summary": "圣克鲁斯-德拉谢拉（西班牙語：Santa Cruz de la Sierra、奇楚瓦語：Santa Krus llaqta），简称圣克鲁斯（Santa Cruz），位于玻利维亚中部，是该国最大的城市和圣克鲁斯省的省会，2024年人口数量为…",
+      "lat": "-17.8",
+      "lng": "-63.18333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红额金刚鹦鹉-83b6727d",
+      "subject": "红额金刚鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-tulsa-zoo-abff3e97",
+      "object": "Tulsa Zoo",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "{{Speciesbox | name = Red-fronted macaw | image = Ara rubrogenys -Tulsa Zoo, Oklahoma, USA-8a-3c.jpg | image_caption = At Tulsa Zoo, Oklahoma, USA | status = CR | status_system = IUCN3.1 | status_ref = {{cite iucn |author=BirdLife International",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红额金刚鹦鹉-83b6727d",
+      "subject": "红额金刚鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-fronted macaw is native to a small mountainous area of south-central Bolivia situated about 200&nbsp;km west of Santa Cruz, in the department of the same name, where the climate is medium altitude semi-desert",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红额金刚鹦鹉-83b6727d",
+      "subject": "红额金刚鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣克鲁斯-德拉谢拉-acd09634",
+      "object": "圣克鲁斯-德拉谢拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-fronted macaw is native to a small mountainous area of south-central Bolivia situated about 200&nbsp;km west of Santa Cruz, in the department of the same name, where the climate is medium altitude semi-desert",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红额金刚鹦鹉-83b6727d",
+      "subject": "红额金刚鹦鹉",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Most macaws nest in holes in large trees, however here there are no very large trees in its range so it nests in vertical fissures in cliff faces. The bird has been captured for the pet trade in the past and killed by local farmers because it raids their crops",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-红额金刚鹦鹉-83b6727d",
+      "subject": "红额金刚鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

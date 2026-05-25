@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:19:12",
+  "requested_title": "Narrow-tailed Starling",
+  "resolved_title": "Narrow-tailed starling",
+  "title_aliases": [
+    "Narrow-tailed Starling"
+  ],
+  "bird_id": "bird-narrow-tailed-starling-932623d8",
+  "raw_file": "bird-narrow-tailed-starling-932623d8.json",
+  "bird": {
+    "id": "bird-narrow-tailed-starling-932623d8",
+    "name": "Narrow-tailed starling",
+    "english_name": "Narrow-tailed starling",
+    "latin_name": "Poeoptera lugubris",
+    "summary": "The narrow-tailed starling (Poeoptera lugubris) is a species of starling in the family Sturnidae. It is found in West and Central Africa fr…",
+    "lat": "12",
+    "lng": "3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/PoeopteraLugubrisKeulemans.jpg/960px-PoeopteraLugubrisKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    },
+    {
+      "id": "loc-中部非洲-3fc4fb95",
+      "name": "中部非洲",
+      "summary": "Central Africa (French: Afrique centrale; Spanish: África central; Portuguese: África Central) is a subregion of the Af…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-narrow-tailed-starling-932623d8",
+      "subject": "Narrow-tailed starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in West and Central Africa from Sierra Leone to the Democratic Republic of the Congo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-narrow-tailed-starling-932623d8",
+      "subject": "Narrow-tailed starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-中部非洲-3fc4fb95",
+      "object": "中部非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in West and Central Africa from Sierra Leone to the Democratic Republic of the Congo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-narrow-tailed-starling-932623d8",
+      "subject": "Narrow-tailed starling",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in West and Central Africa from Sierra Leone to the Democratic Republic of the Congo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-narrow-tailed-starling-932623d8",
+      "subject": "Narrow-tailed starling",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

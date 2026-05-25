@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:30:53",
+  "requested_title": "Black-collared Starling",
+  "resolved_title": "Black-collared starling",
+  "title_aliases": [
+    "Black-collared Starling"
+  ],
+  "bird_id": "bird-黑领椋鸟-35f3ca32",
+  "raw_file": "bird-黑领椋鸟-35f3ca32.json",
+  "bird": {
+    "id": "bird-黑领椋鸟-35f3ca32",
+    "name": "黑领椋鸟",
+    "english_name": "Black-collared starling",
+    "latin_name": "Gracupica nigricollis",
+    "summary": "黑领椋鸟（学名：Gracupica nigricollis）为椋鸟科斑椋鳥屬的鸟类，又名乌领椋鸟，俗名黑脖八哥、白头椋鸟。牠的羽毛為黑白相間，並有一個黑色的領圈。這種鳥分布於中國南部及大部分的東南亞大陸地區，並已引入台灣、馬來西亞和新加坡。牠的棲地包括草原、乾燥森林以及人類居住…",
+    "lat": "25.9",
+    "lng": "118.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Black-collared_starling_%28Gracupica_nigricollis%29.jpg/960px-Black-collared_starling_%28Gracupica_nigricollis%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-福建省-056898c1",
+      "name": "福建省",
+      "summary": "福建省，简称闽，中华人民共和国东南沿海省份，省会福州市。东西最寬約480公里，南北最長約530公里，陆域面积約12.4万平方公里。北與浙江省毗邻，西與江西省相連，西南與廣東省接界，东隔臺灣海峽與臺灣相望。福建省下辖9个地级市和平潭综合实验…",
+      "lat": "25.9",
+      "lng": "118.3"
+    },
+    {
+      "id": "loc-云南省-f689e1a8",
+      "name": "云南省",
+      "summary": "云南省，简称云或滇，因清代境內有迤东道、迤西道、迤南道三迤，故又簡稱迤，是中华人民共和国西南边疆地区的省份。云南地形复杂多变，以高原与山地为主，海拔落差大，呈“西北高、东南低”地势格局。气候类型多样，从高原气候到热带、亚热带气候均有分布，…",
+      "lat": "25.04944444",
+      "lng": "102.70888889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑领椋鸟-35f3ca32",
+      "subject": "黑领椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern China and most of mainland Southeast Asia, and has been introduced to Taiwan, Malaysia and Singapore",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑领椋鸟-35f3ca32",
+      "subject": "黑领椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-福建省-056898c1",
+      "object": "福建省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in southern China from Fujian to Yunnan, and south to Burma, Laos, Cambodia, Vietnam and Thailand. An individual recorded in Brunei may be an escaped captive or a vagrant. It has been introduced to Taiwan, Malaysia and Singapore.{{cite encyclopedia |last1=Craig |first1=A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑领椋鸟-35f3ca32",
+      "subject": "黑领椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-云南省-f689e1a8",
+      "object": "云南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in southern China from Fujian to Yunnan, and south to Burma, Laos, Cambodia, Vietnam and Thailand. An individual recorded in Brunei may be an escaped captive or a vagrant. It has been introduced to Taiwan, Malaysia and Singapore.{{cite encyclopedia |last1=Craig |first1=A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑领椋鸟-35f3ca32",
+      "subject": "黑领椋鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "|title=Black-collared Starling (Gracupica nigricollis) |url=https://www.hbw.com/species/black-collared-starling-gracupica-nigricollis |encyclopedia=Handbook of the Birds of the World Alive |date=2020 |publisher=Lynx Edicions|doi=10.2173/bow.bkcsta1.01 |url-access=subscription }} This starling lives in grassland, dry forest, cultivated areas and human settlements, mostly occurring at low elevations, but also up to",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-黑领椋鸟-35f3ca32",
+      "subject": "黑领椋鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

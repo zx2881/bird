@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:53:09",
+  "requested_title": "Ochraceous Wren",
+  "resolved_title": "Ochraceous wren",
+  "title_aliases": [
+    "Ochraceous Wren"
+  ],
+  "bird_id": "bird-ochraceous-wren-eae153cc",
+  "raw_file": "bird-ochraceous-wren-eae153cc.json",
+  "bird": {
+    "id": "bird-ochraceous-wren-eae153cc",
+    "name": "Ochraceous wren",
+    "english_name": "Ochraceous wren",
+    "latin_name": "Troglodytes ochraceus",
+    "summary": "The ochraceous wren (Troglodytes ochraceus) is a small songbird of the wren family. It is a resident breeding species in Costa Rica, Panama…",
+    "lat": "9.5",
+    "lng": "-83.66666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ochraceous_Wren_%286914453566%29.jpg/960px-Ochraceous_Wren_%286914453566%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥斯達黎加地理-60db3d8c",
+      "name": "哥斯達黎加地理",
+      "summary": "哥斯達黎加位於中美洲地峽，在東部臨加勒比海，西部臨大西洋。哥斯達黎加北部臨尼加拉瓜，南部臨巴拿馬。國土面積51,100平方公里，其中50,660平方公里是土地，440平方公里是水域。哥斯達黎加大多數地區都屬熱帶氣候區。哥斯達黎加也是世界生…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-塔拉曼卡山脉-b3f7a09c",
+      "name": "塔拉曼卡山脉",
+      "summary": "塔拉曼卡山脉（Cordillera de Talamanca）是跨哥斯达黎加和巴拿马国界的一座山脉，山区大部分地区是塔拉曼卡仰芝－拉阿米斯泰德保护区的一部分，同样也由两国共有。 塔拉曼卡山脉的最高峰为奇里波峰，海拔3,820米。当地的国家…",
+      "lat": "9.5",
+      "lng": "-83.66666667"
+    },
+    {
+      "id": "loc-american-ornithological-society-5fde31a2",
+      "name": "American Ornithological Society",
+      "summary": "The American Ornithological Society (AOS) is an ornithological organization based in the United States.",
+      "lat": "41.866269",
+      "lng": "-87.616997"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ochraceous-wren-eae153cc",
+      "subject": "Ochraceous wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥斯達黎加地理-60db3d8c",
+      "object": "哥斯達黎加地理",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "According to the IOC, the nominate subspecies of ochraceous wren is found in the Costa Rica highlands from the Tilarán Mountains to the Talamanca ranges and in western and central Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ochraceous-wren-eae153cc",
+      "subject": "Ochraceous wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔拉曼卡山脉-b3f7a09c",
+      "object": "塔拉曼卡山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "According to the IOC, the nominate subspecies of ochraceous wren is found in the Costa Rica highlands from the Tilarán Mountains to the Talamanca ranges and in western and central Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ochraceous-wren-eae153cc",
+      "subject": "Ochraceous wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-american-ornithological-society-5fde31a2",
+      "object": "American Ornithological Society",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "festinus in eastern Panama; Cornell, Clements, and the South American Classification Committee of the American Ornithological Society (SACC/AOS) note its occurrence in adjacent northwestern Colombia as well. The ochraceous wren primarily inhabits wet epiphyte-laden montane forest, and also semi-open areas such as woodland edges, tall second growth, and pastures with trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ochraceous-wren-eae153cc",
+      "subject": "Ochraceous wren",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "festinus in eastern Panama; Cornell, Clements, and the South American Classification Committee of the American Ornithological Society (SACC/AOS) note its occurrence in adjacent northwestern Colombia as well. The ochraceous wren primarily inhabits wet epiphyte-laden montane forest, and also semi-open areas such as woodland edges, tall second growth, and pastures with trees",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-ochraceous-wren-eae153cc",
+      "subject": "Ochraceous wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

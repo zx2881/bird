@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:34:10",
+  "requested_title": "Yellow-faced Siskin",
+  "resolved_title": "Yellow-faced siskin",
+  "title_aliases": [
+    "Yellow-faced Siskin"
+  ],
+  "bird_id": "bird-黃臉金翅雀-0ce729ec",
+  "raw_file": "bird-黃臉金翅雀-0ce729ec.json",
+  "bird": {
+    "id": "bird-黃臉金翅雀-0ce729ec",
+    "name": "黃臉金翅雀",
+    "english_name": "Yellow-faced siskin",
+    "latin_name": "Spinus yarrellii",
+    "summary": "黃臉金翅雀（学名：Spinus yarrellii）是分佈在巴西及委內瑞拉的雀。牠們棲息在亞熱帶或熱帶的潮濕山區、乾旱叢林、耕地及市區。 保育狀況 其被列為《瀕危野生動植物種國際貿易公約》附錄二的物種，被限制出口及貿易。",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Carduelis_yarrellii.JPG/960px-Carduelis_yarrellii.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    },
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黃臉金翅雀-0ce729ec",
+      "subject": "黃臉金翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brazil and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃臉金翅雀-0ce729ec",
+      "subject": "黃臉金翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brazil and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃臉金翅雀-0ce729ec",
+      "subject": "黃臉金翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Despite its small range, it occurs in a wide range of habitats including caatinga, urban areas, forest edges, second growth forests, and coffee plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃臉金翅雀-0ce729ec",
+      "subject": "黃臉金翅雀",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-黃臉金翅雀-0ce729ec",
+      "subject": "黃臉金翅雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The yellow-faced siskin is currently ranked as vulnerable by the IUCN due to its heavy exploitation by the illegal bird trade which, along with deforestation pose serious risks to the bird",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

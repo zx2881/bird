@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:45:19",
+  "requested_title": "Elfin Woods Warbler",
+  "resolved_title": "Elfin woods warbler",
+  "title_aliases": [
+    "Elfin Woods Warbler"
+  ],
+  "bird_id": "bird-小林莺-23b289b4",
+  "raw_file": "bird-小林莺-23b289b4.json",
+  "bird": {
+    "id": "bird-小林莺-23b289b4",
+    "name": "小林莺",
+    "english_name": "Elfin woods warbler",
+    "latin_name": "Setophaga angelae",
+    "summary": "小林莺（学名：Setophaga angelae），是雀形目森莺科的一种鸟类。 小林莺体重约7.7克，翼长约52.6毫米，嘴峰长约11.8毫米，喙宽度约3.4毫米，喙厚度约2.7毫米，跗蹠长约16.5毫米，尾长约44.5毫米。小林莺在其分布区内为留鸟，其栖息在密集的高大树木组成…",
+    "lat": "18.3008",
+    "lng": "-65.7933",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Elfin-woods_warbler_perched_on_a_tree_branch.jpg/960px-Elfin-woods_warbler_perched_on_a_tree_branch.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-sierra-de-luquillo-226ec26e",
+      "name": "Sierra de Luquillo",
+      "summary": "The Sierra de Luquillo (English: \"Luquillo Mountains\") is a steep-sided, high-precipitation, and deeply-forested subran…",
+      "lat": "18.3008",
+      "lng": "-65.7933"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小林莺-23b289b4",
+      "subject": "小林莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-sierra-de-luquillo-226ec26e",
+      "object": "Sierra de Luquillo",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species richness is low when compared to other types of forests (tabonuco, palo Colorado and palma sierra forests) found in the Luquillo Mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小林莺-23b289b4",
+      "subject": "小林莺",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-小林莺-23b289b4",
+      "subject": "小林莺",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The organization justified the warbler's move to endangered status due to the combination of its very small range and its continuing decline due to habitat destruction and degradation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:48:43",
+  "requested_title": "Red-and-green Macaw",
+  "resolved_title": "Red-and-green macaw",
+  "title_aliases": [
+    "Red-and-green Macaw"
+  ],
+  "bird_id": "bird-绿翅金刚鹦鹉-ea59fb09",
+  "raw_file": "bird-绿翅金刚鹦鹉-ea59fb09.json",
+  "bird": {
+    "id": "bird-绿翅金刚鹦鹉-ea59fb09",
+    "name": "绿翅金刚鹦鹉",
+    "english_name": "Red-and-green macaw",
+    "latin_name": "Ara chloropterus",
+    "summary": "紅綠金剛鸚鵡（學名：Ara chloropterus，葡萄牙語：Arara-vermelha，西班牙語：Guacamayo aliverde），又名綠翅金剛鸚鵡、紅金剛鸚鵡、綠翅紅金剛鸚鵡、紅綠麥鷍，是鸚形目金刚鹦鹉科金剛鸚鵡屬下的一種鳥類。這種鸚鵡就如同其他金剛鸚鵡廣泛分佈於…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Ara_chloropterus_-Apenheul_Primate_Park_-Netherlands-8a.jpg/960px-Ara_chloropterus_-Apenheul_Primate_Park_-Netherlands-8a.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-绿翅金刚鹦鹉-ea59fb09",
+      "subject": "绿翅金刚鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-绿翅金刚鹦鹉-ea59fb09",
+      "subject": "绿翅金刚鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, in common with other macaws, in recent years there has been a marked decline in its numbers due to habitat loss and illegal capture for the parrot trade",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:57:40",
+  "requested_title": "Emperor Bird-of-paradise",
+  "resolved_title": "Emperor bird-of-paradise",
+  "title_aliases": [
+    "Emperor Bird-of-paradise"
+  ],
+  "bird_id": "bird-emperor-bird-of-paradise-3ae07b00",
+  "raw_file": "bird-emperor-bird-of-paradise-3ae07b00.json",
+  "bird": {
+    "id": "bird-emperor-bird-of-paradise-3ae07b00",
+    "name": "Emperor bird-of-paradise",
+    "english_name": "Emperor bird-of-paradise",
+    "latin_name": "Paradisaea guilielmi",
+    "summary": "The emperor bird-of-paradise (Paradisaea guilielmi), also known as emperor of Germany's bird-of-paradise, is a species of bird-of-paradise.…",
+    "lat": "-6.416667",
+    "lng": "147.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Paradisaea_guilielmi_Museum_de_Gen%C3%A8ve.JPG/960px-Paradisaea_guilielmi_Museum_de_Gen%C3%A8ve.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-休恩半岛-1ba94529",
+      "name": "休恩半岛",
+      "summary": "休恩半岛（Huon Peninsula）也译为胡恩半岛，位于新几内亚岛东岸，巴布亚新几内亚莫雷贝省境内，宽89公里，北临俾斯麦海勇士号海峡，东为所罗门海，南濒休恩湾，西南为馬卡姆河。半岛上的萨鲁瓦吉德岭、罗林森岭（Rawlinson Ra…",
+      "lat": "-6.416667",
+      "lng": "147.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-emperor-bird-of-paradise-3ae07b00",
+      "subject": "Emperor bird-of-paradise",
+      "predicate": "distributed_in",
+      "object_id": "loc-休恩半岛-1ba94529",
+      "object": "休恩半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is distributed in hill forests of the Huon Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-emperor-bird-of-paradise-3ae07b00",
+      "subject": "Emperor bird-of-paradise",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-emperor-bird-of-paradise-3ae07b00",
+      "subject": "Emperor bird-of-paradise",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to ongoing habitat loss, limited range and overhunting in some areas, the emperor bird-of-paradise is evaluated as Near Threatened on the IUCN Red List of Threatened Species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

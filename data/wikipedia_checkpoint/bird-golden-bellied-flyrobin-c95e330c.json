@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:00:07",
+  "requested_title": "Golden-bellied Flyrobin",
+  "resolved_title": "Golden-bellied flyrobin",
+  "title_aliases": [
+    "Golden-bellied Flyrobin"
+  ],
+  "bird_id": "bird-golden-bellied-flyrobin-c95e330c",
+  "raw_file": "bird-golden-bellied-flyrobin-c95e330c.json",
+  "bird": {
+    "id": "bird-golden-bellied-flyrobin-c95e330c",
+    "name": "Golden-bellied flyrobin",
+    "english_name": "Golden-bellied flyrobin",
+    "latin_name": "Microeca hemixantha",
+    "summary": "The golden-bellied flyrobin (Microeca hemixantha) is a species of bird in the family Petroicidae. It is native to the Tanimbar Islands.",
+    "lat": "-7.5",
+    "lng": "131.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Naturalis_Biodiversity_Center_-_RMNH.AVES.84382_1_-_Microeca_hemixantha_Sclater%2C_1883_-_Eopsaltriidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.84382_1_-_Microeca_hemixantha_Sclater%2C_1883_-_Eopsaltriidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-塔寧巴爾群島-b051ba35",
+      "name": "塔寧巴爾群島",
+      "summary": "塔寧巴爾群島是印度尼西亞馬魯古省的群島，由約65個島嶼組成，位於阿鲁群岛和卡伊群島西南、巴巴群島和帝汶以東，把班達海和阿拉弗拉海分開，土地總面積5,440平方公里，人口約61,000，其中44,000信奉基督教。行政上隶属马鲁古省的西东南…",
+      "lat": "-7.5",
+      "lng": "131.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-bellied-flyrobin-c95e330c",
+      "subject": "Golden-bellied flyrobin",
+      "predicate": "distributed_in",
+      "object_id": "loc-塔寧巴爾群島-b051ba35",
+      "object": "塔寧巴爾群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Tanimbar Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-bellied-flyrobin-c95e330c",
+      "subject": "Golden-bellied flyrobin",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-golden-bellied-flyrobin-c95e330c",
+      "subject": "Golden-bellied flyrobin",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

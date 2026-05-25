@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:56:02",
+  "requested_title": "Black-faced Laughingthrush",
+  "resolved_title": "Black-faced laughingthrush",
+  "title_aliases": [
+    "Black-faced Laughingthrush"
+  ],
+  "bird_id": "bird-黑顶噪鹛-5d2c39b5",
+  "raw_file": "bird-黑顶噪鹛-5d2c39b5.json",
+  "bird": {
+    "id": "bird-黑顶噪鹛-5d2c39b5",
+    "name": "黑顶噪鹛",
+    "english_name": "Black-faced laughingthrush",
+    "latin_name": "Trochalopteron affine",
+    "summary": "黑顶噪鹛（学名：Trochalopteron affine），是画眉科噪鹛属的一种，是海拔迁徙的候鸟，分布于缅甸、不丹、中国大陆、越南、印度和尼泊尔。该物种的保护状况被评为无危。 黑顶噪鹛的平均体重约为73.0克。栖息地包括亚热带或热带的高海拔疏灌丛和亚热带或热带的湿润山地林。…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Black-faced-Laughingthrush_Zuluk_Sikkim_India_12.05.2014.jpg/960px-Black-faced-Laughingthrush_Zuluk_Sikkim_India_12.05.2014.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-eastern-himalayas-e24606b2",
+      "name": "Eastern Himalayas",
+      "summary": "The Eastern Himalayas extend from eastern Nepal across Northeast India, Bhutan, the Tibet Autonomous Region to Yunnan i…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑顶噪鹛-5d2c39b5",
+      "subject": "黑顶噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-eastern-himalayas-e24606b2",
+      "object": "Eastern Himalayas",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left It is found in the Eastern Himalayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑顶噪鹛-5d2c39b5",
+      "subject": "黑顶噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

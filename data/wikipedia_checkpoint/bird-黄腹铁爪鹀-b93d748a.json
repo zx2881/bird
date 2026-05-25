@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:34:13",
+  "requested_title": "Smith's Longspur",
+  "resolved_title": "Smith's longspur",
+  "title_aliases": [
+    "Smith's Longspur"
+  ],
+  "bird_id": "bird-黄腹铁爪鹀-b93d748a",
+  "raw_file": "bird-黄腹铁爪鹀-b93d748a.json",
+  "bird": {
+    "id": "bird-黄腹铁爪鹀-b93d748a",
+    "name": "黄腹铁爪鹀",
+    "english_name": "Smith's longspur",
+    "latin_name": "Calcarius pictus",
+    "summary": "黄腹铁爪鹀（学名：Calcarius pictus），是雀形目铁爪鹀科的一种鸟，分布于北美洲。黄腹铁爪鹀是交配方式最与众不同的雀形目鸟类之一，雌雄均与1-3只异性交配，在繁殖季节的一个星期内，每只鸟可以交配350次，雄鸟并不占据和守卫领地，而是在交配期间跟随正在与自己交配的雌鸟…",
+    "lat": "64",
+    "lng": "-152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Calcarius_pictus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉斯加州-6d35b63b",
+      "name": "阿拉斯加州",
+      "summary": "阿拉斯加州（英語：Alaska，發音：/əˈlæskə/ ；舊譯「亞尼俺國」、「亞拉士加」）是美國位於北美洲最西北端的聯邦州。州以東與加拿大的英屬哥倫比亞省和育空地區相鄰，最西端位於阿圖島，並與俄羅斯在白令海峽以西有一海上邊界。以北有楚科…",
+      "lat": "64",
+      "lng": "-152"
+    },
+    {
+      "id": "loc-加拿大-25b69dbf",
+      "name": "加拿大",
+      "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢…",
+      "lat": "60",
+      "lng": "-110"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄腹铁爪鹀-b93d748a",
+      "subject": "黄腹铁爪鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉斯加州-6d35b63b",
+      "object": "阿拉斯加州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "A bird of open habitats, it breeds in northern Canada and Alaska, and winters in the southern United States",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹铁爪鹀-b93d748a",
+      "subject": "黄腹铁爪鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大-25b69dbf",
+      "object": "加拿大",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird breeds in open grassy areas near the tree line in northern Canada and Alaska",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹铁爪鹀-b93d748a",
+      "subject": "黄腹铁爪鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

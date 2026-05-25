@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:30:09",
+  "requested_title": "Striated Softtail",
+  "resolved_title": "Striated softtail",
+  "title_aliases": [
+    "Striated Softtail"
+  ],
+  "bird_id": "bird-striated-softtail-edea96d7",
+  "raw_file": "bird-striated-softtail-edea96d7.json",
+  "bird": {
+    "id": "bird-striated-softtail-edea96d7",
+    "name": "Striated softtail",
+    "english_name": "Striated softtail",
+    "latin_name": "Thripophaga macroura",
+    "summary": "The striated softtail (Thripophaga macroura) is a Vulnerable species of bird in the Furnariinae subfamily of the ovenbird family Furnariida…",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Thripophaga_macroura_-_Striated_Softail%3B_Sooretama%2C_Espirito_Santo%2C_Brazil.jpg/960px-Thripophaga_macroura_-_Striated_Softail%3B_Sooretama%2C_Espirito_Santo%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    },
+    {
+      "id": "loc-里約熱內盧州-12dcec68",
+      "name": "里約熱內盧州",
+      "summary": "里約熱內盧州（葡萄牙語：Rio de Janeiro，ˈhiw dʒi ʒʌˈnejɾu） 是巴西的一個州。 里約熱內盧州面積43,696.1km²。該州首府是1763年由葡萄牙人建立的里約熱內盧，該市也是州內最大的城市。",
+      "lat": "-22.9",
+      "lng": "-43.2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-striated-softtail-edea96d7",
+      "subject": "Striated softtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The striated softtail is found in coastal southeastern Brazil from southern Bahia state south into northern Rio de Janeiro state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-striated-softtail-edea96d7",
+      "subject": "Striated softtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-里約熱內盧州-12dcec68",
+      "object": "里約熱內盧州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The striated softtail is found in coastal southeastern Brazil from southern Bahia state south into northern Rio de Janeiro state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-striated-softtail-edea96d7",
+      "subject": "Striated softtail",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

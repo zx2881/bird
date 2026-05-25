@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:40:14",
+  "requested_title": "Prothonotary Warbler",
+  "resolved_title": "Prothonotary warbler",
+  "title_aliases": [
+    "Prothonotary Warbler"
+  ],
+  "bird_id": "bird-藍翅黃森鶯-4e85d791",
+  "raw_file": "bird-藍翅黃森鶯-4e85d791.json",
+  "bird": {
+    "id": "bird-藍翅黃森鶯-4e85d791",
+    "name": "藍翅黃森鶯",
+    "english_name": "Prothonotary warbler",
+    "latin_name": "Protonotaria citrea",
+    "summary": "藍翅黃森鶯（學名：Protonotaria citrea）是一種細小的鳴禽，其屬於林鶯科，是藍翅黃森鶯屬下的惟一成員。 藍翅黃森鶯長十三厘米，重十二克半。其背部為橄欖色，雙翼與尾巴為藍灰色，腹部呈黃色，並有著頗長的尖喙與黑腿。成年雄性有著光亮的橙黃色頭部；雌性與幼雀則有著較陰沉…",
+    "lat": "49.25",
+    "lng": "-84.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Protonotaria-citrea-002_edit.jpg/960px-Protonotaria-citrea-002_edit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安大略省-a0e09b2f",
+      "name": "安大略省",
+      "summary": "安大略省（英語：Ontario），簡稱安省，位于加拿大的東部，面積約100萬平方公里，加拿大的首都渥太华也在安大略省。安大略是加拿大人口最多的聯邦省份，根據2020年4月統計数据显示，安大略人口大約是14,745,040人。 地理 安大略…",
+      "lat": "49.25",
+      "lng": "-84.5"
+    },
+    {
+      "id": "loc-美国-1efc9783",
+      "name": "美国",
+      "summary": "美利堅合眾國（英語：United States of America，縮寫：USA），简称美国、美利堅（英語：America）或合眾國（United States，縮寫：US），是位於北美洲的聯邦制共和國。其由50個州、首都华盛顿哥伦比亚…",
+      "lat": "40",
+      "lng": "-100"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-藍翅黃森鶯-4e85d791",
+      "subject": "藍翅黃森鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-安大略省-a0e09b2f",
+      "object": "安大略省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The prothonotary warbler mostly breeds in hardwood swamps in extreme southeastern Ontario and the eastern United States",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藍翅黃森鶯-4e85d791",
+      "subject": "藍翅黃森鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-美国-1efc9783",
+      "object": "美国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The prothonotary warbler mostly breeds in hardwood swamps in extreme southeastern Ontario and the eastern United States",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-藍翅黃森鶯-4e85d791",
+      "subject": "藍翅黃森鶯",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The prothonotary warbler mostly breeds in hardwood swamps in extreme southeastern Ontario and the eastern United States",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-藍翅黃森鶯-4e85d791",
+      "subject": "藍翅黃森鶯",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

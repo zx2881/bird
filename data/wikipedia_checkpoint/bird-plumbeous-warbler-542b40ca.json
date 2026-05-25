@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:45:04",
+  "requested_title": "Plumbeous Warbler",
+  "resolved_title": "Plumbeous warbler",
+  "title_aliases": [
+    "Plumbeous Warbler"
+  ],
+  "bird_id": "bird-plumbeous-warbler-542b40ca",
+  "raw_file": "bird-plumbeous-warbler-542b40ca.json",
+  "bird": {
+    "id": "bird-plumbeous-warbler-542b40ca",
+    "name": "Plumbeous warbler",
+    "english_name": "Plumbeous warbler",
+    "latin_name": "Setophaga plumbea",
+    "summary": "The plumbeous warbler (Setophaga plumbea) is a species of passerine bird belonging to the family Parulidae, the New World warblers. This sp…",
+    "lat": "15.93333333",
+    "lng": "-61.26666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Plumbeous_Warbler_%28Dendroica_plumbea%29.jpg/960px-Plumbeous_Warbler_%28Dendroica_plumbea%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玛丽-加朗特岛-6f10dd4d",
+      "name": "玛丽-加朗特岛",
+      "summary": "玛丽-加朗特岛（法語：Marie-Galante）位于加勒比海东部，小安的列斯群岛中，属于法国海外省瓜德罗普的一部分。地处格朗德特尔岛东南25公里，面积158平方公里，大致呈圆形，横跨约16公里。岛上主要种植甘蔗。 玛丽-加朗特岛劃分為三…",
+      "lat": "15.93333333",
+      "lng": "-61.26666667"
+    },
+    {
+      "id": "loc-桑特群島-d70b553d",
+      "name": "桑特群島",
+      "summary": "桑特群島（法語：Îles des Saintes 或 Les Saintes，法語發音：[il de sɛ̃t]）是法國屬地瓜德羅普的群島，位於瓜德羅普東南約15公里的加勒比海，屬於小安地列斯群島的一部分，面積13平方公里，最高點海拔高度…",
+      "lat": "15.86",
+      "lng": "-61.6"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-plumbeous-warbler-542b40ca",
+      "subject": "Plumbeous warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-玛丽-加朗特岛-6f10dd4d",
+      "object": "玛丽-加朗特岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The plumbeous warbler is endemic to the Lesser Antilles where it is restricted to Dominica and Guadeloupe, including Marie-Galante and Îles des Saintes. This species is found in humid montane forests as well as in drier scrub and mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-plumbeous-warbler-542b40ca",
+      "subject": "Plumbeous warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-桑特群島-d70b553d",
+      "object": "桑特群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The plumbeous warbler is endemic to the Lesser Antilles where it is restricted to Dominica and Guadeloupe, including Marie-Galante and Îles des Saintes. This species is found in humid montane forests as well as in drier scrub and mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-plumbeous-warbler-542b40ca",
+      "subject": "Plumbeous warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The plumbeous warbler is endemic to the Lesser Antilles where it is restricted to Dominica and Guadeloupe, including Marie-Galante and Îles des Saintes. This species is found in humid montane forests as well as in drier scrub and mangroves",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-plumbeous-warbler-542b40ca",
+      "subject": "Plumbeous warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

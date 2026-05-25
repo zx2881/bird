@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:09:06",
+  "requested_title": "Visayan Tailorbird",
+  "resolved_title": "Visayan tailorbird",
+  "title_aliases": [
+    "Visayan Tailorbird"
+  ],
+  "bird_id": "bird-visayan-tailorbird-fb4ce6e0",
+  "raw_file": "bird-visayan-tailorbird-fb4ce6e0.json",
+  "bird": {
+    "id": "bird-visayan-tailorbird-fb4ce6e0",
+    "name": "Visayan tailorbird",
+    "english_name": "Visayan tailorbird",
+    "latin_name": "Orthotomus castaneiceps",
+    "summary": "The Visayan tailorbird (Orthotomus castaneiceps), also known as the Philippine tailorbird or the chestnut-crowned tailorbird is a species o…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Philippine_Tailorbird.jpg/960px-Philippine_Tailorbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-西米沙鄢-6cb61bd4",
+      "name": "西米沙鄢",
+      "summary": "西米沙鄢（Western Visayas）是菲律宾的一個大區，被指定為第6政區（Region VI），由6個省及怡朗市（Iloilo City）和巴科拉德市（Bacolod City）組成，共包含17個城市，怡朗市为政區中心。面积20,2…",
+      "lat": "11.13",
+      "lng": "122.53"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-visayan-tailorbird-fb4ce6e0",
+      "subject": "Visayan tailorbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Philippines in Western Visayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-visayan-tailorbird-fb4ce6e0",
+      "subject": "Visayan tailorbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-西米沙鄢-6cb61bd4",
+      "object": "西米沙鄢",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Philippines in Western Visayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-visayan-tailorbird-fb4ce6e0",
+      "subject": "Visayan tailorbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

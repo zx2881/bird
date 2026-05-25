@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:53:35",
+  "requested_title": "Black-eared Barbet",
+  "resolved_title": "Black-eared barbet",
+  "title_aliases": [
+    "Black-eared Barbet"
+  ],
+  "bird_id": "bird-black-eared-barbet-4badf1ec",
+  "raw_file": "bird-black-eared-barbet-4badf1ec.json",
+  "bird": {
+    "id": "bird-black-eared-barbet-4badf1ec",
+    "name": "Black-eared barbet",
+    "english_name": "Black-eared barbet",
+    "latin_name": "Psilopogon duvaucelii",
+    "summary": "The black-eared barbet (Psilopogon duvaucelii) is a barbet in the family Megalaimidae native to Peninsular Malaysia, Sumatra and Borneo. It…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Psilopogon_duvaucelii_-_Ian_Dugdale_-_547323583.jpeg/960px-Psilopogon_duvaucelii_-_Ian_Dugdale_-_547323583.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来西亚半岛-8b666768",
+      "name": "马来西亚半岛",
+      "summary": "马来西亚半岛（英語：Peninsular Malaysia，馬來語：Semenanjung Malaysia），簡稱大马半岛，其他通称马来亚半岛、马来半岛或西马，亦称為马来亚（英語：Malaya，馬來語：Malaya），是马来西亚国土在马…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-eared-barbet-4badf1ec",
+      "subject": "Black-eared barbet",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来西亚半岛-8b666768",
+      "object": "马来西亚半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-eared barbet (Psilopogon duvaucelii) is a barbet in the family Megalaimidae native to Peninsular Malaysia, Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-eared-barbet-4badf1ec",
+      "subject": "Black-eared barbet",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-eared barbet (Psilopogon duvaucelii) is a barbet in the family Megalaimidae native to Peninsular Malaysia, Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-eared-barbet-4badf1ec",
+      "subject": "Black-eared barbet",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-eared barbet (Psilopogon duvaucelii) is a barbet in the family Megalaimidae native to Peninsular Malaysia, Sumatra and Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-eared-barbet-4badf1ec",
+      "subject": "Black-eared barbet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits shrubland and forest up to an altitude of",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-black-eared-barbet-4badf1ec",
+      "subject": "Black-eared barbet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

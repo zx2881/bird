@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:39:28",
+  "requested_title": "Samoan Whistler",
+  "resolved_title": "Samoan whistler",
+  "title_aliases": [
+    "Samoan Whistler"
+  ],
+  "bird_id": "bird-黄额啸鹟-cca885be",
+  "raw_file": "bird-黄额啸鹟-cca885be.json",
+  "bird": {
+    "id": "bird-黄额啸鹟-cca885be",
+    "name": "黄额啸鹟",
+    "english_name": "Samoan whistler",
+    "latin_name": "Pachycephala flavifrons",
+    "summary": "黄额啸鹟（学名：Pachycephala flavifrons），是啸鹟科啸鹟属的一种，为萨摩亚的特有种。该物种的保护状况被评为无危。 黄额啸鹟的栖息地包括种植园、亚热带或热带的湿润低地林、乡村花园和亚热带或热带的湿润山地林。",
+    "lat": "-13.745",
+    "lng": "-172.2175",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Pachycephala_flavifrons_%28AM_LB8346%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-萨摩亚-7c0deb22",
+      "name": "萨摩亚",
+      "summary": "薩摩亞独立国（薩摩亞語：Malo Saʻoloto Tutoʻatasi o Sāmoa，英語：Independent State of Samoa），简称萨摩亚，是一個南太平洋岛国，約位於夏威夷与紐西蘭的中間、美屬薩摩亞的西方，為波利尼…",
+      "lat": "-13.745",
+      "lng": "-172.2175"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄额啸鹟-cca885be",
+      "subject": "黄额啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨摩亚-7c0deb22",
+      "object": "萨摩亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Samoa, where it is found in forest, plantations and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄额啸鹟-cca885be",
+      "subject": "黄额啸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

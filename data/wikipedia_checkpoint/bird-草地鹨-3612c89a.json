@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:49:18",
+  "requested_title": "Meadow Pipit",
+  "resolved_title": "Meadow pipit",
+  "title_aliases": [
+    "Meadow Pipit"
+  ],
+  "bird_id": "bird-草地鹨-3612c89a",
+  "raw_file": "bird-草地鹨-3612c89a.json",
+  "bird": {
+    "id": "bird-草地鹨-3612c89a",
+    "name": "草地鹨",
+    "english_name": "Meadow pipit",
+    "latin_name": "Anthus pratensis",
+    "summary": "草地鹨（学名：Anthus pratensis）为鶺鸰科鹨属的鸟类。主要繁殖於古北界的大部分地區，從東南格陵蘭和冰島向東延伸至俄羅斯的烏拉山以東地區，向南至法國中部和羅馬尼亞；在高加索山脈也有一個孤立的種群分佈。大部分地區的草地鷚屬於候鳥，冬季遷徙至南歐、北非和西南亞，但在西歐…",
+    "lat": "60",
+    "lng": "59",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Wiesenpieper_Meadow_pipit.jpg/960px-Wiesenpieper_Meadow_pipit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-乌拉尔山脉-ba0fe368",
+      "name": "乌拉尔山脉",
+      "summary": "乌拉尔山脉（俄語：Ура́льские го́ры，簡稱Ура́л；哈薩克語：Орал таулары）是俄罗斯境内大约南北走向的一座山脉，它位于俄罗斯的中西部。山脈位於烏拉爾地理區域內，與烏拉爾聯邦管區和烏拉爾經濟地區明顯重疊。烏拉爾山…",
+      "lat": "60",
+      "lng": "59"
+    },
+    {
+      "id": "loc-高加索山脉-7d76e4d1",
+      "name": "高加索山脉",
+      "summary": "高加索山脈（俄語：Кавказские горы，喬治亞語：კავკასიონი，亞美尼亞語：Կավկազ，阿塞拜疆語：Qafqaz），古稱太和嶺，呈东西走向，在黑海与里海之间，是俄罗斯和格鲁吉亚、阿塞拜疆等国的国界线。其最高峰为厄尔布鲁…",
+      "lat": "42.5",
+      "lng": "45"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-草地鹨-3612c89a",
+      "subject": "草地鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌拉尔山脉-ba0fe368",
+      "object": "乌拉尔山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pratensis | synonyms = Alauda pratensis }} The meadow pipit (Anthus pratensis) is a small passerine bird that breeds throughout much of the Palearctic, from south-eastern Greenland and Iceland east to just east of the Ural Mountains in Russia, and south to central France and Romania; an isolated population also occurs in the Caucasus Mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-草地鹨-3612c89a",
+      "subject": "草地鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-高加索山脉-7d76e4d1",
+      "object": "高加索山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "pratensis | synonyms = Alauda pratensis }} The meadow pipit (Anthus pratensis) is a small passerine bird that breeds throughout much of the Palearctic, from south-eastern Greenland and Iceland east to just east of the Ural Mountains in Russia, and south to central France and Romania; an isolated population also occurs in the Caucasus Mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-草地鹨-3612c89a",
+      "subject": "草地鹨",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is primarily a species of open habitats, either uncultivated or low-intensity agriculture, such as grassland, moorland, and heathland, but also occurs in small numbers on arable land",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-草地鹨-3612c89a",
+      "subject": "草地鹨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

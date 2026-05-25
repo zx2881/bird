@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:01:42",
+  "requested_title": "Yellow-eared Toucanet",
+  "resolved_title": "Yellow-eared toucanet",
+  "title_aliases": [
+    "Yellow-eared Toucanet"
+  ],
+  "bird_id": "bird-yellow-eared-toucanet-2dba111a",
+  "raw_file": "bird-yellow-eared-toucanet-2dba111a.json",
+  "bird": {
+    "id": "bird-yellow-eared-toucanet-2dba111a",
+    "name": "Yellow-eared toucanet",
+    "english_name": "Yellow-eared toucanet",
+    "latin_name": "Selenidera spectabilis",
+    "summary": "The yellow-eared toucanet (Selenidera spectabilis) is a near-passerine bird in the toucan family Ramphastidae. It is found from Honduras to…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Yellow-eared_Toucanet.jpg/960px-Yellow-eared_Toucanet.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-eared-toucanet-2dba111a",
+      "subject": "Yellow-eared toucanet",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits wet forested slopes and ridges, nearby secondary forest, and fruit trees close to the forest edge",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-eared-toucanet-2dba111a",
+      "subject": "Yellow-eared toucanet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

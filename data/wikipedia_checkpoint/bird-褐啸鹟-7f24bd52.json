@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:41:49",
+  "requested_title": "Drab Whistler",
+  "resolved_title": "Drab whistler",
+  "title_aliases": [
+    "Drab Whistler"
+  ],
+  "bird_id": "bird-褐啸鹟-7f24bd52",
+  "raw_file": "bird-褐啸鹟-7f24bd52.json",
+  "bird": {
+    "id": "bird-褐啸鹟-7f24bd52",
+    "name": "褐啸鹟",
+    "english_name": "Drab whistler",
+    "latin_name": "Pachycephala griseonota",
+    "summary": "褐啸鹟（学名：Pachycephala griseonota；英文名：Drab Whistler），是啸鹟科啸鹟属的一种，为印度尼西亚的特有种。该物种的保护状况被评为无危。 褐啸鹟的平均体重约为23.0克。栖息地包括亚热带或热带的湿润低地林、亚热带或热带的旱林、亚热带或热带的（…",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Pachycephala_griseonota_johni_-_James_Eaton_-_416866180.jpeg/960px-Pachycephala_griseonota_johni_-_James_Eaton_-_416866180.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-褐啸鹟-7f24bd52",
+      "subject": "褐啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Maluku Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐啸鹟-7f24bd52",
+      "subject": "褐啸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

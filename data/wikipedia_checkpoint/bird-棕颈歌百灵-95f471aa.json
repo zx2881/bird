@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:45:09",
+  "requested_title": "Rufous-naped Lark",
+  "resolved_title": "Rufous-naped lark",
+  "title_aliases": [
+    "Rufous-naped Lark"
+  ],
+  "bird_id": "bird-棕颈歌百灵-95f471aa",
+  "raw_file": "bird-棕颈歌百灵-95f471aa.json",
+  "bird": {
+    "id": "bird-棕颈歌百灵-95f471aa",
+    "name": "棕颈歌百灵",
+    "english_name": "Rufous-naped lark",
+    "latin_name": "Corypha (bird) africana",
+    "summary": "棕颈歌百灵（学名：Mirafra africana），是百灵科歌百灵属的一种，分布于津巴布韦、加蓬、斯威士兰、赞比亚、马里、科特迪瓦、安哥拉、索马里、南非、卢旺达、喀麦隆、纳米比亚、尼日利亚、利比里亚、肯尼亚、坦桑尼亚、布隆迪、刚果民主共和国、博茨瓦纳、刚果、几内亚、马拉维、塞…",
+    "lat": "-32",
+    "lng": "27",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Mirafra_africana2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-東開普省-ad5136c6",
+      "name": "東開普省",
+      "summary": "東開普省（阿非利卡語：Oos-Kaap，英語：Eastern Cape），是南非九個省之一，前身為開普省的東部。面積169,580平方公里，2001年人口為6,436,761人。首府比紹，最大城市伊莉莎白港。 历史 地理 人口 经济 国家…",
+      "lat": "-32",
+      "lng": "27"
+    },
+    {
+      "id": "loc-马赛马拉-724412f8",
+      "name": "马赛马拉",
+      "summary": "马赛马拉国家保护区（英語：Maasai Mara National Reserve）是肯尼亚西南部的一个大型猎物禁猎区，位于肯尼亚裂谷省纳罗克附近，与坦桑尼亚北部塞伦盖蒂国家公园相接。名称来源于当地原始定居者马赛人。經過多次擴大保護區的面…",
+      "lat": "-1.49",
+      "lng": "35.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕颈歌百灵-95f471aa",
+      "subject": "棕颈歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-東開普省-ad5136c6",
+      "object": "東開普省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "africana is native to the Eastern Cape, South Africa }} The rufous-naped lark (Corypha africana) or rufous-naped bush lark is a widespread and conspicuous species of lark in the lightly wooded grasslands, open savannas and farmlands of the Afrotropics",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕颈歌百灵-95f471aa",
+      "subject": "棕颈歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-马赛马拉-724412f8",
+      "object": "马赛马拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "tropicalis in the Maasai Mara, Kenya]] The rufous-naped lark is found in many parts of sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕颈歌百灵-95f471aa",
+      "subject": "棕颈歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:01:20",
+  "requested_title": "Pygmy Flycatcher",
+  "resolved_title": "Pygmy flycatcher",
+  "title_aliases": [
+    "Pygmy Flycatcher"
+  ],
+  "bird_id": "bird-pygmy-flycatcher-061feede",
+  "raw_file": "bird-pygmy-flycatcher-061feede.json",
+  "bird": {
+    "id": "bird-pygmy-flycatcher-061feede",
+    "name": "Pygmy flycatcher",
+    "english_name": "Pygmy flycatcher",
+    "latin_name": "Ficedula hodgsoni",
+    "summary": "The pygmy flycatcher (Ficedula hodgsoni), also known as the pygmy blue-flycatcher, is a bird species of the family Muscicapidae. Distributi…",
+    "lat": "-3",
+    "lng": "102.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/MuscicapellaHodgsoni.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-eastern-himalayas-e24606b2",
+      "name": "Eastern Himalayas",
+      "summary": "The Eastern Himalayas extend from eastern Nepal across Northeast India, Bhutan, the Tibet Autonomous Region to Yunnan i…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "中南半岛（法語：Indochine），又稱印度支那半島（简称印度支那、印支）、东南亚大陆地区、东南亚半岛地区等，是亞洲東南部東臨南海、西瀕印度洋的半島，在印度次大陸以東、中国大陆以南，包括今日的緬甸、泰國、老撾、柬埔寨、越南、马来半岛等地…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-巴里桑山脈-cb510e0b",
+      "name": "巴里桑山脈",
+      "summary": "巴里桑山脈（Barisan Mountains）是印度尼西亞蘇門答臘西部的山脈，全長1,700公里，主要由火山組成，海拔高度3,800米的葛林芝火山是山脈中最高的山峰，山脈南端附近有武吉巴里杉西拉坦國家公園。 參考文獻",
+      "lat": "-3",
+      "lng": "102.25"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pygmy-flycatcher-061feede",
+      "subject": "Pygmy flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-eastern-himalayas-e24606b2",
+      "object": "Eastern Himalayas",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Eastern Himalaya, western and southeastern Indochina, the Malay Peninsula, Bukit Barisan and montane Borneo. Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pygmy-flycatcher-061feede",
+      "subject": "Pygmy flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Eastern Himalaya, western and southeastern Indochina, the Malay Peninsula, Bukit Barisan and montane Borneo. Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pygmy-flycatcher-061feede",
+      "subject": "Pygmy flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴里桑山脈-cb510e0b",
+      "object": "巴里桑山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Eastern Himalaya, western and southeastern Indochina, the Malay Peninsula, Bukit Barisan and montane Borneo. Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pygmy-flycatcher-061feede",
+      "subject": "Pygmy flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Eastern Himalaya, western and southeastern Indochina, the Malay Peninsula, Bukit Barisan and montane Borneo. Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pygmy-flycatcher-061feede",
+      "subject": "Pygmy flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is native to Eastern Himalaya, western and southeastern Indochina, the Malay Peninsula, Bukit Barisan and montane Borneo. Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-pygmy-flycatcher-061feede",
+      "subject": "Pygmy flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

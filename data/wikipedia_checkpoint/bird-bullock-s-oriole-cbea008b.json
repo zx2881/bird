@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:27:12",
+  "requested_title": "Bullock's Oriole",
+  "resolved_title": "Bullock's oriole",
+  "title_aliases": [
+    "Bullock's Oriole"
+  ],
+  "bird_id": "bird-bullock-s-oriole-cbea008b",
+  "raw_file": "bird-bullock-s-oriole-cbea008b.json",
+  "bird": {
+    "id": "bird-bullock-s-oriole-cbea008b",
+    "name": "Bullock's oriole",
+    "english_name": "Bullock's oriole",
+    "latin_name": "Icterus bullockiorum",
+    "summary": "Bullock's oriole (Icterus bullockiorum, also known as Icterus bullockii) is a small New World blackbird. At one time, this species and the…",
+    "lat": "46.8528267",
+    "lng": "-121.7604408",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bullock%27s_Oriole.jpg/960px-Bullock%27s_Oriole.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喀斯喀特山脉-babd0d24",
+      "name": "喀斯喀特山脉",
+      "summary": "喀斯喀特山脉（英語：Cascade Range）是北美洲的一条主要山脉，北起加拿大不列颠哥伦比亚省，穿越美国华盛顿州和俄勒冈州，最终到达加利福尼亚州，在它的沿線有十多座火山。有時美國人也會以北喀斯喀特山脉來稱呼喀斯喀特山脉位於華盛頓州境内…",
+      "lat": "46.8528267",
+      "lng": "-121.7604408"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bullock-s-oriole-cbea008b",
+      "subject": "Bullock's oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-喀斯喀特山脉-babd0d24",
+      "object": "喀斯喀特山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Bullock's orioles are native to western North America, though they are sometimes found as vagrants in the eastern half of the continent. During the breeding season, they are found as far west as the eastern foothills of the Cascade Range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bullock-s-oriole-cbea008b",
+      "subject": "Bullock's oriole",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:48:07",
+  "requested_title": "Northern White-faced Owl",
+  "resolved_title": "Northern white-faced owl",
+  "title_aliases": [
+    "Northern White-faced Owl"
+  ],
+  "bird_id": "bird-白臉角鴞-674ded9b",
+  "raw_file": "bird-白臉角鴞-674ded9b.json",
+  "bird": {
+    "id": "bird-白臉角鴞-674ded9b",
+    "name": "白臉角鴞",
+    "english_name": "Northern white-faced owl",
+    "latin_name": "Ptilopsis leucotis",
+    "summary": "白臉角鴞（學名：Ptilopsis leucotis）是鴞形目鴟鴞科下的一個物種。南白臉角鴞（Ptilopsis granti）本來也是一併收錄於此物種中，後來才被劃分為另一物種。 白臉角鴞可於橫跨非洲的撒哈拉沙漠與赤道之間的地域中找到其蹤影。牠出現於貝寧、布基納法索、喀麥隆、…",
+    "lat": "23",
+    "lng": "13",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Northern_white-faced_owl_arp.jpg/960px-Northern_white-faced_owl_arp.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白臉角鴞-674ded9b",
+      "subject": "白臉角鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in a band across Africa between the Sahara and the Equator",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臉角鴞-674ded9b",
+      "subject": "白臉角鴞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

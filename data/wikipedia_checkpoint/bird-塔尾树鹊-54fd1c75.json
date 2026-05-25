@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:03:25",
+  "requested_title": "Ratchet-tailed Treepie",
+  "resolved_title": "Ratchet-tailed treepie",
+  "title_aliases": [
+    "Ratchet-tailed Treepie"
+  ],
+  "bird_id": "bird-塔尾树鹊-54fd1c75",
+  "raw_file": "bird-塔尾树鹊-54fd1c75.json",
+  "bird": {
+    "id": "bird-塔尾树鹊-54fd1c75",
+    "name": "塔尾树鹊",
+    "english_name": "Ratchet-tailed treepie",
+    "latin_name": "Temnurus temnurus",
+    "summary": "塔尾树鹊（学名：Temnurus temnurus），是鸦科塔尾树鹊属的一种，分布于中国、越南、泰国、老挝和柬埔寨。该物种的保护状况被评为无危。 塔尾树鹊的栖息地为亚热带或热带的湿润低地林。该物种的模式产地在越南。",
+    "lat": "19.2",
+    "lng": "109.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Temnurus_temnurus_2.jpg/960px-Temnurus_temnurus_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海南省-a01c9da8",
+      "name": "海南省",
+      "summary": "海南省，简称琼，是中华人民共和国唯一全境位于热带的省份，省会位于海口市。海南省是一个以海洋为主体的岛屿省份，亦是中华人民共和国总面积和海洋面积最大的省份。全省户籍总人口约1048.31万人，不过每年冬季会有大量候鸟型流动人口（進出约972…",
+      "lat": "19.2",
+      "lng": "109.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-塔尾树鹊-54fd1c75",
+      "subject": "塔尾树鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-海南省-a01c9da8",
+      "object": "海南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "One population is found in southern Thailand, another in southern Vietnam, another in central and northern Vietnam and Laos, and the last in Hainan in China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-塔尾树鹊-54fd1c75",
+      "subject": "塔尾树鹊",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is tropical moist broadleaf evergreen lowland forests, and secondary forest and scrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-塔尾树鹊-54fd1c75",
+      "subject": "塔尾树鹊",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

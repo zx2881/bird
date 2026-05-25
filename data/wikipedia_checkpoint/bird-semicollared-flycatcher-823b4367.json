@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:04:07",
+  "requested_title": "Semicollared Flycatcher",
+  "resolved_title": "Semicollared flycatcher",
+  "title_aliases": [
+    "Semicollared Flycatcher"
+  ],
+  "bird_id": "bird-semicollared-flycatcher-823b4367",
+  "raw_file": "bird-semicollared-flycatcher-823b4367.json",
+  "bird": {
+    "id": "bird-semicollared-flycatcher-823b4367",
+    "name": "Semicollared flycatcher",
+    "english_name": "Semicollared flycatcher",
+    "latin_name": "Ficedula semitorquata",
+    "summary": "The semicollared flycatcher (Ficedula semitorquata) is a small passerine bird in the Old World flycatcher family, one of the four species o…",
+    "lat": "32",
+    "lng": "53",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/SemicollaredFlycatcher.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伊朗-b572d23a",
+      "name": "伊朗",
+      "summary": "伊朗伊斯蘭共和國（波斯語：جمهوری اسلامی ایران，Jomhuriye Eslâmiye Irân，[dʒomhuːˌɾije eslɒːˌmije ʔiːˈɾɒn]），通称伊朗（波斯語：ایران，Irān，[ʔiːˈɾɒ…",
+      "lat": "32",
+      "lng": "53"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-semicollared-flycatcher-823b4367",
+      "subject": "Semicollared flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊朗-b572d23a",
+      "object": "伊朗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in montane forests of the southeastern corner of Europe (Balkan Peninsula) to Northwest Iran",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-semicollared-flycatcher-823b4367",
+      "subject": "Semicollared flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It breeds in montane forests of the southeastern corner of Europe (Balkan Peninsula) to Northwest Iran",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-semicollared-flycatcher-823b4367",
+      "subject": "Semicollared flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:00:30",
+  "requested_title": "Hooded Parrot",
+  "resolved_title": "Hooded parrot",
+  "title_aliases": [
+    "Hooded Parrot"
+  ],
+  "bird_id": "bird-黑冠鸚鵡-225e9dd0",
+  "raw_file": "bird-黑冠鸚鵡-225e9dd0.json",
+  "bird": {
+    "id": "bird-黑冠鸚鵡-225e9dd0",
+    "name": "黑冠鸚鵡",
+    "english_name": "Hooded parrot",
+    "latin_name": "Psephotellus dissimilis",
+    "summary": "黑冠鸚鵡（學名：Psephotus dissimilis，台湾作頭巾鸚鵡），又名異色金肩鸚鵡或黃肩長尾鸚鵡，是中等身型的鸚鵡。牠們長約26厘米，呈土耳其玉色，頭部黑色，雙翼綠色，背部褐色，尾羽綠藍色，邊緣白色。牠們的喙淡灰色，腳呈灰褐色，眼睛褐色。雌鳥呈橄欖綠色，下身淡藍色。…",
+    "lat": "-20",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Hooded_Parrot_%28Male%29.jpg/960px-Hooded_Parrot_%28Male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-robert-collett-2f7d1f5b",
+      "name": "Robert Collett",
+      "summary": "Robert Collett (2 December 1842 – 27 January 1913) was a Norwegian zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北領地-9fcc5d3d",
+      "name": "北領地",
+      "summary": "北領地（英語：Northern Territory，縮寫為NT），別稱北方领地地区、北部地方、北澳，是澳大利亞的一個聯邦領地，位於澳洲大陸的中北部，北臨帝汶海、阿拉弗拉海與卡奔塔利亞灣，西接西澳州，南鄰南澳州，東界昆士蘭州。其總面積廣達1…",
+      "lat": "-20",
+      "lng": "133"
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑冠鸚鵡-225e9dd0",
+      "subject": "黑冠鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-robert-collett-2f7d1f5b",
+      "object": "Robert Collett",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2024 |title=Psephotellus dissimilis |volume=2024 |article-number=e.T22685145A254012129 |doi=10.2305/IUCN.UK.2024-2.RLTS.T22685145A254012129.en |access-date=1 January 2026}} | status2 = CITES_A1 | status2_system = CITES | status2_ref = | genus = Psephotellus | species = dissimilis | authority = (Collett, 1898) | synonyms = Psephotus dissimilis }}The hooded parrot (Psephotellus dissimilis) is a species of parrot native to the Northern Territory in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑冠鸚鵡-225e9dd0",
+      "subject": "黑冠鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-北領地-9fcc5d3d",
+      "object": "北領地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2024 |title=Psephotellus dissimilis |volume=2024 |article-number=e.T22685145A254012129 |doi=10.2305/IUCN.UK.2024-2.RLTS.T22685145A254012129.en |access-date=1 January 2026}} | status2 = CITES_A1 | status2_system = CITES | status2_ref = | genus = Psephotellus | species = dissimilis | authority = (Collett, 1898) | synonyms = Psephotus dissimilis }}The hooded parrot (Psephotellus dissimilis) is a species of parrot native to the Northern Territory in Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑冠鸚鵡-225e9dd0",
+      "subject": "黑冠鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "An Australian endemic, the hooded parrot inhabits to semi-arid areas of northeast Northern Territory, and is separated from the golden-shouldered parrot by the Carpentarian faunal barrier. Though this species has disappeared from most of its original range, it remains common in protected areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑冠鸚鵡-225e9dd0",
+      "subject": "黑冠鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

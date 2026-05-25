@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:33:28",
+  "requested_title": "Ochraceous-breasted Flycatcher",
+  "resolved_title": "Ochraceous-breasted flycatcher",
+  "title_aliases": [
+    "Ochraceous-breasted Flycatcher"
+  ],
+  "bird_id": "bird-ochraceous-breasted-flycatcher-fde5e882",
+  "raw_file": "bird-ochraceous-breasted-flycatcher-fde5e882.json",
+  "bird": {
+    "id": "bird-ochraceous-breasted-flycatcher-fde5e882",
+    "name": "Ochraceous-breasted flycatcher",
+    "english_name": "Ochraceous-breasted flycatcher",
+    "latin_name": "Nephelomyias ochraceiventris",
+    "summary": "The ochraceous-breasted flycatcher (Nephelomyias ochraceiventris) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Nephelomyias_ochraceiventris_cropped.jpg/960px-Nephelomyias_ochraceiventris_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ochraceous-breasted-flycatcher-fde5e882",
+      "subject": "Ochraceous-breasted flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ochraceous-breasted-flycatcher-fde5e882",
+      "subject": "Ochraceous-breasted flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ochraceous-breasted-flycatcher-fde5e882",
+      "subject": "Ochraceous-breasted flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the interior and edges of humid montane forest and elfin forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ochraceous-breasted-flycatcher-fde5e882",
+      "subject": "Ochraceous-breasted flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the interior and edges of humid montane forest and elfin forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-ochraceous-breasted-flycatcher-fde5e882",
+      "subject": "Ochraceous-breasted flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

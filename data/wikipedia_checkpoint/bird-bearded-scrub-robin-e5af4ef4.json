@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:03:57",
+  "requested_title": "Bearded Scrub Robin",
+  "resolved_title": "Bearded scrub robin",
+  "title_aliases": [
+    "Bearded Scrub Robin"
+  ],
+  "bird_id": "bird-bearded-scrub-robin-e5af4ef4",
+  "raw_file": "bird-bearded-scrub-robin-e5af4ef4.json",
+  "bird": {
+    "id": "bird-bearded-scrub-robin-e5af4ef4",
+    "name": "Bearded scrub robin",
+    "english_name": "Bearded scrub robin",
+    "latin_name": "Tychaedon quadrivirgata",
+    "summary": "The bearded scrub robin (Tychaedon quadrivirgata), also known as the eastern bearded scrub robin, is a species of bird in the family Muscic…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bearded_scrub_robin_%28Cercotrichas_quadrivirgata%29.jpg/960px-Bearded_scrub_robin_%28Cercotrichas_quadrivirgata%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-sand-forest-a932a046",
+      "name": "Sand forest",
+      "summary": "A sand forest is a type of rare subtropical forest region, distinctive due to its unique combination of plant (often ra…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bearded-scrub-robin-e5af4ef4",
+      "subject": "Bearded scrub robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-sand-forest-a932a046",
+      "object": "Sand forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its occurs in sand forests, riverine woodland, scrubs, evergreen forests, and sometimes gardens and reedbeds, but usually not in damp areas. In the 1950s, deforestation near Hluhluwe and False Bay destroyed some of its habitat,{{cite encyclopedia|author=T",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bearded-scrub-robin-e5af4ef4",
+      "subject": "Bearded scrub robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

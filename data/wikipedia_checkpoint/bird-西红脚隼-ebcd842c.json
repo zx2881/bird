@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:25:47",
+  "requested_title": "Red-footed Falcon",
+  "resolved_title": "Red-footed falcon",
+  "title_aliases": [
+    "Red-footed Falcon"
+  ],
+  "bird_id": "bird-西红脚隼-ebcd842c",
+  "raw_file": "bird-西红脚隼-ebcd842c.json",
+  "bird": {
+    "id": "bird-西红脚隼-ebcd842c",
+    "name": "西红脚隼",
+    "english_name": "Red-footed falcon",
+    "latin_name": "Falco vespertinus",
+    "summary": "西紅腳隼（Falco vespertinus）又名紅足隼，是一種猛禽，屬於隼科，主要可見於東歐與亞洲，其族群由於棲地減少以及狩獵活動而逐漸減少。西紅腳隼在冬季會遷徙至非洲地區過冬，除此之外，在西歐也可見其蹤跡，第一次出現在北美的紀錄則於2004年的8月。 成年雄隼擁有一身藍灰色…",
+    "lat": "41.4",
+    "lng": "-70.61666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Falco_vespertinus_2_%28Martin_Mecnarowski%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-马萨葡萄园岛-35ef30e9",
+      "name": "马萨葡萄园岛",
+      "summary": "马萨葡萄园岛（英語：Martha's Vineyard），常被简称为“葡萄园岛”，是美国马萨诸塞州外海一岛屿，位于鳕鱼角（Cape Cod）以南，面积231.75平方公里，属马萨诸塞州杜克斯郡（Dukes county）管辖。该岛是美国著…",
+      "lat": "41.4",
+      "lng": "-70.61666667"
+    },
+    {
+      "id": "loc-麻薩諸塞州-121a43e8",
+      "name": "麻薩諸塞州",
+      "summary": "麻薩諸塞州（英語：Massachusetts，/ˌmæsəˈtʃuːsɪts/，/-zɪts/，官方名稱為Commonwealth of Massachusetts），简称麻州、麻省，是位於美國東北部的州，為美國獨立時最初的十三州之一，也…",
+      "lat": "42.3",
+      "lng": "-72"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-西红脚隼-ebcd842c",
+      "subject": "西红脚隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a regular wanderer to western Europe, and in August 2004 a red-footed falcon was found in North America for the first time on the island of Martha's Vineyard, Massachusetts",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西红脚隼-ebcd842c",
+      "subject": "西红脚隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-马萨葡萄园岛-35ef30e9",
+      "object": "马萨葡萄园岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a regular wanderer to western Europe, and in August 2004 a red-footed falcon was found in North America for the first time on the island of Martha's Vineyard, Massachusetts",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西红脚隼-ebcd842c",
+      "subject": "西红脚隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-麻薩諸塞州-121a43e8",
+      "object": "麻薩諸塞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a regular wanderer to western Europe, and in August 2004 a red-footed falcon was found in North America for the first time on the island of Martha's Vineyard, Massachusetts",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西红脚隼-ebcd842c",
+      "subject": "西红脚隼",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-西红脚隼-ebcd842c",
+      "subject": "西红脚隼",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This bird is found in eastern Europe and Asia although its numbers are dwindling rapidly due to habitat loss and hunting",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-西红脚隼-ebcd842c",
+      "subject": "西红脚隼",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This bird is found in eastern Europe and Asia although its numbers are dwindling rapidly due to habitat loss and hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-西红脚隼-ebcd842c",
+      "subject": "西红脚隼",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Pesticides are also a huge threat as they are depleting their natural food sources, making food competitive",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:33:32",
+  "requested_title": "Hutton's Vireo",
+  "resolved_title": "Hutton's vireo",
+  "title_aliases": [
+    "Hutton's Vireo"
+  ],
+  "bird_id": "bird-hutton-s-vireo-db8f1663",
+  "raw_file": "bird-hutton-s-vireo-db8f1663.json",
+  "bird": {
+    "id": "bird-hutton-s-vireo-db8f1663",
+    "name": "Hutton's vireo",
+    "english_name": "Hutton's vireo",
+    "latin_name": "Vireo huttoni",
+    "summary": "Hutton's vireo (Vireo huttoni) is a small songbird in the family Vireonidae, the vireos, greenlets, and shrike-babblers. It is found from s…",
+    "lat": "31.89111111",
+    "lng": "-104.86",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Hutton%27s_Vireo_%2843379432594%29.jpg/960px-Hutton%27s_Vireo_%2843379432594%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-瓜达洛普山脉-07b30ef8",
+      "name": "瓜达洛普山脉",
+      "summary": "瓜达洛普山脉（英语：Guadalupe Mountains）是位于西得克萨斯州和新墨西哥州东南部的山脉。得克萨斯州最高峰——2667m高的瓜达洛普峰位于该山脉上的瓜达洛普山国家公园中。瓜达洛普山脉东至佩科斯河河谷，北及埃斯塔卡多平原，南到…",
+      "lat": "31.89111111",
+      "lng": "-104.86"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hutton-s-vireo-db8f1663",
+      "subject": "Hutton's vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓜达洛普山脉-07b30ef8",
+      "object": "瓜达洛普山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| pages =435–436 }} There are also records inland from the species' core range from British Columbia south to Nevada and California and east to the Guadalupe Mountains in far western Texas. Hutton's vireo inhabits a variety of landscapes in the subtropical and temperate zones. The \"Pacific\" subspecies are mostly found in evergreen forest of both conifer and live oak types",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hutton-s-vireo-db8f1663",
+      "subject": "Hutton's vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| pages =435–436 }} There are also records inland from the species' core range from British Columbia south to Nevada and California and east to the Guadalupe Mountains in far western Texas. Hutton's vireo inhabits a variety of landscapes in the subtropical and temperate zones. The \"Pacific\" subspecies are mostly found in evergreen forest of both conifer and live oak types",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hutton-s-vireo-db8f1663",
+      "subject": "Hutton's vireo",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "vulcani inhabits pine-oak forest and pine savanna. In elevation Hutton's vireo ranges from sea level to about in British Colombia",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-hutton-s-vireo-db8f1663",
+      "subject": "Hutton's vireo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

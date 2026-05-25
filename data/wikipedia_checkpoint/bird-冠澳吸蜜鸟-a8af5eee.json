@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:58:05",
+  "requested_title": "Crescent Honeyeater",
+  "resolved_title": "Crescent honeyeater",
+  "title_aliases": [
+    "Crescent Honeyeater"
+  ],
+  "bird_id": "bird-冠澳吸蜜鸟-a8af5eee",
+  "raw_file": "bird-冠澳吸蜜鸟-a8af5eee.json",
+  "bird": {
+    "id": "bird-冠澳吸蜜鸟-a8af5eee",
+    "name": "冠澳吸蜜鸟",
+    "english_name": "Crescent honeyeater",
+    "latin_name": "Phylidonyris pyrrhopterus",
+    "summary": "冠澳吸蜜鸟（学名：Phylidonyris pyrrhopterus、crescent honeyeater）为澳吸蜜鸟属下的一种鸟类。其原产于澳大利亚东南部。 外部連接",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Crescent_Honeyeater_male_and_female.png/960px-Crescent_Honeyeater_male_and_female.png"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-冠澳吸蜜鸟-a8af5eee",
+      "subject": "冠澳吸蜜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crescent honeyeater (Phylidonyris pyrrhopterus) is a passerine bird of the honeyeater family Meliphagidae native to southeastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-冠澳吸蜜鸟-a8af5eee",
+      "subject": "冠澳吸蜜鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-冠澳吸蜜鸟-a8af5eee",
+      "subject": "冠澳吸蜜鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "While the population numbers and distribution are sufficient for the crescent honeyeater to be listed as of Least Concern for conservation, numbers have fluctuated significantly over the past twenty-five years and currently seem to be in decline. The threats to the crescent honeyeater include habitat destruction, as the alpine forests in which it breeds are being reduced by weed infestations, severe bushfires, drought and land-clearing",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

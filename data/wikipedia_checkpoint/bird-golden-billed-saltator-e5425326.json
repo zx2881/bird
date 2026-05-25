@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:58:18",
+  "requested_title": "Golden-billed Saltator",
+  "resolved_title": "Golden-billed saltator",
+  "title_aliases": [
+    "Golden-billed Saltator"
+  ],
+  "bird_id": "bird-golden-billed-saltator-e5425326",
+  "raw_file": "bird-golden-billed-saltator-e5425326.json",
+  "bird": {
+    "id": "bird-golden-billed-saltator-e5425326",
+    "name": "Golden-billed saltator",
+    "english_name": "Golden-billed saltator",
+    "latin_name": "Saltator aurantiirostris",
+    "summary": "The golden-billed saltator (Saltator aurantiirostris) is a species of saltator in the family Thraupidae. It is found in Argentina, Bolivia,…",
+    "lat": "-17.4",
+    "lng": "-57.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Saltator_aurantiirostris_-Machu_Picchu%2C_Peru-8.jpg/960px-Saltator_aurantiirostris_-Machu_Picchu%2C_Peru-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-潘塔納爾濕地-b4a387ea",
+      "name": "潘塔納爾濕地",
+      "summary": "潘塔纳尔湿地（葡萄牙語：Pantanal、西班牙語：Pantanal），位於南美洲巴西马托格罗索州及南马托格罗索州，濕地部份在玻利維亞及巴拉圭境內，總面積達242,000平方公里，是世上最大的濕地。 潘塔纳尔地勢平坦而輕微傾斜，有著曲折的…",
+      "lat": "-17.4",
+      "lng": "-57.5"
+    },
+    {
+      "id": "loc-巴拉圭河-5d40521a",
+      "name": "巴拉圭河",
+      "summary": "巴拉圭河（西班牙語：Rio Paraguay，葡萄牙語：Rio Paraguai）是南美洲中南部的一條重要河流，巴拉那河(Parana River)主要支流。它流經巴西和巴拉圭，是巴西與玻利維亞、巴拉圭與巴西和巴拉圭與阿根廷的邊界河。它起…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-billed-saltator-e5425326",
+      "subject": "Golden-billed saltator",
+      "predicate": "distributed_in",
+      "object_id": "loc-潘塔納爾濕地-b4a387ea",
+      "object": "潘塔納爾濕地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Bolivia, Brazil, Chile, Paraguay, Peru, and Uruguay; also the regions of the southern pantanal, along the Paraguay River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-billed-saltator-e5425326",
+      "subject": "Golden-billed saltator",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉圭河-5d40521a",
+      "object": "巴拉圭河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Argentina, Bolivia, Brazil, Chile, Paraguay, Peru, and Uruguay; also the regions of the southern pantanal, along the Paraguay River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-billed-saltator-e5425326",
+      "subject": "Golden-billed saltator",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

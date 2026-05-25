@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:23:12",
+  "requested_title": "Silvery-cheeked Hornbill",
+  "resolved_title": "Silvery-cheeked hornbill",
+  "title_aliases": [
+    "Silvery-cheeked Hornbill"
+  ],
+  "bird_id": "bird-silvery-cheeked-hornbill-80e48925",
+  "raw_file": "bird-silvery-cheeked-hornbill-80e48925.json",
+  "bird": {
+    "id": "bird-silvery-cheeked-hornbill-80e48925",
+    "name": "Silvery-cheeked hornbill",
+    "english_name": "Silvery-cheeked hornbill",
+    "latin_name": "Bycanistes brevis",
+    "summary": "The silvery-cheeked hornbill (Bycanistes brevis) is a large species of hornbill found in Africa. Silvery-cheeked hornbills are residents of…",
+    "lat": "7.05",
+    "lng": "38.46666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Silvery-cheeked_hornbills_%28Bycanistes_brevis%29_male_%28left%29_female_%28right%29.jpg/960px-Silvery-cheeked_hornbills_%28Bycanistes_brevis%29_male_%28left%29_female_%28right%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿瓦薩-8370d351",
+      "name": "阿瓦薩",
+      "summary": "阿瓦薩（Awasa、Awassa或Hawassa）是東非大裂谷阿瓦薩湖旁的埃塞俄比亞城市，是锡达马州的首府，曾经也是南方民族、部落和人民州的首府。位於阿的斯阿貝巴以南270公里的錫達馬地區，座標7°3′N 38°28′E，海拔1,708米…",
+      "lat": "7.05",
+      "lng": "38.46666667"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-herbert-friedmann-fabb0fe8",
+      "name": "Herbert Friedmann",
+      "summary": "Herbert Friedmann (April 22, 1900 – May 14, 1987) was an American ornithologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-silvery-cheeked-hornbill-80e48925",
+      "subject": "Silvery-cheeked hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿瓦薩-8370d351",
+      "object": "阿瓦薩",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The silvery-cheeked hornbill (Bycanistes brevis) is a large species of hornbill found in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-silvery-cheeked-hornbill-80e48925",
+      "subject": "Silvery-cheeked hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The silvery-cheeked hornbill (Bycanistes brevis) is a large species of hornbill found in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-silvery-cheeked-hornbill-80e48925",
+      "subject": "Silvery-cheeked hornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-herbert-friedmann-fabb0fe8",
+      "object": "Herbert Friedmann",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The silvery-cheeked hornbill (Bycanistes brevis) is a large species of hornbill found in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-silvery-cheeked-hornbill-80e48925",
+      "subject": "Silvery-cheeked hornbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-silvery-cheeked-hornbill-80e48925",
+      "subject": "Silvery-cheeked hornbill",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In Zimbabwe it is threatened by habitat destruction and its presence in South Africa is marginal, but it remains locally fairly common, especially in the northern and central parts of its range",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

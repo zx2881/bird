@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:09:16",
+  "requested_title": "Yellow-breasted Tailorbird",
+  "resolved_title": "Yellow-breasted tailorbird",
+  "title_aliases": [
+    "Yellow-breasted Tailorbird"
+  ],
+  "bird_id": "bird-yellow-breasted-tailorbird-efe57c2d",
+  "raw_file": "bird-yellow-breasted-tailorbird-efe57c2d.json",
+  "bird": {
+    "id": "bird-yellow-breasted-tailorbird-efe57c2d",
+    "name": "Yellow-breasted tailorbird",
+    "english_name": "Yellow-breasted tailorbird",
+    "latin_name": "Orthotomus samarensis",
+    "summary": "The yellow-breasted tailorbird (Orthotomus samarensis) is a species of passerine bird formerly placed in the \"Old World warbler\" assemblage…",
+    "lat": "12.03611111",
+    "lng": "125.21111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Yellow-breasted_Tailorbird_%28cropped%29.jpg/960px-Yellow-breasted_Tailorbird_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "name": "Rajah Sikatuna Protected Landscape",
+      "summary": "The Rajah Sikatuna Protected Landscape is a protected landscape area of forested limestone hills, grasslands and natura…",
+      "lat": "9.70527778",
+      "lng": "124.12416667"
+    },
+    {
+      "id": "loc-samar-island-natural-park-2cae892d",
+      "name": "Samar Island Natural Park",
+      "summary": "The Samar Island Natural Park, in Samar, is the largest contiguous tract of old-growth forest in the Philippines.",
+      "lat": "12.03611111",
+      "lng": "125.21111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-breasted-tailorbird-efe57c2d",
+      "subject": "Yellow-breasted tailorbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "object": "Rajah Sikatuna Protected Landscape",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This occurs in a few protected areas such as Rajah Sikatuna Protected Landscape and Samar Island Natural Park however protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-breasted-tailorbird-efe57c2d",
+      "subject": "Yellow-breasted tailorbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-samar-island-natural-park-2cae892d",
+      "object": "Samar Island Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This occurs in a few protected areas such as Rajah Sikatuna Protected Landscape and Samar Island Natural Park however protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-breasted-tailorbird-efe57c2d",
+      "subject": "Yellow-breasted tailorbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-yellow-breasted-tailorbird-efe57c2d",
+      "subject": "Yellow-breasted tailorbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-yellow-breasted-tailorbird-efe57c2d",
+      "subject": "Yellow-breasted tailorbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Extensive lowland deforestation on all islands in its range is the main threat",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:57:20",
+  "requested_title": "Rufous-headed Robin",
+  "resolved_title": "Rufous-headed robin",
+  "title_aliases": [
+    "Rufous-headed Robin"
+  ],
+  "bird_id": "bird-棕头歌鸲-41b0312f",
+  "raw_file": "bird-棕头歌鸲-41b0312f.json",
+  "bird": {
+    "id": "bird-棕头歌鸲-41b0312f",
+    "name": "棕头歌鸲",
+    "english_name": "Rufous-headed robin",
+    "latin_name": "Larvivora ruficeps",
+    "summary": "棕头歌鸲（学名：Larvivora ruficeps）为鶲科歌鸲属的鸟类。分布于马来西亚以及中国大陆的陕西、四川等地，多生活于海拔2400米处的杉、桦、杨、山柳和樱桃等灌杂木的地上。该物种的模式产地在陕西南部太白山。 参考文献",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LarvivoraRuficepsKeulemans.jpg/960px-LarvivoraRuficepsKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕头歌鸲-41b0312f",
+      "subject": "棕头歌鸲",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头歌鸲-41b0312f",
+      "subject": "棕头歌鸲",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "While good population estimates are absent, it is assumed to have a very localized distribution and a small total population size of no more than 1,500-3,800 individuals. It inhabits mixed coniferous and deciduous forest and scrubland in a very narrow altitude band (2,400-2,800 m above sea level), apparently making use of successional scrub in valley bottom areas subject to flash-floods. Using known breeding records of the rufous-headed robin, ecological niche modeling predicts that there should be suitable habitats for this species in north and central Sichuan, south Gansu, south Shaanxi and south-east Tibet",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-棕头歌鸲-41b0312f",
+      "subject": "棕头歌鸲",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-棕头歌鸲-41b0312f",
+      "subject": "棕头歌鸲",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This poorly known species is thought to be threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

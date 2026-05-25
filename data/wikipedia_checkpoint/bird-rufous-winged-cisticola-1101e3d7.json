@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:19:42",
+  "requested_title": "Rufous-winged Cisticola",
+  "resolved_title": "Rufous-winged cisticola",
+  "title_aliases": [
+    "Rufous-winged Cisticola"
+  ],
+  "bird_id": "bird-rufous-winged-cisticola-1101e3d7",
+  "raw_file": "bird-rufous-winged-cisticola-1101e3d7.json",
+  "bird": {
+    "id": "bird-rufous-winged-cisticola-1101e3d7",
+    "name": "Rufous-winged cisticola",
+    "english_name": "Rufous-winged cisticola",
+    "latin_name": "Cisticola galactotes",
+    "summary": "The rufous-winged cisticola (Cisticola galactotes) is a species of bird in the family Cisticolidae. It is found on the east coast of southe…",
+    "lat": "-18.25",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Cisticola_galactotes_subsp_isodactylus%2C_Pungwe-vloedvlakte%2C_Birding_Weto%2C_a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-莫桑比克-9371b65a",
+      "name": "莫桑比克",
+      "summary": "莫桑比克共和国（葡萄牙語：República de Moçambique，發音：[ʁɛˈpuβlikɐ ðɨ musɐ̃ˈbikɨ]），舊譯作莫三鼻給，現通稱莫三比克或莫桑比克，位於非洲東部，临印度洋，隔莫桑比克海峡与马达加斯加相望，以葡…",
+      "lat": "-18.25",
+      "lng": "35"
+    },
+    {
+      "id": "loc-辛巴威-bfaacd62",
+      "name": "辛巴威",
+      "summary": "津巴布韦共和國（英語：Republic of Zimbabwe），通稱津巴布韋（Zimbabwe），是位於非洲南部的內陸國家，地处赞比西河与林波波河之间，南接南非，西部及西南部与博茨瓦纳接壤，西北与赞比亚接壤，东部及东北部与莫桑比克相邻，…",
+      "lat": "-19",
+      "lng": "30"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-winged-cisticola-1101e3d7",
+      "subject": "Rufous-winged cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫桑比克-9371b65a",
+      "object": "莫桑比克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mozambique, Zimbabwe and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-winged-cisticola-1101e3d7",
+      "subject": "Rufous-winged cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-辛巴威-bfaacd62",
+      "object": "辛巴威",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mozambique, Zimbabwe and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-winged-cisticola-1101e3d7",
+      "subject": "Rufous-winged cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mozambique, Zimbabwe and South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-winged-cisticola-1101e3d7",
+      "subject": "Rufous-winged cisticola",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

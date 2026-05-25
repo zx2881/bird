@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:10:18",
+  "requested_title": "Seychelles Sunbird",
+  "resolved_title": "Seychelles sunbird",
+  "title_aliases": [
+    "Seychelles Sunbird"
+  ],
+  "bird_id": "bird-seychelles-sunbird-9da64706",
+  "raw_file": "bird-seychelles-sunbird-9da64706.json",
+  "bird": {
+    "id": "bird-seychelles-sunbird-9da64706",
+    "name": "Seychelles sunbird",
+    "english_name": "Seychelles sunbird",
+    "latin_name": "Cinnyris dussumieri",
+    "summary": "The Seychelles sunbird (Cinnyris dussumieri) is a small passerine from the sunbird family. It is named after the French explorer Jean-Jacqu…",
+    "lat": "-4.58333333",
+    "lng": "55.66666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nectarinia_dussumieri_feeding_young.jpg/960px-Nectarinia_dussumieri_feeding_young.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塞舌尔-ad0b587d",
+      "name": "塞舌尔",
+      "summary": "塞舌爾共和國（塞舌尔克里奥尔语：Repiblik Sesel；法語：République des Seychelles；英語：Republic of Seychelles），通稱塞席爾，是位於坦桑尼亞以東、印度洋中西部的一個群岛国家。塞舌…",
+      "lat": "-4.58333333",
+      "lng": "55.66666667"
+    },
+    {
+      "id": "loc-塞舌尔克里奥尔语-4d2a825a",
+      "name": "塞舌尔克里奥尔语",
+      "summary": "塞舌尔克里奥尔语（塞舌尔克里奥尔语：Kreol Seselwa）是一种法语系克里奧爾語，使用者分布在塞舌尔。它与英语和法语都是塞舌尔的官方语言。 简介 1976年塞舌尔独立后，其政府推动该语言的发展，发展了它自己的正字法、语法规则，建立了…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-seychelles-sunbird-9da64706",
+      "subject": "Seychelles sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞舌尔-ad0b587d",
+      "object": "塞舌尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Seychelles, where it is known as kolibri in Seychellois Creole",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-seychelles-sunbird-9da64706",
+      "subject": "Seychelles sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞舌尔克里奥尔语-4d2a825a",
+      "object": "塞舌尔克里奥尔语",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Seychelles, where it is known as kolibri in Seychellois Creole",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-seychelles-sunbird-9da64706",
+      "subject": "Seychelles sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

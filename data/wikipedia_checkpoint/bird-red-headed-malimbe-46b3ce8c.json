@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:33:15",
+  "requested_title": "Red-headed Malimbe",
+  "resolved_title": "Red-headed malimbe",
+  "title_aliases": [
+    "Red-headed Malimbe"
+  ],
+  "bird_id": "bird-red-headed-malimbe-46b3ce8c",
+  "raw_file": "bird-red-headed-malimbe-46b3ce8c.json",
+  "bird": {
+    "id": "bird-red-headed-malimbe-46b3ce8c",
+    "name": "Red-headed malimbe",
+    "english_name": "Red-headed malimbe",
+    "latin_name": "Malimbus rubricollis",
+    "summary": "The red-headed malimbe (Malimbus rubricollis) is a species of bird in the family Ploceidae. It is native to the African tropical rainforest.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Redheadedmalimbe.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-headed-malimbe-46b3ce8c",
+      "subject": "Red-headed malimbe",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-headed-malimbe-46b3ce8c",
+      "subject": "Red-headed malimbe",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:18:14",
+  "requested_title": "Brimstone Canary",
+  "resolved_title": "Brimstone canary",
+  "title_aliases": [
+    "Brimstone Canary"
+  ],
+  "bird_id": "bird-brimstone-canary-a7e0e97f",
+  "raw_file": "bird-brimstone-canary-a7e0e97f.json",
+  "bird": {
+    "id": "bird-brimstone-canary-a7e0e97f",
+    "name": "Brimstone canary",
+    "english_name": "Brimstone canary",
+    "latin_name": "Crithagra sulphurata",
+    "summary": "The brimstone canary or bully canary (Crithagra sulphurata) is a small passerine bird in the finch family. It is a resident breeder in cent…",
+    "lat": "-30",
+    "lng": "25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Brimstone_Canary_-_Uganda_H8O4066_%2822647799309%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brimstone-canary-a7e0e97f",
+      "subject": "Brimstone canary",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In South Africa it occurs mainly in coastal areas, inhabiting coastal bush, shrubs along streams, gardens, and areas with rank vegetation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brimstone-canary-a7e0e97f",
+      "subject": "Brimstone canary",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

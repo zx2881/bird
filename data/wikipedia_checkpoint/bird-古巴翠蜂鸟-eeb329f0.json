@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:42:08",
+  "requested_title": "Cuban Emerald",
+  "resolved_title": "Cuban emerald",
+  "title_aliases": [
+    "Cuban Emerald"
+  ],
+  "bird_id": "bird-古巴翠蜂鸟-eeb329f0",
+  "raw_file": "bird-古巴翠蜂鸟-eeb329f0.json",
+  "bird": {
+    "id": "bird-古巴翠蜂鸟-eeb329f0",
+    "name": "古巴翠蜂鸟",
+    "english_name": "Cuban emerald",
+    "latin_name": "Riccordia ricordii",
+    "summary": "The Cuban emerald (Riccordia ricordii) is a species of hummingbird in the \"emeralds\", tribe Trochilini of subfamily Trochilinae. It is foun…",
+    "lat": "25",
+    "lng": "-77.4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cuban_emerald_%28Chlorostilbon_ricordii_ricordii%29_male_cr.jpg/960px-Cuban_emerald_%28Chlorostilbon_ricordii_ricordii%29_male_cr.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴哈马-deb0f718",
+      "name": "巴哈马",
+      "summary": "巴哈馬國（英語：Commonwealth of The Bahamas），通称巴哈马（英語：The Bahamas，/bəˈhɑːməz/），是位於大西洋西侧廬卡雅群島上的一个島國，全國包含700座岛屿（以及小岛屿）和珊瑚礁。地處美国佛罗…",
+      "lat": "25",
+      "lng": "-77.4"
+    },
+    {
+      "id": "loc-古巴-b585ac9f",
+      "name": "古巴",
+      "summary": "古巴共和国（西班牙語：República de Cuba），通称古巴（Cuba），是美洲西印度群島西部的社会主义国家，介於北緯19°與24°、西經74°與85°之間。該國地處墨西哥灣口，西隔尤卡坦海峡與墨西哥尤卡坦半岛相望，南鄰牙買加和開…",
+      "lat": "22",
+      "lng": "-80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-古巴翠蜂鸟-eeb329f0",
+      "subject": "古巴翠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴哈马-deb0f718",
+      "object": "巴哈马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Bahamas and Cuba.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-古巴翠蜂鸟-eeb329f0",
+      "subject": "古巴翠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-古巴-b585ac9f",
+      "object": "古巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Bahamas and Cuba.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-古巴翠蜂鸟-eeb329f0",
+      "subject": "古巴翠蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

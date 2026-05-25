@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:09:28",
+  "requested_title": "Narina Trogon",
+  "resolved_title": "Narina trogon",
+  "title_aliases": [
+    "Narina Trogon"
+  ],
+  "bird_id": "bird-narina-trogon-7e1f8489",
+  "raw_file": "bird-narina-trogon-7e1f8489.json",
+  "bird": {
+    "id": "bird-narina-trogon-7e1f8489",
+    "name": "Narina trogon",
+    "english_name": "Narina trogon",
+    "latin_name": "Apaloderma narina",
+    "summary": "The Narina trogon (Apaloderma narina) is a largely green and red, medium-sized (32–34 cm long), bird of the family Trogonidae. It is native…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Narina_Trogon%2C_Apaloderma_narina_MALE_at_Lekgalameetse_Provincial_Reserve%2C_Limpopo%2C_South_Africa_%2814654439002%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-托海-870bdffe",
+      "name": "托海",
+      "summary": "托喀依（维吾尔老文字：توقاي‎，拉丁维吾尔文：toqay，拼音字母：tok̂ay；尉犁维吾尔语及柯尔克孜语称托阔依 توقوي tok̂oy，尉犁音：[tʰoqʰo̞j]），作为沙漠绿色走廊是一种主要分布于内流河湾处的乔、灌、草及胡杨…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-narina-trogon-7e1f8489",
+      "subject": "Narina trogon",
+      "predicate": "distributed_in",
+      "object_id": "loc-托海-870bdffe",
+      "object": "托海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species has a large range in Africa, inhabiting lowland to highland, valley and riparian forests, from tropical to temperate regions, those occurring in highlands dispersing seasonally to lower levels",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-narina-trogon-7e1f8489",
+      "subject": "Narina trogon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-narina-trogon-7e1f8489",
+      "subject": "Narina trogon",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Though it is the most widespread and catholic in habitat choice of the three Apaloderma species, their numbers are locally depleted due to deforestation. Some populations are sedentary while others undertake regular movements",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

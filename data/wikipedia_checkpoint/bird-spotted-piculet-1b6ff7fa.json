@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:04:14",
+  "requested_title": "Spotted Piculet",
+  "resolved_title": "Spotted piculet",
+  "title_aliases": [
+    "Spotted Piculet"
+  ],
+  "bird_id": "bird-spotted-piculet-1b6ff7fa",
+  "raw_file": "bird-spotted-piculet-1b6ff7fa.json",
+  "bird": {
+    "id": "bird-spotted-piculet-1b6ff7fa",
+    "name": "Spotted piculet",
+    "english_name": "Spotted piculet",
+    "latin_name": "Picumnus pygmaeus",
+    "summary": "The spotted piculet (Picumnus pygmaeus) is a species of bird in subfamily Picumninae of the woodpecker family Picidae. It is endemic to Bra…",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Spotted_Piculet_Picumnus_pygmaeus.jpg/960px-Spotted_Piculet_Picumnus_pygmaeus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-spotted-piculet-1b6ff7fa",
+      "subject": "Spotted piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits dry open woodland and caatinga shrublands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-spotted-piculet-1b6ff7fa",
+      "subject": "Spotted piculet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits dry open woodland and caatinga shrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-spotted-piculet-1b6ff7fa",
+      "subject": "Spotted piculet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

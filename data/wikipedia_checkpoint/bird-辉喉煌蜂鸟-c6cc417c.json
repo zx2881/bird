@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:41:07",
+  "requested_title": "Glow-throated Hummingbird",
+  "resolved_title": "Glow-throated hummingbird",
+  "title_aliases": [
+    "Glow-throated Hummingbird"
+  ],
+  "bird_id": "bird-辉喉煌蜂鸟-c6cc417c",
+  "raw_file": "bird-辉喉煌蜂鸟-c6cc417c.json",
+  "bird": {
+    "id": "bird-辉喉煌蜂鸟-c6cc417c",
+    "name": "辉喉煌蜂鸟",
+    "english_name": "Glow-throated hummingbird",
+    "latin_name": "Selasphorus ardens",
+    "summary": "辉喉煌蜂鸟（学名：Selasphorus ardens），是雨燕目蜂鸟科的一种鸟类。 辉喉煌蜂鸟体重约3.08克，翼长约40毫米，嘴峰长约14.3毫米，喙宽度约1.9毫米，喙厚度约2毫米，跗蹠长约3.8毫米，尾长约26.5毫米。辉喉煌蜂鸟在其分布区内为留鸟，其栖息在半开放的灌木…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Selasphorus_ardens_1902.jpg/960px-Selasphorus_ardens_1902.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-talamancan-montane-forests-a57e7cc3",
+      "name": "Talamancan montane forests",
+      "summary": "The Talamancan montane forests ecoregion, in the tropical moist broadleaf forest biome, are in montane Costa Rica and w…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-辉喉煌蜂鸟-c6cc417c",
+      "subject": "辉喉煌蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-talamancan-montane-forests-a57e7cc3",
+      "object": "Talamancan montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the edges and clearings of Talamancan montane forest at elevations between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-辉喉煌蜂鸟-c6cc417c",
+      "subject": "辉喉煌蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the edges and clearings of Talamancan montane forest at elevations between",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-辉喉煌蜂鸟-c6cc417c",
+      "subject": "辉喉煌蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

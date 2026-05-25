@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:17:13",
+  "requested_title": "White-winged Cliff Chat",
+  "resolved_title": "White-winged cliff chat",
+  "title_aliases": [
+    "White-winged Cliff Chat"
+  ],
+  "bird_id": "bird-white-winged-cliff-chat-fd239bca",
+  "raw_file": "bird-white-winged-cliff-chat-fd239bca.json",
+  "bird": {
+    "id": "bird-white-winged-cliff-chat-fd239bca",
+    "name": "White-winged cliff chat",
+    "english_name": "White-winged cliff chat",
+    "latin_name": "Monticola semirufus",
+    "summary": "The white-winged cliff chat (Monticola semirufus) is a species of passerine bird in the Old World flycatcher family Muscicapidae. It is fou…",
+    "lat": "10.705775",
+    "lng": "37.849282",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Myrmecocichla_semirufa_-Ethiopia-8.jpg/960px-Myrmecocichla_semirufa_-Ethiopia-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-衣索比亞高原-20c47310",
+      "name": "衣索比亞高原",
+      "summary": "衣索比亞高原（又譯埃塞俄比亞高地）是非洲國家埃塞俄比亞、厄立特里亞和索馬里的一個高原，由一群堅固且大規模的山構成，在非洲之角的索馬里北部及衣索比亞。它有時也被稱為“非洲屋脊”（Roof of Africa），因為它的高度和很大的面積。 衣…",
+      "lat": "10.705775",
+      "lng": "37.849282"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-winged-cliff-chat-fd239bca",
+      "subject": "White-winged cliff chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-衣索比亞高原-20c47310",
+      "object": "衣索比亞高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in rocky wooded gorges, among boulders and in road cuttings within the Ethiopian Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-cliff-chat-fd239bca",
+      "subject": "White-winged cliff chat",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

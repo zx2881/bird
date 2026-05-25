@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:45:58",
+  "requested_title": "Scaly-breasted Kingfisher",
+  "resolved_title": "Scaly-breasted kingfisher",
+  "title_aliases": [
+    "Scaly-breasted Kingfisher"
+  ],
+  "bird_id": "bird-scaly-breasted-kingfisher-d7342b89",
+  "raw_file": "bird-scaly-breasted-kingfisher-d7342b89.json",
+  "bird": {
+    "id": "bird-scaly-breasted-kingfisher-d7342b89",
+    "name": "Scaly-breasted kingfisher",
+    "english_name": "Scaly-breasted kingfisher",
+    "latin_name": "Actenoides princeps",
+    "summary": "The scaly-breasted kingfisher or regent kingfisher (Actenoides princeps) is a species of bird in the family Alcedinidae endemic to central…",
+    "lat": "0.83333333",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Scaly-breasted_Kingfisher_%28female%29_0A2A7157.jpg/960px-Scaly-breasted_Kingfisher_%28female%29_0A2A7157.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-米納哈薩半島-835a1b2f",
+      "name": "米納哈薩半島",
+      "summary": "米納哈薩半島是印度尼西亞的半島，也是蘇拉威西島四個主要半島之一。米納哈薩半島位于蘇拉威西島的北部，由蘇拉威西島中部开始向北部，再向東面延伸，形成托米尼灣的北面界線。行政上由北苏拉威西省、哥伦打洛省和中苏拉威西省管理。 参见 东半岛 南半岛…",
+      "lat": "0.83333333",
+      "lng": "121"
+    },
+    {
+      "id": "loc-gunung-ambang-nature-reserve-31b98b7d",
+      "name": "Gunung Ambang Nature Reserve",
+      "summary": "Gunung Ambang Nature Reserve is a preserved area in the north of the island of Sulawesi in Indonesia.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-scaly-breasted-kingfisher-d7342b89",
+      "subject": "Scaly-breasted kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-米納哈薩半島-835a1b2f",
+      "object": "米納哈薩半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "regalis is found in the southeast, but is now regarded as its own species, the plain-backed kingfisher. In the Minahassa Peninsula of northern Sulawesi, the nominate subspecies is found in the Gunung Ambang Nature Reserve in primary forest at elevations between above sea level. Its habitat is the dense understorey of undisturbed primary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scaly-breasted-kingfisher-d7342b89",
+      "subject": "Scaly-breasted kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-gunung-ambang-nature-reserve-31b98b7d",
+      "object": "Gunung Ambang Nature Reserve",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "regalis is found in the southeast, but is now regarded as its own species, the plain-backed kingfisher. In the Minahassa Peninsula of northern Sulawesi, the nominate subspecies is found in the Gunung Ambang Nature Reserve in primary forest at elevations between above sea level. Its habitat is the dense understorey of undisturbed primary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scaly-breasted-kingfisher-d7342b89",
+      "subject": "Scaly-breasted kingfisher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical, moist, montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-scaly-breasted-kingfisher-d7342b89",
+      "subject": "Scaly-breasted kingfisher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Two subspecies are found in moist, montane forests, A",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-scaly-breasted-kingfisher-d7342b89",
+      "subject": "Scaly-breasted kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-scaly-breasted-kingfisher-d7342b89",
+      "subject": "Scaly-breasted kingfisher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The scaly-breasted kingfisher has a somewhat restricted range in Indonesia and its population size is believed to be decreasing due to habitat loss, but is considered to be least concern by the IUCN. Image:Actenoides princeps princeps, adult male.JPG | Adult male Image:Scaly-breasted Kingfisher, female.JPG | Male Image:Actenoides princeps princeps, female.JPG | Female Image:Actenoides princeps princeps, male.JPG | Male",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:01:00",
+  "requested_title": "Purple-gaped Honeyeater",
+  "resolved_title": "Purple-gaped honeyeater",
+  "title_aliases": [
+    "Purple-gaped Honeyeater"
+  ],
+  "bird_id": "bird-purple-gaped-honeyeater-74e7476a",
+  "raw_file": "bird-purple-gaped-honeyeater-74e7476a.json",
+  "bird": {
+    "id": "bird-purple-gaped-honeyeater-74e7476a",
+    "name": "Purple-gaped honeyeater",
+    "english_name": "Purple-gaped honeyeater",
+    "latin_name": "Lichenostomus cratitius",
+    "summary": "The purple-gaped honeyeater (Lichenostomus cratitius) is a species of bird in the family Meliphagidae. It is endemic to semi-arid southern…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Purple-gaped_Honeyeater_-_Patchewollock.jpg/960px-Purple-gaped_Honeyeater_-_Patchewollock.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-mallee-woodlands-and-shrublands-a78decc8",
+      "name": "Mallee Woodlands and Shrublands",
+      "summary": "Mallee Woodlands and Shrublands is one of 32 Major Vegetation Groups defined by the Australian Government Department of…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-purple-gaped-honeyeater-74e7476a",
+      "subject": "Purple-gaped honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to semi-arid southern Australia, where it inhabits mallee, tall heath and associated low eucalypt woodland.Menkhorst, P., Rogers, D., Clarke, R., Davies, J., Marsack, P., Franklin, K",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-gaped-honeyeater-74e7476a",
+      "subject": "Purple-gaped honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-mallee-woodlands-and-shrublands-a78decc8",
+      "object": "Mallee Woodlands and Shrublands",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to semi-arid southern Australia, where it inhabits mallee, tall heath and associated low eucalypt woodland.Menkhorst, P., Rogers, D., Clarke, R., Davies, J., Marsack, P., Franklin, K",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-gaped-honeyeater-74e7476a",
+      "subject": "Purple-gaped honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The main habitat type for purple-gaped honeyeater is mallee woodland and shrubland.Tzaros, C",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-purple-gaped-honeyeater-74e7476a",
+      "subject": "Purple-gaped honeyeater",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "(2021) Wildlife of the Box-Ironbark Country. 2nd Edition, CSIRO Publishing, Melbourne, Victoria, This includes bull mallee, with patches of green mallee or blue mallee. They also occur in yellow gum woodland with dense thickets of 'totem-poles' or violet honey-myrtle on low-lying flats and gullies in mallee areas. They are occasionally recorded in river red gums bordering waterways, and seasonally in red ironbark woodlands when they are in flower. Purple-gaped honeyeaters can also occasionally be found in gardens. They are gregarious, usually seen in pairs, or groups of 3-8 birds. Generally considered quiet and unobtrusive, except in spring when they may call often. They are known to regularly drink and bathe, particularly in warmer weather. Purple-gaped honeyeaters associate with yellow-plumed honeyeater and tawny-crowned honeyeater, but can be aggressive towards other honeyeaters, and frequently chase other birds, particularly when feeding",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-purple-gaped-honeyeater-74e7476a",
+      "subject": "Purple-gaped honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

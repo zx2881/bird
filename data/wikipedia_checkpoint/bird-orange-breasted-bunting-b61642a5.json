@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:48:07",
+  "requested_title": "Orange-breasted Bunting",
+  "resolved_title": "Orange-breasted bunting",
+  "title_aliases": [
+    "Orange-breasted Bunting"
+  ],
+  "bird_id": "bird-orange-breasted-bunting-b61642a5",
+  "raw_file": "bird-orange-breasted-bunting-b61642a5.json",
+  "bird": {
+    "id": "bird-orange-breasted-bunting-b61642a5",
+    "name": "Orange-breasted bunting",
+    "english_name": "Orange-breasted bunting",
+    "latin_name": "Passerina leclancherii",
+    "summary": "The orange-breasted bunting (Passerina leclancherii) is a species of passerine bird in the family Cardinalidae. It is endemic to Mexico, wh…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Orange_Breasted_Butnin.jpg/960px-Orange_Breasted_Butnin.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "name": "熱帶和亞熱帶旱生闊葉林",
+      "summary": "热带及亚热带旱生阔叶林（英語：tropical and subtropical dry broadleaf forests），简称旱生林（dry forest）是一种WWF定义的栖地生境并用来命名以此为代表的生物群系。其所需的气候类型较常…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-orange-breasted-bunting-b61642a5",
+      "subject": "Orange-breasted bunting",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "object": "熱帶和亞熱帶旱生闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits tropical dry forest and arid scrubland, thorny thickets, bushy deciduous woodland, clearings and woodland edges, at altitudes up to about",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-breasted-bunting-b61642a5",
+      "subject": "Orange-breasted bunting",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits tropical dry forest and arid scrubland, thorny thickets, bushy deciduous woodland, clearings and woodland edges, at altitudes up to about",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-orange-breasted-bunting-b61642a5",
+      "subject": "Orange-breasted bunting",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

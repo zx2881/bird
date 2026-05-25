@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:16:57",
+  "requested_title": "Palm-nut Vulture",
+  "resolved_title": "Palm-nut vulture",
+  "title_aliases": [
+    "Palm-nut Vulture"
+  ],
+  "bird_id": "bird-palm-nut-vulture-4732d121",
+  "raw_file": "bird-palm-nut-vulture-4732d121.json",
+  "bird": {
+    "id": "bird-palm-nut-vulture-4732d121",
+    "name": "Palm-nut vulture",
+    "english_name": "Palm-nut vulture",
+    "latin_name": "Gypohierax angolensis",
+    "summary": "The palm-nut vulture (Gypohierax angolensis) or vulturine fish eagle, is a large bird of prey in the family Accipitridae (which also includ…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Flickr_-_Rainbirder_-_Palm-nut_Vulture.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-palm-nut-vulture-4732d121",
+      "subject": "Palm-nut vulture",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in forest and savannah across sub-Saharan Africa, usually near water, its range coinciding with that of the oil and Raffia palms",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-palm-nut-vulture-4732d121",
+      "subject": "Palm-nut vulture",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Consequently, it is most common in coastal forests and mangrove swamps below , but also occurs in wet savannas",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-palm-nut-vulture-4732d121",
+      "subject": "Palm-nut vulture",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Consequently, it is most common in coastal forests and mangrove swamps below , but also occurs in wet savannas",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-palm-nut-vulture-4732d121",
+      "subject": "Palm-nut vulture",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-palm-nut-vulture-4732d121",
+      "subject": "Palm-nut vulture",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The main threat to this species in South Africa is habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

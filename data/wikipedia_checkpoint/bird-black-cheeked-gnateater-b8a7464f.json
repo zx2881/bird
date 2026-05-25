@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:53:31",
+  "requested_title": "Black-cheeked Gnateater",
+  "resolved_title": "Black-cheeked gnateater",
+  "title_aliases": [
+    "Black-cheeked Gnateater"
+  ],
+  "bird_id": "bird-black-cheeked-gnateater-b8a7464f",
+  "raw_file": "bird-black-cheeked-gnateater-b8a7464f.json",
+  "bird": {
+    "id": "bird-black-cheeked-gnateater-b8a7464f",
+    "name": "Black-cheeked gnateater",
+    "english_name": "Black-cheeked gnateater",
+    "latin_name": "Conopophaga melanops",
+    "summary": "The black-cheeked gnateater (Conopophaga melanops) is a species of bird in the family Conopophagidae endemic to Brazil. The male is disting…",
+    "lat": "-7.16666667",
+    "lng": "-36.83333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Conopophaga_melanops_-Vale_do_Ribeira%2C_Juquia%2C_Sao_Paulo%2C_Brazil_-male-8.jpg/960px-Conopophaga_melanops_-Vale_do_Ribeira%2C_Juquia%2C_Sao_Paulo%2C_Brazil_-male-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-帕拉伊巴州-34c0ad3d",
+      "name": "帕拉伊巴州",
+      "summary": "帕拉伊巴州（葡萄牙語：Paraíba，葡萄牙語發音：[paɾaˈibɐ]）是巴西东北部一州，濒临大西洋。帕拉伊巴州是美洲大陆最東处。在2010年，此州人口為3,766,528人。 教育 葡萄牙語是官方語言，但英語和西班牙語也是部分中學課程…",
+      "lat": "-7.16666667",
+      "lng": "-36.83333333"
+    },
+    {
+      "id": "loc-圣卡塔琳娜州-610f6154",
+      "name": "圣卡塔琳娜州",
+      "summary": "圣卡塔琳娜州（葡萄牙語：Santa Catarina）是巴西南部的一个州，首府弗洛里亞諾波利斯，面积95,346.181平方公里，人口5,958,266人。 参见 胡利亚纳共和国",
+      "lat": "-27.25",
+      "lng": "-50.33333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-cheeked-gnateater-b8a7464f",
+      "subject": "Black-cheeked gnateater",
+      "predicate": "distributed_in",
+      "object_id": "loc-帕拉伊巴州-34c0ad3d",
+      "object": "帕拉伊巴州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-cheeked gnateater is found in eastern Brazil, from Paraíba to Santa Catarina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-cheeked-gnateater-b8a7464f",
+      "subject": "Black-cheeked gnateater",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣卡塔琳娜州-610f6154",
+      "object": "圣卡塔琳娜州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-cheeked gnateater is found in eastern Brazil, from Paraíba to Santa Catarina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-cheeked-gnateater-b8a7464f",
+      "subject": "Black-cheeked gnateater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

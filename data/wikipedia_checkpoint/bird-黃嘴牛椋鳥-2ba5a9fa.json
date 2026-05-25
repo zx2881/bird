@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:06:18",
+  "requested_title": "Yellow-billed Oxpecker",
+  "resolved_title": "Yellow-billed oxpecker",
+  "title_aliases": [
+    "Yellow-billed Oxpecker"
+  ],
+  "bird_id": "bird-黃嘴牛椋鳥-2ba5a9fa",
+  "raw_file": "bird-黃嘴牛椋鳥-2ba5a9fa.json",
+  "bird": {
+    "id": "bird-黃嘴牛椋鳥-2ba5a9fa",
+    "name": "黃嘴牛椋鳥",
+    "english_name": "Yellow-billed oxpecker",
+    "latin_name": "Buphagus africanus",
+    "summary": "黃嘴牛椋鳥（學名：Buphagus africanus）分布於非洲中南部的大部分地區，是雀形目牛椋鳥科牛椋鳥屬的兩個成員之一。分布於非洲撒哈拉沙漠以南的稀樹草原，由塞內加爾東部到蘇丹，分布範圍有一部分與紅嘴牛椋鳥重疊。與紅嘴牛椋鳥不同的是，黃嘴牛椋鳥會啄開動物的皮膚，飲其血，食…",
+    "lat": "14",
+    "lng": "-14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flickr_-_Rainbirder_-_Yellow-billed_Oxpecker_%28Buphagus_africanus%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-塞内加尔-8f96dd71",
+      "name": "塞内加尔",
+      "summary": "塞内加尔共和国（法語：République du Sénégal），通稱塞內加爾（法語：Sénégal），是西非国家，位于塞内加尔河的南岸，首都达喀尔。它的西边是大西洋，北边是毛里塔尼亚，东边是馬利，南边是几内亚和几内亚比绍。冈比亚在塞内…",
+      "lat": "14",
+      "lng": "-14"
+    },
+    {
+      "id": "loc-苏丹-2e3eec83",
+      "name": "苏丹",
+      "summary": "蘇丹共和國（阿拉伯語：جمهورية السودان；Republic of the Sudan），通稱蘇丹（阿拉伯語：السودان，羅馬化：Sūdān，/suːˈdɑːn/或/suːˈdæn/），南蘇丹獨立後亦被稱為北蘇丹，是位於東北…",
+      "lat": "15",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黃嘴牛椋鳥-2ba5a9fa",
+      "subject": "黃嘴牛椋鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the savannah of Sub-Saharan Africa from Senegal east to Sudan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃嘴牛椋鳥-2ba5a9fa",
+      "subject": "黃嘴牛椋鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞内加尔-8f96dd71",
+      "object": "塞内加尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the savannah of Sub-Saharan Africa from Senegal east to Sudan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃嘴牛椋鳥-2ba5a9fa",
+      "subject": "黃嘴牛椋鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏丹-2e3eec83",
+      "object": "苏丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the savannah of Sub-Saharan Africa from Senegal east to Sudan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃嘴牛椋鳥-2ba5a9fa",
+      "subject": "黃嘴牛椋鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

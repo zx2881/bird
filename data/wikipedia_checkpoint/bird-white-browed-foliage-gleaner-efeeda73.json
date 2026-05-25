@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:20:27",
+  "requested_title": "White-browed Foliage-gleaner",
+  "resolved_title": "White-browed foliage-gleaner",
+  "title_aliases": [
+    "White-browed Foliage-gleaner"
+  ],
+  "bird_id": "bird-white-browed-foliage-gleaner-efeeda73",
+  "raw_file": "bird-white-browed-foliage-gleaner-efeeda73.json",
+  "bird": {
+    "id": "bird-white-browed-foliage-gleaner-efeeda73",
+    "name": "White-browed foliage-gleaner",
+    "english_name": "White-browed foliage-gleaner",
+    "latin_name": "Anabacerthia amaurotis",
+    "summary": "The white-browed foliage-gleaner (Anabacerthia amaurotis) is a species of bird in the Furnariinae subfamily of the ovenbird family Furnarii…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Anabacerthia_amaurotis_-_Daniel_S._Katz_-_477142180.jpeg/960px-Anabacerthia_amaurotis_-_Daniel_S._Katz_-_477142180.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "name": "昆拉德·雅各布·特明克",
+      "summary": "昆拉德·雅各布·特明克（荷蘭語：Coenraad Jacob Temminck，1778年3月31日—1858年1月30日）是一名荷蘭貴族和動物學家。 生平 特明克於阿姆斯特丹出生，1820年出任位於萊頓的國家自然歷史博物館，直至去世。他…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-browed-foliage-gleaner-efeeda73",
+      "subject": "White-browed foliage-gleaner",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "object": "昆拉德·雅各布·特明克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Katz - 477142180.jpeg | status = LC | status_system = IUCN3.1 | status_ref = | genus = Anabacerthia | species = amaurotis | authority = (Temminck, 1823) | synonyms = Philydor amaurotis (Temminck, 1823) | range_map = Anabacerthia amaurotis map.svg }} The white-browed foliage-gleaner (Anabacerthia amaurotis) is a species of bird in the Furnariinae subfamily of the ovenbird family Furnariidae. It is found in Argentina, Brazil, and possibly Paraguay.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-foliage-gleaner-efeeda73",
+      "subject": "White-browed foliage-gleaner",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Downloaded from https://www.birds.cornell.edu/clementschecklist/download/ retrieved November 10, 2022 In much of its Brazilian range the species inhabits montane evergreen forest and tall secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-foliage-gleaner-efeeda73",
+      "subject": "White-browed foliage-gleaner",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Downloaded from https://www.birds.cornell.edu/clementschecklist/download/ retrieved November 10, 2022 In much of its Brazilian range the species inhabits montane evergreen forest and tall secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-foliage-gleaner-efeeda73",
+      "subject": "White-browed foliage-gleaner",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

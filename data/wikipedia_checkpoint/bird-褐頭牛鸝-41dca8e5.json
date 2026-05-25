@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:32:13",
+  "requested_title": "Brown-headed Cowbird",
+  "resolved_title": "Brown-headed cowbird",
+  "title_aliases": [
+    "Brown-headed Cowbird"
+  ],
+  "bird_id": "bird-褐頭牛鸝-41dca8e5",
+  "raw_file": "bird-褐頭牛鸝-41dca8e5.json",
+  "bird": {
+    "id": "bird-褐頭牛鸝-41dca8e5",
+    "name": "褐頭牛鸝",
+    "english_name": "Brown-headed cowbird",
+    "latin_name": "Molothrus ater",
+    "summary": "褐頭牛鸝（學名：Molothrus ater；英語：brown-headed cowbird）是牛鸝屬下的一種小型鳥類，分佈于北美洲的溫帶和亞熱帶地區。南方的褐頭牛鸝一般並不遷徙，而北方的褐頭牛鸝則會飛到南方過冬，三月至四月間返回北方。 和該屬的其它生物一樣，褐頭牛鸝有巢寄生的…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Brown-headed_cowbird_male_%2871126%29.jpg/960px-Brown-headed_cowbird_male_%2871126%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-彼得-博达尔特-2288b0e6",
+      "name": "彼得·博达尔特",
+      "summary": "彼得·博达尔特（荷蘭語：Pieter Boddaert，發音：[ˈpitər ˈbɔdaːrt]；1733年5月26日—1795年5月6日）是一名荷蘭的醫生及博物學家。 博塔埃特的父親是米德爾堡的法學家及詩人(1694–1760)。與其父…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-褐頭牛鸝-41dca8e5",
+      "subject": "褐頭牛鸝",
+      "predicate": "distributed_in",
+      "object_id": "loc-彼得-博达尔特-2288b0e6",
+      "object": "彼得·博达尔特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The brown-headed cowbird (Molothrus ater) is a small, obligate brood parasitic icterid native to temperate and subtropical North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐頭牛鸝-41dca8e5",
+      "subject": "褐頭牛鸝",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

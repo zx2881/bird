@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:03:16",
+  "requested_title": "Regal Sunbird",
+  "resolved_title": "Regal sunbird",
+  "title_aliases": [
+    "Regal Sunbird"
+  ],
+  "bird_id": "bird-regal-sunbird-ddd4457c",
+  "raw_file": "bird-regal-sunbird-ddd4457c.json",
+  "bird": {
+    "id": "bird-regal-sunbird-ddd4457c",
+    "name": "Regal sunbird",
+    "english_name": "Regal sunbird",
+    "latin_name": "Cinnyris regius",
+    "summary": "The regal sunbird (Cinnyris regius) is a species of bird in the family Nectariniidae. It is native to the Albertine Rift montane forests.",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Nectarinia_regia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-regal-sunbird-ddd4457c",
+      "subject": "Regal sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-regal-sunbird-ddd4457c",
+      "subject": "Regal sunbird",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The regal sunbird's range spans the entire Albertine Rift montane forests (from Uganda to Tanzania), where it occurs between above sea level. Its habitat includes evergreen mountain forest, mixed forest, secondary growth forest, scrubland and bamboo",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-regal-sunbird-ddd4457c",
+      "subject": "Regal sunbird",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The regal sunbird's range spans the entire Albertine Rift montane forests (from Uganda to Tanzania), where it occurs between above sea level. Its habitat includes evergreen mountain forest, mixed forest, secondary growth forest, scrubland and bamboo",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-regal-sunbird-ddd4457c",
+      "subject": "Regal sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

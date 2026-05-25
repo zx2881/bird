@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:43:24",
+  "requested_title": "Rüppell's Warbler",
+  "resolved_title": "Rüppell's warbler",
+  "title_aliases": [
+    "Rüppell's Warbler"
+  ],
+  "bird_id": "bird-r-ppell-s-warbler-61f629ce",
+  "raw_file": "bird-r-ppell-s-warbler-61f629ce.json",
+  "bird": {
+    "id": "bird-r-ppell-s-warbler-61f629ce",
+    "name": "Rüppell's warbler",
+    "english_name": "Rüppell's warbler",
+    "latin_name": "Curruca ruppeli",
+    "summary": "Rüppell's warbler (Curruca ruppeli) is a passerine bird of the genus Curruca. It breeds in Greece, Turkey and neighbouring islands.",
+    "lat": "39",
+    "lng": "22",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ruppell%27s_warbler.jpg/960px-Ruppell%27s_warbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-希腊-13d5814c",
+      "name": "希腊",
+      "summary": "希臘共和國（希臘語：Ελληνική Δημοκρατία，羅馬化：Ellinikí Dimokratía），簡稱希臘（Ελλάδα，羅馬化：Elláda），是位於歐洲南部的發達跨大陸國家。2024年其人口為1,039萬。雅典為希臘首都及…",
+      "lat": "39",
+      "lng": "22"
+    },
+    {
+      "id": "loc-土耳其-5e126298",
+      "name": "土耳其",
+      "summary": "土耳其共和国（土耳其語：Türkiye Cumhuriyeti，發音：[ˈtyɾcije dʒumˈhuːɾijeti] ），通稱土耳其（Türkiye），是橫跨欧亚两洲的共和國，其國土包括西亞的安納托利亞半岛、以及东南欧巴尔干半岛的东色…",
+      "lat": "39.91666667",
+      "lng": "32.85"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-r-ppell-s-warbler-61f629ce",
+      "subject": "Rüppell's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-希腊-13d5814c",
+      "object": "希腊",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Greece, Turkey and neighbouring islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-r-ppell-s-warbler-61f629ce",
+      "subject": "Rüppell's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-土耳其-5e126298",
+      "object": "土耳其",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Greece, Turkey and neighbouring islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-r-ppell-s-warbler-61f629ce",
+      "subject": "Rüppell's warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

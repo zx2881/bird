@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:04:27",
+  "requested_title": "Papuan Logrunner",
+  "resolved_title": "Papuan logrunner",
+  "title_aliases": [
+    "Papuan Logrunner"
+  ],
+  "bird_id": "bird-新几内亚刺尾鸫-4e8d2ef9",
+  "raw_file": "bird-新几内亚刺尾鸫-4e8d2ef9.json",
+  "bird": {
+    "id": "bird-新几内亚刺尾鸫-4e8d2ef9",
+    "name": "新几内亚刺尾鸫",
+    "english_name": "Papuan logrunner",
+    "latin_name": "Orthonyx novaeguineae",
+    "summary": "新几内亚刺尾鸫（台湾作北方針尾木鶇，学名：Orthonyx novaeguineae），是雀形目刺尾鸫科的一种鸟类。 新几内亚刺尾鸫体重约58.06克，翼长约83.2毫米，嘴峰长约15.2毫米，喙宽度约4.3毫米，喙厚度约4.8毫米，跗蹠长约32毫米，尾长约76.4毫米。新几内…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Orthonyx_novaeguineae_-_Nigel_Voaden_-_3103060.jpeg/960px-Orthonyx_novaeguineae_-_Nigel_Voaden_-_3103060.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-新几内亚刺尾鸫-4e8d2ef9",
+      "subject": "新几内亚刺尾鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the highlands of New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-新几内亚刺尾鸫-4e8d2ef9",
+      "subject": "新几内亚刺尾鸫",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-新几内亚刺尾鸫-4e8d2ef9",
+      "subject": "新几内亚刺尾鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

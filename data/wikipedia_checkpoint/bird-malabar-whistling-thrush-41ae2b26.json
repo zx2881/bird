@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:53:14",
+  "requested_title": "Malabar Whistling Thrush",
+  "resolved_title": "Malabar whistling thrush",
+  "title_aliases": [
+    "Malabar Whistling Thrush"
+  ],
+  "bird_id": "bird-malabar-whistling-thrush-41ae2b26",
+  "raw_file": "bird-malabar-whistling-thrush-41ae2b26.json",
+  "bird": {
+    "id": "bird-malabar-whistling-thrush-41ae2b26",
+    "name": "Malabar whistling thrush",
+    "english_name": "Malabar whistling thrush",
+    "latin_name": "Myophonus horsfieldii",
+    "summary": "The Malabar whistling thrush (Myophonus horsfieldii) is a whistling thrush in the family Muscicapidae. The bird has been called whistling s…",
+    "lat": "20.8",
+    "lng": "73.71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Back_Whistling_Thrush_Sheikalmudi_Feb26_A7CR_10052.jpg/960px-Back_Whistling_Thrush_Sheikalmudi_Feb26_A7CR_10052.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-dang-assembly-constituency-f593853f",
+      "name": "Dang Assembly constituency",
+      "summary": "Dang is one of the 182 Legislative Assembly constituencies of Gujarat state in India.",
+      "lat": "20.8",
+      "lng": "73.71"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-malabar-whistling-thrush-41ae2b26",
+      "subject": "Malabar whistling thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-dang-assembly-constituency-f593853f",
+      "object": "Dang Assembly constituency",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|In Mangaon, Raigad, Maharashtra Malabar whistling thrushes are usually found in dark undergrowth in dense riverine forest. They typically forage in the margins, beds and adjacent ground of rocky hill streams and rivers in forest, secondary growth and plantations from foothills up to 2200 m above sea level but reach the plains in the rainy season. The species is found all along the Western Ghats south of the Surat Dangs",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malabar-whistling-thrush-41ae2b26",
+      "subject": "Malabar whistling thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

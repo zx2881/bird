@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:48:32",
+  "requested_title": "Amur Paradise Flycatcher",
+  "resolved_title": "Amur paradise flycatcher",
+  "title_aliases": [
+    "Amur Paradise Flycatcher"
+  ],
+  "bird_id": "bird-寿带鸟-a713a8a0",
+  "raw_file": "bird-寿带鸟-a713a8a0.json",
+  "bird": {
+    "id": "bird-寿带鸟-a713a8a0",
+    "name": "寿带鸟",
+    "english_name": "Amur paradise flycatcher",
+    "latin_name": "Terpsiphone incei",
+    "summary": "寿带（香港作壽帶鳥，台湾作阿穆爾綬帶）（学名：Terpsiphone incei），为王鶲科寿带属的鸟类。它是遷徙至東南亞過冬的候鳥。直到2015年，它還被認為是印度綬帶的一個亞種。 特征 雄鸟体长30厘米，成年雄鸟的头、颈和羽冠具有深蓝辉光，身体其余部分为白色，具黑色羽干纹。…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Amur_Paradise_Flycatcher_%28Terpsiphone_incei%29_-_Lip_Kee_%283%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-滨海边疆区-9d2b3e1f",
+      "name": "滨海边疆区",
+      "summary": "滨海边疆区（俄語：Приморский край，羅馬化：Primorskiy kray）是俄罗斯的聯邦主體，為远东联邦管区的一个边疆区，成立于1938年，面积为164,673平方公里，经济规模在俄罗斯远东联邦主体中居首位。自苏联解体以来…",
+      "lat": "45.33333333",
+      "lng": "134.66666667"
+    },
+    {
+      "id": "loc-俄羅斯遠東地區-53945c47",
+      "name": "俄羅斯遠東地區",
+      "summary": "俄羅斯遠東地區（俄語：Дальний Восток России，羅馬化：Dalny Vostok Rossii，發音：[ˈdalʲnʲɪj vɐˈstok rɐˈsʲii]），位於俄羅斯東部，為西伯利亞貝加爾湖東部與太平洋之間；其中所屬…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-寿带鸟-a713a8a0",
+      "subject": "寿带鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to China and Primorsky Krai in the Russian Far East",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-寿带鸟-a713a8a0",
+      "subject": "寿带鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-滨海边疆区-9d2b3e1f",
+      "object": "滨海边疆区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to China and Primorsky Krai in the Russian Far East",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-寿带鸟-a713a8a0",
+      "subject": "寿带鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄羅斯遠東地區-53945c47",
+      "object": "俄羅斯遠東地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to China and Primorsky Krai in the Russian Far East",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-寿带鸟-a713a8a0",
+      "subject": "寿带鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

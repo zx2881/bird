@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:45:11",
+  "requested_title": "Variegated Flycatcher",
+  "resolved_title": "Variegated flycatcher",
+  "title_aliases": [
+    "Variegated Flycatcher"
+  ],
+  "bird_id": "bird-杂色纹霸鹟-6c6fa48d",
+  "raw_file": "bird-杂色纹霸鹟-6c6fa48d.json",
+  "bird": {
+    "id": "bird-杂色纹霸鹟-6c6fa48d",
+    "name": "杂色纹霸鹟",
+    "english_name": "Variegated flycatcher",
+    "latin_name": "Empidonomus varius",
+    "summary": "杂色纹霸鹟（台湾作雜色冕霸鶲，学名：Empidonomus varius），是雀形目霸鹟科的一种鸟类，属于单型的杂色纹霸鹟属（学名：Empidonomus）。但按照不同的分类系统，该属可能还包含冠灰纹霸鹟。 杂色纹霸鹟体重约27.1克，翼长约96.8毫米，喙宽度约6.3毫米，喙…",
+    "lat": "-32.1",
+    "lng": "-59.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Empidonomus_varius-2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-恩特雷里奥斯省-0ecd5847",
+      "name": "恩特雷里奥斯省",
+      "summary": "恩特雷里奥斯省（西班牙語：Entre Ríos，意思是「兩河之間」）為南美國家阿根廷二十三省之一省，位於阿根廷東北部，該省首府為巴拉那市。其他主要城市還有康科迪亚等。 参考文献",
+      "lat": "-32.1",
+      "lng": "-59.3"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-杂色纹霸鹟-6c6fa48d",
+      "subject": "杂色纹霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-恩特雷里奥斯省-0ecd5847",
+      "object": "恩特雷里奥斯省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies is found in southwestern Venezuela; eastern Colombia, Ecuador, and Peru; central and eastern Bolivia; central and southern Brazil; Paraguay; Uruguay; and northern Argentina at least as far south as Entre Ríos Province. In addition it has been documented in the U.S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-杂色纹霸鹟-6c6fa48d",
+      "subject": "杂色纹霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In migration it occasionally is found in the crown of unbroken terra firme forest. In elevation it ranges from sea level to in Brazil. It reaches in Colombia, in Ecuador, and in Peru.{{cite book | last1 =McMullan | first1 =Miles | last2 =Donegan | first2 =Thomas M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-杂色纹霸鹟-6c6fa48d",
+      "subject": "杂色纹霸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

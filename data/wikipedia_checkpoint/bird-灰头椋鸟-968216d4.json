@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:33:06",
+  "requested_title": "Chestnut-tailed Starling",
+  "resolved_title": "Chestnut-tailed starling",
+  "title_aliases": [
+    "Chestnut-tailed Starling"
+  ],
+  "bird_id": "bird-灰头椋鸟-968216d4",
+  "raw_file": "bird-灰头椋鸟-968216d4.json",
+  "bird": {
+    "id": "bird-灰头椋鸟-968216d4",
+    "name": "灰头椋鸟",
+    "english_name": "Chestnut-tailed starling",
+    "latin_name": "Sturnia malabarica",
+    "summary": "灰头椋鸟（學名：Sturnia malabarica）又名栗尾椋鳥，为椋鸟科亚洲椋鸟属的鸟类。分布于印度、不丹、尼泊爾、孟加拉、缅甸、泰国、寮國、越南、臺灣以及中国大陆的西藏、四川、贵州、云南、广西等地，常见于河谷边木棉树上或榕树上以及营巢于树洞中。種名意指该物种的模式产地，即…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Chestnut-tailed_starling%2C_Satchari_National_Park_01.jpg/960px-Chestnut-tailed_starling%2C_Satchari_National_Park_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰头椋鸟-968216d4",
+      "subject": "灰头椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a resident or partially migratory species found in wooded habitats in India and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头椋鸟-968216d4",
+      "subject": "灰头椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a resident or partially migratory species found in wooded habitats in India and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头椋鸟-968216d4",
+      "subject": "灰头椋鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

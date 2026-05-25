@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:17:12",
+  "requested_title": "Giant Nuthatch",
+  "resolved_title": "Giant nuthatch",
+  "title_aliases": [
+    "Giant Nuthatch"
+  ],
+  "bird_id": "bird-巨-c71d6366",
+  "raw_file": "bird-巨-c71d6366.json",
+  "bird": {
+    "id": "bird-巨-c71d6366",
+    "name": "巨䴓",
+    "english_name": "Giant nuthatch",
+    "latin_name": "Sitta magna",
+    "summary": "The giant nuthatch (Sitta magna) is a species of bird in the family Sittidae. It is the longest of the nuthatches, measuring 19.5 cm (7.7 i…",
+    "lat": "26.83333333",
+    "lng": "106.83333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Giant_nuthatch_%28Sitta_magna%29.jpg/960px-Giant_nuthatch_%28Sitta_magna%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-贵州省-3594f7fe",
+      "name": "贵州省",
+      "summary": "贵州省，简称贵或黔，是中華人民共和国西南地区的一个省份，位于云贵高原东部。省会是贵阳市。貴州介于东经103°36′—109°35′、北纬24°37′—29°13′之间，东毗湖南、南邻广西、西连云南、北接四川和重庆。全省东西长约595公里，…",
+      "lat": "26.83333333",
+      "lng": "106.83333333"
+    },
+    {
+      "id": "loc-新津区-cc1ef3bf",
+      "name": "新津区",
+      "summary": "新津区位于中华人民共和国四川省成都平原西南部，是成都市下辖的一个市辖区。人口約36.5万，区人民政府駐五津街道模範街56號。 历史 在新津龙马乡发现了新石器时代晚期的古城遗址，现代考古研究认为属于成都平原史前的宝墩文化的组成部分，同时新津…",
+      "lat": "30.415",
+      "lng": "103.809"
+    },
+    {
+      "id": "loc-曼德勒-a4df38b4",
+      "name": "曼德勒",
+      "summary": "曼德勒（緬甸語：မန္တလေး manta.le: [mándəlé]；英語：Mandalay），緬甸華人又称为瓦城、華城，位於緬甸中部伊洛瓦底江畔，是曼德勒省省會，緬甸第二大城市，因背靠曼德勒山而得名。 曼德勒城由贡榜王朝敏东王于185…",
+      "lat": "21.98305556",
+      "lng": "96.08444444"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-巨-c71d6366",
+      "subject": "巨䴓",
+      "predicate": "distributed_in",
+      "object_id": "loc-贵州省-3594f7fe",
+      "object": "贵州省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "170 The giant nuthatch lives from south-central China to northwestern Thailand. In China, it is found in the north, in southern Sichuan and Guizhou (in Xingyi, in particular)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巨-c71d6366",
+      "subject": "巨䴓",
+      "predicate": "distributed_in",
+      "object_id": "loc-新津区-cc1ef3bf",
+      "object": "新津区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "170 The giant nuthatch lives from south-central China to northwestern Thailand. In China, it is found in the north, in southern Sichuan and Guizhou (in Xingyi, in particular)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巨-c71d6366",
+      "subject": "巨䴓",
+      "predicate": "distributed_in",
+      "object_id": "loc-曼德勒-a4df38b4",
+      "object": "曼德勒",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Myanmar, it inhabits a large part of Shan State, and its distribution ends in the northwest at the Mogok Hills of the Mandalay region, in the central-west around Myinkyado, and in the south at Mount Nat Taung",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巨-c71d6366",
+      "subject": "巨䴓",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-巨-c71d6366",
+      "subject": "巨䴓",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-hunting",
+      "object": "非法猎捕",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "170–171 The giant nuthatch has been seen in live animal markets before, but poaching is likely a marginal threat",
+      "object_summary": "直接捕杀或非法贸易导致种群下降。"
+    }
+  ]
+}

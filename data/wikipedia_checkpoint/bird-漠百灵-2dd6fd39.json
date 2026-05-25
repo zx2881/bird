@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:35:29",
+  "requested_title": "Desert Lark",
+  "resolved_title": "Desert lark",
+  "title_aliases": [
+    "Desert Lark"
+  ],
+  "bird_id": "bird-漠百灵-2dd6fd39",
+  "raw_file": "bird-漠百灵-2dd6fd39.json",
+  "bird": {
+    "id": "bird-漠百灵-2dd6fd39",
+    "name": "漠百灵",
+    "english_name": "Desert lark",
+    "latin_name": "Ammomanes deserti",
+    "summary": "漠百灵（学名：Ammomanes deserti），是百灵科漠百灵属的一种。 分布 它分布于巴基斯坦领土、埃及、利比亚、埃塞俄比亚、伊朗、厄立特里亚、土库曼斯坦、土耳其、乍得、叙利亚、马里、阿曼、索马里、卡塔尔、毛里塔尼亚、阿拉伯联合酋长国、约旦、尼日尔、巴基斯坦、沙特阿拉伯、…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Steinlerche.jpg/960px-Steinlerche.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-欣里希-利希滕施泰因-04aece48",
+      "name": "欣里希·利希滕施泰因",
+      "summary": "马丁·欣里希·卡尔·利希滕施泰因（德語：Martin Hinrich Carl Lichtenstein，1780年1月10日—1857年9月2日）是德国医生、探险家、植物学家和动物学家。 生平 利希滕施泰因出生于汉堡市，曾在耶拿大学和黑…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-漠百灵-2dd6fd39",
+      "subject": "漠百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-欣里希-利希滕施泰因-04aece48",
+      "object": "欣里希·利希滕施泰因",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "isabellina in Palestine | taxon = Ammomanes deserti | authority = (Lichtenstein, MHC, 1823) | subdivision_ranks = Subspecies | subdivision = See text | range_map = Ammomanes deserti distribution map.png | range_map_caption = range | synonyms = * Alauda deserti }} The desert lark (Ammomanes deserti) breeds in deserts and semi-deserts from Morocco to western India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-漠百灵-2dd6fd39",
+      "subject": "漠百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The desert lark is found from Mauritania, Western Sahara and southern Morocco in the west east through northern Africa south to Chad and Somalia through south west Asia to western India. It is resident (non-migratory) apart from local movements in arid stony areas, and avoids flat sand and will always be found in broken terrain with a vertical element to it",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-漠百灵-2dd6fd39",
+      "subject": "漠百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:01:19",
+  "requested_title": "Meyer's Parrot",
+  "resolved_title": "Meyer's parrot",
+  "title_aliases": [
+    "Meyer's Parrot"
+  ],
+  "bird_id": "bird-meyer-s-parrot-81400579",
+  "raw_file": "bird-meyer-s-parrot-81400579.json",
+  "bird": {
+    "id": "bird-meyer-s-parrot-81400579",
+    "name": "Meyer's parrot",
+    "english_name": "Meyer's parrot",
+    "latin_name": "Poicephalus meyeri",
+    "summary": "Meyer's parrot (Poicephalus meyeri), also known as the brown parrot, is a species of parrot native to Africa. A Meyer's parrot has black fe…",
+    "lat": "-19.4",
+    "lng": "22.9",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Poicephalus_meyeri_-Zimbabwe_-two-8-3c.jpg/960px-Poicephalus_meyeri_-Zimbabwe_-two-8-3c.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-奥卡万戈三角洲-cf892edd",
+      "name": "奥卡万戈三角洲",
+      "summary": "奥卡万戈三角洲（Okavango Delta，或譯奥卡凡哥），亦称“奥卡万戈沼泽”，位于博茨瓦纳北部，面积约15,000平方公里（5,800平方英里），是世界上最大的内陆三角洲，由奥卡万戈河注入卡拉哈里沙漠而形成，大部分水通过蒸发和蒸腾作…",
+      "lat": "-19.4",
+      "lng": "22.9"
+    },
+    {
+      "id": "loc-波札那-a47abf55",
+      "name": "波札那",
+      "summary": "博茨瓦纳共和国（英語：Republic of Botswana；茨瓦納語：Lefatshe la Botswana），通稱博茨瓦纳（Botswana），是位於非洲南部的內陸國家，全國國境皆為乾燥的台地地形，卡拉哈里沙漠占据了该国大約70%…",
+      "lat": "-24.65833333",
+      "lng": "25.90833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-meyer-s-parrot-81400579",
+      "subject": "Meyer's parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-奥卡万戈三角洲-cf892edd",
+      "object": "奥卡万戈三角洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in high densities in the Okavango Delta region of Botswana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-meyer-s-parrot-81400579",
+      "subject": "Meyer's parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-波札那-a47abf55",
+      "object": "波札那",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in high densities in the Okavango Delta region of Botswana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-meyer-s-parrot-81400579",
+      "subject": "Meyer's parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-meyer-s-parrot-81400579",
+      "subject": "Meyer's parrot",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is generally not considered to be at risk, as their large population, limited pressure from trade and hunting, and 6,000,000&nbsp;km2 home range make these birds unlikely to face extinction in the near future",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

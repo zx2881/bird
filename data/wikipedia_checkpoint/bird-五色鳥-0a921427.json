@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:55:19",
+  "requested_title": "Taiwan Barbet",
+  "resolved_title": "Taiwan barbet",
+  "title_aliases": [
+    "Taiwan Barbet"
+  ],
+  "bird_id": "bird-五色鳥-0a921427",
+  "raw_file": "bird-五色鳥-0a921427.json",
+  "bird": {
+    "id": "bird-五色鳥-0a921427",
+    "name": "五色鳥",
+    "english_name": "Taiwan barbet",
+    "latin_name": "Psilopogon nuchalis",
+    "summary": "台湾拟啄木鸟（學名：Psilopogon nuchalis，台湾作五色鳥，臺灣話：花仔和尚、花褂鳥），又作台湾拟啄木，是鴷形目鬚鴷科拟啄木鸟属下的一種鳥類。這個物種是臺灣特有的鳥類，主要以果實為食，曾一度被視為马来拟啄木鸟的亞種，但在2006年後拆分為獨立物種。 五色鳥的體長約…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Taiwan_barbet_%28Psilopogon_nuchalis%29_Qianshan.jpg/960px-Taiwan_barbet_%28Psilopogon_nuchalis%29_Qianshan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-五色鳥-0a921427",
+      "subject": "五色鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is commonly found in forests at elevations of up to .{{cite journal|last1=Collar|first1=N",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-五色鳥-0a921427",
+      "subject": "五色鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

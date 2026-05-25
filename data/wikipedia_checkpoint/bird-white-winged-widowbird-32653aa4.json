@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:31:08",
+  "requested_title": "White-winged Widowbird",
+  "resolved_title": "White-winged widowbird",
+  "title_aliases": [
+    "White-winged Widowbird"
+  ],
+  "bird_id": "bird-white-winged-widowbird-32653aa4",
+  "raw_file": "bird-white-winged-widowbird-32653aa4.json",
+  "bird": {
+    "id": "bird-white-winged-widowbird-32653aa4",
+    "name": "White-winged widowbird",
+    "english_name": "White-winged widowbird",
+    "latin_name": "Euplectes albonotatus",
+    "summary": "The white-winged widowbird (Euplectes albonotatus) is a species of passerine bird in the family Ploceidae native to Africa south of the Sah…",
+    "lat": "-25.26111111",
+    "lng": "27.10083333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Spiegelwida.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-匹兰斯堡狩猎保护区-136bb05b",
+      "name": "匹兰斯堡狩猎保护区",
+      "summary": "匹兰斯堡狩猎保护区（英語：Pilanesberg Game Reserve）位于南非西北省勒斯滕堡以北，与娱乐综合体太陽城相邻。当前，公园由西北公园旅游委员会管理。 这片地区被三组同心圆状，从周围的平原中拔地而起的山脉环绕。匹兰斯堡以一个…",
+      "lat": "-25.26111111",
+      "lng": "27.10083333"
+    },
+    {
+      "id": "loc-john-cassin-e85093a4",
+      "name": "John Cassin",
+      "summary": "John Cassin (September 6, 1813 – January 10, 1869) was an American ornithologist from Pennsylvania.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-winged-widowbird-32653aa4",
+      "subject": "White-winged widowbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-匹兰斯堡狩猎保护区-136bb05b",
+      "object": "匹兰斯堡狩猎保护区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-winged widowbird (Euplectes albonotatus) is a species of passerine bird in the family Ploceidae native to Africa south of the Sahara. It is highly sexually dimorphic in its breeding season, during which the male's yellow plumage turns dark and he gains more white feathers, contrasting with the female's predominantly pale coloration",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-widowbird-32653aa4",
+      "subject": "White-winged widowbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-john-cassin-e85093a4",
+      "object": "John Cassin",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-winged widowbird (Euplectes albonotatus) is a species of passerine bird in the family Ploceidae native to Africa south of the Sahara. It is highly sexually dimorphic in its breeding season, during which the male's yellow plumage turns dark and he gains more white feathers, contrasting with the female's predominantly pale coloration",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-widowbird-32653aa4",
+      "subject": "White-winged widowbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-winged widowbird (Euplectes albonotatus) is a species of passerine bird in the family Ploceidae native to Africa south of the Sahara. It is highly sexually dimorphic in its breeding season, during which the male's yellow plumage turns dark and he gains more white feathers, contrasting with the female's predominantly pale coloration",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-widowbird-32653aa4",
+      "subject": "White-winged widowbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

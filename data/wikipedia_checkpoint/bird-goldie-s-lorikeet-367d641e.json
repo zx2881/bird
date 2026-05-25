@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:06:10",
+  "requested_title": "Goldie's Lorikeet",
+  "resolved_title": "Goldie's lorikeet",
+  "title_aliases": [
+    "Goldie's Lorikeet"
+  ],
+  "bird_id": "bird-goldie-s-lorikeet-367d641e",
+  "raw_file": "bird-goldie-s-lorikeet-367d641e.json",
+  "bird": {
+    "id": "bird-goldie-s-lorikeet-367d641e",
+    "name": "Goldie's lorikeet",
+    "english_name": "Goldie's lorikeet",
+    "latin_name": "Glossoptilus goldiei",
+    "summary": "Goldie's lorikeet (Glossoptilus goldiei) is a species of parrot in the family Psittaculidae. It is the only species placed in the genus Glo…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Goldies_Lorikeet.jpg/960px-Goldies_Lorikeet.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-goldie-s-lorikeet-367d641e",
+      "subject": "Goldie's lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in forest and woodland in New Guinea, primarily at altitudes of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-goldie-s-lorikeet-367d641e",
+      "subject": "Goldie's lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

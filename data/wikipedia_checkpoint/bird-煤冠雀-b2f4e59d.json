@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:51:05",
+  "requested_title": "Coal-crested Finch",
+  "resolved_title": "Coal-crested finch",
+  "title_aliases": [
+    "Coal-crested Finch"
+  ],
+  "bird_id": "bird-煤冠雀-b2f4e59d",
+  "raw_file": "bird-煤冠雀-b2f4e59d.json",
+  "bird": {
+    "id": "bird-煤冠雀-b2f4e59d",
+    "name": "煤冠雀",
+    "english_name": "Coal-crested finch",
+    "latin_name": "Charitospiza eucosma",
+    "summary": "煤冠雀（学名：Charitospiza eucosma），是雀形目唐纳雀科的一种鸟类，属于单型的煤冠雀属（学名：Charitospiza）。 煤冠雀体重约10.5克，翼长约57毫米，喙宽度约4.2毫米，喙厚度约4.8毫米，嘴峰长约11.2毫米，跗蹠长约15.9毫米，尾长约45.…",
+    "lat": "-34",
+    "lng": "-64",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Charitospiza_eucosma_-_Coal-crested_Finch_%28male%29%3B_Cod%C3%B3%3B_Maranh%C3%A3o%2C_Brazil.jpg/960px-Charitospiza_eucosma_-_Coal-crested_Finch_%28male%29%3B_Cod%C3%B3%3B_Maranh%C3%A3o%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-煤冠雀-b2f4e59d",
+      "subject": "煤冠雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They have also been found in Northern Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-煤冠雀-b2f4e59d",
+      "subject": "煤冠雀",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is dry savanna",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-煤冠雀-b2f4e59d",
+      "subject": "煤冠雀",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-煤冠雀-b2f4e59d",
+      "subject": "煤冠雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

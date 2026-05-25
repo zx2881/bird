@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:53:23",
+  "requested_title": "Five-colored Munia",
+  "resolved_title": "Five-colored munia",
+  "title_aliases": [
+    "Five-colored Munia"
+  ],
+  "bird_id": "bird-五彩文鸟-e1cf862c",
+  "raw_file": "bird-五彩文鸟-e1cf862c.json",
+  "bird": {
+    "id": "bird-五彩文鸟-e1cf862c",
+    "name": "五彩文鸟",
+    "english_name": "Five-colored munia",
+    "latin_name": "Lonchura quinticolor",
+    "summary": "五彩文鸟（学名：Lonchura quinticolor），是梅花雀科文鸟属的一种，分布于东帝汶和印度尼西亚。该物种的保护状况被评为无危。 五彩文鸟的栖息地包括亚热带或热带的（低地）干燥疏灌丛、牧草地、耕地、亚热带或热带的（低地）干草原、灌溉地、乡村花园和亚热带或热带的湿润山地…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Five-coloured_Munia_%28Lonchura_quinticolor%29_%288074121105%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "name": "路易·皮埃尔·维埃约",
+      "summary": "路易·皮埃尔·维埃约（法語：Louis Pierre Vieillot，1748年5月10日—1830年8月24日）是法国的鳥類學家。 维埃约是第一批用卡尔·林奈式二名法科学描述鸟类的研究者之一。至少有26个他命名的鸟类至今仍在学术界使用…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-五彩文鸟-e1cf862c",
+      "subject": "五彩文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "object": "路易·皮埃尔·维埃约",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The five-colored munia (Lonchura quinticolor) is a common species of estrildid finch found in the Lesser Sunda Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-五彩文鸟-e1cf862c",
+      "subject": "五彩文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The five-colored munia (Lonchura quinticolor) is a common species of estrildid finch found in the Lesser Sunda Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-五彩文鸟-e1cf862c",
+      "subject": "五彩文鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits many different habitats even in artificial landscapes, forest, shrubland and wet grassland habitats",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-五彩文鸟-e1cf862c",
+      "subject": "五彩文鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits many different habitats even in artificial landscapes, forest, shrubland and wet grassland habitats",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-五彩文鸟-e1cf862c",
+      "subject": "五彩文鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

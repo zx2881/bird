@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:05:36",
+  "requested_title": "White-breasted Robin",
+  "resolved_title": "White-breasted robin",
+  "title_aliases": [
+    "White-breasted Robin"
+  ],
+  "bird_id": "bird-白胸鸲鹟-c428a7d7",
+  "raw_file": "bird-白胸鸲鹟-c428a7d7.json",
+  "bird": {
+    "id": "bird-白胸鸲鹟-c428a7d7",
+    "name": "白胸鸲鹟",
+    "english_name": "White-breasted robin",
+    "latin_name": "Eopsaltria georgiana",
+    "summary": "白胸鸲鹟（學名：Quoyornis georgianus）是一種屬於鸲鹟科的鸟纲動物。白胸鸲鹟是西澳大利亞州西南部份獨有的品種。与许多其他澳大利亚鸲鹟不同，牠們身上没有颜色鲜艳的羽毛，僅有一些灰色羽毛，以及位於腹部的白色羽毛。白胸鸲鹟與澳大利亞其他雀形动物的相似之處，就是當一對…",
+    "lat": "-26",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Eopsaltria_georgiana_-Denmark%2C_Western_Australia%2C_Australia-8.jpg/960px-Eopsaltria_georgiana_-Denmark%2C_Western_Australia%2C_Australia-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西澳大利亚州-2d3ebb38",
+      "name": "西澳大利亚州",
+      "summary": "西澳大利亚州（英語：Western Australia，缩写为WA），簡稱西澳，是澳大利亚联邦的州，位於澳大利亚西部，今劃分為142個地方政府區域，幅員廣達2,525,500平方公里，佔全國總面積1/3，是澳洲面積最廣大之州，亦全球面積僅…",
+      "lat": "-26",
+      "lng": "121"
+    },
+    {
+      "id": "loc-傑拉爾頓-2f7a3d95",
+      "name": "傑拉爾頓",
+      "summary": "杰拉尔顿（英語：Geraldton）是澳大利亚西澳大利亚州中西部地区最大的沿海城市，距西澳州首府--珀斯以北424公里。2015年杰拉尔顿市人口为41223人（澳大利亚国家统计局预计）， 比2011年人口普查统计人数（37160人）增长1…",
+      "lat": "-28.77444444",
+      "lng": "114.60888889"
+    },
+    {
+      "id": "loc-wooroloo-western-australia-021d8dfd",
+      "name": "Wooroloo, Western Australia",
+      "summary": "Wooroloo is a town on the outer fringe of the Perth metropolitan region, located off Great Eastern Highway in the easte…",
+      "lat": "-31.803",
+      "lng": "116.314"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白胸鸲鹟-c428a7d7",
+      "subject": "白胸鸲鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-西澳大利亚州-2d3ebb38",
+      "object": "西澳大利亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-breasted robin is found in Western Australia south from Geraldton to the southwest corner of the continent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白胸鸲鹟-c428a7d7",
+      "subject": "白胸鸲鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-傑拉爾頓-2f7a3d95",
+      "object": "傑拉爾頓",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-breasted robin is found in Western Australia south from Geraldton to the southwest corner of the continent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白胸鸲鹟-c428a7d7",
+      "subject": "白胸鸲鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-wooroloo-western-australia-021d8dfd",
+      "object": "Wooroloo, Western Australia",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the main southern part of its range, it is found in an area bounded by Jarrahdale and Woorooloo on or east of the Darling Scarp, and south-east to Beaufort Inlet",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白胸鸲鹟-c428a7d7",
+      "subject": "白胸鸲鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

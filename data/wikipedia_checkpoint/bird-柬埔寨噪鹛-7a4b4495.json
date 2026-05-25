@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:59:02",
+  "requested_title": "Cambodian Laughingthrush",
+  "resolved_title": "Cambodian laughingthrush",
+  "title_aliases": [
+    "Cambodian Laughingthrush"
+  ],
+  "bird_id": "bird-柬埔寨噪鹛-7a4b4495",
+  "raw_file": "bird-柬埔寨噪鹛-7a4b4495.json",
+  "bird": {
+    "id": "bird-柬埔寨噪鹛-7a4b4495",
+    "name": "柬埔寨噪鹛",
+    "english_name": "Cambodian laughingthrush",
+    "latin_name": "Garrulax ferrarius",
+    "summary": "柬埔寨噪鹛（学名：Garrulax ferrarius），是画眉科噪鹛属的一种，为柬埔寨的特有种。该物种的保护状况被评为近危。 柬埔寨噪鹛的栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林。",
+    "lat": "12.5",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Cambodian_Laughingthrush%2C_Cambodia_imported_from_iNaturalist_photo_337836190.jpg/960px-Cambodian_Laughingthrush%2C_Cambodia_imported_from_iNaturalist_photo_337836190.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-柬埔寨-9e7f3482",
+      "name": "柬埔寨",
+      "summary": "柬埔寨王國（高棉語：ព្រះរាជាណាចក្រកម្ពុជា，羅馬化：Preăh Réachéanachâk Kâmpŭchéa），通稱柬埔寨（高棉語：កម្ពុជា，羅馬化：Kâmpŭchéa），是位於東南亞中南半島的君主立憲制國家，…",
+      "lat": "12.5",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-柬埔寨噪鹛-7a4b4495",
+      "subject": "柬埔寨噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-柬埔寨-9e7f3482",
+      "object": "柬埔寨",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southwestern Cambodia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-柬埔寨噪鹛-7a4b4495",
+      "subject": "柬埔寨噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

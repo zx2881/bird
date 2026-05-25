@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:16:06",
+  "requested_title": "Beautiful Woodpecker",
+  "resolved_title": "Beautiful woodpecker",
+  "title_aliases": [
+    "Beautiful Woodpecker"
+  ],
+  "bird_id": "bird-beautiful-woodpecker-5a191106",
+  "raw_file": "bird-beautiful-woodpecker-5a191106.json",
+  "bird": {
+    "id": "bird-beautiful-woodpecker-5a191106",
+    "name": "Beautiful woodpecker",
+    "english_name": "Beautiful woodpecker",
+    "latin_name": "Melanerpes pulcher",
+    "summary": "The beautiful woodpecker (Melanerpes pulcher) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is endemic to…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Melanerpes_pulcher_nesting.jpg/960px-Melanerpes_pulcher_nesting.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-beautiful-woodpecker-5a191106",
+      "subject": "Beautiful woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It sometimes occurs in plantations, and occasionally in fragmented and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-beautiful-woodpecker-5a191106",
+      "subject": "Beautiful woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

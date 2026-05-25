@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:30:28",
+  "requested_title": "Rusty-backed Spinetail",
+  "resolved_title": "Rusty-backed spinetail",
+  "title_aliases": [
+    "Rusty-backed Spinetail"
+  ],
+  "bird_id": "bird-rusty-backed-spinetail-c7fe6743",
+  "raw_file": "bird-rusty-backed-spinetail-c7fe6743.json",
+  "bird": {
+    "id": "bird-rusty-backed-spinetail-c7fe6743",
+    "name": "Rusty-backed spinetail",
+    "english_name": "Rusty-backed spinetail",
+    "latin_name": "Cranioleuca vulpina",
+    "summary": "The rusty-backed spinetail (Cranioleuca vulpina) is a Neotropical species of bird in the Furnariinae subfamily of the ovenbird family Furna…",
+    "lat": "41.866269",
+    "lng": "-87.616997",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/ARREDIO-DO-RIO_%28Cranioleuca_vulpina%29_%2812298441466%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-american-ornithological-society-5fde31a2",
+      "name": "American Ornithological Society",
+      "summary": "The American Ornithological Society (AOS) is an ornithological organization based in the United States.",
+      "lat": "41.866269",
+      "lng": "-87.616997"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rusty-backed-spinetail-c7fe6743",
+      "subject": "Rusty-backed spinetail",
+      "predicate": "distributed_in",
+      "object_id": "loc-american-ornithological-society-5fde31a2",
+      "object": "American Ornithological Society",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "reiseri: northeastern Brazil The South American Classification Committee of the American Ornithological Society has only sight records from Guyana and so classes the species as hypothetical in that country. The rusty-backed spinetail inhabits a variety of landscapes, all of which are on or near water",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-backed-spinetail-c7fe6743",
+      "subject": "Rusty-backed spinetail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

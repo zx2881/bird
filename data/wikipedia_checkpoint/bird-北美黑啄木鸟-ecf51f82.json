@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:09:28",
+  "requested_title": "Pileated Woodpecker",
+  "resolved_title": "Pileated woodpecker",
+  "title_aliases": [
+    "Pileated Woodpecker"
+  ],
+  "bird_id": "bird-北美黑啄木鸟-ecf51f82",
+  "raw_file": "bird-北美黑啄木鸟-ecf51f82.json",
+  "bird": {
+    "id": "bird-北美黑啄木鸟-ecf51f82",
+    "name": "北美黑啄木鸟",
+    "english_name": "Pileated woodpecker",
+    "latin_name": "Dryocopus pileatus",
+    "summary": "北美黑啄木鸟（学名：Dryocopus pileatus；英语：pileated woodpecker）是黑啄木鸟属的一种大型啄木鸟，生活于北美的落叶林中，它是美国现存最大的啄木鸟，成鸟翼展可达66至75厘米（26至30英寸）。 分类 它有两个亚种，北方亚种体型稍大： D.",
+    "lat": "45",
+    "lng": "-84",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/PileatedWoodpeckerFeedingonTree%2C_crop.jpg/960px-PileatedWoodpeckerFeedingonTree%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-五大湖-ff49707f",
+      "name": "五大湖",
+      "summary": "五大湖（英語：Great Lakes）是位于加拿大与美国交界处的5個大型淡水湖泊，按面积从大到小分别为：苏必利尔湖（Lake Superior）、休伦湖（Lake Huron）、密歇根湖（Lake Michigan）、伊利湖（Lake E…",
+      "lat": "45",
+      "lng": "-84"
+    },
+    {
+      "id": "loc-加拿大北方森林-c3b9c159",
+      "name": "加拿大北方森林",
+      "summary": "加拿大北方森林是加拿大境內的北方針葉林區域，主要位于北纬50度以北。加拿大北方森林覆盖了该国近60%的陆地面积。加拿大北方森林東起紐芬蘭與拉布拉多省的最东端，西至育空地区与阿拉斯加的边界。 参考文献",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-pacific-coast-8138a6a5",
+      "name": "Pacific coast",
+      "summary": "Pacific coast may be used to reference any coastline that borders the Pacific Ocean.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北美黑啄木鸟-ecf51f82",
+      "subject": "北美黑啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-五大湖-ff49707f",
+      "object": "五大湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits deciduous forests in eastern North America, the Great Lakes, the boreal forests of Canada, and parts of the Pacific Coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北美黑啄木鸟-ecf51f82",
+      "subject": "北美黑啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大北方森林-c3b9c159",
+      "object": "加拿大北方森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits deciduous forests in eastern North America, the Great Lakes, the boreal forests of Canada, and parts of the Pacific Coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北美黑啄木鸟-ecf51f82",
+      "subject": "北美黑啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-pacific-coast-8138a6a5",
+      "object": "Pacific coast",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits deciduous forests in eastern North America, the Great Lakes, the boreal forests of Canada, and parts of the Pacific Coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北美黑啄木鸟-ecf51f82",
+      "subject": "北美黑啄木鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

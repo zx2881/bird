@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:16:20",
+  "requested_title": "Oriental Greenfinch",
+  "resolved_title": "Oriental greenfinch",
+  "title_aliases": [
+    "Oriental Greenfinch"
+  ],
+  "bird_id": "bird-金翅雀-0c7c1384",
+  "raw_file": "bird-金翅雀-0c7c1384.json",
+  "bird": {
+    "id": "bird-金翅雀-0c7c1384",
+    "name": "金翅雀",
+    "english_name": "Oriental greenfinch",
+    "latin_name": "Chloris sinica",
+    "summary": "金翅雀，（学名：Chloris sinica），又名金翅、绿雀、芦花黄雀、黄弹鸟、黄楠鸟、碛弱、谷雀。其种加词sinica，意为“中华的”。 特征 金翅雀是体形较小的雀形目鸟类，体长在12厘米左右，雄雌同形近色，雄性眼先和眼周部位羽毛深褐色近黑色，头顶耳羽和后颈羽毛灰色，羽稍略…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Oriental_Greenfinch_-_Honshu_-_Japan_S4E2635_%2823026479292%29.jpg/960px-Oriental_Greenfinch_-_Honshu_-_Japan_S4E2635_%2823026479292%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金翅雀-0c7c1384",
+      "subject": "金翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb| upright=0.7| Eggs of Oriental greenfinch MHNT The Oriental greenfinch (Chloris sinica), also known as the grey-capped greenfinch, is a small passerine bird in the finch family Fringillidae that breeds in broadleaf and conifer woodlands of the East Palearctic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金翅雀-0c7c1384",
+      "subject": "金翅雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

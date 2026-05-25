@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:40:05",
+  "requested_title": "Plain Flowerpecker",
+  "resolved_title": "Plain flowerpecker",
+  "title_aliases": [
+    "Plain Flowerpecker"
+  ],
+  "bird_id": "bird-纯色啄花鸟-50a28916",
+  "raw_file": "bird-纯色啄花鸟-50a28916.json",
+  "bird": {
+    "id": "bird-纯色啄花鸟-50a28916",
+    "name": "纯色啄花鸟",
+    "english_name": "Plain flowerpecker",
+    "latin_name": "Dicaeum minullum",
+    "summary": "The plain flowerpecker (Dicaeum minullum) is a bird in the family Dicaeidae. The species was described and given its binomial name by Rober…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Plain-Flowerpecker_cropped.jpg/960px-Plain-Flowerpecker_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-羅伯特-斯文豪-25b40245",
+      "name": "羅伯特·斯文豪",
+      "summary": "羅伯特·斯文豪，FRS（英語：Robert Swinhoe，1836年9月1日—1877年10月28日，又譯史溫侯、史溫豪或斯文侯，漢名郇和），是英国外交官與博物學家。他長期在華南地區與台灣從事於動物學研究，以在鳥類學研究領域的貢獻最為著…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-中華民國-e9cfdf77",
+      "name": "中華民國",
+      "summary": "中華民國是位於東亞的民主共和國，曾在国际上广泛代表中國，現今多通稱「臺灣」。1912年建國時以前清之中國既有領土為疆域，經歷1949年政府遷臺，現有效管轄範圍包括臺灣本島、澎湖群島及其附屬島嶼，以及中國大陸福建沿岸的金門群島、馬祖列島等島…",
+      "lat": "24",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纯色啄花鸟-50a28916",
+      "subject": "纯色啄花鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-羅伯特-斯文豪-25b40245",
+      "object": "羅伯特·斯文豪",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species was described and given its binomial name by Robert Swinhoe in 1870. It is found in the central Himalayas, through western Indonesia to Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纯色啄花鸟-50a28916",
+      "subject": "纯色啄花鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species was described and given its binomial name by Robert Swinhoe in 1870. It is found in the central Himalayas, through western Indonesia to Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纯色啄花鸟-50a28916",
+      "subject": "纯色啄花鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-中華民國-e9cfdf77",
+      "object": "中華民國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species was described and given its binomial name by Robert Swinhoe in 1870. It is found in the central Himalayas, through western Indonesia to Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纯色啄花鸟-50a28916",
+      "subject": "纯色啄花鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:58:06",
+  "requested_title": "Lesser Shortwing",
+  "resolved_title": "Lesser shortwing",
+  "title_aliases": [
+    "Lesser Shortwing"
+  ],
+  "bird_id": "bird-白喉短翅鸫-848fcfdf",
+  "raw_file": "bird-白喉短翅鸫-848fcfdf.json",
+  "bird": {
+    "id": "bird-白喉短翅鸫-848fcfdf",
+    "name": "白喉短翅鸫",
+    "english_name": "Lesser shortwing",
+    "latin_name": "Brachypteryx leucophris",
+    "summary": "The lesser shortwing (Brachypteryx leucophris) is a species of chat. This species is now classified in the family Muscicapidae.",
+    "lat": "0",
+    "lng": "102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lesser_Shortwing_0A2A7864.jpg/960px-Lesser_Shortwing_0A2A7864.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    },
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    },
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白喉短翅鸫-848fcfdf",
+      "subject": "白喉短翅鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in south-eastern Asia, Sumatra, Java and the Lesser Sundas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉短翅鸫-848fcfdf",
+      "subject": "白喉短翅鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in south-eastern Asia, Sumatra, Java and the Lesser Sundas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉短翅鸫-848fcfdf",
+      "subject": "白喉短翅鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in south-eastern Asia, Sumatra, Java and the Lesser Sundas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉短翅鸫-848fcfdf",
+      "subject": "白喉短翅鸫",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-白喉短翅鸫-848fcfdf",
+      "subject": "白喉短翅鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:10:03",
+  "requested_title": "Ocellated Thrasher",
+  "resolved_title": "Ocellated thrasher",
+  "title_aliases": [
+    "Ocellated Thrasher"
+  ],
+  "bird_id": "bird-ocellated-thrasher-888875fd",
+  "raw_file": "bird-ocellated-thrasher-888875fd.json",
+  "bird": {
+    "id": "bird-ocellated-thrasher-888875fd",
+    "name": "Ocellated thrasher",
+    "english_name": "Ocellated thrasher",
+    "latin_name": "Toxostoma ocellatum",
+    "summary": "The ocellated thrasher (Toxostoma ocellatum) is a species of bird in the family Mimidae. It is endemic to Mexico.",
+    "lat": "22.6",
+    "lng": "-100.43333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Ocellated_Trasher_-_Oaxaca_-_Mexico.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-聖路易斯波托西州-e81591ab",
+      "name": "聖路易斯波托西州",
+      "summary": "聖路易斯波托西州（西班牙語：San Luis Potosí）是墨西哥三十一個州之一，位於該國中北部。首府聖路易斯波托西市。 州名源於首府的原名San Luis Minas de Potosí，因為在那裡發現了可以比得上今天玻利維亞波托西的…",
+      "lat": "22.6",
+      "lng": "-100.43333333"
+    },
+    {
+      "id": "loc-墨西哥州-f02113e4",
+      "name": "墨西哥州",
+      "summary": "墨西哥州（西班牙語：Estado de México），簡稱墨州（西班牙語：Edoméx），是墨西哥31個州之一，位於該國中部，從北、東、西三個方向包圍聯邦區墨西哥城。 該州長期是革命制度黨的大本營。",
+      "lat": "19.35",
+      "lng": "-99.63333333"
+    },
+    {
+      "id": "loc-普埃布拉州-7e764552",
+      "name": "普埃布拉州",
+      "summary": "普埃布拉州（西班牙語：Puebla，西班牙語發音：[ˈpweβla]）是墨西哥中部偏東的一個州，位於首都墨西哥市以東。東為韋拉克魯斯州，西為伊達爾戈州、墨西哥州、莫雷洛斯州和特拉斯卡拉州，南為格雷羅州和瓦哈卡州。分217市，最大城市為普埃…",
+      "lat": "19",
+      "lng": "-97.88333333"
+    },
+    {
+      "id": "loc-瓦哈卡州-e005144e",
+      "name": "瓦哈卡州",
+      "summary": "瓦哈卡州（西班牙語：Oaxaca，發音：[waˈχaka] ）是墨西哥合眾國的一個州，位於該國的南部，臨太平洋。2005年估計人口為 3,506,821人。首府瓦哈卡市。 历史 名称 瓦哈卡的州名来自其首府瓦哈卡市的名称。这个名字来自纳瓦…",
+      "lat": "17.055",
+      "lng": "-96.655"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ocellated-thrasher-888875fd",
+      "subject": "Ocellated thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-聖路易斯波托西州-e81591ab",
+      "object": "聖路易斯波托西州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of ocellated thrasher is found in central Mexico from San Luis Potosí south to the states of Hidalgo and México",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ocellated-thrasher-888875fd",
+      "subject": "Ocellated thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥州-f02113e4",
+      "object": "墨西哥州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies of ocellated thrasher is found in central Mexico from San Luis Potosí south to the states of Hidalgo and México",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ocellated-thrasher-888875fd",
+      "subject": "Ocellated thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-普埃布拉州-7e764552",
+      "object": "普埃布拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "villai is found in southern Mexico between Puebla and Oaxaca. The ocellated thrasher inhabits a variety of landscapes including arid and semi-arid scrub and the brushy understory of oak and pine-oak forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ocellated-thrasher-888875fd",
+      "subject": "Ocellated thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦哈卡州-e005144e",
+      "object": "瓦哈卡州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "villai is found in southern Mexico between Puebla and Oaxaca. The ocellated thrasher inhabits a variety of landscapes including arid and semi-arid scrub and the brushy understory of oak and pine-oak forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ocellated-thrasher-888875fd",
+      "subject": "Ocellated thrasher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

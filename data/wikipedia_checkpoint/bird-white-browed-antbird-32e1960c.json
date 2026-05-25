@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:04:50",
+  "requested_title": "White-browed Antbird",
+  "resolved_title": "White-browed antbird",
+  "title_aliases": [
+    "White-browed Antbird"
+  ],
+  "bird_id": "bird-white-browed-antbird-32e1960c",
+  "raw_file": "bird-white-browed-antbird-32e1960c.json",
+  "bird": {
+    "id": "bird-white-browed-antbird-32e1960c",
+    "name": "White-browed antbird",
+    "english_name": "White-browed antbird",
+    "latin_name": "Myrmoborus leucophrys",
+    "summary": "The white-browed antbird (Myrmoborus leucophrys) is a species of perching bird in subfamily Thamnophilinae of family Thamnophilidae, the \"t…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Myrmoborus_leucophrys_-_White-browed_antbird_%28male%29.jpg/960px-Myrmoborus_leucophrys_-_White-browed_antbird_%28male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-browed-antbird-32e1960c",
+      "subject": "White-browed antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "angustirostris is often found in similar habitat but about equally on the edges and in overgrown clearings of terra firme forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-antbird-32e1960c",
+      "subject": "White-browed antbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:08:13",
+  "requested_title": "Oxapampa Antpitta",
+  "resolved_title": "Oxapampa antpitta",
+  "title_aliases": [
+    "Oxapampa Antpitta"
+  ],
+  "bird_id": "bird-oxapampa-antpitta-d9051d46",
+  "raw_file": "bird-oxapampa-antpitta-d9051d46.json",
+  "bird": {
+    "id": "bird-oxapampa-antpitta-d9051d46",
+    "name": "Oxapampa antpitta",
+    "english_name": "Oxapampa antpitta",
+    "latin_name": "Grallaria centralis",
+    "summary": "The Oxapampa antpitta (Grallaria centralis) is a species of bird in the family Grallariidae. It is endemic to Peru.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Grallaria_centralis_Oxapampa_Antipitta%3B_Mariposa%2C_Jun%C3%ADn%2C_Peru.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-oxapampa-antpitta-d9051d46",
+      "subject": "Oxapampa antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "That species inhabits the understory of humid montane forest and secondary forest where it favors stands of bamboo and other dense undergrowth",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-oxapampa-antpitta-d9051d46",
+      "subject": "Oxapampa antpitta",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "That species inhabits the understory of humid montane forest and secondary forest where it favors stands of bamboo and other dense undergrowth",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-oxapampa-antpitta-d9051d46",
+      "subject": "Oxapampa antpitta",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-oxapampa-antpitta-d9051d46",
+      "subject": "Oxapampa antpitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The IUCN follows HBW taxonomy and so has not assessed the Oxapampa antpitta separately from the chestnut antpitta. \"Considering that the geographic range of the present species is even smaller than that considered for the Chestnut Antpitta (sensu lato), and in the face of suspected population declines due to ongoing habitat loss for most birds in that region...the Oxapampa Antpitta undoubtedly deserves a rating of Near Threatened or higher.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

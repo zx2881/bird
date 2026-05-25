@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:22:41",
+  "requested_title": "Pearl-spotted Owlet",
+  "resolved_title": "Pearl-spotted owlet",
+  "title_aliases": [
+    "Pearl-spotted Owlet"
+  ],
+  "bird_id": "bird-pearl-spotted-owlet-26aebcc3",
+  "raw_file": "bird-pearl-spotted-owlet-26aebcc3.json",
+  "bird": {
+    "id": "bird-pearl-spotted-owlet-26aebcc3",
+    "name": "Pearl-spotted owlet",
+    "english_name": "Pearl-spotted owlet",
+    "latin_name": "Glaucidium perlatum",
+    "summary": "The pearl-spotted owlet (Glaucidium perlatum) is a small bird of prey found in sub-Saharan Africa. They belong to the Strigidae family, oth…",
+    "lat": "-22",
+    "lng": "17",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Pearl-spotted_owlet_%28Glaucidium_perlatum_diurnum%29.jpg/960px-Pearl-spotted_owlet_%28Glaucidium_perlatum_diurnum%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "name": "路易·皮埃尔·维埃约",
+      "summary": "路易·皮埃尔·维埃约（法語：Louis Pierre Vieillot，1748年5月10日—1830年8月24日）是法国的鳥類學家。 维埃约是第一批用卡尔·林奈式二名法科学描述鸟类的研究者之一。至少有26个他命名的鸟类至今仍在学术界使用…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-纳米比亚-0e5bfcb6",
+      "name": "纳米比亚",
+      "summary": "納米比亞共和國（德語：Republik Namibia，英語：Republic of Namibia），通稱納米比亞（Namibia），是位於南部非洲西面的共和國。它西部瀕臨大西洋，北部接壤贊比亞和安哥拉，東部連接博茨瓦纳，而在南部則與南…",
+      "lat": "-22",
+      "lng": "17"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pearl-spotted-owlet-26aebcc3",
+      "subject": "Pearl-spotted owlet",
+      "predicate": "distributed_in",
+      "object_id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "object": "路易·皮埃尔·维埃约",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "licua in South Africa | status = LC | status_system = IUCN3.1 | status_ref = | status2 = CITES_A2 | status2_system = CITES | status2_ref = | taxon = Glaucidium perlatum | authority = (Vieillot, 1817) }} The pearl-spotted owlet (Glaucidium perlatum) is a small bird of prey found in sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pearl-spotted-owlet-26aebcc3",
+      "subject": "Pearl-spotted owlet",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "licua in South Africa | status = LC | status_system = IUCN3.1 | status_ref = | status2 = CITES_A2 | status2_system = CITES | status2_ref = | taxon = Glaucidium perlatum | authority = (Vieillot, 1817) }} The pearl-spotted owlet (Glaucidium perlatum) is a small bird of prey found in sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pearl-spotted-owlet-26aebcc3",
+      "subject": "Pearl-spotted owlet",
+      "predicate": "distributed_in",
+      "object_id": "loc-纳米比亚-0e5bfcb6",
+      "object": "纳米比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pearl-spotted owlet occurs in sub-Saharan Africa, particularly widespread across savanna, in southern Africa, across north and central Namibia, south to southern limit of arid bushveld and woodland in south Namibia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pearl-spotted-owlet-26aebcc3",
+      "subject": "Pearl-spotted owlet",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The pearl-spotted owlet occurs in sub-Saharan Africa, particularly widespread across savanna, in southern Africa, across north and central Namibia, south to southern limit of arid bushveld and woodland in south Namibia",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-pearl-spotted-owlet-26aebcc3",
+      "subject": "Pearl-spotted owlet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

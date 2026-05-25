@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:18:08",
+  "requested_title": "Abbott's Starling",
+  "resolved_title": "Abbott's starling",
+  "title_aliases": [
+    "Abbott's Starling"
+  ],
+  "bird_id": "bird-艾博特氏紫椋鸟-ad4360cf",
+  "raw_file": "bird-艾博特氏紫椋鸟-ad4360cf.json",
+  "bird": {
+    "id": "bird-艾博特氏紫椋鸟-ad4360cf",
+    "name": "艾博特氏紫椋鸟",
+    "english_name": "Abbott's starling",
+    "latin_name": "Arizelopsar femoralis",
+    "summary": "艾博特氏紫椋鸟（Cinnyricinclus femoralis）是椋鸟科的一种鸟，在坦桑尼亚和肯尼亚发现。艾博特氏紫椋鸟在亚热带或热带的雨林中生活，由于栖息地面积不断减小，存活面临威胁。 参考文献 BirdLife International 2004.",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Abbott%27s_Starling_%28adult%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-艾博特氏紫椋鸟-ad4360cf",
+      "subject": "艾博特氏紫椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艾博特氏紫椋鸟-ad4360cf",
+      "subject": "艾博特氏紫椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-艾博特氏紫椋鸟-ad4360cf",
+      "subject": "艾博特氏紫椋鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-艾博特氏紫椋鸟-ad4360cf",
+      "subject": "艾博特氏紫椋鸟",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-艾博特氏紫椋鸟-ad4360cf",
+      "subject": "艾博特氏紫椋鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss, and its population is estimated at 2500–9999. This species, at long, is the smallest species of starling.Starlings & Mynas (Helm Identification Guide) by Chris Feare",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-艾博特氏紫椋鸟-ad4360cf",
+      "subject": "艾博特氏紫椋鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Deforestation due to illegal logging and agriculture are considered major threats to Abbott's starling",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

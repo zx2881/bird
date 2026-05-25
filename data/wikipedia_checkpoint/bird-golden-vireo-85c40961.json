@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:32:19",
+  "requested_title": "Golden Vireo",
+  "resolved_title": "Golden vireo",
+  "title_aliases": [
+    "Golden Vireo"
+  ],
+  "bird_id": "bird-golden-vireo-85c40961",
+  "raw_file": "bird-golden-vireo-85c40961.json",
+  "bird": {
+    "id": "bird-golden-vireo-85c40961",
+    "name": "Golden vireo",
+    "english_name": "Golden vireo",
+    "latin_name": "Vireo hypochryseus",
+    "summary": "The golden vireo (Vireo hypochryseus), or golden greenlet, is a species of bird in the family Vireonidae, the vireos, greenlets, and shrike…",
+    "lat": "21.51666667",
+    "lng": "-106.48333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Golden_Vireo.jpg/960px-Golden_Vireo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-瑪麗亞群島-91115d1d",
+      "name": "瑪麗亞群島",
+      "summary": "瑪麗亞群島（西班牙語：Islas Marías），又称三瑪麗亞群島（Islas Tres Marías），是墨西哥的群島，位於太平洋海域，距離納亞里特州沿岸約100公里，由9個島嶼組成，面積244.97平方公里，最高點海拔高度616米，2…",
+      "lat": "21.51666667",
+      "lng": "-106.48333333"
+    },
+    {
+      "id": "loc-納亞里特州-2b9132aa",
+      "name": "納亞里特州",
+      "summary": "納亞里特州 （西班牙語：Nayarit）是墨西哥三十一個州之一，西臨太平洋。首府特皮克，下分20市。 1887年建立準州，1917年建州。",
+      "lat": "22",
+      "lng": "-105"
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-vireo-85c40961",
+      "subject": "Golden vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-瑪麗亞群島-91115d1d",
+      "object": "瑪麗亞群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sordidus is found only on the Tres Marías Islands off Nayarit. The species inhabits deciduous and gallery forest, arid to semi-humid scrublands, and plantations in the tropical zone.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-vireo-85c40961",
+      "subject": "Golden vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-納亞里特州-2b9132aa",
+      "object": "納亞里特州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sordidus is found only on the Tres Marías Islands off Nayarit. The species inhabits deciduous and gallery forest, arid to semi-humid scrublands, and plantations in the tropical zone.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-vireo-85c40961",
+      "subject": "Golden vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "sordidus is found only on the Tres Marías Islands off Nayarit. The species inhabits deciduous and gallery forest, arid to semi-humid scrublands, and plantations in the tropical zone.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-vireo-85c40961",
+      "subject": "Golden vireo",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "sordidus is found only on the Tres Marías Islands off Nayarit. The species inhabits deciduous and gallery forest, arid to semi-humid scrublands, and plantations in the tropical zone.{{cite book | last = | first = | title =Check-list of North American Birds | publisher =American Ornithologists' Union |edition =7th | date =1998 | location =Washington, D.C",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-golden-vireo-85c40961",
+      "subject": "Golden vireo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-golden-vireo-85c40961",
+      "subject": "Golden vireo",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. \"Habitat destruction or degradation may jeopardize the viability of populations of Golden Vireo.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T12:01:55",
+  "requested_title": "New Britain Thrush",
+  "resolved_title": "New Britain thrush",
+  "title_aliases": [
+    "New Britain Thrush"
+  ],
+  "bird_id": "bird-new-britain-thrush-9b613ddb",
+  "raw_file": "bird-new-britain-thrush-9b613ddb.json",
+  "bird": {
+    "id": "bird-new-britain-thrush-9b613ddb",
+    "name": "New Britain thrush",
+    "english_name": "New Britain thrush",
+    "latin_name": "Zoothera talaseae",
+    "summary": "The New Britain thrush (Zoothera talaseae) is a species of bird in the thrush family Turdidae. It is found in the montane forests on the Pa…",
+    "lat": "-6",
+    "lng": "147",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    },
+    {
+      "id": "loc-新不列顛-c4ab96f2",
+      "name": "新不列顛",
+      "summary": "New Britain (Tok Pisin: Niu Briten) is the largest island in the Bismarck Archipelago, part of the Islands Region of Pa…",
+      "lat": "-5.75",
+      "lng": "150.6"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-new-britain-thrush-9b613ddb",
+      "subject": "New Britain thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the montane forests on the Papua New Guinean islands of New Britain and Umboi",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-new-britain-thrush-9b613ddb",
+      "subject": "New Britain thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-新不列顛-c4ab96f2",
+      "object": "新不列顛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the montane forests on the Papua New Guinean islands of New Britain and Umboi",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-new-britain-thrush-9b613ddb",
+      "subject": "New Britain thrush",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the montane forests on the Papua New Guinean islands of New Britain and Umboi",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-new-britain-thrush-9b613ddb",
+      "subject": "New Britain thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

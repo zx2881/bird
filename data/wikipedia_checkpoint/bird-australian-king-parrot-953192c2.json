@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:52:10",
+  "requested_title": "Australian King Parrot",
+  "resolved_title": "Australian king parrot",
+  "title_aliases": [
+    "Australian King Parrot"
+  ],
+  "bird_id": "bird-australian-king-parrot-953192c2",
+  "raw_file": "bird-australian-king-parrot-953192c2.json",
+  "bird": {
+    "id": "bird-australian-king-parrot-953192c2",
+    "name": "Australian king parrot",
+    "english_name": "Australian king parrot",
+    "latin_name": "Alisterus scapularis",
+    "summary": "The Australian king parrot (Alisterus scapularis) is a species of parrot endemic to eastern Australia ranging from Cooktown in Queensland t…",
+    "lat": "-35.29305556",
+    "lng": "149.12694444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Australian_King_Parrot_male_4737.jpg/960px-Australian_King_Parrot_male_4737.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-溫帶雨林-3512fcb7",
+      "name": "溫帶雨林",
+      "summary": "温带季雨林通称溫帶雨林，是地球上中緯度的高雨量地區的針葉樹或闊葉樹季雨林。它們大多數位於海洋性濕潤氣候區，例如北美洲西北部（自加州西北部至阿拉斯加東南部）、歐洲西北部（英國、愛爾蘭、挪威）、智利南部、澳洲東南部（塔斯曼尼亞省、維多利亞省）…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-堪培拉-34609af2",
+      "name": "堪培拉",
+      "summary": "坎培拉（英語：Canberra，/ˈkænbərə/），或譯堪培拉，是澳洲首都，同时也是首都领地的首府。堪培拉是澳洲最大的內陸城市，人口46.6萬人（截至2023年6月），在澳洲所有城市裡排名第八。座落於澳大利亚首都领地北端，距離澳洲東岸…",
+      "lat": "-35.29305556",
+      "lng": "149.12694444"
+    },
+    {
+      "id": "loc-悉尼-d08edffc",
+      "name": "悉尼",
+      "summary": "雪梨（英語：Sydney），位於澳洲东南沿海地带，是新南威尔士州的首府，是澳大利亚人口第一多也是人口最稠密的城市。都會區人口5,312,123人（2019）。雪梨人在英語中俗稱「Sydneysider」。 雪梨是歐洲首個澳洲定居點以及罪犯…",
+      "lat": "-33.86777778",
+      "lng": "151.21"
+    },
+    {
+      "id": "loc-carnarvon-gorge-6dc7d7f5",
+      "name": "Carnarvon Gorge",
+      "summary": "Carnarvon Gorge is located in the Southern Brigalow Belt bioregion in Central Queensland (Australia), 593 km northwest…",
+      "lat": "-25.03182778",
+      "lng": "148.18333889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-australian-king-parrot-953192c2",
+      "subject": "Australian king parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-溫帶雨林-3512fcb7",
+      "object": "溫帶雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Found in humid and heavily forested upland regions of the eastern portion of the continent, including eucalyptus wooded areas in and directly adjacent to subtropical and temperate rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-australian-king-parrot-953192c2",
+      "subject": "Australian king parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-堪培拉-34609af2",
+      "object": "堪培拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Further from their normal eastern upland habitat, they are also found in Canberra during winter, the outer western and northern suburbs of Sydney, and the Carnarvon Gorge in central Queensland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-australian-king-parrot-953192c2",
+      "subject": "Australian king parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-悉尼-d08edffc",
+      "object": "悉尼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Further from their normal eastern upland habitat, they are also found in Canberra during winter, the outer western and northern suburbs of Sydney, and the Carnarvon Gorge in central Queensland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-australian-king-parrot-953192c2",
+      "subject": "Australian king parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-carnarvon-gorge-6dc7d7f5",
+      "object": "Carnarvon Gorge",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Further from their normal eastern upland habitat, they are also found in Canberra during winter, the outer western and northern suburbs of Sydney, and the Carnarvon Gorge in central Queensland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-australian-king-parrot-953192c2",
+      "subject": "Australian king parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:35:51",
+  "requested_title": "Ventriloquial Oriole",
+  "resolved_title": "Ventriloquial oriole",
+  "title_aliases": [
+    "Ventriloquial Oriole"
+  ],
+  "bird_id": "bird-ventriloquial-oriole-99b05ccd",
+  "raw_file": "bird-ventriloquial-oriole-99b05ccd.json",
+  "bird": {
+    "id": "bird-ventriloquial-oriole-99b05ccd",
+    "name": "Ventriloquial oriole",
+    "english_name": "Ventriloquial oriole",
+    "latin_name": "Oriolus consobrinus",
+    "summary": "The ventriloquial oriole (Oriolus consobrinus) is a species of bird in the family Oriolidae. It is found in Southeast Asia through Borneo a…",
+    "lat": "0",
+    "lng": "114",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ventriloquial_Oriole.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    },
+    {
+      "id": "loc-巴拉望省-b942e012",
+      "name": "巴拉望省",
+      "summary": "巴拉望省（Palawan），是菲律宾民马罗巴区下属的一个省，由主岛巴拉望岛，以及周边的卡拉棉群岛（1,753平方公里）、库约群岛、巴拉巴克岛等小岛组成，南隔巴拉巴克海峡与加里曼丹岛相望。另外，菲律宾声称部分南沙群岛（卡拉延群島）也归属该省…",
+      "lat": "10",
+      "lng": "118.83"
+    },
+    {
+      "id": "loc-culion-b9ffa0c0",
+      "name": "Culion",
+      "summary": "Culion, officially the Municipality of Culion (Tagalog: Bayan ng Culion), is a municipality in the province of Palawan,…",
+      "lat": "11.89",
+      "lng": "120.022"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ventriloquial-oriole-99b05ccd",
+      "subject": "Ventriloquial oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Southeast Asia through Borneo and on the islands of Palawan and Culion in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ventriloquial-oriole-99b05ccd",
+      "subject": "Ventriloquial oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉望省-b942e012",
+      "object": "巴拉望省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Southeast Asia through Borneo and on the islands of Palawan and Culion in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ventriloquial-oriole-99b05ccd",
+      "subject": "Ventriloquial oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-culion-b9ffa0c0",
+      "object": "Culion",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Southeast Asia through Borneo and on the islands of Palawan and Culion in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ventriloquial-oriole-99b05ccd",
+      "subject": "Ventriloquial oriole",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-ventriloquial-oriole-99b05ccd",
+      "subject": "Ventriloquial oriole",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its natural habitat is subtropical or tropical moist lowland forests where it is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

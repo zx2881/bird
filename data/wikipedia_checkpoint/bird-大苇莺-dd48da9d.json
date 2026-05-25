@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:33:10",
+  "requested_title": "Great Reed Warbler",
+  "resolved_title": "Great reed warbler",
+  "title_aliases": [
+    "Great Reed Warbler"
+  ],
+  "bird_id": "bird-大苇莺-dd48da9d",
+  "raw_file": "bird-大苇莺-dd48da9d.json",
+  "bird": {
+    "id": "bird-大苇莺-dd48da9d",
+    "name": "大苇莺",
+    "english_name": "Great reed warbler",
+    "latin_name": "Acrocephalus (bird) arundinaceus",
+    "summary": "大苇莺（学名：Acrocephalus arundinaceus）为苇莺科苇莺属的鸟类。该物种分布在从欧洲到中亚的广大地区，其模式产地在北欧格但斯克。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Drosselrohrs%C3%A4nger_Great_reed_warbler.jpg/960px-Drosselrohrs%C3%A4nger_Great_reed_warbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-western-palaearctic-738dfb19",
+      "name": "Western Palaearctic",
+      "summary": "The Western Palaearctic or Western Palearctic is part of the Palaearctic realm, one of the eight biogeographic realms d…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大苇莺-dd48da9d",
+      "subject": "大苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-western-palaearctic-738dfb19",
+      "object": "Western Palaearctic",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds throughout mainland Europe and the Western Palearctic and migrates to sub-Saharan Africa in the winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大苇莺-dd48da9d",
+      "subject": "大苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds throughout mainland Europe and the Western Palearctic and migrates to sub-Saharan Africa in the winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大苇莺-dd48da9d",
+      "subject": "大苇莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

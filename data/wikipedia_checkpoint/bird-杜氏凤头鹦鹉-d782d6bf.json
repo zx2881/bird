@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:31:19",
+  "requested_title": "Solomons Corella",
+  "resolved_title": "Solomons corella",
+  "title_aliases": [
+    "Solomons Corella"
+  ],
+  "bird_id": "bird-杜氏凤头鹦鹉-d782d6bf",
+  "raw_file": "bird-杜氏凤头鹦鹉-d782d6bf.json",
+  "bird": {
+    "id": "bird-杜氏凤头鹦鹉-d782d6bf",
+    "name": "杜氏凤头鹦鹉",
+    "english_name": "Solomons corella",
+    "latin_name": "Cacatua ducorpsii",
+    "summary": "杜氏凤头鹦鹉（学名：Cacatua ducorpsii），又称杜科波氏凤头鹦鹉，体长33厘米，寿命50年。其分布在所罗门群岛上。活动在海拔700米左右的森林中，食物有种子、浆果、水果、坚果、嫩芽、树叶、花朵及昆虫。繁殖期为每年7-12月，每次产卵2-3颗，孵化期约28天，羽化期…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Salomonenkakadu.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-杜氏凤头鹦鹉-d782d6bf",
+      "subject": "杜氏凤头鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits lowland rainforests, secondary forests, cleared areas and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-杜氏凤头鹦鹉-d782d6bf",
+      "subject": "杜氏凤头鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits lowland rainforests, secondary forests, cleared areas and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-杜氏凤头鹦鹉-d782d6bf",
+      "subject": "杜氏凤头鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

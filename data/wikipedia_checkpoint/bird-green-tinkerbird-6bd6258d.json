@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:56:49",
+  "requested_title": "Green Tinkerbird",
+  "resolved_title": "Green tinkerbird",
+  "title_aliases": [
+    "Green Tinkerbird"
+  ],
+  "bird_id": "bird-green-tinkerbird-6bd6258d",
+  "raw_file": "bird-green-tinkerbird-6bd6258d.json",
+  "bird": {
+    "id": "bird-green-tinkerbird-6bd6258d",
+    "name": "Green tinkerbird",
+    "english_name": "Green tinkerbird",
+    "latin_name": "Pogoniulus simplex",
+    "summary": "The green tinkerbird (Pogoniulus simplex) is a species of bird in the African barbet family Lybiidae. It is found in East Africa (Kenya, Ma…",
+    "lat": "-6",
+    "lng": "36",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Green_Tinkerbird%2C_Arabuko-Sokoke_Forest%2C_Kenya_CD5A4273_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-東部弧形山脈-558353c8",
+      "name": "東部弧形山脈",
+      "summary": "東部弧形山脈是東非的山脈，位於東非大裂谷，橫跨肯亞和坦桑尼亞，該山脈在3千萬年前形成，森林覆蓋約5,500平方公里，砍伐森林在過去100年發生。 外部連結 Eastern Arc Mountains Conservation Endowm…",
+      "lat": "-6",
+      "lng": "36"
+    },
+    {
+      "id": "loc-肯尼亚东非大裂谷的湖泊系统-06d0fcd1",
+      "name": "肯尼亚东非大裂谷的湖泊系统",
+      "summary": "肯尼亚东非大裂谷的湖泊系统是肯尼亚的一处世界遗产，由三个浅水湖泊组成，分别为博戈尼亚湖、纳库鲁湖和爱尔曼特塔湖。肯尼亚东非大裂谷的湖泊系统于2011年列入世界遗产名录，面积32 034 ha，缓冲区面积3 581 ha 。 登录基准 该世…",
+      "lat": "0.4425",
+      "lng": "36.24"
+    },
+    {
+      "id": "loc-桑給巴爾-4602f4f1",
+      "name": "桑給巴爾",
+      "summary": "桑給[給]（jǐ[jǐ]）巴爾（斯瓦希里语：Jamhuri ya Watu wa Zanzibar；阿拉伯語：زِنْجِبَار，羅馬化：Zinjibār），早期也譯作桑其巴魯，是位於東非坦桑尼亞聯合共和國東部的半自治区，包括印度洋的桑…",
+      "lat": "-5.9",
+      "lng": "39.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-tinkerbird-6bd6258d",
+      "subject": "Green tinkerbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-東部弧形山脈-558353c8",
+      "object": "東部弧形山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found along the East African coastal plain, inhabiting the foothills of the Eastern Arc Mountains and the Great Rift Valley",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-tinkerbird-6bd6258d",
+      "subject": "Green tinkerbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚东非大裂谷的湖泊系统-06d0fcd1",
+      "object": "肯尼亚东非大裂谷的湖泊系统",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found along the East African coastal plain, inhabiting the foothills of the Eastern Arc Mountains and the Great Rift Valley",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-tinkerbird-6bd6258d",
+      "subject": "Green tinkerbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-桑給巴爾-4602f4f1",
+      "object": "桑給巴爾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in the island of Zanzibar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-tinkerbird-6bd6258d",
+      "subject": "Green tinkerbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

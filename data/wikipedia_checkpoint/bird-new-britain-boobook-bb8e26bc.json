@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:21:07",
+  "requested_title": "New Britain Boobook",
+  "resolved_title": "New Britain boobook",
+  "title_aliases": [
+    "New Britain Boobook"
+  ],
+  "bird_id": "bird-new-britain-boobook-bb8e26bc",
+  "raw_file": "bird-new-britain-boobook-bb8e26bc.json",
+  "bird": {
+    "id": "bird-new-britain-boobook-bb8e26bc",
+    "name": "New Britain boobook",
+    "english_name": "New Britain boobook",
+    "latin_name": "Ninox odiosa",
+    "summary": "The New Britain boobook (Ninox odiosa), also known as the spangled boobook, russet boobook, New Britain hawk-owl or russet hawk-owl, is a s…",
+    "lat": "-3.33",
+    "lng": "152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Ninox_odiosa_50656522.jpg/960px-Ninox_odiosa_50656522.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新爱尔兰岛-ed4948c3",
+      "name": "新爱尔兰岛",
+      "summary": "新爱尔兰岛（New Ireland island，巴布亚皮钦语：Niu Ailan），屬於巴布亞新幾內亞的一個島嶼，是太平洋西南部俾斯麦群岛主要岛屿之一，位于新不列颠岛东北，隔圣乔治海峡与其相望，全岛东西狭长，形似一支火绳枪，面积约865…",
+      "lat": "-3.33",
+      "lng": "152"
+    },
+    {
+      "id": "loc-平均海拔-ddd8aa74",
+      "name": "平均海拔",
+      "summary": "平均海拔（英語：Above mean sea level，缩写：AMSL）又称为海拔高度，是指以平均海平面高度作为高程基准面起测定的地面或空中高度，对地理测量，飞行控制，电台设定，气象研究都有决定性作用。 所谓平均海平面高度实际是并不存在…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-new-britain-boobook-bb8e26bc",
+      "subject": "New Britain boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-新爱尔兰岛-ed4948c3",
+      "object": "新爱尔兰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in the lowlands and hills of the New Britain and New Ireland endemic bird areas at elevations of up to asl",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-new-britain-boobook-bb8e26bc",
+      "subject": "New Britain boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-平均海拔-ddd8aa74",
+      "object": "平均海拔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in the lowlands and hills of the New Britain and New Ireland endemic bird areas at elevations of up to asl",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-new-britain-boobook-bb8e26bc",
+      "subject": "New Britain boobook",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

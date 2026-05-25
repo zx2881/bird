@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:56:16",
+  "requested_title": "Pale-billed Parrotbill",
+  "resolved_title": "Pale-billed parrotbill",
+  "title_aliases": [
+    "Pale-billed Parrotbill"
+  ],
+  "bird_id": "bird-黑眉鸦雀-59b7c48d",
+  "raw_file": "bird-黑眉鸦雀-59b7c48d.json",
+  "bird": {
+    "id": "bird-黑眉鸦雀-59b7c48d",
+    "name": "黑眉鸦雀",
+    "english_name": "Pale-billed parrotbill",
+    "latin_name": "Suthora atrosuperciliaris",
+    "summary": "黑眉鸦雀（学名：Suthora atrosuperciliaris）为鸦雀科的鸟类。分布于巴基斯坦、锡金、印度、缅甸、老挝以及中国大陆的云南等地，多见于躲藏密荫处以及在高草丛间上下穿梭。该物种的模式产地在印度阿萨姆邦。 亚种 黑眉鸦雀指名亚种（学名：Suthora atrosu…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Suthora_atrosuperciliaris-A9_02940.jpg/960px-Suthora_atrosuperciliaris-A9_02940.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-henry-haversham-godwin-austen-18aaf6b3",
+      "name": "Henry Haversham Godwin-Austen",
+      "summary": "Henry Haversham Godwin-Austen (6 July 1834 – 2 December 1923), known until 1854 as Henry Haversham Austen, was an Engli…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑眉鸦雀-59b7c48d",
+      "subject": "黑眉鸦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-henry-haversham-godwin-austen-18aaf6b3",
+      "object": "Henry Haversham Godwin-Austen",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| status = LC | status_system = IUCN3.1 | status_ref = | genus = Suthora | species = atrosuperciliaris | authority = (Godwin-Austen, 1877) | synonyms = Paradoxornis atrosuperciliaris Chleuasicus atrosuperciliaris }} thumb|left| Illustration of the pale-billed parrotbill The pale-billed parrotbill (Suthora atrosuperciliaris) is a small and round bird with a short tail that was first found in China, where it still resides in evergreen forests or in habitats with bamboo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑眉鸦雀-59b7c48d",
+      "subject": "黑眉鸦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| status = LC | status_system = IUCN3.1 | status_ref = | genus = Suthora | species = atrosuperciliaris | authority = (Godwin-Austen, 1877) | synonyms = Paradoxornis atrosuperciliaris Chleuasicus atrosuperciliaris }} thumb|left| Illustration of the pale-billed parrotbill The pale-billed parrotbill (Suthora atrosuperciliaris) is a small and round bird with a short tail that was first found in China, where it still resides in evergreen forests or in habitats with bamboo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑眉鸦雀-59b7c48d",
+      "subject": "黑眉鸦雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黑眉鸦雀-59b7c48d",
+      "subject": "黑眉鸦雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Despite not being categorized as a globally threatened species, deforestation may lead to loss of habitat, potentially leading the species to be recognized by the global community as a threatened species",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

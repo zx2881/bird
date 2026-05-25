@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:29:06",
+  "requested_title": "Golden Babbler",
+  "resolved_title": "Golden babbler",
+  "title_aliases": [
+    "Golden Babbler"
+  ],
+  "bird_id": "bird-金头穗鹛-094eaf82",
+  "raw_file": "bird-金头穗鹛-094eaf82.json",
+  "bird": {
+    "id": "bird-金头穗鹛-094eaf82",
+    "name": "金头穗鹛",
+    "english_name": "Golden babbler",
+    "latin_name": "Cyanoderma chrysaeum",
+    "summary": "金头穗鹛（学名：Cyanoderma chrysaeum），是画眉科的一种，分布于老挝、孟加拉国、不丹、中国大陆、越南、印度、泰国、印度尼西亚、缅甸、马来西亚、尼泊尔和柬埔寨。该物种的保护状况被评为无危。 金头穗鹛的平均体重约为7.8克。栖息地包括亚热带或热带的（低地）湿润疏灌…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Golden_Babbler_-_Bhutan.jpg/960px-Golden_Babbler_-_Bhutan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-eastern-himalayas-e24606b2",
+      "name": "Eastern Himalayas",
+      "summary": "The Eastern Himalayas extend from eastern Nepal across Northeast India, Bhutan, the Tibet Autonomous Region to Yunnan i…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金头穗鹛-094eaf82",
+      "subject": "金头穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-eastern-himalayas-e24606b2",
+      "object": "Eastern Himalayas",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs from the foothills of the Eastern Himalayas to Southeast Asia and inhabits subtropical lowland and montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金头穗鹛-094eaf82",
+      "subject": "金头穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs from the foothills of the Eastern Himalayas to Southeast Asia and inhabits subtropical lowland and montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金头穗鹛-094eaf82",
+      "subject": "金头穗鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs from the foothills of the Eastern Himalayas to Southeast Asia and inhabits subtropical lowland and montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-金头穗鹛-094eaf82",
+      "subject": "金头穗鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

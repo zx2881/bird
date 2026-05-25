@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:07:30",
+  "requested_title": "Black Vulture",
+  "resolved_title": "Black vulture",
+  "title_aliases": [
+    "Black Vulture"
+  ],
+  "bird_id": "bird-黑美洲鷲-83e885ee",
+  "raw_file": "bird-黑美洲鷲-83e885ee.json",
+  "bird": {
+    "id": "bird-黑美洲鷲-83e885ee",
+    "name": "黑美洲鷲",
+    "english_name": "Black vulture",
+    "latin_name": "Coragyps atratus",
+    "summary": "黑美洲鷲（學名：Coragyps atratus，英語：black vulture）亦稱黑頭美洲鷲，是美洲鷲科黑美洲鷲屬中的唯一一種，從美國東南部到南美洲都有分佈。雖然黑美洲鷲分佈廣泛，但仍然不及同科的紅頭美洲鷲（由加拿大至火地群島均有分佈）。儘管黑美洲鷲的名稱和外表與歐亞大陸…",
+    "lat": "14.52555556",
+    "lng": "-75.81833333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Black_vulture_%28Coragyps_atratus_brasiliensis%29_Peten.jpg/960px-Black_vulture_%28Coragyps_atratus_brasiliensis%29_Peten.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑美洲鷲-83e885ee",
+      "subject": "黑美洲鷲",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also is found as a vagrant on the islands of the Caribbean. It prefers open land interspersed with areas of woods or brush. It is also found in moist lowland forests, shrublands and grasslands, wetlands and swamps, pastures, and heavily degraded former forests. It is usually seen soaring or perched on fence posts or dead trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑美洲鷲-83e885ee",
+      "subject": "黑美洲鷲",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also is found as a vagrant on the islands of the Caribbean. It prefers open land interspersed with areas of woods or brush. It is also found in moist lowland forests, shrublands and grasslands, wetlands and swamps, pastures, and heavily degraded former forests. It is usually seen soaring or perched on fence posts or dead trees",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-黑美洲鷲-83e885ee",
+      "subject": "黑美洲鷲",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also is found as a vagrant on the islands of the Caribbean. It prefers open land interspersed with areas of woods or brush. It is also found in moist lowland forests, shrublands and grasslands, wetlands and swamps, pastures, and heavily degraded former forests. It is usually seen soaring or perched on fence posts or dead trees",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-黑美洲鷲-83e885ee",
+      "subject": "黑美洲鷲",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also is found as a vagrant on the islands of the Caribbean. It prefers open land interspersed with areas of woods or brush. It is also found in moist lowland forests, shrublands and grasslands, wetlands and swamps, pastures, and heavily degraded former forests. It is usually seen soaring or perched on fence posts or dead trees",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-黑美洲鷲-83e885ee",
+      "subject": "黑美洲鷲",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also is found as a vagrant on the islands of the Caribbean. It prefers open land interspersed with areas of woods or brush. It is also found in moist lowland forests, shrublands and grasslands, wetlands and swamps, pastures, and heavily degraded former forests. It is usually seen soaring or perched on fence posts or dead trees",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-黑美洲鷲-83e885ee",
+      "subject": "黑美洲鷲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

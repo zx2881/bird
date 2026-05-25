@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T23:05:16",
+  "requested_title": "Black-cheeked Ant Tanager",
+  "resolved_title": "Black-cheeked ant tanager",
+  "title_aliases": [
+    "Black-cheeked Ant Tanager"
+  ],
+  "bird_id": "bird-black-cheeked-ant-tanager-f18611dd",
+  "raw_file": "bird-black-cheeked-ant-tanager-f18611dd.json",
+  "bird": {
+    "id": "bird-black-cheeked-ant-tanager-f18611dd",
+    "name": "Black-cheeked ant tanager",
+    "english_name": "Black-cheeked ant tanager",
+    "latin_name": "Driophlox atrimaxillaris",
+    "summary": "The black-cheeked ant tanager (Driophlox atrimaxillaris) is a species of bird in the family Cardinalidae. It is endemic to Costa Rica.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Black-cheeked_Ant-Tanager_-_Rio_Tigre_-_Costa_Rica_S4E9942_%2826631235321%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-cheeked-ant-tanager-f18611dd",
+      "subject": "Black-cheeked ant tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "(One wandering individual was captured more than inland.) It inhabits well-developed understorey in lowland forest, riparian woodlands, and older secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-cheeked-ant-tanager-f18611dd",
+      "subject": "Black-cheeked ant tanager",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:47:02",
+  "requested_title": "Ultramarine Kingfisher",
+  "resolved_title": "Ultramarine kingfisher",
+  "title_aliases": [
+    "Ultramarine Kingfisher"
+  ],
+  "bird_id": "bird-ultramarine-kingfisher-96048e51",
+  "raw_file": "bird-ultramarine-kingfisher-96048e51.json",
+  "bird": {
+    "id": "bird-ultramarine-kingfisher-96048e51",
+    "name": "Ultramarine kingfisher",
+    "english_name": "Ultramarine kingfisher",
+    "latin_name": "Todiramphus leucopygius",
+    "summary": "The ultramarine kingfisher (Todiramphus leucopygius) is a species of bird in the family Alcedinidae. Habitat It is native to the Solomon Is…",
+    "lat": "-8",
+    "lng": "159",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Todiramphus_leucopygius_-_Rand_Rudland_-_60766070.jpeg/960px-Todiramphus_leucopygius_-_Rand_Rudland_-_60766070.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-所羅門群島-群島-4708e5d6",
+      "name": "所羅門群島 (群島)",
+      "summary": "所羅門群島是太平洋西南面的群島，位於澳大利亞東北方的美拉尼西亞（Melanesia）地區。西隔所羅門海與新幾內亞、俾斯麥群島相鄰。 政治上分屬兩個政治實體： 所罗门群岛，領土範圍為大部分的索羅門群島（28,896 km²，660,121人…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ultramarine-kingfisher-96048e51",
+      "subject": "Ultramarine kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-所羅門群島-群島-4708e5d6",
+      "object": "所羅門群島 (群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Solomon Islands archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ultramarine-kingfisher-96048e51",
+      "subject": "Ultramarine kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

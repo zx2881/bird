@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:03:35",
+  "requested_title": "Brazza's Martin",
+  "resolved_title": "Brazza's martin",
+  "title_aliases": [
+    "Brazza's Martin"
+  ],
+  "bird_id": "bird-刚果原燕-775a860d",
+  "raw_file": "bird-刚果原燕-775a860d.json",
+  "bird": {
+    "id": "bird-刚果原燕-775a860d",
+    "name": "刚果原燕",
+    "english_name": "Brazza's martin",
+    "latin_name": "Phedinopsis brazzae",
+    "summary": "剛果原燕（学名：Phedinopsis brazzae），也称为布氏原燕，是雀形目燕科刚果原燕属（学名：Phedinopsis）的一种鸟类。 剛果原燕体重约13克，翼长约99.8毫米，嘴峰长约9.2毫米，喙宽度约3.4毫米，喙厚度约2.5毫米，跗蹠长约11.1毫米，尾长约50.…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phedina_brazzae_1894_edit.jpg/960px-Phedina_brazzae_1894_edit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-hans-edmund-wolters-48cdc375",
+      "name": "Hans Edmund Wolters",
+      "summary": "Hans Edmund Wolters (11 February 1915 – 22 December 1991) was a German ornithologist from Duisburg.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-刚果原燕-775a860d",
+      "subject": "刚果原燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-hans-edmund-wolters-48cdc375",
+      "object": "Hans Edmund Wolters",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Brazza's martin (Phedinopsis brazzae) is a passerine bird in the swallow family, Hirundinidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-刚果原燕-775a860d",
+      "subject": "刚果原燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-刚果原燕-775a860d",
+      "subject": "刚果原燕",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "There may be some hunting of this martin for food, but the species does not appear to be facing any serious short-term threats",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

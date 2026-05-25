@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:52:10",
+  "requested_title": "Willow Warbler",
+  "resolved_title": "Willow warbler",
+  "title_aliases": [
+    "Willow Warbler"
+  ],
+  "bird_id": "bird-歐柳鶯-33469fa2",
+  "raw_file": "bird-歐柳鶯-33469fa2.json",
+  "bird": {
+    "id": "bird-歐柳鶯-33469fa2",
+    "name": "歐柳鶯",
+    "english_name": "Willow warbler",
+    "latin_name": "Phylloscopus trochilus",
+    "summary": "歐柳鶯（學名：Phylloscopus trochilus）是屬於柳鶯科柳鶯屬的一種。分佈於歐亞非大陸。是一種非常常見且分布廣泛的柳鶯，其繁殖範圍遍及北部和溫帶的歐洲以及古北界，從愛爾蘭東至西伯利亞東部的阿納德爾河流域。牠是強烈的候鳥，幾乎所有族群都在撒哈拉以南非洲過冬。 歐亞…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Willow_Warbler_Phylloscopus_trochilus.jpg/960px-Willow_Warbler_Phylloscopus_trochilus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-歐柳鶯-33469fa2",
+      "subject": "歐柳鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is strongly migratory, with almost all of the population wintering in sub-Saharan Africa.{{cite book| editor-last = Hoyo| editor-first = J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-歐柳鶯-33469fa2",
+      "subject": "歐柳鶯",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

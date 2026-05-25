@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:27:59",
+  "requested_title": "Sichuan Tit",
+  "resolved_title": "Sichuan tit",
+  "title_aliases": [
+    "Sichuan Tit"
+  ],
+  "bird_id": "bird-四川褐头山雀-e78b246d",
+  "raw_file": "bird-四川褐头山雀-e78b246d.json",
+  "bird": {
+    "id": "bird-四川褐头山雀-e78b246d",
+    "name": "四川褐头山雀",
+    "english_name": "Sichuan tit",
+    "latin_name": "Poecile weigoldicus",
+    "summary": "四川褐头山雀（学名：Poecile weigoldicus）是山雀科高山山雀属的一种鸟类，又名四川山雀、川褐头山雀，分布于中国西南地区。 该物种原被视为褐头山雀的一个亚种，根据2002年的一项系统学研究被提升为单独的物种。四川褐头山雀是单型物种，没有亚种分化。",
+    "lat": "35",
+    "lng": "96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/%E5%B7%9D%E8%A4%90%E5%A4%B4%E5%B1%B1%E9%9B%80%E5%9B%9B%E5%B7%9D%E8%8B%A5%E5%B0%94%E7%9B%96%E5%B7%B4%E8%A5%BF%E5%94%90%E5%86%9B.jpg/960px-%E5%B7%9D%E8%A4%90%E5%A4%B4%E5%B1%B1%E9%9B%80%E5%9B%9B%E5%B7%9D%E8%8B%A5%E5%B0%94%E7%9B%96%E5%B7%B4%E8%A5%BF%E5%94%90%E5%86%9B.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-青海省-9c801d60",
+      "name": "青海省",
+      "summary": "青海省，简称青，为中国一级行政区，位于中国西部、青藏高原东北部。因境内有全中国最大的内陆咸水湖——青海湖而得名，省会是西宁。青海是长江、黄河、澜沧江的发源地，故被称为“三江源”。省人民政府驻西宁市城中区西大街12号。 历史 早在2萬年前青…",
+      "lat": "35",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-四川褐头山雀-e78b246d",
+      "subject": "四川褐头山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-青海省-9c801d60",
+      "object": "青海省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Sichuan tit is found in Sichuan, south-eastern Qinghai, and north-western Yunnan provinces",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-四川褐头山雀-e78b246d",
+      "subject": "四川褐头山雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

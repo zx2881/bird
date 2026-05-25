@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:09:51",
+  "requested_title": "Chilean Swallow",
+  "resolved_title": "Chilean swallow",
+  "title_aliases": [
+    "Chilean Swallow"
+  ],
+  "bird_id": "bird-白臀树燕-05c5cc2c",
+  "raw_file": "bird-白臀树燕-05c5cc2c.json",
+  "bird": {
+    "id": "bird-白臀树燕-05c5cc2c",
+    "name": "白臀树燕",
+    "english_name": "Chilean swallow",
+    "latin_name": "Tachycineta leucopyga",
+    "summary": "白臀树燕（学名：Tachycineta leucopyga）为燕科树燕属的迁徙鸟类，分布于南美洲。 此种繁殖地是在智利与巴塔哥尼亞, 迁徙至玻利維亞, 巴拉圭, 南里奥格兰德州 。",
+    "lat": "-41",
+    "lng": "-68",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Andorinha-chilena_%28Tachycineta_leucopyga%29.jpg/960px-Andorinha-chilena_%28Tachycineta_leucopyga%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴塔哥尼亞-65e27f32",
+      "name": "巴塔哥尼亞",
+      "summary": "巴塔哥尼亞（西班牙語：Patagonia，西班牙語發音：[pataˈɣonja]）位于南美洲南端，一般是指科羅拉多河以南（或以南緯40度為界）的地區，包括安第斯山脉的南端，主要位于阿根廷境內，小部分屬於智利。明《坤輿萬國全圖》謂之「巴大溫…",
+      "lat": "-41",
+      "lng": "-68"
+    },
+    {
+      "id": "loc-南里奥格兰德州-a29883e9",
+      "name": "南里奥格兰德州",
+      "summary": "南里奥格兰德州（葡萄牙語：Rio Grande do Sul，直译：「南方的大河」，發音：[ˈʁiw ˈɡɾɐ̃dʒi du ˈsuw] ），或称南大河州，是巴西最南端的一个州，东临大西洋，首府阿雷格里港，人口10,963,216。该州与…",
+      "lat": "-30",
+      "lng": "-53"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白臀树燕-05c5cc2c",
+      "subject": "白臀树燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴塔哥尼亞-65e27f32",
+      "object": "巴塔哥尼亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Chile and Patagonia, migrating north as far as Bolivia, Paraguay, and Rio Grande do Sul",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臀树燕-05c5cc2c",
+      "subject": "白臀树燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-南里奥格兰德州-a29883e9",
+      "object": "南里奥格兰德州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Chile and Patagonia, migrating north as far as Bolivia, Paraguay, and Rio Grande do Sul",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白臀树燕-05c5cc2c",
+      "subject": "白臀树燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

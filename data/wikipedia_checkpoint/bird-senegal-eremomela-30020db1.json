@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:59:31",
+  "requested_title": "Senegal Eremomela",
+  "resolved_title": "Senegal eremomela",
+  "title_aliases": [
+    "Senegal Eremomela"
+  ],
+  "bird_id": "bird-senegal-eremomela-30020db1",
+  "raw_file": "bird-senegal-eremomela-30020db1.json",
+  "bird": {
+    "id": "bird-senegal-eremomela-30020db1",
+    "name": "Senegal eremomela",
+    "english_name": "Senegal eremomela",
+    "latin_name": "Eremomela pusilla",
+    "summary": "The Senegal eremomela (Eremomela pusilla) is a member of the African warbler family, the Cisticolidae. It occurs in the savannas of western…",
+    "lat": "8",
+    "lng": "-5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Senegal_Erememola_-_Gambia_%2832496575342%29.jpg/960px-Senegal_Erememola_-_Gambia_%2832496575342%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-科特迪瓦-bc133098",
+      "name": "科特迪瓦",
+      "summary": "科特迪瓦共和國（法語：République de Côte d'Ivoire），通稱科特迪瓦（Côte d'Ivoire），是西非國家，東接迦納，南臨几内亚湾，西及利比里亚和几内亚，北鄰馬利、布基纳法索。象牙海岸的首都是亚穆苏克罗，而最大…",
+      "lat": "8",
+      "lng": "-5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-senegal-eremomela-30020db1",
+      "subject": "Senegal eremomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the savannas of western Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-senegal-eremomela-30020db1",
+      "subject": "Senegal eremomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-科特迪瓦-bc133098",
+      "object": "科特迪瓦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in the first half of the year in the west, although egg laying has been recorded as late as October in the Ivory Coast",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-senegal-eremomela-30020db1",
+      "subject": "Senegal eremomela",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in the savannas of western Sub-Saharan Africa",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-senegal-eremomela-30020db1",
+      "subject": "Senegal eremomela",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Senegal eremomela occurs in small parties which actively forage in wooded savanna, cultivated areas and orchards",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-senegal-eremomela-30020db1",
+      "subject": "Senegal eremomela",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

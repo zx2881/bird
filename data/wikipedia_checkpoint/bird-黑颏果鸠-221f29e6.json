@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:32:17",
+  "requested_title": "Black-chinned Fruit Dove",
+  "resolved_title": "Black-chinned fruit dove",
+  "title_aliases": [
+    "Black-chinned Fruit Dove"
+  ],
+  "bird_id": "bird-黑颏果鸠-221f29e6",
+  "raw_file": "bird-黑颏果鸠-221f29e6.json",
+  "bird": {
+    "id": "bird-黑颏果鸠-221f29e6",
+    "name": "黑颏果鸠",
+    "english_name": "Black-chinned fruit dove",
+    "latin_name": "Ramphiculus leclancheri",
+    "summary": "黑颏果鸠（学名：Ptilinopus leclancheri）为鸠鸽科果鸠属的鸟类，别名黑颏绿鸠、小绿鸠。分布于台灣、菲律宾等地。性膽怯，多生活于森林地带。该物种的模式产地在菲律宾。種名來自義大利外科醫生與探險家 Charles René Augustin Léclancher…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black-chinned_Fruit_Dove_imported_from_iNaturalist_photo_350640846_on_10_June_2024.png/960px-Black-chinned_Fruit_Dove_imported_from_iNaturalist_photo_350640846_on_10_June_2024.png"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-中華民國-e9cfdf77",
+      "name": "中華民國",
+      "summary": "中華民國是位於東亞的民主共和國，曾在国际上广泛代表中國，現今多通稱「臺灣」。1912年建國時以前清之中國既有領土為疆域，經歷1949年政府遷臺，現有效管轄範圍包括臺灣本島、澎湖群島及其附屬島嶼，以及中國大陸福建沿岸的金門群島、馬祖列島等島…",
+      "lat": "24",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑颏果鸠-221f29e6",
+      "subject": "黑颏果鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the lowland forests of the Philippines and Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑颏果鸠-221f29e6",
+      "subject": "黑颏果鸠",
+      "predicate": "distributed_in",
+      "object_id": "loc-中華民國-e9cfdf77",
+      "object": "中華民國",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the lowland forests of the Philippines and Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑颏果鸠-221f29e6",
+      "subject": "黑颏果鸠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黑颏果鸠-221f29e6",
+      "subject": "黑颏果鸠",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "IUCN has assessed this bird as least-concern species with the population believed to be declining due to deforestation in the Philippines continues throughout the country due to slash and burn farming, mining, illegal logging and habitat conversion",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

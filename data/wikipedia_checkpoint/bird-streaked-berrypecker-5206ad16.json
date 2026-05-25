@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:51:15",
+  "requested_title": "Streaked Berrypecker",
+  "resolved_title": "Streaked berrypecker",
+  "title_aliases": [
+    "Streaked Berrypecker"
+  ],
+  "bird_id": "bird-streaked-berrypecker-5206ad16",
+  "raw_file": "bird-streaked-berrypecker-5206ad16.json",
+  "bird": {
+    "id": "bird-streaked-berrypecker-5206ad16",
+    "name": "Streaked berrypecker",
+    "english_name": "Streaked berrypecker",
+    "latin_name": "Melanocharis striativentris",
+    "summary": "The streaked berrypecker (Melanocharis striativentris) is a species of bird in the family Melanocharitidae. It is found in the New Guinea H…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Naturalis_Biodiversity_Center_-_RMNH.AVES.131905_1_-_Melanocharis_striativentris_axillaris_%28Mayr%2C_1931%29_-_Dicaeidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.131905_1_-_Melanocharis_striativentris_axillaris_%28Mayr%2C_1931%29_-_Dicaeidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞高地-05e346ed",
+      "name": "新幾內亞高地",
+      "summary": "新几内亚高地是新幾內亞島上的山脉。其最高点为印度尼西亚境内的查亞峰，海拔4,884米（16,024英尺），同时也是大洋洲的最高峰。该山脉大致呈东西走向横贯全岛，西起印度尼西亞温达马湾县，向东一直延伸至巴布亞新幾內亞米爾恩灣省。 参考文献",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-streaked-berrypecker-5206ad16",
+      "subject": "Streaked berrypecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞高地-05e346ed",
+      "object": "新幾內亞高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-streaked-berrypecker-5206ad16",
+      "subject": "Streaked berrypecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

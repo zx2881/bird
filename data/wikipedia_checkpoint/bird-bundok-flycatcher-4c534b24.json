@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:07:30",
+  "requested_title": "Bundok Flycatcher",
+  "resolved_title": "Bundok flycatcher",
+  "title_aliases": [
+    "Bundok Flycatcher"
+  ],
+  "bird_id": "bird-bundok-flycatcher-4c534b24",
+  "raw_file": "bird-bundok-flycatcher-4c534b24.json",
+  "bird": {
+    "id": "bird-bundok-flycatcher-4c534b24",
+    "name": "Bundok flycatcher",
+    "english_name": "Bundok flycatcher",
+    "latin_name": "Ficedula luzoniensis",
+    "summary": "The Bundok flycatcher (Ficedula luzoniensis) or thicket flycatcher, is a species of bird in the family Muscicapidae. It is endemic to the P…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Bundok_Flycatcher_Male.png/960px-Bundok_Flycatcher_Male.png"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bundok-flycatcher-4c534b24",
+      "subject": "Bundok flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines found in tropical montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bundok-flycatcher-4c534b24",
+      "subject": "Bundok flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is endemic to the Philippines found in tropical montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-bundok-flycatcher-4c534b24",
+      "subject": "Bundok flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-bundok-flycatcher-4c534b24",
+      "subject": "Bundok flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, the population is believed to be declining due to the deforestation happening throughout the Philippines",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

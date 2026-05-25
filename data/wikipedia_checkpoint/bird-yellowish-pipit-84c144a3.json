@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:44:16",
+  "requested_title": "Yellowish Pipit",
+  "resolved_title": "Yellowish pipit",
+  "title_aliases": [
+    "Yellowish Pipit"
+  ],
+  "bird_id": "bird-yellowish-pipit-84c144a3",
+  "raw_file": "bird-yellowish-pipit-84c144a3.json",
+  "bird": {
+    "id": "bird-yellowish-pipit-84c144a3",
+    "name": "Yellowish pipit",
+    "english_name": "Yellowish pipit",
+    "latin_name": "Anthus chii",
+    "summary": "The yellowish pipit (Anthus chii) is a species of bird in the family Motacillidae, the wagtails and pipits. It is found in Panama and in ev…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Anthus_lutescens_-Argentina-4.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "name": "路易·皮埃尔·维埃约",
+      "summary": "路易·皮埃尔·维埃约（法語：Louis Pierre Vieillot，1748年5月10日—1830年8月24日）是法国的鳥類學家。 维埃约是第一批用卡尔·林奈式二名法科学描述鸟类的研究者之一。至少有26个他命名的鸟类至今仍在学术界使用…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-雅克-普什朗-5d138984",
+      "name": "雅克·普什朗",
+      "summary": "雅克·普什朗（法語：Jacques Pucheran，1817年6月2日—1895年1月13日）是一名法國動物學家。他是生理學家艾蒂安·塞爾的侄孫。 普什朗於1837至1840年間，在儒勒·迪蒙·迪維爾指揮下，與自然學家雅克·貝爾納·翁布…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellowish-pipit-84c144a3",
+      "subject": "Yellowish pipit",
+      "predicate": "distributed_in",
+      "object_id": "loc-路易-皮埃尔-维埃约-d872b74a",
+      "object": "路易·皮埃尔·维埃约",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellowish pipit (Anthus chii) is a species of bird in the family Motacillidae, the wagtails and pipits. It is found in Panama and in every mainland South American country except Ecuador and Chile.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellowish-pipit-84c144a3",
+      "subject": "Yellowish pipit",
+      "predicate": "distributed_in",
+      "object_id": "loc-雅克-普什朗-5d138984",
+      "object": "雅克·普什朗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellowish pipit (Anthus chii) is a species of bird in the family Motacillidae, the wagtails and pipits. It is found in Panama and in every mainland South American country except Ecuador and Chile.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellowish-pipit-84c144a3",
+      "subject": "Yellowish pipit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-yellowish-pipit-84c144a3",
+      "subject": "Yellowish pipit",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered common in Colombia, locally common in Venezuela, uncommon in Peru, and \"common to frequent\" in Brazil. Its range is believed to be increasing due to deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

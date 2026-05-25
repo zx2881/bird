@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:29:11",
+  "requested_title": "Eastern Red-rumped Swallow",
+  "resolved_title": "Eastern red-rumped swallow",
+  "title_aliases": [
+    "Eastern Red-rumped Swallow"
+  ],
+  "bird_id": "bird-金腰燕-ee3f2b48",
+  "raw_file": "bird-金腰燕-ee3f2b48.json",
+  "bird": {
+    "id": "bird-金腰燕-ee3f2b48",
+    "name": "金腰燕",
+    "english_name": "Eastern red-rumped swallow",
+    "latin_name": "Cecropis daurica",
+    "summary": "金腰燕（学名：Cecropis daurica）为燕科金腰燕属的鸟类，又名胡燕（《名医别录》）、夏侯（《本草经集注》）、蛇燕（《尔雅翼》）、舍鹕儿（《田家五行》）、紫燕（《田家五行》）、黄腰燕（《田家五行》）、巧燕（《盛京通志》）、花燕、黑纹燕、赤腰燕、金尾根燕。牠們在溫帶南部…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Red-rumped_Swallow_%28Cecropis_daurica%29_Photograph_by_Shantanu_Kuveskar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金腰燕-ee3f2b48",
+      "subject": "金腰燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in open, often hilly, areas with clearings and cultivation across Southeast Asia to north-eastern India and Taiwan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金腰燕-ee3f2b48",
+      "subject": "金腰燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

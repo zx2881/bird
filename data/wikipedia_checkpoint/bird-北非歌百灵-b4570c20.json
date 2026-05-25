@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:40:19",
+  "requested_title": "Singing Bush Lark",
+  "resolved_title": "Singing bush lark",
+  "title_aliases": [
+    "Singing Bush Lark"
+  ],
+  "bird_id": "bird-北非歌百灵-b4570c20",
+  "raw_file": "bird-北非歌百灵-b4570c20.json",
+  "bird": {
+    "id": "bird-北非歌百灵-b4570c20",
+    "name": "北非歌百灵",
+    "english_name": "Singing bush lark",
+    "latin_name": "Mirafra javanica",
+    "summary": "北非歌百灵（学名：Mirafra cantillans），是百灵科歌百灵属的一种，是全面迁徙的候鸟，分布于埃塞俄比亚、厄立特里亚、贝宁、塞内加尔、乍得、马里、索马里、毛里塔尼亚、喀麦隆、尼日尔、巴基斯坦、尼日利亚、中非共和国、孟加拉国、沙特阿拉伯、也门、印度、苏丹、坦桑尼亚、阿…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Australian_Bushlark_0A2A6448.jpg/960px-Australian_Bushlark_0A2A6448.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-托马斯-霍斯菲尔德-0d750b27",
+      "name": "托马斯·霍斯菲尔德",
+      "summary": "托马斯·霍斯菲尔德（英語：Thomas Horsfield，1773年5月12日—1859年5月12日）是一位美国医生和博物学家，曾在印度尼西亚广泛工作，描述了该地区的多种植物和动物。他后来成为不列颠东印度公司伦敦博物馆的馆长。 早年经历…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北非歌百灵-b4570c20",
+      "subject": "北非歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-托马斯-霍斯菲尔德-0d750b27",
+      "object": "托马斯·霍斯菲尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The singing bush lark or Horsfield's bush lark (Mirafra javanica) is a species of lark which inhabits grassland throughout most of Australia and much of Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北非歌百灵-b4570c20",
+      "subject": "北非歌百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The singing bush lark or Horsfield's bush lark (Mirafra javanica) is a species of lark which inhabits grassland throughout most of Australia and much of Southeast Asia",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-北非歌百灵-b4570c20",
+      "subject": "北非歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

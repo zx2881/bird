@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:45:49",
+  "requested_title": "Green-backed Kingfisher",
+  "resolved_title": "Green-backed kingfisher",
+  "title_aliases": [
+    "Green-backed Kingfisher"
+  ],
+  "bird_id": "bird-green-backed-kingfisher-d3dc37fc",
+  "raw_file": "bird-green-backed-kingfisher-d3dc37fc.json",
+  "bird": {
+    "id": "bird-green-backed-kingfisher-d3dc37fc",
+    "name": "Green-backed kingfisher",
+    "english_name": "Green-backed kingfisher",
+    "latin_name": "Actenoides monachus",
+    "summary": "The green-backed kingfisher (Actenoides monachus) is a species of bird in the family Alcedinidae endemic to Indonesia, where it is restrict…",
+    "lat": "1.51666667",
+    "lng": "125.18333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Green-backed_Kingfisher_%28Male%29_cropped.jpg/960px-Green-backed_Kingfisher_%28Male%29_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-罗瑞林都国家公园-69e64e43",
+      "name": "罗瑞林都国家公园",
+      "summary": "罗瑞林都国家公园（Lore Lindu National Park）位于印度尼西亚中苏拉威西省。其占地2180平方公里，由低地及山地森林组成。其为许多珍稀物种的栖息地，包括77种苏拉威西特有的鸟类。罗瑞林都国家公园已被指定为联合国教科文组…",
+      "lat": "-1.46666667",
+      "lng": "120.18333333"
+    },
+    {
+      "id": "loc-博加尼-納尼-沃塔波尼國家公園-ae795ef9",
+      "name": "博加尼·納尼·沃塔波尼國家公園",
+      "summary": "博加尼·納尼·沃塔波尼國家公園（印尼語：Taman Nasional Bogani Nani Wartabone）是印尼的國家公園，位於蘇拉威西島，處於米納哈薩半島，成立於1991年，面積2,871平方公里，有125種鳥類、11種爬蟲類、…",
+      "lat": "0.56055556",
+      "lng": "123.68"
+    },
+    {
+      "id": "loc-通科科-巴图安加斯山自然保护区-32e47673",
+      "name": "通科科-巴图安加斯山自然保护区",
+      "summary": "通科科-巴图安加斯山自然保护区又译淡可可自然保护区（印尼语：Cagar Alam Gunung Tangkoko Batuangus），是印度尼西亚苏拉威西岛北部的一个自然保护区，距离万鸦老1小时车程。保护区面积8,700公顷，包括三座主…",
+      "lat": "1.51666667",
+      "lng": "125.18333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-backed-kingfisher-d3dc37fc",
+      "subject": "Green-backed kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-罗瑞林都国家公园-69e64e43",
+      "object": "罗瑞林都国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the protected areas of Lore Lindu, Bogani Nani Wartabone, and Tangkoko Batuangus",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-backed-kingfisher-d3dc37fc",
+      "subject": "Green-backed kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-博加尼-納尼-沃塔波尼國家公園-ae795ef9",
+      "object": "博加尼·納尼·沃塔波尼國家公園",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the protected areas of Lore Lindu, Bogani Nani Wartabone, and Tangkoko Batuangus",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-backed-kingfisher-d3dc37fc",
+      "subject": "Green-backed kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-通科科-巴图安加斯山自然保护区-32e47673",
+      "object": "通科科-巴图安加斯山自然保护区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the protected areas of Lore Lindu, Bogani Nani Wartabone, and Tangkoko Batuangus",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-backed-kingfisher-d3dc37fc",
+      "subject": "Green-backed kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-green-backed-kingfisher-d3dc37fc",
+      "subject": "Green-backed kingfisher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss by deforestation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-green-backed-kingfisher-d3dc37fc",
+      "subject": "Green-backed kingfisher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss by deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

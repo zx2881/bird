@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:29:07",
+  "requested_title": "Red-tailed Black Cockatoo",
+  "resolved_title": "Red-tailed black cockatoo",
+  "title_aliases": [
+    "Red-tailed Black Cockatoo"
+  ],
+  "bird_id": "bird-红尾黑凤头鹦鹉-2ea6d6ac",
+  "raw_file": "bird-红尾黑凤头鹦鹉-2ea6d6ac.json",
+  "bird": {
+    "id": "bird-红尾黑凤头鹦鹉-2ea6d6ac",
+    "name": "红尾黑凤头鹦鹉",
+    "english_name": "Red-tailed black cockatoo",
+    "latin_name": "Calyptorhynchus banksii",
+    "summary": "红尾黑凤头鹦鹉（學名：Calyptorhynchus banksii）因其公鸟尾部的一片鲜红色羽毛而得名，在黑凤头鹦鹉中属于相对常见的品种。雌性的尾部为橘黄色羽毛，喙为肉色，不同于雄鸟的黑色喙。 生活方式 主要分布在澳大利亚的北部和西部，平时生活在树上，偶尔到地面上活动，群居鸟…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Red-tailed_Black_Cockatoo_%28Female%29_cropped.jpg/960px-Red-tailed_Black_Cockatoo_%28Female%29_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红尾黑凤头鹦鹉-2ea6d6ac",
+      "subject": "红尾黑凤头鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "samueli | range_map = Red-tailed Black Cockatoo.JPG | range_map_caption = Red-tailed black cockatoo range (in red) }} thumb|Female, Northern Territory thumb|Male, Northern Territory The red-tailed black cockatoo (Calyptorhynchus banksii) also known as Banksian- or Banks' black cockatoo, is a large black cockatoo native to Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红尾黑凤头鹦鹉-2ea6d6ac",
+      "subject": "红尾黑凤头鹦鹉",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in a wide variety of habitats, from shrublands and grasslands through eucalypt, sheoak and Acacia woodlands, to dense tropical rainforests. The bird is dependent on large, old eucalypts for nesting hollows, although the specific gums used vary in different parts of the country",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红尾黑凤头鹦鹉-2ea6d6ac",
+      "subject": "红尾黑凤头鹦鹉",
+      "predicate": "lives_in",
+      "object_id": "hab-rainforest",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in a wide variety of habitats, from shrublands and grasslands through eucalypt, sheoak and Acacia woodlands, to dense tropical rainforests. The bird is dependent on large, old eucalypts for nesting hollows, although the specific gums used vary in different parts of the country",
+      "object_summary": "结构复杂且冠层完整的高生物多样性森林。"
+    },
+    {
+      "subject_id": "bird-红尾黑凤头鹦鹉-2ea6d6ac",
+      "subject": "红尾黑凤头鹦鹉",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in a wide variety of habitats, from shrublands and grasslands through eucalypt, sheoak and Acacia woodlands, to dense tropical rainforests. The bird is dependent on large, old eucalypts for nesting hollows, although the specific gums used vary in different parts of the country",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-红尾黑凤头鹦鹉-2ea6d6ac",
+      "subject": "红尾黑凤头鹦鹉",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in a wide variety of habitats, from shrublands and grasslands through eucalypt, sheoak and Acacia woodlands, to dense tropical rainforests. The bird is dependent on large, old eucalypts for nesting hollows, although the specific gums used vary in different parts of the country",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-红尾黑凤头鹦鹉-2ea6d6ac",
+      "subject": "红尾黑凤头鹦鹉",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-红尾黑凤头鹦鹉-2ea6d6ac",
+      "subject": "红尾黑凤头鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Populations in southeastern Australia are threatened by deforestation and other habitat alterations",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-红尾黑凤头鹦鹉-2ea6d6ac",
+      "subject": "红尾黑凤头鹦鹉",
+      "predicate": "threatened_by",
+      "object_id": "threat-illegal-trade",
+      "object": "非法贸易",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "On the 2007 advisory list of threatened vertebrate fauna in Victoria, this subspecies is listed as endangered. *The red-tailed black cockatoo is listed as vulnerable on the NSW Threatened Species Conservation Act 1995 Like many Australian cockatoos and parrots, the red-tailed black cockatoo is threatened by the thriving illegal trade in bird smuggling. High demand and high transit mortality mean that many more birds are taken from the wild than actually sold. In 1997, the Northern Territory Government's Department of Natural Resources, Environment and The Arts (now defunct) proposed a plan for management of the trade in eggs and nestlings of C.&nbsp;b",
+      "object_summary": "为宠物或展示用途进行非法捕捉与交易。"
+    }
+  ]
+}

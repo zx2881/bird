@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:48:09",
+  "requested_title": "Streaked Spiderhunter",
+  "resolved_title": "Streaked spiderhunter",
+  "title_aliases": [
+    "Streaked Spiderhunter"
+  ],
+  "bird_id": "bird-纹背捕蛛鸟-47061bc0",
+  "raw_file": "bird-纹背捕蛛鸟-47061bc0.json",
+  "bird": {
+    "id": "bird-纹背捕蛛鸟-47061bc0",
+    "name": "纹背捕蛛鸟",
+    "english_name": "Streaked spiderhunter",
+    "latin_name": "Arachnothera magna",
+    "summary": "纹背捕蛛鸟（学名：Arachnothera magna）为太阳鸟科捕蛛鸟属的鸟类，俗名芭蕉鸟。分布于印度、东至孟加拉、缅甸、泰国、老挝、越南以及中国大陆的西藏、云南、贵州、广西等地，多栖息于芭蕉树或乔木树冠上。该物种的模式产地在尼泊尔。 亚种 纹背捕蛛鸟指名亚种（学名：Arac…",
+    "lat": "23.25",
+    "lng": "86",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Streaked_Spiderhunter.jpg/960px-Streaked_Spiderhunter.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度东部-1f182828",
+      "name": "印度东部",
+      "summary": "印度东部是印度的一个区域，包括西孟加拉邦、奥里萨邦、比哈尔邦和贾坎德邦。地理上介于印度北部和印度东北部之间，在文化和语言上与孟加拉国有许多类似之处，该国在印度分治以前也是本地区的一部分。在该地区印度-雅利安语的摩揭陀俗語自古代摩揭陀王国流…",
+      "lat": "23.25",
+      "lng": "86"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纹背捕蛛鸟-47061bc0",
+      "subject": "纹背捕蛛鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度东部-1f182828",
+      "object": "印度东部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In India, it is found in the Eastern Indian states. Its natural habitats are subtropical or tropical moist lowland forest and montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹背捕蛛鸟-47061bc0",
+      "subject": "纹背捕蛛鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In India, it is found in the Eastern Indian states. Its natural habitats are subtropical or tropical moist lowland forest and montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹背捕蛛鸟-47061bc0",
+      "subject": "纹背捕蛛鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In India, it is found in the Eastern Indian states. Its natural habitats are subtropical or tropical moist lowland forest and montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-纹背捕蛛鸟-47061bc0",
+      "subject": "纹背捕蛛鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:44:53",
+  "requested_title": "Sulphury Flycatcher",
+  "resolved_title": "Sulphury flycatcher",
+  "title_aliases": [
+    "Sulphury Flycatcher"
+  ],
+  "bird_id": "bird-黄白喉霸鹟-0724856a",
+  "raw_file": "bird-黄白喉霸鹟-0724856a.json",
+  "bird": {
+    "id": "bird-黄白喉霸鹟-0724856a",
+    "name": "黄白喉霸鹟",
+    "english_name": "Sulphury flycatcher",
+    "latin_name": "Tyrannopsis sulphurea",
+    "summary": "黄白喉霸鹟（台湾作硫黃白喉霸鶲，学名：Tyrannopsis sulphurea），是雀形目霸鹟科的一种鸟类，属于单型的黄白喉霸鹟属（学名：Tyrannopsis）。 特征 黄白喉霸鹟体重约53.6克，翼长约10.62厘米，喙宽度约8.2毫米，喙厚度约6.3毫米，嘴峰长约21.…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Tyrannopsis_sulphurea_-_Sulphury_Flycatcher.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-圭亚那-地区-7d32a67b",
+      "name": "圭亚那 (地区)",
+      "summary": "圭亚那（西班牙語：Las Guayanas；英語：The Guianas；法語：Guyanes；荷蘭語：Guyana's；葡萄牙語：Guianas）是南美洲北部、西北部的一个地区，并被划分为了数个主权国家和区域。前哥伦布时期，圭亚那地区的…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-河迹湖-df1de2e3",
+      "name": "河迹湖",
+      "summary": "河迹湖，又稱牛軛湖、马蹄湖，是由于河流的变迁或改道，曲形河道自行截弯取直后留下的旧河道所形成之湖泊。这类湖泊多呈弯月形、水深较淺。在美國德克薩斯州南部，格蘭德河改道後所留下河迹湖被稱為「惋曲湖」（Resaca）。而在澳洲，河迹湖被稱為「比…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄白喉霸鹟-0724856a",
+      "subject": "黄白喉霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-圭亚那-地区-7d32a67b",
+      "object": "圭亚那 (地区)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "On the mainland it is found in eastern Colombia, northeastern Ecuador, eastern Peru, far northern Bolivia, eastern Venezuela, the Guianas, and much of northern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄白喉霸鹟-0724856a",
+      "subject": "黄白喉霸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-河迹湖-df1de2e3",
+      "object": "河迹湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The sulphury flycatcher is almost exclusively associated with moriche palms, inhabiting clusters of them in swampy forest (especially around oxbow lakes), more scattered ones in savanna, and sometimes isolated ones in cultivated areas and near houses. In elevation it is found from sea level to in Brazil and to in Venezuela.{{cite book | last =Hilty | first =Steven L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄白喉霸鹟-0724856a",
+      "subject": "黄白喉霸鹟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The sulphury flycatcher is almost exclusively associated with moriche palms, inhabiting clusters of them in swampy forest (especially around oxbow lakes), more scattered ones in savanna, and sometimes isolated ones in cultivated areas and near houses. In elevation it is found from sea level to in Brazil and to in Venezuela.{{cite book | last =Hilty | first =Steven L",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-黄白喉霸鹟-0724856a",
+      "subject": "黄白喉霸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黄白喉霸鹟-0724856a",
+      "subject": "黄白喉霸鹟",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered uncommon in Colombia, \"scarce and local\" in Ecuador, \"rare and local\" in Peru, \"uncommon and local\" in Venezuela, and uncommon in Brazil. \"Human activity probably has little short-term direct effect on Sulphury Flycatcher, other than through habitat destruction.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

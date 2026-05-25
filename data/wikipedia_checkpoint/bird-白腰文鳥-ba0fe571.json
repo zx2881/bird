@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:47:55",
+  "requested_title": "White-rumped Munia",
+  "resolved_title": "White-rumped munia",
+  "title_aliases": [
+    "White-rumped Munia"
+  ],
+  "bird_id": "bird-白腰文鳥-ba0fe571",
+  "raw_file": "bird-白腰文鳥-ba0fe571.json",
+  "bird": {
+    "id": "bird-白腰文鳥-ba0fe571",
+    "name": "白腰文鳥",
+    "english_name": "White-rumped munia",
+    "latin_name": "Lonchura striata",
+    "summary": "白腰文鳥（學名：Lonchura striata）是梅花雀科文鸟属的一种，俗名白背文鸟、尖尾文鳥、十姐妹、白腰算命鸟、禾谷，是一種來自梅花雀科的小型雀形目鳥類。這些鳥類與雀科（Fringillidae）或麻雀科（Passeridae）並無親緣關係。 它原產於熱帶亞洲大陸及一些鄰…",
+    "lat": "36",
+    "lng": "138",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/White-rumped_Munia_East_Distrct_Sikkim_India_05.07.2018.jpg/960px-White-rumped_Munia_East_Distrct_Sikkim_India_05.07.2018.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-日本-4dbed2e6",
+      "name": "日本",
+      "summary": "日本國（日語：日本国〔日本國〕／にっぽんこく／にほんこく，羅馬化：nippon koku/nihon koku），通稱日本，是位於東亞的島嶼國家。國土全境由北海道、本州、四國、九州等本土四島為基礎的14,125座島嶼組成，周圍被太平洋及鄂…",
+      "lat": "36",
+      "lng": "138"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白腰文鳥-ba0fe571",
+      "subject": "白腰文鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本-4dbed2e6",
+      "object": "日本",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to tropical continental Asia and some adjacent islands, and has been naturalized in some parts of Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腰文鳥-ba0fe571",
+      "subject": "白腰文鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

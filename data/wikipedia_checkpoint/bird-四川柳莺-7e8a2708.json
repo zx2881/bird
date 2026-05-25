@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:49:09",
+  "requested_title": "Sichuan Leaf Warbler",
+  "resolved_title": "Sichuan leaf warbler",
+  "title_aliases": [
+    "Sichuan Leaf Warbler"
+  ],
+  "bird_id": "bird-四川柳莺-7e8a2708",
+  "raw_file": "bird-四川柳莺-7e8a2708.json",
+  "bird": {
+    "id": "bird-四川柳莺-7e8a2708",
+    "name": "四川柳莺",
+    "english_name": "Sichuan leaf warbler",
+    "latin_name": "Phylloscopus forresti",
+    "summary": "四川柳莺（学名：Phylloscopus forresti）为柳莺科柳莺属的鸟类，为中国特有鸟种，分布于中国云南北部、四川中部和陕西南部。栖息于海拔2000-4600m的针叶林或针阔混交林，单独或成对活动。 四川柳莺曾作为黄腰柳莺（Phylloscopus proregulus…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Phylloscopus_forresti_-_Wang.QG_-_303415033.jpeg/960px-Phylloscopus_forresti_-_Wang.QG_-_303415033.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-第二代罗斯柴尔德男爵沃尔特-罗斯柴尔德-ba9984f1",
+      "name": "第二代罗斯柴尔德男爵沃尔特·罗斯柴尔德",
+      "summary": "第二代罗斯柴尔德男爵莱昂内尔·沃尔特·罗斯柴尔德，Bt，FRS（英語：Lionel Walter Rothschild, 2nd Baron Rothschild，1868年2月8日—1937年8月27日），英国政治家、银行家與動物學家，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-四川柳莺-7e8a2708",
+      "subject": "四川柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-第二代罗斯柴尔德男爵沃尔特-罗斯柴尔德-ba9984f1",
+      "object": "第二代罗斯柴尔德男爵沃尔特·罗斯柴尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sichuan leaf warbler (Phylloscopus forresti) is a species of leaf warbler found in central China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-四川柳莺-7e8a2708",
+      "subject": "四川柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sichuan leaf warbler (Phylloscopus forresti) is a species of leaf warbler found in central China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-四川柳莺-7e8a2708",
+      "subject": "四川柳莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

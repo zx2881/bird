@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:33:02",
+  "requested_title": "Boat-tailed Grackle",
+  "resolved_title": "Boat-tailed grackle",
+  "title_aliases": [
+    "Boat-tailed Grackle"
+  ],
+  "bird_id": "bird-船尾拟八哥-f0056d8a",
+  "raw_file": "bird-船尾拟八哥-f0056d8a.json",
+  "bird": {
+    "id": "bird-船尾拟八哥-f0056d8a",
+    "name": "船尾拟八哥",
+    "english_name": "Boat-tailed grackle",
+    "latin_name": "Quiscalus major",
+    "summary": "船尾拟八哥（学名：Quiscalus major）为擬黃鸝科拟八哥属下的一个鸟种, 分布于美国东南部 。 参考文献 外部連結",
+    "lat": "28",
+    "lng": "-82",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Boat_Tailed_Grackle_Male_JG.jpg/960px-Boat_Tailed_Grackle_Male_JG.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-草沼-e1caf9f8",
+      "name": "草沼",
+      "summary": "草沼即草本沼泽（英語：marsh），也叫草泽，是一种主要生长草本植物的湿地，多半可以發現在湖岸或河岸邊，介於水生與陸生生態系統的過渡，一般未被淹没，但土壤维持水浸状态。优势植物有苔草、莎草和灯芯草等，另外也會有低矮的灌木生長。和草沼不同，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-佛罗里达州-2bd04b45",
+      "name": "佛罗里达州",
+      "summary": "佛罗里达州（英語：State of Florida），简称佛州，是位于美国东南部的一个州。该州西临墨西哥湾，西北与阿拉巴马州接壤，北邻佐治亚州，东濒大西洋，南接佛罗里达海峡，并与古巴隔海相望。佛罗里达州大部分土地位于墨西哥湾和大西洋之间的…",
+      "lat": "28",
+      "lng": "-82"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-船尾拟八哥-f0056d8a",
+      "subject": "船尾拟八哥",
+      "predicate": "distributed_in",
+      "object_id": "loc-草沼-e1caf9f8",
+      "object": "草沼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The boat-tailed grackle is found in coastal saltwater marshes and across the Florida peninsula. In salt marsh areas, least bitterns will often associate with and make mixed colonies with grackles.{{Cite journal |last1=Post |first1=William |last2=Seals |first2=Carol A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-船尾拟八哥-f0056d8a",
+      "subject": "船尾拟八哥",
+      "predicate": "distributed_in",
+      "object_id": "loc-佛罗里达州-2bd04b45",
+      "object": "佛罗里达州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The boat-tailed grackle is found in coastal saltwater marshes and across the Florida peninsula. In salt marsh areas, least bitterns will often associate with and make mixed colonies with grackles.{{Cite journal |last1=Post |first1=William |last2=Seals |first2=Carol A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-船尾拟八哥-f0056d8a",
+      "subject": "船尾拟八哥",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The boat-tailed grackle is found in coastal saltwater marshes and across the Florida peninsula. In salt marsh areas, least bitterns will often associate with and make mixed colonies with grackles.{{Cite journal |last1=Post |first1=William |last2=Seals |first2=Carol A",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-船尾拟八哥-f0056d8a",
+      "subject": "船尾拟八哥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

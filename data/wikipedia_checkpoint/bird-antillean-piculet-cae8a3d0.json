@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:05:40",
+  "requested_title": "Antillean Piculet",
+  "resolved_title": "Antillean piculet",
+  "title_aliases": [
+    "Antillean Piculet"
+  ],
+  "bird_id": "bird-antillean-piculet-cae8a3d0",
+  "raw_file": "bird-antillean-piculet-cae8a3d0.json",
+  "bird": {
+    "id": "bird-antillean-piculet-cae8a3d0",
+    "name": "Antillean piculet",
+    "english_name": "Antillean piculet",
+    "latin_name": "Nesoctites micromegas",
+    "summary": "The Antillean piculet (Nesoctites micromegas) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is endemic to…",
+    "lat": "19",
+    "lng": "-70.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Antillean_Piculet_%28Nesoctites_micromegas%29_%288082816234%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-hispaniolan-moist-forests-f45c8144",
+      "name": "Hispaniolan moist forests",
+      "summary": "The Hispaniolan moist forests are a tropical moist broadleaf forest ecoregion on the island of Hispaniola.",
+      "lat": "19",
+      "lng": "-70.7"
+    },
+    {
+      "id": "loc-hispaniolan-dry-forests-a6589008",
+      "name": "Hispaniolan dry forests",
+      "summary": "The Hispaniolan dry forests are a tropical dry broadleaf forest ecoregion on the island of Hispaniola (split between th…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-hispaniolan-pine-forests-509c829e",
+      "name": "Hispaniolan pine forests",
+      "summary": "The Hispaniolan pine forests are a subtropical coniferous forest ecoregion found on the Caribbean island of Hispaniola,…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-thorn-forest-4be049cb",
+      "name": "Thorn forest",
+      "summary": "A thorn forest is a dense scrubland with vegetation characteristic of dry subtropical and warm temperate areas with mon…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-antillean-piculet-cae8a3d0",
+      "subject": "Antillean piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-moist-forests-f45c8144",
+      "object": "Hispaniolan moist forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits a variety of landscapes including humid and dry broadleaf forests, Hispaniolan pine forests dominated by Pinus occidentalis, semi-arid scrubland, and thorn forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-antillean-piculet-cae8a3d0",
+      "subject": "Antillean piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-dry-forests-a6589008",
+      "object": "Hispaniolan dry forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits a variety of landscapes including humid and dry broadleaf forests, Hispaniolan pine forests dominated by Pinus occidentalis, semi-arid scrubland, and thorn forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-antillean-piculet-cae8a3d0",
+      "subject": "Antillean piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-pine-forests-509c829e",
+      "object": "Hispaniolan pine forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits a variety of landscapes including humid and dry broadleaf forests, Hispaniolan pine forests dominated by Pinus occidentalis, semi-arid scrubland, and thorn forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-antillean-piculet-cae8a3d0",
+      "subject": "Antillean piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-thorn-forest-4be049cb",
+      "object": "Thorn forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits a variety of landscapes including humid and dry broadleaf forests, Hispaniolan pine forests dominated by Pinus occidentalis, semi-arid scrubland, and thorn forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-antillean-piculet-cae8a3d0",
+      "subject": "Antillean piculet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits a variety of landscapes including humid and dry broadleaf forests, Hispaniolan pine forests dominated by Pinus occidentalis, semi-arid scrubland, and thorn forest",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-antillean-piculet-cae8a3d0",
+      "subject": "Antillean piculet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:32:22",
+  "requested_title": "White-shouldered Starling",
+  "resolved_title": "White-shouldered starling",
+  "title_aliases": [
+    "White-shouldered Starling"
+  ],
+  "bird_id": "bird-灰背椋鸟-a094f231",
+  "raw_file": "bird-灰背椋鸟-a094f231.json",
+  "bird": {
+    "id": "bird-灰背椋鸟-a094f231",
+    "name": "灰背椋鸟",
+    "english_name": "White-shouldered starling",
+    "latin_name": "Sturnia sinensis",
+    "summary": "灰背椋鸟（学名：Sturnia sinensis）为椋鸟科北椋鳥屬的鸟类。在中國南部和越南北部繁殖，並於冬季遷徙至東南亞。该物种的模式产地在中国。 分類 灰背椋鳥由德國博物學家約翰·弗里德里希·格梅林於1788年在其修訂和擴展的卡爾·林奈《自然系統》自然系統版中正式描述。他將其…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sturnia_sinensis_%28Mandarinstar_-_White-shouldered_Starling%29_-_Weltvogelpark_Walsrode_2013-03.jpg/960px-Sturnia_sinensis_%28Mandarinstar_-_White-shouldered_Starling%29_-_Weltvogelpark_Walsrode_2013-03.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰背椋鸟-a094f231",
+      "subject": "灰背椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern China and northern Vietnam; it winters in Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰背椋鸟-a094f231",
+      "subject": "灰背椋鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

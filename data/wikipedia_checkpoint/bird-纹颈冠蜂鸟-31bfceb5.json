@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:09:01",
+  "requested_title": "Frilled Coquette",
+  "resolved_title": "Frilled coquette",
+  "title_aliases": [
+    "Frilled Coquette"
+  ],
+  "bird_id": "bird-纹颈冠蜂鸟-31bfceb5",
+  "raw_file": "bird-纹颈冠蜂鸟-31bfceb5.json",
+  "bird": {
+    "id": "bird-纹颈冠蜂鸟-31bfceb5",
+    "name": "纹颈冠蜂鸟",
+    "english_name": "Frilled coquette",
+    "latin_name": "Lophornis magnificus",
+    "summary": "The frilled coquette (Lophornis magnificus) is a species of hummingbird in the \"coquettes\", tribe Lesbiini of subfamily Lesbiinae. It is en…",
+    "lat": "-20.25",
+    "lng": "-40.28",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Lophornis_magnificus_-_Frilled_Coquette_%28male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣埃斯皮里图州-b4d4ca04",
+      "name": "圣埃斯皮里图州",
+      "summary": "聖埃斯皮里圖州（葡萄牙語：Espírito Santo，(e)s.'pi.ɾi.tu 'sɐ̃.tu）是巴西的一個州，其州名是基督宗教中「聖靈」的意思。位於東南部大西洋岸。面積46,077.519平方公里，2005年人口3,412,746…",
+      "lat": "-20.25",
+      "lng": "-40.28"
+    },
+    {
+      "id": "loc-南里奥格兰德州-a29883e9",
+      "name": "南里奥格兰德州",
+      "summary": "南里奥格兰德州（葡萄牙語：Rio Grande do Sul，直译：「南方的大河」，發音：[ˈʁiw ˈɡɾɐ̃dʒi du ˈsuw] ），或称南大河州，是巴西最南端的一个州，东临大西洋，首府阿雷格里港，人口10,963,216。该州与…",
+      "lat": "-30",
+      "lng": "-53"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纹颈冠蜂鸟-31bfceb5",
+      "subject": "纹颈冠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣埃斯皮里图州-b4d4ca04",
+      "object": "圣埃斯皮里图州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The frilled coquette is found in eastern and southern Brazil, from Espírito Santo south to Rio Grande do Sul and west almost to Bolivia and Paraguay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹颈冠蜂鸟-31bfceb5",
+      "subject": "纹颈冠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-南里奥格兰德州-a29883e9",
+      "object": "南里奥格兰德州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The frilled coquette is found in eastern and southern Brazil, from Espírito Santo south to Rio Grande do Sul and west almost to Bolivia and Paraguay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹颈冠蜂鸟-31bfceb5",
+      "subject": "纹颈冠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits semi-open to open landscapes such as the edges of humid forest, secondary forest, coffee plantations, gardens, and cerrado",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹颈冠蜂鸟-31bfceb5",
+      "subject": "纹颈冠蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

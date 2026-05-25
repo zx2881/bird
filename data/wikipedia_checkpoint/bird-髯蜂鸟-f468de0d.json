@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:22:13",
+  "requested_title": "Green-bearded Helmetcrest",
+  "resolved_title": "Green-bearded helmetcrest",
+  "title_aliases": [
+    "Green-bearded Helmetcrest"
+  ],
+  "bird_id": "bird-髯蜂鸟-f468de0d",
+  "raw_file": "bird-髯蜂鸟-f468de0d.json",
+  "bird": {
+    "id": "bird-髯蜂鸟-f468de0d",
+    "name": "髯蜂鸟",
+    "english_name": "Green-bearded helmetcrest",
+    "latin_name": "Oxypogon guerinii",
+    "summary": "髯蜂鸟（台湾作綠髯蜂鳥，学名：Oxypogon guerinii），是雨燕目蜂鸟科的一种鸟类。 髯蜂鸟体重约4.8克，翼长约70.3毫米，嘴峰长约12.7毫米，喙宽度约1.5毫米，喙厚度约1.1毫米，跗蹠长约6.9毫米，尾长约55毫米。髯蜂鸟在其分布区内为留鸟，其栖息在半开放的…",
+    "lat": "5",
+    "lng": "-74.15",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Oxypogon_guerinii.jpg/960px-Oxypogon_guerinii.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥倫比亞東部山脈-8173292d",
+      "name": "哥倫比亞東部山脈",
+      "summary": "哥倫比亞東部山脈（西班牙語：Cordillera Oriental），是哥倫比亞的山脈，屬於安第斯山脈的一部分，全長1,200公里，面積144,252平方公里，最高點是海拔高度5,410米的白里塔庫巴峰。",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-昆迪納馬卡省-039e8ea6",
+      "name": "昆迪納馬卡省",
+      "summary": "昆迪納馬卡省（Departamento de Cundinamarca，克丘亞語的意思是「禿鷹的巢」）是哥倫比亞中部的一個省。面積24,210平方公里，2018年人口为2,804,238人。首府波哥大（兩者有司法上的聯繫），也是該國的首都…",
+      "lat": "5",
+      "lng": "-74.15"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-髯蜂鸟-f468de0d",
+      "subject": "髯蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥倫比亞東部山脈-8173292d",
+      "object": "哥倫比亞東部山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green-bearded helmetcrest is found in Colombia's Eastern Andes as far south as Cundinamarca Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-髯蜂鸟-f468de0d",
+      "subject": "髯蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆迪納馬卡省-039e8ea6",
+      "object": "昆迪納馬卡省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green-bearded helmetcrest is found in Colombia's Eastern Andes as far south as Cundinamarca Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-髯蜂鸟-f468de0d",
+      "subject": "髯蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

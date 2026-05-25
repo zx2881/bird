@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:53:13",
+  "requested_title": "Violet-capped Hummingbird",
+  "resolved_title": "Violet-capped hummingbird",
+  "title_aliases": [
+    "Violet-capped Hummingbird"
+  ],
+  "bird_id": "bird-紫顶蜂鸟-9835fa54",
+  "raw_file": "bird-紫顶蜂鸟-9835fa54.json",
+  "bird": {
+    "id": "bird-紫顶蜂鸟-9835fa54",
+    "name": "紫顶蜂鸟",
+    "english_name": "Violet-capped hummingbird",
+    "latin_name": "Goldmania violiceps",
+    "summary": "紫顶蜂鸟（学名：Goldmania violiceps），是雨燕目蜂鸟科的一种鸟类。 紫顶蜂鸟体重约4.1克，翼长约49.5毫米，嘴峰长约21.7毫米，喙宽度约2.7毫米，喙厚度约2.1毫米，跗蹠长约3.7毫米，尾长约28毫米。紫顶蜂鸟在其分布区内为留鸟，其栖息在密集的高大树木…",
+    "lat": "9",
+    "lng": "-80",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Violet-capped_Hummingbird.jpg/960px-Violet-capped_Hummingbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫顶蜂鸟-9835fa54",
+      "subject": "紫顶蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Panama and far northwestern Colombia.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫顶蜂鸟-9835fa54",
+      "subject": "紫顶蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Panama and far northwestern Colombia.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫顶蜂鸟-9835fa54",
+      "subject": "紫顶蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-open-mountain",
+      "object": "开阔山地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The violet-capped hummingbird is found in several unconnected mountainous areas in central and eastern Panama and extreme northwestern Colombia",
+      "object_summary": "地形开阔且便于大翼展鸟类活动的山地区域。"
+    },
+    {
+      "subject_id": "bird-紫顶蜂鸟-9835fa54",
+      "subject": "紫顶蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

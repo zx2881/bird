@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:28:22",
+  "requested_title": "Black-backed Oriole",
+  "resolved_title": "Black-backed oriole",
+  "title_aliases": [
+    "Black-backed Oriole"
+  ],
+  "bird_id": "bird-black-backed-oriole-a459f24b",
+  "raw_file": "bird-black-backed-oriole-a459f24b.json",
+  "bird": {
+    "id": "bird-black-backed-oriole-a459f24b",
+    "name": "Black-backed oriole",
+    "english_name": "Black-backed oriole",
+    "latin_name": "Icterus abeillei",
+    "summary": "The black-backed oriole (Icterus abeillei) is a species of bird in the family Icteridae. It is endemic to Mexico.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Icterus_abeillei_60979467.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-backed-oriole-a459f24b",
+      "subject": "Black-backed oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest, but it is also found in cities",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-backed-oriole-a459f24b",
+      "subject": "Black-backed oriole",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest, but it is also found in cities",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-black-backed-oriole-a459f24b",
+      "subject": "Black-backed oriole",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

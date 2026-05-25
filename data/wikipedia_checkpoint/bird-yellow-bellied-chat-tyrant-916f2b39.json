@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:46:21",
+  "requested_title": "Yellow-bellied Chat-Tyrant",
+  "resolved_title": "Yellow-bellied chat-tyrant",
+  "title_aliases": [
+    "Yellow-bellied Chat-Tyrant"
+  ],
+  "bird_id": "bird-yellow-bellied-chat-tyrant-916f2b39",
+  "raw_file": "bird-yellow-bellied-chat-tyrant-916f2b39.json",
+  "bird": {
+    "id": "bird-yellow-bellied-chat-tyrant-916f2b39",
+    "name": "Yellow-bellied chat-tyrant",
+    "english_name": "Yellow-bellied chat-tyrant",
+    "latin_name": "Silvicultrix diadema",
+    "summary": "The yellow-bellied chat-tyrant (Silvicultrix diadema) is a species of passerine bird in the family Tyrannidae, the tyrant flycatchers. It i…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Yellow-bellied_chat-tyrant_%28Silvicultrix_diadema_gratiosa%29_Caldas.jpg/960px-Yellow-bellied_chat-tyrant_%28Silvicultrix_diadema_gratiosa%29_Caldas.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-bellied-chat-tyrant-916f2b39",
+      "subject": "Yellow-bellied chat-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "III | title =Birds of Peru | publisher =Princeton University Press | edition =revised and updated |series=Princeton Field Guides | date =2010 | location =Princeton, NJ | page =462 |isbn = 978-0-691-13023-1 }} The yellow-bellied chat-tyrant primarily inhabits the interior and undergrowth of humid montane forest and cloudforest in the subtropical and temperate zones",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-bellied-chat-tyrant-916f2b39",
+      "subject": "Yellow-bellied chat-tyrant",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "III | title =Birds of Peru | publisher =Princeton University Press | edition =revised and updated |series=Princeton Field Guides | date =2010 | location =Princeton, NJ | page =462 |isbn = 978-0-691-13023-1 }} The yellow-bellied chat-tyrant primarily inhabits the interior and undergrowth of humid montane forest and cloudforest in the subtropical and temperate zones",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-yellow-bellied-chat-tyrant-916f2b39",
+      "subject": "Yellow-bellied chat-tyrant",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

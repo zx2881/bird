@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:06:50",
+  "requested_title": "White-browed Antpitta",
+  "resolved_title": "White-browed antpitta",
+  "title_aliases": [
+    "White-browed Antpitta"
+  ],
+  "bird_id": "bird-white-browed-antpitta-95a1aecf",
+  "raw_file": "bird-white-browed-antpitta-95a1aecf.json",
+  "bird": {
+    "id": "bird-white-browed-antpitta-95a1aecf",
+    "name": "White-browed antpitta",
+    "english_name": "White-browed antpitta",
+    "latin_name": "Hylopezus ochroleucus",
+    "summary": "The white-browed antpitta (Hylopezus ochroleucus) is a species of bird in the family Grallariidae. It is endemic to Brazil.",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Hylopezus_ochroleucus_-_White-browed_antpitta.jpg/960px-Hylopezus_ochroleucus_-_White-browed_antpitta.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    },
+    {
+      "id": "loc-塞阿拉州-3f292f1e",
+      "name": "塞阿拉州",
+      "summary": "塞阿拉州（葡萄牙語：Ceará，[seaˈɾa] ）是巴西26个联邦州之一，位于东北地区北部，东邻北里奥格兰德州和帕拉伊巴州，南邻伯南布哥州，西邻皮奥伊州，北和东北方向濒临大西洋。塞阿拉州面积为148,894.442平方千米，占东北地区面…",
+      "lat": "-5.08",
+      "lng": "-39.65"
+    },
+    {
+      "id": "loc-马托格罗索州-b9e0d0d4",
+      "name": "马托格罗索州",
+      "summary": "马托格罗索州（葡萄牙語：Mato Grosso）是巴西西部的一个州，首府库亚巴。面积为903,357平方公里。人口2,856,999人。为巴西第三大州。为世界上仅存的大片未开发地区之一。自西北方向起顺时针分别与朗多尼亚州、亚马孙州、帕拉州…",
+      "lat": "-15.56666667",
+      "lng": "-56.075"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-browed-antpitta-95a1aecf",
+      "subject": "White-browed antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-browed antpitta is found in the caatinga region of eastern Brazil from western Ceará south into northern Mato Grosso",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-antpitta-95a1aecf",
+      "subject": "White-browed antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞阿拉州-3f292f1e",
+      "object": "塞阿拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-browed antpitta is found in the caatinga region of eastern Brazil from western Ceará south into northern Mato Grosso",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-antpitta-95a1aecf",
+      "subject": "White-browed antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-马托格罗索州-b9e0d0d4",
+      "object": "马托格罗索州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-browed antpitta is found in the caatinga region of eastern Brazil from western Ceará south into northern Mato Grosso",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-browed-antpitta-95a1aecf",
+      "subject": "White-browed antpitta",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

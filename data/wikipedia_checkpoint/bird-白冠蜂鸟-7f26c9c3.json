@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:08:06",
+  "requested_title": "White-crested Coquette",
+  "resolved_title": "White-crested coquette",
+  "title_aliases": [
+    "White-crested Coquette"
+  ],
+  "bird_id": "bird-白冠蜂鸟-7f26c9c3",
+  "raw_file": "bird-白冠蜂鸟-7f26c9c3.json",
+  "bird": {
+    "id": "bird-白冠蜂鸟-7f26c9c3",
+    "name": "白冠蜂鸟",
+    "english_name": "White-crested coquette",
+    "latin_name": "Lophornis adorabilis",
+    "summary": "白冠蜂鸟（学名：Lophornis adorabilis），是雨燕目蜂鸟科的一种鸟类。 白冠蜂鸟体重约2.7克，翼长约37.8毫米，嘴峰长约13.2毫米，喙宽度约1.6毫米，喙厚度约1.4毫米，跗蹠长约5毫米，尾长约26.8毫米。白冠蜂鸟在其分布区内为留鸟，其栖息在密集的高大树…",
+    "lat": "10",
+    "lng": "-84",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/White-crested_coquette_%2830181461491%29.jpg/960px-White-crested_coquette_%2830181461491%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥斯达黎加-6c4f73ad",
+      "name": "哥斯达黎加",
+      "summary": "哥斯达黎加共和國（西班牙語：República de Costa Rica），通稱哥斯达黎加（Costa Rica），是中美洲国家，北邻尼加拉瓜，南与巴拿马接壤，首都為聖荷西。 哥斯达黎加是当今世界上第一个裁撤军队的国家。目前哥斯大黎加是…",
+      "lat": "10",
+      "lng": "-84"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白冠蜂鸟-7f26c9c3",
+      "subject": "白冠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥斯达黎加-6c4f73ad",
+      "object": "哥斯达黎加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白冠蜂鸟-7f26c9c3",
+      "subject": "白冠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白冠蜂鸟-7f26c9c3",
+      "subject": "白冠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the interior and edges of humid forests and taller secondary forest; it also occurs in more open landscapes like along hedgerows",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白冠蜂鸟-7f26c9c3",
+      "subject": "白冠蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

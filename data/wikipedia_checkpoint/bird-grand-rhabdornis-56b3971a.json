@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:19:14",
+  "requested_title": "Grand Rhabdornis",
+  "resolved_title": "Grand rhabdornis",
+  "title_aliases": [
+    "Grand Rhabdornis"
+  ],
+  "bird_id": "bird-grand-rhabdornis-56b3971a",
+  "raw_file": "bird-grand-rhabdornis-56b3971a.json",
+  "bird": {
+    "id": "bird-grand-rhabdornis-56b3971a",
+    "name": "Grand rhabdornis",
+    "english_name": "Grand rhabdornis",
+    "latin_name": "Rhabdornis grandis",
+    "summary": "The grand rhabdornis (Rhabdornis grandis), also known as the long-billed rhabdornis or long-billed creeper, is a species of bird currently…",
+    "lat": "17.30805556",
+    "lng": "122.08611111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Grand_Rhabdornis_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "name": "Northern Sierra Madre Natural Park",
+      "summary": "The Northern Sierra Madre Natural Park is the largest protected area of the Philippines covering the northern range of…",
+      "lat": "17.30805556",
+      "lng": "122.08611111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grand-rhabdornis-56b3971a",
+      "subject": "Grand rhabdornis",
+      "predicate": "distributed_in",
+      "object_id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "object": "Northern Sierra Madre Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Northern Sierra Madre Natural Park actual protection from habitat loss and deforestation is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grand-rhabdornis-56b3971a",
+      "subject": "Grand rhabdornis",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is tropical mid-elevation and high elevation montane forest. The International Union for Conservation of Nature lists it as a Least-concern species but despite this the population is still said to be declining due to habitat loss and fragmentation from illegal logging, land conversion, slash-and-burn farming and mining",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-grand-rhabdornis-56b3971a",
+      "subject": "Grand rhabdornis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-grand-rhabdornis-56b3971a",
+      "subject": "Grand rhabdornis",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its natural habitat is tropical mid-elevation and high elevation montane forest. The International Union for Conservation of Nature lists it as a Least-concern species but despite this the population is still said to be declining due to habitat loss and fragmentation from illegal logging, land conversion, slash-and-burn farming and mining",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-grand-rhabdornis-56b3971a",
+      "subject": "Grand rhabdornis",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its natural habitat is tropical mid-elevation and high elevation montane forest. The International Union for Conservation of Nature lists it as a Least-concern species but despite this the population is still said to be declining due to habitat loss and fragmentation from illegal logging, land conversion, slash-and-burn farming and mining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

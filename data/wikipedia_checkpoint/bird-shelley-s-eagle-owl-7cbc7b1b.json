@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T22:25:17",
+  "requested_title": "Shelley's Eagle-Owl",
+  "resolved_title": "Shelley's eagle-owl",
+  "title_aliases": [
+    "Shelley's Eagle-Owl"
+  ],
+  "bird_id": "bird-shelley-s-eagle-owl-7cbc7b1b",
+  "raw_file": "bird-shelley-s-eagle-owl-7cbc7b1b.json",
+  "bird": {
+    "id": "bird-shelley-s-eagle-owl-7cbc7b1b",
+    "name": "Shelley's eagle-owl",
+    "english_name": "Shelley's eagle-owl",
+    "latin_name": "Ketupa shelleyi",
+    "summary": "Shelley's eagle-owl (Ketupa shelleyi) is a species of owl in the family Strigidae. Despite its large size, it is a very little-known, rarel…",
+    "lat": "12",
+    "lng": "3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/BuboShelleyiKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中部非洲-3fc4fb95",
+      "name": "中部非洲",
+      "summary": "中非（英語：Central Africa）即中部非洲地区，从撒哈拉沙漠与非洲大陆西部突起部分合围，不包括非洲大峡谷西部。有時中非單指中非共和國。区內用水全赖刚果河及其支流，流域面积仅次于亚马逊河。 国家列表 聯合國中部非洲次分區（英語：U…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-shelley-s-eagle-owl-7cbc7b1b",
+      "subject": "Shelley's eagle-owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-中部非洲-3fc4fb95",
+      "object": "中部非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in Central and Western Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-shelley-s-eagle-owl-7cbc7b1b",
+      "subject": "Shelley's eagle-owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in Central and Western Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-shelley-s-eagle-owl-7cbc7b1b",
+      "subject": "Shelley's eagle-owl",
+      "predicate": "lives_in",
+      "object_id": "hab-rainforest",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Ostrich, 37(sup1), 499–506. One isolated population is thought to live in a small area of inland Liberia, as well as adjacent extreme southeast Sierra Leone, western Ivory Coast and the southeastern tips of Guinea. An isolated population may persist in southern Ghana. The largest probable population is in southern Cameroon (also possibly extreme southern Nigeria), much of the non-coastal parts of Equatorial Guinea and Gabon, the Republic of the Congo and a large swath of northern Democratic Republic of the Congo, perhaps reaching Uganda. It is a resident of lowland, tropical rainforests and has never been collected outside densely forested and old growth areas",
+      "object_summary": "结构复杂且冠层完整的高生物多样性森林。"
+    },
+    {
+      "subject_id": "bird-shelley-s-eagle-owl-7cbc7b1b",
+      "subject": "Shelley's eagle-owl",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-shelley-s-eagle-owl-7cbc7b1b",
+      "subject": "Shelley's eagle-owl",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Further studies, especially of the life history of Shelley's eagle-owls, are badly needed. Based on this clear scarcity, it appears to be a very local and very rare bird. Due to its habitation of dense rainforest, it is clear that the species is threatened by any habitat loss within its native range",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

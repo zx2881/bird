@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:03:18",
+  "requested_title": "Brown Scrub Robin",
+  "resolved_title": "Brown scrub robin",
+  "title_aliases": [
+    "Brown Scrub Robin"
+  ],
+  "bird_id": "bird-brown-scrub-robin-c22878e4",
+  "raw_file": "bird-brown-scrub-robin-c22878e4.json",
+  "bird": {
+    "id": "bird-brown-scrub-robin-c22878e4",
+    "name": "Brown scrub robin",
+    "english_name": "Brown scrub robin",
+    "latin_name": "Tychaedon signata",
+    "summary": "The brown scrub robin (Tychaedon signata) is a species of bird in the family Muscicapidae. It is found in Eswatini, Mozambique and, South A…",
+    "lat": "-26.5",
+    "lng": "31.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Cercotrichas_signata_tongensis%2C_volwassene%2C_St_Lucia%2C_Birding_Weto%2C_a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-史瓦帝尼-8e8b2b40",
+      "name": "史瓦帝尼",
+      "summary": "史瓦帝尼王國（史瓦帝語：Umbuso weSwatini；英語：Kingdom of Eswatini），通稱史瓦帝尼（史瓦帝語：eSwatini；英語：Eswatini），是位於非洲南部的一个內陸國家。史瓦帝尼北、西、南三面均為南非所包…",
+      "lat": "-26.5",
+      "lng": "31.5"
+    },
+    {
+      "id": "loc-莫桑比克-9371b65a",
+      "name": "莫桑比克",
+      "summary": "莫桑比克共和国（葡萄牙語：República de Moçambique，發音：[ʁɛˈpuβlikɐ ðɨ musɐ̃ˈbikɨ]），舊譯作莫三鼻給，現通稱莫三比克或莫桑比克，位於非洲東部，临印度洋，隔莫桑比克海峡与马达加斯加相望，以葡…",
+      "lat": "-18.25",
+      "lng": "35"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-scrub-robin-c22878e4",
+      "subject": "Brown scrub robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-史瓦帝尼-8e8b2b40",
+      "object": "史瓦帝尼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eswatini, Mozambique and, South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-scrub-robin-c22878e4",
+      "subject": "Brown scrub robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫桑比克-9371b65a",
+      "object": "莫桑比克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eswatini, Mozambique and, South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-scrub-robin-c22878e4",
+      "subject": "Brown scrub robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eswatini, Mozambique and, South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-scrub-robin-c22878e4",
+      "subject": "Brown scrub robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

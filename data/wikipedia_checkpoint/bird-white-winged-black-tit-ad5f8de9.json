@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:20:07",
+  "requested_title": "White-winged Black Tit",
+  "resolved_title": "White-winged black tit",
+  "title_aliases": [
+    "White-winged Black Tit"
+  ],
+  "bird_id": "bird-white-winged-black-tit-ad5f8de9",
+  "raw_file": "bird-white-winged-black-tit-ad5f8de9.json",
+  "bird": {
+    "id": "bird-white-winged-black-tit-ad5f8de9",
+    "name": "White-winged black tit",
+    "english_name": "White-winged black tit",
+    "latin_name": "Melaniparus leucomelas",
+    "summary": "The white-winged black tit (Melaniparus leucomelas) is a passerine bird in the tit family Paridae. It is also known as the white-winged tit…",
+    "lat": "-12.5",
+    "lng": "18.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Melaniparus_leucomelas.jpg/960px-Melaniparus_leucomelas.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-winged-black-tit-ad5f8de9",
+      "subject": "White-winged black tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central Africa, from Angola in the west to Ethiopia in the east",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-black-tit-ad5f8de9",
+      "subject": "White-winged black tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in central Africa, from Angola in the west to Ethiopia in the east",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-black-tit-ad5f8de9",
+      "subject": "White-winged black tit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

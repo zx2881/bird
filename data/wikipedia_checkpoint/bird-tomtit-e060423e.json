@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:53:25",
+  "requested_title": "Tomtit",
+  "resolved_title": "Tomtit",
+  "title_aliases": [
+    "Tomtit"
+  ],
+  "bird_id": "bird-tomtit-e060423e",
+  "raw_file": "bird-tomtit-e060423e.json",
+  "bird": {
+    "id": "bird-tomtit-e060423e",
+    "name": "Tomtit",
+    "english_name": "Tomtit",
+    "latin_name": "Petroica macrocephala",
+    "summary": "The tomtit (Petroica macrocephala) is a small passerine bird in the family Petroicidae, the Australasian robins. It is endemic to the islan…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/A_Toitoi_in_the_forest.jpg/960px-A_Toitoi_in_the_forest.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tomtit-e060423e",
+      "subject": "Tomtit",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tomtit (Petroica macrocephala) is a small passerine bird in the family Petroicidae, the Australasian robins",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tomtit-e060423e",
+      "subject": "Tomtit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

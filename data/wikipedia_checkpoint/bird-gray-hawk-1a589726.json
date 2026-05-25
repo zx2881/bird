@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:01:46",
+  "requested_title": "Grey Hawk",
+  "resolved_title": "Gray hawk",
+  "title_aliases": [
+    "Grey Hawk",
+    "Gray hawk"
+  ],
+  "bird_id": "bird-gray-hawk-1a589726",
+  "raw_file": "bird-gray-hawk-1a589726.json",
+  "bird": {
+    "id": "bird-gray-hawk-1a589726",
+    "name": "Gray hawk",
+    "english_name": "Gray hawk",
+    "latin_name": "Buteo plagiatus",
+    "summary": "The gray hawk (Buteo plagiatus) or Mexican goshawk is a smallish raptor found in open country and forest edges. It is sometimes placed in t…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Buteo_plagiatus_Belize.jpg/960px-Buteo_plagiatus_Belize.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-赫爾曼-施萊格爾-8481bd0b",
+      "name": "赫爾曼·施萊格爾",
+      "summary": "赫爾曼·施萊格爾（德語：Hermann Schlegel，1804年6月10日—1884年1月17日），德國鳥類學家暨爬蟲兩棲類學家。由於其多數著名的研究都是在荷蘭完成，因此常也被認為是荷蘭的科學家。 生平 早年生涯 施萊格爾生於德國阿爾…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-gray-hawk-1a589726",
+      "subject": "Gray hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-赫爾曼-施萊格爾-8481bd0b",
+      "object": "赫爾曼·施萊格爾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gray hawk (Buteo plagiatus) or Mexican goshawk is a smallish raptor found in open country and forest edges",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gray-hawk-1a589726",
+      "subject": "Gray hawk",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The gray hawk's range is in Northern and Central America, from southern New Mexico, southern Arizona, to central Texas, through Mexico, Guatemala, Belize, El Salvador, Honduras, Nicaragua, to the northern part of Costa Rica. Its habitat within this range consists of forest edges, river edges, clear cuts, savanna, and agricultural land (4)",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-gray-hawk-1a589726",
+      "subject": "Gray hawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

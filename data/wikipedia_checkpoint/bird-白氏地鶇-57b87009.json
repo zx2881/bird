@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:59:54",
+  "requested_title": "White's Thrush",
+  "resolved_title": "White's thrush",
+  "title_aliases": [
+    "White's Thrush"
+  ],
+  "bird_id": "bird-白氏地鶇-57b87009",
+  "raw_file": "bird-白氏地鶇-57b87009.json",
+  "bird": {
+    "id": "bird-白氏地鶇-57b87009",
+    "name": "白氏地鶇",
+    "english_name": "White's thrush",
+    "latin_name": "Zoothera aurea",
+    "summary": "White's thrush (Zoothera aurea) is a member of the thrush family, Turdidae. It was named after the English naturalist Gilbert White.",
+    "lat": "61",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Zoothera_aurea%2C_Hong_Kong_1.jpg/960px-Zoothera_aurea%2C_Hong_Kong_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白氏地鶇-57b87009",
+      "subject": "白氏地鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in wet coniferous taiga, mainly in the eastern Palearctic in Siberia to Manchuria, Korea and Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白氏地鶇-57b87009",
+      "subject": "白氏地鶇",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

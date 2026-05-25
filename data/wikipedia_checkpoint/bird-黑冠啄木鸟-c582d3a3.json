@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:05:44",
+  "requested_title": "Heart-spotted Woodpecker",
+  "resolved_title": "Heart-spotted woodpecker",
+  "title_aliases": [
+    "Heart-spotted Woodpecker"
+  ],
+  "bird_id": "bird-黑冠啄木鸟-c582d3a3",
+  "raw_file": "bird-黑冠啄木鸟-c582d3a3.json",
+  "bird": {
+    "id": "bird-黑冠啄木鸟-c582d3a3",
+    "name": "黑冠啄木鸟",
+    "english_name": "Heart-spotted woodpecker",
+    "latin_name": "Hemicircus canente",
+    "summary": "黑冠啄木鸟（學名：Hemicircus canente）一种分布于南亚和东南亚中南半岛等地区的䴕形目鸟类，隶属于啄木鸟科黑冠啄木鸟属。本种由法国鸟类学家勒内·普里姆韦尔·莱松于1830年描述发表。 参考文献 延伸阅读 Menon, G.K.",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Heart_Spotted_Woodpecker_%28male%29.jpg/960px-Heart_Spotted_Woodpecker_%28male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑冠啄木鸟-c582d3a3",
+      "subject": "黑冠啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They have a wide distribution across Asia with populations in the forests of southwestern and central India which are slightly separated from their ranges in the Himalayas and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑冠啄木鸟-c582d3a3",
+      "subject": "黑冠啄木鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

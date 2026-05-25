@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:44:32",
+  "requested_title": "Eastern Clapper Lark",
+  "resolved_title": "Eastern clapper lark",
+  "title_aliases": [
+    "Eastern Clapper Lark"
+  ],
+  "bird_id": "bird-eastern-clapper-lark-86a6d811",
+  "raw_file": "bird-eastern-clapper-lark-86a6d811.json",
+  "bird": {
+    "id": "bird-eastern-clapper-lark-86a6d811",
+    "name": "Eastern clapper lark",
+    "english_name": "Eastern clapper lark",
+    "latin_name": "Corypha (bird) fasciolata",
+    "summary": "The eastern clapper lark (Corypha fasciolata) is a small passerine bird which breeds in southern Africa. It derives its name from the wing…",
+    "lat": "-27.24305556",
+    "lng": "22.405",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Eastern_clapper_lark_%28Mirafra_fasciolata_subsp_fasciolata%29%2C_crop.jpg/960px-Eastern_clapper_lark_%28Mirafra_fasciolata_subsp_fasciolata%29%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-tswalu-kalahari-reserve-31981c8b",
+      "name": "Tswalu Kalahari Reserve",
+      "summary": "The Tswalu Kalahari Reserve is a privately owned game reserve in the Northern Cape, South Africa.",
+      "lat": "-27.24305556",
+      "lng": "22.405"
+    },
+    {
+      "id": "loc-carl-jakob-sundevall-74842590",
+      "name": "Carl Jakob Sundevall",
+      "summary": "Carl Jakob Sundevall (22 October 1801 – 2 February 1875) was a Swedish zoologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-eastern-clapper-lark-86a6d811",
+      "subject": "Eastern clapper lark",
+      "predicate": "distributed_in",
+      "object_id": "loc-tswalu-kalahari-reserve-31981c8b",
+      "object": "Tswalu Kalahari Reserve",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "fasciolata at Tswalu Kalahari Reserve, South Africa | status = LC | status_system = IUCN3.1 | status_ref = | genus = Corypha (bird) | species = fasciolata | authority = (Sundevall, 1850) | synonyms = * Alauda fasciolata * Mirafra damarensis | range_map = Eastern_Clapper_Lark.png | range_map_caption = }} The eastern clapper lark (Corypha fasciolata) is a small passerine bird which breeds in southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-clapper-lark-86a6d811",
+      "subject": "Eastern clapper lark",
+      "predicate": "distributed_in",
+      "object_id": "loc-carl-jakob-sundevall-74842590",
+      "object": "Carl Jakob Sundevall",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "fasciolata at Tswalu Kalahari Reserve, South Africa | status = LC | status_system = IUCN3.1 | status_ref = | genus = Corypha (bird) | species = fasciolata | authority = (Sundevall, 1850) | synonyms = * Alauda fasciolata * Mirafra damarensis | range_map = Eastern_Clapper_Lark.png | range_map_caption = }} The eastern clapper lark (Corypha fasciolata) is a small passerine bird which breeds in southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-eastern-clapper-lark-86a6d811",
+      "subject": "Eastern clapper lark",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

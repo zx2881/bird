@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:51:27",
+  "requested_title": "Pacific Parakeet",
+  "resolved_title": "Pacific parakeet",
+  "title_aliases": [
+    "Pacific Parakeet"
+  ],
+  "bird_id": "bird-pacific-parakeet-0519c226",
+  "raw_file": "bird-pacific-parakeet-0519c226.json",
+  "bird": {
+    "id": "bird-pacific-parakeet-0519c226",
+    "name": "Pacific parakeet",
+    "english_name": "Pacific parakeet",
+    "latin_name": "Psittacara strenuus",
+    "summary": "The Pacific parakeet (Psittacara strenuus), known as Pacific conure or Nicaraguan green conure in aviculture, is a species of bird in subfa…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Pacific_parakeet_%28Psittacara_strenuus%29_Los_Tarrales.jpg/960px-Pacific_parakeet_%28Psittacara_strenuus%29_Los_Tarrales.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pacific-parakeet-0519c226",
+      "subject": "Pacific parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits a variety of woodland landscapes including deciduous, semi-deciduous, and evergreen; gallery forest; swamp forest; and arid scrublands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pacific-parakeet-0519c226",
+      "subject": "Pacific parakeet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits a variety of woodland landscapes including deciduous, semi-deciduous, and evergreen; gallery forest; swamp forest; and arid scrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-pacific-parakeet-0519c226",
+      "subject": "Pacific parakeet",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits a variety of woodland landscapes including deciduous, semi-deciduous, and evergreen; gallery forest; swamp forest; and arid scrublands",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-pacific-parakeet-0519c226",
+      "subject": "Pacific parakeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

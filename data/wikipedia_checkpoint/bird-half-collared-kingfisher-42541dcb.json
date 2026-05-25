@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:38:36",
+  "requested_title": "Half-collared Kingfisher",
+  "resolved_title": "Half-collared kingfisher",
+  "title_aliases": [
+    "Half-collared Kingfisher"
+  ],
+  "bird_id": "bird-half-collared-kingfisher-42541dcb",
+  "raw_file": "bird-half-collared-kingfisher-42541dcb.json",
+  "bird": {
+    "id": "bird-half-collared-kingfisher-42541dcb",
+    "name": "Half-collared kingfisher",
+    "english_name": "Half-collared kingfisher",
+    "latin_name": "Alcedo semitorquata",
+    "summary": "The half-collared kingfisher (Alcedo semitorquata) is a kingfisher in the subfamily Alcedininae that is found in southern and eastern Afric…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Half-collared_Kingfisher_-_Malawi_S4E4593.jpg/960px-Half-collared_Kingfisher_-_Malawi_S4E4593.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-william-swainson-ccfed77b",
+      "name": "William Swainson",
+      "summary": "William Swainson FLS, FRS (8 October 1789 – 6 December 1855), was an English ornithologist, malacologist, conchologist,…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-翠鸟亚科-7980b011",
+      "name": "翠鸟亚科",
+      "summary": "翠鸟亚科（学名：Alcedininae）在动物分类学上是佛法僧目翠鸟科中的一个亚科。 翠鸟亚科的分布很广，从非洲到南亚和东亚一直到澳大利亚。普通翠鸟也生活在欧洲和亚洲北部。",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-half-collared-kingfisher-42541dcb",
+      "subject": "Half-collared kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-william-swainson-ccfed77b",
+      "object": "William Swainson",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The half-collared kingfisher (Alcedo semitorquata) is a kingfisher in the subfamily Alcedininae that is found in southern and eastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-half-collared-kingfisher-42541dcb",
+      "subject": "Half-collared kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-翠鸟亚科-7980b011",
+      "object": "翠鸟亚科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The half-collared kingfisher (Alcedo semitorquata) is a kingfisher in the subfamily Alcedininae that is found in southern and eastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-half-collared-kingfisher-42541dcb",
+      "subject": "Half-collared kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T23:10:14",
+  "requested_title": "Black-and-yellow Tanager",
+  "resolved_title": "Black-and-yellow tanager",
+  "title_aliases": [
+    "Black-and-yellow Tanager"
+  ],
+  "bird_id": "bird-black-and-yellow-tanager-a97d864b",
+  "raw_file": "bird-black-and-yellow-tanager-a97d864b.json",
+  "bird": {
+    "id": "bird-black-and-yellow-tanager-a97d864b",
+    "name": "Black-and-yellow tanager",
+    "english_name": "Black-and-yellow tanager",
+    "latin_name": "Chrysothlypis chrysomelas",
+    "summary": "The black-and-yellow tanager (Chrysothlypis chrysomelas) is a fairly small passerine bird. This tanager resides in the hills of Costa Rica…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Chrysothlypis_chrysomelas_Costa_Rica.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-and-yellow-tanager-a97d864b",
+      "subject": "Black-and-yellow tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Panama it has been recorded as far east as the border-region with Colombia. In Costa Rica, the black-and-yellow tanager is found in the foothills and slopes on the Caribbean side of the central mountain ranges, typically from altitude, and occasionally down to . In Panama, it is found on both the Caribbean and Pacific slope from . The preferred habitat is the canopy of wet forest and tall second growth, but it will feed lower at woodland edges and clearing",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-yellow-tanager-a97d864b",
+      "subject": "Black-and-yellow tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Panama it has been recorded as far east as the border-region with Colombia. In Costa Rica, the black-and-yellow tanager is found in the foothills and slopes on the Caribbean side of the central mountain ranges, typically from altitude, and occasionally down to . In Panama, it is found on both the Caribbean and Pacific slope from . The preferred habitat is the canopy of wet forest and tall second growth, but it will feed lower at woodland edges and clearing",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-yellow-tanager-a97d864b",
+      "subject": "Black-and-yellow tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Panama it has been recorded as far east as the border-region with Colombia. In Costa Rica, the black-and-yellow tanager is found in the foothills and slopes on the Caribbean side of the central mountain ranges, typically from altitude, and occasionally down to . In Panama, it is found on both the Caribbean and Pacific slope from . The preferred habitat is the canopy of wet forest and tall second growth, but it will feed lower at woodland edges and clearing",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-yellow-tanager-a97d864b",
+      "subject": "Black-and-yellow tanager",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

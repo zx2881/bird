@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:22:12",
+  "requested_title": "Ferruginous Flycatcher",
+  "resolved_title": "Ferruginous flycatcher",
+  "title_aliases": [
+    "Ferruginous Flycatcher"
+  ],
+  "bird_id": "bird-棕尾褐鶲-561a678a",
+  "raw_file": "bird-棕尾褐鶲-561a678a.json",
+  "bird": {
+    "id": "bird-棕尾褐鶲-561a678a",
+    "name": "棕尾褐鶲",
+    "english_name": "Ferruginous flycatcher",
+    "latin_name": "Muscicapa ferruginea",
+    "summary": "棕尾褐鶲（学名：Muscicapa ferruginea）又名红尾鹟，为鶲科鶲属的鸟类。 紅尾鶲 （Muscicapa ferruginea） 是鶲科的一種鳥類。",
+    "lat": "19.2",
+    "lng": "109.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ferruginous_Flycatcher2.jpg/960px-Ferruginous_Flycatcher2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-purvanchal-range-b5ede60e",
+      "name": "Purvanchal Range",
+      "summary": "The Purvanchal Range, or the Eastern Highlands, refers to the northern portion of the Indo-Burman Ranges.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-海南省-a01c9da8",
+      "name": "海南省",
+      "summary": "海南省，简称琼，是中华人民共和国唯一全境位于热带的省份，省会位于海口市。海南省是一个以海洋为主体的岛屿省份，亦是中华人民共和国总面积和海洋面积最大的省份。全省户籍总人口约1048.31万人，不过每年冬季会有大量候鸟型流动人口（進出约972…",
+      "lat": "19.2",
+      "lng": "109.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕尾褐鶲-561a678a",
+      "subject": "棕尾褐鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-purvanchal-range-b5ede60e",
+      "object": "Purvanchal Range",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the eastern Himalayas, the Purvanchal Range and central/southern China ; it winters to Hainan and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕尾褐鶲-561a678a",
+      "subject": "棕尾褐鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-海南省-a01c9da8",
+      "object": "海南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the eastern Himalayas, the Purvanchal Range and central/southern China ; it winters to Hainan and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕尾褐鶲-561a678a",
+      "subject": "棕尾褐鶲",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-棕尾褐鶲-561a678a",
+      "subject": "棕尾褐鶲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

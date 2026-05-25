@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:00:20",
+  "requested_title": "Malachite Sunbird",
+  "resolved_title": "Malachite sunbird",
+  "title_aliases": [
+    "Malachite Sunbird"
+  ],
+  "bird_id": "bird-malachite-sunbird-63c72abd",
+  "raw_file": "bird-malachite-sunbird-63c72abd.json",
+  "bird": {
+    "id": "bird-malachite-sunbird-63c72abd",
+    "name": "Malachite sunbird",
+    "english_name": "Malachite sunbird",
+    "latin_name": "Nectarinia famosa",
+    "summary": "The malachite sunbird (Nectarinia famosa) is a small nectarivorous bird found from the highlands of Ethiopia southwards to South Africa. Th…",
+    "lat": "-34.16666667",
+    "lng": "18.375",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Malachite_Sunbird_on_Leucospermum.jpg/960px-Malachite_Sunbird_on_Leucospermum.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-凡波斯-b26c163a",
+      "name": "凡波斯",
+      "summary": "凡波斯（南非語：fynbos，荷蘭語發音：[ˈfəinbɒs]，英語化發音：/ˈfeɪnbɒs/），指南非西開普省及東開普省沿海山區的天然灌木植被帶，屬於地中海型氣候冬季多雨區的硬葉植被。凡波斯是開普植物區的主體，生態上歸入地中海森林、疏…",
+      "lat": "-34.16666667",
+      "lng": "18.375"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-malachite-sunbird-63c72abd",
+      "subject": "Malachite sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-凡波斯-b26c163a",
+      "object": "凡波斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|right|Male in South Africa thumb|right|Female feeding thumb|right|A breeding-plumage male feeding on Leonotis flower nectar. This large sunbird is found in hilly fynbos (including Protea stands as well as areas with aloes) and cool montane and coastal scrub, up to 2,800m altitude in South Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-malachite-sunbird-63c72abd",
+      "subject": "Malachite sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

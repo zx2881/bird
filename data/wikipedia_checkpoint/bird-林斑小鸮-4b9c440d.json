@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:18:28",
+  "requested_title": "Forest Owlet",
+  "resolved_title": "Forest owlet",
+  "title_aliases": [
+    "Forest Owlet"
+  ],
+  "bird_id": "bird-林斑小鸮-4b9c440d",
+  "raw_file": "bird-林斑小鸮-4b9c440d.json",
+  "bird": {
+    "id": "bird-林斑小鸮-4b9c440d",
+    "name": "林斑小鸮",
+    "english_name": "Forest owlet",
+    "latin_name": "Athene blewitti",
+    "summary": "林斑小鸮（學名：Athene blewitti），鴟鴞科小鴞屬的一種，於印度中部繁殖生活。自1884年最後一次觀察到此鳥後，一直要到113年後的1997年才再現人世。自1997年起被IUCN紅色名錄列為極危物種，估計當時種群數目不多於250頭；但隨著在不同地點發現細小的群體，其…",
+    "lat": "20.91",
+    "lng": "73.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Forest_Owlet_Athene_blewitti_by_Ashahar_alias_Krishna_Khan.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-purna-wildlife-sanctuary-c99522ee",
+      "name": "Purna Wildlife Sanctuary",
+      "summary": "Purna Wildlife Sanctuary is a wildlife sanctuary in the Western Ghats mountain range, in the States of Gujarat and Maha…",
+      "lat": "20.91",
+      "lng": "73.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-林斑小鸮-4b9c440d",
+      "subject": "林斑小鸮",
+      "predicate": "distributed_in",
+      "object_id": "loc-purna-wildlife-sanctuary-c99522ee",
+      "object": "Purna Wildlife Sanctuary",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|name-list-style=amp |year=2012 |title=Habitat utilization by Forest Owlet Heteroglaux blewitti in Toranmal Reserve Forest, India |journal=Care4Nature |volume=1 |issue=1|pages=18–30}} In Gujarat, the forest owlet occurs in Purna Wildlife Sanctuary",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-林斑小鸮-4b9c440d",
+      "subject": "林斑小鸮",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-林斑小鸮-4b9c440d",
+      "subject": "林斑小鸮",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened foremost by deforestation. It is a member of the typical owl family Strigidae, and was first described in 1873",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

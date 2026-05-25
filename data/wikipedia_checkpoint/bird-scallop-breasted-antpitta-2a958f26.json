@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:06:00",
+  "requested_title": "Scallop-breasted Antpitta",
+  "resolved_title": "Scallop-breasted antpitta",
+  "title_aliases": [
+    "Scallop-breasted Antpitta"
+  ],
+  "bird_id": "bird-scallop-breasted-antpitta-2a958f26",
+  "raw_file": "bird-scallop-breasted-antpitta-2a958f26.json",
+  "bird": {
+    "id": "bird-scallop-breasted-antpitta-2a958f26",
+    "name": "Scallop-breasted antpitta",
+    "english_name": "Scallop-breasted antpitta",
+    "latin_name": "Grallaricula loricata",
+    "summary": "The scallop-breasted antpitta (Grallaricula loricata) is a Near Threatened species of bird in the family Grallariidae. It is endemic to Ven…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Grallaricula_loricata_map.svg/960px-Grallaricula_loricata_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-scallop-breasted-antpitta-2a958f26",
+      "subject": "Scallop-breasted antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits the understory of humid montane cloudforest and less frequently is found in nearby secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scallop-breasted-antpitta-2a958f26",
+      "subject": "Scallop-breasted antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits the understory of humid montane cloudforest and less frequently is found in nearby secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scallop-breasted-antpitta-2a958f26",
+      "subject": "Scallop-breasted antpitta",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:25:28",
+  "requested_title": "Hooded Oriole",
+  "resolved_title": "Hooded oriole",
+  "title_aliases": [
+    "Hooded Oriole"
+  ],
+  "bird_id": "bird-hooded-oriole-07bbe5d1",
+  "raw_file": "bird-hooded-oriole-07bbe5d1.json",
+  "bird": {
+    "id": "bird-hooded-oriole-07bbe5d1",
+    "name": "Hooded oriole",
+    "english_name": "Hooded oriole",
+    "latin_name": "Icterus cucullatus",
+    "summary": "The hooded oriole (Icterus cucullatus) is a medium-sized New World oriole. The male of this species ranges in color from a bright orange to…",
+    "lat": "34",
+    "lng": "-117",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Icterus_cucullatus_Female.jpg/960px-Icterus_cucullatus_Female.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南加利福尼亞州-5b1bbeb0",
+      "name": "南加利福尼亞州",
+      "summary": "加州南部（Southern California）是美國加州南部的大都市圈，範圍包含大洛杉磯地區及聖地牙哥都會區。加州南部範圍從文图拉延伸至聖地牙哥，其南端則是美墨邊境。 參考 Historical Society of Southern…",
+      "lat": "34",
+      "lng": "-117"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hooded-oriole-07bbe5d1",
+      "subject": "Hooded oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-南加利福尼亞州-5b1bbeb0",
+      "object": "南加利福尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They can also be found in Southern California neighborhoods, but are rare in the winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hooded-oriole-07bbe5d1",
+      "subject": "Hooded oriole",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

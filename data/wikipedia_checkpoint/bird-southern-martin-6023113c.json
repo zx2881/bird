@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:13:06",
+  "requested_title": "Southern Martin",
+  "resolved_title": "Southern martin",
+  "title_aliases": [
+    "Southern Martin"
+  ],
+  "bird_id": "bird-southern-martin-6023113c",
+  "raw_file": "bird-southern-martin-6023113c.json",
+  "bird": {
+    "id": "bird-southern-martin-6023113c",
+    "name": "Southern martin",
+    "english_name": "Southern martin",
+    "latin_name": "Progne elegans",
+    "summary": "The southern martin (Progne elegans) is a species of bird in the family Hirundinidae, the swallows and martins. One source states that it i…",
+    "lat": "42.48",
+    "lng": "-76.4511",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Progne_elegans_%28southern_martin%29.jpg/960px-Progne_elegans_%28southern_martin%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-康乃爾鳥類學實驗室-dbbe1ad4",
+      "name": "康乃爾鳥類學實驗室",
+      "summary": "康乃爾大學鳥類學實驗室位於纽约州伊萨卡，是康乃爾大學研究鳥類學和其他野生生物的成員支援單位。位在薩普薩克森林保護區（Sapsucker Woods Sanctuary）伊莫金約翰遜鳥類和生物多樣性研究院中心（Imogene Powers…",
+      "lat": "42.48",
+      "lng": "-76.4511"
+    },
+    {
+      "id": "loc-american-ornithological-society-5fde31a2",
+      "name": "American Ornithological Society",
+      "summary": "The American Ornithological Society (AOS) is an ornithological organization based in the United States.",
+      "lat": "41.866269",
+      "lng": "-87.616997"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-southern-martin-6023113c",
+      "subject": "Southern martin",
+      "predicate": "distributed_in",
+      "object_id": "loc-康乃爾鳥類學實驗室-dbbe1ad4",
+      "object": "康乃爾鳥類學實驗室",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Downloaded from https://datazone.birdlife.org/species/factsheet/southern-martin-progne-elegans on January 23, 2026 The Cornell Lab of Ornithology's Birds of the World states that it breeds in southern Bolivia and Argentina and spends the austral winter in Brazil, Colombia, and Peru \"but possibly also as far [north] as [eastern] Panama\"",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-southern-martin-6023113c",
+      "subject": "Southern martin",
+      "predicate": "distributed_in",
+      "object_id": "loc-american-ornithological-society-5fde31a2",
+      "object": "American Ornithological Society",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It further notes that some may overwinter in Argentina, that it has been recorded in Uruguay, and that it is accidental in the Malvinas/Falklands and Florida. The American Ornithological Society states that the species breeds in Argentina, Bolivia, Paraguay, and Uruguay and winters in Brazil, Colombia, and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-southern-martin-6023113c",
+      "subject": "Southern martin",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "| pages =456 }} The southern martin inhabits a variety of semi-open to open landscapes including grasslands, woodlands, scrublands, and areas of human habitation. As is the case with the species' range, its upper elevation limit differs among sources",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-southern-martin-6023113c",
+      "subject": "Southern martin",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "| pages =456 }} The southern martin inhabits a variety of semi-open to open landscapes including grasslands, woodlands, scrublands, and areas of human habitation. As is the case with the species' range, its upper elevation limit differs among sources",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-southern-martin-6023113c",
+      "subject": "Southern martin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

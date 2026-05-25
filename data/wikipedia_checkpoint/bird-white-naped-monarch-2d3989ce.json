@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:52:15",
+  "requested_title": "White-naped Monarch",
+  "resolved_title": "White-naped monarch",
+  "title_aliases": [
+    "White-naped Monarch"
+  ],
+  "bird_id": "bird-white-naped-monarch-2d3989ce",
+  "raw_file": "bird-white-naped-monarch-2d3989ce.json",
+  "bird": {
+    "id": "bird-white-naped-monarch-2d3989ce",
+    "name": "White-naped monarch",
+    "english_name": "White-naped monarch",
+    "latin_name": "Carterornis pileatus",
+    "summary": "The white-naped monarch (Carterornis pileatus) is a species of bird in the family Monarchidae. It is endemic to Indonesia, where it occurs…",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Carterornis_pileatus_pileatus_107840258.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-naped-monarch-2d3989ce",
+      "subject": "White-naped monarch",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in the Maluku Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-naped-monarch-2d3989ce",
+      "subject": "White-naped monarch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

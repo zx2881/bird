@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:51:09",
+  "requested_title": "Mountain Wren-Babbler",
+  "resolved_title": "Mountain wren-babbler",
+  "title_aliases": [
+    "Mountain Wren-Babbler"
+  ],
+  "bird_id": "bird-山鹪鹛-7ebb9023",
+  "raw_file": "bird-山鹪鹛-7ebb9023.json",
+  "bird": {
+    "id": "bird-山鹪鹛-7ebb9023",
+    "name": "山鹪鹛",
+    "english_name": "Mountain wren-babbler",
+    "latin_name": "Gypsophila (bird) crassa",
+    "summary": "山鹪鹛（学名：Gypsophila crassa），是雀形目幽鹛科的一种鸟类。 特征 山鹪鹛体重约26.8克，翼长约68.4毫米，嘴峰长约16.1毫米，喙宽度约3.7毫米，喙厚度约4.8毫米，跗蹠长约27.5毫米，尾长约48.2毫米。山鹪鹛在其分布区内为留鸟，其栖息在密集的高大…",
+    "lat": "2.45793",
+    "lng": "115.1231",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Mountain_Wren-babbler_0A2A2125_%28cropped%29.jpg/960px-Mountain_Wren-babbler_0A2A2125_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-依兰山脉-6a0c9bbb",
+      "name": "依兰山脉",
+      "summary": "依兰山脉（馬來語：Banjaran Iran；印尼語：Pegunungan Iran）是一条位于加里曼丹岛的山脉，为印度尼西亚和马来西亚砂拉越州的分界线。该条山脉也是马来西亚最长的河流拉让江的源头。 参见 印度尼西亚地理 马来西亚地理 参…",
+      "lat": "2.45793",
+      "lng": "115.1231"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-山鹪鹛-7ebb9023",
+      "subject": "山鹪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-依兰山脉-6a0c9bbb",
+      "object": "依兰山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Iran Mountains of northeastern Borneo. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山鹪鹛-7ebb9023",
+      "subject": "山鹪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Iran Mountains of northeastern Borneo. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山鹪鹛-7ebb9023",
+      "subject": "山鹪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Iran Mountains of northeastern Borneo. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山鹪鹛-7ebb9023",
+      "subject": "山鹪鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

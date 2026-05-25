@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:26:16",
+  "requested_title": "Common Diving Petrel",
+  "resolved_title": "Common diving petrel",
+  "title_aliases": [
+    "Common Diving Petrel"
+  ],
+  "bird_id": "bird-鹈燕-2880854d",
+  "raw_file": "bird-鹈燕-2880854d.json",
+  "bird": {
+    "id": "bird-鹈燕-2880854d",
+    "name": "鹈燕",
+    "english_name": "Common diving petrel",
+    "latin_name": "Pelecanoides urinatrix",
+    "summary": "鹈燕（学名：Pelecanoides urinatrix）是一种小型的潜水鹱，是在南冰洋有分布的四种长相酷似海雀的鹱类之一。生活在非洲南部、印度洋南部、澳大利亚南部和新西兰的岛屿上。 外观 鹈燕体长200-250厘米，体重86-186克。身体背部呈黑色，腹部为白色，鸟喙为黑色。…",
+    "lat": "-20",
+    "lng": "80",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Pelecanoides_urinatrix_%28AM_LB13683-1%29.jpg/960px-Pelecanoides_urinatrix_%28AM_LB13683-1%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度洋-aaea0acf",
+      "name": "印度洋",
+      "summary": "印度洋（英語：Indian Ocean），位于亚洲、非洲、大洋洲和南极洲之间，印度位在印度洋北部的中央位置，這也是印度洋名稱的由來，印度洋大部分在南半球。總面积7491万平方公里，约占世界海洋总面积的21.1%，是世界第三大洋。印度洋的範…",
+      "lat": "-20",
+      "lng": "80"
+    },
+    {
+      "id": "loc-新西兰-f3c9507e",
+      "name": "新西兰",
+      "summary": "新西兰（英語：New Zealand）又称奥特亚罗瓦（毛利語：Aotearoa，直译：「长白云之乡」），位於太平洋西南部的主權島國，是英联邦新西蘭王國的主體部分，首都為惠灵顿，最大的城市為奧克蘭。紐西蘭主要由兩大島嶼組成：北島（Te Ik…",
+      "lat": "-42",
+      "lng": "173"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鹈燕-2880854d",
+      "subject": "鹈燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度洋-aaea0acf",
+      "object": "印度洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to South Atlantic islands and islands of the subantarctic southern Indian Ocean, islands and islets off New Zealand and south-eastern Australian islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鹈燕-2880854d",
+      "subject": "鹈燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-新西兰-f3c9507e",
+      "object": "新西兰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to South Atlantic islands and islands of the subantarctic southern Indian Ocean, islands and islets off New Zealand and south-eastern Australian islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鹈燕-2880854d",
+      "subject": "鹈燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

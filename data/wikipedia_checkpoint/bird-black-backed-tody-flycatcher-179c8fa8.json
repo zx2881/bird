@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:30:39",
+  "requested_title": "Black-backed Tody-Flycatcher",
+  "resolved_title": "Black-backed tody-flycatcher",
+  "title_aliases": [
+    "Black-backed Tody-Flycatcher"
+  ],
+  "bird_id": "bird-black-backed-tody-flycatcher-179c8fa8",
+  "raw_file": "bird-black-backed-tody-flycatcher-179c8fa8.json",
+  "bird": {
+    "id": "bird-black-backed-tody-flycatcher-179c8fa8",
+    "name": "Black-backed tody-flycatcher",
+    "english_name": "Black-backed tody-flycatcher",
+    "latin_name": "Poecilotriccus pulchellus",
+    "summary": "The black-backed tody-flycatcher (Poecilotriccus pulchellus) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is e…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Poecilotriccus_pulchellus_Black-backed_Tody-Flycatcher%3B_Cuzco%2C_Peru_%28cropped%29.jpg/960px-Poecilotriccus_pulchellus_Black-backed_Tody-Flycatcher%3B_Cuzco%2C_Peru_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-backed-tody-flycatcher-179c8fa8",
+      "subject": "Black-backed tody-flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits dense shrubby vegetation on the edges of humid evergreen forest both primary and secondary and also nearby overgrown fields and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-backed-tody-flycatcher-179c8fa8",
+      "subject": "Black-backed tody-flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits dense shrubby vegetation on the edges of humid evergreen forest both primary and secondary and also nearby overgrown fields and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-backed-tody-flycatcher-179c8fa8",
+      "subject": "Black-backed tody-flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits dense shrubby vegetation on the edges of humid evergreen forest both primary and secondary and also nearby overgrown fields and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-backed-tody-flycatcher-179c8fa8",
+      "subject": "Black-backed tody-flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-black-backed-tody-flycatcher-179c8fa8",
+      "subject": "Black-backed tody-flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified though habitat loss is a potential threat. It is considered uncommon. \"Given that this species occupies habitats (dense understory tangles) that are frequent at forest edge, however, it also is possible that this species may be increasing in abundance or expanding its range in the lowlands, in response to clearing for agriculture along riverbanks.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

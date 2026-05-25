@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:21:03",
+  "requested_title": "Bolivian Recurvebill",
+  "resolved_title": "Bolivian recurvebill",
+  "title_aliases": [
+    "Bolivian Recurvebill"
+  ],
+  "bird_id": "bird-bolivian-recurvebill-c85f9030",
+  "raw_file": "bird-bolivian-recurvebill-c85f9030.json",
+  "bird": {
+    "id": "bird-bolivian-recurvebill-c85f9030",
+    "name": "Bolivian recurvebill",
+    "english_name": "Bolivian recurvebill",
+    "latin_name": "Syndactyla striata",
+    "summary": "The Bolivian recurvebill (Syndactyla striata) is a bird species in the Furnariinae subfamily of the ovenbird family Furnariidae. It is foun…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Syndactyla_striata_map.svg/960px-Syndactyla_striata_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-melbourne-armstrong-carriker-87a07f7e",
+      "name": "Melbourne Armstrong Carriker",
+      "summary": "Melbourne Armstrong Carriker Jr.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bolivian-recurvebill-c85f9030",
+      "subject": "Bolivian recurvebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-melbourne-armstrong-carriker-87a07f7e",
+      "object": "Melbourne Armstrong Carriker",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bolivian recurvebill (Syndactyla striata) is a bird species in the Furnariinae subfamily of the ovenbird family Furnariidae. It is found in Bolivia and Peru.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bolivian-recurvebill-c85f9030",
+      "subject": "Bolivian recurvebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bolivian recurvebill (Syndactyla striata) is a bird species in the Furnariinae subfamily of the ovenbird family Furnariidae. It is found in Bolivia and Peru.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bolivian-recurvebill-c85f9030",
+      "subject": "Bolivian recurvebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bolivian recurvebill (Syndactyla striata) is a bird species in the Furnariinae subfamily of the ovenbird family Furnariidae. It is found in Bolivia and Peru.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bolivian-recurvebill-c85f9030",
+      "subject": "Bolivian recurvebill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-bolivian-recurvebill-c85f9030",
+      "subject": "Bolivian recurvebill",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The principal threat is deforestation for agriculture and human settlement, and through logging and mining operations",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:44:01",
+  "requested_title": "Rufous-sided Gerygone",
+  "resolved_title": "Rufous-sided gerygone",
+  "title_aliases": [
+    "Rufous-sided Gerygone"
+  ],
+  "bird_id": "bird-rufous-sided-gerygone-9ca4628f",
+  "raw_file": "bird-rufous-sided-gerygone-9ca4628f.json",
+  "bird": {
+    "id": "bird-rufous-sided-gerygone-9ca4628f",
+    "name": "Rufous-sided gerygone",
+    "english_name": "Rufous-sided gerygone",
+    "latin_name": "Gerygone dorsalis",
+    "summary": "The rufous-sided gerygone (Gerygone dorsalis) is a species of bird in the family Acanthizidae. It is found in the eastern Lesser Sunda Isla…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Gerygone_dorsalis_kuehni_-_desertnaturalist_-_332125953.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-卡伊群島-ab0f63e9",
+      "name": "卡伊群島",
+      "summary": "卡伊群島是是印度尼西亞馬魯古省東南部的群島，土地總面積1,438平方公里，位於班達海邊緣，北面是新畿內亞多貝拉伊半島，東面是阿魯群島，西南面是塔寧巴爾群島，群島上的本土哺乳類動物不多。",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-sided-gerygone-9ca4628f",
+      "subject": "Rufous-sided gerygone",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the eastern Lesser Sunda Islands and Kai Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-sided-gerygone-9ca4628f",
+      "subject": "Rufous-sided gerygone",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡伊群島-ab0f63e9",
+      "object": "卡伊群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the eastern Lesser Sunda Islands and Kai Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-sided-gerygone-9ca4628f",
+      "subject": "Rufous-sided gerygone",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

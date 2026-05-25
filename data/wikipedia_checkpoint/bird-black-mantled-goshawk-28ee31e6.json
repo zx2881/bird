@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:42:27",
+  "requested_title": "Black-mantled Goshawk",
+  "resolved_title": "Black-mantled goshawk",
+  "title_aliases": [
+    "Black-mantled Goshawk"
+  ],
+  "bird_id": "bird-black-mantled-goshawk-28ee31e6",
+  "raw_file": "bird-black-mantled-goshawk-28ee31e6.json",
+  "bird": {
+    "id": "bird-black-mantled-goshawk-28ee31e6",
+    "name": "Black-mantled goshawk",
+    "english_name": "Black-mantled goshawk",
+    "latin_name": "Tachyspiza melanochlamys",
+    "summary": "The black-mantled goshawk (Tachyspiza melanochlamys) is a species of bird of prey in the family Accipitridae. It is found in the highlands…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Black-mantled_Goshawk%2C_Ambua_Lodge%2C_PNG_%286089917878%29.jpg/960px-Black-mantled_Goshawk%2C_Ambua_Lodge%2C_PNG_%286089917878%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-mantled-goshawk-28ee31e6",
+      "subject": "Black-mantled goshawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the highlands of New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-mantled-goshawk-28ee31e6",
+      "subject": "Black-mantled goshawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

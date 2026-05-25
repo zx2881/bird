@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:15:41",
+  "requested_title": "Mountain Peltops",
+  "resolved_title": "Mountain peltops",
+  "title_aliases": [
+    "Mountain Peltops"
+  ],
+  "bird_id": "bird-mountain-peltops-1b98c8cf",
+  "raw_file": "bird-mountain-peltops-1b98c8cf.json",
+  "bird": {
+    "id": "bird-mountain-peltops-1b98c8cf",
+    "name": "Mountain peltops",
+    "english_name": "Mountain peltops",
+    "latin_name": "Peltops montanus",
+    "summary": "The mountain peltops (Peltops montanus) is a species of bird in the family Cracticidae. It is found in Indonesia and Papua New Guinea.",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Peltops_montanus_-_Jay_Pruett_-_335855244.jpeg/960px-Peltops_montanus_-_Jay_Pruett_-_335855244.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mountain-peltops-1b98c8cf",
+      "subject": "Mountain peltops",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-peltops-1b98c8cf",
+      "subject": "Mountain peltops",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Papua New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-peltops-1b98c8cf",
+      "subject": "Mountain peltops",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

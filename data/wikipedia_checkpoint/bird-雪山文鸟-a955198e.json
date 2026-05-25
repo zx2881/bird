@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:51:06",
+  "requested_title": "Western Alpine Mannikin",
+  "resolved_title": "Western alpine mannikin",
+  "title_aliases": [
+    "Western Alpine Mannikin"
+  ],
+  "bird_id": "bird-雪山文鸟-a955198e",
+  "raw_file": "bird-雪山文鸟-a955198e.json",
+  "bird": {
+    "id": "bird-雪山文鸟-a955198e",
+    "name": "雪山文鸟",
+    "english_name": "Western alpine mannikin",
+    "latin_name": "Lonchura montana",
+    "summary": "雪山文鸟（学名：Lonchura montana），是梅花雀科文鸟属的一种，为印度尼西亚和巴布亚新几内亚的特有种。该物种的保护状况被评为无危。 雪山文鸟的栖息地包括亚热带或热带的高海拔草原、亚热带或热带的高海拔疏灌丛、耕地和湿地。",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Snow_Mountain_Munia_%28Lonchura_montana%29.jpg/960px-Snow_Mountain_Munia_%28Lonchura_montana%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-西巴布亚-b712982c",
+      "name": "西巴布亚",
+      "summary": "西巴布亚，又称西新几内亚，為新几内亚岛（又称伊里安岛）的西部，分為印度尼西亚的巴布亚省、西巴布亚省、中巴布亞省、高地巴布亞省、南巴布亞省。 14世纪初，在新几内亚岛西北部出现凯马纳王国。在殖民者到来之时，蒂多雷苏丹国控制多貝拉伊半島的部分…",
+      "lat": "-4",
+      "lng": "136"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-雪山文鸟-a955198e",
+      "subject": "雪山文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Endemic to Indonesia, the western alpine mannikin is distributed in alpine grassland of the Snow Mountains and Star Mountains in western New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雪山文鸟-a955198e",
+      "subject": "雪山文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-西巴布亚-b712982c",
+      "object": "西巴布亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Endemic to Indonesia, the western alpine mannikin is distributed in alpine grassland of the Snow Mountains and Star Mountains in western New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雪山文鸟-a955198e",
+      "subject": "雪山文鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

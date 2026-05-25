@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:13:06",
+  "requested_title": "Azure-breasted Pitta",
+  "resolved_title": "Azure-breasted pitta",
+  "title_aliases": [
+    "Azure-breasted Pitta"
+  ],
+  "bird_id": "bird-蓝胸八色鸫-7569c102",
+  "raw_file": "bird-蓝胸八色鸫-7569c102.json",
+  "bird": {
+    "id": "bird-蓝胸八色鸫-7569c102",
+    "name": "蓝胸八色鸫",
+    "english_name": "Azure-breasted pitta",
+    "latin_name": "Pitta steerii",
+    "summary": "蓝胸八色鸫（学名：Pitta steerii），是八色鸫科八色鸫属的一种，为菲律宾的特有种。全球活动范围约为118,000平方千米。该物种的保护状况被评为易危。 蓝胸八色鸫的平均体重约为92.0克。栖息地为亚热带或热带的湿润低地林。",
+    "lat": "12.03611111",
+    "lng": "125.21111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Azure-breasted_Pitta2.jpg/960px-Azure-breasted_Pitta2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "name": "Rajah Sikatuna Protected Landscape",
+      "summary": "The Rajah Sikatuna Protected Landscape is a protected landscape area of forested limestone hills, grasslands and natura…",
+      "lat": "9.70527778",
+      "lng": "124.12416667"
+    },
+    {
+      "id": "loc-samar-island-natural-park-2cae892d",
+      "name": "Samar Island Natural Park",
+      "summary": "The Samar Island Natural Park, in Samar, is the largest contiguous tract of old-growth forest in the Philippines.",
+      "lat": "12.03611111",
+      "lng": "125.21111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝胸八色鸫-7569c102",
+      "subject": "蓝胸八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "object": "Rajah Sikatuna Protected Landscape",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Occurs in a few protected areas in Rajah Sikatuna Protected Landscape in Bohol and Samar Island Natural Park but actual protection and enforcement from illegal logging and hunting are lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝胸八色鸫-7569c102",
+      "subject": "蓝胸八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-samar-island-natural-park-2cae892d",
+      "object": "Samar Island Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Occurs in a few protected areas in Rajah Sikatuna Protected Landscape in Bohol and Samar Island Natural Park but actual protection and enforcement from illegal logging and hunting are lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝胸八色鸫-7569c102",
+      "subject": "蓝胸八色鸫",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-蓝胸八色鸫-7569c102",
+      "subject": "蓝胸八色鸫",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-蓝胸八色鸫-7569c102",
+      "subject": "蓝胸八色鸫",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:29:14",
+  "requested_title": "Obi Golden Bulbul",
+  "resolved_title": "Obi golden bulbul",
+  "title_aliases": [
+    "Obi Golden Bulbul"
+  ],
+  "bird_id": "bird-obi-golden-bulbul-86b064bf",
+  "raw_file": "bird-obi-golden-bulbul-86b064bf.json",
+  "bird": {
+    "id": "bird-obi-golden-bulbul-86b064bf",
+    "name": "Obi golden bulbul",
+    "english_name": "Obi golden bulbul",
+    "latin_name": "Hypsipetes lucasi",
+    "summary": "The Obi golden bulbul (Hypsipetes lucasi) is a species of passerine bird in the bulbul family Pycnonotidae. It is found in Obi in Indonesia.",
+    "lat": "-1.5",
+    "lng": "127.75",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Hypsipetes_lucasi_-_desertnaturalist_-_246920584.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-奥比岛-8941bd64",
+      "name": "奥比岛",
+      "summary": "奧比島是印度尼西亞的小型島嶼，為奧比群島主島，屬於摩鹿加群島的一部分。島嶼面積2,542平方公里，北面有面積較大的哈馬黑拉島，島上最高點海拔1,611米，岸邊有幾個居民的聚居點。行政方面由北马鲁古省南哈马黑拉县管辖。",
+      "lat": "-1.5",
+      "lng": "127.75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-obi-golden-bulbul-86b064bf",
+      "subject": "Obi golden bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-奥比岛-8941bd64",
+      "object": "奥比岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Obi in Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-obi-golden-bulbul-86b064bf",
+      "subject": "Obi golden bulbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

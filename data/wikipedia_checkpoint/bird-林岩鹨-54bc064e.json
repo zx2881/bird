@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:20:11",
+  "requested_title": "Dunnock",
+  "resolved_title": "Dunnock",
+  "title_aliases": [
+    "Dunnock"
+  ],
+  "bird_id": "bird-林岩鹨-54bc064e",
+  "raw_file": "bird-林岩鹨-54bc064e.json",
+  "bird": {
+    "id": "bird-林岩鹨-54bc064e",
+    "name": "林岩鹨",
+    "english_name": "Dunnock",
+    "latin_name": "Prunella modularis",
+    "summary": "林岩鹨（學名：Prunella modularis，英文：Dunnock、Hedge-sparrow）是雀形目岩鷚科岩鷚屬下的一種鳥類。這個物種為雜食性，主要分佈于欧洲、亚洲气候较为温和的地方，部分地區的林岩鷚有遷徙的行為。目前這個物種也被人为引进了新西兰中。牠們目前是广居山地…",
+    "lat": "42.26111111",
+    "lng": "44.12111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Dunnock_%28Prunella_modularis%29_3.jpg/960px-Dunnock_%28Prunella_modularis%29_3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-高加索-d137c140",
+      "name": "高加索",
+      "summary": "高加索（喬治亞語：კავკასია；車臣語、俄語：Кавказ）是位於西亞及東歐交界處，黑海、裏海之間高加索山脈的地區，《元史·速不台傳》稱之為太和嶺，總面積約44萬平方公里。該地名根據古羅馬學者老普林尼著作《博物志》的追溯，是來自斯基泰…",
+      "lat": "42.26111111",
+      "lng": "44.12111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-林岩鹨-54bc064e",
+      "subject": "林岩鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-高加索-d137c140",
+      "object": "高加索",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Hampshire, UK.]] Dunnocks are native to large areas of Eurasia, inhabiting much of Europe and southwest Asia including Lebanon, northern Iran, and the Caucasus",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-林岩鹨-54bc064e",
+      "subject": "林岩鹨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

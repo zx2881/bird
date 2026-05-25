@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:34:05",
+  "requested_title": "Bolivian Tyrannulet",
+  "resolved_title": "Bolivian tyrannulet",
+  "title_aliases": [
+    "Bolivian Tyrannulet"
+  ],
+  "bird_id": "bird-bolivian-tyrannulet-874cf574",
+  "raw_file": "bird-bolivian-tyrannulet-874cf574.json",
+  "bird": {
+    "id": "bird-bolivian-tyrannulet-874cf574",
+    "name": "Bolivian tyrannulet",
+    "english_name": "Bolivian tyrannulet",
+    "latin_name": "Zimmerius bolivianus",
+    "summary": "The Bolivian tyrannulet (Zimmerius bolivianus) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is found in Bolivi…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Zimmerius_bolivianus-Bolivian_Tyrannulet.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bolivian-tyrannulet-874cf574",
+      "subject": "Bolivian tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bolivian-tyrannulet-874cf574",
+      "subject": "Bolivian tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bolivian-tyrannulet-874cf574",
+      "subject": "Bolivian tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid montane forest and cloudforest, clearings within the forest, and nearby secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bolivian-tyrannulet-874cf574",
+      "subject": "Bolivian tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid montane forest and cloudforest, clearings within the forest, and nearby secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bolivian-tyrannulet-874cf574",
+      "subject": "Bolivian tyrannulet",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits humid montane forest and cloudforest, clearings within the forest, and nearby secondary forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-bolivian-tyrannulet-874cf574",
+      "subject": "Bolivian tyrannulet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

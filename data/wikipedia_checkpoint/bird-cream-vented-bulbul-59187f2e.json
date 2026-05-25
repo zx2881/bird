@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:15:58",
+  "requested_title": "Cream-vented Bulbul",
+  "resolved_title": "Cream-vented bulbul",
+  "title_aliases": [
+    "Cream-vented Bulbul"
+  ],
+  "bird_id": "bird-cream-vented-bulbul-59187f2e",
+  "raw_file": "bird-cream-vented-bulbul-59187f2e.json",
+  "bird": {
+    "id": "bird-cream-vented-bulbul-59187f2e",
+    "name": "Cream-vented bulbul",
+    "english_name": "Cream-vented bulbul",
+    "latin_name": "Pycnonotus simplex",
+    "summary": "The cream-vented bulbul (Pycnonotus simplex) is a member of the bulbul family of passerine birds. It is found in south-eastern Asia from th…",
+    "lat": "7",
+    "lng": "100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Now_you_see_it_...._-_Flickr_-_Lip_Kee.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "The Malay Peninsula is located in Mainland Southeast Asia.",
+      "lat": "7",
+      "lng": "100"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cream-vented-bulbul-59187f2e",
+      "subject": "Cream-vented bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in south-eastern Asia from the Malay Peninsula to Borneo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cream-vented-bulbul-59187f2e",
+      "subject": "Cream-vented bulbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

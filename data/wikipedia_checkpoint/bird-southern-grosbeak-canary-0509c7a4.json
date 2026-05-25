@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:18:12",
+  "requested_title": "Southern Grosbeak-Canary",
+  "resolved_title": "Southern grosbeak-canary",
+  "title_aliases": [
+    "Southern Grosbeak-Canary"
+  ],
+  "bird_id": "bird-southern-grosbeak-canary-0509c7a4",
+  "raw_file": "bird-southern-grosbeak-canary-0509c7a4.json",
+  "bird": {
+    "id": "bird-southern-grosbeak-canary-0509c7a4",
+    "name": "Southern grosbeak-canary",
+    "english_name": "Southern grosbeak-canary",
+    "latin_name": "Crithagra buchanani",
+    "summary": "The southern grosbeak-canary, also known as Kenya grosbeak-canary (Crithagra buchanani) is a species of finch in the family Fringillidae. I…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Southern_Grosbeak-Canary_%28Crithagra_buchanani%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-southern-grosbeak-canary-0509c7a4",
+      "subject": "Southern grosbeak-canary",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-southern-grosbeak-canary-0509c7a4",
+      "subject": "Southern grosbeak-canary",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-southern-grosbeak-canary-0509c7a4",
+      "subject": "Southern grosbeak-canary",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical dry shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-southern-grosbeak-canary-0509c7a4",
+      "subject": "Southern grosbeak-canary",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

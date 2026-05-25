@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:13:51",
+  "requested_title": "Clark's Nutcracker",
+  "resolved_title": "Clark's nutcracker",
+  "title_aliases": [
+    "Clark's Nutcracker"
+  ],
+  "bird_id": "bird-北美星鸦-05d06271",
+  "raw_file": "bird-北美星鸦-05d06271.json",
+  "bird": {
+    "id": "bird-北美星鸦-05d06271",
+    "name": "北美星鸦",
+    "english_name": "Clark's nutcracker",
+    "latin_name": "Nucifraga columbiana",
+    "summary": "北美星鸦（学名：Nucifraga columbiana），是鸦科星鸦属的一种，分布于墨西哥、加拿大和美国。全球活动范围约为2,290,000平方千米。 进食习性 北美星鸦通常埋葬种子的方式贮藏食物。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/ClarksNutcracker.jpg/960px-ClarksNutcracker.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-alexander-wilson-ornithologist-ebfffab1",
+      "name": "Alexander Wilson (ornithologist)",
+      "summary": "Alexander Wilson (July 6, 1766 – August 23, 1813) was a Scottish-American poet, ornithologist, naturalist, and illustra…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北美星鸦-05d06271",
+      "subject": "北美星鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-alexander-wilson-ornithologist-ebfffab1",
+      "object": "Alexander Wilson (ornithologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Clark's nutcracker (Nucifraga columbiana), also known as Clark's crow, is a passerine bird in the family Corvidae, native to the mountains of western North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北美星鸦-05d06271",
+      "subject": "北美星鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

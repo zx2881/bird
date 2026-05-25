@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:47:27",
+  "requested_title": "Chattering Kingfisher",
+  "resolved_title": "Chattering kingfisher",
+  "title_aliases": [
+    "Chattering Kingfisher"
+  ],
+  "bird_id": "bird-chattering-kingfisher-41fea317",
+  "raw_file": "bird-chattering-kingfisher-41fea317.json",
+  "bird": {
+    "id": "bird-chattering-kingfisher-41fea317",
+    "name": "Chattering kingfisher",
+    "english_name": "Chattering kingfisher",
+    "latin_name": "Todiramphus tutus",
+    "summary": "The chattering kingfisher (Todiramphus tutus) is a species of bird in the kingfisher family Alcedinidae. The species is found in the Cook I…",
+    "lat": "-21.23333333",
+    "lng": "-159.76666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Chattering_kingfisher_%28Todiramphus_tutus%29_01.jpg/960px-Chattering_kingfisher_%28Todiramphus_tutus%29_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-库克群岛-29e6492d",
+      "name": "库克群岛",
+      "summary": "庫克群島（英語：Cook Islands）是一個位于南太平洋，在法屬玻里尼西亞與斐濟之間，由15個島嶼組成的群島，其命名起源於遠航探索南太平洋，發現了許多島嶼的詹姆斯·庫克船長。與新西兰之間存在自由聯合关系，是紐西蘭王國的構成部份。 历史…",
+      "lat": "-21.23333333",
+      "lng": "-159.76666667"
+    },
+    {
+      "id": "loc-社會群島-92c98e96",
+      "name": "社會群島",
+      "summary": "社會群島（法語：Îles de la Société；正式名稱：Archipel de la Société；大溪地語：Tōtaiete mā）是位於南太平洋的群島，政治上隸屬於法屬玻里尼西亞，是法國的海外集體之一。地理上則是玻里尼西亞的…",
+      "lat": "-16.85",
+      "lng": "-151.4"
+    },
+    {
+      "id": "loc-法屬玻里尼西亞-bef4bb40",
+      "name": "法屬玻里尼西亞",
+      "summary": "法屬玻里尼西亞（法語：Polynésie française，發音：[pɔlinezi fʁɑ̃sɛz] ；塔西提语：Pōrīnetia Farāni）是法國在南太平洋的海外集體，由幾組玻里尼西亞群島組成，包括：馬克薩斯群島、社會群島、土…",
+      "lat": "-17.53333333",
+      "lng": "-149.56666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chattering-kingfisher-41fea317",
+      "subject": "Chattering kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-库克群岛-29e6492d",
+      "object": "库克群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is found in the Cook Islands and the Society Islands in French Polynesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chattering-kingfisher-41fea317",
+      "subject": "Chattering kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-社會群島-92c98e96",
+      "object": "社會群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is found in the Cook Islands and the Society Islands in French Polynesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chattering-kingfisher-41fea317",
+      "subject": "Chattering kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-法屬玻里尼西亞-bef4bb40",
+      "object": "法屬玻里尼西亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is found in the Cook Islands and the Society Islands in French Polynesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chattering-kingfisher-41fea317",
+      "subject": "Chattering kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

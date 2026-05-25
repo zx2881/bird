@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:54:07",
+  "requested_title": "Scarlet Myzomela",
+  "resolved_title": "Scarlet myzomela",
+  "title_aliases": [
+    "Scarlet Myzomela"
+  ],
+  "bird_id": "bird-scarlet-myzomela-4980d6f5",
+  "raw_file": "bird-scarlet-myzomela-4980d6f5.json",
+  "bird": {
+    "id": "bird-scarlet-myzomela-4980d6f5",
+    "name": "Scarlet myzomela",
+    "english_name": "Scarlet myzomela",
+    "latin_name": "Myzomela sanguinolenta",
+    "summary": "The scarlet myzomela or scarlet honeyeater (Myzomela sanguinolenta) is a small passerine bird of the honeyeater family Meliphagidae native…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Myzomela_sanguinolenta_1_-_Windsor_Downs_Nature_Reserve.jpg/960px-Myzomela_sanguinolenta_1_-_Windsor_Downs_Nature_Reserve.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-scarlet-myzomela-4980d6f5",
+      "subject": "Scarlet myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The scarlet myzomela or scarlet honeyeater (Myzomela sanguinolenta) is a small passerine bird of the honeyeater family Meliphagidae native to Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scarlet-myzomela-4980d6f5",
+      "subject": "Scarlet myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The scarlet myzomela or scarlet honeyeater (Myzomela sanguinolenta) is a small passerine bird of the honeyeater family Meliphagidae native to Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scarlet-myzomela-4980d6f5",
+      "subject": "Scarlet myzomela",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

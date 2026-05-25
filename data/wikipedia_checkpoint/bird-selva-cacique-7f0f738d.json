@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:22:58",
+  "requested_title": "Selva Cacique",
+  "resolved_title": "Selva cacique",
+  "title_aliases": [
+    "Selva Cacique"
+  ],
+  "bird_id": "bird-selva-cacique-7f0f738d",
+  "raw_file": "bird-selva-cacique-7f0f738d.json",
+  "bird": {
+    "id": "bird-selva-cacique-7f0f738d",
+    "name": "Selva cacique",
+    "english_name": "Selva cacique",
+    "latin_name": "Cacicus koepckeae",
+    "summary": "The Selva cacique (Cacicus koepckeae) is a species of bird in the family Icteridae. It is endemic to Peru where its natural habitat consist…",
+    "lat": "-9.96",
+    "lng": "-73.19",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Cacicus_koepckeae_-_Rapha%C3%ABl_San%C3%A9_-_608113061_%28cropped%29.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-乌卡亚利大区-12d96350",
+      "name": "乌卡亚利大区",
+      "summary": "烏卡亞利大區（西班牙語：Departamento de Ucayali）是秘魯東部的一個大區，東鄰巴西，位於亞馬遜平原。烏卡亞利河—亞馬遜河的主要水源—流經本區，區名亦由此而來。面積101,830.64平方公里，2007年人口402,44…",
+      "lat": "-9.96",
+      "lng": "-73.19"
+    },
+    {
+      "id": "loc-库斯科大区-f90044b4",
+      "name": "库斯科大区",
+      "summary": "庫斯科大區（西班牙語：Departamento del Cusco、克丘亞語：Qusqu suyu）是秘魯東南部的一個大區，北鄰烏卡亞利大區，東鄰馬德雷德迪奧斯和普諾大區，南鄰阿雷基帕大區，西鄰阿普里馬克、阿亞庫喬和胡寧大區。首府庫斯科，…",
+      "lat": "-13.26",
+      "lng": "-72.11"
+    },
+    {
+      "id": "loc-马德雷德迪奥斯大区-8ba2feff",
+      "name": "马德雷德迪奥斯大区",
+      "summary": "馬德雷德迪奧斯大區（西班牙語：Departamento de Madre de Dios）是秘魯東南部的一個大區，地處亞馬遜平原之上，與普諾大區、庫斯科大區和烏卡亞利大區相鄰，東鄰巴西和玻利維亞。首府馬爾多納多港。 大區的名稱來自馬德雷德…",
+      "lat": "-11.99",
+      "lng": "-70.59"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-selva-cacique-7f0f738d",
+      "subject": "Selva cacique",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌卡亚利大区-12d96350",
+      "object": "乌卡亚利大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Selva cacique is endemic to eastern Peru where it is found in the regions of Ucayali, Cusco and Madre de Dios, and the adjoining Acre State in northwestern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-selva-cacique-7f0f738d",
+      "subject": "Selva cacique",
+      "predicate": "distributed_in",
+      "object_id": "loc-库斯科大区-f90044b4",
+      "object": "库斯科大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Selva cacique is endemic to eastern Peru where it is found in the regions of Ucayali, Cusco and Madre de Dios, and the adjoining Acre State in northwestern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-selva-cacique-7f0f738d",
+      "subject": "Selva cacique",
+      "predicate": "distributed_in",
+      "object_id": "loc-马德雷德迪奥斯大区-8ba2feff",
+      "object": "马德雷德迪奥斯大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Selva cacique is endemic to eastern Peru where it is found in the regions of Ucayali, Cusco and Madre de Dios, and the adjoining Acre State in northwestern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-selva-cacique-7f0f738d",
+      "subject": "Selva cacique",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-selva-cacique-7f0f738d",
+      "subject": "Selva cacique",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is an uncommon and elusive bird and it is threatened by habitat destruction; the population is thought to be declining rapidly and the International Union for Conservation of Nature has assessed the bird's conservation status as being \"Near Threatened\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

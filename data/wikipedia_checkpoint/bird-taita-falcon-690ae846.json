@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:27:37",
+  "requested_title": "Taita Falcon",
+  "resolved_title": "Taita falcon",
+  "title_aliases": [
+    "Taita Falcon"
+  ],
+  "bird_id": "bird-taita-falcon-690ae846",
+  "raw_file": "bird-taita-falcon-690ae846.json",
+  "bird": {
+    "id": "bird-taita-falcon-690ae846",
+    "name": "Taita falcon",
+    "english_name": "Taita falcon",
+    "latin_name": "Falco fasciinucha",
+    "summary": "The Taita falcon (Falco fasciinucha) is a small falcon found in central and eastern Africa. It was first described from the Taita Hills of…",
+    "lat": "-19.795",
+    "lng": "33.08916667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Falco_fasciinucha%2C_Chimanimani_National_Park%2C_Zimbabwe_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-chimanimani-national-park-mozambique-5ecdc551",
+      "name": "Chimanimani National Park (Mozambique)",
+      "summary": "Chimanimani National Park (Portuguese: Parque Nacional de Chimanimani) is a protected area next to Chimoio, capital of…",
+      "lat": "-19.795",
+      "lng": "33.08916667"
+    },
+    {
+      "id": "loc-安东-赖歇诺-43b8e534",
+      "name": "安东·赖歇诺",
+      "summary": "安东·赖歇诺（德語：Anton Reichenow，1847年8月1日—1941年7月6日）是德国鳥類學家和爬虫两栖类学家。 生平 安东·赖歇诺是德国鸟类研究学家吉恩·路易斯·卡巴尼斯的女婿，1874年至1921年在柏林自然博物馆长期工作…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-oscar-neumann-b9519a4e",
+      "name": "Oscar Neumann",
+      "summary": "Oscar Rudolph Neumann (3 September 1867 – 17 May 1946) was a German ornithologist and naturalist who explored and colle…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-taita-falcon-690ae846",
+      "subject": "Taita falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-chimanimani-national-park-mozambique-5ecdc551",
+      "object": "Chimanimani National Park (Mozambique)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Taita falcon (Falco fasciinucha) is a small falcon found in central and eastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-taita-falcon-690ae846",
+      "subject": "Taita falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-安东-赖歇诺-43b8e534",
+      "object": "安东·赖歇诺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Taita falcon (Falco fasciinucha) is a small falcon found in central and eastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-taita-falcon-690ae846",
+      "subject": "Taita falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-oscar-neumann-b9519a4e",
+      "object": "Oscar Neumann",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Taita falcon (Falco fasciinucha) is a small falcon found in central and eastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-taita-falcon-690ae846",
+      "subject": "Taita falcon",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:58:07",
+  "requested_title": "Flat-billed Kingfisher",
+  "resolved_title": "Flat-billed kingfisher",
+  "title_aliases": [
+    "Flat-billed Kingfisher"
+  ],
+  "bird_id": "bird-flat-billed-kingfisher-3e3f52c5",
+  "raw_file": "bird-flat-billed-kingfisher-3e3f52c5.json",
+  "bird": {
+    "id": "bird-flat-billed-kingfisher-3e3f52c5",
+    "name": "Flat-billed kingfisher",
+    "english_name": "Flat-billed kingfisher",
+    "latin_name": "Todiramphus recurvirostris",
+    "summary": "The flat-billed kingfisher (Todiramphus recurvirostris) is a species of bird in the family Alcedinidae. It is endemic to Samoa.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flat-billed_kingfisher_%28Todiramphus_recurvirostris%29_Upolu.jpg/960px-Flat-billed_kingfisher_%28Todiramphus_recurvirostris%29_Upolu.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-岸-4d4f1e5c",
+      "name": "岸",
+      "summary": "岸（又稱濱），分為海岸、湖岸及河岸，是在水面和陆地接触处，经波浪、潮汐、海流等作用下形成的滨水地带，其中有眾多沉積物堆積而形成的岸稱為灘。 海水作用 波浪，經常造成侵蝕 海流，經常造成堆積 潮汐 海岸類型 依構成物質區分 可分為岩岸與沙岸…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-flat-billed-kingfisher-3e3f52c5",
+      "subject": "Flat-billed kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-岸-4d4f1e5c",
+      "object": "岸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Flat-billed kingfishers are found on the islands of Upolu and Savai'i in lowland and coastal areas. They were found not found in upland forests above 1,200m, most likely because food items become increasingly scarce with increased elevation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flat-billed-kingfisher-3e3f52c5",
+      "subject": "Flat-billed kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Flat-billed kingfishers are found on the islands of Upolu and Savai'i in lowland and coastal areas. They were found not found in upland forests above 1,200m, most likely because food items become increasingly scarce with increased elevation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flat-billed-kingfisher-3e3f52c5",
+      "subject": "Flat-billed kingfisher",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Flat-billed kingfishers are found on the islands of Upolu and Savai'i in lowland and coastal areas. They were found not found in upland forests above 1,200m, most likely because food items become increasingly scarce with increased elevation",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-flat-billed-kingfisher-3e3f52c5",
+      "subject": "Flat-billed kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

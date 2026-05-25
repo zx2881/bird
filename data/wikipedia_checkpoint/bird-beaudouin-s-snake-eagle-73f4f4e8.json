@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:28:27",
+  "requested_title": "Beaudouin's Snake Eagle",
+  "resolved_title": "Beaudouin's snake eagle",
+  "title_aliases": [
+    "Beaudouin's Snake Eagle"
+  ],
+  "bird_id": "bird-beaudouin-s-snake-eagle-73f4f4e8",
+  "raw_file": "bird-beaudouin-s-snake-eagle-73f4f4e8.json",
+  "bird": {
+    "id": "bird-beaudouin-s-snake-eagle-73f4f4e8",
+    "name": "Beaudouin's snake eagle",
+    "english_name": "Beaudouin's snake eagle",
+    "latin_name": "Circaetus beaudouini",
+    "summary": "Beaudouin's snake eagle (Circaetus beaudouini) is a species of snake eagle in the family Accipitridae found in the Sahel region of west Afr…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Flickr_-_Rainbirder_-_Beaudouin%27s_Snake_Eagle_%28Circaetus_beaudouini%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-朱尔-韦罗-894353ab",
+      "name": "朱尔·韦罗",
+      "summary": "朱尔·皮埃尔·韦罗（法語：Jules Pierre Verreaux，1807年8月24日—1873年9月7日）是法国的植物学家、鸟类学家以及专业的自然史标本收藏家与交易家。他是自然学家爱德华·韦罗的兄长，自然学家和探险家皮埃尔·安托万·…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-marc-athanase-parfait-illet-des-murs-2512c4c3",
+      "name": "Marc Athanase Parfait Œillet des Murs",
+      "summary": "Marc Athanase Parfait Œillet des Murs (Paris, 18 April 1804 – Nogent-le-Rotrou, 25 February 1894), also known as Marc O…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-beaudouin-s-snake-eagle-73f4f4e8",
+      "subject": "Beaudouin's snake eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-朱尔-韦罗-894353ab",
+      "object": "朱尔·韦罗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| status = VU | status_system = IUCN3.1 | status_ref = | taxon = Circaetus beaudouini | authority = Verreaux & Des Murs, 1862 }} Beaudouin's snake eagle (Circaetus beaudouini) is a species of snake eagle in the family Accipitridae found in the Sahel region of west Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-beaudouin-s-snake-eagle-73f4f4e8",
+      "subject": "Beaudouin's snake eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-marc-athanase-parfait-illet-des-murs-2512c4c3",
+      "object": "Marc Athanase Parfait Œillet des Murs",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| status = VU | status_system = IUCN3.1 | status_ref = | taxon = Circaetus beaudouini | authority = Verreaux & Des Murs, 1862 }} Beaudouin's snake eagle (Circaetus beaudouini) is a species of snake eagle in the family Accipitridae found in the Sahel region of west Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-beaudouin-s-snake-eagle-73f4f4e8",
+      "subject": "Beaudouin's snake eagle",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-beaudouin-s-snake-eagle-73f4f4e8",
+      "subject": "Beaudouin's snake eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This brings about more deforestation, increase in the area under cultivation and an associated increase in the use of pesticides, overgrazing, urbanization and increased hunting pressure",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    },
+    {
+      "subject_id": "bird-beaudouin-s-snake-eagle-73f4f4e8",
+      "subject": "Beaudouin's snake eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This brings about more deforestation, increase in the area under cultivation and an associated increase in the use of pesticides, overgrazing, urbanization and increased hunting pressure",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-beaudouin-s-snake-eagle-73f4f4e8",
+      "subject": "Beaudouin's snake eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This brings about more deforestation, increase in the area under cultivation and an associated increase in the use of pesticides, overgrazing, urbanization and increased hunting pressure",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

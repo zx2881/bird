@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:38:19",
+  "requested_title": "Sandhill Grasswren",
+  "resolved_title": "Sandhill grasswren",
+  "title_aliases": [
+    "Sandhill Grasswren"
+  ],
+  "bird_id": "bird-sandhill-grasswren-7ed3f32d",
+  "raw_file": "bird-sandhill-grasswren-7ed3f32d.json",
+  "bird": {
+    "id": "bird-sandhill-grasswren-7ed3f32d",
+    "name": "Sandhill grasswren",
+    "english_name": "Sandhill grasswren",
+    "latin_name": "Amytornis oweni",
+    "summary": "The sandhill grasswren (Amytornis oweni) is an insectivorous bird in the Australasian wren family Maluridae. It is found in sandplain deser…",
+    "lat": "-26",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Amytornis_oweni_-_Gavin_Goodyear_-_154781969.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-西澳大利亚州-2d3ebb38",
+      "name": "西澳大利亚州",
+      "summary": "西澳大利亚州（英語：Western Australia，缩写为WA），簡稱西澳，是澳大利亚联邦的州，位於澳大利亚西部，今劃分為142個地方政府區域，幅員廣達2,525,500平方公里，佔全國總面積1/3，是澳洲面積最廣大之州，亦全球面積僅…",
+      "lat": "-26",
+      "lng": "121"
+    },
+    {
+      "id": "loc-南澳大利亚州-f6cb6048",
+      "name": "南澳大利亚州",
+      "summary": "南澳大利亚州（英語：South Australia，缩写为SA），簡稱南澳或南澳州，位於澳大利亚中南部，与澳大利亚大陆的其餘四州及北領地接壤，是澳洲聯邦的一州，是唯一与澳洲大陸上所有聯邦州都接壤的一州，其下劃分為69個地方政府區域。 南澳…",
+      "lat": "-30",
+      "lng": "135"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sandhill-grasswren-7ed3f32d",
+      "subject": "Sandhill grasswren",
+      "predicate": "distributed_in",
+      "object_id": "loc-西澳大利亚州-2d3ebb38",
+      "object": "西澳大利亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in sandplain deserts and mallee of central Western Australia to central Queensland as well as northwest and southern South Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sandhill-grasswren-7ed3f32d",
+      "subject": "Sandhill grasswren",
+      "predicate": "distributed_in",
+      "object_id": "loc-南澳大利亚州-f6cb6048",
+      "object": "南澳大利亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in sandplain deserts and mallee of central Western Australia to central Queensland as well as northwest and southern South Australia",
+      "object_summary": ""
+    }
+  ]
+}

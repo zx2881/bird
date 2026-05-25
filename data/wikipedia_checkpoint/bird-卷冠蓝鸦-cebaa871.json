@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:10:01",
+  "requested_title": "Curl-crested Jay",
+  "resolved_title": "Curl-crested jay",
+  "title_aliases": [
+    "Curl-crested Jay"
+  ],
+  "bird_id": "bird-卷冠蓝鸦-cebaa871",
+  "raw_file": "bird-卷冠蓝鸦-cebaa871.json",
+  "bird": {
+    "id": "bird-卷冠蓝鸦-cebaa871",
+    "name": "卷冠蓝鸦",
+    "english_name": "Curl-crested jay",
+    "latin_name": "Cyanocorax cristatellus",
+    "summary": "卷冠蓝鸦（学名：Cyanocorax cristatellus），是鸦科蓝鸦属的一种，分布于巴西、玻利维亚和巴拉圭。全球活动范围约为2,900,000平方千米。该物种的保护状况被评为无危。 卷冠蓝鸦的平均体重约为178.0克。栖息地包括亚热带或热带的湿润低地林、亚热带或热带的旱…",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cyanocorax_cristatellus%28m%29P5051282.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "name": "昆拉德·雅各布·特明克",
+      "summary": "昆拉德·雅各布·特明克（荷蘭語：Coenraad Jacob Temminck，1778年3月31日—1858年1月30日）是一名荷蘭貴族和動物學家。 生平 特明克於阿姆斯特丹出生，1820年出任位於萊頓的國家自然歷史博物館，直至去世。他…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-卷冠蓝鸦-cebaa871",
+      "subject": "卷冠蓝鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "object": "昆拉德·雅各布·特明克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The curl-crested jay (Cyanocorax cristatellus) is a species of jay native to South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-卷冠蓝鸦-cebaa871",
+      "subject": "卷冠蓝鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|Female curl-crested jay Curl-crested jays are native to the cerrados of central and southern and the caatinga of north-eastern Brazil",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-卷冠蓝鸦-cebaa871",
+      "subject": "卷冠蓝鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

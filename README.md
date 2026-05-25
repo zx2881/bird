@@ -23,7 +23,7 @@
 - `scripts/download_bird_name_list.py` 的 AviList 标准鸟名下载脚本
 - `scripts/crawl_from_wikipedia.py` 的 Wikipedia 批量抓取脚本
 - `scripts/fetch_taxonomy.py` 的 Wikidata 分类标签获取脚本
-- `scripts/fetch_gbif_data.py` 的 GBIF 分布抓取示例
+- `scripts/backfill_taxonomy_from_avilist.py` 的 AviList 分类快速回填脚本
 
 ## 2. 目录结构
 
@@ -42,12 +42,13 @@
 │        ├─ bird-red-crowned-crane.json
 │        └─ taxonomy-family-gruidae.json
 ├─ scripts/
+│  ├─ backfill_taxonomy_from_avilist.py
 │  ├─ build_knowledge_json.py
 │  ├─ crawl_from_wikipedia.py
 │  ├─ download_bird_name_list.py
 │  ├─ fetch_bird_images.py
 │  ├─ fetch_taxonomy.py
-│  └─ fetch_gbif_data.py
+│  └─ validate_data.py
 ├─ src/
 │  ├─ App.vue
 │  ├─ main.js
@@ -482,6 +483,38 @@ bird-siberian-crane,白鹤,threatened_by,threat-climate-change,气候变化,Bird
 
 ## 10. 命令怎么用
 
+### 完整数据构建流程（推荐顺序）
+
+按顺序执行，**不要同时跑多个脚本**（它们会互写 CSV 导致数据覆盖）：
+
+```bash
+# 步骤 1: 下载 AviList 官方鸟类名录
+npm run download:bird-names
+
+# 步骤 2: 从 Wikipedia 批量抓取全部鸟类页面（耗时最长）
+python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv
+
+# 步骤 3: 从 AviList 快速回填 order/family（几秒）
+python scripts/backfill_taxonomy_from_avilist.py
+
+# 步骤 4: 通过 Wikidata 补中文目名/科名 + 未匹配的少数鸟类
+python scripts/fetch_taxonomy.py
+
+# 步骤 5: 批量获取鸟类题图
+npm run fetch:bird-images
+
+# 步骤 6: 校验数据完整性
+python scripts/validate_data.py
+
+# 步骤 7: 生成前端 JSON
+npm run build:data
+
+# 步骤 8: 启动前端预览
+npm run dev
+```
+
+### 常用命令速查
+
 安装前端依赖：
 
 ```bash
@@ -506,76 +539,73 @@ npm run dev
 npm run build
 ```
 
-抓取 Wikipedia 并写入 `data/*.csv`：
+从 CSV 生成前端数据：
+
+```bash
+npm run build:data
+```
+
+下载 AviList 标准鸟名：
+
+```bash
+npm run download:bird-names
+```
+
+抓取指定鸟类 Wikipedia 页面：
 
 ```bash
 npm run crawl:wikipedia -- --titles "Red-crowned Crane" "Crested Ibis" --build-json
 ```
 
-如需通过代理访问 Wikipedia：
+批量抓取全部鸟类（从 bird_titles.csv）：
 
 ```bash
-npm run crawl:wikipedia -- --titles "Red-crowned Crane" --proxy http://127.0.0.1:7890 --build-json
+python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv
 ```
 
-下载 AviList 标准鸟名并生成 `bird_titles.csv`：
+快速回填 order/family（从 AviList 本地文件）：
 
 ```bash
-npm run download:bird-names
+python scripts/backfill_taxonomy_from_avilist.py
 ```
 
-也可以指定输出路径：
+获取分类标签（Wikidata API）：
 
 ```bash
-python scripts/download_bird_name_list.py --output data/bird_titles.csv
+npm run fetch:taxonomy
+# 或
+python scripts/fetch_taxonomy.py
 ```
 
-也可以直接运行 Python：
+获取鸟类题图：
 
 ```bash
-python scripts/crawl_from_wikipedia.py --titles "California Condor" "Philippine Eagle" --build-json
+npm run fetch:bird-images
 ```
 
-推荐日常顺序：
+数据校验：
 
 ```bash
-npm run build:data
-npm run dev
+python scripts/validate_data.py
 ```
 
-如果你修改了 `data/*.csv`，就重新执行一次：
+通过代理访问（适用于所有联网脚本）：
 
 ```bash
-npm run build:data
+python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv --proxy http://127.0.0.1:7890
+python scripts/fetch_taxonomy.py --proxy http://127.0.0.1:7890
+python scripts/fetch_bird_images.py --proxy http://127.0.0.1:7890
 ```
 
-如果你是从 Wikipedia 新抓数据，建议直接执行：
+### 断点续跑与重复处理
 
-```bash
-npm run crawl:wikipedia -- --titles "Red-crowned Crane" --build-json
-```
+`crawl_from_wikipedia.py` 和 `fetch_taxonomy.py` 均支持断点续跑：
 
-如果你要先批量准备标准鸟名，再喂给 Wikipedia 爬虫，建议顺序是：
+- `crawl_from_wikipedia.py`：每处理完一个标题立刻写 CSV 和 `data/wikipedia_checkpoint/`，中断后自动跳过已完成标题并从 checkpoint 恢复数据
+- `fetch_taxonomy.py`：每成功一只立刻写 CSV，已有 order/family 的自动跳过
+- 强制重取：`--overwrite` 参数
 
-```bash
-npm run download:bird-names
-python scripts/crawl_from_wikipedia.py --input-file data/bird_titles.csv --build-json
-```
-
-脚本会同时写入：
-
-- `data/birds.csv`
-- `data/locations.csv`
-- `data/relations.csv`
-- `data/wikipedia_raw/*.json`
-- `data/wikipedia_checkpoint/*.json`
-
-`crawl_from_wikipedia.py` 现在支持断点续跑：
-
-- 每处理完一个标题就会立刻落盘到 CSV 和 checkpoint
-- 再次运行时会自动跳过已经完成的标题
-- 如果上次运行中断，会先从 `data/wikipedia_checkpoint/` 补齐 CSV，再继续后面的标题
-- 如果你确实要强制重抓，传 `--overwrite`
+**重要**：不要同时运行多个写 CSV 的脚本（crawl / taxonomy / images），后写入的会覆盖先写入的数据。
 
 ## 11. 当前分片输出的大致规模
 
@@ -763,6 +793,32 @@ python scripts/fetch_taxonomy.py --proxy http://127.0.0.1:7890 --delay 0.1
 - 每成功抓到 1 条鸟类分类信息就会立即写盘；即使中途 `Ctrl+C`，之前成功的记录也不会丢
 - 分类骨架节点并不要求你手工维护到 `relations.csv`
 - 接口调用遵守 Wikidata 限速要求，默认 0.1s 最小请求间隔，并配合本地缓存减少重复请求
+
+### `scripts/backfill_taxonomy_from_avilist.py`
+
+作用：
+
+- 从本地已有的 `data/bird_titles.csv` 中读取 AviList 官方的 order/family 信息
+- 按英文名匹配，快速回填到 `birds.csv` 的 `order`/`family` 列
+- 无需联网，几秒完成全部回填
+
+与 `fetch_taxonomy.py` 的关系：
+
+- `backfill_taxonomy_from_avilist.py` 先跑，覆盖 98%+ 的鸟类（几秒）
+- `fetch_taxonomy.py` 后跑，只补充 AviList 未匹配的少量鸟类 + 获取中文目名/科名（几分钟）
+
+常用命令：
+
+```bash
+python scripts/backfill_taxonomy_from_avilist.py
+```
+
+说明：
+
+- 只回填英文/拉丁 order 和 family，不含中文名
+- 匹配依据是 `english_name`，英文名与 AviList 不一致的鸟会漏掉
+- 漏掉的可后续用 `fetch_taxonomy.py` 通过 Wikidata 补充
+
 
 ### GBIF / 中国观鸟记录中心坐标获取
 

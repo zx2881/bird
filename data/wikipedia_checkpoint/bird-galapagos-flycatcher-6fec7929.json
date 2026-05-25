@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:42:28",
+  "requested_title": "Galapagos Flycatcher",
+  "resolved_title": "Galapagos flycatcher",
+  "title_aliases": [
+    "Galapagos Flycatcher"
+  ],
+  "bird_id": "bird-galapagos-flycatcher-6fec7929",
+  "raw_file": "bird-galapagos-flycatcher-6fec7929.json",
+  "bird": {
+    "id": "bird-galapagos-flycatcher-6fec7929",
+    "name": "Galapagos flycatcher",
+    "english_name": "Galapagos flycatcher",
+    "latin_name": "Myiarchus magnirostris",
+    "summary": "The Galapagos flycatcher (Myiarchus magnirostris), also known as the large-billed flycatcher, is a species of bird in the family Tyrannidae…",
+    "lat": "1.678",
+    "lng": "-92.003",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Galapagos_flycatcher_%2833936548318%29.jpg/960px-Galapagos_flycatcher_%2833936548318%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-達爾文島-加拉帕戈斯群島-f14f4684",
+      "name": "達爾文島 (加拉帕戈斯群島)",
+      "summary": "達爾文島（西班牙語：Isla Darwin）是厄瓜多爾的島嶼，位於沃爾夫島以北34公里的太平洋海域，屬於加拉帕戈斯群島的一部分，長2.8公里、寬0.8公里，面積1.3平方公里，最高點海拔高度253米，島上無人居住。 外部連結 Darwin…",
+      "lat": "1.678",
+      "lng": "-92.003"
+    },
+    {
+      "id": "loc-沃爾夫島-30d1dc0b",
+      "name": "沃爾夫島",
+      "summary": "沃爾夫島（西班牙語：Isla Wolf）是厄瓜多爾的島嶼，位於達爾文島以南34公里的太平洋海域，屬於加拉帕戈斯群島的一部分，長2.8公里、寬0.8公里，面積1.3平方公里，最高點海拔高度253米，島上無人居住。 外部連結 Satellit…",
+      "lat": "1.3825",
+      "lng": "-91.815"
+    },
+    {
+      "id": "loc-赫諾韋薩島-0a01620a",
+      "name": "赫諾韋薩島",
+      "summary": "赫諾韋薩島是厄瓜多爾的島嶼，位於太平洋海域，屬於加拉帕戈斯群島的一部分，面積14平方公里，最高點海拔高度64米，島上無人居住。 外部連結 Images from Genovesa （页面存档备份，存于互联网档案馆）",
+      "lat": "0.316667",
+      "lng": "-89.95"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-galapagos-flycatcher-6fec7929",
+      "subject": "Galapagos flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-達爾文島-加拉帕戈斯群島-f14f4684",
+      "object": "達爾文島 (加拉帕戈斯群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Galapagos flycatcher is found on all of the Galápagos Islands except Darwin, Wolf, and Genovesa. There are, however, single late nineteenth or early twentieth century records from each of them. It inhabits all of the vegetated habitats on the islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-galapagos-flycatcher-6fec7929",
+      "subject": "Galapagos flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-沃爾夫島-30d1dc0b",
+      "object": "沃爾夫島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Galapagos flycatcher is found on all of the Galápagos Islands except Darwin, Wolf, and Genovesa. There are, however, single late nineteenth or early twentieth century records from each of them. It inhabits all of the vegetated habitats on the islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-galapagos-flycatcher-6fec7929",
+      "subject": "Galapagos flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-赫諾韋薩島-0a01620a",
+      "object": "赫諾韋薩島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Galapagos flycatcher is found on all of the Galápagos Islands except Darwin, Wolf, and Genovesa. There are, however, single late nineteenth or early twentieth century records from each of them. It inhabits all of the vegetated habitats on the islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-galapagos-flycatcher-6fec7929",
+      "subject": "Galapagos flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

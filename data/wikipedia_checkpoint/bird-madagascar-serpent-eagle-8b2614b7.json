@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:17:23",
+  "requested_title": "Madagascar Serpent Eagle",
+  "resolved_title": "Madagascar serpent eagle",
+  "title_aliases": [
+    "Madagascar Serpent Eagle"
+  ],
+  "bird_id": "bird-madagascar-serpent-eagle-8b2614b7",
+  "raw_file": "bird-madagascar-serpent-eagle-8b2614b7.json",
+  "bird": {
+    "id": "bird-madagascar-serpent-eagle-8b2614b7",
+    "name": "Madagascar serpent eagle",
+    "english_name": "Madagascar serpent eagle",
+    "latin_name": "Eutriorchis astur",
+    "summary": "The Madagascar serpent eagle (Eutriorchis astur) is a species of bird of prey in the family Accipitridae. It is placed in the monotypic gen…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/EutriorchisAsturKeulemans.jpg/960px-EutriorchisAsturKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-madagascar-serpent-eagle-8b2614b7",
+      "subject": "Madagascar serpent eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird inhabits dense, humid, and broadleafed evergreen forests in northeastern and east-central Madagascar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-serpent-eagle-8b2614b7",
+      "subject": "Madagascar serpent eagle",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-madagascar-serpent-eagle-8b2614b7",
+      "subject": "Madagascar serpent eagle",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

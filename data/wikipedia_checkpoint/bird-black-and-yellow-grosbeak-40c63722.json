@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:01:19",
+  "requested_title": "Black-and-yellow Grosbeak",
+  "resolved_title": "Black-and-yellow grosbeak",
+  "title_aliases": [
+    "Black-and-yellow Grosbeak"
+  ],
+  "bird_id": "bird-black-and-yellow-grosbeak-40c63722",
+  "raw_file": "bird-black-and-yellow-grosbeak-40c63722.json",
+  "bird": {
+    "id": "bird-black-and-yellow-grosbeak-40c63722",
+    "name": "Black-and-yellow grosbeak",
+    "english_name": "Black-and-yellow grosbeak",
+    "latin_name": "Mycerobas icterioides",
+    "summary": "The black-and-yellow grosbeak (Mycerobas icterioides) is a species of finch native to the northern parts of the Indian subcontinent, primar…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Mycerobas_icterioides.jpg/960px-Mycerobas_icterioides.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-dhanaulti-a9c8ac95",
+      "name": "Dhanaulti",
+      "summary": "Dhanaulti is a hill station and tehsil in Tehri Garhwal district, Uttarakhand, India.",
+      "lat": "30.45",
+      "lng": "78.25"
+    },
+    {
+      "id": "loc-尼古拉斯-艾爾沃德-維戈斯-6f7bd040",
+      "name": "尼古拉斯·艾爾沃德·維戈斯",
+      "summary": "尼古拉斯·艾爾沃德·維戈斯（英語：Nicholas Aylward Vigors，1785年12月12日—1840年10月26日），爱尔兰动物学家和政治人物。 早年 維戈斯是一位上尉的长子。他曾在第29步兵軍團服役。他于1803年11月进…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-and-yellow-grosbeak-40c63722",
+      "subject": "Black-and-yellow grosbeak",
+      "predicate": "distributed_in",
+      "object_id": "loc-dhanaulti-a9c8ac95",
+      "object": "Dhanaulti",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-and-yellow grosbeak (Mycerobas icterioides) is a species of finch native to the northern parts of the Indian subcontinent, primarily the lower and middle Himalayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-yellow-grosbeak-40c63722",
+      "subject": "Black-and-yellow grosbeak",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼古拉斯-艾爾沃德-維戈斯-6f7bd040",
+      "object": "尼古拉斯·艾爾沃德·維戈斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-and-yellow grosbeak (Mycerobas icterioides) is a species of finch native to the northern parts of the Indian subcontinent, primarily the lower and middle Himalayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-yellow-grosbeak-40c63722",
+      "subject": "Black-and-yellow grosbeak",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-and-yellow grosbeak (Mycerobas icterioides) is a species of finch native to the northern parts of the Indian subcontinent, primarily the lower and middle Himalayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-and-yellow-grosbeak-40c63722",
+      "subject": "Black-and-yellow grosbeak",
+      "predicate": "lives_in",
+      "object_id": "hab-temperate-forest",
+      "object": "温带森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species ranges across Afghanistan, India, Nepal and Pakistan where its natural habitat is temperate forests",
+      "object_summary": "温带岛屿或山地森林生态系统。"
+    },
+    {
+      "subject_id": "bird-black-and-yellow-grosbeak-40c63722",
+      "subject": "Black-and-yellow grosbeak",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

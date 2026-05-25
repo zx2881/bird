@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:03:44",
+  "requested_title": "Dull-mantled Antbird",
+  "resolved_title": "Dull-mantled antbird",
+  "title_aliases": [
+    "Dull-mantled Antbird"
+  ],
+  "bird_id": "bird-dull-mantled-antbird-1e8179a4",
+  "raw_file": "bird-dull-mantled-antbird-1e8179a4.json",
+  "bird": {
+    "id": "bird-dull-mantled-antbird-1e8179a4",
+    "name": "Dull-mantled antbird",
+    "english_name": "Dull-mantled antbird",
+    "latin_name": "Sipia laemosticta",
+    "summary": "The dull-mantled antbird (Sipia laemosticta) is a perching bird species in subfamily Thamnophilinae of family Thamnophilidae, the \"typical…",
+    "lat": "10.74833333",
+    "lng": "-85.15277778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Dull-mantled_Antbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-瓜納卡斯特山脈-db010d2a",
+      "name": "瓜納卡斯特山脈",
+      "summary": "瓜納卡斯特山脈是哥斯達黎加的山脈，位於該國北部，毗鄰與尼加拉瓜接壤的邊境，全長110公里，最高點海拔高度2,028米，該山體在第四紀形成。",
+      "lat": "10.74833333",
+      "lng": "-85.15277778"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dull-mantled-antbird-1e8179a4",
+      "subject": "Dull-mantled antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓜納卡斯特山脈-db010d2a",
+      "object": "瓜納卡斯特山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica on the Caribbean slope from the Cordillera de Guanacaste south at elevations between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dull-mantled-antbird-1e8179a4",
+      "subject": "Dull-mantled antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| page =368 }} At least one sighting has been documented in extreme northwestern Colombia. The species primarily inhabits the floor and understorey of wet foothills evergreen forest and also occurs in lowlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dull-mantled-antbird-1e8179a4",
+      "subject": "Dull-mantled antbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-dull-mantled-antbird-1e8179a4",
+      "subject": "Dull-mantled antbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-human-disturbance",
+      "object": "人类活动扰动",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered fairly common in Costa Rica and in eastern Panama though patchily distributed across its range. It is \"[c]onsidered to be of high sensitivity to disturbance, and, in view of its small geographical range and narrow elevational limits, this species should be monitored for signs of decline.\"",
+      "object_summary": "旅游、施工和高频活动影响繁殖或觅食。"
+    }
+  ]
+}

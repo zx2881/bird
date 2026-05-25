@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:06:41",
+  "requested_title": "Scarlet Minivet",
+  "resolved_title": "Scarlet minivet",
+  "title_aliases": [
+    "Scarlet Minivet"
+  ],
+  "bird_id": "bird-赤红山椒鸟-08ef7e07",
+  "raw_file": "bird-赤红山椒鸟-08ef7e07.json",
+  "bird": {
+    "id": "bird-赤红山椒鸟-08ef7e07",
+    "name": "赤红山椒鸟",
+    "english_name": "Scarlet minivet",
+    "latin_name": "Pericrocotus speciosus",
+    "summary": "赤红山椒鸟（台湾作艷麗赤紅山椒，学名：Pericrocotus speciosus），是雀形目鹃鵙科的一种鸟类。 特征 赤红山椒鸟体重约23.3克，翼长约94.2毫米，嘴峰长约19.1毫米，喙宽度约6.2毫米，喙厚度约5.7毫米，跗蹠长约17.2毫米，尾长约87.6毫米。赤红山…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/20221225_Pericrocotus_speciosus.jpg/960px-20221225_Pericrocotus_speciosus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-赤红山椒鸟-08ef7e07",
+      "subject": "赤红山椒鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This minivet is found in tropical southern Asia from Northeast India to southern China, Indonesia, and the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤红山椒鸟-08ef7e07",
+      "subject": "赤红山椒鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This minivet is found in tropical southern Asia from Northeast India to southern China, Indonesia, and the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤红山椒鸟-08ef7e07",
+      "subject": "赤红山椒鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

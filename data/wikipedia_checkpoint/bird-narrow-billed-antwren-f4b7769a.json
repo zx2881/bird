@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:56:39",
+  "requested_title": "Narrow-billed Antwren",
+  "resolved_title": "Narrow-billed antwren",
+  "title_aliases": [
+    "Narrow-billed Antwren"
+  ],
+  "bird_id": "bird-narrow-billed-antwren-f4b7769a",
+  "raw_file": "bird-narrow-billed-antwren-f4b7769a.json",
+  "bird": {
+    "id": "bird-narrow-billed-antwren-f4b7769a",
+    "name": "Narrow-billed antwren",
+    "english_name": "Narrow-billed antwren",
+    "latin_name": "Formicivora iheringi",
+    "summary": "The narrow-billed antwren (Formicivora iheringi) is a species of bird in subfamily Thamnophilinae of family Thamnophilidae, the \"typical an…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Formicivora_iheringi_-_Narrow-billed_antwren_%28male%29.jpg/960px-Formicivora_iheringi_-_Narrow-billed_antwren_%28male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-seasonal-semideciduous-forest-c83f5b72",
+      "name": "Seasonal semideciduous forest",
+      "summary": "The seasonal semideciduous forest is a vegetation type that belongs to the Atlantic Forest biome (Inland Atlantic Fores…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-narrow-billed-antwren-f4b7769a",
+      "subject": "Narrow-billed antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-seasonal-semideciduous-forest-c83f5b72",
+      "object": "Seasonal semideciduous forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In part of Bahia it also occurs in mata-de-cipó, a biome characterized by a relatively open understorey and a few large emergent trees above a dense mid-storey",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-narrow-billed-antwren-f4b7769a",
+      "subject": "Narrow-billed antwren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

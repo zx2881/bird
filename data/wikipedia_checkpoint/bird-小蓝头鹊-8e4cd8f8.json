@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:06:25",
+  "requested_title": "Dwarf Jay",
+  "resolved_title": "Dwarf jay",
+  "title_aliases": [
+    "Dwarf Jay"
+  ],
+  "bird_id": "bird-小蓝头鹊-8e4cd8f8",
+  "raw_file": "bird-小蓝头鹊-8e4cd8f8.json",
+  "bird": {
+    "id": "bird-小蓝头鹊-8e4cd8f8",
+    "name": "小蓝头鹊",
+    "english_name": "Dwarf jay",
+    "latin_name": "Cyanolyca nanus",
+    "summary": "小蓝头鹊（学名：Cyanolyca nana），是鸦科蓝头鹊属的一种，为墨西哥的特有种。全球活动范围约为4,700平方千米。该物种的保护状况被评为易危。 小蓝头鹊的平均体重约为41.0克。栖息地为亚热带或热带的湿润山地林。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Dwarf_Jay_%28Cyanolyca_nana%29.jpg/960px-Dwarf_Jay_%28Cyanolyca_nana%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pine-oak-forest-1bf3f7a2",
+      "name": "Pine–oak forest",
+      "summary": "Pine–oak forest, pine–oak woodland, or oak–pine forest is a group of similar of ecosystems, primarily found in North an…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小蓝头鹊-8e4cd8f8",
+      "subject": "小蓝头鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-pine-oak-forest-1bf3f7a2",
+      "object": "Pine–oak forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits humid pine-oak forest in the upper subtropical and temperate zones",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小蓝头鹊-8e4cd8f8",
+      "subject": "小蓝头鹊",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

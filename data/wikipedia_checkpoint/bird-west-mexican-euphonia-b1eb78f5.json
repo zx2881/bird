@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:56:00",
+  "requested_title": "West Mexican Euphonia",
+  "resolved_title": "West Mexican euphonia",
+  "title_aliases": [
+    "West Mexican Euphonia"
+  ],
+  "bird_id": "bird-west-mexican-euphonia-b1eb78f5",
+  "raw_file": "bird-west-mexican-euphonia-b1eb78f5.json",
+  "bird": {
+    "id": "bird-west-mexican-euphonia-b1eb78f5",
+    "name": "West Mexican euphonia",
+    "english_name": "West Mexican euphonia",
+    "latin_name": "Euphonia godmani",
+    "summary": "The West Mexican euphonia (Euphonia godmani) is a species of bird in the family Fringillidae, the finches and euphonias. It is endemic to M…",
+    "lat": "29.64611111",
+    "lng": "-110.86888889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Euphonia_affinis_godmani.jpg/960px-Euphonia_affinis_godmani.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-索諾拉州-c6e6953f",
+      "name": "索諾拉州",
+      "summary": "索諾拉州 （西班牙語：Sonora）是墨西哥三十一個州之一，西臨加利福尼亞灣，北鄰美國新墨西哥州和亞利桑那州，西北隔科羅拉多河與下加利福尼亞半島分開。首府埃莫西約，下分72市。 蒂布龙岛面积1201平方公里，无人居住。",
+      "lat": "29.64611111",
+      "lng": "-110.86888889"
+    },
+    {
+      "id": "loc-格雷羅州-92d4434d",
+      "name": "格雷羅州",
+      "summary": "格雷羅州（西班牙語：Guerrero）是墨西哥南部的一個州，南臨太平洋。 參考文獻",
+      "lat": "17.61666667",
+      "lng": "-99.95"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-west-mexican-euphonia-b1eb78f5",
+      "subject": "West Mexican euphonia",
+      "predicate": "distributed_in",
+      "object_id": "loc-索諾拉州-c6e6953f",
+      "object": "索諾拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The West Mexican euphonia is found in the western Mexican lowlands from southeastern Sonora south to central Guerrero",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-west-mexican-euphonia-b1eb78f5",
+      "subject": "West Mexican euphonia",
+      "predicate": "distributed_in",
+      "object_id": "loc-格雷羅州-92d4434d",
+      "object": "格雷羅州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The West Mexican euphonia is found in the western Mexican lowlands from southeastern Sonora south to central Guerrero",
+      "object_summary": ""
+    }
+  ]
+}

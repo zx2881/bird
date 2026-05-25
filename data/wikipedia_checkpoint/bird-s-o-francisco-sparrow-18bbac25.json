@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:54:44",
+  "requested_title": "Sao Francisco Sparrow",
+  "resolved_title": "São Francisco sparrow",
+  "title_aliases": [
+    "Sao Francisco Sparrow",
+    "São Francisco sparrow"
+  ],
+  "bird_id": "bird-s-o-francisco-sparrow-18bbac25",
+  "raw_file": "bird-s-o-francisco-sparrow-18bbac25.json",
+  "bird": {
+    "id": "bird-s-o-francisco-sparrow-18bbac25",
+    "name": "São Francisco sparrow",
+    "english_name": "São Francisco sparrow",
+    "latin_name": "Arremon franciscanus",
+    "summary": "The Sao Francisco sparrow (Arremon franciscanus) is a Near Threatened species of bird in the family Passerellidae, the New World sparrows.…",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Arremon_franciscanus_Sao_Francisco_Sparrow%3B_Lapa_Grande_State_Park%2C_Montes_Claros%2C_Minas_Gerais%2C_Brazil.jpg/960px-Arremon_franciscanus_Sao_Francisco_Sparrow%3B_Lapa_Grande_State_Park%2C_Montes_Claros%2C_Minas_Gerais%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    },
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-s-o-francisco-sparrow-18bbac25",
+      "subject": "São Francisco sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sao Francisco sparrow is found in east-central Brazil in southern Bahia and northern Minas Gerais states",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-s-o-francisco-sparrow-18bbac25",
+      "subject": "São Francisco sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits the caatinga, a biome characterized by dense deciduous shrubs",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-s-o-francisco-sparrow-18bbac25",
+      "subject": "São Francisco sparrow",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

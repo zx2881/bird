@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:43:18",
+  "requested_title": "Benguet Bush Warbler",
+  "resolved_title": "Benguet bush warbler",
+  "title_aliases": [
+    "Benguet Bush Warbler"
+  ],
+  "bird_id": "bird-高山短翅蝗莺-9720b05b",
+  "raw_file": "bird-高山短翅蝗莺-9720b05b.json",
+  "bird": {
+    "id": "bird-高山短翅蝗莺-9720b05b",
+    "name": "高山短翅蝗莺",
+    "english_name": "Benguet bush warbler",
+    "latin_name": "Locustella seebohmi",
+    "summary": "高山短翅蝗莺（台湾作本蓋特短翅鶯）（学名：Bradypterus seebohmi），为鶲科短翅莺属的鸟类。分布于不丹，印度东北部，老挝，缅甸，泰国，越南，菲律宾以及中国南部。该物种的模式产地在菲律宾。 特征 高山短翅蝗莺体重约11.3克，翼长约53.5毫米，嘴峰长约13.6毫…",
+    "lat": "16",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Naturalis_Biodiversity_Center_-_RMNH.AVES.51345_1_-_Bradypterus_seebohmi_montis_%28Hartert%2C_1896%29_-_Sylviidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.51345_1_-_Bradypterus_seebohmi_montis_%28Hartert%2C_1896%29_-_Sylviidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-呂宋-58363350",
+      "name": "呂宋",
+      "summary": "呂宋（他加祿語：Luzon；白話字：Lū-sòng）是菲律賓最大的島，也是世界第15大島，面積109,965平方公里。呂宋島位於菲律賓北部，是首都馬尼拉的所在地。呂宋島在台灣南方，米沙鄢群島北方，南海東方，菲律宾海西方。《劍橋百科》介紹：…",
+      "lat": "16",
+      "lng": "121"
+    },
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-高山短翅蝗莺-9720b05b",
+      "subject": "高山短翅蝗莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-呂宋-58363350",
+      "object": "呂宋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the mountains of northern Luzon in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高山短翅蝗莺-9720b05b",
+      "subject": "高山短翅蝗莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the mountains of northern Luzon in the Philippines",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-高山短翅蝗莺-9720b05b",
+      "subject": "高山短翅蝗莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

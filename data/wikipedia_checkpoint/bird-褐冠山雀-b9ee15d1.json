@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:23:17",
+  "requested_title": "Grey-crested Tit",
+  "resolved_title": "Grey-crested tit",
+  "title_aliases": [
+    "Grey-crested Tit"
+  ],
+  "bird_id": "bird-褐冠山雀-b9ee15d1",
+  "raw_file": "bird-褐冠山雀-b9ee15d1.json",
+  "bird": {
+    "id": "bird-褐冠山雀-b9ee15d1",
+    "name": "褐冠山雀",
+    "english_name": "Grey-crested tit",
+    "latin_name": "Lophophanes dichrous",
+    "summary": "褐冠山雀（学名：Lophophanes dichrous）为山雀科冠山雀属的鸟类。分布于印度、尼泊尔、锡金、不丹、缅甸以及中国大陆的陕西、甘肃、青海、四川、云南、西藏等地，主要生活于海拔3000米左右的高山针叶林或灌丛中。该物种的模式产地在尼泊尔。 亚种 褐冠山雀甘肃亚种（学名…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Grey-crested_Tit_I_IMG_7285.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-褐冠山雀-b9ee15d1",
+      "subject": "褐冠山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Himalayan foothills and southern-central China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐冠山雀-b9ee15d1",
+      "subject": "褐冠山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Himalayan foothills and southern-central China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐冠山雀-b9ee15d1",
+      "subject": "褐冠山雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

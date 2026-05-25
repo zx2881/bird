@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:04:37",
+  "requested_title": "Rusty-necked Piculet",
+  "resolved_title": "Rusty-necked piculet",
+  "title_aliases": [
+    "Rusty-necked Piculet"
+  ],
+  "bird_id": "bird-rusty-necked-piculet-e515e88f",
+  "raw_file": "bird-rusty-necked-piculet-e515e88f.json",
+  "bird": {
+    "id": "bird-rusty-necked-piculet-e515e88f",
+    "name": "Rusty-necked piculet",
+    "english_name": "Rusty-necked piculet",
+    "latin_name": "Picumnus fuscus",
+    "summary": "The rusty-necked piculet (Picumnus fuscus) is a species of bird in subfamily Picumninae of the woodpecker family Picidae. It is found along…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Picumnus_fuscus_-_Rusty-necked_Piculet_%28male%29%2C_Pimenteiras_d%27Oeste%2C_Rond%C3%B4nia%2C_Brazil.jpg/960px-Picumnus_fuscus_-_Rusty-necked_Piculet_%28male%29%2C_Pimenteiras_d%27Oeste%2C_Rond%C3%B4nia%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rusty-necked-piculet-e515e88f",
+      "subject": "Rusty-necked piculet",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the seasonally flooded várzea forest there",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rusty-necked-piculet-e515e88f",
+      "subject": "Rusty-necked piculet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

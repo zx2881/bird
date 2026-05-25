@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:43:13",
+  "requested_title": "Goliath Heron",
+  "resolved_title": "Goliath heron",
+  "title_aliases": [
+    "Goliath Heron"
+  ],
+  "bird_id": "bird-巨鹭-094df09c",
+  "raw_file": "bird-巨鹭-094df09c.json",
+  "bird": {
+    "id": "bird-巨鹭-094df09c",
+    "name": "巨鹭",
+    "english_name": "Goliath heron",
+    "latin_name": "Ardea goliath",
+    "summary": "巨鷺（學名：Ardea goliath）是最大的鷺科鳥類，主要分布於撒哈拉以南非洲，有些在西亞及南亞。 特徵 巨鷺是世界上最大的鷺科，高1.20-1.52米，翼展闊1.85-2.30米，重4-5公斤。牠們飛行得很慢，彷彿很笨重，雙腳並不平放。雄鳥及雌鳥長相相近，整體呈灰色及栗色…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ardea_goliath_-Lake_Baringo%2C_Kenya-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西亚-a96480a2",
+      "name": "西亚",
+      "summary": "西亞（英語：West Asia，通稱：Western Asia），或稱西南亞（英語：South-west Asia 或 Southwest Asia，通稱：South-western Asia 或 Southwestern Asia），指…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南亚-1fa6ecaf",
+      "name": "南亚",
+      "summary": "南亚（英語：South Asia）是術語，以替換百年老詞「印度次大陸」，這老詞用來代表亞洲大陸的南部地區，主要是位於印度板塊和向南投射到印度洋的地方，當中包括8個主權國家：印度、巴基斯坦、孟加拉、斯里蘭卡、馬爾代夫、不丹、尼泊爾、阿富汗（…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-巨鹭-094df09c",
+      "subject": "巨鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in sub-Saharan Africa, with smaller, declining numbers in Southwest and South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巨鹭-094df09c",
+      "subject": "巨鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-西亚-a96480a2",
+      "object": "西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in sub-Saharan Africa, with smaller, declining numbers in Southwest and South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巨鹭-094df09c",
+      "subject": "巨鹭",
+      "predicate": "distributed_in",
+      "object_id": "loc-南亚-1fa6ecaf",
+      "object": "南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in sub-Saharan Africa, with smaller, declining numbers in Southwest and South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-巨鹭-094df09c",
+      "subject": "巨鹭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:06:24",
+  "requested_title": "Iris Lorikeet",
+  "resolved_title": "Iris lorikeet",
+  "title_aliases": [
+    "Iris Lorikeet"
+  ],
+  "bird_id": "bird-iris-lorikeet-4da701c0",
+  "raw_file": "bird-iris-lorikeet-4da701c0.json",
+  "bird": {
+    "id": "bird-iris-lorikeet-4da701c0",
+    "name": "Iris lorikeet",
+    "english_name": "Iris lorikeet",
+    "latin_name": "Trichoglossus iris",
+    "summary": "The iris lorikeet (Trichoglossus iris) is a small, up to 20 cm (8 in) long, green lorikeet bird. The male has a red forehead, yellow nape,…",
+    "lat": "-7.8",
+    "lng": "126.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Psitteuteles_iris.jpg/960px-Psitteuteles_iris.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-韋塔島-4c98348b",
+      "name": "韋塔島",
+      "summary": "韋塔島是印度尼西亞馬魯古省的島嶼，位於小巽他群島以東，是西南群島最大的島嶼，東西端和南北端分別相距130公里和45公里，面積3,600平方公里，最高點海拔1,412米，南面56公里是帝汶島。韋塔島居民大多信奉伊斯蘭教，小部分則信奉基督教。…",
+      "lat": "-7.8",
+      "lng": "126.3"
+    },
+    {
+      "id": "loc-帝汶島-c352d922",
+      "name": "帝汶島",
+      "summary": "帝汶島（印尼語：Pulau Timor，葡萄牙語：Ilha de Timor）是位於馬來群島南端的島嶼，為小巽他群島中面積最大者，總面積約30,777平方公里。該島地處東南亞海域，座標約為9°14′S 124°56′E，北臨弗洛勒斯海，南…",
+      "lat": "-9.23333333",
+      "lng": "124.93333333"
+    },
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-iris-lorikeet-4da701c0",
+      "subject": "Iris lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-韋塔島-4c98348b",
+      "object": "韋塔島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The iris lorikeet is distributed in the forests and woodlands on the islands of Wetar and Timor in the Lesser Sundas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-iris-lorikeet-4da701c0",
+      "subject": "Iris lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-帝汶島-c352d922",
+      "object": "帝汶島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The iris lorikeet is distributed in the forests and woodlands on the islands of Wetar and Timor in the Lesser Sundas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-iris-lorikeet-4da701c0",
+      "subject": "Iris lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The iris lorikeet is distributed in the forests and woodlands on the islands of Wetar and Timor in the Lesser Sundas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-iris-lorikeet-4da701c0",
+      "subject": "Iris lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-iris-lorikeet-4da701c0",
+      "subject": "Iris lorikeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to ongoing habitat loss, limited range and illegal trapping for the caged-bird trade, the iris lorikeet is evaluated as Near Threatened on IUCN Red List of Threatened Species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

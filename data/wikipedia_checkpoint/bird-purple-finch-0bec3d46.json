@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:15:12",
+  "requested_title": "Purple Finch",
+  "resolved_title": "Purple finch",
+  "title_aliases": [
+    "Purple Finch"
+  ],
+  "bird_id": "bird-purple-finch-0bec3d46",
+  "raw_file": "bird-purple-finch-0bec3d46.json",
+  "bird": {
+    "id": "bird-purple-finch-0bec3d46",
+    "name": "Purple finch",
+    "english_name": "Purple finch",
+    "latin_name": "Haemorhous purpureus",
+    "summary": "The purple finch (Haemorhous purpureus) is a bird in the finch family, Fringillidae. It breeds in the northern United States, southern Cana…",
+    "lat": "65.82",
+    "lng": "-107.08",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Carpodacus_purpureus_CT3.jpg/960px-Carpodacus_purpureus_CT3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加拿大北部-36854c1e",
+      "name": "加拿大北部",
+      "summary": "加拿大北部是在地理和政治上定义的加拿大北部地区，通常包括育空、西北地區和努納武特三个地区，都在北极圈附近，并包括北极点。由于加拿大人口集中在南部美加边境附近，所以传统上加拿大没有南部的概念与加拿大北部相对应，因为加拿大北部的定义通常与加拿…",
+      "lat": "65.82",
+      "lng": "-107.08"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-purple-finch-0bec3d46",
+      "subject": "Purple finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大北部-36854c1e",
+      "object": "加拿大北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Birds from northern Canada migrate to the southern United States; other birds are permanent residents. The purple finch population has been displaced from some breeding season habitats in the Eastern United States following the introduction of the house finch, which is native to the western U.S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-finch-0bec3d46",
+      "subject": "Purple finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:35:09",
+  "requested_title": "Dapple-throat",
+  "resolved_title": "Dapple-throat",
+  "title_aliases": [
+    "Dapple-throat"
+  ],
+  "bird_id": "bird-dapple-throat-b4eafd73",
+  "raw_file": "bird-dapple-throat-b4eafd73.json",
+  "bird": {
+    "id": "bird-dapple-throat-b4eafd73",
+    "name": "Dapple-throat",
+    "english_name": "Dapple-throat",
+    "latin_name": "Arcanator orostruthus",
+    "summary": "The dapple-throat (Arcanator orostruthus) is a species of bird in the small African family Modulatricidae. Other common names include dappl…",
+    "lat": "-18.25",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Arcanator_orostruthus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-莫桑比克-9371b65a",
+      "name": "莫桑比克",
+      "summary": "莫桑比克共和国（葡萄牙語：República de Moçambique，發音：[ʁɛˈpuβlikɐ ðɨ musɐ̃ˈbikɨ]），舊譯作莫三鼻給，現通稱莫三比克或莫桑比克，位於非洲東部，临印度洋，隔莫桑比克海峡与马达加斯加相望，以葡…",
+      "lat": "-18.25",
+      "lng": "35"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dapple-throat-b4eafd73",
+      "subject": "Dapple-throat",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫桑比克-9371b65a",
+      "object": "莫桑比克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Other common names include dappled mountain robin and dappled mountain greenbul. It is native to Mozambique and Tanzania. This is the only species in the monotypic genus Arcanator",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dapple-throat-b4eafd73",
+      "subject": "Dapple-throat",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Other common names include dappled mountain robin and dappled mountain greenbul. It is native to Mozambique and Tanzania. This is the only species in the monotypic genus Arcanator",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dapple-throat-b4eafd73",
+      "subject": "Dapple-throat",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It lives in dense, wet mountain forest habitat",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-dapple-throat-b4eafd73",
+      "subject": "Dapple-throat",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-dapple-throat-b4eafd73",
+      "subject": "Dapple-throat",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Logging also occurs, especially to obtain timber from the forest tree Faurea wentzeliana; this reduces the density of the forest, reducing habitat quality for the bird. Some populations are in protected areas, but the species is thought to be in general decline",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

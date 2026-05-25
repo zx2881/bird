@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:39:10",
+  "requested_title": "Rustic Bunting",
+  "resolved_title": "Rustic bunting",
+  "title_aliases": [
+    "Rustic Bunting"
+  ],
+  "bird_id": "bird-田鹀-ddad3db1",
+  "raw_file": "bird-田鹀-ddad3db1.json",
+  "bird": {
+    "id": "bird-田鹀-ddad3db1",
+    "name": "田鹀",
+    "english_name": "Rustic bunting",
+    "latin_name": "Emberiza rustica",
+    "summary": "田鹀（学名：Emberiza rustica）为鵐科鹀属的鸟类，俗名花九儿、花嗉儿、田雀、花眉子、白眉儿。鵐科現代大多數作者將此群體與 雀科分開。 分類 屬名 Emberiza 來自 古德語 的 Embritz，意指鵐。種名 rustica 在 拉丁文 中意為「鄉村的，簡樸的」。",
+    "lat": "66.4",
+    "lng": "129.16666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Kashiradaka-01.jpg/960px-Kashiradaka-01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-萨哈共和国-d185948c",
+      "name": "萨哈共和国",
+      "summary": "薩哈共和国（薩哈語：Саха Өрөспүүбүлүкэтэ，羅馬化：Saqa Öröspüübülükete），又稱雅库特共和国（俄語：Республика Якутия）或萨哈（雅库特）共和国（俄語：Республика Саха (…",
+      "lat": "66.4",
+      "lng": "129.16666667"
+    },
+    {
+      "id": "loc-堪察加半島-6a0bad85",
+      "name": "堪察加半島",
+      "summary": "堪察加半島（俄語：Полуостров Камчатка，羅馬化：Poluostrov Kamchatka），清朝稱甘查甲、岡扎德加，是位于东北亚的一个半岛，由俄羅斯遠東聯邦管區堪察加邊疆區管辖。堪察加半岛長1,250公里，面积37万平方…",
+      "lat": "57",
+      "lng": "160"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-田鹀-ddad3db1",
+      "subject": "田鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨哈共和国-d185948c",
+      "object": "萨哈共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "* Emberiza rustica latifascia: breeds in far eastern Siberia from Yakutsk to Kamchatka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-田鹀-ddad3db1",
+      "subject": "田鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-堪察加半島-6a0bad85",
+      "object": "堪察加半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "* Emberiza rustica latifascia: breeds in far eastern Siberia from Yakutsk to Kamchatka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-田鹀-ddad3db1",
+      "subject": "田鹀",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

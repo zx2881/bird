@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:02:38",
+  "requested_title": "Mountain Shrike",
+  "resolved_title": "Mountain shrike",
+  "title_aliases": [
+    "Mountain Shrike"
+  ],
+  "bird_id": "bird-灰顶伯劳-80be503b",
+  "raw_file": "bird-灰顶伯劳-80be503b.json",
+  "bird": {
+    "id": "bird-灰顶伯劳-80be503b",
+    "name": "灰顶伯劳",
+    "english_name": "Mountain shrike",
+    "latin_name": "Lanius validirostris",
+    "summary": "灰顶伯劳（学名：Lanius validirostris）是伯劳科伯劳属的一种，为菲律宾的特有种。 灰顶伯劳的自然栖息地是亚热带或热带的湿润低地森林以及亚热带或热带的湿润云雾林。由于栖息地遭到破坏，该物种的数量已开始减少。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mountain_Shrike.jpg/960px-Mountain_Shrike.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰顶伯劳-80be503b",
+      "subject": "灰顶伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in montane secondary forest, forest edge, open woodland and grassland areas from 1,200 to 2,400 meters above sea level",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰顶伯劳-80be503b",
+      "subject": "灰顶伯劳",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its habitat are tropical montane secondary forest, forest edge and grassland above 1,200 meters above sea level",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-灰顶伯劳-80be503b",
+      "subject": "灰顶伯劳",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in montane secondary forest, forest edge, open woodland and grassland areas from 1,200 to 2,400 meters above sea level",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-灰顶伯劳-80be503b",
+      "subject": "灰顶伯劳",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

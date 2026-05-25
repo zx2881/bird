@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:22:05",
+  "requested_title": "Papuan Whipbird",
+  "resolved_title": "Papuan whipbird",
+  "title_aliases": [
+    "Papuan Whipbird"
+  ],
+  "bird_id": "bird-papuan-whipbird-f5a7d6f3",
+  "raw_file": "bird-papuan-whipbird-f5a7d6f3.json",
+  "bird": {
+    "id": "bird-papuan-whipbird-f5a7d6f3",
+    "name": "Papuan whipbird",
+    "english_name": "Papuan whipbird",
+    "latin_name": "Androphobus viridis",
+    "summary": "The Papuan whipbird (Androphobus viridis) is a little-known and unobtrusive species of bird in the family Psophodidae. It is monotypic with…",
+    "lat": "-4",
+    "lng": "136",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Naturalis_Biodiversity_Center_-_RMNH.AVES.146839_1_-_Androphobus_viridis_%28Rothschild_%26_Hartert%2C_1911%29_-_Turdidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.146839_1_-_Androphobus_viridis_%28Rothschild_%26_Hartert%2C_1911%29_-_Turdidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-西巴布亚-b712982c",
+      "name": "西巴布亚",
+      "summary": "西巴布亚，又称西新几内亚，為新几内亚岛（又称伊里安岛）的西部，分為印度尼西亚的巴布亚省、西巴布亚省、中巴布亞省、高地巴布亞省、南巴布亞省。 14世纪初，在新几内亚岛西北部出现凯马纳王国。在殖民者到来之时，蒂多雷苏丹国控制多貝拉伊半島的部分…",
+      "lat": "-4",
+      "lng": "136"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-papuan-whipbird-f5a7d6f3",
+      "subject": "Papuan whipbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-西巴布亚-b712982c",
+      "object": "西巴布亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is monotypic within the genus Androphobus. It is found in Western New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-papuan-whipbird-f5a7d6f3",
+      "subject": "Papuan whipbird",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It lives in montane forest, from 1,400 to 2,700 meters, where it inhabits the thick understory",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-papuan-whipbird-f5a7d6f3",
+      "subject": "Papuan whipbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

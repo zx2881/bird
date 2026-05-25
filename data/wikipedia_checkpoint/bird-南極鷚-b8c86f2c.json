@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:47:13",
+  "requested_title": "South Georgia Pipit",
+  "resolved_title": "South Georgia pipit",
+  "title_aliases": [
+    "South Georgia Pipit"
+  ],
+  "bird_id": "bird-南極鷚-b8c86f2c",
+  "raw_file": "bird-南極鷚-b8c86f2c.json",
+  "bird": {
+    "id": "bird-南極鷚-b8c86f2c",
+    "name": "南極鷚",
+    "english_name": "South Georgia pipit",
+    "latin_name": "Anthus antarcticus",
+    "summary": "南極鷚（学名：Anthus antarcticus），又稱南喬治亞鷚（英語：South Georgia pipit）是分布在英國海外領土南喬治亞與南桑威奇的南喬治亞島，南喬治亞島上唯一的雀形目，屬於鶺鴒科下的鷚屬，少數非海鳥分布在海鳥區域。 參考文獻",
+    "lat": "-90",
+    "lng": "0",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Anthus_antarcticus_-South_Georgia%2C_British_overseas_territory-8_2.jpg/960px-Anthus_antarcticus_-South_Georgia%2C_British_overseas_territory-8_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南极洲-b52acf8a",
+      "name": "南极洲",
+      "summary": "南极洲（英語：Antarctica）是地球最南端的洲，位於南半球的南極區，为地理南极的所在地。南极洲大部分区域都在南極圈内，四周被南冰洋环绕。南极洲是世界上的第五大洲，其面积约为1,400万平方公里，約占地球陸地面積的十分之一，排在亞洲、…",
+      "lat": "-90",
+      "lng": "0"
+    },
+    {
+      "id": "loc-海鳥-4f6bf339",
+      "name": "海鳥",
+      "summary": "海鳥是一種能夠適應海洋氣候環境的鳥類，而無論於生活習慣、生理運行等皆與其他鳥類大有不同。其有著強烈的趨同演化，因此所有海鳥的生態職位均十分類似。而海鳥最初出現於白堊紀之時，距今有近億年，但是與現代海鳥之關係並不大。若果論及現代海鳥之遠祖，…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-南極鷚-b8c86f2c",
+      "subject": "南極鷚",
+      "predicate": "distributed_in",
+      "object_id": "loc-南极洲-b52acf8a",
+      "object": "南极洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the only songbird in Antarctica, South Georgia's only passerine, and one of the few non-seabirds found in the region",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-南極鷚-b8c86f2c",
+      "subject": "南極鷚",
+      "predicate": "distributed_in",
+      "object_id": "loc-海鳥-4f6bf339",
+      "object": "海鳥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the only songbird in Antarctica, South Georgia's only passerine, and one of the few non-seabirds found in the region",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-南極鷚-b8c86f2c",
+      "subject": "南極鷚",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

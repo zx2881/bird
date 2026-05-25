@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:51:31",
+  "requested_title": "Buru Monarch",
+  "resolved_title": "Buru monarch",
+  "title_aliases": [
+    "Buru Monarch"
+  ],
+  "bird_id": "bird-buru-monarch-ae66532b",
+  "raw_file": "bird-buru-monarch-ae66532b.json",
+  "bird": {
+    "id": "bird-buru-monarch-ae66532b",
+    "name": "Buru monarch",
+    "english_name": "Buru monarch",
+    "latin_name": "Symposiachrus loricatus",
+    "summary": "The Buru monarch (Symposiachrus loricatus) is a species of bird in the family Monarchidae. It is endemic to Indonesia.",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/MonarchaLoricataWolf.jpg/960px-MonarchaLoricataWolf.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-buru-monarch-ae66532b",
+      "subject": "Buru monarch",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Buru monarch is found in the southern Moluccas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buru-monarch-ae66532b",
+      "subject": "Buru monarch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:09:16",
+  "requested_title": "Chestnut-throated Huet-huet",
+  "resolved_title": "Chestnut-throated huet-huet",
+  "title_aliases": [
+    "Chestnut-throated Huet-huet"
+  ],
+  "bird_id": "bird-chestnut-throated-huet-huet-bc930a1c",
+  "raw_file": "bird-chestnut-throated-huet-huet-bc930a1c.json",
+  "bird": {
+    "id": "bird-chestnut-throated-huet-huet-bc930a1c",
+    "name": "Chestnut-throated huet-huet",
+    "english_name": "Chestnut-throated huet-huet",
+    "latin_name": "Pteroptochos castaneus",
+    "summary": "The chestnut-throated huet-huet (Pteroptochos castaneus) is a large passerine bird of the family Rhinocryptidae. At an average mass of 165…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Hued_Hued_Casta%C3%B1o%2C_Refugio_Cayala_28feb16.jpg/960px-Hued_Hued_Casta%C3%B1o%2C_Refugio_Cayala_28feb16.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-温带森林-d84ee4db",
+      "name": "温带森林",
+      "summary": "温带森林是指位于温带地区，介于热带雨林和北方針葉林之间的森林。它是第二大陆地生物群落，佔世界森林面积的25% ，仅次于佔世界森林面積约33%的北方針葉林。南北半球均為温带森林，分佈在纬度25度至50度之间的區域 。由于其面积广阔，横跨多个…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-maulino-forest-f82f9afd",
+      "name": "Maulino forest",
+      "summary": "Maulino forest (Spanish: Bosque Maulino) is a forest type naturally growing in the Chilean Coast Range of Central Chile…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chestnut-throated-huet-huet-bc930a1c",
+      "subject": "Chestnut-throated huet-huet",
+      "predicate": "distributed_in",
+      "object_id": "loc-温带森林-d84ee4db",
+      "object": "温带森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "439-446 The species is found in temperate forest of Nothofagus species and Austrocedrus chilensisMeynard, Christine N.; Howell, Christine A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chestnut-throated-huet-huet-bc930a1c",
+      "subject": "Chestnut-throated huet-huet",
+      "predicate": "distributed_in",
+      "object_id": "loc-maulino-forest-f82f9afd",
+      "object": "Maulino forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species sometimes occurs in exotic Pinus radiata plantations, but only if there is a dense understory of shrubs, as it cannot move across habitat without dense understory as shown by a study of the fragmented Maulino forest.{{cite journal |last1=Vergara |first1=Pablo M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chestnut-throated-huet-huet-bc930a1c",
+      "subject": "Chestnut-throated huet-huet",
+      "predicate": "lives_in",
+      "object_id": "hab-temperate-forest",
+      "object": "温带森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "439-446 The species is found in temperate forest of Nothofagus species and Austrocedrus chilensisMeynard, Christine N.; Howell, Christine A",
+      "object_summary": "温带岛屿或山地森林生态系统。"
+    },
+    {
+      "subject_id": "bird-chestnut-throated-huet-huet-bc930a1c",
+      "subject": "Chestnut-throated huet-huet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

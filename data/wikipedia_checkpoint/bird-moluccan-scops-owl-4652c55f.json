@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:40:46",
+  "requested_title": "Moluccan Scops Owl",
+  "resolved_title": "Moluccan scops owl",
+  "title_aliases": [
+    "Moluccan Scops Owl"
+  ],
+  "bird_id": "bird-moluccan-scops-owl-4652c55f",
+  "raw_file": "bird-moluccan-scops-owl-4652c55f.json",
+  "bird": {
+    "id": "bird-moluccan-scops-owl-4652c55f",
+    "name": "Moluccan scops owl",
+    "english_name": "Moluccan scops owl",
+    "latin_name": "Otus magicus",
+    "summary": "The Moluccan scops owl (Otus magicus) is an owl found in the Maluku and Lesser Sunda Islands of Indonesia. It closely resembles the Rinjani…",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Moluccan_Scops-Owl_0A2A8306.jpg/960px-Moluccan_Scops-Owl_0A2A8306.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-moluccan-scops-owl-4652c55f",
+      "subject": "Moluccan scops owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Moluccan scops owl (Otus magicus) is an owl found in the Maluku and Lesser Sunda Islands of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moluccan-scops-owl-4652c55f",
+      "subject": "Moluccan scops owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Moluccan scops owl (Otus magicus) is an owl found in the Maluku and Lesser Sunda Islands of Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moluccan-scops-owl-4652c55f",
+      "subject": "Moluccan scops owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

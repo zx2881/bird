@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:24:58",
+  "requested_title": "Cape Verde Shearwater",
+  "resolved_title": "Cape Verde shearwater",
+  "title_aliases": [
+    "Cape Verde Shearwater"
+  ],
+  "bird_id": "bird-cape-verde-shearwater-59081b29",
+  "raw_file": "bird-cape-verde-shearwater-59081b29.json",
+  "bird": {
+    "id": "bird-cape-verde-shearwater-59081b29",
+    "name": "Cape Verde shearwater",
+    "english_name": "Cape Verde shearwater",
+    "latin_name": "Calonectris edwardsii",
+    "summary": "The Cape Verde shearwater (Calonectris edwardsii), or cagarra locally, is a medium-large shearwater, a seabird in the petrel family Procell…",
+    "lat": "14.86666667",
+    "lng": "-24.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Cape_Verde_shearwater_%28Calonectris_edwardsii%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-布拉瓦島-2c29e763",
+      "name": "布拉瓦島",
+      "summary": "布拉瓦島（葡萄牙語：Brava）是西非島國佛得角的島嶼，屬於背風群島的一部分，亦为该国纬度最低之岛屿，長24公里、寬16公里，面積67平方公里，最高點海拔高度976米，主要經濟活動有捕鯨業、農業、漁業和旅遊業，2015年人口約5,698人…",
+      "lat": "14.86666667",
+      "lng": "-24.7"
+    },
+    {
+      "id": "loc-ilh-u-raso-fca151ef",
+      "name": "Ilhéu Raso",
+      "summary": "Ilhéu Raso is an uninhabited volcanic island of 5.76 square kilometres (2.22 square miles) in the Barlavento archipelag…",
+      "lat": "16.61666667",
+      "lng": "-24.59916667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cape-verde-shearwater-59081b29",
+      "subject": "Cape Verde shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-布拉瓦島-2c29e763",
+      "object": "布拉瓦島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The largest colonies are on the islands of Brava, Branco and Raso, though the species also breeds in smaller numbers on other islands in the archipelago. Though their pelagic distribution and movements are not well known, they are regularly seen around the islands in the breeding season",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-verde-shearwater-59081b29",
+      "subject": "Cape Verde shearwater",
+      "predicate": "distributed_in",
+      "object_id": "loc-ilh-u-raso-fca151ef",
+      "object": "Ilhéu Raso",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The largest colonies are on the islands of Brava, Branco and Raso, though the species also breeds in smaller numbers on other islands in the archipelago. Though their pelagic distribution and movements are not well known, they are regularly seen around the islands in the breeding season",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-verde-shearwater-59081b29",
+      "subject": "Cape Verde shearwater",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

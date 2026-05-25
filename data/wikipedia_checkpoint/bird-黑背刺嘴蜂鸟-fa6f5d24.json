@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:15:11",
+  "requested_title": "Black-backed Thornbill",
+  "resolved_title": "Black-backed thornbill",
+  "title_aliases": [
+    "Black-backed Thornbill"
+  ],
+  "bird_id": "bird-黑背刺嘴蜂鸟-fa6f5d24",
+  "raw_file": "bird-黑背刺嘴蜂鸟-fa6f5d24.json",
+  "bird": {
+    "id": "bird-黑背刺嘴蜂鸟-fa6f5d24",
+    "name": "黑背刺嘴蜂鸟",
+    "english_name": "Black-backed thornbill",
+    "latin_name": "Ramphomicron dorsale",
+    "summary": "黑背刺嘴蜂鸟（学名：Ramphomicron dorsale），是雨燕目蜂鸟科刺嘴蜂鸟属的一种鸟类。 黑背刺嘴蜂鸟体重约3.5克，翼长约55.2毫米，嘴峰长约12.7毫米，喙宽度约1.4毫米，喙厚度约1.2毫米，跗蹠长约5.9毫米，尾长约41.3毫米。黑背刺嘴蜂鸟在其分布区内为…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ramphomicron_dorsale_99062797.jpg/960px-Ramphomicron_dorsale_99062797.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑背刺嘴蜂鸟-fa6f5d24",
+      "subject": "黑背刺嘴蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-backed thornbill is restricted to the isolated Sierra Nevada de Santa Marta in far northern Colombia, where it inhabits the edges of humid and elfin forest and also páramo",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑背刺嘴蜂鸟-fa6f5d24",
+      "subject": "黑背刺嘴蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

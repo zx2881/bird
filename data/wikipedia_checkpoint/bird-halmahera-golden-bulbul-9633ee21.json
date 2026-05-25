@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:29:08",
+  "requested_title": "Halmahera Golden Bulbul",
+  "resolved_title": "Halmahera golden bulbul",
+  "title_aliases": [
+    "Halmahera Golden Bulbul"
+  ],
+  "bird_id": "bird-halmahera-golden-bulbul-9633ee21",
+  "raw_file": "bird-halmahera-golden-bulbul-9633ee21.json",
+  "bird": {
+    "id": "bird-halmahera-golden-bulbul-9633ee21",
+    "name": "Halmahera golden bulbul",
+    "english_name": "Halmahera golden bulbul",
+    "latin_name": "Hypsipetes chloris",
+    "summary": "The Halmahera golden bulbul (Hypsipetes chloris) is a species of passerine bird in the bulbul family of Pycnonotidae. It is found in Morota…",
+    "lat": "2.3",
+    "lng": "128.4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Halmahera_Golden-Bulbul_0A2A6270.jpg/960px-Halmahera_Golden-Bulbul_0A2A6270.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩罗泰岛县-1f8afd40",
+      "name": "摩罗泰岛县",
+      "summary": "摩罗泰岛县（印尼語：Kabupaten Pulau Morotai）是印度尼西亚北马鲁古省的一个县，辖境主要是摩罗泰岛，該島是印尼最北端的島嶼之一。2010年人口普查共有52,860人。 历史 在15到16世纪，摩罗泰岛主要在强大的特尔纳…",
+      "lat": "2.3",
+      "lng": "128.4"
+    },
+    {
+      "id": "loc-哈马黑拉岛-c847bfe6",
+      "name": "哈马黑拉岛",
+      "summary": "哈马黑拉岛（Halmahera Island），又名济罗罗岛（Jilolo或Gilolo），是印度尼西亚摩鹿加群岛主岛，，是马鲁古群岛中最大的岛屿 。它是印度尼西亚北马鲁古省的一部分，该省首府索菲菲 （Sofifi）位于该岛的西海岸 哈尔…",
+      "lat": "0.65",
+      "lng": "127.9"
+    },
+    {
+      "id": "loc-巴占群島-ac276241",
+      "name": "巴占群島",
+      "summary": "巴占群島是印度尼西亞的群島，屬於摩鹿加群島的一部分，由80座島嶼組成，行政方面由北馬魯古省南哈马黑拉县負責管轄，最高點海拔高度2,120米，居民人口約13,000，最大的島嶼面積1,800平方公里。",
+      "lat": "-0.615",
+      "lng": "127.515"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-halmahera-golden-bulbul-9633ee21",
+      "subject": "Halmahera golden bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩罗泰岛县-1f8afd40",
+      "object": "摩罗泰岛县",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Morotai, Halmahera and Bacan Islands, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-halmahera-golden-bulbul-9633ee21",
+      "subject": "Halmahera golden bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-哈马黑拉岛-c847bfe6",
+      "object": "哈马黑拉岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Morotai, Halmahera and Bacan Islands, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-halmahera-golden-bulbul-9633ee21",
+      "subject": "Halmahera golden bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴占群島-ac276241",
+      "object": "巴占群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Morotai, Halmahera and Bacan Islands, Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-halmahera-golden-bulbul-9633ee21",
+      "subject": "Halmahera golden bulbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

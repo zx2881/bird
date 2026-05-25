@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:37:20",
+  "requested_title": "Ashy-crowned Sparrow-Lark",
+  "resolved_title": "Ashy-crowned sparrow-lark",
+  "title_aliases": [
+    "Ashy-crowned Sparrow-Lark"
+  ],
+  "bird_id": "bird-灰顶雀百灵-7d20621c",
+  "raw_file": "bird-灰顶雀百灵-7d20621c.json",
+  "bird": {
+    "id": "bird-灰顶雀百灵-7d20621c",
+    "name": "灰顶雀百灵",
+    "english_name": "Ashy-crowned sparrow-lark",
+    "latin_name": "Eremopterix griseus",
+    "summary": "灰顶雀百灵（学名：Eremopterix griseus），是百灵科雀百灵属的一种，分布于印度、斯里兰卡、孟加拉国、尼泊尔和巴基斯坦。该物种的保护状况被评为无危。 灰顶雀百灵的平均体重约为16.0克。栖息地包括干燥的稀树草原、亚热带或热带的（低地）干燥疏灌丛和亚热带或热带的（低…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ashy-crowned_Sparrow_Lark_by_Dr._Raju_Kasambe_DSCN1991_%283%29.jpg/960px-Ashy-crowned_Sparrow_Lark_by_Dr._Raju_Kasambe_DSCN1991_%283%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南亚-1fa6ecaf",
+      "name": "南亚",
+      "summary": "南亚（英語：South Asia）是術語，以替換百年老詞「印度次大陸」，這老詞用來代表亞洲大陸的南部地區，主要是位於印度板塊和向南投射到印度洋的地方，當中包括8個主權國家：印度、巴基斯坦、孟加拉、斯里蘭卡、馬爾代夫、不丹、尼泊爾、阿富汗（…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰顶雀百灵-7d20621c",
+      "subject": "灰顶雀百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-南亚-1fa6ecaf",
+      "object": "南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the plains in open land with bare ground, grass and scrub across South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰顶雀百灵-7d20621c",
+      "subject": "灰顶雀百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in stubble, scrub, waste land, riverside sand and tidal flats on the coast",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-灰顶雀百灵-7d20621c",
+      "subject": "灰顶雀百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:21:17",
+  "requested_title": "African Stonechat",
+  "resolved_title": "African stonechat",
+  "title_aliases": [
+    "African Stonechat"
+  ],
+  "bird_id": "bird-非洲石鵖-4969e652",
+  "raw_file": "bird-非洲石鵖-4969e652.json",
+  "bird": {
+    "id": "bird-非洲石鵖-4969e652",
+    "name": "非洲石鵖",
+    "english_name": "African stonechat",
+    "latin_name": "Saxicola torquatus",
+    "summary": "非洲石鵖（学名：Saxicola torquatus）为鶲科石䳭屬下的一个种，分佈於非洲撒哈拉以南及鄰近地區。 分布地域 非洲石鵖分散地分佈於非洲撒哈拉以南大部分地區，北部遠及塞內加爾和埃塞俄比亞。在阿拉伯半島西南部、馬達加斯加和大葛摩島的山區都有族群分佈。為非遷移性鳥類，通常…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Saxicola_torquatus_-South_Africa_-male-8_%283%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-鹟科-916c7945",
+      "name": "鹟科",
+      "summary": "鹟科（学名：Muscicapidae）是鸟纲雀形目中的一个科，本科有51屬324種。 分類 鶲亞科 Muscicapinae 鶲屬 Muscicapa 紅嘴鴉雀屬 Conostoma 方尾鶲屬 Culicicapa 姬鶲屬 Ficedul…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-非洲石鵖-4969e652",
+      "subject": "非洲石鵖",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "axillaris from Kenya]] The African stonechat or common stonechat (Saxicola torquatus) is a species of the Old World flycatcher family (Muscicapidae), inhabiting sub-Saharan Africa and adjacent regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲石鵖-4969e652",
+      "subject": "非洲石鵖",
+      "predicate": "distributed_in",
+      "object_id": "loc-鹟科-916c7945",
+      "object": "鹟科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "axillaris from Kenya]] The African stonechat or common stonechat (Saxicola torquatus) is a species of the Old World flycatcher family (Muscicapidae), inhabiting sub-Saharan Africa and adjacent regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲石鵖-4969e652",
+      "subject": "非洲石鵖",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "axillaris from Kenya]] The African stonechat or common stonechat (Saxicola torquatus) is a species of the Old World flycatcher family (Muscicapidae), inhabiting sub-Saharan Africa and adjacent regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲石鵖-4969e652",
+      "subject": "非洲石鵖",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

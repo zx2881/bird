@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:19:45",
+  "requested_title": "Doherty's Bushshrike",
+  "resolved_title": "Doherty's bushshrike",
+  "title_aliases": [
+    "Doherty's Bushshrike"
+  ],
+  "bird_id": "bird-doherty-s-bushshrike-7abc5d4a",
+  "raw_file": "bird-doherty-s-bushshrike-7abc5d4a.json",
+  "bird": {
+    "id": "bird-doherty-s-bushshrike-7abc5d4a",
+    "name": "Doherty's bushshrike",
+    "english_name": "Doherty's bushshrike",
+    "latin_name": "Telophorus dohertyi",
+    "summary": "Doherty's bushshrike (Telophorus dohertyi) is a colourful but skulking species of bush-shrike of the family Malaconotidae which is found in…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Dohertysbushshrike.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-第二代罗斯柴尔德男爵沃尔特-罗斯柴尔德-ba9984f1",
+      "name": "第二代罗斯柴尔德男爵沃尔特·罗斯柴尔德",
+      "summary": "第二代罗斯柴尔德男爵莱昂内尔·沃尔特·罗斯柴尔德，Bt，FRS（英語：Lionel Walter Rothschild, 2nd Baron Rothschild，1868年2月8日—1937年8月27日），英国政治家、银行家與動物學家，…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    },
+    {
+      "id": "loc-east-african-montane-forests-6313874b",
+      "name": "East African montane forests",
+      "summary": "The East African montane forests is a montane tropical moist forest ecoregion of eastern Africa.",
+      "lat": "-0.55",
+      "lng": "35.65"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-doherty-s-bushshrike-7abc5d4a",
+      "subject": "Doherty's bushshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-第二代罗斯柴尔德男爵沃尔特-罗斯柴尔德-ba9984f1",
+      "object": "第二代罗斯柴尔德男爵沃尔特·罗斯柴尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Doherty's bushshrike (Telophorus dohertyi) is a colourful but skulking species of bush-shrike of the family Malaconotidae which is found in forest habitats in north-central Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-doherty-s-bushshrike-7abc5d4a",
+      "subject": "Doherty's bushshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests and the East African montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-doherty-s-bushshrike-7abc5d4a",
+      "subject": "Doherty's bushshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-east-african-montane-forests-6313874b",
+      "object": "East African montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests and the East African montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-doherty-s-bushshrike-7abc5d4a",
+      "subject": "Doherty's bushshrike",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

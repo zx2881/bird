@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:04:24",
+  "requested_title": "Giant Babax",
+  "resolved_title": "Giant babax",
+  "title_aliases": [
+    "Giant Babax"
+  ],
+  "bird_id": "bird-大草鹛-bfe3cc36",
+  "raw_file": "bird-大草鹛-bfe3cc36.json",
+  "bird": {
+    "id": "bird-大草鹛-bfe3cc36",
+    "name": "大草鹛",
+    "english_name": "Giant babax",
+    "latin_name": "Pterorhinus waddelli",
+    "summary": "大草鹛（学名：Pterorhinus waddelli），是画眉科草鹛属的一种，分布于印度和中国大陆。该物种的保护状况被评为近危。 大草鹛的栖息地包括亚热带或热带的高海拔疏灌丛和亚热带或热带的湿润山地林。该物种的模式产地在西藏雅鲁藏布江上曲水附近。",
+    "lat": "26",
+    "lng": "91",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Giant_babax.jpg/960px-Giant_babax.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-henry-eeles-dresser-ae9ae046",
+      "name": "Henry Eeles Dresser",
+      "summary": "Henry Eeles Dresser (9 May 1838 – 28 November 1915) was an English businessman and ornithologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-印度东北部-8b6d1917",
+      "name": "印度东北部",
+      "summary": "印度东北部是指印度最东部的区域，包括互相毗邻的七个邦和锡金邦，其中阿魯那恰爾邦與中國有領土爭議（中國稱為藏南地區）。該地區與幾個鄰國共享5,182公里（3,220英里，約佔其總地理邊界的99%）的國際邊界，北部1,395公里（867英里）…",
+      "lat": "26",
+      "lng": "91"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-大草鹛-bfe3cc36",
+      "subject": "大草鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-henry-eeles-dresser-ae9ae046",
+      "object": "Henry Eeles Dresser",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2024 |title=Pterorhinus waddelli |volume=2024 |article-number=e.T22716512A247824820 |doi=10.2305/IUCN.UK.2024-2.RLTS.T22716512A247824820.en |access-date=17 February 2025}} | taxon = Pterorhinus waddelli | authority = (Dresser, 1905) | synonyms = Ianthocincla waddelliBabax waddelli }} The giant babax (Pterorhinus waddelli) is a species of bird in the laughingthrush family Leiothrichidae, found in northeast India and southern Tibet",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大草鹛-bfe3cc36",
+      "subject": "大草鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度东北部-8b6d1917",
+      "object": "印度东北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2024 |title=Pterorhinus waddelli |volume=2024 |article-number=e.T22716512A247824820 |doi=10.2305/IUCN.UK.2024-2.RLTS.T22716512A247824820.en |access-date=17 February 2025}} | taxon = Pterorhinus waddelli | authority = (Dresser, 1905) | synonyms = Ianthocincla waddelliBabax waddelli }} The giant babax (Pterorhinus waddelli) is a species of bird in the laughingthrush family Leiothrichidae, found in northeast India and southern Tibet",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-大草鹛-bfe3cc36",
+      "subject": "大草鹛",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-大草鹛-bfe3cc36",
+      "subject": "大草鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

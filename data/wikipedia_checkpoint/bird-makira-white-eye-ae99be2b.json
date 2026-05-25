@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:23:08",
+  "requested_title": "Makira White-eye",
+  "resolved_title": "Makira white-eye",
+  "title_aliases": [
+    "Makira White-eye"
+  ],
+  "bird_id": "bird-makira-white-eye-ae99be2b",
+  "raw_file": "bird-makira-white-eye-ae99be2b.json",
+  "bird": {
+    "id": "bird-makira-white-eye-ae99be2b",
+    "name": "Makira white-eye",
+    "english_name": "Makira white-eye",
+    "latin_name": "Zosterops rendovae",
+    "summary": "The Makira white-eye (Zosterops rendovae), also known as the grey-throated white-eye, is a small passerine bird in the white-eye family, Zo…",
+    "lat": "-6.24444444",
+    "lng": "155.38388889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Zosterops_rendovae_-_The_Birds_of_New_Guinea.jpg/960px-Zosterops_rendovae_-_The_Birds_of_New_Guinea.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-布干维尔岛-c5623b90",
+      "name": "布干维尔岛",
+      "summary": "布干维尔岛（英语：Bougainville Island；本地名稱：Me'ekamui），是巴布亚新几内亚东端一岛屿，地理上属于所羅門群島的一部分，因此连同附近的布卡岛有时也被称为“北所罗门群岛”。布干维尔岛全岛面积为9,300平方公里，…",
+      "lat": "-6.24444444",
+      "lng": "155.38388889"
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-makira-white-eye-ae99be2b",
+      "subject": "Makira white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-布干维尔岛-c5623b90",
+      "object": "布干维尔岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "hamlini) on Bougainville were formerly considered subspecies, but are now considered distinct species. It inhabits primary forest, mainly at 900–2000&nbsp;m above sea-level but small numbers occur at lower levels. It is a small bird, 12–13&nbsp;cm long",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-makira-white-eye-ae99be2b",
+      "subject": "Makira white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "hamlini) on Bougainville were formerly considered subspecies, but are now considered distinct species. It inhabits primary forest, mainly at 900–2000&nbsp;m above sea-level but small numbers occur at lower levels. It is a small bird, 12–13&nbsp;cm long",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-makira-white-eye-ae99be2b",
+      "subject": "Makira white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

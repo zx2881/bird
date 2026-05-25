@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:39:32",
+  "requested_title": "Masked Bunting",
+  "resolved_title": "Masked bunting",
+  "title_aliases": [
+    "Masked Bunting"
+  ],
+  "bird_id": "bird-花脸鹀-f94c0934",
+  "raw_file": "bird-花脸鹀-f94c0934.json",
+  "bird": {
+    "id": "bird-花脸鹀-f94c0934",
+    "name": "花脸鹀",
+    "english_name": "Masked bunting",
+    "latin_name": "Emberiza personata",
+    "summary": "The masked bunting (Emberiza personata) is a passerine bird in the bunting family Emberizidae. It is found in Sakhalin, the Kuril Islands,…",
+    "lat": "51",
+    "lng": "143",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Black-faced_bunting_in_Sakai%2C_Osaka%2C_February_2016.jpg/960px-Black-faced_bunting_in_Sakai%2C_Osaka%2C_February_2016.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-库页岛-54809d94",
+      "name": "库页岛",
+      "summary": "库页岛，俄羅斯稱萨哈林岛（俄語：Сахалин，羅馬化：Sakhalin），日本稱樺太島（日語：樺太／からふと，羅馬化：Karafuto），為北太平洋的一座島嶼，位於日本北海道以北、外滿州韃靼海峽以東。其面積約76,400平方公里，是俄羅…",
+      "lat": "51",
+      "lng": "143"
+    },
+    {
+      "id": "loc-千島群島-09c52536",
+      "name": "千島群島",
+      "summary": "千島群島（日語：千島列島／ちしまれっとう，羅馬化：Chishima rettō），俄罗斯称其为庫里爾群島（俄語：Кури́льские острова́，羅馬化：Kuril'skie ostrova；日語：クリル列島，羅馬化：Kuriru…",
+      "lat": "47",
+      "lng": "152.1"
+    },
+    {
+      "id": "loc-日本-4dbed2e6",
+      "name": "日本",
+      "summary": "日本國（日語：日本国〔日本國〕／にっぽんこく／にほんこく，羅馬化：nippon koku/nihon koku），通稱日本，是位於東亞的島嶼國家。國土全境由北海道、本州、四國、九州等本土四島為基礎的14,125座島嶼組成，周圍被太平洋及鄂…",
+      "lat": "36",
+      "lng": "138"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-花脸鹀-f94c0934",
+      "subject": "花脸鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-库页岛-54809d94",
+      "object": "库页岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sakhalin, the Kuril Islands, and Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-花脸鹀-f94c0934",
+      "subject": "花脸鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-千島群島-09c52536",
+      "object": "千島群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sakhalin, the Kuril Islands, and Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-花脸鹀-f94c0934",
+      "subject": "花脸鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本-4dbed2e6",
+      "object": "日本",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Sakhalin, the Kuril Islands, and Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-花脸鹀-f94c0934",
+      "subject": "花脸鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

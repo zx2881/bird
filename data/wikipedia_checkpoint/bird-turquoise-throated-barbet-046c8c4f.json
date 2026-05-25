@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:55:39",
+  "requested_title": "Turquoise-throated Barbet",
+  "resolved_title": "Turquoise-throated barbet",
+  "title_aliases": [
+    "Turquoise-throated Barbet"
+  ],
+  "bird_id": "bird-turquoise-throated-barbet-046c8c4f",
+  "raw_file": "bird-turquoise-throated-barbet-046c8c4f.json",
+  "bird": {
+    "id": "bird-turquoise-throated-barbet-046c8c4f",
+    "name": "Turquoise-throated barbet",
+    "english_name": "Turquoise-throated barbet",
+    "latin_name": "Psilopogon chersonesus",
+    "summary": "The turquoise-throated barbet (Psilopogon chersonesus) is an Asian barbet found in Thailand. The barbets get their name from the bristles w…",
+    "lat": "15",
+    "lng": "101",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Turquoise-throated_Barbet_%2833139941221%29.jpg/960px-Turquoise-throated_Barbet_%2833139941221%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-泰国-6e4d220d",
+      "name": "泰国",
+      "summary": "泰王国（泰語：ราชอาณาจักรไทย，皇家轉寫：Ratcha-anachak Thai），通稱泰国（泰語：ประเทศไทย，皇家轉寫：Prathet Thai），舊称暹罗（泰語：สยาม，皇家轉寫：Sayam），是东南亚的君主立宪…",
+      "lat": "15",
+      "lng": "101"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-turquoise-throated-barbet-046c8c4f",
+      "subject": "Turquoise-throated barbet",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰国-6e4d220d",
+      "object": "泰国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Boden Kloss|Kloss]], 1927) | synonyms = }} The turquoise-throated barbet (Psilopogon chersonesus) is an Asian barbet found in Thailand",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-turquoise-throated-barbet-046c8c4f",
+      "subject": "Turquoise-throated barbet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

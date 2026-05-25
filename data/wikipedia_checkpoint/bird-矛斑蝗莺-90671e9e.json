@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:40:11",
+  "requested_title": "Lanceolated Warbler",
+  "resolved_title": "Lanceolated warbler",
+  "title_aliases": [
+    "Lanceolated Warbler"
+  ],
+  "bird_id": "bird-矛斑蝗莺-90671e9e",
+  "raw_file": "bird-矛斑蝗莺-90671e9e.json",
+  "bird": {
+    "id": "bird-矛斑蝗莺-90671e9e",
+    "name": "矛斑蝗莺",
+    "english_name": "Lanceolated warbler",
+    "latin_name": "Locustella lanceolata",
+    "summary": "矛斑蝗莺（学名：Locustella lanceolata）为蝗鶯科蝗莺属的鸟类。 分類 屬名Locustella源自拉丁語，是locusta（意為「蝗蟲」）的指小詞，這是指黑斑蝗鶯和同屬其他一些物種的鳴唱聲。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Locustella_lanceolata_295726934.jpg/960px-Locustella_lanceolata_295726934.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-矛斑蝗莺-90671e9e",
+      "subject": "矛斑蝗莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-矛斑蝗莺-90671e9e",
+      "subject": "矛斑蝗莺",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The genus name Locustella is from Latin and is a diminutive of locusta, \"grasshopper\". This refers to the song of the common grasshopper warbler and some others in this genus. The specific lanceolata is Latin for \"spear-shaped\" and refers to the streaks on the breast. This small passerine bird is a species found in grassland with some thicker shrubby vegetation or trees, often close to water in bogs or wet clearings",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-矛斑蝗莺-90671e9e",
+      "subject": "矛斑蝗莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

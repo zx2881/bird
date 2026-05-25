@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:20:13",
+  "requested_title": "Stripe-breasted Seedeater",
+  "resolved_title": "Stripe-breasted seedeater",
+  "title_aliases": [
+    "Stripe-breasted Seedeater"
+  ],
+  "bird_id": "bird-stripe-breasted-seedeater-96e1c746",
+  "raw_file": "bird-stripe-breasted-seedeater-96e1c746.json",
+  "bird": {
+    "id": "bird-stripe-breasted-seedeater-96e1c746",
+    "name": "Stripe-breasted seedeater",
+    "english_name": "Stripe-breasted seedeater",
+    "latin_name": "Crithagra striatipectus",
+    "summary": "The stripe-breasted seedeater (Crithagra striatipectus) is a species of finch in the family Fringillidae. It is native to Sudan, Ethiopia,…",
+    "lat": "15",
+    "lng": "32",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Reichard%27s_Seedeater_%28Serinus_reichardi%29_%2817558998772%29.jpg/960px-Reichard%27s_Seedeater_%28Serinus_reichardi%29_%2817558998772%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-苏丹-2e3eec83",
+      "name": "苏丹",
+      "summary": "蘇丹共和國（阿拉伯語：جمهورية السودان；Republic of the Sudan），通稱蘇丹（阿拉伯語：السودان，羅馬化：Sūdān，/suːˈdɑːn/或/suːˈdæn/），南蘇丹獨立後亦被稱為北蘇丹，是位於東北…",
+      "lat": "15",
+      "lng": "32"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-stripe-breasted-seedeater-96e1c746",
+      "subject": "Stripe-breasted seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏丹-2e3eec83",
+      "object": "苏丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Sudan, Ethiopia, and Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stripe-breasted-seedeater-96e1c746",
+      "subject": "Stripe-breasted seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Sudan, Ethiopia, and Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stripe-breasted-seedeater-96e1c746",
+      "subject": "Stripe-breasted seedeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Sudan, Ethiopia, and Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stripe-breasted-seedeater-96e1c746",
+      "subject": "Stripe-breasted seedeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

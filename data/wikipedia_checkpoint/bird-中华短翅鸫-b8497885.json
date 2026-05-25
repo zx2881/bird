@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:58:16",
+  "requested_title": "Chinese Shortwing",
+  "resolved_title": "Chinese shortwing",
+  "title_aliases": [
+    "Chinese Shortwing"
+  ],
+  "bird_id": "bird-中华短翅鸫-b8497885",
+  "raw_file": "bird-中华短翅鸫-b8497885.json",
+  "bird": {
+    "id": "bird-中华短翅鸫-b8497885",
+    "name": "中华短翅鸫",
+    "english_name": "Chinese shortwing",
+    "latin_name": "Brachypteryx sinensis",
+    "summary": "中华短翅鸫（学名：Brachypteryx sinensis），又称为蓝短翅鸫，是雀形目鹟科的一种鸟类。 特征 中华短翅鸫体重约17.68克，翼长约64.3毫米，嘴峰长约15.5毫米，喙宽度约3.3毫米，喙厚度约3.9毫米，跗蹠长约31毫米，尾长约55.2毫米。中华短翅鸫在其分…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Brachypteryx_sinensis-A9_08458.jpg/960px-Brachypteryx_sinensis-A9_08458.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-中华短翅鸫-b8497885",
+      "subject": "中华短翅鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-中华短翅鸫-b8497885",
+      "subject": "中华短翅鸫",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-中华短翅鸫-b8497885",
+      "subject": "中华短翅鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

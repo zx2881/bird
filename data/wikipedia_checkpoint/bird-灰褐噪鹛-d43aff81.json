@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T14:54:38",
+  "requested_title": "Sunda Laughingthrush",
+  "resolved_title": "Sunda laughingthrush",
+  "title_aliases": [
+    "Sunda Laughingthrush"
+  ],
+  "bird_id": "bird-灰褐噪鹛-d43aff81",
+  "raw_file": "bird-灰褐噪鹛-d43aff81.json",
+  "bird": {
+    "id": "bird-灰褐噪鹛-d43aff81",
+    "name": "灰褐噪鹛",
+    "english_name": "Sunda laughingthrush",
+    "latin_name": "Garrulax palliatus",
+    "summary": "The Sunda laughingthrush (Garrulax palliatus) is a bird species in the family Leiothrichidae. It is found on the islands of Sumatra and Bor…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/0A2A3704_Sunda_Laughingthrush.jpg/960px-0A2A3704_Sunda_Laughingthrush.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-灰褐噪鹛-d43aff81",
+      "subject": "灰褐噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-灰褐噪鹛-d43aff81",
+      "subject": "灰褐噪鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by human activity such as hunting, logging, and trapping",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-灰褐噪鹛-d43aff81",
+      "subject": "灰褐噪鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by human activity such as hunting, logging, and trapping",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

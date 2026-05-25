@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:46:08",
+  "requested_title": "Dusky-headed Parakeet",
+  "resolved_title": "Dusky-headed parakeet",
+  "title_aliases": [
+    "Dusky-headed Parakeet"
+  ],
+  "bird_id": "bird-dusky-headed-parakeet-01dd6a41",
+  "raw_file": "bird-dusky-headed-parakeet-01dd6a41.json",
+  "bird": {
+    "id": "bird-dusky-headed-parakeet-01dd6a41",
+    "name": "Dusky-headed parakeet",
+    "english_name": "Dusky-headed parakeet",
+    "latin_name": "Aratinga weddellii",
+    "summary": "The dusky-headed parakeet (Aratinga weddellii), also known as Weddell's conure or dusky-headed conure in aviculture, is a small green Neotr…",
+    "lat": "-2.3096",
+    "lng": "-54.8881",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Dusky-headed_Parakeet_JCB.jpg/960px-Dusky-headed_Parakeet_JCB.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dusky-headed-parakeet-01dd6a41",
+      "subject": "Dusky-headed parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Castelnau|journal=Revue et magasin de zoologie pure et appliquée|date=1851|volume=3|issue=5|page=209|url=https://www.biodiversitylibrary.org/page/2321196|series=2nd ser.}} | synonyms=Conurus weddellii | range_map = Aratinga weddellii map.svg }} The dusky-headed parakeet (Aratinga weddellii), also known as Weddell's conure or dusky-headed conure in aviculture, is a small green Neotropical parrot with dusty grey head found in wooded habitats in the western Amazon basin of South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-headed-parakeet-01dd6a41",
+      "subject": "Dusky-headed parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It prefers semiopen habitats such as várzea, forest edge, and forest remnants, but can also be found in coffee plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-headed-parakeet-01dd6a41",
+      "subject": "Dusky-headed parakeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

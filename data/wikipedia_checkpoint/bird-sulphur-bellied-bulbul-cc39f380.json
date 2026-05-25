@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:23:23",
+  "requested_title": "Sulphur-bellied Bulbul",
+  "resolved_title": "Sulphur-bellied bulbul",
+  "title_aliases": [
+    "Sulphur-bellied Bulbul"
+  ],
+  "bird_id": "bird-sulphur-bellied-bulbul-cc39f380",
+  "raw_file": "bird-sulphur-bellied-bulbul-cc39f380.json",
+  "bird": {
+    "id": "bird-sulphur-bellied-bulbul-cc39f380",
+    "name": "Sulphur-bellied bulbul",
+    "english_name": "Sulphur-bellied bulbul",
+    "latin_name": "Iole palawanensis",
+    "summary": "The sulphur-bellied bulbul (Iole palawanensis) is a songbird species in the bulbul family, Pycnonotidae. It is endemic to Palawan (Philippi…",
+    "lat": "9.74361111",
+    "lng": "118.66111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sulphur-bellied_Bulbul2.jpg/960px-Sulphur-bellied_Bulbul2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "name": "Iwahig Prison and Penal Farm",
+      "summary": "Iwahig Prison and Penal Farm in Puerto Princesa, Palawan, Philippines is one of seven operating units of the Bureau of…",
+      "lat": "9.74361111",
+      "lng": "118.66111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sulphur-bellied-bulbul-cc39f380",
+      "subject": "Sulphur-bellied bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "object": "Iwahig Prison and Penal Farm",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in just one protected area in the Iwahig Prison and Penal Farm.{{cite iucn |author=BirdLife International",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sulphur-bellied-bulbul-cc39f380",
+      "subject": "Sulphur-bellied bulbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-sulphur-bellied-bulbul-cc39f380",
+      "subject": "Sulphur-bellied bulbul",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Palawan's forests are under threat due to illegal logging, deforestation, land conversion and mining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

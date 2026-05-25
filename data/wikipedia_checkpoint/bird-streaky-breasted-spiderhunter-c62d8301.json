@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:48:10",
+  "requested_title": "Streaky-breasted Spiderhunter",
+  "resolved_title": "Streaky-breasted spiderhunter",
+  "title_aliases": [
+    "Streaky-breasted Spiderhunter"
+  ],
+  "bird_id": "bird-streaky-breasted-spiderhunter-c62d8301",
+  "raw_file": "bird-streaky-breasted-spiderhunter-c62d8301.json",
+  "bird": {
+    "id": "bird-streaky-breasted-spiderhunter-c62d8301",
+    "name": "Streaky-breasted spiderhunter",
+    "english_name": "Streaky-breasted spiderhunter",
+    "latin_name": "Arachnothera affinis",
+    "summary": "The streaky-breasted spiderhunter (Arachnothera affinis) is a species of bird in the family Nectariniidae. It is found in Java and Bali.",
+    "lat": "-7.49166667",
+    "lng": "110.00444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Streaky-breasted_Spiderhunter_-_Carita_-_West_Java%2C_Indonesia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    },
+    {
+      "id": "loc-巴厘省-6d7efef8",
+      "name": "巴厘省",
+      "summary": "峇里省（印尼語：Bali；峇里语：ᬩᬮᬶ），主要位於峇厘岛，是印度尼西亚33個一級行政區之一，也是著名的旅遊勝地。該島距離印尼首都雅加达約1,000公里，与爪哇岛之間僅有3.2公里寬海峽相隔，面积约5,630平方公里，其省會設於島上南部的…",
+      "lat": "-8.335",
+      "lng": "115.08805556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-streaky-breasted-spiderhunter-c62d8301",
+      "subject": "Streaky-breasted spiderhunter",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Java and Bali",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-streaky-breasted-spiderhunter-c62d8301",
+      "subject": "Streaky-breasted spiderhunter",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴厘省-6d7efef8",
+      "object": "巴厘省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Java and Bali",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-streaky-breasted-spiderhunter-c62d8301",
+      "subject": "Streaky-breasted spiderhunter",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:45:13",
+  "requested_title": "New Caledonian Island Thrush",
+  "resolved_title": "New Caledonian island thrush",
+  "title_aliases": [
+    "New Caledonian Island Thrush"
+  ],
+  "bird_id": "bird-new-caledonian-island-thrush-a55684a0",
+  "raw_file": "bird-new-caledonian-island-thrush-a55684a0.json",
+  "bird": {
+    "id": "bird-new-caledonian-island-thrush-a55684a0",
+    "name": "New Caledonian island thrush",
+    "english_name": "New Caledonian island thrush",
+    "latin_name": "Turdus xanthopus",
+    "summary": "The New Caledonian island thrush (Turdus xanthopus) is a species of passerine bird in the thrush family Turdidae. It is endemic to New Cale…",
+    "lat": "-21.28333333",
+    "lng": "165.35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Naturalis_Biodiversity_Center_-_RMNH.AVES.146378_1_-_Turdus_poliocephalus_xanthopus_Forster%2C_1844_-_Turdidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.146378_1_-_Turdus_poliocephalus_xanthopus_Forster%2C_1844_-_Turdidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "name": "熱帶和亞熱帶旱生闊葉林",
+      "summary": "热带及亚热带旱生阔叶林（英語：tropical and subtropical dry broadleaf forests），简称旱生林（dry forest）是一种WWF定义的栖地生境并用来命名以此为代表的生物群系。其所需的气候类型较常…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-格朗德特爾島-新喀里多尼亞-ffab91bc",
+      "name": "格朗德特爾島 (新喀里多尼亞)",
+      "summary": "格朗德特爾島（法語：Grande Terre，發音：[ɡʁɑ̃d tɛʁ]）是法國海外集體新喀里多尼亞的主島，面積16,372平方公里，是法國第一大島。1853年被法蘭西第二帝國併吞，成為流放地，現今人口268,000人。 參見 新喀里多…",
+      "lat": "-21.28333333",
+      "lng": "165.35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-new-caledonian-island-thrush-a55684a0",
+      "subject": "New Caledonian island thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "object": "熱帶和亞熱帶旱生闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The New Caledonian island thrush used to have a large distribution in New Caledonia on Grande Terre, where it was mainly found in dry forests, particularly on the west coast of the island. The last confirmed sighting of the bird on Grande Terre was in 1928 and it was considered extinct until being rediscovered on the islands of Yandé and Néba in 1978",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-new-caledonian-island-thrush-a55684a0",
+      "subject": "New Caledonian island thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-格朗德特爾島-新喀里多尼亞-ffab91bc",
+      "object": "格朗德特爾島 (新喀里多尼亞)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The New Caledonian island thrush used to have a large distribution in New Caledonia on Grande Terre, where it was mainly found in dry forests, particularly on the west coast of the island. The last confirmed sighting of the bird on Grande Terre was in 1928 and it was considered extinct until being rediscovered on the islands of Yandé and Néba in 1978",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-new-caledonian-island-thrush-a55684a0",
+      "subject": "New Caledonian island thrush",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-new-caledonian-island-thrush-a55684a0",
+      "subject": "New Caledonian island thrush",
+      "predicate": "threatened_by",
+      "object_id": "threat-small-population",
+      "object": "小种群风险",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "But owing to its small current distribution and significant loss of historical range – formerly being found on Grande Terre before being extirpated – along with its small population size and vulnerability, it is very likely to be endangered. Following its rediscovery on Yandé, the population was estimated to be around 100 individuals, however in 2009 only 60 individuals were recorded in a census. A census on the island of Néba from 2015 to 2016 had an estimate of less than 75 individuals. Current threats also include the degradation of its preferred habitat, as well as the risk of Black rat or New Caledonian crow being introduced to the islands, additionally both Pacific rat and feral cats are found on both islands. In 2019 the estimated suitable habitat on the islands was on Yandé, and on Néba",
+      "object_summary": "种群规模过小导致遗传多样性下降和脆弱性上升。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:41:13",
+  "requested_title": "Ash-throated Casiornis",
+  "resolved_title": "Ash-throated casiornis",
+  "title_aliases": [
+    "Ash-throated Casiornis"
+  ],
+  "bird_id": "bird-ash-throated-casiornis-8c2bf99c",
+  "raw_file": "bird-ash-throated-casiornis-8c2bf99c.json",
+  "bird": {
+    "id": "bird-ash-throated-casiornis-8c2bf99c",
+    "name": "Ash-throated casiornis",
+    "english_name": "Ash-throated casiornis",
+    "latin_name": "Casiornis fuscus",
+    "summary": "The ash-throated casiornis (Casiornis fuscus) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is endemic to Brazi…",
+    "lat": "-6",
+    "lng": "-40",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Casiornis_fuscus_-_Sergipe%2C_Brazil.jpg/960px-Casiornis_fuscus_-_Sergipe%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ash-throated-casiornis-8c2bf99c",
+      "subject": "Ash-throated casiornis",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits woodlands in caatinga and heavily wooded cerrado",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ash-throated-casiornis-8c2bf99c",
+      "subject": "Ash-throated casiornis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

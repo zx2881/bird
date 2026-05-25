@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:48:07",
+  "requested_title": "Loria's Satinbird",
+  "resolved_title": "Loria's satinbird",
+  "title_aliases": [
+    "Loria's Satinbird"
+  ],
+  "bird_id": "bird-loria-s-satinbird-bd5ad712",
+  "raw_file": "bird-loria-s-satinbird-bd5ad712.json",
+  "bird": {
+    "id": "bird-loria-s-satinbird-bd5ad712",
+    "name": "Loria's satinbird",
+    "english_name": "Loria's satinbird",
+    "latin_name": "Cnemophilus loriae",
+    "summary": "Loria's satinbird or velvet satinbird (Cnemophilus loriae), formerly known as Loria's bird-of-paradise, is a species of bird in the family…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cnemophilus_loriae.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞高地-05e346ed",
+      "name": "新幾內亞高地",
+      "summary": "新几内亚高地是新幾內亞島上的山脉。其最高点为印度尼西亚境内的查亞峰，海拔4,884米（16,024英尺），同时也是大洋洲的最高峰。该山脉大致呈东西走向横贯全岛，西起印度尼西亞温达马湾县，向东一直延伸至巴布亞新幾內亞米爾恩灣省。 参考文献",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-loria-s-satinbird-bd5ad712",
+      "subject": "Loria's satinbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞高地-05e346ed",
+      "object": "新幾內亞高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-loria-s-satinbird-bd5ad712",
+      "subject": "Loria's satinbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits montane forest, forest edge, and secondary growth between about 4,920 and 9,840 ft elevation, though it is most commonly encountered between approximately 6,560 and 7,870 ft. The species forages throughout multiple forest strata but appears to spend much of its time in the lower and middle levels of the forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-loria-s-satinbird-bd5ad712",
+      "subject": "Loria's satinbird",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits montane forest, forest edge, and secondary growth between about 4,920 and 9,840 ft elevation, though it is most commonly encountered between approximately 6,560 and 7,870 ft. The species forages throughout multiple forest strata but appears to spend much of its time in the lower and middle levels of the forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-loria-s-satinbird-bd5ad712",
+      "subject": "Loria's satinbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-loria-s-satinbird-bd5ad712",
+      "subject": "Loria's satinbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Historically, some reports suggested localized declines due to hunting for the plume trade, though later authors considered this unlikely and noted no confirmed records of the species being widely used as ornamentation. The species currently faces no major known large-scale threats beyond localized habitat clearance associated with logging and agriculture",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-loria-s-satinbird-bd5ad712",
+      "subject": "Loria's satinbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Historically, some reports suggested localized declines due to hunting for the plume trade, though later authors considered this unlikely and noted no confirmed records of the species being widely used as ornamentation. The species currently faces no major known large-scale threats beyond localized habitat clearance associated with logging and agriculture",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

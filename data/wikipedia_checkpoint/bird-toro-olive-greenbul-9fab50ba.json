@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:12:18",
+  "requested_title": "Toro Olive Greenbul",
+  "resolved_title": "Toro olive greenbul",
+  "title_aliases": [
+    "Toro Olive Greenbul"
+  ],
+  "bird_id": "bird-toro-olive-greenbul-9fab50ba",
+  "raw_file": "bird-toro-olive-greenbul-9fab50ba.json",
+  "bird": {
+    "id": "bird-toro-olive-greenbul-9fab50ba",
+    "name": "Toro olive greenbul",
+    "english_name": "Toro olive greenbul",
+    "latin_name": "Phyllastrephus hypochloris",
+    "summary": "The Toro olive greenbul (Phyllastrephus hypochloris) is a species of songbird in the bulbul family, Pycnonotidae. It is found in southern S…",
+    "lat": "8",
+    "lng": "30",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Naturalis_Biodiversity_Center_-_RMNH.AVES.82299_2_-_Phyllastrephus_hypochloris_%28Jackson%2C_1906%29_-_Pycnonotidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.82299_2_-_Phyllastrephus_hypochloris_%28Jackson%2C_1906%29_-_Pycnonotidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-南蘇丹-d1d02289",
+      "name": "南蘇丹",
+      "summary": "南蘇丹共和國（英語：Republic of South Sudan），通稱南蘇丹（英語：South Sudan），是非洲東北部一個內陸國家，2011年從蘇丹獨立。東面是埃塞俄比亞，南面是剛果民主共和國、肯亞和烏干達，西面是中非共和國，北面…",
+      "lat": "8",
+      "lng": "30"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-toro-olive-greenbul-9fab50ba",
+      "subject": "Toro olive greenbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-南蘇丹-d1d02289",
+      "object": "南蘇丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern South Sudan and from eastern Democratic Republic of the Congo through Uganda to western Kenya and northern Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-toro-olive-greenbul-9fab50ba",
+      "subject": "Toro olive greenbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

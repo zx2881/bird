@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:43:45",
+  "requested_title": "Javan Bush Warbler",
+  "resolved_title": "Javan bush warbler",
+  "title_aliases": [
+    "Javan Bush Warbler"
+  ],
+  "bird_id": "bird-javan-bush-warbler-956b60ba",
+  "raw_file": "bird-javan-bush-warbler-956b60ba.json",
+  "bird": {
+    "id": "bird-javan-bush-warbler-956b60ba",
+    "name": "Javan bush warbler",
+    "english_name": "Javan bush warbler",
+    "latin_name": "Locustella montis",
+    "summary": "The Javan bush warbler (Locustella montis) is a songbird species. Formerly placed in the \"Old World warbler\" assemblage, it is now placed i…",
+    "lat": "-7.49166667",
+    "lng": "110.00444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Javan_Bush-Warbler_-_Ijen_-_East_Java_MG_7413_%2829696606532%29.jpg/960px-Javan_Bush-Warbler_-_Ijen_-_East_Java_MG_7413_%2829696606532%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    },
+    {
+      "id": "loc-巴厘省-6d7efef8",
+      "name": "巴厘省",
+      "summary": "峇里省（印尼語：Bali；峇里语：ᬩᬮᬶ），主要位於峇厘岛，是印度尼西亚33個一級行政區之一，也是著名的旅遊勝地。該島距離印尼首都雅加达約1,000公里，与爪哇岛之間僅有3.2公里寬海峽相隔，面积约5,630平方公里，其省會設於島上南部的…",
+      "lat": "-8.335",
+      "lng": "115.08805556"
+    },
+    {
+      "id": "loc-帝汶島-c352d922",
+      "name": "帝汶島",
+      "summary": "帝汶島（印尼語：Pulau Timor，葡萄牙語：Ilha de Timor）是位於馬來群島南端的島嶼，為小巽他群島中面積最大者，總面積約30,777平方公里。該島地處東南亞海域，座標約為9°14′S 124°56′E，北臨弗洛勒斯海，南…",
+      "lat": "-9.23333333",
+      "lng": "124.93333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-javan-bush-warbler-956b60ba",
+      "subject": "Javan bush warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the mountains of eastern Java, Bali, Timor and Alor Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-javan-bush-warbler-956b60ba",
+      "subject": "Javan bush warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴厘省-6d7efef8",
+      "object": "巴厘省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the mountains of eastern Java, Bali, Timor and Alor Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-javan-bush-warbler-956b60ba",
+      "subject": "Javan bush warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-帝汶島-c352d922",
+      "object": "帝汶島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the mountains of eastern Java, Bali, Timor and Alor Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-javan-bush-warbler-956b60ba",
+      "subject": "Javan bush warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

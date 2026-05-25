@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:36:00",
+  "requested_title": "Blue-cheeked Bee-eater",
+  "resolved_title": "Blue-cheeked bee-eater",
+  "title_aliases": [
+    "Blue-cheeked Bee-eater"
+  ],
+  "bird_id": "bird-蓝颊蜂虎-6aa7098c",
+  "raw_file": "bird-蓝颊蜂虎-6aa7098c.json",
+  "bird": {
+    "id": "bird-蓝颊蜂虎-6aa7098c",
+    "name": "蓝颊蜂虎",
+    "english_name": "Blue-cheeked bee-eater",
+    "latin_name": "Merops persicus",
+    "summary": "蓝颊蜂虎（学名：Merops persicus）一种佛法僧目鸟类，隶属于蜂虎科蜂虎属。其种加词“Persicus”意为“波斯的”。 形态特征 蓝颊蜂虎体长30cm左右。指名亚种头部蓝色脸颊被黑色贯眼纹分开而形成蓝色眉纹和下颊。前额为白色，颏呈鲜黄色，喉部为黄褐色。头顶、上背和胸…",
+    "lat": "14",
+    "lng": "-14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Blue-cheeked_bee-eater_%28Merops_persicus_persicus%29_Namibia.jpg/960px-Blue-cheeked_bee-eater_%28Merops_persicus_persicus%29_Namibia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-塞内加尔-8f96dd71",
+      "name": "塞内加尔",
+      "summary": "塞内加尔共和国（法語：République du Sénégal），通稱塞內加爾（法語：Sénégal），是西非国家，位于塞内加尔河的南岸，首都达喀尔。它的西边是大西洋，北边是毛里塔尼亚，东边是馬利，南边是几内亚和几内亚比绍。冈比亚在塞内…",
+      "lat": "14",
+      "lng": "-14"
+    },
+    {
+      "id": "loc-彼得-西蒙-帕拉斯-926bc8f2",
+      "name": "彼得·西蒙·帕拉斯",
+      "summary": "彼得·西蒙·帕拉斯（德語：Peter Simon Pallas，1741年9月22日—1811年9月8日）是一位德國博物学家，出生于柏林，曾先后在哥廷根大学和莱登大学学习，之后帕拉斯前往西欧考察，期间研究出了新的动物分类。1767年受叶卡…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝颊蜂虎-6aa7098c",
+      "subject": "蓝颊蜂虎",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞内加尔-8f96dd71",
+      "object": "塞内加尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "chrysocercus, Senegal | status = LC | status_system = IUCN3.1 | status_ref = | taxon = Merops persicus | authority = Pallas, 1773 }} The blue-cheeked bee-eater (Merops persicus) is a species of bee-eater that breeds in Northern Africa and the Middle East from eastern Turkey to Kazakhstan and India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝颊蜂虎-6aa7098c",
+      "subject": "蓝颊蜂虎",
+      "predicate": "distributed_in",
+      "object_id": "loc-彼得-西蒙-帕拉斯-926bc8f2",
+      "object": "彼得·西蒙·帕拉斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "chrysocercus, Senegal | status = LC | status_system = IUCN3.1 | status_ref = | taxon = Merops persicus | authority = Pallas, 1773 }} The blue-cheeked bee-eater (Merops persicus) is a species of bee-eater that breeds in Northern Africa and the Middle East from eastern Turkey to Kazakhstan and India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝颊蜂虎-6aa7098c",
+      "subject": "蓝颊蜂虎",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

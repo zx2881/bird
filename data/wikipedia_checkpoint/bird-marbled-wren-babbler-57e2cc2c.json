@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:40:10",
+  "requested_title": "Marbled Wren-Babbler",
+  "resolved_title": "Marbled wren-babbler",
+  "title_aliases": [
+    "Marbled Wren-Babbler"
+  ],
+  "bird_id": "bird-marbled-wren-babbler-57e2cc2c",
+  "raw_file": "bird-marbled-wren-babbler-57e2cc2c.json",
+  "bird": {
+    "id": "bird-marbled-wren-babbler-57e2cc2c",
+    "name": "Marbled wren-babbler",
+    "english_name": "Marbled wren-babbler",
+    "latin_name": "Turdinus marmoratus",
+    "summary": "The marbled wren-babbler (Turdinus marmoratus) is a species of bird in the family Pellorneidae. It is found in the Malay Peninsula and the…",
+    "lat": "-3",
+    "lng": "102.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Turdinus_marmoratus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    },
+    {
+      "id": "loc-巴里桑山脈-cb510e0b",
+      "name": "巴里桑山脈",
+      "summary": "巴里桑山脈（Barisan Mountains）是印度尼西亞蘇門答臘西部的山脈，全長1,700公里，主要由火山組成，海拔高度3,800米的葛林芝火山是山脈中最高的山峰，山脈南端附近有武吉巴里杉西拉坦國家公園。 參考文獻",
+      "lat": "-3",
+      "lng": "102.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-marbled-wren-babbler-57e2cc2c",
+      "subject": "Marbled wren-babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Malay Peninsula and the Barisan Mountains of Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-marbled-wren-babbler-57e2cc2c",
+      "subject": "Marbled wren-babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴里桑山脈-cb510e0b",
+      "object": "巴里桑山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Malay Peninsula and the Barisan Mountains of Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-marbled-wren-babbler-57e2cc2c",
+      "subject": "Marbled wren-babbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

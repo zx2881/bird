@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:17:14",
+  "requested_title": "Egyptian Vulture",
+  "resolved_title": "Egyptian vulture",
+  "title_aliases": [
+    "Egyptian Vulture"
+  ],
+  "bird_id": "bird-白兀鷲-e33bf766",
+  "raw_file": "bird-白兀鷲-e33bf766.json",
+  "bird": {
+    "id": "bird-白兀鷲-e33bf766",
+    "name": "白兀鷲",
+    "english_name": "Egyptian vulture",
+    "latin_name": "Neophron percnopterus",
+    "summary": "白兀鷲（學名：Neophron percnopterus），又名埃及禿鷲，是一種稀少的禿鷲。它們分佈在歐洲西南部及非洲北部至南亞。它們的翼底呈黑白色，尾巴呈楔狀。它們有時會用石頭敲破鳥蛋，是少數懂得使用工具的鳥類之一。在溫帶繁殖的群落會向南遷徙過冬，而在熱帶的多是留鳥。它們的數…",
+    "lat": "40",
+    "lng": "-4",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Egyptian_Vulture%2C_Socotra.jpg/960px-Egyptian_Vulture%2C_Socotra.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西班牙地理-f4b5f883",
+      "name": "西班牙地理",
+      "summary": "西班牙面積504,750平方公里（當中陸地面積499,542平方公里，水面面積5,240平方公里），居歐洲第五位，本土最北端到最南端大約830千米，東西方向長1000千米。絕大部份領土位於伊比利亞半島，東北隔比利牛斯山脈與法國和安道爾相連…",
+      "lat": "40",
+      "lng": "-4"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白兀鷲-e33bf766",
+      "subject": "白兀鷲",
+      "predicate": "distributed_in",
+      "object_id": "loc-西班牙地理-f4b5f883",
+      "object": "西班牙地理",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Spain and Morocco, summer roosts are formed mainly by immature birds",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白兀鷲-e33bf766",
+      "subject": "白兀鷲",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-白兀鷲-e33bf766",
+      "subject": "白兀鷲",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Populations of this species declined in the 20th century and some island populations are endangered by hunting, accidental poisoning, and collision with power lines",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-白兀鷲-e33bf766",
+      "subject": "白兀鷲",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Nearly all breeding failures were due to human activities. In Spain, which holds about 50% of the European population suggested causes of decline include poisoning by accumulation of lead, pesticides (especially due to large-scale use in the control of Schistocerca gregaria locust swarms), and electrocution.{{sfn|Donázar et al",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

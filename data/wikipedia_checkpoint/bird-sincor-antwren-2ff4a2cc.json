@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:57:05",
+  "requested_title": "Sincora Antwren",
+  "resolved_title": "Sincorá antwren",
+  "title_aliases": [
+    "Sincora Antwren",
+    "Sincorá antwren"
+  ],
+  "bird_id": "bird-sincor-antwren-2ff4a2cc",
+  "raw_file": "bird-sincor-antwren-2ff4a2cc.json",
+  "bird": {
+    "id": "bird-sincor-antwren-2ff4a2cc",
+    "name": "Sincorá antwren",
+    "english_name": "Sincorá antwren",
+    "latin_name": "Formicivora grantsaui",
+    "summary": "The Sincora antwren (Formicivora grantsaui) is a small, Vulnerable species of passerine bird in subfamily Thamnophilinae of family Thamnoph…",
+    "lat": "-17.69441667",
+    "lng": "-43.78330556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sincora_Antwren_Formicivora_grantsaui.jpg/960px-Sincora_Antwren_Formicivora_grantsaui.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-埃斯皮尼亞蘇山脈-ef1fbbf3",
+      "name": "埃斯皮尼亞蘇山脈",
+      "summary": "埃斯皮尼亞蘇山脈是巴西的山脈，從北面的米納斯吉拉斯一直延伸至南面的巴伊亞州，全長約1,000公里，該山脈在2005年6月27日被聯合國教科文組織列為該國第七處生物圈保護區。",
+      "lat": "-17.69441667",
+      "lng": "-43.78330556"
+    },
+    {
+      "id": "loc-迪亞曼蒂納高原-8c7b305b",
+      "name": "迪亞曼蒂納高原",
+      "summary": "迪亞曼蒂納高原（葡萄牙語：Chapada Diamantina，[ʃaˈpadɐ d(ʒ)i.amɐ̃ˈt(ʃ)ĩnɐ]，葡萄牙语意为钻石高原）是巴西东北部巴伊亚州的一個高原，位於埃斯皮尼亞蘇山脈北部。面积约为38000平方公里，涵蓋58…",
+      "lat": "-12.8803",
+      "lng": "-41.3722"
+    },
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sincor-antwren-2ff4a2cc",
+      "subject": "Sincorá antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃斯皮尼亞蘇山脈-ef1fbbf3",
+      "object": "埃斯皮尼亞蘇山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sincora antwren is found in the Serra do Sincorá, part of the Espinhaço Mountains located at the eastern edge of the Chapada Diamantina region of Brazil's Bahia state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sincor-antwren-2ff4a2cc",
+      "subject": "Sincorá antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-迪亞曼蒂納高原-8c7b305b",
+      "object": "迪亞曼蒂納高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sincora antwren is found in the Serra do Sincorá, part of the Espinhaço Mountains located at the eastern edge of the Chapada Diamantina region of Brazil's Bahia state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sincor-antwren-2ff4a2cc",
+      "subject": "Sincorá antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sincora antwren is found in the Serra do Sincorá, part of the Espinhaço Mountains located at the eastern edge of the Chapada Diamantina region of Brazil's Bahia state",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sincor-antwren-2ff4a2cc",
+      "subject": "Sincorá antwren",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-sincor-antwren-2ff4a2cc",
+      "subject": "Sincorá antwren",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The principal threats are mining, logging, and fire, though their relative severity is not known. Brazilian authorities also consider it Endangered.MMA (2014)",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

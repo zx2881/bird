@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:36:08",
+  "requested_title": "Brown-hooded Parrot",
+  "resolved_title": "Brown-hooded parrot",
+  "title_aliases": [
+    "Brown-hooded Parrot"
+  ],
+  "bird_id": "bird-brown-hooded-parrot-61974bb6",
+  "raw_file": "bird-brown-hooded-parrot-61974bb6.json",
+  "bird": {
+    "id": "bird-brown-hooded-parrot-61974bb6",
+    "name": "Brown-hooded parrot",
+    "english_name": "Brown-hooded parrot",
+    "latin_name": "Pyrilia haematotis",
+    "summary": "The brown-hooded parrot (Pyrilia haematotis) is a species of bird in subfamily Arinae of the family Psittacidae, the African and New World…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Brown-hooded_Parrot_%28Pyrilia_haematotis%29.jpg/960px-Brown-hooded_Parrot_%28Pyrilia_haematotis%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-hooded-parrot-61974bb6",
+      "subject": "Brown-hooded parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the canopy and edges of humid evergreen forest, cloudforest, and mature secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-hooded-parrot-61974bb6",
+      "subject": "Brown-hooded parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the canopy and edges of humid evergreen forest, cloudforest, and mature secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-hooded-parrot-61974bb6",
+      "subject": "Brown-hooded parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits the canopy and edges of humid evergreen forest, cloudforest, and mature secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-hooded-parrot-61974bb6",
+      "subject": "Brown-hooded parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-brown-hooded-parrot-61974bb6",
+      "subject": "Brown-hooded parrot",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Logging of its habitat is the only identified threat, and it does not appear to be severe. It \"is fairly common over much of [its] range and suffers very little persecution even locally from trapping\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

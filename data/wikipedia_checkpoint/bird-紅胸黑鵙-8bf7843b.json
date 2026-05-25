@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:21:04",
+  "requested_title": "Crimson-breasted Shrike",
+  "resolved_title": "Crimson-breasted shrike",
+  "title_aliases": [
+    "Crimson-breasted Shrike"
+  ],
+  "bird_id": "bird-紅胸黑鵙-8bf7843b",
+  "raw_file": "bird-紅胸黑鵙-8bf7843b.json",
+  "bird": {
+    "id": "bird-紅胸黑鵙-8bf7843b",
+    "name": "紅胸黑鵙",
+    "english_name": "Crimson-breasted shrike",
+    "latin_name": "Laniarius atrococcineus",
+    "summary": "紅胸黑鵙（學名Laniarius atrococcineus），又名紅胸黑伯勞，是非洲安哥拉南部至南非的一種鳥類。它們最先是由William John Burchell於1811年在法爾河及奥兰治河附近發現。種小名意思是「黑／紅」，正是指它們羽毛顏色的特徵。它們是非洲另外兩種叢…",
+    "lat": "-12.5",
+    "lng": "18.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/161_Crimson-breasted_shrike_in_Otjozondjupa_Region_Photo_by_Giles_Laurent.jpg/960px-161_Crimson-breasted_shrike_in_Otjozondjupa_Region_Photo_by_Giles_Laurent.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    },
+    {
+      "id": "loc-自由邦省-d852f5a0",
+      "name": "自由邦省",
+      "summary": "自由邦省（阿非利卡語：Vrystaat [ˈfrəistɑːt]；索托語：Freistata；科薩語：eFreyistata；茨瓦納語：Foreistata；祖魯語：iFuleyisitata），是南非九個省之一，前身是奧蘭治自由邦省。面…",
+      "lat": "-28",
+      "lng": "27"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紅胸黑鵙-8bf7843b",
+      "subject": "紅胸黑鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crimson-breasted shrike is non-migratory and occurs in a broad swathe from southern Angola to the Free State province in South Africa and Northern Cape",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅胸黑鵙-8bf7843b",
+      "subject": "紅胸黑鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-自由邦省-d852f5a0",
+      "object": "自由邦省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crimson-breasted shrike is non-migratory and occurs in a broad swathe from southern Angola to the Free State province in South Africa and Northern Cape",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅胸黑鵙-8bf7843b",
+      "subject": "紅胸黑鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The crimson-breasted shrike is non-migratory and occurs in a broad swathe from southern Angola to the Free State province in South Africa and Northern Cape",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅胸黑鵙-8bf7843b",
+      "subject": "紅胸黑鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

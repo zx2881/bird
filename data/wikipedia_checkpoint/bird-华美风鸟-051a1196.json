@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:56:21",
+  "requested_title": "Vogelkop Lophorina",
+  "resolved_title": "Vogelkop lophorina",
+  "title_aliases": [
+    "Vogelkop Lophorina"
+  ],
+  "bird_id": "bird-华美风鸟-051a1196",
+  "raw_file": "bird-华美风鸟-051a1196.json",
+  "bird": {
+    "id": "bird-华美风鸟-051a1196",
+    "name": "华美风鸟",
+    "english_name": "Vogelkop lophorina",
+    "latin_name": "Lophorina superba",
+    "summary": "華美風鳥（学名：Lophorina superba，英語：Greater lophorina）是一種極樂鳥，分佈於新畿內亞島的熱帶雨林。兩性異形，雄鳥黑色，額頭和胸前藍綠色；雌鳥為棕紅色。 图片集 參考資料 外部連結",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Vogelkop_Lophorina_male_display_0A2A8815.jpg/960px-Vogelkop_Lophorina_male_display_0A2A8815.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-华美风鸟-051a1196",
+      "subject": "华美风鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in montane northwest New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-华美风鸟-051a1196",
+      "subject": "华美风鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits most commonly in rain forests or forest edges of Indonesia and Papua New Guinea. They can also be found inhabiting mountainous habitats of the forests in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-华美风鸟-051a1196",
+      "subject": "华美风鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits most commonly in rain forests or forest edges of Indonesia and Papua New Guinea. They can also be found inhabiting mountainous habitats of the forests in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-华美风鸟-051a1196",
+      "subject": "华美风鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits most commonly in rain forests or forest edges of Indonesia and Papua New Guinea. They can also be found inhabiting mountainous habitats of the forests in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-华美风鸟-051a1196",
+      "subject": "华美风鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

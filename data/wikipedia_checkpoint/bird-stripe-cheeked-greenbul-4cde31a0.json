@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:07:22",
+  "requested_title": "Stripe-cheeked Greenbul",
+  "resolved_title": "Stripe-cheeked greenbul",
+  "title_aliases": [
+    "Stripe-cheeked Greenbul"
+  ],
+  "bird_id": "bird-stripe-cheeked-greenbul-4cde31a0",
+  "raw_file": "bird-stripe-cheeked-greenbul-4cde31a0.json",
+  "bird": {
+    "id": "bird-stripe-cheeked-greenbul-4cde31a0",
+    "name": "Stripe-cheeked greenbul",
+    "english_name": "Stripe-cheeked greenbul",
+    "latin_name": "Arizelocichla milanjensis",
+    "summary": "The stripe-cheeked greenbul (Arizelocichla milanjensis) is a species of the bulbul family of passerine birds. It is found in south-eastern…",
+    "lat": "-15.94972222",
+    "lng": "35.59361111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Stripe-cheeked_greenbul%2C_Arizelocichla_milanjensis%2C_at_Seldomseen%2C_Vumba%2C_Zimbabwe_%2821970906996%29.jpg/960px-Stripe-cheeked_greenbul%2C_Arizelocichla_milanjensis%2C_at_Seldomseen%2C_Vumba%2C_Zimbabwe_%2821970906996%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-姆蘭傑山-3dd28e25",
+      "name": "姆蘭傑山",
+      "summary": "姆蘭傑山（英語：Mulanje Madsif）是非洲東南部國家馬拉維的孤山，位於該國南部布蘭太爾以南70公里，長26公里、寬22公里，在1億3千萬年前形成，海拔高度3,002米，每年平均降雨量可達1,800毫米。 參考資料",
+      "lat": "-15.94972222",
+      "lng": "35.59361111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-stripe-cheeked-greenbul-4cde31a0",
+      "subject": "Stripe-cheeked greenbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-姆蘭傑山-3dd28e25",
+      "object": "姆蘭傑山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The stripe-cheeked greenbul is found in the highlands of south-eastern Malawi (Mount Mulanje), extreme eastern Zimbabwe and west-central Mozambique. Image:AT1006 map.png|General range of stripe-cheeked greenbul",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stripe-cheeked-greenbul-4cde31a0",
+      "subject": "Stripe-cheeked greenbul",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-stripe-cheeked-greenbul-4cde31a0",
+      "subject": "Stripe-cheeked greenbul",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

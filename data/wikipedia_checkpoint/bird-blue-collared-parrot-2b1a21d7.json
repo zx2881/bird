@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:54:03",
+  "requested_title": "Blue-collared Parrot",
+  "resolved_title": "Blue-collared parrot",
+  "title_aliases": [
+    "Blue-collared Parrot"
+  ],
+  "bird_id": "bird-blue-collared-parrot-2b1a21d7",
+  "raw_file": "bird-blue-collared-parrot-2b1a21d7.json",
+  "bird": {
+    "id": "bird-blue-collared-parrot-2b1a21d7",
+    "name": "Blue-collared parrot",
+    "english_name": "Blue-collared parrot",
+    "latin_name": "Geoffroyus simplex",
+    "summary": "The blue-collared parrot (Geoffroyus simplex) also known as simple parrot, lilac-collared song parrot, or lilac-collared Geoffroy's parrot,…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Geoffroyus_simplex_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-adolf-bernhard-meyer-52121fcd",
+      "name": "Adolf Bernhard Meyer",
+      "summary": "Adolf Bernhard Meyer (11 October 1840, Hamburg – 22 August 1911, Dresden) was a German anthropologist, ornithologist, e…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-collared-parrot-2b1a21d7",
+      "subject": "Blue-collared parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-adolf-bernhard-meyer-52121fcd",
+      "object": "Adolf Bernhard Meyer",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue-collared parrot (Geoffroyus simplex) also known as simple parrot, lilac-collared song parrot, or lilac-collared Geoffroy's parrot, is a parrot found in the higher elevations of New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-collared-parrot-2b1a21d7",
+      "subject": "Blue-collared parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue-collared parrot (Geoffroyus simplex) also known as simple parrot, lilac-collared song parrot, or lilac-collared Geoffroy's parrot, is a parrot found in the higher elevations of New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-collared-parrot-2b1a21d7",
+      "subject": "Blue-collared parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

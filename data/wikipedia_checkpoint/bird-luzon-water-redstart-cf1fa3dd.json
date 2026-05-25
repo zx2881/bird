@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:11:09",
+  "requested_title": "Luzon Water Redstart",
+  "resolved_title": "Luzon water redstart",
+  "title_aliases": [
+    "Luzon Water Redstart"
+  ],
+  "bird_id": "bird-luzon-water-redstart-cf1fa3dd",
+  "raw_file": "bird-luzon-water-redstart-cf1fa3dd.json",
+  "bird": {
+    "id": "bird-luzon-water-redstart-cf1fa3dd",
+    "name": "Luzon water redstart",
+    "english_name": "Luzon water redstart",
+    "latin_name": "Phoenicurus bicolor",
+    "summary": "The Luzon water redstart (Phoenicurus bicolor), also known as the Luzon redstart, is a species of bird in the family Muscicapidae. It is en…",
+    "lat": "17.30805556",
+    "lng": "122.08611111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Luzon_Water_Redstart.jpg/960px-Luzon_Water_Redstart.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "name": "Northern Sierra Madre Natural Park",
+      "summary": "The Northern Sierra Madre Natural Park is the largest protected area of the Philippines covering the northern range of…",
+      "lat": "17.30805556",
+      "lng": "122.08611111"
+    },
+    {
+      "id": "loc-maria-aurora-aurora-86807399",
+      "name": "Maria Aurora, Aurora",
+      "summary": "Maria Aurora, officially the Municipality of Maria Aurora (Tagalog: Bayan ng Maria Aurora; Ilocano: Ili ti Maria Aurora…",
+      "lat": "15.7967",
+      "lng": "121.4737"
+    },
+    {
+      "id": "loc-普洛格山-49b464f4",
+      "name": "普洛格山",
+      "summary": "普洛格山（菲律賓語：Bundok Pulag，伊洛卡諾語：Bantay Pulag）是菲律賓的山峰，位於該國北部呂宋島，海拔高度2,922米，山上有528種植物和33種鳥類，每年平均降雨量4,489毫米，該山峰大部分地區自1987年2月2…",
+      "lat": "16.58357222",
+      "lng": "120.88359167"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-luzon-water-redstart-cf1fa3dd",
+      "subject": "Luzon water redstart",
+      "predicate": "distributed_in",
+      "object_id": "loc-northern-sierra-madre-natural-park-5cea823d",
+      "object": "Northern Sierra Madre Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas such as Northern Sierra Madre Natural Park, Maria Aurora National Park, Balbalasang-Balbalan National Park and Mount Pulag National Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-luzon-water-redstart-cf1fa3dd",
+      "subject": "Luzon water redstart",
+      "predicate": "distributed_in",
+      "object_id": "loc-maria-aurora-aurora-86807399",
+      "object": "Maria Aurora, Aurora",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas such as Northern Sierra Madre Natural Park, Maria Aurora National Park, Balbalasang-Balbalan National Park and Mount Pulag National Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-luzon-water-redstart-cf1fa3dd",
+      "subject": "Luzon water redstart",
+      "predicate": "distributed_in",
+      "object_id": "loc-普洛格山-49b464f4",
+      "object": "普洛格山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas such as Northern Sierra Madre Natural Park, Maria Aurora National Park, Balbalasang-Balbalan National Park and Mount Pulag National Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-luzon-water-redstart-cf1fa3dd",
+      "subject": "Luzon water redstart",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Adjacent habitat includes tropical montane forest, pine forest or just scrub and scattered trees",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-luzon-water-redstart-cf1fa3dd",
+      "subject": "Luzon water redstart",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-luzon-water-redstart-cf1fa3dd",
+      "subject": "Luzon water redstart",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-luzon-water-redstart-cf1fa3dd",
+      "subject": "Luzon water redstart",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its main threat is habitat degradation caused by pollution of its streams through mining and dumping of trash and agro-chemicals",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:18:50",
+  "requested_title": "Abyssinian Slaty Flycatcher",
+  "resolved_title": "Abyssinian slaty flycatcher",
+  "title_aliases": [
+    "Abyssinian Slaty Flycatcher"
+  ],
+  "bird_id": "bird-abyssinian-slaty-flycatcher-c6efe0cf",
+  "raw_file": "bird-abyssinian-slaty-flycatcher-c6efe0cf.json",
+  "bird": {
+    "id": "bird-abyssinian-slaty-flycatcher-c6efe0cf",
+    "name": "Abyssinian slaty flycatcher",
+    "english_name": "Abyssinian slaty flycatcher",
+    "latin_name": "Melaenornis chocolatinus",
+    "summary": "The Abyssinian slaty flycatcher (Melaenornis chocolatinus), also known as Abyssinian flycatcher, Abyssinian black flycatcher or Abyssinian…",
+    "lat": "9",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Abyssinian_Slaty_Flycatcher_%28Dioptrornis_chocolatinus%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-abyssinian-slaty-flycatcher-c6efe0cf",
+      "subject": "Abyssinian slaty flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Africa, where it occurs in Eritrea and Ethiopia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-abyssinian-slaty-flycatcher-c6efe0cf",
+      "subject": "Abyssinian slaty flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

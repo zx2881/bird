@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:31:55",
+  "requested_title": "Yemen Thrush",
+  "resolved_title": "Yemen thrush",
+  "title_aliases": [
+    "Yemen Thrush"
+  ],
+  "bird_id": "bird-葉門鶇-d11f2cb0",
+  "raw_file": "bird-葉門鶇-d11f2cb0.json",
+  "bird": {
+    "id": "bird-葉門鶇-d11f2cb0",
+    "name": "葉門鶇",
+    "english_name": "Yemen thrush",
+    "latin_name": "Turdus menachensis",
+    "summary": "葉門鶇（學名：Turdus menachensis）是鶇科中的一個物種，棲息於中東一帶。 參考資料 BirdLife International.",
+    "lat": "18.26722222",
+    "lng": "42.36805556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Yemen_Thrush%2C_Al_Bahah%2C_Saudi_Arabia_260923258.jpg/960px-Yemen_Thrush%2C_Al_Bahah%2C_Saudi_Arabia_260923258.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-沙拉瓦特山脈-7212be00",
+      "name": "沙拉瓦特山脈",
+      "summary": "The Sarawat Mountains (Arabic: جِبَالُ ٱلسَّرَوَاتِ, romanized: Jibāl as-Sarawāt), also known as the Sarat in singular…",
+      "lat": "18.26722222",
+      "lng": "42.36805556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-葉門鶇-d11f2cb0",
+      "subject": "葉門鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-沙拉瓦特山脈-7212be00",
+      "object": "沙拉瓦特山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Sarawat Mountains of the western Arabian Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-葉門鶇-d11f2cb0",
+      "subject": "葉門鶇",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

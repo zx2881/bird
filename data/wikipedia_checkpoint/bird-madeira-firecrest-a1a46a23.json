@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:12:05",
+  "requested_title": "Madeira Firecrest",
+  "resolved_title": "Madeira firecrest",
+  "title_aliases": [
+    "Madeira Firecrest"
+  ],
+  "bird_id": "bird-madeira-firecrest-a1a46a23",
+  "raw_file": "bird-madeira-firecrest-a1a46a23.json",
+  "bird": {
+    "id": "bird-madeira-firecrest-a1a46a23",
+    "name": "Madeira firecrest",
+    "english_name": "Madeira firecrest",
+    "latin_name": "Regulus madeirensis",
+    "summary": "The Madeira firecrest, Madeira kinglet, or Madeiracrest (Regulus madeirensis) is a very small passerine bird endemic to the island of Madei…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Madeira_firecrest.jpg/960px-Madeira_firecrest.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-照葉林-bbcafe01",
+      "name": "照葉林",
+      "summary": "照葉林（laurilignosa）又稱副熱帶常綠闊葉林、亚热带季雨林或月桂林，是副熱帶溼潤氣候條件下的典型植被。高溫多雨，全年沒有明顯乾季的熱帶地區者，稱為雨林，是生物種類最多的地區。 生態 照葉林在暖溫帶地區呈片狀分佈，通常佔據地形庇護…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-madeira-firecrest-a1a46a23",
+      "subject": "Madeira firecrest",
+      "predicate": "distributed_in",
+      "object_id": "loc-照葉林-bbcafe01",
+      "object": "照葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs mainly at higher levels from 600 to 1,550m (1,950–4,900ft) in all types of forests and scrub, but with a preference for tree heaths. It can also descend to lower areas after breeding. Although it is strongly adapted to endemic tree heaths, it also breeds in broom, Vaccinium, relict laurel forest, oak-dominated deciduous forest and stands of the introduced Japanese cedar, Cryptomeria japonica. It is absent from the alien eucalyptus and acacia plantations which have replaced much of the endemic Madeiran laurel forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madeira-firecrest-a1a46a23",
+      "subject": "Madeira firecrest",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

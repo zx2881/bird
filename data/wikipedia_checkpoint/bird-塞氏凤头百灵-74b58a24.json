@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:49:12",
+  "requested_title": "Sykes's Lark",
+  "resolved_title": "Sykes's lark",
+  "title_aliases": [
+    "Sykes's Lark"
+  ],
+  "bird_id": "bird-塞氏凤头百灵-74b58a24",
+  "raw_file": "bird-塞氏凤头百灵-74b58a24.json",
+  "bird": {
+    "id": "bird-塞氏凤头百灵-74b58a24",
+    "name": "塞氏凤头百灵",
+    "english_name": "Sykes's lark",
+    "latin_name": "Galerida deva",
+    "summary": "塞氏凤头百灵（学名：Galerida deva），是百灵科凤头百灵属的一种，为印度的特有种。该物种的保护状况被评为无危。 塞氏凤头百灵的平均体重约为20.0克。栖息地包括耕地和亚热带或热带的（低地）干燥疏灌丛。",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Galerida_deva.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-威廉-亨利-赛克斯-571f524c",
+      "name": "威廉·亨利·赛克斯",
+      "summary": "Colonel William Henry Sykes, FRS (25 January 1790 – 16 June 1872) was an English naturalist who served with the British…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-塞氏凤头百灵-74b58a24",
+      "subject": "塞氏凤头百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-威廉-亨利-赛克斯-571f524c",
+      "object": "威廉·亨利·赛克斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Sykes's lark (Galerida deva) is a species of lark found in the dry open country of India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-塞氏凤头百灵-74b58a24",
+      "subject": "塞氏凤头百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Sykes's lark (Galerida deva) is a species of lark found in the dry open country of India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-塞氏凤头百灵-74b58a24",
+      "subject": "塞氏凤头百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

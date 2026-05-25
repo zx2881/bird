@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:10:12",
+  "requested_title": "Western Barn Owl",
+  "resolved_title": "Western barn owl",
+  "title_aliases": [
+    "Western Barn Owl"
+  ],
+  "bird_id": "bird-西仓鸮-49fe7d35",
+  "raw_file": "bird-西仓鸮-49fe7d35.json",
+  "bird": {
+    "id": "bird-西仓鸮-49fe7d35",
+    "name": "西仓鸮",
+    "english_name": "Western barn owl",
+    "latin_name": "Tyto alba",
+    "summary": "西仓鸮（学名：Tyto alba）或称西方仓鸮，是分布最广的猫头鹰种类，也是所有鸟类中分布最广的之一，属于鸮形目中两科之一的草鸮科。它广布于欧洲和非洲，除了極地、荒漠等外。不同亚种间的体型和颜色差异很大，但体长大多在33至39厘米之间，翼展在80到95厘米之间。头背部的羽毛为斑…",
+    "lat": "53.8",
+    "lng": "-2.6",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Barn_Owl%2C_Lancashire.jpg/960px-Barn_Owl%2C_Lancashire.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-蘭開夏-d1935f99",
+      "name": "蘭開夏",
+      "summary": "蘭開夏（英語：Lancashire），又譯蘭開斯特郡，是英國英格蘭西北部的郡，包含2個城市。以人口計算，蘭卡斯特市是第1大城市、第1大自治市鎮（Borough），普雷斯頓是第2大城市（亦是郡治）、第4大自治市鎮，黑池是第1大鎮（Town）…",
+      "lat": "53.8",
+      "lng": "-2.6"
+    },
+    {
+      "id": "loc-喬瓦尼-安東尼奧-斯科波利-63de771d",
+      "name": "喬瓦尼·安東尼奧·斯科波利",
+      "summary": "乔瓦尼·安东尼奥·斯科波利（義大利語：Giovanni Antonio Scopoli，1723年6月3日—1788年5月8日），有时也使用拉丁化名字约翰内斯·安东尼乌斯·斯科波利乌斯（拉丁語：Johannes Antonius Scop…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-西仓鸮-49fe7d35",
+      "subject": "西仓鸮",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘭開夏-d1935f99",
+      "object": "蘭開夏",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The western barn owl (Tyto alba) is a species of barn owl native to Europe, southwestern Asia, and Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西仓鸮-49fe7d35",
+      "subject": "西仓鸮",
+      "predicate": "distributed_in",
+      "object_id": "loc-喬瓦尼-安東尼奧-斯科波利-63de771d",
+      "object": "喬瓦尼·安東尼奧·斯科波利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The western barn owl (Tyto alba) is a species of barn owl native to Europe, southwestern Asia, and Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-西仓鸮-49fe7d35",
+      "subject": "西仓鸮",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Breeding takes place at varying times of the year, according to the locality, with a clutch of eggs, averaging about four in number, being laid in a nest in a hollow tree, old building, or fissure in a cliff",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-西仓鸮-49fe7d35",
+      "subject": "西仓鸮",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-西仓鸮-49fe7d35",
+      "subject": "西仓鸮",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Due to their assignment to the nominate subspecies, which is common in mainland Spain, the western Canary Islands population is not classified as threatened. In the United Kingdom, the \"Barn Owl Nest Box Scheme\" is promoted by the World Owl Trust and has many participants in local areas such as Somerset, where a webcam has been set up inside a nest box in which seven young were reared in 2014. In May 2012, it was revealed that farmers in Israel and Jordan had, over a period of ten years, replaced pesticides with barn owls in a joint conservation venture called \"Project Barn Owl\"",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

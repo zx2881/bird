@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:43:58",
+  "requested_title": "Fiery-shouldered Parakeet",
+  "resolved_title": "Fiery-shouldered parakeet",
+  "title_aliases": [
+    "Fiery-shouldered Parakeet"
+  ],
+  "bird_id": "bird-fiery-shouldered-parakeet-b095f345",
+  "raw_file": "bird-fiery-shouldered-parakeet-b095f345.json",
+  "bird": {
+    "id": "bird-fiery-shouldered-parakeet-b095f345",
+    "name": "Fiery-shouldered parakeet",
+    "english_name": "Fiery-shouldered parakeet",
+    "latin_name": "Pyrrhura egregia",
+    "summary": "The fiery-shouldered parakeet (Pyrrhura egregia), also known as the fiery-shouldered conure, is a species of parrot in the family Psittacid…",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/ConurusEgregiusSmit.jpg/960px-ConurusEgregiusSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-圭亚那-037a419a",
+      "name": "圭亚那",
+      "summary": "蓋亞那合作共和国（英語：Co-operative Republic of Guyana），通称圭亚那（英語：Guyana），位於南美洲北部，是南美洲一个以英語為官方語言的国家，也是英联邦成员國。東鄰蘇利南，南臨巴西，西鄰委内瑞拉，北鄰大西…",
+      "lat": "5",
+      "lng": "-59"
+    },
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    },
+    {
+      "id": "loc-卡奈依馬國家公園-6e3f8e55",
+      "name": "卡奈依馬國家公園",
+      "summary": "卡奈依马国家公园（西班牙語：Parque nacional Canaima）是委內瑞拉大薩瓦納地區的國家公園，位於該國東南部玻利瓦爾州，面積30,000平方公里，是全球第六大國家公園，始建於1962年6月12日。1994年被列入世界遗产名…",
+      "lat": "6.16666667",
+      "lng": "-62.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-fiery-shouldered-parakeet-b095f345",
+      "subject": "Fiery-shouldered parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brazil, Guyana, and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fiery-shouldered-parakeet-b095f345",
+      "subject": "Fiery-shouldered parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-圭亚那-037a419a",
+      "object": "圭亚那",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brazil, Guyana, and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fiery-shouldered-parakeet-b095f345",
+      "subject": "Fiery-shouldered parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brazil, Guyana, and Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fiery-shouldered-parakeet-b095f345",
+      "subject": "Fiery-shouldered parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡奈依馬國家公園-6e3f8e55",
+      "object": "卡奈依馬國家公園",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its total area of occupancy is about and includes part of the Canaima National Park. The subspecies P.&nbsp;e.&nbsp;egregia is found in southeastern Venezuela and southwestern Guyana while P.&nbsp;e.&nbsp;obscura occurs in southern Venezuela and northeastern Brazil. These parrots are found in primary and secondary forests at altitudes between and also woodland verges, sometimes visiting parks and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fiery-shouldered-parakeet-b095f345",
+      "subject": "Fiery-shouldered parakeet",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-fiery-shouldered-parakeet-b095f345",
+      "subject": "Fiery-shouldered parakeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-fiery-shouldered-parakeet-b095f345",
+      "subject": "Fiery-shouldered parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its rainforest habitat is under threat from logging and its numbers are thought to be declining, however the rate of decline is slow and the International Union for Conservation of Nature has assessed the bird as being of \"least concern\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

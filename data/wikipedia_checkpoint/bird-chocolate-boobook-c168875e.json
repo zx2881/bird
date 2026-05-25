@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:17:09",
+  "requested_title": "Chocolate Boobook",
+  "resolved_title": "Chocolate boobook",
+  "title_aliases": [
+    "Chocolate Boobook"
+  ],
+  "bird_id": "bird-chocolate-boobook-c168875e",
+  "raw_file": "bird-chocolate-boobook-c168875e.json",
+  "bird": {
+    "id": "bird-chocolate-boobook-c168875e",
+    "name": "Chocolate boobook",
+    "english_name": "Chocolate boobook",
+    "latin_name": "Ninox randi",
+    "summary": "The chocolate boobook (Ninox randi) is a bird species in the true owl family, Strigidae. It was formerly considered to be a subspecies of t…",
+    "lat": "7.0711",
+    "lng": "122.0755",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Chocolate_Boobook.jpg/960px-Chocolate_Boobook.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pasonanca-natural-park-4873c699",
+      "name": "Pasonanca Natural Park",
+      "summary": "The Pasonanca Natural Park is a protected area that preserves a major watershed in the southern Philippine island of Mi…",
+      "lat": "7.0711",
+      "lng": "122.0755"
+    },
+    {
+      "id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "name": "Rajah Sikatuna Protected Landscape",
+      "summary": "The Rajah Sikatuna Protected Landscape is a protected landscape area of forested limestone hills, grasslands and natura…",
+      "lat": "9.70527778",
+      "lng": "124.12416667"
+    },
+    {
+      "id": "loc-bataan-national-park-b6a954a6",
+      "name": "Bataan National Park",
+      "summary": "Bataan National Park is a protected area of the Philippines located in the mountainous interior of Bataan province in t…",
+      "lat": "14.65",
+      "lng": "120.6"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chocolate-boobook-c168875e",
+      "subject": "Chocolate boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-pasonanca-natural-park-4873c699",
+      "object": "Pasonanca Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Pasonanca Natural Park, Rajah Sikatuna Protected Landscape and Bataan National Park but like all areas in the Philippines, protection is lax and deforestation continues despite this protection on paper",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chocolate-boobook-c168875e",
+      "subject": "Chocolate boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "object": "Rajah Sikatuna Protected Landscape",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Pasonanca Natural Park, Rajah Sikatuna Protected Landscape and Bataan National Park but like all areas in the Philippines, protection is lax and deforestation continues despite this protection on paper",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chocolate-boobook-c168875e",
+      "subject": "Chocolate boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-bataan-national-park-b6a954a6",
+      "object": "Bataan National Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Pasonanca Natural Park, Rajah Sikatuna Protected Landscape and Bataan National Park but like all areas in the Philippines, protection is lax and deforestation continues despite this protection on paper",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chocolate-boobook-c168875e",
+      "subject": "Chocolate boobook",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-chocolate-boobook-c168875e",
+      "subject": "Chocolate boobook",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "IUCN has assessed this bird as near-threatened species with the population believed to be declining due to deforestation in the Philippines continues throughout the country due to slash and burn farming, mining, illegal logging and habitat conversion",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

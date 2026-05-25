@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:42:52",
+  "requested_title": "Eurasian Scops Owl",
+  "resolved_title": "Eurasian scops owl",
+  "title_aliases": [
+    "Eurasian Scops Owl"
+  ],
+  "bird_id": "bird-歐亞角鴞-adf47e8c",
+  "raw_file": "bird-歐亞角鴞-adf47e8c.json",
+  "bird": {
+    "id": "bird-歐亞角鴞-adf47e8c",
+    "name": "歐亞角鴞",
+    "english_name": "Eurasian scops owl",
+    "latin_name": "Otus scops",
+    "summary": "西红角鸮（學名：Otus scops，英語：Eurasian Scops Owl、Common Scops Owl，台湾作歐亞角鴞），是鴞形目鴟鴞科角鴞屬下的一種鳥類。這個物種在4—6月之間於歐洲及亞洲的開闊或半開闊地區繁殖；8—11月時則南遷至撒哈拉沙漠以南的非洲過冬，但也有…",
+    "lat": "23",
+    "lng": "13",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Scops_Owl_%28Otus_scops%29%2C_Kalloni%2C_Lesvos%2C_Greece%2C_19.04.2015_%2816773748434%29.jpg/960px-Scops_Owl_%28Otus_scops%29%2C_Kalloni%2C_Lesvos%2C_Greece%2C_19.04.2015_%2816773748434%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南欧-748507ef",
+      "name": "南欧",
+      "summary": "南歐是歐洲南部的簡稱，範圍包括伊比利半島、義大利半島及巴爾幹半島的南部，由法國，葡萄牙、西班牙、義大利及希臘等國組成，有时也稱為地中海歐洲，因為大多南歐國家靠近地中海。南歐隔著地中海與亞、非洲相望，自古以來與西亞及北非往來密切，同是重要的…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "The Sahara (, ) is a desert spanning North Africa.",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-歐亞角鴞-adf47e8c",
+      "subject": "歐亞角鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-南欧-748507ef",
+      "object": "南欧",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in Africa south of the Sahara, although it is resident year-round in parts of Mediterranean Europe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-歐亞角鴞-adf47e8c",
+      "subject": "歐亞角鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in southernmost Europe and sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-歐亞角鴞-adf47e8c",
+      "subject": "歐亞角鴞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

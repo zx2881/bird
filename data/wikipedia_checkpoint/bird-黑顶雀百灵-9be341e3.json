@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:37:14",
+  "requested_title": "Black-crowned Sparrow-Lark",
+  "resolved_title": "Black-crowned sparrow-lark",
+  "title_aliases": [
+    "Black-crowned Sparrow-Lark"
+  ],
+  "bird_id": "bird-黑顶雀百灵-9be341e3",
+  "raw_file": "bird-黑顶雀百灵-9be341e3.json",
+  "bird": {
+    "id": "bird-黑顶雀百灵-9be341e3",
+    "name": "黑顶雀百灵",
+    "english_name": "Black-crowned sparrow-lark",
+    "latin_name": "Eremopterix nigriceps",
+    "summary": "黑顶雀百灵（学名：Eremopterix nigriceps），是百灵科雀百灵属的一种，是游猎迁徙的候鸟，分布于埃及、埃塞俄比亚、伊朗、厄立特里亚、塞内加尔、乍得、马里、佛得角、索马里、卡塔尔、以色列、毛里塔尼亚、约旦、尼日尔、巴基斯坦、沙特阿拉伯、阿拉伯联合酋长国、吉布提、尼…",
+    "lat": "15.3",
+    "lng": "-23.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Black-crowned_Sparrow_Lark_small.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-佛得角-54903c7d",
+      "name": "佛得角",
+      "summary": "佛得角共和国（葡萄牙語：República de Cabo Verde），通称佛得角（葡萄牙語：Cabo Verde），是位於非洲西岸的大西洋島國。它横跨大西洋中部的10个火山岛，距离西非海岸线570公里 。獨立前是葡萄牙的殖民地，国名“…",
+      "lat": "15.3",
+      "lng": "-23.7"
+    },
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑顶雀百灵-9be341e3",
+      "subject": "黑顶雀百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-佛得角-54903c7d",
+      "object": "佛得角",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-crowned sparrow-lark occurs across North Africa, from the Cape Verde archipelago east through the Sahel of northern Africa, through the Arabian Peninsula and into Pakistan and India. The black-crowned sparrow-lark occurs in arid and semi-arid plains with scattered low vegetation and tussocks of grass, preferring sandy areas over areas with rocky soil, it has also been observed around salt pans",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑顶雀百灵-9be341e3",
+      "subject": "黑顶雀百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-crowned sparrow-lark occurs across North Africa, from the Cape Verde archipelago east through the Sahel of northern Africa, through the Arabian Peninsula and into Pakistan and India. The black-crowned sparrow-lark occurs in arid and semi-arid plains with scattered low vegetation and tussocks of grass, preferring sandy areas over areas with rocky soil, it has also been observed around salt pans",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑顶雀百灵-9be341e3",
+      "subject": "黑顶雀百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is dry savanna",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-黑顶雀百灵-9be341e3",
+      "subject": "黑顶雀百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

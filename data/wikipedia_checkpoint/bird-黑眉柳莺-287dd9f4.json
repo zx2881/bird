@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T14:46:35",
+  "requested_title": "Sulphur-breasted Warbler",
+  "resolved_title": "Sulphur-breasted warbler",
+  "title_aliases": [
+    "Sulphur-breasted Warbler"
+  ],
+  "bird_id": "bird-黑眉柳莺-287dd9f4",
+  "raw_file": "bird-黑眉柳莺-287dd9f4.json",
+  "bird": {
+    "id": "bird-黑眉柳莺-287dd9f4",
+    "name": "黑眉柳莺",
+    "english_name": "Sulphur-breasted warbler",
+    "latin_name": "Phylloscopus ricketti",
+    "summary": "黑眉柳莺（学名：Phylloscopus ricketti）为柳莺科柳莺属的鸟类。该物种的模式产地在福建。 在中國繁殖；在老撾、泰國和柬埔寨過冬。",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sulphur-breasted_Warbler_imported_from_iNaturalist_photo_364398025_on_20_June_2024.jpg/960px-Sulphur-breasted_Warbler_imported_from_iNaturalist_photo_364398025_on_20_June_2024.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-老挝-0d5ce5bc",
+      "name": "老挝",
+      "summary": "老挝人民民主共和国（寮語：ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ，简写：ສປປ ລາວ），通稱寮國（寮語：ລາວ），是位于東南亞中南半岛的社会主义国家，首都及最大城市为万象，通行寮语，面积23.68万平方公里，…",
+      "lat": "18",
+      "lng": "105"
+    },
+    {
+      "id": "loc-泰国-6e4d220d",
+      "name": "泰国",
+      "summary": "泰王国（泰語：ราชอาณาจักรไทย，皇家轉寫：Ratcha-anachak Thai），通稱泰国（泰語：ประเทศไทย，皇家轉寫：Prathet Thai），舊称暹罗（泰語：สยาม，皇家轉寫：Sayam），是东南亚的君主立宪…",
+      "lat": "15",
+      "lng": "101"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑眉柳莺-287dd9f4",
+      "subject": "黑眉柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in China; it winters to Laos, Thailand and Cambodia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑眉柳莺-287dd9f4",
+      "subject": "黑眉柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-老挝-0d5ce5bc",
+      "object": "老挝",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in China; it winters to Laos, Thailand and Cambodia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑眉柳莺-287dd9f4",
+      "subject": "黑眉柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-泰国-6e4d220d",
+      "object": "泰国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in China; it winters to Laos, Thailand and Cambodia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑眉柳莺-287dd9f4",
+      "subject": "黑眉柳莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

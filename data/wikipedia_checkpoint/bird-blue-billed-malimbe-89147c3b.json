@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:33:10",
+  "requested_title": "Blue-billed Malimbe",
+  "resolved_title": "Blue-billed malimbe",
+  "title_aliases": [
+    "Blue-billed Malimbe"
+  ],
+  "bird_id": "bird-blue-billed-malimbe-89147c3b",
+  "raw_file": "bird-blue-billed-malimbe-89147c3b.json",
+  "bird": {
+    "id": "bird-blue-billed-malimbe-89147c3b",
+    "name": "Blue-billed malimbe",
+    "english_name": "Blue-billed malimbe",
+    "latin_name": "Malimbus nitens",
+    "summary": "The blue-billed malimbe or Gray's malimbe (Malimbus nitens) is a species of bird in the family Ploceidae. It is native to the African tropi…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Blue-billed_malimbe_%28Malimbus_nitens%29_Ankasa.jpg/960px-Blue-billed_malimbe_%28Malimbus_nitens%29_Ankasa.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-billed-malimbe-89147c3b",
+      "subject": "Blue-billed malimbe",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-billed-malimbe-89147c3b",
+      "subject": "Blue-billed malimbe",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

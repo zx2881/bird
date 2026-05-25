@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:10:02",
+  "requested_title": "Abyssinian White-eye",
+  "resolved_title": "Abyssinian white-eye",
+  "title_aliases": [
+    "Abyssinian White-eye"
+  ],
+  "bird_id": "bird-白胸繡眼鳥-ad6130ec",
+  "raw_file": "bird-白胸繡眼鳥-ad6130ec.json",
+  "bird": {
+    "id": "bird-白胸繡眼鳥-ad6130ec",
+    "name": "白胸繡眼鳥",
+    "english_name": "Abyssinian white-eye",
+    "latin_name": "Zosterops abyssinicus",
+    "summary": "白胸绣眼鸟（学名：Zosterops abyssinicus），又名阿比西尼亚绣眼鸟，是绣眼鸟科绣眼鸟属的一个种，分布于非洲东北部和阿拉伯半岛南部。 体长10-12厘米，上身为绿色，眼睛周围有一圈狭窄的白色圆环，喙和眼睛之间有一条细细的黑线。下身颜色从淡黄色到灰白色不等。这种鸟…",
+    "lat": "24",
+    "lng": "45",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Zosterops_abyssinicus_%2817823062125%29.jpg/960px-Zosterops_abyssinicus_%2817823062125%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-沙特阿拉伯-bb57c647",
+      "name": "沙特阿拉伯",
+      "summary": "沙烏地阿拉伯王國（阿拉伯語：المملكة العربية السعودية，羅馬化：al-Mamlakah ʿArabīyah as-Suʿūdīyah，），簡稱沙烏地阿拉伯或沙烏地（السُّعُودِيَّة），是位於西亞阿拉伯半島…",
+      "lat": "24",
+      "lng": "45"
+    },
+    {
+      "id": "loc-也门-80b75a25",
+      "name": "也门",
+      "summary": "也門共和國（阿拉伯語：الجمهورية اليمنية，al-Jumhūriyyah al-Yamaniyyah），通稱葉門（阿拉伯語：اليمن，羅馬化：al-Yaman），為西亞國家，位於阿拉伯半島西南角、阿拉伯海與紅海交界處，與阿…",
+      "lat": "15.34833333",
+      "lng": "44.20638889"
+    },
+    {
+      "id": "loc-阿曼-1634d3f9",
+      "name": "阿曼",
+      "summary": "Oman, officially the Sultanate of Oman, is a country in the southeastern Arabian Peninsula in West Asia.",
+      "lat": "21",
+      "lng": "57"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白胸繡眼鳥-ad6130ec",
+      "subject": "白胸繡眼鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-沙特阿拉伯-bb57c647",
+      "object": "沙特阿拉伯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Arabia it occurs in south-west Saudi Arabia, Yemen and southern Oman",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白胸繡眼鳥-ad6130ec",
+      "subject": "白胸繡眼鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-也门-80b75a25",
+      "object": "也门",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Arabia it occurs in south-west Saudi Arabia, Yemen and southern Oman",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白胸繡眼鳥-ad6130ec",
+      "subject": "白胸繡眼鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿曼-1634d3f9",
+      "object": "阿曼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Arabia it occurs in south-west Saudi Arabia, Yemen and southern Oman",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白胸繡眼鳥-ad6130ec",
+      "subject": "白胸繡眼鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

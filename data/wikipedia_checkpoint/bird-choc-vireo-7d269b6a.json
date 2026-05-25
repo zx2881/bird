@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:33:40",
+  "requested_title": "Choco Vireo",
+  "resolved_title": "Chocó vireo",
+  "title_aliases": [
+    "Choco Vireo",
+    "Chocó vireo"
+  ],
+  "bird_id": "bird-choc-vireo-7d269b6a",
+  "raw_file": "bird-choc-vireo-7d269b6a.json",
+  "bird": {
+    "id": "bird-choc-vireo-7d269b6a",
+    "name": "Chocó vireo",
+    "english_name": "Chocó vireo",
+    "latin_name": "Vireo masteri",
+    "summary": "The Choco vireo (Vireo masteri) is a species of bird in the family Vireonidae, the vireos, greenlets, and shrike-babblers. It is found in C…",
+    "lat": "-0.25",
+    "lng": "-78.58333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vireo_masteri_17620880_%28cropped%29.jpg/960px-Vireo_masteri_17620880_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-皮欽查省-156d8509",
+      "name": "皮欽查省",
+      "summary": "皮欽查省（西班牙語：Provincia de Pichincha），是厄瓜多爾中部的一個省。面積9,484平方公里，2010年人口2,576,287人。首府基多是該國的首都。 1824年6月25日設省，2007年11月6日聖多明各-德洛斯…",
+      "lat": "-0.25",
+      "lng": "-78.58333333"
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-choc-vireo-7d269b6a",
+      "subject": "Chocó vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-皮欽查省-156d8509",
+      "object": "皮欽查省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Choco vireo is a bird of the Chocó region, which is famed for its high biological diversity. As of 2023 it was known from only four locations between Colombia's Alto de Pisiones in the north and near La Delicia, Pichincha Province, Ecuador in the south. Searches between those areas have not found the species. The Choco vireo primarily inhabits the interior and edges of primary rainforest on both level ground and on steep slopes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-choc-vireo-7d269b6a",
+      "subject": "Chocó vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Choco vireo is a bird of the Chocó region, which is famed for its high biological diversity. As of 2023 it was known from only four locations between Colombia's Alto de Pisiones in the north and near La Delicia, Pichincha Province, Ecuador in the south. Searches between those areas have not found the species. The Choco vireo primarily inhabits the interior and edges of primary rainforest on both level ground and on steep slopes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-choc-vireo-7d269b6a",
+      "subject": "Chocó vireo",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-choc-vireo-7d269b6a",
+      "subject": "Chocó vireo",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The range and population of Choco Vireo are in decline as a consequence of habitat destruction\" by clearing for timber, agriculture, mining, and human habitation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

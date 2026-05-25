@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:08:10",
+  "requested_title": "Himalayan Buzzard",
+  "resolved_title": "Himalayan buzzard",
+  "title_aliases": [
+    "Himalayan Buzzard"
+  ],
+  "bird_id": "bird-喜山-7414418d",
+  "raw_file": "bird-喜山-7414418d.json",
+  "bird": {
+    "id": "bird-喜山-7414418d",
+    "name": "喜山𫛭",
+    "english_name": "Himalayan buzzard",
+    "latin_name": "Buteo refectus",
+    "summary": "喜山𫛭（学名：Buteo refectus）也称喜马拉雅𫛭，一种分布于亚洲喜马拉雅山地区的大中型猛禽，原为普通𫛭（Buteo buteo）的一个亚种（Buteo buteo burmanicus），普通鵟分为欧亚鵟（Buteo buteo）和東方鵟（也称普通鵟、日本鵟，Bute…",
+    "lat": "28.16666667",
+    "lng": "84.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Himalayan_Buzzard_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_12.05.2016.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-尼泊尔-231a45b7",
+      "name": "尼泊尔",
+      "summary": "尼泊尔联邦民主共和国（尼泊爾語：सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल），通称尼泊尔（नेपाल），是南亚喜马拉雅山脉地区的内陆国家，北与中国相接，其余三面与印度为鄰，与孟加拉国仅隔27公里的走廊。尼泊爾的領…",
+      "lat": "28.16666667",
+      "lng": "84.25"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-喜山-7414418d",
+      "subject": "喜山𫛭",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼泊尔-231a45b7",
+      "object": "尼泊尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas in Nepal, India and adjacent mountains of southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-喜山-7414418d",
+      "subject": "喜山𫛭",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas in Nepal, India and adjacent mountains of southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-喜山-7414418d",
+      "subject": "喜山𫛭",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

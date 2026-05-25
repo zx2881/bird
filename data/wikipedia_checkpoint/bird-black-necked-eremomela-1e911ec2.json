@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:01:03",
+  "requested_title": "Black-necked Eremomela",
+  "resolved_title": "Black-necked eremomela",
+  "title_aliases": [
+    "Black-necked Eremomela"
+  ],
+  "bird_id": "bird-black-necked-eremomela-1e911ec2",
+  "raw_file": "bird-black-necked-eremomela-1e911ec2.json",
+  "bird": {
+    "id": "bird-black-necked-eremomela-1e911ec2",
+    "name": "Black-necked eremomela",
+    "english_name": "Black-necked eremomela",
+    "latin_name": "Eremomela atricollis",
+    "summary": "The black-necked eremomela (Eremomela atricollis) is a species of bird formerly placed in the \"Old World warbler\" assemblage, but now place…",
+    "lat": "-12.5",
+    "lng": "18.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Black-necked_Eremomela%2C_Sakania%2C_DRC_%289998649943%29.jpg/960px-Black-necked_Eremomela%2C_Sakania%2C_DRC_%289998649943%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    },
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    },
+    {
+      "id": "loc-赞比亚-5eceb6be",
+      "name": "赞比亚",
+      "summary": "赞比亚共和国（英語：Republic of Zambia），也稱尚比亞（英語：Zambia），是非洲東南部的一個內陸國家。与刚果民主共和国、坦桑尼亚、马拉维、莫桑比克、津巴布韦、博茨瓦纳、纳米比亚和安哥拉相邻。首都是卢萨卡。 历史 二千年…",
+      "lat": "-15",
+      "lng": "30"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-necked-eremomela-1e911ec2",
+      "subject": "Black-necked eremomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Angola, Democratic Republic of the Congo, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-necked-eremomela-1e911ec2",
+      "subject": "Black-necked eremomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Angola, Democratic Republic of the Congo, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-necked-eremomela-1e911ec2",
+      "subject": "Black-necked eremomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-赞比亚-5eceb6be",
+      "object": "赞比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Angola, Democratic Republic of the Congo, and Zambia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-necked-eremomela-1e911ec2",
+      "subject": "Black-necked eremomela",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

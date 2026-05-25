@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:29:19",
+  "requested_title": "Red Sea Cliff Swallow",
+  "resolved_title": "Red Sea cliff swallow",
+  "title_aliases": [
+    "Red Sea Cliff Swallow"
+  ],
+  "bird_id": "bird-紅海燕-3572f739",
+  "raw_file": "bird-紅海燕-3572f739.json",
+  "bird": {
+    "id": "bird-紅海燕-3572f739",
+    "name": "紅海燕",
+    "english_name": "Red Sea cliff swallow",
+    "latin_name": "Petrochelidon perdita",
+    "summary": "紅海燕（Petrochelidon perdita）是一種燕子，可能是蘇丹的特有種。牠們只有一個標本，是於1984年在蘇丹港的一個燈塔發現的。 紅海燕可能仍然生存，但卻缺乏近年的觀察報告。在埃塞俄比亞的蘭加諾湖及阿瓦什國家公園有未確認的報告。",
+    "lat": "19.60194444",
+    "lng": "37.2075",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-苏丹港-城市-d58d717f",
+      "name": "苏丹港 (城市)",
+      "summary": "苏丹港（阿拉伯語：بور سودان）是苏丹紅海省的省会，也是苏丹重要的海港，濒临红海。截至2007年，共有居民489,725人。 苏丹港位于沙漠当中，气候炎热而干燥。由于苏丹港隔红海与麦加的外港吉达相望，所以很久以前北非穆斯林就已开始利…",
+      "lat": "19.60194444",
+      "lng": "37.2075"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紅海燕-3572f739",
+      "subject": "紅海燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏丹港-城市-d58d717f",
+      "object": "苏丹港 (城市)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is known only from a single specimen, found in May 1984 at the Sanganeb lighthouse, north-east of Port Sudan, Sudan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅海燕-3572f739",
+      "subject": "紅海燕",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its scientific name means the lost swallow and it has been suggested that it might breed in the hills surrounding the Red Sea in Sudan or Ethiopia. This enigmatic swallow may still exist, as unidentified cliff swallows have been sighted a number of times in Ethiopia which may have been this species, although they may belong to an additional undescribed species due to a number of plumage differences. Two unidentified pale-rumped swallows were also observed in 1983 at Sanganeb heading out over the Red Sea in the direction of Jeddah just prior to his discovery of the dead type specimen, so it has been suggested it may breed in hills fringing the Red Sea coast of western Saudi Arabia",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    }
+  ]
+}

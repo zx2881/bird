@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:32:40",
+  "requested_title": "Booted Eagle",
+  "resolved_title": "Booted eagle",
+  "title_aliases": [
+    "Booted Eagle"
+  ],
+  "bird_id": "bird-靴隼雕-d428d6bf",
+  "raw_file": "bird-靴隼雕-d428d6bf.json",
+  "bird": {
+    "id": "bird-靴隼雕-d428d6bf",
+    "name": "靴隼雕",
+    "english_name": "Booted eagle",
+    "latin_name": "Hieraaetus pennatus",
+    "summary": "靴隼雕（學名：Hieraaetus pennatus）也称靴鵰，为鹰科隼鵰属的鸟类。多生活于森林或林地。该物种的模式产地在法国。 形态特征 是一種中型的猛禽，一般身長47公分（即18英吋），翼展長120公分。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Booted_eagle_%28India%2C_2012%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "Johann Friedrich Gmelin (8 August 1748 – 1 November 1804) was a German naturalist, chemist, botanist, entomologist, her…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-靴隼雕-d428d6bf",
+      "subject": "靴隼雕",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "{{Speciesbox | status = LC | status_system = IUCN3.1 | status_ref = | image = Booted eagle (India, 2012).jpg | image_caption = A dark morph wintering in India |image2 =Booted Eagle.ogg | taxon = Hieraaetus pennatus | authority = (Gmelin, 1788) | synonyms = *Aquila minuta Brehm, 1831 *Aquila pennata Gmelin, 1788 *Hieraaetus pennatus minisculus Yosef et al., 2000 | range_map = HieraaetusPennatusIUCNver2018 2.png | range_map_caption = Range of H",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-靴隼雕-d428d6bf",
+      "subject": "靴隼雕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

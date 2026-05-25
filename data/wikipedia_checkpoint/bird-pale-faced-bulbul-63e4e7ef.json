@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:17:15",
+  "requested_title": "Pale-faced Bulbul",
+  "resolved_title": "Pale-faced bulbul",
+  "title_aliases": [
+    "Pale-faced Bulbul"
+  ],
+  "bird_id": "bird-pale-faced-bulbul-63e4e7ef",
+  "raw_file": "bird-pale-faced-bulbul-63e4e7ef.json",
+  "bird": {
+    "id": "bird-pale-faced-bulbul-63e4e7ef",
+    "name": "Pale-faced bulbul",
+    "english_name": "Pale-faced bulbul",
+    "latin_name": "Pycnonotus leucops",
+    "summary": "The pale-faced bulbul (Pycnonotus leucops) is a songbird in the bulbul family. It is endemic to the island of Borneo.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pale-faced_bulbul.jpg/960px-Pale-faced_bulbul.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pale-faced-bulbul-63e4e7ef",
+      "subject": "Pale-faced bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bulbul is found in the mountains of Borneo in montane primary forest, ranging in altitude from about 900&nbsp;m to 3500&nbsp;m above sea level.{{cite book |title=The Birds of Borneo |author1=Smythies, Bertram E",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-faced-bulbul-63e4e7ef",
+      "subject": "Pale-faced bulbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

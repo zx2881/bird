@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:52:10",
+  "requested_title": "Biak Myzomela",
+  "resolved_title": "Biak myzomela",
+  "title_aliases": [
+    "Biak Myzomela"
+  ],
+  "bird_id": "bird-biak-myzomela-6b202bb0",
+  "raw_file": "bird-biak-myzomela-6b202bb0.json",
+  "bird": {
+    "id": "bird-biak-myzomela-6b202bb0",
+    "name": "Biak myzomela",
+    "english_name": "Biak myzomela",
+    "latin_name": "Myzomela rubrobrunnea",
+    "summary": "The Biak myzomela (Myzomela rubrobrunnea) is a species of bird in the family Meliphagidae. It was formerly considered a subspecies of the d…",
+    "lat": "-1",
+    "lng": "136",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/MyzomelaSmit.jpg/960px-MyzomelaSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-世界鸟类学家联合会-2334810d",
+      "name": "世界鸟类学家联合会",
+      "summary": "世界鸟类学家联合会（英語：International Ornithologists' Union），原称国际鸟类学委员会（International Ornithological Committee），是国际鸟类学大会（Internati…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-比亞克島-facd641d",
+      "name": "比亞克島",
+      "summary": "比亚克岛亦作韋亞克島（Wiak Islands），印度尼西亞官方語作Pulau Biak。 印度尼西亞巴布亞北部海岸外斯考滕群島（Schouten Islands）的最大島嶼。属于巴布亚省比亚克农福尔县。位於极乐鸟湾入口處。島長72公里（…",
+      "lat": "-1",
+      "lng": "136"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-biak-myzomela-6b202bb0",
+      "subject": "Biak myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-世界鸟类学家联合会-2334810d",
+      "object": "世界鸟类学家联合会",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was formerly considered a subspecies of the dusky myzomela ( Myzomela obscura), but was split as a distinct species by the IOC in 2021. It is found in Biak",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-biak-myzomela-6b202bb0",
+      "subject": "Biak myzomela",
+      "predicate": "distributed_in",
+      "object_id": "loc-比亞克島-facd641d",
+      "object": "比亞克島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was formerly considered a subspecies of the dusky myzomela ( Myzomela obscura), but was split as a distinct species by the IOC in 2021. It is found in Biak",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-biak-myzomela-6b202bb0",
+      "subject": "Biak myzomela",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

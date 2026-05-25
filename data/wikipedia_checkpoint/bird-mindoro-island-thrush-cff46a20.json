@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:43:39",
+  "requested_title": "Mindoro Island Thrush",
+  "resolved_title": "Mindoro island thrush",
+  "title_aliases": [
+    "Mindoro Island Thrush"
+  ],
+  "bird_id": "bird-mindoro-island-thrush-cff46a20",
+  "raw_file": "bird-mindoro-island-thrush-cff46a20.json",
+  "bird": {
+    "id": "bird-mindoro-island-thrush-cff46a20",
+    "name": "Mindoro island thrush",
+    "english_name": "Mindoro island thrush",
+    "latin_name": "Turdus mindorensis",
+    "summary": "The Mindoro island thrush (Turdus mindorensis), is a species of passerine in the family Turdidae. It is endemic to Mindoro in the Philippin…",
+    "lat": "12.9",
+    "lng": "121.21666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Naturalis_Biodiversity_Center_-_RMNH.AVES.146367_1_-_Turdus_poliocephalus_mindorensis_Ogilvie-Grant%2C_1896_-_Turdidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.146367_1_-_Turdus_poliocephalus_mindorensis_Ogilvie-Grant%2C_1896_-_Turdidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-mounts-iglit-baco-natural-park-a7f9d36b",
+      "name": "Mounts Iglit–Baco Natural Park",
+      "summary": "The Mounts Iglit–Baco Natural Park (MIBNP) is a legislated protected area of the Philippines and an ASEAN Heritage Park…",
+      "lat": "12.9",
+      "lng": "121.21666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mindoro-island-thrush-cff46a20",
+      "subject": "Mindoro island thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-mounts-iglit-baco-natural-park-a7f9d36b",
+      "object": "Mounts Iglit–Baco Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas like Mounts Iglit–Baco Natural Park and Mount Halcon however, actual protection from deforestation and hunting is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mindoro-island-thrush-cff46a20",
+      "subject": "Mindoro island thrush",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its habitat is tropical moist montane forest above 1,200 meters above sea level",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-mindoro-island-thrush-cff46a20",
+      "subject": "Mindoro island thrush",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It occurs in tropical moist montane forest and forest edges above altitudes of 1,200 m",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    }
+  ]
+}

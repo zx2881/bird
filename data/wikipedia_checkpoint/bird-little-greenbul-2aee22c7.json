@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:24:18",
+  "requested_title": "Little Greenbul",
+  "resolved_title": "Little greenbul",
+  "title_aliases": [
+    "Little Greenbul"
+  ],
+  "bird_id": "bird-little-greenbul-2aee22c7",
+  "raw_file": "bird-little-greenbul-2aee22c7.json",
+  "bird": {
+    "id": "bird-little-greenbul-2aee22c7",
+    "name": "Little greenbul",
+    "english_name": "Little greenbul",
+    "latin_name": "Eurillas virens",
+    "summary": "The little greenbul (Eurillas virens) is a species of the bulbul family of passerine birds. It is found in many parts of sub-Saharan Africa.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pycnonotidae_-_Andropadus_virens.JPG/960px-Pycnonotidae_-_Andropadus_virens.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-little-greenbul-2aee22c7",
+      "subject": "Little greenbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in many parts of sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-greenbul-2aee22c7",
+      "subject": "Little greenbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

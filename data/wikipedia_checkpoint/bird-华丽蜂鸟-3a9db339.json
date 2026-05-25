@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:33:11",
+  "requested_title": "Beautiful Sheartail",
+  "resolved_title": "Beautiful sheartail",
+  "title_aliases": [
+    "Beautiful Sheartail"
+  ],
+  "bird_id": "bird-华丽蜂鸟-3a9db339",
+  "raw_file": "bird-华丽蜂鸟-3a9db339.json",
+  "bird": {
+    "id": "bird-华丽蜂鸟-3a9db339",
+    "name": "华丽蜂鸟",
+    "english_name": "Beautiful sheartail",
+    "latin_name": "Calothorax pulcher",
+    "summary": "华丽蜂鸟（学名：Calothorax pulcher），是雨燕目蜂鸟科的一种鸟类。 华丽蜂鸟体重约2.7克，翼长约37.1毫米，嘴峰长约21.4毫米，喙宽度约1.3毫米，喙厚度约1.6毫米，跗蹠长约3.9毫米，尾长约27.4毫米。华丽蜂鸟在其分布区内为留鸟，其栖息在半开放的灌木…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/MonographTrochi3Goul_0120_%28cropped%29.jpg/960px-MonographTrochi3Goul_0120_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-华丽蜂鸟-3a9db339",
+      "subject": "华丽蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits arid and semiarid scrublands, semi-open areas with trees and shrubs, and gallery forest, mostly within interior valleys",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-华丽蜂鸟-3a9db339",
+      "subject": "华丽蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits arid and semiarid scrublands, semi-open areas with trees and shrubs, and gallery forest, mostly within interior valleys",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-华丽蜂鸟-3a9db339",
+      "subject": "华丽蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

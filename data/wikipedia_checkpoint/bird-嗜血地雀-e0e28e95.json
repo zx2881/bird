@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:22:09",
+  "requested_title": "Vampire Ground Finch",
+  "resolved_title": "Vampire ground finch",
+  "title_aliases": [
+    "Vampire Ground Finch"
+  ],
+  "bird_id": "bird-嗜血地雀-e0e28e95",
+  "raw_file": "bird-嗜血地雀-e0e28e95.json",
+  "bird": {
+    "id": "bird-嗜血地雀-e0e28e95",
+    "name": "嗜血地雀",
+    "english_name": "Vampire ground finch",
+    "latin_name": "Geospiza septentrionalis",
+    "summary": "北加岛地雀（台湾作嗜血地雀，学名：Geospiza septentrionalis），是原產於加拉帕戈斯群島的地雀属鳥類。也是沃爾夫島和達爾文島的特有種。它們曾被認爲是尖嘴地雀（Geospiza difficilis）的亞種，但在國際鳥盟最近的研究中發現兩者間的形態和鳴叫聲已經…",
+    "lat": "-0.5",
+    "lng": "-90.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Vampire_finch_%284229090408%29.jpg/960px-Vampire_finch_%284229090408%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加拉帕戈斯群岛-cf5a247b",
+      "name": "加拉帕戈斯群岛",
+      "summary": "加拉帕戈斯群岛（西班牙語：islas Galápagos，台湾译加拉巴哥群島），又称科隆群岛（西班牙語：archipiélago de Colón，其为厄瓜多尔官方名称），是东太平洋接近赤道的火山群岛，由厄瓜多尔加拉帕戈斯省所轄，面积79…",
+      "lat": "-0.5",
+      "lng": "-90.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-嗜血地雀-e0e28e95",
+      "subject": "嗜血地雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拉帕戈斯群岛-cf5a247b",
+      "object": "加拉帕戈斯群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "85-205, 2 plates. | range_map = Geospiza septentrionalis map.svg }} The Vampire ground finch (Geospiza septentrionalis) or Vampire finch is a small bird native to the Galápagos Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-嗜血地雀-e0e28e95",
+      "subject": "嗜血地雀",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

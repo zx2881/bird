@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:07:45",
+  "requested_title": "Grey-naped Antpitta",
+  "resolved_title": "Grey-naped antpitta",
+  "title_aliases": [
+    "Grey-naped Antpitta"
+  ],
+  "bird_id": "bird-grey-naped-antpitta-efe18509",
+  "raw_file": "bird-grey-naped-antpitta-efe18509.json",
+  "bird": {
+    "id": "bird-grey-naped-antpitta-efe18509",
+    "name": "Grey-naped antpitta",
+    "english_name": "Grey-naped antpitta",
+    "latin_name": "Grallaria griseonucha",
+    "summary": "The grey-naped antpitta (Grallaria griseonucha) is a species of bird in the family Grallariidae. It is endemic to Venezuela.",
+    "lat": "8.48",
+    "lng": "-71.19",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Grallaria_griseonucha_map.svg/960px-Grallaria_griseonucha_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-梅里达州-6474ae50",
+      "name": "梅里达州",
+      "summary": "梅里达州（西班牙語：Mérida），位于委内瑞拉西部，行政中心是梅里达市。面积11,300平方公里，人口843,800。",
+      "lat": "8.48",
+      "lng": "-71.19"
+    },
+    {
+      "id": "loc-特鲁希略州-0375b35b",
+      "name": "特鲁希略州",
+      "summary": "特魯希略州（西班牙語：Estado Trujillo）是委內瑞拉西部的一個州，西北臨馬拉開波湖。面積7,400平方公里，2007年人口711,400人。首府特魯希略。 1899年建州。下分二十個自治市。",
+      "lat": "9.417",
+      "lng": "-70.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-naped-antpitta-efe18509",
+      "subject": "Grey-naped antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-梅里达州-6474ae50",
+      "object": "梅里达州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies is found in south-central Mérida and eastern Trujillo states",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-naped-antpitta-efe18509",
+      "subject": "Grey-naped antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-特鲁希略州-0375b35b",
+      "object": "特鲁希略州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The nominate subspecies is found in south-central Mérida and eastern Trujillo states",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-naped-antpitta-efe18509",
+      "subject": "Grey-naped antpitta",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits the floor and undergrowth of humid, mossy, montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-grey-naped-antpitta-efe18509",
+      "subject": "Grey-naped antpitta",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

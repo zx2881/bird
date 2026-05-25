@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:51:53",
+  "requested_title": "Monte Yellow Finch",
+  "resolved_title": "Monte yellow finch",
+  "title_aliases": [
+    "Monte Yellow Finch"
+  ],
+  "bird_id": "bird-monte-yellow-finch-0ee7919f",
+  "raw_file": "bird-monte-yellow-finch-0ee7919f.json",
+  "bird": {
+    "id": "bird-monte-yellow-finch-0ee7919f",
+    "name": "Monte yellow finch",
+    "english_name": "Monte yellow finch",
+    "latin_name": "Sicalis mendozae",
+    "summary": "The Monte Yellow Finch(Sicalis mendozae) is a species of bird in the family Thraupidae. The Monte Yellow Finch is found in the Monte Desert…",
+    "lat": "-28.46888889",
+    "lng": "-65.77916667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sicalis_mendozae_-_Monte_Yellow-Finch_%28cropped%29.jpg/960px-Sicalis_mendozae_-_Monte_Yellow-Finch_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡塔马卡省-81ac1e0e",
+      "name": "卡塔马卡省",
+      "summary": "卡塔马卡省（Catamarca）為南美國家阿根廷二十三省之一，位於阿根廷西北部，首府為卡塔马卡（San Fernando del Valle de Catamarca）。 參考文獻",
+      "lat": "-28.46888889",
+      "lng": "-65.77916667"
+    },
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    },
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-monte-yellow-finch-0ee7919f",
+      "subject": "Monte yellow finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡塔马卡省-81ac1e0e",
+      "object": "卡塔马卡省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Monte Yellow Finch is found in the Monte Desert in the Catamarca Province of Argentina.{{Cite journal |last1=del Hoyo |first1=Josep |last2=Collar |first2=Nigel |last3=Kirwan |first3=Guy M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-monte-yellow-finch-0ee7919f",
+      "subject": "Monte yellow finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Monte Yellow Finch is found in the Monte Desert in the Catamarca Province of Argentina.{{Cite journal |last1=del Hoyo |first1=Josep |last2=Collar |first2=Nigel |last3=Kirwan |first3=Guy M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-monte-yellow-finch-0ee7919f",
+      "subject": "Monte yellow finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The most common shrub they can be found in the Monte Desert is the creosote Larrea cuneifolia. It is a common shrub-type bush found in South America with yellow or white flowers, on which the Monte Yellow Finch can often be found perched",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-monte-yellow-finch-0ee7919f",
+      "subject": "Monte yellow finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

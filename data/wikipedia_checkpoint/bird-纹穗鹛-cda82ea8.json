@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:03:14",
+  "requested_title": "Luzon Striped Babbler",
+  "resolved_title": "Luzon striped babbler",
+  "title_aliases": [
+    "Luzon Striped Babbler"
+  ],
+  "bird_id": "bird-纹穗鹛-cda82ea8",
+  "raw_file": "bird-纹穗鹛-cda82ea8.json",
+  "bird": {
+    "id": "bird-纹穗鹛-cda82ea8",
+    "name": "纹穗鹛",
+    "english_name": "Luzon striped babbler",
+    "latin_name": "Zosterornis striatus",
+    "summary": "纹穗鹛（学名：Stachyris striata），是画眉科穗鹛属的一种，为菲律宾的特有种。该物种的保护状况被评为近危。 其种加词“striata”意为“有条纹的”。",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Luzon_Striped-babbler.jpg/960px-Luzon_Striped-babbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-呂宋-58363350",
+      "name": "呂宋",
+      "summary": "呂宋（他加祿語：Luzon；白話字：Lū-sòng）是菲律賓最大的島，也是世界第15大島，面積109,965平方公里。呂宋島位於菲律賓北部，是首都馬尼拉的所在地。呂宋島在台灣南方，米沙鄢群島北方，南海東方，菲律宾海西方。《劍橋百科》介紹：…",
+      "lat": "16",
+      "lng": "121"
+    },
+    {
+      "id": "loc-巴丹省-97bbe7e9",
+      "name": "巴丹省",
+      "summary": "巴丹省（英語：Bataan Province）是菲律宾吕宋岛西部的一个省份，属中吕宋大区，主体位于巴丹半岛，东为马尼拉湾，西为南海，首府為巴朗牙（Balanga）。 巴丹省面积1373平方公里，人口760,650人（2015年）。巴丹省因…",
+      "lat": "14.68",
+      "lng": "120.45"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-纹穗鹛-cda82ea8",
+      "subject": "纹穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines, where it is only found in northern Luzon and in Bataan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹穗鹛-cda82ea8",
+      "subject": "纹穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-呂宋-58363350",
+      "object": "呂宋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines, where it is only found in northern Luzon and in Bataan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹穗鹛-cda82ea8",
+      "subject": "纹穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴丹省-97bbe7e9",
+      "object": "巴丹省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines, where it is only found in northern Luzon and in Bataan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-纹穗鹛-cda82ea8",
+      "subject": "纹穗鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-纹穗鹛-cda82ea8",
+      "subject": "纹穗鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-纹穗鹛-cda82ea8",
+      "subject": "纹穗鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

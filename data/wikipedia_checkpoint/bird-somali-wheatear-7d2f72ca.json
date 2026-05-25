@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:30:01",
+  "requested_title": "Somali Wheatear",
+  "resolved_title": "Somali wheatear",
+  "title_aliases": [
+    "Somali Wheatear"
+  ],
+  "bird_id": "bird-somali-wheatear-7d2f72ca",
+  "raw_file": "bird-somali-wheatear-7d2f72ca.json",
+  "bird": {
+    "id": "bird-somali-wheatear-7d2f72ca",
+    "name": "Somali wheatear",
+    "english_name": "Somali wheatear",
+    "latin_name": "Oenanthe phillipsi",
+    "summary": "The Somali wheatear (Oenanthe phillipsi) is a species of bird in the family Muscicapidae. It is found in northeast Ethiopia and northeast S…",
+    "lat": "9",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Oenanthe_phillipsi_-_Ahmed_Awale_-_600015381.jpeg/960px-Oenanthe_phillipsi_-_Ahmed_Awale_-_600015381.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-索马里-5b5a7d76",
+      "name": "索马里",
+      "summary": "索馬里联邦共和国（索馬里語：Jamhuuriyadda Federaalka Soomaaliya；阿拉伯語：جمهورية الصومال الفدرالية，Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya；英語…",
+      "lat": "10",
+      "lng": "49"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-somali-wheatear-7d2f72ca",
+      "subject": "Somali wheatear",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northeast Ethiopia and northeast Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-somali-wheatear-7d2f72ca",
+      "subject": "Somali wheatear",
+      "predicate": "distributed_in",
+      "object_id": "loc-索马里-5b5a7d76",
+      "object": "索马里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northeast Ethiopia and northeast Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-somali-wheatear-7d2f72ca",
+      "subject": "Somali wheatear",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

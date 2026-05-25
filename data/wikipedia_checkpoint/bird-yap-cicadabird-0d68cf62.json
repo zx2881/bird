@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:13:52",
+  "requested_title": "Yap Cicadabird",
+  "resolved_title": "Yap cicadabird",
+  "title_aliases": [
+    "Yap Cicadabird"
+  ],
+  "bird_id": "bird-yap-cicadabird-0d68cf62",
+  "raw_file": "bird-yap-cicadabird-0d68cf62.json",
+  "bird": {
+    "id": "bird-yap-cicadabird-0d68cf62",
+    "name": "Yap cicadabird",
+    "english_name": "Yap cicadabird",
+    "latin_name": "Edolisoma nesiotis",
+    "summary": "The Yap cicadabird (Edolisoma nesiotis), sometimes considered to be a distinctive subspecies of the common cicadabird, is a species of bird…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Yap_Cicadabird.jpg/960px-Yap_Cicadabird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "name": "熱帶和亞熱帶旱生闊葉林",
+      "summary": "热带及亚热带旱生阔叶林（英語：tropical and subtropical dry broadleaf forests），简称旱生林（dry forest）是一种WWF定义的栖地生境并用来命名以此为代表的生物群系。其所需的气候类型较常…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yap-cicadabird-0d68cf62",
+      "subject": "Yap cicadabird",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶旱生闊葉林-dbaa79b4",
+      "object": "熱帶和亞熱帶旱生闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the dry tropical forest there",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yap-cicadabird-0d68cf62",
+      "subject": "Yap cicadabird",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

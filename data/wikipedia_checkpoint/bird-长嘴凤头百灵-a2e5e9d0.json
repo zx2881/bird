@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:48:21",
+  "requested_title": "Large-billed Lark",
+  "resolved_title": "Large-billed lark",
+  "title_aliases": [
+    "Large-billed Lark"
+  ],
+  "bird_id": "bird-长嘴凤头百灵-a2e5e9d0",
+  "raw_file": "bird-长嘴凤头百灵-a2e5e9d0.json",
+  "bird": {
+    "id": "bird-长嘴凤头百灵-a2e5e9d0",
+    "name": "长嘴凤头百灵",
+    "english_name": "Large-billed lark",
+    "latin_name": "Galerida magnirostris",
+    "summary": "长嘴凤头百灵（学名：Galerida magnirostris），是百灵科凤头百灵属的一种，分布于纳米比亚、莱索托和南非。全球活动范围约为697,000平方千米。该物种的保护状况被评为无危。 长嘴凤头百灵的平均体重约为41.8克。栖息地包括亚热带或热带的（低地）干燥疏灌丛、牧草…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Galerida_magnirostris_magnirostris%2C_De_Hoop-natuurreservaat%2C_Birding_Weto%2C_a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-james-francis-stephens-3e4b15de",
+      "name": "James Francis Stephens",
+      "summary": "James Francis Stephens (16 September 1792 – 22 December 1852) was an English entomologist and naturalist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-长嘴凤头百灵-a2e5e9d0",
+      "subject": "长嘴凤头百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-james-francis-stephens-3e4b15de",
+      "object": "James Francis Stephens",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|year=2024 |title=Galerida magnirostris |volume=2024 |article-number=e.T22717402A263833178 |doi=10.2305/IUCN.UK.2024-2.RLTS.T22717402A263833178.en |access-date=2 August 2025}} | genus = Galerida | species = magnirostris | authority = (Stephens, 1826) | subdivision_ranks = Subspecies | subdivision = See text | range_map = Galerida magnirostris distribution map.png | range_map_caption = | synonyms = * Alauda magnirostris * Calendula magnirostris * Galerida crassirostris }} The large-billed lark or southern thick-billed lark (Galerida magnirostris) is a small passerine bird found in southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-长嘴凤头百灵-a2e5e9d0",
+      "subject": "长嘴凤头百灵",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is fynbos, karoo scrub and mountain grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-长嘴凤头百灵-a2e5e9d0",
+      "subject": "长嘴凤头百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

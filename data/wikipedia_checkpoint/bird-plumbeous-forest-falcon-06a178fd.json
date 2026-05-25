@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:22:19",
+  "requested_title": "Plumbeous Forest Falcon",
+  "resolved_title": "Plumbeous forest falcon",
+  "title_aliases": [
+    "Plumbeous Forest Falcon"
+  ],
+  "bird_id": "bird-plumbeous-forest-falcon-06a178fd",
+  "raw_file": "bird-plumbeous-forest-falcon-06a178fd.json",
+  "bird": {
+    "id": "bird-plumbeous-forest-falcon-06a178fd",
+    "name": "Plumbeous forest falcon",
+    "english_name": "Plumbeous forest falcon",
+    "latin_name": "Micrastur plumbeus",
+    "summary": "The plumbeous forest-falcon (Micrastur plumbeus) is a bird of prey in the family Falconidae only found in the Chocó region in Colombia and…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/MicrasturPlumbeusGronvold.jpg/960px-MicrasturPlumbeusGronvold.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-william-lutley-sclater-cf13974e",
+      "name": "William Lutley Sclater",
+      "summary": "William Lutley Sclater (23 September 1863 – 4 July 1944) was a British zoologist and museum director.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-plumbeous-forest-falcon-06a178fd",
+      "subject": "Plumbeous forest falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-william-lutley-sclater-cf13974e",
+      "object": "William Lutley Sclater",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The plumbeous forest-falcon (Micrastur plumbeus) is a bird of prey in the family Falconidae only found in the Chocó region in Colombia and Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-plumbeous-forest-falcon-06a178fd",
+      "subject": "Plumbeous forest falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The plumbeous forest-falcon (Micrastur plumbeus) is a bird of prey in the family Falconidae only found in the Chocó region in Colombia and Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-plumbeous-forest-falcon-06a178fd",
+      "subject": "Plumbeous forest falcon",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The plumbeous forest-falcon (Micrastur plumbeus) is a bird of prey in the family Falconidae only found in the Chocó region in Colombia and Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-plumbeous-forest-falcon-06a178fd",
+      "subject": "Plumbeous forest falcon",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-plumbeous-forest-falcon-06a178fd",
+      "subject": "Plumbeous forest falcon",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "D.|last3=Marks|first3=Jeffrey S.|date=2020-03-04|title=Plumbeous Forest-Falcon (Micrastur plumbeus)|url=https://birdsoftheworld.org/bow/species/plffal1/cur/introduction|journal=Birds of the World|language=en}} It is currently considered a vulnerable species because of the precarity of its habitat that is threatened by deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-plumbeous-forest-falcon-06a178fd",
+      "subject": "Plumbeous forest falcon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species has been classified as vulnerable by the IUCN because of habitat loss. Deforestation is touching more territories and the plumbeous forest-falcon's habitat is being destructed",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

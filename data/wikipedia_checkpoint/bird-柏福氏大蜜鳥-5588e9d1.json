@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:04:22",
+  "requested_title": "Belford's Melidectes",
+  "resolved_title": "Belford's melidectes",
+  "title_aliases": [
+    "Belford's Melidectes"
+  ],
+  "bird_id": "bird-柏福氏大蜜鳥-5588e9d1",
+  "raw_file": "bird-柏福氏大蜜鳥-5588e9d1.json",
+  "bird": {
+    "id": "bird-柏福氏大蜜鳥-5588e9d1",
+    "name": "柏福氏大蜜鳥",
+    "english_name": "Belford's melidectes",
+    "latin_name": "Melidectes belfordi",
+    "summary": "柏福氏大蜜鳥（學名：Melidectes belfordi），是屬於吸蜜鳥科的鳥類，發現於新幾內亞，棲息在亞熱帶或熱帶的山地雨林。 其種小名belfordi是為了紀念一位薩摩亞族的酋長的兒子喬治‧貝爾福德（George Belford），該酋長曾於19世紀末英國統治新幾內亞時期…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Belford%27s_Melidectes%2C_Kumul_Lodge%2C_PNG_%285939532323%29.jpg/960px-Belford%27s_Melidectes%2C_Kumul_Lodge%2C_PNG_%285939532323%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞高地-05e346ed",
+      "name": "新幾內亞高地",
+      "summary": "新几内亚高地是新幾內亞島上的山脉。其最高点为印度尼西亚境内的查亞峰，海拔4,884米（16,024英尺），同时也是大洋洲的最高峰。该山脉大致呈东西走向横贯全岛，西起印度尼西亞温达马湾县，向东一直延伸至巴布亞新幾內亞米爾恩灣省。 参考文献",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-柏福氏大蜜鳥-5588e9d1",
+      "subject": "柏福氏大蜜鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞高地-05e346ed",
+      "object": "新幾內亞高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the New Guinea Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-柏福氏大蜜鳥-5588e9d1",
+      "subject": "柏福氏大蜜鳥",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-柏福氏大蜜鳥-5588e9d1",
+      "subject": "柏福氏大蜜鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

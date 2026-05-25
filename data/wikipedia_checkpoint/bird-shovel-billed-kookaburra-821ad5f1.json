@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:45:03",
+  "requested_title": "Shovel-billed Kookaburra",
+  "resolved_title": "Shovel-billed kookaburra",
+  "title_aliases": [
+    "Shovel-billed Kookaburra"
+  ],
+  "bird_id": "bird-shovel-billed-kookaburra-821ad5f1",
+  "raw_file": "bird-shovel-billed-kookaburra-821ad5f1.json",
+  "bird": {
+    "id": "bird-shovel-billed-kookaburra-821ad5f1",
+    "name": "Shovel-billed kookaburra",
+    "english_name": "Shovel-billed kookaburra",
+    "latin_name": "Dacelo rex",
+    "summary": "The shovel-billed kookaburra (Dacelo rex), also known as the shovel-billed kingfisher, is a large, approximately 33 cm (13 in) long, dark b…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Shovel-billed_Kingfisher.jpg/960px-Shovel-billed_Kingfisher.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海平面-96b1a973",
+      "name": "海平面",
+      "summary": "海平面（英語：Sea level）是地球單一或多個海洋表面的平均水平，由此可以測量諸如海拔等高度。平均海平面（MSL）是一種垂直基準，一個標準化的大地測量參考點。例如製圖和航海中的海圖基準面，或是航空中測量標準海平面的大氣壓力，以便校準飛…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-shovel-billed-kookaburra-821ad5f1",
+      "subject": "Shovel-billed kookaburra",
+      "predicate": "distributed_in",
+      "object_id": "loc-海平面-96b1a973",
+      "object": "海平面",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Pratt|title=Birds of New Guinea: Distribution, Taxonomy, and Systematics |url=https://books.google.com/books?id=wRR1CwAAQBAJ&pg=PA226 |year=2016 |publisher=Princeton University Press|isbn=978-1-4008-8071-3|pages=226–227}} It primarily occurs in hill forests, but has been recorded from sea-level up to an altitude of 2400&nbsp;m (7850&nbsp;ft). The shovel-billed kookaburra finds its food in mud or on moist ground",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-shovel-billed-kookaburra-821ad5f1",
+      "subject": "Shovel-billed kookaburra",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

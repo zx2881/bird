@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:30:20",
+  "requested_title": "Russet-mantled Softtail",
+  "resolved_title": "Russet-mantled softtail",
+  "title_aliases": [
+    "Russet-mantled Softtail"
+  ],
+  "bird_id": "bird-russet-mantled-softtail-9d782e1d",
+  "raw_file": "bird-russet-mantled-softtail-9d782e1d.json",
+  "bird": {
+    "id": "bird-russet-mantled-softtail-9d782e1d",
+    "name": "Russet-mantled softtail",
+    "english_name": "Russet-mantled softtail",
+    "latin_name": "Cranioleuca berlepschi",
+    "summary": "The russet-mantled softtail (Cranioleuca berlepschi) is a Near Threatened species of bird in the Furnariinae subfamily of the ovenbird fami…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Thripophaga_berlepschi_-_Russet-mantled_Softtail_%28cropped%29.jpg/960px-Thripophaga_berlepschi_-_Russet-mantled_Softtail_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-russet-mantled-softtail-9d782e1d",
+      "subject": "Russet-mantled softtail",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits elfin forest and the edge of humid montane forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-russet-mantled-softtail-9d782e1d",
+      "subject": "Russet-mantled softtail",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits elfin forest and the edge of humid montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-russet-mantled-softtail-9d782e1d",
+      "subject": "Russet-mantled softtail",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

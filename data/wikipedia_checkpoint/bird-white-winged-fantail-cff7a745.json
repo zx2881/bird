@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:43:02",
+  "requested_title": "White-winged Fantail",
+  "resolved_title": "White-winged fantail",
+  "title_aliases": [
+    "White-winged Fantail"
+  ],
+  "bird_id": "bird-white-winged-fantail-cff7a745",
+  "raw_file": "bird-white-winged-fantail-cff7a745.json",
+  "bird": {
+    "id": "bird-white-winged-fantail-cff7a745",
+    "name": "White-winged fantail",
+    "english_name": "White-winged fantail",
+    "latin_name": "Rhipidura cockerelli",
+    "summary": "The white-winged fantail (Rhipidura cockerelli) or Cockerell's fantail, is a species of bird in the family Rhipiduridae. It is found in the…",
+    "lat": "-8",
+    "lng": "159",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Rhipidura_cockerelli_-_The_Birds_of_New_Guinea_%28cropped%29.jpg/960px-Rhipidura_cockerelli_-_The_Birds_of_New_Guinea_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-所羅門群島-群島-4708e5d6",
+      "name": "所羅門群島 (群島)",
+      "summary": "所羅門群島是太平洋西南面的群島，位於澳大利亞東北方的美拉尼西亞（Melanesia）地區。西隔所羅門海與新幾內亞、俾斯麥群島相鄰。 政治上分屬兩個政治實體： 所罗门群岛，領土範圍為大部分的索羅門群島（28,896 km²，660,121人…",
+      "lat": "-8",
+      "lng": "159"
+    },
+    {
+      "id": "loc-馬萊塔島-0593256b",
+      "name": "馬萊塔島",
+      "summary": "馬萊塔島是所羅門群島馬萊塔省最大的小島，西北至東南的長度約164公里，最大闊度約23公里，東北和東面是太平洋，西北有聖伊莎貝爾島，人口140,000。馬萊塔島處於環太平洋火山帶，經常發生地震，但火山活動並不活躍。",
+      "lat": "-9.0175",
+      "lng": "160.95388889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-winged-fantail-cff7a745",
+      "subject": "White-winged fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-所羅門群島-群島-4708e5d6",
+      "object": "所羅門群島 (群島)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Solomon Islands apart from the island of Malaita in the southeast of the archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-fantail-cff7a745",
+      "subject": "White-winged fantail",
+      "predicate": "distributed_in",
+      "object_id": "loc-馬萊塔島-0593256b",
+      "object": "馬萊塔島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Solomon Islands apart from the island of Malaita in the southeast of the archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-winged-fantail-cff7a745",
+      "subject": "White-winged fantail",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-white-winged-fantail-cff7a745",
+      "subject": "White-winged fantail",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

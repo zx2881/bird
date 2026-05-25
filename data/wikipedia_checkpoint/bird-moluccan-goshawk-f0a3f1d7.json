@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:42:43",
+  "requested_title": "Moluccan Goshawk",
+  "resolved_title": "Moluccan goshawk",
+  "title_aliases": [
+    "Moluccan Goshawk"
+  ],
+  "bird_id": "bird-moluccan-goshawk-f0a3f1d7",
+  "raw_file": "bird-moluccan-goshawk-f0a3f1d7.json",
+  "bird": {
+    "id": "bird-moluccan-goshawk-f0a3f1d7",
+    "name": "Moluccan goshawk",
+    "english_name": "Moluccan goshawk",
+    "latin_name": "Tachyspiza henicogramma",
+    "summary": "The Moluccan goshawk or Halmaheran goshawk (Tachyspiza henicogramma) is a species of bird of prey in the family Accipitridae. This species…",
+    "lat": "1.15",
+    "lng": "128.26666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Accipiter_henicogrammus_107893524_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿凱塔賈維-洛洛巴塔國家公園-52d2d0c0",
+      "name": "阿凱塔賈維-洛洛巴塔國家公園",
+      "summary": "阿凱塔賈維-洛洛巴塔國家公園（印尼語：Taman Nasional Aketajawe-Lolobata, TNAL）是位於印尼東部北馬魯古省最大島嶼哈馬黑拉島的國家公園，成立於2004年，面積1,673平方公里。國際鳥盟認為該地區對至少…",
+      "lat": "1.15",
+      "lng": "128.26666667"
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-moluccan-goshawk-f0a3f1d7",
+      "subject": "Moluccan goshawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was reported that they could be found in secondary forests but during a survey of Aketajawe Lolobata National Park, all sightings were from primary forests.Bashari, H",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moluccan-goshawk-f0a3f1d7",
+      "subject": "Moluccan goshawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿凱塔賈維-洛洛巴塔國家公園-52d2d0c0",
+      "object": "阿凱塔賈維-洛洛巴塔國家公園",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was reported that they could be found in secondary forests but during a survey of Aketajawe Lolobata National Park, all sightings were from primary forests.Bashari, H",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moluccan-goshawk-f0a3f1d7",
+      "subject": "Moluccan goshawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was reported that they could be found in secondary forests but during a survey of Aketajawe Lolobata National Park, all sightings were from primary forests.Bashari, H",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moluccan-goshawk-f0a3f1d7",
+      "subject": "Moluccan goshawk",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-moluccan-goshawk-f0a3f1d7",
+      "subject": "Moluccan goshawk",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "These threats lead to ecosystem conversion and degradation. The primary threats to the species are related to habitat loss through commercial logging for timber, and clearance for shifting agriculture, mining, settlements and plantations of coconut, clove, nutmeg and timber species.Vetter, J",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-moluccan-goshawk-f0a3f1d7",
+      "subject": "Moluccan goshawk",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "These threats lead to ecosystem conversion and degradation. The primary threats to the species are related to habitat loss through commercial logging for timber, and clearance for shifting agriculture, mining, settlements and plantations of coconut, clove, nutmeg and timber species.Vetter, J",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

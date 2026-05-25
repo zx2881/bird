@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:40:16",
+  "requested_title": "Emperor Fairywren",
+  "resolved_title": "Emperor fairywren",
+  "title_aliases": [
+    "Emperor Fairywren"
+  ],
+  "bird_id": "bird-emperor-fairywren-761bfe2d",
+  "raw_file": "bird-emperor-fairywren-761bfe2d.json",
+  "bird": {
+    "id": "bird-emperor-fairywren-761bfe2d",
+    "name": "Emperor fairywren",
+    "english_name": "Emperor fairywren",
+    "latin_name": "Malurus cyanocephalus",
+    "summary": "The emperor fairywren (Malurus cyanocephalus) is a species of bird in the Australasian wren family, Maluridae. It is found in New Guinea in…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Emperor_Fairywren_female_0A2A1738.jpg/960px-Emperor_Fairywren_female_0A2A1738.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-emperor-fairywren-761bfe2d",
+      "subject": "Emperor fairywren",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea in its natural habitat of subtropical or tropical moist lowland forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-emperor-fairywren-761bfe2d",
+      "subject": "Emperor fairywren",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea in its natural habitat of subtropical or tropical moist lowland forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-emperor-fairywren-761bfe2d",
+      "subject": "Emperor fairywren",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in tropical lowland, forests, wetlands, and degraded former forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-emperor-fairywren-761bfe2d",
+      "subject": "Emperor fairywren",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in tropical lowland, forests, wetlands, and degraded former forests",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-emperor-fairywren-761bfe2d",
+      "subject": "Emperor fairywren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

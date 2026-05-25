@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:17:25",
+  "requested_title": "Arabian Serin",
+  "resolved_title": "Arabian serin",
+  "title_aliases": [
+    "Arabian Serin"
+  ],
+  "bird_id": "bird-arabian-serin-9d0a2b80",
+  "raw_file": "bird-arabian-serin-9d0a2b80.json",
+  "bird": {
+    "id": "bird-arabian-serin-9d0a2b80",
+    "name": "Arabian serin",
+    "english_name": "Arabian serin",
+    "latin_name": "Crithagra rothschildi",
+    "summary": "The Arabian serin (Crithagra rothschildi), also known as the olive-rumped serin, is a species of finch in the family Fringillidae. It is na…",
+    "lat": "18.26722222",
+    "lng": "42.36805556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Arabian_Serin.jpg/960px-Arabian_Serin.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-沙拉瓦特山脈-7212be00",
+      "name": "沙拉瓦特山脈",
+      "summary": "沙拉瓦特山脈（阿拉伯語：جِبَالُ ٱلسَّرَوَاتِ，羅馬化：Jibāl as-Sarawāt）是阿拉伯半島西部的一座山脈，橫跨沙烏地阿拉伯西南部以及葉門西北部，與紅海之間隔著狹窄的帖哈麥平原。 沙拉瓦特山脈的最高點是位於葉門…",
+      "lat": "18.26722222",
+      "lng": "42.36805556"
+    },
+    {
+      "id": "loc-沙特阿拉伯-bb57c647",
+      "name": "沙特阿拉伯",
+      "summary": "沙烏地阿拉伯王國（阿拉伯語：المملكة العربية السعودية，羅馬化：al-Mamlakah ʿArabīyah as-Suʿūdīyah，），簡稱沙烏地阿拉伯或沙烏地（السُّعُودِيَّة），是位於西亞阿拉伯半島…",
+      "lat": "24",
+      "lng": "45"
+    },
+    {
+      "id": "loc-也门-80b75a25",
+      "name": "也门",
+      "summary": "也門共和國（阿拉伯語：الجمهورية اليمنية，al-Jumhūriyyah al-Yamaniyyah），通稱葉門（阿拉伯語：اليمن，羅馬化：al-Yaman），為西亞國家，位於阿拉伯半島西南角、阿拉伯海與紅海交界處，與阿…",
+      "lat": "15.34833333",
+      "lng": "44.20638889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-arabian-serin-9d0a2b80",
+      "subject": "Arabian serin",
+      "predicate": "distributed_in",
+      "object_id": "loc-沙拉瓦特山脈-7212be00",
+      "object": "沙拉瓦特山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Sarawat Mountains of western Saudi Arabia and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-arabian-serin-9d0a2b80",
+      "subject": "Arabian serin",
+      "predicate": "distributed_in",
+      "object_id": "loc-沙特阿拉伯-bb57c647",
+      "object": "沙特阿拉伯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Sarawat Mountains of western Saudi Arabia and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-arabian-serin-9d0a2b80",
+      "subject": "Arabian serin",
+      "predicate": "distributed_in",
+      "object_id": "loc-也门-80b75a25",
+      "object": "也门",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Sarawat Mountains of western Saudi Arabia and Yemen",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-arabian-serin-9d0a2b80",
+      "subject": "Arabian serin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

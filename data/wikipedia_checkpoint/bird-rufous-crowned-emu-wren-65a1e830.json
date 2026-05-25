@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:39:27",
+  "requested_title": "Rufous-crowned Emu-wren",
+  "resolved_title": "Rufous-crowned emu-wren",
+  "title_aliases": [
+    "Rufous-crowned Emu-wren"
+  ],
+  "bird_id": "bird-rufous-crowned-emu-wren-65a1e830",
+  "raw_file": "bird-rufous-crowned-emu-wren-65a1e830.json",
+  "bird": {
+    "id": "bird-rufous-crowned-emu-wren-65a1e830",
+    "name": "Rufous-crowned emu-wren",
+    "english_name": "Rufous-crowned emu-wren",
+    "latin_name": "Stipiturus ruficeps",
+    "summary": "The rufous-crowned emu-wren (Stipiturus ruficeps) is a species of bird in the Australasian wren family, Maluridae. It is endemic to Austral…",
+    "lat": "-24.57",
+    "lng": "137.42",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Stipiturus_ruficeps_67721060.jpg/960px-Stipiturus_ruficeps_67721060.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-辛普森沙漠-5aba1fe5",
+      "name": "辛普森沙漠",
+      "summary": "辛普森沙漠（英語：Simpson Desert）位于澳大利亚中部，面积约176500平方公里。它包含澳洲北领地、南澳州和昆士兰州的一些地区，向西与Finke河和Mabel山脉相邻，北为Adam山脉，东为Georgina河和Diamanti…",
+      "lat": "-24.57",
+      "lng": "137.42"
+    },
+    {
+      "id": "loc-巴克利高原-4661d452",
+      "name": "巴克利高原",
+      "summary": "巴克利高原（Barkly Tableland）是澳大利亞北領地的一個高原地區，位於北領地東部，靠近昆士蘭州西部Australia and covers。巴克利高原也是北領地的五個區域之一，占地面积约283,648 km2，相当于北領地21…",
+      "lat": "-19.64722222",
+      "lng": "134.19027778"
+    },
+    {
+      "id": "loc-皮尔巴拉-ede8bd3c",
+      "name": "皮尔巴拉",
+      "summary": "皮尔巴拉（英語：Pilbara，/ˈpɪlbərə/）是澳洲西澳州北部的一个面积广大、人口稀少的区域，以境内丰富的铁矿藏而闻名。该区域主要为半干和干燥气候，常年高温，降雨无常，并时常受到夏季气旋的袭击。此處也是地下动物全球生物多樣性熱點。…",
+      "lat": "-21",
+      "lng": "119"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-crowned-emu-wren-65a1e830",
+      "subject": "Rufous-crowned emu-wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-辛普森沙漠-5aba1fe5",
+      "object": "辛普森沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The rufous-crowned emu-wren is found across the arid interior of northern central Australia, from the Simpson Desert in the southeast and Barkly Tableland in the northeast, across the centre to the Western Australian coast and the Pilbara in the northwest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-crowned-emu-wren-65a1e830",
+      "subject": "Rufous-crowned emu-wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴克利高原-4661d452",
+      "object": "巴克利高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The rufous-crowned emu-wren is found across the arid interior of northern central Australia, from the Simpson Desert in the southeast and Barkly Tableland in the northeast, across the centre to the Western Australian coast and the Pilbara in the northwest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-crowned-emu-wren-65a1e830",
+      "subject": "Rufous-crowned emu-wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-皮尔巴拉-ede8bd3c",
+      "object": "皮尔巴拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The rufous-crowned emu-wren is found across the arid interior of northern central Australia, from the Simpson Desert in the southeast and Barkly Tableland in the northeast, across the centre to the Western Australian coast and the Pilbara in the northwest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-crowned-emu-wren-65a1e830",
+      "subject": "Rufous-crowned emu-wren",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It lives in spinifex shrubland",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-rufous-crowned-emu-wren-65a1e830",
+      "subject": "Rufous-crowned emu-wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

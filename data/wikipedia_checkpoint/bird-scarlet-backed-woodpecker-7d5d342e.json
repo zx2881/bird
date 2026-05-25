@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:21:20",
+  "requested_title": "Scarlet-backed Woodpecker",
+  "resolved_title": "Scarlet-backed woodpecker",
+  "title_aliases": [
+    "Scarlet-backed Woodpecker"
+  ],
+  "bird_id": "bird-scarlet-backed-woodpecker-7d5d342e",
+  "raw_file": "bird-scarlet-backed-woodpecker-7d5d342e.json",
+  "bird": {
+    "id": "bird-scarlet-backed-woodpecker-7d5d342e",
+    "name": "Scarlet-backed woodpecker",
+    "english_name": "Scarlet-backed woodpecker",
+    "latin_name": "Veniliornis callonotus",
+    "summary": "The scarlet-backed woodpecker (Veniliornis callonotus) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is fo…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Scarlet-backed_Woodpecker_-_Ecuador_S4E7608.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-托海-870bdffe",
+      "name": "托海",
+      "summary": "托喀依（维吾尔老文字：توقاي‎，拉丁维吾尔文：toqay，拼音字母：tok̂ay；尉犁维吾尔语及柯尔克孜语称托阔依 توقوي tok̂oy，尉犁音：[tʰoqʰo̞j]），作为沙漠绿色走廊是一种主要分布于内流河湾处的乔、灌、草及胡杨…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-scarlet-backed-woodpecker-7d5d342e",
+      "subject": "Scarlet-backed woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-托海-870bdffe",
+      "object": "托海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits arid scrublands, dry deciduous woodland, semi-humid forest, dense riparian forest, and sometimes partially cleared areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scarlet-backed-woodpecker-7d5d342e",
+      "subject": "Scarlet-backed woodpecker",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits arid scrublands, dry deciduous woodland, semi-humid forest, dense riparian forest, and sometimes partially cleared areas",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-scarlet-backed-woodpecker-7d5d342e",
+      "subject": "Scarlet-backed woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

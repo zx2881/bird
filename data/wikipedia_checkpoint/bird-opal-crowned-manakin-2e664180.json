@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:15:45",
+  "requested_title": "Opal-crowned Manakin",
+  "resolved_title": "Opal-crowned manakin",
+  "title_aliases": [
+    "Opal-crowned Manakin"
+  ],
+  "bird_id": "bird-opal-crowned-manakin-2e664180",
+  "raw_file": "bird-opal-crowned-manakin-2e664180.json",
+  "bird": {
+    "id": "bird-opal-crowned-manakin-2e664180",
+    "name": "Opal-crowned manakin",
+    "english_name": "Opal-crowned manakin",
+    "latin_name": "Lepidothrix iris",
+    "summary": "The opal-crowned manakin (Lepidothrix iris) is a Vulnerable species of bird in the family Pipridae. It is endemic to Brazil.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Lepidothrix_iris_-_Opal-crowned_Manakin_%28male%29%3B_Carajas_National_Forest%2C_Par%C3%A1%2C_Brazil.jpg/960px-Lepidothrix_iris_-_Opal-crowned_Manakin_%28male%29%3B_Carajas_National_Forest%2C_Par%C3%A1%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-opal-crowned-manakin-2e664180",
+      "subject": "Opal-crowned manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits humid lowland terra firme forest and mature secondary woodland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-opal-crowned-manakin-2e664180",
+      "subject": "Opal-crowned manakin",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits humid lowland terra firme forest and mature secondary woodland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-opal-crowned-manakin-2e664180",
+      "subject": "Opal-crowned manakin",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-opal-crowned-manakin-2e664180",
+      "subject": "Opal-crowned manakin",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The species is threatened by continuing deforestation as land is cleared for cattle ranching and soy production, facilitated by expansion of the road network...Recent changes to environmental policy in Brazil are seemingly incentivizing farmers to clear more land, and the rate of clear-fell deforestation and wildfire intensity in Brazilian Amazonia have increased since 2018.\" It is considered \"[u]ncommon or rare to locally fairly common\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-opal-crowned-manakin-2e664180",
+      "subject": "Opal-crowned manakin",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Since it appears to tolerate a degree of habitat degradation, its population is projected to decline by 30–69% or more over three generations.\" It occurs in a few protected areas",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

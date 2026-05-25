@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:41:24",
+  "requested_title": "Kordofan Lark",
+  "resolved_title": "Kordofan lark",
+  "title_aliases": [
+    "Kordofan Lark"
+  ],
+  "bird_id": "bird-金歌百灵-e9ccbebb",
+  "raw_file": "bird-金歌百灵-e9ccbebb.json",
+  "bird": {
+    "id": "bird-金歌百灵-e9ccbebb",
+    "name": "金歌百灵",
+    "english_name": "Kordofan lark",
+    "latin_name": "Mirafra cordofanica",
+    "summary": "金歌百灵（学名：Mirafra cordofanica），是百灵科歌百灵属的一种，分布于马里、尼日尔、毛里塔尼亚、苏丹、布基纳法索、塞内加尔和乍得。全球活动范围约为1,880,000平方千米。该物种的保护状况被评为无危。 金歌百灵的栖息地包括亚热带或热带的（低地）干草原和亚热带…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/MirafraCordonfanicaWolf.jpg/960px-MirafraCordonfanicaWolf.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-hugh-edwin-strickland-4cc3f28e",
+      "name": "Hugh Edwin Strickland",
+      "summary": "Hugh Edwin Strickland (2 March 1811 – 14 September 1853) was an English geologist, ornithologist, naturalist and system…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金歌百灵-e9ccbebb",
+      "subject": "金歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-hugh-edwin-strickland-4cc3f28e",
+      "object": "Hugh Edwin Strickland",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Kordofan lark (Mirafra cordofanica) is a species of lark in the family Alaudidae found in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金歌百灵-e9ccbebb",
+      "subject": "金歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

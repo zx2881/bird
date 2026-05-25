@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:43:38",
+  "requested_title": "Sumatran Flowerpecker",
+  "resolved_title": "Sumatran flowerpecker",
+  "title_aliases": [
+    "Sumatran Flowerpecker"
+  ],
+  "bird_id": "bird-sumatran-flowerpecker-7a5a99b6",
+  "raw_file": "bird-sumatran-flowerpecker-7a5a99b6.json",
+  "bird": {
+    "id": "bird-sumatran-flowerpecker-7a5a99b6",
+    "name": "Sumatran flowerpecker",
+    "english_name": "Sumatran flowerpecker",
+    "latin_name": "Dicaeum beccarii",
+    "summary": "The Sumatran flowerpecker (Dicaeum beccarii) is a species of bird in the family Dicaeidae that is found in montane Sumatra. It was formerly…",
+    "lat": "0",
+    "lng": "102",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-蘇門答臘島-c21e123a",
+      "name": "蘇門答臘島",
+      "summary": "蘇門答臘島（印尼語：Sumatra）是印尼最西面的一個大島，也是全球第六大島嶼，全島面積達47萬平方公里，人口58,455,800人（2019年）。 地理 蘇門答臘島呈西北—東南走向，在中間與赤道相交叉，由兩個地區组成：西部巴里散山脈和東…",
+      "lat": "0",
+      "lng": "102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sumatran-flowerpecker-7a5a99b6",
+      "subject": "Sumatran flowerpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇門答臘島-c21e123a",
+      "object": "蘇門答臘島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Boden Kloss|Kloss]], 1916 }} The Sumatran flowerpecker (Dicaeum beccarii) is a species of bird in the family Dicaeidae that is found in montane Sumatra",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sumatran-flowerpecker-7a5a99b6",
+      "subject": "Sumatran flowerpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

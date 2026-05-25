@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:57:07",
+  "requested_title": "Rufous-throated Solitaire",
+  "resolved_title": "Rufous-throated solitaire",
+  "title_aliases": [
+    "Rufous-throated Solitaire"
+  ],
+  "bird_id": "bird-rufous-throated-solitaire-9f08831e",
+  "raw_file": "bird-rufous-throated-solitaire-9f08831e.json",
+  "bird": {
+    "id": "bird-rufous-throated-solitaire-9f08831e",
+    "name": "Rufous-throated solitaire",
+    "english_name": "Rufous-throated solitaire",
+    "latin_name": "Myadestes genibarbis",
+    "summary": "The rufous-throated solitaire (Myadestes genibarbis) is a species of bird in the family Turdidae, the thrushes. It is found Jamaica, Hispan…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Rufous-throated_Solitaire_%E2%80%93_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-throated-solitaire-9f08831e",
+      "subject": "Rufous-throated solitaire",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Vincent The rufous-throated solitaire primarily inhabits dense, moist, lowland and montane evergreen forest in the tropical zone, from sea level to . It also occurs in groves along streams that traverse meadows",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-throated-solitaire-9f08831e",
+      "subject": "Rufous-throated solitaire",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-rufous-throated-solitaire-9f08831e",
+      "subject": "Rufous-throated solitaire",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. A 2003 field guide considered it fairly common throughout its range. It remains fairly common in the Dominican Republic but is much reduced in Haiti due to habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

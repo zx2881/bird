@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:39:13",
+  "requested_title": "Grey-backed Thrush",
+  "resolved_title": "Grey-backed thrush",
+  "title_aliases": [
+    "Grey-backed Thrush"
+  ],
+  "bird_id": "bird-灰背赤腹鶇-d158b8fd",
+  "raw_file": "bird-灰背赤腹鶇-d158b8fd.json",
+  "bird": {
+    "id": "bird-灰背赤腹鶇-d158b8fd",
+    "name": "灰背赤腹鶇",
+    "english_name": "Grey-backed thrush",
+    "latin_name": "Turdus hortulorum",
+    "summary": "灰背赤腹鶇（学名：Turdus hortulorum）亦簡稱灰背鶇，为鶲科鸫属的鸟类，俗名金胸鶇、灰背鶇、唐赤腹、红腹灰麦必、灰麦必、灰背穿草鸫、灰青鸫。繁殖於中國東北及俄羅斯遠東地區，冬季則遷徙至中國南部和越南北部。其天然棲地為溫帶森林。在人工飼養的環境下，一對繁殖配偶產下五…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Closer_Look.jpg/960px-Closer_Look.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中国东北地区-cb57c10c",
+      "name": "中国东北地区",
+      "summary": "中国东北地区，简称中国东北或东北，清初称盛京统部，雍正之后已普遍称东三省，近代曾經被称作關東、滿洲，是中国的一個地理大区。 現在中華人民共和國的东北地区，廣義上指辽宁省、吉林省、黑龙江省以及内蒙古自治区的呼伦贝尔市、兴安盟、赤峰市、通辽市…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-俄羅斯遠東地區-53945c47",
+      "name": "俄羅斯遠東地區",
+      "summary": "俄羅斯遠東地區（俄語：Дальний Восток России，羅馬化：Dalny Vostok Rossii，發音：[ˈdalʲnʲɪj vɐˈstok rɐˈsʲii]），位於俄羅斯東部，為西伯利亞貝加爾湖東部與太平洋之間；其中所屬…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-越南-29eeb04d",
+      "name": "越南",
+      "summary": "越南社会主义共和国（越南語：Cộng hòa Xã hội chủ nghĩa Việt Nam／共和社會主義越南，），通称越南（越南語：Việt Nam／越南），是位于东南亚中南半岛东端的社会主义国家。北接中国，西邻柬埔寨与老挝，全国人…",
+      "lat": "16",
+      "lng": "108"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰背赤腹鶇-d158b8fd",
+      "subject": "灰背赤腹鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-中国东北地区-cb57c10c",
+      "object": "中国东北地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in northeastern China and the Russian Far East and winters in southern China and northern Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰背赤腹鶇-d158b8fd",
+      "subject": "灰背赤腹鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄羅斯遠東地區-53945c47",
+      "object": "俄羅斯遠東地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in northeastern China and the Russian Far East and winters in southern China and northern Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰背赤腹鶇-d158b8fd",
+      "subject": "灰背赤腹鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in northeastern China and the Russian Far East and winters in southern China and northern Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰背赤腹鶇-d158b8fd",
+      "subject": "灰背赤腹鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-越南-29eeb04d",
+      "object": "越南",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in northeastern China and the Russian Far East and winters in southern China and northern Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰背赤腹鶇-d158b8fd",
+      "subject": "灰背赤腹鶇",
+      "predicate": "lives_in",
+      "object_id": "hab-temperate-forest",
+      "object": "温带森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is temperate forests",
+      "object_summary": "温带岛屿或山地森林生态系统。"
+    },
+    {
+      "subject_id": "bird-灰背赤腹鶇-d158b8fd",
+      "subject": "灰背赤腹鶇",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

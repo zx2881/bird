@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:14:51",
+  "requested_title": "White-tailed Kite",
+  "resolved_title": "White-tailed kite",
+  "title_aliases": [
+    "White-tailed Kite"
+  ],
+  "bird_id": "bird-白尾鳶-372363fe",
+  "raw_file": "bird-白尾鳶-372363fe.json",
+  "bird": {
+    "id": "bird-白尾鳶-372363fe",
+    "name": "白尾鳶",
+    "english_name": "White-tailed kite",
+    "latin_name": "Elanus leucurus",
+    "summary": "白尾鳶（學名：Elanus leucurus，英語：White-tailed kite）为鹰科黑翅鸢属的一種鸟类，是一種中型鳶，分佈于北美洲西部及南美洲的部分地區。 描述 其腹部羽毛為白色，肩部和翅尖則爲黑色。體長35—43厘米（14—17英寸），翼展88—102厘米（35—4…",
+    "lat": "37.67",
+    "lng": "-122.27",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Elanus_leucurus_3.jpg/960px-Elanus_leucurus_3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中央谷地-239420c8",
+      "name": "中央谷地",
+      "summary": "中央谷地（英語：Central Valley）是縱貫美國加利福尼亞州中部與太平洋海岸平行的狭长盆地，南北長約720公里（450英里），東西寬約60—100公里（37—62英里），面積超過46,600平方公里（18,000平方英里）。由北部…",
+      "lat": "37",
+      "lng": "-120.3"
+    },
+    {
+      "id": "loc-戈利塔-加利福尼亚州-159af535",
+      "name": "戈利塔 (加利福尼亚州)",
+      "summary": "戈利塔（英語：Goleta），是美国加利福尼亚州圣巴巴拉县下属的一座城市。建市于2002年2月1日，面积大约为7.9平方英里（20.5平方公里）。根据2010年美国人口普查，该市有人口29,888人。 参考资料",
+      "lat": "34.44055556",
+      "lng": "-119.81361111"
+    },
+    {
+      "id": "loc-舊金山灣-9c4e2271",
+      "name": "舊金山灣",
+      "summary": "舊金山灣（英語：San Francisco Bay）是美国加利福尼亞州中部的一個河口灣，位於中央谷地以西，是萨克拉门托河和瓜達盧普河下游的出海口，通过旧金山半岛和马林岬角之间的金门海峡与太平洋相连。海灣呈南北鏈型，周圍分布獨立的城市，以旧…",
+      "lat": "37.67",
+      "lng": "-122.27"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白尾鳶-372363fe",
+      "subject": "白尾鳶",
+      "predicate": "distributed_in",
+      "object_id": "loc-中央谷地-239420c8",
+      "object": "中央谷地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They can be found in Central Valley and southern coastal areas, open land around Goleta including the Ellwood Mesa Open Space, marshes in Humboldt County, and also around the San Francisco Bay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾鳶-372363fe",
+      "subject": "白尾鳶",
+      "predicate": "distributed_in",
+      "object_id": "loc-戈利塔-加利福尼亚州-159af535",
+      "object": "戈利塔 (加利福尼亚州)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They can be found in Central Valley and southern coastal areas, open land around Goleta including the Ellwood Mesa Open Space, marshes in Humboldt County, and also around the San Francisco Bay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾鳶-372363fe",
+      "subject": "白尾鳶",
+      "predicate": "distributed_in",
+      "object_id": "loc-舊金山灣-9c4e2271",
+      "object": "舊金山灣",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They can be found in Central Valley and southern coastal areas, open land around Goleta including the Ellwood Mesa Open Space, marshes in Humboldt County, and also around the San Francisco Bay",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白尾鳶-372363fe",
+      "subject": "白尾鳶",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They can be found in Central Valley and southern coastal areas, open land around Goleta including the Ellwood Mesa Open Space, marshes in Humboldt County, and also around the San Francisco Bay",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-白尾鳶-372363fe",
+      "subject": "白尾鳶",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T14:51:12",
+  "requested_title": "Long-billed Wren-Babbler",
+  "resolved_title": "Long-billed wren-babbler",
+  "title_aliases": [
+    "Long-billed Wren-Babbler"
+  ],
+  "bird_id": "bird-长嘴鹩鹛-f39997d3",
+  "raw_file": "bird-长嘴鹩鹛-f39997d3.json",
+  "bird": {
+    "id": "bird-长嘴鹩鹛-f39997d3",
+    "name": "长嘴鹩鹛",
+    "english_name": "Long-billed wren-babbler",
+    "latin_name": "Napothera malacoptila",
+    "summary": "长嘴鹩鹛（学名：Napothera malacoptila），是长嘴鹩鹛属的一种。 长嘴鹩鹛分布于不丹、东喜马拉雅、缅甸和越南。喜欢栖息在亚热带或热带雨林或潮湿的山地林中。",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Rimator_malacoptilus.jpg/960px-Rimator_malacoptilus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-长嘴鹩鹛-f39997d3",
+      "subject": "长嘴鹩鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|A bird from Arunachal Pradesh, Zangnan, India It is found in the Himalayas from north-eastern India to southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-长嘴鹩鹛-f39997d3",
+      "subject": "长嘴鹩鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-长嘴鹩鹛-f39997d3",
+      "subject": "长嘴鹩鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:31:07",
+  "requested_title": "Hainan Blue Flycatcher",
+  "resolved_title": "Hainan blue flycatcher",
+  "title_aliases": [
+    "Hainan Blue Flycatcher"
+  ],
+  "bird_id": "bird-海南蓝仙鹟-f634e87c",
+  "raw_file": "bird-海南蓝仙鹟-f634e87c.json",
+  "bird": {
+    "id": "bird-海南蓝仙鹟-f634e87c",
+    "name": "海南蓝仙鹟",
+    "english_name": "Hainan blue flycatcher",
+    "latin_name": "Cyornis hainanus",
+    "summary": "海南蓝仙鶲（学名：Cyornis hainanus）为鶲科仙鶲属的鸟类。 該物種於1900年由威廉·羅伯特·奧格爾維-格蘭特首次描述。牠分布於柬埔寨、中國、香港、老撾、緬甸、泰國和越南。其自然棲地是亞熱帶或熱帶的濕潤低地森林。",
+    "lat": "19.2",
+    "lng": "109.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Hainan_Blue_Flycatcher_%28male%2C_ssp_hainanus%29_0A2A5053_%28cropped%29.jpg/960px-Hainan_Blue_Flycatcher_%28male%2C_ssp_hainanus%29_0A2A5053_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海南省-a01c9da8",
+      "name": "海南省",
+      "summary": "海南省，简称琼，是中华人民共和国唯一全境位于热带的省份，省会位于海口市。海南省是一个以海洋为主体的岛屿省份，亦是中华人民共和国总面积和海洋面积最大的省份。全省户籍总人口约1048.31万人，不过每年冬季会有大量候鸟型流动人口（進出约972…",
+      "lat": "19.2",
+      "lng": "109.7"
+    },
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "中南半岛（法語：Indochine），又稱印度支那半島（简称印度支那、印支）、东南亚大陆地区、东南亚半岛地区等，是亞洲東南部東臨南海、西瀕印度洋的半島，在印度次大陸以東、中国大陆以南，包括今日的緬甸、泰國、老撾、柬埔寨、越南、马来半岛等地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-海南蓝仙鹟-f634e87c",
+      "subject": "海南蓝仙鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-海南省-a01c9da8",
+      "object": "海南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to southern China, Hainan and Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-海南蓝仙鹟-f634e87c",
+      "subject": "海南蓝仙鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to southern China, Hainan and Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-海南蓝仙鹟-f634e87c",
+      "subject": "海南蓝仙鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

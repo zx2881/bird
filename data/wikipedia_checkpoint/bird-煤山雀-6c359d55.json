@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:23:00",
+  "requested_title": "Coal Tit",
+  "resolved_title": "Coal tit",
+  "title_aliases": [
+    "Coal Tit"
+  ],
+  "bird_id": "bird-煤山雀-6c359d55",
+  "raw_file": "bird-煤山雀-6c359d55.json",
+  "bird": {
+    "id": "bird-煤山雀-6c359d55",
+    "name": "煤山雀",
+    "english_name": "Coal tit",
+    "latin_name": "Periparus ater",
+    "summary": "煤山雀，學名Periparus ater，英文俗名Coal Tit，是一種棲息於針葉林的小型雀鳥，在溫帶至亞熱帶的古北界森林中廣泛分布，並且是常見的留鳥，包括分布於北非地區。斑翅山雀現今通常也被歸入此物種。 分類與系統學 這個物種首次由卡爾·林奈於1758年在他的里程碑著作《自…",
+    "lat": "27.417",
+    "lng": "90.435",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Coal_Tit_2026_03_23.jpg/960px-Coal_Tit_2026_03_23.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-不丹-8d635775",
+      "name": "不丹",
+      "summary": "不丹王国（宗喀語：འབྲུག་ཡུལ་，威利：druk yul），通称不丹，清朝史籍稱布魯克巴（藏語：འབྲུག་པ，威利转写：'brug pa，“不丹人”之意），是位于中国和印度之间、喜马拉雅山脉东段南坡上的一个君主立宪制内陆国家，西接…",
+      "lat": "27.417",
+      "lng": "90.435"
+    },
+    {
+      "id": "loc-平均海拔-ddd8aa74",
+      "name": "平均海拔",
+      "summary": "平均海拔（英語：Above mean sea level，缩写：AMSL）又称为海拔高度，是指以平均海平面高度作为高程基准面起测定的地面或空中高度，对地理测量，飞行控制，电台设定，气象研究都有决定性作用。 所谓平均海平面高度实际是并不存在…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-煤山雀-6c359d55",
+      "subject": "煤山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-不丹-8d635775",
+      "object": "不丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Bhutan for example coal tits are fairly common residents above the subtropical zone, at an altitude of around 3,000–3,800&nbsp;m ASL, and are found in forests dominated by Bhutan fir (Abies densa) as well as in those characterized by Himalayan hemlock (Tsuga dumosa) and rhododendrons.Inskipp et al",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-煤山雀-6c359d55",
+      "subject": "煤山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-平均海拔-ddd8aa74",
+      "object": "平均海拔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In Bhutan for example coal tits are fairly common residents above the subtropical zone, at an altitude of around 3,000–3,800&nbsp;m ASL, and are found in forests dominated by Bhutan fir (Abies densa) as well as in those characterized by Himalayan hemlock (Tsuga dumosa) and rhododendrons.Inskipp et al",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-煤山雀-6c359d55",
+      "subject": "煤山雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

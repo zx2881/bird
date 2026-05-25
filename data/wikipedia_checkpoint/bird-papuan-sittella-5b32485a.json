@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:23:18",
+  "requested_title": "Papuan Sittella",
+  "resolved_title": "Papuan sittella",
+  "title_aliases": [
+    "Papuan Sittella"
+  ],
+  "bird_id": "bird-papuan-sittella-5b32485a",
+  "raw_file": "bird-papuan-sittella-5b32485a.json",
+  "bird": {
+    "id": "bird-papuan-sittella-5b32485a",
+    "name": "Papuan sittella",
+    "english_name": "Papuan sittella",
+    "latin_name": "Daphoenositta papuensis",
+    "summary": "The Papuan sittella (Daphoenositta papuensis) is one of three species of bird in the family Neosittidae. It is endemic to New Guinea, where…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Naturalis_Biodiversity_Center_-_RMNH.AVES.131691_1_-_Neositta_papuensis_papuensis_%28Schlegel%2C_1873%29_-_Sittidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.131691_1_-_Neositta_papuensis_papuensis_%28Schlegel%2C_1873%29_-_Sittidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-papuan-sittella-5b32485a",
+      "subject": "Papuan sittella",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to New Guinea, where it is found in the highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-papuan-sittella-5b32485a",
+      "subject": "Papuan sittella",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

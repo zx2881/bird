@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:48:21",
+  "requested_title": "New Caledonian Thicketbird",
+  "resolved_title": "New Caledonian thicketbird",
+  "title_aliases": [
+    "New Caledonian Thicketbird"
+  ],
+  "bird_id": "bird-new-caledonian-thicketbird-16d45896",
+  "raw_file": "bird-new-caledonian-thicketbird-16d45896.json",
+  "bird": {
+    "id": "bird-new-caledonian-thicketbird-16d45896",
+    "name": "New Caledonian thicketbird",
+    "english_name": "New Caledonian thicketbird",
+    "latin_name": "Cincloramphus mariae",
+    "summary": "The New Caledonia thicketbird or New Caledonia grassbird (Cincloramphus mariae), is a bird species. Previously placed in the \"Old World war…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/New_Caledonian_Thicketbird_0A2A5945.jpg/960px-New_Caledonian_Thicketbird_0A2A5945.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-new-caledonian-thicketbird-16d45896",
+      "subject": "New Caledonian thicketbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The bird's plumage is unstreaked, with olive-brown uppersides (including the crown and wings) and creamy white undersides. The New Caledonia grassbird typically inhabits scrubby areas in the lowlands and hills of New Caledonia, particularly maquis minier with ferns, but also secondary forest and grasslands, and has even been seen in dense rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-new-caledonian-thicketbird-16d45896",
+      "subject": "New Caledonian thicketbird",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The bird's plumage is unstreaked, with olive-brown uppersides (including the crown and wings) and creamy white undersides. The New Caledonia grassbird typically inhabits scrubby areas in the lowlands and hills of New Caledonia, particularly maquis minier with ferns, but also secondary forest and grasslands, and has even been seen in dense rainforest",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-new-caledonian-thicketbird-16d45896",
+      "subject": "New Caledonian thicketbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

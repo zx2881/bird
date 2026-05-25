@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:01:58",
+  "requested_title": "Isabelline Shrike",
+  "resolved_title": "Isabelline shrike",
+  "title_aliases": [
+    "Isabelline Shrike"
+  ],
+  "bird_id": "bird-荒漠伯劳-f2d4b763",
+  "raw_file": "bird-荒漠伯劳-f2d4b763.json",
+  "bird": {
+    "id": "bird-荒漠伯劳-f2d4b763",
+    "name": "荒漠伯劳",
+    "english_name": "Isabelline shrike",
+    "latin_name": "Lanius isabellinus",
+    "summary": "荒漠伯劳（学名：Lanius isabellinus）为伯劳科伯劳属的一种，分布于欧洲、亚洲中部和西部、非洲及中国的黑龙江、内蒙古、甘肃、宁夏、青海、新疆等地，常见于荒漠地区疏林地带及绿洲、村落附近。该物种的模式产地在沙烏地阿拉伯麥加省贡费宰。 亚种 荒漠伯劳指名亚种（学名：L…",
+    "lat": "42",
+    "lng": "50.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Isabelline_Shrike_%2815214160368%29.jpg/960px-Isabelline_Shrike_%2815214160368%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-裏海-2f4d2244",
+      "name": "裏海",
+      "summary": "裏海（英語：Caspian sea，俄語：Каспийское море，哈薩克語：Vrkan Teńizi, Выркан теңізі，波斯語：دریای خزر，土庫曼語：Hazar deňzi）是世界上最大的封閉內陸水體，或被歸類…",
+      "lat": "42",
+      "lng": "50.5"
+    },
+    {
+      "id": "loc-柴达木盆地-1e244522",
+      "name": "柴达木盆地",
+      "summary": "柴达木盆地（藏語：ཚྭ་འདམ་གཤོང་，威利转写：tshwa 'dam gshong）地处青海省西北部，阿尔金山、祁连山和昆仑山之间，面積約為120,000平方公里。是中国三大内陆盆地之一，也是中国四大盆地之一。“柴达木”（蒙古语：ᠴ…",
+      "lat": "37.26666667",
+      "lng": "94.45"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-荒漠伯劳-f2d4b763",
+      "subject": "荒漠伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-裏海-2f4d2244",
+      "object": "裏海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in an extensive area between the Caspian Sea and north and central China southeast to the Qaidam Basin",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-荒漠伯劳-f2d4b763",
+      "subject": "荒漠伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-柴达木盆地-1e244522",
+      "object": "柴达木盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in an extensive area between the Caspian Sea and north and central China southeast to the Qaidam Basin",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-荒漠伯劳-f2d4b763",
+      "subject": "荒漠伯劳",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

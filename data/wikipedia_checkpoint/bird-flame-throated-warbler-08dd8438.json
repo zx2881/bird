@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:42:10",
+  "requested_title": "Flame-throated Warbler",
+  "resolved_title": "Flame-throated warbler",
+  "title_aliases": [
+    "Flame-throated Warbler"
+  ],
+  "bird_id": "bird-flame-throated-warbler-08dd8438",
+  "raw_file": "bird-flame-throated-warbler-08dd8438.json",
+  "bird": {
+    "id": "bird-flame-throated-warbler-08dd8438",
+    "name": "Flame-throated warbler",
+    "english_name": "Flame-throated warbler",
+    "latin_name": "Oreothlypis gutturalis",
+    "summary": "The flame-throated warbler (Oreothlypis gutturalis) is a small New World warbler. It is sometimes placed in the genera Vermivora and Parula.",
+    "lat": "10",
+    "lng": "-84",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flame-throated_Warble.jpg/960px-Flame-throated_Warble.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-talamancan-montane-forests-a57e7cc3",
+      "name": "Talamancan montane forests",
+      "summary": "The Talamancan montane forests ecoregion, in the tropical moist broadleaf forest biome, are in montane Costa Rica and w…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-哥斯达黎加-6c4f73ad",
+      "name": "哥斯达黎加",
+      "summary": "哥斯达黎加共和國（西班牙語：República de Costa Rica），通稱哥斯达黎加（Costa Rica），是中美洲国家，北邻尼加拉瓜，南与巴拿马接壤，首都為聖荷西。 哥斯达黎加是当今世界上第一个裁撤军队的国家。目前哥斯大黎加是…",
+      "lat": "10",
+      "lng": "-84"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-flame-throated-warbler-08dd8438",
+      "subject": "Flame-throated warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-talamancan-montane-forests-a57e7cc3",
+      "object": "Talamancan montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is a resident breeder within the Talamancan montane forests of Costa Rica and western Panama, where it occurs in the canopy, woodland edges, and clearings with trees typically from up to the timberline",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flame-throated-warbler-08dd8438",
+      "subject": "Flame-throated warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥斯达黎加-6c4f73ad",
+      "object": "哥斯达黎加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is a resident breeder within the Talamancan montane forests of Costa Rica and western Panama, where it occurs in the canopy, woodland edges, and clearings with trees typically from up to the timberline",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flame-throated-warbler-08dd8438",
+      "subject": "Flame-throated warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is a resident breeder within the Talamancan montane forests of Costa Rica and western Panama, where it occurs in the canopy, woodland edges, and clearings with trees typically from up to the timberline",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flame-throated-warbler-08dd8438",
+      "subject": "Flame-throated warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This species is a resident breeder within the Talamancan montane forests of Costa Rica and western Panama, where it occurs in the canopy, woodland edges, and clearings with trees typically from up to the timberline",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-flame-throated-warbler-08dd8438",
+      "subject": "Flame-throated warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

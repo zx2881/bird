@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:33:44",
+  "requested_title": "Red-billed Scimitar Babbler",
+  "resolved_title": "Red-billed scimitar babbler",
+  "title_aliases": [
+    "Red-billed Scimitar Babbler"
+  ],
+  "bird_id": "bird-棕头钩嘴鹛-9ac8bff5",
+  "raw_file": "bird-棕头钩嘴鹛-9ac8bff5.json",
+  "bird": {
+    "id": "bird-棕头钩嘴鹛-9ac8bff5",
+    "name": "棕头钩嘴鹛",
+    "english_name": "Red-billed scimitar babbler",
+    "latin_name": "Pomatorhinus ochraceiceps",
+    "summary": "The Red-billed Scimitar-Babbler (Pomatorhinus ochraceiceps) is a species of bird in the family Timaliidae. It is found in Northeast India,…",
+    "lat": "26",
+    "lng": "91",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Red-billed_Scimitar_Babbler_0A2A9191_%28cropped%29.jpg/960px-Red-billed_Scimitar_Babbler_0A2A9191_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度东北部-8b6d1917",
+      "name": "印度东北部",
+      "summary": "印度东北部是指印度最东部的区域，包括互相毗邻的七个邦和锡金邦，其中阿魯那恰爾邦與中國有領土爭議（中國稱為藏南地區）。該地區與幾個鄰國共享5,182公里（3,220英里，約佔其總地理邊界的99%）的國際邊界，北部1,395公里（867英里）…",
+      "lat": "26",
+      "lng": "91"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕头钩嘴鹛-9ac8bff5",
+      "subject": "棕头钩嘴鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度东北部-8b6d1917",
+      "object": "印度东北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Northeast India, Southeast Asia and adjacent parts of southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头钩嘴鹛-9ac8bff5",
+      "subject": "棕头钩嘴鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Northeast India, Southeast Asia and adjacent parts of southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头钩嘴鹛-9ac8bff5",
+      "subject": "棕头钩嘴鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Northeast India, Southeast Asia and adjacent parts of southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头钩嘴鹛-9ac8bff5",
+      "subject": "棕头钩嘴鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

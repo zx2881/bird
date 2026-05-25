@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:35:04",
+  "requested_title": "Grey-chested Babbler",
+  "resolved_title": "Grey-chested babbler",
+  "title_aliases": [
+    "Grey-chested Babbler"
+  ],
+  "bird_id": "bird-grey-chested-babbler-083b24a9",
+  "raw_file": "bird-grey-chested-babbler-083b24a9.json",
+  "bird": {
+    "id": "bird-grey-chested-babbler-083b24a9",
+    "name": "Grey-chested babbler",
+    "english_name": "Grey-chested babbler",
+    "latin_name": "Kakamega poliothorax",
+    "summary": "The grey-chested babbler (Kakamega poliothorax), also known as the grey-chested kakamega or grey-chested illadopsis, is a species of bird i…",
+    "lat": "3.5",
+    "lng": "8.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Naturalis_Biodiversity_Center_-_RMNH.AVES.94392_1_-_Trichastoma_poliothorax_%28Reichenow%2C_1900%29_-_Timaliidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.94392_1_-_Trichastoma_poliothorax_%28Reichenow%2C_1900%29_-_Timaliidae_-_bird_skin_specimen.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-喀麥隆火山鏈-07f3fa54",
+      "name": "喀麥隆火山鏈",
+      "summary": "喀麥隆火山鏈（Cameroon line）是從非洲中部延伸至大西洋幾內亞灣、長達1,600公里的一條火山鏈，包含了幾內亞灣內的數座火山島。喀麥隆火山鏈共跨越奈及利亞、喀麥隆、赤道幾內亞、聖多美和普林西比等四個國家。 在非洲大陸部分，喀麥隆…",
+      "lat": "3.5",
+      "lng": "8.7"
+    },
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-chested-babbler-083b24a9",
+      "subject": "Grey-chested babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-喀麥隆火山鏈-07f3fa54",
+      "object": "喀麥隆火山鏈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cameroon line, western Kenya and the Albertine rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-chested-babbler-083b24a9",
+      "subject": "Grey-chested babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cameroon line, western Kenya and the Albertine rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-chested-babbler-083b24a9",
+      "subject": "Grey-chested babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Cameroon line, western Kenya and the Albertine rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-chested-babbler-083b24a9",
+      "subject": "Grey-chested babbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the Cameroon line, western Kenya and the Albertine rift montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-grey-chested-babbler-083b24a9",
+      "subject": "Grey-chested babbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-grey-chested-babbler-083b24a9",
+      "subject": "Grey-chested babbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

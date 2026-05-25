@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:17:12",
+  "requested_title": "Chubb's Cisticola",
+  "resolved_title": "Chubb's cisticola",
+  "title_aliases": [
+    "Chubb's Cisticola"
+  ],
+  "bird_id": "bird-chubb-s-cisticola-1578e9e2",
+  "raw_file": "bird-chubb-s-cisticola-1578e9e2.json",
+  "bird": {
+    "id": "bird-chubb-s-cisticola-1578e9e2",
+    "name": "Chubb's cisticola",
+    "english_name": "Chubb's cisticola",
+    "latin_name": "Cisticola chubbi",
+    "summary": "Chubb's cisticola (Cisticola chubbi) is a species of bird in the family Cisticolidae. It is native to the Western High Plateau, the Alberti…",
+    "lat": "6.5",
+    "lng": "10.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Chubbs_cisticola.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴門達高原-7edb036b",
+      "name": "巴門達高原",
+      "summary": "巴門達高原是非洲中西部國家喀麥隆的高原，受赤道多雨氣候影響，每年平均降雨量1,000至2,000毫米，是薩納加河主要支流的發源地。",
+      "lat": "6.5",
+      "lng": "10.5"
+    },
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    },
+    {
+      "id": "loc-east-african-montane-forests-6313874b",
+      "name": "East African montane forests",
+      "summary": "The East African montane forests is a montane tropical moist forest ecoregion of eastern Africa.",
+      "lat": "-0.55",
+      "lng": "35.65"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-chubb-s-cisticola-1578e9e2",
+      "subject": "Chubb's cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴門達高原-7edb036b",
+      "object": "巴門達高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, the Albertine Rift montane forests and the East African montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chubb-s-cisticola-1578e9e2",
+      "subject": "Chubb's cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, the Albertine Rift montane forests and the East African montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chubb-s-cisticola-1578e9e2",
+      "subject": "Chubb's cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-east-african-montane-forests-6313874b",
+      "object": "East African montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, the Albertine Rift montane forests and the East African montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-chubb-s-cisticola-1578e9e2",
+      "subject": "Chubb's cisticola",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

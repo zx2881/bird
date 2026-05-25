@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:02:47",
+  "requested_title": "Rio Branco Antbird",
+  "resolved_title": "Rio Branco antbird",
+  "title_aliases": [
+    "Rio Branco Antbird"
+  ],
+  "bird_id": "bird-rio-branco-antbird-054b3eab",
+  "raw_file": "bird-rio-branco-antbird-054b3eab.json",
+  "bird": {
+    "id": "bird-rio-branco-antbird-054b3eab",
+    "name": "Rio Branco antbird",
+    "english_name": "Rio Branco antbird",
+    "latin_name": "Cercomacra carbonaria",
+    "summary": "The Rio Branco antbird (Cercomacra carbonaria) is a Critically Endangered bird species in subfamily Thamnophilinae of family Thamnophilidae…",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cercomacra_carbonaria_Rio_Branco_Antbird_%28male%29%3B_Caracara%C3%AD%2C_Roraima%2C_Brazil.jpg/960px-Cercomacra_carbonaria_Rio_Branco_Antbird_%28male%29%3B_Caracara%C3%AD%2C_Roraima%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-圭亚那-037a419a",
+      "name": "圭亚那",
+      "summary": "蓋亞那合作共和国（英語：Co-operative Republic of Guyana），通称圭亚那（英語：Guyana），位於南美洲北部，是南美洲一个以英語為官方語言的国家，也是英联邦成员國。東鄰蘇利南，南臨巴西，西鄰委内瑞拉，北鄰大西…",
+      "lat": "5",
+      "lng": "-59"
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rio-branco-antbird-054b3eab",
+      "subject": "Rio Branco antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brazil and Guyana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rio-branco-antbird-054b3eab",
+      "subject": "Rio Branco antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-圭亚那-037a419a",
+      "object": "圭亚那",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Brazil and Guyana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rio-branco-antbird-054b3eab",
+      "subject": "Rio Branco antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understorey to mid-storey of gallery forest and forested river islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rio-branco-antbird-054b3eab",
+      "subject": "Rio Branco antbird",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-river",
+      "object": "山地河流",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the understorey to mid-storey of gallery forest and forested river islands",
+      "object_summary": "冷水、清澈且流速较高的繁殖河流环境。"
+    },
+    {
+      "subject_id": "bird-rio-branco-antbird-054b3eab",
+      "subject": "Rio Branco antbird",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-rio-branco-antbird-054b3eab",
+      "subject": "Rio Branco antbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The primary threat is now thought to be accelerating deforestation in the Amazon basin as land is cleared for cattle ranching and soy production, facilitated by expansion of the road network.\" It is considered locally fairly common but its available habitat is estimated to cover only",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:49:15",
+  "requested_title": "American Pipit",
+  "resolved_title": "American pipit",
+  "title_aliases": [
+    "American Pipit"
+  ],
+  "bird_id": "bird-黃腹鷚-dd6cb824",
+  "raw_file": "bird-黃腹鷚-dd6cb824.json",
+  "bird": {
+    "id": "bird-黃腹鷚-dd6cb824",
+    "name": "黃腹鷚",
+    "english_name": "American pipit",
+    "latin_name": "Anthus rubescens",
+    "summary": "黃腹鷚（学名：Anthus rubescens），又名褐色鷚，为鶺鴒科鷚屬下的一个种。是一種分布於北太平洋兩岸的小型鳴禽。由馬馬杜克·坦斯托爾於1771年在其著作《大不列顛鳥類學》（Ornithologia Britannica）中首次描述。 它曾被歸類為水鷚的一個型態。在北美…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Anthus_rubescens_-Harney_County%2C_Oregon%2C_USA-8.jpg/960px-Anthus_rubescens_-Harney_County%2C_Oregon%2C_USA-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-marmaduke-tunstall-9a62835e",
+      "name": "Marmaduke Tunstall",
+      "summary": "Marmaduke Tunstall (1743 – 11 October 1790) was an English ornithologist and collector.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黃腹鷚-dd6cb824",
+      "subject": "黃腹鷚",
+      "predicate": "distributed_in",
+      "object_id": "loc-marmaduke-tunstall-9a62835e",
+      "object": "Marmaduke Tunstall",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The American pipit (Anthus rubescens), formerly known as the buff-bellied pipit, is a small songbird native to North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃腹鷚-dd6cb824",
+      "subject": "黃腹鷚",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The American pipit (Anthus rubescens), formerly known as the buff-bellied pipit, is a small songbird native to North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃腹鷚-dd6cb824",
+      "subject": "黃腹鷚",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

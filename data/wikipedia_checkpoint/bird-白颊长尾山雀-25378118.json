@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:34:57",
+  "requested_title": "White-cheeked Bushtit",
+  "resolved_title": "White-cheeked bushtit",
+  "title_aliases": [
+    "White-cheeked Bushtit"
+  ],
+  "bird_id": "bird-白颊长尾山雀-25378118",
+  "raw_file": "bird-白颊长尾山雀-25378118.json",
+  "bird": {
+    "id": "bird-白颊长尾山雀-25378118",
+    "name": "白颊长尾山雀",
+    "english_name": "White-cheeked bushtit",
+    "latin_name": "Aegithalos leucogenys",
+    "summary": "白颊长尾山雀（學名：Aegithalos leucogenys）是长尾山雀科长尾山雀属十個物種之一，分佈於印度次大陸的阿富汗、印度及巴基斯坦。 如同其他同科同屬的物種，這種雀鳥的體積很小。牠們的正常食物，包括昆蟲、水果和植物種子，但在特殊情況會啄食其他動物的腦袋，當中以其他鳥類…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/White-cheeked_bushtit.jpg/960px-White-cheeked_bushtit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia.",
+      "lat": "30",
+      "lng": "70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白颊长尾山雀-25378118",
+      "subject": "白颊长尾山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Afghanistan, India, and Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白颊长尾山雀-25378118",
+      "subject": "白颊长尾山雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Afghanistan, India, and Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白颊长尾山雀-25378118",
+      "subject": "白颊长尾山雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

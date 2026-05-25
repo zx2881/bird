@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:08:56",
+  "requested_title": "Mombasa Woodpecker",
+  "resolved_title": "Mombasa woodpecker",
+  "title_aliases": [
+    "Mombasa Woodpecker"
+  ],
+  "bird_id": "bird-mombasa-woodpecker-15a1fb31",
+  "raw_file": "bird-mombasa-woodpecker-15a1fb31.json",
+  "bird": {
+    "id": "bird-mombasa-woodpecker-15a1fb31",
+    "name": "Mombasa woodpecker",
+    "english_name": "Mombasa woodpecker",
+    "latin_name": "Campethera mombassica",
+    "summary": "The Mombasa woodpecker (Campethera mombassica) is a species of bird in the family Picidae. It is found in Kenya, Somalia, and Tanzania.",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Flickr_-_Rainbirder_-_Mombasa_Woodpecker_%28Campethera_mombassica%29_%281%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-索马里-5b5a7d76",
+      "name": "索马里",
+      "summary": "索馬里联邦共和国（索馬里語：Jamhuuriyadda Federaalka Soomaaliya；阿拉伯語：جمهورية الصومال الفدرالية，Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya；英語…",
+      "lat": "10",
+      "lng": "49"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mombasa-woodpecker-15a1fb31",
+      "subject": "Mombasa woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Somalia, and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mombasa-woodpecker-15a1fb31",
+      "subject": "Mombasa woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-索马里-5b5a7d76",
+      "object": "索马里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Somalia, and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mombasa-woodpecker-15a1fb31",
+      "subject": "Mombasa woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Somalia, and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mombasa-woodpecker-15a1fb31",
+      "subject": "Mombasa woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

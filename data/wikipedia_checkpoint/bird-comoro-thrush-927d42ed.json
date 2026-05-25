@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:30:12",
+  "requested_title": "Comoro Thrush",
+  "resolved_title": "Comoro thrush",
+  "title_aliases": [
+    "Comoro Thrush"
+  ],
+  "bird_id": "bird-comoro-thrush-927d42ed",
+  "raw_file": "bird-comoro-thrush-927d42ed.json",
+  "bird": {
+    "id": "bird-comoro-thrush-927d42ed",
+    "name": "Comoro thrush",
+    "english_name": "Comoro thrush",
+    "latin_name": "Turdus bewsheri",
+    "summary": "The Comoro thrush (Turdus bewsheri) is a species of bird in the family Turdidae. It is found in the Comoros Islands in the south western In…",
+    "lat": "-12.2",
+    "lng": "44.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/TurdusBewsheriKeulemans.jpg/960px-TurdusBewsheriKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-科摩罗群岛-8f9bfcac",
+      "name": "科摩罗群岛",
+      "summary": "The Comoro Islands are a group of volcanic islands in the Mozambique Channel, an arm of the Indian Ocean lying between…",
+      "lat": "-12.2",
+      "lng": "44.25"
+    },
+    {
+      "id": "loc-印度洋-aaea0acf",
+      "name": "印度洋",
+      "summary": "印度洋（英語：Indian Ocean），位于亚洲、非洲、大洋洲和南极洲之间，印度位在印度洋北部的中央位置，這也是印度洋名稱的由來，印度洋大部分在南半球。總面积7491万平方公里，约占世界海洋总面积的21.1%，是世界第三大洋。印度洋的範…",
+      "lat": "-20",
+      "lng": "80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-comoro-thrush-927d42ed",
+      "subject": "Comoro thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-科摩罗群岛-8f9bfcac",
+      "object": "科摩罗群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Comoros Islands in the south western Indian Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-comoro-thrush-927d42ed",
+      "subject": "Comoro thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度洋-aaea0acf",
+      "object": "印度洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Comoros Islands in the south western Indian Ocean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-comoro-thrush-927d42ed",
+      "subject": "Comoro thrush",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-comoro-thrush-927d42ed",
+      "subject": "Comoro thrush",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Comoro thrush is classified as Near threatened by the IUCN and the main threat is habitat loss through forest degradation due to clearance by subsistence farmers and firewood cutting",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

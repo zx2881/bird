@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:11:10",
+  "requested_title": "Eared Pitta",
+  "resolved_title": "Eared pitta",
+  "title_aliases": [
+    "Eared Pitta"
+  ],
+  "bird_id": "bird-双辫八色鸫-106ac868",
+  "raw_file": "bird-双辫八色鸫-106ac868.json",
+  "bird": {
+    "id": "bird-双辫八色鸫-106ac868",
+    "name": "双辫八色鸫",
+    "english_name": "Eared pitta",
+    "latin_name": "Hydrornis phayrei",
+    "summary": "双辫八色鸫（学名：Hydrornis phayrei），是八色鸫科蓝八色鸫属的一种，分布于缅甸、孟加拉国、老挝、中国大陆、越南、泰国和柬埔寨。该物种的保护状况被评为无危。 双辫八色鸫的平均体重约为100.0克。栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林，多生活…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/PittaPhayrei.jpg/960px-PittaPhayrei.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-愛德華-布萊思-840f1191",
+      "name": "愛德華·布萊思",
+      "summary": "愛德華·布萊思（英語：Edward Blyth，1810年12月23日—1873年12月27日）是一位英國動物學家，其一生中的絕大部分時間都在印度加爾各答的孟加拉亞洲學會博物館內擔任策展人。 布萊思於1810年生於倫敦，於1841年移居至…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-双辫八色鸫-106ac868",
+      "subject": "双辫八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-愛德華-布萊思-840f1191",
+      "object": "愛德華·布萊思",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The eared pitta (Hydrornis phayrei) is a species of bird in the pitta family, Pittidae, and is found in Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-双辫八色鸫-106ac868",
+      "subject": "双辫八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The eared pitta (Hydrornis phayrei) is a species of bird in the pitta family, Pittidae, and is found in Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-双辫八色鸫-106ac868",
+      "subject": "双辫八色鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

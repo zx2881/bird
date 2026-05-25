@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:43:17",
+  "requested_title": "Puff-throated Babbler",
+  "resolved_title": "Puff-throated babbler",
+  "title_aliases": [
+    "Puff-throated Babbler"
+  ],
+  "bird_id": "bird-棕头幽鹛-566e18eb",
+  "raw_file": "bird-棕头幽鹛-566e18eb.json",
+  "bird": {
+    "id": "bird-棕头幽鹛-566e18eb",
+    "name": "棕头幽鹛",
+    "english_name": "Puff-throated babbler",
+    "latin_name": "Pellorneum ruficeps",
+    "summary": "棕头幽鹛（学名：Pellorneum ruficeps），是画眉科幽鹛属的一种，分布于不丹、孟加拉国、老挝、中国大陆、越南、印度、泰国、缅甸、马来西亚、尼泊尔和柬埔寨。该物种的保护状况被评为无危。 棕头幽鹛的平均体重约为27.2克。栖息地包括种植园、亚热带或热带的湿润低地林、温…",
+    "lat": "14.35",
+    "lng": "101.44",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pellorneum_ruficeps_-_Khao_Yai.jpg/960px-Pellorneum_ruficeps_-_Khao_Yai.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-考艾国家公园-61aba148",
+      "name": "考艾国家公园",
+      "summary": "考艾國家公園（泰語：อุทยานแห่งชาติเขาใหญ่，皇家轉寫：Utthayan Haeng Chat Khao Yai），或稱大山國家公園，位於泰国巴真府、那空那育府、呵叻府、北標府交界處，成立於1962年9月18日，為泰國第…",
+      "lat": "14.35",
+      "lng": "101.44"
+    },
+    {
+      "id": "loc-william-swainson-ccfed77b",
+      "name": "William Swainson",
+      "summary": "William Swainson FLS, FRS (8 October 1789 – 6 December 1855), was an English ornithologist, malacologist, conchologist,…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕头幽鹛-566e18eb",
+      "subject": "棕头幽鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-考艾国家公园-61aba148",
+      "object": "考艾国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "dusiti (Khao Yai National Park, Thailand) | image2=Pellorneumruficeps nandi.ogg | image2_caption = Calls (nominate race from India) | status = LC | status_system = IUCN3.1 | status_ref = | genus = Pellorneum | species = ruficeps | authority = Swainson, 1832 }} The puff-throated babbler or spotted babbler (Pellorneum ruficeps) is a species of passerine bird found in Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头幽鹛-566e18eb",
+      "subject": "棕头幽鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-william-swainson-ccfed77b",
+      "object": "William Swainson",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "dusiti (Khao Yai National Park, Thailand) | image2=Pellorneumruficeps nandi.ogg | image2_caption = Calls (nominate race from India) | status = LC | status_system = IUCN3.1 | status_ref = | genus = Pellorneum | species = ruficeps | authority = Swainson, 1832 }} The puff-throated babbler or spotted babbler (Pellorneum ruficeps) is a species of passerine bird found in Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕头幽鹛-566e18eb",
+      "subject": "棕头幽鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

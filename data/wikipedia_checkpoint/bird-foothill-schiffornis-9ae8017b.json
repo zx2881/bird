@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:22:31",
+  "requested_title": "Foothill Schiffornis",
+  "resolved_title": "Foothill schiffornis",
+  "title_aliases": [
+    "Foothill Schiffornis"
+  ],
+  "bird_id": "bird-foothill-schiffornis-9ae8017b",
+  "raw_file": "bird-foothill-schiffornis-9ae8017b.json",
+  "bird": {
+    "id": "bird-foothill-schiffornis-9ae8017b",
+    "name": "Foothill schiffornis",
+    "english_name": "Foothill schiffornis",
+    "latin_name": "Schiffornis aenea",
+    "summary": "The foothill schiffornis, or foothill mourner, (Schiffornis aenea) is a Neotropical species of bird in the family Tityridae, the tityras, b…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Schiffornis_aenea.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-foothill-schiffornis-9ae8017b",
+      "subject": "Foothill schiffornis",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=2016 |title=Neotropical notebook |journal=Neotropical Birding |volume=18 |pages=45–52 }} It inhabits the understory of primary and mature secondary forest. In elevation it ranges between in Ecuador; the Colombian record was at .{{cite book | last1 =Ridgely | first1 =Robert S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-foothill-schiffornis-9ae8017b",
+      "subject": "Foothill schiffornis",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=2016 |title=Neotropical notebook |journal=Neotropical Birding |volume=18 |pages=45–52 }} It inhabits the understory of primary and mature secondary forest. In elevation it ranges between in Ecuador; the Colombian record was at .{{cite book | last1 =Ridgely | first1 =Robert S",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-foothill-schiffornis-9ae8017b",
+      "subject": "Foothill schiffornis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-foothill-schiffornis-9ae8017b",
+      "subject": "Foothill schiffornis",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Generally considered to be uncommon throughout its range, and is almost certainly declining due to ongoing deforestation and fragmentation in the foothills.\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

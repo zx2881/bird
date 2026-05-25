@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:16:19",
+  "requested_title": "Amber Mountain Rock Thrush",
+  "resolved_title": "Amber Mountain rock thrush",
+  "title_aliases": [
+    "Amber Mountain Rock Thrush"
+  ],
+  "bird_id": "bird-岩鴝鶇-b75587b3",
+  "raw_file": "bird-岩鴝鶇-b75587b3.json",
+  "bird": {
+    "id": "bird-岩鴝鶇-b75587b3",
+    "name": "岩鴝鶇",
+    "english_name": "Amber Mountain rock thrush",
+    "latin_name": "Monticola erythronotus",
+    "summary": "岩鴝鶇（Monticola sharpei erythronotus ）是屬於鹟科的一种鸣禽，該物種是马达加斯加特有種，而且主要棲息於該國北部海拔800至1,300米（2,600至4,300英尺）的山地森林中。岩鴝鶇长度大约為16 cm（6.3英寸） 。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Amber_mountain_rock_thrush_%28Monticola_sharpei_erythronotus%29_male_2.jpg/960px-Amber_mountain_rock_thrush_%28Monticola_sharpei_erythronotus%29_male_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-岩鴝鶇-b75587b3",
+      "subject": "岩鴝鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits mid-altitude and montane humid, evergreen forest from , and forages inconspicuously in the understorey and on the ground, sometimes sallying to take aerial prey",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-岩鴝鶇-b75587b3",
+      "subject": "岩鴝鶇",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

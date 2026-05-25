@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:26:06",
+  "requested_title": "Mountain Bulbul",
+  "resolved_title": "Mountain bulbul",
+  "title_aliases": [
+    "Mountain Bulbul"
+  ],
+  "bird_id": "bird-麥克氏山短腳鵯-3d4cbaf1",
+  "raw_file": "bird-麥克氏山短腳鵯-3d4cbaf1.json",
+  "bird": {
+    "id": "bird-麥克氏山短腳鵯-3d4cbaf1",
+    "name": "麥克氏山短腳鵯",
+    "english_name": "Mountain bulbul",
+    "latin_name": "Ixos mcclellandii",
+    "summary": "绿翅短脚鹎（学名：Ixos mcclellandii）为鹎科棕耳鵯屬的鸟类，又名麦克氏短脚鹎。分布于印度至中南半岛以及中国大陆的西藏、四川、云南、贵州、广西、湖南、广东、福建等地，主要栖息于海拔约2300米以下的次生阔叶林、混交林、松、杉针叶林以及也见于溪流河畔或村寨附近的竹林…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Mountain_Bulbul_at_Sattal.jpg/960px-Mountain_Bulbul_at_Sattal.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-john-mcclelland-doctor-01b8512f",
+      "name": "John McClelland (doctor)",
+      "summary": "John McClelland or M'Clelland (1805 – 31 July 1883) was a British medical doctor with interests in natural history, who…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-麥克氏山短腳鵯-3d4cbaf1",
+      "subject": "麥克氏山短腳鵯",
+      "predicate": "distributed_in",
+      "object_id": "loc-john-mcclelland-doctor-01b8512f",
+      "object": "John McClelland (doctor)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "PDF fulltext It is found in Southeast Asia and is not considered a threatened species by the IUCN. It is named after British East India Company Surgeon John McClelland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-麥克氏山短腳鵯-3d4cbaf1",
+      "subject": "麥克氏山短腳鵯",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

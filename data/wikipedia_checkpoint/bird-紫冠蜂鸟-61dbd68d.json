@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:57:20",
+  "requested_title": "Violet-crowned Hummingbird",
+  "resolved_title": "Violet-crowned hummingbird",
+  "title_aliases": [
+    "Violet-crowned Hummingbird"
+  ],
+  "bird_id": "bird-紫冠蜂鸟-61dbd68d",
+  "raw_file": "bird-紫冠蜂鸟-61dbd68d.json",
+  "bird": {
+    "id": "bird-紫冠蜂鸟-61dbd68d",
+    "name": "紫冠蜂鸟",
+    "english_name": "Violet-crowned hummingbird",
+    "latin_name": "Ramosomyia violiceps",
+    "summary": "紫冠蜂鸟（台湾作紫頂蜂鳥，学名：Ramosomyia violiceps），是雨燕目蜂鸟科的一种鸟类。 紫冠蜂鸟体重约5.1克，翼长约60.4毫米，嘴峰长约25.9毫米，喙宽度约2.7毫米，喙厚度约2.2毫米，跗蹠长约6.3毫米，尾长约33.2毫米。紫冠蜂鸟在其分布区内为留鸟，…",
+    "lat": "23",
+    "lng": "-102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/VioletCrownedHummingbird.jpg/960px-VioletCrownedHummingbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-美国-1efc9783",
+      "name": "美国",
+      "summary": "美利堅合眾國（英語：United States of America，縮寫：USA），简称美国、美利堅（英語：America）或合眾國（United States，縮寫：US），是位於北美洲的聯邦制共和國。其由50個州、首都华盛顿哥伦比亚…",
+      "lat": "40",
+      "lng": "-100"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紫冠蜂鸟-61dbd68d",
+      "subject": "紫冠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mexico and the southwestern United States.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫冠蜂鸟-61dbd68d",
+      "subject": "紫冠蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-美国-1efc9783",
+      "object": "美国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mexico and the southwestern United States.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.2 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紫冠蜂鸟-61dbd68d",
+      "subject": "紫冠蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

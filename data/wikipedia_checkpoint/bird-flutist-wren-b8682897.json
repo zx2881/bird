@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:43:02",
+  "requested_title": "Flutist Wren",
+  "resolved_title": "Flutist wren",
+  "title_aliases": [
+    "Flutist Wren"
+  ],
+  "bird_id": "bird-flutist-wren-b8682897",
+  "raw_file": "bird-flutist-wren-b8682897.json",
+  "bird": {
+    "id": "bird-flutist-wren-b8682897",
+    "name": "Flutist wren",
+    "english_name": "Flutist wren",
+    "latin_name": "Microcerculus ustulatus",
+    "summary": "The flutist wren (Microcerculus ustulatus) is a species of bird in the family Troglodytidae. It is restricted to humid highland forest in t…",
+    "lat": "3.5",
+    "lng": "-66",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/MicrocerculusKeulemans.jpg/960px-MicrocerculusKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜州-委內瑞拉-ad41ace9",
+      "name": "亞馬遜州 (委內瑞拉)",
+      "summary": "亞馬遜州（西班牙語：Estado Amazonas，國際音標：[esˈtaðo amaˈsonas]）或稱亞馬遜原住民州（Estado Indígena de Amazonas），位於委內瑞拉南部，是該國23個州位置最南的州份，東、南毗鄰…",
+      "lat": "3.5",
+      "lng": "-66"
+    },
+    {
+      "id": "loc-玻利瓦州-714b52dd",
+      "name": "玻利瓦州",
+      "summary": "Bolívar (Spanish: Estado Bolívar, IPA: [esˈtaðo βoˈliβaɾ]) is the largest of the 23 states of Venezuela in area.",
+      "lat": "8.12194444",
+      "lng": "-63.55"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-flutist-wren-b8682897",
+      "subject": "Flutist wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜州-委內瑞拉-ad41ace9",
+      "object": "亞馬遜州 (委內瑞拉)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "duidae is found in Amazonas and western Bolívar states of Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flutist-wren-b8682897",
+      "subject": "Flutist wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利瓦州-714b52dd",
+      "object": "玻利瓦州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "duidae is found in Amazonas and western Bolívar states of Venezuela",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flutist-wren-b8682897",
+      "subject": "Flutist wren",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "obscurus in eastern Bolívar state. The flutist wren is a bird of mountains, inhabiting dense humid subtropical montane forest, including the flat tops of some tepuis",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-flutist-wren-b8682897",
+      "subject": "Flutist wren",
+      "predicate": "lives_in",
+      "object_id": "hab-tidal-flat",
+      "object": "滩涂",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "obscurus in eastern Bolívar state. The flutist wren is a bird of mountains, inhabiting dense humid subtropical montane forest, including the flat tops of some tepuis",
+      "object_summary": "迁飞水鸟高度依赖的滨海觅食带。"
+    },
+    {
+      "subject_id": "bird-flutist-wren-b8682897",
+      "subject": "Flutist wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

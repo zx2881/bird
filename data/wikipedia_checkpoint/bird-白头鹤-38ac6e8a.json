@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T18:36:12",
+  "requested_title": "Hooded Crane",
+  "resolved_title": "Hooded crane",
+  "title_aliases": [
+    "Hooded Crane"
+  ],
+  "bird_id": "bird-白头鹤-38ac6e8a",
+  "raw_file": "bird-白头鹤-38ac6e8a.json",
+  "bird": {
+    "id": "bird-白头鹤-38ac6e8a",
+    "name": "白头鹤",
+    "english_name": "Hooded crane",
+    "latin_name": "Grus monacha",
+    "summary": "白頭鶴，學名Grus monacha，亦稱頭巾鶴、頭盔鶴、修士鶴、頭套鶴、盔鶴、套鶴、玄鶴，是一種深色的小型鶴類。 特征 白頭鶴體長約為1米，體重可達3.7千克，翼寬1.87米。它體型嬌小。除了眼睛附近為裸露的紅色皮膚，額和兩眼前方有較密集的黑色剛毛，從頭到頸是雪白的柔毛外，身…",
+    "lat": "36",
+    "lng": "138",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Grus_monacha_-Kyushu%2C_Japan_-three-8.jpg/960px-Grus_monacha_-Kyushu%2C_Japan_-three-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "name": "昆拉德·雅各布·特明克",
+      "summary": "Coenraad Jacob Temminck (Dutch pronunciation: [ˈkunraː ˈtɕaːkɔp ˈtɛmɪŋk]; 31 March 1778 – 30 January 1858) was a Dutch…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东亚-dee93913",
+      "name": "东亚",
+      "summary": "東亞（英語：East Asia）泛指亚洲東部，具有地理及文化层面上的双重意义。东亚地区通常包括中国大陆、日本列岛、台湾岛、朝鲜半岛、海南岛、琉球群島和蒙古高原等地，面積约1170萬平方公里。东亚地区居住有16亿人口，占世界人口的22%，亦…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-日本-4dbed2e6",
+      "name": "日本",
+      "summary": "日本國（日語：日本国〔日本國〕／にっぽんこく／にほんこく，羅馬化：nippon koku/nihon koku），通稱日本，是位於東亞的島嶼國家。國土全境由北海道、本州、四國、九州等本土四島為基礎的14,125座島嶼組成，周圍被太平洋及鄂…",
+      "lat": "36",
+      "lng": "138"
+    },
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白头鹤-38ac6e8a",
+      "subject": "白头鹤",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "object": "昆拉德·雅各布·特明克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The hooded crane (Grus monacha) is a crane native to East Asia and a frequent migratory bird in Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鹤-38ac6e8a",
+      "subject": "白头鹤",
+      "predicate": "distributed_in",
+      "object_id": "loc-东亚-dee93913",
+      "object": "东亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The hooded crane (Grus monacha) is a crane native to East Asia and a frequent migratory bird in Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鹤-38ac6e8a",
+      "subject": "白头鹤",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本-4dbed2e6",
+      "object": "日本",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The hooded crane (Grus monacha) is a crane native to East Asia and a frequent migratory bird in Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鹤-38ac6e8a",
+      "subject": "白头鹤",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The hooded crane breeds in south-central and south-eastern Siberia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白头鹤-38ac6e8a",
+      "subject": "白头鹤",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-白头鹤-38ac6e8a",
+      "subject": "白头鹤",
+      "predicate": "threatened_by",
+      "object_id": "threat-reclamation",
+      "object": "滩涂围垦",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The estimated population of the species is 11,600 individuals. The major threats to its survival are wetland loss and degradation in its wintering grounds in China and South Korea as a result of reclamation for development and dam building",
+      "object_summary": "滨海滩涂被转化为建设或农业用地。"
+    }
+  ]
+}

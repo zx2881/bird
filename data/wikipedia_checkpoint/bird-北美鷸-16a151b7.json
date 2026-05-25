@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:04:10",
+  "requested_title": "Willet",
+  "resolved_title": "Willet",
+  "title_aliases": [
+    "Willet"
+  ],
+  "bird_id": "bird-北美鷸-16a151b7",
+  "raw_file": "bird-北美鷸-16a151b7.json",
+  "bird": {
+    "id": "bird-北美鷸-16a151b7",
+    "name": "北美鷸",
+    "english_name": "Willet",
+    "latin_name": "Tringa semipalmata",
+    "summary": "北美鷸（學名Tringa semipalmata，舊學名Catoptrophorus semipalmatus：Pereira & 貝克，2005年；班克斯等，2006年），是鷸科的一種大型水鳥。它的近親是杓鷂。 成年北美鷸的腿部為灰色，並長有粗長、平直的深色喙。身體下部為深灰…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Catoptrophorus_semipalmatus_edit.jpg/960px-Catoptrophorus_semipalmatus_edit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-鹽鹼灘-28fd4322",
+      "name": "鹽鹼灘",
+      "summary": "鹽鹼灘，又稱鹽沼，是沿海潮間帶和陸地間的一種生態系統，海水或鹹水有規律地湧入流出地帶。這一地帶主要生長鹽土植物。這些植物是陸生植物且耐鹽鹼。在水域食物鏈及海陸營養交換中鹽鹼灘扮演著重要的地位，此外次地帶也為一些陸地生物的生存提供了支持。同…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北美鷸-16a151b7",
+      "subject": "北美鷸",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in North America and the West Indies and winters in southern North America, Central America, the West Indies and South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北美鷸-16a151b7",
+      "subject": "北美鷸",
+      "predicate": "distributed_in",
+      "object_id": "loc-鹽鹼灘-28fd4322",
+      "object": "鹽鹼灘",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The eastern willet breeds in coastal saltmarshes while the western willet breeds in freshwater prairie marshes, sloughs, potholes and other inland wetlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北美鷸-16a151b7",
+      "subject": "北美鷸",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The eastern willet breeds in coastal saltmarshes while the western willet breeds in freshwater prairie marshes, sloughs, potholes and other inland wetlands",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-北美鷸-16a151b7",
+      "subject": "北美鷸",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The eastern willet breeds in coastal saltmarshes while the western willet breeds in freshwater prairie marshes, sloughs, potholes and other inland wetlands",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-北美鷸-16a151b7",
+      "subject": "北美鷸",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-北美鷸-16a151b7",
+      "subject": "北美鷸",
+      "predicate": "threatened_by",
+      "object_id": "threat-wetland-drainage",
+      "object": "湿地排水",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The western subspecies is threatened by the conversion of native grasslands and drainage of wetlands for agriculture while the wintering habitat has been degraded locally in California by coastal development",
+      "object_summary": "湿地被排干转为农业或建设用地。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:05:42",
+  "requested_title": "Little Lorikeet",
+  "resolved_title": "Little lorikeet",
+  "title_aliases": [
+    "Little Lorikeet"
+  ],
+  "bird_id": "bird-little-lorikeet-f632d59a",
+  "raw_file": "bird-little-lorikeet-f632d59a.json",
+  "bird": {
+    "id": "bird-little-lorikeet-f632d59a",
+    "name": "Little lorikeet",
+    "english_name": "Little lorikeet",
+    "latin_name": "Psitteuteles pusillus",
+    "summary": "The little lorikeet (Psitteuteles pusillus) is a species of parrot in the family Psittaculidae. It is endemic to Australia.",
+    "lat": "-16.92",
+    "lng": "145.78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Little_Lorikeet_kobble.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-凱恩斯-昆士蘭州-d4efd188",
+      "name": "凱恩斯 (昆士蘭州)",
+      "summary": "凱恩斯（英語：Cairns，又譯堅士市、 柬兹、開因茲），是澳大利亚昆士蘭州北部的濱海城市和一个地方行政区域，於1876年開埠。該城以當時昆士蘭總督威廉·惠靈頓·凱恩斯之名命名。早期是礦工前往霍金森金礦（Hodgkinson Gold F…",
+      "lat": "-16.92",
+      "lng": "145.78"
+    },
+    {
+      "id": "loc-大分水岭-ee037759",
+      "name": "大分水岭",
+      "summary": "大分水岭（英語：Great Dividing Range），也称东部高地（Eastern Highlands），亦音譯作大狄維亭山脈，是澳大利亚大陆东部沿岸大致与海岸线平行的山脉、丘陵和高原的总称，北起约克角半岛，南至维多利亚州西部，长3…",
+      "lat": "-25",
+      "lng": "147"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-little-lorikeet-f632d59a",
+      "subject": "Little lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-凱恩斯-昆士蘭州-d4efd188",
+      "object": "凱恩斯 (昆士蘭州)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The little lorikeet is found in eastern and southern Australia, from the vicinity of Cairns southwards through Queensland and New South Wales from the western slopes of the Great Dividing Range eastwards to the coast, through most of Victoria and southeastern South Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-lorikeet-f632d59a",
+      "subject": "Little lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-大分水岭-ee037759",
+      "object": "大分水岭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The little lorikeet is found in eastern and southern Australia, from the vicinity of Cairns southwards through Queensland and New South Wales from the western slopes of the Great Dividing Range eastwards to the coast, through most of Victoria and southeastern South Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-lorikeet-f632d59a",
+      "subject": "Little lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:31:11",
+  "requested_title": "Black-chinned Yuhina",
+  "resolved_title": "Black-chinned yuhina",
+  "title_aliases": [
+    "Black-chinned Yuhina"
+  ],
+  "bird_id": "bird-黑额凤鹛-82bb2be6",
+  "raw_file": "bird-黑额凤鹛-82bb2be6.json",
+  "bird": {
+    "id": "bird-黑额凤鹛-82bb2be6",
+    "name": "黑额凤鹛",
+    "english_name": "Black-chinned yuhina",
+    "latin_name": "Yuhina nigrimenta",
+    "summary": "黑额凤鹛（学名：Yuhina nigrimenta）为鶲科凤鹛属的鸟类，俗名黑颏凤鹛。分布于印度、缅甸、老挝、越南以及中国大陆的西藏、四川、湖北、贵州、云南、广西、广东、福建等地，多生活于常绿阔叶林以及树下较高的草丛间及谷间灌丛中。该物种的模式产地在尼泊尔。 亚种 黑额凤鹛西南…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Black-chinned_Yuhina_in_Kurseong_April_2024_by_Tisha_Mukherjee_02.jpg/960px-Black-chinned_Yuhina_in_Kurseong_April_2024_by_Tisha_Mukherjee_02.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑额凤鹛-82bb2be6",
+      "subject": "黑额凤鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Indian subcontinent from the Himalayas eastwards to contiguous hilly regions of Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑额凤鹛-82bb2be6",
+      "subject": "黑额凤鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Indian subcontinent from the Himalayas eastwards to contiguous hilly regions of Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑额凤鹛-82bb2be6",
+      "subject": "黑额凤鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

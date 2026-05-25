@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:01:45",
+  "requested_title": "Xingu Scale-backed Antbird",
+  "resolved_title": "Xingu scale-backed antbird",
+  "title_aliases": [
+    "Xingu Scale-backed Antbird"
+  ],
+  "bird_id": "bird-xingu-scale-backed-antbird-c333fc0d",
+  "raw_file": "bird-xingu-scale-backed-antbird-c333fc0d.json",
+  "bird": {
+    "id": "bird-xingu-scale-backed-antbird-c333fc0d",
+    "name": "Xingu scale-backed antbird",
+    "english_name": "Xingu scale-backed antbird",
+    "latin_name": "Willisornis vidua",
+    "summary": "The Xingu scale-backed antbird (Willisornis vidua) is a species of bird in subfamily Thamnophilinae of family Thamnophilidae, the \"typical…",
+    "lat": "-15.51777778",
+    "lng": "-71.69361111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Willisornis_vidua_-_Xingu_scale-back_antbird_%28young_male%29.jpg/960px-Willisornis_vidua_-_Xingu_scale-back_antbird_%28young_male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亚马逊河-e416ee15",
+      "name": "亚马逊河",
+      "summary": "亚马逊河（葡萄牙語：Rio Amazonas；西班牙語：Río Amazonas；奇楚瓦語：Awqaq sipaskuna mayu；英語：Amazon River），也称亚马孙河，是一条位於南美洲北部的大型河流，自西向东流动。其发源自位…",
+      "lat": "-15.51777778",
+      "lng": "-71.69361111"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-xingu-scale-backed-antbird-c333fc0d",
+      "subject": "Xingu scale-backed antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-亚马逊河-e416ee15",
+      "object": "亚马逊河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Xingu scale-backed antbird is found in south-central and eastern Amazonian Brazil south of the Amazon River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-xingu-scale-backed-antbird-c333fc0d",
+      "subject": "Xingu scale-backed antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species primarily inhabits the understorey of humid terra firme evergreen forest and also occurs in várzea forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-xingu-scale-backed-antbird-c333fc0d",
+      "subject": "Xingu scale-backed antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species primarily inhabits the understorey of humid terra firme evergreen forest and also occurs in várzea forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-xingu-scale-backed-antbird-c333fc0d",
+      "subject": "Xingu scale-backed antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species primarily inhabits the understorey of humid terra firme evergreen forest and also occurs in várzea forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-xingu-scale-backed-antbird-c333fc0d",
+      "subject": "Xingu scale-backed antbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

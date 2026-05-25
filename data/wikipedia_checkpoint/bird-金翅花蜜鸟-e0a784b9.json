@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:50:00",
+  "requested_title": "Golden-winged Sunbird",
+  "resolved_title": "Golden-winged sunbird",
+  "title_aliases": [
+    "Golden-winged Sunbird"
+  ],
+  "bird_id": "bird-金翅花蜜鸟-e0a784b9",
+  "raw_file": "bird-金翅花蜜鸟-e0a784b9.json",
+  "bird": {
+    "id": "bird-金翅花蜜鸟-e0a784b9",
+    "name": "金翅花蜜鸟",
+    "english_name": "Golden-winged sunbird",
+    "latin_name": "Drepanorhynchus reichenowi",
+    "summary": "金翅花蜜鸟（学名：Drepanorhynchus reichenowi），是雀形目太阳鸟科的一种鸟类，属于单型的金翅花蜜鸟属（学名：Drepanorhynchus）。 金翅花蜜鸟体重约14.66克，翼长约75.6毫米，喙宽度约3.7毫米，喙厚度约3.5毫米，嘴峰长约28.8毫米…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Golden-winged_Sunbird_%28Drepanorhynchus_reichenowi%29_-Kenya.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    },
+    {
+      "id": "loc-east-african-montane-forests-6313874b",
+      "name": "East African montane forests",
+      "summary": "The East African montane forests is a montane tropical moist forest ecoregion of eastern Africa.",
+      "lat": "-0.55",
+      "lng": "35.65"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金翅花蜜鸟-e0a784b9",
+      "subject": "金翅花蜜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests and East African montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金翅花蜜鸟-e0a784b9",
+      "subject": "金翅花蜜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-east-african-montane-forests-6313874b",
+      "object": "East African montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The golden-winged sunbird is native to the Albertine Rift montane forests and East African montane forests, between altitudes of 1170 and 2300 m",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金翅花蜜鸟-e0a784b9",
+      "subject": "金翅花蜜鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in forest verges and clearings, in cultivated areas, bamboo forest and tall grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-金翅花蜜鸟-e0a784b9",
+      "subject": "金翅花蜜鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

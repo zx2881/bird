@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:10:20",
+  "requested_title": "Akekee",
+  "resolved_title": "Akekeʻe",
+  "title_aliases": [
+    "Akekee",
+    "Akekeʻe"
+  ],
+  "bird_id": "bird-akeke-e-d71e28ef",
+  "raw_file": "bird-akeke-e-d71e28ef.json",
+  "bird": {
+    "id": "bird-akeke-e-d71e28ef",
+    "name": "Akekeʻe",
+    "english_name": "Akekeʻe",
+    "latin_name": "Loxops caeruleirostris",
+    "summary": "The akekeʻe (Loxops caeruleirostris) or Kauaʻi ʻākepa is a bird species in the family Fringillidae, where it is placed in the Hawaiian hone…",
+    "lat": "22.07",
+    "lng": "-159.4975",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Loxops_caeruleirostris.jpg/960px-Loxops_caeruleirostris.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-考爱岛-32f742c8",
+      "name": "考爱岛",
+      "summary": "考爱岛（英語：Kauai，夏威夷語：Kauaʻi），又譯可愛島，是太平洋中部夏威夷群岛中第四大岛，属美国夏威夷州考爱县管辖，全岛面积1430.4平方公里，人口58,303人（2000年统计）。 考爱岛是一个火山岛，島上最高峰是卡瓦伊基尼山…",
+      "lat": "22.07",
+      "lng": "-159.4975"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-akeke-e-d71e28ef",
+      "subject": "Akekeʻe",
+      "predicate": "distributed_in",
+      "object_id": "loc-考爱岛-32f742c8",
+      "object": "考爱岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the island of Kauai where it is found in small numbers in higher elevations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-akeke-e-d71e28ef",
+      "subject": "Akekeʻe",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

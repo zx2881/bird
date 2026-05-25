@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:00:43",
+  "requested_title": "Lesser Grey Shrike",
+  "resolved_title": "Lesser grey shrike",
+  "title_aliases": [
+    "Lesser Grey Shrike"
+  ],
+  "bird_id": "bird-黑额伯劳-8b607990",
+  "raw_file": "bird-黑额伯劳-8b607990.json",
+  "bird": {
+    "id": "bird-黑额伯劳-8b607990",
+    "name": "黑额伯劳",
+    "english_name": "Lesser grey shrike",
+    "latin_name": "Lanius minor",
+    "summary": "黑额伯劳（学名：Lanius minor）为伯劳科伯劳属的鸟类，俗名小灰伯劳。分布于阿拉伯高原以北地区、非洲南部、从欧洲的中部、南部向俄罗斯、土耳其斯坦、到阿富汗、伊朗以及中国大陆的新疆等地，常见于从平原至海拔1500m山地、主要分布于森林草原和耕作区以及筑巢于阔叶树及灌木上。…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lesser_grey_shrike_%28Lanius_minor%29%2C_Kruger_National_Park%2C_South_Africa._-_52804244906.jpg/960px-Lesser_grey_shrike_%28Lanius_minor%29%2C_Kruger_National_Park%2C_South_Africa._-_52804244906.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西亚-a96480a2",
+      "name": "西亚",
+      "summary": "西亞（英語：West Asia，通稱：Western Asia），或稱西南亞（英語：South-west Asia 或 Southwest Asia，通稱：South-western Asia 或 Southwestern Asia），指…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑额伯劳-8b607990",
+      "subject": "黑额伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-西亚-a96480a2",
+      "object": "西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in South and Central Europe and western Asia and migrates to winter quarters in southern Africa in the early autumn, returning in spring",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑额伯劳-8b607990",
+      "subject": "黑额伯劳",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In its winter quarters it is usually found in scrubland and among thorn trees",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-黑额伯劳-8b607990",
+      "subject": "黑额伯劳",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

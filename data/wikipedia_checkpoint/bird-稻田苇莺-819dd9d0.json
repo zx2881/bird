@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:29:24",
+  "requested_title": "Paddyfield Warbler",
+  "resolved_title": "Paddyfield warbler",
+  "title_aliases": [
+    "Paddyfield Warbler"
+  ],
+  "bird_id": "bird-稻田苇莺-819dd9d0",
+  "raw_file": "bird-稻田苇莺-819dd9d0.json",
+  "bird": {
+    "id": "bird-稻田苇莺-819dd9d0",
+    "name": "稻田苇莺",
+    "english_name": "Paddyfield warbler",
+    "latin_name": "Acrocephalus (bird) agricola",
+    "summary": "稻田苇莺（学名：Acrocephalus agricola）为鶲科苇莺属的鸟类。该物种主要分布在中亚和南亚地区，其模式产地在印度。它以前被歸入「舊大陸葦鶯」集合。遠東葦鶯（A. tangorum）曾經（有時仍然）被包含在A.",
+    "lat": "24",
+    "lng": "90",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Paddyfield_Warbler_%28Acrocephalus_agricola%29_in_Kolkata_Im_IMG_0496.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-孟加拉国-ffb382f4",
+      "name": "孟加拉国",
+      "summary": "孟加拉人民共和国（孟加拉語：গণপ্রজাতন্ত্রী বাংলাদেশ，羅馬化：Gaṇaprajātantrī Vāṁlādeśa；英語：People's Republic of Bangladesh），通稱孟加拉国（孟加拉語：বাং…",
+      "lat": "24",
+      "lng": "90"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-巴基斯坦-9201e536",
+      "name": "巴基斯坦",
+      "summary": "巴基斯坦伊斯兰共和国（乌尔都语：اسلامی جمہوریہ پاکستان‬；英语：Islamic Republic of Pakistan），通称巴基斯坦，位于南亚，东与印度比邻，南面是印度洋，西与伊朗接壤，西北和阿富汗相連，東北与中…",
+      "lat": "30",
+      "lng": "70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-稻田苇莺-819dd9d0",
+      "subject": "稻田苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-孟加拉国-ffb382f4",
+      "object": "孟加拉国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in Bangladesh, India and Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-稻田苇莺-819dd9d0",
+      "subject": "稻田苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in Bangladesh, India and Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-稻田苇莺-819dd9d0",
+      "subject": "稻田苇莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴基斯坦-9201e536",
+      "object": "巴基斯坦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in Bangladesh, India and Pakistan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-稻田苇莺-819dd9d0",
+      "subject": "稻田苇莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

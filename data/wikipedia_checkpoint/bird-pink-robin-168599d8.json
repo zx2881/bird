@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T09:57:12",
+  "requested_title": "Pink Robin",
+  "resolved_title": "Pink robin",
+  "title_aliases": [
+    "Pink Robin"
+  ],
+  "bird_id": "bird-pink-robin-168599d8",
+  "raw_file": "bird-pink-robin-168599d8.json",
+  "bird": {
+    "id": "bird-pink-robin-168599d8",
+    "name": "Pink robin",
+    "english_name": "Pink robin",
+    "latin_name": "Petroica rodinogaster",
+    "summary": "The pink robin (Petroica rodinogaster) is a small passerine bird native to southeastern Australia. Its natural habitats are cool temperate…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pink_Robin_0A2A9297.jpg/960px-Pink_Robin_0A2A9297.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-auguste-drapiez-912d2f58",
+      "name": "Auguste Drapiez",
+      "summary": "Pierre Auguste Joseph Drapiez (28 August 1778, Lille – 28 December 1856, Brussels) was a Belgian naturalist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pink-robin-168599d8",
+      "subject": "Pink robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-auguste-drapiez-912d2f58",
+      "object": "Auguste Drapiez",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pink robin (Petroica rodinogaster) is a small passerine bird native to southeastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pink-robin-168599d8",
+      "subject": "Pink robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pink robin (Petroica rodinogaster) is a small passerine bird native to southeastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pink-robin-168599d8",
+      "subject": "Pink robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

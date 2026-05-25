@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:47:27",
+  "requested_title": "Blackcap Illadopsis",
+  "resolved_title": "Blackcap illadopsis",
+  "title_aliases": [
+    "Blackcap Illadopsis"
+  ],
+  "bird_id": "bird-blackcap-illadopsis-df8fbc28",
+  "raw_file": "bird-blackcap-illadopsis-df8fbc28.json",
+  "bird": {
+    "id": "bird-blackcap-illadopsis-df8fbc28",
+    "name": "Blackcap illadopsis",
+    "english_name": "Blackcap illadopsis",
+    "latin_name": "Illadopsis cleaveri",
+    "summary": "The blackcap illadopsis (Illadopsis cleaveri) is a species of bird in the family Pellorneidae. It is native to areas surrounding the Gulf o…",
+    "lat": "0",
+    "lng": "0",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Illadopsis_cleaveri_Keulemans.jpg/960px-Illadopsis_cleaveri_Keulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-几内亚湾-60e5362f",
+      "name": "几内亚湾",
+      "summary": "几内亚湾（英語：Gulf of Guinea；法語：Golfe de Guinée；葡萄牙語：Golfo da Guiné；西班牙語：Golfo de Guinea）位於非洲西岸，它包括贝宁湾和邦尼湾，是大西洋的一部分。赤道與本初子午線在…",
+      "lat": "0",
+      "lng": "0"
+    },
+    {
+      "id": "loc-比奥科岛-c4254484",
+      "name": "比奥科岛",
+      "summary": "比奥科岛（Bioko），原名“费尔南多波岛”（西班牙語：Fernando Poo），是非洲西海岸几内亚湾中的一个火山岛，属赤道几内亚管辖，该国前首都马拉博即位于岛上。该岛面积为2,017平方公里，人口33万人。該島嶼原為西班牙殖民地，因其…",
+      "lat": "3.5",
+      "lng": "8.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blackcap-illadopsis-df8fbc28",
+      "subject": "Blackcap illadopsis",
+      "predicate": "distributed_in",
+      "object_id": "loc-几内亚湾-60e5362f",
+      "object": "几内亚湾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to areas surrounding the Gulf of Guinea (including Bioko island)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blackcap-illadopsis-df8fbc28",
+      "subject": "Blackcap illadopsis",
+      "predicate": "distributed_in",
+      "object_id": "loc-比奥科岛-c4254484",
+      "object": "比奥科岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to areas surrounding the Gulf of Guinea (including Bioko island)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blackcap-illadopsis-df8fbc28",
+      "subject": "Blackcap illadopsis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

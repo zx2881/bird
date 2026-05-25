@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:05:16",
+  "requested_title": "Yellow-billed Blue Magpie",
+  "resolved_title": "Yellow-billed blue magpie",
+  "title_aliases": [
+    "Yellow-billed Blue Magpie"
+  ],
+  "bird_id": "bird-黄嘴蓝鹊-ff04ebff",
+  "raw_file": "bird-黄嘴蓝鹊-ff04ebff.json",
+  "bird": {
+    "id": "bird-黄嘴蓝鹊-ff04ebff",
+    "name": "黄嘴蓝鹊",
+    "english_name": "Yellow-billed blue magpie",
+    "latin_name": "Urocissa flavirostris",
+    "summary": "黄嘴蓝鹊（学名：Urocissa flavirostris）为鸦科蓝鹊属的鸟类。分布于尼泊尔、印度、缅甸、越南以及中国大陆的西藏、云南等地，主要生活于阔叶林区以及在林缘或林间空地的灌丛间活动。该物种的模式产地在印度大吉岭。 亚种 黄嘴蓝鹊指名亚种（学名：Urocissa fla…",
+    "lat": "31.10333333",
+    "lng": "77.17222222",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Yellow-billed_Blue_Magpie_Dugalbitta_Chopta_Uttarakhand_India_13.06.2013.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西姆拉-cb3d54fa",
+      "name": "西姆拉",
+      "summary": "西姆拉（印地語：शिमला，烏爾都語：شملہ，英語：Shimla）位于印度北部喜马拉雅山山区，是印度喜马偕尔邦的首府。地理座标：北纬31度06分，东经77度13分。人口16万多。 西姆拉有辉煌的过去，英属印度時期以此為夏都，将西姆拉建成…",
+      "lat": "31.10333333",
+      "lng": "77.17222222"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄嘴蓝鹊-ff04ebff",
+      "subject": "黄嘴蓝鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-西姆拉-cb3d54fa",
+      "object": "西姆拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "From Simla eastwards, the closely related red-billed blue magpie (Urocissa erythroryncha) is often found in the same areas as the yellow-billed species; it is particularly common about Mussoorie, Tehri-Garhwal, -Kumaon, and in Nepal, and may be easily distinguished by its red beak and the greater extent of the white nape-patch",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄嘴蓝鹊-ff04ebff",
+      "subject": "黄嘴蓝鹊",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

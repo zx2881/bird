@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:12:31",
+  "requested_title": "Asir Magpie",
+  "resolved_title": "Asir magpie",
+  "title_aliases": [
+    "Asir Magpie"
+  ],
+  "bird_id": "bird-阿拉伯喜鹊-6ef96187",
+  "raw_file": "bird-阿拉伯喜鹊-6ef96187.json",
+  "bird": {
+    "id": "bird-阿拉伯喜鹊-6ef96187",
+    "name": "阿拉伯喜鹊",
+    "english_name": "Asir magpie",
+    "latin_name": "Pica asirensis",
+    "summary": "阿拉伯喜鹊（學名：Pica asirensis）是沙特阿拉伯阿西尔省特有的一种喜鹊属鸟类。阿拉伯喜鹊曾被认为是欧亚喜鹊的一个亚种，但系统发生学研究表明其应当独立成种。 参考资料",
+    "lat": "21.6",
+    "lng": "39.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Asir_Magpie%2C_Asir_Mountains%2C_Saudi_Arabia_%282025%29.jpg/960px-Asir_Magpie%2C_Asir_Mountains%2C_Saudi_Arabia_%282025%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-asir-mountains-89440c3c",
+      "name": "Asir Mountains",
+      "summary": "The Asir Mountains (Arabic: جِبَال عَسِيْر, jibāl ʿasīr; Arabic pronunciation: [d͡ʒɪbaːl ʕasiːr] ('Difficult')) is a mo…",
+      "lat": "21.6",
+      "lng": "39.8"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-阿拉伯喜鹊-6ef96187",
+      "subject": "阿拉伯喜鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-asir-mountains-89440c3c",
+      "object": "Asir Mountains",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is only found in the country's southwestern highlands, in the Asir Mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-阿拉伯喜鹊-6ef96187",
+      "subject": "阿拉伯喜鹊",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-阿拉伯喜鹊-6ef96187",
+      "subject": "阿拉伯喜鹊",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "| work=Handbook of the Birds of the World Alive | publisher=Lynx Edicions | url=https://www.hbw.com/node/60754 | access-date=20 July 2018 |url-access=subscription }} This species is highly threatened by habitat destruction, as its native forests are not regenerating",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-阿拉伯喜鹊-6ef96187",
+      "subject": "阿拉伯喜鹊",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Tourism development and climate change are also posing a threat",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

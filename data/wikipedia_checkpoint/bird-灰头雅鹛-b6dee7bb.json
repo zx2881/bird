@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:45:12",
+  "requested_title": "Ashy-headed Babbler",
+  "resolved_title": "Ashy-headed babbler",
+  "title_aliases": [
+    "Ashy-headed Babbler"
+  ],
+  "bird_id": "bird-灰头雅鹛-b6dee7bb",
+  "raw_file": "bird-灰头雅鹛-b6dee7bb.json",
+  "bird": {
+    "id": "bird-灰头雅鹛-b6dee7bb",
+    "name": "灰头雅鹛",
+    "english_name": "Ashy-headed babbler",
+    "latin_name": "Pellorneum cinereiceps",
+    "summary": "灰头雅鹛（学名：Malacocincla cinereiceps），是画眉科的一种，为菲律宾的特有种。该物种的保护状况被评为无危。 灰头雅鹛的平均体重约为24.0克。栖息地包括亚热带或热带的湿润低地林、亚热带或热带严重退化的前森林和亚热带或热带的（低地）湿润疏灌丛。",
+    "lat": "10.16666667",
+    "lng": "118.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ashy-headed_Babbler.jpg/960px-Ashy-headed_Babbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-普林塞萨港地下河国家公园-656774b8",
+      "name": "普林塞萨港地下河国家公园",
+      "summary": "普林塞萨港地下河国家公园（英語：Puerto Princesa Subterranean River National Park），台湾譯作公主港地下河國家公園，為菲律宾一處自然保护区，位於菲律賓島群呂宋部份西南部的巴拉望島。該公園於19…",
+      "lat": "10.16666667",
+      "lng": "118.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰头雅鹛-b6dee7bb",
+      "subject": "灰头雅鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-普林塞萨港地下河国家公园-656774b8",
+      "object": "普林塞萨港地下河国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in just one protected area in the Puerto Princesa Subterranean River National Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头雅鹛-b6dee7bb",
+      "subject": "灰头雅鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species is found in primary forest and secondary forest as well as scrubland, from sea-level to",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-灰头雅鹛-b6dee7bb",
+      "subject": "灰头雅鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-灰头雅鹛-b6dee7bb",
+      "subject": "灰头雅鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its population is said to be declining as Palawan's forests are under threat due to illegal logging, deforestation, land conversion and mining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

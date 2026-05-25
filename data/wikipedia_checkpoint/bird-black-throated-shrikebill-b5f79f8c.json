@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:54:40",
+  "requested_title": "Black-throated Shrikebill",
+  "resolved_title": "Black-throated shrikebill",
+  "title_aliases": [
+    "Black-throated Shrikebill"
+  ],
+  "bird_id": "bird-black-throated-shrikebill-b5f79f8c",
+  "raw_file": "bird-black-throated-shrikebill-b5f79f8c.json",
+  "bird": {
+    "id": "bird-black-throated-shrikebill-b5f79f8c",
+    "name": "Black-throated shrikebill",
+    "english_name": "Black-throated shrikebill",
+    "latin_name": "Clytorhynchus nigrogularis",
+    "summary": "The black-throated shrikebill or black-faced shrikebill (Clytorhynchus nigrogularis) is a songbird species in the family Monarchidae. It is…",
+    "lat": "-18",
+    "lng": "179",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Black-throated_Shrikebill.jpg/960px-Black-throated_Shrikebill.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-斐濟-2fb776c3",
+      "name": "斐濟",
+      "summary": "斐濟共和國（英語：Republic of Fiji；斐濟語：Matanitu Tugalala o Viti；斐濟印地語：रिपब्लिक ऑफ फीजी），通稱斐濟，是位於南太平洋，瓦努阿圖以東、東加以西、吐瓦魯以南的群島國家，由322…",
+      "lat": "-18",
+      "lng": "179"
+    },
+    {
+      "id": "loc-所罗门群岛-65f9af23",
+      "name": "所罗门群岛",
+      "summary": "所罗门群岛（英語：Solomon Islands）是南太平洋岛国，位於澳大利亚东北方，巴布亞紐幾內亞東方。首都霍尼亞拉所在地瓜達康納爾島曾是第二次世界大戰在太平洋的转折点所在地。 所罗门群岛共有超過990個島，陸地總面積共有28,450平…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-throated-shrikebill-b5f79f8c",
+      "subject": "Black-throated shrikebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-斐濟-2fb776c3",
+      "object": "斐濟",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Fiji and Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-throated-shrikebill-b5f79f8c",
+      "subject": "Black-throated shrikebill",
+      "predicate": "distributed_in",
+      "object_id": "loc-所罗门群岛-65f9af23",
+      "object": "所罗门群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Fiji and Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-throated-shrikebill-b5f79f8c",
+      "subject": "Black-throated shrikebill",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-black-throated-shrikebill-b5f79f8c",
+      "subject": "Black-throated shrikebill",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

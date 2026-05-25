@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T19:01:08",
+  "requested_title": "Imperial Snipe",
+  "resolved_title": "Imperial snipe",
+  "title_aliases": [
+    "Imperial Snipe"
+  ],
+  "bird_id": "bird-imperial-snipe-e4349050",
+  "raw_file": "bird-imperial-snipe-e4349050.json",
+  "bird": {
+    "id": "bird-imperial-snipe-e4349050",
+    "name": "Imperial snipe",
+    "english_name": "Imperial snipe",
+    "latin_name": "Gallinago imperialis",
+    "summary": "The imperial snipe (Gallinago imperialis) is a small stocky wader which breeds in the Andes. For a century it was known only from two speci…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/GallinagoImperialisSmit.jpg/960px-GallinagoImperialisSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲利普-斯克莱特-0722f03b",
+      "name": "菲利普·斯克莱特",
+      "summary": "菲利普·勒特利·斯克莱特（英語：Philip Lutley Sclater，1829年11月4日—1913年6月27日）是一位英国律师和动物学家，主要从事鳥類學研究，开创性地建立了动物地理学分区。 参考资料 外部链接 维基共享资源上的相關…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-osbert-salvin-f71e3068",
+      "name": "Osbert Salvin",
+      "summary": "Osbert Salvin (25 February 1835 – 1 June 1898) was an English naturalist, ornithologist, and herpetologist best known f…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-imperial-snipe-e4349050",
+      "subject": "Imperial snipe",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲利普-斯克莱特-0722f03b",
+      "object": "菲利普·斯克莱特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The imperial snipe (Gallinago imperialis) is a small stocky wader which breeds in the Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-imperial-snipe-e4349050",
+      "subject": "Imperial snipe",
+      "predicate": "distributed_in",
+      "object_id": "loc-osbert-salvin-f71e3068",
+      "object": "Osbert Salvin",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The imperial snipe (Gallinago imperialis) is a small stocky wader which breeds in the Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-imperial-snipe-e4349050",
+      "subject": "Imperial snipe",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The imperial snipe (Gallinago imperialis) is a small stocky wader which breeds in the Andes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-imperial-snipe-e4349050",
+      "subject": "Imperial snipe",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

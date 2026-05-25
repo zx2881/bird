@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:52:12",
+  "requested_title": "White-collared Monarch",
+  "resolved_title": "White-collared monarch",
+  "title_aliases": [
+    "White-collared Monarch"
+  ],
+  "bird_id": "bird-white-collared-monarch-6a4b752f",
+  "raw_file": "bird-white-collared-monarch-6a4b752f.json",
+  "bird": {
+    "id": "bird-white-collared-monarch-6a4b752f",
+    "name": "White-collared monarch",
+    "english_name": "White-collared monarch",
+    "latin_name": "Symposiachrus vidua",
+    "summary": "The white-collared monarch (Symposiachrus vidua) is a species of bird in the family Monarchidae. It is found in the Solomon Islands of Ugi…",
+    "lat": "-8",
+    "lng": "159",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Piezorhynchus_vidua_-_The_Birds_of_New_Guinea_%28cropped%29.jpg/960px-Piezorhynchus_vidua_-_The_Birds_of_New_Guinea_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-所罗门群岛-65f9af23",
+      "name": "所罗门群岛",
+      "summary": "所罗门群岛（英語：Solomon Islands）是南太平洋岛国，位於澳大利亚东北方，巴布亞紐幾內亞東方。首都霍尼亞拉所在地瓜達康納爾島曾是第二次世界大戰在太平洋的转折点所在地。 所罗门群岛共有超過990個島，陸地總面積共有28,450平…",
+      "lat": "-8",
+      "lng": "159"
+    },
+    {
+      "id": "loc-ugi-island-948b6864",
+      "name": "Ugi Island",
+      "summary": "Ugi Island, also Uki Island or Uki Ni Massi, is an island 11 km north of the island of Makira, Makira-Ulawa Province in…",
+      "lat": "-10.25",
+      "lng": "161.75"
+    },
+    {
+      "id": "loc-馬基拉島-1cb40d48",
+      "name": "馬基拉島",
+      "summary": "馬基拉島是太平洋島國所羅門群島的島嶼，位於瓜達爾卡納爾島以東和馬萊塔島以南，是馬基拉-烏拉瓦省最大的島嶼，島上最大城市基拉基拉是該省首府。",
+      "lat": "-10.55111111",
+      "lng": "161.82805556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-collared-monarch-6a4b752f",
+      "subject": "White-collared monarch",
+      "predicate": "distributed_in",
+      "object_id": "loc-所罗门群岛-65f9af23",
+      "object": "所罗门群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Solomon Islands of Ugi and Makira",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-collared-monarch-6a4b752f",
+      "subject": "White-collared monarch",
+      "predicate": "distributed_in",
+      "object_id": "loc-ugi-island-948b6864",
+      "object": "Ugi Island",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Solomon Islands of Ugi and Makira",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-collared-monarch-6a4b752f",
+      "subject": "White-collared monarch",
+      "predicate": "distributed_in",
+      "object_id": "loc-馬基拉島-1cb40d48",
+      "object": "馬基拉島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Solomon Islands of Ugi and Makira",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-collared-monarch-6a4b752f",
+      "subject": "White-collared monarch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

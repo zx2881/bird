@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:37:31",
+  "requested_title": "Madagascar Pygmy Kingfisher",
+  "resolved_title": "Madagascar pygmy kingfisher",
+  "title_aliases": [
+    "Madagascar Pygmy Kingfisher"
+  ],
+  "bird_id": "bird-madagascar-pygmy-kingfisher-a57b559c",
+  "raw_file": "bird-madagascar-pygmy-kingfisher-a57b559c.json",
+  "bird": {
+    "id": "bird-madagascar-pygmy-kingfisher-a57b559c",
+    "name": "Madagascar pygmy kingfisher",
+    "english_name": "Madagascar pygmy kingfisher",
+    "latin_name": "Corythornis madagascariensis",
+    "summary": "The Madagascar pygmy kingfisher (Corythornis madagascariensis) is a species of bird in the family Alcedinidae. It is endemic to Madagascar…",
+    "lat": "-20",
+    "lng": "47",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ceyx_madagascariensis_-Mantadia_National_Park%2C_Madagascar-8.jpg/960px-Ceyx_madagascariensis_-Mantadia_National_Park%2C_Madagascar-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马达加斯加-c43a58cb",
+      "name": "马达加斯加",
+      "summary": "马达加斯加共和国（馬達加斯加語：Repoblikan'i Madagasikara；法語：République de Madagascar），简称马达加斯加，前称马尔加什共和国，是位于非洲东南部近海的印度洋岛屿国家，领土包括世界第四大岛马…",
+      "lat": "-20",
+      "lng": "47"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-madagascar-pygmy-kingfisher-a57b559c",
+      "subject": "Madagascar pygmy kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-马达加斯加-c43a58cb",
+      "object": "马达加斯加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Madagascar and found in western dry deciduous forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-pygmy-kingfisher-a57b559c",
+      "subject": "Madagascar pygmy kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:49:39",
+  "requested_title": "Tumbes Sparrow",
+  "resolved_title": "Tumbes sparrow",
+  "title_aliases": [
+    "Tumbes Sparrow"
+  ],
+  "bird_id": "bird-tumbes-sparrow-c8e51c4d",
+  "raw_file": "bird-tumbes-sparrow-c8e51c4d.json",
+  "bird": {
+    "id": "bird-tumbes-sparrow-c8e51c4d",
+    "name": "Tumbes sparrow",
+    "english_name": "Tumbes sparrow",
+    "latin_name": "Rhynchospiza stolzmanni",
+    "summary": "The Tumbes sparrow (Rhynchospiza stolzmanni) is a species of bird in the family Passerellidae found in Ecuador and Peru. Its natural habita…",
+    "lat": "-2",
+    "lng": "-77.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/GnathospizaHaemophilaSmit.jpg/960px-GnathospizaHaemophilaSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雀鹀科-f5ad373c",
+      "name": "雀鹀科",
+      "summary": "雀鹀科（學名：Passerellidae）是鳥綱雀形目的一個科，以植物的種子和昆蟲為食，鳥啄為圓錐狀，分佈於新世界，它們的顏色主要以褐色和灰色為主，本科很多物種外觀上較能明顯分辨。 該科跟鵐科和鐵爪鵐科的鳥類有相同的鵐字，英文名跟雀科的鳥…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tumbes-sparrow-c8e51c4d",
+      "subject": "Tumbes sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-雀鹀科-f5ad373c",
+      "object": "雀鹀科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tumbes sparrow (Rhynchospiza stolzmanni) is a species of bird in the family Passerellidae found in Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tumbes-sparrow-c8e51c4d",
+      "subject": "Tumbes sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tumbes sparrow (Rhynchospiza stolzmanni) is a species of bird in the family Passerellidae found in Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tumbes-sparrow-c8e51c4d",
+      "subject": "Tumbes sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tumbes sparrow (Rhynchospiza stolzmanni) is a species of bird in the family Passerellidae found in Ecuador and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tumbes-sparrow-c8e51c4d",
+      "subject": "Tumbes sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

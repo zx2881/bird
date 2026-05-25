@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:24:35",
+  "requested_title": "Indian Vulture",
+  "resolved_title": "Indian vulture",
+  "title_aliases": [
+    "Indian Vulture"
+  ],
+  "bird_id": "bird-長喙兀鷲-f08a5e19",
+  "raw_file": "bird-長喙兀鷲-f08a5e19.json",
+  "bird": {
+    "id": "bird-長喙兀鷲-f08a5e19",
+    "name": "長喙兀鷲",
+    "english_name": "Indian vulture",
+    "latin_name": "Gyps indicus",
+    "summary": "長喙兀鷲（學名：Gyps indicus）是鷹科下的一種兀鷲。與常見的歐亞兀鷲（G. fulvus）有密切的親緣關係。近年因用於動物的止痛藥雙氯芬酸鈉的廣泛流傳，令不少活動於南亞的兀鷲出現腎衰竭，目前牠們均面臨滅絕危機。",
+    "lat": "24",
+    "lng": "90",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Indian_vulture_%28Gyps_indicus%29_Photograph_by_Shantanu_Kuveskar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-孟加拉国-ffb382f4",
+      "name": "孟加拉国",
+      "summary": "孟加拉人民共和国（孟加拉語：গণপ্রজাতন্ত্রী বাংলাদেশ，羅馬化：Gaṇaprajātantrī Vāṁlādeśa；英語：People's Republic of Bangladesh），通稱孟加拉国（孟加拉語：বাং…",
+      "lat": "24",
+      "lng": "90"
+    },
+    {
+      "id": "loc-尼泊尔-231a45b7",
+      "name": "尼泊尔",
+      "summary": "尼泊尔联邦民主共和国（尼泊爾語：सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल），通称尼泊尔（नेपाल），是南亚喜马拉雅山脉地区的内陆国家，北与中国相接，其余三面与印度为鄰，与孟加拉国仅隔27公里的走廊。尼泊爾的領…",
+      "lat": "28.16666667",
+      "lng": "84.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-長喙兀鷲-f08a5e19",
+      "subject": "長喙兀鷲",
+      "predicate": "distributed_in",
+      "object_id": "loc-孟加拉国-ffb382f4",
+      "object": "孟加拉国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is also found in southwest Pakistan, Bangladesh and Nepal. It is also found in various land-forms ranging from semi-desert to dry foot hills, open fields and cultivable lands near villages, near garbage dumps and slaughter houses in urban areas.{{cite book|title=Raptor Medicine, Surgery, and Rehabilitation |edition=Third |page=42|author=Scott, D",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-長喙兀鷲-f08a5e19",
+      "subject": "長喙兀鷲",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼泊尔-231a45b7",
+      "object": "尼泊尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is also found in southwest Pakistan, Bangladesh and Nepal. It is also found in various land-forms ranging from semi-desert to dry foot hills, open fields and cultivable lands near villages, near garbage dumps and slaughter houses in urban areas.{{cite book|title=Raptor Medicine, Surgery, and Rehabilitation |edition=Third |page=42|author=Scott, D",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-長喙兀鷲-f08a5e19",
+      "subject": "長喙兀鷲",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    }
+  ]
+}

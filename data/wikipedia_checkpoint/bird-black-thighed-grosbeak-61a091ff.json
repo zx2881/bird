@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:47:21",
+  "requested_title": "Black-thighed Grosbeak",
+  "resolved_title": "Black-thighed grosbeak",
+  "title_aliases": [
+    "Black-thighed Grosbeak"
+  ],
+  "bird_id": "bird-black-thighed-grosbeak-61a091ff",
+  "raw_file": "bird-black-thighed-grosbeak-61a091ff.json",
+  "bird": {
+    "id": "bird-black-thighed-grosbeak-61a091ff",
+    "name": "Black-thighed grosbeak",
+    "english_name": "Black-thighed grosbeak",
+    "latin_name": "Pheucticus tibialis",
+    "summary": "The black-thighed grosbeak (Pheucticus tibialis) is a large seed-eating bird in the family Cardinalidae, which is endemic to the mountains…",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Black-thighed_Grosbeak.jpg/960px-Black-thighed_Grosbeak.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    },
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-thighed-grosbeak-61a091ff",
+      "subject": "Black-thighed grosbeak",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species breeds from about altitude (Pacific slope) or (Caribbean slope) up to and is found in canopy, woodland edge and semi-open habitats such as pasture with some trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-thighed-grosbeak-61a091ff",
+      "subject": "Black-thighed grosbeak",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species breeds from about altitude (Pacific slope) or (Caribbean slope) up to and is found in canopy, woodland edge and semi-open habitats such as pasture with some trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-thighed-grosbeak-61a091ff",
+      "subject": "Black-thighed grosbeak",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

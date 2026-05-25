@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:20:07",
+  "requested_title": "Coppery Metaltail",
+  "resolved_title": "Coppery metaltail",
+  "title_aliases": [
+    "Coppery Metaltail"
+  ],
+  "bird_id": "bird-铜辉尾蜂鸟-0552707e",
+  "raw_file": "bird-铜辉尾蜂鸟-0552707e.json",
+  "bird": {
+    "id": "bird-铜辉尾蜂鸟-0552707e",
+    "name": "铜辉尾蜂鸟",
+    "english_name": "Coppery metaltail",
+    "latin_name": "Metallura theresiae",
+    "summary": "铜辉尾蜂鸟（学名：Metallura theresiae），是雨燕目蜂鸟科的一种鸟类。 铜辉尾蜂鸟体重约4.9克，翼长约58.3毫米，嘴峰长约17.1毫米，喙宽度约1.4毫米，喙厚度约2.1毫米，跗蹠长约5.3毫米，尾长约38.7毫米。铜辉尾蜂鸟在其分布区内为留鸟，其栖息在半开…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Metallura_theresiae_289312769.jpg/960px-Metallura_theresiae_289312769.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-铜辉尾蜂鸟-0552707e",
+      "subject": "铜辉尾蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Like most of the metaltails, the species inhabits the edges of elfin forest and páramo, moist landscapes characterized by shrubby growth and small trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-铜辉尾蜂鸟-0552707e",
+      "subject": "铜辉尾蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:35:06",
+  "requested_title": "Palawan Blue Flycatcher",
+  "resolved_title": "Palawan blue flycatcher",
+  "title_aliases": [
+    "Palawan Blue Flycatcher"
+  ],
+  "bird_id": "bird-palawan-blue-flycatcher-8e6be338",
+  "raw_file": "bird-palawan-blue-flycatcher-8e6be338.json",
+  "bird": {
+    "id": "bird-palawan-blue-flycatcher-8e6be338",
+    "name": "Palawan blue flycatcher",
+    "english_name": "Palawan blue flycatcher",
+    "latin_name": "Cyornis lemprieri",
+    "summary": "The Palawan blue flycatcher (Cyornis lemprieri) is a species of bird in the family Muscicapidae. It is endemic to the Philippines found onl…",
+    "lat": "10.16666667",
+    "lng": "118.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Palawan_Blue_Flycatcher.jpg/960px-Palawan_Blue_Flycatcher.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-國際自然保護聯盟-2992ef64",
+      "name": "國際自然保護聯盟",
+      "summary": "國際自然與自然資源保護聯盟（英語：International Union for Conservation of Nature and Natural Resources），通稱為國際自然保護聯盟（英語：International Uni…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-普林塞萨港地下河国家公园-656774b8",
+      "name": "普林塞萨港地下河国家公园",
+      "summary": "普林塞萨港地下河国家公园（英語：Puerto Princesa Subterranean River National Park），台湾譯作公主港地下河國家公園，為菲律宾一處自然保护区，位於菲律賓島群呂宋部份西南部的巴拉望島。該公園於19…",
+      "lat": "10.16666667",
+      "lng": "118.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-palawan-blue-flycatcher-8e6be338",
+      "subject": "Palawan blue flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-國際自然保護聯盟-2992ef64",
+      "object": "國際自然保護聯盟",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits tropical moist lowland primary forest and secondary forest up to 1,000 meters above sea level. It is assessed as near threatened under the IUCN with populations believed to be decreasing due to habitat loss and deforestation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-palawan-blue-flycatcher-8e6be338",
+      "subject": "Palawan blue flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-普林塞萨港地下河国家公园-656774b8",
+      "object": "普林塞萨港地下河国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the protected area in Puerto Princesa Subterranean River National Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-palawan-blue-flycatcher-8e6be338",
+      "subject": "Palawan blue flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-palawan-blue-flycatcher-8e6be338",
+      "subject": "Palawan blue flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-palawan-blue-flycatcher-8e6be338",
+      "subject": "Palawan blue flycatcher",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species inhabits tropical moist lowland primary forest and secondary forest up to 1,000 meters above sea level. It is assessed as near threatened under the IUCN with populations believed to be decreasing due to habitat loss and deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

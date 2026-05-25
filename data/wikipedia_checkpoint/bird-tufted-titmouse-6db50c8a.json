@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:24:16",
+  "requested_title": "Tufted Titmouse",
+  "resolved_title": "Tufted titmouse",
+  "title_aliases": [
+    "Tufted Titmouse"
+  ],
+  "bird_id": "bird-tufted-titmouse-6db50c8a",
+  "raw_file": "bird-tufted-titmouse-6db50c8a.json",
+  "bird": {
+    "id": "bird-tufted-titmouse-6db50c8a",
+    "name": "Tufted titmouse",
+    "english_name": "Tufted titmouse",
+    "latin_name": "Baeolophus bicolor",
+    "summary": "The tufted titmouse (Baeolophus bicolor) is a small songbird native to eastern North America. The species belongs to the tit and chickadee…",
+    "lat": "36.98666667",
+    "lng": "-89.13055556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Tufted_titmouse_%2884917%29.jpg/960px-Tufted_titmouse_%2884917%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-俄亥俄河-2892b970",
+      "name": "俄亥俄河",
+      "summary": "俄亥俄河（英語：Ohio River）是美國東部的一條河流，是密西西比河最東的支流。發源於匹茲堡，初向西北流，在賓夕法尼亞州、西維吉尼亞州和俄亥俄州的邊界以下轉向西南方，並流經肯塔基州北界（同時是印地安那州和伊利諾伊州南界），在肯塔基州與…",
+      "lat": "36.98666667",
+      "lng": "-89.13055556"
+    },
+    {
+      "id": "loc-密西西比河-31c6a75d",
+      "name": "密西西比河",
+      "summary": "密西西比河（英語：Mississippi River），位于北美洲中南部，是北美最大的水系，流域面積约为300万平方公里。它也是北美第二長的河流，源头在美国明尼苏达州西北部海拔446米的艾塔斯卡湖（Lake Itasca），流经中央大平原…",
+      "lat": "29.15111111",
+      "lng": "-89.25333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tufted-titmouse-6db50c8a",
+      "subject": "Tufted titmouse",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tufted titmouse (Baeolophus bicolor) is a small songbird native to eastern North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tufted-titmouse-6db50c8a",
+      "subject": "Tufted titmouse",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄亥俄河-2892b970",
+      "object": "俄亥俄河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although it is nonmigratory and originally native to the Ohio and Mississippi River basins, factors such as bird feeders have caused it to occupy a larger territory across the United States and stretching into Ontario and Quebec in Canada. During the second half of the 20th century and into the 21st century, the species' range has been expanding northwards",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tufted-titmouse-6db50c8a",
+      "subject": "Tufted titmouse",
+      "predicate": "distributed_in",
+      "object_id": "loc-密西西比河-31c6a75d",
+      "object": "密西西比河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although it is nonmigratory and originally native to the Ohio and Mississippi River basins, factors such as bird feeders have caused it to occupy a larger territory across the United States and stretching into Ontario and Quebec in Canada. During the second half of the 20th century and into the 21st century, the species' range has been expanding northwards",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tufted-titmouse-6db50c8a",
+      "subject": "Tufted titmouse",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The habitat of the tufted titmouse is deciduous and mixed woods, gardens, parks, and shrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-tufted-titmouse-6db50c8a",
+      "subject": "Tufted titmouse",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

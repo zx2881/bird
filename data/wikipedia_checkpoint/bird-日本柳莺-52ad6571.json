@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:21:31",
+  "requested_title": "Japanese Leaf Warbler",
+  "resolved_title": "Japanese leaf warbler",
+  "title_aliases": [
+    "Japanese Leaf Warbler"
+  ],
+  "bird_id": "bird-日本柳莺-52ad6571",
+  "raw_file": "bird-日本柳莺-52ad6571.json",
+  "bird": {
+    "id": "bird-日本柳莺-52ad6571",
+    "name": "日本柳莺",
+    "english_name": "Japanese leaf warbler",
+    "latin_name": "Phylloscopus xanthodryas",
+    "summary": "日本柳莺（学名：Phylloscopus xanthodryas）是雀形目柳莺科的一种鸟类。 特征 日本柳莺体重约10.89克，翼长约66.2毫米，嘴峰长约13.5毫米，喙宽度约3.1毫米，喙厚度约3.1毫米，跗蹠长约17.9毫米，尾长约47毫米。日本柳莺是候鸟，其栖息在密集的…",
+    "lat": "36",
+    "lng": "138",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Japanese_Leaf_Warbler_imported_from_iNaturalist_photo_303806409_on_20_June_2024.jpg/960px-Japanese_Leaf_Warbler_imported_from_iNaturalist_photo_303806409_on_20_June_2024.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-本州-d7e89749",
+      "name": "本州",
+      "summary": "本州（日語：本州／ほんしゅう，羅馬化：Honshū，）是日本本土四島之一，也是日本最大岛、以及世界第7大島，位處日本列島的中心，向北与北海道岛隔津轻海峡相望，向南与四国岛隔濑户内海相对，向西南与九州岛以关门海峡和丰后水道相隔。身為島國日本…",
+      "lat": "36",
+      "lng": "138"
+    },
+    {
+      "id": "loc-九州-日本-8b131406",
+      "name": "九州 (日本)",
+      "summary": "九州（日語：九州／きゅうしゅう，羅馬化：Kyūshū，）是位於日本西南部的島，為日本本土四島之一，也是日本的第三大島、世界第37大島，面積36,782.37平方公里（2016年10月1日統計），次於本州和北海道，比四國大。古名筑紫島（《古…",
+      "lat": "33",
+      "lng": "131"
+    },
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-日本柳莺-52ad6571",
+      "subject": "日本柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-本州-d7e89749",
+      "object": "本州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Japanese leaf warbler breeds mainly in Japan, from Honshu to Kyushu. In the non-breeding season, it is found in areas such as Taiwan, the Philippines, Borneo, Java, and in small numbers as far east as the Moluccas. It also winters in Brunei, Indonesia, Malaysia, and parts of China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本柳莺-52ad6571",
+      "subject": "日本柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-九州-日本-8b131406",
+      "object": "九州 (日本)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Japanese leaf warbler breeds mainly in Japan, from Honshu to Kyushu. In the non-breeding season, it is found in areas such as Taiwan, the Philippines, Borneo, Java, and in small numbers as far east as the Moluccas. It also winters in Brunei, Indonesia, Malaysia, and parts of China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本柳莺-52ad6571",
+      "subject": "日本柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Japanese leaf warbler is a migratory bird. After breeding, it moves south or southwest through eastern China and nearby islands. It spends the winter in Taiwan, the Philippines, Borneo, and Java. Migration takes place from August to November, and the birds return to Japan in mid-May. Arrival often happens within one or two weeks, although timing can be confused with other related species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-日本柳莺-52ad6571",
+      "subject": "日本柳莺",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It nests in thick undergrowth, rhododendron bushes, and scrub above the tree line. In winter, it is seen below 1800 meters in woodlands, rainforests, secondary growth, plantations, and gardens. It also occurs in shrublands, wetlands, and cultivated areas, as well as artificial terrestrial habitats. The species depends on thick vegetation for nesting and foraging",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-日本柳莺-52ad6571",
+      "subject": "日本柳莺",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It nests in thick undergrowth, rhododendron bushes, and scrub above the tree line. In winter, it is seen below 1800 meters in woodlands, rainforests, secondary growth, plantations, and gardens. It also occurs in shrublands, wetlands, and cultivated areas, as well as artificial terrestrial habitats. The species depends on thick vegetation for nesting and foraging",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-日本柳莺-52ad6571",
+      "subject": "日本柳莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

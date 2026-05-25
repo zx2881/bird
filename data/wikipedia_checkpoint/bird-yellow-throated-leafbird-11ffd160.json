@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:55:04",
+  "requested_title": "Yellow-throated Leafbird",
+  "resolved_title": "Yellow-throated leafbird",
+  "title_aliases": [
+    "Yellow-throated Leafbird"
+  ],
+  "bird_id": "bird-yellow-throated-leafbird-11ffd160",
+  "raw_file": "bird-yellow-throated-leafbird-11ffd160.json",
+  "bird": {
+    "id": "bird-yellow-throated-leafbird-11ffd160",
+    "name": "Yellow-throated leafbird",
+    "english_name": "Yellow-throated leafbird",
+    "latin_name": "Chloropsis palawanensis",
+    "summary": "The yellow-throated leafbird (Chloropsis palawanensis) is a species of bird in the family Chloropseidae. It is endemic to the Palawan in th…",
+    "lat": "9.74361111",
+    "lng": "118.66111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Lemon-throated-leaf-birdtrek.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "name": "Iwahig Prison and Penal Farm",
+      "summary": "Iwahig Prison and Penal Farm in Puerto Princesa, Palawan, Philippines is one of seven operating units of the Bureau of…",
+      "lat": "9.74361111",
+      "lng": "118.66111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-throated-leafbird-11ffd160",
+      "subject": "Yellow-throated leafbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "object": "Iwahig Prison and Penal Farm",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in just one protected area in the Iwahig Prison and Penal Farm",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-throated-leafbird-11ffd160",
+      "subject": "Yellow-throated leafbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-yellow-throated-leafbird-11ffd160",
+      "subject": "Yellow-throated leafbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, Palawan's forests are under threat due to illegal logging, deforestation, land conversion and mining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:51:51",
+  "requested_title": "Sao Francisco Black Tyrant",
+  "resolved_title": "São Francisco black tyrant",
+  "title_aliases": [
+    "Sao Francisco Black Tyrant",
+    "São Francisco black tyrant"
+  ],
+  "bird_id": "bird-s-o-francisco-black-tyrant-f98b9df5",
+  "raw_file": "bird-s-o-francisco-black-tyrant-f98b9df5.json",
+  "bird": {
+    "id": "bird-s-o-francisco-black-tyrant-f98b9df5",
+    "name": "São Francisco black tyrant",
+    "english_name": "São Francisco black tyrant",
+    "latin_name": "Knipolegus franciscanus",
+    "summary": "The Sao Francisco black tyrant (Knipolegus franciscanus), also known as the caatinga black tyrant or Brazilian black tyrant, is a species o…",
+    "lat": "-10.49960341",
+    "lng": "-36.3954643",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Knipolegus_franciscanus_Caatinga_Black-Tyrant_%28male%29%2C_Lapa_Grande_State_Park%2C_Montes_Claros%2C_Minas_Gerais%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-聖弗朗西斯科河-b6ede641",
+      "name": "聖弗朗西斯科河",
+      "summary": "聖弗朗西斯科河（葡萄牙語：Rio São Francisco）是南美洲第4大水系，也是河道全部在巴西境內中最長的河流，以亞西西的方濟各命名。發源於米納斯吉拉斯，然後向北流，在伯南布哥與巴伊亞附近轉向東流，最後注入大西洋，保羅·阿方索瀑布位…",
+      "lat": "-10.49960341",
+      "lng": "-36.3954643"
+    },
+    {
+      "id": "loc-caatinga-5281e5ef",
+      "name": "Caatinga",
+      "summary": "Caatinga (; [kaaˈt͡ʃĩɡɐ]) is a type of semi-arid tropical vegetation, and an ecoregion characterized by this vegetation…",
+      "lat": "-6",
+      "lng": "-40"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-s-o-francisco-black-tyrant-f98b9df5",
+      "subject": "São Francisco black tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-聖弗朗西斯科河-b6ede641",
+      "object": "聖弗朗西斯科河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sao Francisco black tyrant is found in east-central Brazil's São Francisco River basin",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-s-o-francisco-black-tyrant-f98b9df5",
+      "subject": "São Francisco black tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-caatinga-5281e5ef",
+      "object": "Caatinga",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It primarily inhabits caatinga scrublands and semi-deciduous dry forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-s-o-francisco-black-tyrant-f98b9df5",
+      "subject": "São Francisco black tyrant",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It primarily inhabits caatinga scrublands and semi-deciduous dry forest",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-s-o-francisco-black-tyrant-f98b9df5",
+      "subject": "São Francisco black tyrant",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

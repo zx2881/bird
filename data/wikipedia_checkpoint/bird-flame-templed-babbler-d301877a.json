@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:32:05",
+  "requested_title": "Flame-templed Babbler",
+  "resolved_title": "Flame-templed babbler",
+  "title_aliases": [
+    "Flame-templed Babbler"
+  ],
+  "bird_id": "bird-flame-templed-babbler-d301877a",
+  "raw_file": "bird-flame-templed-babbler-d301877a.json",
+  "bird": {
+    "id": "bird-flame-templed-babbler-d301877a",
+    "name": "Flame-templed babbler",
+    "english_name": "Flame-templed babbler",
+    "latin_name": "Dasycrotapha speciosa",
+    "summary": "The flame-templed babbler (Dasycrotapha speciosa) is a species of bird of the family Zosteropidae, in the genus Dasycrotapha. It is one of…",
+    "lat": "9.25",
+    "lng": "123.16666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flame-templed_Babbler.jpg/960px-Flame-templed_Babbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-mount-talinis-a096bc1f",
+      "name": "Mount Talinis",
+      "summary": "Mount Talinis is a complex volcano in the Philippine province of Negros Oriental.",
+      "lat": "9.25",
+      "lng": "123.16666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-flame-templed-babbler-d301877a",
+      "subject": "Flame-templed babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-mount-talinis-a096bc1f",
+      "object": "Mount Talinis",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in the proposed Central Panay Mountain Range Park which contains the largest block of remaining forest in the Western Visayas, and the tourist destination of Twin Lakes (Mount Talinis)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flame-templed-babbler-d301877a",
+      "subject": "Flame-templed babbler",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-flame-templed-babbler-d301877a",
+      "subject": "Flame-templed babbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss. Along with the Negros striped babbler, it is one of the two babbler species extremely sought after by birdwatchers on Negros",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-flame-templed-babbler-d301877a",
+      "subject": "Flame-templed babbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It was only fairly recently discovered in Panay in 1987 and is only found in five localities. This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

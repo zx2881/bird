@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:39:10",
+  "requested_title": "Lesser Antillean Tanager",
+  "resolved_title": "Lesser Antillean tanager",
+  "title_aliases": [
+    "Lesser Antillean Tanager"
+  ],
+  "bird_id": "bird-lesser-antillean-tanager-068ed073",
+  "raw_file": "bird-lesser-antillean-tanager-068ed073.json",
+  "bird": {
+    "id": "bird-lesser-antillean-tanager-068ed073",
+    "name": "Lesser Antillean tanager",
+    "english_name": "Lesser Antillean tanager",
+    "latin_name": "Stilpnia cucullata",
+    "summary": "The Lesser Antillean tanager (Stilpnia cucullata) is a species of bird in the family Thraupidae. Males are largely buff-colored, with purpl…",
+    "lat": "12.1",
+    "lng": "-61.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lesser_Antillean_Tanager.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-格林纳达-0de21103",
+      "name": "格林纳达",
+      "summary": "格林纳达（英語：Grenada）是美洲西印度群岛中向风群岛南部的英聯邦国家。首都圣乔治。农业和旅游业是经济的基础，主要农产品肉豆蔻产量约占世界总产量的三分之一，仅次于印度尼西亚而居世界第二位。 历史 格林纳达于1498年8月15日为哥伦布…",
+      "lat": "12.1",
+      "lng": "-61.7"
+    },
+    {
+      "id": "loc-圣文森特岛-a5a76e22",
+      "name": "圣文森特岛",
+      "summary": "聖文森特島（Saint Vincent）是聖文森特和格林納丁斯的主島，為一火山島，位於加勒比海，屬於向風群島的一部分，長29公里、寬18公里，面積345平方公里，最高點海拔高度1,233米，主要經濟活動有農業和旅遊業。 外部連結 U.S.",
+      "lat": "13.25",
+      "lng": "-61.2"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-lesser-antillean-tanager-068ed073",
+      "subject": "Lesser Antillean tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-格林纳达-0de21103",
+      "object": "格林纳达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tanager is only found in Grenada and Saint Vincent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-antillean-tanager-068ed073",
+      "subject": "Lesser Antillean tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣文森特岛-a5a76e22",
+      "object": "圣文森特岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The tanager is only found in Grenada and Saint Vincent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-lesser-antillean-tanager-068ed073",
+      "subject": "Lesser Antillean tanager",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

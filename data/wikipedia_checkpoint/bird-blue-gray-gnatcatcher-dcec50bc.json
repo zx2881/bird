@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T10:38:20",
+  "requested_title": "Blue-grey Gnatcatcher",
+  "resolved_title": "Blue-gray gnatcatcher",
+  "title_aliases": [
+    "Blue-grey Gnatcatcher",
+    "Blue-gray gnatcatcher"
+  ],
+  "bird_id": "bird-blue-gray-gnatcatcher-dcec50bc",
+  "raw_file": "bird-blue-gray-gnatcatcher-dcec50bc.json",
+  "bird": {
+    "id": "bird-blue-gray-gnatcatcher-dcec50bc",
+    "name": "Blue-gray gnatcatcher",
+    "english_name": "Blue-gray gnatcatcher",
+    "latin_name": "Polioptila caerulea",
+    "summary": "The blue-gray gnatcatcher (Polioptila caerulea) is a very small gnatcatcher native to North America. Description It is 10–13 cm (3.9–5.1 in…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Blue-gray_gnatcatcher_in_PP_%2872317%29.jpg/960px-Blue-gray_gnatcatcher_in_PP_%2872317%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-gray-gnatcatcher-dcec50bc",
+      "subject": "Blue-gray gnatcatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue-gray gnatcatcher (Polioptila caerulea) is a very small gnatcatcher native to North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-gray-gnatcatcher-dcec50bc",
+      "subject": "Blue-gray gnatcatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue-gray gnatcatcher (Polioptila caerulea) is a very small gnatcatcher native to North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-gray-gnatcatcher-dcec50bc",
+      "subject": "Blue-gray gnatcatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The blue-gray gnatcatcher's breeding habitat includes open deciduous woods and shrublands in southern Ontario, the eastern and southwestern United States, and Mexico",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-blue-gray-gnatcatcher-dcec50bc",
+      "subject": "Blue-gray gnatcatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:59:15",
+  "requested_title": "Giant Sunbird",
+  "resolved_title": "Giant sunbird",
+  "title_aliases": [
+    "Giant Sunbird"
+  ],
+  "bird_id": "bird-giant-sunbird-bb37d0a8",
+  "raw_file": "bird-giant-sunbird-bb37d0a8.json",
+  "bird": {
+    "id": "bird-giant-sunbird-bb37d0a8",
+    "name": "Giant sunbird",
+    "english_name": "Giant sunbird",
+    "latin_name": "Dreptes thomensis",
+    "summary": "The giant sunbird (Dreptes thomensis) is a species of bird in the family Nectariniidae. It is the only species in the genus Dreptes.",
+    "lat": "0.22",
+    "lng": "6.61",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dreptes_thomensis_12933301_%28cropped%29.jpg/960px-Dreptes_thomensis_12933301_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣多美岛-5361b9c6",
+      "name": "圣多美岛",
+      "summary": "圣多美岛（葡萄牙語：Ilha de São Tomé）是圣多美和普林西比第一大岛。该岛总面积854 km2（330 sq mi），总人口157,000（2009），占全国的96%。圣多美岛与周边小岛构成圣多美省。该岛位于赤道以北2 km，…",
+      "lat": "0.22",
+      "lng": "6.61"
+    },
+    {
+      "id": "loc-圣多美和普林西比-68ee2d1c",
+      "name": "圣多美和普林西比",
+      "summary": "圣多美與普林西比民主共和国（葡萄牙語：República Democrática de São Tomé e Príncipe），通稱聖多美與普林西比（São Tomé e Príncipe），是位于中非西部的岛国，由圣多美岛、普林西比岛…",
+      "lat": "0.31666667",
+      "lng": "6.6"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-giant-sunbird-bb37d0a8",
+      "subject": "Giant sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣多美岛-5361b9c6",
+      "object": "圣多美岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the only species in the genus Dreptes. It is endemic to the island of São Tomé (São Tomé and Príncipe), where it occurs in the central massif. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-giant-sunbird-bb37d0a8",
+      "subject": "Giant sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣多美和普林西比-68ee2d1c",
+      "object": "圣多美和普林西比",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the only species in the genus Dreptes. It is endemic to the island of São Tomé (São Tomé and Príncipe), where it occurs in the central massif. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-giant-sunbird-bb37d0a8",
+      "subject": "Giant sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the only species in the genus Dreptes. It is endemic to the island of São Tomé (São Tomé and Príncipe), where it occurs in the central massif. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-giant-sunbird-bb37d0a8",
+      "subject": "Giant sunbird",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is the only species in the genus Dreptes. It is endemic to the island of São Tomé (São Tomé and Príncipe), where it occurs in the central massif. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-giant-sunbird-bb37d0a8",
+      "subject": "Giant sunbird",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-giant-sunbird-bb37d0a8",
+      "subject": "Giant sunbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

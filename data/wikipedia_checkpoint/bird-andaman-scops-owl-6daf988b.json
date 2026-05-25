@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:33:10",
+  "requested_title": "Andaman Scops Owl",
+  "resolved_title": "Andaman scops owl",
+  "title_aliases": [
+    "Andaman Scops Owl"
+  ],
+  "bird_id": "bird-andaman-scops-owl-6daf988b",
+  "raw_file": "bird-andaman-scops-owl-6daf988b.json",
+  "bird": {
+    "id": "bird-andaman-scops-owl-6daf988b",
+    "name": "Andaman scops owl",
+    "english_name": "Andaman scops owl",
+    "latin_name": "Otus balli",
+    "summary": "The Andaman scops owl (Otus balli) is a species of the Strigidae family and is native to the Andaman Islands of India. It is a largely brow…",
+    "lat": "12.5",
+    "lng": "92.75",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/ScopsBalliKeulemans.jpg/960px-ScopsBalliKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-艾伦-奥克塔文-休姆-bdea3a13",
+      "name": "艾伦·奥克塔文·休姆",
+      "summary": "艾伦·奥克塔文·休姆，CB，ICS（英語：Allan Octavian Hume，1829年6月4日—1912年7月31日），英国政治改革家、鸟类学家、植物学家和公务员，曾在英属印度工作，是印度国民大会党的创始人和核心人物。他主张印度自治…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-安达曼群岛-38540853",
+      "name": "安达曼群岛",
+      "summary": "安达曼群岛（英語：Andaman Islands；印地語：अण्डमान द्वीप समूह）是印度洋北部的群岛，位于孟加拉湾和安达曼海交界处，北距缅甸本土197公里，南距印度尼西亚苏门答腊岛547公里。该群岛由576个岛屿组成，总面积…",
+      "lat": "12.5",
+      "lng": "92.75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-andaman-scops-owl-6daf988b",
+      "subject": "Andaman scops owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-艾伦-奥克塔文-休姆-bdea3a13",
+      "object": "艾伦·奥克塔文·休姆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Andaman scops owl (Otus balli) is a species of the Strigidae family and is native to the Andaman Islands of India. It is a largely brown owl with white speckles and yellow eyes.{{Cite journal |last1=Holt |first1=Denver W",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-andaman-scops-owl-6daf988b",
+      "subject": "Andaman scops owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-安达曼群岛-38540853",
+      "object": "安达曼群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Andaman scops owl (Otus balli) is a species of the Strigidae family and is native to the Andaman Islands of India. It is a largely brown owl with white speckles and yellow eyes.{{Cite journal |last1=Holt |first1=Denver W",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-andaman-scops-owl-6daf988b",
+      "subject": "Andaman scops owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-andaman-scops-owl-6daf988b",
+      "subject": "Andaman scops owl",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This owl is not threatened, though an increase in deforestation on the islands has led to the population size slowly declining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

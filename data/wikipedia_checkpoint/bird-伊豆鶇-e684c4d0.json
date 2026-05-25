@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:40:52",
+  "requested_title": "Izu Thrush",
+  "resolved_title": "Izu thrush",
+  "title_aliases": [
+    "Izu Thrush"
+  ],
+  "bird_id": "bird-伊豆鶇-e684c4d0",
+  "raw_file": "bird-伊豆鶇-e684c4d0.json",
+  "bird": {
+    "id": "bird-伊豆鶇-e684c4d0",
+    "name": "伊豆鶇",
+    "english_name": "Izu thrush",
+    "latin_name": "Turdus celaenops",
+    "summary": "伊豆鶇（學名：Turdus celaenops）是鶇屬下的一種鳥類。原產於伊豆諸島和琉球群島，伊豆諸島中的八丈島、御藏島和三宅島，以及琉球群島中的屋久島、吐噶喇列島尤其常見。但在日本島上並沒有發現其蹤跡。 伊豆鶇體長約23厘米（9.1英寸），羽毛為深色、頭部和尾巴為黑色。有黃色…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Akakokko-hachijojima-2018-5-7.jpg/960px-Akakokko-hachijojima-2018-5-7.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-leonhard-stejneger-501300d3",
+      "name": "Leonhard Stejneger",
+      "summary": "Leonhard Hess Stejneger (30 October 1851 – 28 February 1943) was a Norwegian-born American ornithologist, herpetologist…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-伊豆鶇-e684c4d0",
+      "subject": "伊豆鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-leonhard-stejneger-501300d3",
+      "object": "Leonhard Stejneger",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Izu thrush or Izu Islands thrush (Turdus celaenops) is a bird of the thrush family native to Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-伊豆鶇-e684c4d0",
+      "subject": "伊豆鶇",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

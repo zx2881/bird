@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:25:26",
+  "requested_title": "Malabar Pied Hornbill",
+  "resolved_title": "Malabar pied hornbill",
+  "title_aliases": [
+    "Malabar Pied Hornbill"
+  ],
+  "bird_id": "bird-印度冠斑犀鸟-44e7dc44",
+  "raw_file": "bird-印度冠斑犀鸟-44e7dc44.json",
+  "bird": {
+    "id": "bird-印度冠斑犀鸟-44e7dc44",
+    "name": "印度冠斑犀鸟",
+    "english_name": "Malabar pied hornbill",
+    "latin_name": "Anthracoceros coronatus",
+    "summary": "The Malabar pied hornbill (Anthracoceros coronatus), also known as the lesser pied hornbill, is a bird in the hornbill family, a family of…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_male.jpg/960px-Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-彼得-博达尔特-2288b0e6",
+      "name": "彼得·博达尔特",
+      "summary": "彼得·博达尔特（荷蘭語：Pieter Boddaert，發音：[ˈpitər ˈbɔdaːrt]；1733年5月26日—1795年5月6日）是一名荷蘭的醫生及博物學家。 博塔埃特的父親是米德爾堡的法學家及詩人(1694–1760)。與其父…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-旧大陆-66ea9be1",
+      "name": "旧大陆",
+      "summary": "旧大陆（拉丁語：Mundus vetus）是指在克里斯托弗·哥伦布发现新大陆之前，欧洲所认识的世界，包括欧洲、亚洲和非洲（全体被称为亚欧非大陆或世界岛）。这个词语是用来與新大陆（包括北美洲，南美洲和大洋洲）相對應。 词源 在考古学和世界历…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-印度冠斑犀鸟-44e7dc44",
+      "subject": "印度冠斑犀鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-彼得-博达尔特-2288b0e6",
+      "object": "彼得·博达尔特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Malabar pied hornbill (Anthracoceros coronatus), also known as the lesser pied hornbill, is a bird in the hornbill family, a family of tropical near-passerine birds found in the Old World",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-印度冠斑犀鸟-44e7dc44",
+      "subject": "印度冠斑犀鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-旧大陆-66ea9be1",
+      "object": "旧大陆",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Malabar pied hornbill (Anthracoceros coronatus), also known as the lesser pied hornbill, is a bird in the hornbill family, a family of tropical near-passerine birds found in the Old World",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-印度冠斑犀鸟-44e7dc44",
+      "subject": "印度冠斑犀鸟",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:41:19",
+  "requested_title": "Dusky Hummingbird",
+  "resolved_title": "Dusky hummingbird",
+  "title_aliases": [
+    "Dusky Hummingbird"
+  ],
+  "bird_id": "bird-暗阔嘴蜂鸟-2b3322fb",
+  "raw_file": "bird-暗阔嘴蜂鸟-2b3322fb.json",
+  "bird": {
+    "id": "bird-暗阔嘴蜂鸟-2b3322fb",
+    "name": "暗阔嘴蜂鸟",
+    "english_name": "Dusky hummingbird",
+    "latin_name": "Phaeoptila sordida",
+    "summary": "暗阔嘴蜂鸟（台湾作烏闊嘴蜂鳥，学名：Phaeoptila sordida），是雨燕目蜂鸟科的一种鸟类，是暗阔嘴蜂鸟属的唯一一种。 暗阔嘴蜂鸟体重约4克，翼长约56.1毫米，嘴峰长约23.4毫米，喙宽度约2.3毫米，喙厚度约1.9毫米，跗蹠长约4.3毫米，尾长约32.6毫米。暗阔…",
+    "lat": "19.21",
+    "lng": "-101.91",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cynanthus_sordidus_28416318.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-米却肯州-9deec1c7",
+      "name": "米却肯州",
+      "summary": "米卻肯州（西班牙語：Michoacán，發音：[mitʃoaˈkan] ）是墨西哥的一個州，南臨太平洋。州名最初在納瓦特爾語是「漁民」的意思，經過西班牙語轉為「漁民之家」。 米却肯州是历史王国普雷佩查的发源地，其都城钦聪灿位于米却肯州境内…",
+      "lat": "19.21",
+      "lng": "-101.91"
+    },
+    {
+      "id": "loc-莫雷洛斯州-5f92b434",
+      "name": "莫雷洛斯州",
+      "summary": "莫雷洛斯州（西班牙語：Morelos）是墨西哥31个州之一，是面積第二小的州，面积4941平方公里。它像东北和西北邻墨西哥州、向北邻墨西哥城、向东邻普埃布拉州、乡西南邻格雷羅州。根据2005年的人口普查莫雷洛斯州有居民1,612,899人…",
+      "lat": "18.75",
+      "lng": "-99.06666667"
+    },
+    {
+      "id": "loc-瓦哈卡州-e005144e",
+      "name": "瓦哈卡州",
+      "summary": "瓦哈卡州（西班牙語：Oaxaca，發音：[waˈχaka] ）是墨西哥合眾國的一個州，位於該國的南部，臨太平洋。2005年估計人口為 3,506,821人。首府瓦哈卡市。 历史 名称 瓦哈卡的州名来自其首府瓦哈卡市的名称。这个名字来自纳瓦…",
+      "lat": "17.055",
+      "lng": "-96.655"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-暗阔嘴蜂鸟-2b3322fb",
+      "subject": "暗阔嘴蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-米却肯州-9deec1c7",
+      "object": "米却肯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The dusky hummingbird is found in southwestern Mexico from Michoacán and Morelos to Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗阔嘴蜂鸟-2b3322fb",
+      "subject": "暗阔嘴蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫雷洛斯州-5f92b434",
+      "object": "莫雷洛斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The dusky hummingbird is found in southwestern Mexico from Michoacán and Morelos to Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗阔嘴蜂鸟-2b3322fb",
+      "subject": "暗阔嘴蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦哈卡州-e005144e",
+      "object": "瓦哈卡州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The dusky hummingbird is found in southwestern Mexico from Michoacán and Morelos to Oaxaca",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-暗阔嘴蜂鸟-2b3322fb",
+      "subject": "暗阔嘴蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

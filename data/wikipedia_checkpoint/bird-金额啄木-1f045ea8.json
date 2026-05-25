@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:16:51",
+  "requested_title": "Golden-fronted Woodpecker",
+  "resolved_title": "Golden-fronted woodpecker",
+  "title_aliases": [
+    "Golden-fronted Woodpecker"
+  ],
+  "bird_id": "bird-金额啄木-1f045ea8",
+  "raw_file": "bird-金额啄木-1f045ea8.json",
+  "bird": {
+    "id": "bird-金额啄木-1f045ea8",
+    "name": "金额啄木",
+    "english_name": "Golden-fronted woodpecker",
+    "latin_name": "Melanerpes aurifrons",
+    "summary": "金额啄木鸟（學名：Melanerpes aurifrons，台湾作金額啄木）是啄木鸟科食果啄木鳥屬中的一种鸟类。 該鳥主要分布于美国南部、墨西哥和中美洲。",
+    "lat": "34",
+    "lng": "-106",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Melanerpes_aurifrons2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新墨西哥州-394bcab4",
+      "name": "新墨西哥州",
+      "summary": "新墨西哥州（納瓦霍語：Yootó Hahoodzo；英語：New Mexico；西班牙語：Nuevo México），簡稱新墨州，是美國西南方的一州，它曾是墨西哥的一省。德克薩斯共和國獨立後曾被該國宣稱主權，不過後來都變成美國的一部分，加…",
+      "lat": "34",
+      "lng": "-106"
+    },
+    {
+      "id": "loc-east-texas-6f5df798",
+      "name": "East Texas",
+      "summary": "East Texas is a broadly defined cultural, geographic, and ecological region in the eastern part of the U.S.",
+      "lat": "31.86666667",
+      "lng": "-94.91666667"
+    },
+    {
+      "id": "loc-密西根州-a00d4add",
+      "name": "密西根州",
+      "summary": "密西根州（英語：State of Michigan）是美国的一个州，位於五大湖地區，東面與加拿大首都渥太华的所在地安大略省接壤。其邮政缩写是 MI。首府為蘭辛，最大城市為底特律。 密西根州傳統上屬於美國的中西部的心臓地帶，密芝根州南部與鄰…",
+      "lat": "44",
+      "lng": "-85"
+    },
+    {
+      "id": "loc-佛罗里达州-2bd04b45",
+      "name": "佛罗里达州",
+      "summary": "佛罗里达州（英語：State of Florida），简称佛州，是位于美国东南部的一个州。该州西临墨西哥湾，西北与阿拉巴马州接壤，北邻佐治亚州，东濒大西洋，南接佛罗里达海峡，并与古巴隔海相望。佛罗里达州大部分土地位于墨西哥湾和大西洋之间的…",
+      "lat": "28",
+      "lng": "-82"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金额啄木-1f045ea8",
+      "subject": "金额啄木",
+      "predicate": "distributed_in",
+      "object_id": "loc-新墨西哥州-394bcab4",
+      "object": "新墨西哥州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a casual visitor to New Mexico and East Texas, and has been recorded once each in Michigan and Florida. It inhabits both mesic and xeric landscapes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金额啄木-1f045ea8",
+      "subject": "金额啄木",
+      "predicate": "distributed_in",
+      "object_id": "loc-east-texas-6f5df798",
+      "object": "East Texas",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a casual visitor to New Mexico and East Texas, and has been recorded once each in Michigan and Florida. It inhabits both mesic and xeric landscapes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金额啄木-1f045ea8",
+      "subject": "金额啄木",
+      "predicate": "distributed_in",
+      "object_id": "loc-密西根州-a00d4add",
+      "object": "密西根州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a casual visitor to New Mexico and East Texas, and has been recorded once each in Michigan and Florida. It inhabits both mesic and xeric landscapes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金额啄木-1f045ea8",
+      "subject": "金额啄木",
+      "predicate": "distributed_in",
+      "object_id": "loc-佛罗里达州-2bd04b45",
+      "object": "佛罗里达州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a casual visitor to New Mexico and East Texas, and has been recorded once each in Michigan and Florida. It inhabits both mesic and xeric landscapes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金额啄木-1f045ea8",
+      "subject": "金额啄木",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

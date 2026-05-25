@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:36:11",
+  "requested_title": "Brown-chested Jungle Flycatcher",
+  "resolved_title": "Brown-chested jungle flycatcher",
+  "title_aliases": [
+    "Brown-chested Jungle Flycatcher"
+  ],
+  "bird_id": "bird-白喉林鶲-99ecf2b5",
+  "raw_file": "bird-白喉林鶲-99ecf2b5.json",
+  "bird": {
+    "id": "bird-白喉林鶲-99ecf2b5",
+    "name": "白喉林鶲",
+    "english_name": "Brown-chested jungle flycatcher",
+    "latin_name": "Cyornis brunneatus",
+    "summary": "白喉林鹟（學名：Cyornis brunneatus，台湾作棕頰林鶲）为鶲科仙鶲属的鸟类。该鸟大体为褐色，喙相对较长。该鸟于夏季在中国南方的山林间繁殖，至冬季则迁飞至马来半岛、苏门答腊等地越冬。白喉林鹟主要以昆虫为食，通常独自觅食。目前白喉林鹟正面临栖息地破坏和盗猎的威胁，IU…",
+    "lat": "7",
+    "lng": "100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Cyornis_brunneatus_4G4A5677.jpg/960px-Cyornis_brunneatus_4G4A5677.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-华南地区-93856970",
+      "name": "华南地区",
+      "summary": "华南是一个中国地理概念，指中国本土南部，有广义和狭义之分。 广义之“华南” 广义的华南即“中国南方”，地理上指秦嶺-淮河線以南中國的廣大區域。這種區分包括氣候、經濟生產、交通、文化等來區分，南方屬於副熱帶季風氣候以及熱帶季風氣候，冬季从較…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-马来半岛-c472a65d",
+      "name": "马来半岛",
+      "summary": "马来半岛（英語：Malay Peninsula，馬來語：Semenanjung Tanah Melayu或馬來語：Semenanjung Melayu）位于亚洲大陆最南端，是东南亚中南半岛的一个主要陆块与半岛。半岛走向大致从北至南，其尽头…",
+      "lat": "7",
+      "lng": "100"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白喉林鶲-99ecf2b5",
+      "subject": "白喉林鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-华南地区-93856970",
+      "object": "华南地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in South China and winters in the Malay Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉林鶲-99ecf2b5",
+      "subject": "白喉林鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来半岛-c472a65d",
+      "object": "马来半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in South China and winters in the Malay Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉林鶲-99ecf2b5",
+      "subject": "白喉林鶲",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-白喉林鶲-99ecf2b5",
+      "subject": "白喉林鶲",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

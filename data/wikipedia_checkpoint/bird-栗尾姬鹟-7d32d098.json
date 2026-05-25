@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:03:09",
+  "requested_title": "Rusty-tailed Flycatcher",
+  "resolved_title": "Rusty-tailed flycatcher",
+  "title_aliases": [
+    "Rusty-tailed Flycatcher"
+  ],
+  "bird_id": "bird-栗尾姬鹟-7d32d098",
+  "raw_file": "bird-栗尾姬鹟-7d32d098.json",
+  "bird": {
+    "id": "bird-栗尾姬鹟-7d32d098",
+    "name": "栗尾姬鹟",
+    "english_name": "Rusty-tailed flycatcher",
+    "latin_name": "Ficedula ruficauda",
+    "summary": "栗尾姬鹟（台湾作紅尾姬鶲）（学名：Ficedula ruficauda），是雀形目鹟科的一种鸟类。 特征 栗尾姬鹟体重约13.3克，翼长约75.1毫米，嘴峰长约13.4毫米，喙宽度约4毫米，喙厚度约3.4毫米，跗蹠长约14.3毫米，尾长约55.2毫米。栗尾姬鹟是候鸟，其栖息在半…",
+    "lat": "12.97",
+    "lng": "77.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Rusty-tailed_Flycatcher_I_IMG_7389.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-卡纳塔克邦-faabd00e",
+      "name": "卡纳塔克邦",
+      "summary": "卡纳塔克邦（卡納達語：ಕರ್ನಾಟಕ，印地語：कर्नाटक，拉丁字母转写：Karnataka）是印度的一個邦，位於印度南部。作爲印度的資訊科技重地，該邦首府邦加羅爾有「印度矽谷」之稱。 卡纳塔克邦有人口超過6000萬，是印度人口前十高的…",
+      "lat": "12.97",
+      "lng": "77.5"
+    },
+    {
+      "id": "loc-喀拉拉邦-e9ea6246",
+      "name": "喀拉拉邦",
+      "summary": "喀拉拉邦（馬拉雅拉姆語：കേരളം；印地語：केरल，拉丁字母转写：Kerala），印度西南部的一个邦，濒临阿拉伯海，全邦面积为38,863 平方公里，是印度面積第21大邦，北部和東北部與卡納塔克邦接壤，東部和南部與泰米爾納德邦接壤，西部…",
+      "lat": "10",
+      "lng": "76.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗尾姬鹟-7d32d098",
+      "subject": "栗尾姬鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡纳塔克邦-faabd00e",
+      "object": "卡纳塔克邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is partially migratory, with the Central Asian populations migrating to India, as far as the southwest Indian coast along the Arabian Sea, to Karnataka and Kerala",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗尾姬鹟-7d32d098",
+      "subject": "栗尾姬鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-喀拉拉邦-e9ea6246",
+      "object": "喀拉拉邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is partially migratory, with the Central Asian populations migrating to India, as far as the southwest Indian coast along the Arabian Sea, to Karnataka and Kerala",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗尾姬鹟-7d32d098",
+      "subject": "栗尾姬鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

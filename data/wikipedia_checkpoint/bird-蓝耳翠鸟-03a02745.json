@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:38:32",
+  "requested_title": "Blue-eared Kingfisher",
+  "resolved_title": "Blue-eared kingfisher",
+  "title_aliases": [
+    "Blue-eared Kingfisher"
+  ],
+  "bird_id": "bird-蓝耳翠鸟-03a02745",
+  "raw_file": "bird-蓝耳翠鸟-03a02745.json",
+  "bird": {
+    "id": "bird-蓝耳翠鸟-03a02745",
+    "name": "蓝耳翠鸟",
+    "english_name": "Blue-eared kingfisher",
+    "latin_name": "Alcedo meninting",
+    "summary": "蓝耳翠鸟（学名：Alcedo meninting）为翠鸟科翠鸟属的鸟类。该物种的模式产地在爪哇。 保护 中国国家重点保护动物等级：二级 亚种 蓝耳翠鸟云南亚种（学名：Alcedo meninting coltarti）。在中国大陆，分布于云南等地。该物种的模式产地在印度。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Blue-eared_Kingfisher_0A2A2569.jpg/960px-Blue-eared_Kingfisher_0A2A2569.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-托马斯-霍斯菲尔德-0d750b27",
+      "name": "托马斯·霍斯菲尔德",
+      "summary": "托马斯·霍斯菲尔德（英語：Thomas Horsfield，1773年5月12日—1859年5月12日）是一位美国医生和博物学家，曾在印度尼西亚广泛工作，描述了该地区的多种植物和动物。他后来成为不列颠东印度公司伦敦博物馆的馆长。 早年经历…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝耳翠鸟-03a02745",
+      "subject": "蓝耳翠鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-托马斯-霍斯菲尔德-0d750b27",
+      "object": "托马斯·霍斯菲尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue-eared kingfisher (Alcedo meninting) is found in Asia, ranging across the Indian subcontinent and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝耳翠鸟-03a02745",
+      "subject": "蓝耳翠鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue-eared kingfisher (Alcedo meninting) is found in Asia, ranging across the Indian subcontinent and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝耳翠鸟-03a02745",
+      "subject": "蓝耳翠鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

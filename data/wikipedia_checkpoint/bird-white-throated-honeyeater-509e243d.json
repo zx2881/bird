@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:59:15",
+  "requested_title": "White-throated Honeyeater",
+  "resolved_title": "White-throated honeyeater",
+  "title_aliases": [
+    "White-throated Honeyeater"
+  ],
+  "bird_id": "bird-white-throated-honeyeater-509e243d",
+  "raw_file": "bird-white-throated-honeyeater-509e243d.json",
+  "bird": {
+    "id": "bird-white-throated-honeyeater-509e243d",
+    "name": "White-throated honeyeater",
+    "english_name": "White-throated honeyeater",
+    "latin_name": "Melithreptus albogularis",
+    "summary": "The white-throated honeyeater (Melithreptus albogularis) is a bird of the honeyeater family Meliphagidae native to New Guinea and eastern a…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/White-throated_Honeyeater_0A2A2842.jpg/960px-White-throated_Honeyeater_0A2A2842.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-古尔德-f8020282",
+      "name": "约翰·古尔德",
+      "summary": "约翰·古尔德 FRS（英語：John Gould，1804年9月14日—1881年2月3日）是19世纪一位英国鸟类学家。1804年生于英格兰，也是一位商人、艺术家。1838年后与其妻一同前往澳大利亚，在当地发现并為许多新物种命名。 早年…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-throated-honeyeater-509e243d",
+      "subject": "White-throated honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-古尔德-f8020282",
+      "object": "约翰·古尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-throated honeyeater (Melithreptus albogularis) is a bird of the honeyeater family Meliphagidae native to New Guinea and eastern and northern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-honeyeater-509e243d",
+      "subject": "White-throated honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-throated honeyeater (Melithreptus albogularis) is a bird of the honeyeater family Meliphagidae native to New Guinea and eastern and northern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-honeyeater-509e243d",
+      "subject": "White-throated honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-throated honeyeater (Melithreptus albogularis) is a bird of the honeyeater family Meliphagidae native to New Guinea and eastern and northern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-throated-honeyeater-509e243d",
+      "subject": "White-throated honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

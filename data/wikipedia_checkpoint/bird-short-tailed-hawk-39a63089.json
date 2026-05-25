@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:03:11",
+  "requested_title": "Short-tailed Hawk",
+  "resolved_title": "Short-tailed hawk",
+  "title_aliases": [
+    "Short-tailed Hawk"
+  ],
+  "bird_id": "bird-short-tailed-hawk-39a63089",
+  "raw_file": "bird-short-tailed-hawk-39a63089.json",
+  "bird": {
+    "id": "bird-short-tailed-hawk-39a63089",
+    "name": "Short-tailed hawk",
+    "english_name": "Short-tailed hawk",
+    "latin_name": "Buteo brachyurus",
+    "summary": "The short-tailed hawk (Buteo brachyurus) is an American bird of prey in the family Accipitridae, which also includes the eagles and Old Wor…",
+    "lat": "4.85",
+    "lng": "-76.38333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Buteo_brachyurus_-Manduri%2C_Sao_Paulo%2C_Brazil_-flying-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-智利-45f765d5",
+      "name": "智利",
+      "summary": "智利共和国（西班牙語：República de Chile），通稱智利（西班牙語：Chile），是位於南美洲的国家，智利西部与南部濒临太平洋，北靠秘鲁，东邻玻利维亚及阿根廷。為南美洲國家聯盟的成員國。除此之外，智利与厄瓜多尔相同，是两個不…",
+      "lat": "-34",
+      "lng": "-71"
+    },
+    {
+      "id": "loc-哥倫比亞西部山脈-7c4fdad6",
+      "name": "哥倫比亞西部山脈",
+      "summary": "哥倫比亞西部山脈（西班牙語：Cordillera Occidental），是哥倫比亞的山脈，屬於安第斯山脈的一部分，全長1,200公里，面積86,239平方公里，平均海拔高度2,000米，最高點海拔高度4,250米。",
+      "lat": "4.85",
+      "lng": "-76.38333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-short-tailed-hawk-39a63089",
+      "subject": "Short-tailed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "albigula) in the Andes of southern Colombia and south to central Argentina and Chile; the short-tailed hawk is found in the Cordillera Central and Cordillera Occidental of Colombia, while B",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-short-tailed-hawk-39a63089",
+      "subject": "Short-tailed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-智利-45f765d5",
+      "object": "智利",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "albigula) in the Andes of southern Colombia and south to central Argentina and Chile; the short-tailed hawk is found in the Cordillera Central and Cordillera Occidental of Colombia, while B",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-short-tailed-hawk-39a63089",
+      "subject": "Short-tailed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥倫比亞西部山脈-7c4fdad6",
+      "object": "哥倫比亞西部山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "albigula) in the Andes of southern Colombia and south to central Argentina and Chile; the short-tailed hawk is found in the Cordillera Central and Cordillera Occidental of Colombia, while B",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-short-tailed-hawk-39a63089",
+      "subject": "Short-tailed hawk",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species may be found in wooded savannah, patchy woodlands near water, cypress swamps, mangrove swamps or high pine-oak woodlands",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-short-tailed-hawk-39a63089",
+      "subject": "Short-tailed hawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

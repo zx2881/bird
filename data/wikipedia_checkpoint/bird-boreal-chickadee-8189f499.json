@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:29:21",
+  "requested_title": "Boreal Chickadee",
+  "resolved_title": "Boreal chickadee",
+  "title_aliases": [
+    "Boreal Chickadee"
+  ],
+  "bird_id": "bird-boreal-chickadee-8189f499",
+  "raw_file": "bird-boreal-chickadee-8189f499.json",
+  "bird": {
+    "id": "bird-boreal-chickadee-8189f499",
+    "name": "Boreal chickadee",
+    "english_name": "Boreal chickadee",
+    "latin_name": "Poecile hudsonicus",
+    "summary": "The boreal chickadee (Poecile hudsonicus) is a small passerine songbird in the tit family Paridae. It is found in the boreal forests of Ala…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Poecile_hudsonicus_7.jpg/960px-Poecile_hudsonicus_7.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-boreal-chickadee-8189f499",
+      "subject": "Boreal chickadee",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-boreal-chickadee-8189f499",
+      "subject": "Boreal chickadee",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The largest threat that is placed on boreal chickadees is clearcutting and logging that occurs in the boreal forest regions. These practices are causing dramatic reductions in mature forests and rapidly modifying the habitat of boreal chickadees",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

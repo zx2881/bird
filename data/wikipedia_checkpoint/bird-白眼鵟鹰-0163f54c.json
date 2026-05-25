@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:58:40",
+  "requested_title": "White-eyed Buzzard",
+  "resolved_title": "White-eyed buzzard",
+  "title_aliases": [
+    "White-eyed Buzzard"
+  ],
+  "bird_id": "bird-白眼鵟鹰-0163f54c",
+  "raw_file": "bird-白眼鵟鹰-0163f54c.json",
+  "bird": {
+    "id": "bird-白眼鵟鹰-0163f54c",
+    "name": "白眼鵟鹰",
+    "english_name": "White-eyed buzzard",
+    "latin_name": "Butastur teesa",
+    "summary": "白眼鵟鹰（学名：Butastur teesa）为鹰科鵟鹰属的鸟类，分布在南亚。在中国大陆，分布于西藏等地，多栖息于干燥的山底树丛。该物种的模式产地在印度恒河-讷尔默达河流域。 保护 中国国家重点保护动物等级：二级 参考文献",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/White-eyed_buzzard_%28Butastur_teesa%29_Photograph_By_Shantanu_Kuveskar_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-james-franklin-naturalist-3d86efd6",
+      "name": "James Franklin (naturalist)",
+      "summary": "James Franklin (c.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-南亚-1fa6ecaf",
+      "name": "南亚",
+      "summary": "南亚（英語：South Asia）是術語，以替換百年老詞「印度次大陸」，這老詞用來代表亞洲大陸的南部地區，主要是位於印度板塊和向南投射到印度洋的地方，當中包括8個主權國家：印度、巴基斯坦、孟加拉、斯里蘭卡、馬爾代夫、不丹、尼泊爾、阿富汗（…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白眼鵟鹰-0163f54c",
+      "subject": "白眼鵟鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-james-franklin-naturalist-3d86efd6",
+      "object": "James Franklin (naturalist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-eyed buzzard (Butastur teesa) is a medium-sized hawk, distinct from the true buzzards in the genus Buteo, found in South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眼鵟鹰-0163f54c",
+      "subject": "白眼鵟鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-南亚-1fa6ecaf",
+      "object": "南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-eyed buzzard (Butastur teesa) is a medium-sized hawk, distinct from the true buzzards in the genus Buteo, found in South Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眼鵟鹰-0163f54c",
+      "subject": "白眼鵟鹰",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|upright|left|A young bird This species is widely distributed in South Asia, throughout India in the plains and extending up to 1000 m in the Himalayas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眼鵟鹰-0163f54c",
+      "subject": "白眼鵟鹰",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

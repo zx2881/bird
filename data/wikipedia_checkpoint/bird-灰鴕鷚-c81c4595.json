@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:54:55",
+  "requested_title": "Apostlebird",
+  "resolved_title": "Apostlebird",
+  "title_aliases": [
+    "Apostlebird"
+  ],
+  "bird_id": "bird-灰鴕鷚-c81c4595",
+  "raw_file": "bird-灰鴕鷚-c81c4595.json",
+  "bird": {
+    "id": "bird-灰鴕鷚-c81c4595",
+    "name": "灰鴕鷚",
+    "english_name": "Apostlebird",
+    "latin_name": "Struthidea cinerea",
+    "summary": "灰短嘴澳鸦（台湾作灰鴕鷚，学名：Struthidea cinerea），俗稱使徒鳥，是雀形目澳鸦科的一种鸟类，屬於澳洲特有種，主要生活於澳洲東部的疏林中。種名在拉丁文中有「灰色」之意。 灰短嘴澳鸦体重约132克，翼长约146.6毫米，嘴峰长约25.1毫米，喙宽度约7.7毫米，喙…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Struthidea_cinerea_3_-_Pinegrove_Memorial_Park.jpg/960px-Struthidea_cinerea_3_-_Pinegrove_Memorial_Park.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰鴕鷚-c81c4595",
+      "subject": "灰鴕鷚",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is a native to Australia where it roams woodlands, eating insects and seeds at, or near, ground level",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰鴕鷚-c81c4595",
+      "subject": "灰鴕鷚",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

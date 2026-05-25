@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:37:11",
+  "requested_title": "Tristram's Bunting",
+  "resolved_title": "Tristram's bunting",
+  "title_aliases": [
+    "Tristram's Bunting"
+  ],
+  "bird_id": "bird-白眉鹀-78121e61",
+  "raw_file": "bird-白眉鹀-78121e61.json",
+  "bird": {
+    "id": "bird-白眉鹀-78121e61",
+    "name": "白眉鹀",
+    "english_name": "Tristram's bunting",
+    "latin_name": "Emberiza tristrami",
+    "summary": "白眉鹀（学名：Emberiza tristrami）为鵐科鹀属的鸟类，俗名白三道儿、小白眉、五道眉。分布于俄罗斯、朝鲜半岛、缅甸以及中国大陆的东北、内蒙古、河北、河南、湖北、山东、江苏、浙江、福建、广东、广西、四川、云南等地，常见于山地森林、栖息于针阔混交林和针叶林带以及喜在山…",
+    "lat": "43",
+    "lng": "125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Tristram%27s_Bunting_9849.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    },
+    {
+      "id": "loc-俄羅斯遠東地區-53945c47",
+      "name": "俄羅斯遠東地區",
+      "summary": "俄羅斯遠東地區（俄語：Дальний Восток России，羅馬化：Dalny Vostok Rossii，發音：[ˈdalʲnʲɪj vɐˈstok rɐˈsʲii]），位於俄羅斯東部，為西伯利亞貝加爾湖東部與太平洋之間；其中所屬…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白眉鹀-78121e61",
+      "subject": "白眉鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in eastern Manchuria and the Russian Far East and winters in central and southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眉鹀-78121e61",
+      "subject": "白眉鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄羅斯遠東地區-53945c47",
+      "object": "俄羅斯遠東地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in eastern Manchuria and the Russian Far East and winters in central and southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眉鹀-78121e61",
+      "subject": "白眉鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in eastern Manchuria and the Russian Far East and winters in central and southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眉鹀-78121e61",
+      "subject": "白眉鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:07:08",
+  "requested_title": "Pinyon Jay",
+  "resolved_title": "Pinyon jay",
+  "title_aliases": [
+    "Pinyon Jay"
+  ],
+  "bird_id": "bird-蓝头鸦-67c98588",
+  "raw_file": "bird-蓝头鸦-67c98588.json",
+  "bird": {
+    "id": "bird-蓝头鸦-67c98588",
+    "name": "蓝头鸦",
+    "english_name": "Pinyon jay",
+    "latin_name": "Gymnorhinus cyanocephalus",
+    "summary": "蓝头鸦（学名：Gymnorhinus cyanocephalus，又名：Pinyon Jay），是鸦科蓝头鸦属的一种，为墨西哥、加拿大和美国的特有种。全球活动范围约为1,280,000平方千米。该物种的保护状况被评为易危。 蓝头鸦的平均体重约为105.0克。栖息地包括乡村花园、…",
+    "lat": "44",
+    "lng": "-121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Gymnorhinus_cyanocephalus1.jpg/960px-Gymnorhinus_cyanocephalus1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北美洲-91ae85a6",
+      "name": "北美洲",
+      "summary": "北亞美利加洲（英語：North America；字源：亞美利哥·維斯普奇），簡稱北美洲，位於西半球北部（或北半球）。東臨大西洋，西臨太平洋，北瀕北冰洋，南以巴拿馬運河為界與南美洲劃分。北美洲還包括加勒比海中眾多島嶼（主要為西印度群島）。北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-俄勒冈州-a8c5b288",
+      "name": "俄勒冈州",
+      "summary": "俄勒冈州（英語：Oregon，發音：/ˈɒrɪɡən/ ；粵語舊譯柯利近州）是美国的一个州，位于美国西北的太平洋沿岸，西临太平洋、北接华盛顿州、东面是爱德荷州、南面是加利福尼亚州和内华达州。2012年人口3,899,353。州别称：海狸州…",
+      "lat": "44",
+      "lng": "-121"
+    },
+    {
+      "id": "loc-下加利福尼亞州-2163f68f",
+      "name": "下加利福尼亞州",
+      "summary": "下加利福尼亞州（西班牙語：Baja California），簡稱下加州和北下加州，是墨西哥最靠近北邊的州。為了與位於下加利福尼亞半島南部的南下加利福尼亞州區分，又稱北下加利福尼亞州（Baja California Norte）。北面與美國…",
+      "lat": "30",
+      "lng": "-115.16666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝头鸦-67c98588",
+      "subject": "蓝头鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-北美洲-91ae85a6",
+      "object": "北美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Native to Western North America, the species ranges from central Oregon to northern Baja California, and eastward as far as western Oklahoma, though wanderers are often sighted beyond this range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝头鸦-67c98588",
+      "subject": "蓝头鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄勒冈州-a8c5b288",
+      "object": "俄勒冈州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Native to Western North America, the species ranges from central Oregon to northern Baja California, and eastward as far as western Oklahoma, though wanderers are often sighted beyond this range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝头鸦-67c98588",
+      "subject": "蓝头鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-下加利福尼亞州-2163f68f",
+      "object": "下加利福尼亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Native to Western North America, the species ranges from central Oregon to northern Baja California, and eastward as far as western Oklahoma, though wanderers are often sighted beyond this range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝头鸦-67c98588",
+      "subject": "蓝头鸦",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

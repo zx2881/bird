@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:49:55",
+  "requested_title": "Pied Monarch",
+  "resolved_title": "Pied monarch",
+  "title_aliases": [
+    "Pied Monarch"
+  ],
+  "bird_id": "bird-pied-monarch-d10871c7",
+  "raw_file": "bird-pied-monarch-d10871c7.json",
+  "bird": {
+    "id": "bird-pied-monarch-d10871c7",
+    "name": "Pied monarch",
+    "english_name": "Pied monarch",
+    "latin_name": "Arses kaupi",
+    "summary": "The pied monarch (Arses kaupi) is a species of bird in the monarch-flycatcher family, Monarchidae. It is endemic to coastal Queensland in A…",
+    "lat": "-15.4722",
+    "lng": "145.2522",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Arses_kaupi_-Australia-8.jpg/960px-Arses_kaupi_-Australia-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-庫克敦-838d6bea",
+      "name": "庫克敦",
+      "summary": "庫克敦(英語：Cooktown)，是澳洲昆士蘭州庫克郡的一個城鎮，濱臨珊瑚海，面向大堡礁。該城位處首府布里斯本北方約2000公里，凱恩斯以北331公里處。在2011年人口普查時有人口2339人。 庫克敦位處遠北昆士蘭約克角半島奮進河河口處…",
+      "lat": "-15.4722",
+      "lng": "145.2522"
+    },
+    {
+      "id": "loc-ingham-queensland-923dcfa0",
+      "name": "Ingham, Queensland",
+      "summary": "Ingham is a rural town and locality in the Shire of Hinchinbrook, Queensland, Australia.",
+      "lat": "-18.6508",
+      "lng": "146.1572"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pied-monarch-d10871c7",
+      "subject": "Pied monarch",
+      "predicate": "distributed_in",
+      "object_id": "loc-庫克敦-838d6bea",
+      "object": "庫克敦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pied monarch is found in tropical forest edge habitats and secondary growth in coastal north eastern Queensland, from Cooktown to Ingham",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-monarch-d10871c7",
+      "subject": "Pied monarch",
+      "predicate": "distributed_in",
+      "object_id": "loc-ingham-queensland-923dcfa0",
+      "object": "Ingham, Queensland",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pied monarch is found in tropical forest edge habitats and secondary growth in coastal north eastern Queensland, from Cooktown to Ingham",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-monarch-d10871c7",
+      "subject": "Pied monarch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

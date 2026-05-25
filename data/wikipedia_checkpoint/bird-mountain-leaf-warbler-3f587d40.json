@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:03:06",
+  "requested_title": "Mountain Leaf Warbler",
+  "resolved_title": "Mountain leaf warbler",
+  "title_aliases": [
+    "Mountain Leaf Warbler"
+  ],
+  "bird_id": "bird-mountain-leaf-warbler-3f587d40",
+  "raw_file": "bird-mountain-leaf-warbler-3f587d40.json",
+  "bird": {
+    "id": "bird-mountain-leaf-warbler-3f587d40",
+    "name": "Mountain leaf warbler",
+    "english_name": "Mountain leaf warbler",
+    "latin_name": "Phylloscopus trivirgatus",
+    "summary": "The mountain leaf warbler (Phylloscopus trivirgatus) is a songbird species from the leaf warbler family (Phylloscopidae). It was formerly i…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Phylloscopus_trivirgatus_-_Chrissy_McClarren_and_Andy_Reago_-_452884394.jpeg/960px-Phylloscopus_trivirgatus_-_Chrissy_McClarren_and_Andy_Reago_-_452884394.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-马来西亚-3f6d0e1e",
+      "name": "马来西亚",
+      "summary": "馬來西亞（馬来语、英語：Malaysia），简称大馬或馬國，是位於东南亚的多元种族國家。由前馬來亚联合邦、北婆羅洲（今沙巴）、砂拉越及新加坡於1963年9月16日所組成的联邦制、议会民主制、选举君主制和君主立宪制國家。 馬来西亚全国总面积…",
+      "lat": "2",
+      "lng": "112"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mountain-leaf-warbler-3f587d40",
+      "subject": "Mountain leaf warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Malaysia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-leaf-warbler-3f587d40",
+      "subject": "Mountain leaf warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-马来西亚-3f6d0e1e",
+      "object": "马来西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Indonesia and Malaysia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-leaf-warbler-3f587d40",
+      "subject": "Mountain leaf warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

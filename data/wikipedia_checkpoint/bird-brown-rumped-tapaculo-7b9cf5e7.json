@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:12:32",
+  "requested_title": "Brown-rumped Tapaculo",
+  "resolved_title": "Brown-rumped tapaculo",
+  "title_aliases": [
+    "Brown-rumped Tapaculo"
+  ],
+  "bird_id": "bird-brown-rumped-tapaculo-7b9cf5e7",
+  "raw_file": "bird-brown-rumped-tapaculo-7b9cf5e7.json",
+  "bird": {
+    "id": "bird-brown-rumped-tapaculo-7b9cf5e7",
+    "name": "Brown-rumped tapaculo",
+    "english_name": "Brown-rumped tapaculo",
+    "latin_name": "Scytalopus latebricola",
+    "summary": "The brown-rumped tapaculo (Scytalopus latebricola) is a species of bird in the family Rhinocryptidae. It is endemic to Colombia.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Scytalopus_latebricola.jpg/960px-Scytalopus_latebricola.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-rumped-tapaculo-7b9cf5e7",
+      "subject": "Brown-rumped tapaculo",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the dense undergrowth of humid montane forest and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-rumped-tapaculo-7b9cf5e7",
+      "subject": "Brown-rumped tapaculo",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the dense undergrowth of humid montane forest and secondary forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-brown-rumped-tapaculo-7b9cf5e7",
+      "subject": "Brown-rumped tapaculo",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

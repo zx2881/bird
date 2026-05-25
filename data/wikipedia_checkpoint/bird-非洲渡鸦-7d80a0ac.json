@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:16:27",
+  "requested_title": "White-necked Raven",
+  "resolved_title": "White-necked raven",
+  "title_aliases": [
+    "White-necked Raven"
+  ],
+  "bird_id": "bird-非洲渡鸦-7d80a0ac",
+  "raw_file": "bird-非洲渡鸦-7d80a0ac.json",
+  "bird": {
+    "id": "bird-非洲渡鸦-7d80a0ac",
+    "name": "非洲渡鸦",
+    "english_name": "White-necked raven",
+    "latin_name": "Corvus albicollis",
+    "summary": "非洲渡鸦（学名：Corvus albicollis），是鸦科鸦属的一种，其种加词“albicollis”意为“白色的脖子”。分布于乌干达、纳米比亚、马拉维、赞比亚、南非、斯威士兰、肯尼亚、坦桑尼亚、津巴布韦、卢旺达、布隆迪、刚果民主共和国、博茨瓦纳、莱索托和莫桑比克。全球活动范…",
+    "lat": "-3.21",
+    "lng": "35.46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/2009-white-necked-raven.jpg/960px-2009-white-necked-raven.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-恩戈罗恩戈罗保护区-fd38333c",
+      "name": "恩戈罗恩戈罗保护区",
+      "summary": "恩戈羅恩戈羅保護區（英語：Ngorongoro Conservation Area；斯瓦希里語：Hifadhi ya Ngorongoro）為坦桑尼亚北部阿鲁沙区火山口高地的一個保護區，成立於1959年，面積8094平方公里。此保護區19…",
+      "lat": "-3.21",
+      "lng": "35.46"
+    },
+    {
+      "id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "name": "约翰·莱瑟姆 (鸟类学家)",
+      "summary": "约翰·莱瑟姆（英語：John Latham，1740年6月27日—1837年2月4日）是一位英国医生、生态学家和作家，被认为是“澳大利亚鸟类学”之父，于19世纪初描述和命名了多种澳大利亚的鸟类。著有《A General Synopsis…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-非洲渡鸦-7d80a0ac",
+      "subject": "非洲渡鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-恩戈罗恩戈罗保护区-fd38333c",
+      "object": "恩戈罗恩戈罗保护区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-necked raven (Corvus albicollis) is a species of raven native to eastern and southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲渡鸦-7d80a0ac",
+      "subject": "非洲渡鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-莱瑟姆-鸟类学家-1edb5695",
+      "object": "约翰·莱瑟姆 (鸟类学家)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-necked raven (Corvus albicollis) is a species of raven native to eastern and southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-非洲渡鸦-7d80a0ac",
+      "subject": "非洲渡鸦",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is quite commonly found in small towns and villages as long as there are mountains or hills for roosting and nesting relatively nearby. The species is associated with mountains, as the species nests on cliff ledges",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-非洲渡鸦-7d80a0ac",
+      "subject": "非洲渡鸦",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "As such, it's often found in montane grasslands.{{Cite journal |last=Winterbottom |first=J",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-非洲渡鸦-7d80a0ac",
+      "subject": "非洲渡鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

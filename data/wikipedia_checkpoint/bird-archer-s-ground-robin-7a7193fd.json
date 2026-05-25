@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:43:18",
+  "requested_title": "Archer's Ground Robin",
+  "resolved_title": "Archer's ground robin",
+  "title_aliases": [
+    "Archer's Ground Robin"
+  ],
+  "bird_id": "bird-archer-s-ground-robin-7a7193fd",
+  "raw_file": "bird-archer-s-ground-robin-7a7193fd.json",
+  "bird": {
+    "id": "bird-archer-s-ground-robin-7a7193fd",
+    "name": "Archer's ground robin",
+    "english_name": "Archer's ground robin",
+    "latin_name": "Dessonornis archeri",
+    "summary": "Archer's ground robin or Archer's robin-chat, (Dessonornis archeri) is a species of bird in the family Muscicapidae. It is found in the Alb…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Archersrobinchat.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-archer-s-ground-robin-7a7193fd",
+      "subject": "Archer's ground robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-archer-s-ground-robin-7a7193fd",
+      "subject": "Archer's ground robin",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the Albertine Rift montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-archer-s-ground-robin-7a7193fd",
+      "subject": "Archer's ground robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

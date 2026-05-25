@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:39:13",
+  "requested_title": "Volcano Junco",
+  "resolved_title": "Volcano junco",
+  "title_aliases": [
+    "Volcano Junco"
+  ],
+  "bird_id": "bird-volcano-junco-50636f8d",
+  "raw_file": "bird-volcano-junco-50636f8d.json",
+  "bird": {
+    "id": "bird-volcano-junco-50636f8d",
+    "name": "Volcano junco",
+    "english_name": "Volcano junco",
+    "latin_name": "Junco vulcani",
+    "summary": "The volcano junco (Junco vulcani) is a species of bird in the family Passerellidae, the New World sparrows. It is found in Costa Rica and P…",
+    "lat": "10",
+    "lng": "-84",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Volcano_Junco.jpg/960px-Volcano_Junco.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥斯达黎加-6c4f73ad",
+      "name": "哥斯达黎加",
+      "summary": "哥斯达黎加共和國（西班牙語：República de Costa Rica），通稱哥斯达黎加（Costa Rica），是中美洲国家，北邻尼加拉瓜，南与巴拿马接壤，首都為聖荷西。 哥斯达黎加是当今世界上第一个裁撤军队的国家。目前哥斯大黎加是…",
+      "lat": "10",
+      "lng": "-84"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-volcano-junco-50636f8d",
+      "subject": "Volcano junco",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥斯达黎加-6c4f73ad",
+      "object": "哥斯达黎加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-volcano-junco-50636f8d",
+      "subject": "Volcano junco",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-volcano-junco-50636f8d",
+      "subject": "Volcano junco",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits paramo grasslands, humid montane scrublands, and similar open landscapes such as overgrown pastures. Sources are in general agreement on its elevational range",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-volcano-junco-50636f8d",
+      "subject": "Volcano junco",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits paramo grasslands, humid montane scrublands, and similar open landscapes such as overgrown pastures. Sources are in general agreement on its elevational range",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-volcano-junco-50636f8d",
+      "subject": "Volcano junco",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-volcano-junco-50636f8d",
+      "subject": "Volcano junco",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The only identified threat is potential degradation of its habitat as a result of climate change. One source states that the species is \"common to frequent\" and another says it is \"fairly common\"",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

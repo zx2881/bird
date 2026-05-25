@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:30:06",
+  "requested_title": "Orange-billed Nightingale-Thrush",
+  "resolved_title": "Orange-billed nightingale-thrush",
+  "title_aliases": [
+    "Orange-billed Nightingale-Thrush"
+  ],
+  "bird_id": "bird-orange-billed-nightingale-thrush-09ef14df",
+  "raw_file": "bird-orange-billed-nightingale-thrush-09ef14df.json",
+  "bird": {
+    "id": "bird-orange-billed-nightingale-thrush-09ef14df",
+    "name": "Orange-billed nightingale-thrush",
+    "english_name": "Orange-billed nightingale-thrush",
+    "latin_name": "Catharus aurantiirostris",
+    "summary": "The orange-billed nightingale-thrush (Catharus aurantiirostris) is a species of bird in the family Turdidae, the thrushes and allies. It is…",
+    "lat": "31",
+    "lng": "-99",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Orange-billed_Nightingale-Thrush%2C_La_Concordia%2C_Mexico_%2817001712972%29.jpg/960px-Orange-billed_Nightingale-Thrush%2C_La_Concordia%2C_Mexico_%2817001712972%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-得克萨斯州-8487bfae",
+      "name": "得克萨斯州",
+      "summary": "Texas ( TEK-səss) is the most populous state in the Southern United States.",
+      "lat": "31",
+      "lng": "-99"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-pine-oak-forest-1bf3f7a2",
+      "name": "Pine–oak forest",
+      "summary": "Pine–oak forest, pine–oak woodland, or oak–pine forest is a group of similar of ecosystems, primarily found in North an…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-orange-billed-nightingale-thrush-09ef14df",
+      "subject": "Orange-billed nightingale-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-得克萨斯州-8487bfae",
+      "object": "得克萨斯州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "One bird was photographed in southern Texas in 1996. The other was photographed in South Dakota in 2010; the record was accepted by the South Dakota Ornithologists' Union. The orange-billed nightingale-thrush inhabits a variety of forest types in the upper tropical and subtropical zones",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-billed-nightingale-thrush-09ef14df",
+      "subject": "Orange-billed nightingale-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "These include the edges of both lowland and montane evergreen forest and the interior of pine-oak forest, deciduous forest, and secondary forest. In Central and South America it also occurs in semi-deciduous forest, gardens, coffee plantations, and (at least in Venezuela) urban areas. Sources differ on its elevational range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-billed-nightingale-thrush-09ef14df",
+      "subject": "Orange-billed nightingale-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-pine-oak-forest-1bf3f7a2",
+      "object": "Pine–oak forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "These include the edges of both lowland and montane evergreen forest and the interior of pine-oak forest, deciduous forest, and secondary forest. In Central and South America it also occurs in semi-deciduous forest, gardens, coffee plantations, and (at least in Venezuela) urban areas. Sources differ on its elevational range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-billed-nightingale-thrush-09ef14df",
+      "subject": "Orange-billed nightingale-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "These include the edges of both lowland and montane evergreen forest and the interior of pine-oak forest, deciduous forest, and secondary forest. In Central and South America it also occurs in semi-deciduous forest, gardens, coffee plantations, and (at least in Venezuela) urban areas. Sources differ on its elevational range",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-billed-nightingale-thrush-09ef14df",
+      "subject": "Orange-billed nightingale-thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

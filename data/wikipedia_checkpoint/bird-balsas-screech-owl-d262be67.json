@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T22:36:11",
+  "requested_title": "Balsas Screech Owl",
+  "resolved_title": "Balsas screech owl",
+  "title_aliases": [
+    "Balsas Screech Owl"
+  ],
+  "bird_id": "bird-balsas-screech-owl-d262be67",
+  "raw_file": "bird-balsas-screech-owl-d262be67.json",
+  "bird": {
+    "id": "bird-balsas-screech-owl-d262be67",
+    "name": "Balsas screech owl",
+    "english_name": "Balsas screech owl",
+    "latin_name": "Megascops seductus",
+    "summary": "The Balsas screech owl (Megascops seductus) is a species of owl in the family Strigidae. It is endemic to Mexico.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Megascops_seductus_99384227.jpg/960px-Megascops_seductus_99384227.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-balsas-screech-owl-d262be67",
+      "subject": "Balsas screech owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits arid open and semi-open areas such as deciduous woodland with cactus, thorn forest, and secondary forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-balsas-screech-owl-d262be67",
+      "subject": "Balsas screech owl",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can also be found in tropical scrublands and the edges of cultivated areas",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-balsas-screech-owl-d262be67",
+      "subject": "Balsas screech owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-balsas-screech-owl-d262be67",
+      "subject": "Balsas screech owl",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, its population is unknown and is suspected to be in decline due to habitat loss and degradation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

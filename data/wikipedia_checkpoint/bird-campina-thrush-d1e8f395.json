@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:28:17",
+  "requested_title": "Campina Thrush",
+  "resolved_title": "Campina thrush",
+  "title_aliases": [
+    "Campina Thrush"
+  ],
+  "bird_id": "bird-campina-thrush-d1e8f395",
+  "raw_file": "bird-campina-thrush-d1e8f395.json",
+  "bird": {
+    "id": "bird-campina-thrush-d1e8f395",
+    "name": "Campina thrush",
+    "english_name": "Campina thrush",
+    "latin_name": "Turdus arthuri",
+    "summary": "The campina thrush (Turdus arthuri) is a species of bird in the family Turdidae. It is found in Bolivia, Brazil, Colombia, Guyana, Suriname…",
+    "lat": "3.51333333",
+    "lng": "-65.62611111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Turdus_arthuri_-_The_birds_of_British_Guiana_1921.jpg/960px-Turdus_arthuri_-_The_birds_of_British_Guiana_1921.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-charles-chubb-ornithologist-4a57e531",
+      "name": "Charles Chubb (ornithologist)",
+      "summary": "Charles Chubb (31 December 1851 – 25 June 1924) was a British ornithologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-杜伊達峰-ca4b602f",
+      "name": "杜伊達峰",
+      "summary": "杜伊達峰（西班牙語：Duida），是委內瑞拉的山峰，位於該國南部亞馬遜州，處於杜伊達-馬拉瓦卡國家公園，海拔高度2,358米，山峰面積1,089平方公里。 參考資料 Frost, Darrel R.",
+      "lat": "3.51333333",
+      "lng": "-65.62611111"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-campina-thrush-d1e8f395",
+      "subject": "Campina thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-charles-chubb-ornithologist-4a57e531",
+      "object": "Charles Chubb (ornithologist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The campina thrush (Turdus arthuri) is a species of bird in the family Turdidae. It is found in Bolivia, Brazil, Colombia, Guyana, Suriname, and Venezuela.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-campina-thrush-d1e8f395",
+      "subject": "Campina thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-杜伊達峰-ca4b602f",
+      "object": "杜伊達峰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is also found in many widely scattered locations throughout Amazonian Brazil. The South American Classification Committee has at least one documented record in Bolivia, a location not mentioned in other sources. In Venezuela it is primarily found on Cerro Duida and Cerro Yapacana.{{cite book | last =Hilty | first =Steven L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-campina-thrush-d1e8f395",
+      "subject": "Campina thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| title =Birds of Venezuela | publisher =Princeton University Press | edition =second | date =2003 | location =Princeton NJ | pages =712 | language =English }} In general it inhabits a variety of semi-open to open landscapes including light woodlands, mature secondary forest, disturbed areas, parks, and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-campina-thrush-d1e8f395",
+      "subject": "Campina thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:15:21",
+  "requested_title": "Cuban Crow",
+  "resolved_title": "Cuban crow",
+  "title_aliases": [
+    "Cuban Crow"
+  ],
+  "bird_id": "bird-古巴鸦-f3c94b64",
+  "raw_file": "bird-古巴鸦-f3c94b64.json",
+  "bird": {
+    "id": "bird-古巴鸦-f3c94b64",
+    "name": "古巴鸦",
+    "english_name": "Cuban crow",
+    "latin_name": "Corvus nasicus",
+    "summary": "古巴鸦（学名：Corvus nasicus），是鸦科鸦属的一种，分布于古巴和特克斯和凯科斯群岛。全球活动范围约为28,300平方千米。该物种的保护状况被评为无危。 古巴鸦的平均体重约为406.2克。栖息地包括城市、耕地、亚热带或热带的湿润山地林、亚热带或热带严重退化的前森林、乡…",
+    "lat": "22.4",
+    "lng": "-81.56666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Cuban_Crow_-_Zapata%2C_Cuba_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-薩帕塔沼澤-e132d2ba",
+      "name": "薩帕塔沼澤",
+      "summary": "薩帕塔沼澤（西班牙語：Ciénaga de Zapata）是古巴的沼澤，位於该国西南沿海的薩帕塔半島，该国最大淡水湖多寶湖位于沼泽內，距離首都哈瓦那约150公里，由馬坦薩斯省負責管轄，長175公里、寬58公里，面積4,354平方公里，是1…",
+      "lat": "22.4",
+      "lng": "-81.56666667"
+    },
+    {
+      "id": "loc-古巴-b585ac9f",
+      "name": "古巴",
+      "summary": "古巴共和国（西班牙語：República de Cuba），通称古巴（Cuba），是美洲西印度群島西部的社会主义国家，介於北緯19°與24°、西經74°與85°之間。該國地處墨西哥灣口，西隔尤卡坦海峡與墨西哥尤卡坦半岛相望，南鄰牙買加和開…",
+      "lat": "22",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "name": "昆拉德·雅各布·特明克",
+      "summary": "昆拉德·雅各布·特明克（荷蘭語：Coenraad Jacob Temminck，1778年3月31日—1858年1月30日）是一名荷蘭貴族和動物學家。 生平 特明克於阿姆斯特丹出生，1820年出任位於萊頓的國家自然歷史博物館，直至去世。他…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-古巴鸦-f3c94b64",
+      "subject": "古巴鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-薩帕塔沼澤-e132d2ba",
+      "object": "薩帕塔沼澤",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Cuban crow (Corvus nasicus) is a crow species native to the northern Caribbean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-古巴鸦-f3c94b64",
+      "subject": "古巴鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-古巴-b585ac9f",
+      "object": "古巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Cuban crow (Corvus nasicus) is a crow species native to the northern Caribbean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-古巴鸦-f3c94b64",
+      "subject": "古巴鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "object": "昆拉德·雅各布·特明克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Cuban crow (Corvus nasicus) is a crow species native to the northern Caribbean",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-古巴鸦-f3c94b64",
+      "subject": "古巴鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T23:05:11",
+  "requested_title": "Sooty Ant Tanager",
+  "resolved_title": "Sooty ant tanager",
+  "title_aliases": [
+    "Sooty Ant Tanager"
+  ],
+  "bird_id": "bird-sooty-ant-tanager-d41e7925",
+  "raw_file": "bird-sooty-ant-tanager-d41e7925.json",
+  "bird": {
+    "id": "bird-sooty-ant-tanager-d41e7925",
+    "name": "Sooty ant tanager",
+    "english_name": "Sooty ant tanager",
+    "latin_name": "Driophlox gutturalis",
+    "summary": "The sooty ant tanager (Driophlox gutturalis) is a species of bird in the cardinal family (Cardinalidae). It was formerly placed with the tr…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Habia_gutturalis_267546048.jpg/960px-Habia_gutturalis_267546048.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-马格达莱纳河-e48598f3",
+      "name": "马格达莱纳河",
+      "summary": "马格达莱纳河（西班牙語：Río Magdalena）是哥伦比亚境内的主要河流。它得名于圣经人物抹大拉的马里亚。 马格达莱纳河发源于哥伦比亚乌伊拉省境内的安第斯山脉，向北流淌，最终在巴兰基亚注入加勒比海，全长约1,540公里，流域面积26万…",
+      "lat": "11.11666667",
+      "lng": "-74.85"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sooty-ant-tanager-d41e7925",
+      "subject": "Sooty ant tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird is found in northwest Colombia, occurring in the Upper Sínu Valley at the northern end of the western Andes, and east along the north base of the Andes to the middle Magdalena River Valley",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sooty-ant-tanager-d41e7925",
+      "subject": "Sooty ant tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-马格达莱纳河-e48598f3",
+      "object": "马格达莱纳河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird is found in northwest Colombia, occurring in the Upper Sínu Valley at the northern end of the western Andes, and east along the north base of the Andes to the middle Magdalena River Valley",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sooty-ant-tanager-d41e7925",
+      "subject": "Sooty ant tanager",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-sooty-ant-tanager-d41e7925",
+      "subject": "Sooty ant tanager",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is becoming rare due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

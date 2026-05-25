@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:52:39",
+  "requested_title": "Uniform Finch",
+  "resolved_title": "Uniform finch",
+  "title_aliases": [
+    "Uniform Finch"
+  ],
+  "bird_id": "bird-uniform-finch-7ad766f3",
+  "raw_file": "bird-uniform-finch-7ad766f3.json",
+  "bird": {
+    "id": "bird-uniform-finch-7ad766f3",
+    "name": "Uniform finch",
+    "english_name": "Uniform finch",
+    "latin_name": "Haplospiza unicolor",
+    "summary": "The uniform finch (Haplospiza unicolor) is a species of bird in the family Thraupidae. It is found in the southern Atlantic Forest of Brazi…",
+    "lat": "-16.5",
+    "lng": "-39.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Haplospiza_unicolor_-Parque_Estadual_da_Cantareira%2C_Sao_Paulo%2C_Brazil_-male-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-大西洋沿岸森林-b6837c90",
+      "name": "大西洋沿岸森林",
+      "summary": "The Atlantic Forest (Portuguese: Mata Atlântica) is a moist broadleaf forest that extends along the Atlantic coast of B…",
+      "lat": "-16.5",
+      "lng": "-39.25"
+    },
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-巴拉圭-029e9211",
+      "name": "巴拉圭",
+      "summary": "巴拉圭共和國（西班牙語：República del Paraguay、瓜拉尼語：Paraguái Tavakuairetã），通稱巴拉圭（西班牙語：Paraguay；瓜拉尼語：Paraguái），是位於南美洲的主權國家，也是位於南美洲的內…",
+      "lat": "-23",
+      "lng": "-58"
+    },
+    {
+      "id": "loc-阿根廷-eaa5fa27",
+      "name": "阿根廷",
+      "summary": "阿根廷共和国（西班牙語：República Argentina），通称阿根廷（西班牙語：Argentina，發音：[aɾxenˈtina] ），是位于南美洲南部的主权国家。由23个省和布宜諾斯艾利斯自治市组成的联邦共和国，占有南錐體的大部…",
+      "lat": "-34",
+      "lng": "-64"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-uniform-finch-7ad766f3",
+      "subject": "Uniform finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-大西洋沿岸森林-b6837c90",
+      "object": "大西洋沿岸森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the southern Atlantic Forest of Brazil, Paraguay and far northeastern Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-uniform-finch-7ad766f3",
+      "subject": "Uniform finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the southern Atlantic Forest of Brazil, Paraguay and far northeastern Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-uniform-finch-7ad766f3",
+      "subject": "Uniform finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉圭-029e9211",
+      "object": "巴拉圭",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the southern Atlantic Forest of Brazil, Paraguay and far northeastern Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-uniform-finch-7ad766f3",
+      "subject": "Uniform finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿根廷-eaa5fa27",
+      "object": "阿根廷",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the southern Atlantic Forest of Brazil, Paraguay and far northeastern Argentina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-uniform-finch-7ad766f3",
+      "subject": "Uniform finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

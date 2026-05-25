@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:19:09",
+  "requested_title": "Peruvian Plantcutter",
+  "resolved_title": "Peruvian plantcutter",
+  "title_aliases": [
+    "Peruvian Plantcutter"
+  ],
+  "bird_id": "bird-peruvian-plantcutter-3139e6c1",
+  "raw_file": "bird-peruvian-plantcutter-3139e6c1.json",
+  "bird": {
+    "id": "bird-peruvian-plantcutter-3139e6c1",
+    "name": "Peruvian plantcutter",
+    "english_name": "Peruvian plantcutter",
+    "latin_name": "Phytotoma raimondii",
+    "summary": "The Peruvian plantcutter (Phytotoma raimondii) is an Vulnerable species of bird in the family Cotingidae, the cotingas. It is endemic to Pe…",
+    "lat": "-3.88",
+    "lng": "-80.59",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Phytotoma_raimondii%2C_female%2C_at_Ferre%C3%B1afe%2C_Lambayeque%2C_Peru_1.jpg/960px-Phytotoma_raimondii%2C_female%2C_at_Ferre%C3%B1afe%2C_Lambayeque%2C_Peru_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-通贝斯大区-5cf0a14a",
+      "name": "通贝斯大区",
+      "summary": "通貝斯大區（西班牙語：Departamento de Tumbes）是秘魯西北部的一個大區，西臨太平洋，東接厄瓜多爾。面積4,045.86平方公里，2007年人口191,713人。首府通貝斯。 1942年11月25日建區，2005年曾經舉…",
+      "lat": "-3.88",
+      "lng": "-80.59"
+    },
+    {
+      "id": "loc-安卡什大区-7178e090",
+      "name": "安卡什大区",
+      "summary": "安卡什区（西班牙语：Ancash）是秘鲁北部的一个行政区，首府瓦拉斯，最大城市钦博特。该区北接拉利伯塔德區，东邻瓦努科大区、帕斯科大区，南连利馬區，西濒太平洋。安卡什区区名源于克丘亚语“anqash”一词，意为“蓝”。秘鲁最高峰瓦斯卡兰峰…",
+      "lat": "-9.53",
+      "lng": "-77.53"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-peruvian-plantcutter-3139e6c1",
+      "subject": "Peruvian plantcutter",
+      "predicate": "distributed_in",
+      "object_id": "loc-通贝斯大区-5cf0a14a",
+      "object": "通贝斯大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Peruvian plantcutter is found in coastal northern Peru from Tumbes Department south to Ancash Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-peruvian-plantcutter-3139e6c1",
+      "subject": "Peruvian plantcutter",
+      "predicate": "distributed_in",
+      "object_id": "loc-安卡什大区-7178e090",
+      "object": "安卡什大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Peruvian plantcutter is found in coastal northern Peru from Tumbes Department south to Ancash Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-peruvian-plantcutter-3139e6c1",
+      "subject": "Peruvian plantcutter",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits a variety of dry to arid landscapes including dry forest with a shrubby understory, desert scrublands, and thickets along watercourses through dry areas",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-peruvian-plantcutter-3139e6c1",
+      "subject": "Peruvian plantcutter",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

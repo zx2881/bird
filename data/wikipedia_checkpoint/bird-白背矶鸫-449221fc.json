@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T09:39:35",
+  "requested_title": "Common Rock Thrush",
+  "resolved_title": "Common rock thrush",
+  "title_aliases": [
+    "Common Rock Thrush"
+  ],
+  "bird_id": "bird-白背矶鸫-449221fc",
+  "raw_file": "bird-白背矶鸫-449221fc.json",
+  "bird": {
+    "id": "bird-白背矶鸫-449221fc",
+    "name": "白背矶鸫",
+    "english_name": "Common rock thrush",
+    "latin_name": "Monticola saxatilis",
+    "summary": "白背矶鸫（学名：Monticola saxatilis）为鶲科矶鸫属的鸟类。分布于欧洲、非洲、亚洲、西伯利亚、蒙古、印度、巴基斯坦、阿拉伯，包括中国大陆的新疆、青海、甘肃、宁夏、内蒙古、河北、江苏等地，多见于海拔较高的地区以及活动于高山坡地草甸岩石间灌丛中。该物种的模式产地在瑞…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Monsax.jpg/960px-Monsax.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中亚-88133474",
+      "name": "中亚",
+      "summary": "中亚（英語：Central Asia；俄語：Средняя Азия / Центральная Азия）即亚洲中部，在地理上是指西至里海，东到中国新疆，南到阿富汗，北到俄罗斯的广大区域。而根据长期占据这片区域大部分领土的前苏联官方定义…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "The Sahara (, ) is a desert spanning North Africa.",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白背矶鸫-449221fc",
+      "subject": "白背矶鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-中亚-88133474",
+      "object": "中亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "saxatilis }} The common rock thrush (Monticola saxatilis), also known as the rufous-tailed rock thrush or simply rock thrush, is a species of chat that breeds in southern Europe across Central Asia to northern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白背矶鸫-449221fc",
+      "subject": "白背矶鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "saxatilis }} The common rock thrush (Monticola saxatilis), also known as the rufous-tailed rock thrush or simply rock thrush, is a species of chat that breeds in southern Europe across Central Asia to northern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白背矶鸫-449221fc",
+      "subject": "白背矶鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is strongly migratory, all populations wintering in Africa south of the Sahara",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白背矶鸫-449221fc",
+      "subject": "白背矶鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-白背矶鸫-449221fc",
+      "subject": "白背矶鸫",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its range has contracted somewhat at the periphery in recent decades due to habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

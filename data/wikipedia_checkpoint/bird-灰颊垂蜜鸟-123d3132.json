@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:02:29",
+  "requested_title": "Little Wattlebird",
+  "resolved_title": "Little wattlebird",
+  "title_aliases": [
+    "Little Wattlebird"
+  ],
+  "bird_id": "bird-灰颊垂蜜鸟-123d3132",
+  "raw_file": "bird-灰颊垂蜜鸟-123d3132.json",
+  "bird": {
+    "id": "bird-灰颊垂蜜鸟-123d3132",
+    "name": "灰颊垂蜜鸟",
+    "english_name": "Little wattlebird",
+    "latin_name": "Anthochaera chrysoptera",
+    "summary": "小垂蜜鸟（学名：Anthochaera chrysoptera）属于吸蜜鸟科垂蜜鸟属的一种，为一种中型吸蜜鸟，却是体型最小的一种垂密鸟。另外与其它垂密鸟不同，小垂密鸟没有垂肉。小垂蜜鸟以花蜜、昆虫为食。主要分布于澳大利亚东南海岸。 参考资料",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Anthochaera_chrysoptera_4.jpg/960px-Anthochaera_chrysoptera_4.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰颊垂蜜鸟-123d3132",
+      "subject": "灰颊垂蜜鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in coastal and sub-coastal south-eastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰颊垂蜜鸟-123d3132",
+      "subject": "灰颊垂蜜鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

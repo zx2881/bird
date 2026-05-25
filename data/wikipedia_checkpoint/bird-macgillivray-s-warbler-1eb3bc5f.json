@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:43:21",
+  "requested_title": "MacGillivray's Warbler",
+  "resolved_title": "MacGillivray's warbler",
+  "title_aliases": [
+    "MacGillivray's Warbler"
+  ],
+  "bird_id": "bird-macgillivray-s-warbler-1eb3bc5f",
+  "raw_file": "bird-macgillivray-s-warbler-1eb3bc5f.json",
+  "bird": {
+    "id": "bird-macgillivray-s-warbler-1eb3bc5f",
+    "name": "MacGillivray's warbler",
+    "english_name": "MacGillivray's warbler",
+    "latin_name": "Geothlypis tolmiei",
+    "summary": "MacGillivray's warbler (Geothlypis tolmiei) is a species of New World warbler. These birds are sluggish and heavy warblers, preferring to s…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Geothlypis_tolmiei_Hungry_Horse_MT_1%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-macgillivray-s-warbler-1eb3bc5f",
+      "subject": "MacGillivray's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In autumn, these birds migrate to Central America, where they stay in temperate shrublands for the winter",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-macgillivray-s-warbler-1eb3bc5f",
+      "subject": "MacGillivray's warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:38:37",
+  "requested_title": "Short-tailed Grasswren",
+  "resolved_title": "Short-tailed grasswren",
+  "title_aliases": [
+    "Short-tailed Grasswren"
+  ],
+  "bird_id": "bird-short-tailed-grasswren-8700e499",
+  "raw_file": "bird-short-tailed-grasswren-8700e499.json",
+  "bird": {
+    "id": "bird-short-tailed-grasswren-8700e499",
+    "name": "Short-tailed grasswren",
+    "english_name": "Short-tailed grasswren",
+    "latin_name": "Amytornis merrotsyi",
+    "summary": "The short-tailed grasswren (Amytornis merrotsyi) is a small passerine bird in the family Maluridae, commonly known as the Australasian wren…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Short-tailed_Grasswren_%28Amytornis_merrotsyi%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    },
+    {
+      "id": "loc-南澳大利亚州-f6cb6048",
+      "name": "南澳大利亚州",
+      "summary": "南澳大利亚州（英語：South Australia，缩写为SA），簡稱南澳或南澳州，位於澳大利亚中南部，与澳大利亚大陆的其餘四州及北領地接壤，是澳洲聯邦的一州，是唯一与澳洲大陸上所有聯邦州都接壤的一州，其下劃分為69個地方政府區域。 南澳…",
+      "lat": "-30",
+      "lng": "135"
+    },
+    {
+      "id": "loc-鬟刺属-8aaebf2c",
+      "name": "鬟刺属",
+      "summary": "鬣刺属（学名：Spinifex），又名濱刺草屬（ 中国科学院《中国植物志》编委会为鬟刺属），是禾本科下的一个属，为刚硬草本植物。该属共有约4种，分布于热带亚洲和大洋洲。 下属物种 老鼠艻 Spinifex littoreus (Burm.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-short-tailed-grasswren-8700e499",
+      "subject": "Short-tailed grasswren",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Australia, where it has a highly restricted distribution in the arid interior of South Australia, particularly the Flinders and Gawler Ranges. This species inhabits rocky hillsides and ranges dominated by spinifex (Triodia) grasses, typically within temperate shrubland and semi-arid environments",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-short-tailed-grasswren-8700e499",
+      "subject": "Short-tailed grasswren",
+      "predicate": "distributed_in",
+      "object_id": "loc-南澳大利亚州-f6cb6048",
+      "object": "南澳大利亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Australia, where it has a highly restricted distribution in the arid interior of South Australia, particularly the Flinders and Gawler Ranges. This species inhabits rocky hillsides and ranges dominated by spinifex (Triodia) grasses, typically within temperate shrubland and semi-arid environments",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-short-tailed-grasswren-8700e499",
+      "subject": "Short-tailed grasswren",
+      "predicate": "distributed_in",
+      "object_id": "loc-鬟刺属-8aaebf2c",
+      "object": "鬟刺属",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Australia, where it has a highly restricted distribution in the arid interior of South Australia, particularly the Flinders and Gawler Ranges. This species inhabits rocky hillsides and ranges dominated by spinifex (Triodia) grasses, typically within temperate shrubland and semi-arid environments",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-short-tailed-grasswren-8700e499",
+      "subject": "Short-tailed grasswren",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is endemic to Australia, where it has a highly restricted distribution in the arid interior of South Australia, particularly the Flinders and Gawler Ranges. This species inhabits rocky hillsides and ranges dominated by spinifex (Triodia) grasses, typically within temperate shrubland and semi-arid environments",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-short-tailed-grasswren-8700e499",
+      "subject": "Short-tailed grasswren",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

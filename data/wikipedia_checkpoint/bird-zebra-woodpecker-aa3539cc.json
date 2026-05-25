@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:06:05",
+  "requested_title": "Zebra Woodpecker",
+  "resolved_title": "Zebra woodpecker",
+  "title_aliases": [
+    "Zebra Woodpecker"
+  ],
+  "bird_id": "bird-zebra-woodpecker-aa3539cc",
+  "raw_file": "bird-zebra-woodpecker-aa3539cc.json",
+  "bird": {
+    "id": "bird-zebra-woodpecker-aa3539cc",
+    "name": "Zebra woodpecker",
+    "english_name": "Zebra woodpecker",
+    "latin_name": "Meiglyptes tristis",
+    "summary": "The zebra woodpecker (Meiglyptes tristis) is a species of bird in the family Picidae. It is found in Java.",
+    "lat": "-7.49166667",
+    "lng": "110.00444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/White-rumped_Woodpecker_0A2A0957.jpg/960px-White-rumped_Woodpecker_0A2A0957.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-zebra-woodpecker-aa3539cc",
+      "subject": "Zebra woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Java",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-zebra-woodpecker-aa3539cc",
+      "subject": "Zebra woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in plantations of coconuts, rubber, and silk plants; villages that border secondary forest; mangroves; and polyculture areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-zebra-woodpecker-aa3539cc",
+      "subject": "Zebra woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:36:55",
+  "requested_title": "Blue-capped Motmot",
+  "resolved_title": "Blue-capped motmot",
+  "title_aliases": [
+    "Blue-capped Motmot"
+  ],
+  "bird_id": "bird-blue-capped-motmot-b96744f6",
+  "raw_file": "bird-blue-capped-motmot-b96744f6.json",
+  "bird": {
+    "id": "bird-blue-capped-motmot-b96744f6",
+    "name": "Blue-capped motmot",
+    "english_name": "Blue-capped motmot",
+    "latin_name": "Momotus coeruliceps",
+    "summary": "The blue-capped motmot (Momotus coeruliceps) or blue-crowned motmot, is a colorful near-passerine bird found in forests and woodlands of ea…",
+    "lat": "23",
+    "lng": "-102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Blue_Crowned_Motmot_-_26676895852.jpg/960px-Blue_Crowned_Motmot_-_26676895852.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-古尔德-f8020282",
+      "name": "约翰·古尔德",
+      "summary": "约翰·古尔德 FRS（英語：John Gould，1804年9月14日—1881年2月3日）是19世纪一位英国鸟类学家。1804年生于英格兰，也是一位商人、艺术家。1838年后与其妻一同前往澳大利亚，在当地发现并為许多新物种命名。 早年…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-capped-motmot-b96744f6",
+      "subject": "Blue-capped motmot",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-古尔德-f8020282",
+      "object": "约翰·古尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue-capped motmot (Momotus coeruliceps) or blue-crowned motmot, is a colorful near-passerine bird found in forests and woodlands of eastern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-capped-motmot-b96744f6",
+      "subject": "Blue-capped motmot",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue-capped motmot (Momotus coeruliceps) or blue-crowned motmot, is a colorful near-passerine bird found in forests and woodlands of eastern Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-capped-motmot-b96744f6",
+      "subject": "Blue-capped motmot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

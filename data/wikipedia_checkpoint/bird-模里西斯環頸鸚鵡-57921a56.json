@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:54:48",
+  "requested_title": "Echo Parakeet",
+  "resolved_title": "Echo parakeet",
+  "title_aliases": [
+    "Echo Parakeet"
+  ],
+  "bird_id": "bird-模里西斯環頸鸚鵡-57921a56",
+  "raw_file": "bird-模里西斯環頸鸚鵡-57921a56.json",
+  "bird": {
+    "id": "bird-模里西斯環頸鸚鵡-57921a56",
+    "name": "模里西斯環頸鸚鵡",
+    "english_name": "Echo parakeet",
+    "latin_name": "Psittacula eques",
+    "summary": "毛里求斯鹦鹉（學名：Psittacula eques，台湾作模里西斯環頸鸚鵡），又稱迴聲鸚鵡，是南印度洋近馬達加斯加島嶼上唯一生存的原生鸚鵡屬物种。 分類 留尼旺鸚哥原先只是基於油畫及傳聞而被描述為P.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Echo_parakeet_%28Psittacula_eques_echo%29_-at_Durrell_Trust.jpg/960px-Echo_parakeet_%28Psittacula_eques_echo%29_-at_Durrell_Trust.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-模里西斯環頸鸚鵡-57921a56",
+      "subject": "模里西斯環頸鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-模里西斯環頸鸚鵡-57921a56",
+      "subject": "模里西斯環頸鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Réunion parakeet probably went extinct due to hunting and deforestation, and was last reported in 1732",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-模里西斯環頸鸚鵡-57921a56",
+      "subject": "模里西斯環頸鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Réunion parakeet probably went extinct due to hunting and deforestation, and was last reported in 1732",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

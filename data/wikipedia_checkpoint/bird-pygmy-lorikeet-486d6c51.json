@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:03:50",
+  "requested_title": "Pygmy Lorikeet",
+  "resolved_title": "Pygmy lorikeet",
+  "title_aliases": [
+    "Pygmy Lorikeet"
+  ],
+  "bird_id": "bird-pygmy-lorikeet-486d6c51",
+  "raw_file": "bird-pygmy-lorikeet-486d6c51.json",
+  "bird": {
+    "id": "bird-pygmy-lorikeet-486d6c51",
+    "name": "Pygmy lorikeet",
+    "english_name": "Pygmy lorikeet",
+    "latin_name": "Charminetta wilhelminae",
+    "summary": "The pygmy lorikeet (Charminetta wilhelminae) is a species of parrot in the family Psittaculidae. It is the only species placed in the genus…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/N309_w1150_%288006803741%29_%28cropped_2%29.jpg/960px-N309_w1150_%288006803741%29_%28cropped_2%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pygmy-lorikeet-486d6c51",
+      "subject": "Pygmy lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the highlands of New Guinea; its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pygmy-lorikeet-486d6c51",
+      "subject": "Pygmy lorikeet",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in the highlands of New Guinea; its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-pygmy-lorikeet-486d6c51",
+      "subject": "Pygmy lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

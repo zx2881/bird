@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:19:33",
+  "requested_title": "Barred Honey Buzzard",
+  "resolved_title": "Barred honey buzzard",
+  "title_aliases": [
+    "Barred Honey Buzzard"
+  ],
+  "bird_id": "bird-barred-honey-buzzard-7a3b16c5",
+  "raw_file": "bird-barred-honey-buzzard-7a3b16c5.json",
+  "bird": {
+    "id": "bird-barred-honey-buzzard-7a3b16c5",
+    "name": "Barred honey buzzard",
+    "english_name": "Barred honey buzzard",
+    "latin_name": "Pernis celebensis",
+    "summary": "The barred honey buzzard or Sulawesi honey buzzard (Pernis celebensis) is a species of bird of prey in the family Accipitridae. It inhabits…",
+    "lat": "-2",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Roofvogel_op_een_uitzichtpunt_langs_de_weg_van_Makassar_naar_Singkang%2C_KITLV_159965.tiff/lossy-page1-960px-Roofvogel_op_een_uitzichtpunt_langs_de_weg_van_Makassar_naar_Singkang%2C_KITLV_159965.tiff.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-苏拉威西岛-6ebabd9a",
+      "name": "苏拉威西岛",
+      "summary": "苏拉威西岛（印尼語：Sulawesi）舊名西里伯或西里伯斯，《職方外紀》稱則勒伯（荷蘭語：Celebes），是印度尼西亚东部的一个大岛屿。 地理 苏拉威西岛按面积是世界第十一大岛，总面积为174,600平方公里，位于印度尼西亚东部，菲律宾…",
+      "lat": "-2",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-barred-honey-buzzard-7a3b16c5",
+      "subject": "Barred honey buzzard",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏拉威西岛-6ebabd9a",
+      "object": "苏拉威西岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits subtropical and tropical moist lowland and montane forests of Sulawesi",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-barred-honey-buzzard-7a3b16c5",
+      "subject": "Barred honey buzzard",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits subtropical and tropical moist lowland and montane forests of Sulawesi",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-barred-honey-buzzard-7a3b16c5",
+      "subject": "Barred honey buzzard",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

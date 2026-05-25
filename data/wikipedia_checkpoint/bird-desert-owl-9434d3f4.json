@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T22:50:12",
+  "requested_title": "Desert Owl",
+  "resolved_title": "Desert owl",
+  "title_aliases": [
+    "Desert Owl"
+  ],
+  "bird_id": "bird-desert-owl-9434d3f4",
+  "raw_file": "bird-desert-owl-9434d3f4.json",
+  "bird": {
+    "id": "bird-desert-owl-9434d3f4",
+    "name": "Desert owl",
+    "english_name": "Desert owl",
+    "latin_name": "Strix hadorami",
+    "summary": "The desert owl or desert tawny owl (Strix hadorami), formerly known as Hume's owl, is a species of owl. It is closely related to the more w…",
+    "lat": "31",
+    "lng": "35",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/PikiWiki_Israel_21595_Strix_hadorami_-_Ein_Gedi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-以色列-0e5bac3f",
+      "name": "以色列",
+      "summary": "Israel, officially the State of Israel, is a country in the Southern Levant region of West Asia.",
+      "lat": "31",
+      "lng": "35"
+    },
+    {
+      "id": "loc-埃及-fe9eb3b9",
+      "name": "埃及",
+      "summary": "阿拉伯埃及共和國（埃及阿拉伯語：جمهورية مصر العربية，羅馬化：Jumhūriyyat Miṣr al-ʻArabiyyah），通稱埃及（مصر，Miṣr），是位於北非的國家。地跨亚非两洲，大部分國土位於北非地區，惟西奈半…",
+      "lat": "26",
+      "lng": "30"
+    },
+    {
+      "id": "loc-约旦-2eb24f8a",
+      "name": "约旦",
+      "summary": "约旦哈希姆王国，通稱約旦（阿拉伯語：الأردن，羅馬化：al-ʾUrdunn [al.ʔur.dunː]），是位於西亞的阿拉伯国家，北临叙利亚，东临伊拉克，东南临沙特阿拉伯，西临以色列、巴勒斯坦國。首都為安曼。死海位於約旦的西方國界上，…",
+      "lat": "31",
+      "lng": "36.5"
+    },
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-desert-owl-9434d3f4",
+      "subject": "Desert owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-以色列-0e5bac3f",
+      "object": "以色列",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The desert owl breeds in Israel, northeast Egypt, Jordan, and the Arabian Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-desert-owl-9434d3f4",
+      "subject": "Desert owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃及-fe9eb3b9",
+      "object": "埃及",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The desert owl breeds in Israel, northeast Egypt, Jordan, and the Arabian Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-desert-owl-9434d3f4",
+      "subject": "Desert owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-约旦-2eb24f8a",
+      "object": "约旦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The desert owl breeds in Israel, northeast Egypt, Jordan, and the Arabian Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-desert-owl-9434d3f4",
+      "subject": "Desert owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The desert owl breeds in Israel, northeast Egypt, Jordan, and the Arabian Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-desert-owl-9434d3f4",
+      "subject": "Desert owl",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It nests in crevices and holes in cliffs",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-desert-owl-9434d3f4",
+      "subject": "Desert owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

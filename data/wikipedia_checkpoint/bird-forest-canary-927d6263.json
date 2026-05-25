@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:17:21",
+  "requested_title": "Forest Canary",
+  "resolved_title": "Forest canary",
+  "title_aliases": [
+    "Forest Canary"
+  ],
+  "bird_id": "bird-forest-canary-927d6263",
+  "raw_file": "bird-forest-canary-927d6263.json",
+  "bird": {
+    "id": "bird-forest-canary-927d6263",
+    "name": "Forest canary",
+    "english_name": "Forest canary",
+    "latin_name": "Crithagra scotops",
+    "summary": "The forest canary (Crithagra scotops) is a species of finch in the family Fringillidae. It is found in South Africa and Eswatini.",
+    "lat": "-30",
+    "lng": "25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Forest_Canary_%28Serinus_scotops%29_facing_left%2C_side_view.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    },
+    {
+      "id": "loc-史瓦帝尼-8e8b2b40",
+      "name": "史瓦帝尼",
+      "summary": "史瓦帝尼王國（史瓦帝語：Umbuso weSwatini；英語：Kingdom of Eswatini），通稱史瓦帝尼（史瓦帝語：eSwatini；英語：Eswatini），是位於非洲南部的一个內陸國家。史瓦帝尼北、西、南三面均為南非所包…",
+      "lat": "-26.5",
+      "lng": "31.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-forest-canary-927d6263",
+      "subject": "Forest canary",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in South Africa and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-forest-canary-927d6263",
+      "subject": "Forest canary",
+      "predicate": "distributed_in",
+      "object_id": "loc-史瓦帝尼-8e8b2b40",
+      "object": "史瓦帝尼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in South Africa and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-forest-canary-927d6263",
+      "subject": "Forest canary",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-forest-canary-927d6263",
+      "subject": "Forest canary",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "They face habitat loss through deforestation and wildfires",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-forest-canary-927d6263",
+      "subject": "Forest canary",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "They face habitat loss through deforestation and wildfires",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

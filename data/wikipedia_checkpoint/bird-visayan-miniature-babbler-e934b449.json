@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:45:12",
+  "requested_title": "Visayan Miniature Babbler",
+  "resolved_title": "Visayan miniature babbler",
+  "title_aliases": [
+    "Visayan Miniature Babbler"
+  ],
+  "bird_id": "bird-visayan-miniature-babbler-e934b449",
+  "raw_file": "bird-visayan-miniature-babbler-e934b449.json",
+  "bird": {
+    "id": "bird-visayan-miniature-babbler-e934b449",
+    "name": "Visayan miniature babbler",
+    "english_name": "Visayan miniature babbler",
+    "latin_name": "Micromacronus leytensis",
+    "summary": "The Visayan miniature babbler (Micromacronus leytensis) or the Leyte plumed-warbler is a bird species in the family Cisticolidae. It is end…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Leyte-plumed_Warbler_Skin.jpg/960px-Leyte-plumed_Warbler_Skin.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-薩馬島-8cd63d0e",
+      "name": "薩馬島",
+      "summary": "薩馬島 （英語：Samar）位於菲律賓中部，是米沙鄢群島最東的島嶼。下分三省：北薩馬省、東薩馬省和薩馬省。这三个省是東米沙鄢政區的一部分，莱特岛和比利兰岛是附近的岛屿省份。薩馬島面積13,429平方公里，是菲律宾的第三大岛，仅次于吕宋岛和…",
+      "lat": "12",
+      "lng": "125"
+    },
+    {
+      "id": "loc-莱特岛-26d24ab4",
+      "name": "莱特岛",
+      "summary": "雷伊泰島（Leyte）是菲律賓群島中的米沙鄢群島的島嶼之一。面積7213平方公里。北臨薩馬海；東北隔聖華尼科海峽與薩馬島相望，兩島有跨海大橋相連；南面為棉蘭老海，與棉蘭老島相望；西南為保和島；西為宿霧島；西北為馬斯巴特島。 第二次世界大戰…",
+      "lat": "10.8",
+      "lng": "124.9"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-visayan-miniature-babbler-e934b449",
+      "subject": "Visayan miniature babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines found in the islands of Samar and Leyte",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-visayan-miniature-babbler-e934b449",
+      "subject": "Visayan miniature babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-薩馬島-8cd63d0e",
+      "object": "薩馬島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines found in the islands of Samar and Leyte",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-visayan-miniature-babbler-e934b449",
+      "subject": "Visayan miniature babbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-莱特岛-26d24ab4",
+      "object": "莱特岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to the Philippines found in the islands of Samar and Leyte",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-visayan-miniature-babbler-e934b449",
+      "subject": "Visayan miniature babbler",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

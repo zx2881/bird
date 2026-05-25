@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T23:00:08",
+  "requested_title": "Ultramarine Grosbeak",
+  "resolved_title": "Ultramarine grosbeak",
+  "title_aliases": [
+    "Ultramarine Grosbeak"
+  ],
+  "bird_id": "bird-ultramarine-grosbeak-0fc19c47",
+  "raw_file": "bird-ultramarine-grosbeak-0fc19c47.json",
+  "bird": {
+    "id": "bird-ultramarine-grosbeak-0fc19c47",
+    "name": "Ultramarine grosbeak",
+    "english_name": "Ultramarine grosbeak",
+    "latin_name": "Cyanoloxia brissonii",
+    "summary": "The ultramarine grosbeak (Cyanoloxia brissonii) is a species of grosbeak in the family Cardinalidae. It is found in a wide range of semi-op…",
+    "lat": "4.839",
+    "lng": "-75.631",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Cyanocompsa_brissonii_-Vale_do_Ribeira%2C_Registro%2C_Sao_Paulo%2C_Brasil_-male-8.jpg/960px-Cyanocompsa_brissonii_-Vale_do_Ribeira%2C_Registro%2C_Sao_Paulo%2C_Brasil_-male-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南美洲-4f6ff430",
+      "name": "南美洲",
+      "summary": "南亚美利加洲（英语：South America），简称南美洲，为七大洲之一，位於西半球南部（或南半球），西臨南太平洋，西面為太平洋板塊及納斯卡板塊。太平洋板塊及納斯卡板塊之間的內營力為張力，衍生了東太平洋海嶺；而納斯卡板塊與南美洲板塊的內…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-cauca-valley-montane-forests-bcf82a4e",
+      "name": "Cauca Valley montane forests",
+      "summary": "The Cauca Valley montane forests (NT0109) is an ecoregion in western Colombia.",
+      "lat": "4.839",
+      "lng": "-75.631"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ultramarine-grosbeak-0fc19c47",
+      "subject": "Ultramarine grosbeak",
+      "predicate": "distributed_in",
+      "object_id": "loc-南美洲-4f6ff430",
+      "object": "南美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in a wide range of semi-open habitats in eastern and central South America, with a disjunct population in northern South America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ultramarine-grosbeak-0fc19c47",
+      "subject": "Ultramarine grosbeak",
+      "predicate": "distributed_in",
+      "object_id": "loc-cauca-valley-montane-forests-bcf82a4e",
+      "object": "Cauca Valley montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "An isolated population can be found in southwestern Colombia, between the Western and Central cordilleras throughout the Cauca valley and Dagua regions, where they prefer dry forest borders and semi-arid desert",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ultramarine-grosbeak-0fc19c47",
+      "subject": "Ultramarine grosbeak",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

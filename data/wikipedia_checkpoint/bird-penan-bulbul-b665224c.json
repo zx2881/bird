@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:22:20",
+  "requested_title": "Penan Bulbul",
+  "resolved_title": "Penan bulbul",
+  "title_aliases": [
+    "Penan Bulbul"
+  ],
+  "bird_id": "bird-penan-bulbul-b665224c",
+  "raw_file": "bird-penan-bulbul-b665224c.json",
+  "bird": {
+    "id": "bird-penan-bulbul-b665224c",
+    "name": "Penan bulbul",
+    "english_name": "Penan bulbul",
+    "latin_name": "Alophoixus ruficrissus",
+    "summary": "The Penan bulbul (Alophoixus ruficrissus) is a species of songbird in the bulbul family, Pycnonotidae. It is found in Borneo, typically in…",
+    "lat": "0",
+    "lng": "114",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Penan_Bulbul_0A2A3493.jpg/960px-Penan_Bulbul_0A2A3493.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-penan-bulbul-b665224c",
+      "subject": "Penan bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Borneo, typically in the mid-storey of broad-leaved evergreen and rainforests up to 1500 metres elevation",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-penan-bulbul-b665224c",
+      "subject": "Penan bulbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

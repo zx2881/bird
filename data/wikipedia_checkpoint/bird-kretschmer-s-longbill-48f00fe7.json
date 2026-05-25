@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:56:19",
+  "requested_title": "Kretschmer's Longbill",
+  "resolved_title": "Kretschmer's longbill",
+  "title_aliases": [
+    "Kretschmer's Longbill"
+  ],
+  "bird_id": "bird-kretschmer-s-longbill-48f00fe7",
+  "raw_file": "bird-kretschmer-s-longbill-48f00fe7.json",
+  "bird": {
+    "id": "bird-kretschmer-s-longbill-48f00fe7",
+    "name": "Kretschmer's longbill",
+    "english_name": "Kretschmer's longbill",
+    "latin_name": "Macrosphenus kretschmeri",
+    "summary": "Kretschmer's longbill (Macrosphenus kretschmeri) is a species of Old World warbler in the family Macrosphenidae. It is found in Kenya, Moza…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Macrosphenus_kretschmeri_-_Mikael_Bauer_-_245567346.jpeg/960px-Macrosphenus_kretschmeri_-_Mikael_Bauer_-_245567346.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-莫桑比克-9371b65a",
+      "name": "莫桑比克",
+      "summary": "莫桑比克共和国（葡萄牙語：República de Moçambique，發音：[ʁɛˈpuβlikɐ ðɨ musɐ̃ˈbikɨ]），舊譯作莫三鼻給，現通稱莫三比克或莫桑比克，位於非洲東部，临印度洋，隔莫桑比克海峡与马达加斯加相望，以葡…",
+      "lat": "-18.25",
+      "lng": "35"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-kretschmer-s-longbill-48f00fe7",
+      "subject": "Kretschmer's longbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Mozambique, and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kretschmer-s-longbill-48f00fe7",
+      "subject": "Kretschmer's longbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫桑比克-9371b65a",
+      "object": "莫桑比克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Mozambique, and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kretschmer-s-longbill-48f00fe7",
+      "subject": "Kretschmer's longbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya, Mozambique, and Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-kretschmer-s-longbill-48f00fe7",
+      "subject": "Kretschmer's longbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

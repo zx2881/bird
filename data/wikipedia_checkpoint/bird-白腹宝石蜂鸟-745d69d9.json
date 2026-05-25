@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:25:20",
+  "requested_title": "White-bellied Mountaingem",
+  "resolved_title": "White-bellied mountaingem",
+  "title_aliases": [
+    "White-bellied Mountaingem"
+  ],
+  "bird_id": "bird-白腹宝石蜂鸟-745d69d9",
+  "raw_file": "bird-白腹宝石蜂鸟-745d69d9.json",
+  "bird": {
+    "id": "bird-白腹宝石蜂鸟-745d69d9",
+    "name": "白腹宝石蜂鸟",
+    "english_name": "White-bellied mountaingem",
+    "latin_name": "Lampornis hemileucus",
+    "summary": "白腹宝石蜂鸟（学名：Lampornis hemileucus），是雨燕目蜂鸟科的一种鸟类。 白腹宝石蜂鸟体重约5.5克，翼长约62.4毫米，嘴峰长约22.9毫米，喙宽度约2.3毫米，喙厚度约2.7毫米，跗蹠长约6毫米，尾长约36.2毫米。白腹宝石蜂鸟在其分布区内为留鸟，其栖息在…",
+    "lat": "10",
+    "lng": "-84",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/White-bellied_Mountain-gem_%28Oreopyra_hemileucus%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥斯达黎加-6c4f73ad",
+      "name": "哥斯达黎加",
+      "summary": "哥斯达黎加共和國（西班牙語：República de Costa Rica），通稱哥斯达黎加（Costa Rica），是中美洲国家，北邻尼加拉瓜，南与巴拿马接壤，首都為聖荷西。 哥斯达黎加是当今世界上第一个裁撤军队的国家。目前哥斯大黎加是…",
+      "lat": "10",
+      "lng": "-84"
+    },
+    {
+      "id": "loc-巴拿马-5f49ad15",
+      "name": "巴拿马",
+      "summary": "巴拿马共和国（西班牙語：República de Panamá），通稱巴拿馬（西班牙語：Panamá），是中美洲最南部的国家，国土面积7.55万平方公里，人口436万。 連接大西洋及太平洋的巴拿马运河位於國家的中央，劃分了南北美洲，拥有重…",
+      "lat": "9",
+      "lng": "-80"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白腹宝石蜂鸟-745d69d9",
+      "subject": "白腹宝石蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥斯达黎加-6c4f73ad",
+      "object": "哥斯达黎加",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腹宝石蜂鸟-745d69d9",
+      "subject": "白腹宝石蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马-5f49ad15",
+      "object": "巴拿马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Costa Rica and Panama.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腹宝石蜂鸟-745d69d9",
+      "subject": "白腹宝石蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the canopy of cool and very wet subtropical forest and also occurs at the shrub level at the forest edge and in gaps and clearings",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腹宝石蜂鸟-745d69d9",
+      "subject": "白腹宝石蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

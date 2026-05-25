@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:26:13",
+  "requested_title": "Citrine White-eye",
+  "resolved_title": "Citrine white-eye",
+  "title_aliases": [
+    "Citrine White-eye"
+  ],
+  "bird_id": "bird-citrine-white-eye-71c7c2e5",
+  "raw_file": "bird-citrine-white-eye-71c7c2e5.json",
+  "bird": {
+    "id": "bird-citrine-white-eye-71c7c2e5",
+    "name": "Citrine white-eye",
+    "english_name": "Citrine white-eye",
+    "latin_name": "Zosterops semperi",
+    "summary": "The citrine white-eye (Zosterops semperi), or Caroline Islands white-eye, is a species of bird in the family Zosteropidae. It is found in P…",
+    "lat": "7.5",
+    "lng": "134.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Zosterops_semperi_owstoni_cropped.jpg/960px-Zosterops_semperi_owstoni_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-帛琉-af1d81ef",
+      "name": "帛琉",
+      "summary": "帛琉共和國（英語：Republic of Palau；帕勞語：Beluu er a Belau；日語：パラオ共和国，羅馬化：Parao Kyōwakoku），通稱帛琉或帕勞（Palau，旧称Belau或Pelew）是位于西太平洋的岛嶼国家…",
+      "lat": "7.5",
+      "lng": "134.5"
+    },
+    {
+      "id": "loc-密克罗尼西亚联邦-dd8abf80",
+      "name": "密克罗尼西亚联邦",
+      "summary": "密克罗尼西亚联邦（英語：Federated States of Micronesia），簡稱密克羅尼西亞或密联邦，是一个西太平洋岛国，位于加罗林群岛，全国陆地面积702平方公里。全国有607个岛屿，波纳佩岛为该国最大的岛屿，首都帕利基尔亦…",
+      "lat": "6.91666667",
+      "lng": "158.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-citrine-white-eye-71c7c2e5",
+      "subject": "Citrine white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-帛琉-af1d81ef",
+      "object": "帛琉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Palau and the Federated States of Micronesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-citrine-white-eye-71c7c2e5",
+      "subject": "Citrine white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-密克罗尼西亚联邦-dd8abf80",
+      "object": "密克罗尼西亚联邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Palau and the Federated States of Micronesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-citrine-white-eye-71c7c2e5",
+      "subject": "Citrine white-eye",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

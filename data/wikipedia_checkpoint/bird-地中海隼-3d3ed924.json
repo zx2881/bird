@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:27:45",
+  "requested_title": "Lanner Falcon",
+  "resolved_title": "Lanner falcon",
+  "title_aliases": [
+    "Lanner Falcon"
+  ],
+  "bird_id": "bird-地中海隼-3d3ed924",
+  "raw_file": "bird-地中海隼-3d3ed924.json",
+  "bird": {
+    "id": "bird-地中海隼-3d3ed924",
+    "name": "地中海隼",
+    "english_name": "Lanner falcon",
+    "latin_name": "Falco biarmicus",
+    "summary": "地中海隼（學名：falco biarmicus）是种体型中等大小的猛禽，繁殖基地主要在非洲、东南欧，近年来进入了亚洲。地中海隼喜欢空旷的栖居地，通常没有迁徙行为，但有的地中海隼会在繁殖期结束后转移栖居地。作为隼中体型较大的一种，地中海隼主要食物是鸟类、蝙蝠。 参考资料 外部链接…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Lanner_Falcon_800.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "name": "昆拉德·雅各布·特明克",
+      "summary": "昆拉德·雅各布·特明克（荷蘭語：Coenraad Jacob Temminck，1778年3月31日—1858年1月30日）是一名荷蘭貴族和動物學家。 生平 特明克於阿姆斯特丹出生，1820年出任位於萊頓的國家自然歷史博物館，直至去世。他…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-赫爾曼-施萊格爾-8481bd0b",
+      "name": "赫爾曼·施萊格爾",
+      "summary": "赫爾曼·施萊格爾（德語：Hermann Schlegel，1804年6月10日—1884年1月17日），德國鳥類學家暨爬蟲兩棲類學家。由於其多數著名的研究都是在荷蘭完成，因此常也被認為是荷蘭的科學家。 生平 早年生涯 施萊格爾生於德國阿爾…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-地中海隼-3d3ed924",
+      "subject": "地中海隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-昆拉德-雅各布-特明克-10490da9",
+      "object": "昆拉德·雅各布·特明克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The lanner falcon (Falco biarmicus) is a medium-sized bird of prey that breeds in Africa, southeast Europe and just into Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-地中海隼-3d3ed924",
+      "subject": "地中海隼",
+      "predicate": "distributed_in",
+      "object_id": "loc-赫爾曼-施萊格爾-8481bd0b",
+      "object": "赫爾曼·施萊格爾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The lanner falcon (Falco biarmicus) is a medium-sized bird of prey that breeds in Africa, southeast Europe and just into Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-地中海隼-3d3ed924",
+      "subject": "地中海隼",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "However, they are most commonly found in open savannah and sour grasslands",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-地中海隼-3d3ed924",
+      "subject": "地中海隼",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-地中海隼-3d3ed924",
+      "subject": "地中海隼",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "As chicks can barely fly when leaving the nest they are vulnerable and easy to catch, they are threatened by being captured for falconries and through being caught and killed by angry farmers as a result of these birds sometimes preying on domestic chickens. Indirect anthropogenic threats include loss of suitable habitats as a result of human expansion and the intensive use of pesticides for agriculture",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

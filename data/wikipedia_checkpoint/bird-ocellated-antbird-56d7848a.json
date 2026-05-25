@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:01:38",
+  "requested_title": "Ocellated Antbird",
+  "resolved_title": "Ocellated antbird",
+  "title_aliases": [
+    "Ocellated Antbird"
+  ],
+  "bird_id": "bird-ocellated-antbird-56d7848a",
+  "raw_file": "bird-ocellated-antbird-56d7848a.json",
+  "bird": {
+    "id": "bird-ocellated-antbird-56d7848a",
+    "name": "Ocellated antbird",
+    "english_name": "Ocellated antbird",
+    "latin_name": "Phaenostictus mcleannani",
+    "summary": "The ocellated antbird (Phaenostictus mcleannani) is a species of antbird in subfamily Thamnophilinae of family Thamnophilidae, the \"typical…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Phaenostictus-mcleannani-001.jpg/960px-Phaenostictus-mcleannani-001.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-ocellated-antbird-56d7848a",
+      "subject": "Ocellated antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| page =369 }} The ocellated antbird inhabits lowland and foothill evergreen forest, where it favors old-growth primary forest but occurs in mature secondary forest as well",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ocellated-antbird-56d7848a",
+      "subject": "Ocellated antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| page =369 }} The ocellated antbird inhabits lowland and foothill evergreen forest, where it favors old-growth primary forest but occurs in mature secondary forest as well",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ocellated-antbird-56d7848a",
+      "subject": "Ocellated antbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| page =369 }} The ocellated antbird inhabits lowland and foothill evergreen forest, where it favors old-growth primary forest but occurs in mature secondary forest as well",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-ocellated-antbird-56d7848a",
+      "subject": "Ocellated antbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:05:35",
+  "requested_title": "Shaft-tailed Whydah",
+  "resolved_title": "Shaft-tailed whydah",
+  "title_aliases": [
+    "Shaft-tailed Whydah"
+  ],
+  "bird_id": "bird-箭尾维达雀-c6bcecd2",
+  "raw_file": "bird-箭尾维达雀-c6bcecd2.json",
+  "bird": {
+    "id": "bird-箭尾维达雀-c6bcecd2",
+    "name": "箭尾维达雀",
+    "english_name": "Shaft-tailed whydah",
+    "latin_name": "Vidua regia",
+    "summary": "箭尾维达雀（学名：Vidua regia），是雀形目维达雀科的一种鸟类。 特征 箭尾维达雀体重约14.38克，翼长约70.2毫米，喙宽度约4.1毫米，喙厚度约6毫米，嘴峰长约11.4毫米，跗蹠长约15.3毫米，尾长约42.9毫米。",
+    "lat": "-12.5",
+    "lng": "18.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Whydah_Shaft-tailed_2007_0107_1225_15AA.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    },
+    {
+      "id": "loc-莫桑比克-9371b65a",
+      "name": "莫桑比克",
+      "summary": "莫桑比克共和国（葡萄牙語：República de Moçambique，發音：[ʁɛˈpuβlikɐ ðɨ musɐ̃ˈbikɨ]），舊譯作莫三鼻給，現通稱莫三比克或莫桑比克，位於非洲東部，临印度洋，隔莫桑比克海峡与马达加斯加相望，以葡…",
+      "lat": "-18.25",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-箭尾维达雀-c6bcecd2",
+      "subject": "箭尾维达雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The shaft-tailed whydah is distributed in open habitats and grasslands of Southern Africa, from south Angola to south Mozambique",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-箭尾维达雀-c6bcecd2",
+      "subject": "箭尾维达雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-莫桑比克-9371b65a",
+      "object": "莫桑比克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The shaft-tailed whydah is distributed in open habitats and grasslands of Southern Africa, from south Angola to south Mozambique",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-箭尾维达雀-c6bcecd2",
+      "subject": "箭尾维达雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:59:02",
+  "requested_title": "Taiwan Yuhina",
+  "resolved_title": "Taiwan yuhina",
+  "title_aliases": [
+    "Taiwan Yuhina"
+  ],
+  "bird_id": "bird-褐头凤鹛-9ca4d397",
+  "raw_file": "bird-褐头凤鹛-9ca4d397.json",
+  "bird": {
+    "id": "bird-褐头凤鹛-9ca4d397",
+    "name": "褐头凤鹛",
+    "english_name": "Taiwan yuhina",
+    "latin_name": "Yuhina brunneiceps",
+    "summary": "褐头凤鹛（学名：Yuhina brunneiceps），又名冠羽鳳眉，为繡眼科凤鹛属的鸟类，是台灣特有種，僅見於本島的五大山脈（惟海岸山脈少有紀錄）。其種名來自拉丁文的 brunneus（褐色的）和 ceps（頭部），模式產地位於今玉山國家公園內的樂樂溪上游流域一帶。 分類與系…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Taiwan_Yuhina_-_Taiwan_S4E8280_%2818926478463%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-平均海拔-ddd8aa74",
+      "name": "平均海拔",
+      "summary": "平均海拔（英語：Above mean sea level，缩写：AMSL）又称为海拔高度，是指以平均海平面高度作为高程基准面起测定的地面或空中高度，对地理测量，飞行控制，电台设定，气象研究都有决定性作用。 所谓平均海平面高度实际是并不存在…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-褐头凤鹛-9ca4d397",
+      "subject": "褐头凤鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-平均海拔-ddd8aa74",
+      "object": "平均海拔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is found in hill forests at elevations of above sea level, although it is most common between ; it can descend to lower altitudes in winter. It is gregarious, active and quite tame",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐头凤鹛-9ca4d397",
+      "subject": "褐头凤鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

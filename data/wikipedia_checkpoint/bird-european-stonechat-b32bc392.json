@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:22:03",
+  "requested_title": "European Stonechat",
+  "resolved_title": "European stonechat",
+  "title_aliases": [
+    "European Stonechat"
+  ],
+  "bird_id": "bird-european-stonechat-b32bc392",
+  "raw_file": "bird-european-stonechat-b32bc392.json",
+  "bird": {
+    "id": "bird-european-stonechat-b32bc392",
+    "name": "European stonechat",
+    "english_name": "European stonechat",
+    "latin_name": "Saxicola rubicola",
+    "summary": "The European stonechat (Saxicola rubicola) is a small passerine bird that was formerly classed as a subspecies of the common stonechat. Lon…",
+    "lat": "42.26111111",
+    "lng": "44.12111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Stonechat_%28Saxicola_rubicola%29_male%2C_Beaulieu%2C_Hampshire.jpg/960px-Stonechat_%28Saxicola_rubicola%29_male%2C_Beaulieu%2C_Hampshire.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南高加索-2dc0d966",
+      "name": "南高加索",
+      "summary": "南高加索（英語：South Caucasus；喬治亞語：სამხრეთი კავკასია；亞美尼亞語：Հարավային Կովկաս；阿塞拜疆語：Cənubi Qafqaz；俄語：Южный Кавказ）是指高加索山脉以南的格鲁吉亚…",
+      "lat": "42.26111111",
+      "lng": "44.12111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-european-stonechat-b32bc392",
+      "subject": "European stonechat",
+      "predicate": "distributed_in",
+      "object_id": "loc-南高加索-2dc0d966",
+      "object": "南高加索",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found across Europe, as far east as Ukraine and the South Caucasus, and in parts of North Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-european-stonechat-b32bc392",
+      "subject": "European stonechat",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "European stonechats breed in heathland, coastal dunes and rough grassland with scattered small shrubs and bramble, open gorse, tussocks or heather",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    }
+  ]
+}

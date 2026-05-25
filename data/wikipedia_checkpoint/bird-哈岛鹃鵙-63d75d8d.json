@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:09:22",
+  "requested_title": "Halmahera Cuckooshrike",
+  "resolved_title": "Halmahera cuckooshrike",
+  "title_aliases": [
+    "Halmahera Cuckooshrike"
+  ],
+  "bird_id": "bird-哈岛鹃鵙-63d75d8d",
+  "raw_file": "bird-哈岛鹃鵙-63d75d8d.json",
+  "bird": {
+    "id": "bird-哈岛鹃鵙-63d75d8d",
+    "name": "哈岛鹃鵙",
+    "english_name": "Halmahera cuckooshrike",
+    "latin_name": "Coracina parvula",
+    "summary": "哈岛鹃鵙（学名：Edolisoma parvulum）是山椒鸟科Edolisoma属的一种，为印度尼西亚的特有种。其自然栖息地为亚热带或热带的湿润低地森林。 参考文献 BirdLife International.",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Halmahera_Cuckoo-Shrike_-_Indonesia_MG_3219_%2816407993233%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-哈岛鹃鵙-63d75d8d",
+      "subject": "哈岛鹃鵙",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the northern Maluku Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-哈岛鹃鵙-63d75d8d",
+      "subject": "哈岛鹃鵙",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

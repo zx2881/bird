@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:01:33",
+  "requested_title": "Philippine Hanging Parrot",
+  "resolved_title": "Philippine hanging parrot",
+  "title_aliases": [
+    "Philippine Hanging Parrot"
+  ],
+  "bird_id": "bird-philippine-hanging-parrot-9ec7f0ce",
+  "raw_file": "bird-philippine-hanging-parrot-9ec7f0ce.json",
+  "bird": {
+    "id": "bird-philippine-hanging-parrot-9ec7f0ce",
+    "name": "Philippine hanging parrot",
+    "english_name": "Philippine hanging parrot",
+    "latin_name": "Loriculus philippensis",
+    "summary": "The Philippine hanging parrot (Loriculus philippensis), also commonly known as the colasisi from its local Tagalog name \"kulasisi\", is a sm…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Colasisi.png/960px-Colasisi.png"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    },
+    {
+      "id": "loc-苏禄群岛-cd8d5c75",
+      "name": "苏禄群岛",
+      "summary": "苏禄群岛（Sulu Archipelago），菲律宾西南部岛群。自民答那峨三宝颜半岛向西延伸至加里曼丹岛东岸，与马来西亚沙巴州相望，有800个以上小岛组成，分为五个岛群，面积2823平方公里，大岛都为火山岛，小岛为珊瑚礁，有热带森林，种植…",
+      "lat": "6",
+      "lng": "121"
+    },
+    {
+      "id": "loc-巴拉望省-b942e012",
+      "name": "巴拉望省",
+      "summary": "巴拉望省（Palawan），是菲律宾民马罗巴区下属的一个省，由主岛巴拉望岛，以及周边的卡拉棉群岛（1,753平方公里）、库约群岛、巴拉巴克岛等小岛组成，南隔巴拉巴克海峡与加里曼丹岛相望。另外，菲律宾声称部分南沙群岛（卡拉延群島）也归属该省…",
+      "lat": "10",
+      "lng": "118.83"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-philippine-hanging-parrot-9ec7f0ce",
+      "subject": "Philippine hanging parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Philippine hanging parrot is native to the Philippines except the Sulu Archipelago and it is not widespread on Palawan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-philippine-hanging-parrot-9ec7f0ce",
+      "subject": "Philippine hanging parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏禄群岛-cd8d5c75",
+      "object": "苏禄群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Philippine hanging parrot is native to the Philippines except the Sulu Archipelago and it is not widespread on Palawan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-philippine-hanging-parrot-9ec7f0ce",
+      "subject": "Philippine hanging parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拉望省-b942e012",
+      "object": "巴拉望省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Philippine hanging parrot is native to the Philippines except the Sulu Archipelago and it is not widespread on Palawan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-philippine-hanging-parrot-9ec7f0ce",
+      "subject": "Philippine hanging parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-philippine-hanging-parrot-9ec7f0ce",
+      "subject": "Philippine hanging parrot",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The species is threatened by habitat loss, but a bigger threat is trapping for the illegal wildlife trade; wild-caught birds are often sold as pets in streets and online selling groups",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

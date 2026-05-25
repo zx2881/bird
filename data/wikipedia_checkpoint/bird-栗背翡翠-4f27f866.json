@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:42:22",
+  "requested_title": "Chocolate-backed Kingfisher",
+  "resolved_title": "Chocolate-backed kingfisher",
+  "title_aliases": [
+    "Chocolate-backed Kingfisher"
+  ],
+  "bird_id": "bird-栗背翡翠-4f27f866",
+  "raw_file": "bird-栗背翡翠-4f27f866.json",
+  "bird": {
+    "id": "bird-栗背翡翠-4f27f866",
+    "name": "栗背翡翠",
+    "english_name": "Chocolate-backed kingfisher",
+    "latin_name": "Halcyon badia",
+    "summary": "栗背翡翠（學名：Halcyon badia）為鳥類翡翠科中的一個物種。現蹤於安哥拉、喀麥隆、中非共和國、剛果共和國、剛果民主共和國、象牙海岸、赤道幾內亞、加彭、迦納、幾內亞、賴比瑞亞、奈及利亞、獅子山共和國、南蘇丹以及烏干達。 其种加词“badia”意为“栗色的”。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Halcyon_badia_PLoS.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-朱尔-韦罗-894353ab",
+      "name": "朱尔·韦罗",
+      "summary": "朱尔·皮埃尔·韦罗（法語：Jules Pierre Verreaux，1807年8月24日—1873年9月7日）是法国的植物学家、鸟类学家以及专业的自然史标本收藏家与交易家。他是自然学家爱德华·韦罗的兄长，自然学家和探险家皮埃尔·安托万·…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗背翡翠-4f27f866",
+      "subject": "栗背翡翠",
+      "predicate": "distributed_in",
+      "object_id": "loc-朱尔-韦罗-894353ab",
+      "object": "朱尔·韦罗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The chocolate-backed kingfisher (Halcyon badia) is a species of kingfisher in the subfamily Halcyoninae, native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗背翡翠-4f27f866",
+      "subject": "栗背翡翠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

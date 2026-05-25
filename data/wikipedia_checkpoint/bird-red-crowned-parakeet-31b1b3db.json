@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:58:10",
+  "requested_title": "Red-crowned Parakeet",
+  "resolved_title": "Red-crowned parakeet",
+  "title_aliases": [
+    "Red-crowned Parakeet"
+  ],
+  "bird_id": "bird-red-crowned-parakeet-31b1b3db",
+  "raw_file": "bird-red-crowned-parakeet-31b1b3db.json",
+  "bird": {
+    "id": "bird-red-crowned-parakeet-31b1b3db",
+    "name": "Red-crowned parakeet",
+    "english_name": "Red-crowned parakeet",
+    "latin_name": "Cyanoramphus novaezelandiae",
+    "summary": "The red-crowned parakeet (Cyanoramphus novaezelandiae), also known as red-fronted parakeet and by its Māori name of kākāriki, is a small pa…",
+    "lat": "-35.58",
+    "lng": "173.97",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Red-crowned_parakeet_%28Cyanoramphus_novaezelandiae%29_Tiritiri_Matangi.jpg/960px-Red-crowned_parakeet_%28Cyanoramphus_novaezelandiae%29_Tiritiri_Matangi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北地大区-b0ed4003",
+      "name": "北地大区",
+      "summary": "北地大区（毛利語：Te Tai-tokerau，英語：Northland），为新西兰16个地方政府区中最北端的一个[4][5]，该地区以其温暖的天气而闻名。其行政中心和主要的人口中心是法纳雷市，最大的城镇是凯里凯里。该大区总面积13,78…",
+      "lat": "-35.58",
+      "lng": "173.97"
+    },
+    {
+      "id": "loc-科罗曼德尔半岛-aa326e3f",
+      "name": "科罗曼德尔半岛",
+      "summary": "科罗曼德尔半岛（英語：Coromandel Peninsula）位于新西兰北岛中东部，长约110公里，平均宽31公里，西临泰晤士湾与豪拉基湾，东濒普伦蒂湾。半岛上耸立有摩艾豪岭和科罗曼德尔岭。1769年，詹姆斯·库克在科罗曼德尔半岛东部的…",
+      "lat": "-36.83333333",
+      "lng": "175.58333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-crowned-parakeet-31b1b3db",
+      "subject": "Red-crowned parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-北地大区-b0ed4003",
+      "object": "北地大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "On the mainland, this species occurs in large forest blocks in Northland, Coromandel and central North Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-crowned-parakeet-31b1b3db",
+      "subject": "Red-crowned parakeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-科罗曼德尔半岛-aa326e3f",
+      "object": "科罗曼德尔半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "On the mainland, this species occurs in large forest blocks in Northland, Coromandel and central North Island",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-crowned-parakeet-31b1b3db",
+      "subject": "Red-crowned parakeet",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Red-crowned parakeets can live in a wide variety of habitats including dense temperate rainforests, coastal forests, scrubland, forest edges and open areas.Marchant, S., Higgins, P",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-red-crowned-parakeet-31b1b3db",
+      "subject": "Red-crowned parakeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-red-crowned-parakeet-31b1b3db",
+      "subject": "Red-crowned parakeet",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It used to be classified as near threatened as invasive predators had pushed it out of its historical range but it is now at least concern",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

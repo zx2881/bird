@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:02:04",
+  "requested_title": "Red-backed Shrike",
+  "resolved_title": "Red-backed shrike",
+  "title_aliases": [
+    "Red-backed Shrike"
+  ],
+  "bird_id": "bird-红背伯劳-88ee3311",
+  "raw_file": "bird-红背伯劳-88ee3311.json",
+  "bird": {
+    "id": "bird-红背伯劳-88ee3311",
+    "name": "红背伯劳",
+    "english_name": "Red-backed shrike",
+    "latin_name": "Lanius collurio",
+    "summary": "红背伯劳（学名：Lanius collurio）为伯劳科伯劳属的一种。分布于自英国、欧洲西部、亚洲中部、在中东、非洲越冬以及中国大陆的新疆等地。该物种的模式产地在瑞典。 亚种 红背伯劳疆西亚种（学名：Lanius collurio isabellinus）。在中国大陆，分布于新…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Red-backed_shrike.jpg/960px-Red-backed_shrike.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-南部非洲-488ef0f2",
+      "name": "南部非洲",
+      "summary": "南部非洲（英语：Southern Africa）即非洲大陆南部地区，不常简称為南非，“南非”（英语：South Africa）通常指南非共和国。联合国地理方案的南部非洲次分区包括下列五個南部非洲关税同盟国家： 博茨瓦纳 史瓦帝尼（斯威士兰…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西亚-a96480a2",
+      "name": "西亚",
+      "summary": "西亞（英語：West Asia，通稱：Western Asia），或稱西南亞（英語：South-west Asia 或 Southwest Asia，通稱：South-western Asia 或 Southwestern Asia），指…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红背伯劳-88ee3311",
+      "subject": "红背伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-南部非洲-488ef0f2",
+      "object": "南部非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory and winters in the eastern areas of tropical Africa and southern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红背伯劳-88ee3311",
+      "subject": "红背伯劳",
+      "predicate": "distributed_in",
+      "object_id": "loc-西亚-a96480a2",
+      "object": "西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This bird breeds in most of Europe and western Asia and winters in tropical Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红背伯劳-88ee3311",
+      "subject": "红背伯劳",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

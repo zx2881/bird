@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-20T22:31:30",
+  "requested_title": "Flammulated Owl",
+  "resolved_title": "Flammulated owl",
+  "title_aliases": [
+    "Flammulated Owl"
+  ],
+  "bird_id": "bird-flammulated-owl-f9c61401",
+  "raw_file": "bird-flammulated-owl-f9c61401.json",
+  "bird": {
+    "id": "bird-flammulated-owl-f9c61401",
+    "name": "Flammulated owl",
+    "english_name": "Flammulated owl",
+    "latin_name": "Psiloscops flammeolus",
+    "summary": "The flammulated owl (Psiloscops flammeolus) is a small migratory North American owl in the family Strigidae. It is the only species placed…",
+    "lat": "15.5",
+    "lng": "-90.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Flammulated_owl.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-危地马拉-16f6f3de",
+      "name": "危地马拉",
+      "summary": "瓜地馬拉共和國（西班牙語：República de Guatemala），通稱瓜地馬拉（Guatemala），是中美洲北部的一個國家。該國地理位置優越，北接墨西哥，東北鄰伯利茲，東南與洪都拉斯和薩爾瓦多接壤，西瀕太平洋，東臨加勒比海的洪都…",
+      "lat": "15.5",
+      "lng": "-90.25"
+    },
+    {
+      "id": "loc-萨尔瓦多-a05c562c",
+      "name": "萨尔瓦多",
+      "summary": "薩爾瓦多共和國（西班牙語：República de El Salvador），通称萨尔瓦多（西班牙語：El Salvador），是位於中美洲北部的國家，為中美洲唯一不靠大西洋之國家，全國面积21,393平方公里。該國西北鄰接危地馬拉，東北…",
+      "lat": "13.68333333",
+      "lng": "-89.18333333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-flammulated-owl-f9c61401",
+      "subject": "Flammulated owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the winter, they are found in northern Central America, from southern Mexico to Guatemala and El Salvador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flammulated-owl-f9c61401",
+      "subject": "Flammulated owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-危地马拉-16f6f3de",
+      "object": "危地马拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the winter, they are found in northern Central America, from southern Mexico to Guatemala and El Salvador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flammulated-owl-f9c61401",
+      "subject": "Flammulated owl",
+      "predicate": "distributed_in",
+      "object_id": "loc-萨尔瓦多-a05c562c",
+      "object": "萨尔瓦多",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the winter, they are found in northern Central America, from southern Mexico to Guatemala and El Salvador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-flammulated-owl-f9c61401",
+      "subject": "Flammulated owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

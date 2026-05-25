@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:07:00",
+  "requested_title": "Tapajos Antpitta",
+  "resolved_title": "Tapajos antpitta",
+  "title_aliases": [
+    "Tapajos Antpitta"
+  ],
+  "bird_id": "bird-tapajos-antpitta-f16e5e2c",
+  "raw_file": "bird-tapajos-antpitta-f16e5e2c.json",
+  "bird": {
+    "id": "bird-tapajos-antpitta-f16e5e2c",
+    "name": "Tapajos antpitta",
+    "english_name": "Tapajos antpitta",
+    "latin_name": "Myrmothera subcanescens",
+    "summary": "The Tapajos antpitta (Myrmothera subcanescens) is a species of bird in the family Grallariidae. It is endemic to Brazil.",
+    "lat": "-2.3096",
+    "lng": "-54.8881",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Myrmothera_subcanescens_map.svg/960px-Myrmothera_subcanescens_map.svg.png"
+  },
+  "locations": [
+    {
+      "id": "loc-亞馬遜盆地-e57e9f08",
+      "name": "亞馬遜盆地",
+      "summary": "亞馬遜盆地（葡萄牙語：Bacia do rio Amazonas），又稱亞馬遜平原，是南美洲的亞馬遜河及其支流所流經之處，盆地與平原地形兼具。 地理 南美洲的亞馬遜雨林（60%面積位於巴西）位於亞馬遜盆地，是全球最大的雨林，佔地6百萬平方…",
+      "lat": "-2.3096",
+      "lng": "-54.8881"
+    },
+    {
+      "id": "loc-马代拉河-c159f3fd",
+      "name": "马代拉河",
+      "summary": "马代拉河（葡萄牙語：Rio Madeira）是南美洲的河流，河道全長約3,350公里，是亞馬遜河右岸最長的支流。 2007年7月，巴西政府批准興建兩座用作水力發電的水壩，遭環境人士以破壞生態環境為由反對。",
+      "lat": "-3.37555556",
+      "lng": "-58.77305556"
+    },
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tapajos-antpitta-f16e5e2c",
+      "subject": "Tapajos antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞馬遜盆地-e57e9f08",
+      "object": "亞馬遜盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tapajos antpitta is found in the Amazon Basin of central Brazil, south of the Amazon and east of the Madeira River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tapajos-antpitta-f16e5e2c",
+      "subject": "Tapajos antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-马代拉河-c159f3fd",
+      "object": "马代拉河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Tapajos antpitta is found in the Amazon Basin of central Brazil, south of the Amazon and east of the Madeira River",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tapajos-antpitta-f16e5e2c",
+      "subject": "Tapajos antpitta",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits humid rainforest in the lowlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tapajos-antpitta-f16e5e2c",
+      "subject": "Tapajos antpitta",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-tapajos-antpitta-f16e5e2c",
+      "subject": "Tapajos antpitta",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Due to its susceptibility to forest fragmentation, the species is threatened by the large-scale logging of forests for agricultural expansion.\" It occurs in several protected areas",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:42:16",
+  "requested_title": "Cirl Bunting",
+  "resolved_title": "Cirl bunting",
+  "title_aliases": [
+    "Cirl Bunting"
+  ],
+  "bird_id": "bird-cirl-bunting-75347570",
+  "raw_file": "bird-cirl-bunting-75347570.json",
+  "bird": {
+    "id": "bird-cirl-bunting-75347570",
+    "name": "Cirl bunting",
+    "english_name": "Cirl bunting",
+    "latin_name": "Emberiza cirlus",
+    "summary": "The cirl bunting ( SURL) (Emberiza cirlus) is a passerine bird in the bunting family Emberizidae, a group now separated by most modern auth…",
+    "lat": "41.89333333",
+    "lng": "12.48277778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Cirl_bunting_cropped.jpg/960px-Cirl_bunting_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-罗马-44a45172",
+      "name": "罗马",
+      "summary": "羅馬（義大利語：Roma [ˈroːma] ，拉丁語：Roma）是意大利首都及罗马首都广域市首府，為意大利全国的政治、经济、文化和交通中心，位于意大利半島中部的拉齐奥大区，台伯河下游平原地，建城初期在七座小山丘上，故又名“七丘之城”。按行…",
+      "lat": "41.89333333",
+      "lng": "12.48277778"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cirl-bunting-75347570",
+      "subject": "Cirl bunting",
+      "predicate": "distributed_in",
+      "object_id": "loc-罗马-44a45172",
+      "object": "罗马",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The ideal farmland habitat is a mixture of grass and arable fields, divided by thick hedgerows with pockets of dense scrub. They can tolerate a certain degree of urbanisation, and are found in green spaces in towns and cities, even Rome. They are sedentary in nature and will often travel only from their nests to forage in summer, and up to in winter to find stubble",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cirl-bunting-75347570",
+      "subject": "Cirl bunting",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

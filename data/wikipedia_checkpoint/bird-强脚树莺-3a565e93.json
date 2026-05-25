@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:44:05",
+  "requested_title": "Brown-flanked Bush Warbler",
+  "resolved_title": "Brown-flanked bush warbler",
+  "title_aliases": [
+    "Brown-flanked Bush Warbler"
+  ],
+  "bird_id": "bird-强脚树莺-3a565e93",
+  "raw_file": "bird-强脚树莺-3a565e93.json",
+  "bird": {
+    "id": "bird-强脚树莺-3a565e93",
+    "name": "强脚树莺",
+    "english_name": "Brown-flanked bush warbler",
+    "latin_name": "Horornis fortipes",
+    "summary": "The brown-flanked bush warbler (Horornis fortipes), also known as the brownish-flanked bush warbler, is a species of bush-warbler of the fa…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Brownish-flanked_Bush_Warbler_I_IMG_6777.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-华南地区-93856970",
+      "name": "华南地区",
+      "summary": "华南是一个中国地理概念，指中国本土南部，有广义和狭义之分。 广义之“华南” 广义的华南即“中国南方”，地理上指秦嶺-淮河線以南中國的廣大區域。這種區分包括氣候、經濟生產、交通、文化等來區分，南方屬於副熱帶季風氣候以及熱帶季風氣候，冬季从較…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-强脚树莺-3a565e93",
+      "subject": "强脚树莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Himalayas, South China and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-强脚树莺-3a565e93",
+      "subject": "强脚树莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-华南地区-93856970",
+      "object": "华南地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Himalayas, South China and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-强脚树莺-3a565e93",
+      "subject": "强脚树莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Himalayas, South China and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-强脚树莺-3a565e93",
+      "subject": "强脚树莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

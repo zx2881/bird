@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:42:34",
+  "requested_title": "Natewa Silktail",
+  "resolved_title": "Natewa silktail",
+  "title_aliases": [
+    "Natewa Silktail"
+  ],
+  "bird_id": "bird-natewa-silktail-eda4e9f5",
+  "raw_file": "bird-natewa-silktail-eda4e9f5.json",
+  "bird": {
+    "id": "bird-natewa-silktail-eda4e9f5",
+    "name": "Natewa silktail",
+    "english_name": "Natewa silktail",
+    "latin_name": "Lamprolia klinesmithi",
+    "summary": "The Natewa silktail (Lamprolia klinesmithi) is a species of bird endemic to Fiji. This beautiful bird looks superficially like a diminutive…",
+    "lat": "-16.58333333",
+    "lng": "179.18333333",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-瓦努阿岛-89e10dda",
+      "name": "瓦努阿岛",
+      "summary": "瓦努阿岛（斐濟語：Vanua Levu，發音：[βaˈnua ˈleβu]，意为“大土地”；印地語：वानुआ लेवु），斐济第二大岛，位于主岛维提岛以北约64公里处，面积5,587.1平方公里，人口约13万人。岛上主要城市为兰巴萨和萨…",
+      "lat": "-16.58333333",
+      "lng": "179.18333333"
+    },
+    {
+      "id": "loc-斐濟-2fb776c3",
+      "name": "斐濟",
+      "summary": "斐濟共和國（英語：Republic of Fiji；斐濟語：Matanitu Tugalala o Viti；斐濟印地語：रिपब्लिक ऑफ फीजी），通稱斐濟，是位於南太平洋，瓦努阿圖以東、東加以西、吐瓦魯以南的群島國家，由322…",
+      "lat": "-18",
+      "lng": "179"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-natewa-silktail-eda4e9f5",
+      "subject": "Natewa silktail",
+      "predicate": "distributed_in",
+      "object_id": "loc-瓦努阿岛-89e10dda",
+      "object": "瓦努阿岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The silktail is endemic to forests of Vanua Levu in Fiji, where it only occurs in the east of the island on the Natewa Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-natewa-silktail-eda4e9f5",
+      "subject": "Natewa silktail",
+      "predicate": "distributed_in",
+      "object_id": "loc-斐濟-2fb776c3",
+      "object": "斐濟",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The silktail is endemic to forests of Vanua Levu in Fiji, where it only occurs in the east of the island on the Natewa Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-natewa-silktail-eda4e9f5",
+      "subject": "Natewa silktail",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-natewa-silktail-eda4e9f5",
+      "subject": "Natewa silktail",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Deforestation, especially for kava plantations, is the largest threat to this species",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

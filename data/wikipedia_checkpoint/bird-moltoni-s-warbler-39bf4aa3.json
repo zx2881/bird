@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:45:13",
+  "requested_title": "Moltoni's Warbler",
+  "resolved_title": "Moltoni's warbler",
+  "title_aliases": [
+    "Moltoni's Warbler"
+  ],
+  "bird_id": "bird-moltoni-s-warbler-39bf4aa3",
+  "raw_file": "bird-moltoni-s-warbler-39bf4aa3.json",
+  "bird": {
+    "id": "bird-moltoni-s-warbler-39bf4aa3",
+    "name": "Moltoni's warbler",
+    "english_name": "Moltoni's warbler",
+    "latin_name": "Curruca subalpina",
+    "summary": "Moltoni's warbler (Curruca subalpina) is a small bird species belonging to the family Sylviidae, often referred to as the typical warblers.…",
+    "lat": "40",
+    "lng": "12",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Curruca_subalpina_74746110.png/960px-Curruca_subalpina_74746110.png"
+  },
+  "locations": [
+    {
+      "id": "loc-第勒尼安海-d6812772",
+      "name": "第勒尼安海",
+      "summary": "第勒尼安海，或译提雷尼亞海（義大利語：Mar Tirreno；薩丁尼亞語：Mari Tirrenu）是地中海的一部分，位於意大利半島西面。海域被意大利的薩丁島、西西里島、利古里亞、托斯卡納、拉齐奥、坎帕尼亞、卡拉布里亞及法國的科西嘉島包圍…",
+      "lat": "40",
+      "lng": "12"
+    },
+    {
+      "id": "loc-科西嘉-f9a49086",
+      "name": "科西嘉",
+      "summary": "科西嘉（法語：Corse，法語發音：[kɔʁs] ；科西嘉语、義大利語：Corsica）是地中海西部的一座岛屿，也是法国的一个单一领土集体及18个大区之一，位于法国大陆部分的东南面，意大利半島的西面，最临近的地块是撒丁岛。科西嘉岛三分之二…",
+      "lat": "42",
+      "lng": "9"
+    },
+    {
+      "id": "loc-撒丁-2074b70b",
+      "name": "撒丁",
+      "summary": "撒丁（義大利語：Sardegna，發音：[sarˈdeɲɲa] ；薩丁尼亞語：Sardigna，發音：[saɾˈdiɲːa]）是一個位於意大利半岛西南方的岛屿，是地中海的第二大岛，仅次于西西里，也是意大利的一个特殊地位大区。其地理位置在科…",
+      "lat": "40",
+      "lng": "9"
+    },
+    {
+      "id": "loc-地中海森林-疏林和灌叢-70cfebfa",
+      "name": "地中海森林、疏林和灌叢",
+      "summary": "地中海森林、疏林和灌叢（英語：Mediterranean forests, woodlands, and scrub）是屬於地中海型氣候的生態群系，在此區域中，氣候特徵為夏季乾燥炎熱，冬季多雨涼爽。 此生態群系均出現於世界五大地中海型氣候…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-moltoni-s-warbler-39bf4aa3",
+      "subject": "Moltoni's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-第勒尼安海-d6812772",
+      "object": "第勒尼安海",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This species is native to Italy and islands of the Tyrrhenian Sea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moltoni-s-warbler-39bf4aa3",
+      "subject": "Moltoni's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-科西嘉-f9a49086",
+      "object": "科西嘉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Moltoni's warbler breeds around the Tyrrhenian Sea in the Mediterranean Sea on the Balearic Islands, Corsica, Sardinia and in northern Italy wintering in the western Sahel in between the Atlantic coast and Niger and northern Nigeria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moltoni-s-warbler-39bf4aa3",
+      "subject": "Moltoni's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒丁-2074b70b",
+      "object": "撒丁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Moltoni's warbler breeds around the Tyrrhenian Sea in the Mediterranean Sea on the Balearic Islands, Corsica, Sardinia and in northern Italy wintering in the western Sahel in between the Atlantic coast and Niger and northern Nigeria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moltoni-s-warbler-39bf4aa3",
+      "subject": "Moltoni's warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-地中海森林-疏林和灌叢-70cfebfa",
+      "object": "地中海森林、疏林和灌叢",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Mediterranean scrubland and winters in semiarid savanna dominated by acacia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-moltoni-s-warbler-39bf4aa3",
+      "subject": "Moltoni's warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It breeds in Mediterranean scrubland and winters in semiarid savanna dominated by acacia",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-moltoni-s-warbler-39bf4aa3",
+      "subject": "Moltoni's warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It breeds in Mediterranean scrubland and winters in semiarid savanna dominated by acacia",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-moltoni-s-warbler-39bf4aa3",
+      "subject": "Moltoni's warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:33:16",
+  "requested_title": "Visayan Babbler",
+  "resolved_title": "Visayan babbler",
+  "title_aliases": [
+    "Visayan Babbler"
+  ],
+  "bird_id": "bird-黑冠穗鹛-cd47aba7",
+  "raw_file": "bird-黑冠穗鹛-cd47aba7.json",
+  "bird": {
+    "id": "bird-黑冠穗鹛-cd47aba7",
+    "name": "黑冠穗鹛",
+    "english_name": "Visayan babbler",
+    "latin_name": "Sterrhoptilus nigrocapitatus",
+    "summary": "黑冠穗鹛（学名：Sterrhoptilus nigrocapitatus ），是画眉科冠穗鶥屬的一种，为菲律宾的特有种。该物种的保护状况被评为无危。 黑冠穗鹛的平均体重约为14.1克。栖息地为亚热带或热带的湿润低地林。",
+    "lat": "12.03611111",
+    "lng": "125.21111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Visayan_Babbler_%28cropped%29.jpg/960px-Visayan_Babbler_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "name": "Rajah Sikatuna Protected Landscape",
+      "summary": "The Rajah Sikatuna Protected Landscape is a protected landscape area of forested limestone hills, grasslands and natura…",
+      "lat": "9.70527778",
+      "lng": "124.12416667"
+    },
+    {
+      "id": "loc-samar-island-natural-park-2cae892d",
+      "name": "Samar Island Natural Park",
+      "summary": "The Samar Island Natural Park, in Samar, is the largest contiguous tract of old-growth forest in the Philippines.",
+      "lat": "12.03611111",
+      "lng": "125.21111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑冠穗鹛-cd47aba7",
+      "subject": "黑冠穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "object": "Rajah Sikatuna Protected Landscape",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This occurs in a few protected areas such as Rajah Sikatuna Protected Landscape and Samar Island Natural Park however protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑冠穗鹛-cd47aba7",
+      "subject": "黑冠穗鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-samar-island-natural-park-2cae892d",
+      "object": "Samar Island Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This occurs in a few protected areas such as Rajah Sikatuna Protected Landscape and Samar Island Natural Park however protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑冠穗鹛-cd47aba7",
+      "subject": "黑冠穗鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黑冠穗鹛-cd47aba7",
+      "subject": "黑冠穗鹛",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Extensive lowland deforestation on all islands in its range is the main threat",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

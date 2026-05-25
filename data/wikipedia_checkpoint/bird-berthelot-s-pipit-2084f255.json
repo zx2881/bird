@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:39:24",
+  "requested_title": "Berthelot's Pipit",
+  "resolved_title": "Berthelot's pipit",
+  "title_aliases": [
+    "Berthelot's Pipit"
+  ],
+  "bird_id": "bird-berthelot-s-pipit-2084f255",
+  "raw_file": "bird-berthelot-s-pipit-2084f255.json",
+  "bird": {
+    "id": "bird-berthelot-s-pipit-2084f255",
+    "name": "Berthelot's pipit",
+    "english_name": "Berthelot's pipit",
+    "latin_name": "Anthus berthelotii",
+    "summary": "Berthelot's pipit (Anthus berthelotii) is a small passerine bird which breeds in Madeira and the Canary Islands. It is a common resident in…",
+    "lat": "32.75",
+    "lng": "-17",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Kanarenpieper.jpg/960px-Kanarenpieper.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-carl-bolle-naturalist-44e94f87",
+      "name": "Carl Bolle (naturalist)",
+      "summary": "Carl August Bolle (sometimes also Karl Bolle) (21 November 1821, Schöneberg (Berlin) – 17 February 1909) was a German n…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-马德拉群岛-627b477f",
+      "name": "马德拉群岛",
+      "summary": "馬德拉（葡萄牙語：Madeira），正式名称为马德拉自治区（葡萄牙語：Região Autónoma da Madeira），是葡萄牙在其國土西南方的北大西洋中央所轄的群岛，葡萄牙的两个自治区之一，也是其主岛的岛名。在葡萄牙语中，“馬德拉…",
+      "lat": "32.75",
+      "lng": "-17"
+    },
+    {
+      "id": "loc-加那利群岛-fdbf818a",
+      "name": "加那利群岛",
+      "summary": "加那利群島（西班牙語：Islas Canarias或简称Canarias，發音：[kaˈnaɾjas] ）是一個西班牙的群島及西班牙位置最南的自治區，位于大西洋中，在摩洛哥以西100公里处。该群岛是歐盟特別領域中的外延地区之一，也是西班牙…",
+      "lat": "28",
+      "lng": "-15.75"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-berthelot-s-pipit-2084f255",
+      "subject": "Berthelot's pipit",
+      "predicate": "distributed_in",
+      "object_id": "loc-carl-bolle-naturalist-44e94f87",
+      "object": "Carl Bolle (naturalist)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Anthus berthelotii - MHNT Berthelot's pipit (Anthus berthelotii) is a small passerine bird which breeds in Madeira and the Canary Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-berthelot-s-pipit-2084f255",
+      "subject": "Berthelot's pipit",
+      "predicate": "distributed_in",
+      "object_id": "loc-马德拉群岛-627b477f",
+      "object": "马德拉群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Anthus berthelotii - MHNT Berthelot's pipit (Anthus berthelotii) is a small passerine bird which breeds in Madeira and the Canary Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-berthelot-s-pipit-2084f255",
+      "subject": "Berthelot's pipit",
+      "predicate": "distributed_in",
+      "object_id": "loc-加那利群岛-fdbf818a",
+      "object": "加那利群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Anthus berthelotii - MHNT Berthelot's pipit (Anthus berthelotii) is a small passerine bird which breeds in Madeira and the Canary Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-berthelot-s-pipit-2084f255",
+      "subject": "Berthelot's pipit",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

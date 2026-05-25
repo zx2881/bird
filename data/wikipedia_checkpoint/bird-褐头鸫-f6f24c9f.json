@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:43:17",
+  "requested_title": "Grey-sided Thrush",
+  "resolved_title": "Grey-sided thrush",
+  "title_aliases": [
+    "Grey-sided Thrush"
+  ],
+  "bird_id": "bird-褐头鸫-f6f24c9f",
+  "raw_file": "bird-褐头鸫-f6f24c9f.json",
+  "bird": {
+    "id": "bird-褐头鸫-f6f24c9f",
+    "name": "褐头鸫",
+    "english_name": "Grey-sided thrush",
+    "latin_name": "Turdus feae",
+    "summary": "褐头鸫（学名：Turdus feae）为鸫科鸫属的鸟类，俗名费氏穿草鸫。分布于缅甸、印度以及中国大陆的河北、北京等地，多生活于在海拔1500-1900米高处的阴暗、潮湿的混交林缘、特别喜在小山溪的空地上活动以及常隐匿在溪流或树丛间。该物种的模式产地在缅甸丹那沙林的Mooleyi…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/SYT4752_Grey-sided_thrush.jpg/960px-SYT4752_Grey-sided_thrush.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "中南半岛（法語：Indochine），又稱印度支那半島（简称印度支那、印支）、东南亚大陆地区、东南亚半岛地区等，是亞洲東南部東臨南海、西瀕印度洋的半島，在印度次大陸以東、中国大陆以南，包括今日的緬甸、泰國、老撾、柬埔寨、越南、马来半岛等地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-褐头鸫-f6f24c9f",
+      "subject": "褐头鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species is migratory, breeding in the mountains of north-east China and migrating to subtropical or tropical moist montane forest in India, and Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐头鸫-f6f24c9f",
+      "subject": "褐头鸫",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

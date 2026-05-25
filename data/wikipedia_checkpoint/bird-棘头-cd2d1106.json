@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:17:39",
+  "requested_title": "Bornean Bristlehead",
+  "resolved_title": "Bornean bristlehead",
+  "title_aliases": [
+    "Bornean Bristlehead"
+  ],
+  "bird_id": "bird-棘头-cd2d1106",
+  "raw_file": "bird-棘头-cd2d1106.json",
+  "bird": {
+    "id": "bird-棘头-cd2d1106",
+    "name": "棘头𱉐",
+    "english_name": "Bornean bristlehead",
+    "latin_name": "Pityriasis gymnocephala",
+    "summary": "棘头𱉐（台湾作棘毛伯勞，學名：Pityriasis gymnocephala），是雀形目棘头鵙科的唯一物种。 棘头鵙体重约128.53克，翼长约146.5毫米，嘴峰长约36.7毫米，喙宽度约11.4毫米，喙厚度约15.4毫米，跗蹠长约29.2毫米，尾长约73.5毫米。棘头鵙在其…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Naturalis_Biodiversity_Center_-_ZMA.AVES.38134_-_Pityriasis_gymnocephala_Temminck%2C_1835_-_Pityriasidae_-_skin_specimen.jpg/960px-Naturalis_Biodiversity_Center_-_ZMA.AVES.38134_-_Pityriasis_gymnocephala_Temminck%2C_1835_-_Pityriasidae_-_skin_specimen.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-泥炭沼澤森林-c0bddb3d",
+      "name": "泥炭沼澤森林",
+      "summary": "泥炭沼泽森林（Peat swamp forests）为热带潮湿森林，土壤长期浸水，枯叶和木头无法完全分解，逐渐形成厚厚的酸性泥炭层。泥炭沼泽森林大多存在于高海拔地区。 泥炭沼泽森林通常被土壤排水良好的低地雨林，或沿海的半海水或海水红树林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-mangrove-forest-f00f11aa",
+      "name": "Mangrove forest",
+      "summary": "Mangrove forests, also called mangrove swamps, mangrove thickets or mangals, are productive wetlands located in tropica…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棘头-cd2d1106",
+      "subject": "棘头𱉐",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the canopy of both primary and secondary forests, including peat swamp forests, mixed dipterocarp forests and mangrove forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棘头-cd2d1106",
+      "subject": "棘头𱉐",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the canopy of both primary and secondary forests, including peat swamp forests, mixed dipterocarp forests and mangrove forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棘头-cd2d1106",
+      "subject": "棘头𱉐",
+      "predicate": "distributed_in",
+      "object_id": "loc-泥炭沼澤森林-c0bddb3d",
+      "object": "泥炭沼澤森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the canopy of both primary and secondary forests, including peat swamp forests, mixed dipterocarp forests and mangrove forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棘头-cd2d1106",
+      "subject": "棘头𱉐",
+      "predicate": "distributed_in",
+      "object_id": "loc-mangrove-forest-f00f11aa",
+      "object": "Mangrove forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the canopy of both primary and secondary forests, including peat swamp forests, mixed dipterocarp forests and mangrove forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棘头-cd2d1106",
+      "subject": "棘头𱉐",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can be found in the canopy of both primary and secondary forests, including peat swamp forests, mixed dipterocarp forests and mangrove forests",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-棘头-cd2d1106",
+      "subject": "棘头𱉐",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-棘头-cd2d1106",
+      "subject": "棘头𱉐",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The Bornean bristlehead is considered vulnerable due to the rapid and ongoing deforestation in Borneo, along with burning of peat swamp forest",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

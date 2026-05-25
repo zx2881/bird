@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:31:19",
+  "requested_title": "Hooded Siskin",
+  "resolved_title": "Hooded siskin",
+  "title_aliases": [
+    "Hooded Siskin"
+  ],
+  "bird_id": "bird-hooded-siskin-ab0fa8f6",
+  "raw_file": "bird-hooded-siskin-ab0fa8f6.json",
+  "bird": {
+    "id": "bird-hooded-siskin-ab0fa8f6",
+    "name": "Hooded siskin",
+    "english_name": "Hooded siskin",
+    "latin_name": "Spinus magellanicus",
+    "summary": "The hooded siskin (Spinus magellanicus) is a small passerine bird in the family Fringillidae, the finches and euphonias. It is found in eve…",
+    "lat": "8.12194444",
+    "lng": "-63.55",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/PINTASSILGO_%28_Carduelis_magellanica_%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利瓦州-714b52dd",
+      "name": "玻利瓦州",
+      "summary": "玻利瓦州（西班牙語：Estado Bolívar）是委內瑞拉南部的一個州，東鄰圭亞那，南為巴西，北界奧里諾科河。面積238,000平方公里，2007年人口1,534,800人。首府玻利瓦尔城。 1901年建州。下分十七個自治市。",
+      "lat": "8.12194444",
+      "lng": "-63.55"
+    },
+    {
+      "id": "loc-羅賴馬州-d0e6e8de",
+      "name": "羅賴馬州",
+      "summary": "羅賴馬州（葡萄牙語：Roraima，葡萄牙語發音：[ʁoˈɾajmɐ]）是位於巴西北部的一個州。它與帕拉州和亞馬孫州接壤。它同時也與委內瑞拉和蓋亞那接壤。這個州既是巴西最北的一個州，又是最少人口的一個州。這個州的氣候是熱帶氣候，而它的平均…",
+      "lat": "2.05",
+      "lng": "-61.4"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-hooded-siskin-ab0fa8f6",
+      "subject": "Hooded siskin",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利瓦州-714b52dd",
+      "object": "玻利瓦州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "longirostris separate from the others; from southeastern Bolívar state in Venezuela east into western Guyana and extreme northern Brazil's Roraima state The hooded siskin inhabits a wide variety of landscapes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hooded-siskin-ab0fa8f6",
+      "subject": "Hooded siskin",
+      "predicate": "distributed_in",
+      "object_id": "loc-羅賴馬州-d0e6e8de",
+      "object": "羅賴馬州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "longirostris separate from the others; from southeastern Bolívar state in Venezuela east into western Guyana and extreme northern Brazil's Roraima state The hooded siskin inhabits a wide variety of landscapes",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-hooded-siskin-ab0fa8f6",
+      "subject": "Hooded siskin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:17:08",
+  "requested_title": "Black-backed Butcherbird",
+  "resolved_title": "Black-backed butcherbird",
+  "title_aliases": [
+    "Black-backed Butcherbird"
+  ],
+  "bird_id": "bird-白喉鐘鵲-e42c9a18",
+  "raw_file": "bird-白喉鐘鵲-e42c9a18.json",
+  "bird": {
+    "id": "bird-白喉鐘鵲-e42c9a18",
+    "name": "白喉鐘鵲",
+    "english_name": "Black-backed butcherbird",
+    "latin_name": "Cracticus mentalis",
+    "summary": "黑背钟鹊（台湾作白喉鐘鵲，学名：Cracticus mentalis），是雀形目燕鵙科的一种鸟类。 黑背钟鹊体重约77克，翼长约140.5毫米，嘴峰长约39.2毫米，喙宽度约9.3毫米，喙厚度约12.6毫米，跗蹠长约29.3毫米，尾长约99毫米。黑背钟鹊在其分布区内为留鸟，其栖…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Black-backed_Butcherbird.jpg/960px-Black-backed_Butcherbird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-约克角半岛-2a6b68ec",
+      "name": "约克角半岛",
+      "summary": "约克角半岛（英語：Cape York Peninsula）是澳大利亚東北部昆士兰州的一个半岛，其北端约克角是澳大利亚大陆的极北点。该半岛在1770年由英国航海家詹姆斯·库克以约克公爵的封号命名。 约克角距新几内亚岛约140公里，两地由托雷…",
+      "lat": "-15",
+      "lng": "143"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白喉鐘鵲-e42c9a18",
+      "subject": "白喉鐘鵲",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern New Guinea and Cape York Peninsula in Queensland, Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉鐘鵲-e42c9a18",
+      "subject": "白喉鐘鵲",
+      "predicate": "distributed_in",
+      "object_id": "loc-约克角半岛-2a6b68ec",
+      "object": "约克角半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern New Guinea and Cape York Peninsula in Queensland, Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉鐘鵲-e42c9a18",
+      "subject": "白喉鐘鵲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

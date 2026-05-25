@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:58:40",
+  "requested_title": "Scaly-breasted Honeyeater",
+  "resolved_title": "Scaly-breasted honeyeater",
+  "title_aliases": [
+    "Scaly-breasted Honeyeater"
+  ],
+  "bird_id": "bird-scaly-breasted-honeyeater-55cb70f0",
+  "raw_file": "bird-scaly-breasted-honeyeater-55cb70f0.json",
+  "bird": {
+    "id": "bird-scaly-breasted-honeyeater-55cb70f0",
+    "name": "Scaly-breasted honeyeater",
+    "english_name": "Scaly-breasted honeyeater",
+    "latin_name": "Lichmera squamata",
+    "summary": "The scaly-breasted honeyeater (Lichmera squamata), also known as the white-tufted honeyeater, is a species of bird in the family Meliphagid…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Lichmera_squamata_-_John_Sterling_-_594894134.jpeg/960px-Lichmera_squamata_-_John_Sterling_-_594894134.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-scaly-breasted-honeyeater-55cb70f0",
+      "subject": "Scaly-breasted honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in the southern Moluccas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scaly-breasted-honeyeater-55cb70f0",
+      "subject": "Scaly-breasted honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia, where it occurs in the southern Moluccas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-scaly-breasted-honeyeater-55cb70f0",
+      "subject": "Scaly-breasted honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

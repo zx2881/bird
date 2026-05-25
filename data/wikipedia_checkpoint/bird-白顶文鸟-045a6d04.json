@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:49:20",
+  "requested_title": "White-capped Munia",
+  "resolved_title": "White-capped munia",
+  "title_aliases": [
+    "White-capped Munia"
+  ],
+  "bird_id": "bird-白顶文鸟-045a6d04",
+  "raw_file": "bird-白顶文鸟-045a6d04.json",
+  "bird": {
+    "id": "bird-白顶文鸟-045a6d04",
+    "name": "白顶文鸟",
+    "english_name": "White-capped munia",
+    "latin_name": "Lonchura ferruginosa",
+    "summary": "白顶文鸟（学名：Lonchura ferruginosa），是梅花雀科文鸟属的一种，为印度尼西亚的特有种。该物种的保护状况被评为无危。 白顶文鸟的平均体重约为13.0克。栖息地包括种植园、灌溉地、耕地和湿地。",
+    "lat": "-7.49166667",
+    "lng": "110.00444444",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Lonchura_ferruginosa_241375083.jpg/960px-Lonchura_ferruginosa_241375083.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安德斯-斯帕尔曼-741f2b4c",
+      "name": "安德斯·斯帕尔曼",
+      "summary": "安德斯·斯帕尔曼（瑞典語：Anders Sparrman，1748年2月27日—1820年8月9日）也作安德斯·斯巴曼，是一名瑞典博物学家、废奴主义者，林奈使徒成员之一。 生平 斯帕尔曼是一位牧师的儿子。9岁时进入乌普萨拉大学，14岁开始…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-爪哇岛-ec2d1c08",
+      "name": "爪哇岛",
+      "summary": "爪哇島（印尼語：Jawa；爪哇語：ꦗꦮ；巽他語：ᮏᮝ；英語：Java），粵語早期譯为渣华，位於印度尼西亚，南临印度洋，北面爪哇海。 爪哇岛是印尼的核心大岛，全島面積138,800平方公里，是印尼第五大島，亦是印尼人口最多、世界人口最多的島…",
+      "lat": "-7.49166667",
+      "lng": "110.00444444"
+    },
+    {
+      "id": "loc-巴厘省-6d7efef8",
+      "name": "巴厘省",
+      "summary": "峇里省（印尼語：Bali；峇里语：ᬩᬮᬶ），主要位於峇厘岛，是印度尼西亚33個一級行政區之一，也是著名的旅遊勝地。該島距離印尼首都雅加达約1,000公里，与爪哇岛之間僅有3.2公里寬海峽相隔，面积约5,630平方公里，其省會設於島上南部的…",
+      "lat": "-8.335",
+      "lng": "115.08805556"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白顶文鸟-045a6d04",
+      "subject": "白顶文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-安德斯-斯帕尔曼-741f2b4c",
+      "object": "安德斯·斯帕尔曼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-capped munia (Lonchura ferruginosa) is a species of estrildid finch found in Java and Bali",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶文鸟-045a6d04",
+      "subject": "白顶文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-爪哇岛-ec2d1c08",
+      "object": "爪哇岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-capped munia (Lonchura ferruginosa) is a species of estrildid finch found in Java and Bali",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶文鸟-045a6d04",
+      "subject": "白顶文鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴厘省-6d7efef8",
+      "object": "巴厘省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-capped munia (Lonchura ferruginosa) is a species of estrildid finch found in Java and Bali",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶文鸟-045a6d04",
+      "subject": "白顶文鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in marshes, swamps, fens, grasslands habitat",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-白顶文鸟-045a6d04",
+      "subject": "白顶文鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in marshes, swamps, fens, grasslands habitat",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-白顶文鸟-045a6d04",
+      "subject": "白顶文鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

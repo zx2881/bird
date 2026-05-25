@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:36:29",
+  "requested_title": "Short-tailed Parrot",
+  "resolved_title": "Short-tailed parrot",
+  "title_aliases": [
+    "Short-tailed Parrot"
+  ],
+  "bird_id": "bird-短尾鸚哥-45375867",
+  "raw_file": "bird-短尾鸚哥-45375867.json",
+  "bird": {
+    "id": "bird-短尾鸚哥-45375867",
+    "name": "短尾鸚哥",
+    "english_name": "Short-tailed parrot",
+    "latin_name": "Graydidascalus brachyurus",
+    "summary": "短尾鸚哥（學名：Graydidascalus brachyurus），是鸚形目金刚鹦鹉科短尾鸚哥屬下唯一一種鳥類。該物種分佈於亞馬遜河及其支流沿岸，包含哥倫比亞南部、厄瓜多東北部和秘魯東北部到亞馬遜河河口，目前被評為無危物種。 短尾鸚哥生活於森林環境中，為植食性。其體重平均約1…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Peruvian_Indians_with_Short-tailed_Parrot-6-4cp.jpg/960px-Peruvian_Indians_with_Short-tailed_Parrot-6-4cp.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-v-rzea-forest-9ca43457",
+      "name": "Várzea forest",
+      "summary": "A várzea forest is a seasonal floodplain forest inundated by whitewater rivers that occurs in the Amazon biome.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-短尾鸚哥-45375867",
+      "subject": "短尾鸚哥",
+      "predicate": "distributed_in",
+      "object_id": "loc-v-rzea-forest-9ca43457",
+      "object": "Várzea forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Along the rivers it inhabits várzea, swampy floodplains, and islands; on the coast it inhabits mangroves",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-短尾鸚哥-45375867",
+      "subject": "短尾鸚哥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:20:11",
+  "requested_title": "Fiery-throated Metaltail",
+  "resolved_title": "Fiery-throated metaltail",
+  "title_aliases": [
+    "Fiery-throated Metaltail"
+  ],
+  "bird_id": "bird-火喉辉尾蜂鸟-04ffa4a8",
+  "raw_file": "bird-火喉辉尾蜂鸟-04ffa4a8.json",
+  "bird": {
+    "id": "bird-火喉辉尾蜂鸟-04ffa4a8",
+    "name": "火喉辉尾蜂鸟",
+    "english_name": "Fiery-throated metaltail",
+    "latin_name": "Metallura eupogon",
+    "summary": "火喉辉尾蜂鸟（学名：Metallura eupogon），是雨燕目蜂鸟科的一种鸟类。 火喉辉尾蜂鸟体重约4.6克，翼长约59.6毫米，嘴峰长约17.8毫米，喙宽度约1.4毫米，喙厚度约1.9毫米，跗蹠长约5.2毫米，尾长约41.8毫米。火喉辉尾蜂鸟在其分布区内为留鸟，其栖息在半…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallura_eupogon_Smit.jpg/960px-Metallura_eupogon_Smit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-火喉辉尾蜂鸟-04ffa4a8",
+      "subject": "火喉辉尾蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Like most of the metaltails, the species inhabits the edges of dwarf and elfin forests and páramo, moist landscapes characterized by shrubby growth and small trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-火喉辉尾蜂鸟-04ffa4a8",
+      "subject": "火喉辉尾蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

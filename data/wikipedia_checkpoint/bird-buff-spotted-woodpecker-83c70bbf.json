@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:08:28",
+  "requested_title": "Buff-spotted Woodpecker",
+  "resolved_title": "Buff-spotted woodpecker",
+  "title_aliases": [
+    "Buff-spotted Woodpecker"
+  ],
+  "bird_id": "bird-buff-spotted-woodpecker-83c70bbf",
+  "raw_file": "bird-buff-spotted-woodpecker-83c70bbf.json",
+  "bird": {
+    "id": "bird-buff-spotted-woodpecker-83c70bbf",
+    "name": "Buff-spotted woodpecker",
+    "english_name": "Buff-spotted woodpecker",
+    "latin_name": "Pardipicus nivosus",
+    "summary": "The buff-spotted woodpecker (Pardipicus nivosus) is a species of bird in the family Picidae. It is native to large parts of tropical centra…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Pardipicus_nivosus_-_Jan_Ebr_and_Ivana_Ebrov%C3%A1_-_344850571.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶森林-735a0725",
+      "name": "熱帶森林",
+      "summary": "热带森林是位於热带的森林，大致位於北回歸線與南回歸線之間。有些樹林很难被确定為热带森林。虽然温带地区的森林很容易根据树冠密度进行區分，但这种方法并不适用於热带森林。无论是在热带地区还是在其他地区，都没有一个单一的方法来界定什么是森林。不過…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-buff-spotted-woodpecker-83c70bbf",
+      "subject": "Buff-spotted woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶森林-735a0725",
+      "object": "熱帶森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The buff-spotted woodpecker is native to the African tropical rainforest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-spotted-woodpecker-83c70bbf",
+      "subject": "Buff-spotted woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

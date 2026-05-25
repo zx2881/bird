@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:07:14",
+  "requested_title": "Madagascar Buzzard",
+  "resolved_title": "Madagascar buzzard",
+  "title_aliases": [
+    "Madagascar Buzzard"
+  ],
+  "bird_id": "bird-madagascar-buzzard-b3aa7420",
+  "raw_file": "bird-madagascar-buzzard-b3aa7420.json",
+  "bird": {
+    "id": "bird-madagascar-buzzard-b3aa7420",
+    "name": "Madagascar buzzard",
+    "english_name": "Madagascar buzzard",
+    "latin_name": "Buteo brachypterus",
+    "summary": "The Madagascar buzzard (Buteo brachypterus) is a bird of prey which is endemic to Madagascar. It is a species from the widespread genus But…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Madagascar_buzzard.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-the-peregrine-fund-6b7c229a",
+      "name": "The Peregrine Fund",
+      "summary": "The Peregrine Fund (named after the bird of prey of the same name the peregrine falcon) is a non-profit organization fo…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-madagascar-buzzard-b3aa7420",
+      "subject": "Madagascar buzzard",
+      "predicate": "distributed_in",
+      "object_id": "loc-the-peregrine-fund-6b7c229a",
+      "object": "The Peregrine Fund",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Endemic to Madagascar where it is common, except for the deforested central plateau where it is less common, there is some indication that its population is increasing as the forest is fragmented. The Madagascar buzzard is adaptable as to its habitat and is found in a wide variety of habitats including forest, open woodland and regenerating, secondary forest. It can also be found on rocky hillsides up to 2300 metres above sea level. Although it is so adaptable it is still less common on the deforested central plateau",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-madagascar-buzzard-b3aa7420",
+      "subject": "Madagascar buzzard",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

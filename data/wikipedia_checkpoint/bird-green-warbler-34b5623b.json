@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:56:10",
+  "requested_title": "Green Warbler",
+  "resolved_title": "Green warbler",
+  "title_aliases": [
+    "Green Warbler"
+  ],
+  "bird_id": "bird-green-warbler-34b5623b",
+  "raw_file": "bird-green-warbler-34b5623b.json",
+  "bird": {
+    "id": "bird-green-warbler-34b5623b",
+    "name": "Green warbler",
+    "english_name": "Green warbler",
+    "latin_name": "Phylloscopus nitidus",
+    "summary": "The green warbler (Phylloscopus nitidus), also known as green willow warbler or green leaf warbler, is a leaf warbler found in the Caucasus…",
+    "lat": "42.5",
+    "lng": "45",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Green_warbler.jpg/960px-Green_warbler.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-愛德華-布萊思-840f1191",
+      "name": "愛德華·布萊思",
+      "summary": "愛德華·布萊思（英語：Edward Blyth，1810年12月23日—1873年12月27日）是一位英國動物學家，其一生中的絕大部分時間都在印度加爾各答的孟加拉亞洲學會博物館內擔任策展人。 布萊思於1810年生於倫敦，於1841年移居至…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-高加索山脉-7d76e4d1",
+      "name": "高加索山脉",
+      "summary": "高加索山脈（俄語：Кавказские горы，喬治亞語：კავკასიონი，亞美尼亞語：Կավկազ，阿塞拜疆語：Qafqaz），古稱太和嶺，呈东西走向，在黑海与里海之间，是俄罗斯和格鲁吉亚、阿塞拜疆等国的国界线。其最高峰为厄尔布鲁…",
+      "lat": "42.5",
+      "lng": "45"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-warbler-34b5623b",
+      "subject": "Green warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-愛德華-布萊思-840f1191",
+      "object": "愛德華·布萊思",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green warbler (Phylloscopus nitidus), also known as green willow warbler or green leaf warbler, is a leaf warbler found in the Caucasus Mountains in southeastern Europe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-warbler-34b5623b",
+      "subject": "Green warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-高加索山脉-7d76e4d1",
+      "object": "高加索山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green warbler (Phylloscopus nitidus), also known as green willow warbler or green leaf warbler, is a leaf warbler found in the Caucasus Mountains in southeastern Europe",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-warbler-34b5623b",
+      "subject": "Green warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

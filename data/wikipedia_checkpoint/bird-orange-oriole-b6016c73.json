@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:27:18",
+  "requested_title": "Orange Oriole",
+  "resolved_title": "Orange oriole",
+  "title_aliases": [
+    "Orange Oriole"
+  ],
+  "bird_id": "bird-orange-oriole-b6016c73",
+  "raw_file": "bird-orange-oriole-b6016c73.json",
+  "bird": {
+    "id": "bird-orange-oriole-b6016c73",
+    "name": "Orange oriole",
+    "english_name": "Orange oriole",
+    "latin_name": "Icterus auratus",
+    "summary": "The orange oriole (Icterus auratus) is a small bird species with orange feathers native to the Icteridae family in the Yucatán Peninsula. I…",
+    "lat": "19.55111111",
+    "lng": "-89.29638889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Icterus_auratus_60726713.jpg/960px-Icterus_auratus_60726713.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "name": "夏尔·吕西安·波拿巴",
+      "summary": "夏尔·吕西安·朱尔·朱尔·波拿巴（法語：Charles Lucien Jules Laurent Bonaparte，發音：[ʃaʁl lysjɛ̃ ʒyl lɔʁɑ̃ bɔnapaʁt]；1803年5月24日—1857年7月29日）是一…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-尤卡坦半岛-c579ad5c",
+      "name": "尤卡坦半岛",
+      "summary": "猶加敦半島（西班牙語：Península de Yucatán）是位於中美洲北部、墨西哥东南部的半岛，墨西哥湾和加勒比海之间，将加勒比海从墨西哥湾中分离出。东靠加勒比海，西临墨西哥湾、坎佩切湾，东北隔尤卡坦海峡与古巴相望，面积達43,37…",
+      "lat": "19.55111111",
+      "lng": "-89.29638889"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-orange-oriole-b6016c73",
+      "subject": "Orange oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "object": "夏尔·吕西安·波拿巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The orange oriole (Icterus auratus) is a small bird species with orange feathers native to the Icteridae family in the Yucatán Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-oriole-b6016c73",
+      "subject": "Orange oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-尤卡坦半岛-c579ad5c",
+      "object": "尤卡坦半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The orange oriole (Icterus auratus) is a small bird species with orange feathers native to the Icteridae family in the Yucatán Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-oriole-b6016c73",
+      "subject": "Orange oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "According to The Cornell Lab of Ornithology Birds of the World, they have suggested that this species might be better named the \"Yucatan Oriole\" because they are only found in Southeast Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-oriole-b6016c73",
+      "subject": "Orange oriole",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

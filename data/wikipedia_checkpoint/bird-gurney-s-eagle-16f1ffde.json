@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:42:16",
+  "requested_title": "Gurney's Eagle",
+  "resolved_title": "Gurney's eagle",
+  "title_aliases": [
+    "Gurney's Eagle"
+  ],
+  "bird_id": "bird-gurney-s-eagle-16f1ffde",
+  "raw_file": "bird-gurney-s-eagle-16f1ffde.json",
+  "bird": {
+    "id": "bird-gurney-s-eagle-16f1ffde",
+    "name": "Gurney's eagle",
+    "english_name": "Gurney's eagle",
+    "latin_name": "Aquila gurneyi",
+    "summary": "Gurney's eagle (Aquila gurneyi) is a large eagle in the family Accipitridae. It is found in New Guinea and Wallacea, and is an occasional v…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/AquilaGurneyiWolf.jpg/960px-AquilaGurneyiWolf.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-gurney-s-eagle-16f1ffde",
+      "subject": "Gurney's eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea and Wallacea, and is an occasional vagrant to Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gurney-s-eagle-16f1ffde",
+      "subject": "Gurney's eagle",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in New Guinea and Wallacea, and is an occasional vagrant to Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gurney-s-eagle-16f1ffde",
+      "subject": "Gurney's eagle",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

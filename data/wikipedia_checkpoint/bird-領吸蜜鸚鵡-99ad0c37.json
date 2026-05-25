@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:04:41",
+  "requested_title": "Collared Lory",
+  "resolved_title": "Collared lory",
+  "title_aliases": [
+    "Collared Lory"
+  ],
+  "bird_id": "bird-領吸蜜鸚鵡-99ad0c37",
+  "raw_file": "bird-領吸蜜鸚鵡-99ad0c37.json",
+  "bird": {
+    "id": "bird-領吸蜜鸚鵡-99ad0c37",
+    "name": "領吸蜜鸚鵡",
+    "english_name": "Collared lory",
+    "latin_name": "Vini solitaria",
+    "summary": "绿领鹦鹉（學名：Vini solitaria，台湾作領吸蜜鸚鵡），又稱綠領吸蜜鸚鵡，是斐濟特有的一種鸚鵡。它們是唯一由雨林環境適應到城市生活的鳥類。它們長20厘米，下身及面部呈鮮紅色，有紫色的冠，上身呈綠色。雄鳥及雌鳥相似，但雌鳥的冠較為淡色。 特徵 領吸蜜鸚鵡長約20厘米，只…",
+    "lat": "-18.1416",
+    "lng": "178.4419",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Collared_Lory.jpg/960px-Collared_Lory.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-蘇瓦-e8255dfb",
+      "name": "蘇瓦",
+      "summary": "蘇瓦（斐濟語：Suva，發音：[ˈsuβa]；斐濟印地語：सुवा）是斐濟的首都，也是斐濟最大的城市。蘇瓦位於維提島的東南部，屬於中部專區，人口約77,366人。1877年，蘇瓦正式成為斐濟的首都，截至2017年人口普查，蘇瓦其人口約為9…",
+      "lat": "-18.1416",
+      "lng": "178.4419"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-領吸蜜鸚鵡-99ad0c37",
+      "subject": "領吸蜜鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the only Fijian rainforest bird to adapt to urban landscapes and can be found in urban Suva",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-領吸蜜鸚鵡-99ad0c37",
+      "subject": "領吸蜜鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇瓦-e8255dfb",
+      "object": "蘇瓦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is the only Fijian rainforest bird to adapt to urban landscapes and can be found in urban Suva",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-領吸蜜鸚鵡-99ad0c37",
+      "subject": "領吸蜜鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

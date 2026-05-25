@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:54:50",
+  "requested_title": "White-capped Dipper",
+  "resolved_title": "White-capped dipper",
+  "title_aliases": [
+    "White-capped Dipper"
+  ],
+  "bird_id": "bird-白顶河乌-f838ed7c",
+  "raw_file": "bird-白顶河乌-f838ed7c.json",
+  "bird": {
+    "id": "bird-白顶河乌-f838ed7c",
+    "name": "白顶河乌",
+    "english_name": "White-capped dipper",
+    "latin_name": "Cinclus leucocephalus",
+    "summary": "白顶河乌（学名：Cinclus leucocephalus），是雀形目河乌科的一种鸟类。 白顶河乌体重约44克，翼长约85.6毫米，嘴峰长约18.3毫米，喙宽度约3.4毫米，喙厚度约4.2毫米，跗蹠长约28.7毫米，尾长约49毫米。白顶河乌在其分布区内为留鸟，其栖息在开放的河流…",
+    "lat": "10.86666667",
+    "lng": "-73.72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/White-capped_Dipper_-_Colombia_S4E0638_%2816432276063%29.jpg/960px-White-capped_Dipper_-_Colombia_S4E0638_%2816432276063%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣玛尔塔内华达山脉-fb9634d1",
+      "name": "圣玛尔塔内华达山脉",
+      "summary": "圣玛尔塔雪山（la Sierra Nevada de Santa Marta），又名尼维乌穆克（Niwi Úmuke），是一个相对孤立的一座热带雪山（并非山脉），在安第斯山脉支脉哥伦比亚东部山脉的尽头处但作为山系与之并不相连，不过雪山西缘…",
+      "lat": "10.86666667",
+      "lng": "-73.72"
+    },
+    {
+      "id": "loc-佩里哈山脈-786298b2",
+      "name": "佩里哈山脈",
+      "summary": "The Serranía del Perijá, Cordillera de Perijá or Sierra de Perijá [pe.ɾi.ˈxa] is a mountain range, an extension of the…",
+      "lat": "10.01638889",
+      "lng": "-72.95777778"
+    },
+    {
+      "id": "loc-特鲁希略州-0375b35b",
+      "name": "特鲁希略州",
+      "summary": "特魯希略州（西班牙語：Estado Trujillo）是委內瑞拉西部的一個州，西北臨馬拉開波湖。面積7,400平方公里，2007年人口711,400人。首府特魯希略。 1899年建州。下分二十個自治市。",
+      "lat": "9.417",
+      "lng": "-70.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白顶河乌-f838ed7c",
+      "subject": "白顶河乌",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣玛尔塔内华达山脉-fb9634d1",
+      "object": "圣玛尔塔内华达山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "rivularis of the white-capped dipper is found in the isolated Sierra Nevada de Santa Marta in northern Colombia.{{cite book | last1 =McMullan | first1 =Miles | last2 =Donegan | first2 =Thomas M",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶河乌-f838ed7c",
+      "subject": "白顶河乌",
+      "predicate": "distributed_in",
+      "object_id": "loc-佩里哈山脈-786298b2",
+      "object": "佩里哈山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "leuconotus is found in the Serranía del Perijá on the Colombia-Venezuela border and in the Andes from the Lara-Trujillo border in western Venezuela{{cite book | last =Hilty | first =Steven L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶河乌-f838ed7c",
+      "subject": "白顶河乌",
+      "predicate": "distributed_in",
+      "object_id": "loc-特鲁希略州-0375b35b",
+      "object": "特鲁希略州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "leuconotus is found in the Serranía del Perijá on the Colombia-Venezuela border and in the Andes from the Lara-Trujillo border in western Venezuela{{cite book | last =Hilty | first =Steven L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白顶河乌-f838ed7c",
+      "subject": "白顶河乌",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-白顶河乌-f838ed7c",
+      "subject": "白顶河乌",
+      "predicate": "threatened_by",
+      "object_id": "threat-pollution",
+      "object": "污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. It is considered fairly common in Venezuela, locally common in Colombia, widespread on the east side of the Peruvian Andes, and local on the west side. \"Due to its reliance on streams, the White-capped Dipper is sensitive to water pollution.\"",
+      "object_summary": "农药、工业污染与水体污染影响食物链安全。"
+    }
+  ]
+}

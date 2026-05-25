@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:26:10",
+  "requested_title": "Bougainville Crow",
+  "resolved_title": "Bougainville crow",
+  "title_aliases": [
+    "Bougainville Crow"
+  ],
+  "bird_id": "bird-布岛乌鸦-760898c9",
+  "raw_file": "bird-布岛乌鸦-760898c9.json",
+  "bird": {
+    "id": "bird-布岛乌鸦-760898c9",
+    "name": "布岛乌鸦",
+    "english_name": "Bougainville crow",
+    "latin_name": "Corvus meeki",
+    "summary": "布岛乌鸦（学名：Corvus meeki）是鸦科鸦属的一种，分布于所罗门群岛和巴布亚新几内亚。该物种的保护状况被评为无危。 布岛乌鸦的栖息地包括亚热带或热带的湿润低地林、乡村花园和亚热带或热带的湿润山地林。",
+    "lat": "-6.24444444",
+    "lng": "155.38388889",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-布干维尔岛-c5623b90",
+      "name": "布干维尔岛",
+      "summary": "布干维尔岛（英语：Bougainville Island；本地名稱：Me'ekamui），是巴布亚新几内亚东端一岛屿，地理上属于所羅門群島的一部分，因此连同附近的布卡岛有时也被称为“北所罗门群岛”。布干维尔岛全岛面积为9,300平方公里，…",
+      "lat": "-6.24444444",
+      "lng": "155.38388889"
+    },
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "Papua New Guinea (PNG), officially the Independent State of Papua New Guinea, is an island country in Oceania that comp…",
+      "lat": "-6",
+      "lng": "147"
+    },
+    {
+      "id": "loc-所罗门群岛-65f9af23",
+      "name": "所罗门群岛",
+      "summary": "所罗门群岛（英語：Solomon Islands）是南太平洋岛国，位於澳大利亚东北方，巴布亞紐幾內亞東方。首都霍尼亞拉所在地瓜達康納爾島曾是第二次世界大戰在太平洋的转折点所在地。 所罗门群岛共有超過990個島，陸地總面積共有28,450平…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-布岛乌鸦-760898c9",
+      "subject": "布岛乌鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-布干维尔岛-c5623b90",
+      "object": "布干维尔岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in on the island of Bougainville in Papua New Guinea and the neighbouring Shortland Islands in the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-布岛乌鸦-760898c9",
+      "subject": "布岛乌鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in on the island of Bougainville in Papua New Guinea and the neighbouring Shortland Islands in the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-布岛乌鸦-760898c9",
+      "subject": "布岛乌鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-所罗门群岛-65f9af23",
+      "object": "所罗门群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in on the island of Bougainville in Papua New Guinea and the neighbouring Shortland Islands in the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-布岛乌鸦-760898c9",
+      "subject": "布岛乌鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-布岛乌鸦-760898c9",
+      "subject": "布岛乌鸦",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Downloaded from on 15 October 2008 It is a common species on Bougainville, but it might be threatened in the future by habitat loss caused by logging",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-布岛乌鸦-760898c9",
+      "subject": "布岛乌鸦",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Downloaded from on 15 October 2008 It is a common species on Bougainville, but it might be threatened in the future by habitat loss caused by logging",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

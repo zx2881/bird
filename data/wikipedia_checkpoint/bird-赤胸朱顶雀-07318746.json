@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:29:34",
+  "requested_title": "Common Linnet",
+  "resolved_title": "Common linnet",
+  "title_aliases": [
+    "Common Linnet"
+  ],
+  "bird_id": "bird-赤胸朱顶雀-07318746",
+  "raw_file": "bird-赤胸朱顶雀-07318746.json",
+  "bird": {
+    "id": "bird-赤胸朱顶雀-07318746",
+    "name": "赤胸朱顶雀",
+    "english_name": "Common linnet",
+    "latin_name": "Linaria (bird) cannabina",
+    "summary": "赤胸朱顶雀（学名：Linaria cannabina）为雀科赤顶雀属的鸟类。分布于欧洲、东至西伯利亚、南至北非、亚细亚、冬季见于埃及、伊拉克、巴基斯坦、印度以及中国大陆的新疆等地，常见于山区以及喜活动于荒地、初开垦地区和多草及灌木交叉地方。该物种的模式产地在瑞典。 亚种 赤胸朱…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Carduelis_cannabina_-England_-male-8.jpg/960px-Carduelis_cannabina_-England_-male-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-北非-dbfa37f4",
+      "name": "北非",
+      "summary": "North Africa, also known as Northern Africa, is a region encompassing the northern portion of the African continent.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-赤胸朱顶雀-07318746",
+      "subject": "赤胸朱顶雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-北非-dbfa37f4",
+      "object": "北非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The common linnet breeds in Europe, the western Palearctic and North Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤胸朱顶雀-07318746",
+      "subject": "赤胸朱顶雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:06:43",
+  "requested_title": "Cinnamon-chested Flycatcher",
+  "resolved_title": "Cinnamon-chested flycatcher",
+  "title_aliases": [
+    "Cinnamon-chested Flycatcher"
+  ],
+  "bird_id": "bird-cinnamon-chested-flycatcher-24ba5b87",
+  "raw_file": "bird-cinnamon-chested-flycatcher-24ba5b87.json",
+  "bird": {
+    "id": "bird-cinnamon-chested-flycatcher-24ba5b87",
+    "name": "Cinnamon-chested flycatcher",
+    "english_name": "Cinnamon-chested flycatcher",
+    "latin_name": "Ficedula buruensis",
+    "summary": "The cinnamon-chested flycatcher (Ficedula buruensis) is a species of bird in the family Muscicapidae. It is found in Buru, Seram, and Kai B…",
+    "lat": "-3.425",
+    "lng": "126.6675",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Ficedula_buruensis_-_James_Eaton_-_416865976.jpeg/960px-Ficedula_buruensis_-_James_Eaton_-_416865976.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-布魯島-4739164a",
+      "name": "布魯島",
+      "summary": "布魯島（印尼語：Pulau Buru），清代書籍譯作武羅、木魯、布盧，又譯務羅、未羅、普路、布襦、部魯，是印度尼西亞摩鹿加省的熱帶小島，位於安汶島和斯蘭島以西，面積8,473平方公里，是摩鹿加群島的第三大島嶼，2012年人口約206,84…",
+      "lat": "-3.425",
+      "lng": "126.6675"
+    },
+    {
+      "id": "loc-斯兰岛-1a93c673",
+      "name": "斯兰岛",
+      "summary": "斯兰岛（印尼語：Pulau Seram），又译为塞兰岛（Ceram、Seran或Serang），印度尼西亚摩鹿加群岛主要岛屿之一，位于哈马黑拉岛以南，紧邻安汶岛，属马鲁古省管辖，分属三个县：自西向东分别是西斯兰县、中马鲁古县和东斯兰县。该…",
+      "lat": "-3.13333333",
+      "lng": "129.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cinnamon-chested-flycatcher-24ba5b87",
+      "subject": "Cinnamon-chested flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-布魯島-4739164a",
+      "object": "布魯島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Buru, Seram, and Kai Besar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cinnamon-chested-flycatcher-24ba5b87",
+      "subject": "Cinnamon-chested flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯兰岛-1a93c673",
+      "object": "斯兰岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Buru, Seram, and Kai Besar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cinnamon-chested-flycatcher-24ba5b87",
+      "subject": "Cinnamon-chested flycatcher",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-cinnamon-chested-flycatcher-24ba5b87",
+      "subject": "Cinnamon-chested flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

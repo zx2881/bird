@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:59:19",
+  "requested_title": "Black-capped Woodland Warbler",
+  "resolved_title": "Black-capped woodland warbler",
+  "title_aliases": [
+    "Black-capped Woodland Warbler"
+  ],
+  "bird_id": "bird-black-capped-woodland-warbler-0a616662",
+  "raw_file": "bird-black-capped-woodland-warbler-0a616662.json",
+  "bird": {
+    "id": "bird-black-capped-woodland-warbler-0a616662",
+    "name": "Black-capped woodland warbler",
+    "english_name": "Black-capped woodland warbler",
+    "latin_name": "Phylloscopus herberti",
+    "summary": "The black-capped woodland warbler (Phylloscopus herberti) is a leaf warbler species in the family Phylloscopidae; it was formerly placed in…",
+    "lat": "6.5",
+    "lng": "10.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Phylloscopus_herberti_-_Oscar_Johnson_-_100050024.jpeg/960px-Phylloscopus_herberti_-_Oscar_Johnson_-_100050024.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴門達高原-7edb036b",
+      "name": "巴門達高原",
+      "summary": "巴門達高原是非洲中西部國家喀麥隆的高原，受赤道多雨氣候影響，每年平均降雨量1,000至2,000毫米，是薩納加河主要支流的發源地。",
+      "lat": "6.5",
+      "lng": "10.5"
+    },
+    {
+      "id": "loc-比奥科岛-c4254484",
+      "name": "比奥科岛",
+      "summary": "比奥科岛（Bioko），原名“费尔南多波岛”（西班牙語：Fernando Poo），是非洲西海岸几内亚湾中的一个火山岛，属赤道几内亚管辖，该国前首都马拉博即位于岛上。该岛面积为2,017平方公里，人口33万人。該島嶼原為西班牙殖民地，因其…",
+      "lat": "3.5",
+      "lng": "8.7"
+    },
+    {
+      "id": "loc-赤道几内亚-67670cdb",
+      "name": "赤道几内亚",
+      "summary": "赤道几内亚共和國，簡稱赤道幾內亞（西班牙語：Guinea Ecuatorial；法語：Guinée équatoriale；葡萄牙語：Guiné Equatorial），中文亦简称赤几，位于非洲中部。2024年人口為170萬人。该国国名虽…",
+      "lat": "1.5",
+      "lng": "10"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-capped-woodland-warbler-0a616662",
+      "subject": "Black-capped woodland warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴門達高原-7edb036b",
+      "object": "巴門達高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, Bioko and Equatorial Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-capped-woodland-warbler-0a616662",
+      "subject": "Black-capped woodland warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-比奥科岛-c4254484",
+      "object": "比奥科岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, Bioko and Equatorial Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-capped-woodland-warbler-0a616662",
+      "subject": "Black-capped woodland warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-赤道几内亚-67670cdb",
+      "object": "赤道几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau, Bioko and Equatorial Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-capped-woodland-warbler-0a616662",
+      "subject": "Black-capped woodland warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-black-capped-woodland-warbler-0a616662",
+      "subject": "Black-capped woodland warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

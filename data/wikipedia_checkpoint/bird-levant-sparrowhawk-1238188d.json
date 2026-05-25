@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:55:54",
+  "requested_title": "Levant Sparrowhawk",
+  "resolved_title": "Levant sparrowhawk",
+  "title_aliases": [
+    "Levant Sparrowhawk"
+  ],
+  "bird_id": "bird-levant-sparrowhawk-1238188d",
+  "raw_file": "bird-levant-sparrowhawk-1238188d.json",
+  "bird": {
+    "id": "bird-levant-sparrowhawk-1238188d",
+    "name": "Levant sparrowhawk",
+    "english_name": "Levant sparrowhawk",
+    "latin_name": "Tachyspiza brevipes",
+    "summary": "The Levant sparrowhawk (Tachyspiza brevipes) is a small bird of prey. It measures 32–38 cm (13–15 in) in length with a wingspan of 65–75 cm…",
+    "lat": "39",
+    "lng": "22",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Accipiter_brevipes%2C_male.jpg/960px-Accipiter_brevipes%2C_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-希腊-13d5814c",
+      "name": "希腊",
+      "summary": "希臘共和國（希臘語：Ελληνική Δημοκρατία，羅馬化：Ellinikí Dimokratía），簡稱希臘（Ελλάδα，羅馬化：Elláda），是位於歐洲南部的發達跨大陸國家。2024年其人口為1,039萬。雅典為希臘首都及…",
+      "lat": "39",
+      "lng": "22"
+    },
+    {
+      "id": "loc-俄罗斯-7eac3d4d",
+      "name": "俄罗斯",
+      "summary": "俄罗斯联邦（俄語：Российская Федерация，羅馬化：Rossiyskaya Federatsiya，發音：[rɐˈsʲijskəjə fʲɪdʲɪˈrat͡sɨjə]，缩写：РФ，羅馬化：RF），通称为俄聯邦、俄羅斯、俄國…",
+      "lat": "66",
+      "lng": "94"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-levant-sparrowhawk-1238188d",
+      "subject": "Levant sparrowhawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-希腊-13d5814c",
+      "object": "希腊",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in forests from Greece and the Balkans east to southern Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-levant-sparrowhawk-1238188d",
+      "subject": "Levant sparrowhawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-俄罗斯-7eac3d4d",
+      "object": "俄罗斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in forests from Greece and the Balkans east to southern Russia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-levant-sparrowhawk-1238188d",
+      "subject": "Levant sparrowhawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

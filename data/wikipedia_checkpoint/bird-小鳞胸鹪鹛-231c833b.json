@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:38:12",
+  "requested_title": "Pygmy Cupwing",
+  "resolved_title": "Pygmy cupwing",
+  "title_aliases": [
+    "Pygmy Cupwing"
+  ],
+  "bird_id": "bird-小鳞胸鹪鹛-231c833b",
+  "raw_file": "bird-小鳞胸鹪鹛-231c833b.json",
+  "bird": {
+    "id": "bird-小鳞胸鹪鹛-231c833b",
+    "name": "小鳞胸鹪鹛",
+    "english_name": "Pygmy cupwing",
+    "latin_name": "Pnoepyga pusilla",
+    "summary": "小鳞胸鹪鹛（学名：Pnoepyga pusilla）为鶲科鳞胸鹪鹛属的鸟类，俗名小鹪鹛、鱗胸鷦鷯。分布于从尼泊尔以至中南半岛、南抵印度尼西亚、中国大陆的云南、四川、广西、东抵福建、北达陕西等地，一般生活于山林以及高山稠密灌木丛或竹林的树根间。该物种的模式产地在尼泊尔。 参考文献",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Pygmy_Cupwing_0A2A1378.jpg/960px-Pygmy_Cupwing_0A2A1378.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-小巽他群岛-21084eff",
+      "name": "小巽他群岛",
+      "summary": "小巽（xùn）他群岛（英語：Lesser Sunda Islands），又名努沙登加拉群岛（印尼語：Nusa Tenggara），是马来群岛中的一群岛，位于爪哇岛以东的印度洋和帝汶海之间，与爪哇岛、苏门答腊岛和加里曼丹岛等组成的大巽他群岛…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小鳞胸鹪鹛-231c833b",
+      "subject": "小鳞胸鹪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern and eastern Asia from the Himalayas to the Lesser Sunda Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小鳞胸鹪鹛-231c833b",
+      "subject": "小鳞胸鹪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-小巽他群岛-21084eff",
+      "object": "小巽他群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern and eastern Asia from the Himalayas to the Lesser Sunda Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小鳞胸鹪鹛-231c833b",
+      "subject": "小鳞胸鹪鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

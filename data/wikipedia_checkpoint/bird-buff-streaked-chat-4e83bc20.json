@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:22:07",
+  "requested_title": "Buff-streaked Chat",
+  "resolved_title": "Buff-streaked chat",
+  "title_aliases": [
+    "Buff-streaked Chat"
+  ],
+  "bird_id": "bird-buff-streaked-chat-4e83bc20",
+  "raw_file": "bird-buff-streaked-chat-4e83bc20.json",
+  "bird": {
+    "id": "bird-buff-streaked-chat-4e83bc20",
+    "name": "Buff-streaked chat",
+    "english_name": "Buff-streaked chat",
+    "latin_name": "Campicoloides bifasciatus",
+    "summary": "The buff-streaked chat or buff-streaked bushchat (Campicoloides bifasciatus) is a species of bird in the family Muscicapidae. It is found i…",
+    "lat": "-29.6",
+    "lng": "28.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Buff-streaked_chat_%28Campicoloides_bifasciatus%29_male_Malolotja.jpg/960px-Buff-streaked_chat_%28Campicoloides_bifasciatus%29_male_Malolotja.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-莱索托-debacd09",
+      "name": "莱索托",
+      "summary": "莱索托王国（索托語：Mmuso wa Lesotho，英語：Kingdom of Lesotho），简称莱索托，位处非洲南部，是全世界最大国中国，全境完全被南非共和国包围，接壤边境线909公里长。因地处高原，莱索托也被称为“天空王国”。莱…",
+      "lat": "-29.6",
+      "lng": "28.3"
+    },
+    {
+      "id": "loc-南非-ab49d09f",
+      "name": "南非",
+      "summary": "南非共和國（阿非利卡語：Republiek van Suid-Afrika [rɛpɵˈblik fan səitˈafrikɑː]；英語：Republic of South Africa），通稱南非（阿非利卡語：Suid-Afrika…",
+      "lat": "-30",
+      "lng": "25"
+    },
+    {
+      "id": "loc-史瓦帝尼-8e8b2b40",
+      "name": "史瓦帝尼",
+      "summary": "史瓦帝尼王國（史瓦帝語：Umbuso weSwatini；英語：Kingdom of Eswatini），通稱史瓦帝尼（史瓦帝語：eSwatini；英語：Eswatini），是位於非洲南部的一个內陸國家。史瓦帝尼北、西、南三面均為南非所包…",
+      "lat": "-26.5",
+      "lng": "31.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-buff-streaked-chat-4e83bc20",
+      "subject": "Buff-streaked chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-莱索托-debacd09",
+      "object": "莱索托",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Lesotho, South Africa, and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-streaked-chat-4e83bc20",
+      "subject": "Buff-streaked chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-南非-ab49d09f",
+      "object": "南非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Lesotho, South Africa, and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-streaked-chat-4e83bc20",
+      "subject": "Buff-streaked chat",
+      "predicate": "distributed_in",
+      "object_id": "loc-史瓦帝尼-8e8b2b40",
+      "object": "史瓦帝尼",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Lesotho, South Africa, and Eswatini",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-buff-streaked-chat-4e83bc20",
+      "subject": "Buff-streaked chat",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical dry lowland grassland",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-buff-streaked-chat-4e83bc20",
+      "subject": "Buff-streaked chat",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

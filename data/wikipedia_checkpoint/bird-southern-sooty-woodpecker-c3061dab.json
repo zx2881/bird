@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:09:08",
+  "requested_title": "Southern Sooty Woodpecker",
+  "resolved_title": "Southern sooty woodpecker",
+  "title_aliases": [
+    "Southern Sooty Woodpecker"
+  ],
+  "bird_id": "bird-southern-sooty-woodpecker-c3061dab",
+  "raw_file": "bird-southern-sooty-woodpecker-c3061dab.json",
+  "bird": {
+    "id": "bird-southern-sooty-woodpecker-c3061dab",
+    "name": "Southern sooty woodpecker",
+    "english_name": "Southern sooty woodpecker",
+    "latin_name": "Mulleripicus fuliginosus",
+    "summary": "The southern sooty woodpecker (Mulleripicus fuliginosus) is a bird in the family Picidae. It is endemic to the Philippines on the islands o…",
+    "lat": "7.0711",
+    "lng": "122.0755",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Southern_Sooty_Woodpecker_Male.jpg/960px-Southern_Sooty_Woodpecker_Male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pasonanca-natural-park-4873c699",
+      "name": "Pasonanca Natural Park",
+      "summary": "The Pasonanca Natural Park is a protected area that preserves a major watershed in the southern Philippine island of Mi…",
+      "lat": "7.0711",
+      "lng": "122.0755"
+    },
+    {
+      "id": "loc-samar-island-natural-park-2cae892d",
+      "name": "Samar Island Natural Park",
+      "summary": "The Samar Island Natural Park, in Samar, is the largest contiguous tract of old-growth forest in the Philippines.",
+      "lat": "12.03611111",
+      "lng": "125.21111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-southern-sooty-woodpecker-c3061dab",
+      "subject": "Southern sooty woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-pasonanca-natural-park-4873c699",
+      "object": "Pasonanca Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas on Pasonanca Natural Park and Samar Island Natural Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-southern-sooty-woodpecker-c3061dab",
+      "subject": "Southern sooty woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-samar-island-natural-park-2cae892d",
+      "object": "Samar Island Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in a few protected areas on Pasonanca Natural Park and Samar Island Natural Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-southern-sooty-woodpecker-c3061dab",
+      "subject": "Southern sooty woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-southern-sooty-woodpecker-c3061dab",
+      "subject": "Southern sooty woodpecker",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its natural habitat is It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-southern-sooty-woodpecker-c3061dab",
+      "subject": "Southern sooty woodpecker",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its main threat is habitat destruction through both legal and Illegal logging, conversion into farmlands through Slash-and-burn, charcoal burning, and mining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

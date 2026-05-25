@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:13:51",
+  "requested_title": "Crimson-crested Woodpecker",
+  "resolved_title": "Crimson-crested woodpecker",
+  "title_aliases": [
+    "Crimson-crested Woodpecker"
+  ],
+  "bird_id": "bird-crimson-crested-woodpecker-41bf9fce",
+  "raw_file": "bird-crimson-crested-woodpecker-41bf9fce.json",
+  "bird": {
+    "id": "bird-crimson-crested-woodpecker-41bf9fce",
+    "name": "Crimson-crested woodpecker",
+    "english_name": "Crimson-crested woodpecker",
+    "latin_name": "Campephilus melanoleucos",
+    "summary": "The crimson-crested woodpecker (Campephilus melanoleucos) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is…",
+    "lat": "-6.18333333",
+    "lng": "-45.61666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Crimson-crestewoodpecker.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马拉尼昂州-4d31ff74",
+      "name": "马拉尼昂州",
+      "summary": "馬拉尼昂州（葡萄牙語：Maranhão，IPA：ma.ɾa.'ɲɐ̃w̃是巴西的一個州，位於東北部大西洋岸。面積331,983平方公里，2005年人口6,109,694人。首府聖路易斯。自2015年1月1日起，该州由巴西共产党执政。 倫索…",
+      "lat": "-6.18333333",
+      "lng": "-45.61666667"
+    },
+    {
+      "id": "loc-塞阿拉州-3f292f1e",
+      "name": "塞阿拉州",
+      "summary": "塞阿拉州（葡萄牙語：Ceará，[seaˈɾa] ）是巴西26个联邦州之一，位于东北地区北部，东邻北里奥格兰德州和帕拉伊巴州，南邻伯南布哥州，西邻皮奥伊州，北和东北方向濒临大西洋。塞阿拉州面积为148,894.442平方千米，占东北地区面…",
+      "lat": "-5.08",
+      "lng": "-39.65"
+    },
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-crimson-crested-woodpecker-41bf9fce",
+      "subject": "Crimson-crested woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-马拉尼昂州-4d31ff74",
+      "object": "马拉尼昂州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cearae is found in northeastern Brazil from Maranhão east to Ceará and south to Bahia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crimson-crested-woodpecker-41bf9fce",
+      "subject": "Crimson-crested woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞阿拉州-3f292f1e",
+      "object": "塞阿拉州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cearae is found in northeastern Brazil from Maranhão east to Ceará and south to Bahia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crimson-crested-woodpecker-41bf9fce",
+      "subject": "Crimson-crested woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "cearae is found in northeastern Brazil from Maranhão east to Ceará and south to Bahia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-crimson-crested-woodpecker-41bf9fce",
+      "subject": "Crimson-crested woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-crimson-crested-woodpecker-41bf9fce",
+      "subject": "Crimson-crested woodpecker",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. \"Deforestation has been the largest effect humans have had on this bird, as this species regularly loses 16.7-19.3% of suitable habitat about every 15 years",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

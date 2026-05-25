@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:34:14",
+  "requested_title": "Streak-breasted Scimitar Babbler",
+  "resolved_title": "Streak-breasted scimitar babbler",
+  "title_aliases": [
+    "Streak-breasted Scimitar Babbler"
+  ],
+  "bird_id": "bird-棕颈钩嘴鹛-0c65a046",
+  "raw_file": "bird-棕颈钩嘴鹛-0c65a046.json",
+  "bird": {
+    "id": "bird-棕颈钩嘴鹛-0c65a046",
+    "name": "棕颈钩嘴鹛",
+    "english_name": "Streak-breasted scimitar babbler",
+    "latin_name": "Pomatorhinus ruficollis",
+    "summary": "棕颈钩嘴鹛（学名：Pomatorhinus ruficollis），是画眉科钩嘴鹛属的一种，分布于不丹、孟加拉国、老挝、中国大陆、越南、印度、缅甸和尼泊尔。该物种的保护状况被评为无危。 棕颈钩嘴鹛的平均体重约为31.6克。栖息地包括温带森林、温带疏灌丛和亚热带或热带的湿润山地林…",
+    "lat": "25.67",
+    "lng": "94.12",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Streak-breasted_Scimitar-Babbler_cropped.jpg/960px-Streak-breasted_Scimitar-Babbler_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-那加兰邦-0fbd4c25",
+      "name": "那加兰邦",
+      "summary": "那加兰邦（印地语：नागालैण्ड，拉丁字母转写：Nāgāland）是印度的一个邦，位于印度东北部的喜马拉亚山脉，西连阿萨姆邦，南接曼尼普尔邦。该邦名称“那加兰”字面意为“那加人（居住的）地方”，而這些「那加人」自稱為「龍族」的後人（N…",
+      "lat": "25.67",
+      "lng": "94.12"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕颈钩嘴鹛-0c65a046",
+      "subject": "棕颈钩嘴鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-那加兰邦-0fbd4c25",
+      "object": "那加兰邦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|From Khonoma Nature Conservation and Tragopan Sanctuary, [[Nagaland, India.]] It is found in Bangladesh, Bhutan, China, India, Laos, Myanmar, Nepal, and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕颈钩嘴鹛-0c65a046",
+      "subject": "棕颈钩嘴鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|From Khonoma Nature Conservation and Tragopan Sanctuary, [[Nagaland, India.]] It is found in Bangladesh, Bhutan, China, India, Laos, Myanmar, Nepal, and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕颈钩嘴鹛-0c65a046",
+      "subject": "棕颈钩嘴鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-棕颈钩嘴鹛-0c65a046",
+      "subject": "棕颈钩嘴鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

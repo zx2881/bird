@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:34:29",
+  "requested_title": "Cozumel Vireo",
+  "resolved_title": "Cozumel vireo",
+  "title_aliases": [
+    "Cozumel Vireo"
+  ],
+  "bird_id": "bird-cozumel-vireo-89b1d2e2",
+  "raw_file": "bird-cozumel-vireo-89b1d2e2.json",
+  "bird": {
+    "id": "bird-cozumel-vireo-89b1d2e2",
+    "name": "Cozumel vireo",
+    "english_name": "Cozumel vireo",
+    "latin_name": "Vireo bairdi",
+    "summary": "The Cozumel vireo (Vireo bairdi) is a Near Threatened species of bird in the family Vireonidae, the vireos, greenlets, and shrike-babblers.…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Vireo_bairdi_264382156.jpg/960px-Vireo_bairdi_264382156.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cozumel-vireo-89b1d2e2",
+      "subject": "Cozumel vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits scrubby woodlands and similar landscapes such as brushy abandoned fields, young secondary woodland, and thickets in more mature woodland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cozumel-vireo-89b1d2e2",
+      "subject": "Cozumel vireo",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

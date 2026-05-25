@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:05:19",
+  "requested_title": "Violet-breasted Sunbird",
+  "resolved_title": "Violet-breasted sunbird",
+  "title_aliases": [
+    "Violet-breasted Sunbird"
+  ],
+  "bird_id": "bird-violet-breasted-sunbird-548bbd69",
+  "raw_file": "bird-violet-breasted-sunbird-548bbd69.json",
+  "bird": {
+    "id": "bird-violet-breasted-sunbird-548bbd69",
+    "name": "Violet-breasted sunbird",
+    "english_name": "Violet-breasted sunbird",
+    "latin_name": "Cinnyris chalcomelas",
+    "summary": "The violet-breasted sunbird (Cinnyris chalcomelas) is a species of bird in the family Nectariniidae (sunbirds). It is found in Kenya and So…",
+    "lat": "1",
+    "lng": "38",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-索马里-5b5a7d76",
+      "name": "索马里",
+      "summary": "索馬里联邦共和国（索馬里語：Jamhuuriyadda Federaalka Soomaaliya；阿拉伯語：جمهورية الصومال الفدرالية，Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya；英語…",
+      "lat": "10",
+      "lng": "49"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-violet-breasted-sunbird-548bbd69",
+      "subject": "Violet-breasted sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-violet-breasted-sunbird-548bbd69",
+      "subject": "Violet-breasted sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-索马里-5b5a7d76",
+      "object": "索马里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Kenya and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-violet-breasted-sunbird-548bbd69",
+      "subject": "Violet-breasted sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

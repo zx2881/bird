@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:47:26",
+  "requested_title": "Black Drongo",
+  "resolved_title": "Black drongo",
+  "title_aliases": [
+    "Black Drongo"
+  ],
+  "bird_id": "bird-黑卷尾-36f19c1e",
+  "raw_file": "bird-黑卷尾-36f19c1e.json",
+  "bird": {
+    "id": "bird-黑卷尾-36f19c1e",
+    "name": "黑卷尾",
+    "english_name": "Black drongo",
+    "latin_name": "Dicrurus macrocercus",
+    "summary": "黑卷尾（学名：Dicrurus macrocercus，英語：Black drongo）为卷尾科卷尾属的一种，又名大卷尾，俗名吃杯茶、铁炼甲、篱鸡、铁燕子、黑黎鸡。在台灣俗稱烏鶖或烏秋。牠們是熱帶南亞大部分地區的常見留鳥，從伊朗西南部經巴基斯坦、印度、孟加拉和斯里蘭卡，一直到中…",
+    "lat": "23.995",
+    "lng": "67.435",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Bdrongo-Sandeep1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度河-071fda7d",
+      "name": "印度河",
+      "summary": "印度河（英語：Indus River，烏爾都語：دریائے سندھ，印地語：सिन्धु，信德語：سنڌو，標準藏語：སེང་གེ་གཙང་པོ།），巴基斯坦主要河流，其支流也有經過西藏及北印度。 1947年印巴分治以前，印度河仅次于…",
+      "lat": "23.995",
+      "lng": "67.435"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑卷尾-36f19c1e",
+      "subject": "黑卷尾",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度河-071fda7d",
+      "object": "印度河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found as summer visitors to northeastern Afghanistan and northern Pakistan but are residents from the Indus Valley until Bangladesh and into India and Sri Lanka. Some populations show seasonal movements that are poorly understood while populations in Korea are known to be migratory. The black drongo can be found in savanna, fields, and urban habitats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑卷尾-36f19c1e",
+      "subject": "黑卷尾",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "They are found as summer visitors to northeastern Afghanistan and northern Pakistan but are residents from the Indus Valley until Bangladesh and into India and Sri Lanka. Some populations show seasonal movements that are poorly understood while populations in Korea are known to be migratory. The black drongo can be found in savanna, fields, and urban habitats",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-黑卷尾-36f19c1e",
+      "subject": "黑卷尾",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T12:08:10",
+  "requested_title": "Pied Thrush",
+  "resolved_title": "Pied thrush",
+  "title_aliases": [
+    "Pied Thrush"
+  ],
+  "bird_id": "bird-pied-thrush-dff3f311",
+  "raw_file": "bird-pied-thrush-dff3f311.json",
+  "bird": {
+    "id": "bird-pied-thrush-dff3f311",
+    "name": "Pied thrush",
+    "english_name": "Pied thrush",
+    "latin_name": "Geokichla wardii",
+    "summary": "The pied thrush (Geokichla wardii) is a member of the thrush family found in India and Sri Lanka. The males are conspicuously patterned in…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/ZootheraWardiiKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-zoologische-mededelingen-9acca287",
+      "name": "Zoologische Mededelingen",
+      "summary": "《Zoologische Mededelingen》是一份同行評審的开放获取科学期刊，以動物的系統分類學為主題。本期刊由荷兰的自然生物多樣性中心（Naturalis）出版，首期於1915年面世，是當時的自然歷史皇家博物館（Rijks Mu…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-斯里蘭卡-b7d5c4b5",
+      "name": "斯里蘭卡",
+      "summary": "斯里兰卡民主社会主义共和国（僧伽羅語：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；坦米爾語：இலங்கை சனநாயக சோஷலிசக் குடியரசு；英語：Democratic Social…",
+      "lat": "7",
+      "lng": "81"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pied-thrush-dff3f311",
+      "subject": "Pied thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-zoologische-mededelingen-9acca287",
+      "object": "Zoologische Mededelingen",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Dates of avian names introduced in early volumes of the Journal of the Asiatic Society of Bengal |journal=Zoologische Mededelingen |volume=80 |issue=5 |year=2006 |url=http://www.zoologischemededelingen.nl/80/nr05/a05 |access-date=28 August 2009 |archive-url=https://web.archive.org/web/20110724174023/http://www.zoologischemededelingen.nl/80/nr05/a05 |archive-date=24 July 2011 }} | synonyms = Zoothera wardiiTurdulus wardiiTurdus wardii protonym }} The pied thrush (Geokichla wardii) is a member of the thrush family found in India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-thrush-dff3f311",
+      "subject": "Pied thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They breed in the central Himalayan forests and winter in the hill forests of southern India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-thrush-dff3f311",
+      "subject": "Pied thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They breed in the central Himalayan forests and winter in the hill forests of southern India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-thrush-dff3f311",
+      "subject": "Pied thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-斯里蘭卡-b7d5c4b5",
+      "object": "斯里蘭卡",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They breed in the central Himalayan forests and winter in the hill forests of southern India and Sri Lanka",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pied-thrush-dff3f311",
+      "subject": "Pied thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

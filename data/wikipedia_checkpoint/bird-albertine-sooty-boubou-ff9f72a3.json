@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:21:56",
+  "requested_title": "Albertine Sooty Boubou",
+  "resolved_title": "Albertine sooty boubou",
+  "title_aliases": [
+    "Albertine Sooty Boubou"
+  ],
+  "bird_id": "bird-albertine-sooty-boubou-ff9f72a3",
+  "raw_file": "bird-albertine-sooty-boubou-ff9f72a3.json",
+  "bird": {
+    "id": "bird-albertine-sooty-boubou-ff9f72a3",
+    "name": "Albertine sooty boubou",
+    "english_name": "Albertine sooty boubou",
+    "latin_name": "Laniarius holomelas",
+    "summary": "The Albertine sooty boubou (Laniarius holomelas) is a species of bird in the family Malaconotidae. It is native to the Albertine Rift monta…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Laniarius_holomelas_-_Eric_Munneke_-_512247123.jpeg/960px-Laniarius_holomelas_-_Eric_Munneke_-_512247123.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-albertine-sooty-boubou-ff9f72a3",
+      "subject": "Albertine sooty boubou",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-albertine-sooty-boubou-ff9f72a3",
+      "subject": "Albertine sooty boubou",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

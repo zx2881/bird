@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:35:14",
+  "requested_title": "Cape Bunting",
+  "resolved_title": "Cape bunting",
+  "title_aliases": [
+    "Cape Bunting"
+  ],
+  "bird_id": "bird-cape-bunting-d9950845",
+  "raw_file": "bird-cape-bunting-d9950845.json",
+  "bird": {
+    "id": "bird-cape-bunting-d9950845",
+    "name": "Cape bunting",
+    "english_name": "Cape bunting",
+    "latin_name": "Emberiza capensis",
+    "summary": "The Cape bunting (Emberiza capensis) is a passerine bird in the bunting family Emberizidae. Taxonomy In 1760 the French zoologist Mathurin…",
+    "lat": "-31",
+    "lng": "22",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Cape_Bunting%2C_Emberiza_capensis_at_Suikerbosrand_Nature_Reserve%2C_Gauteng%2C_South_Africa.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-開普省-a6fb3984",
+      "name": "開普省",
+      "summary": "好望角省（阿非利卡語：Provinsie van die Kaap die Goeie Hoop，英語：Province of the Cape of Good Hope），通稱開普省（阿非利卡語：Kaapprovinsie，英語：Cap…",
+      "lat": "-31",
+      "lng": "22"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cape-bunting-d9950845",
+      "subject": "Cape bunting",
+      "predicate": "distributed_in",
+      "object_id": "loc-開普省-a6fb3984",
+      "object": "開普省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Cape bunting occurs in southern Africa from south-western Angola, eastern Zambia, Zimbabwe and southern Tanzania to the Cape",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-bunting-d9950845",
+      "subject": "Cape bunting",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

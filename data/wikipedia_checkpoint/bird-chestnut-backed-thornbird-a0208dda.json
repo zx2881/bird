@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:27:20",
+  "requested_title": "Chestnut-backed Thornbird",
+  "resolved_title": "Chestnut-backed thornbird",
+  "title_aliases": [
+    "Chestnut-backed Thornbird"
+  ],
+  "bird_id": "bird-chestnut-backed-thornbird-a0208dda",
+  "raw_file": "bird-chestnut-backed-thornbird-a0208dda.json",
+  "bird": {
+    "id": "bird-chestnut-backed-thornbird-a0208dda",
+    "name": "Chestnut-backed thornbird",
+    "english_name": "Chestnut-backed thornbird",
+    "latin_name": "Phacellodomus dorsalis",
+    "summary": "The chestnut-backed thornbird (Phacellodomus dorsalis) is a Near Threatened species of bird in the family Furnariidae. It is endemic to Per…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Phacellodomus_dorsalis_-_Chestnut-backed_Thornbird_1.jpg/960px-Phacellodomus_dorsalis_-_Chestnut-backed_Thornbird_1.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-chestnut-backed-thornbird-a0208dda",
+      "subject": "Chestnut-backed thornbird",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits arid montane scrublands, typically those with short Prosopis or Acacia macracantha trees",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-chestnut-backed-thornbird-a0208dda",
+      "subject": "Chestnut-backed thornbird",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-chestnut-backed-thornbird-a0208dda",
+      "subject": "Chestnut-backed thornbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-wetland-drainage",
+      "object": "湿地排水",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Habitat in the Marañón drainage has deteriorated progressively under a prolonged period of cultivation...Fire and clearance of land for agriculture are the principal threats.\" \"The species apparently tolerates some degree of habitat alteration, but whether it can complete its life-cycle or occur at existing densities in heavily cultivated areas is not known.\" It is considered uncommon and does not occur in any protected areas, so \"creation of a reserve is thus a high priority\"",
+      "object_summary": "湿地被排干转为农业或建设用地。"
+    }
+  ]
+}

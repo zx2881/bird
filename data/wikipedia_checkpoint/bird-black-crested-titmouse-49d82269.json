@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:24:22",
+  "requested_title": "Black-crested Titmouse",
+  "resolved_title": "Black-crested titmouse",
+  "title_aliases": [
+    "Black-crested Titmouse"
+  ],
+  "bird_id": "bird-black-crested-titmouse-49d82269",
+  "raw_file": "bird-black-crested-titmouse-49d82269.json",
+  "bird": {
+    "id": "bird-black-crested-titmouse-49d82269",
+    "name": "Black-crested titmouse",
+    "english_name": "Black-crested titmouse",
+    "latin_name": "Baeolophus atricristatus",
+    "summary": "The black-crested titmouse or Mexican titmouse (Baeolophus atricristatus), is a passerine bird in the family Paridae, the tits and chickade…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Black-crested_Titmouse.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-crested-titmouse-49d82269",
+      "subject": "Black-crested titmouse",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-crested titmouse inhabits a variety of landscapes including evergreen, semi-deciduous, and deciduous forest and woodlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-crested-titmouse-49d82269",
+      "subject": "Black-crested titmouse",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

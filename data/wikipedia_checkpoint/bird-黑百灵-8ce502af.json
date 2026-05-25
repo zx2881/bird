@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:52:33",
+  "requested_title": "Black Lark",
+  "resolved_title": "Black lark",
+  "title_aliases": [
+    "Black Lark"
+  ],
+  "bird_id": "bird-黑百灵-8ce502af",
+  "raw_file": "bird-黑百灵-8ce502af.json",
+  "bird": {
+    "id": "bird-黑百灵-8ce502af",
+    "name": "黑百灵",
+    "english_name": "Black lark",
+    "latin_name": "Melanocorypha yeltoniensis",
+    "summary": "The black lark (Melanocorypha yeltoniensis) is a species of lark in the family Alaudidae found in south-eastern Russia and Kazakhstan. Taxo…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Black_Lark_-_Kazakistan_S4E9836_%2816946135312%29-cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-johann-reinhold-forster-0321138b",
+      "name": "Johann Reinhold Forster",
+      "summary": "Johann Reinhold Forster (German: [ˈfɔʁstɐ]; 22 October 1729 – 9 December 1798) was a German Reformed pastor and natural…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑百灵-8ce502af",
+      "subject": "黑百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-johann-reinhold-forster-0321138b",
+      "object": "Johann Reinhold Forster",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Melanocorypha yeltoniensis The black lark (Melanocorypha yeltoniensis) is a species of lark in the family Alaudidae found in south-eastern Russia and Kazakhstan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑百灵-8ce502af",
+      "subject": "黑百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

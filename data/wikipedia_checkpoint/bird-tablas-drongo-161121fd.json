@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:46:31",
+  "requested_title": "Tablas Drongo",
+  "resolved_title": "Tablas drongo",
+  "title_aliases": [
+    "Tablas Drongo"
+  ],
+  "bird_id": "bird-tablas-drongo-161121fd",
+  "raw_file": "bird-tablas-drongo-161121fd.json",
+  "bird": {
+    "id": "bird-tablas-drongo-161121fd",
+    "name": "Tablas drongo",
+    "english_name": "Tablas drongo",
+    "latin_name": "Dicrurus menagei",
+    "summary": "The Tablas drongo (Dicrurus menagei) is an Asian bird of the family Dicruridae. It was formerly considered conspecific with the hair-creste…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Tablas_Drongo_2.jpg/960px-Tablas_Drongo_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-tablas-drongo-161121fd",
+      "subject": "Tablas drongo",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits tropical old-growth forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-tablas-drongo-161121fd",
+      "subject": "Tablas drongo",
+      "predicate": "lives_in",
+      "object_id": "hab-mature-forest",
+      "object": "成熟森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits tropical old-growth forest",
+      "object_summary": "具备成熟林冠和树洞资源的森林生境。"
+    },
+    {
+      "subject_id": "bird-tablas-drongo-161121fd",
+      "subject": "Tablas drongo",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-tablas-drongo-161121fd",
+      "subject": "Tablas drongo",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is estimated to consist of just 50 to 250 mature adults making it one of the most endangered birds in the Philippines. It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-tablas-drongo-161121fd",
+      "subject": "Tablas drongo",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of legal and illegal logging, and conversion into farmlands through Slash-and-burn and other methods.The species does not occur at high density even within the little remaining forest cover on Tablas: Mt Palaupau serves as a watershed for Tablas Island",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:31:08",
+  "requested_title": "Snow Mountain Robin",
+  "resolved_title": "Snow Mountains robin",
+  "title_aliases": [
+    "Snow Mountain Robin",
+    "Snow Mountains robin"
+  ],
+  "bird_id": "bird-snow-mountains-robin-b3ac6d67",
+  "raw_file": "bird-snow-mountains-robin-b3ac6d67.json",
+  "bird": {
+    "id": "bird-snow-mountains-robin-b3ac6d67",
+    "name": "Snow Mountains robin",
+    "english_name": "Snow Mountains robin",
+    "latin_name": "Petroica archboldi",
+    "summary": "The Snow Mountains robin (Petroica archboldi), also known as the Snow Mountain robin, is a species of bird in the family Petroicidae. It is…",
+    "lat": "-4.26222222",
+    "lng": "138.68166667",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-威廉敏娜山-2c3e1e19",
+      "name": "威廉敏娜山",
+      "summary": "威廉敏娜山（英語：Puncak Trikora, Mt Wilhelmina）是继印尼查亚峰（4884公尺），为马来群岛第二高峰，海拔4750公尺，在印尼巴布亚省内。 参见 东南亚最高山列表",
+      "lat": "-4.26222222",
+      "lng": "138.68166667"
+    },
+    {
+      "id": "loc-查亞峰-374cf957",
+      "name": "查亞峰",
+      "summary": "查亞峰（印尼語：Puncak Jaya）有時稱為卡茲登茲峰（英語：Mount Carstensz）或卡茲登茲金字塔（Carstensz Pyramid），位於印尼巴布亞省顶峰县西南，是橫亙新幾內亞西半的蘇迪曼山脈及毛克山脈的一座山峰。在印…",
+      "lat": "-4.07888889",
+      "lng": "137.15833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-snow-mountains-robin-b3ac6d67",
+      "subject": "Snow Mountains robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-威廉敏娜山-2c3e1e19",
+      "object": "威廉敏娜山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Snow Mountain robin is only found in Puncak Trikora and the Freeport McMoran Grasberg gold mine, both near Puncak Jaya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-snow-mountains-robin-b3ac6d67",
+      "subject": "Snow Mountains robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-查亞峰-374cf957",
+      "object": "查亞峰",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Snow Mountain robin is only found in Puncak Trikora and the Freeport McMoran Grasberg gold mine, both near Puncak Jaya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-snow-mountains-robin-b3ac6d67",
+      "subject": "Snow Mountains robin",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

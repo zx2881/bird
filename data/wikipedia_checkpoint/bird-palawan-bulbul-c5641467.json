@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:22:13",
+  "requested_title": "Palawan Bulbul",
+  "resolved_title": "Palawan bulbul",
+  "title_aliases": [
+    "Palawan Bulbul"
+  ],
+  "bird_id": "bird-palawan-bulbul-c5641467",
+  "raw_file": "bird-palawan-bulbul-c5641467.json",
+  "bird": {
+    "id": "bird-palawan-bulbul-c5641467",
+    "name": "Palawan bulbul",
+    "english_name": "Palawan bulbul",
+    "latin_name": "Alophoixus frater",
+    "summary": "The Palawan bulbul or grey-throated bulbul (Alophoixus frater) is a species of songbird in the family Pycnonotidae. It is endemic to Palawa…",
+    "lat": "10.16666667",
+    "lng": "118.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Palawan_Bulbul.jpg/960px-Palawan_Bulbul.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-普林塞萨港地下河国家公园-656774b8",
+      "name": "普林塞萨港地下河国家公园",
+      "summary": "普林塞萨港地下河国家公园（英語：Puerto Princesa Subterranean River National Park），台湾譯作公主港地下河國家公園，為菲律宾一處自然保护区，位於菲律賓島群呂宋部份西南部的巴拉望島。該公園於19…",
+      "lat": "10.16666667",
+      "lng": "118.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-palawan-bulbul-c5641467",
+      "subject": "Palawan bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits tropical moist lowland primary forest and secondary forest up to 1,150 meters above sea level",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-palawan-bulbul-c5641467",
+      "subject": "Palawan bulbul",
+      "predicate": "distributed_in",
+      "object_id": "loc-普林塞萨港地下河国家公园-656774b8",
+      "object": "普林塞萨港地下河国家公园",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in the protected area of Puerto Princesa Subterranean River National Park",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-palawan-bulbul-c5641467",
+      "subject": "Palawan bulbul",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

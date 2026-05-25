@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:56:50",
+  "requested_title": "American Tree Sparrow",
+  "resolved_title": "American tree sparrow",
+  "title_aliases": [
+    "American Tree Sparrow"
+  ],
+  "bird_id": "bird-树雀鹀-952b7e17",
+  "raw_file": "bird-树雀鹀-952b7e17.json",
+  "bird": {
+    "id": "bird-树雀鹀-952b7e17",
+    "name": "树雀鹀",
+    "english_name": "American tree sparrow",
+    "latin_name": "Spizelloides arborea",
+    "summary": "树雀鹀（學名：Spizelloides arborea），又稱為美洲樹麻雀、冬雀，是一種中型的美洲雀。 原本分類為雀鹀屬（Spizella），但根據多位點序列分型研究顯示本種應重新分類為自己的屬。",
+    "lat": "64",
+    "lng": "-152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/American_Tree_Sparrow_-_Flickr_-_Fyn_Kynd.jpg/960px-American_Tree_Sparrow_-_Flickr_-_Fyn_Kynd.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉斯加州-6d35b63b",
+      "name": "阿拉斯加州",
+      "summary": "阿拉斯加州（英語：Alaska，發音：/əˈlæskə/ ；舊譯「亞尼俺國」、「亞拉士加」）是美國位於北美洲最西北端的聯邦州。州以東與加拿大的英屬哥倫比亞省和育空地區相鄰，最西端位於阿圖島，並與俄羅斯在白令海峽以西有一海上邊界。以北有楚科…",
+      "lat": "64",
+      "lng": "-152"
+    },
+    {
+      "id": "loc-加拿大北部-36854c1e",
+      "name": "加拿大北部",
+      "summary": "加拿大北部是在地理和政治上定义的加拿大北部地区，通常包括育空、西北地區和努納武特三个地区，都在北极圈附近，并包括北极点。由于加拿大人口集中在南部美加边境附近，所以传统上加拿大没有南部的概念与加拿大北部相对应，因为加拿大北部的定义通常与加拿…",
+      "lat": "65.82",
+      "lng": "-107.08"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-树雀鹀-952b7e17",
+      "subject": "树雀鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉斯加州-6d35b63b",
+      "object": "阿拉斯加州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Alaska and Northern Canada and winters in Southern Canada and the Contiguous United States",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-树雀鹀-952b7e17",
+      "subject": "树雀鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大北部-36854c1e",
+      "object": "加拿大北部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Alaska and Northern Canada and winters in Southern Canada and the Contiguous United States",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-树雀鹀-952b7e17",
+      "subject": "树雀鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

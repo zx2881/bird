@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:55:19",
+  "requested_title": "Marbled Murrelet",
+  "resolved_title": "Marbled murrelet",
+  "title_aliases": [
+    "Marbled Murrelet"
+  ],
+  "bird_id": "bird-云石斑海雀-8ff32b18",
+  "raw_file": "bird-云石斑海雀-8ff32b18.json",
+  "bird": {
+    "id": "bird-云石斑海雀-8ff32b18",
+    "name": "云石斑海雀",
+    "english_name": "Marbled murrelet",
+    "latin_name": "Brachyramphus marmoratus",
+    "summary": "云石斑海雀（台湾作斑海雀）（学名：Brachyramphus marmoratus）为海雀科斑海雀属的鸟类。该物种的模式产地在美国阿拉斯加。 云石斑海雀体重约220克，翼长约123.5毫米，嘴峰长约24.9毫米，喙宽度约4.1毫米，喙厚度约5.8毫米，跗蹠长约15.2毫米，尾长…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Marbled_murrelet.jpg/960px-Marbled_murrelet.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-云石斑海雀-8ff32b18",
+      "subject": "云石斑海雀",
+      "predicate": "lives_in",
+      "object_id": "hab-mature-forest",
+      "object": "成熟森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It nests in old-growth forests or on the ground at higher latitudes where trees cannot grow",
+      "object_summary": "具备成熟林冠和树洞资源的森林生境。"
+    },
+    {
+      "subject_id": "bird-云石斑海雀-8ff32b18",
+      "subject": "云石斑海雀",
+      "predicate": "lives_in",
+      "object_id": "hab-mature-forest",
+      "object": "成熟森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Concentrations of marbled murrelets offshore are almost always adjacent to old-growth or mature forests onshore, although marbled murrelets may not use the interior of dense stands. Where large trees are absent in the northern parts of marbled murrelet range, marbled murrelets nest in depressions on the ground, in rock cavities on the ground, or on rock outcrops. Marbled murrelets are both ground nesters and tree nesters where forests and treeless areas meet. In northern regions where coniferous forests nest sites are unavailable, marbled murrelets occupy alpine or tundra near the ocean. In Washington and Oregon, they commonly nest in Douglas-fir (Pseudotsuga menziesii) dominated stands",
+      "object_summary": "具备成熟林冠和树洞资源的森林生境。"
+    },
+    {
+      "subject_id": "bird-云石斑海雀-8ff32b18",
+      "subject": "云石斑海雀",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-云石斑海雀-8ff32b18",
+      "subject": "云石斑海雀",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This decline in the north could be attributed to habitat loss, long nest-to-sea commutes, or poor foraging habitats in Washington.McIver, W",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:00:04",
+  "requested_title": "White-collared Oliveback",
+  "resolved_title": "White-collared oliveback",
+  "title_aliases": [
+    "White-collared Oliveback"
+  ],
+  "bird_id": "bird-白领绿背织雀-7d05477f",
+  "raw_file": "bird-白领绿背织雀-7d05477f.json",
+  "bird": {
+    "id": "bird-白领绿背织雀-7d05477f",
+    "name": "白领绿背织雀",
+    "english_name": "White-collared oliveback",
+    "latin_name": "Nesocharis ansorgei",
+    "summary": "白领绿背织雀（学名：Nesocharis ansorgei）是梅花雀科绿背织雀属的一种，分布于非洲。其全球活动范围有94,000平方千米。 白领绿背织雀分布于布隆迪、刚果民主共和国、卢旺达、坦桑尼亚和乌干达。然而，白领绿背织雀并非常见鸟种。该物种的保护状况被评为无危。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/White-collared_oliveback_Nesocharis_ansorgei%2C_male_Rwanda.jpg/960px-White-collared_oliveback_Nesocharis_ansorgei%2C_male_Rwanda.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-ernst-hartert-4e6d4c6a",
+      "name": "Ernst Hartert",
+      "summary": "Ernst Johann Otto Hartert (29 October 1859 – 11 November 1933) was a widely published German ornithologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白领绿背织雀-7d05477f",
+      "subject": "白领绿背织雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-ernst-hartert-4e6d4c6a",
+      "object": "Ernst Hartert",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-collared oliveback (Nesocharis ansorgei) is a species of estrildid finch found in Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白领绿背织雀-7d05477f",
+      "subject": "白领绿背织雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

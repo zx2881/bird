@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:37:48",
+  "requested_title": "Grey Bunting",
+  "resolved_title": "Grey bunting",
+  "title_aliases": [
+    "Grey Bunting"
+  ],
+  "bird_id": "bird-灰鹀-96e2d1d1",
+  "raw_file": "bird-灰鹀-96e2d1d1.json",
+  "bird": {
+    "id": "bird-灰鹀-96e2d1d1",
+    "name": "灰鹀",
+    "english_name": "Grey bunting",
+    "latin_name": "Emberiza variabilis",
+    "summary": "灰鹀（学名：Emberiza variabilis）为雀科鹀属的鸟类，俗名黑蒿鸟。其种加词“variabilis”意为“变化的”。体长16-17.5厘米。喙短，呈圆锥形，坚实而尖；切缘微向内曲。鼻孔半遮以短额须。翅颇发达，第一枚初级飞羽常退化，第2-5枚近乎等长。爪弯曲，后爪短…",
+    "lat": "51",
+    "lng": "143",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Emberiza_variabilis_%280s5%29.JPG/960px-Emberiza_variabilis_%280s5%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-库页岛-54809d94",
+      "name": "库页岛",
+      "summary": "库页岛，俄羅斯稱萨哈林岛（俄語：Сахалин，羅馬化：Sakhalin），日本稱樺太島（日語：樺太／からふと，羅馬化：Karafuto），為北太平洋的一座島嶼，位於日本北海道以北、外滿州韃靼海峽以東。其面積約76,400平方公里，是俄羅…",
+      "lat": "51",
+      "lng": "143"
+    },
+    {
+      "id": "loc-千島群島-09c52536",
+      "name": "千島群島",
+      "summary": "千島群島（日語：千島列島／ちしまれっとう，羅馬化：Chishima rettō），俄罗斯称其为庫里爾群島（俄語：Кури́льские острова́，羅馬化：Kuril'skie ostrova；日語：クリル列島，羅馬化：Kuriru…",
+      "lat": "47",
+      "lng": "152.1"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰鹀-96e2d1d1",
+      "subject": "灰鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-库页岛-54809d94",
+      "object": "库页岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Kamchatka, Sakhalin, Kuril Islands and northern Japan, it migrates to southern Japan and the Nansei archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰鹀-96e2d1d1",
+      "subject": "灰鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-千島群島-09c52536",
+      "object": "千島群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in southern Kamchatka, Sakhalin, Kuril Islands and northern Japan, it migrates to southern Japan and the Nansei archipelago",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰鹀-96e2d1d1",
+      "subject": "灰鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

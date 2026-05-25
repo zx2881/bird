@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:50:13",
+  "requested_title": "Common Smoky Honeyeater",
+  "resolved_title": "Common smoky honeyeater",
+  "title_aliases": [
+    "Common Smoky Honeyeater"
+  ],
+  "bird_id": "bird-common-smoky-honeyeater-e6abb0ac",
+  "raw_file": "bird-common-smoky-honeyeater-e6abb0ac.json",
+  "bird": {
+    "id": "bird-common-smoky-honeyeater-e6abb0ac",
+    "name": "Common smoky honeyeater",
+    "english_name": "Common smoky honeyeater",
+    "latin_name": "Melipotes fumigatus",
+    "summary": "The common smoky honeyeater (Melipotes fumigatus) is a medium-sized bird found in central Papua New Guinea and Eastern Indonesia. It is one…",
+    "lat": "-6",
+    "lng": "147",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Smoky_Honeyeater.jpg/960px-Smoky_Honeyeater.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴布亚新几内亚-07ab895c",
+      "name": "巴布亚新几内亚",
+      "summary": "巴布亚新几内亚独立国（英語：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea，缩写：PNG；巴布亞皮欽語：Papua Niugini；希里木托語：Papua…",
+      "lat": "-6",
+      "lng": "147"
+    },
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-common-smoky-honeyeater-e6abb0ac",
+      "subject": "Common smoky honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴布亚新几内亚-07ab895c",
+      "object": "巴布亚新几内亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The common smoky honeyeater (Melipotes fumigatus) is a medium-sized bird found in central Papua New Guinea and Eastern Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-common-smoky-honeyeater-e6abb0ac",
+      "subject": "Common smoky honeyeater",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The common smoky honeyeater (Melipotes fumigatus) is a medium-sized bird found in central Papua New Guinea and Eastern Indonesia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-common-smoky-honeyeater-e6abb0ac",
+      "subject": "Common smoky honeyeater",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:13:04",
+  "requested_title": "California Thrasher",
+  "resolved_title": "California thrasher",
+  "title_aliases": [
+    "California Thrasher"
+  ],
+  "bird_id": "bird-california-thrasher-85143f26",
+  "raw_file": "bird-california-thrasher-85143f26.json",
+  "bird": {
+    "id": "bird-california-thrasher-85143f26",
+    "name": "California thrasher",
+    "english_name": "California thrasher",
+    "latin_name": "Toxostoma redivivum",
+    "summary": "The California thrasher (Toxostoma redivivum) is a large member of family Mimidae found primarily in chaparral habitat in California in the…",
+    "lat": "37",
+    "lng": "-120.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Toxostoma_redivivum_-Morro_Bay%2C_California%2C_USA-8.jpg/960px-Toxostoma_redivivum_-Morro_Bay%2C_California%2C_USA-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中央谷地-239420c8",
+      "name": "中央谷地",
+      "summary": "The Central Valley is a broad, elongated, flat valley that dominates the interior of California, United States.",
+      "lat": "37",
+      "lng": "-120.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-california-thrasher-85143f26",
+      "subject": "California thrasher",
+      "predicate": "distributed_in",
+      "object_id": "loc-中央谷地-239420c8",
+      "object": "中央谷地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is only rarely found in the Central Valley between them",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-california-thrasher-85143f26",
+      "subject": "California thrasher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

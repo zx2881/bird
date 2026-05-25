@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:50:54",
+  "requested_title": "Taczanowski's Ground Tyrant",
+  "resolved_title": "Taczanowski's ground tyrant",
+  "title_aliases": [
+    "Taczanowski's Ground Tyrant"
+  ],
+  "bird_id": "bird-taczanowski-s-ground-tyrant-9f532b04",
+  "raw_file": "bird-taczanowski-s-ground-tyrant-9f532b04.json",
+  "bird": {
+    "id": "bird-taczanowski-s-ground-tyrant-9f532b04",
+    "name": "Taczanowski's ground tyrant",
+    "english_name": "Taczanowski's ground tyrant",
+    "latin_name": "Muscisaxicola griseus",
+    "summary": "Taczanowski's ground tyrant (Muscisaxicola griseus) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is found in B…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Dormilona_taczanowski.jpg/960px-Dormilona_taczanowski.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-taczanowski-s-ground-tyrant-9f532b04",
+      "subject": "Taczanowski's ground tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-taczanowski-s-ground-tyrant-9f532b04",
+      "subject": "Taczanowski's ground tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-taczanowski-s-ground-tyrant-9f532b04",
+      "subject": "Taczanowski's ground tyrant",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits puna and páramo grasslands and to a lesser degree dry areas with sparse vegetation",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-taczanowski-s-ground-tyrant-9f532b04",
+      "subject": "Taczanowski's ground tyrant",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

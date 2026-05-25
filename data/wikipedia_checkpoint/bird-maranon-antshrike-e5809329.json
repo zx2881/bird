@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:59:51",
+  "requested_title": "Maranon Antshrike",
+  "resolved_title": "Maranon antshrike",
+  "title_aliases": [
+    "Maranon Antshrike"
+  ],
+  "bird_id": "bird-maranon-antshrike-e5809329",
+  "raw_file": "bird-maranon-antshrike-e5809329.json",
+  "bird": {
+    "id": "bird-maranon-antshrike-e5809329",
+    "name": "Maranon antshrike",
+    "english_name": "Maranon antshrike",
+    "latin_name": "Thamnophilus shumbae",
+    "summary": "The Maranon antshrike (Thamnophilus shumbae) is a passerine bird in the family Thamnophilidae according to some taxonomists. This non-migra…",
+    "lat": "-10",
+    "lng": "-76",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Maranon_antshrike.jpg/960px-Maranon_antshrike.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    },
+    {
+      "id": "loc-馬拉尼翁河-cfb9e961",
+      "name": "馬拉尼翁河",
+      "summary": "馬拉尼翁河（西班牙語：Río Marañón）發源自秘魯利馬東北160公里，向西北方向流經安第斯山脈河谷到達南緯5度36分，然後轉往東北方向橫越安第斯山脈，與烏卡亞利河（Ucayali River）匯流，成為亞馬遜河。",
+      "lat": "-7.967438",
+      "lng": "-77.297745"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-maranon-antshrike-e5809329",
+      "subject": "Maranon antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This non-migratory bird is native to Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-maranon-antshrike-e5809329",
+      "subject": "Maranon antshrike",
+      "predicate": "distributed_in",
+      "object_id": "loc-馬拉尼翁河-cfb9e961",
+      "object": "馬拉尼翁河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are found in the basin of Marañón River in Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-maranon-antshrike-e5809329",
+      "subject": "Maranon antshrike",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:25:52",
+  "requested_title": "Rufous-necked Hornbill",
+  "resolved_title": "Rufous-necked hornbill",
+  "title_aliases": [
+    "Rufous-necked Hornbill"
+  ],
+  "bird_id": "bird-棕颈犀鸟-92f877e4",
+  "raw_file": "bird-棕颈犀鸟-92f877e4.json",
+  "bird": {
+    "id": "bird-棕颈犀鸟-92f877e4",
+    "name": "棕颈犀鸟",
+    "english_name": "Rufous-necked hornbill",
+    "latin_name": "Aceros nipalensis",
+    "summary": "棕颈犀鸟（學名：Aceros nipalensis），也稱作棕颈無盔犀鸟，是犀鸟科无盔犀鸟属的唯一一种，在IUCN紅色名錄中列為易危物種，也是中國國家二級保護動物。 描述 全長約120cm，兩性均有巨大而有力的象牙白色的嘴，嘴上無盔突，上嘴基部有黑白相間的帶斑，雙眼周圍和頰部則…",
+    "lat": "27.08333333",
+    "lng": "92.85833333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Rufous-necked_Hornbill_Mahananda_Wildlife_Sanctuary_West_Bengal_India_06.12.2015.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-pakke-tiger-reserve-6e92f453",
+      "name": "Pakke Tiger Reserve",
+      "summary": "Pakke Tiger Reserve is a Project Tiger reserve in the East Kameng district of Arunachal Pradesh in Northeast India.",
+      "lat": "27.08333333",
+      "lng": "92.85833333"
+    },
+    {
+      "id": "loc-温带阔叶混交林-fc0864f2",
+      "name": "温带阔叶混交林",
+      "summary": "温带阔叶混交林是一种温带陆地生物群系，位于阔叶树生态区，和针叶树与阔叶树的针叶混交林生态区。 “温带阔叶混交林”这一术语，由世界自然基金会（WWF）使用，在全球生物地理学中，作为组织生态区的生物群落之一。",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕颈犀鸟-92f877e4",
+      "subject": "棕颈犀鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-pakke-tiger-reserve-6e92f453",
+      "object": "Pakke Tiger Reserve",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|name-list-style=amp |year=2006 |title=A record of the Rufous-necked Hornbill Aceros nipalensis from West Bengal, India |journal=Indian Birds |volume=2 |issue=2 |pages=37–38 |url=http://indianbirds.in/pdfs/IB2.2_GhoseETAL_RNHornbill.pdf}} and Pakke Tiger Reserve. It predominantly inhabits ridged and hilly forests, primarily temperate broadleaf and mixed forests at elevations of , It has also been recorded in dry woodland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕颈犀鸟-92f877e4",
+      "subject": "棕颈犀鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-温带阔叶混交林-fc0864f2",
+      "object": "温带阔叶混交林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|name-list-style=amp |year=2006 |title=A record of the Rufous-necked Hornbill Aceros nipalensis from West Bengal, India |journal=Indian Birds |volume=2 |issue=2 |pages=37–38 |url=http://indianbirds.in/pdfs/IB2.2_GhoseETAL_RNHornbill.pdf}} and Pakke Tiger Reserve. It predominantly inhabits ridged and hilly forests, primarily temperate broadleaf and mixed forests at elevations of , It has also been recorded in dry woodland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕颈犀鸟-92f877e4",
+      "subject": "棕颈犀鸟",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-棕颈犀鸟-92f877e4",
+      "subject": "棕颈犀鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is locally extinct in Nepal due to hunting and significant loss of habitat. There are less than 10,000 adults left in the wild. With a length of about , it is among the largest Bucerotine hornbills",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

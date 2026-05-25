@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:48:22",
+  "requested_title": "Beijing Babbler",
+  "resolved_title": "Beijing babbler",
+  "title_aliases": [
+    "Beijing Babbler"
+  ],
+  "bird_id": "bird-山鹛-a7451faa",
+  "raw_file": "bird-山鹛-a7451faa.json",
+  "bird": {
+    "id": "bird-山鹛-a7451faa",
+    "name": "山鹛",
+    "english_name": "Beijing babbler",
+    "latin_name": "Rhopophilus pekinensis",
+    "summary": "山鹛（学名：Rhopophilus pekinensis）属于雀形目鸦雀科，又名山莺、华北山莺、北京山鹛、小背串、长尾巴狼，是中国特有鸟种。 生态环境 山鹛是典型的山区鸟类，栖息于山中灌丛和低矮树木间，常在灌丛的基部钻来钻去，喜结成小群活动，性羞涩怕人常常不能见到他们的身影，但…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rhopophilus_pekinensis_-_%E5%A4%8F%E4%BB%B2%E5%BD%92_-_568550281.jpeg/960px-Rhopophilus_pekinensis_-_%E5%A4%8F%E4%BB%B2%E5%BD%92_-_568550281.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-朝鲜民主主义人民共和国-ddfc2ce1",
+      "name": "朝鲜民主主义人民共和国",
+      "summary": "朝鮮民主主義人民共和國（朝鮮語：조선민주주의인민공화국／朝鮮民主主義人民共和國，羅馬化：Chosŏn Minjujuŭi Inmin Konghwaguk），簡稱朝鮮（조선／朝鮮）或北韓（북한／北韓），是位於東北亞朝鮮半島北部的國家，實際…",
+      "lat": "40",
+      "lng": "127"
+    },
+    {
+      "id": "loc-大韩民国-0b6af90b",
+      "name": "大韩民国",
+      "summary": "大韩民国（韓語：대한민국／大韓民國，羅馬化：Daehan Minguk），简称韩国（한국／韓國，Hanguk）或南韩（남한／南韓，Namhan），是位於东亚朝鲜半岛南部的共和制国家，首都為首爾特別市。韓國國土三面環海，西南瀕臨西海（黃海）…",
+      "lat": "36",
+      "lng": "128"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-山鹛-a7451faa",
+      "subject": "山鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern China and North Korea, and formerly occurred in South Korea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山鹛-a7451faa",
+      "subject": "山鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-朝鲜民主主义人民共和国-ddfc2ce1",
+      "object": "朝鲜民主主义人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern China and North Korea, and formerly occurred in South Korea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山鹛-a7451faa",
+      "subject": "山鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-大韩民国-0b6af90b",
+      "object": "大韩民国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in northern China and North Korea, and formerly occurred in South Korea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-山鹛-a7451faa",
+      "subject": "山鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:41:26",
+  "requested_title": "Island Whistler",
+  "resolved_title": "Island whistler",
+  "title_aliases": [
+    "Island Whistler"
+  ],
+  "bird_id": "bird-岛厚头啸鹟-9693d1b3",
+  "raw_file": "bird-岛厚头啸鹟-9693d1b3.json",
+  "bird": {
+    "id": "bird-岛厚头啸鹟-9693d1b3",
+    "name": "岛厚头啸鹟",
+    "english_name": "Island whistler",
+    "latin_name": "Pachycephala phaionota",
+    "summary": "岛厚头啸鹟（学名：Pachycephala phaionota），是啸鹟科啸鹟属的一种，为印度尼西亚的特有种。该物种的保护状况被评为无危。 岛厚头啸鹟的栖息地包括种植园、亚热带或热带的红树林和亚热带或热带的（低地）干燥疏灌丛。",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Pachycephala_phaionota_-_James_Eaton_-_440527535.jpeg/960px-Pachycephala_phaionota_-_James_Eaton_-_440527535.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "name": "夏尔·吕西安·波拿巴",
+      "summary": "夏尔·吕西安·朱尔·朱尔·波拿巴（法語：Charles Lucien Jules Laurent Bonaparte，發音：[ʃaʁl lysjɛ̃ ʒyl lɔʁɑ̃ bɔnapaʁt]；1803年5月24日—1857年7月29日）是一…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    },
+    {
+      "id": "loc-西巴布亚-b712982c",
+      "name": "西巴布亚",
+      "summary": "西巴布亚，又称西新几内亚，為新几内亚岛（又称伊里安岛）的西部，分為印度尼西亚的巴布亚省、西巴布亚省、中巴布亞省、高地巴布亞省、南巴布亞省。 14世纪初，在新几内亚岛西北部出现凯马纳王国。在殖民者到来之时，蒂多雷苏丹国控制多貝拉伊半島的部分…",
+      "lat": "-4",
+      "lng": "136"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-岛厚头啸鹟-9693d1b3",
+      "subject": "岛厚头啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "object": "夏尔·吕西安·波拿巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The island whistler (Pachycephala phaionota) is a species of bird in the family Pachycephalidae native to the Moluccas and islands of Western New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-岛厚头啸鹟-9693d1b3",
+      "subject": "岛厚头啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The island whistler (Pachycephala phaionota) is a species of bird in the family Pachycephalidae native to the Moluccas and islands of Western New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-岛厚头啸鹟-9693d1b3",
+      "subject": "岛厚头啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-西巴布亚-b712982c",
+      "object": "西巴布亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The island whistler (Pachycephala phaionota) is a species of bird in the family Pachycephalidae native to the Moluccas and islands of Western New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-岛厚头啸鹟-9693d1b3",
+      "subject": "岛厚头啸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

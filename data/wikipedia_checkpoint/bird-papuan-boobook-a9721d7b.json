@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:20:16",
+  "requested_title": "Papuan Boobook",
+  "resolved_title": "Papuan boobook",
+  "title_aliases": [
+    "Papuan Boobook"
+  ],
+  "bird_id": "bird-papuan-boobook-a9721d7b",
+  "raw_file": "bird-papuan-boobook-a9721d7b.json",
+  "bird": {
+    "id": "bird-papuan-boobook-a9721d7b",
+    "name": "Papuan boobook",
+    "english_name": "Papuan boobook",
+    "latin_name": "Ninox theomacha",
+    "summary": "The Papuan boobook (Ninox theomacha), jungle boobook or jungle hawk owl, is a medium-sized, dark-colored owl. It has a dark gray-brown faci…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Papuan_Boobook_0A2A6281.jpg/960px-Papuan_Boobook_0A2A6281.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-papuan-boobook-a9721d7b",
+      "subject": "Papuan boobook",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-papuan-boobook-a9721d7b",
+      "subject": "Papuan boobook",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

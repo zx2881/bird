@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:07:24",
+  "requested_title": "Blue Jay",
+  "resolved_title": "Blue jay",
+  "title_aliases": [
+    "Blue Jay"
+  ],
+  "bird_id": "bird-冠蓝鸦-f3973460",
+  "raw_file": "bird-冠蓝鸦-f3973460.json",
+  "bird": {
+    "id": "bird-冠蓝鸦-f3973460",
+    "name": "冠蓝鸦",
+    "english_name": "Blue jay",
+    "latin_name": "Cyanocitta cristata",
+    "summary": "冠蓝鸦（英文：blue jaybird，blue jay，jaybird，jay，学名：Cyanocitta cristata），又名蓝松鸦、藍樫鳥，是雀形目鸦科冠蓝鸦属的鸟类，原产於北美洲，主要分布於美国落基山脉以东、圣皮埃尔和密克隆群岛和加拿大南部，属於新北界松鸦，与其他的…",
+    "lat": "40.66166667",
+    "lng": "-73.97083333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Blue_jay_in_PP_%2830960%29.jpg/960px-Blue_jay_in_PP_%2830960%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-展望公园-布鲁克林-f45b2ddc",
+      "name": "展望公园 (布鲁克林)",
+      "summary": "展望公园（英语：Prospect Park）是纽约市布鲁克林区的一个公园，面积2.37平方公里，位于公园斜坡（Park Slope）、展望莱弗茨花园（Prospect-Lefferts Gardens）、肯辛顿（Kensington）、温…",
+      "lat": "40.66166667",
+      "lng": "-73.97083333"
+    },
+    {
+      "id": "loc-卡尔-林奈-d4fdd735",
+      "name": "卡尔·林奈",
+      "summary": "卡尔·冯·林奈（瑞典語：Carl von Linné；1707年5月23日—1778年1月10日），也譯為林内、林耐，原名卡尔·林奈乌斯（Carl Linnaeus），瑞典生物学家，瑞典科学院创始人兼第一任主席。林奈奠定了现代生物学命名法…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-自然系统第十版-55ca7965",
+      "name": "自然系统第十版",
+      "summary": "《自然系统》第十版（英語：10th edition of Systema Naturae）是18世纪瑞典生物学家卡尔·林奈所撰写的生物学专著，于1758年和1759年分别出版上下两卷。林奈在书中为动物定义了二名法命名法则（此前他曾在175…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-冠蓝鸦-f3973460",
+      "subject": "冠蓝鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-展望公园-布鲁克林-f45b2ddc",
+      "object": "展望公园 (布鲁克林)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue jay (Cyanocitta cristata) is a passerine bird in the family Corvidae, native to eastern North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-冠蓝鸦-f3973460",
+      "subject": "冠蓝鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡尔-林奈-d4fdd735",
+      "object": "卡尔·林奈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue jay (Cyanocitta cristata) is a passerine bird in the family Corvidae, native to eastern North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-冠蓝鸦-f3973460",
+      "subject": "冠蓝鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-自然系统第十版-55ca7965",
+      "object": "自然系统第十版",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The blue jay (Cyanocitta cristata) is a passerine bird in the family Corvidae, native to eastern North America",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-冠蓝鸦-f3973460",
+      "subject": "冠蓝鸦",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

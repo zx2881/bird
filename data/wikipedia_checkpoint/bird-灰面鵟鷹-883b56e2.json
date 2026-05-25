@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:58:34",
+  "requested_title": "Grey-faced Buzzard",
+  "resolved_title": "Grey-faced buzzard",
+  "title_aliases": [
+    "Grey-faced Buzzard"
+  ],
+  "bird_id": "bird-灰面鵟鷹-883b56e2",
+  "raw_file": "bird-灰面鵟鷹-883b56e2.json",
+  "bird": {
+    "id": "bird-灰面鵟鷹-883b56e2",
+    "name": "灰面鵟鷹",
+    "english_name": "Grey-faced buzzard",
+    "latin_name": "Butastur indicus",
+    "summary": "灰臉鵟鷹（台湾作灰面鵟鷹，學名：Butastur indicus），又稱灰面鷲，是鷹科鵟鷹屬的猛禽，臺灣彰化一帶稱為南路鷹（臺羅：lâm-lōo-ing），臺灣屏東滿州當地稱為山後鳥（臺羅：suann-āu-tsiáu），而在臺灣屏東小琉球則叫做飛烏鳥（臺羅：pue-oo-ts…",
+    "lat": "43",
+    "lng": "125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Butastur_indicus.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    },
+    {
+      "id": "loc-朝鮮-地區-db3706d8",
+      "name": "朝鮮 (地區)",
+      "summary": "朝鮮，又稱韓、高丽等，是东亚的一个地区，位于欧亚大陆东端，包含朝鲜半岛（韓半岛）、济州岛及朝鲜半岛附近的几个岛屿。東北接壤俄罗斯，北面接壤中國，通過朝鲜海峡和日本海與日本隔海相望。其位处汉字文化圈内，传统上深受汉文化影响，但也在建筑、音乐…",
+      "lat": "38.31666667",
+      "lng": "127.23333333"
+    },
+    {
+      "id": "loc-日本-4dbed2e6",
+      "name": "日本",
+      "summary": "日本國（日語：日本国〔日本國〕／にっぽんこく／にほんこく，羅馬化：nippon koku/nihon koku），通稱日本，是位於東亞的島嶼國家。國土全境由北海道、本州、四國、九州等本土四島為基礎的14,125座島嶼組成，周圍被太平洋及鄂…",
+      "lat": "36",
+      "lng": "138"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰面鵟鷹-883b56e2",
+      "subject": "灰面鵟鷹",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Manchuria, Korea and Japan; it winters in South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰面鵟鷹-883b56e2",
+      "subject": "灰面鵟鷹",
+      "predicate": "distributed_in",
+      "object_id": "loc-朝鮮-地區-db3706d8",
+      "object": "朝鮮 (地區)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Manchuria, Korea and Japan; it winters in South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰面鵟鷹-883b56e2",
+      "subject": "灰面鵟鷹",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本-4dbed2e6",
+      "object": "日本",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Manchuria, Korea and Japan; it winters in South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰面鵟鷹-883b56e2",
+      "subject": "灰面鵟鷹",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Manchuria, Korea and Japan; it winters in South-east Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰面鵟鷹-883b56e2",
+      "subject": "灰面鵟鷹",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "In its breeding range, the buzzard is found in coniferous and mixed evergreen forests in mountains, at forest edges, fields, meadows, marshes, and around agricultural lands",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-灰面鵟鷹-883b56e2",
+      "subject": "灰面鵟鷹",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

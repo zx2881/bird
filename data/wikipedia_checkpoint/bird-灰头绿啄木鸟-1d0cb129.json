@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:08:03",
+  "requested_title": "Grey-headed Woodpecker",
+  "resolved_title": "Grey-headed woodpecker",
+  "title_aliases": [
+    "Grey-headed Woodpecker"
+  ],
+  "bird_id": "bird-灰头绿啄木鸟-1d0cb129",
+  "raw_file": "bird-灰头绿啄木鸟-1d0cb129.json",
+  "bird": {
+    "id": "bird-灰头绿啄木鸟-1d0cb129",
+    "name": "灰头绿啄木鸟",
+    "english_name": "Grey-headed woodpecker",
+    "latin_name": "Picus canus",
+    "summary": "灰头绿啄木鸟（学名：Picus canus）又名山鴷、山啄木、火老鸦、绿奔得儿木、香奔得儿木、黄啄木、灰頭綠啄木、黑枕綠啄木。是啄木鸟科绿啄木鸟属的鳥類。 生态环境 灰头绿啄木鸟夏季栖息于浅山林间，冬季见于平原近山林间，在乔木较多的城市中也常能够见到，常单独活动。",
+    "lat": "51",
+    "lng": "143",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/%D0%A1%D0%B5%D0%B4%D0%BE%D0%B9_%D0%B4%D1%8F%D1%82%D0%B5%D0%BB_%D1%83_%D0%B1%D0%BE%D0%BB%D0%BE%D1%82%D0%B0_%D1%80%D0%B5%D1%87%D0%BA%D0%B8_%D0%97%D0%B8%D0%BC%D1%91%D0%BD%D0%BA%D0%B8.jpg/960px-%D0%A1%D0%B5%D0%B4%D0%BE%D0%B9_%D0%B4%D1%8F%D1%82%D0%B5%D0%BB_%D1%83_%D0%B1%D0%BE%D0%BB%D0%BE%D1%82%D0%B0_%D1%80%D0%B5%D1%87%D0%BA%D0%B8_%D0%97%D0%B8%D0%BC%D1%91%D0%BD%D0%BA%D0%B8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-库页岛-54809d94",
+      "name": "库页岛",
+      "summary": "库页岛，俄羅斯稱萨哈林岛（俄語：Сахалин，羅馬化：Sakhalin），日本稱樺太島（日語：樺太／からふと，羅馬化：Karafuto），為北太平洋的一座島嶼，位於日本北海道以北、外滿州韃靼海峽以東。其面積約76,400平方公里，是俄羅…",
+      "lat": "51",
+      "lng": "143"
+    },
+    {
+      "id": "loc-北海道-b92efca0",
+      "name": "北海道",
+      "summary": "北海道（日語：北海道／ほっかいどう〔ほくかいだう〕，羅馬化：Hokkaidō，）是日本最北的一級行政區，亦是日本现时唯一以「道」為名的行政区划，首府為札幌市。北海道面積共83,423.84平方公里（包括仍有爭議的南千島群島在內），是日本面…",
+      "lat": "43",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰头绿啄木鸟-1d0cb129",
+      "subject": "灰头绿啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-库页岛-54809d94",
+      "object": "库页岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-headed woodpecker is found in wide parts of central, northern and eastern Europe, as well as a wide belt south of the boreal coniferous forests across Asia all the way to the Pacific coast, Sakhalin and Hokkaidō",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头绿啄木鸟-1d0cb129",
+      "subject": "灰头绿啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-北海道-b92efca0",
+      "object": "北海道",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-headed woodpecker is found in wide parts of central, northern and eastern Europe, as well as a wide belt south of the boreal coniferous forests across Asia all the way to the Pacific coast, Sakhalin and Hokkaidō",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头绿啄木鸟-1d0cb129",
+      "subject": "灰头绿啄木鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:11:05",
+  "requested_title": "Ashy-faced Owl",
+  "resolved_title": "Ashy-faced owl",
+  "title_aliases": [
+    "Ashy-faced Owl"
+  ],
+  "bird_id": "bird-ashy-faced-owl-bec627cc",
+  "raw_file": "bird-ashy-faced-owl-bec627cc.json",
+  "bird": {
+    "id": "bird-ashy-faced-owl-bec627cc",
+    "name": "Ashy-faced owl",
+    "english_name": "Ashy-faced owl",
+    "latin_name": "Tyto glaucops",
+    "summary": "The ashy-faced owl (Tyto glaucops) is a species of bird in the barn-owl family Tytonidae. It is found on the Caribbean island of Hispaniola…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tyto_glaucops.jpg/960px-Tyto_glaucops.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-ashy-faced-owl-bec627cc",
+      "subject": "Ashy-faced owl",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-ashy-faced-owl-bec627cc",
+      "subject": "Ashy-faced owl",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. The species is \"[w]idespread and locally common on Hispaniola.\" The \"...status of Lesser Antillean subspecies [is] insufficiently known, but nigrescens appears to be common on Dominica, whereas insularis is rare on St Vincent and Grenada and in Grenadines, and might be vulnerable to habitat destruction and pesticide usage.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-ashy-faced-owl-bec627cc",
+      "subject": "Ashy-faced owl",
+      "predicate": "threatened_by",
+      "object_id": "threat-pesticide-pollution",
+      "object": "农药污染",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "No immediate threats have been identified. The species is \"[w]idespread and locally common on Hispaniola.\" The \"...status of Lesser Antillean subspecies [is] insufficiently known, but nigrescens appears to be common on Dominica, whereas insularis is rare on St Vincent and Grenada and in Grenadines, and might be vulnerable to habitat destruction and pesticide usage.\"",
+      "object_summary": "农业化学品通过水体和食物链影响鸟类生存。"
+    }
+  ]
+}

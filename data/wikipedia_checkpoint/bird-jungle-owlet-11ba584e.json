@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:31:09",
+  "requested_title": "Jungle Owlet",
+  "resolved_title": "Jungle owlet",
+  "title_aliases": [
+    "Jungle Owlet"
+  ],
+  "bird_id": "bird-jungle-owlet-11ba584e",
+  "raw_file": "bird-jungle-owlet-11ba584e.json",
+  "bird": {
+    "id": "bird-jungle-owlet-11ba584e",
+    "name": "Jungle owlet",
+    "english_name": "Jungle owlet",
+    "latin_name": "Glaucidium radiatum",
+    "summary": "The jungle owlet (Glaucidium radiatum) or barred jungle owlet is native to the Indian Subcontinent. The species is often found singly, in p…",
+    "lat": "10.16972222",
+    "lng": "77.06111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Jungle_owlet_3.jpg/960px-Jungle_owlet_3.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西高止山脉-2da8035f",
+      "name": "西高止山脉",
+      "summary": "西高止山脉（Western Ghats，卡纳达语：ಸಹ್ಯಾದ್ರಿ）是印度南部的一座山脉，位于德干高原的西部，呈南北走向，长度约1600公里，海拔平均为900米，纵穿马哈拉施特拉邦、卡纳塔克邦和喀拉拉邦。西高止山脉东坡平缓，西坡陡峭。…",
+      "lat": "10.16972222",
+      "lng": "77.06111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-jungle-owlet-11ba584e",
+      "subject": "Jungle owlet",
+      "predicate": "distributed_in",
+      "object_id": "loc-西高止山脉-2da8035f",
+      "object": "西高止山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There are two subspecies, with that found in the Western Ghats sometimes considered a full species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jungle-owlet-11ba584e",
+      "subject": "Jungle owlet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

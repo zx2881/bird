@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:32:41",
+  "requested_title": "European Roller",
+  "resolved_title": "European roller",
+  "title_aliases": [
+    "European Roller"
+  ],
+  "bird_id": "bird-蓝胸佛法僧-0b11a481",
+  "raw_file": "bird-蓝胸佛法僧-0b11a481.json",
+  "bird": {
+    "id": "bird-蓝胸佛法僧-0b11a481",
+    "name": "蓝胸佛法僧",
+    "english_name": "European roller",
+    "latin_name": "Coracias garrulus",
+    "summary": "蓝胸佛法僧（学名：Coracias garrulus）为佛法僧科佛法僧属的鸟类。该物种在从欧洲到中亚的地区都有分布，其模式产地在瑞典。 習性 以昆蟲為食，屬於候鳥，每次產約四至五個白色的卵，雌鳥與雄鳥交替抱卵約18天，孵化後的雛鳥約三至四週後即可離巢。",
+    "lat": "13.5",
+    "lng": "39.25",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/European_Roller_%28Coracias_garrulus%29_%2816475688389%29.jpg/960px-European_Roller_%28Coracias_garrulus%29_%2816475688389%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-dogu-a-tembien-f365e80a",
+      "name": "Dogu'a Tembien",
+      "summary": "Dogu'a Tembien (Tigrinya: ደጉዓ ተምቤን, \"Upper Tembien\", sometimes transliterated as Degua Tembien or Dägʿa Tämben) is a wo…",
+      "lat": "13.5",
+      "lng": "39.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蓝胸佛法僧-0b11a481",
+      "subject": "蓝胸佛法僧",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The European roller is a long-distance migrant, wintering in Africa south of the Sahara in two distinct regions, from Senegal east to Cameroon and from Ethiopia west (with observations in the Degua Tembien mountains){{cite book |last1=Aerts |first1=R",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝胸佛法僧-0b11a481",
+      "subject": "蓝胸佛法僧",
+      "predicate": "distributed_in",
+      "object_id": "loc-dogu-a-tembien-f365e80a",
+      "object": "Dogu'a Tembien",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The European roller is a long-distance migrant, wintering in Africa south of the Sahara in two distinct regions, from Senegal east to Cameroon and from Ethiopia west (with observations in the Degua Tembien mountains){{cite book |last1=Aerts |first1=R",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蓝胸佛法僧-0b11a481",
+      "subject": "蓝胸佛法僧",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-蓝胸佛法僧-0b11a481",
+      "subject": "蓝胸佛法僧",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The northern areas of the breeding range have fared worst, with numbers in the Baltic states and northern Russia collapsing, and no birds left breeding in Estonia. Threats include hunting while on migration around the Mediterranean, and large numbers, possibly in the thousands, are killed for food in Oman",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    }
+  ]
+}

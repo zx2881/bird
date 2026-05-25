@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:16:00",
+  "requested_title": "Acorn Woodpecker",
+  "resolved_title": "Acorn woodpecker",
+  "title_aliases": [
+    "Acorn Woodpecker"
+  ],
+  "bird_id": "bird-acorn-woodpecker-2d4d8bc4",
+  "raw_file": "bird-acorn-woodpecker-2d4d8bc4.json",
+  "bird": {
+    "id": "bird-acorn-woodpecker-2d4d8bc4",
+    "name": "Acorn woodpecker",
+    "english_name": "Acorn woodpecker",
+    "latin_name": "Melanerpes formicivorus",
+    "summary": "The acorn woodpecker (Melanerpes formicivorus) is a medium-sized woodpecker with a length of around 20 cm (8 in), and an average weight of…",
+    "lat": "40",
+    "lng": "-113",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Acorn_woodpecker_holding_a_nut_in_its_beak-0225.jpg/960px-Acorn_woodpecker_holding_a_nut_in_its_beak-0225.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-美國西部-13f51a67",
+      "name": "美國西部",
+      "summary": "美國西部（英語：Western United States、 American West）指的是美國西部各州。由於美國自建國以來疆域多次向西擴展，因此美國西部的定義也隨著時代而變化。一般多以密西西比河作為美國東西部的分界線。如果采用廣義的…",
+      "lat": "40",
+      "lng": "-113"
+    },
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-acorn-woodpecker-2d4d8bc4",
+      "subject": "Acorn woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "formicivorus }} The acorn woodpecker (Melanerpes formicivorus) is a medium-sized woodpecker with a length of around , and an average weight of . It is found across Central America, as well as North into the western United States and South into parts of Colombia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-acorn-woodpecker-2d4d8bc4",
+      "subject": "Acorn woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-美國西部-13f51a67",
+      "object": "美國西部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "formicivorus }} The acorn woodpecker (Melanerpes formicivorus) is a medium-sized woodpecker with a length of around , and an average weight of . It is found across Central America, as well as North into the western United States and South into parts of Colombia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-acorn-woodpecker-2d4d8bc4",
+      "subject": "Acorn woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "formicivorus }} The acorn woodpecker (Melanerpes formicivorus) is a medium-sized woodpecker with a length of around , and an average weight of . It is found across Central America, as well as North into the western United States and South into parts of Colombia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-acorn-woodpecker-2d4d8bc4",
+      "subject": "Acorn woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-acorn-woodpecker-2d4d8bc4",
+      "subject": "Acorn woodpecker",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Acorn woodpeckers, like many other species, are threatened by habitat loss and degradation",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

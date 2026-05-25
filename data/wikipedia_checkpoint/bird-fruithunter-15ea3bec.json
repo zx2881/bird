@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T12:02:32",
+  "requested_title": "Fruithunter",
+  "resolved_title": "Fruithunter",
+  "title_aliases": [
+    "Fruithunter"
+  ],
+  "bird_id": "bird-fruithunter-15ea3bec",
+  "raw_file": "bird-fruithunter-15ea3bec.json",
+  "bird": {
+    "id": "bird-fruithunter-15ea3bec",
+    "name": "Fruithunter",
+    "english_name": "Fruithunter",
+    "latin_name": "Chlamydochaera jefferyi",
+    "summary": "The fruithunter or fruit-hunter (Chlamydochaera jefferyi), also known as the black-breasted fruit-hunter, is an enigmatic species of bird c…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Fruit-Hunter%2C_Mount_Kinabalu%2C_Borneo_%285836741794%29.jpg/960px-Fruit-Hunter%2C_Mount_Kinabalu%2C_Borneo_%285836741794%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-borneo-montane-rain-forests-b163cfe7",
+      "name": "Borneo montane rain forests",
+      "summary": "The Borneo montane rain forests is an ecoregion on the island of Borneo in Southeast Asia.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-fruithunter-15ea3bec",
+      "subject": "Fruithunter",
+      "predicate": "distributed_in",
+      "object_id": "loc-borneo-montane-rain-forests-b163cfe7",
+      "object": "Borneo montane rain forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Borneo montane rain forests. It is highly distinct from other thrushes, instead being convergent to Corvoidea such as trillers (Lalage) or true orioles (Oriolus)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fruithunter-15ea3bec",
+      "subject": "Fruithunter",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

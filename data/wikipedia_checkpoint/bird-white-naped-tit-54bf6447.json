@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:19:02",
+  "requested_title": "White-naped Tit",
+  "resolved_title": "White-naped tit",
+  "title_aliases": [
+    "White-naped Tit"
+  ],
+  "bird_id": "bird-white-naped-tit-54bf6447",
+  "raw_file": "bird-white-naped-tit-54bf6447.json",
+  "bird": {
+    "id": "bird-white-naped-tit-54bf6447",
+    "name": "White-naped tit",
+    "english_name": "White-naped tit",
+    "latin_name": "Machlolophus nuchalis",
+    "summary": "The white-naped tit (Machlolophus nuchalis), sometimes called white-winged tit, is a passerine bird in the tit family Paridae. It is endemi…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Adult_White_napped_Tit.jpg/960px-Adult_White_napped_Tit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-naped-tit-54bf6447",
+      "subject": "White-naped tit",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to India where it is found in dry thorn scrub forest in two disjunct populations, in western India and southern India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-naped-tit-54bf6447",
+      "subject": "White-naped tit",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

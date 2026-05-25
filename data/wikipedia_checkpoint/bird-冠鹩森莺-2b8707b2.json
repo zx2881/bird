@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:14:28",
+  "requested_title": "Wrenthrush",
+  "resolved_title": "Wrenthrush",
+  "title_aliases": [
+    "Wrenthrush"
+  ],
+  "bird_id": "bird-冠鹩森莺-2b8707b2",
+  "raw_file": "bird-冠鹩森莺-2b8707b2.json",
+  "bird": {
+    "id": "bird-冠鹩森莺-2b8707b2",
+    "name": "冠鹩森莺",
+    "english_name": "Wrenthrush",
+    "latin_name": "Zeledonia coronata",
+    "summary": "冠鹩森莺（學名：Zeledonia coronata，西班牙語：Reinita de Zeledón，台湾作冠鷯鶇），是雀形目冠鷯鶇科冠鷯鶇屬下的唯一一種鳥類。這種鳥類僅分佈於中美洲的哥斯大黎加及巴拿馬的高山森林區域，主要以昆蟲跟蜘蛛等無脊椎動物為食。由美國鳥類學家羅伯特·里奇…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Zeledonia_coronata_294579867.jpg/960px-Zeledonia_coronata_294579867.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-灌木林-7b37b103",
+      "name": "灌木林",
+      "summary": "灌木林与矮树林是一类特殊生物群系，其密度较灌丛高，高度较疏林矮。由于产生条件苛刻，灌木林只成片分布于两类地区。木干较灌木粗壮的可称为矮树林。 高山常绿阔叶云林 这种常绿阔叶亚型主要分布于菲律宾、苏门答腊等岛屿及中南美洲的安第斯山，常常位于…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-冠鹩森莺-2b8707b2",
+      "subject": "冠鹩森莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits montane evergreen forest and elfin forest, landscapes characterized by constant wetness and fog",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-冠鹩森莺-2b8707b2",
+      "subject": "冠鹩森莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-灌木林-7b37b103",
+      "object": "灌木林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits montane evergreen forest and elfin forest, landscapes characterized by constant wetness and fog",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-冠鹩森莺-2b8707b2",
+      "subject": "冠鹩森莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

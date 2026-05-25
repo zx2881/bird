@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:18:23",
+  "requested_title": "Dorst's Cisticola",
+  "resolved_title": "Dorst's cisticola",
+  "title_aliases": [
+    "Dorst's Cisticola"
+  ],
+  "bird_id": "bird-dorst-s-cisticola-f0e04e46",
+  "raw_file": "bird-dorst-s-cisticola-f0e04e46.json",
+  "bird": {
+    "id": "bird-dorst-s-cisticola-f0e04e46",
+    "name": "Dorst's cisticola",
+    "english_name": "Dorst's cisticola",
+    "latin_name": "Cisticola guinea",
+    "summary": "Dorst's cisticola (Cisticola guinea), also known as the plaintive cisticola, is a bird in the family Cisticolidae. It occurs in West Africa…",
+    "lat": "13.099",
+    "lng": "14.533",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Dorst%27s_Cisticola_%28Cisticola_guinea%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    },
+    {
+      "id": "loc-乍得湖-70dd4c2f",
+      "name": "乍得湖",
+      "summary": "乍得湖（卡努里語：Sádǝ，法語：Lac Tchad，英語：Lake Chad），是一个位于非洲中西部尼日利亚、尼日尔、乍得和喀麦隆交界處的淡水湖泊，也是西非重要的濕地生態系統。乍得湖流域面积100万平方千米，在19世紀曾是一個面積28,…",
+      "lat": "13.099",
+      "lng": "14.533"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dorst-s-cisticola-f0e04e46",
+      "subject": "Dorst's cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in West Africa and south of Lake Chad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dorst-s-cisticola-f0e04e46",
+      "subject": "Dorst's cisticola",
+      "predicate": "distributed_in",
+      "object_id": "loc-乍得湖-70dd4c2f",
+      "object": "乍得湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in West Africa and south of Lake Chad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dorst-s-cisticola-f0e04e46",
+      "subject": "Dorst's cisticola",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is dry savanna",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-dorst-s-cisticola-f0e04e46",
+      "subject": "Dorst's cisticola",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T09:37:36",
+  "requested_title": "Bridled White-eye",
+  "resolved_title": "Bridled white-eye",
+  "title_aliases": [
+    "Bridled White-eye"
+  ],
+  "bird_id": "bird-bridled-white-eye-f588b10b",
+  "raw_file": "bird-bridled-white-eye-f588b10b.json",
+  "bird": {
+    "id": "bird-bridled-white-eye-f588b10b",
+    "name": "Bridled white-eye",
+    "english_name": "Bridled white-eye",
+    "latin_name": "Zosterops conspicillatus",
+    "summary": "The bridled white-eye (Zosterops conspicillatus) (Chamorro name: nosa') is a species of white-eye native to the Mariana Islands and formerl…",
+    "lat": "16.7",
+    "lng": "145.78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Bridled_White-Eye.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-马里亚纳群岛-db630e8a",
+      "name": "马里亚纳群岛",
+      "summary": "马里亚纳群岛（英語：Mariana Islands）——直到20世纪初还被称为莱德隆群岛（Ladrone），西班牙语意为“强盗群岛”，为麦哲伦所命名，北太平洋上南北纵列的15座火山岛和一些珊瑚岛组成。源自日本附近延伸的海底山脉，马里亚纳群…",
+      "lat": "16.7",
+      "lng": "145.78"
+    },
+    {
+      "id": "loc-關島-60b863e4",
+      "name": "關島",
+      "summary": "Guam ( GWAHM; Chamorro: Guåhan [ˈɡʷɑhɑn]) is an island that is an organized, unincorporated territory of the United Sta…",
+      "lat": "13.5",
+      "lng": "144.8"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-bridled-white-eye-f588b10b",
+      "subject": "Bridled white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-马里亚纳群岛-db630e8a",
+      "object": "马里亚纳群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "conspicillatus) | genus = Zosterops | species = conspicillatus | authority = (Kittlitz, 1833) | synonyms = * Dicaeum conspicillatum }} The bridled white-eye (Zosterops conspicillatus) (Chamorro name: nosa) is a species of white-eye native to the Mariana Islands and formerly Guam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bridled-white-eye-f588b10b",
+      "subject": "Bridled white-eye",
+      "predicate": "distributed_in",
+      "object_id": "loc-關島-60b863e4",
+      "object": "關島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "conspicillatus) | genus = Zosterops | species = conspicillatus | authority = (Kittlitz, 1833) | synonyms = * Dicaeum conspicillatum }} The bridled white-eye (Zosterops conspicillatus) (Chamorro name: nosa) is a species of white-eye native to the Mariana Islands and formerly Guam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-bridled-white-eye-f588b10b",
+      "subject": "Bridled white-eye",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species' natural habitat is tropical forests, shrublands and urban areas",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-bridled-white-eye-f588b10b",
+      "subject": "Bridled white-eye",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:01:06",
+  "requested_title": "Fischer's Lovebird",
+  "resolved_title": "Fischer's lovebird",
+  "title_aliases": [
+    "Fischer's Lovebird"
+  ],
+  "bird_id": "bird-費沙氏情侶鸚鵡-09f44ca7",
+  "raw_file": "bird-費沙氏情侶鸚鵡-09f44ca7.json",
+  "bird": {
+    "id": "bird-費沙氏情侶鸚鵡-09f44ca7",
+    "name": "費沙氏情侶鸚鵡",
+    "english_name": "Fischer's lovebird",
+    "latin_name": "Agapornis fischeri",
+    "summary": "费氏牡丹鹦鹉（又譯費希氏情侶鸚鵡、費沙氏情侶鸚鸚）（學名：Agapornis fischeri，亦為 Agapornis personata fischeri），是非洲東岸坦桑尼亚及維多利亞湖附近草原的一種本土特有鸚鵡。而在卢旺达、蒲隆地、肯尼亚所見到的费氏牡丹鹦鹉，只是從籠中…",
+    "lat": "-1",
+    "lng": "33",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Agapornis_fischeri_-Ueno_Zoo%2C_Japan_-three-8a-4c.jpg/960px-Agapornis_fischeri_-Ueno_Zoo%2C_Japan_-three-8a-4c.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-維多利亞湖-42b29c04",
+      "name": "維多利亞湖",
+      "summary": "維多利亞湖（英語：Lake Victoria）是非洲最大的淡水湖和世界第二大淡水湖，面積68,870平方公里，僅次於蘇必略湖，也是世界上最大的熱帶淡水湖。 如果依含水量來比較，維多利亞湖共有2760立方公里的淡水量，排名世界第七。維多利亞…",
+      "lat": "-1",
+      "lng": "33"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-費沙氏情侶鸚鵡-09f44ca7",
+      "subject": "費沙氏情侶鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-維多利亞湖-42b29c04",
+      "object": "維多利亞湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Flock in tree in Serengeti, Tanzania Fischer's lovebird are native to a small area of east-central Africa, south and southeast of Lake Victoria in northern Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-費沙氏情侶鸚鵡-09f44ca7",
+      "subject": "費沙氏情侶鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|Flock in tree in Serengeti, Tanzania Fischer's lovebird are native to a small area of east-central Africa, south and southeast of Lake Victoria in northern Tanzania",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-費沙氏情侶鸚鵡-09f44ca7",
+      "subject": "費沙氏情侶鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:08:16",
+  "requested_title": "Laysan Finch",
+  "resolved_title": "Laysan finch",
+  "title_aliases": [
+    "Laysan Finch"
+  ],
+  "bird_id": "bird-laysan-finch-2ffe4758",
+  "raw_file": "bird-laysan-finch-2ffe4758.json",
+  "bird": {
+    "id": "bird-laysan-finch-2ffe4758",
+    "name": "Laysan finch",
+    "english_name": "Laysan finch",
+    "latin_name": "Telespiza cantans",
+    "summary": "The Laysan finch (Telespiza cantans), sometimes referred to by its Hawaiian name, ʻekupuʻu, is a species of Hawaiian honeycreeper, that is…",
+    "lat": "21.5",
+    "lng": "-158",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Laysanfinchr.jpg/960px-Laysanfinchr.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-歐胡島-c3e2957b",
+      "name": "歐胡島",
+      "summary": "瓦胡岛 （夏威夷語：Oʻahu，英語：Oahu，/oʊˈɑːhuː/），又譯為欧胡岛，或被称为“聚集之岛”，或“奧雅胡”，是夏威夷群島中面積第三大的島嶼，也是群島中人口最多的島嶼，聚集了夏威夷州总人口的大约三分之二。夏威夷州首府所在地檀香…",
+      "lat": "21.5",
+      "lng": "-158"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-laysan-finch-2ffe4758",
+      "subject": "Laysan finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-歐胡島-c3e2957b",
+      "object": "歐胡島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The fossil record shows that the finch once had a greater range in Hawaii, reaching as far as Oahu, and that birds on Laysan represent a relict population",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-laysan-finch-2ffe4758",
+      "subject": "Laysan finch",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-laysan-finch-2ffe4758",
+      "subject": "Laysan finch",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population is considered stable with the biggest threat being uncontrollable climate change",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

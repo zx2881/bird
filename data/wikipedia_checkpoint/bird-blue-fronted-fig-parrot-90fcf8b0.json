@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:02:48",
+  "requested_title": "Blue-fronted Fig Parrot",
+  "resolved_title": "Blue-fronted fig parrot",
+  "title_aliases": [
+    "Blue-fronted Fig Parrot"
+  ],
+  "bird_id": "bird-blue-fronted-fig-parrot-90fcf8b0",
+  "raw_file": "bird-blue-fronted-fig-parrot-90fcf8b0.json",
+  "bird": {
+    "id": "bird-blue-fronted-fig-parrot-90fcf8b0",
+    "name": "Blue-fronted fig parrot",
+    "english_name": "Blue-fronted fig parrot",
+    "latin_name": "Nannopsittacus gulielmitertii",
+    "summary": "The blue-fronted fig parrot (Nannopsittacus gulielmitertii) is a species of parrot in the family Psittaculidae. It is found in Salawati and…",
+    "lat": "-1.10666667",
+    "lng": "130.86638889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Cyclopsitta_gulielmitertii_qtl2.jpg/960px-Cyclopsitta_gulielmitertii_qtl2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-薩拉瓦蒂島-35029028",
+      "name": "薩拉瓦蒂島",
+      "summary": "薩拉瓦蒂島是印度尼西亞的島嶼，位於西巴布亞省（前身為西伊里安查亞省），屬於拉賈安帕特群島四大島嶼之一，面積1,623平方公里，群島其他主要島嶼有米蘇爾島、巴丹塔島和衛吉島。行政上北部由拉贾安帕特县、南部由索龙县管理。 参见 萨拉瓦蒂王国",
+      "lat": "-1.10666667",
+      "lng": "130.86638889"
+    },
+    {
+      "id": "loc-多貝拉伊半島-71004cfe",
+      "name": "多貝拉伊半島",
+      "summary": "多貝拉伊半島，又稱鳥頭半島（印尼語：Kepala Burung、荷蘭語：Vogelkop），是印度尼西亞西巴布亞省的大型半島，位於新畿內亞的西北部，東臨極樂鳥灣，南接賓圖尼灣，長約200公里、闊約300公里，南部沿海是平原，北部是海拔3,…",
+      "lat": "-1.5",
+      "lng": "132.5"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blue-fronted-fig-parrot-90fcf8b0",
+      "subject": "Blue-fronted fig parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-薩拉瓦蒂島-35029028",
+      "object": "薩拉瓦蒂島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Salawati and the Bird's Head Peninsula in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-fronted-fig-parrot-90fcf8b0",
+      "subject": "Blue-fronted fig parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-多貝拉伊半島-71004cfe",
+      "object": "多貝拉伊半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Salawati and the Bird's Head Peninsula in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-fronted-fig-parrot-90fcf8b0",
+      "subject": "Blue-fronted fig parrot",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Salawati and the Bird's Head Peninsula in New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blue-fronted-fig-parrot-90fcf8b0",
+      "subject": "Blue-fronted fig parrot",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

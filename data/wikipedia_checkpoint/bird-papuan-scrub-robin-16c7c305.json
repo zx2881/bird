@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:01:22",
+  "requested_title": "Papuan Scrub Robin",
+  "resolved_title": "Papuan scrub robin",
+  "title_aliases": [
+    "Papuan Scrub Robin"
+  ],
+  "bird_id": "bird-papuan-scrub-robin-16c7c305",
+  "raw_file": "bird-papuan-scrub-robin-16c7c305.json",
+  "bird": {
+    "id": "bird-papuan-scrub-robin-16c7c305",
+    "name": "Papuan scrub robin",
+    "english_name": "Papuan scrub robin",
+    "latin_name": "Drymodes beccarii",
+    "summary": "The Papuan scrub robin or New Guinea scrub robin (Drymodes beccarii) is a species of bird in the family Petroicidae. It was found to be gen…",
+    "lat": "-6",
+    "lng": "142",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Papuan_Scrub_Robin%2C_Varirata_National_Park%2C_Papua_New_Guinea_0A2A9113.jpg/960px-Papuan_Scrub_Robin%2C_Varirata_National_Park%2C_Papua_New_Guinea_0A2A9113.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-papuan-scrub-robin-16c7c305",
+      "subject": "Papuan scrub robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It was found to be genetically distinct from the northern scrub robin, with which it was formerly considered conspecific. It is found in New Guinea and the Aru Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-papuan-scrub-robin-16c7c305",
+      "subject": "Papuan scrub robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T15:13:07",
+  "requested_title": "Peruvian Wren",
+  "resolved_title": "Peruvian wren",
+  "title_aliases": [
+    "Peruvian Wren"
+  ],
+  "bird_id": "bird-peruvian-wren-7163d01f",
+  "raw_file": "bird-peruvian-wren-7163d01f.json",
+  "bird": {
+    "id": "bird-peruvian-wren-7163d01f",
+    "name": "Peruvian wren",
+    "english_name": "Peruvian wren",
+    "latin_name": "Cinnycerthia peruana",
+    "summary": "The Peruvian wren (Cinnycerthia peruana) is a species of bird in the family Troglodytidae. It is endemic to Peru.",
+    "lat": "-6.22",
+    "lng": "-77.85",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cinnycerthia_peruana_75752277.jpg/960px-Cinnycerthia_peruana_75752277.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亚马孙大区-38aaf113",
+      "name": "亚马孙大区",
+      "summary": "亚马孙大区是秘鲁北部的一个行政区，首府查查波亚斯。亚马孙大区西接卡哈马卡大区，南邻拉利伯塔德大区，东接洛雷托大区和圣马丁大区，北面和西面与厄瓜多尔接壤。 亚马孙区大部分面积被热带雨林覆盖（72.93%）。",
+      "lat": "-6.22",
+      "lng": "-77.85"
+    },
+    {
+      "id": "loc-阿亚库乔-0402fe64",
+      "name": "阿亚库乔",
+      "summary": "阿亚库乔（西班牙語：Ayacucho）是秘鲁的一个城市，隶属阿亚库乔大区瓦曼加省，为阿亚库乔大区首府。阿亚库乔市内有33座教堂，每一座代表耶稣生命的一年。阿亚库乔市人口151,019（2007年）。1824年，在此地发生了“阿亚库乔战役”…",
+      "lat": "-13.16305556",
+      "lng": "-74.22444444"
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-peruvian-wren-7163d01f",
+      "subject": "Peruvian wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-亚马孙大区-38aaf113",
+      "object": "亚马孙大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Peruvian wren is found in the Andes of Peru between the departments of Amazonas and Ayacucho",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-peruvian-wren-7163d01f",
+      "subject": "Peruvian wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿亚库乔-0402fe64",
+      "object": "阿亚库乔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Peruvian wren is found in the Andes of Peru between the departments of Amazonas and Ayacucho",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-peruvian-wren-7163d01f",
+      "subject": "Peruvian wren",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits wet montane forest, secondary forest, and their edges",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-peruvian-wren-7163d01f",
+      "subject": "Peruvian wren",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits wet montane forest, secondary forest, and their edges",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-peruvian-wren-7163d01f",
+      "subject": "Peruvian wren",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-peruvian-wren-7163d01f",
+      "subject": "Peruvian wren",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The IUCN has assessed the Peruvian wren as being of Least Concern. It is \"[q]uite common in suitable habitat in parts of its range\" but its \"population is suspected to be in decline owing to ongoing habitat destruction and fragmentation.\"",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

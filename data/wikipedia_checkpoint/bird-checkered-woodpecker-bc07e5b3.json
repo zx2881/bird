@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:21:10",
+  "requested_title": "Checkered Woodpecker",
+  "resolved_title": "Checkered woodpecker",
+  "title_aliases": [
+    "Checkered Woodpecker"
+  ],
+  "bird_id": "bird-checkered-woodpecker-bc07e5b3",
+  "raw_file": "bird-checkered-woodpecker-bc07e5b3.json",
+  "bird": {
+    "id": "bird-checkered-woodpecker-bc07e5b3",
+    "name": "Checkered woodpecker",
+    "english_name": "Checkered woodpecker",
+    "latin_name": "Veniliornis mixtus",
+    "summary": "The checkered woodpecker (Veniliornis mixtus) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is found in Ar…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Checkered_woodpecker_%28Veniliornis_mixtus_mixtus%29_female_Colonia.jpg/960px-Checkered_woodpecker_%28Veniliornis_mixtus_mixtus%29_female_Colonia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-carl-eduard-hellmayr-85bc15e6",
+      "name": "Carl Eduard Hellmayr",
+      "summary": "Carl Eduard Hellmayr (29 January 1878 – 24 February 1944) was an Austrian ornithologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-gallery-forest-0e387a3f",
+      "name": "Gallery forest",
+      "summary": "A gallery forest is one formed as a corridor along rivers or wetlands, projecting into landscapes that are otherwise on…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-checkered-woodpecker-bc07e5b3",
+      "subject": "Checkered woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-carl-eduard-hellmayr-85bc15e6",
+      "object": "Carl Eduard Hellmayr",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "berlepschi (Hellmayr, 1915), central and eastern Argentina The checkered woodpecker primarily inhabits humid open woodlands and gallery forest, but also occurs in savanna and cerrado woodlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-checkered-woodpecker-bc07e5b3",
+      "subject": "Checkered woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-gallery-forest-0e387a3f",
+      "object": "Gallery forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "berlepschi (Hellmayr, 1915), central and eastern Argentina The checkered woodpecker primarily inhabits humid open woodlands and gallery forest, but also occurs in savanna and cerrado woodlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-checkered-woodpecker-bc07e5b3",
+      "subject": "Checkered woodpecker",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "berlepschi (Hellmayr, 1915), central and eastern Argentina The checkered woodpecker primarily inhabits humid open woodlands and gallery forest, but also occurs in savanna and cerrado woodlands",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-checkered-woodpecker-bc07e5b3",
+      "subject": "Checkered woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:36:49",
+  "requested_title": "Mountain Oriole",
+  "resolved_title": "Mountain oriole",
+  "title_aliases": [
+    "Mountain Oriole"
+  ],
+  "bird_id": "bird-mountain-oriole-5848e7ad",
+  "raw_file": "bird-mountain-oriole-5848e7ad.json",
+  "bird": {
+    "id": "bird-mountain-oriole-5848e7ad",
+    "name": "Mountain oriole",
+    "english_name": "Mountain oriole",
+    "latin_name": "Oriolus percivali",
+    "summary": "The mountain oriole (Oriolus percivali) is a bird species in the family Oriolidae. It is native to the Albertine Rift montane forests, Ugan…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Oriolus_percivali_-_avocat_-_602207641.jpeg/960px-Oriolus_percivali_-_avocat_-_602207641.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    },
+    {
+      "id": "loc-乌干达-8bd6d93b",
+      "name": "乌干达",
+      "summary": "烏干達共和國（斯瓦希里語：Jamhuri ya Uganda，英語：Republic of Uganda），通稱烏干達，是位於東非的內陸國家。 烏干達名稱來自於過去班圖人建立的布干達王國。歐洲列強在十九世紀後葉進入東非內陸後，烏干達在18…",
+      "lat": "1",
+      "lng": "32"
+    },
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mountain-oriole-5848e7ad",
+      "subject": "Mountain oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests, Uganda and Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-oriole-5848e7ad",
+      "subject": "Mountain oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌干达-8bd6d93b",
+      "object": "乌干达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests, Uganda and Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-oriole-5848e7ad",
+      "subject": "Mountain oriole",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Albertine Rift montane forests, Uganda and Kenya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mountain-oriole-5848e7ad",
+      "subject": "Mountain oriole",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

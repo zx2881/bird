@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:05:19",
+  "requested_title": "Rufous-tailed Scrub Robin",
+  "resolved_title": "Rufous-tailed scrub robin",
+  "title_aliases": [
+    "Rufous-tailed Scrub Robin"
+  ],
+  "bird_id": "bird-棕薮鸲-9b74edaf",
+  "raw_file": "bird-棕薮鸲-9b74edaf.json",
+  "bird": {
+    "id": "bird-棕薮鸲-9b74edaf",
+    "name": "棕薮鸲",
+    "english_name": "Rufous-tailed scrub robin",
+    "latin_name": "Cercotrichas galactotes",
+    "summary": "棕薮鸲（学名：Cercotrichas galactotes），是雀形目鹟科的一种鸟类。 特征 棕薮鸲体重约20.3克，翼长约85.7毫米，嘴峰长约19.2毫米，喙宽度约3.8毫米，喙厚度约4毫米，跗蹠长约24毫米，尾长约70.5毫米。棕薮鸲是候鸟，其栖息在半开放的灌木丛中，食…",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Agrobate_roux_au_Parc_National_de_l%27Ichkeul_%28Tunisia%29%2C_crop.jpg/960px-Agrobate_roux_au_Parc_National_de_l%27Ichkeul_%28Tunisia%29%2C_crop.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕薮鸲-9b74edaf",
+      "subject": "棕薮鸲",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is partially migratory, wintering in Africa (Kenya, South Sudan, Ethiopia, Somalia) and India",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕薮鸲-9b74edaf",
+      "subject": "棕薮鸲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

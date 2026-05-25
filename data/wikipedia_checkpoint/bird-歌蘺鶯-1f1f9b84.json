@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:24:13",
+  "requested_title": "Melodious Warbler",
+  "resolved_title": "Melodious warbler",
+  "title_aliases": [
+    "Melodious Warbler"
+  ],
+  "bird_id": "bird-歌蘺鶯-1f1f9b84",
+  "raw_file": "bird-歌蘺鶯-1f1f9b84.json",
+  "bird": {
+    "id": "bird-歌蘺鶯-1f1f9b84",
+    "name": "歌蘺鶯",
+    "english_name": "Melodious warbler",
+    "latin_name": "Hippolais polyglotta",
+    "summary": "歌篱莺（學名：Hippolais polyglotta，又稱优音篱莺）是舊世界鶯科的一種，屬於蘺鶯屬（Hippolais）。該鳥類主要繁殖於歐洲西南部和非洲西北部，並於冬季遷徙至撒哈拉以南的非洲過冬。這種小型雀形目鳥類常見於開闊的灌木林地和有灌木的森林邊緣。牠們在樹或灌木中築巢…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Melodious_Warbler_2025_05_23.jpg/960px-Melodious_Warbler_2025_05_23.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-歌蘺鶯-1f1f9b84",
+      "subject": "歌蘺鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is migratory, wintering in sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-歌蘺鶯-1f1f9b84",
+      "subject": "歌蘺鶯",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

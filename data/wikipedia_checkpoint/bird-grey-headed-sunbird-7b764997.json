@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:59:07",
+  "requested_title": "Grey-headed Sunbird",
+  "resolved_title": "Grey-headed sunbird",
+  "title_aliases": [
+    "Grey-headed Sunbird"
+  ],
+  "bird_id": "bird-grey-headed-sunbird-7b764997",
+  "raw_file": "bird-grey-headed-sunbird-7b764997.json",
+  "bird": {
+    "id": "bird-grey-headed-sunbird-7b764997",
+    "name": "Grey-headed sunbird",
+    "english_name": "Grey-headed sunbird",
+    "latin_name": "Deleornis axillaris",
+    "summary": "The grey-headed sunbird (Deleornis axillaris) is a small passerine bird which breeds in mixed forest in the Democratic Republic of the Cong…",
+    "lat": "-3",
+    "lng": "24",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Deleornis_axillaris_257851462.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安东-赖歇诺-43b8e534",
+      "name": "安东·赖歇诺",
+      "summary": "安东·赖歇诺（德語：Anton Reichenow，1847年8月1日—1941年7月6日）是德国鳥類學家和爬虫两栖类学家。 生平 安东·赖歇诺是德国鸟类研究学家吉恩·路易斯·卡巴尼斯的女婿，1874年至1921年在柏林自然博物馆长期工作…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    },
+    {
+      "id": "loc-乌干达-8bd6d93b",
+      "name": "乌干达",
+      "summary": "烏干達共和國（斯瓦希里語：Jamhuri ya Uganda，英語：Republic of Uganda），通稱烏干達，是位於東非的內陸國家。 烏干達名稱來自於過去班圖人建立的布干達王國。歐洲列強在十九世紀後葉進入東非內陸後，烏干達在18…",
+      "lat": "1",
+      "lng": "32"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-headed-sunbird-7b764997",
+      "subject": "Grey-headed sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-安东-赖歇诺-43b8e534",
+      "object": "安东·赖歇诺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-headed sunbird (Deleornis axillaris) is a small passerine bird which breeds in mixed forest in the Democratic Republic of the Congo and western Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-headed-sunbird-7b764997",
+      "subject": "Grey-headed sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-headed sunbird (Deleornis axillaris) is a small passerine bird which breeds in mixed forest in the Democratic Republic of the Congo and western Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-headed-sunbird-7b764997",
+      "subject": "Grey-headed sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-乌干达-8bd6d93b",
+      "object": "乌干达",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-headed sunbird (Deleornis axillaris) is a small passerine bird which breeds in mixed forest in the Democratic Republic of the Congo and western Uganda",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-headed-sunbird-7b764997",
+      "subject": "Grey-headed sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

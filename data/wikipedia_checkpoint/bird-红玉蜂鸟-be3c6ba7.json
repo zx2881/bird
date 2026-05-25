@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:05:55",
+  "requested_title": "Brazilian Ruby",
+  "resolved_title": "Brazilian ruby",
+  "title_aliases": [
+    "Brazilian Ruby"
+  ],
+  "bird_id": "bird-红玉蜂鸟-be3c6ba7",
+  "raw_file": "bird-红玉蜂鸟-be3c6ba7.json",
+  "bird": {
+    "id": "bird-红玉蜂鸟-be3c6ba7",
+    "name": "红玉蜂鸟",
+    "english_name": "Brazilian ruby",
+    "latin_name": "Heliodoxa rubricauda",
+    "summary": "The Brazilian ruby (Heliodoxa rubricauda) is a species of hummingbird in the \"brilliants\", tribe Heliantheini , in the subfamily Lesbiinae.…",
+    "lat": "-12",
+    "lng": "-41",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Clytolaema_rubricauda_female.jpg/960px-Clytolaema_rubricauda_female.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴伊亞州-6cbd20af",
+      "name": "巴伊亞州",
+      "summary": "巴伊亚（葡萄牙語：Bahia）是巴西的26个州之一，地处东北部。面积565,733平方千米，首府是萨尔瓦多。巴伊亚北部是阿拉戈斯州、塞尔希培州、伯南布哥州和皮奥伊州，东部是大西洋，西部有戈亚斯州和托坎廷斯州，南部有米纳斯吉拉斯州和聖埃斯皮…",
+      "lat": "-12",
+      "lng": "-41"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红玉蜂鸟-be3c6ba7",
+      "subject": "红玉蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴伊亞州-6cbd20af",
+      "object": "巴伊亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Brazilian ruby is found in eastern and southeastern Brazil from Bahia south to Rio Grande do Sul",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红玉蜂鸟-be3c6ba7",
+      "subject": "红玉蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits the interior of forests, scrublands, parks, and banana plantations, and is frequently seen at feeders",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-红玉蜂鸟-be3c6ba7",
+      "subject": "红玉蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

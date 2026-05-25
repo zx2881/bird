@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:24:06",
+  "requested_title": "Blackish Cinclodes",
+  "resolved_title": "Blackish cinclodes",
+  "title_aliases": [
+    "Blackish Cinclodes"
+  ],
+  "bird_id": "bird-blackish-cinclodes-b7f92198",
+  "raw_file": "bird-blackish-cinclodes-b7f92198.json",
+  "bird": {
+    "id": "bird-blackish-cinclodes-b7f92198",
+    "name": "Blackish cinclodes",
+    "english_name": "Blackish cinclodes",
+    "latin_name": "Cinclodes antarcticus",
+    "summary": "The blackish cinclodes (Cinclodes antarcticus) is a Near Threatened passerine bird in the Furnariinae subfamily of the ovenbird family Furn…",
+    "lat": "-55.98",
+    "lng": "-67.28916667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Blackish_Cinclodes_Falklands.jpg/960px-Blackish_Cinclodes_Falklands.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-合恩角-bbc71612",
+      "name": "合恩角",
+      "summary": "合恩角（荷蘭語：Kaap Hoorn，西班牙語：Cabo de Hornos）是南美洲智利火地群岛南端的陆岬，位於合恩島，被广泛认为是南美洲的最南端。它的座標是南緯55度59分00秒，西經67度17分00秒。這裏的天氣長達半年以上有下雪機…",
+      "lat": "-55.98",
+      "lng": "-67.28916667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-blackish-cinclodes-b7f92198",
+      "subject": "Blackish cinclodes",
+      "predicate": "distributed_in",
+      "object_id": "loc-合恩角-bbc71612",
+      "object": "合恩角",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "maculirostris is found in southernmost mainland Chile, both Chilean and Argentine Tierra del Fuego, and other islands in the Cape Horn Archipelago. The blackish cinclodes is primarily coastal though it does range as far inland as",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-blackish-cinclodes-b7f92198",
+      "subject": "Blackish cinclodes",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

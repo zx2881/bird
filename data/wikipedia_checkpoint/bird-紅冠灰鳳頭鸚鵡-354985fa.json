@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:30:36",
+  "requested_title": "Gang-gang Cockatoo",
+  "resolved_title": "Gang-gang cockatoo",
+  "title_aliases": [
+    "Gang-gang Cockatoo"
+  ],
+  "bird_id": "bird-紅冠灰鳳頭鸚鵡-354985fa",
+  "raw_file": "bird-紅冠灰鳳頭鸚鵡-354985fa.json",
+  "bird": {
+    "id": "bird-紅冠灰鳳頭鸚鵡-354985fa",
+    "name": "紅冠灰鳳頭鸚鵡",
+    "english_name": "Gang-gang cockatoo",
+    "latin_name": "Callocephalon fimbriatum",
+    "summary": "红冠灰凤头鹦鹉（學名：Callocephalon fimbriatum，台湾作甘甘鳳頭鸚鵡），又名刚刚凤头鹦鹉、刚刚巴丹、刚刚巴旦、甘甘巴丹、红冠巴丹、红冠巴旦，分布於澳大利亚东南部和塔斯马尼亚。它们生活在7月白天温度高於0℃、海拔2,000米以下的地区，夏季栖息於澳大利亚较为…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Callocephalon_fimbriatum_male_-_Callum_Brae.jpg/960px-Callocephalon_fimbriatum_male_-_Callum_Brae.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紅冠灰鳳頭鸚鵡-354985fa",
+      "subject": "紅冠灰鳳頭鸚鵡",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "fimbriatum }} The gang-gang cockatoo (Callocephalon fimbriatum) is a parrot found in the cooler and wetter forests and woodlands of Australia, particularly alpine bushland",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅冠灰鳳頭鸚鵡-354985fa",
+      "subject": "紅冠灰鳳頭鸚鵡",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-紅冠灰鳳頭鸚鵡-354985fa",
+      "subject": "紅冠灰鳳頭鸚鵡",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "As a result, the gang-gang is now listed as vulnerable in New South Wales. It is protected as a vulnerable species under the Biodiversity Conservation Act 2016 (NSW). This protection status as a threatened species makes it a Tier 1 criminal offence for a person or corporation to knowingly damage the bird's habitat. Damage is defined to include \"damage caused by removing any part of the habitat\". Habitat is defined to include \"an area periodically or occasionally occupied by a species\". In July 2021, an Australian Department of the Environment and Energy spokesperson stated the population has declined by approximately 69% in the last three generations, or 21 years and in addition to this decline, the species has suffered direct mortality and habitat loss during the 2019–20 Australian bushfire season",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

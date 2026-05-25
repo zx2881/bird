@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:17:26",
+  "requested_title": "Yellow-headed Warbler",
+  "resolved_title": "Yellow-headed warbler",
+  "title_aliases": [
+    "Yellow-headed Warbler"
+  ],
+  "bird_id": "bird-yellow-headed-warbler-becfadd8",
+  "raw_file": "bird-yellow-headed-warbler-becfadd8.json",
+  "bird": {
+    "id": "bird-yellow-headed-warbler-becfadd8",
+    "name": "Yellow-headed warbler",
+    "english_name": "Yellow-headed warbler",
+    "latin_name": "Teretistris fernandinae",
+    "summary": "The yellow-headed warbler (Teretistris fernandinae) is one of two species of bird in the Cuban warbler family Teretistridae. It is endemic…",
+    "lat": "21.75",
+    "lng": "-82.85",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Yellow-headed_Warbler_%28Teretistris_fernandinae%29_cropped.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-青年岛-8a75439d",
+      "name": "青年岛",
+      "summary": "青年岛（西班牙語：Isla de la Juventud），原名皮诺斯岛（Isla de Pinos，意为“松树岛”），古巴第二大岛，位于阿特米萨省正南，距古巴岛100公里，青年岛及附近小岛属青年岛隶属于青年岛特别市镇。该岛面积2,419…",
+      "lat": "21.75",
+      "lng": "-82.85"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-headed-warbler-becfadd8",
+      "subject": "Yellow-headed warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-青年岛-8a75439d",
+      "object": "青年岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The yellow-headed warbler is found in far western mainland Cuba, Isla de la Juventud (Isle of Pines), and the nearby Cayo Cantiles",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-headed-warbler-becfadd8",
+      "subject": "Yellow-headed warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

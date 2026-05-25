@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:01:10",
+  "requested_title": "Slaty-blue Flycatcher",
+  "resolved_title": "Slaty-blue flycatcher",
+  "title_aliases": [
+    "Slaty-blue Flycatcher"
+  ],
+  "bird_id": "bird-灰蓝姬鹟-352ef0da",
+  "raw_file": "bird-灰蓝姬鹟-352ef0da.json",
+  "bird": {
+    "id": "bird-灰蓝姬鹟-352ef0da",
+    "name": "灰蓝姬鹟",
+    "english_name": "Slaty-blue flycatcher",
+    "latin_name": "Ficedula tricolor",
+    "summary": "灰蓝姬鶲（学名：Ficedula tricolor）为鶲科姬鶲属的鸟类。该物种的模式产地在尼泊尔。 特征 灰蓝姬鹟体重约8.26克，翼长约60.8毫米，嘴峰长约11.1毫米，喙宽度约3.1毫米，喙厚度约2.4毫米，跗蹠长约17.7毫米，尾长约54.2毫米。灰蓝姬鹟在其分布区内为…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Slaty-backed_Flycatcher_male.jpg/960px-Slaty-backed_Flycatcher_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-云南省-f689e1a8",
+      "name": "云南省",
+      "summary": "云南省，简称云或滇，因清代境內有迤东道、迤西道、迤南道三迤，故又簡稱迤，是中华人民共和国西南边疆地区的省份。云南地形复杂多变，以高原与山地为主，海拔落差大，呈“西北高、东南低”地势格局。气候类型多样，从高原气候到热带、亚热带气候均有分布，…",
+      "lat": "25.04944444",
+      "lng": "102.70888889"
+    },
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "中南半岛（法語：Indochine），又稱印度支那半島（简称印度支那、印支）、东南亚大陆地区、东南亚半岛地区等，是亞洲東南部東臨南海、西瀕印度洋的半島，在印度次大陸以東、中国大陆以南，包括今日的緬甸、泰國、老撾、柬埔寨、越南、马来半岛等地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰蓝姬鹟-352ef0da",
+      "subject": "灰蓝姬鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas, centre China, Yunnan and northern Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰蓝姬鹟-352ef0da",
+      "subject": "灰蓝姬鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-云南省-f689e1a8",
+      "object": "云南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas, centre China, Yunnan and northern Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰蓝姬鹟-352ef0da",
+      "subject": "灰蓝姬鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas, centre China, Yunnan and northern Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰蓝姬鹟-352ef0da",
+      "subject": "灰蓝姬鹟",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-灰蓝姬鹟-352ef0da",
+      "subject": "灰蓝姬鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

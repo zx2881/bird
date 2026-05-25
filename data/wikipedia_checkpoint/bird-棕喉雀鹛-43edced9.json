@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:42:23",
+  "requested_title": "Rufous-throated Fulvetta",
+  "resolved_title": "Rufous-throated fulvetta",
+  "title_aliases": [
+    "Rufous-throated Fulvetta"
+  ],
+  "bird_id": "bird-棕喉雀鹛-43edced9",
+  "raw_file": "bird-棕喉雀鹛-43edced9.json",
+  "bird": {
+    "id": "bird-棕喉雀鹛-43edced9",
+    "name": "棕喉雀鹛",
+    "english_name": "Rufous-throated fulvetta",
+    "latin_name": "Schoeniparus rufogularis",
+    "summary": "棕喉雀鹛（学名：Schoeniparus rufogularis），是画眉科的一种，分布于不丹、孟加拉国、老挝、中国大陆、越南、印度、泰国、缅甸和柬埔寨。该物种的保护状况被评为无危。 棕喉雀鹛的栖息地包括亚热带或热带的湿润低地林和亚热带或热带的（低地）干燥疏灌丛。该物种的模式产…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Rufous-throated_Fulvetta_Dehing_Patkai_Assam_India_April_2019.jpg/960px-Rufous-throated_Fulvetta_Dehing_Patkai_Assam_India_April_2019.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "中南半岛（法語：Indochine），又稱印度支那半島（简称印度支那、印支）、东南亚大陆地区、东南亚半岛地区等，是亞洲東南部東臨南海、西瀕印度洋的半島，在印度次大陸以東、中国大陆以南，包括今日的緬甸、泰國、老撾、柬埔寨、越南、马来半岛等地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕喉雀鹛-43edced9",
+      "subject": "棕喉雀鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| author-link = Louis Mandelli | date = 1873 | title = New Birds from Sikhim | journal = Stray Feathers | volume = 1 | issue = 5 | page = 416 }} | synonyms = * Minla Rufogularis (protonym) }} The rufous-throated fulvetta (Schoeniparus rufogularis) is a species of bird in the family Pellorneidae. It is found in southeastern Asia from the Himalayas through Indochina to southwestern Cambodia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕喉雀鹛-43edced9",
+      "subject": "棕喉雀鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| author-link = Louis Mandelli | date = 1873 | title = New Birds from Sikhim | journal = Stray Feathers | volume = 1 | issue = 5 | page = 416 }} | synonyms = * Minla Rufogularis (protonym) }} The rufous-throated fulvetta (Schoeniparus rufogularis) is a species of bird in the family Pellorneidae. It is found in southeastern Asia from the Himalayas through Indochina to southwestern Cambodia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕喉雀鹛-43edced9",
+      "subject": "棕喉雀鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

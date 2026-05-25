@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:05:43",
+  "requested_title": "Western Quail-thrush",
+  "resolved_title": "Western quail-thrush",
+  "title_aliases": [
+    "Western Quail-thrush"
+  ],
+  "bird_id": "bird-western-quail-thrush-a261b812",
+  "raw_file": "bird-western-quail-thrush-a261b812.json",
+  "bird": {
+    "id": "bird-western-quail-thrush-a261b812",
+    "name": "Western quail-thrush",
+    "english_name": "Western quail-thrush",
+    "latin_name": "Cinclosoma marginatum",
+    "summary": "Western quail-thrush (Cinclosoma marginatum) is a species of bird in the family Cinclosomatidae. It is found in arid inland habitat in sout…",
+    "lat": "-26",
+    "lng": "121",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Cinclosoma_marginatum_-_Nathan_Ruser_-_439333544.jpeg/960px-Cinclosoma_marginatum_-_Nathan_Ruser_-_439333544.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-西澳大利亚州-2d3ebb38",
+      "name": "西澳大利亚州",
+      "summary": "西澳大利亚州（英語：Western Australia，缩写为WA），簡稱西澳，是澳大利亚联邦的州，位於澳大利亚西部，今劃分為142個地方政府區域，幅員廣達2,525,500平方公里，佔全國總面積1/3，是澳洲面積最廣大之州，亦全球面積僅…",
+      "lat": "-26",
+      "lng": "121"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-western-quail-thrush-a261b812",
+      "subject": "Western quail-thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-西澳大利亚州-2d3ebb38",
+      "object": "西澳大利亚州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| last3 = Dolman | first3 = Gaynor | last4 = Pedler | first4 = Lynn | last5 = Joseph | first5 = Leo | title = Evolution of arid zone birds in Australia: Leapfrog distribution patterns and mesic-arid connections in quail-thrush (Cinclosoma, Cinclosomatidae) | doi = 10.1016/j.ympev.2011.09.026 | journal = Molecular Phylogenetics and Evolution | volume = 62 | issue = 1 | pages = 286–95 | year = 2012 | pmid = 22040766| bibcode = 2012MolPE..62..286T }} It is found in arid inland habitat in south-central Western Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-western-quail-thrush-a261b812",
+      "subject": "Western quail-thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

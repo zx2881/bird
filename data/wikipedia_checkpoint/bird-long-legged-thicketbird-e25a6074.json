@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:48:44",
+  "requested_title": "Long-legged Thicketbird",
+  "resolved_title": "Long-legged thicketbird",
+  "title_aliases": [
+    "Long-legged Thicketbird"
+  ],
+  "bird_id": "bird-long-legged-thicketbird-e25a6074",
+  "raw_file": "bird-long-legged-thicketbird-e25a6074.json",
+  "bird": {
+    "id": "bird-long-legged-thicketbird-e25a6074",
+    "name": "Long-legged thicketbird",
+    "english_name": "Long-legged thicketbird",
+    "latin_name": "Cincloramphus rufus",
+    "summary": "The long-legged thicketbird (Cincloramphus rufus) is a small bird endemic to Fiji. The species is sometimes known as the long-legged warble…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Cincloramphus_rufus_-_Forest_Botial-Jarvis_-_341734673.jpeg/960px-Cincloramphus_rufus_-_Forest_Botial-Jarvis_-_341734673.jpeg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-long-legged-thicketbird-e25a6074",
+      "subject": "Long-legged thicketbird",
+      "predicate": "lives_in",
+      "object_id": "hab-open-mountain",
+      "object": "开阔山地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits old-growth forest in mountainous areas on Viti Levu, usually in habitat adjacent to streams",
+      "object_summary": "地形开阔且便于大翼展鸟类活动的山地区域。"
+    },
+    {
+      "subject_id": "bird-long-legged-thicketbird-e25a6074",
+      "subject": "Long-legged thicketbird",
+      "predicate": "lives_in",
+      "object_id": "hab-mature-forest",
+      "object": "成熟森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits old-growth forest in mountainous areas on Viti Levu, usually in habitat adjacent to streams",
+      "object_summary": "具备成熟林冠和树洞资源的森林生境。"
+    },
+    {
+      "subject_id": "bird-long-legged-thicketbird-e25a6074",
+      "subject": "Long-legged thicketbird",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    },
+    {
+      "subject_id": "bird-long-legged-thicketbird-e25a6074",
+      "subject": "Long-legged thicketbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Threats include some logging and the impact of introduced predators (the small Asian mongoose and the black rat)",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    },
+    {
+      "subject_id": "bird-long-legged-thicketbird-e25a6074",
+      "subject": "Long-legged thicketbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-invasive-predators",
+      "object": "外来捕食者",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Threats include some logging and the impact of introduced predators (the small Asian mongoose and the black rat)",
+      "object_summary": "岛屿鸟类常受猫、鼬和鼠等外来种影响。"
+    }
+  ]
+}

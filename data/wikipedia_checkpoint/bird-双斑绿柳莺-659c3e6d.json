@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:56:37",
+  "requested_title": "Two-barred Warbler",
+  "resolved_title": "Two-barred warbler",
+  "title_aliases": [
+    "Two-barred Warbler"
+  ],
+  "bird_id": "bird-双斑绿柳莺-659c3e6d",
+  "raw_file": "bird-双斑绿柳莺-659c3e6d.json",
+  "bird": {
+    "id": "bird-双斑绿柳莺-659c3e6d",
+    "name": "双斑绿柳莺",
+    "english_name": "Two-barred warbler",
+    "latin_name": "Phylloscopus plumbeitarsus",
+    "summary": "双斑绿柳莺（港台作雙斑柳鶯，学名：Phylloscopus plumbeitarsus）为柳莺科柳莺属的鸟类。在中国大陆，分布于内蒙古、东北、河北、山东、山西、西至青海、甘肃、四川、西藏、南至广东、云南、西藏、海南等地。双斑绿柳莺是候鸟，其栖息在密集的高大树木组成的森林中，该物…",
+    "lat": "43",
+    "lng": "125",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sibirisk_lunds%C3%A5ngare%2C_%C3%96land%2C_Oktober_2017_%2838076326752%29.jpg/960px-Sibirisk_lunds%C3%A5ngare%2C_%C3%96land%2C_Oktober_2017_%2838076326752%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-满洲-地名-945ca754",
+      "name": "满洲 (地名)",
+      "summary": "滿洲（滿語：ᠮᠠᠨᠵᡠᡤᡠᡵᡠᠨ，羅馬化：Manju Gurun；英語：Manchuria）是東北亞歷史地區，狹義上相當於中国东北地区（即中國的东北三省，亦可包括内蒙古自治區的东四盟市）。广义上则包括曾由中國統治但現屬俄羅斯的外東北（即外…",
+      "lat": "43",
+      "lng": "125"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-双斑绿柳莺-659c3e6d",
+      "subject": "双斑绿柳莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-满洲-地名-945ca754",
+      "object": "满洲 (地名)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb|left|250px|In Hong Kong It is found in northern Mongolia, Manchuria and southern Siberia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-双斑绿柳莺-659c3e6d",
+      "subject": "双斑绿柳莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

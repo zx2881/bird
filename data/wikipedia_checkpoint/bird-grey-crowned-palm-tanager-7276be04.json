@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:16:02",
+  "requested_title": "Grey-crowned Palm-tanager",
+  "resolved_title": "Grey-crowned palm-tanager",
+  "title_aliases": [
+    "Grey-crowned Palm-tanager"
+  ],
+  "bird_id": "bird-grey-crowned-palm-tanager-7276be04",
+  "raw_file": "bird-grey-crowned-palm-tanager-7276be04.json",
+  "bird": {
+    "id": "bird-grey-crowned-palm-tanager-7276be04",
+    "name": "Grey-crowned palm-tanager",
+    "english_name": "Grey-crowned palm-tanager",
+    "latin_name": "Phaenicophilus poliocephalus",
+    "summary": "The grey-crowned palm-tanager or grey-crowned tanager (Phaenicophilus poliocephalus) is a Near Threatened species of bird in the family Pha…",
+    "lat": "18.11666667",
+    "lng": "-71.41666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Phaenicophilus_poliocephalus_poliocephalus_-_Patrick_-_250470788.jpeg/960px-Phaenicophilus_poliocephalus_poliocephalus_-_Patrick_-_250470788.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "name": "夏尔·吕西安·波拿巴",
+      "summary": "夏尔·吕西安·朱尔·朱尔·波拿巴（法語：Charles Lucien Jules Laurent Bonaparte，發音：[ʃaʁl lysjɛ̃ ʒyl lɔʁɑ̃ bɔnapaʁt]；1803年5月24日—1857年7月29日）是一…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-baoruco-mountain-range-9ce71d63",
+      "name": "Baoruco Mountain Range",
+      "summary": "The Bahoruco Mountain Range—Sierra de Bahoruco (or Sierra de Bahoruco) is a mountain range located in the far southwest…",
+      "lat": "18.11666667",
+      "lng": "-71.41666667"
+    },
+    {
+      "id": "loc-hispaniolan-dry-forests-a6589008",
+      "name": "Hispaniolan dry forests",
+      "summary": "The Hispaniolan dry forests are a tropical dry broadleaf forest ecoregion on the island of Hispaniola (split between th…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-hispaniolan-moist-forests-f45c8144",
+      "name": "Hispaniolan moist forests",
+      "summary": "The Hispaniolan moist forests are a tropical moist broadleaf forest ecoregion on the island of Hispaniola.",
+      "lat": "19",
+      "lng": "-70.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-grey-crowned-palm-tanager-7276be04",
+      "subject": "Grey-crowned palm-tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "object": "夏尔·吕西安·波拿巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The grey-crowned palm-tanager or grey-crowned tanager (Phaenicophilus poliocephalus) is a Near Threatened species of bird in the family Phaenicophilidae, the Hispaniolan palm-tanagers",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-crowned-palm-tanager-7276be04",
+      "subject": "Grey-crowned palm-tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-baoruco-mountain-range-9ce71d63",
+      "object": "Baoruco Mountain Range",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the Dominican Republic, it is rarely found in the north and south slopes of the Sierra de Baoruco, as well as on the southern part of Loma de Toro and Hoyo de Pelempito",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-crowned-palm-tanager-7276be04",
+      "subject": "Grey-crowned palm-tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-dry-forests-a6589008",
+      "object": "Hispaniolan dry forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits every available forest type from dry to wet and open to dense",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-crowned-palm-tanager-7276be04",
+      "subject": "Grey-crowned palm-tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-hispaniolan-moist-forests-f45c8144",
+      "object": "Hispaniolan moist forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The species inhabits every available forest type from dry to wet and open to dense",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-grey-crowned-palm-tanager-7276be04",
+      "subject": "Grey-crowned palm-tanager",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-grey-crowned-palm-tanager-7276be04",
+      "subject": "Grey-crowned palm-tanager",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, the palm-tanager is common in areas of remaining habitat. \"The small amount of forest left on Hispaniola is under constant pressure [but the species'] generalist habits likely buffer it to some extent from the effects of deforestation\"",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

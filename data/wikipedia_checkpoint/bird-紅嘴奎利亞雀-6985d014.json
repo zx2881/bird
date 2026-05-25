@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:27:32",
+  "requested_title": "Red-billed Quelea",
+  "resolved_title": "Red-billed quelea",
+  "title_aliases": [
+    "Red-billed Quelea"
+  ],
+  "bird_id": "bird-紅嘴奎利亞雀-6985d014",
+  "raw_file": "bird-紅嘴奎利亞雀-6985d014.json",
+  "bird": {
+    "id": "bird-紅嘴奎利亞雀-6985d014",
+    "name": "紅嘴奎利亞雀",
+    "english_name": "Red-billed quelea",
+    "latin_name": "Quelea quelea",
+    "summary": "紅嘴奎利亞雀（學名：Quelea quelea）是雀形目織布文鳥科奎利亞雀屬的一種小型鳥類。這種鳥分佈于撒哈拉以南非洲，共有三個亞種，是非洲的特有留鳥。這個物種是地球上數量最多的野生鳥類，達15億隻，僅次於被人類所豢養的家雞。其龐大的鳥群因主要以草及種子為食，且會四處移動，因此…",
+    "lat": "-20.4825",
+    "lng": "22.7725",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Red-billed_quelea_%28Quelea_quelea_aethiopica%29_male_breeding_plumage_yellow.jpg/960px-Red-billed_quelea_%28Quelea_quelea_aethiopica%29_male_breeding_plumage_yellow.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-random-house-webster-s-unabridged-dictionary-a594a585",
+      "name": "Random House Webster's Unabridged Dictionary",
+      "summary": "Random House Webster's Unabridged Dictionary is a large American dictionary, first published in 1966 as The Random Hous…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-恩加米湖-29b14a34",
+      "name": "恩加米湖",
+      "summary": "Lake Ngami is an endorheic lake in Botswana, north of the Kalahari Desert.",
+      "lat": "-20.4825",
+      "lng": "22.7725"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-紅嘴奎利亞雀-6985d014",
+      "subject": "紅嘴奎利亞雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-random-house-webster-s-unabridged-dictionary-a594a585",
+      "object": "Random House Webster's Unabridged Dictionary",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Random House Webster's Unabridged Dictionary. Quelea quelea), also known as the red-billed weaver or red-billed dioch, is a small, seasonally nomadic, sparrow-like bird of the weaver family, Ploceidae, native to sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅嘴奎利亞雀-6985d014",
+      "subject": "紅嘴奎利亞雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Random House Webster's Unabridged Dictionary. Quelea quelea), also known as the red-billed weaver or red-billed dioch, is a small, seasonally nomadic, sparrow-like bird of the weaver family, Ploceidae, native to sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅嘴奎利亞雀-6985d014",
+      "subject": "紅嘴奎利亞雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-恩加米湖-29b14a34",
+      "object": "恩加米湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in wet habitats, congregating at the shores of waterbodies, such as Lake Ngami, during flooding",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-紅嘴奎利亞雀-6985d014",
+      "subject": "紅嘴奎利亞雀",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The red-billed quelea is mostly found in tropical and subtropical areas with a seasonal semi-arid climate, resulting in dry thornbush grassland, including the Sahel, and its distribution covers most of sub-Saharan Africa",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-紅嘴奎利亞雀-6985d014",
+      "subject": "紅嘴奎利亞雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

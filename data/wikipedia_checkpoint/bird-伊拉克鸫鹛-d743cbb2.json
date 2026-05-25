@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T23:08:57",
+  "requested_title": "Iraq Babbler",
+  "resolved_title": "Iraq babbler",
+  "title_aliases": [
+    "Iraq Babbler"
+  ],
+  "bird_id": "bird-伊拉克鸫鹛-d743cbb2",
+  "raw_file": "bird-伊拉克鸫鹛-d743cbb2.json",
+  "bird": {
+    "id": "bird-伊拉克鸫鹛-d743cbb2",
+    "name": "伊拉克鸫鹛",
+    "english_name": "Iraq babbler",
+    "latin_name": "Argya altirostris",
+    "summary": "伊拉克鸫鹛（学名：Turdoides altirostris），是画眉科鸫鹛属的一种，分布于伊拉克、叙利亚和伊朗。该物种的保护状况被评为无危。 伊拉克鸫鹛的平均体重约为47.5克。栖息地包括种植园、耕地、亚热带或热带的（低地）干燥疏灌丛和湿地。",
+    "lat": "33",
+    "lng": "44",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Common_Babbler_%28Turdoides_caudatus%29_in_Hodal%2C_Haryana_W_IMG_6246.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-ernst-hartert-4e6d4c6a",
+      "name": "Ernst Hartert",
+      "summary": "Ernst Johann Otto Hartert (29 October 1859 – 11 November 1933) was a widely published German ornithologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-伊拉克-cdb2fcdb",
+      "name": "伊拉克",
+      "summary": "伊拉克共和国（阿拉伯語：جُمْهُورِيَّة الْعِرَاق，羅馬化：Jumhūrīyat al-ʿIrāq；庫德語：كۆماری عێراق），通稱伊拉克（العراق），位于西亞地區的共和國。其与南方的沙特阿拉伯、科威特，北…",
+      "lat": "33",
+      "lng": "44"
+    },
+    {
+      "id": "loc-伊朗-b572d23a",
+      "name": "伊朗",
+      "summary": "Iran, officially the Islamic Republic of Iran, historically known as Persia, is a country in West Asia.",
+      "lat": "32",
+      "lng": "53"
+    },
+    {
+      "id": "loc-土耳其-5e126298",
+      "name": "土耳其",
+      "summary": "土耳其共和国（土耳其語：Türkiye Cumhuriyeti，發音：[ˈtyɾcije dʒumˈhuːɾijeti] ），通稱土耳其（Türkiye），是橫跨欧亚两洲的共和國，其國土包括西亞的安納托利亞半岛、以及东南欧巴尔干半岛的东色…",
+      "lat": "39.91666667",
+      "lng": "32.85"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-伊拉克鸫鹛-d743cbb2",
+      "subject": "伊拉克鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-ernst-hartert-4e6d4c6a",
+      "object": "Ernst Hartert",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Iraq babbler (Argya altirostris) is a species of bird in the family Leiothrichidae, native to reed beds of the Tigris-Euphrates Valley",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-伊拉克鸫鹛-d743cbb2",
+      "subject": "伊拉克鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊拉克-cdb2fcdb",
+      "object": "伊拉克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Iraq, southwestern Iran, Syria, and southeastern Turkey",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-伊拉克鸫鹛-d743cbb2",
+      "subject": "伊拉克鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊朗-b572d23a",
+      "object": "伊朗",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Iraq, southwestern Iran, Syria, and southeastern Turkey",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-伊拉克鸫鹛-d743cbb2",
+      "subject": "伊拉克鸫鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-土耳其-5e126298",
+      "object": "土耳其",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Iraq, southwestern Iran, Syria, and southeastern Turkey",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-伊拉克鸫鹛-d743cbb2",
+      "subject": "伊拉克鸫鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

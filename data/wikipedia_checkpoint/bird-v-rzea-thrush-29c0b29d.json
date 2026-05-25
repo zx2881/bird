@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:01:22",
+  "requested_title": "Varzea Thrush",
+  "resolved_title": "Várzea thrush",
+  "title_aliases": [
+    "Varzea Thrush",
+    "Várzea thrush"
+  ],
+  "bird_id": "bird-v-rzea-thrush-29c0b29d",
+  "raw_file": "bird-v-rzea-thrush-29c0b29d.json",
+  "bird": {
+    "id": "bird-v-rzea-thrush-29c0b29d",
+    "name": "Várzea thrush",
+    "english_name": "Várzea thrush",
+    "latin_name": "Turdus sanchezorum",
+    "summary": "The varzea thrush (Turdus sanchezorum) is a species of bird in the family Turdidae. It is found in Brazil, Colombia, and Peru.",
+    "lat": "-7.2",
+    "lng": "-76.8",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Turdus_sanchezorum.jpg/960px-Turdus_sanchezorum.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣马丁大区-d34ca014",
+      "name": "圣马丁大区",
+      "summary": "聖馬丁大區（西班牙語：Departamento de San Martín）是秘魯中北部的一個大區。面積为51,253.31平方公里，人口为989,973人（2007年）。首府莫約班巴，最大城市塔拉波托。 1906年9月4日建區，並以拉丁…",
+      "lat": "-7.2",
+      "lng": "-76.8"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-v-rzea-thrush-29c0b29d",
+      "subject": "Várzea thrush",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣马丁大区-d34ca014",
+      "object": "圣马丁大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Howerver, along the Mayo River in Peru's Department of San Martín it inhabits forest and savanna on white sand soils, though these are near várzea areas",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-v-rzea-thrush-29c0b29d",
+      "subject": "Várzea thrush",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Howerver, along the Mayo River in Peru's Department of San Martín it inhabits forest and savanna on white sand soils, though these are near várzea areas",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-v-rzea-thrush-29c0b29d",
+      "subject": "Várzea thrush",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

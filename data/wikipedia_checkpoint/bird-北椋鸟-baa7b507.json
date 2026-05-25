@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:30:04",
+  "requested_title": "Daurian Starling",
+  "resolved_title": "Daurian starling",
+  "title_aliases": [
+    "Daurian Starling"
+  ],
+  "bird_id": "bird-北椋鸟-baa7b507",
+  "raw_file": "bird-北椋鸟-baa7b507.json",
+  "bird": {
+    "id": "bird-北椋鸟-baa7b507",
+    "name": "北椋鸟",
+    "english_name": "Daurian starling",
+    "latin_name": "Agropsar sturninus",
+    "summary": "The Daurian starling (Agropsar sturninus), or purple-backed starling, is a species of bird in the starling family found in the eastern Pale…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Agropsar_sturninus_-_Kent_Ridge_Park.jpg/960px-Agropsar_sturninus_-_Kent_Ridge_Park.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-彼得-西蒙-帕拉斯-926bc8f2",
+      "name": "彼得·西蒙·帕拉斯",
+      "summary": "彼得·西蒙·帕拉斯（德語：Peter Simon Pallas，1741年9月22日—1811年9月8日）是一位德國博物学家，出生于柏林，曾先后在哥廷根大学和莱登大学学习，之后帕拉斯前往西欧考察，期间研究出了新的动物分类。1767年受叶卡…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北椋鸟-baa7b507",
+      "subject": "北椋鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-彼得-西蒙-帕拉斯-926bc8f2",
+      "object": "彼得·西蒙·帕拉斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Daurian starling (Agropsar sturninus), or purple-backed starling, is a species of bird in the starling family found in the eastern Palearctic from eastern Mongolia and southeastern Russia to North Korea and central China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北椋鸟-baa7b507",
+      "subject": "北椋鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

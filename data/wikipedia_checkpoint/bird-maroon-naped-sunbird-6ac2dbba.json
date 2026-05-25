@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:55:07",
+  "requested_title": "Maroon-naped Sunbird",
+  "resolved_title": "Maroon-naped sunbird",
+  "title_aliases": [
+    "Maroon-naped Sunbird"
+  ],
+  "bird_id": "bird-maroon-naped-sunbird-6ac2dbba",
+  "raw_file": "bird-maroon-naped-sunbird-6ac2dbba.json",
+  "bird": {
+    "id": "bird-maroon-naped-sunbird-6ac2dbba",
+    "name": "Maroon-naped sunbird",
+    "english_name": "Maroon-naped sunbird",
+    "latin_name": "Aethopyga guimarasensis",
+    "summary": "The maroon-naped sunbird (Aethopyga guimarasensis) is a species of bird in the family Nectariniidae. It is endemic to the Philippines found…",
+    "lat": "11.15",
+    "lng": "122.23305556",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Maroon-naped_Sunbird_Male.jpg/960px-Maroon-naped_Sunbird_Male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-central-panay-mountain-range-5b7afcb5",
+      "name": "Central Panay Mountain Range",
+      "summary": "The Central Panay Mountain Range is the longest and largest mountain range on Panay Island and in the Visayas region of…",
+      "lat": "11.15",
+      "lng": "122.23305556"
+    },
+    {
+      "id": "loc-西米沙鄢-6cb61bd4",
+      "name": "西米沙鄢",
+      "summary": "西米沙鄢（Western Visayas）是菲律宾的一個大區，被指定為第6政區（Region VI），由6個省及怡朗市（Iloilo City）和巴科拉德市（Bacolod City）組成，共包含17個城市，怡朗市为政區中心。面积20,2…",
+      "lat": "11.13",
+      "lng": "122.53"
+    },
+    {
+      "id": "loc-mount-talinis-a096bc1f",
+      "name": "Mount Talinis",
+      "summary": "Mount Talinis is a complex volcano in the Philippine province of Negros Oriental.",
+      "lat": "9.25",
+      "lng": "123.16666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-maroon-naped-sunbird-6ac2dbba",
+      "subject": "Maroon-naped sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-central-panay-mountain-range-5b7afcb5",
+      "object": "Central Panay Mountain Range",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in the proposed Central Panay Mountain Range Park which contains the largest block of remaining forest in the Western Visayas, and the tourist destination of Twin Lakes (Mount Talinis)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-maroon-naped-sunbird-6ac2dbba",
+      "subject": "Maroon-naped sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-西米沙鄢-6cb61bd4",
+      "object": "西米沙鄢",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in the proposed Central Panay Mountain Range Park which contains the largest block of remaining forest in the Western Visayas, and the tourist destination of Twin Lakes (Mount Talinis)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-maroon-naped-sunbird-6ac2dbba",
+      "subject": "Maroon-naped sunbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-mount-talinis-a096bc1f",
+      "object": "Mount Talinis",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in the proposed Central Panay Mountain Range Park which contains the largest block of remaining forest in the Western Visayas, and the tourist destination of Twin Lakes (Mount Talinis)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-maroon-naped-sunbird-6ac2dbba",
+      "subject": "Maroon-naped sunbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-maroon-naped-sunbird-6ac2dbba",
+      "subject": "Maroon-naped sunbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-maroon-naped-sunbird-6ac2dbba",
+      "subject": "Maroon-naped sunbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This species' main threat is habitat loss with wholesale clearance of forest habitats as a result of logging, agricultural conversion and mining activities occurring within the range",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

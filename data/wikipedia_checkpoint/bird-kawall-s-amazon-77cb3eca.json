@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:41:38",
+  "requested_title": "Kawall's Amazon",
+  "resolved_title": "Kawall's amazon",
+  "title_aliases": [
+    "Kawall's Amazon"
+  ],
+  "bird_id": "bird-kawall-s-amazon-77cb3eca",
+  "raw_file": "bird-kawall-s-amazon-77cb3eca.json",
+  "bird": {
+    "id": "bird-kawall-s-amazon-77cb3eca",
+    "name": "Kawall's amazon",
+    "english_name": "Kawall's amazon",
+    "latin_name": "Amazona kawalli",
+    "summary": "Kawall's amazon (Amazona kawalli), also known as the white-faced amazon, white-cheeked amazon or Kawall's parrot, is a relatively large spe…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Amazona_kawalli_JJK%271.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-kawall-s-amazon-77cb3eca",
+      "subject": "Kawall's amazon",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-kawall-s-amazon-77cb3eca",
+      "subject": "Kawall's amazon",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Although Kawall's amazon was only rediscovered in the wild relatively recently, it appears to be locally fairly common; however populations are declining due to habitat loss from deforestation. A certain amount of capture for the parrot trade also seems present. The species is currently classified as least concern by the IUCN",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-kawall-s-amazon-77cb3eca",
+      "subject": "Kawall's amazon",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Although Kawall's amazon was only rediscovered in the wild relatively recently, it appears to be locally fairly common; however populations are declining due to habitat loss from deforestation. A certain amount of capture for the parrot trade also seems present. The species is currently classified as least concern by the IUCN",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

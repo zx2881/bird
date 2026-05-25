@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:11:09",
+  "requested_title": "Red Owl",
+  "resolved_title": "Red owl",
+  "title_aliases": [
+    "Red Owl"
+  ],
+  "bird_id": "bird-馬島草鴞-37c7148b",
+  "raw_file": "bird-馬島草鴞-37c7148b.json",
+  "bird": {
+    "id": "bird-馬島草鴞-37c7148b",
+    "name": "馬島草鴞",
+    "english_name": "Red owl",
+    "latin_name": "Tyto soumagnei",
+    "summary": "馬島草鴞（學名：Tyto soumagnei），是馬達加斯加稀有的一種貓頭鷹。牠們最初於1878年被發現，但當時差不多對牠們一無所知，直至1993年世界自然基金會重新發現牠們為止。牠們因失去棲息地而被列為瀕危。 馬島草鴞像倉鴞，很易混淆，不過牠們較為細小，只有30厘米長，身體呈…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tyto_soumagnei_6733815.jpg/960px-Tyto_soumagnei_6733815.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-馬島草鴞-37c7148b",
+      "subject": "馬島草鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is known to live in humid evergreen forest and dry deciduous forest in the east of the island, being found in primary forest and in disturbed secondary forest (possibly even human altered open areas)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-馬島草鴞-37c7148b",
+      "subject": "馬島草鴞",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-馬島草鴞-37c7148b",
+      "subject": "馬島草鴞",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is currently listed as vulnerable because of habitat loss, but recent studies have determined it may have a wider range than first believed, though further research in distribution and ecology is required",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    },
+    {
+      "subject_id": "bird-馬島草鴞-37c7148b",
+      "subject": "馬島草鴞",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The greatest threat to the red owl has been the increasing rate of deforestation and fragmentation of its forest habitat",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

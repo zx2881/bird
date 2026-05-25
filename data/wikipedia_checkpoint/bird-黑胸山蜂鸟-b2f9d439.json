@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:18:07",
+  "requested_title": "Black-breasted Hillstar",
+  "resolved_title": "Black-breasted hillstar",
+  "title_aliases": [
+    "Black-breasted Hillstar"
+  ],
+  "bird_id": "bird-黑胸山蜂鸟-b2f9d439",
+  "raw_file": "bird-黑胸山蜂鸟-b2f9d439.json",
+  "bird": {
+    "id": "bird-黑胸山蜂鸟-b2f9d439",
+    "name": "黑胸山蜂鸟",
+    "english_name": "Black-breasted hillstar",
+    "latin_name": "Oreotrochilus melanogaster",
+    "summary": "黑胸山蜂鸟（学名：Oreotrochilus melanogaster），是雨燕目蜂鸟科的一种鸟类。 黑胸山蜂鸟体重约9.1克，翼长约72毫米，嘴峰长约23.1毫米，喙宽度约2.4毫米，喙厚度约2.3毫米，跗蹠长约8.4毫米，尾长约49.2毫米。黑胸山蜂鸟在其分布区内为留鸟，其…",
+    "lat": "-32",
+    "lng": "-70",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Oreotrochilus_melanogaster_65144078.jpg/960px-Oreotrochilus_melanogaster_65144078.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安地斯山脈-1d3435e7",
+      "name": "安地斯山脈",
+      "summary": "安地斯山脈（西班牙語：Cordillera de los Andes；奇楚亞語：Walla Antikuna）是地球陸地上最長的山脈，位於南美洲的西岸，約7,000公里長 (或8,900公里长)，200至700公里寬（最寬的部份在南緯18…",
+      "lat": "-32",
+      "lng": "-70"
+    },
+    {
+      "id": "loc-胡宁大区-e8a2aec2",
+      "name": "胡宁大区",
+      "summary": "胡寧大區（Departamento de Junín）是秘魯中部的一個大區，地處阿爾蒂普拉諾高原之上。面積44,197.23平方公里，2007年人口1,091,619人。首府萬卡約。 1821年2月12日建區。下分9省123區。",
+      "lat": "-11.48",
+      "lng": "-74.98"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑胸山蜂鸟-b2f9d439",
+      "subject": "黑胸山蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-安地斯山脈-1d3435e7",
+      "object": "安地斯山脈",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-breasted hillstar is found in the central Andes of Peru, primarily in the departments of Junín and Huancavelica",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑胸山蜂鸟-b2f9d439",
+      "subject": "黑胸山蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-胡宁大区-e8a2aec2",
+      "object": "胡宁大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-breasted hillstar is found in the central Andes of Peru, primarily in the departments of Junín and Huancavelica",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑胸山蜂鸟-b2f9d439",
+      "subject": "黑胸山蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits puna grasslands, especially areas with much Chuquiraga spinosa and cushion cacti, and some rock outcroppings as well",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-黑胸山蜂鸟-b2f9d439",
+      "subject": "黑胸山蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

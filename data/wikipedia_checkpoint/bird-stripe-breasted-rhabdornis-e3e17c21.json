@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:19:20",
+  "requested_title": "Stripe-breasted Rhabdornis",
+  "resolved_title": "Stripe-breasted rhabdornis",
+  "title_aliases": [
+    "Stripe-breasted Rhabdornis"
+  ],
+  "bird_id": "bird-stripe-breasted-rhabdornis-e3e17c21",
+  "raw_file": "bird-stripe-breasted-rhabdornis-e3e17c21.json",
+  "bird": {
+    "id": "bird-stripe-breasted-rhabdornis-e3e17c21",
+    "name": "Stripe-breasted rhabdornis",
+    "english_name": "Stripe-breasted rhabdornis",
+    "latin_name": "Rhabdornis inornatus",
+    "summary": "The stripe-breasted rhabdornis (Rhabdornis inornatus), also known as the stripe-breasted creeper or plain-headed creeper, is a species of b…",
+    "lat": "6.9875",
+    "lng": "125.27083333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/7577_Stripe-breasted_Rhabdornis_1_1847385412_cropped.png"
+  },
+  "locations": [
+    {
+      "id": "loc-莱特岛-26d24ab4",
+      "name": "莱特岛",
+      "summary": "雷伊泰島（Leyte）是菲律賓群島中的米沙鄢群島的島嶼之一。面積7213平方公里。北臨薩馬海；東北隔聖華尼科海峽與薩馬島相望，兩島有跨海大橋相連；南面為棉蘭老海，與棉蘭老島相望；西南為保和島；西為宿霧島；西北為馬斯巴特島。 第二次世界大戰…",
+      "lat": "10.8",
+      "lng": "124.9"
+    },
+    {
+      "id": "loc-阿波火山-e8ee2894",
+      "name": "阿波火山",
+      "summary": "阿波火山（他加祿語：Bundok Apo）是一座位于菲律宾棉兰老岛东南部的活火山，海拔2,954公尺，为菲律宾最高峰。达沃市位于其东北方30公里处。近百年未喷发，有硫磺矿，覆盖着热带硬木林。 主峰及周围已经开辟为阿波火山国家公园（面积80…",
+      "lat": "6.9875",
+      "lng": "125.27083333"
+    },
+    {
+      "id": "loc-kitanglad-mountain-range-f0040fa6",
+      "name": "Kitanglad Mountain Range",
+      "summary": "The Kitanglad Mountain Range dominates the northern central portion of the province of Bukidnon, Philippines.",
+      "lat": "8.13333333",
+      "lng": "124.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-stripe-breasted-rhabdornis-e3e17c21",
+      "subject": "Stripe-breasted rhabdornis",
+      "predicate": "distributed_in",
+      "object_id": "loc-莱特岛-26d24ab4",
+      "object": "莱特岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is typically found in tropical montane and submontane forest but has been found as low as 230 masl in Leyte",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stripe-breasted-rhabdornis-e3e17c21",
+      "subject": "Stripe-breasted rhabdornis",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿波火山-e8ee2894",
+      "object": "阿波火山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Mount Apo and Kitanglad Mountain Range but like all areas in the Philippines protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stripe-breasted-rhabdornis-e3e17c21",
+      "subject": "Stripe-breasted rhabdornis",
+      "predicate": "distributed_in",
+      "object_id": "loc-kitanglad-mountain-range-f0040fa6",
+      "object": "Kitanglad Mountain Range",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Mount Apo and Kitanglad Mountain Range but like all areas in the Philippines protection is lax",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-stripe-breasted-rhabdornis-e3e17c21",
+      "subject": "Stripe-breasted rhabdornis",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

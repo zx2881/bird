@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:21:04",
+  "requested_title": "Golden-collared Woodpecker",
+  "resolved_title": "Golden-collared woodpecker",
+  "title_aliases": [
+    "Golden-collared Woodpecker"
+  ],
+  "bird_id": "bird-golden-collared-woodpecker-647ba02c",
+  "raw_file": "bird-golden-collared-woodpecker-647ba02c.json",
+  "bird": {
+    "id": "bird-golden-collared-woodpecker-647ba02c",
+    "name": "Golden-collared woodpecker",
+    "english_name": "Golden-collared woodpecker",
+    "latin_name": "Veniliornis cassini",
+    "summary": "The golden-collared woodpecker (Veniliornis cassini) is a species of bird in subfamily Picinae of the woodpecker family Picidae. It is foun…",
+    "lat": "-10",
+    "lng": "-52",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Veniliornis_cassini_-_Golden-collared_Woodpecker_%28male%29.JPG"
+  },
+  "locations": [
+    {
+      "id": "loc-巴西-86ee5932",
+      "name": "巴西",
+      "summary": "巴西联邦共和国（葡萄牙語：República Federativa do Brasil），通稱巴西（Brasil），是南美洲國家，位於南美東部，東臨大西洋，人口2.15億，居世界第7。其國土大部分介于赤道和南回归线之间，面積851萬平方公…",
+      "lat": "-10",
+      "lng": "-52"
+    },
+    {
+      "id": "loc-圭亚那-地区-7d32a67b",
+      "name": "圭亚那 (地区)",
+      "summary": "圭亚那（西班牙語：Las Guayanas；英語：The Guianas；法語：Guyanes；荷蘭語：Guyana's；葡萄牙語：Guianas）是南美洲北部、西北部的一个地区，并被划分为了数个主权国家和区域。前哥伦布时期，圭亚那地区的…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-collared-woodpecker-647ba02c",
+      "subject": "Golden-collared woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴西-86ee5932",
+      "object": "巴西",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=August 2022 |access-date=9 January 2023 }} It is found in Brazil, the Guianas, and Venezuela.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-collared-woodpecker-647ba02c",
+      "subject": "Golden-collared woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-圭亚那-地区-7d32a67b",
+      "object": "圭亚那 (地区)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=August 2022 |access-date=9 January 2023 }} It is found in Brazil, the Guianas, and Venezuela.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-collared-woodpecker-647ba02c",
+      "subject": "Golden-collared woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=August 2022 |access-date=9 January 2023 }} It is found in Brazil, the Guianas, and Venezuela.Remsen, J",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-collared-woodpecker-647ba02c",
+      "subject": "Golden-collared woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

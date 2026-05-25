@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:46:18",
+  "requested_title": "Golden-browed Chat-Tyrant",
+  "resolved_title": "Golden-browed chat-tyrant",
+  "title_aliases": [
+    "Golden-browed Chat-Tyrant"
+  ],
+  "bird_id": "bird-golden-browed-chat-tyrant-55fbfc78",
+  "raw_file": "bird-golden-browed-chat-tyrant-55fbfc78.json",
+  "bird": {
+    "id": "bird-golden-browed-chat-tyrant-55fbfc78",
+    "name": "Golden-browed chat-tyrant",
+    "english_name": "Golden-browed chat-tyrant",
+    "latin_name": "Silvicultrix pulchella",
+    "summary": "The golden-browed chat-tyrant (Silvicultrix pulchella) is a species of passerine bird in the family Tyrannidae, the tyrant flycatchers. It…",
+    "lat": "-16.712",
+    "lng": "-64.666",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Silvicultrix_pulchella_Smit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利維亞-e84b7c0e",
+      "name": "玻利維亞",
+      "summary": "玻利維亞多民族國（西班牙語：Estado Plurinacional de Bolivia），通稱玻利維亞，是位於南美洲中西部的內陸國家，與巴西、秘魯、智利、阿根廷、巴拉圭五國接壤，亦為南美洲國家聯盟的成員國；其法定首都為蘇克雷，但實際上…",
+      "lat": "-16.712",
+      "lng": "-64.666"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-golden-browed-chat-tyrant-55fbfc78",
+      "subject": "Golden-browed chat-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利維亞-e84b7c0e",
+      "object": "玻利維亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-browed-chat-tyrant-55fbfc78",
+      "subject": "Golden-browed chat-tyrant",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Bolivia and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-golden-browed-chat-tyrant-55fbfc78",
+      "subject": "Golden-browed chat-tyrant",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The species inhabits humid montane forest, where it favors scrubby edges, shady ravines, dark thickets, bamboo stands, and mossy areas",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-golden-browed-chat-tyrant-55fbfc78",
+      "subject": "Golden-browed chat-tyrant",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

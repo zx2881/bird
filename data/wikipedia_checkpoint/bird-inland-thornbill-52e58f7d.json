@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:45:20",
+  "requested_title": "Inland Thornbill",
+  "resolved_title": "Inland thornbill",
+  "title_aliases": [
+    "Inland Thornbill"
+  ],
+  "bird_id": "bird-inland-thornbill-52e58f7d",
+  "raw_file": "bird-inland-thornbill-52e58f7d.json",
+  "bird": {
+    "id": "bird-inland-thornbill-52e58f7d",
+    "name": "Inland thornbill",
+    "english_name": "Inland thornbill",
+    "latin_name": "Acanthiza apicalis",
+    "summary": "The inland thornbill (Acanthiza apicalis) was originally described by English ornithologist John Gould in The Birds of Australia. Inland th…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Inland_Thornbill_%285669197054%29.jpg/960px-Inland_Thornbill_%285669197054%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-mangrove-forest-f00f11aa",
+      "name": "Mangrove forest",
+      "summary": "Mangrove forests, also called mangrove swamps, mangrove thickets or mangals, are productive wetlands located in tropica…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-inland-thornbill-52e58f7d",
+      "subject": "Inland thornbill",
+      "predicate": "distributed_in",
+      "object_id": "loc-mangrove-forest-f00f11aa",
+      "object": "Mangrove forest",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|date=2007-06-01 |title=Gibson Desert birds: responses to drought and plenty |journal=Emu - Austral Ornithology |volume=107 |issue=2 |pages=126–134 |doi=10.1071/MU06044 |bibcode=2007EmuAO.107..126B |s2cid=84571245 |issn=0158-4197}} Contrary to the common name, inland thornbills can also be found in mangrove forests in southwestern Western Australia and dense forests and coastal heaths. While the distribution range of inland thornbills is large, they are not a migratory species. thumb|right|Mulga {Acacia aneura)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-inland-thornbill-52e58f7d",
+      "subject": "Inland thornbill",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

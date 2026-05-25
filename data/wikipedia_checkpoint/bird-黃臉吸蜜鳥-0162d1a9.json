@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:01:42",
+  "requested_title": "Yellow-faced Honeyeater",
+  "resolved_title": "Yellow-faced honeyeater",
+  "title_aliases": [
+    "Yellow-faced Honeyeater"
+  ],
+  "bird_id": "bird-黃臉吸蜜鳥-0162d1a9",
+  "raw_file": "bird-黃臉吸蜜鳥-0162d1a9.json",
+  "bird": {
+    "id": "bird-黃臉吸蜜鳥-0162d1a9",
+    "name": "黃臉吸蜜鳥",
+    "english_name": "Yellow-faced honeyeater",
+    "latin_name": "Caligavis chrysops",
+    "summary": "黃臉吸蜜鳥（学名：Caligavis chrysops）是一种中小型吸蜜鸟科动物。其常用名和学名均取自头部两边獨特的黃色條紋。牠通常在黎明二十或者三十分钟前发出洪亮而清晰的叫声。其分布于澳大利亞東部的东方和南方，通常栖息在从沿岸沙丘到高海拔亚高山带的开放式硬叶林，又或者小溪和河…",
+    "lat": "-32",
+    "lng": "147",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Caligavis_chrysops_-_Lake_Parramatta_Reserve.jpg/960px-Caligavis_chrysops_-_Lake_Parramatta_Reserve.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新南威爾士州-7a88cf32",
+      "name": "新南威爾士州",
+      "summary": "新南威爾斯州（英語：New South Wales，缩写为NSW），或譯紐修威省，简称新州、紐省，是澳洲人口最多的一州；位於澳洲的東南部，昆士兰州以南、维多利亞州以北，南澳州以東，首府在悉尼，境內包圍整個澳洲首都領地。新南威爾斯今劃分為1…",
+      "lat": "-32",
+      "lng": "147"
+    },
+    {
+      "id": "loc-維多利亞州-042be9e2",
+      "name": "維多利亞州",
+      "summary": "维多利亚州（英語：Victoria，缩写为VIC），简称維州、維省，又譯域多利省，是澳大利亞東岸南部的一个州，是澳洲大陸本土五个联邦州中幅員最小的（僅237629平方公里），但人口卻為澳洲第二多（接近670万，僅次於新南威爾斯州），人口密…",
+      "lat": "-36.85416667",
+      "lng": "144.28111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黃臉吸蜜鳥-0162d1a9",
+      "subject": "黃臉吸蜜鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-新南威爾士州-7a88cf32",
+      "object": "新南威爾士州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Some yellow-faced honeyeaters are sedentary, but hundreds of thousands migrate northwards between March and May to spend the winter in southern Queensland, and return in July and August to breed in southern New South Wales and Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃臉吸蜜鳥-0162d1a9",
+      "subject": "黃臉吸蜜鳥",
+      "predicate": "distributed_in",
+      "object_id": "loc-維多利亞州-042be9e2",
+      "object": "維多利亞州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Some yellow-faced honeyeaters are sedentary, but hundreds of thousands migrate northwards between March and May to spend the winter in southern Queensland, and return in July and August to breed in southern New South Wales and Victoria",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黃臉吸蜜鳥-0162d1a9",
+      "subject": "黃臉吸蜜鳥",
+      "predicate": "lives_in",
+      "object_id": "hab-mature-forest",
+      "object": "成熟森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can be found in forests regenerating after fire or logging, though it is more common in mature forests. Where it is found in woodland, it is usually woodland near forest or with an understory of sclerophyll plants",
+      "object_summary": "具备成熟林冠和树洞资源的森林生境。"
+    },
+    {
+      "subject_id": "bird-黃臉吸蜜鳥-0162d1a9",
+      "subject": "黃臉吸蜜鳥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

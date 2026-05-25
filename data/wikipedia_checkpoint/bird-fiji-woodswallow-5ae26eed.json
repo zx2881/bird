@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:15:09",
+  "requested_title": "Fiji Woodswallow",
+  "resolved_title": "Fiji woodswallow",
+  "title_aliases": [
+    "Fiji Woodswallow"
+  ],
+  "bird_id": "bird-fiji-woodswallow-5ae26eed",
+  "raw_file": "bird-fiji-woodswallow-5ae26eed.json",
+  "bird": {
+    "id": "bird-fiji-woodswallow-5ae26eed",
+    "name": "Fiji woodswallow",
+    "english_name": "Fiji woodswallow",
+    "latin_name": "Artamus mentalis",
+    "summary": "The Fiji woodswallow (Artamus mentalis) is a species of woodswallow in the family Artamidae. It is endemic to most of the islands of Fiji,…",
+    "lat": "-18.1416",
+    "lng": "178.4419",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Fiji_woodswallow_%28Artamus_mentalis%29_Taveuni.jpg/960px-Fiji_woodswallow_%28Artamus_mentalis%29_Taveuni.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-蘇瓦-e8255dfb",
+      "name": "蘇瓦",
+      "summary": "蘇瓦（斐濟語：Suva，發音：[ˈsuβa]；斐濟印地語：सुवा）是斐濟的首都，也是斐濟最大的城市。蘇瓦位於維提島的東南部，屬於中部專區，人口約77,366人。1877年，蘇瓦正式成為斐濟的首都，截至2017年人口普查，蘇瓦其人口約為9…",
+      "lat": "-18.1416",
+      "lng": "178.4419"
+    },
+    {
+      "id": "loc-楠迪-36f7a808",
+      "name": "楠迪",
+      "summary": "楠迪（斐濟語：Nadi，發音：[ˈnandi]；斐濟印地語：नदी；又稱納迪），斐濟第三大城市。坐落于該國最大島嶼维提岛西部，人口42284人（2007年）。楠迪是一座多元的城市，主要當地居民是由印度人和斐濟人以及一些當地大型的外國遊客組…",
+      "lat": "-17.8",
+      "lng": "177.41666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-fiji-woodswallow-5ae26eed",
+      "subject": "Fiji woodswallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its natural habitat is tropical moist lowland forests and savannahs, but it has adjusted to human-altered habitats and also lives in cultivated areas; there are even urban populations in Suva and Nadi. In Viti Levu it is found in the highlands, but not on the highlands of Taveuni.Blackburn, A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fiji-woodswallow-5ae26eed",
+      "subject": "Fiji woodswallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇瓦-e8255dfb",
+      "object": "蘇瓦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its natural habitat is tropical moist lowland forests and savannahs, but it has adjusted to human-altered habitats and also lives in cultivated areas; there are even urban populations in Suva and Nadi. In Viti Levu it is found in the highlands, but not on the highlands of Taveuni.Blackburn, A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fiji-woodswallow-5ae26eed",
+      "subject": "Fiji woodswallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-楠迪-36f7a808",
+      "object": "楠迪",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its natural habitat is tropical moist lowland forests and savannahs, but it has adjusted to human-altered habitats and also lives in cultivated areas; there are even urban populations in Suva and Nadi. In Viti Levu it is found in the highlands, but not on the highlands of Taveuni.Blackburn, A",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fiji-woodswallow-5ae26eed",
+      "subject": "Fiji woodswallow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

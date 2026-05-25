@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:21:12",
+  "requested_title": "Golden-crested Myna",
+  "resolved_title": "Golden-crested myna",
+  "title_aliases": [
+    "Golden-crested Myna"
+  ],
+  "bird_id": "bird-金冠树八哥-fc58d0e0",
+  "raw_file": "bird-金冠树八哥-fc58d0e0.json",
+  "bird": {
+    "id": "bird-金冠树八哥-fc58d0e0",
+    "name": "金冠树八哥",
+    "english_name": "Golden-crested myna",
+    "latin_name": "Ampeliceps coronatus",
+    "summary": "金冠树八哥（学名：Ampeliceps coronatus）为椋鸟科树八哥属的鸟类，是该属唯一一种。分布于印度、缅甸、泰国以及中国大陆的云南、广东等地。该物种的模式产地在缅甸德林达依省。 参考文献",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Golden_crowned_Myna.jpg/960px-Golden_crowned_Myna.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-金冠树八哥-fc58d0e0",
+      "subject": "金冠树八哥",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Its main habitat is subtropical or tropical moist lowland forest, but it is also found in heavily degraded former forest. left|thumb",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-金冠树八哥-fc58d0e0",
+      "subject": "金冠树八哥",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

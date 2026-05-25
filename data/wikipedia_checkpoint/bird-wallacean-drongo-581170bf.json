@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:46:16",
+  "requested_title": "Wallacean Drongo",
+  "resolved_title": "Wallacean drongo",
+  "title_aliases": [
+    "Wallacean Drongo"
+  ],
+  "bird_id": "bird-wallacean-drongo-581170bf",
+  "raw_file": "bird-wallacean-drongo-581170bf.json",
+  "bird": {
+    "id": "bird-wallacean-drongo-581170bf",
+    "name": "Wallacean drongo",
+    "english_name": "Wallacean drongo",
+    "latin_name": "Dicrurus densus",
+    "summary": "The Wallacean drongo or Greater Wallacean drongo (Dicrurus densus) is a species of bird in the family Dicruridae. It can be found in the co…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Wallacean_Drongo_%28Dicrurus_densus%29_%288074119894%29_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-东帝汶-7f03b6c1",
+      "name": "东帝汶",
+      "summary": "東帝汶民主共和國（德頓語：Repúblika Demokrátika Timor-Leste；葡萄牙語：República Democrática de Timor-Leste），通称东帝汶（德頓語：Timor Lorosa'e；葡萄牙語…",
+      "lat": "-8.55",
+      "lng": "125.56"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-wallacean-drongo-581170bf",
+      "subject": "Wallacean drongo",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the countries of Indonesia and East Timor",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-wallacean-drongo-581170bf",
+      "subject": "Wallacean drongo",
+      "predicate": "distributed_in",
+      "object_id": "loc-东帝汶-7f03b6c1",
+      "object": "东帝汶",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It can be found in the countries of Indonesia and East Timor",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-wallacean-drongo-581170bf",
+      "subject": "Wallacean drongo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

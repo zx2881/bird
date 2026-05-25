@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:52:13",
+  "requested_title": "Montagu's Harrier",
+  "resolved_title": "Montagu's harrier",
+  "title_aliases": [
+    "Montagu's Harrier"
+  ],
+  "bird_id": "bird-乌灰鹞-3f65a239",
+  "raw_file": "bird-乌灰鹞-3f65a239.json",
+  "bird": {
+    "id": "bird-乌灰鹞-3f65a239",
+    "name": "乌灰鹞",
+    "english_name": "Montagu's harrier",
+    "latin_name": "Circus pygargus",
+    "summary": "乌灰鹞（学名：Circus pygargus）为鹰科鹞属的鸟类。在中国大陆，分布于新疆、山东、长江流域、福建、广东等地，多栖息于沼泽以及牧场。该物种的模式产地在英国。 保护 中国国家重点保护动物等级：二级 参考文献",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Montagu%27s_harrier_male.jpg/960px-Montagu%27s_harrier_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    },
+    {
+      "id": "loc-摩洛哥-4adc9885",
+      "name": "摩洛哥",
+      "summary": "摩洛哥王国（阿拉伯語：المملكة المغربية，柏柏爾語：ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ），通稱摩洛哥（المغرب；ⵍⵎⵖⵔⵉⴱ），是北非西端马格里布的一个君主立宪制国家。其东部与阿尔及利亚接壤，南部其实际管辖的西撒哈拉地区与…",
+      "lat": "32",
+      "lng": "-6"
+    },
+    {
+      "id": "loc-歐亞大陸-c6f303b6",
+      "name": "歐亞大陸",
+      "summary": "亚欧大陆或欧亚大陆，西方国家称为欧罗细亚（英語：Eurasia），是亚细亚洲和欧罗巴洲的合稱，也可以视为亚欧非大陆的一个部分。面积5475.9万平方公里。 亚、欧二洲单从地理学和地质学方面考虑并非两个独立的大陆，应属同一个地球表面面积最大…",
+      "lat": "50",
+      "lng": "80"
+    },
+    {
+      "id": "loc-撒哈拉沙漠-9ea3483a",
+      "name": "撒哈拉沙漠",
+      "summary": "撒哈拉沙漠（阿拉伯語：الصحراء الكبرى，aṣ-Ṣaḥrāʾ al-Kubrā ， 清朝直譯大沙漠）位於非洲大陸北部，是世界最热的荒漠，亦是世界第三大荒漠，仅次于南极和北极，同时也是世界上最大的沙漠，其总面积超过9,400,00…",
+      "lat": "23",
+      "lng": "13"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-乌灰鹞-3f65a239",
+      "subject": "乌灰鹞",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in large open areas in the Palearctic and is migratory, wintering in Africa, the Indian subcontinent and parts of the Arabian Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌灰鹞-3f65a239",
+      "subject": "乌灰鹞",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩洛哥-4adc9885",
+      "object": "摩洛哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Breeding also occurs in northern Africa, mostly in Morocco",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌灰鹞-3f65a239",
+      "subject": "乌灰鹞",
+      "predicate": "distributed_in",
+      "object_id": "loc-歐亞大陸-c6f303b6",
+      "object": "歐亞大陸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Birds from Eurasia spend the winter in sub-Saharan Africa, while those from the eastern part of the range migrate to the Indian subcontinent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌灰鹞-3f65a239",
+      "subject": "乌灰鹞",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉沙漠-9ea3483a",
+      "object": "撒哈拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Birds from Eurasia spend the winter in sub-Saharan Africa, while those from the eastern part of the range migrate to the Indian subcontinent",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌灰鹞-3f65a239",
+      "subject": "乌灰鹞",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can breed in wetlands, though these are often smaller and drier than those used by the marsh harrier",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-乌灰鹞-3f65a239",
+      "subject": "乌灰鹞",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It can breed in wetlands, though these are often smaller and drier than those used by the marsh harrier",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-乌灰鹞-3f65a239",
+      "subject": "乌灰鹞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

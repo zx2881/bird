@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T22:08:26",
+  "requested_title": "Cabanis's Ground Sparrow",
+  "resolved_title": "Cabanis's ground sparrow",
+  "title_aliases": [
+    "Cabanis's Ground Sparrow"
+  ],
+  "bird_id": "bird-cabanis-s-ground-sparrow-50affc32",
+  "raw_file": "bird-cabanis-s-ground-sparrow-50affc32.json",
+  "bird": {
+    "id": "bird-cabanis-s-ground-sparrow-50affc32",
+    "name": "Cabanis's ground sparrow",
+    "english_name": "Cabanis's ground sparrow",
+    "latin_name": "Melozone cabanisi",
+    "summary": "Cabanis's ground sparrow (Melozone cabanisi) or the Costa Rican ground sparrow is a Near Threatened species of bird in the family Passerell…",
+    "lat": "9.91666667",
+    "lng": "-84.06666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Melozone_cabanisi_-_Forest_Botial-Jarvis_-_354025709.jpeg/960px-Melozone_cabanisi_-_Forest_Botial-Jarvis_-_354025709.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-costa-rican-central-valley-c376193e",
+      "name": "Costa Rican Central Valley",
+      "summary": "The Central Valley (Spanish: Valle Central) is a plateau and a geographic region of central Costa Rica.",
+      "lat": "9.91666667",
+      "lng": "-84.06666667"
+    },
+    {
+      "id": "loc-圣何塞省-哥斯达黎加-337dd9ed",
+      "name": "圣何塞省 (哥斯达黎加)",
+      "summary": "圣何塞省（西班牙語：Provincia de San José）是哥斯达黎加中部的一个省，北邻阿拉胡埃拉省和埃雷迪亚省，东接卡塔戈省和利蒙省，南面和西面与蓬塔雷纳斯省接壤。面積4,965.9平方公里，2003年人口1,435,447人。下…",
+      "lat": "9.6",
+      "lng": "-83.95"
+    },
+    {
+      "id": "loc-卡塔戈省-02bb5ecd",
+      "name": "卡塔戈省",
+      "summary": "卡塔戈省（西班牙語：Provincia de Cartago）是哥斯达黎加東部的一个省。面積3,124.61平方公里。2000年人口461,163人。首府卡塔戈。 下分8縣。",
+      "lat": "9.8",
+      "lng": "-83.65"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cabanis-s-ground-sparrow-50affc32",
+      "subject": "Cabanis's ground sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-costa-rican-central-valley-c376193e",
+      "object": "Costa Rican Central Valley",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Cabanis's ground sparrow is found in the highlands of north-central Costa Rica's Central Valley approximately between northern San José Province and central Cartago Province",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cabanis-s-ground-sparrow-50affc32",
+      "subject": "Cabanis's ground sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣何塞省-哥斯达黎加-337dd9ed",
+      "object": "圣何塞省 (哥斯达黎加)",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Cabanis's ground sparrow is found in the highlands of north-central Costa Rica's Central Valley approximately between northern San José Province and central Cartago Province",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cabanis-s-ground-sparrow-50affc32",
+      "subject": "Cabanis's ground sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-卡塔戈省-02bb5ecd",
+      "object": "卡塔戈省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Cabanis's ground sparrow is found in the highlands of north-central Costa Rica's Central Valley approximately between northern San José Province and central Cartago Province",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cabanis-s-ground-sparrow-50affc32",
+      "subject": "Cabanis's ground sparrow",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    }
+  ]
+}

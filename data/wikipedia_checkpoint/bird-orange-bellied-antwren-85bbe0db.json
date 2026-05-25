@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:55:09",
+  "requested_title": "Orange-bellied Antwren",
+  "resolved_title": "Orange-bellied antwren",
+  "title_aliases": [
+    "Orange-bellied Antwren"
+  ],
+  "bird_id": "bird-orange-bellied-antwren-85bbe0db",
+  "raw_file": "bird-orange-bellied-antwren-85bbe0db.json",
+  "bird": {
+    "id": "bird-orange-bellied-antwren-85bbe0db",
+    "name": "Orange-bellied antwren",
+    "english_name": "Orange-bellied antwren",
+    "latin_name": "Terenura sicki",
+    "summary": "The orange-bellied antwren (Terenura sicki) or Sick's antwren, is a Critically Endangered species of bird in subfamily Thamnophilinae of fa…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Terenura_sicki_Orange-bellied_Antwren_%28female%29%3B_Pedra_d%27Antas_reserve%2C_Lagoa_dos_Gatos%2C_Pernambuco%2C_Brazil.jpg/960px-Terenura_sicki_Orange-bellied_Antwren_%28female%29%3B_Pedra_d%27Antas_reserve%2C_Lagoa_dos_Gatos%2C_Pernambuco%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-orange-bellied-antwren-85bbe0db",
+      "subject": "Orange-bellied antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the subcanopy and canopy of semi-humid evergreen forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-bellied-antwren-85bbe0db",
+      "subject": "Orange-bellied antwren",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-orange-bellied-antwren-85bbe0db",
+      "subject": "Orange-bellied antwren",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The principal threat is ongoing habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

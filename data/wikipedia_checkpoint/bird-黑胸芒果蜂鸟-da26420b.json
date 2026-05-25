@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:00:13",
+  "requested_title": "Hispaniolan Mango",
+  "resolved_title": "Hispaniolan mango",
+  "title_aliases": [
+    "Hispaniolan Mango"
+  ],
+  "bird_id": "bird-黑胸芒果蜂鸟-da26420b",
+  "raw_file": "bird-黑胸芒果蜂鸟-da26420b.json",
+  "bird": {
+    "id": "bird-黑胸芒果蜂鸟-da26420b",
+    "name": "黑胸芒果蜂鸟",
+    "english_name": "Hispaniolan mango",
+    "latin_name": "Anthracothorax dominicus",
+    "summary": "黑胸芒果蜂鸟（学名：Anthracothorax dominicus），是雨燕目蜂鸟科的一种鸟类。 黑胸芒果蜂鸟体重约5.77克，翼长约65.3毫米，嘴峰长约26.8毫米，喙宽度约2毫米，喙厚度约2.2毫米，跗蹠长约5.2毫米，尾长约39.8毫米。黑胸芒果蜂鸟在其分布区内为留鸟…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Antillean_Mango_2017-12-15.jpg/960px-Antillean_Mango_2017-12-15.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黑胸芒果蜂鸟-da26420b",
+      "subject": "黑胸芒果蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits a variety of both moist and dry landscapes including clearings, gardens, shade coffee plantations, secondary forest, and coastal shrublands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黑胸芒果蜂鸟-da26420b",
+      "subject": "黑胸芒果蜂鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It inhabits a variety of both moist and dry landscapes including clearings, gardens, shade coffee plantations, secondary forest, and coastal shrublands",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-黑胸芒果蜂鸟-da26420b",
+      "subject": "黑胸芒果蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

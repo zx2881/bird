@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:53:29",
+  "requested_title": "Coppersmith Barbet",
+  "resolved_title": "Coppersmith barbet",
+  "title_aliases": [
+    "Coppersmith Barbet"
+  ],
+  "bird_id": "bird-赤胸拟啄木鸟-3a7cd39e",
+  "raw_file": "bird-赤胸拟啄木鸟-3a7cd39e.json",
+  "bird": {
+    "id": "bird-赤胸拟啄木鸟-3a7cd39e",
+    "name": "赤胸拟啄木鸟",
+    "english_name": "Coppersmith barbet",
+    "latin_name": "Psilopogon haemacephalus",
+    "summary": "赤胸拟啄木鸟（学名：Psilopogon haemacephalus），又稱銅匠鳥，为须鴷科拟啄木属的鸟类。该物种的模式产地在菲律宾。 亚种 赤胸拟啄木鸟云南亚种（学名：Psilopogon haemacephalus indica）。在中国大陆，分布于云南等地。该物种的模式产…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Coppersmith_Barbet_%28Megalaima_haemacephala%29_by_Shantanu_Kuveskar.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-赤胸拟啄木鸟-3a7cd39e",
+      "subject": "赤胸拟啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "|title=Birds of the Indian Hills |publisher=John Lane |year=1915 |page=243 |url=https://archive.org/stream/birdsofindianhil00dewa#page/243/mode/1up/}} In northern India, it occurs in the valleys of the outer Himalayas up to",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤胸拟啄木鸟-3a7cd39e",
+      "subject": "赤胸拟啄木鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

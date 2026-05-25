@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:22:44",
+  "requested_title": "Dusky Purpletuft",
+  "resolved_title": "Dusky purpletuft",
+  "title_aliases": [
+    "Dusky Purpletuft"
+  ],
+  "bird_id": "bird-dusky-purpletuft-0397ee0f",
+  "raw_file": "bird-dusky-purpletuft-0397ee0f.json",
+  "bird": {
+    "id": "bird-dusky-purpletuft-0397ee0f",
+    "name": "Dusky purpletuft",
+    "english_name": "Dusky purpletuft",
+    "latin_name": "Iodopleura fusca",
+    "summary": "The dusky purpletuft (Iodopleura fusca) is a small species of bird in the family Tityridae, the tityras, becards, and allies. It is found i…",
+    "lat": "8.12194444",
+    "lng": "-63.55",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Iodopleura_fusca_-_Dusky_purpletuft.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-玻利瓦州-714b52dd",
+      "name": "玻利瓦州",
+      "summary": "玻利瓦州（西班牙語：Estado Bolívar）是委內瑞拉南部的一個州，東鄰圭亞那，南為巴西，北界奧里諾科河。面積238,000平方公里，2007年人口1,534,800人。首府玻利瓦尔城。 1901年建州。下分十七個自治市。",
+      "lat": "8.12194444",
+      "lng": "-63.55"
+    },
+    {
+      "id": "loc-马瑙斯-0d91f8b5",
+      "name": "马瑙斯",
+      "summary": "马瑙斯（葡萄牙語：Manaus，[mɐˈnaws, mɐˈnawʃ]）是巴西亚马逊州的首府，位于亚马逊河支流黑河（Negro，又译内格罗河）和索利蒙伊斯河（即亚马逊河干流）交汇处，面积337平方千米，在2024年時人口约为223万，是亞馬…",
+      "lat": "-3.1189",
+      "lng": "-60.0217"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dusky-purpletuft-0397ee0f",
+      "subject": "Dusky purpletuft",
+      "predicate": "distributed_in",
+      "object_id": "loc-玻利瓦州-714b52dd",
+      "object": "玻利瓦州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The dusky purpletuft is found in far eastern and southeastern Bolívar state in eastern Venezuela,{{cite book | last =Hilty | first =Steven L",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-purpletuft-0397ee0f",
+      "subject": "Dusky purpletuft",
+      "predicate": "distributed_in",
+      "object_id": "loc-马瑙斯-0d91f8b5",
+      "object": "马瑙斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "There are also a few scattered records south near the Brazilian city of Manaus. It inhabits the canopy and edges of humid forest up to an elevation of",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-purpletuft-0397ee0f",
+      "subject": "Dusky purpletuft",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

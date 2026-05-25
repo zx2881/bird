@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:21:12",
+  "requested_title": "Cape Siskin",
+  "resolved_title": "Cape siskin",
+  "title_aliases": [
+    "Cape Siskin"
+  ],
+  "bird_id": "bird-cape-siskin-dfdb3b60",
+  "raw_file": "bird-cape-siskin-dfdb3b60.json",
+  "bird": {
+    "id": "bird-cape-siskin-dfdb3b60",
+    "name": "Cape siskin",
+    "english_name": "Cape siskin",
+    "latin_name": "Crithagra totta",
+    "summary": "The Cape siskin (Crithagra totta) is a small passerine bird in the finch family. It is an endemic resident breeder in the southern Cape Pro…",
+    "lat": "-34.16666667",
+    "lng": "18.375",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Cape_Siskin%2C_Rooi_Els%2C_South_Africa.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-凡波斯-b26c163a",
+      "name": "凡波斯",
+      "summary": "凡波斯（南非語：fynbos，荷蘭語發音：[ˈfəinbɒs]，英語化發音：/ˈfeɪnbɒs/），指南非西開普省及東開普省沿海山區的天然灌木植被帶，屬於地中海型氣候冬季多雨區的硬葉植被。凡波斯是開普植物區的主體，生態上歸入地中海森林、疏…",
+      "lat": "-34.16666667",
+      "lng": "18.375"
+    },
+    {
+      "id": "loc-開普敦-cb78085d",
+      "name": "開普敦",
+      "summary": "開普敦（英語：Cape Town，阿非利卡語：Kaapstad [ˈkɑːpstat]，科薩語：iKapa），亦稱好望角市、地角市或開普城，是南非人口排名第二大城市，也是開普敦市都會市鎮組成部分、西開普省省會。開普敦為南非立法首都，因此國…",
+      "lat": "-33.92527778",
+      "lng": "18.42388889"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cape-siskin-dfdb3b60",
+      "subject": "Cape siskin",
+      "predicate": "distributed_in",
+      "object_id": "loc-凡波斯-b26c163a",
+      "object": "凡波斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This locally common but shy and unobtrusive siskin is found in the southwestern and southern Cape's rocky slopes, coastal cliffs and fynbos-covered mountains",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-siskin-dfdb3b60",
+      "subject": "Cape siskin",
+      "predicate": "distributed_in",
+      "object_id": "loc-開普敦-cb78085d",
+      "object": "開普敦",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also occurs in towns and the suburbs of Cape Town",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cape-siskin-dfdb3b60",
+      "subject": "Cape siskin",
+      "predicate": "lives_in",
+      "object_id": "hab-canyon-cliff",
+      "object": "峡谷峭壁",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This locally common but shy and unobtrusive siskin is found in the southwestern and southern Cape's rocky slopes, coastal cliffs and fynbos-covered mountains",
+      "object_summary": "大型猛禽和食腐鸟偏好的高崖栖息环境。"
+    },
+    {
+      "subject_id": "bird-cape-siskin-dfdb3b60",
+      "subject": "Cape siskin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

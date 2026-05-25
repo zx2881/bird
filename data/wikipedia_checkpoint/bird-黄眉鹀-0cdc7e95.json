@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:37:08",
+  "requested_title": "Yellow-browed Bunting",
+  "resolved_title": "Yellow-browed bunting",
+  "title_aliases": [
+    "Yellow-browed Bunting"
+  ],
+  "bird_id": "bird-黄眉鹀-0cdc7e95",
+  "raw_file": "bird-黄眉鹀-0cdc7e95.json",
+  "bird": {
+    "id": "bird-黄眉鹀-0cdc7e95",
+    "name": "黄眉鹀",
+    "english_name": "Yellow-browed bunting",
+    "latin_name": "Emberiza chrysophrys",
+    "summary": "黄眉鹀（学名：Emberiza chrysophrys）为鵐科鹀属的鸟类，俗名金眉鹀、金眉子、黄三道、五道眉儿、大眉子。分布于俄罗斯、日本、朝鲜半岛以及中国大陆的内蒙古、东北、河北、山东、河南、南至四川、沿长江至福建、广东等地，少見於法國。一般生活于山区混交林、平原杂木林和灌丛…",
+    "lat": "61",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Yellow-browed_bunting_%28Emberiza_chrysophrys%29_Eocheong_Island_Korea_2012.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄眉鹀-0cdc7e95",
+      "subject": "黄眉鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| year= 2010| title= The Helm Dictionary of Scientific Bird Names | url= https://archive.org/details/Helm_Dictionary_of_Scientific_Bird_Names_by_James_A._Jobling | publisher=Christopher Helm | location = London, United Kingdom | isbn = 978-1-4081-2501-4 | pages = 105, 145}} It breeds in eastern Siberia and is migratory, wintering in central and southern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄眉鹀-0cdc7e95",
+      "subject": "黄眉鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

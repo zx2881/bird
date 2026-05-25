@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:33:58",
+  "requested_title": "Cassin's Vireo",
+  "resolved_title": "Cassin's vireo",
+  "title_aliases": [
+    "Cassin's Vireo"
+  ],
+  "bird_id": "bird-cassin-s-vireo-b51608d8",
+  "raw_file": "bird-cassin-s-vireo-b51608d8.json",
+  "bird": {
+    "id": "bird-cassin-s-vireo-b51608d8",
+    "name": "Cassin's vireo",
+    "english_name": "Cassin's vireo",
+    "latin_name": "Vireo cassinii",
+    "summary": "Cassin's vireo (Vireo cassinii) is a small North American songbird, ranging from southern British Columbia in Canada through the western co…",
+    "lat": "35",
+    "lng": "-112",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Cassin%27s_Vireo_Las_Cruces.jpg/960px-Cassin%27s_Vireo_Las_Cruces.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-亞利桑那州-20ba70c8",
+      "name": "亞利桑那州",
+      "summary": "亞利桑那州（英語：Arizona，/ɛərɪˈzoʊnə, ærɪ-/）是美國一個位於西南部的州份，同時也是西部和山區州份之一。此州是美國面積第6大及人口第14大的州份。首府和最大城市是鳳凰城。亞利桑那州也是四角落州之一，與新墨西哥州、猶…",
+      "lat": "35",
+      "lng": "-112"
+    },
+    {
+      "id": "loc-索诺拉沙漠-78fc1e70",
+      "name": "索诺拉沙漠",
+      "summary": "索诺拉沙漠（英語：Sonoran Desert；西班牙語：Desierto de Sonora），又稱索诺兰沙漠，是北美洲的一个沙漠，橫跨美国和墨西哥交界，包括美国亞利桑那州、加利福尼亚州和墨西哥索诺拉州大片地区。該沙漠亦因希拉河称作希拉…",
+      "lat": "32.25",
+      "lng": "-112.91666667"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-美国-1efc9783",
+      "name": "美国",
+      "summary": "美利堅合眾國（英語：United States of America，縮寫：USA），简称美国、美利堅（英語：America）或合眾國（United States，縮寫：US），是位於北美洲的聯邦制共和國。其由50個州、首都华盛顿哥伦比亚…",
+      "lat": "40",
+      "lng": "-100"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-cassin-s-vireo-b51608d8",
+      "subject": "Cassin's vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-亞利桑那州-20ba70c8",
+      "object": "亞利桑那州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "During its migration in early spring and late fall, it spends the winter in regions from southern Arizona (the Sonoran Desert) to southern Mexico, including parts of Baja California and the Pacific coast of Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cassin-s-vireo-b51608d8",
+      "subject": "Cassin's vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-索诺拉沙漠-78fc1e70",
+      "object": "索诺拉沙漠",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "During its migration in early spring and late fall, it spends the winter in regions from southern Arizona (the Sonoran Desert) to southern Mexico, including parts of Baja California and the Pacific coast of Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cassin-s-vireo-b51608d8",
+      "subject": "Cassin's vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "During its migration in early spring and late fall, it spends the winter in regions from southern Arizona (the Sonoran Desert) to southern Mexico, including parts of Baja California and the Pacific coast of Mexico",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cassin-s-vireo-b51608d8",
+      "subject": "Cassin's vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-美国-1efc9783",
+      "object": "美国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Most winter in Mexico, while some fly farther to the north to the southwestern region of the US",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-cassin-s-vireo-b51608d8",
+      "subject": "Cassin's vireo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-cassin-s-vireo-b51608d8",
+      "subject": "Cassin's vireo",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Deforestation is a mixed threat towards its population",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

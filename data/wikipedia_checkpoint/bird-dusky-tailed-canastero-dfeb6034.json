@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:31:33",
+  "requested_title": "Dusky-tailed Canastero",
+  "resolved_title": "Dusky-tailed canastero",
+  "title_aliases": [
+    "Dusky-tailed Canastero"
+  ],
+  "bird_id": "bird-dusky-tailed-canastero-dfeb6034",
+  "raw_file": "bird-dusky-tailed-canastero-dfeb6034.json",
+  "bird": {
+    "id": "bird-dusky-tailed-canastero-dfeb6034",
+    "name": "Dusky-tailed canastero",
+    "english_name": "Dusky-tailed canastero",
+    "latin_name": "Pseudasthenes humicola",
+    "summary": "The dusky-tailed canastero (Pseudasthenes humicola) is a species of bird in the Furnariinae subfamily of the ovenbird family Furnariidae. I…",
+    "lat": "-23.6469",
+    "lng": "-70.3983",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Canastero_%28Pseudasthenes_humicola%29.jpg/960px-Canastero_%28Pseudasthenes_humicola%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安托法加斯塔大区-a5631950",
+      "name": "安托法加斯塔大区",
+      "summary": "安托法加斯塔区（西班牙語：Región de Antofagasta）是智利16个大区之一，北邻塔拉帕卡大区，南邻阿塔卡马大区。该区下设托科皮亚、洛阿和安托法加斯塔三省。 當地是1879年太平洋戰爭後由玻利維亞割讓得來的。",
+      "lat": "-23.6469",
+      "lng": "-70.3983"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-dusky-tailed-canastero-dfeb6034",
+      "subject": "Dusky-tailed canastero",
+      "predicate": "distributed_in",
+      "object_id": "loc-安托法加斯塔大区-a5631950",
+      "object": "安托法加斯塔大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the southwestern part of the Antofagasta Region in the north of the country",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-dusky-tailed-canastero-dfeb6034",
+      "subject": "Dusky-tailed canastero",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

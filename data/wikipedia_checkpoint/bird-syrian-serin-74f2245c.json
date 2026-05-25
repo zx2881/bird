@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:31:15",
+  "requested_title": "Syrian Serin",
+  "resolved_title": "Syrian serin",
+  "title_aliases": [
+    "Syrian Serin"
+  ],
+  "bird_id": "bird-syrian-serin-74f2245c",
+  "raw_file": "bird-syrian-serin-74f2245c.json",
+  "bird": {
+    "id": "bird-syrian-serin-74f2245c",
+    "name": "Syrian serin",
+    "english_name": "Syrian serin",
+    "latin_name": "Serinus syriacus",
+    "summary": "The Syrian serin (Serinus syriacus) is a brightly coloured small passerine bird in the finch family Fringillidae. Description The Syrian se…",
+    "lat": "26",
+    "lng": "30",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Syrian_Serin_%28Serinus_syriacus%29_in_Israel.jpg/960px-Syrian_Serin_%28Serinus_syriacus%29_in_Israel.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-埃及-fe9eb3b9",
+      "name": "埃及",
+      "summary": "阿拉伯埃及共和國（埃及阿拉伯語：جمهورية مصر العربية，羅馬化：Jumhūriyyat Miṣr al-ʻArabiyyah），通稱埃及（مصر，Miṣr），是位於北非的國家。地跨亚非两洲，大部分國土位於北非地區，惟西奈半…",
+      "lat": "26",
+      "lng": "30"
+    },
+    {
+      "id": "loc-土耳其-5e126298",
+      "name": "土耳其",
+      "summary": "土耳其共和国（土耳其語：Türkiye Cumhuriyeti，發音：[ˈtyɾcije dʒumˈhuːɾijeti] ），通稱土耳其（Türkiye），是橫跨欧亚两洲的共和國，其國土包括西亞的安納托利亞半岛、以及东南欧巴尔干半岛的东色…",
+      "lat": "39.91666667",
+      "lng": "32.85"
+    },
+    {
+      "id": "loc-伊拉克-cdb2fcdb",
+      "name": "伊拉克",
+      "summary": "伊拉克共和国（阿拉伯語：جُمْهُورِيَّة الْعِرَاق，羅馬化：Jumhūrīyat al-ʿIrāq；庫德語：كۆماری عێراق），通稱伊拉克（العراق），位于西亞地區的共和國。其与南方的沙特阿拉伯、科威特，北…",
+      "lat": "33",
+      "lng": "44"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-syrian-serin-74f2245c",
+      "subject": "Syrian serin",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃及-fe9eb3b9",
+      "object": "埃及",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The population in Jordan makes local movements in winter, but the birds of Lebanon, Israel and Syria migrate to wintering grounds in Egypt, Turkey and Iraq",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-syrian-serin-74f2245c",
+      "subject": "Syrian serin",
+      "predicate": "distributed_in",
+      "object_id": "loc-土耳其-5e126298",
+      "object": "土耳其",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The population in Jordan makes local movements in winter, but the birds of Lebanon, Israel and Syria migrate to wintering grounds in Egypt, Turkey and Iraq",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-syrian-serin-74f2245c",
+      "subject": "Syrian serin",
+      "predicate": "distributed_in",
+      "object_id": "loc-伊拉克-cdb2fcdb",
+      "object": "伊拉克",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The population in Jordan makes local movements in winter, but the birds of Lebanon, Israel and Syria migrate to wintering grounds in Egypt, Turkey and Iraq",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-syrian-serin-74f2245c",
+      "subject": "Syrian serin",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-syrian-serin-74f2245c",
+      "subject": "Syrian serin",
+      "predicate": "threatened_by",
+      "object_id": "threat-hunting-pressure",
+      "object": "猎捕压力",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population is declining due to logging, livestock production and hunting",
+      "object_summary": "直接猎捕或误捕造成额外死亡。"
+    },
+    {
+      "subject_id": "bird-syrian-serin-74f2245c",
+      "subject": "Syrian serin",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The population is declining due to logging, livestock production and hunting",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

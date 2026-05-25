@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:21:28",
+  "requested_title": "Santa Marta Foliage-gleaner",
+  "resolved_title": "Santa Marta foliage-gleaner",
+  "title_aliases": [
+    "Santa Marta Foliage-gleaner"
+  ],
+  "bird_id": "bird-santa-marta-foliage-gleaner-106e7baa",
+  "raw_file": "bird-santa-marta-foliage-gleaner-106e7baa.json",
+  "bird": {
+    "id": "bird-santa-marta-foliage-gleaner-106e7baa",
+    "name": "Santa Marta foliage-gleaner",
+    "english_name": "Santa Marta foliage-gleaner",
+    "latin_name": "Clibanornis rufipectus",
+    "summary": "The Santa Marta foliage-gleaner (Clibanornis rufipectus) is a vulnerable species of bird in the Furnariinae subfamily of the ovenbird famil…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Clibanornis_rufipectus_-_Santa_Marta_Foliage-gleaner.jpg/960px-Clibanornis_rufipectus_-_Santa_Marta_Foliage-gleaner.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-santa-marta-foliage-gleaner-106e7baa",
+      "subject": "Santa Marta foliage-gleaner",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the undergrowth of semi-humid forest, both primary and secondary, and also occurs in shade coffee plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-santa-marta-foliage-gleaner-106e7baa",
+      "subject": "Santa Marta foliage-gleaner",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the undergrowth of semi-humid forest, both primary and secondary, and also occurs in shade coffee plantations",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-santa-marta-foliage-gleaner-106e7baa",
+      "subject": "Santa Marta foliage-gleaner",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-santa-marta-foliage-gleaner-106e7baa",
+      "subject": "Santa Marta foliage-gleaner",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"Despite its tolerance of low levels of habitat conversion, the species is threatened by the loss and fragmentation of its habitat, and it was found to be absent in sun-grown coffee plantations and in small secondary-growth patches surrounded by open areas.\" and \"Deforestation and forest degradation are accelerating and are projected to increase further, as coffee plantations and touristic infrastructure expand across the Sierra Nevada de Santa Marta.\" About 40% of its range is in protected areas",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

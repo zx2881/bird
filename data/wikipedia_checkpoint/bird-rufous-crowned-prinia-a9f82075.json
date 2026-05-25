@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:49:12",
+  "requested_title": "Rufous-crowned Prinia",
+  "resolved_title": "Rufous-crowned prinia",
+  "title_aliases": [
+    "Rufous-crowned Prinia"
+  ],
+  "bird_id": "bird-rufous-crowned-prinia-a9f82075",
+  "raw_file": "bird-rufous-crowned-prinia-a9f82075.json",
+  "bird": {
+    "id": "bird-rufous-crowned-prinia-a9f82075",
+    "name": "Rufous-crowned prinia",
+    "english_name": "Rufous-crowned prinia",
+    "latin_name": "Prinia khasiana",
+    "summary": "The rufous-crowned prinia (Prinia khasiana) is a species of bird in the family Cisticolidae. It is native to Eastern Himalaya.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Black-throated_Prinia.jpg/960px-Black-throated_Prinia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-eastern-himalayas-e24606b2",
+      "name": "Eastern Himalayas",
+      "summary": "The Eastern Himalayas extend from eastern Nepal across Northeast India, Bhutan, the Tibet Autonomous Region to Yunnan i…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-crowned-prinia-a9f82075",
+      "subject": "Rufous-crowned prinia",
+      "predicate": "distributed_in",
+      "object_id": "loc-eastern-himalayas-e24606b2",
+      "object": "Eastern Himalayas",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to Eastern Himalaya",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-crowned-prinia-a9f82075",
+      "subject": "Rufous-crowned prinia",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

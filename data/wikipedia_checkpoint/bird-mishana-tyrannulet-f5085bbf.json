@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:33:31",
+  "requested_title": "Mishana Tyrannulet",
+  "resolved_title": "Mishana tyrannulet",
+  "title_aliases": [
+    "Mishana Tyrannulet"
+  ],
+  "bird_id": "bird-mishana-tyrannulet-f5085bbf",
+  "raw_file": "bird-mishana-tyrannulet-f5085bbf.json",
+  "bird": {
+    "id": "bird-mishana-tyrannulet-f5085bbf",
+    "name": "Mishana tyrannulet",
+    "english_name": "Mishana tyrannulet",
+    "latin_name": "Zimmerius villarejoi",
+    "summary": "The Mishana tyrannulet (Zimmerius villarejoi) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is endemic to Peru.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Zimmerius_villarejoi_-_Mishana_Tyrannulet_%28cropped%29.jpg/960px-Zimmerius_villarejoi_-_Mishana_Tyrannulet_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-mishana-tyrannulet-f5085bbf",
+      "subject": "Mishana tyrannulet",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The San Martín population also inhabits stunted forest, including secondary forest, on other nutrient-poor soil types",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-mishana-tyrannulet-f5085bbf",
+      "subject": "Mishana tyrannulet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-mishana-tyrannulet-f5085bbf",
+      "subject": "Mishana tyrannulet",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "\"The limited extent of appropriate 'varillal' habitat, and the continuing extraction of trees for building materials and posts, means that much of the population is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

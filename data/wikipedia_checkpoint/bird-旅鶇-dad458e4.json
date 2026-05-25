@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:46:09",
+  "requested_title": "American Robin",
+  "resolved_title": "American robin",
+  "title_aliases": [
+    "American Robin"
+  ],
+  "bird_id": "bird-旅鶇-dad458e4",
+  "raw_file": "bird-旅鶇-dad458e4.json",
+  "bird": {
+    "id": "bird-旅鶇-dad458e4",
+    "name": "旅鶇",
+    "english_name": "American robin",
+    "latin_name": "Turdus migratorius",
+    "summary": "旅鶇（學名：Turdus migratorius）亦稱美洲知更鳥（英語：American robin），是鶇屬下的一種候鳥，雖然叫做美洲“知更鳥”，但實際上旅鶇與知更鳥並不是一個屬的生物，二者之間也沒什麼親緣關係。旅鶇廣泛分佈與北美洲，會從加拿大、阿拉斯加飛往墨西哥中部及附近的…",
+    "lat": "0",
+    "lng": "-160",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/American_robin_%2871307%29.jpg/960px-American_robin_%2871307%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-美國墨西哥灣沿岸地區-65a73aa6",
+      "name": "美國墨西哥灣沿岸地區",
+      "summary": "美國墨西哥灣沿岸地區（英語：Gulf Coast）是由臨近墨西哥湾的美國的五個州所組成的，其中包括德克薩斯州、路易斯安那州、密西西比州、阿拉巴馬州以及佛羅里達州。因為其經濟活動的繁榮以及人口的聚集，墨西哥灣沿岸地區有時候也被稱為美國的第三…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-太平洋-943dc9d9",
+      "name": "太平洋",
+      "summary": "太平洋（英語：Pacific Ocean）是地球上五大洋中面積最大的洋，面積約為1.65億平方公里，從北冰洋一直延伸至南冰洋，西側為亞洲，西南為大洋洲，東面為美洲。它覆蓋了地球約46%的水面和32%的總面積，超過所有陸地面積的總和。赤道將…",
+      "lat": "0",
+      "lng": "-160"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-旅鶇-dad458e4",
+      "subject": "旅鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-美國墨西哥灣沿岸地區-65a73aa6",
+      "object": "美國墨西哥灣沿岸地區",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "confinis, isolated in the Sierra de la Laguna mountains of southern Baja California Sur in Mexico.]] The species breeds throughout most of North America, from Alaska and Canada southward to northern Florida and Mexico. While robins occasionally overwinter in the northern part of the United States and southern Canada, most migrate to winter south of Canada from Florida and the Gulf Coast to central Mexico, as well as along the Pacific Coast. Most depart south by the end of August and begin to return north in February and March (exact dates vary with latitude and climate)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-旅鶇-dad458e4",
+      "subject": "旅鶇",
+      "predicate": "distributed_in",
+      "object_id": "loc-太平洋-943dc9d9",
+      "object": "太平洋",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "confinis, isolated in the Sierra de la Laguna mountains of southern Baja California Sur in Mexico.]] The species breeds throughout most of North America, from Alaska and Canada southward to northern Florida and Mexico. While robins occasionally overwinter in the northern part of the United States and southern Canada, most migrate to winter south of Canada from Florida and the Gulf Coast to central Mexico, as well as along the Pacific Coast. Most depart south by the end of August and begin to return north in February and March (exact dates vary with latitude and climate)",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-旅鶇-dad458e4",
+      "subject": "旅鶇",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-旅鶇-dad458e4",
+      "subject": "旅鶇",
+      "predicate": "threatened_by",
+      "object_id": "threat-climate-change",
+      "object": "气候变化",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "propinquus) in central California is considered to be expanding its range, as is likely the case elsewhere in the United States. It is threatened by climate change and severe weather, but the population trend appears to be stable, and the species does not approach the vulnerable species thresholds under the population trend criterion (>30% decline over ten years or three generations), and therefore International Union for Conservation of Nature evaluated it as least concern. At one point, the bird was killed for its meat, but it is now protected throughout its range in the United States by the Migratory Bird Treaty Act",
+      "object_summary": "长期改变水文节律与生态系统稳定性的全球变化因素。"
+    }
+  ]
+}

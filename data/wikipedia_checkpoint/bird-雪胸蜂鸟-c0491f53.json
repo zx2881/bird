@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:59:03",
+  "requested_title": "Snowy-bellied Hummingbird",
+  "resolved_title": "Snowy-bellied hummingbird",
+  "title_aliases": [
+    "Snowy-bellied Hummingbird"
+  ],
+  "bird_id": "bird-雪胸蜂鸟-c0491f53",
+  "raw_file": "bird-雪胸蜂鸟-c0491f53.json",
+  "bird": {
+    "id": "bird-雪胸蜂鸟-c0491f53",
+    "name": "雪胸蜂鸟",
+    "english_name": "Snowy-bellied hummingbird",
+    "latin_name": "Saucerottia edward",
+    "summary": "雪胸蜂鸟（学名：Saucerottia edward）是雨燕目蜂鸟科的一种鸟类。 雪胸蜂鸟体重约4.7克，翼长约52.1毫米，嘴峰长约20.6毫米，喙宽度约1.8毫米，喙厚度约1.7毫米，跗蹠长约4.4毫米，尾长约29.9毫米。雪胸蜂鸟在其分布区内为留鸟，其栖息在半开放的高大树…",
+    "lat": "8.08642",
+    "lng": "-79.28284",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Snowy-bellied_hummingbird_%28Amazilia_edward_niveoventer%29_1.jpg/960px-Snowy-bellied_hummingbird_%28Amazilia_edward_niveoventer%29_1.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-珍珠群岛-56734d1c",
+      "name": "珍珠群岛",
+      "summary": "珍珠群岛（Archipiélago de las Perlas）位于巴拿马巴拿馬省。该群岛位于距巴拿马城东南约80公里的巴拿马湾中，由39个大岛、 62个小岛及81个岩礁组成，总面积约400平方公里。群岛人口约2744人（1990年）。主…",
+      "lat": "8.33333333",
+      "lng": "-79.11666667"
+    },
+    {
+      "id": "loc-巴拿马湾-df2db17a",
+      "name": "巴拿马湾",
+      "summary": "巴拿马湾（西班牙語：Golfo De Panamá）是太平洋的一个海湾，位于巴拿马以南，最大宽250公里（160英里）最大深度220米（720英尺）面积约为2,400平方公里（930平方英里）。巴拿马运河连接了大西洋加勒比海与太平洋巴拿马…",
+      "lat": "8.08642",
+      "lng": "-79.28284"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-雪胸蜂鸟-c0491f53",
+      "subject": "雪胸蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-珍珠群岛-56734d1c",
+      "object": "珍珠群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "margaritarum, Panama: southwestern Darién, the Pearl Islands, and other islands in the Gulf of Panama The snowy-bellied hummingbird inhabits different landscapes across its distribution",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雪胸蜂鸟-c0491f53",
+      "subject": "雪胸蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴拿马湾-df2db17a",
+      "object": "巴拿马湾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "margaritarum, Panama: southwestern Darién, the Pearl Islands, and other islands in the Gulf of Panama The snowy-bellied hummingbird inhabits different landscapes across its distribution",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-雪胸蜂鸟-c0491f53",
+      "subject": "雪胸蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

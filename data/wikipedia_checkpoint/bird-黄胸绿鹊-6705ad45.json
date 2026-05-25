@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T21:04:30",
+  "requested_title": "Indochinese Green Magpie",
+  "resolved_title": "Indochinese green magpie",
+  "title_aliases": [
+    "Indochinese Green Magpie"
+  ],
+  "bird_id": "bird-黄胸绿鹊-6705ad45",
+  "raw_file": "bird-黄胸绿鹊-6705ad45.json",
+  "bird": {
+    "id": "bird-黄胸绿鹊-6705ad45",
+    "name": "黄胸绿鹊",
+    "english_name": "Indochinese green magpie",
+    "latin_name": "Cissa hypoleuca",
+    "summary": "黄胸绿鹊（学名：Cissa hypoleuca），又名东方绿鹊，是鸦科绿鹊属的一种，分布于越南、泰国、老挝、中国大陆和柬埔寨。该物种的保护状况被评为无危。 黄胸绿鹊的栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林，主要栖息于山地的原始和次生林中。",
+    "lat": "11.95",
+    "lng": "108.43333333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Indochinese_Green-Magpie_%28ssp._hypoleuca%29_0A2A5802.jpg/960px-Indochinese_Green-Magpie_%28ssp._hypoleuca%29_0A2A5802.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-林同省-dd0a483c",
+      "name": "林同省",
+      "summary": "林同省（越南語：Tỉnh Lâm Đồng／省林同）是越南西原高原的一個省，省莅大叻市。 地理 林同省东北接庆和省，北接多乐省，西接同奈省。",
+      "lat": "11.95",
+      "lng": "108.43333333"
+    },
+    {
+      "id": "loc-托馬索-薩爾瓦多里-8e61e436",
+      "name": "托馬索·薩爾瓦多里",
+      "summary": "托馬索·薩爾瓦多里，全稱阿代拉多·托馬索·薩爾瓦多里·帕萊奧蒂伯爵（Count Adelardo Tommaso Salvadori Paleotti，1835年9月30日—1923年10月9日）是一位義大利動物學家與鳥類學家。 生平簡介…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-enrico-hillyer-giglioli-1be92c5d",
+      "name": "Enrico Hillyer Giglioli",
+      "summary": "Enrico Hillyer Giglioli (13 June 1845 – 16 December 1909) was an Italian zoologist and anthropologist.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄胸绿鹊-6705ad45",
+      "subject": "黄胸绿鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-林同省-dd0a483c",
+      "object": "林同省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "hypoleuca) 0A2A5802.jpg | image_caption = In Lâm Đồng province, Vietnam | status = LC | status_system = IUCN3.1 | status_ref = | taxon = Cissa hypoleuca | authority = Salvadori & Giglioli, 1885 }} The Indochinese green magpie (Cissa hypoleuca), also known as the yellow-breasted magpie, is a small colourful bird native to the forests of China and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄胸绿鹊-6705ad45",
+      "subject": "黄胸绿鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-托馬索-薩爾瓦多里-8e61e436",
+      "object": "托馬索·薩爾瓦多里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "hypoleuca) 0A2A5802.jpg | image_caption = In Lâm Đồng province, Vietnam | status = LC | status_system = IUCN3.1 | status_ref = | taxon = Cissa hypoleuca | authority = Salvadori & Giglioli, 1885 }} The Indochinese green magpie (Cissa hypoleuca), also known as the yellow-breasted magpie, is a small colourful bird native to the forests of China and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄胸绿鹊-6705ad45",
+      "subject": "黄胸绿鹊",
+      "predicate": "distributed_in",
+      "object_id": "loc-enrico-hillyer-giglioli-1be92c5d",
+      "object": "Enrico Hillyer Giglioli",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "hypoleuca) 0A2A5802.jpg | image_caption = In Lâm Đồng province, Vietnam | status = LC | status_system = IUCN3.1 | status_ref = | taxon = Cissa hypoleuca | authority = Salvadori & Giglioli, 1885 }} The Indochinese green magpie (Cissa hypoleuca), also known as the yellow-breasted magpie, is a small colourful bird native to the forests of China and Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄胸绿鹊-6705ad45",
+      "subject": "黄胸绿鹊",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黄胸绿鹊-6705ad45",
+      "subject": "黄胸绿鹊",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The decline is caused partially by habitat destruction in Hainan. Another reason would be that the Indochinese green magpie is targeted in the illegal pet trade",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:46:10",
+  "requested_title": "Yellow-billed Kingfisher",
+  "resolved_title": "Yellow-billed kingfisher",
+  "title_aliases": [
+    "Yellow-billed Kingfisher"
+  ],
+  "bird_id": "bird-yellow-billed-kingfisher-f0909093",
+  "raw_file": "bird-yellow-billed-kingfisher-f0909093.json",
+  "bird": {
+    "id": "bird-yellow-billed-kingfisher-f0909093",
+    "name": "Yellow-billed kingfisher",
+    "english_name": "Yellow-billed kingfisher",
+    "latin_name": "Syma torotoro",
+    "summary": "The yellow-billed kingfisher (Syma torotoro) is a medium-sized tree kingfisher. Taxonomy Three subspecies are recognised: Syma torotoro tor…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Yellow-billed_Kingfisher_0A2A9978.jpg/960px-Yellow-billed_Kingfisher_0A2A9978.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-雨林-e2d12b87",
+      "name": "雨林",
+      "summary": "雨林是雨量甚多的生物區系。雨林依位置的不同分热带雨林和溫帶雨林。雨林大多数靠近赤道，在赤道经过的非洲、亚洲和南美洲都有大片的雨林。湿润的气候保证了树和植物的快速生产。同时，树和植物也为雨林中的成千上万种生物提供了食物和庇护所。雨林曾經覆蓋…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-yellow-billed-kingfisher-f0909093",
+      "subject": "Yellow-billed kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-雨林-e2d12b87",
+      "object": "雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It may be found in rainforest, monsoon forest and along forest edges",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-yellow-billed-kingfisher-f0909093",
+      "subject": "Yellow-billed kingfisher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

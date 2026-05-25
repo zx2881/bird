@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T22:36:22",
+  "requested_title": "Rajah Scops Owl",
+  "resolved_title": "Rajah scops owl",
+  "title_aliases": [
+    "Rajah Scops Owl"
+  ],
+  "bird_id": "bird-蘇门答腊角鸮-e9cbe66d",
+  "raw_file": "bird-蘇门答腊角鸮-e9cbe66d.json",
+  "bird": {
+    "id": "bird-蘇门答腊角鸮-e9cbe66d",
+    "name": "蘇门答腊角鸮",
+    "english_name": "Rajah scops owl",
+    "latin_name": "Otus brookii",
+    "summary": "蘇门答腊角鸮（学名：Otus brookii）分布于蘇门答腊以及婆罗洲。Otus brookii brookii分布于蘇门答腊，Otus brookii solokensis则分布于婆罗洲。栖息在热带雨林，云雾林里，在海拔900至2500公尺间的树冠中层活动。 參考文獻 Bir…",
+    "lat": "-1",
+    "lng": "114",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Rajah_Scops_Owl.jpg/960px-Rajah_Scops_Owl.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加里曼丹-8c4c4cd8",
+      "name": "加里曼丹",
+      "summary": "加里曼丹（印尼語：Kalimantan）是印尼在婆罗洲岛南部的属地，印尼人稱整個婆羅洲島為加里曼丹島。加里曼丹地區本來是單獨的一個省，之後逐漸分成五個省，即东加里曼丹省、南加里曼丹省、中加里曼丹省、西加里曼丹省和北加里曼丹省。加里曼丹北部…",
+      "lat": "-1",
+      "lng": "114"
+    },
+    {
+      "id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "name": "理查德·鮑德勒·夏普",
+      "summary": "理查德·鮑德勒·夏普（英語：Richard Bowdler Sharpe，1847年11月22日—1909年12月25日）是一位英國動物學家兼鳥類學家，於大英博物館擔任鳥類標本的策展人。在其職涯裡，夏普出版了一些有關鳥類的專著，並整理出博…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-蘇门答腊角鸮-e9cbe66d",
+      "subject": "蘇门答腊角鸮",
+      "predicate": "distributed_in",
+      "object_id": "loc-加里曼丹-8c4c4cd8",
+      "object": "加里曼丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "brookii was formerly only known to have a comparatively small range in the mountains straddling the border of Kalimantan and Sarawak, with a small extension into Sabah. Due to its secretive nature, it had not been sighted since its description by Richard Bowdler Sharpe in 1892",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蘇门答腊角鸮-e9cbe66d",
+      "subject": "蘇门答腊角鸮",
+      "predicate": "distributed_in",
+      "object_id": "loc-理查德-鮑德勒-夏普-4be661e4",
+      "object": "理查德·鮑德勒·夏普",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "brookii was formerly only known to have a comparatively small range in the mountains straddling the border of Kalimantan and Sarawak, with a small extension into Sabah. Due to its secretive nature, it had not been sighted since its description by Richard Bowdler Sharpe in 1892",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-蘇门答腊角鸮-e9cbe66d",
+      "subject": "蘇门答腊角鸮",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

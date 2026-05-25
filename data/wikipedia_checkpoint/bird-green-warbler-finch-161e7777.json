@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T11:18:48",
+  "requested_title": "Green Warbler-Finch",
+  "resolved_title": "Green warbler-finch",
+  "title_aliases": [
+    "Green Warbler-Finch"
+  ],
+  "bird_id": "bird-green-warbler-finch-161e7777",
+  "raw_file": "bird-green-warbler-finch-161e7777.json",
+  "bird": {
+    "id": "bird-green-warbler-finch-161e7777",
+    "name": "Green warbler-finch",
+    "english_name": "Green warbler-finch",
+    "latin_name": "Certhidea olivacea",
+    "summary": "The green warbler-finch (Certhidea olivacea) is a species of bird, one of Darwin's finches (which are mainly found in the Galápagos Islands…",
+    "lat": "-0.5",
+    "lng": "-90.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Certhidea_olivacea_64237533.jpg/960px-Certhidea_olivacea_64237533.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-古尔德-f8020282",
+      "name": "约翰·古尔德",
+      "summary": "约翰·古尔德 FRS（英語：John Gould，1804年9月14日—1881年2月3日）是19世纪一位英国鸟类学家。1804年生于英格兰，也是一位商人、艺术家。1838年后与其妻一同前往澳大利亚，在当地发现并為许多新物种命名。 早年…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-加拉帕戈斯群岛-cf5a247b",
+      "name": "加拉帕戈斯群岛",
+      "summary": "The Galápagos Islands (Spanish: Islas Galápagos) are an archipelago of volcanic islands in the Eastern Pacific, located…",
+      "lat": "-0.5",
+      "lng": "-90.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-green-warbler-finch-161e7777",
+      "subject": "Green warbler-finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-古尔德-f8020282",
+      "object": "约翰·古尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green warbler-finch (Certhidea olivacea) is a species of bird, one of Darwin's finches (which are mainly found in the Galápagos Islands) in the tanager family Thraupidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-warbler-finch-161e7777",
+      "subject": "Green warbler-finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拉帕戈斯群岛-cf5a247b",
+      "object": "加拉帕戈斯群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The green warbler-finch (Certhidea olivacea) is a species of bird, one of Darwin's finches (which are mainly found in the Galápagos Islands) in the tanager family Thraupidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-green-warbler-finch-161e7777",
+      "subject": "Green warbler-finch",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-green-warbler-finch-161e7777",
+      "subject": "Green warbler-finch",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "This status reflects a significant decline in its population, attributed primarily to habitat loss from human activities and the spread of invasive plant species",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

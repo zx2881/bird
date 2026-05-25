@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:15:06",
+  "requested_title": "Dusky Twinspot",
+  "resolved_title": "Dusky twinspot",
+  "title_aliases": [
+    "Dusky Twinspot"
+  ],
+  "bird_id": "bird-乌双斑雀-2cdaeef1",
+  "raw_file": "bird-乌双斑雀-2cdaeef1.json",
+  "bird": {
+    "id": "bird-乌双斑雀-2cdaeef1",
+    "name": "乌双斑雀",
+    "english_name": "Dusky twinspot",
+    "latin_name": "Euschistospiza cinereovinacea",
+    "summary": "The dusky twinspot (Euschistospiza cinereovinacea) is a species of estrildid finch found in Sub-Saharan Africa. It has an estimated global…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Dusky_Twinspot_mosese_jan06.jpg/960px-Dusky_Twinspot_mosese_jan06.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-撒哈拉以南非洲-666af995",
+      "name": "撒哈拉以南非洲",
+      "summary": "撒哈拉以南非洲（英語：Sub-Saharan Africa）指撒哈拉沙漠以南的非洲地區，也稱黑非洲（Negro Africa）。自然地理上與衣索比亞界高度重疊。政治上，包括了所有或部分领土位于撒哈拉沙漠以南的国家（苏丹除外，尽管位于撒哈拉…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-angolan-montane-forest-grassland-mosaic-d0b45dd1",
+      "name": "Angolan montane forest–grassland mosaic",
+      "summary": "The Angolan montane forest-grassland mosaic ecoregion is located on the east-facing inland side of the belt of mountain…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-乌双斑雀-2cdaeef1",
+      "subject": "乌双斑雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-撒哈拉以南非洲-666af995",
+      "object": "撒哈拉以南非洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The dusky twinspot (Euschistospiza cinereovinacea) is a species of estrildid finch found in Sub-Saharan Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌双斑雀-2cdaeef1",
+      "subject": "乌双斑雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-angolan-montane-forest-grassland-mosaic-d0b45dd1",
+      "object": "Angolan montane forest–grassland mosaic",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Angolan montane forest–grassland mosaic and the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌双斑雀-2cdaeef1",
+      "subject": "乌双斑雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Angolan montane forest–grassland mosaic and the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌双斑雀-2cdaeef1",
+      "subject": "乌双斑雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

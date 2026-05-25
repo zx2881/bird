@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:24:16",
+  "requested_title": "Grey-eyed Bulbul",
+  "resolved_title": "Grey-eyed bulbul",
+  "title_aliases": [
+    "Grey-eyed Bulbul"
+  ],
+  "bird_id": "bird-灰眼短脚鹎-508d5fb7",
+  "raw_file": "bird-灰眼短脚鹎-508d5fb7.json",
+  "bird": {
+    "id": "bird-灰眼短脚鹎-508d5fb7",
+    "name": "灰眼短脚鹎",
+    "english_name": "Grey-eyed bulbul",
+    "latin_name": "Iole propinqua",
+    "summary": "灰眼短脚鹎（学名：Iole propinqua）为鹎科Iole属的鸟类。分布于中南半岛以及中国大陆的云南、广西等地，主要生活于热带海拔1000米以下开阔的次生林、也见于山坡平坝的灌丛间以及尤喜活动于果树。该物种的模式产地在越南北部。 亚种 灰眼短脚鹎广西亚种（学名：Iole p…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Grey-eyed_Bulbul_0A2A5415_%28cropped%29.jpg/960px-Grey-eyed_Bulbul_0A2A5415_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰眼短脚鹎-508d5fb7",
+      "subject": "灰眼短脚鹎",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Southeast Asia in its natural habitat of subtropical or tropical moist lowland forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰眼短脚鹎-508d5fb7",
+      "subject": "灰眼短脚鹎",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

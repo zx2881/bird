@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:52:14",
+  "requested_title": "Eurasian Chaffinch",
+  "resolved_title": "Eurasian chaffinch",
+  "title_aliases": [
+    "Eurasian Chaffinch"
+  ],
+  "bird_id": "bird-苍头燕雀-3f2fb150",
+  "raw_file": "bird-苍头燕雀-3f2fb150.json",
+  "bird": {
+    "id": "bird-苍头燕雀-3f2fb150",
+    "name": "苍头燕雀",
+    "english_name": "Eurasian chaffinch",
+    "latin_name": "Fringilla coelebs",
+    "summary": "苍头燕雀（学名：Fringilla coelebs）是一种燕雀属的小型雀类。苍头燕雀身长约14-16厘米，各翼上有双白道。繁殖期的雄性苍头燕雀很容易辨认，且喙呈灰色， 下体呈红色。雌性苍头燕雀色调略为单调、偏绿。 分布 苍头燕雀的分布范围为欧洲、北非至西亚。",
+    "lat": "53.5",
+    "lng": "108",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Male_Chaffinch_-_Fringilla_coelebs.jpg/960px-Male_Chaffinch_-_Fringilla_coelebs.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安加拉河-22c4b75a",
+      "name": "安加拉河",
+      "summary": "安加拉河（俄語：Ангара），俄羅斯西伯利亞的一條河流，元代稱昂可剌河，流经俄罗斯东南伊尔库茨克州和克拉斯諾亞爾斯克邊疆區，是流出贝加尔湖的唯一一条河，也是葉尼塞河水量最大的支流之一。下游称上通古斯卡河。安加拉河左岸支流包括塔謝耶瓦河、…",
+      "lat": "58.102",
+      "lng": "92.991"
+    },
+    {
+      "id": "loc-贝加尔湖-06c8069f",
+      "name": "贝加尔湖",
+      "summary": "貝加爾湖（俄語：озеро Байкал，羅馬化：Ozero Baykal；布里亞特語：Байгал нуур，羅馬化：Baygal nuur）位於俄羅斯西伯利亚伊爾庫茨克州、布里亞特共和國境內，面積約為31,722平方公里，距離蒙古国邊…",
+      "lat": "53.5",
+      "lng": "108"
+    },
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-苍头燕雀-3f2fb150",
+      "subject": "苍头燕雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-安加拉河-22c4b75a",
+      "object": "安加拉河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Eurasian chaffinch breeds in wooded areas where the July isotherm is between . The breeding range includes most of Europe and extends eastwards across temperate Asia to the Angara River and the southern end of Lake Baikal in Siberia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-苍头燕雀-3f2fb150",
+      "subject": "苍头燕雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-贝加尔湖-06c8069f",
+      "object": "贝加尔湖",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Eurasian chaffinch breeds in wooded areas where the July isotherm is between . The breeding range includes most of Europe and extends eastwards across temperate Asia to the Angara River and the southern end of Lake Baikal in Siberia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-苍头燕雀-3f2fb150",
+      "subject": "苍头燕雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Eurasian chaffinch breeds in wooded areas where the July isotherm is between . The breeding range includes most of Europe and extends eastwards across temperate Asia to the Angara River and the southern end of Lake Baikal in Siberia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-苍头燕雀-3f2fb150",
+      "subject": "苍头燕雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

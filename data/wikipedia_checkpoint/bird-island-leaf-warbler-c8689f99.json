@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T21:04:17",
+  "requested_title": "Island Leaf Warbler",
+  "resolved_title": "Island leaf warbler",
+  "title_aliases": [
+    "Island Leaf Warbler"
+  ],
+  "bird_id": "bird-island-leaf-warbler-c8689f99",
+  "raw_file": "bird-island-leaf-warbler-c8689f99.json",
+  "bird": {
+    "id": "bird-island-leaf-warbler-c8689f99",
+    "name": "Island leaf warbler",
+    "english_name": "Island leaf warbler",
+    "latin_name": "Phylloscopus poliocephalus",
+    "summary": "The island leaf warbler (Phylloscopus poliocephalus) is a species of Old World warbler in the family Phylloscopidae. It is found in an area…",
+    "lat": "-3",
+    "lng": "129",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Phylloscopus_poliocephalus_suaramerdu_-_James_Eaton_-_583464609.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-摩鹿加群岛-2d13e6a0",
+      "name": "摩鹿加群岛",
+      "summary": "摩鹿加群岛（英語：Maluku Islands，Moluccas；印尼語：Kepulauan Maluku），有時被稱為「東印度群島」，位置处于苏拉威西岛东面、新几内亚西面以及帝汶北面，为印度尼西亚境內众多群岛板块之一，是马来群岛的组成部…",
+      "lat": "-3",
+      "lng": "129"
+    },
+    {
+      "id": "loc-所罗门群岛-65f9af23",
+      "name": "所罗门群岛",
+      "summary": "所罗门群岛（英語：Solomon Islands）是南太平洋岛国，位於澳大利亚东北方，巴布亞紐幾內亞東方。首都霍尼亞拉所在地瓜達康納爾島曾是第二次世界大戰在太平洋的转折点所在地。 所罗门群岛共有超過990個島，陸地總面積共有28,450平…",
+      "lat": "-8",
+      "lng": "159"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-island-leaf-warbler-c8689f99",
+      "subject": "Island leaf warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-摩鹿加群岛-2d13e6a0",
+      "object": "摩鹿加群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in an area ranging from the Moluccas to the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-island-leaf-warbler-c8689f99",
+      "subject": "Island leaf warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-所罗门群岛-65f9af23",
+      "object": "所罗门群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in an area ranging from the Moluccas to the Solomon Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-island-leaf-warbler-c8689f99",
+      "subject": "Island leaf warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

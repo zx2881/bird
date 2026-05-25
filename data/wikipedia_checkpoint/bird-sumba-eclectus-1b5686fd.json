@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:53:51",
+  "requested_title": "Sumba Eclectus",
+  "resolved_title": "Sumba eclectus",
+  "title_aliases": [
+    "Sumba Eclectus"
+  ],
+  "bird_id": "bird-sumba-eclectus-1b5686fd",
+  "raw_file": "bird-sumba-eclectus-1b5686fd.json",
+  "bird": {
+    "id": "bird-sumba-eclectus-1b5686fd",
+    "name": "Sumba eclectus",
+    "english_name": "Sumba eclectus",
+    "latin_name": "Eclectus cornelia",
+    "summary": "The Sumba eclectus, or Cornelia's eclectus (Eclectus cornelia) is a parrot species which is native to Sumba. Also larger than the Moluccan…",
+    "lat": "-9.66666667",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Eclectus_roratus_-Dallas_Zoo%2C_Texas%2C_USA-8a.jpg/960px-Eclectus_roratus_-Dallas_Zoo%2C_Texas%2C_USA-8a.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "name": "夏尔·吕西安·波拿巴",
+      "summary": "夏尔·吕西安·朱尔·朱尔·波拿巴（法語：Charles Lucien Jules Laurent Bonaparte，發音：[ʃaʁl lysjɛ̃ ʒyl lɔʁɑ̃ bɔnapaʁt]；1803年5月24日—1857年7月29日）是一…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-松巴島-041c77b7",
+      "name": "松巴島",
+      "summary": "松巴島（印尼語：Sumba）是印度尼西亞東部東努沙登加拉省的島嶼，屬於小巽他群島，位於松巴哇島東南、弗洛勒斯島西南、帝汶以西、澳洲以北。 面積11,153平方公里，2005年人口611,422。松巴島大部地区海拔600－1000米的高原，…",
+      "lat": "-9.66666667",
+      "lng": "120"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-sumba-eclectus-1b5686fd",
+      "subject": "Sumba eclectus",
+      "predicate": "distributed_in",
+      "object_id": "loc-夏尔-吕西安-波拿巴-c0bae689",
+      "object": "夏尔·吕西安·波拿巴",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sumba eclectus, or Cornelia's eclectus (Eclectus cornelia) is a parrot species which is native to Sumba",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sumba-eclectus-1b5686fd",
+      "subject": "Sumba eclectus",
+      "predicate": "distributed_in",
+      "object_id": "loc-松巴島-041c77b7",
+      "object": "松巴島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Sumba eclectus, or Cornelia's eclectus (Eclectus cornelia) is a parrot species which is native to Sumba",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-sumba-eclectus-1b5686fd",
+      "subject": "Sumba eclectus",
+      "predicate": "has_status",
+      "object_id": "status-en",
+      "object": "EN",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = EN",
+      "object_summary": "IUCN 濒危。"
+    }
+  ]
+}

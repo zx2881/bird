@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:19:30",
+  "requested_title": "Pechora Pipit",
+  "resolved_title": "Pechora pipit",
+  "title_aliases": [
+    "Pechora Pipit"
+  ],
+  "bird_id": "bird-北鹨-f467b9c9",
+  "raw_file": "bird-北鹨-f467b9c9.json",
+  "bird": {
+    "id": "bird-北鹨-f467b9c9",
+    "name": "北鹨",
+    "english_name": "Pechora pipit",
+    "latin_name": "Anthus gustavi",
+    "summary": "北鹨（学名：Anthus gustavi），又名白背鹨，为鶺鸰科鹨属的鸟类。主要繁殖於東古北界的苔原及河岸密植區域，分佈範圍從伯朝拉河到楚科奇半島。它也在堪察加和科曼多爾群島繁殖。它是一種長途遷徙的候鳥，冬季會遷徙至印尼。偶爾在九月和十月，白背鷚可能會在西歐出現。此物種於186…",
+    "lat": "68.3",
+    "lng": "54.41666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Anthus_gustavi_214075656.jpg/960px-Anthus_gustavi_214075656.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-伯朝拉河-c325735f",
+      "name": "伯朝拉河",
+      "summary": "伯朝拉河（俄語：Печора，羅馬化：Pechora/Pecora；科米語：Печӧра；涅涅茨語：Санэроˮ яха）又譯比初拉河、伯紹拉河或白紹拉河，是位于俄罗斯西北部的一条河流。它发源于科米共和国境内的乌拉尔山脉，向北流经涅涅茨…",
+      "lat": "68.3",
+      "lng": "54.41666667"
+    },
+    {
+      "id": "loc-楚科奇半岛-a1bd21ce",
+      "name": "楚科奇半岛",
+      "summary": "楚科奇半岛（俄語：Чукотский полуостров，英語：Chukchi Peninsula，中國唐代稱爲夜叉國），是欧亚大陆最东端的半岛，也是歐亞大陸地理位置上唯一位處西半球的地方，位于北纬66度，西经172度附近。楚科奇半岛北…",
+      "lat": "66",
+      "lng": "-172"
+    },
+    {
+      "id": "loc-堪察加半島-6a0bad85",
+      "name": "堪察加半島",
+      "summary": "堪察加半島（俄語：Полуостров Камчатка，羅馬化：Poluostrov Kamchatka），清朝稱甘查甲、岡扎德加，是位于东北亚的一个半岛，由俄羅斯遠東聯邦管區堪察加邊疆區管辖。堪察加半岛長1,250公里，面积37万平方…",
+      "lat": "57",
+      "lng": "160"
+    },
+    {
+      "id": "loc-科曼多尔群岛-26154367",
+      "name": "科曼多尔群岛",
+      "summary": "The Commander Islands, Komandorski Islands, or Komandorskie Islands (Russian: Командо́рские острова́, Komandorskiye ost…",
+      "lat": "55",
+      "lng": "166.4"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-北鹨-f467b9c9",
+      "subject": "北鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-伯朝拉河-c325735f",
+      "object": "伯朝拉河",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Swinhoe]], 1863 }} The Pechora pipit (Anthus gustavi) is a small passerine bird which breeds in the East Palearctic tundra and densely vegetated areas near river banks ranges from the Pechora River to the Chukchi Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北鹨-f467b9c9",
+      "subject": "北鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-楚科奇半岛-a1bd21ce",
+      "object": "楚科奇半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Swinhoe]], 1863 }} The Pechora pipit (Anthus gustavi) is a small passerine bird which breeds in the East Palearctic tundra and densely vegetated areas near river banks ranges from the Pechora River to the Chukchi Peninsula",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北鹨-f467b9c9",
+      "subject": "北鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-堪察加半島-6a0bad85",
+      "object": "堪察加半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also breeds in Kamchatka and the Commander Islands, and with a disjunct population much further south in northeastern China and southeastern Siberia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北鹨-f467b9c9",
+      "subject": "北鹨",
+      "predicate": "distributed_in",
+      "object_id": "loc-科曼多尔群岛-26154367",
+      "object": "科曼多尔群岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It also breeds in Kamchatka and the Commander Islands, and with a disjunct population much further south in northeastern China and southeastern Siberia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-北鹨-f467b9c9",
+      "subject": "北鹨",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

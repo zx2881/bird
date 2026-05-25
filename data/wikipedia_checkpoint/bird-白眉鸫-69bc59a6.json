@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:42:17",
+  "requested_title": "Eyebrowed Thrush",
+  "resolved_title": "Eyebrowed thrush",
+  "title_aliases": [
+    "Eyebrowed Thrush"
+  ],
+  "bird_id": "bird-白眉鸫-69bc59a6",
+  "raw_file": "bird-白眉鸫-69bc59a6.json",
+  "bird": {
+    "id": "bird-白眉鸫-69bc59a6",
+    "name": "白眉鸫",
+    "english_name": "Eyebrowed thrush",
+    "latin_name": "Turdus obscurus",
+    "summary": "白眉鸫（学名：Turdus obscurus）属於鸫科鸫属，是一种广泛分布於除青藏高原外的东亚和北亚雀鸟。其繁殖於密集的針葉林與泰加林，從西伯利亞及蒙古往東延伸至日本。 本種為強烈的候鳥，於冬季遷徙至中國及東南亞過冬，偶見於西歐洲。其近缘物种为白腹鸫与灰背鸫。",
+    "lat": "61",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Eyebrowed_Thrush.jpg/960px-Eyebrowed_Thrush.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    },
+    {
+      "id": "loc-日本-4dbed2e6",
+      "name": "日本",
+      "summary": "日本國（日語：日本国〔日本國〕／にっぽんこく／にほんこく，羅馬化：nippon koku/nihon koku），通稱日本，是位於東亞的島嶼國家。國土全境由北海道、本州、四國、九州等本土四島為基礎的14,125座島嶼組成，周圍被太平洋及鄂…",
+      "lat": "36",
+      "lng": "138"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白眉鸫-69bc59a6",
+      "subject": "白眉鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in dense coniferous forest and taiga eastwards from Siberia and Mongolia to Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眉鸫-69bc59a6",
+      "subject": "白眉鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-日本-4dbed2e6",
+      "object": "日本",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in dense coniferous forest and taiga eastwards from Siberia and Mongolia to Japan",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白眉鸫-69bc59a6",
+      "subject": "白眉鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

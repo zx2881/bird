@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:02:29",
+  "requested_title": "White-tailed Warbler",
+  "resolved_title": "White-tailed warbler",
+  "title_aliases": [
+    "White-tailed Warbler"
+  ],
+  "bird_id": "bird-white-tailed-warbler-6ddb91be",
+  "raw_file": "bird-white-tailed-warbler-6ddb91be.json",
+  "bird": {
+    "id": "bird-white-tailed-warbler-6ddb91be",
+    "name": "White-tailed warbler",
+    "english_name": "White-tailed warbler",
+    "latin_name": "Poliolais lopezi",
+    "summary": "The white-tailed warbler (Poliolais lopezi) is a species of bird in the family Cisticolidae, the only species of the genus Poliolais. It is…",
+    "lat": "6.5",
+    "lng": "10.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Poliolais_lopezi_lopezi_-_Chris_Quirin_-_173824336.jpeg/960px-Poliolais_lopezi_lopezi_-_Chris_Quirin_-_173824336.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴門達高原-7edb036b",
+      "name": "巴門達高原",
+      "summary": "巴門達高原是非洲中西部國家喀麥隆的高原，受赤道多雨氣候影響，每年平均降雨量1,000至2,000毫米，是薩納加河主要支流的發源地。",
+      "lat": "6.5",
+      "lng": "10.5"
+    },
+    {
+      "id": "loc-比奥科岛-c4254484",
+      "name": "比奥科岛",
+      "summary": "比奥科岛（Bioko），原名“费尔南多波岛”（西班牙語：Fernando Poo），是非洲西海岸几内亚湾中的一个火山岛，属赤道几内亚管辖，该国前首都马拉博即位于岛上。该岛面积为2,017平方公里，人口33万人。該島嶼原為西班牙殖民地，因其…",
+      "lat": "3.5",
+      "lng": "8.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-white-tailed-warbler-6ddb91be",
+      "subject": "White-tailed warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴門達高原-7edb036b",
+      "object": "巴門達高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau and Bioko",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-tailed-warbler-6ddb91be",
+      "subject": "White-tailed warbler",
+      "predicate": "distributed_in",
+      "object_id": "loc-比奥科岛-c4254484",
+      "object": "比奥科岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Western High Plateau and Bioko",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-white-tailed-warbler-6ddb91be",
+      "subject": "White-tailed warbler",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-white-tailed-warbler-6ddb91be",
+      "subject": "White-tailed warbler",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-white-tailed-warbler-6ddb91be",
+      "subject": "White-tailed warbler",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is becoming rare due to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

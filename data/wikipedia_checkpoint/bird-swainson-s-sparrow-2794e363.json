@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:24:24",
+  "requested_title": "Swainson's Sparrow",
+  "resolved_title": "Swainson's sparrow",
+  "title_aliases": [
+    "Swainson's Sparrow"
+  ],
+  "bird_id": "bird-swainson-s-sparrow-2794e363",
+  "raw_file": "bird-swainson-s-sparrow-2794e363.json",
+  "bird": {
+    "id": "bird-swainson-s-sparrow-2794e363",
+    "name": "Swainson's sparrow",
+    "english_name": "Swainson's sparrow",
+    "latin_name": "Passer swainsonii",
+    "summary": "Swainson's sparrow (Passer swainsonii) is a species of bird in the sparrow family Passeridae. Sometimes considered a subspecies of the grey…",
+    "lat": "10.705775",
+    "lng": "37.849282",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Swainson%27s_sparrow_%28Passer_swainsonii%29.jpg/960px-Swainson%27s_sparrow_%28Passer_swainsonii%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-衣索比亞高原-20c47310",
+      "name": "衣索比亞高原",
+      "summary": "衣索比亞高原（又譯埃塞俄比亞高地）是非洲國家埃塞俄比亞、厄立特里亞和索馬里的一個高原，由一群堅固且大規模的山構成，在非洲之角的索馬里北部及衣索比亞。它有時也被稱為“非洲屋脊”（Roof of Africa），因為它的高度和很大的面積。 衣…",
+      "lat": "10.705775",
+      "lng": "37.849282"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-swainson-s-sparrow-2794e363",
+      "subject": "Swainson's sparrow",
+      "predicate": "distributed_in",
+      "object_id": "loc-衣索比亞高原-20c47310",
+      "object": "衣索比亞高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Sometimes considered a subspecies of the grey-headed sparrow, it occurs in northeastern Africa, largely in the Ethiopian Highlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-swainson-s-sparrow-2794e363",
+      "subject": "Swainson's sparrow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

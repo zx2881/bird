@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:45:52",
+  "requested_title": "Orange-crested Flycatcher",
+  "resolved_title": "Orange-crested flycatcher",
+  "title_aliases": [
+    "Orange-crested Flycatcher"
+  ],
+  "bird_id": "bird-orange-crested-flycatcher-753da854",
+  "raw_file": "bird-orange-crested-flycatcher-753da854.json",
+  "bird": {
+    "id": "bird-orange-crested-flycatcher-753da854",
+    "name": "Orange-crested flycatcher",
+    "english_name": "Orange-crested flycatcher",
+    "latin_name": "Myiophobus phoenicomitra",
+    "summary": "The orange-crested flycatcher (Myiophobus phoenicomitra) is a species of bird in the family Tyrannidae, the tyrant flycatchers. It is found…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Myiophobus_phoenicomitra_-_Orange-crested_Flycatcher_%28cropped%29.jpg/960px-Myiophobus_phoenicomitra_-_Orange-crested_Flycatcher_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-秘鲁-1a201746",
+      "name": "秘鲁",
+      "summary": "秘（bì）魯共和國（西班牙語：República del Perú；奇楚瓦語：Piruw Ripuwlika；艾馬拉語：Piruwxa Ripuwlika），通称秘魯（西班牙語：Perú；奇楚瓦語：Piruw；艾馬拉語：Piruw），是南…",
+      "lat": "-10",
+      "lng": "-76"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-orange-crested-flycatcher-753da854",
+      "subject": "Orange-crested flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Ecuador, and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-crested-flycatcher-753da854",
+      "subject": "Orange-crested flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Ecuador, and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-crested-flycatcher-753da854",
+      "subject": "Orange-crested flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-秘鲁-1a201746",
+      "object": "秘鲁",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia, Ecuador, and Peru",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-orange-crested-flycatcher-753da854",
+      "subject": "Orange-crested flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T08:45:39",
+  "requested_title": "Crested Eagle",
+  "resolved_title": "Crested eagle",
+  "title_aliases": [
+    "Crested Eagle"
+  ],
+  "bird_id": "bird-冕鵰-b037d643",
+  "raw_file": "bird-冕鵰-b037d643.json",
+  "bird": {
+    "id": "bird-冕鵰-b037d643",
+    "name": "冕鵰",
+    "english_name": "Crested eagle",
+    "latin_name": "Morphnus guianensis",
+    "summary": "冕鵰（學名：Morphnus guianensis）是冕鵰屬（學名：Morphnus）的唯一成員，种加词 guianensis 意为“圭亚那的”。分布於新熱帶界，包含瓜地馬拉、貝里斯、宏都拉斯、尼加拉瓜、哥斯大黎加、巴拿馬、哥倫比亞、委內瑞拉、蓋亞那、蘇利南、法屬圭亞那、巴西、…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Morphnus_guianensis_eating_green_snake_-Bolivia-8.jpg/960px-Morphnus_guianensis_eating_green_snake_-Bolivia-8.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-冕鵰-b037d643",
+      "subject": "冕鵰",
+      "predicate": "lives_in",
+      "object_id": "hab-rainforest",
+      "object": "热带雨林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The crested eagle lives in humid lowland forests, mostly comprised by old growth tropical rainforests",
+      "object_summary": "结构复杂且冠层完整的高生物多样性森林。"
+    },
+    {
+      "subject_id": "bird-冕鵰-b037d643",
+      "subject": "冕鵰",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-冕鵰-b037d643",
+      "subject": "冕鵰",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Despite their large distribution, they are currently classified as Near Threatened by the IUCN, due mainly to habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

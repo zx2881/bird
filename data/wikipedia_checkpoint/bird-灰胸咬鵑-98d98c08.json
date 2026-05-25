@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:11:34",
+  "requested_title": "Whitehead's Trogon",
+  "resolved_title": "Whitehead's trogon",
+  "title_aliases": [
+    "Whitehead's Trogon"
+  ],
+  "bird_id": "bird-灰胸咬鵑-98d98c08",
+  "raw_file": "bird-灰胸咬鵑-98d98c08.json",
+  "bird": {
+    "id": "bird-灰胸咬鵑-98d98c08",
+    "name": "灰胸咬鵑",
+    "english_name": "Whitehead's trogon",
+    "latin_name": "Harpactes whiteheadi",
+    "summary": "灰胸咬鵑（學名：Harpactes whiteheadi）是鳥類咬鹃科的一種。它是婆罗洲的特有動物，生活在島上的原始森林,是婆罗洲最大的咬鹃科動物之一，长達29到33厘米（11 到 13 英寸），是一種两性异形的動物。雄性的头部、颈部和下部呈現深红色，喉咙呈現黑色，胸部呈現灰色…",
+    "lat": "0",
+    "lng": "114",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Whitehead%27s_Trogon_0A2A5728.jpg/960px-Whitehead%27s_Trogon_0A2A5728.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-婆罗洲-d34fb9f8",
+      "name": "婆罗洲",
+      "summary": "加里曼丹岛（印尼語：Kalimantan）（星馬称婆罗洲岛，台湾称婆罗洲（馬來語：Borneo））是东南亚马来群岛中部的一座岛屿，面积743,330平方公里，是世界第三大岛，僅次於格陵蘭及新幾內亞，同時是亞洲第一大島。婆羅洲全境由印尼、馬…",
+      "lat": "0",
+      "lng": "114"
+    },
+    {
+      "id": "loc-原始森林-5233d26d",
+      "name": "原始森林",
+      "summary": "原始森林又稱原生林，是指一个森林已经达到非常非常长久的年龄而没有遭到显著的干扰，成功表现出独特的生态特征，并可能被归类为顶极群落。原生特性包括多样化的树有关的结构，提供多样化的野生动物栖息地，增加了森林生态系统的生物多样性。多样化的树结构…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰胸咬鵑-98d98c08",
+      "subject": "灰胸咬鵑",
+      "predicate": "distributed_in",
+      "object_id": "loc-婆罗洲-d34fb9f8",
+      "object": "婆罗洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Whitehead's trogon is endemic to the island of Borneo, where it occurs in mountainous areas between in elevation. Restricted to primary forest, it favours damp valleys. It is an uncommon and poorly-known species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰胸咬鵑-98d98c08",
+      "subject": "灰胸咬鵑",
+      "predicate": "distributed_in",
+      "object_id": "loc-原始森林-5233d26d",
+      "object": "原始森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Whitehead's trogon is endemic to the island of Borneo, where it occurs in mountainous areas between in elevation. Restricted to primary forest, it favours damp valleys. It is an uncommon and poorly-known species",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰胸咬鵑-98d98c08",
+      "subject": "灰胸咬鵑",
+      "predicate": "lives_in",
+      "object_id": "hab-open-mountain",
+      "object": "开阔山地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Whitehead's trogon is endemic to the island of Borneo, where it occurs in mountainous areas between in elevation. Restricted to primary forest, it favours damp valleys. It is an uncommon and poorly-known species",
+      "object_summary": "地形开阔且便于大翼展鸟类活动的山地区域。"
+    },
+    {
+      "subject_id": "bird-灰胸咬鵑-98d98c08",
+      "subject": "灰胸咬鵑",
+      "predicate": "has_status",
+      "object_id": "status-nt",
+      "object": "NT",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = NT",
+      "object_summary": "IUCN 近危。"
+    },
+    {
+      "subject_id": "bird-灰胸咬鵑-98d98c08",
+      "subject": "灰胸咬鵑",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Habitat loss is a key threat",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

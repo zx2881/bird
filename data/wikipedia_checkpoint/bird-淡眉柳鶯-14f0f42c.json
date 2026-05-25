@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:52:02",
+  "requested_title": "Hume's Leaf Warbler",
+  "resolved_title": "Hume's leaf warbler",
+  "title_aliases": [
+    "Hume's Leaf Warbler"
+  ],
+  "bird_id": "bird-淡眉柳鶯-14f0f42c",
+  "raw_file": "bird-淡眉柳鶯-14f0f42c.json",
+  "bird": {
+    "id": "bird-淡眉柳鶯-14f0f42c",
+    "name": "淡眉柳鶯",
+    "english_name": "Hume's leaf warbler",
+    "latin_name": "Phylloscopus humei",
+    "summary": "淡眉柳鶯（Hume's Leaf Warbler，學名：Phylloscopus humei）又名休氏柳鶯或休氏黃眉柳鶯，是屬於柳鶯科的一種雀鳥，是柳鶯屬的一種。分佈於歐亞大陸。體長11厘米。 分佈 原產留鳥 阿富汗、孟加拉、不丹、中國、印度、伊朗、伊拉克、哈薩克斯坦、老撾、蒙…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Hume%27s_Warbler_I2_IMG_3401.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-青藏高原-d19147a0",
+      "name": "青藏高原",
+      "summary": "青藏高原（藏語：བོད་ས་མཐོ，威利转写：Bod Sa mTho，藏语拼音：Pösamto），亦稱西藏高原、青康藏高原、海藏高原，是亚洲的高原地区，世界上最高的高原，平均海拔高度4500米，面积250万平方公里，有“世界屋脊”、“雪域…",
+      "lat": "33",
+      "lng": "88"
+    },
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-淡眉柳鶯-14f0f42c",
+      "subject": "淡眉柳鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-青藏高原-d19147a0",
+      "object": "青藏高原",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The completely allopatric subspecies mandellii (Mandell's leaf warbler or eastern Hume's warbler) &ndash; sometimes separated as a full species, in which case the nominate subspecies is called western Hume's warbler &ndash; occurs on the eastern Tibetan Plateau. Both populations migrate over the Himalayas to winter in India and adjacent regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡眉柳鶯-14f0f42c",
+      "subject": "淡眉柳鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The completely allopatric subspecies mandellii (Mandell's leaf warbler or eastern Hume's warbler) &ndash; sometimes separated as a full species, in which case the nominate subspecies is called western Hume's warbler &ndash; occurs on the eastern Tibetan Plateau. Both populations migrate over the Himalayas to winter in India and adjacent regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡眉柳鶯-14f0f42c",
+      "subject": "淡眉柳鶯",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The completely allopatric subspecies mandellii (Mandell's leaf warbler or eastern Hume's warbler) &ndash; sometimes separated as a full species, in which case the nominate subspecies is called western Hume's warbler &ndash; occurs on the eastern Tibetan Plateau. Both populations migrate over the Himalayas to winter in India and adjacent regions",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-淡眉柳鶯-14f0f42c",
+      "subject": "淡眉柳鶯",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

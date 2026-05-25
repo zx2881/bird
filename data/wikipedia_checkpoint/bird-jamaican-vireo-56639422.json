@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:34:41",
+  "requested_title": "Jamaican Vireo",
+  "resolved_title": "Jamaican vireo",
+  "title_aliases": [
+    "Jamaican Vireo"
+  ],
+  "bird_id": "bird-jamaican-vireo-56639422",
+  "raw_file": "bird-jamaican-vireo-56639422.json",
+  "bird": {
+    "id": "bird-jamaican-vireo-56639422",
+    "name": "Jamaican vireo",
+    "english_name": "Jamaican vireo",
+    "latin_name": "Vireo modestus",
+    "summary": "The Jamaican vireo (Vireo modestus) is a species of bird in the family Vireonidae, the vireos, greenlets, and shrike-babblers. It is endemi…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Vireo_modestus_Jennens.jpg/960px-Vireo_modestus_Jennens.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-jamaican-vireo-56639422",
+      "subject": "Jamaican vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "However, it also occurs in almost any available forest type including lowland and montane evergreen and secondary forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jamaican-vireo-56639422",
+      "subject": "Jamaican vireo",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "However, it also occurs in almost any available forest type including lowland and montane evergreen and secondary forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-jamaican-vireo-56639422",
+      "subject": "Jamaican vireo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

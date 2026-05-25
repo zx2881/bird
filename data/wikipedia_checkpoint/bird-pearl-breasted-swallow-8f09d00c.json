@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:23:06",
+  "requested_title": "Pearl-breasted Swallow",
+  "resolved_title": "Pearl-breasted swallow",
+  "title_aliases": [
+    "Pearl-breasted Swallow"
+  ],
+  "bird_id": "bird-pearl-breasted-swallow-8f09d00c",
+  "raw_file": "bird-pearl-breasted-swallow-8f09d00c.json",
+  "bird": {
+    "id": "bird-pearl-breasted-swallow-8f09d00c",
+    "name": "Pearl-breasted swallow",
+    "english_name": "Pearl-breasted swallow",
+    "latin_name": "Hirundo dimidiata",
+    "summary": "The pearl-breasted swallow (Hirundo dimidiata) is a small swallow. Description The pearl-breasted swallow is 13–14 cm long.",
+    "lat": "-12.5",
+    "lng": "18.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Pearl-breasted_Swallow_by_CraigAdam.jpg/960px-Pearl-breasted_Swallow_by_CraigAdam.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安哥拉-5c186dec",
+      "name": "安哥拉",
+      "summary": "安哥拉共和國（葡萄牙語：República de Angola），通稱安哥拉（葡萄牙語：Angola），是位于非洲西南部的國家，西濱大西洋，北及東北鄰剛果民主共和國，南鄰納米比亞，東南鄰尚比亞，另有一塊外飛地卡賓達省，位於剛果共和國和剛果…",
+      "lat": "-12.5",
+      "lng": "18.5"
+    },
+    {
+      "id": "loc-刚果民主共和国-310148a7",
+      "name": "刚果民主共和国",
+      "summary": "剛果民主共和國（法語：République démocratique du Congo，簡寫為RDC）是位於非洲中部的國家，簡稱民主剛果（RD Congo）、剛果（金）（Congo-Kinshasa）。國家的陸地面積約234.5萬平方公里…",
+      "lat": "-3",
+      "lng": "24"
+    },
+    {
+      "id": "loc-坦桑尼亚-e32a94b9",
+      "name": "坦桑尼亚",
+      "summary": "坦桑尼亚联合共和国（斯瓦希里語：Jamhuri ya Muungano wa Tanzania；英語：United Republic of Tanzania），通稱坦尚尼亞（斯瓦希里語和英語：Tanzania），是位于赤道以南的东非国家。…",
+      "lat": "-6",
+      "lng": "35"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pearl-breasted-swallow-8f09d00c",
+      "subject": "Pearl-breasted swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-安哥拉-5c186dec",
+      "object": "安哥拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pearl-breasted swallow breeds in southern Africa from Angola, southern Congo and Tanzania southwards",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pearl-breasted-swallow-8f09d00c",
+      "subject": "Pearl-breasted swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果民主共和国-310148a7",
+      "object": "刚果民主共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pearl-breasted swallow breeds in southern Africa from Angola, southern Congo and Tanzania southwards",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pearl-breasted-swallow-8f09d00c",
+      "subject": "Pearl-breasted swallow",
+      "predicate": "distributed_in",
+      "object_id": "loc-坦桑尼亚-e32a94b9",
+      "object": "坦桑尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pearl-breasted swallow breeds in southern Africa from Angola, southern Congo and Tanzania southwards",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pearl-breasted-swallow-8f09d00c",
+      "subject": "Pearl-breasted swallow",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

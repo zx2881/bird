@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T23:02:25",
+  "requested_title": "Carmiol's Tanager",
+  "resolved_title": "Carmiol's tanager",
+  "title_aliases": [
+    "Carmiol's Tanager"
+  ],
+  "bird_id": "bird-carmiol-s-tanager-ab5a90ea",
+  "raw_file": "bird-carmiol-s-tanager-ab5a90ea.json",
+  "bird": {
+    "id": "bird-carmiol-s-tanager-ab5a90ea",
+    "name": "Carmiol's tanager",
+    "english_name": "Carmiol's tanager",
+    "latin_name": "Chlorothraupis carmioli",
+    "summary": "Carmiol's tanager (Chlorothraupis carmioli) is a species of bird in the cardinal family Cardinalidae that is found in Central America from…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Chlorothraupis_carmioli_-Costa_Rica-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喬治-紐博爾德-勞倫斯-ea81d658",
+      "name": "喬治·紐博爾德·勞倫斯",
+      "summary": "喬治·紐博爾德·勞倫斯（George Newbold Lawrence，1806年10月20日 – 1895年11月17日）是一位美國商人和業餘鳥類學家。 他曾為斯賓塞·富勒頓·貝爾德及約翰·卡辛進行太平鳥類調查，他們三人在1860年出版…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中美洲-42eb12df",
+      "name": "中美洲",
+      "summary": "中美洲（英語：Central America，西班牙語：América central）是一個地理概念。依據不同的劃分法，屬於北美洲或南美洲的一部分，一般指連接北美洲與南美洲之間的地峽，現有七個國家（若算入墨西哥則為八個）。 範圍 範圍北…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-carmiol-s-tanager-ab5a90ea",
+      "subject": "Carmiol's tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-喬治-紐博爾德-勞倫斯-ea81d658",
+      "object": "喬治·紐博爾德·勞倫斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Carmiol's tanager (Chlorothraupis carmioli) is a species of bird in the cardinal family Cardinalidae that is found in Central America from Nicaragua southwards to northwest Colombia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-carmiol-s-tanager-ab5a90ea",
+      "subject": "Carmiol's tanager",
+      "predicate": "distributed_in",
+      "object_id": "loc-中美洲-42eb12df",
+      "object": "中美洲",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Carmiol's tanager (Chlorothraupis carmioli) is a species of bird in the cardinal family Cardinalidae that is found in Central America from Nicaragua southwards to northwest Colombia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-carmiol-s-tanager-ab5a90ea",
+      "subject": "Carmiol's tanager",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

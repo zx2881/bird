@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:48:22",
+  "requested_title": "Philippine Collared Dove",
+  "resolved_title": "Philippine collared dove",
+  "title_aliases": [
+    "Philippine Collared Dove"
+  ],
+  "bird_id": "bird-philippine-collared-dove-257615b6",
+  "raw_file": "bird-philippine-collared-dove-257615b6.json",
+  "bird": {
+    "id": "bird-philippine-collared-dove-257615b6",
+    "name": "Philippine collared dove",
+    "english_name": "Philippine collared dove",
+    "latin_name": "Streptopelia dusumieri",
+    "summary": "The Philippine collared dove (Streptopelia dusumieri) is a species of bird in the family Columbidae. It was formerly considered a subspecie…",
+    "lat": "13",
+    "lng": "122",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Streptopelia_dusumieri%2C_feral%2C_Saipan.jpg/960px-Streptopelia_dusumieri%2C_feral%2C_Saipan.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲律宾-4d64c545",
+      "name": "菲律宾",
+      "summary": "菲律賓共和國（他加祿語：Republika ng Pilipinas；英語：Republic of the Philippines）簡稱菲律賓，是東南亞的群島國家。位於西太平洋，北隔呂宋海峽與臺灣相望，南隔西里伯斯海與印度尼西亚相望，西隔…",
+      "lat": "13",
+      "lng": "122"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-philippine-collared-dove-257615b6",
+      "subject": "Philippine collared dove",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲律宾-4d64c545",
+      "object": "菲律宾",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "bitorquata). The species occurs in the Philippines where it is called locally as bato-bato de collar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-philippine-collared-dove-257615b6",
+      "subject": "Philippine collared dove",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "An open country species inhabiting grassland and agricultural land with trees and scrub, while introduced populations are found in urban areas",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-philippine-collared-dove-257615b6",
+      "subject": "Philippine collared dove",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

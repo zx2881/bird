@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:10:29",
+  "requested_title": "Sula Pitta",
+  "resolved_title": "Sula pitta",
+  "title_aliases": [
+    "Sula Pitta"
+  ],
+  "bird_id": "bird-苏拉八色鸫-a95d36c2",
+  "raw_file": "bird-苏拉八色鸫-a95d36c2.json",
+  "bird": {
+    "id": "bird-苏拉八色鸫-a95d36c2",
+    "name": "苏拉八色鸫",
+    "english_name": "Sula pitta",
+    "latin_name": "Erythropitta dohertyi",
+    "summary": "苏拉八色鸫（学名：Pitta dohertyi），是八色鸫科八色鸫属的一种，为印度尼西亚的特有种。该物种的保护状况被评为近危。 苏拉八色鸫的平均体重约为60.0克。栖息地包括种植园、亚热带或热带的湿润低地林、亚热带或热带严重退化的前森林、亚热带或热带的（低地）湿润疏灌丛和河流、…",
+    "lat": "-5",
+    "lng": "120",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Erythropitta_dohertyi_435261762_%28cropped%29.jpg/960px-Erythropitta_dohertyi_435261762_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度尼西亚-8e5995ef",
+      "name": "印度尼西亚",
+      "summary": "印度尼西亞共和国（印尼語：Republik Indonesia，IPA讀音：[rɛpʊblɪk ɪndɔnɛsɪa]），通稱印度尼西亞，簡稱印尼，是位于东南亚的群岛国家；由17,506個岛屿组成，是世界上最大的群島國家，疆域橫跨亞洲及大洋…",
+      "lat": "-5",
+      "lng": "120"
+    },
+    {
+      "id": "loc-sula-islands-b6777b37",
+      "name": "Sula Islands",
+      "summary": "The Sula Islands are an archipelago of Indonesia.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-邦盖群岛县-13400227",
+      "name": "邦盖群岛县",
+      "summary": "邦盖群岛县（印尼語：Kabupaten Banggai Kepulauan）是印度尼西亚中苏拉威西省的一个县，位于苏拉威西岛东部的邦盖群岛，主要管辖邦盖群岛的最大岛珀伦岛，西北隔珀伦海峡与东半岛的邦盖县相望，东南是邦盖海县，县治位于萨拉坎…",
+      "lat": "-1.408619",
+      "lng": "123.206363"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-苏拉八色鸫-a95d36c2",
+      "subject": "苏拉八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度尼西亚-8e5995ef",
+      "object": "印度尼西亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia where it occurs in the Sula and Banggai Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-苏拉八色鸫-a95d36c2",
+      "subject": "苏拉八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-sula-islands-b6777b37",
+      "object": "Sula Islands",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia where it occurs in the Sula and Banggai Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-苏拉八色鸫-a95d36c2",
+      "subject": "苏拉八色鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-邦盖群岛县-13400227",
+      "object": "邦盖群岛县",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is endemic to Indonesia where it occurs in the Sula and Banggai Islands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-苏拉八色鸫-a95d36c2",
+      "subject": "苏拉八色鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-苏拉八色鸫-a95d36c2",
+      "subject": "苏拉八色鸫",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "It is threatened by habitat loss",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

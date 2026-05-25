@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T19:25:38",
+  "requested_title": "Red-chested Swallow",
+  "resolved_title": "Red-chested swallow",
+  "title_aliases": [
+    "Red-chested Swallow"
+  ],
+  "bird_id": "bird-赤胸燕-a23461c4",
+  "raw_file": "bird-赤胸燕-a23461c4.json",
+  "bird": {
+    "id": "bird-赤胸燕-a23461c4",
+    "name": "赤胸燕",
+    "english_name": "Red-chested swallow",
+    "latin_name": "Hirundo lucida",
+    "summary": "赤胸燕(学名：Hirundo lucida)是一种小型的燕属留鸟，通常分布在西非地区的刚果河盆地以及东非的埃塞俄比亚。它有一个长长的剪刀形尾巴和弯而尖的翅膀。. 赤胸燕曾被当做是家燕的一个亚种，这是因为两者之间过于相似。赤胸燕同样拥有蓝色的胸饰（breast band）和短小的…",
+    "lat": "0",
+    "lng": "22",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Flickr_-_Rainbirder_-_Red-chested_Swallow_%28Hirundo_lucida%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-古斯塔夫-哈特勞布-2aa484d7",
+      "name": "古斯塔夫·哈特勞布",
+      "summary": "卡雷爾·約翰·古斯塔夫·哈特勞布（德語：Karel Johan Gustav Hartlaub，1814年11月8日—1900年11月29日）是一位德國醫生與鳥類學家。 哈特勞布出生於不來梅，學生時期住於波昂與柏林，並畢業於哥廷根的醫學院…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-刚果盆地-baa9864a",
+      "name": "刚果盆地",
+      "summary": "The Congo Basin is the sedimentary basin of the Congo River.",
+      "lat": "0",
+      "lng": "22"
+    },
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-赤胸燕-a23461c4",
+      "subject": "赤胸燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-古斯塔夫-哈特勞布-2aa484d7",
+      "object": "古斯塔夫·哈特勞布",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-chested swallow (Hirundo lucida) is a small non-migratory passerine bird found in West Africa, the Congo Basin and Ethiopia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤胸燕-a23461c4",
+      "subject": "赤胸燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-刚果盆地-baa9864a",
+      "object": "刚果盆地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-chested swallow (Hirundo lucida) is a small non-migratory passerine bird found in West Africa, the Congo Basin and Ethiopia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤胸燕-a23461c4",
+      "subject": "赤胸燕",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-chested swallow (Hirundo lucida) is a small non-migratory passerine bird found in West Africa, the Congo Basin and Ethiopia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-赤胸燕-a23461c4",
+      "subject": "赤胸燕",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

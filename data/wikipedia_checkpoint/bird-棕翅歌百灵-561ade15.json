@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:41:08",
+  "requested_title": "Bengal Bush Lark",
+  "resolved_title": "Bengal bush lark",
+  "title_aliases": [
+    "Bengal Bush Lark"
+  ],
+  "bird_id": "bird-棕翅歌百灵-561ade15",
+  "raw_file": "bird-棕翅歌百灵-561ade15.json",
+  "bird": {
+    "id": "bird-棕翅歌百灵-561ade15",
+    "name": "棕翅歌百灵",
+    "english_name": "Bengal bush lark",
+    "latin_name": "Plocealauda assamica",
+    "summary": "棕翅歌百灵（学名：Mirafra assamica），是百灵科歌百灵属的一种，分布于印度、缅甸、孟加拉国、不丹和尼泊尔。该物种的保护状况被评为无危。 棕翅歌百灵的平均体重约为26.2克。栖息地包括干燥的稀树草原、亚热带或热带的（低地）干燥疏灌丛和亚热带或热带的（低地）干草原。",
+    "lat": "22.3606792",
+    "lng": "88.4322502",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bengal_Bushlark_in_Baruipur_October_2025_by_Tisha_Mukherjee_01.jpg/960px-Bengal_Bushlark_in_Baruipur_October_2025_by_Tisha_Mukherjee_01.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-巴鲁伊普尔-50772c1b",
+      "name": "巴鲁伊普尔",
+      "summary": "巴鲁伊普尔（Baruipur），是印度西孟加拉邦South Twentyfour Parganas县的一个城镇。总人口44964（2001年）。 人口 该地2001年总人口44964人，其中男性22980人，女性21984人；0—6岁人口…",
+      "lat": "22.3606792",
+      "lng": "88.4322502"
+    },
+    {
+      "id": "loc-托马斯-霍斯菲尔德-0d750b27",
+      "name": "托马斯·霍斯菲尔德",
+      "summary": "托马斯·霍斯菲尔德（英語：Thomas Horsfield，1773年5月12日—1859年5月12日）是一位美国医生和博物学家，曾在印度尼西亚广泛工作，描述了该地区的多种植物和动物。他后来成为不列颠东印度公司伦敦博物馆的馆长。 早年经历…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-棕翅歌百灵-561ade15",
+      "subject": "棕翅歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-巴鲁伊普尔-50772c1b",
+      "object": "巴鲁伊普尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bengal bush lark (Plocealauda assamica) or Bengal lark is a species of lark in the family Alaudidae found in southern Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕翅歌百灵-561ade15",
+      "subject": "棕翅歌百灵",
+      "predicate": "distributed_in",
+      "object_id": "loc-托马斯-霍斯菲尔德-0d750b27",
+      "object": "托马斯·霍斯菲尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Bengal bush lark (Plocealauda assamica) or Bengal lark is a species of lark in the family Alaudidae found in southern Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-棕翅歌百灵-561ade15",
+      "subject": "棕翅歌百灵",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

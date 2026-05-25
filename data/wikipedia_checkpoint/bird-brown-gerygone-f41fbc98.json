@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:43:14",
+  "requested_title": "Brown Gerygone",
+  "resolved_title": "Brown gerygone",
+  "title_aliases": [
+    "Brown Gerygone"
+  ],
+  "bird_id": "bird-brown-gerygone-f41fbc98",
+  "raw_file": "bird-brown-gerygone-f41fbc98.json",
+  "bird": {
+    "id": "bird-brown-gerygone-f41fbc98",
+    "name": "Brown gerygone",
+    "english_name": "Brown gerygone",
+    "latin_name": "Gerygone mouki",
+    "summary": "The brown gerygone (Gerygone mouki), previously known as the brown warbler, is a small passerine bird native to eastern coastal Australia.…",
+    "lat": "-25",
+    "lng": "133",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Brown_Gerygone_0A2A7718.jpg/960px-Brown_Gerygone_0A2A7718.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-澳大利亚-52f085e7",
+      "name": "澳大利亚",
+      "summary": "澳大利亚联邦（英語：Commonwealth of Australia），通称澳大利亚、澳洲（Australia，缩写为AU、AUS），是一个位于南半球中北部、東半球东部的議會制君主立憲制、聯邦制國家。全国整体属于大洋洲（並非自成一洲），…",
+      "lat": "-25",
+      "lng": "133"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-brown-gerygone-f41fbc98",
+      "subject": "Brown gerygone",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳大利亚-52f085e7",
+      "object": "澳大利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "richmondi - (Mathews, 1915) }} The brown gerygone (Gerygone mouki), previously known as the brown warbler, is a small passerine bird native to eastern coastal Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-brown-gerygone-f41fbc98",
+      "subject": "Brown gerygone",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

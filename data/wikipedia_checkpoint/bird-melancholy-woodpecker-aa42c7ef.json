@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:18:33",
+  "requested_title": "Melancholy Woodpecker",
+  "resolved_title": "Melancholy woodpecker",
+  "title_aliases": [
+    "Melancholy Woodpecker"
+  ],
+  "bird_id": "bird-melancholy-woodpecker-aa42c7ef",
+  "raw_file": "bird-melancholy-woodpecker-aa42c7ef.json",
+  "bird": {
+    "id": "bird-melancholy-woodpecker-aa42c7ef",
+    "name": "Melancholy woodpecker",
+    "english_name": "Melancholy woodpecker",
+    "latin_name": "Dendropicos lugubris",
+    "summary": "The melancholy woodpecker (Dendropicos lugubris) is a species of woodpecker. It is found in West Africa from Sierra Leone east to Nigeria,…",
+    "lat": "12",
+    "lng": "3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/DendropicusKeulemans.jpg/960px-DendropicusKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-西非-6034ace8",
+      "name": "西非",
+      "summary": "西非通常是指非洲大陆南北分界线和向西凸起部分的大片地区，为地理、人种和文化过渡地带。 非洲大陆南大西洋海岸线在这一地区呈东西走向的部分曾以象牙海岸、黄金海岸而闻名。奴隶贸易在这里被人操纵，现在绝大多数非洲裔美国人就是当时从西非贩运到美国的…",
+      "lat": "12",
+      "lng": "3"
+    },
+    {
+      "id": "loc-upper-guinean-forests-6bea057e",
+      "name": "Upper Guinean forests",
+      "summary": "The Upper Guinean forests is a tropical seasonal forest region of West Africa.",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-melancholy-woodpecker-aa42c7ef",
+      "subject": "Melancholy woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-西非-6034ace8",
+      "object": "西非",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in West Africa from Sierra Leone east to Nigeria, living in forests, forest edges, clearings and woodlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-melancholy-woodpecker-aa42c7ef",
+      "subject": "Melancholy woodpecker",
+      "predicate": "distributed_in",
+      "object_id": "loc-upper-guinean-forests-6bea057e",
+      "object": "Upper Guinean forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "This woodpecker is found in the Upper Guinean forests of West Africa, in Cameroon, Ivory Coast, Ghana, Guinea, Guinea-Bissau, Liberia, Nigeria, Sierra Leone and Togo. Its habitat is open forest, forest edges, clearings, secondary forest and woodlands, up to in elevation. It is also found in swamps, plantations and gardens",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-melancholy-woodpecker-aa42c7ef",
+      "subject": "Melancholy woodpecker",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This woodpecker is found in the Upper Guinean forests of West Africa, in Cameroon, Ivory Coast, Ghana, Guinea, Guinea-Bissau, Liberia, Nigeria, Sierra Leone and Togo. Its habitat is open forest, forest edges, clearings, secondary forest and woodlands, up to in elevation. It is also found in swamps, plantations and gardens",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-melancholy-woodpecker-aa42c7ef",
+      "subject": "Melancholy woodpecker",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

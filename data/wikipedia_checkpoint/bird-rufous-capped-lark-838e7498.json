@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T10:50:44",
+  "requested_title": "Rufous-capped Lark",
+  "resolved_title": "Rufous-capped lark",
+  "title_aliases": [
+    "Rufous-capped Lark"
+  ],
+  "bird_id": "bird-rufous-capped-lark-838e7498",
+  "raw_file": "bird-rufous-capped-lark-838e7498.json",
+  "bird": {
+    "id": "bird-rufous-capped-lark-838e7498",
+    "name": "Rufous-capped lark",
+    "english_name": "Rufous-capped lark",
+    "latin_name": "Calandrella eremica",
+    "summary": "The rufous-capped lark (Calandrella eremica) is a small passerine bird of the lark family found in southwestern Arabia and the Horn of Afri…",
+    "lat": "23",
+    "lng": "46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Calandrella_eremica_-_Jacky_Judas_-_478147484.jpeg/960px-Calandrella_eremica_-_Jacky_Judas_-_478147484.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿拉伯半岛-f52fbd0c",
+      "name": "阿拉伯半岛",
+      "summary": "阿拉伯半島（阿拉伯語：شِبْهُ الْجَزِيرَةِ الْعَرَبِيَّة，shibhu l-jazīrati l-ʿarabiyyah意为“阿拉伯半岛”或جَزِيرَةُ الْعَرَب，jazīratu l-ʿara…",
+      "lat": "23",
+      "lng": "46"
+    },
+    {
+      "id": "loc-非洲之角-b7e64c34",
+      "name": "非洲之角",
+      "summary": "The Horn of Africa (HOA), also known as the Somali Peninsula, is a large peninsula and geopolitical region located in t…",
+      "lat": "9",
+      "lng": "48"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-capped-lark-838e7498",
+      "subject": "Rufous-capped lark",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉伯半岛-f52fbd0c",
+      "object": "阿拉伯半岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "daaroodensis - (White, CMN, 1960) | synonyms = }} The rufous-capped lark (Calandrella eremica) is a small passerine bird of the lark family found in southwestern Arabia and the Horn of Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-capped-lark-838e7498",
+      "subject": "Rufous-capped lark",
+      "predicate": "distributed_in",
+      "object_id": "loc-非洲之角-b7e64c34",
+      "object": "非洲之角",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "daaroodensis - (White, CMN, 1960) | synonyms = }} The rufous-capped lark (Calandrella eremica) is a small passerine bird of the lark family found in southwestern Arabia and the Horn of Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-capped-lark-838e7498",
+      "subject": "Rufous-capped lark",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

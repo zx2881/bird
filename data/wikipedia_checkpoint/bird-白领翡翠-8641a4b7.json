@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:48:10",
+  "requested_title": "Collared Kingfisher",
+  "resolved_title": "Collared kingfisher",
+  "title_aliases": [
+    "Collared Kingfisher"
+  ],
+  "bird_id": "bird-白领翡翠-8641a4b7",
+  "raw_file": "bird-白领翡翠-8641a4b7.json",
+  "bird": {
+    "id": "bird-白领翡翠-8641a4b7",
+    "name": "白领翡翠",
+    "english_name": "Collared kingfisher",
+    "latin_name": "Todiramphus chloris",
+    "summary": "白领翡翠（学名：Todiramphus chloris）为翠鸟科領翡翠屬的鸟类。此物種分佈廣泛，範圍東起紅海非洲沿岸，經南亞大陸，最東達太平洋中的波利尼西亞。 描述 白領翡翠身長23至25 cm（9.1至9.8英寸），雄鳥重51至90 g（1.8至3.2 oz），而雌鳥重54—…",
+    "lat": "15",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Todiramphus_chloris_2_-_Laem_Phak_Bia.jpg/960px-Todiramphus_chloris_2_-_Laem_Phak_Bia.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-厄立特里亚-7ee8b9af",
+      "name": "厄立特里亚",
+      "summary": "厄立特里亚国（英語：State of Eritrea，提格利尼亞語：ሃገረ ኤርትራ，阿拉伯語：دولة إرتريا）， 通稱厄利垂亞，是位於非洲東北部的国家，濒临红海，面积11.7万平方公里，人口約368萬人（2024年），首都为阿斯…",
+      "lat": "15",
+      "lng": "39"
+    },
+    {
+      "id": "loc-苏丹-2e3eec83",
+      "name": "苏丹",
+      "summary": "蘇丹共和國（阿拉伯語：جمهورية السودان；Republic of the Sudan），通稱蘇丹（阿拉伯語：السودان，羅馬化：Sūdān，/suːˈdɑːn/或/suːˈdæn/），南蘇丹獨立後亦被稱為北蘇丹，是位於東北…",
+      "lat": "15",
+      "lng": "32"
+    },
+    {
+      "id": "loc-索马里-5b5a7d76",
+      "name": "索马里",
+      "summary": "索馬里联邦共和国（索馬里語：Jamhuuriyadda Federaalka Soomaaliya；阿拉伯語：جمهورية الصومال الفدرالية，Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya；英語…",
+      "lat": "10",
+      "lng": "49"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白领翡翠-8641a4b7",
+      "subject": "白领翡翠",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄立特里亚-7ee8b9af",
+      "object": "厄立特里亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "abyssinica of north-east Africa, which is found in patches of mangroves in Eritrea and has also been recorded from Sudan and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白领翡翠-8641a4b7",
+      "subject": "白领翡翠",
+      "predicate": "distributed_in",
+      "object_id": "loc-苏丹-2e3eec83",
+      "object": "苏丹",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "abyssinica of north-east Africa, which is found in patches of mangroves in Eritrea and has also been recorded from Sudan and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白领翡翠-8641a4b7",
+      "subject": "白领翡翠",
+      "predicate": "distributed_in",
+      "object_id": "loc-索马里-5b5a7d76",
+      "object": "索马里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "abyssinica of north-east Africa, which is found in patches of mangroves in Eritrea and has also been recorded from Sudan and Somalia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白领翡翠-8641a4b7",
+      "subject": "白领翡翠",
+      "predicate": "lives_in",
+      "object_id": "hab-marsh",
+      "object": "沼泽",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is most commonly found in coastal areas, particularly in mangrove swamps",
+      "object_summary": "具有较高含水量和密生植被的浅水环境。"
+    },
+    {
+      "subject_id": "bird-白领翡翠-8641a4b7",
+      "subject": "白领翡翠",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It also inhabits farmland, open woodland, grassland and gardens",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-白领翡翠-8641a4b7",
+      "subject": "白领翡翠",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

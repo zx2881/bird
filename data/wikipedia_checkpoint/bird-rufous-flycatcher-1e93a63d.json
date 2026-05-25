@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:41:24",
+  "requested_title": "Rufous Flycatcher",
+  "resolved_title": "Rufous flycatcher",
+  "title_aliases": [
+    "Rufous Flycatcher"
+  ],
+  "bird_id": "bird-rufous-flycatcher-1e93a63d",
+  "raw_file": "bird-rufous-flycatcher-1e93a63d.json",
+  "bird": {
+    "id": "bird-rufous-flycatcher-1e93a63d",
+    "name": "Rufous flycatcher",
+    "english_name": "Rufous flycatcher",
+    "latin_name": "Myiarchus semirufus",
+    "summary": "The rufous flycatcher (Myiarchus semirufus) is a Vulnerable species of bird in the family Tyrannidae, the tyrant flycatchers. It is conside…",
+    "lat": "-3.88",
+    "lng": "-80.59",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/MyiarchusSemirufusSmit.jpg/960px-MyiarchusSemirufusSmit.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-通贝斯大区-5cf0a14a",
+      "name": "通贝斯大区",
+      "summary": "通貝斯大區（西班牙語：Departamento de Tumbes）是秘魯西北部的一個大區，西臨太平洋，東接厄瓜多爾。面積4,045.86平方公里，2007年人口191,713人。首府通貝斯。 1942年11月25日建區，2005年曾經舉…",
+      "lat": "-3.88",
+      "lng": "-80.59"
+    },
+    {
+      "id": "loc-安卡什大区-7178e090",
+      "name": "安卡什大区",
+      "summary": "安卡什区（西班牙语：Ancash）是秘鲁北部的一个行政区，首府瓦拉斯，最大城市钦博特。该区北接拉利伯塔德區，东邻瓦努科大区、帕斯科大区，南连利馬區，西濒太平洋。安卡什区区名源于克丘亚语“anqash”一词，意为“蓝”。秘鲁最高峰瓦斯卡兰峰…",
+      "lat": "-9.53",
+      "lng": "-77.53"
+    },
+    {
+      "id": "loc-american-ornithological-society-5fde31a2",
+      "name": "American Ornithological Society",
+      "summary": "The American Ornithological Society (AOS) is an ornithological organization based in the United States.",
+      "lat": "41.866269",
+      "lng": "-87.616997"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-rufous-flycatcher-1e93a63d",
+      "subject": "Rufous flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-通贝斯大区-5cf0a14a",
+      "object": "通贝斯大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The rufous flycatcher is found in northwestern Peru from Tumbes Department to Ancash Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-flycatcher-1e93a63d",
+      "subject": "Rufous flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-安卡什大区-7178e090",
+      "object": "安卡什大区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The rufous flycatcher is found in northwestern Peru from Tumbes Department to Ancash Department",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-flycatcher-1e93a63d",
+      "subject": "Rufous flycatcher",
+      "predicate": "distributed_in",
+      "object_id": "loc-american-ornithological-society-5fde31a2",
+      "object": "American Ornithological Society",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "For most of the length of its range it is found within of the coast. In addition, unconfirmed sight records in extreme southwestern Ecuador lead the South American Classification Committee of the American Ornithological Society to class it as hypothetical in that country. It inhabits an arid landscape of thorn scrub, steppe, and areas of sparse grass with widely separated mesquite (Prosopis) and Acacia trees",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-rufous-flycatcher-1e93a63d",
+      "subject": "Rufous flycatcher",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

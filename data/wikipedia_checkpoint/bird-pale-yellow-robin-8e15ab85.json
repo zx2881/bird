@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:33:43",
+  "requested_title": "Pale-yellow Robin",
+  "resolved_title": "Pale-yellow robin",
+  "title_aliases": [
+    "Pale-yellow Robin"
+  ],
+  "bird_id": "bird-pale-yellow-robin-8e15ab85",
+  "raw_file": "bird-pale-yellow-robin-8e15ab85.json",
+  "bird": {
+    "id": "bird-pale-yellow-robin-8e15ab85",
+    "name": "Pale-yellow robin",
+    "english_name": "Pale-yellow robin",
+    "latin_name": "Eopsaltria capito",
+    "summary": "The pale-yellow robin (Eopsaltria capito) is a species of passerine bird in the family Petroicidae. It is endemic to eastern Australia.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tregellasia_capito_-_Julatten.jpg/960px-Tregellasia_capito_-_Julatten.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-古尔德-f8020282",
+      "name": "约翰·古尔德",
+      "summary": "约翰·古尔德 FRS（英語：John Gould，1804年9月14日—1881年2月3日）是19世纪一位英国鸟类学家。1804年生于英格兰，也是一位商人、艺术家。1838年后与其妻一同前往澳大利亚，在当地发现并為许多新物种命名。 早年…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-pale-yellow-robin-8e15ab85",
+      "subject": "Pale-yellow robin",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-古尔德-f8020282",
+      "object": "约翰·古尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The pale-yellow robin (Eopsaltria capito) is a species of passerine bird in the family Petroicidae",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-pale-yellow-robin-8e15ab85",
+      "subject": "Pale-yellow robin",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

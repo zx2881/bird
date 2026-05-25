@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T22:36:12",
+  "requested_title": "Spot-breasted Scimitar Babbler",
+  "resolved_title": "Spot-breasted scimitar babbler",
+  "title_aliases": [
+    "Spot-breasted Scimitar Babbler"
+  ],
+  "bird_id": "bird-印度斑胸钩嘴鹛-aac2e3bd",
+  "raw_file": "bird-印度斑胸钩嘴鹛-aac2e3bd.json",
+  "bird": {
+    "id": "bird-印度斑胸钩嘴鹛-aac2e3bd",
+    "name": "印度斑胸钩嘴鹛",
+    "english_name": "Spot-breasted scimitar babbler",
+    "latin_name": "Erythrogenys mcclellandi",
+    "summary": "印度斑胸钩嘴鹛（学名：Pomatorhinus mcclellandi），是画眉科钩嘴鹛属的一种，分布于印度、缅甸、孟加拉国和不丹。该物种的保护状况被评为无危。 印度斑胸钩嘴鹛的栖息地包括亚热带或热带的湿润低地林、亚热带或热带的（低地）湿润疏灌丛和亚热带或热带的湿润山地林。",
+    "lat": "22",
+    "lng": "96",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Pomatorhinus_mcclellandi.jpg/960px-Pomatorhinus_mcclellandi.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-eastern-himalayas-e24606b2",
+      "name": "Eastern Himalayas",
+      "summary": "The Eastern Himalayas extend from eastern Nepal across Northeast India, Bhutan, the Tibet Autonomous Region to Yunnan i…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-印度斑胸钩嘴鹛-aac2e3bd",
+      "subject": "印度斑胸钩嘴鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-eastern-himalayas-e24606b2",
+      "object": "Eastern Himalayas",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eastern Himalaya and western Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-印度斑胸钩嘴鹛-aac2e3bd",
+      "subject": "印度斑胸钩嘴鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Eastern Himalaya and western Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-印度斑胸钩嘴鹛-aac2e3bd",
+      "subject": "印度斑胸钩嘴鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T17:45:59",
+  "requested_title": "White-throated Robin",
+  "resolved_title": "White-throated robin",
+  "title_aliases": [
+    "White-throated Robin"
+  ],
+  "bird_id": "bird-白喉鸲-56fefc98",
+  "raw_file": "bird-白喉鸲-56fefc98.json",
+  "bird": {
+    "id": "bird-白喉鸲-56fefc98",
+    "name": "白喉鸲",
+    "english_name": "White-throated robin",
+    "latin_name": "Irania gutturalis",
+    "summary": "白喉鸲（学名：Irania gutturalis），是雀形目鹟科的一种鸟类，属于单型的白喉鸲属（学名：Irania）。 白喉鸲体重约21.6克，翼长约94毫米，喙宽度约3.3毫米，喙厚度约4毫米，嘴峰长约18.9毫米，跗蹠长约25.1毫米，尾长约72.9毫米。",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/White-throated_robin.png/960px-White-throated_robin.png"
+  },
+  "locations": [
+    {
+      "id": "loc-filippo-de-filippi-07fe754a",
+      "name": "Filippo De Filippi",
+      "summary": "Filippo De Filippi (20 April 1814 – 9 February 1867) was an Italian doctor, traveler and zoologist.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-鹟科-916c7945",
+      "name": "鹟科",
+      "summary": "鹟科（学名：Muscicapidae）是鸟纲雀形目中的一个科，本科有51屬324種。 分類 鶲亞科 Muscicapinae 鶲屬 Muscicapa 紅嘴鴉雀屬 Conostoma 方尾鶲屬 Culicicapa 姬鶲屬 Ficedul…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白喉鸲-56fefc98",
+      "subject": "白喉鸲",
+      "predicate": "distributed_in",
+      "object_id": "loc-filippo-de-filippi-07fe754a",
+      "object": "Filippo De Filippi",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-throated robin or irania (Irania gutturalis) is a small, migratory passerine bird in the Old World flycatcher family Muscicapidae, and the only member of the genus Irania. It breeds on high-altitude mountain slopes with dense scrub in western Asia and winters in East Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉鸲-56fefc98",
+      "subject": "白喉鸲",
+      "predicate": "distributed_in",
+      "object_id": "loc-鹟科-916c7945",
+      "object": "鹟科",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-throated robin or irania (Irania gutturalis) is a small, migratory passerine bird in the Old World flycatcher family Muscicapidae, and the only member of the genus Irania. It breeds on high-altitude mountain slopes with dense scrub in western Asia and winters in East Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白喉鸲-56fefc98",
+      "subject": "白喉鸲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

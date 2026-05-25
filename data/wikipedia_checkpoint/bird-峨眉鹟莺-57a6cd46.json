@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T20:55:10",
+  "requested_title": "Martens's Warbler",
+  "resolved_title": "Martens's warbler",
+  "title_aliases": [
+    "Martens's Warbler"
+  ],
+  "bird_id": "bird-峨眉鹟莺-57a6cd46",
+  "raw_file": "bird-峨眉鹟莺-57a6cd46.json",
+  "bird": {
+    "id": "bird-峨眉鹟莺-57a6cd46",
+    "name": "峨眉鹟莺",
+    "english_name": "Martens's warbler",
+    "latin_name": "Phylloscopus omeiensis",
+    "summary": "峨眉鹟莺（学名：Phylloscopus omeiensis），又称馬丁氏金眶鶲鶯，是雀形目柳莺科的一种鸟类。 特征 峨眉鹟莺体重约7.3克，翼长约56.7毫米，嘴峰长约12.1毫米，喙宽度约2.5毫米，喙厚度约2.4毫米，跗蹠长约17.2毫米，尾长约48.3毫米。峨眉鹟莺是候…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Martens%27s_Warbler_iNaturalist_photo.jpg/960px-Martens%27s_Warbler_iNaturalist_photo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    },
+    {
+      "id": "loc-缅甸-b3498e0d",
+      "name": "缅甸",
+      "summary": "緬甸聯邦共和國（緬甸語：ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်，羅馬化：Pranyhtaungcu. Sa.ma.ta.",
+      "lat": "22",
+      "lng": "96"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-峨眉鹟莺-57a6cd46",
+      "subject": "峨眉鹟莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| year=1999 | title=The Golden-spectacled Warbler Seicercus burkii – a species swarm (Aves: Passeriformes: Sylviidae), part 1 | journal=Zoologische Abhandlungen, Museum für Tierkunde Dresden | volume=50 | pages=281–327 [288] }} It is found in China and Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-峨眉鹟莺-57a6cd46",
+      "subject": "峨眉鹟莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-缅甸-b3498e0d",
+      "object": "缅甸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "| year=1999 | title=The Golden-spectacled Warbler Seicercus burkii – a species swarm (Aves: Passeriformes: Sylviidae), part 1 | journal=Zoologische Abhandlungen, Museum für Tierkunde Dresden | volume=50 | pages=281–327 [288] }} It is found in China and Myanmar",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-峨眉鹟莺-57a6cd46",
+      "subject": "峨眉鹟莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:02:05",
+  "requested_title": "Abyssinian Crimsonwing",
+  "resolved_title": "Abyssinian crimsonwing",
+  "title_aliases": [
+    "Abyssinian Crimsonwing"
+  ],
+  "bird_id": "bird-绿背朱翅雀-5ad5b342",
+  "raw_file": "bird-绿背朱翅雀-5ad5b342.json",
+  "bird": {
+    "id": "bird-绿背朱翅雀-5ad5b342",
+    "name": "绿背朱翅雀",
+    "english_name": "Abyssinian crimsonwing",
+    "latin_name": "Cryptospiza salvadorii",
+    "summary": "The Abyssinian crimsonwing (Cryptospiza salvadorii), also known as the Ethiopian crimsonwing, Salvadori's crimsonwing or crimson-backed for…",
+    "lat": "1.13777778",
+    "lng": "34.56027778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Abyssinian_Crimsonwing_%28Cryptospiza_salvadorii%29_%28male%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-安东-赖歇诺-43b8e534",
+      "name": "安东·赖歇诺",
+      "summary": "安东·赖歇诺（德語：Anton Reichenow，1847年8月1日—1941年7月6日）是德国鳥類學家和爬虫两栖类学家。 生平 安东·赖歇诺是德国鸟类研究学家吉恩·路易斯·卡巴尼斯的女婿，1874年至1921年在柏林自然博物馆长期工作…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-埃爾貢山-744caa52",
+      "name": "埃爾貢山",
+      "summary": "埃爾貢山（英語：Mount Elgon）是非洲東部的盾狀死火山，位於基蘇木以北的烏干達和肯雅接壤邊境，直徑80公里，面積3,500平方公里，有5個主要山峰，高度分別為海拔4,321米、4,302米、4,222米、4,211米和4,161米…",
+      "lat": "1.13777778",
+      "lng": "34.56027778"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-绿背朱翅雀-5ad5b342",
+      "subject": "绿背朱翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-安东-赖歇诺-43b8e534",
+      "object": "安东·赖歇诺",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Abyssinian crimsonwing (Cryptospiza salvadorii), also known as the Ethiopian crimsonwing, Salvadori's crimsonwing or crimson-backed forest finch, is a common species of estrildid finch found in eastern Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿背朱翅雀-5ad5b342",
+      "subject": "绿背朱翅雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃爾貢山-744caa52",
+      "object": "埃爾貢山",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It may possibly also catch a few insects. There are records of Abyssinian crimsonwing showing breeding behaviour from April and August in Ethiopia, while in Uganda it breeds in March at Bwindi and on Mount Elgon it breeds in June and November",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-绿背朱翅雀-5ad5b342",
+      "subject": "绿背朱翅雀",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The Abyssinian crimsonwing occurs in forest, particularly montane forest, from above sea level in Kenya, at the forest edge or in clearings where it normally remains among the undergrowth but sometimes seen higher in creepers",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-绿背朱翅雀-5ad5b342",
+      "subject": "绿背朱翅雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:04:02",
+  "requested_title": "Fairy Lorikeet",
+  "resolved_title": "Fairy lorikeet",
+  "title_aliases": [
+    "Fairy Lorikeet"
+  ],
+  "bird_id": "bird-fairy-lorikeet-d73c65f7",
+  "raw_file": "bird-fairy-lorikeet-d73c65f7.json",
+  "bird": {
+    "id": "bird-fairy-lorikeet-d73c65f7",
+    "name": "Fairy lorikeet",
+    "english_name": "Fairy lorikeet",
+    "latin_name": "Charmosynopsis pulchella",
+    "summary": "The fairy lorikeet (Charmosynopsis pulchella) is a species of parrot in the family Psittaculidae. Other common names include the little red…",
+    "lat": "-2.51638889",
+    "lng": "140.58277778",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/TrichoglossusPulchellusKeulemans.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    },
+    {
+      "id": "loc-森林-8aa2cdb2",
+      "name": "森林",
+      "summary": "森林，是一个高密度树木的区域（或历史上，森林是一个为狩猎而留出的荒地），涵蓋大約9.4％的地球表面（或佔約30％的總土地面積）。聯合國糧食及農業組織(FAO)將森林定義為「面積超過 0.5 公頃、樹木超過 5 公尺且樹冠覆蓋率超過 10%…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-cyclops-mountains-8195f513",
+      "name": "Cyclops Mountains",
+      "summary": "The Cyclops Mountains (Indonesian: Pegunungan Cyclops) are located to the west of Jayapura and north of Lake Sentani an…",
+      "lat": "-2.51638889",
+      "lng": "140.58277778"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-fairy-lorikeet-d73c65f7",
+      "subject": "Fairy lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Found in New Guinea, its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fairy-lorikeet-d73c65f7",
+      "subject": "Fairy lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-森林-8aa2cdb2",
+      "object": "森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Found in New Guinea, its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fairy-lorikeet-d73c65f7",
+      "subject": "Fairy lorikeet",
+      "predicate": "distributed_in",
+      "object_id": "loc-cyclops-mountains-8195f513",
+      "object": "Cyclops Mountains",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "rothschildi is found in north and central New Guinea in the Cyclops Mountains and other nearby mountain ranges.{{cite journal |url=http://www.hbw.com/species/fairy-lorikeet-charmosyna-pulchella |title=Fairy Lorikeet (Charmosyna pulchella) |author=Collar, N",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-fairy-lorikeet-d73c65f7",
+      "subject": "Fairy lorikeet",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Found in New Guinea, its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-fairy-lorikeet-d73c65f7",
+      "subject": "Fairy lorikeet",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

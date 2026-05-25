@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:45:35",
+  "requested_title": "Couch's Kingbird",
+  "resolved_title": "Couch's kingbird",
+  "title_aliases": [
+    "Couch's Kingbird"
+  ],
+  "bird_id": "bird-couch-s-kingbird-eb6bdb1c",
+  "raw_file": "bird-couch-s-kingbird-eb6bdb1c.json",
+  "bird": {
+    "id": "bird-couch-s-kingbird-eb6bdb1c",
+    "name": "Couch's kingbird",
+    "english_name": "Couch's kingbird",
+    "latin_name": "Tyrannus couchii",
+    "summary": "Couch's kingbird (Tyrannus couchii) is a passerine tyrant flycatcher of the kingbird genus. It is found from southern Texas along the Gulf…",
+    "lat": "26.22",
+    "lng": "-98.12",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tyrannus_couchii_112139785_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-lower-rio-grande-valley-5e77b915",
+      "name": "Lower Rio Grande Valley",
+      "summary": "The Lower Rio Grande Valley (Spanish: Valle del Río Grande), often referred to as the Rio Grande Valley (RGV) of South…",
+      "lat": "26.22",
+      "lng": "-98.12"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-couch-s-kingbird-eb6bdb1c",
+      "subject": "Couch's kingbird",
+      "predicate": "distributed_in",
+      "object_id": "loc-lower-rio-grande-valley-5e77b915",
+      "object": "Lower Rio Grande Valley",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is also found in the lower stretches of the Rio Grande Valley.{{cite news |last1=Li |first1=David K",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-couch-s-kingbird-eb6bdb1c",
+      "subject": "Couch's kingbird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-couch-s-kingbird-eb6bdb1c",
+      "subject": "Couch's kingbird",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "In Texas, the population is stable, however, its population in Mexico fluctuates due to urbanization and total deforestation",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

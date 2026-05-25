@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T19:22:36",
+  "requested_title": "Sharp-tailed Streamcreeper",
+  "resolved_title": "Sharp-tailed streamcreeper",
+  "title_aliases": [
+    "Sharp-tailed Streamcreeper"
+  ],
+  "bird_id": "bird-尖尾溪雀-c79c7671",
+  "raw_file": "bird-尖尾溪雀-c79c7671.json",
+  "bird": {
+    "id": "bird-尖尾溪雀-c79c7671",
+    "name": "尖尾溪雀",
+    "english_name": "Sharp-tailed streamcreeper",
+    "latin_name": "Lochmias nematura",
+    "summary": "尖尾溪雀（台湾作尖尾溪鵐，学名：Lochmias nematura），是雀形目灶鸟科的一种鸟类，属于单型的尖尾溪雀属（学名：Lochmias）。 尖尾溪雀体重约22克，翼长约68.6毫米，喙宽度约3.2毫米，喙厚度约4.2毫米，嘴峰长约23.9毫米，跗蹠长约24.6毫米，尾长约…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Lochmias_nematura_-Parque_Estadual_da_Serra_da_Cantareira%2C_Sao_Paulo%2C_Brazil-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-尖尾溪雀-c79c7671",
+      "subject": "尖尾溪雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In the mountains of Panama and Venezuela and south through the Andes it inhabits montane evergreen forest at elevations between",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-尖尾溪雀-c79c7671",
+      "subject": "尖尾溪雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "In its southeastern range it inhabits lowland evergreen forest and mature secondary forest.Salaman, Paul G.W.; Stiles, F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-尖尾溪雀-c79c7671",
+      "subject": "尖尾溪雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

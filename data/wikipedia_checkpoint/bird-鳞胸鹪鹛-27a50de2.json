@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:49:14",
+  "requested_title": "Scaly-breasted Cupwing",
+  "resolved_title": "Scaly-breasted cupwing",
+  "title_aliases": [
+    "Scaly-breasted Cupwing"
+  ],
+  "bird_id": "bird-鳞胸鹪鹛-27a50de2",
+  "raw_file": "bird-鳞胸鹪鹛-27a50de2.json",
+  "bird": {
+    "id": "bird-鳞胸鹪鹛-27a50de2",
+    "name": "鳞胸鹪鹛",
+    "english_name": "Scaly-breasted cupwing",
+    "latin_name": "Pnoepyga albiventer",
+    "summary": "鳞胸鹪鹛（学名：Pnoepyga albiventer），又名大鱗胸鷦眉，为鶲科鳞鹪鹛属的鸟类，俗名大鳞鹪鹛、白腹鹪鹛。分布于喜马拉雅山脉各国、东抵缅甸、越南以及中国大陆的四川、云南、西藏等地，一般生活于常栖于沟谷间湿润的常绿林中、觅食于满被苔藓的岩石、倒木及腐烂的植物堆上、躲…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Scaly-breasted_Wren-babbler_Kedarnath_Musk_Deer_Sanctuary_Uttarakhand_India_25.11.2015.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-中南半島-e0d2c973",
+      "name": "中南半島",
+      "summary": "中南半岛（法語：Indochine），又稱印度支那半島（简称印度支那、印支）、东南亚大陆地区、东南亚半岛地区等，是亞洲東南部東臨南海、西瀕印度洋的半島，在印度次大陸以東、中国大陆以南，包括今日的緬甸、泰國、老撾、柬埔寨、越南、马来半岛等地…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-鳞胸鹪鹛-27a50de2",
+      "subject": "鳞胸鹪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern and eastern Asia from the Himalayas to Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鳞胸鹪鹛-27a50de2",
+      "subject": "鳞胸鹪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-中南半島-e0d2c973",
+      "object": "中南半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in southern and eastern Asia from the Himalayas to Indochina",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-鳞胸鹪鹛-27a50de2",
+      "subject": "鳞胸鹪鹛",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The natural habitat of the scaly-breasted cupwing is subtropical moist montane forest",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-鳞胸鹪鹛-27a50de2",
+      "subject": "鳞胸鹪鹛",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

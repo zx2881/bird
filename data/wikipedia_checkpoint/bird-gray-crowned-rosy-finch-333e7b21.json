@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:27:24",
+  "requested_title": "Grey-crowned Rosy Finch",
+  "resolved_title": "Gray-crowned rosy finch",
+  "title_aliases": [
+    "Grey-crowned Rosy Finch",
+    "Gray-crowned rosy finch"
+  ],
+  "bird_id": "bird-gray-crowned-rosy-finch-333e7b21",
+  "raw_file": "bird-gray-crowned-rosy-finch-333e7b21.json",
+  "bird": {
+    "id": "bird-gray-crowned-rosy-finch-333e7b21",
+    "name": "Gray-crowned rosy finch",
+    "english_name": "Gray-crowned rosy finch",
+    "latin_name": "Leucosticte tephrocotis",
+    "summary": "The gray-crowned rosy finch or gray-crowned rosy-finch (Leucosticte tephrocotis) is a species of passerine bird in the family Fringillidae…",
+    "lat": "64",
+    "lng": "-152",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Gray-Crowned_Rosy-Finch.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-william-swainson-ccfed77b",
+      "name": "William Swainson",
+      "summary": "William Swainson FLS, FRS (8 October 1789 – 6 December 1855), was an English ornithologist, malacologist, conchologist,…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-阿拉斯加州-6d35b63b",
+      "name": "阿拉斯加州",
+      "summary": "阿拉斯加州（英語：Alaska，發音：/əˈlæskə/ ；舊譯「亞尼俺國」、「亞拉士加」）是美國位於北美洲最西北端的聯邦州。州以東與加拿大的英屬哥倫比亞省和育空地區相鄰，最西端位於阿圖島，並與俄羅斯在白令海峽以西有一海上邊界。以北有楚科…",
+      "lat": "64",
+      "lng": "-152"
+    },
+    {
+      "id": "loc-加拿大-25b69dbf",
+      "name": "加拿大",
+      "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢…",
+      "lat": "60",
+      "lng": "-110"
+    },
+    {
+      "id": "loc-美国-1efc9783",
+      "name": "美国",
+      "summary": "美利堅合眾國（英語：United States of America，縮寫：USA），简称美国、美利堅（英語：America）或合眾國（United States，縮寫：US），是位於北美洲的聯邦制共和國。其由50個州、首都华盛顿哥伦比亚…",
+      "lat": "40",
+      "lng": "-100"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-gray-crowned-rosy-finch-333e7b21",
+      "subject": "Gray-crowned rosy finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-william-swainson-ccfed77b",
+      "object": "William Swainson",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gray-crowned rosy finch or gray-crowned rosy-finch (Leucosticte tephrocotis) is a species of passerine bird in the family Fringillidae native to Alaska, western Canada, and the north-western United States",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gray-crowned-rosy-finch-333e7b21",
+      "subject": "Gray-crowned rosy finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿拉斯加州-6d35b63b",
+      "object": "阿拉斯加州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gray-crowned rosy finch or gray-crowned rosy-finch (Leucosticte tephrocotis) is a species of passerine bird in the family Fringillidae native to Alaska, western Canada, and the north-western United States",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gray-crowned-rosy-finch-333e7b21",
+      "subject": "Gray-crowned rosy finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-加拿大-25b69dbf",
+      "object": "加拿大",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gray-crowned rosy finch or gray-crowned rosy-finch (Leucosticte tephrocotis) is a species of passerine bird in the family Fringillidae native to Alaska, western Canada, and the north-western United States",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gray-crowned-rosy-finch-333e7b21",
+      "subject": "Gray-crowned rosy finch",
+      "predicate": "distributed_in",
+      "object_id": "loc-美国-1efc9783",
+      "object": "美国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The gray-crowned rosy finch or gray-crowned rosy-finch (Leucosticte tephrocotis) is a species of passerine bird in the family Fringillidae native to Alaska, western Canada, and the north-western United States",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-gray-crowned-rosy-finch-333e7b21",
+      "subject": "Gray-crowned rosy finch",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

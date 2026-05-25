@@ -682,6 +682,11 @@ def main() -> None:
     except KeyboardInterrupt:
         print("\n[interrupt] 已停止运行，之前成功的条目已经落盘。")
 
+        # 每成功一只立刻落盘，中断不怕丢数据
+        write_csv_rows(birds_path, BIRDS_HEADERS, birds_rows)
+        write_csv_rows(relations_path, RELATIONS_HEADERS, relations_rows)
+        print(f"  -> 目: {order_cn or order_en}, 科: {family_cn or family_en} [已保存]")
+
     if success > 0:
         print("\n已更新 birds.csv 和 relations.csv")
     else:

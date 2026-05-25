@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T18:02:17",
+  "requested_title": "Little Pied Flycatcher",
+  "resolved_title": "Little pied flycatcher",
+  "title_aliases": [
+    "Little Pied Flycatcher"
+  ],
+  "bird_id": "bird-小斑姬鶲-128ee2e4",
+  "raw_file": "bird-小斑姬鶲-128ee2e4.json",
+  "bird": {
+    "id": "bird-小斑姬鶲-128ee2e4",
+    "name": "小斑姬鶲",
+    "english_name": "Little pied flycatcher",
+    "latin_name": "Ficedula westermanni",
+    "summary": "小斑姬鶲（学名：Ficedula westermanni）为鶲科姬鶲属的鸟类，分布于孟加拉国，不丹，柬埔寨，中国，印度，印度尼西亚，老挝，马来西亚，缅甸，尼泊尔，菲律宾，泰国，东帝汶和越南。 亚种 小斑姬鶲西南亚种（学名：Ficedula westermanni austral…",
+    "lat": "27.98333333",
+    "lng": "86.91666667",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Little_Pied_Flycatcher_0A2A5713.jpg/960px-Little_Pied_Flycatcher_0A2A5713.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-喜马拉雅山脉-326d8d51",
+      "name": "喜马拉雅山脉",
+      "summary": "喜马拉雅山脉（梵文：ཧིམཱལཡ himālaya；藏語：ཧི་མ་ལ་ཡ་རི་；尼泊爾語：हिमालय）是世界海拔最高的山脉，分布于青藏高原南缘，处于中國西藏自治区与巴基斯坦、印度、尼泊尔、不丹等国边境上。由大喜马拉雅山脉、小喜馬拉雅…",
+      "lat": "27.98333333",
+      "lng": "86.91666667"
+    },
+    {
+      "id": "loc-东南亚-6e4371f5",
+      "name": "东南亚",
+      "summary": "东南亚（英語：Southeast Asia，缩写SEA），即華人傳統所稱之南洋，位于亚洲东南部，由中國以南、印度以東、新幾內亞以西與澳洲以北的多個國家、地區組成，是第二次世界大战后期才出现的地区名称。东南亚分為两個區域，陸域為中南半島，包…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-小斑姬鶲-128ee2e4",
+      "subject": "小斑姬鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-喜马拉雅山脉-326d8d51",
+      "object": "喜马拉雅山脉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小斑姬鶲-128ee2e4",
+      "subject": "小斑姬鶲",
+      "predicate": "distributed_in",
+      "object_id": "loc-东南亚-6e4371f5",
+      "object": "东南亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is native to the Himalayas and Southeast Asia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-小斑姬鶲-128ee2e4",
+      "subject": "小斑姬鶲",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

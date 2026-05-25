@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T21:38:09",
+  "requested_title": "Chestnut Bunting",
+  "resolved_title": "Chestnut bunting",
+  "title_aliases": [
+    "Chestnut Bunting"
+  ],
+  "bird_id": "bird-栗鹀-24d69003",
+  "raw_file": "bird-栗鹀-24d69003.json",
+  "bird": {
+    "id": "bird-栗鹀-24d69003",
+    "name": "栗鹀",
+    "english_name": "Chestnut bunting",
+    "latin_name": "Emberiza rutila",
+    "summary": "栗鹀（学名：Emberiza rutila）为鵐科鹀属的鸟类，又名锈鹀，俗名红金钟、紫背儿、大红袍。分布于西伯利亚、漫游至印度、台湾以及中国大陆的内蒙古、黑龙江、吉林、辽宁、河北、陕西、河南、山东、安徽、江苏、浙江、福建、江西、湖南、云南、广东等地，多见于喜栖于山麓或田间树上以…",
+    "lat": "61",
+    "lng": "105",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Emberiza_rutila_190226429_%28cropped%29.jpg/960px-Emberiza_rutila_190226429_%28cropped%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-彼得-西蒙-帕拉斯-926bc8f2",
+      "name": "彼得·西蒙·帕拉斯",
+      "summary": "彼得·西蒙·帕拉斯（德語：Peter Simon Pallas，1741年9月22日—1811年9月8日）是一位德國博物学家，出生于柏林，曾先后在哥廷根大学和莱登大学学习，之后帕拉斯前往西欧考察，期间研究出了新的动物分类。1767年受叶卡…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-西伯利亚-16b4d06f",
+      "name": "西伯利亚",
+      "summary": "西伯利亞（俄語：Сибирь，羅馬化：Sibir），又名「羅荒野」、「沉睡之地」、「鮮卑利亞」、「錫伯利亞」，是烏拉山脈以東廣大地區之總稱，佔北亚的大部分，面積超过1310万平方千米，東至太平洋、北至北冰洋、南至中亚北部。自16世纪下半叶…",
+      "lat": "61",
+      "lng": "105"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-栗鹀-24d69003",
+      "subject": "栗鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-彼得-西蒙-帕拉斯-926bc8f2",
+      "object": "彼得·西蒙·帕拉斯",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "thumb| Emberiza rutila - MHNT The chestnut bunting (Emberiza rutila) is a passerine bird in the bunting family Emberizidae found in the East Palearctic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗鹀-24d69003",
+      "subject": "栗鹀",
+      "predicate": "distributed_in",
+      "object_id": "loc-西伯利亚-16b4d06f",
+      "object": "西伯利亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in Siberia, northern Mongolia and north-eastern China",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-栗鹀-24d69003",
+      "subject": "栗鹀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

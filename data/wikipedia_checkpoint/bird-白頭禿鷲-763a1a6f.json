@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T15:22:16",
+  "requested_title": "White-headed Vulture",
+  "resolved_title": "White-headed vulture",
+  "title_aliases": [
+    "White-headed Vulture"
+  ],
+  "bird_id": "bird-白頭禿鷲-763a1a6f",
+  "raw_file": "bird-白頭禿鷲-763a1a6f.json",
+  "bird": {
+    "id": "bird-白頭禿鷲-763a1a6f",
+    "name": "白頭禿鷲",
+    "english_name": "White-headed vulture",
+    "latin_name": "Trigonoceps occipitalis",
+    "summary": "白头秃鹫（台湾作白頭鷲，學名：Trigonoceps occipitalis）是鷹科白頭鷲屬下的中型禿鷲。牠們居住於非洲撒哈拉以南的熱帶地區各地，棲息在混合型的落葉林地、稀樹草原中。白頭鷲的羽毛顏色相間，呈白色的頭、黑色的身體、白色的腹部及腿。鳥喙呈橘色、眼周藍色，而面部則呈裸…",
+    "lat": "9",
+    "lng": "39",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Trigonoceps_occipitalis_243893077.jpg/960px-Trigonoceps_occipitalis_243893077.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    },
+    {
+      "id": "loc-肯尼亚-6a7eb970",
+      "name": "肯尼亚",
+      "summary": "肯亞共和國（斯瓦希里語：Jamhuri ya Kenya；英語：Republic of Kenya），通稱肯亞（Kenya），是位於東非，濒临印度洋，與索馬里、埃塞俄比亚、南蘇丹、烏干達、坦桑尼亚接壤，面积约58万平方公里。肯亞人口约52…",
+      "lat": "1",
+      "lng": "38"
+    },
+    {
+      "id": "loc-波札那-a47abf55",
+      "name": "波札那",
+      "summary": "博茨瓦纳共和国（英語：Republic of Botswana；茨瓦納語：Lefatshe la Botswana），通稱博茨瓦纳（Botswana），是位於非洲南部的內陸國家，全國國境皆為乾燥的台地地形，卡拉哈里沙漠占据了该国大約70%…",
+      "lat": "-24.65833333",
+      "lng": "25.90833333"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白頭禿鷲-763a1a6f",
+      "subject": "白頭禿鷲",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs at elevations of up to in Ethiopia, perhaps in Kenya, and can be found in thorny Acacia-dominated landscape in Botswana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白頭禿鷲-763a1a6f",
+      "subject": "白頭禿鷲",
+      "predicate": "distributed_in",
+      "object_id": "loc-肯尼亚-6a7eb970",
+      "object": "肯尼亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs at elevations of up to in Ethiopia, perhaps in Kenya, and can be found in thorny Acacia-dominated landscape in Botswana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白頭禿鷲-763a1a6f",
+      "subject": "白頭禿鷲",
+      "predicate": "distributed_in",
+      "object_id": "loc-波札那-a47abf55",
+      "object": "波札那",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs at elevations of up to in Ethiopia, perhaps in Kenya, and can be found in thorny Acacia-dominated landscape in Botswana",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白頭禿鷲-763a1a6f",
+      "subject": "白頭禿鷲",
+      "predicate": "has_status",
+      "object_id": "status-cr",
+      "object": "CR",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = CR",
+      "object_summary": "IUCN 极危。"
+    },
+    {
+      "subject_id": "bird-白頭禿鷲-763a1a6f",
+      "subject": "白頭禿鷲",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Populations have been declining steeply in recent years due to habitat degradation and poisoning of vultures at carcasses",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

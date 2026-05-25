@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:02:05",
+  "requested_title": "Zone-tailed Hawk",
+  "resolved_title": "Zone-tailed hawk",
+  "title_aliases": [
+    "Zone-tailed Hawk"
+  ],
+  "bird_id": "bird-zone-tailed-hawk-f7c8dddd",
+  "raw_file": "bird-zone-tailed-hawk-f7c8dddd.json",
+  "bird": {
+    "id": "bird-zone-tailed-hawk-f7c8dddd",
+    "name": "Zone-tailed hawk",
+    "english_name": "Zone-tailed hawk",
+    "latin_name": "Buteo albonotatus",
+    "summary": "The zone-tailed hawk (Buteo albonotatus) is a medium-sized hawk of warm, dry parts of the Americas. It is somewhat similar in plumage and f…",
+    "lat": "14.52555556",
+    "lng": "-75.81833333",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/229_-_ZONE-TAILED_HAWK_%284-11-2015%29_blue_haven_road%2C_patagonia%2C_santa_cruz_co%2C_az_-02_%2816906279787%29.jpg/960px-229_-_ZONE-TAILED_HAWK_%284-11-2015%29_blue_haven_road%2C_patagonia%2C_santa_cruz_co%2C_az_-02_%2816906279787%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-加勒比地区-35f44793",
+      "name": "加勒比地区",
+      "summary": "加勒比地區（英語：Caribbean）是指加勒比海及其附近的區域。 定義 若依照聯合國地理分區裡的地理亞區來判定，加勒比地區的範圍為加勒比海上的諸島—西印度群島，國家與屬地包含安圭拉、安地卡及巴布達、阿魯巴、巴哈馬、巴貝多、博奈爾、聖佑達…",
+      "lat": "14.52555556",
+      "lng": "-75.81833333"
+    },
+    {
+      "id": "loc-特立尼达岛-d831e578",
+      "name": "特立尼达岛",
+      "summary": "特立尼达岛（英語：Trinidad Island；西班牙語：Isla Trinidad），又称千里达岛，是特立尼达和多巴哥两主岛中较大者，位于西印度群岛最西南部，距南美洲大陆委内瑞拉海岸仅11公里。特立尼达岛面积4,768平方公里，是西印…",
+      "lat": "10.5",
+      "lng": "-61.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-zone-tailed-hawk-f7c8dddd",
+      "subject": "Zone-tailed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-加勒比地区-35f44793",
+      "object": "加勒比地区",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are also native to the Caribbean island of Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-zone-tailed-hawk-f7c8dddd",
+      "subject": "Zone-tailed hawk",
+      "predicate": "distributed_in",
+      "object_id": "loc-特立尼达岛-d831e578",
+      "object": "特立尼达岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "They are also native to the Caribbean island of Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-zone-tailed-hawk-f7c8dddd",
+      "subject": "Zone-tailed hawk",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T17:19:24",
+  "requested_title": "White-backed Woodpecker",
+  "resolved_title": "White-backed woodpecker",
+  "title_aliases": [
+    "White-backed Woodpecker"
+  ],
+  "bird_id": "bird-白背啄木鸟-322f8466",
+  "raw_file": "bird-白背啄木鸟-322f8466.json",
+  "bird": {
+    "id": "bird-白背啄木鸟-322f8466",
+    "name": "白背啄木鸟",
+    "english_name": "White-backed woodpecker",
+    "latin_name": "Dendrocopos leucotos",
+    "summary": "白背啄木鸟（学名：Dendrocopos leucotos）又名大赤啄木，为啄木鸟科啄木鸟属的鸟类。该物种的模式产地在东欧西里西亞。 分類學 大赤啄木由德國博物學家約翰·馬托伊斯·貝希斯坦於1802年以二名法Picus leucotos進行物種描述。",
+    "lat": "50",
+    "lng": "80",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Dendrocopos_leucotos_2.jpg/960px-Dendrocopos_leucotos_2.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-马特乌斯-贝希施泰因-5cba05b4",
+      "name": "约翰·马特乌斯·贝希施泰因",
+      "summary": "约翰·马特乌斯·贝希施泰因（德語：Johann Matthäus Bechstein，發音：[ˈjoːhan maˈtɛːʊs ˈbɛçʃtaɪn]；1757年7月11日—1822年2月23日）是德国博物学家、林务员、鳥類學家、昆虫学家和…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-歐亞大陸-c6f303b6",
+      "name": "歐亞大陸",
+      "summary": "亚欧大陆或欧亚大陆，西方国家称为欧罗细亚（英語：Eurasia），是亚细亚洲和欧罗巴洲的合稱，也可以视为亚欧非大陆的一个部分。面积5475.9万平方公里。 亚、欧二洲单从地理学和地质学方面考虑并非两个独立的大陆，应属同一个地球表面面积最大…",
+      "lat": "50",
+      "lng": "80"
+    },
+    {
+      "id": "loc-土耳其-5e126298",
+      "name": "土耳其",
+      "summary": "土耳其共和国（土耳其語：Türkiye Cumhuriyeti，發音：[ˈtyɾcije dʒumˈhuːɾijeti] ），通稱土耳其（Türkiye），是橫跨欧亚两洲的共和國，其國土包括西亞的安納托利亞半岛、以及东南欧巴尔干半岛的东色…",
+      "lat": "39.91666667",
+      "lng": "32.85"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白背啄木鸟-322f8466",
+      "subject": "白背啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-马特乌斯-贝希施泰因-5cba05b4",
+      "object": "约翰·马特乌斯·贝希施泰因",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-backed woodpecker (Dendrocopos leucotos) is a Eurasian woodpecker belonging to the genus Dendrocopos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白背啄木鸟-322f8466",
+      "subject": "白背啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-歐亞大陸-c6f303b6",
+      "object": "歐亞大陸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-backed woodpecker (Dendrocopos leucotos) is a Eurasian woodpecker belonging to the genus Dendrocopos",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白背啄木鸟-322f8466",
+      "subject": "白背啄木鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-土耳其-5e126298",
+      "object": "土耳其",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "lilfordi found in the Balkans and Turkey",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白背啄木鸟-322f8466",
+      "subject": "白背啄木鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

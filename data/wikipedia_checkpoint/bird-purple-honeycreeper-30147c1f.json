@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T23:08:13",
+  "requested_title": "Purple Honeycreeper",
+  "resolved_title": "Purple honeycreeper",
+  "title_aliases": [
+    "Purple Honeycreeper"
+  ],
+  "bird_id": "bird-purple-honeycreeper-30147c1f",
+  "raw_file": "bird-purple-honeycreeper-30147c1f.json",
+  "bird": {
+    "id": "bird-purple-honeycreeper-30147c1f",
+    "name": "Purple honeycreeper",
+    "english_name": "Purple honeycreeper",
+    "latin_name": "Cyanerpes caeruleus",
+    "summary": "The purple honeycreeper (Cyanerpes caeruleus) is a small Neotropical bird in the tanager family Thraupidae. It is found in the tropical New…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Purple_honey_creeper_%28Cyanerpes_caeruleus_longirostris%29_male.jpg/960px-Purple_honey_creeper_%28Cyanerpes_caeruleus_longirostris%29_male.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-新大陸-9610a4be",
+      "name": "新大陸",
+      "summary": "新大陸（拉丁語：Mundus novus），或譯為新世界，是歐洲人於15世紀末發現美洲大陸及鄰近群島後對這片新土地的稱呼。相對概念為亚欧非大陆等「旧大陆」。 词源 “新世界”（Mundus Novus）一词最初是在亚美利哥·韦斯普奇于15…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-委內瑞拉-ef40e96b",
+      "name": "委內瑞拉",
+      "summary": "委内瑞拉玻利瓦尔共和国（西班牙語：República Bolivariana de Venezuela），通稱委內瑞拉（西班牙語：Venezuela），是一個位於南美洲北部的國家。其面積為912,050平方公里，2025年人口估計為318…",
+      "lat": "7",
+      "lng": "-65"
+    },
+    {
+      "id": "loc-特立尼达岛-d831e578",
+      "name": "特立尼达岛",
+      "summary": "特立尼达岛（英語：Trinidad Island；西班牙語：Isla Trinidad），又称千里达岛，是特立尼达和多巴哥两主岛中较大者，位于西印度群岛最西南部，距南美洲大陆委内瑞拉海岸仅11公里。特立尼达岛面积4,768平方公里，是西印…",
+      "lat": "10.5",
+      "lng": "-61.3"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-purple-honeycreeper-30147c1f",
+      "subject": "Purple honeycreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-新大陸-9610a4be",
+      "object": "新大陸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the tropical New World from Colombia and Venezuela south to Brazil, and on Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-honeycreeper-30147c1f",
+      "subject": "Purple honeycreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the tropical New World from Colombia and Venezuela south to Brazil, and on Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-honeycreeper-30147c1f",
+      "subject": "Purple honeycreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-委內瑞拉-ef40e96b",
+      "object": "委內瑞拉",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the tropical New World from Colombia and Venezuela south to Brazil, and on Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-honeycreeper-30147c1f",
+      "subject": "Purple honeycreeper",
+      "predicate": "distributed_in",
+      "object_id": "loc-特立尼达岛-d831e578",
+      "object": "特立尼达岛",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the tropical New World from Colombia and Venezuela south to Brazil, and on Trinidad",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-purple-honeycreeper-30147c1f",
+      "subject": "Purple honeycreeper",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

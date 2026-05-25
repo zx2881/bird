@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T16:38:46",
+  "requested_title": "Japanese Thrush",
+  "resolved_title": "Japanese thrush",
+  "title_aliases": [
+    "Japanese Thrush"
+  ],
+  "bird_id": "bird-乌灰鸫-4d67a273",
+  "raw_file": "bird-乌灰鸫-4d67a273.json",
+  "bird": {
+    "id": "bird-乌灰鸫-4d67a273",
+    "name": "乌灰鸫",
+    "english_name": "Japanese thrush",
+    "latin_name": "Turdus cardis",
+    "summary": "乌灰鸫（学名：Turdus cardis）为鶲科鸫属的鸟类，也被称为日本灰鸫。分布于日本、前苏联、朝鲜、越南、老挝以及中国大陆的河南、湖北、安徽、贵州、湖南、四川、江苏、浙江、福建、云南、广西、广东、海南等地，多栖息于海拔500-800米的灌丛和森林中。该物种的模式产地在日本。…",
+    "lat": "19.2",
+    "lng": "109.7",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Japanese_Thrush_imported_from_iNaturalist_photo_248320437_on_21_June_2024.jpg/960px-Japanese_Thrush_imported_from_iNaturalist_photo_248320437_on_21_June_2024.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-海南省-a01c9da8",
+      "name": "海南省",
+      "summary": "Hainan is an island and the southern-most province of China consisting of the eponymous Hainan Island and various small…",
+      "lat": "19.2",
+      "lng": "109.7"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-乌灰鸫-4d67a273",
+      "subject": "乌灰鸫",
+      "predicate": "distributed_in",
+      "object_id": "loc-海南省-a01c9da8",
+      "object": "海南省",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It breeds in central China and Japan, arriving in Japan by April or May; it winters in coastal southern China (including Hainan) and northern Laos and Vietnam leaving its breeding grounds around October",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-乌灰鸫-4d67a273",
+      "subject": "乌灰鸫",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

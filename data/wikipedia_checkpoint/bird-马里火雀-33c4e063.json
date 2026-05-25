@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:13:38",
+  "requested_title": "Mali Firefinch",
+  "resolved_title": "Mali firefinch",
+  "title_aliases": [
+    "Mali Firefinch"
+  ],
+  "bird_id": "bird-马里火雀-33c4e063",
+  "raw_file": "bird-马里火雀-33c4e063.json",
+  "bird": {
+    "id": "bird-马里火雀-33c4e063",
+    "name": "马里火雀",
+    "english_name": "Mali firefinch",
+    "latin_name": "Lagonosticta virata",
+    "summary": "马里火雀（学名：Lagonosticta virata）是梅花雀科火雀属的一种，分布于西非的马里和塞内加尔。该物种的保护状况被评为无危。 参考文献 BirdLife Species Factsheet （页面存档备份，存于互联网档案馆）",
+    "lat": "17",
+    "lng": "-4",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-george-latimer-bates-f89b0b10",
+      "name": "George Latimer Bates",
+      "summary": "George Griswold Latimer Bates (March 21, 1863, Abingdon, Illinois US – January 31, 1940 Chelmsford UK), LL.D., M.B.O.U.",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-马里-ab6caf27",
+      "name": "马里",
+      "summary": "馬里，全名马里共和国（法語：République du Mali），是位於西非萨赫勒地区的内陆国家，北部地區北接阿尔及利亚、东接尼日尔、西面毛里塔尼亚，南部西接塞内加尔、西南接几内亚、南鄰布基纳法索和科特迪瓦，是西非面积第二大的国家。其北…",
+      "lat": "17",
+      "lng": "-4"
+    },
+    {
+      "id": "loc-塞内加尔-8f96dd71",
+      "name": "塞内加尔",
+      "summary": "Senegal, officially the Republic of Senegal, is the westernmost country in West Africa, situated along the Atlantic Oce…",
+      "lat": "14",
+      "lng": "-14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-马里火雀-33c4e063",
+      "subject": "马里火雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-george-latimer-bates-f89b0b10",
+      "object": "George Latimer Bates",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The Mali firefinch (Lagonosticta virata) is a species of estrildid finch found in Western Africa",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-马里火雀-33c4e063",
+      "subject": "马里火雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-马里-ab6caf27",
+      "object": "马里",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mali and Senegal",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-马里火雀-33c4e063",
+      "subject": "马里火雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-塞内加尔-8f96dd71",
+      "object": "塞内加尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Mali and Senegal",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-马里火雀-33c4e063",
+      "subject": "马里火雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

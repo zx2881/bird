@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:56:35",
+  "requested_title": "Paradise Riflebird",
+  "resolved_title": "Paradise riflebird",
+  "title_aliases": [
+    "Paradise Riflebird"
+  ],
+  "bird_id": "bird-paradise-riflebird-22dd5436",
+  "raw_file": "bird-paradise-riflebird-22dd5436.json",
+  "bird": {
+    "id": "bird-paradise-riflebird-22dd5436",
+    "name": "Paradise riflebird",
+    "english_name": "Paradise riflebird",
+    "latin_name": "Ptiloris paradiseus",
+    "summary": "The paradise riflebird (Ptiloris paradiseus) is a passerine bird of the family Paradisaeidae. It is one of four riflebird species in the ge…",
+    "lat": "-27",
+    "lng": "146",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Paradise_Riflebird.jpg/960px-Paradise_Riflebird.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-溫帶雨林-3512fcb7",
+      "name": "溫帶雨林",
+      "summary": "温带季雨林通称溫帶雨林，是地球上中緯度的高雨量地區的針葉樹或闊葉樹季雨林。它們大多數位於海洋性濕潤氣候區，例如北美洲西北部（自加州西北部至阿拉斯加東南部）、歐洲西北部（英國、愛爾蘭、挪威）、智利南部、澳洲東南部（塔斯曼尼亞省、維多利亞省）…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-澳洲東岸-a402cfd5",
+      "name": "澳洲東岸",
+      "summary": "澳大利亚东岸（East Coast of Australia），又称为澳洲东部诸州（eastern states of Australia）或东部沿海（eastern seaboard），是指位於澳大利亚大陆东部海岸线的数个南太平洋沿岸州…",
+      "lat": "-27",
+      "lng": "146"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-paradise-riflebird-22dd5436",
+      "subject": "Paradise riflebird",
+      "predicate": "distributed_in",
+      "object_id": "loc-溫帶雨林-3512fcb7",
+      "object": "溫帶雨林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in subtropical, temperate rainforests in eastern Australia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-paradise-riflebird-22dd5436",
+      "subject": "Paradise riflebird",
+      "predicate": "distributed_in",
+      "object_id": "loc-澳洲東岸-a402cfd5",
+      "object": "澳洲東岸",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The paradise riflebird is endemic to eastern Australia, from New South Wales to Queensland, where it inhabits rainforests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-paradise-riflebird-22dd5436",
+      "subject": "Paradise riflebird",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-paradise-riflebird-22dd5436",
+      "subject": "Paradise riflebird",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Boatbills to Starlings}} It is highly vulnerable to deforestation and rainforest fragmentation due to its sedentary lifestyle and low population density, and has lost much of its original habitat. Currently, it is listed as a species of Least Concern, though its numbers are declining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

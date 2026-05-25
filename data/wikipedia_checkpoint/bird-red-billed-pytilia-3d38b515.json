@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T20:13:23",
+  "requested_title": "Red-billed Pytilia",
+  "resolved_title": "Red-billed pytilia",
+  "title_aliases": [
+    "Red-billed Pytilia"
+  ],
+  "bird_id": "bird-red-billed-pytilia-3d38b515",
+  "raw_file": "bird-red-billed-pytilia-3d38b515.json",
+  "bird": {
+    "id": "bird-red-billed-pytilia-3d38b515",
+    "name": "Red-billed pytilia",
+    "english_name": "Red-billed pytilia",
+    "latin_name": "Pytilia lineata",
+    "summary": "The red-billed pytilia (Pytilia lineata) is a species of estrildid finch found in Ethiopia. It was split from the red-winged pytilia.",
+    "lat": "9",
+    "lng": "39",
+    "image_url": ""
+  },
+  "locations": [
+    {
+      "id": "loc-埃塞俄比亚-0f416c66",
+      "name": "埃塞俄比亚",
+      "summary": "衣索比亞联邦民主共和国（阿姆哈拉語：የኢትዮጵያ ፈደራላዊ ዲሞክራሲያዊ ሪፐብሊክ，拉丁化：ye'ītiyop'iya federalawī dīmokirasīyawī rīpebilīki），简称衣索比亞（ኢትዮጵያ，ʾĪtyō…",
+      "lat": "9",
+      "lng": "39"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-red-billed-pytilia-3d38b515",
+      "subject": "Red-billed pytilia",
+      "predicate": "distributed_in",
+      "object_id": "loc-埃塞俄比亚-0f416c66",
+      "object": "埃塞俄比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-billed pytilia (Pytilia lineata) is a species of estrildid finch found in Ethiopia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-red-billed-pytilia-3d38b515",
+      "subject": "Red-billed pytilia",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

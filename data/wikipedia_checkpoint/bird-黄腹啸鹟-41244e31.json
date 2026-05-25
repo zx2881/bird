@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:40:57",
+  "requested_title": "Yellow-bellied Whistler",
+  "resolved_title": "Yellow-bellied whistler",
+  "title_aliases": [
+    "Yellow-bellied Whistler"
+  ],
+  "bird_id": "bird-黄腹啸鹟-41244e31",
+  "raw_file": "bird-黄腹啸鹟-41244e31.json",
+  "bird": {
+    "id": "bird-黄腹啸鹟-41244e31",
+    "name": "黄腹啸鹟",
+    "english_name": "Yellow-bellied whistler",
+    "latin_name": "Pachycephala philippinensis",
+    "summary": "黄腹啸鹟（学名：Pachycephala philippinensis），是啸鹟科啸鹟属的一种，为菲律宾的特有种。该物种的保护状况被评为无危。 黄腹啸鹟的平均体重约为22.3克。栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林。",
+    "lat": "13.92555556",
+    "lng": "122.97138889",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Pachycephala_philippinensis_-_Forest_Botial-Jarvis_-_340257319.jpeg/960px-Pachycephala_philippinensis_-_Forest_Botial-Jarvis_-_340257319.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-bicol-natural-park-6aededbd",
+      "name": "Bicol Natural Park",
+      "summary": "The Bicol Natural Park is a protected area of the Philippines located in the Bicol Region of southern Luzon.",
+      "lat": "13.92555556",
+      "lng": "122.97138889"
+    },
+    {
+      "id": "loc-pasonanca-natural-park-4873c699",
+      "name": "Pasonanca Natural Park",
+      "summary": "The Pasonanca Natural Park is a protected area that preserves a major watershed in the southern Philippine island of Mi…",
+      "lat": "7.0711",
+      "lng": "122.0755"
+    },
+    {
+      "id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "name": "Rajah Sikatuna Protected Landscape",
+      "summary": "The Rajah Sikatuna Protected Landscape is a protected landscape area of forested limestone hills, grasslands and natura…",
+      "lat": "9.70527778",
+      "lng": "124.12416667"
+    },
+    {
+      "id": "loc-samar-island-natural-park-2cae892d",
+      "name": "Samar Island Natural Park",
+      "summary": "The Samar Island Natural Park, in Samar, is the largest contiguous tract of old-growth forest in the Philippines.",
+      "lat": "12.03611111",
+      "lng": "125.21111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-黄腹啸鹟-41244e31",
+      "subject": "黄腹啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-bicol-natural-park-6aededbd",
+      "object": "Bicol Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Bicol Natural Park, Pasonanca Natural Park, Rajah Sikatuna Protected Landscape, Samar Island Natural Park but like all areas in the Philippines, protection is lax and deforestation continues despite this protection on paper",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹啸鹟-41244e31",
+      "subject": "黄腹啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-pasonanca-natural-park-4873c699",
+      "object": "Pasonanca Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Bicol Natural Park, Pasonanca Natural Park, Rajah Sikatuna Protected Landscape, Samar Island Natural Park but like all areas in the Philippines, protection is lax and deforestation continues despite this protection on paper",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹啸鹟-41244e31",
+      "subject": "黄腹啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-rajah-sikatuna-protected-landscape-d1250bc1",
+      "object": "Rajah Sikatuna Protected Landscape",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Bicol Natural Park, Pasonanca Natural Park, Rajah Sikatuna Protected Landscape, Samar Island Natural Park but like all areas in the Philippines, protection is lax and deforestation continues despite this protection on paper",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹啸鹟-41244e31",
+      "subject": "黄腹啸鹟",
+      "predicate": "distributed_in",
+      "object_id": "loc-samar-island-natural-park-2cae892d",
+      "object": "Samar Island Natural Park",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in multiple protected areas such as Bicol Natural Park, Pasonanca Natural Park, Rajah Sikatuna Protected Landscape, Samar Island Natural Park but like all areas in the Philippines, protection is lax and deforestation continues despite this protection on paper",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-黄腹啸鹟-41244e31",
+      "subject": "黄腹啸鹟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-黄腹啸鹟-41244e31",
+      "subject": "黄腹啸鹟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "IUCN has assessed this bird as least-concern species despite deforestation in the Philippines continues throughout the country due to slash and burn farming, mining, illegal logging and habitat conversion",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

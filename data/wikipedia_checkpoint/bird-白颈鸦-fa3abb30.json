@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T18:25:05",
+  "requested_title": "Collared Crow",
+  "resolved_title": "Collared crow",
+  "title_aliases": [
+    "Collared Crow"
+  ],
+  "bird_id": "bird-白颈鸦-fa3abb30",
+  "raw_file": "bird-白颈鸦-fa3abb30.json",
+  "bird": {
+    "id": "bird-白颈鸦-fa3abb30",
+    "name": "白颈鸦",
+    "english_name": "Collared crow",
+    "latin_name": "Corvus torquatus",
+    "summary": "白颈鸦（学名：Corvus torquatus）又名玉颈鸦，为鸦科鸦属的鸟类。分布于文莱、台湾岛以及中国大陆的东北、河北西达山西、陕西、甘肃、四川、云南、南抵福建、广东、海南等地，一般栖息于平原、丘陵或低山、也见于海拔2500m 左右的山地、多栖于开阔的农田、河滩和河湾等处以及…",
+    "lat": "35",
+    "lng": "103",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/20090908%E5%8E%A6%E9%97%A8-%E7%99%BD%E9%A2%88%E9%B8%A6.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-古尔德-f8020282",
+      "name": "约翰·古尔德",
+      "summary": "约翰·古尔德 FRS（英語：John Gould，1804年9月14日—1881年2月3日）是19世纪一位英国鸟类学家。1804年生于英格兰，也是一位商人、艺术家。1838年后与其妻一同前往澳大利亚，在当地发现并為许多新物种命名。 早年…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-中华人民共和国-025fceab",
+      "name": "中华人民共和国",
+      "summary": "中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区…",
+      "lat": "35",
+      "lng": "103"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白颈鸦-fa3abb30",
+      "subject": "白颈鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-古尔德-f8020282",
+      "object": "约翰·古尔德",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The collared crow (Corvus torquatus), also known as the ring-necked crow or white-collared crow, is a member of the family Corvidae native to China and the north of Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白颈鸦-fa3abb30",
+      "subject": "白颈鸦",
+      "predicate": "distributed_in",
+      "object_id": "loc-中华人民共和国-025fceab",
+      "object": "中华人民共和国",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The collared crow (Corvus torquatus), also known as the ring-necked crow or white-collared crow, is a member of the family Corvidae native to China and the north of Vietnam",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白颈鸦-fa3abb30",
+      "subject": "白颈鸦",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T23:06:35",
+  "requested_title": "Ashy-headed Laughingthrush",
+  "resolved_title": "Ashy-headed laughingthrush",
+  "title_aliases": [
+    "Ashy-headed Laughingthrush"
+  ],
+  "bird_id": "bird-灰头噪鹛-c8eb9937",
+  "raw_file": "bird-灰头噪鹛-c8eb9937.json",
+  "bird": {
+    "id": "bird-灰头噪鹛-c8eb9937",
+    "name": "灰头噪鹛",
+    "english_name": "Ashy-headed laughingthrush",
+    "latin_name": "Argya cinereifrons",
+    "summary": "灰头噪鹛（学名：Garrulax cinereifrons），是画眉科噪鹛属的一种，为斯里兰卡的特有种。全球活动范围约为15,800平方千米。该物种的保护状况被评为易危。 灰头噪鹛的平均体重约为70.0克。栖息地包括亚热带或热带的湿润低地林和亚热带或热带的湿润山地林。",
+    "lat": "6.99722222",
+    "lng": "80.41111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ashy-headed_Laughingthrush_%28Garrulax_cinereifrons%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-kitulgala-e78403d1",
+      "name": "Kitulgala",
+      "summary": "Kitulgala is a small town in the west of Sri Lanka.",
+      "lat": "6.99722222",
+      "lng": "80.41111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-灰头噪鹛-c8eb9937",
+      "subject": "灰头噪鹛",
+      "predicate": "distributed_in",
+      "object_id": "loc-kitulgala-e78403d1",
+      "object": "Kitulgala",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Although its habitat is under threat, this laughingthrush occurs in all the forests of the wet zone, and is quite common at prime sites like Kitulgala and Sinharaja",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-灰头噪鹛-c8eb9937",
+      "subject": "灰头噪鹛",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:06:03",
+  "requested_title": "Jerdon's Minivet",
+  "resolved_title": "White-bellied minivet",
+  "title_aliases": [
+    "White-bellied Minivet",
+    "Jerdon's Minivet"
+  ],
+  "bird_id": "bird-白腹山椒鸟-6a73cb74",
+  "raw_file": "bird-白腹山椒鸟-6a73cb74.json",
+  "bird": {
+    "id": "bird-白腹山椒鸟-6a73cb74",
+    "name": "白腹山椒鸟",
+    "english_name": "White-bellied minivet",
+    "latin_name": "Pericrocotus erythropygius",
+    "summary": "白腹山椒鸟（学名：Pericrocotus erythropygius）是山椒鸟科山椒鸟属的一种，分布于印度，大部分栖息在干燥的落叶林中。 参考文献",
+    "lat": "21",
+    "lng": "78",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/White-bellied_Minivet_%28Female%29_I3_IMG_8066.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-印度-f0013374",
+      "name": "印度",
+      "summary": "印度共和国（印地語：भारत गणराज्य，羅馬化：Bhārat Gaṇarājya，英語：Republic of India），通称印度（印地語：भारत，羅馬化：Bhārat；英語：India），是位于南亚次大陆上的国家，面积位列世…",
+      "lat": "21",
+      "lng": "78"
+    },
+    {
+      "id": "loc-尼泊尔-231a45b7",
+      "name": "尼泊尔",
+      "summary": "尼泊尔联邦民主共和国（尼泊爾語：सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल），通称尼泊尔（नेपाल），是南亚喜马拉雅山脉地区的内陆国家，北与中国相接，其余三面与印度为鄰，与孟加拉国仅隔27公里的走廊。尼泊爾的領…",
+      "lat": "28.16666667",
+      "lng": "84.25"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-白腹山椒鸟-6a73cb74",
+      "subject": "白腹山椒鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-印度-f0013374",
+      "object": "印度",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Jerdon|Jerdon]], 1840) | synonyms = *Muscicapa erythropygia Jerdon, 1840 }} The white-bellied minivet (Pericrocotus erythropygius) is a species of minivet found in India, mostly in dry deciduous forest",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腹山椒鸟-6a73cb74",
+      "subject": "白腹山椒鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-尼泊尔-231a45b7",
+      "object": "尼泊尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The white-bellied minivet is native to Nepal and India, mainly in dry deciduous forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-白腹山椒鸟-6a73cb74",
+      "subject": "白腹山椒鸟",
+      "predicate": "lives_in",
+      "object_id": "hab-savanna",
+      "object": "稀树草原",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This species inhabits open savanna with sparse acacia shoots, dry grasslands and artificial terrestrial areas such as agricultural land",
+      "object_summary": "东非常见的开放草地与湿地边缘复合景观。"
+    },
+    {
+      "subject_id": "bird-白腹山椒鸟-6a73cb74",
+      "subject": "白腹山椒鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

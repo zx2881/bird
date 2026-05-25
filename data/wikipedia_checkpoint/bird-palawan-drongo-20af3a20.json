@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T20:46:35",
+  "requested_title": "Palawan Drongo",
+  "resolved_title": "Palawan drongo",
+  "title_aliases": [
+    "Palawan Drongo"
+  ],
+  "bird_id": "bird-palawan-drongo-20af3a20",
+  "raw_file": "bird-palawan-drongo-20af3a20.json",
+  "bird": {
+    "id": "bird-palawan-drongo-20af3a20",
+    "name": "Palawan drongo",
+    "english_name": "Palawan drongo",
+    "latin_name": "Dicrurus palawanensis",
+    "summary": "The Palawan drongo (Dicrurus palawanensis) is an Asian bird of the family Dicruridae. It was formerly considered conspecific with the hair-…",
+    "lat": "9.74361111",
+    "lng": "118.66111111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Palawan_Drongo.jpg/960px-Palawan_Drongo.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "name": "Iwahig Prison and Penal Farm",
+      "summary": "Iwahig Prison and Penal Farm in Puerto Princesa, Palawan, Philippines is one of seven operating units of the Bureau of…",
+      "lat": "9.74361111",
+      "lng": "118.66111111"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-palawan-drongo-20af3a20",
+      "subject": "Palawan drongo",
+      "predicate": "distributed_in",
+      "object_id": "loc-iwahig-prison-and-penal-farm-474618bd",
+      "object": "Iwahig Prison and Penal Farm",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It occurs in just one protected area in the Iwahig Prison and Penal Farm",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-palawan-drongo-20af3a20",
+      "subject": "Palawan drongo",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-palawan-drongo-20af3a20",
+      "subject": "Palawan drongo",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Palawan's forests are under threat due to illegal logging, deforestation, land conversion and mining",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

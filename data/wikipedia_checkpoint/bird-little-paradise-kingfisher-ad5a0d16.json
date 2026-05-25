@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T16:43:32",
+  "requested_title": "Little Paradise Kingfisher",
+  "resolved_title": "Little paradise-kingfisher",
+  "title_aliases": [
+    "Little Paradise Kingfisher",
+    "Little paradise-kingfisher"
+  ],
+  "bird_id": "bird-little-paradise-kingfisher-ad5a0d16",
+  "raw_file": "bird-little-paradise-kingfisher-ad5a0d16.json",
+  "bird": {
+    "id": "bird-little-paradise-kingfisher-ad5a0d16",
+    "name": "Little paradise-kingfisher",
+    "english_name": "Little paradise-kingfisher",
+    "latin_name": "Tanysiptera hydrocharis",
+    "summary": "The little paradise-kingfisher (Tanysiptera hydrocharis) is a species of bird in the family Alcedinidae. It is found in the Aru Islands and…",
+    "lat": "-6.2",
+    "lng": "134.5",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tanysiptera_hydrocharis_-_themaskedlapwing_-_568907852.jpeg/960px-Tanysiptera_hydrocharis_-_themaskedlapwing_-_568907852.jpeg"
+  },
+  "locations": [
+    {
+      "id": "loc-阿魯群島-c5d8ff7a",
+      "name": "阿魯群島",
+      "summary": "阿魯群島（印尼语：Kepulauan Aru）是大洋洲的一組约95个低窪島嶼组成的群岛，位於印尼東部的馬魯古省，同时也是马鲁古省下的一个县。 行政区划 行政上，阿鲁群岛属于阿鲁群岛县（印尼语：Kabupaten Kepulauan Aru…",
+      "lat": "-6.2",
+      "lng": "134.5"
+    },
+    {
+      "id": "loc-新幾內亞島-ed80f179",
+      "name": "新幾內亞島",
+      "summary": "新畿內亞島（英語：New Guinea；巴布亞皮欽語：Niugini；印尼語：Papua）位於澳大利亞北面，是世界上第二大島嶼與最高島嶼。有時，本島亦被稱為「巴布亞」，但有時巴布亞亦單指本島的一部份。此外，印尼官方过去稱呼本島為「伊里安岛…",
+      "lat": "-6",
+      "lng": "142"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-little-paradise-kingfisher-ad5a0d16",
+      "subject": "Little paradise-kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-阿魯群島-c5d8ff7a",
+      "object": "阿魯群島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Aru Islands and southern New Guinea",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-little-paradise-kingfisher-ad5a0d16",
+      "subject": "Little paradise-kingfisher",
+      "predicate": "distributed_in",
+      "object_id": "loc-新幾內亞島-ed80f179",
+      "object": "新幾內亞島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in the Aru Islands and southern New Guinea",
+      "object_summary": ""
+    }
+  ]
+}

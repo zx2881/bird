@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-24T10:55:13",
+  "requested_title": "Black-winged Saltator",
+  "resolved_title": "Black-winged saltator",
+  "title_aliases": [
+    "Black-winged Saltator"
+  ],
+  "bird_id": "bird-black-winged-saltator-e0d57066",
+  "raw_file": "bird-black-winged-saltator-e0d57066.json",
+  "bird": {
+    "id": "bird-black-winged-saltator-e0d57066",
+    "name": "Black-winged saltator",
+    "english_name": "Black-winged saltator",
+    "latin_name": "Saltator atripennis",
+    "summary": "The black-winged saltator (Saltator atripennis) is a species of songbird found in Colombia and Ecuador. Its natural habitat is subtropical…",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Saltator_atripennis_-Manizales%2C_Caldas%2C_Colombia-8.jpg/960px-Saltator_atripennis_-Manizales%2C_Caldas%2C_Colombia-8.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-菲利普-斯克莱特-0722f03b",
+      "name": "菲利普·斯克莱特",
+      "summary": "菲利普·勒特利·斯克莱特（英語：Philip Lutley Sclater，1829年11月4日—1913年6月27日）是一位英国律师和动物学家，主要从事鳥類學研究，开创性地建立了动物地理学分区。 参考资料 外部链接 维基共享资源上的相關…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-black-winged-saltator-e0d57066",
+      "subject": "Black-winged saltator",
+      "predicate": "distributed_in",
+      "object_id": "loc-菲利普-斯克莱特-0722f03b",
+      "object": "菲利普·斯克莱特",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The black-winged saltator (Saltator atripennis) is a species of songbird found in Colombia and Ecuador",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-black-winged-saltator-e0d57066",
+      "subject": "Black-winged saltator",
+      "predicate": "lives_in",
+      "object_id": "hab-mountain-forest",
+      "object": "山地森林",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "Its natural habitat is subtropical or tropical moist montane forests",
+      "object_summary": "以成熟阔叶林和混交林为主的山地森林系统。"
+    },
+    {
+      "subject_id": "bird-black-winged-saltator-e0d57066",
+      "subject": "Black-winged saltator",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

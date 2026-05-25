@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-22T11:23:16",
+  "requested_title": "Grauer's Warbler",
+  "resolved_title": "Grauer's warbler",
+  "title_aliases": [
+    "Grauer's Warbler"
+  ],
+  "bird_id": "bird-格氏丛莺-26656cea",
+  "raw_file": "bird-格氏丛莺-26656cea.json",
+  "bird": {
+    "id": "bird-格氏丛莺-26656cea",
+    "name": "格氏丛莺",
+    "english_name": "Grauer's warbler",
+    "latin_name": "Graueria vittata",
+    "summary": "格氏丛莺（台湾作格爾氏灌木鶯，学名：Graueria vittata），是雀形目长嘴莺科的一种鸟类，属于单型的格氏丛莺属（学名：Graueria）。 特征 格氏丛莺体重约15.54克，翼长约61毫米，喙宽度约3.9毫米，喙厚度约3.5毫米，嘴峰长约15.7毫米，跗蹠长约18.5…",
+    "lat": "-2.75",
+    "lng": "29.14",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Grauer%27s_Warbler_%28Graueria_vittata%29_%2815159977611%29.jpg/960px-Grauer%27s_Warbler_%28Graueria_vittata%29_%2815159977611%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-albertine-rift-montane-forests-61cf93db",
+      "name": "Albertine Rift montane forests",
+      "summary": "The Albertine Rift montane forests (French: Forêts montagnardes du Rift Albertin) is a tropical moist broadleaf forest…",
+      "lat": "-2.75",
+      "lng": "29.14"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-格氏丛莺-26656cea",
+      "subject": "格氏丛莺",
+      "predicate": "distributed_in",
+      "object_id": "loc-albertine-rift-montane-forests-61cf93db",
+      "object": "Albertine Rift montane forests",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Townsend|last26=Robbins|first26=Mark B.|last27=Sheldon|first27=Frederick H.|last28=Silveira|first28=Luís Fábio|last29=Smith|first29=Brian Tilston|last30=White|first30=Noor D.|last31=Moyle|first31=Robert G.|last32=Faircloth|first32=Brant C.|title=Earth history and the passerine superradiation|journal=Proceedings of the National Academy of Sciences|volume=116|issue=16|year=2019|pages=7916–7925|issn=0027-8424|doi=10.1073/pnas.1813206116|pmid=30936315|pmc=6475423|doi-access=free|bibcode=2019PNAS..116.7916O }} It is native to the Albertine Rift montane forests",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-格氏丛莺-26656cea",
+      "subject": "格氏丛莺",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

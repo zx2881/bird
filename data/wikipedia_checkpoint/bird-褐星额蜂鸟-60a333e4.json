@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T20:01:14",
+  "requested_title": "Brown Inca",
+  "resolved_title": "Brown inca",
+  "title_aliases": [
+    "Brown Inca"
+  ],
+  "bird_id": "bird-褐星额蜂鸟-60a333e4",
+  "raw_file": "bird-褐星额蜂鸟-60a333e4.json",
+  "bird": {
+    "id": "bird-褐星额蜂鸟-60a333e4",
+    "name": "褐星额蜂鸟",
+    "english_name": "Brown inca",
+    "latin_name": "Coeligena wilsoni",
+    "summary": "褐星额蜂鸟（台湾作褐印加蜂鳥，学名：Coeligena wilsoni）是雨燕目蜂鸟科的一种鸟类。 褐星额蜂鸟体重约6.7克，翼长约71.4毫米，嘴峰长约34.7毫米，喙宽度约2.6毫米，喙厚度约2.3毫米，跗蹠长约6.2毫米，尾长约46.2毫米。褐星额蜂鸟在其分布区内为留鸟，…",
+    "lat": "4",
+    "lng": "-72",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Brown_Inca_%28Coeligena_wilsoni%29.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-哥伦比亚-5037b987",
+      "name": "哥伦比亚",
+      "summary": "哥伦比亚共和国（西班牙語：República de Colombia），通稱哥倫比亞（西班牙語：Colombia），是一個位於南美洲西北部的国家，同時是拉丁美洲第四大國家，為南美洲國家聯盟的前成員國（2018年8月退出）。它的北部是加勒比…",
+      "lat": "4",
+      "lng": "-72"
+    },
+    {
+      "id": "loc-厄瓜多尔-14710989",
+      "name": "厄瓜多尔",
+      "summary": "厄瓜多尔共和国（西班牙語：República del Ecuador），通稱厄瓜多尔（Ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於18…",
+      "lat": "-2",
+      "lng": "-77.5"
+    },
+    {
+      "id": "loc-云雾森林-c8d74747",
+      "name": "云雾森林",
+      "summary": "云雾森林（cloud forest）是一种热带或亚热带常绿山地雨林。其特点是其林冠持续性，经常性或季节性的环绕着云雾。云雾森林的地面和植被上通常覆盖着丰富的苔藓，因此其也被称之为苔藓森林（mossy forest）。雲霧森林通常形成于山脉…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-褐星额蜂鸟-60a333e4",
+      "subject": "褐星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-哥伦比亚-5037b987",
+      "object": "哥伦比亚",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Ecuador.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐星额蜂鸟-60a333e4",
+      "subject": "褐星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-厄瓜多尔-14710989",
+      "object": "厄瓜多尔",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in Colombia and Ecuador.{{cite web |url=https://www.worldbirdnames.org/new/bow/hummingbirds/ |title=Hummingbirds |website=IOC World Bird List |version =v 12.1 |editor-last1=Gill |editor-first1= F",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐星额蜂鸟-60a333e4",
+      "subject": "褐星额蜂鸟",
+      "predicate": "distributed_in",
+      "object_id": "loc-云雾森林-c8d74747",
+      "object": "云雾森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It most commonly inhabits the edges of cloudforest and is also found in the forest interior",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-褐星额蜂鸟-60a333e4",
+      "subject": "褐星额蜂鸟",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-褐星额蜂鸟-60a333e4",
+      "subject": "褐星额蜂鸟",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "Its habitat is under threat by deforestation and it is not known if the species accepts human-altered landscapes",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:23:04",
+  "requested_title": "Elf Owl",
+  "resolved_title": "Elf owl",
+  "title_aliases": [
+    "Elf Owl"
+  ],
+  "bird_id": "bird-姬鴞-66a6275f",
+  "raw_file": "bird-姬鴞-66a6275f.json",
+  "bird": {
+    "id": "bird-姬鴞-66a6275f",
+    "name": "姬鴞",
+    "english_name": "Elf owl",
+    "latin_name": "Micrathene whitneyi",
+    "summary": "姬鴞（學名Micrathene whitneyi），又名嬌鵂鶹，是分佈在墨西哥及美國西南部的一種貓頭鷹。它們是世界上最細小的貓頭鷹，其次是鵂鶹屬。它們高5-12吋，翼展15-16吋，尾巴很短。它們的主羽差不多長過尾巴。它們的腳很長。它們重1-1.4安士。它們會於暮晨出沒，被此對…",
+    "lat": "37",
+    "lng": "-111",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Micrathene_whitneyi_29APR12_Madera_Canyon_AZ.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-美國西南部-f5b57e7d",
+      "name": "美國西南部",
+      "summary": "美國西南部（英語：Southwestern United States、American Southwest或The Southwest）是美國西部的一個區域，比北部溫暖，但比東部乾燥。西南地区的人口分布比鄰近區域較為稀疏（以至于其城市也…",
+      "lat": "37",
+      "lng": "-111"
+    },
+    {
+      "id": "loc-墨西哥-f850343d",
+      "name": "墨西哥",
+      "summary": "墨西哥合众国（西班牙語：Estados Unidos Mexicanos），通稱墨西哥（西班牙語：México），是北美洲南部的一个主权国家，北接美国，西濱太平洋，南鄰伯利兹、危地马拉，东面墨西哥湾。其领土面积达近198万平方公里，为美洲…",
+      "lat": "23",
+      "lng": "-102"
+    },
+    {
+      "id": "loc-下加利福尼亞半島-4e2a0f71",
+      "name": "下加利福尼亞半島",
+      "summary": "The Baja California peninsula (Spanish: Península de Baja California, lit.",
+      "lat": "28",
+      "lng": "-113.5"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-姬鴞-66a6275f",
+      "subject": "姬鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-美國西南部-f5b57e7d",
+      "object": "美國西南部",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Cooper]], 1861) | range_map = Micrathene whitneyi map.svg | range_map_caption = }} The elf owl (Micrathene whitneyi) is a small grayish-brown owl about the size of a sparrow found in the Southwestern United States, central Mexico, and the Baja California peninsula. It has pale yellow eyes highlighted by thin white \"eyebrows\" and a gray bill with a horn-colored tip",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-姬鴞-66a6275f",
+      "subject": "姬鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-墨西哥-f850343d",
+      "object": "墨西哥",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Cooper]], 1861) | range_map = Micrathene whitneyi map.svg | range_map_caption = }} The elf owl (Micrathene whitneyi) is a small grayish-brown owl about the size of a sparrow found in the Southwestern United States, central Mexico, and the Baja California peninsula. It has pale yellow eyes highlighted by thin white \"eyebrows\" and a gray bill with a horn-colored tip",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-姬鴞-66a6275f",
+      "subject": "姬鴞",
+      "predicate": "distributed_in",
+      "object_id": "loc-下加利福尼亞半島-4e2a0f71",
+      "object": "下加利福尼亞半島",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "Cooper]], 1861) | range_map = Micrathene whitneyi map.svg | range_map_caption = }} The elf owl (Micrathene whitneyi) is a small grayish-brown owl about the size of a sparrow found in the Southwestern United States, central Mexico, and the Baja California peninsula. It has pale yellow eyes highlighted by thin white \"eyebrows\" and a gray bill with a horn-colored tip",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-姬鴞-66a6275f",
+      "subject": "姬鴞",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

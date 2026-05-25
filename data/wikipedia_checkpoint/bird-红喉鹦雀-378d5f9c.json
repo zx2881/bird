@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T19:56:41",
+  "requested_title": "Red-throated Parrotfinch",
+  "resolved_title": "Red-throated parrotfinch",
+  "title_aliases": [
+    "Red-throated Parrotfinch"
+  ],
+  "bird_id": "bird-红喉鹦雀-378d5f9c",
+  "raw_file": "bird-红喉鹦雀-378d5f9c.json",
+  "bird": {
+    "id": "bird-红喉鹦雀-378d5f9c",
+    "name": "红喉鹦雀",
+    "english_name": "Red-throated parrotfinch",
+    "latin_name": "Erythrura psittacea",
+    "summary": "红喉鹦雀（学名：Erythrura psittacea）是新喀里多尼亚的一种梅花雀。其全球分布范围约为20,000至50,000平方千米。 红喉鹦雀分布于亚热带和热带的低地湿润森林以及疏灌丛中。该物种的保护状况被评为无危。",
+    "lat": "-21.25",
+    "lng": "165.3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Red-throated_Parrotfinch_0A2A5222.jpg/960px-Red-throated_Parrotfinch_0A2A5222.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "name": "约翰·弗里德里希·格梅林",
+      "summary": "约翰·弗里德里希·格梅林（德語：Johann Friedrich Gmelin，1748年8月8日—1804年11月1日）是一名德国博物学家、植物学家、昆虫学家、爬虫两栖类学家和軟體動物學家。 生平 1748年，约翰·弗里德里希·格梅林出…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-新喀里多尼亞-6c170c18",
+      "name": "新喀里多尼亞",
+      "summary": "New Caledonia is a French territory consisting of a group of islands in the southwest Pacific Ocean, 220 km (140 mi) so…",
+      "lat": "-21.25",
+      "lng": "165.3"
+    },
+    {
+      "id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "name": "熱帶和亞熱帶濕潤闊葉林",
+      "summary": "湿性常绿阔叶林是一种WWF定义的栖地生境及以此为代表的生物群系，全称熱帶及亞熱帶的濕性闊葉林（英語：tropical and subtropical moist broadleaf forests），包含如下几种密切相关的生态系统： 热带…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-红喉鹦雀-378d5f9c",
+      "subject": "红喉鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-约翰-弗里德里希-格梅林-8a33c9ca",
+      "object": "约翰·弗里德里希·格梅林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-throated parrotfinch (Erythrura psittacea) is a species of estrildid finch found in New Caledonia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红喉鹦雀-378d5f9c",
+      "subject": "红喉鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-新喀里多尼亞-6c170c18",
+      "object": "新喀里多尼亞",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The red-throated parrotfinch (Erythrura psittacea) is a species of estrildid finch found in New Caledonia",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红喉鹦雀-378d5f9c",
+      "subject": "红喉鹦雀",
+      "predicate": "distributed_in",
+      "object_id": "loc-熱帶和亞熱帶濕潤闊葉林-90e2a768",
+      "object": "熱帶和亞熱帶濕潤闊葉林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It is found in both subtropical or tropical moist lowland forest and shrubland habitats",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-红喉鹦雀-378d5f9c",
+      "subject": "红喉鹦雀",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "It is found in both subtropical or tropical moist lowland forest and shrubland habitats",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-红喉鹦雀-378d5f9c",
+      "subject": "红喉鹦雀",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}

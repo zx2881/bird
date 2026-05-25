@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-23T11:20:19",
+  "requested_title": "Coleto",
+  "resolved_title": "Coleto",
+  "title_aliases": [
+    "Coleto"
+  ],
+  "bird_id": "bird-coleto-4352011b",
+  "raw_file": "bird-coleto-4352011b.json",
+  "bird": {
+    "id": "bird-coleto-4352011b",
+    "name": "Coleto",
+    "english_name": "Coleto",
+    "latin_name": "Sarcops calvus",
+    "summary": "The coleto (Sarcops calvus) is a starling species (family Sturnidae) in the monotypic genus Sarcops. It is endemic to the Philippines.",
+    "lat": "",
+    "lng": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Hanging_Coleto.jpg/960px-Hanging_Coleto.jpg"
+  },
+  "locations": [],
+  "relations": [
+    {
+      "subject_id": "bird-coleto-4352011b",
+      "subject": "Coleto",
+      "predicate": "lives_in",
+      "object_id": "hab-shrubland",
+      "object": "灌丛",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "This bird's habitat is primary and secondary forest and scrubland up to 1,000 meters above sea level",
+      "object_summary": "低矮木本植物占优势的陆地生境。"
+    },
+    {
+      "subject_id": "bird-coleto-4352011b",
+      "subject": "Coleto",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    },
+    {
+      "subject_id": "bird-coleto-4352011b",
+      "subject": "Coleto",
+      "predicate": "threatened_by",
+      "object_id": "threat-deforestation",
+      "object": "森林砍伐",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "However, deforestation in the Philippines continues throughout the country due to slash and burn farming, mining, illegal logging and habitat conversion",
+      "object_summary": "原生林被砍伐导致栖息地面积和连通性下降。"
+    }
+  ]
+}

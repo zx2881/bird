@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-21T18:56:13",
+  "requested_title": "Band-tailed Antwren",
+  "resolved_title": "Band-tailed antwren",
+  "title_aliases": [
+    "Band-tailed Antwren"
+  ],
+  "bird_id": "bird-band-tailed-antwren-aee2ec01",
+  "raw_file": "bird-band-tailed-antwren-aee2ec01.json",
+  "bird": {
+    "id": "bird-band-tailed-antwren-aee2ec01",
+    "name": "Band-tailed antwren",
+    "english_name": "Band-tailed antwren",
+    "latin_name": "Myrmotherula urosticta",
+    "summary": "The band-tailed antwren (Myrmotherula urosticta) is a Vulnerable species of insectivorous bird in subfamily Thamnophilinae of family Thamno…",
+    "lat": "-20.25",
+    "lng": "-40.28",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Myrmotherula_urosticta_Band-tailed_Antwren_%28male%29%2C_Pau_Brasil_National_Park%2C_Porto_Seguro%2C_Bahia%2C_Brazil.jpg/960px-Myrmotherula_urosticta_Band-tailed_Antwren_%28male%29%2C_Pau_Brasil_National_Park%2C_Porto_Seguro%2C_Bahia%2C_Brazil.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-圣埃斯皮里图州-b4d4ca04",
+      "name": "圣埃斯皮里图州",
+      "summary": "聖埃斯皮里圖州（葡萄牙語：Espírito Santo，(e)s.'pi.ɾi.tu 'sɐ̃.tu）是巴西的一個州，其州名是基督宗教中「聖靈」的意思。位於東南部大西洋岸。面積46,077.519平方公里，2005年人口3,412,746…",
+      "lat": "-20.25",
+      "lng": "-40.28"
+    },
+    {
+      "id": "loc-常綠森林-2e780c7b",
+      "name": "常綠森林",
+      "summary": "常綠森林是由常綠樹木組成的森林。它們出現在廣泛的氣候帶中，包括寒冷氣候中的針葉樹和冬青樹等樹木，溫帶地區的桉樹、活橡樹、金合歡和班克樹，以及熱帶地區的雨林樹木。針葉溫帶常綠森林最常以科中的物種為主。樹木包括：松科和柏科。闊葉溫帶常綠森林包…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-次生林-173853f4",
+      "name": "次生林",
+      "summary": "次生林，又名天然次生林、再生林、再生森林、二次林。是指原始穩定的森林植被遭到人類活動干擾（刀耕火種、林木砍伐）或同等破壞性的自然現象之後，主要透過自然過程再生形成的森林或林地區域。其特徵有別於未曾遭受近期干擾的原始森林、複雜的早期遷移階段…",
+      "lat": "",
+      "lng": ""
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-band-tailed-antwren-aee2ec01",
+      "subject": "Band-tailed antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-圣埃斯皮里图州-b4d4ca04",
+      "object": "圣埃斯皮里图州",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The largest numbers are found in the southern Bahia-northern Espírito Santo area",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-band-tailed-antwren-aee2ec01",
+      "subject": "Band-tailed antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-常綠森林-2e780c7b",
+      "object": "常綠森林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understorey to mid-storey of evergreen forest and adjacent mature secondary forest in the lowlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-band-tailed-antwren-aee2ec01",
+      "subject": "Band-tailed antwren",
+      "predicate": "distributed_in",
+      "object_id": "loc-次生林-173853f4",
+      "object": "次生林",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "It inhabits the understorey to mid-storey of evergreen forest and adjacent mature secondary forest in the lowlands",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-band-tailed-antwren-aee2ec01",
+      "subject": "Band-tailed antwren",
+      "predicate": "has_status",
+      "object_id": "status-vu",
+      "object": "VU",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = VU",
+      "object_summary": "IUCN 易危。"
+    },
+    {
+      "subject_id": "bird-band-tailed-antwren-aee2ec01",
+      "subject": "Band-tailed antwren",
+      "predicate": "threatened_by",
+      "object_id": "threat-habitat-loss",
+      "object": "栖息地破坏",
+      "subject_type": "Bird",
+      "object_type": "Threat",
+      "evidence": "The primary threat is habitat destruction",
+      "object_summary": "开发、采伐和围垦等活动导致适宜生境减少。"
+    }
+  ]
+}

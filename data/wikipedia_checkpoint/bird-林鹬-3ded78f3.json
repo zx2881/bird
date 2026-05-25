@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "saved_at": "2026-05-19T21:54:55",
+  "requested_title": "Wood Sandpiper",
+  "resolved_title": "Wood sandpiper",
+  "title_aliases": [
+    "Wood Sandpiper"
+  ],
+  "bird_id": "bird-林鹬-3ded78f3",
+  "raw_file": "bird-林鹬-3ded78f3.json",
+  "bird": {
+    "id": "bird-林鹬-3ded78f3",
+    "name": "林鹬",
+    "english_name": "Wood sandpiper",
+    "latin_name": "Tringa glareola",
+    "summary": "林鹬（学名：Tringa glareola）又名鹰斑鹬，为鹬科鹬属的鸟类。是一種小型涉禽。這是一種歐亞物種，是shanks（長腿鷸）中體型最小的，它們是一種中等大小、腿部較長的涉禽，主要棲息在淡水和濕地環境中，與其他類似物種的海洋或沿海棲地不同。 在中国大陆，分布于华北和香港等…",
+    "lat": "57.12",
+    "lng": "-4.71",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Wood_Sandpiper_Safari_Park.jpg/960px-Wood_Sandpiper_Safari_Park.jpg"
+  },
+  "locations": [
+    {
+      "id": "loc-湿地-9ffa9129",
+      "name": "湿地",
+      "summary": "濕地（wetland）是永久或季節性被较浅的水（少于6米的淡水、半咸水或海水）掩蓋的獨特自然环境，是一種許多缺氧過程具有優勢的半水生生態系統，也是陸地生態系統和水域生態系統之間的過渡性地帶。有許多水生植物生長在土壤长期被水体浸泡的特定濕地…",
+      "lat": "",
+      "lng": ""
+    },
+    {
+      "id": "loc-蘇格蘭高地-697400ac",
+      "name": "蘇格蘭高地",
+      "summary": "蘇格蘭高地（蘇格蘭蓋爾語：A' Ghàidhealtachd - 意“蓋爾地區”；英語：Scottish Highlands；低地蘇格蘭語：Scots Hielands）是蘇格蘭高地邊界斷層以西和以北的山地的稱呼。許多人將蘇格蘭高地稱為是…",
+      "lat": "57.12",
+      "lng": "-4.71"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "bird-林鹬-3ded78f3",
+      "subject": "林鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-湿地-9ffa9129",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The wood sandpiper breeds in subarctic wetlands, from the Scottish Highlands in the west, east across Eurasia and the Palearctic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-林鹬-3ded78f3",
+      "subject": "林鹬",
+      "predicate": "distributed_in",
+      "object_id": "loc-蘇格蘭高地-697400ac",
+      "object": "蘇格蘭高地",
+      "subject_type": "Bird",
+      "object_type": "Location",
+      "evidence": "The wood sandpiper breeds in subarctic wetlands, from the Scottish Highlands in the west, east across Eurasia and the Palearctic",
+      "object_summary": ""
+    },
+    {
+      "subject_id": "bird-林鹬-3ded78f3",
+      "subject": "林鹬",
+      "predicate": "lives_in",
+      "object_id": "hab-wetland",
+      "object": "湿地",
+      "subject_type": "Bird",
+      "object_type": "Habitat",
+      "evidence": "The wood sandpiper breeds in subarctic wetlands, from the Scottish Highlands in the west, east across Eurasia and the Palearctic",
+      "object_summary": "浅水、沼泽与植被斑块组成的高生产力生态系统。"
+    },
+    {
+      "subject_id": "bird-林鹬-3ded78f3",
+      "subject": "林鹬",
+      "predicate": "has_status",
+      "object_id": "status-lc",
+      "object": "LC",
+      "subject_type": "Bird",
+      "object_type": "Status",
+      "evidence": "status = LC",
+      "object_summary": "IUCN 无危。"
+    }
+  ]
+}
