@@ -57,8 +57,8 @@
 
         <section class="panel guide-panel">
           <h3 class="panel-title">探索方式</h3>
-          <p class="panel-note">首屏展示鸟类与界、门、纲、目、科分类骨架，属和种在点击物种后按需织入。</p>
-          <p class="panel-note">搜索或点击节点时，前端才会继续请求 `nodes/[node_id].json`，把该节点的一度邻域织入当前图谱。</p>
+          <p class="panel-note">首屏展示高层分类和代表物种；点击分类节点会优先展开下一层分类，再带入代表鸟类。</p>
+          <p class="panel-note">同一个节点可以反复点击，邻域会从 80 个逐步扩到 160、300 个，保持流畅同时显出大图规模。</p>
         </section>
 
         <section class="panel export-panel">
@@ -183,10 +183,10 @@ const loadSummary = computed(() => {
     return `正在后台加载 graph_preview.json：${store.previewLoadProgress.loaded}/${store.previewLoadProgress.total}，失败 ${store.previewLoadProgress.failed}。`
   }
   if (store.previewLoaded) {
-    return '首页已经完成轻量总览加载。图中节点当前只带基础名字与轻量关系，详情属性会在点击后再请求 nodes/[node_id].json。'
+    return '首页已经完成轻量总览加载。点击分类或鸟类节点会从 Neo4j 继续分层织入邻域。'
   }
   const expandedChunks = Math.max(0, store.loadedChunkCount - 1)
-  return `当前已展开 ${expandedChunks} 个局部切片。后续每次搜索或点击节点，只会额外请求对应的静态 JSON 分片。`
+  return `当前已展开 ${expandedChunks} 个局部邻域。重复点击同一节点会继续加深，不需要一次性渲染全量图。`
 })
 
 const handleSearch = useDebounceFn(() => {
@@ -206,7 +206,9 @@ async function handleNodeClick(node) {
 
   if (node.type === 'bird') {
     await store.loadNodeChunk(node.id)
-    router.push(`/bird/${node.id}`)
+    if (store.getNodeExpansionLimit(node.id) >= 160) {
+      router.push(`/bird/${node.id}`)
+    }
     return
   }
 

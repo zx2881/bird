@@ -12,8 +12,21 @@ function toNumber(value) {
 }
 
 function makeAssetUrl(path) {
+  if (/^https?:\/\//.test(path)) return path
   const base = import.meta.env.DEV ? '' : import.meta.env.BASE_URL
   return `${base}${path}`
+}
+
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '')
+const USE_API = Boolean(API_BASE_URL)
+const NODE_EXPANSION_LIMITS = [80, 160, 300]
+
+function makeApiUrl(path) {
+  return `${API_BASE_URL}${path}`
+}
+
+function dataEndpoint(staticPath, apiPath) {
+  return USE_API ? makeApiUrl(apiPath) : staticPath
 }
 
 const COUNTRY_LOCATION_NAMES = new Set([
@@ -200,6 +213,7 @@ export const useGraphStore = defineStore('graph', () => {
 
   const loadedChunkIds = ref(new Set())
   const pendingChunkIds = ref(new Set())
+  const nodeExpansionLimits = ref(new Map())
   const lastMutation = ref(null)
   const activeNodeId = ref('')
   const focusRequest = ref({ id: '', nonce: 0 })
@@ -229,6 +243,21 @@ export const useGraphStore = defineStore('graph', () => {
 
   function isChunkPending(nodeId) {
     return pendingChunkIds.value.has(nodeId)
+  }
+
+  function getNodeExpansionLimit(nodeId) {
+    return nodeExpansionLimits.value.get(nodeId) || 0
+  }
+
+  function nextNodeExpansionLimit(nodeId) {
+    const current = getNodeExpansionLimit(nodeId)
+    return NODE_EXPANSION_LIMITS.find(limit => limit > current) || NODE_EXPANSION_LIMITS[NODE_EXPANSION_LIMITS.length - 1]
+  }
+
+  function setNodeExpansionLimit(nodeId, limit) {
+    const next = new Map(nodeExpansionLimits.value)
+    next.set(nodeId, limit)
+    nodeExpansionLimits.value = next
   }
 
   function addSetValue(setRef, value) {
@@ -368,7 +397,7 @@ export const useGraphStore = defineStore('graph', () => {
     if (initialPromise) return initialPromise
 
     loading.value = true
-    initialPromise = fetchJson('data/summary.json').then(summary => {
+    initialPromise = fetchJson(dataEndpoint('data/summary.json', '/api/summary')).then(summary => {
       const birds = inflateSummaryItems(summary)
       summaryBirds.value = birds
       summaryMap.value = new Map(birds.map(bird => [bird.id, bird]))
@@ -384,36 +413,45 @@ export const useGraphStore = defineStore('graph', () => {
     return initialPromise
   }
 
-  async function loadNodeChunk(nodeId) {
+  async function loadNodeChunk(nodeId, options = {}) {
     if (!nodeId) return null
     await loadInitialData()
 
-    if (hasLoadedChunk(nodeId)) {
+    const nextLimit = USE_API ? (options.limit || nextNodeExpansionLimit(nodeId)) : 0
+    const maxLimit = NODE_EXPANSION_LIMITS[NODE_EXPANSION_LIMITS.length - 1]
+    const loadedEnough = USE_API
+      ? hasLoadedChunk(nodeId) && getNodeExpansionLimit(nodeId) >= maxLimit && !options.force
+      : hasLoadedChunk(nodeId)
+
+    if (loadedEnough) {
       activeNodeId.value = nodeId
       requestNodeFocus(nodeId)
       return getNodeById(nodeId)
     }
 
-    if (chunkPromises.has(nodeId)) return chunkPromises.get(nodeId)
+    const requestKey = USE_API ? `${nodeId}:${nextLimit}` : nodeId
+    if (chunkPromises.has(requestKey)) return chunkPromises.get(requestKey)
 
     addSetValue(pendingChunkIds, nodeId)
 
-    const promise = fetchJson(`data/nodes/${encodeURIComponent(nodeId)}.json`)
+    const apiPath = `/api/nodes/${encodeURIComponent(nodeId)}${USE_API ? `?limit=${nextLimit}` : ''}`
+    const promise = fetchJson(dataEndpoint(`data/nodes/${encodeURIComponent(nodeId)}.json`, apiPath))
       .then(chunk => {
         mergeGraphData(chunk, {
           chunkId: nodeId,
           centerId: chunk.meta?.centerNodeId || nodeId
         })
+        if (USE_API) setNodeExpansionLimit(nodeId, nextLimit)
         activeNodeId.value = chunk.meta?.centerNodeId || nodeId
         requestNodeFocus(activeNodeId.value)
         return chunk
       })
       .finally(() => {
         removeSetValue(pendingChunkIds, nodeId)
-        chunkPromises.delete(nodeId)
+        chunkPromises.delete(requestKey)
       })
 
-    chunkPromises.set(nodeId, promise)
+    chunkPromises.set(requestKey, promise)
     return promise
   }
 
@@ -440,7 +478,7 @@ export const useGraphStore = defineStore('graph', () => {
 
     previewLoading.value = true
 
-    previewPromise = fetchJson('data/graph_preview.json')
+    previewPromise = fetchJson(dataEndpoint('data/graph_preview.json', '/api/graph/preview'))
       .then(preview => {
         const trimmedPreview = trimGraphPreviewPayload(preview)
         mergeGraphData(trimmedPreview, {
@@ -589,6 +627,7 @@ export const useGraphStore = defineStore('graph', () => {
     degreeMap,
     loadedChunkIds,
     pendingChunkIds,
+    nodeExpansionLimits,
     lastMutation,
     activeNodeId,
     focusRequest,
@@ -607,6 +646,7 @@ export const useGraphStore = defineStore('graph', () => {
     loadedChunkCount,
     hasLoadedChunk,
     isChunkPending,
+    getNodeExpansionLimit,
     buildIndexes,
     loadData,
     loadInitialData,
