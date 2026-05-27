@@ -229,10 +229,10 @@ const loadSummary = computed(() => {
     return `正在后台加载 graph_preview.json：${store.previewLoadProgress.loaded}/${store.previewLoadProgress.total}，失败 ${store.previewLoadProgress.failed}。`
   }
   if (store.previewLoaded) {
-    return '首页已经完成轻量总览加载。图中节点当前只带基础名字与轻量关系，详情属性会在点击后再请求 nodes/[node_id].json。'
+    return '首页已经完成轻量总览加载。点击分类或鸟类节点会从 Neo4j 继续分层织入邻域。'
   }
   const expandedChunks = Math.max(0, store.loadedChunkCount - 1)
-  return `当前已展开 ${expandedChunks} 个局部切片。后续每次搜索或点击节点，只会额外请求对应的静态 JSON 分片。`
+  return `当前已展开 ${expandedChunks} 个局部邻域。重复点击同一节点会继续加深，不需要一次性渲染全量图。`
 })
 
 const handleSearch = useDebounceFn(() => {
