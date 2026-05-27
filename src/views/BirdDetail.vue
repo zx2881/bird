@@ -120,7 +120,7 @@
 
         <div class="detail-map-section">
           <h3 class="section-title">分布位置</h3>
-          <div v-if="bird.lat != null && bird.lng != null" ref="detailMapRef" class="detail-map"></div>
+          <div v-if="hasMapPoints" ref="detailMapRef" class="detail-map"></div>
           <p v-else class="empty-tip">当前切片中暂无可用坐标。</p>
         </div>
 
@@ -145,6 +145,7 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import L from 'leaflet'
 import { useGraphStore } from '../stores/graphStore.js'
+import { isReliableMapCoord, toLatLng, applyLeafletMapLimits, addOsmTileLayer, fitMapToPoints } from '../utils/mapCoords.js'
 
 const route = useRoute()
 const router = useRouter()
@@ -155,6 +156,10 @@ const switchQuery = ref('')
 const summaryExpanded = ref(false)
 const detailMapRef = ref(null)
 let detailMapInstance = null
+let detailMarkersLayer = null
+const mapRenderKey = ref('')
+const MAX_MAP_INIT_ATTEMPTS = 30
+let mapInitAttempts = 0
 
 const endangermentLabels = {
   CR: '极危 (CR)',
@@ -218,6 +223,52 @@ const switchResults = computed(() => {
 
 const incidentLinks = computed(() => store.getIncidentLinks(birdId.value))
 
+const mapPoints = computed(() => {
+  if (!bird.value) return []
+
+  const points = []
+  const seen = new Set()
+
+  incidentLinks.value.forEach(link => {
+    const otherId = link.source === birdId.value ? link.target : link.source
+    const other = store.getNodeById(otherId)
+    if (!other || other.type !== 'location') return
+    if (!isReliableMapCoord(other.lat, other.lng)) return
+    const key = `${other.lat},${other.lng}`
+    if (seen.has(key)) return
+    seen.add(key)
+    points.push({
+      lat: other.lat,
+      lng: other.lng,
+      name: other.name,
+      type: 'location'
+    })
+  })
+
+  if (isReliableMapCoord(bird.value.lat, bird.value.lng)) {
+    const key = `${bird.value.lat},${bird.value.lng}`
+    if (!seen.has(key)) {
+      points.unshift({
+        lat: bird.value.lat,
+        lng: bird.value.lng,
+        name: bird.value.name,
+        type: 'bird'
+      })
+    }
+  } else if (!points.length && bird.value.lat != null && bird.value.lng != null) {
+    points.push({
+      lat: bird.value.lat,
+      lng: bird.value.lng,
+      name: bird.value.name,
+      type: 'bird'
+    })
+  }
+
+  return points
+})
+
+const hasMapPoints = computed(() => mapPoints.value.length > 0)
+
 function formatList(values) {
   return Array.isArray(values) && values.length ? values.join('、') : '暂无'
 }
@@ -241,49 +292,91 @@ async function ensureCurrentBirdLoaded(id) {
 }
 
 function destroyDetailMap() {
+  detailMarkersLayer = null
   if (detailMapInstance) {
     detailMapInstance.remove()
     detailMapInstance = null
   }
 }
 
+function syncDetailMapMarkers() {
+  if (!detailMapInstance || !detailMarkersLayer) return
+
+  detailMarkersLayer.clearLayers()
+  const latLngs = []
+
+  mapPoints.value.forEach(point => {
+    const latLng = toLatLng(point.lat, point.lng)
+    latLngs.push(latLng)
+    const marker = L.marker(latLng, { autoPan: false })
+    const label = point.type === 'bird' ? '物种坐标' : '分布地点'
+    marker.bindPopup(`<strong>${point.name}</strong><br/><span>${label}</span>`)
+    detailMarkersLayer.addLayer(marker)
+  })
+
+  fitMapToPoints(detailMapInstance, L, latLngs, { maxZoom: 7, singleZoom: 6 })
+}
+
 function initDetailMap() {
-  destroyDetailMap()
-  if (!detailMapRef.value || !bird.value || bird.value.lat == null || bird.value.lng == null) return
+  const el = detailMapRef.value
+  if (!el || !hasMapPoints.value) {
+    destroyDetailMap()
+    return
+  }
 
-  detailMapInstance = L.map(detailMapRef.value, {
-    zoomControl: true,
-    scrollWheelZoom: false
-  }).setView([bird.value.lat, bird.value.lng], 5)
+  if (el.clientWidth === 0 || el.clientHeight === 0) {
+    mapInitAttempts += 1
+    if (mapInitAttempts < MAX_MAP_INIT_ATTEMPTS) {
+      setTimeout(initDetailMap, 200)
+    }
+    return
+  }
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-    attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(detailMapInstance)
+  mapInitAttempts = 0
 
-  L.marker([bird.value.lat, bird.value.lng])
-    .addTo(detailMapInstance)
-    .bindPopup(`<strong>${bird.value.name}</strong>`)
-    .openPopup()
+  if (!detailMapInstance) {
+    detailMapInstance = L.map(el, {
+      zoomControl: true,
+      scrollWheelZoom: true,
+      worldCopyJump: false
+    })
+
+    applyLeafletMapLimits(detailMapInstance, L)
+    addOsmTileLayer(detailMapInstance, L)
+
+    detailMarkersLayer = L.layerGroup().addTo(detailMapInstance)
+  } else {
+    detailMapInstance.invalidateSize()
+  }
+
+  syncDetailMapMarkers()
+}
+
+function scheduleDetailMapRefresh() {
+  const nextKey = `${birdId.value}|${mapPoints.value.map(point => `${point.lat},${point.lng}`).join(';')}`
+  if (nextKey === mapRenderKey.value && detailMapInstance) return
+  mapRenderKey.value = nextKey
+  mapInitAttempts = 0
+  nextTick(() => initDetailMap())
 }
 
 watch(() => route.params.id, async newId => {
   birdId.value = newId
   summaryExpanded.value = false
+  mapRenderKey.value = ''
+  destroyDetailMap()
   await ensureCurrentBirdLoaded(newId)
-  await nextTick()
-  initDetailMap()
+  scheduleDetailMapRefresh()
 })
 
-watch(bird, async () => {
-  await nextTick()
-  initDetailMap()
-})
+watch(
+  () => `${birdId.value}|${mapPoints.value.map(point => `${point.lat},${point.lng}:${point.type}`).join(';')}`,
+  () => scheduleDetailMapRefresh()
+)
 
 onMounted(async () => {
   await ensureCurrentBirdLoaded(birdId.value)
-  await nextTick()
-  initDetailMap()
+  scheduleDetailMapRefresh()
 })
 
 onBeforeUnmount(() => {

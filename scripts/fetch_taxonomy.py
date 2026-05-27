@@ -94,6 +94,16 @@ RANK_DISPLAY = {
 }
 
 
+def configure_csv_field_size_limit() -> None:
+    limit = sys.maxsize
+    while True:
+        try:
+            csv.field_size_limit(limit)
+            return
+        except OverflowError:
+            limit //= 10
+
+
 def _api_get(url: str, opener=None, timeout: int = 25, max_retries: int = 3) -> dict:
     request = Request(
         url,
@@ -169,6 +179,16 @@ def load_csv_rows(path: Path, headers: List[str]) -> List[Dict[str, str]]:
         return []
     with path.open("r", encoding="utf-8-sig", newline="") as file:
         reader = csv.DictReader(file)
+        fieldnames = reader.fieldnames or []
+        if not fieldnames:
+            raise ValueError(f"{path.name} 为空，或无法读取 CSV 表头。")
+        if any("\x00" in field for field in fieldnames):
+            raise ValueError(f"{path.name} 包含 NUL 字节，文件已损坏，无法解析。")
+        missing_headers = [header for header in headers if header not in fieldnames]
+        if missing_headers:
+            joined = ", ".join(missing_headers[:8])
+            suffix = "..." if len(missing_headers) > 8 else ""
+            raise ValueError(f"{path.name} 缺少必要列: {joined}{suffix}")
         rows = []
         for row in reader:
             normalized = {header: (row.get(header, "") or "").strip() for header in headers}
@@ -317,6 +337,16 @@ class TaxonomyClient:
             self.entity_cache[qid] = entities.get(qid, {})
         return self.entity_cache.get(qid, {})
 
+    def normalize_taxon_qid(self, qid: str) -> str:
+        entity = self.get_entity(qid)
+        if not entity:
+            return ""
+        if extract_rank(entity) in TARGET_RANKS:
+            return qid
+        if extract_parent_qid(entity):
+            return qid
+        return ""
+
     def get_qid_from_wikipedia_title(self, title: str) -> str:
         cleaned = re.sub(r"\s+", " ", (title or "").strip())
         if not cleaned:
@@ -421,22 +451,24 @@ class TaxonomyClient:
             latin_name,
         ])
         for title in title_candidates:
-            qid = self.get_qid_from_wikipedia_title(title)
+            qid = self.normalize_taxon_qid(self.get_qid_from_wikipedia_title(title))
             if qid:
                 return qid, f"enwiki-title:{title}"
 
         for query in unique_non_empty([english_name, latin_name]):
-            qid = self.search_wikipedia_qid(query)
+            qid = self.normalize_taxon_qid(self.search_wikipedia_qid(query))
             if qid:
                 return qid, f"enwiki-search:{query}"
 
         if latin_name:
-            qid = self.search_wikidata_qid(latin_name, {"species"})
+            qid = self.normalize_taxon_qid(self.search_wikidata_qid(latin_name, {"species"}))
             if qid:
                 return qid, f"wikidata-search-latin:{latin_name}"
 
         if english_name:
-            qid = self.search_wikidata_qid(english_name, {"species", "genus", "family", "order"})
+            qid = self.normalize_taxon_qid(
+                self.search_wikidata_qid(english_name, {"species", "genus", "family", "order"})
+            )
             if qid:
                 return qid, f"wikidata-search-en:{english_name}"
 
@@ -598,6 +630,7 @@ def main() -> None:
         opener = build_opener(proxy_handler)
         install_opener(opener)
 
+    configure_csv_field_size_limit()
     client = TaxonomyClient(opener=opener, delay=args.delay)
     birds_rows = load_csv_rows(birds_path, BIRDS_HEADERS)
     relations_rows = load_csv_rows(relations_path, RELATIONS_HEADERS)
@@ -685,7 +718,7 @@ def main() -> None:
         # 每成功一只立刻落盘，中断不怕丢数据
         write_csv_rows(birds_path, BIRDS_HEADERS, birds_rows)
         write_csv_rows(relations_path, RELATIONS_HEADERS, relations_rows)
-        print(f"  -> 目: {order_cn or order_en}, 科: {family_cn or family_en} [已保存]")
+        print("  [saved] 已保存当前进度到 birds.csv 和 relations.csv")
 
     if success > 0:
         print("\n已更新 birds.csv 和 relations.csv")

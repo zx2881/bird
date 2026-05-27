@@ -35,6 +35,7 @@ import { useRouter } from 'vue-router'
 import * as echarts from 'echarts'
 import L from 'leaflet'
 import { useGraphStore } from '../stores/graphStore.js'
+import { isReliableMapCoord, toLatLng, DEFAULT_WORLD_VIEW, applyLeafletMapLimits, addOsmTileLayer } from '../utils/mapCoords.js'
 
 const router = useRouter()
 const store = useGraphStore()
@@ -46,6 +47,8 @@ const overviewMapRef = ref(null)
 
 let continentChart = null, habitatChart = null, endangermentChart = null
 let mapInstance = null, markersLayer = null
+let mapInitAttempts = 0
+const MAX_MAP_INIT_ATTEMPTS = 30
 
 const endangermentLabels = { CR: '极危 (CR)', EN: '濒危 (EN)', VU: '易危 (VU)', NT: '近危 (NT)', LC: '无危 (LC)' }
 
@@ -125,26 +128,39 @@ function initEndangermentChart() {
 function initOverviewMap() {
   const el = overviewMapRef.value
   if (!el || mapInstance) return
-  // 确保容器有尺寸后再初始化
+
   if (el.clientWidth === 0 || el.clientHeight === 0) {
-    setTimeout(initOverviewMap, 200)
+    mapInitAttempts += 1
+    if (mapInitAttempts < MAX_MAP_INIT_ATTEMPTS) {
+      setTimeout(initOverviewMap, 200)
+    }
     return
   }
-  mapInstance = L.map(el, { zoomControl: true, worldCopyJump: true }).setView([20, 110], 2)
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18,
-    attribution: '&copy; OpenStreetMap contributors' }).addTo(mapInstance)
+
+  mapInitAttempts = 0
+  mapInstance = L.map(el, {
+    zoomControl: true,
+    worldCopyJump: false,
+    inertia: true
+  })
+  applyLeafletMapLimits(mapInstance, L)
+  addOsmTileLayer(mapInstance, L)
   markersLayer = L.layerGroup().addTo(mapInstance)
+
   overviewBirds.value.forEach(bird => {
-    if (bird.lat == null || bird.lng == null) return
-    const marker = L.marker([bird.lat, bird.lng])
+    if (!isReliableMapCoord(bird.lat, bird.lng)) return
+    const latLng = toLatLng(bird.lat, bird.lng)
+    const marker = L.marker(latLng, { autoPan: false })
     marker.bindPopup(`<strong>${bird.name}</strong><br/><em>${bird.englishName || ''}</em><br/>` +
       (bird.status ? `<span style="color:#b45309">${endangermentLabels[bird.status] || bird.status}</span><br/>` : '') +
       `<a href="/bird/${bird.id}" style="color:#0f766e;font-weight:600;" target="_self">查看详情 →</a>`)
     marker.on('click', () => router.push(`/bird/${bird.id}`))
     markersLayer.addLayer(marker)
   })
-  // 首次加载后通知地图重算尺寸
-  setTimeout(() => mapInstance?.invalidateSize(), 300)
+
+  mapInstance.setView(DEFAULT_WORLD_VIEW.center, DEFAULT_WORLD_VIEW.zoom, { animate: false })
+
+  requestAnimationFrame(() => mapInstance?.invalidateSize())
 }
 
 function handleResize() {
@@ -162,7 +178,12 @@ onMounted(async () => {
 
 onBeforeUnmount(() => {
   window.removeEventListener('resize', handleResize)
-  continentChart?.dispose(); habitatChart?.dispose(); endangermentChart?.dispose(); mapInstance?.remove()
+  continentChart?.dispose()
+  habitatChart?.dispose()
+  endangermentChart?.dispose()
+  mapInstance?.remove()
+  mapInstance = null
+  markersLayer = null
 })
 </script>
 
@@ -181,6 +202,7 @@ onBeforeUnmount(() => {
 .section-heading h3 { margin: 0; font-size: 16px; color: var(--heading-color); }
 .section-heading p { margin: 0; font-size: 13px; color: var(--text-secondary); }
 .map-canvas { width: 100%; height: 420px; border-radius: 18px; overflow: hidden; border: 1px solid var(--panel-border); }
+.map-canvas :deep(.leaflet-container) { background: #aad3df; }
 @media (max-width: 860px) {
   .charts-row { grid-template-columns: 1fr; }
   .chart-canvas { height: 280px; }
