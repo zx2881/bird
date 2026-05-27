@@ -33,6 +33,7 @@ onMounted(async () => {
 <style>
 .shell {
   position: relative;
+  isolation: isolate;
   min-height: 100vh;
   padding: 20px 24px;
 }

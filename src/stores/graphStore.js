@@ -22,6 +22,9 @@ const USE_API = Boolean(API_BASE_URL)
 const NODE_EXPANSION_LIMITS = [80, 160, 300]
 
 function makeApiUrl(path) {
+  if (API_BASE_URL.endsWith('/api') && path.startsWith('/api/')) {
+    return `${API_BASE_URL}${path.slice(4)}`
+  }
   return `${API_BASE_URL}${path}`
 }
 
@@ -298,7 +301,11 @@ export const useGraphStore = defineStore('graph', () => {
   }
 
   async function fetchJson(path) {
-    const response = await fetch(makeAssetUrl(path))
+    const url = makeAssetUrl(path)
+    const isSummary = path.endsWith('summary.json')
+    const response = await fetch(isSummary ? `${url}?v=${Date.now()}` : url, {
+      cache: isSummary ? 'no-store' : 'default'
+    })
     if (!response.ok) {
       throw new Error(`Failed to load ${path}: ${response.status} ${response.statusText}`)
     }

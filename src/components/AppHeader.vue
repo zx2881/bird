@@ -52,6 +52,9 @@ const uiStore = useUIStore()
 
 <style scoped>
 .app-header {
+  position: sticky;
+  top: 14px;
+  z-index: 80;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,6 +66,12 @@ const uiStore = useUIStore()
   background: var(--header-bg, linear-gradient(135deg, rgba(255, 247, 234, 0.92), rgba(233, 243, 245, 0.88)));
   box-shadow: 0 20px 45px var(--header-shadow, rgba(31, 64, 76, 0.12));
   backdrop-filter: blur(18px);
+}
+
+:global([data-theme="dark"]) .app-header {
+  border-color: rgba(94, 234, 212, 0.22);
+  background: linear-gradient(135deg, rgba(2, 8, 23, 0.94), rgba(8, 18, 33, 0.88));
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.46), 0 0 22px rgba(34, 211, 238, 0.1);
 }
 .header-left { flex: 1; }
 .eyebrow { margin: 0 0 4px; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent, #0f766e); }

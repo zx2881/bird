@@ -232,13 +232,14 @@ function statusGradient(status) {
 
 function relationChipType(relation) {
   const map = {
+    'distributed_in': 'lives',
     'lives_in': 'lives',
-    'has_habitat': 'habitat',
-    'faces_threat': 'threat',
+    'has_status': 'status',
+    'threatened_by': 'threat',
     'belongs_to_order': 'taxonomy',
     'belongs_to_family': 'taxonomy',
     'belongs_to_genus': 'taxonomy',
-    'located_in': 'lives'
+    'belongs_to_species': 'taxonomy'
   }
   return map[relation] || 'default'
 }
@@ -648,11 +649,13 @@ onBeforeUnmount(() => {
 
 .chip-lives .chip-type { background: var(--success); }
 .chip-habitat .chip-type { background: #0284c7; }
+.chip-status .chip-type { background: #f59e0b; }
 .chip-threat .chip-type { background: var(--danger); }
 .chip-taxonomy .chip-type { background: #7c3aed; }
 .chip-default .chip-type { background: var(--accent); }
 .chip-lives { border-color: rgba(22,163,74,0.3); }
 .chip-habitat { border-color: rgba(2,132,199,0.3); }
+.chip-status { border-color: rgba(245,158,11,0.3); }
 .chip-threat { border-color: rgba(220,38,38,0.3); }
 .chip-taxonomy { border-color: rgba(124,58,237,0.3); }
 

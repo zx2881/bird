@@ -54,7 +54,7 @@ export default defineConfig({
     allowedHosts: ['.frp-few.com'],
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'http://localhost:5174',
         changeOrigin: true
       }
     }

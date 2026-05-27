@@ -1,5 +1,5 @@
 <template>
-  <div class="home-page">
+  <div class="home-page" :class="{ 'home-page--migration': isMigrationMode }">
     <div class="home-hero">
       <div class="search-section">
         <div class="search-wrapper">
@@ -36,20 +36,20 @@
           <h3 class="panel-title">数据加载状态</h3>
           <div class="metric-grid">
             <div class="metric-card">
-              <span class="metric-value">{{ store.totalBirdCount }}</span>
-              <span class="metric-label">鸟类索引</span>
+              <span class="metric-value">{{ isMigrationMode ? observationPointCount : store.totalBirdCount }}</span>
+              <span class="metric-label">{{ isMigrationMode ? '观测点' : '鸟类索引' }}</span>
             </div>
             <div class="metric-card">
-              <span class="metric-value">{{ store.loadedBirdCount }}</span>
-              <span class="metric-label">已进图物种</span>
+              <span class="metric-value">{{ isMigrationMode ? migrationRouteCount : store.loadedBirdCount }}</span>
+              <span class="metric-label">{{ isMigrationMode ? '栖息连接' : '已进图物种' }}</span>
             </div>
             <div class="metric-card">
-              <span class="metric-value">{{ store.nodeCount }}</span>
-              <span class="metric-label">当前节点</span>
+              <span class="metric-value">{{ isMigrationMode ? store.totalBirdCount : store.nodeCount }}</span>
+              <span class="metric-label">{{ isMigrationMode ? '鸟类物种' : '当前节点' }}</span>
             </div>
             <div class="metric-card">
-              <span class="metric-value">{{ store.linkCount }}</span>
-              <span class="metric-label">当前关系</span>
+              <span class="metric-value">{{ isMigrationMode ? loadedGeoBirdCount : store.linkCount }}</span>
+              <span class="metric-label">{{ isMigrationMode ? '已定位物种' : '当前关系' }}</span>
             </div>
             <div class="metric-card">
               <span class="metric-value">{{ store.totalRelationCount }}</span>
@@ -65,10 +65,42 @@
 
         <section class="panel guide-panel">
           <h3 class="panel-title">探索方式</h3>
-          <p class="panel-note">首屏展示鸟类与界、门、纲、目、科分类骨架，属和种在点击物种后按需织入。</p>
-          <p class="panel-note">搜索或点击节点时，前端才会继续请求 `nodes/[node_id].json`，把该节点的一度邻域织入当前图谱。</p>
-          <p class="panel-note">图谱中分布、栖息地、保护等级、威胁因素等关系需点击具体鸟类节点后方可查看；首屏仅展示 {{ store.totalRelationCount - nonTaxonomyRelationCount }} 条分类骨架关系。</p>
-          <p v-if="centerNodeId" class="panel-note highlight">当前中心节点：{{ store.getNodeById(centerNodeId)?.name || centerNodeId }}<br/>再次点击中心节点可跳转详情页。</p>
+          <template v-if="isMigrationMode">
+            <p class="panel-note">夜间模式展示全球鸟类迁徙图：拖拽旋转视角，亮青色节点表示鸟类长期栖息位置。</p>
+            <p class="panel-note">绿色地点节点来自地点坐标索引，连线表示鸟类与多个分布地或栖息地的静态关联。</p>
+            <p class="panel-note">搜索或点击节点时，前端会请求 `nodes/[node_id].json`，继续补充该物种的一度地点关系。</p>
+          </template>
+          <template v-else>
+            <p class="panel-note">白天模式保留原 3D 知识图谱，展示鸟类与界、门、纲、目、科分类骨架。</p>
+            <p class="panel-note">搜索或点击节点时，前端才会继续请求 `nodes/[node_id].json`，把该节点的一度邻域织入当前图谱。</p>
+            <p class="panel-note">图谱中分布、栖息地、保护等级、威胁因素等关系需点击具体鸟类节点后方可查看。</p>
+          </template>
+          <p v-if="centerNodeId" class="panel-note highlight">当前中心节点：{{ focusedNodeName || centerNodeId }}<br/>再次点击中心节点可跳转详情页。</p>
+        </section>
+
+        <section v-if="isMigrationMode && focusedDisplayNode" class="panel node-detail-panel">
+          <h3 class="panel-title">数据点信息</h3>
+          <div class="node-detail-head">
+            <span>{{ focusedNodeType }}</span>
+            <strong>{{ focusedNodeName }}</strong>
+            <small v-if="focusedNodeSubtitle">{{ focusedNodeSubtitle }}</small>
+          </div>
+          <div class="node-detail-grid">
+            <span>坐标</span>
+            <strong>{{ focusedCoordinateLabel }}</strong>
+            <span>连接</span>
+            <strong>{{ focusedNeighborCount }} 条</strong>
+          </div>
+          <p v-if="focusedNodeSummary" class="panel-note">{{ focusedNodeSummary }}</p>
+          <p v-if="focusedLocationList" class="panel-note highlight">关联栖息地：{{ focusedLocationList }}</p>
+          <button
+            v-if="canOpenFocusedDetail"
+            type="button"
+            class="detail-link-btn"
+            @click="openFocusedDetail"
+          >
+            查看详情
+          </button>
         </section>
 
         <section class="panel export-panel">
@@ -84,7 +116,7 @@
       <section class="graph-panel">
         <div class="graph-header">
           <div>
-            <h2>3D 分片异步鸟类知识图谱</h2>
+            <h2>{{ isMigrationMode ? '全球鸟类迁徙图' : '3D 分片异步鸟类知识图谱' }}</h2>
             <p class="graph-summary">{{ graphSummary }}</p>
           </div>
           <div class="legend">
@@ -94,7 +126,7 @@
           </div>
         </div>
 
-        <div class="graph-toolbar">
+        <div v-if="!isMigrationMode" class="graph-toolbar">
           <div class="toolbar-group wide">
             <span class="toolbar-label">上下文实体</span>
             <div class="pill-group">
@@ -122,7 +154,7 @@
         <div ref="containerRef" class="graph-canvas">
           <div v-if="showInitialLoading" class="graph-loading">
             <div class="loading-spinner"></div>
-            <p>正在加载搜索索引与轻量总览图…</p>
+            <p>{{ isMigrationMode ? '正在加载全球观测点与栖息地连接…' : '正在加载搜索索引与轻量总览图…' }}</p>
           </div>
           <template v-else>
             <button
@@ -135,7 +167,13 @@
             <div v-if="focusedNodeId" class="focus-info">
               {{ focusedNodeName }} {{ focusedNodeType }} · {{ focusedNeighborCount }} 个关联
             </div>
+            <MigrationGlobe
+              v-if="isMigrationMode"
+              :center-node-id="centerNodeId"
+              @node-click="handleNodeClick"
+            />
             <SigmaCanvas
+              v-else
               :active-types="activeContextTypes"
               :dark-mode="uiStore.darkMode"
               :center-node-id="centerNodeId"
@@ -153,6 +191,7 @@
 import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useDebounceFn } from '@vueuse/core'
+import MigrationGlobe from '../graph/MigrationGlobe.vue'
 import SigmaCanvas from '../graph/SigmaCanvas.vue'
 import { useGraphExport } from '../composables/useGraphExport.js'
 import { useGraphStore } from '../stores/graphStore.js'
@@ -169,14 +208,128 @@ const searchResults = ref([])
 const activeContextTypes = ref(['taxonomy', 'location', 'habitat', 'status', 'threat'])
 const centerNodeId = ref('')
 const focusedNodeId = ref('')
+const selectedGlobeNode = ref(null)
+const isMigrationMode = computed(() => uiStore.darkMode)
+const maxMigrationRoutes = 320
+const maxMigrationLocationNodes = 160
+const maxLocationsPerBird = 4
 
 const focusedNode = computed(() => store.getNodeById(focusedNodeId.value))
-const focusedNodeName = computed(() => focusedNode.value?.name || '')
+const focusedDisplayNode = computed(() => focusedNode.value || selectedGlobeNode.value)
+const focusedNodeName = computed(() => focusedDisplayNode.value?.name || focusedDisplayNode.value?.id || '')
 const focusedNodeType = computed(() => {
   const typeLabels = { bird: '鸟类', location: '地点', habitat: '栖息地', status: '保护等级', threat: '威胁因素', taxonomy: '分类' }
-  return typeLabels[focusedNode.value?.type] || ''
+  return typeLabels[focusedDisplayNode.value?.type] || ''
 })
 const focusedNeighborCount = computed(() => store.getIncidentLinks(focusedNodeId.value).length)
+const focusedNodeSubtitle = computed(() => {
+  const node = focusedDisplayNode.value
+  if (!node) return ''
+  return [node.englishName, node.latinName].filter(Boolean).join(' · ')
+})
+const focusedCoordinateLabel = computed(() => {
+  const node = focusedDisplayNode.value
+  if (!node || node.lat == null || node.lng == null) return '暂无坐标'
+  return `${Number(node.lat).toFixed(2)}, ${Number(node.lng).toFixed(2)}`
+})
+const focusedNodeSummary = computed(() => {
+  const node = focusedDisplayNode.value
+  return node?.shortSummary || node?.summary || ''
+})
+const focusedLocationList = computed(() => {
+  const locations = focusedDisplayNode.value?.locations || []
+  return locations.slice(0, 4).join('、')
+})
+const canOpenFocusedDetail = computed(() => {
+  const node = focusedDisplayNode.value
+  if (!node) return false
+  if (node.type === 'bird') return Boolean(node.id)
+  if (node.type === 'location') return Boolean(store.getNodeById(node.id))
+  return false
+})
+
+const loadedGeoBirdCount = computed(() => store.birdNodes.filter(node => node.lat != null && node.lng != null).length)
+const graphObservationPointCount = computed(() => {
+  const points = new Set()
+  store.nodes.forEach(node => {
+    if ((node.type === 'bird' || node.type === 'location') && node.lat != null && node.lng != null) {
+      points.add(`${Number(node.lat).toFixed(2)},${Number(node.lng).toFixed(2)}`)
+    }
+  })
+  return points.size
+})
+
+const locationByName = computed(() => {
+  const locationByName = new Map(store.summaryLocations
+    .filter(location => location.lat != null && location.lng != null)
+    .map(location => [location.name, location]))
+  store.locationNodes
+    .filter(location => location.lat != null && location.lng != null)
+    .forEach(location => locationByName.set(location.name, location))
+  return locationByName
+})
+
+const migrationObservationPointCount = computed(() => {
+  const points = new Set()
+  let routeCount = 0
+
+  for (const bird of store.birdNodes) {
+    if (bird.lat == null || bird.lng == null) continue
+    points.add(`${Number(bird.lat).toFixed(2)},${Number(bird.lng).toFixed(2)}`)
+    if (routeCount >= maxMigrationRoutes) continue
+    const locationNames = Array.isArray(bird.locations) ? bird.locations : []
+    for (const locationName of locationNames.slice(0, maxLocationsPerBird)) {
+      if (routeCount >= maxMigrationRoutes) break
+      const location = locationByName.value.get(locationName)
+      if (!location) continue
+      const latDelta = Math.abs(Number(bird.lat) - Number(location.lat))
+      const lngDelta = Math.abs(Number(bird.lng) - Number(location.lng))
+      if (latDelta + lngDelta <= 2) continue
+      points.add(`${Number(location.lat).toFixed(2)},${Number(location.lng).toFixed(2)}`)
+      routeCount += 1
+    }
+  }
+
+  Array.from(locationByName.value.values())
+    .sort((left, right) => String(left.name || left.id).localeCompare(String(right.name || right.id), 'zh-Hans-CN'))
+    .slice(0, maxMigrationLocationNodes)
+    .forEach(location => {
+      points.add(`${Number(location.lat).toFixed(2)},${Number(location.lng).toFixed(2)}`)
+    })
+
+  return Math.max(graphObservationPointCount.value, points.size)
+})
+
+const observationPointCount = computed(() => {
+  return isMigrationMode.value ? migrationObservationPointCount.value : graphObservationPointCount.value
+})
+
+const migrationRouteCount = computed(() => {
+  const actualRouteCount = store.links.filter(link => {
+    const source = store.getNodeById(link.source)
+    const target = store.getNodeById(link.target)
+    const isBirdToPlace = (
+      (source?.type === 'bird' && target?.type === 'location') ||
+      (source?.type === 'location' && target?.type === 'bird')
+    )
+    return isBirdToPlace && ['distributed_in', 'lives_in'].includes(link.relation)
+  }).length
+
+  let summaryRouteCount = 0
+  for (const bird of store.birdNodes) {
+    const locationNames = Array.isArray(bird.locations) ? bird.locations : []
+    for (const locationName of locationNames.slice(0, maxLocationsPerBird)) {
+      const location = locationByName.value.get(locationName)
+      if (!location) continue
+      const latDelta = Math.abs(Number(bird.lat) - Number(location.lat))
+      const lngDelta = Math.abs(Number(bird.lng) - Number(location.lng))
+      if (latDelta + lngDelta <= 2) continue
+      summaryRouteCount += 1
+      if (summaryRouteCount >= maxMigrationRoutes) return Math.max(actualRouteCount, summaryRouteCount)
+    }
+  }
+  return Math.max(actualRouteCount, summaryRouteCount)
+})
 
 const nonTaxonomyRelationCount = computed(() => {
   const types = store.meta?.counts?.relationTypes || {}
@@ -187,14 +340,17 @@ const nonTaxonomyRelationCount = computed(() => {
   return count || 0
 })
 
-const legendItems = [
-  { label: '鸟类', color: '#4FC3F7' },
-  { label: '地点', color: '#81C784' },
-  { label: '栖息地', color: '#FFB74D' },
-  { label: '保护等级', color: '#E57373' },
-  { label: '威胁因素', color: '#BA68C8' },
-  { label: '分类', color: '#90A4AE' }
-]
+const legendItems = computed(() => [
+  { label: '鸟类', color: '#4FC3F7', mode: 'graph' },
+  { label: '地点', color: '#81C784', mode: 'graph' },
+  { label: '栖息地', color: '#FFB74D', mode: 'graph' },
+  { label: '保护等级', color: '#E57373', mode: 'graph' },
+  { label: '威胁因素', color: '#BA68C8', mode: 'graph' },
+  { label: '分类', color: '#90A4AE', mode: 'graph' },
+  { label: '鸟类观测点', color: '#22d3ee', mode: 'migration' },
+  { label: '地点节点', color: '#7cff6b', mode: 'migration' },
+  { label: '栖息连接', color: '#7cff6b', mode: 'migration' }
+].filter(item => isMigrationMode.value ? item.mode === 'migration' : item.mode === 'graph'))
 
 const filterableTypeItems = [
   { type: 'taxonomy', label: '分类' },
@@ -208,16 +364,28 @@ const showInitialLoading = computed(() => !store.loaded || (store.previewLoading
 
 const graphSummary = computed(() => {
   if (!store.loaded) return '首屏正在加载 summary.json 与轻量总览图入口。'
+  if (!isMigrationMode.value) {
+    if (store.previewLoading && store.nodeCount === 0) {
+      return '正在请求 graph_preview.json，并把鸟类与高层分类节点铺到 3D 画布上。'
+    }
+    if (store.previewLoading) {
+      return `轻量总览图正在继续织入，当前已入图 ${store.loadedBirdCount}/${store.totalBirdCount} 种，节点 ${store.nodeCount} 个，关系 ${store.linkCount} 条。`
+    }
+    if (store.previewLoaded) {
+      return `首页轻量总览图已载入全部 ${store.totalBirdCount} 种鸟类和高层分类；点击节点时再按需请求对应分片详情。`
+    }
+    return `当前画布中已织入 ${store.nodeCount} 个节点、${store.linkCount} 条关系；其中 ${store.loadedBirdCount}/${store.totalBirdCount} 种鸟类已按需载入。`
+  }
   if (store.previewLoading && store.nodeCount === 0) {
-    return '正在请求 graph_preview.json，并把鸟类与高层分类节点铺到 3D 画布上。'
+    return '正在请求 graph_preview.json，并把带坐标的鸟类观测点投射到正交地球仪。'
   }
   if (store.previewLoading) {
-    return `轻量总览图正在继续织入，当前已入图 ${store.loadedBirdCount}/${store.totalBirdCount} 种，节点 ${store.nodeCount} 个，关系 ${store.linkCount} 条。`
+    return `迁徙地球仪正在继续织入，当前已定位 ${loadedGeoBirdCount.value}/${store.totalBirdCount} 种，观测点 ${observationPointCount.value} 个。`
   }
   if (store.previewLoaded) {
-    return `首页轻量总览图已载入全部 ${store.totalBirdCount} 种鸟类和高层分类；点击节点时再按需请求对应分片详情。`
+    return `全球鸟类迁徙图已载入 ${observationPointCount.value} 个观测点与 ${migrationRouteCount.value} 条鸟类-地点连接；点击节点可继续展开分布地点。`
   }
-  return `当前画布中已织入 ${store.nodeCount} 个节点、${store.linkCount} 条关系；其中 ${store.loadedBirdCount}/${store.totalBirdCount} 种鸟类已按需载入。`
+  return `当前画布中已织入 ${observationPointCount.value} 个观测点、${migrationRouteCount.value} 条栖息地连接。`
 })
 
 const loadSummary = computed(() => {
@@ -229,10 +397,14 @@ const loadSummary = computed(() => {
     return `正在后台加载 graph_preview.json：${store.previewLoadProgress.loaded}/${store.previewLoadProgress.total}，失败 ${store.previewLoadProgress.failed}。`
   }
   if (store.previewLoaded) {
-    return '首页已经完成轻量总览加载。点击分类或鸟类节点会从 Neo4j 继续分层织入邻域。'
+    return isMigrationMode.value
+      ? '首页已经完成全球鸟类迁徙图加载。点击鸟类节点会继续织入局部分布地与关联路径。'
+      : '首页已经完成轻量总览加载。点击分类或鸟类节点会继续分层织入邻域。'
   }
   const expandedChunks = Math.max(0, store.loadedChunkCount - 1)
-  return `当前已展开 ${expandedChunks} 个局部邻域。重复点击同一节点会继续加深，不需要一次性渲染全量图。`
+  return isMigrationMode.value
+    ? `当前已展开 ${expandedChunks} 个局部邻域。新增地点会变成地球表面的荧光观测点。`
+    : `当前已展开 ${expandedChunks} 个局部邻域。重复点击同一节点会继续加深，不需要一次性渲染全量图。`
 })
 
 const handleSearch = useDebounceFn(() => {
@@ -243,11 +415,13 @@ const handleSearch = useDebounceFn(() => {
 async function selectSearchResult(item) {
   searchQuery.value = item.name
   searchResults.value = []
+  selectedGlobeNode.value = item
   await store.loadNodeChunk(item.id)
   centerNodeId.value = item.id
 }
 
 async function handleNodeClick(node, isCenter) {
+  selectedGlobeNode.value = node
   store.setActiveNode(node.id)
 
   if (node.type === 'bird') {
@@ -262,8 +436,8 @@ async function handleNodeClick(node, isCenter) {
   }
 
   if (node.type === 'location') {
-    await store.loadNodeChunk(node.id)
-    if (isCenter && node.id === centerNodeId.value) {
+    if (store.getNodeById(node.id) || node.expandable) await store.loadNodeChunk(node.id)
+    if (isCenter && node.id === centerNodeId.value && store.getNodeById(node.id)) {
       router.push(`/location/${node.id}`)
       return
     }
@@ -295,6 +469,18 @@ async function handleNodeClick(node, isCenter) {
   focusedNodeId.value = node.id
 }
 
+function openFocusedDetail() {
+  const node = focusedDisplayNode.value
+  if (!node) return
+  if (node.type === 'bird') {
+    router.push(`/bird/${node.id}`)
+    return
+  }
+  if (node.type === 'location' && store.getNodeById(node.id)) {
+    router.push(`/location/${node.id}`)
+  }
+}
+
 function toggleContextType(type) {
   if (activeContextTypes.value.includes(type)) {
     activeContextTypes.value = activeContextTypes.value.filter(item => item !== type)
@@ -307,12 +493,14 @@ function resetContextFilters() {
   activeContextTypes.value = ['taxonomy', 'location', 'habitat', 'status', 'threat']
   centerNodeId.value = ''
   focusedNodeId.value = ''
+  selectedGlobeNode.value = null
   store.setActiveNode('')
   store.requestGraphFit()
 }
 
 function clearFocus() {
   focusedNodeId.value = ''
+  selectedGlobeNode.value = null
 }
 
 onMounted(async () => {
@@ -323,10 +511,25 @@ onMounted(async () => {
 
 <style scoped>
 .home-page {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 18px;
+  min-height: calc(100vh - 40px);
+  padding: 0 0 14px;
   animation: pageIn 0.4s ease-out;
+}
+
+.home-page--migration::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 68% 35%, rgba(34, 211, 238, 0.2), transparent 32%),
+    radial-gradient(circle at 16% 30%, rgba(124, 255, 107, 0.08), transparent 28%),
+    linear-gradient(135deg, #020617 0%, #07111f 46%, #02040a 100%);
 }
 
 .home-hero {
@@ -378,6 +581,26 @@ onMounted(async () => {
   box-shadow: 0 8px 32px rgba(15, 118, 110, 0.14);
 }
 
+.search-input::placeholder {
+  color: var(--text-secondary);
+}
+
+.home-page--migration .search-input {
+  border: 1px solid rgba(38, 255, 230, 0.34);
+  background: rgba(2, 8, 23, 0.78);
+  box-shadow: 0 0 22px rgba(34, 211, 238, 0.16), inset 0 0 18px rgba(38, 255, 230, 0.06);
+  color: #d9fff8;
+}
+
+.home-page--migration .search-input:focus {
+  border-color: #7cff6b;
+  box-shadow: 0 0 32px rgba(124, 255, 107, 0.2), inset 0 0 18px rgba(38, 255, 230, 0.08);
+}
+
+.home-page--migration .search-input::placeholder {
+  color: rgba(217, 255, 248, 0.48);
+}
+
 .search-dropdown {
   position: absolute;
   inset: auto 0 0 0;
@@ -416,7 +639,27 @@ onMounted(async () => {
   color: var(--text-secondary);
 }
 
+.home-page--migration .search-dropdown {
+  background: rgba(2, 8, 23, 0.94);
+  border: 1px solid rgba(38, 255, 230, 0.24);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.42), 0 0 24px rgba(34, 211, 238, 0.14);
+}
+
+.home-page--migration .search-result-item:hover {
+  background: rgba(38, 255, 230, 0.1);
+}
+
+.home-page--migration .result-name {
+  color: #d9fff8;
+}
+
+.home-page--migration .result-meta {
+  color: rgba(217, 255, 248, 0.6);
+}
+
 .home-layout {
+  position: relative;
+  z-index: 1;
   display: flex;
   gap: 18px;
 }
@@ -451,6 +694,21 @@ onMounted(async () => {
   padding: 16px;
 }
 
+.home-page--migration .graph-panel {
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid rgba(38, 255, 230, 0.18);
+  background: linear-gradient(135deg, rgba(2, 6, 23, 0.88), rgba(8, 18, 33, 0.78));
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.48), 0 0 42px rgba(34, 211, 238, 0.1);
+}
+
+.home-page--migration .panel {
+  border-radius: 8px;
+  border: 1px solid rgba(38, 255, 230, 0.18);
+  background: linear-gradient(180deg, rgba(2, 8, 23, 0.9), rgba(8, 20, 35, 0.76));
+  box-shadow: inset 0 0 22px rgba(38, 255, 230, 0.05), 0 0 24px rgba(34, 211, 238, 0.08);
+}
+
 .panel-title {
   margin: 0 0 12px;
   font-size: 15px;
@@ -471,6 +729,21 @@ onMounted(async () => {
   border-radius: 10px;
   background: var(--accent-soft);
   border: 1px solid rgba(15, 118, 110, 0.2);
+}
+
+.home-page--migration .panel-title {
+  color: #d9fff8;
+  letter-spacing: 0.04em;
+}
+
+.home-page--migration .panel-note {
+  color: rgba(217, 255, 248, 0.66);
+}
+
+.home-page--migration .panel-note.highlight {
+  color: #7cff6b;
+  background: rgba(124, 255, 107, 0.08);
+  border: 1px solid rgba(124, 255, 107, 0.24);
 }
 
 .metric-grid {
@@ -500,6 +773,109 @@ onMounted(async () => {
   color: var(--text-secondary);
 }
 
+.home-page--migration .metric-card {
+  border-radius: 8px;
+  background: rgba(2, 8, 23, 0.66);
+  border: 1px solid rgba(38, 255, 230, 0.16);
+  box-shadow: inset 0 0 16px rgba(34, 211, 238, 0.06);
+}
+
+.home-page--migration .metric-value {
+  color: #7cff6b;
+  text-shadow: 0 0 16px rgba(124, 255, 107, 0.48);
+}
+
+.home-page--migration .metric-label {
+  color: rgba(217, 255, 248, 0.58);
+}
+
+.node-detail-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.node-detail-head {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.node-detail-head span,
+.node-detail-head small,
+.node-detail-grid span {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.node-detail-head strong {
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.node-detail-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px 12px;
+  padding: 12px;
+  border-radius: 8px;
+  background: rgba(15, 118, 110, 0.08);
+}
+
+.node-detail-grid strong {
+  min-width: 0;
+  color: var(--text-color);
+  font-size: 13px;
+  text-align: right;
+}
+
+.home-page--migration .node-detail-head strong,
+.home-page--migration .node-detail-grid strong {
+  color: #d9fff8;
+}
+
+.home-page--migration .node-detail-head span,
+.home-page--migration .node-detail-head small,
+.home-page--migration .node-detail-grid span {
+  color: rgba(217, 255, 248, 0.58);
+}
+
+.home-page--migration .node-detail-grid {
+  border: 1px solid rgba(38, 255, 230, 0.14);
+  background: rgba(2, 8, 23, 0.58);
+}
+
+.detail-link-btn {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(15, 118, 110, 0.24);
+  border-radius: 8px;
+  background: rgba(15, 118, 110, 0.12);
+  color: var(--accent);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.detail-link-btn:hover {
+  background: rgba(15, 118, 110, 0.2);
+  border-color: var(--accent);
+}
+
+.home-page--migration .detail-link-btn {
+  border-color: rgba(124, 255, 107, 0.28);
+  background: rgba(124, 255, 107, 0.08);
+  color: #7cff6b;
+  box-shadow: inset 0 0 16px rgba(124, 255, 107, 0.04);
+}
+
+.home-page--migration .detail-link-btn:hover {
+  background: rgba(124, 255, 107, 0.14);
+  border-color: #7cff6b;
+  box-shadow: 0 0 18px rgba(124, 255, 107, 0.14);
+}
+
 .export-btn {
   padding: 10px 14px;
   border-radius: 12px;
@@ -514,6 +890,19 @@ onMounted(async () => {
 .export-btn:hover {
   background: var(--accent-soft);
   border-color: var(--accent);
+}
+
+.home-page--migration .export-btn {
+  border-radius: 8px;
+  border: 1px solid rgba(38, 255, 230, 0.2);
+  background: rgba(2, 8, 23, 0.7);
+  color: #d9fff8;
+}
+
+.home-page--migration .export-btn:hover {
+  background: rgba(38, 255, 230, 0.1);
+  border-color: #26ffe6;
+  box-shadow: 0 0 18px rgba(38, 255, 230, 0.16);
 }
 
 .export-btns {
@@ -556,6 +945,16 @@ onMounted(async () => {
   gap: 6px;
   font-size: 12px;
   color: var(--graph-muted);
+}
+
+.home-page--migration .graph-header h2 {
+  color: #d9fff8;
+  text-shadow: 0 0 18px rgba(34, 211, 238, 0.32);
+}
+
+.home-page--migration .graph-summary,
+.home-page--migration .legend span {
+  color: rgba(217, 255, 248, 0.66);
 }
 
 .legend i {
@@ -653,6 +1052,14 @@ onMounted(async () => {
   overflow: hidden;
   border: 1px solid var(--graph-canvas-border);
   background: #1a1a1a;
+}
+
+.home-page--migration .graph-canvas {
+  min-height: 560px;
+  border-radius: 8px;
+  border: 1px solid rgba(38, 255, 230, 0.2);
+  background: #020617;
+  box-shadow: inset 0 0 24px rgba(34, 211, 238, 0.08), 0 0 34px rgba(0, 0, 0, 0.34);
 }
 
 .graph-loading {
