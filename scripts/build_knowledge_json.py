@@ -1209,6 +1209,15 @@ def serialize_preview_node(node: Dict) -> Dict:
     if node["type"] == "bird":
         data.update(
             {
+                "englishName": node.get("englishName", ""),
+                "latinName": node.get("latinName", ""),
+                "summary": node.get("summary", "")[:200] if node.get("summary") else "",
+                "lat": node.get("lat"),
+                "lng": node.get("lng"),
+                "status": node.get("status", ""),
+                "locations": node.get("locations", []),
+                "habitats": node.get("habitats", []),
+                "threats": node.get("threats", []),
                 "familyId": node.get("familyId", ""),
                 "orderId": node.get("orderId", ""),
                 "genusId": node.get("genusId", ""),
@@ -1218,11 +1227,13 @@ def serialize_preview_node(node: Dict) -> Dict:
     elif node["type"] == "taxonomy":
         data.update(
             {
+                "latinName": node.get("latinName", ""),
                 "taxonomyLevel": node.get("taxonomyLevel", ""),
+                "memberCount": node.get("memberCount", 0),
             }
         )
 
-    return {key: value for key, value in data.items() if value not in ("", None)}
+    return {key: value for key, value in data.items() if value not in ("", None, [])}
 
 
 def extract_chunk(node_id: str, nodes: Dict[str, Dict], links: List[Dict], adjacency: Dict[str, List[Dict]], taxonomy: Dict) -> Optional[Dict]:
@@ -1317,6 +1328,12 @@ def write_output_files(graph: Dict) -> None:
         for rank in TAXONOMY_RANKS
     }
 
+    taxonomy_link_count = sum(1 for link in links if link["relation"].startswith("belongs_to_"))
+
+    relation_type_counts = {}
+    for link in links:
+        relation_type_counts[link["relation"]] = relation_type_counts.get(link["relation"], 0) + 1
+
     summary_payload = {
         "meta": {
             **meta,
@@ -1324,6 +1341,9 @@ def write_output_files(graph: Dict) -> None:
                 "birds": len(bird_nodes),
                 "orders": len(order_nodes),
                 "families": len(family_nodes),
+                "totalRelations": len(links),
+                "taxonomyRelations": taxonomy_link_count,
+                "relationTypes": relation_type_counts,
                 **taxonomy_counts,
             },
         },
@@ -1331,6 +1351,13 @@ def write_output_files(graph: Dict) -> None:
         "items": [
             [bird["id"], bird["name"], bird.get("englishName", ""), bird.get("latinName", "")]
             for bird in bird_nodes
+        ],
+        "locations": [
+            {"id": loc["id"], "name": loc["name"]}
+            for loc in sorted(
+                (node for node in nodes.values() if node["type"] == "location"),
+                key=lambda item: (item["name"], item["id"]),
+            )
         ],
     }
     (OUTPUT_DIR / "summary.json").write_text(json.dumps(summary_payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

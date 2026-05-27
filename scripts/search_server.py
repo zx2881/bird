@@ -60,15 +60,17 @@ bm25_id_map = []
 # PageRank (简化: 度数代理)
 # 分类扩展
 taxonomy_members: dict = {}  # taxonomy_id -> [bird_ids]
+ollama_available = False
 
 
 def load_data():
     global embedding_matrix, meta, all_ids, all_names, all_types
     global entity_index, summary_data, bm25_index, bm25_corpus, bm25_id_map
-    global taxonomy_members
+    global taxonomy_members, ollama_available
 
     if not EMBEDDINGS_NPZ.exists():
-        print(f"[X] 找不到: {EMBEDDINGS_NPZ}")
+        print(f"[!] 找不到: {EMBEDDINGS_NPZ}")
+        print(f"[!] 请先运行: python scripts/build_lightweight_index.py")
         return False
 
     data = np.load(EMBEDDINGS_NPZ, allow_pickle=True)
@@ -83,6 +85,15 @@ def load_data():
         with open(SUMMARY_JSON, "r", encoding="utf-8") as f:
             summary_data = json.load(f)
 
+    vector_available = embedding_matrix is not None and embedding_matrix.shape[0] > 0 and np.any(embedding_matrix)
+    if not vector_available:
+        print("[提示] 使用轻量索引模式（仅 BM25 关键词检索）")
+        embedding_matrix = np.zeros((len(all_ids), 768), dtype=np.float32)
+
+    ollama_available = check_ollama()
+    if not ollama_available:
+        print("[提示] Ollama 未连接，向量搜索/意图分类/AI问答将不可用")
+
     # --- 实体索引 ---
     entity_index.clear()
     for i, name in enumerate(all_names):
@@ -91,14 +102,14 @@ def load_data():
             entity_index.setdefault(key, [])
             entity_index[key].append({"idx": i, "id": all_ids[i], "type": all_types[i]})
 
-    # --- BM25 索引 (#1) ---
+    # --- BM25 索引 (#1) 快速模式：仅用名称 ---
     print("[BM25] 构建关键词索引...")
     bm25_corpus = []
     bm25_id_map = []
     for i, name in enumerate(all_names):
         eid = all_ids[i]
         etype = all_types[i] if i < len(all_types) else "bird"
-        summary_text = get_entity_summary(eid, etype)
+        summary_text = get_entity_summary_fast(eid, etype, name)
         full_text = f"{name} {summary_text}"
         tokens = list(jieba.cut(full_text.lower()))
         bm25_corpus.append(tokens)
@@ -106,9 +117,8 @@ def load_data():
     bm25_index = BM25Okapi(bm25_corpus)
     print(f"  BM25 索引: {len(bm25_corpus)} 篇文档")
 
-    # --- PageRank (#2) --- 延迟到首次搜索时构建
     # --- 分类扩展 (#4) ---
-    print("[Taxonomy] 从 taxonomy_skeleton.json 加载...")
+    print("[Taxonomy] 加载...")
     taxonomy_members.clear()
     taxo_path = ROOT / "public" / "data" / "taxonomy_skeleton.json"
     if taxo_path.exists():
@@ -117,8 +127,7 @@ def load_data():
         for node in skeleton.get("nodes", []):
             tid = node.get("id", "")
             if tid and node.get("memberCount", 0) > 0:
-                taxonomy_members[tid] = []  # 占位，实际成员从 links 或按需加载
-    # 也从 graph_preview 补充关系
+                taxonomy_members[tid] = []
     gp_path = ROOT / "public" / "data" / "graph_preview.json"
     if gp_path.exists():
         with open(gp_path, "r", encoding="utf-8-sig") as f:
@@ -135,16 +144,39 @@ def load_data():
                         taxonomy_members[tgt].append(src)
 
     print(f"  Taxonomy: {len(taxonomy_members)} 个分类节点")
-    print(f"  分类节点: {len(taxonomy_members)} 个有成员")
-
     tcnt = defaultdict(int)
     for t in all_types:
         tcnt[t] += 1
-    print(f"[OK] 全部就绪: {meta['count']} 向量, BM25={len(bm25_corpus)}, Taxonomy={len(taxonomy_members)}")
+    print(f"[OK] 就绪: {meta['count']} 实体, BM25={len(bm25_corpus)}, 向量={'有' if vector_available else '无'}, Ollama={'有' if ollama_available else '无'}")
     return True
 
 
 # ==================== 工具函数 ====================
+
+def check_ollama() -> bool:
+    try:
+        resp = requests.get("http://localhost:11434/api/tags", timeout=3)
+        return resp.status_code == 200
+    except Exception:
+        return False
+
+
+def get_entity_summary_fast(entity_id: str, entity_type: str = "", name: str = "") -> str:
+    if summary_data and entity_type == "bird":
+        cols = summary_data.get("columns", [])
+        idx_map = {c: i for i, c in enumerate(cols)}
+        for item in summary_data.get("items", []):
+            if item[idx_map.get("id", 0)] == entity_id:
+                parts = []
+                en = item[idx_map.get("englishName", 2)] or ""
+                la = item[idx_map.get("latinName", 3)] or ""
+                if en:
+                    parts.append(en)
+                if la:
+                    parts.append(la)
+                return " ".join(parts)
+    return ""
+
 
 def get_entity_summary(entity_id: str, entity_type: str = "") -> str:
     chunk = load_node_chunk(entity_id)
@@ -177,13 +209,15 @@ def node_degree(node_id: str) -> int:
 
 
 def get_query_embedding(text: str) -> np.ndarray | None:
+    if not ollama_available:
+        return None
     try:
         resp = requests.post(OLLAMA_EMBED_URL,
                              json={"model": EMBED_MODEL, "prompt": text}, timeout=30)
         resp.raise_for_status()
         return np.array(resp.json()["embedding"], dtype=np.float32)
     except Exception as e:
-        print(f"[X] 向量化失败: {e}")
+        print(f"[!] 向量化失败: {e}")
         return None
 
 
@@ -578,6 +612,11 @@ def classify_intent(query: str) -> str:
     if len(q) <= 6:
         intent_cache[query] = "ENTITY_LOOKUP"
         return "ENTITY_LOOKUP"
+
+    if not ollama_available:
+        intent_cache[query] = "GENERAL"
+        return "GENERAL"
+
     try:
         resp = requests.post(OLLAMA_CHAT_URL, json={
             "model": CHAT_MODEL,
@@ -634,6 +673,13 @@ def ask_question():
         return jsonify({"error": "请提供 q 参数"}), 400
     if embedding_matrix is None:
         return jsonify({"error": "向量数据未加载"}), 500
+
+    if not ollama_available:
+        return jsonify({
+            "query": query,
+            "intent": "GENERAL",
+            "answer": "Ollama 服务未连接，AI 问答暂不可用。请安装并启动 Ollama 后重试。\n\n当前支持关键词搜索（无需 Ollama），请使用上方「搜索」按钮。",
+        })
 
     known_entities = extract_with_correction(query)
     query_vec = get_query_embedding(query)
@@ -740,6 +786,7 @@ def health():
         "bm25_docs": len(bm25_corpus),
         "taxonomy_groups": len(taxonomy_members),
         "types": dict(tcnt),
+        "ollama": ollama_available,
     })
 
 

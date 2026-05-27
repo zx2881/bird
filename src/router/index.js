@@ -3,6 +3,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
+    name: 'Landing',
+    component: () => import('../views/Landing.vue')
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: () => import('../views/Home.vue')
   },
@@ -23,6 +28,12 @@ const routes = [
     props: true
   },
   {
+    path: '/location/:id',
+    name: 'LocationDetail',
+    component: () => import('../views/LocationDetail.vue'),
+    props: true
+  },
+  {
     path: '/semantic-search',
     name: 'SemanticSearch',
     component: () => import('../views/SemanticSearch.vue')
@@ -30,9 +41,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  // 关键修改点：传入 import.meta.env.BASE_URL
-  // 这会自动读取你 vite.config.js 里的 base: '/bird/'
-  history: createWebHistory(import.meta.env.BASE_URL), 
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes
 })
 

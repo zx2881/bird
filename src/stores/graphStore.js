@@ -192,6 +192,7 @@ export const useGraphStore = defineStore('graph', () => {
   const skeletonLoaded = ref(false)
 
   const summaryBirds = ref([])
+  const summaryLocations = ref([])
   const nodeMap = ref(new Map())
   const summaryMap = ref(new Map())
   const linkMap = ref(new Map())
@@ -220,6 +221,7 @@ export const useGraphStore = defineStore('graph', () => {
   const nodeCount = computed(() => nodes.value.length)
   const linkCount = computed(() => links.value.length)
   const totalBirdCount = computed(() => summaryBirds.value.length)
+  const totalRelationCount = computed(() => meta.value?.counts?.totalRelations ?? 0)
   const loadedBirdCount = computed(() => birdNodes.value.length)
   const loadedChunkCount = computed(() => loadedChunkIds.value.size)
 
@@ -372,6 +374,7 @@ export const useGraphStore = defineStore('graph', () => {
       const birds = inflateSummaryItems(summary)
       summaryBirds.value = birds
       summaryMap.value = new Map(birds.map(bird => [bird.id, bird]))
+      summaryLocations.value = summary.locations || []
       summaryLoaded.value = true
 
       meta.value = summary.meta || null
@@ -407,6 +410,17 @@ export const useGraphStore = defineStore('graph', () => {
         activeNodeId.value = chunk.meta?.centerNodeId || nodeId
         requestNodeFocus(activeNodeId.value)
         return chunk
+      })
+      .catch(err => {
+        if (err.message && err.message.includes('404')) {
+          addSetValue(loadedChunkIds, nodeId)
+          if (getNodeById(nodeId)) {
+            activeNodeId.value = nodeId
+            requestNodeFocus(nodeId)
+          }
+          return null
+        }
+        throw err
       })
       .finally(() => {
         removeSetValue(pendingChunkIds, nodeId)
@@ -582,6 +596,7 @@ export const useGraphStore = defineStore('graph', () => {
     summaryLoaded,
     skeletonLoaded,
     summaryBirds,
+    summaryLocations,
     nodeMap,
     summaryMap,
     linkMap,
@@ -603,6 +618,7 @@ export const useGraphStore = defineStore('graph', () => {
     nodeCount,
     linkCount,
     totalBirdCount,
+    totalRelationCount,
     loadedBirdCount,
     loadedChunkCount,
     hasLoadedChunk,

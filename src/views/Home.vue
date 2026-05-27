@@ -51,6 +51,14 @@
               <span class="metric-value">{{ store.linkCount }}</span>
               <span class="metric-label">当前关系</span>
             </div>
+            <div class="metric-card">
+              <span class="metric-value">{{ store.totalRelationCount }}</span>
+              <span class="metric-label">数据总关系</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">{{ nonTaxonomyRelationCount }}</span>
+              <span class="metric-label">实体关系(分布/栖息/保护)</span>
+            </div>
           </div>
           <p class="panel-note">{{ loadSummary }}</p>
         </section>
@@ -59,6 +67,8 @@
           <h3 class="panel-title">探索方式</h3>
           <p class="panel-note">首屏展示鸟类与界、门、纲、目、科分类骨架，属和种在点击物种后按需织入。</p>
           <p class="panel-note">搜索或点击节点时，前端才会继续请求 `nodes/[node_id].json`，把该节点的一度邻域织入当前图谱。</p>
+          <p class="panel-note">图谱中分布、栖息地、保护等级、威胁因素等关系需点击具体鸟类节点后方可查看；首屏仅展示 {{ store.totalRelationCount - nonTaxonomyRelationCount }} 条分类骨架关系。</p>
+          <p v-if="centerNodeId" class="panel-note highlight">当前中心节点：{{ store.getNodeById(centerNodeId)?.name || centerNodeId }}<br/>再次点击中心节点可跳转详情页。</p>
         </section>
 
         <section class="panel export-panel">
@@ -114,12 +124,25 @@
             <div class="loading-spinner"></div>
             <p>正在加载搜索索引与轻量总览图…</p>
           </div>
-          <SigmaCanvas
-            v-else
-            :active-types="activeContextTypes"
-            :dark-mode="uiStore.darkMode"
-            @node-click="handleNodeClick"
-          />
+          <template v-else>
+            <button
+              v-if="focusedNodeId"
+              class="focus-back-btn"
+              @click="clearFocus"
+            >
+              ← 返回全图
+            </button>
+            <div v-if="focusedNodeId" class="focus-info">
+              {{ focusedNodeName }} {{ focusedNodeType }} · {{ focusedNeighborCount }} 个关联
+            </div>
+            <SigmaCanvas
+              :active-types="activeContextTypes"
+              :dark-mode="uiStore.darkMode"
+              :center-node-id="centerNodeId"
+              :focused-node-id="focusedNodeId"
+              @node-click="handleNodeClick"
+            />
+          </template>
         </div>
       </section>
     </div>
@@ -144,10 +167,33 @@ const containerRef = ref(null)
 const searchQuery = ref('')
 const searchResults = ref([])
 const activeContextTypes = ref(['taxonomy', 'location', 'habitat', 'status', 'threat'])
+const centerNodeId = ref('')
+const focusedNodeId = ref('')
+
+const focusedNode = computed(() => store.getNodeById(focusedNodeId.value))
+const focusedNodeName = computed(() => focusedNode.value?.name || '')
+const focusedNodeType = computed(() => {
+  const typeLabels = { bird: '鸟类', location: '地点', habitat: '栖息地', status: '保护等级', threat: '威胁因素', taxonomy: '分类' }
+  return typeLabels[focusedNode.value?.type] || ''
+})
+const focusedNeighborCount = computed(() => store.getIncidentLinks(focusedNodeId.value).length)
+
+const nonTaxonomyRelationCount = computed(() => {
+  const types = store.meta?.counts?.relationTypes || {}
+  let count = 0
+  for (const [key, val] of Object.entries(types)) {
+    if (!key.startsWith('belongs_to_')) count += val
+  }
+  return count || 0
+})
 
 const legendItems = [
-  { label: '首屏轻量节点', color: '#eaf3ff' },
-  { label: '按需展开节点', color: '#9fc0ff' }
+  { label: '鸟类', color: '#4FC3F7' },
+  { label: '地点', color: '#81C784' },
+  { label: '栖息地', color: '#FFB74D' },
+  { label: '保护等级', color: '#E57373' },
+  { label: '威胁因素', color: '#BA68C8' },
+  { label: '分类', color: '#90A4AE' }
 ]
 
 const filterableTypeItems = [
@@ -198,24 +244,55 @@ async function selectSearchResult(item) {
   searchQuery.value = item.name
   searchResults.value = []
   await store.loadNodeChunk(item.id)
-  router.push(`/bird/${item.id}`)
+  centerNodeId.value = item.id
 }
 
-async function handleNodeClick(node) {
+async function handleNodeClick(node, isCenter) {
   store.setActiveNode(node.id)
 
   if (node.type === 'bird') {
     await store.loadNodeChunk(node.id)
-    router.push(`/bird/${node.id}`)
+    if (isCenter && node.id === centerNodeId.value) {
+      router.push(`/bird/${node.id}`)
+      return
+    }
+    centerNodeId.value = node.id
+    focusedNodeId.value = node.id
+    return
+  }
+
+  if (node.type === 'location') {
+    await store.loadNodeChunk(node.id)
+    if (isCenter && node.id === centerNodeId.value) {
+      router.push(`/location/${node.id}`)
+      return
+    }
+    centerNodeId.value = node.id
+    focusedNodeId.value = node.id
+    return
+  }
+
+  if (node.type === 'taxonomy') {
+    await store.loadNodeChunk(node.id)
+    if (isCenter && node.id === centerNodeId.value) {
+      centerNodeId.value = ''
+      focusedNodeId.value = ''
+      store.setActiveNode('')
+      return
+    }
+    centerNodeId.value = node.id
+    focusedNodeId.value = node.id
     return
   }
 
   if (node.expandable) {
     await store.loadNodeChunk(node.id)
+    focusedNodeId.value = node.id
     return
   }
 
   store.requestNodeFocus(node.id)
+  focusedNodeId.value = node.id
 }
 
 function toggleContextType(type) {
@@ -228,7 +305,14 @@ function toggleContextType(type) {
 
 function resetContextFilters() {
   activeContextTypes.value = ['taxonomy', 'location', 'habitat', 'status', 'threat']
+  centerNodeId.value = ''
+  focusedNodeId.value = ''
+  store.setActiveNode('')
   store.requestGraphFit()
+}
+
+function clearFocus() {
+  focusedNodeId.value = ''
 }
 
 onMounted(async () => {
@@ -378,6 +462,15 @@ onMounted(async () => {
   color: var(--text-secondary);
   font-size: 13px;
   line-height: 1.6;
+}
+
+.panel-note.highlight {
+  color: var(--accent);
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  border: 1px solid rgba(15, 118, 110, 0.2);
 }
 
 .metric-grid {
@@ -573,6 +666,45 @@ onMounted(async () => {
   height: 100%;
   gap: 16px;
   color: var(--graph-muted);
+}
+
+.focus-back-btn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 20;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(15, 118, 110, 0.85);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.focus-back-btn:hover {
+  background: rgba(15, 118, 110, 0.95);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.focus-info {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  padding: 8px 20px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.65);
+  color: #e2e8f0;
+  font-size: 13px;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  pointer-events: none;
 }
 
 .loading-spinner {

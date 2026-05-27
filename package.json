@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "build:data": "python scripts/build_knowledge_json.py",
+    "rebuild:preview": "python scripts/rebuild_summary_preview.py",
+    "build:search-index": "python scripts/build_lightweight_index.py",
     "fetch:bird-images": "python scripts/fetch_bird_images.py",
     "crawl:wikipedia": "python scripts/crawl_from_wikipedia.py",
     "fetch:taxonomy": "python scripts/fetch_taxonomy.py",
