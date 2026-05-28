@@ -2,6 +2,7 @@
   <div class="overview-page">
     <div class="hero-section">
       <div class="hero-intro">
+        <span class="overview-kicker">Biodiversity intelligence</span>
         <h1 class="hero-title">鸟类生物多样性知识图谱</h1>
         <p class="hero-subtitle">全球 {{ store.totalBirdCount.toLocaleString() }} 个鸟类物种，{{ store.totalRelationCount.toLocaleString() }} 条知识关系的结构化概览</p>
       </div>
@@ -394,12 +395,64 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-.overview-page { display: flex; flex-direction: column; gap: 28px; padding-bottom: 48px; }
+.overview-page { position: relative; display: flex; flex-direction: column; gap: 28px; padding-bottom: 48px; }
+.overview-page::before {
+  content: "";
+  position: absolute;
+  inset: 78px auto auto 4%;
+  width: 220px;
+  height: 74px;
+  opacity: 0.12;
+  pointer-events: none;
+  color: var(--accent);
+  background:
+    radial-gradient(circle at 10% 56%, currentColor 0 2px, transparent 2.4px),
+    radial-gradient(circle at 42% 28%, currentColor 0 2px, transparent 2.4px),
+    radial-gradient(circle at 74% 48%, currentColor 0 2px, transparent 2.4px),
+    linear-gradient(14deg, transparent 0 16%, currentColor 16.3% 17.1%, transparent 17.4% 100%);
+}
 
-.hero-section { text-align: center; padding: 8px 0 6px; }
+.hero-section {
+  position: relative;
+  text-align: center;
+  padding: 28px 24px 26px;
+  border-radius: 30px;
+  border: 1px solid var(--panel-border);
+  background:
+    radial-gradient(circle at 18% 20%, var(--leaf-soft), transparent 32%),
+    radial-gradient(circle at 82% 18%, var(--sky-soft), transparent 30%),
+    linear-gradient(135deg, color-mix(in srgb, var(--card-bg) 88%, transparent), color-mix(in srgb, var(--accent) 10%, transparent));
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  right: 34px;
+  top: 28px;
+  width: 180px;
+  height: 82px;
+  opacity: 0.16;
+  color: var(--accent);
+  border: 2px solid currentColor;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 62% 80% 48% 72%;
+  transform: rotate(-18deg);
+}
+.overview-kicker {
+  display: inline-flex;
+  margin-bottom: 8px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
 .hero-title {
   margin: 0 0 8px;
-  font-size: 32px; font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px); font-weight: 900;
   background: linear-gradient(135deg, var(--heading-color) 0%, var(--accent) 100%);
   background-clip: text; -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -413,7 +466,8 @@ onBeforeUnmount(() => {
   border-radius: 20px;
   background: var(--card-bg);
   border: 1px solid var(--panel-border);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.03), 0 4px 16px rgba(0,0,0,0.04);
+  min-height: 164px;
+  box-shadow: var(--shadow);
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
   animation: statSlideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
   cursor: default;
@@ -424,7 +478,7 @@ onBeforeUnmount(() => {
   position: absolute; top: 0; left: 0; right: 0; height: 120px;
   pointer-events: none; opacity: 0.6;
 }
-.stat-card-inner { position: relative; z-index: 1; padding: 22px 18px 20px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.stat-card-inner { position: relative; z-index: 1; min-height: 164px; padding: 26px 18px 22px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; }
 .stat-icon-wrap {
   width: 48px; height: 48px; border-radius: 16px;
   display: flex; align-items: center; justify-content: center;
@@ -433,7 +487,7 @@ onBeforeUnmount(() => {
 .stat-icon-wrap svg { width: 24px; height: 24px; }
 .stat-card:hover .stat-icon-wrap { transform: scale(1.08); }
 .stat-body { text-align: center; }
-.stat-value { display: block; font-size: 30px; font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; transition: transform 0.3s ease; }
+.stat-value { display: block; font-size: clamp(30px, 2.5vw, 40px); font-weight: 950; line-height: 1.05; letter-spacing: -0.02em; transition: transform 0.3s ease; }
 .stat-card:hover .stat-value { transform: scale(1.04); }
 .stat-label { display: block; margin-top: 4px; font-size: 13px; color: var(--text-secondary); font-weight: 500; }
 .stat-spark {
@@ -450,15 +504,22 @@ onBeforeUnmount(() => {
   min-height: 430px;
   padding: 22px;
   border: 1px solid var(--panel-border);
-  border-radius: 24px;
+  border-radius: 22px;
   background: var(--card-bg);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.02), 0 6px 20px rgba(0,0,0,0.04);
+  box-shadow: var(--shadow);
   transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.25s ease;
   display: flex; flex-direction: column;
 }
 .chart-card:hover { border-color: var(--accent); box-shadow: 0 8px 28px rgba(0,0,0,0.08); transform: translateY(-1px); }
 .chart-card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
-.chart-card-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.chart-card-header {
+  margin: -4px -4px 18px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--accent-soft) 70%, transparent);
+  border: 1px solid var(--panel-border);
+}
+.chart-card-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; box-shadow: 0 0 0 4px var(--accent-soft); }
 .chart-card-title { margin: 0; font-size: 16px; font-weight: 700; color: var(--heading-color); }
 .chart-card-badge {
   margin-left: auto;
@@ -481,23 +542,23 @@ onBeforeUnmount(() => {
 .map-section {
   padding: 22px;
   border: 1px solid var(--panel-border);
-  border-radius: 24px;
+  border-radius: 22px;
   background: var(--card-bg);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.02), 0 6px 20px rgba(0,0,0,0.04);
+  box-shadow: var(--shadow);
 }
 .map-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
 .map-header-left { display: flex; align-items: center; gap: 10px; }
 .map-header-left h3 { margin: 0; font-size: 16px; font-weight: 700; color: var(--heading-color); }
 .map-header-left p { margin: 4px 0 0; font-size: 13px; color: var(--text-secondary); }
 .map-badge { flex-shrink: 0; }
-.map-canvas { width: 100%; height: 460px; border-radius: 18px; overflow: hidden; border: 1px solid var(--panel-border); }
+.map-canvas { width: 100%; height: 460px; border-radius: 14px; overflow: hidden; border: 1px solid var(--panel-border); }
 
 .quick-links { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 
 .quick-link {
   display: flex; align-items: center; gap: 14px;
   padding: 20px 18px;
-  border-radius: 20px;
+  border-radius: 16px;
   background: var(--card-bg);
   border: 1px solid var(--panel-border);
   box-shadow: 0 1px 3px rgba(0,0,0,0.02);

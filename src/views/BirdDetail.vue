@@ -702,4 +702,63 @@ onBeforeUnmount(() => {
   .detail-summary-section { padding: 16px 20px 8px; }
   .detail-map-section, .detail-relations-section { padding: 0 20px 20px; }
 }
+
+.detail-sidebar {
+  border-radius: 16px;
+}
+
+.sidebar-title::before,
+.section-title::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+  vertical-align: 0.08em;
+}
+
+.detail-card-inner {
+  position: relative;
+  border-radius: 26px;
+  overflow: hidden;
+}
+
+.detail-card-inner::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 3;
+  height: 5px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--accent-warm));
+}
+
+.detail-hero::after {
+  content: "";
+  position: absolute;
+  inset: 18px 22px auto auto;
+  z-index: 2;
+  width: 136px;
+  height: 54px;
+  pointer-events: none;
+  opacity: 0.22;
+  color: rgba(255, 255, 255, 0.86);
+  background:
+    radial-gradient(circle at 12% 62%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 46% 34%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 82% 54%, currentColor 0 2px, transparent 2.5px),
+    linear-gradient(14deg, transparent 0 22%, currentColor 22.5% 23.8%, transparent 24.2% 100%);
+}
+
+.detail-hero-placeholder svg {
+  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.22));
+}
+
+.stat-card,
+.info-item,
+.detail-map {
+  border-radius: 18px;
+}
 </style>

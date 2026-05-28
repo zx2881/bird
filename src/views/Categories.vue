@@ -1,6 +1,7 @@
 <template>
   <div class="categories-page">
     <div class="cat-hero">
+      <span class="cat-kicker">Species catalogue</span>
       <h2 class="page-title">知识图谱浏览器</h2>
       <p class="page-desc">按分类层级、物种卡片或关系一览浏览全部知识图谱实体</p>
     </div>
@@ -40,7 +41,11 @@
           <div v-for="bird in visibleBirds" :key="bird.id" class="bird-card scroll-reveal visible" @click="goToBird(bird)">
             <div class="bird-card-img">
               <div class="bird-card-img-bg" :style="{ background: statusGradient(bird.status) }"></div>
-              <img :src="bird.imageUrl || `https://picsum.photos/seed/${bird.id}/300/200`" :alt="bird.name" loading="lazy" @error="onImgError" />
+              <img v-if="bird.imageUrl" :src="bird.imageUrl" :alt="bird.name" loading="lazy" @error="onImgError" />
+              <div v-else class="bird-card-placeholder" aria-hidden="true">
+                <span class="placeholder-wing"></span>
+                <span class="placeholder-name">{{ bird.englishName || bird.name }}</span>
+              </div>
               <div class="bird-card-img-overlay"></div>
               <span v-if="bird.status" class="bird-card-status" :class="statusClass(bird.status)">
                 <span class="status-dot"></span>{{ statusLabel(bird.status) }}
@@ -143,7 +148,11 @@
               <div v-for="bird in taxonFilteredBirds" :key="bird.id" class="bird-card scroll-reveal visible" @click="goToBird(bird)">
                 <div class="bird-card-img">
                   <div class="bird-card-img-bg" :style="{ background: statusGradient(bird.status) }"></div>
-                  <img :src="bird.imageUrl || `https://picsum.photos/seed/${bird.id}/300/200`" :alt="bird.name" loading="lazy" @error="onImgError" />
+                  <img v-if="bird.imageUrl" :src="bird.imageUrl" :alt="bird.name" loading="lazy" @error="onImgError" />
+                  <div v-else class="bird-card-placeholder" aria-hidden="true">
+                    <span class="placeholder-wing"></span>
+                    <span class="placeholder-name">{{ bird.englishName || bird.name }}</span>
+                  </div>
                   <div class="bird-card-img-overlay"></div>
                   <span v-if="bird.status" class="bird-card-status" :class="statusClass(bird.status)">
                     <span class="status-dot"></span>{{ statusLabel(bird.status) }}
@@ -345,17 +354,71 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-.categories-page { display: flex; flex-direction: column; gap: 22px; padding-bottom: 48px; }
+.categories-page { position: relative; display: flex; flex-direction: column; gap: 22px; padding-bottom: 48px; }
+.categories-page::before {
+  content: "";
+  position: absolute;
+  inset: 56px 3% auto auto;
+  width: 190px;
+  height: 78px;
+  opacity: 0.12;
+  pointer-events: none;
+  color: var(--accent);
+  background:
+    linear-gradient(24deg, transparent 0 18%, currentColor 18.4% 19.2%, transparent 19.6% 100%),
+    linear-gradient(-16deg, transparent 0 42%, currentColor 42.4% 43.2%, transparent 43.6% 100%),
+    radial-gradient(circle at 16% 62%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 48% 34%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 78% 50%, currentColor 0 2px, transparent 2.5px);
+}
 
-.cat-hero { text-align: center; margin-bottom: 0; }
-.page-title { margin: 0; font-size: 30px; font-weight: 800; font-family: "Alegreya","Source Han Serif SC",serif; color: var(--heading-color); letter-spacing: 0.02em; }
+.cat-hero {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 26px 22px 24px;
+  border-radius: 30px;
+  border: 1px solid var(--panel-border);
+  background:
+    radial-gradient(circle at 16% 20%, var(--leaf-soft), transparent 30%),
+    radial-gradient(circle at 86% 20%, var(--sky-soft), transparent 30%),
+    linear-gradient(135deg, color-mix(in srgb, var(--card-bg) 86%, transparent), color-mix(in srgb, var(--accent) 9%, transparent));
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.cat-hero::after {
+  content: "";
+  position: absolute;
+  right: 32px;
+  top: 26px;
+  width: 170px;
+  height: 76px;
+  opacity: 0.16;
+  color: var(--accent);
+  border: 2px solid currentColor;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 62% 80% 48% 72%;
+  transform: rotate(-18deg);
+}
+.cat-kicker {
+  display: inline-flex;
+  margin-bottom: 8px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.page-title { margin: 0; font-size: 32px; font-weight: 900; font-family: "Alegreya Sans","Source Han Sans SC",sans-serif; color: var(--heading-color); letter-spacing: 0; }
 .page-desc { margin: 8px 0 0; font-size: 14px; color: var(--text-secondary); }
 
 .cat-search-bar {
   position: relative;
   display: flex;
   align-items: center;
-  max-width: 720px;
+  max-width: 820px;
   margin: 0 auto;
   width: 100%;
 }
@@ -370,15 +433,15 @@ onBeforeUnmount(() => {
 }
 .search-input {
   width: 100%;
-  padding: 15px 130px 15px 54px;
-  border: 2px solid rgba(15,118,110,0.12);
+  padding: 18px 140px 18px 58px;
+  border: 1px solid rgba(15,118,110,0.22);
   border-radius: 999px;
   background: var(--card-bg);
   color: var(--text-color);
   font-size: 15px;
   outline: none;
   transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
-  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  box-shadow: 0 18px 45px rgba(15,118,110,0.1), inset 0 1px 0 rgba(255,255,255,0.55);
 }
 .search-input::placeholder { color: var(--text-secondary); opacity: 0.7; }
 .search-input:focus { border-color: var(--accent); box-shadow: 0 4px 24px rgba(15,118,110,0.12), 0 0 0 3px rgba(15,118,110,0.06); }
@@ -391,11 +454,11 @@ onBeforeUnmount(() => {
 }
 
 .tabs-bar {
-  display: flex; gap: 4px; padding: 5px;
-  border-radius: 999px;
+  display: flex; gap: 6px; padding: 7px;
+  border-radius: 22px;
   background: var(--card-bg);
   border: 1px solid var(--panel-border);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  box-shadow: var(--shadow);
   width: fit-content;
   margin: 0 auto;
 }
@@ -420,15 +483,15 @@ onBeforeUnmount(() => {
 
 .bird-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  gap: 22px;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 24px;
 }
 .bird-card {
-  border-radius: var(--radius-xl);
+  border-radius: 22px;
   overflow: hidden;
   background: var(--card-bg);
   border: 1px solid var(--panel-border);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  box-shadow: var(--shadow);
   cursor: pointer;
   transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
   animation: card-enter 0.4s ease backwards;
@@ -445,9 +508,54 @@ onBeforeUnmount(() => {
   box-shadow: 0 16px 40px rgba(0,0,0,0.1), 0 0 0 1px var(--accent);
   border-color: var(--accent);
 }
-.bird-card-img { position: relative; width: 100%; height: 180px; overflow: hidden; background: #e2e8f0; }
+.bird-card-img { position: relative; width: 100%; height: 210px; overflow: hidden; background: #e2e8f0; }
 .bird-card-img-bg { position: absolute; inset: 0; opacity: 0.25; transition: opacity 0.3s ease; }
 .bird-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s cubic-bezier(0.4,0,0.2,1); }
+.bird-card-placeholder {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  color: var(--accent);
+  background:
+    radial-gradient(circle at 24% 26%, var(--leaf-soft), transparent 34%),
+    radial-gradient(circle at 82% 18%, var(--sky-soft), transparent 32%);
+}
+.placeholder-wing {
+  width: 76px;
+  height: 48px;
+  border: 3px solid currentColor;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 60% 76% 45% 72%;
+  opacity: 0.34;
+  transform: rotate(-18deg);
+}
+.placeholder-name {
+  position: absolute;
+  inset: auto 14px 14px;
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-style: italic;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+:global([data-theme="dark"]) .bird-card-placeholder {
+  color: var(--accent);
+  background:
+    radial-gradient(circle at 24% 26%, rgba(94, 234, 212, 0.16), transparent 34%),
+    radial-gradient(circle at 82% 18%, rgba(56, 189, 248, 0.14), transparent 32%),
+    linear-gradient(135deg, rgba(10, 23, 38, 0.95), rgba(15, 33, 54, 0.92));
+}
+
+:global([data-theme="dark"]) .placeholder-name {
+  color: rgba(226, 232, 240, 0.58);
+}
 .bird-card:hover .bird-card-img img { transform: scale(1.1); }
 .bird-card:hover .bird-card-img-bg { opacity: 0.4; }
 .bird-card-img-overlay {
@@ -477,7 +585,8 @@ onBeforeUnmount(() => {
 .status-nt { border: 1px solid rgba(34,197,94,0.5); }
 .status-lc { border: 1px solid rgba(22,163,74,0.5); }
 .bird-card-body { padding: 18px 20px; }
-.bird-card-name { margin: 0; font-size: 16px; font-weight: 700; color: var(--heading-color); line-height: 1.3; transition: color 0.2s ease; }
+.bird-card-body { padding: 20px 22px 22px; }
+.bird-card-name { margin: 0; font-size: 18px; font-weight: 900; color: var(--heading-color); line-height: 1.25; transition: color 0.2s ease; }
 .bird-card:hover .bird-card-name { color: var(--accent); }
 .bird-card-english { margin: 5px 0 0; font-size: 12px; color: var(--text-secondary); font-style: italic; }
 .bird-card-meta { display: flex; gap: 8px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--panel-border); flex-wrap: wrap; }

@@ -81,6 +81,7 @@
       <section class="graph-panel">
         <div class="graph-header">
           <div>
+            <span class="view-kicker">{{ isMigrationMode ? 'Night migration atlas' : 'Daylight knowledge network' }}</span>
             <h2>{{ isMigrationMode ? '全球鸟类迁徙图' : '3D 分片异步鸟类知识图谱' }}</h2>
             <p class="graph-summary">{{ graphSummary }}</p>
           </div>
@@ -203,7 +204,17 @@ const focusedNodeType = computed(() => {
   const typeLabels = { bird: '鸟类', location: '地点', habitat: '栖息地', status: '保护等级', threat: '威胁因素', taxonomy: '分类' }
   return typeLabels[focusedDisplayNode.value?.type] || ''
 })
-const focusedNeighborCount = computed(() => store.getIncidentLinks(focusedNodeId.value).length)
+const focusedNeighborCount = computed(() => {
+  const node = focusedDisplayNode.value
+  if (!node) return 0
+  const loadedCount = store.getIncidentLinks(node.id).length
+  if (loadedCount) return loadedCount
+  if (Array.isArray(node.locations)) return node.locations.length
+  if (node.type === 'location') {
+    return store.birdNodes.filter(bird => Array.isArray(bird.locations) && bird.locations.includes(node.name)).length
+  }
+  return 0
+})
 const focusedNodeSubtitle = computed(() => {
   const node = focusedDisplayNode.value
   if (!node) return ''
@@ -226,7 +237,7 @@ const canOpenFocusedDetail = computed(() => {
   const node = focusedDisplayNode.value
   if (!node) return false
   if (node.type === 'bird') return Boolean(node.id)
-  if (node.type === 'location') return Boolean(store.getNodeById(node.id))
+  if (node.type === 'location') return Boolean(node.id)
   return false
 })
 
@@ -504,6 +515,10 @@ function openFocusedDetail() {
   }
   if (node.type === 'location' && store.getNodeById(node.id)) {
     router.push(`/location/${node.id}`)
+    return
+  }
+  if (node.type === 'location') {
+    router.push(`/location/${node.id}`)
   }
 }
 
@@ -550,7 +565,7 @@ onMounted(async () => {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 22px;
   min-height: calc(100vh - 40px);
   padding: 0 0 14px;
   animation: pageIn 0.4s ease-out;
@@ -573,14 +588,45 @@ onMounted(async () => {
   z-index: 10;
   display: flex;
   justify-content: center;
-  padding: 28px 18px 0;
+  padding: 34px 18px 4px;
+}
+
+.home-hero::before {
+  content: "";
+  position: absolute;
+  left: 8%;
+  top: 24px;
+  width: 180px;
+  height: 70px;
+  opacity: 0.16;
+  pointer-events: none;
+  color: var(--accent);
+  background:
+    radial-gradient(circle at 10% 58%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 38% 32%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 68% 50%, currentColor 0 2px, transparent 2.5px),
+    linear-gradient(16deg, transparent 0 18%, currentColor 18.3% 19.2%, transparent 19.5% 100%),
+    linear-gradient(-10deg, transparent 0 45%, currentColor 45.3% 46.2%, transparent 46.5% 100%);
 }
 
 .search-section {
   position: relative;
   z-index: 12;
   width: 100%;
-  max-width: 720px;
+  max-width: 820px;
+}
+
+.search-section::before {
+  content: "Avian Knowledge Command";
+  position: absolute;
+  left: 28px;
+  top: -22px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.9;
 }
 
 .search-wrapper {
@@ -600,12 +646,12 @@ onMounted(async () => {
 
 .search-input {
   width: 100%;
-  padding: 18px 24px 18px 56px;
-  border: 2px solid rgba(15, 118, 110, 0.2);
+  padding: 20px 28px 20px 60px;
+  border: 1px solid rgba(15, 118, 110, 0.22);
   border-radius: 999px;
   background: var(--card-bg);
   backdrop-filter: blur(10px);
-  box-shadow: 0 4px 20px rgba(31, 64, 76, 0.08);
+  box-shadow: 0 20px 55px rgba(15, 118, 110, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.58);
   color: var(--text-color);
   font-size: 17px;
   outline: none;
@@ -697,13 +743,13 @@ onMounted(async () => {
   position: relative;
   z-index: 1;
   display: flex;
-  gap: 18px;
+  gap: 22px;
 }
 
 .home-sidebar {
   position: relative;
   z-index: 10;
-  width: 320px;
+  width: 350px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -716,30 +762,44 @@ onMounted(async () => {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
   min-height: 720px;
-  padding: 20px;
-  border-radius: 24px;
+  padding: 22px;
+  border-radius: 28px;
   border: 1px solid var(--graph-border);
-  background: var(--graph-bg);
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--accent) 10%, transparent), transparent 34%),
+    linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.12)),
+    var(--graph-bg);
   box-shadow: var(--graph-shadow);
   animation: panelIn 0.5s ease-out;
 }
 
 .panel {
-  padding: 16px;
+  position: relative;
+  padding: 18px;
+  overflow: hidden;
+}
+
+.panel::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-2));
+  opacity: 0.72;
 }
 
 .home-page--migration .graph-panel {
   padding: 18px;
-  border-radius: 8px;
+  border-radius: 14px;
   border: 1px solid rgba(38, 255, 230, 0.18);
   background: linear-gradient(135deg, rgba(2, 6, 23, 0.88), rgba(8, 18, 33, 0.78));
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.48), 0 0 42px rgba(34, 211, 238, 0.1);
 }
 
 .home-page--migration .panel {
-  border-radius: 8px;
+  border-radius: 14px;
   border: 1px solid rgba(38, 255, 230, 0.18);
   background: linear-gradient(180deg, rgba(2, 8, 23, 0.9), rgba(8, 20, 35, 0.76));
   box-shadow: inset 0 0 22px rgba(38, 255, 230, 0.05), 0 0 24px rgba(34, 211, 238, 0.08);
@@ -749,6 +809,18 @@ onMounted(async () => {
   margin: 0 0 12px;
   font-size: 15px;
   color: var(--heading-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.panel-title::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
 }
 
 .panel-note {
@@ -785,20 +857,35 @@ onMounted(async () => {
 .metric-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 12px;
 }
 
 .metric-card {
-  padding: 12px;
-  border-radius: 16px;
-  background: var(--accent-soft);
+  position: relative;
+  padding: 16px 14px;
+  border-radius: 18px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.32), transparent),
+    var(--accent-soft);
   border: 1px solid var(--panel-border);
+  overflow: hidden;
+}
+
+.metric-card::after {
+  content: "";
+  position: absolute;
+  right: -18px;
+  top: -24px;
+  width: 72px;
+  height: 72px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
 }
 
 .metric-value {
   display: block;
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 950;
   color: var(--accent);
 }
 
@@ -951,9 +1038,15 @@ onMounted(async () => {
   position: relative;
   z-index: 12;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: space-between;
-  gap: 16px;
+  gap: 18px;
+  padding: 18px;
+  border-radius: 20px;
+  background:
+    linear-gradient(120deg, color-mix(in srgb, var(--accent) 12%, transparent), transparent 54%),
+    color-mix(in srgb, var(--card-bg) 76%, transparent);
+  border: 1px solid var(--panel-border);
 }
 
 .graph-header h2 {
@@ -1216,5 +1309,46 @@ onMounted(async () => {
   .graph-canvas {
     min-height: 520px;
   }
+}
+
+.graph-header h2 { font-size: 21px; }
+.graph-header h2 {
+  font-size: clamp(24px, 2vw, 31px);
+  font-weight: 950;
+}
+.view-kicker {
+  display: inline-flex;
+  margin-bottom: 6px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.legend span {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--card-bg) 66%, transparent);
+  border: 1px solid var(--panel-border);
+}
+.graph-toolbar,
+.graph-canvas,
+.home-page--migration .graph-canvas { border-radius: 20px; }
+.graph-toolbar {
+  padding: 16px;
+  border-radius: 20px;
+}
+.graph-canvas {
+  min-height: 680px;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 22%, transparent), 0 24px 70px rgba(2, 8, 23, 0.18);
+}
+.toolbar-label {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.pill {
+  padding: 8px 14px;
+  font-weight: 700;
 }
 </style>

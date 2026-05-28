@@ -386,7 +386,10 @@ onUnmounted(() => {
 <style scoped>
 .landing-page {
   min-height: 100vh;
-  background: #060b14;
+  background:
+    radial-gradient(circle at 16% 16%, rgba(20, 184, 166, 0.14), transparent 30%),
+    radial-gradient(circle at 82% 24%, rgba(56, 189, 248, 0.12), transparent 28%),
+    #050b13;
   color: var(--text-color, #e2e8f0);
 }
 
@@ -400,6 +403,26 @@ onUnmounted(() => {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  right: clamp(24px, 7vw, 120px);
+  top: clamp(80px, 16vh, 180px);
+  z-index: 1;
+  width: clamp(180px, 24vw, 340px);
+  height: clamp(80px, 12vw, 150px);
+  opacity: 0.16;
+  pointer-events: none;
+  color: #5eead4;
+  background:
+    radial-gradient(circle at 8% 60%, currentColor 0 2px, transparent 2.7px),
+    radial-gradient(circle at 34% 36%, currentColor 0 2px, transparent 2.7px),
+    radial-gradient(circle at 62% 48%, currentColor 0 2px, transparent 2.7px),
+    radial-gradient(circle at 92% 30%, currentColor 0 2px, transparent 2.7px),
+    linear-gradient(14deg, transparent 0 18%, currentColor 18.3% 19.2%, transparent 19.6% 100%),
+    linear-gradient(-12deg, transparent 0 52%, currentColor 52.3% 53.2%, transparent 53.6% 100%);
 }
 
 .hero-canvas {
@@ -435,7 +458,7 @@ onUnmounted(() => {
 .hero-glow-3 {
   width: 450px;
   height: 450px;
-  background: rgba(168, 85, 247, 0.04);
+  background: rgba(132, 204, 22, 0.035);
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -458,9 +481,10 @@ onUnmounted(() => {
 .hero-content {
   position: relative;
   z-index: 2;
-  text-align: center;
+  text-align: left;
   max-width: 820px;
   padding: 0 28px;
+  margin-right: min(18vw, 260px);
 }
 
 .hero-badge {
@@ -485,9 +509,9 @@ onUnmounted(() => {
 }
 
 .hero-title {
-  font-family: "Alegreya", "Source Han Serif SC", "Noto Serif SC", serif;
+  font-family: "Alegreya Sans", "Source Han Sans SC", "Noto Sans SC", sans-serif;
   font-size: clamp(40px, 5.5vw, 64px);
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1.08;
   margin: 0 0 20px;
   color: var(--heading-color, #f1f5f9);
@@ -495,7 +519,7 @@ onUnmounted(() => {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #5eead4 0%, #38bdf8 45%, #a78bfa 100%);
+  background: linear-gradient(135deg, #5eead4 0%, #38bdf8 52%, #84cc16 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -505,7 +529,7 @@ onUnmounted(() => {
   font-size: clamp(15px, 1.4vw, 18px);
   color: rgba(226, 232, 240, 0.55);
   line-height: 1.7;
-  margin: 0 auto 40px;
+  margin: 0 0 40px;
   max-width: 560px;
   font-weight: 400;
 }
@@ -513,7 +537,7 @@ onUnmounted(() => {
 .hero-actions {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 16px;
   flex-wrap: wrap;
 }
@@ -580,7 +604,9 @@ onUnmounted(() => {
   position: relative;
   z-index: 2;
   padding: 44px 24px;
-  background: rgba(255, 255, 255, 0.015);
+  background:
+    linear-gradient(90deg, rgba(94, 234, 212, 0.04), rgba(56, 189, 248, 0.025)),
+    rgba(255, 255, 255, 0.015);
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(8px);
@@ -847,6 +873,20 @@ onUnmounted(() => {
    Responsive
    ═══════════════════════════════════════════ */
 @media (max-width: 860px) {
+  .hero-content {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hero-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
   .feature-grid {
     grid-template-columns: 1fr;
     gap: 16px;

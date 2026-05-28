@@ -433,7 +433,7 @@ function getPointerHit(event) {
     const screenX = (projected.x + 1) * rect.width / 2
     const screenY = (-projected.y + 1) * rect.height / 2
     const distance = Math.hypot(mouseX - screenX, mouseY - screenY)
-    const threshold = point.node.type === 'location' ? 11 : 18
+    const threshold = point.node.type === 'location' ? 18 : 24
     if (distance > threshold) continue
     const score = distance + (point.node.type === 'location' ? 2 : 0)
     if (!best || score < best.score) best = { ...point, score, screenX, screenY }
@@ -444,7 +444,7 @@ function getPointerHit(event) {
 
 function updateHover(event) {
   const hit = getPointerHit(event)
-  hoveredNode.value = hit?.object?.userData?.node || null
+  hoveredNode.value = hit?.node || null
   if (!stageRef.value || !hoveredNode.value) {
     hoverLabelStyle.value = {}
     return
