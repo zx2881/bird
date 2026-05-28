@@ -33,6 +33,35 @@
           <a href="#features" class="cta-secondary" @click.prevent="scrollTo('features')">了解更多</a>
         </div>
       </div>
+      <div class="hero-showcase" data-reveal="2" aria-hidden="true">
+        <div class="showcase-card migration-card">
+          <div class="showcase-topline">
+            <span>Migration signal</span>
+            <strong>LIVE</strong>
+          </div>
+          <div class="migration-window">
+            <span class="route route-a"></span>
+            <span class="route route-b"></span>
+            <span class="route route-c"></span>
+            <i class="node node-a"></i>
+            <i class="node node-b"></i>
+            <i class="node node-c"></i>
+            <i class="node node-d"></i>
+          </div>
+        </div>
+        <div class="showcase-card taxonomy-card">
+          <span class="showcase-kicker">Taxonomy stack</span>
+          <strong>31 目</strong>
+          <p>物种、地点、栖息地、威胁因素被组织成可探索的关系网络。</p>
+        </div>
+        <div class="showcase-card specimen-card">
+          <span class="specimen-wing"></span>
+          <div>
+            <strong>10,772</strong>
+            <p>species indexed</p>
+          </div>
+        </div>
+      </div>
       <div class="hero-bottom-fade" aria-hidden="true"></div>
     </section>
 
@@ -386,7 +415,11 @@ onUnmounted(() => {
 <style scoped>
 .landing-page {
   min-height: 100vh;
-  background: #060b14;
+  background:
+    radial-gradient(circle at 14% 18%, rgba(20, 184, 166, 0.18), transparent 29%),
+    radial-gradient(circle at 84% 20%, rgba(56, 189, 248, 0.15), transparent 27%),
+    linear-gradient(115deg, rgba(132, 204, 22, 0.08), transparent 34%),
+    #050b13;
   color: var(--text-color, #e2e8f0);
 }
 
@@ -396,10 +429,33 @@ onUnmounted(() => {
 .hero {
   position: relative;
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: clamp(32px, 5vw, 82px);
+  padding: clamp(42px, 7vw, 92px);
   overflow: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  right: clamp(24px, 7vw, 120px);
+  top: clamp(80px, 16vh, 180px);
+  z-index: 1;
+  width: clamp(180px, 24vw, 340px);
+  height: clamp(80px, 12vw, 150px);
+  opacity: 0.16;
+  pointer-events: none;
+  color: #5eead4;
+  background:
+    radial-gradient(circle at 8% 60%, currentColor 0 2px, transparent 2.7px),
+    radial-gradient(circle at 34% 36%, currentColor 0 2px, transparent 2.7px),
+    radial-gradient(circle at 62% 48%, currentColor 0 2px, transparent 2.7px),
+    radial-gradient(circle at 92% 30%, currentColor 0 2px, transparent 2.7px),
+    linear-gradient(14deg, transparent 0 18%, currentColor 18.3% 19.2%, transparent 19.6% 100%),
+    linear-gradient(-12deg, transparent 0 52%, currentColor 52.3% 53.2%, transparent 53.6% 100%);
 }
 
 .hero-canvas {
@@ -435,7 +491,7 @@ onUnmounted(() => {
 .hero-glow-3 {
   width: 450px;
   height: 450px;
-  background: rgba(168, 85, 247, 0.04);
+  background: rgba(132, 204, 22, 0.035);
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -458,9 +514,10 @@ onUnmounted(() => {
 .hero-content {
   position: relative;
   z-index: 2;
-  text-align: center;
-  max-width: 820px;
-  padding: 0 28px;
+  text-align: left;
+  max-width: 700px;
+  padding: 0;
+  margin-right: 0;
 }
 
 .hero-badge {
@@ -468,15 +525,15 @@ onUnmounted(() => {
   align-items: center;
   gap: 10px;
   padding: 8px 22px;
-  border-radius: 999px;
-  background: rgba(94, 234, 212, 0.07);
+  border-radius: 12px;
+  background: rgba(94, 234, 212, 0.055);
   border: 1px solid rgba(94, 234, 212, 0.16);
   font-size: 13px;
-  color: var(--accent, #5eead4);
+  color: #9cffd8;
   font-weight: 500;
   letter-spacing: 0.02em;
   margin-bottom: 36px;
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(8px);
 }
 .hero-badge svg {
   width: 18px;
@@ -485,27 +542,26 @@ onUnmounted(() => {
 }
 
 .hero-title {
-  font-family: "Alegreya", "Source Han Serif SC", "Noto Serif SC", serif;
-  font-size: clamp(40px, 5.5vw, 64px);
-  font-weight: 800;
-  line-height: 1.08;
+  font-family: "Alegreya Sans", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+  font-size: clamp(48px, 7vw, 94px);
+  font-weight: 900;
+  line-height: 0.96;
   margin: 0 0 20px;
-  color: var(--heading-color, #f1f5f9);
-  letter-spacing: -0.025em;
+  color: #f1f5f9;
+  letter-spacing: 0;
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #5eead4 0%, #38bdf8 45%, #a78bfa 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #5eead4;
+  text-decoration: none;
+  text-shadow: 0 0 44px rgba(94, 234, 212, 0.28);
 }
 
 .hero-subtitle {
   font-size: clamp(15px, 1.4vw, 18px);
-  color: rgba(226, 232, 240, 0.55);
+  color: rgba(226, 232, 240, 0.68);
   line-height: 1.7;
-  margin: 0 auto 40px;
+  margin: 0 0 40px;
   max-width: 560px;
   font-weight: 400;
 }
@@ -513,7 +569,7 @@ onUnmounted(() => {
 .hero-actions {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 16px;
   flex-wrap: wrap;
 }
@@ -523,9 +579,9 @@ onUnmounted(() => {
   align-items: center;
   gap: 10px;
   padding: 16px 38px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, #0d9488, #14b8a6);
-  color: #fff;
+  border-radius: 12px;
+  background: var(--accent, #0d9488);
+  color: oklch(0.99 0.01 170);
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
@@ -547,7 +603,7 @@ onUnmounted(() => {
   display: inline-flex;
   align-items: center;
   padding: 16px 36px;
-  border-radius: 999px;
+  border-radius: 12px;
   background: rgba(255, 255, 255, 0.04);
   color: rgba(226, 232, 240, 0.75);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -580,10 +636,155 @@ onUnmounted(() => {
   position: relative;
   z-index: 2;
   padding: 44px 24px;
-  background: rgba(255, 255, 255, 0.015);
+  background:
+    linear-gradient(90deg, rgba(94, 234, 212, 0.04), rgba(56, 189, 248, 0.025)),
+    rgba(255, 255, 255, 0.015);
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(6px);
+}
+
+.hero-showcase {
+  position: relative;
+  z-index: 2;
+  flex: 0 1 470px;
+  min-height: 560px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 18px;
+  perspective: 1200px;
+}
+
+.showcase-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(148, 211, 197, 0.2);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.018)),
+    rgba(7, 17, 31, 0.72);
+  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.migration-card {
+  grid-column: 1 / -1;
+  min-height: 370px;
+  border-radius: 28px;
+  transform: rotateY(-8deg) rotateX(4deg);
+}
+
+.showcase-topline {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 20px 0;
+  color: rgba(226, 232, 240, 0.62);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.showcase-topline strong {
+  color: #9cffd8;
+}
+
+.migration-window {
+  position: absolute;
+  inset: 56px 24px 24px;
+  border-radius: 22px;
+  background:
+    linear-gradient(rgba(148, 211, 197, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 211, 197, 0.08) 1px, transparent 1px),
+    radial-gradient(circle at 32% 38%, rgba(94, 234, 212, 0.2), transparent 18%),
+    radial-gradient(circle at 74% 28%, rgba(56, 189, 248, 0.18), transparent 20%),
+    rgba(3, 7, 18, 0.7);
+  background-size: auto, 48px 48px, auto, auto, auto;
+  border: 1px solid rgba(148, 211, 197, 0.14);
+}
+
+.route {
+  position: absolute;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, #5eead4, transparent);
+  filter: drop-shadow(0 0 12px rgba(94, 234, 212, 0.44));
+  transform-origin: left center;
+}
+
+.route-a { left: 12%; top: 58%; width: 68%; transform: rotate(-24deg); }
+.route-b { left: 18%; top: 38%; width: 56%; transform: rotate(16deg); opacity: 0.78; }
+.route-c { left: 34%; top: 72%; width: 42%; transform: rotate(-8deg); opacity: 0.64; }
+
+.node {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #9cffd8;
+  box-shadow: 0 0 0 8px rgba(94, 234, 212, 0.08), 0 0 22px rgba(94, 234, 212, 0.6);
+}
+
+.node-a { left: 14%; top: 56%; }
+.node-b { left: 38%; top: 34%; background: #93c5fd; }
+.node-c { left: 70%; top: 22%; }
+.node-d { left: 78%; top: 68%; background: #facc15; }
+
+.taxonomy-card {
+  min-height: 172px;
+  padding: 22px;
+  border-radius: 24px;
+}
+
+.showcase-kicker {
+  display: block;
+  color: rgba(226, 232, 240, 0.48);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.taxonomy-card strong,
+.specimen-card strong {
+  display: block;
+  color: #f8fafc;
+  font-size: clamp(30px, 3vw, 38px);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.taxonomy-card p,
+.specimen-card p {
+  margin: 10px 0 0;
+  color: rgba(226, 232, 240, 0.58);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.specimen-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 172px;
+  padding: 22px;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(250, 204, 21, 0.12), transparent 34%),
+    rgba(7, 17, 31, 0.72);
+}
+
+.specimen-wing {
+  flex: 0 0 auto;
+  width: 62px;
+  height: 54px;
+  border: 3px solid #9cffd8;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 60% 82% 45% 76%;
+  transform: rotate(-18deg);
+  opacity: 0.72;
 }
 
 .stats-container {
@@ -605,7 +806,7 @@ onUnmounted(() => {
 }
 
 .stat-value {
-  font-family: "Alegreya", "Source Han Serif SC", serif;
+  font-family: inherit;
   font-size: 34px;
   font-weight: 800;
   color: var(--accent, #5eead4);
@@ -643,7 +844,7 @@ onUnmounted(() => {
 }
 
 .section-title {
-  font-family: "Alegreya", "Source Han Serif SC", serif;
+  font-family: inherit;
   font-size: clamp(28px, 4vw, 38px);
   font-weight: 700;
   color: var(--heading-color, #f1f5f9);
@@ -666,8 +867,8 @@ onUnmounted(() => {
 .feature-card {
   position: relative;
   padding: 38px 30px 34px;
-  border-radius: var(--radius-lg, 20px);
-  background: rgba(255, 255, 255, 0.022);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.026);
   border: 1px solid rgba(255, 255, 255, 0.06);
   text-align: left;
   transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
@@ -679,7 +880,7 @@ onUnmounted(() => {
 }
 
 .feature-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-2px);
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(94, 234, 212, 0.2);
   box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35),
@@ -847,6 +1048,36 @@ onUnmounted(() => {
    Responsive
    ═══════════════════════════════════════════ */
 @media (max-width: 860px) {
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    padding: 82px 22px 54px;
+  }
+
+  .hero-content {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hero-showcase {
+    width: min(100%, 560px);
+    min-height: 430px;
+  }
+
+  .migration-card {
+    transform: none;
+    min-height: 270px;
+  }
+
+  .hero-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
   .feature-grid {
     grid-template-columns: 1fr;
     gap: 16px;
@@ -872,7 +1103,19 @@ onUnmounted(() => {
 
 @media (max-width: 560px) {
   .hero-title {
-    font-size: 32px;
+    font-size: 42px;
+  }
+
+  .hero-showcase {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .migration-card,
+  .taxonomy-card,
+  .specimen-card {
+    min-height: 180px;
+    border-radius: 18px;
   }
 
   .hero-badge {
@@ -891,7 +1134,9 @@ onUnmounted(() => {
 
   .cta-primary,
   .cta-secondary {
-    padding: 14px 28px;
+    justify-content: center;
+    width: 100%;
+    padding: 14px 22px;
     font-size: 15px;
   }
 

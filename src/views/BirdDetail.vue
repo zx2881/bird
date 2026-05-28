@@ -11,7 +11,7 @@
         class="switch-input"
         placeholder="搜索中文名、英文名或学名…"
       />
-      <div class="switch-list">
+      <div ref="switchListRef" class="switch-list" @scroll="handleSwitchScroll">
         <button
           v-for="item in switchResults"
           :key="item.id"
@@ -188,8 +188,10 @@ const store = useGraphStore()
 
 const birdId = ref(route.params.id)
 const switchQuery = ref('')
+const switchLimit = ref(40)
 const summaryExpanded = ref(false)
 const detailMapRef = ref(null)
+const switchListRef = ref(null)
 let detailMapInstance = null
 let detailMarkersLayer = null
 const mapRenderKey = ref('')
@@ -271,9 +273,21 @@ const displaySummary = computed(() => {
 const switchResults = computed(() => {
   const query = switchQuery.value.trim()
   if (!query) {
-    return store.summaryBirds.slice(0, 20)
+    return store.summaryBirds.slice(0, switchLimit.value)
   }
-  return store.findBirdMatches(query, 20)
+  return store.findBirdMatches(query, switchLimit.value)
+})
+
+function handleSwitchScroll(event) {
+  const el = event.currentTarget
+  if (!el || el.scrollHeight - el.scrollTop - el.clientHeight > 120) return
+  if (switchLimit.value >= store.summaryBirds.length) return
+  switchLimit.value = Math.min(store.summaryBirds.length, switchLimit.value + 40)
+}
+
+watch(switchQuery, () => {
+  switchLimit.value = 40
+  if (switchListRef.value) switchListRef.value.scrollTop = 0
 })
 
 const incidentLinks = computed(() => store.getIncidentLinks(birdId.value))
@@ -494,6 +508,7 @@ onBeforeUnmount(() => {
   gap: 8px;
   max-height: 68vh;
   margin-top: 14px;
+  overflow-x: hidden;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--panel-border) transparent;
@@ -512,7 +527,6 @@ onBeforeUnmount(() => {
 .switch-item:hover {
   border-color: var(--accent);
   background: var(--accent-soft);
-  transform: translateX(4px);
 }
 .switch-item.active {
   border-color: var(--accent);
@@ -762,5 +776,64 @@ onBeforeUnmount(() => {
   .detail-taxonomy-path { padding: 14px 16px; }
   .detail-summary-section { padding: 16px 20px 8px; }
   .detail-map-section, .detail-relations-section { padding: 0 20px 20px; }
+}
+
+.detail-sidebar {
+  border-radius: 16px;
+}
+
+.sidebar-title::before,
+.section-title::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+  vertical-align: 0.08em;
+}
+
+.detail-card-inner {
+  position: relative;
+  border-radius: 26px;
+  overflow: hidden;
+}
+
+.detail-card-inner::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 3;
+  height: 5px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--accent-warm));
+}
+
+.detail-hero::after {
+  content: "";
+  position: absolute;
+  inset: 18px 22px auto auto;
+  z-index: 2;
+  width: 136px;
+  height: 54px;
+  pointer-events: none;
+  opacity: 0.22;
+  color: rgba(255, 255, 255, 0.86);
+  background:
+    radial-gradient(circle at 12% 62%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 46% 34%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 82% 54%, currentColor 0 2px, transparent 2.5px),
+    linear-gradient(14deg, transparent 0 22%, currentColor 22.5% 23.8%, transparent 24.2% 100%);
+}
+
+.detail-hero-placeholder svg {
+  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.22));
+}
+
+.stat-card,
+.info-item,
+.detail-map {
+  border-radius: 18px;
 }
 </style>

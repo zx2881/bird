@@ -583,4 +583,60 @@ onBeforeUnmount(() => {
   .detail-map-section, .detail-relations-section { padding: 0 20px 20px; }
   .relation-bird-grid { grid-template-columns: 1fr; }
 }
+
+.detail-sidebar {
+  border-radius: 16px;
+}
+
+.sidebar-title::before,
+.section-title::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 999px;
+  background: var(--accent-2);
+  box-shadow: 0 0 0 4px var(--sky-soft);
+  vertical-align: 0.08em;
+}
+
+.detail-card-inner {
+  position: relative;
+  border-radius: 26px;
+  overflow: hidden;
+}
+
+.detail-card-inner::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 3;
+  height: 5px;
+  background: linear-gradient(90deg, var(--accent-2), var(--accent), var(--success));
+}
+
+.detail-hero::after {
+  content: "";
+  position: absolute;
+  inset: 20px 22px auto auto;
+  z-index: 2;
+  width: 150px;
+  height: 54px;
+  pointer-events: none;
+  opacity: 0.22;
+  color: rgba(255, 255, 255, 0.9);
+  background:
+    radial-gradient(circle at 12% 62%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 46% 34%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 82% 54%, currentColor 0 2px, transparent 2.5px),
+    linear-gradient(14deg, transparent 0 22%, currentColor 22.5% 23.8%, transparent 24.2% 100%);
+}
+
+.stat-card,
+.info-item,
+.detail-map,
+.relation-bird-card {
+  border-radius: 18px;
+}
 </style>

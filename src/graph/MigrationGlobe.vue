@@ -43,6 +43,7 @@ let animationFrame = 0
 let raycaster = null
 let pointer = null
 let dragged = false
+let activeHoverPoint = null
 
 const dragState = {
   active: false,
@@ -53,22 +54,40 @@ const dragState = {
 }
 
 const globeRadius = 190
-const maxNodes = 1500
-const maxRoutes = 320
-const maxBirdNodes = 960
-const maxLocationNodes = 160
-const maxLocationsPerBird = 4
-const birdPointRadius = 2.45
-const locationPointRadius = 1.32
+const maxNodes = 4200
+const maxRoutes = 860
+const maxBirdNodes = 2800
+const maxLocationNodes = 560
+const maxLocationsPerBird = 3
+const birdPointRadius = 3.1
+const locationPointRadius = 2.35
 const activePointRadius = 3.05
+const birdHitRadius = 4.1
+const locationHitRadius = 3.45
 const arcSurfaceOffset = 0.36
 const earthTextureUrl = `${import.meta.env.BASE_URL}textures/earth-blue-marble-5400.jpg`
 const interactivePoints = []
 
+const countryLocationNames = new Set([
+  '中国', '中华人民共和国', '日本', '韩国', '朝鲜', '蒙古', '俄罗斯', '印度', '尼泊尔', '不丹',
+  '缅甸', '越南', '老挝', '泰国', '柬埔寨', '菲律宾', '印度尼西亚', '马来西亚', '新加坡',
+  '澳大利亚', '新西兰', '美国', '加拿大', '墨西哥', '巴西', '阿根廷', '智利', '秘鲁',
+  '南非', '肯尼亚', '坦桑尼亚', '埃塞俄比亚', '英国', '法国', '德国', '意大利', '西班牙',
+  '奈及利亚', '尼日利亚', '吉布提', '肯尼亚', '索马里', '厄立特里亚',
+  'china', 'japan', 'south korea', 'north korea', 'mongolia', 'russia', 'india', 'nepal', 'bhutan',
+  'myanmar', 'vietnam', 'laos', 'thailand', 'cambodia', 'philippines', 'indonesia', 'malaysia',
+  'singapore', 'australia', 'new zealand', 'united states', 'united states of america', 'canada',
+  'mexico', 'brazil', 'argentina', 'chile', 'peru', 'south africa', 'kenya', 'tanzania', 'ethiopia',
+  'united kingdom', 'france', 'germany', 'italy', 'spain', 'nigeria', 'djibouti', 'somalia', 'eritrea'
+])
+
+const geoPlacePattern = /湿地|保护区|国家公园|公园|湖|河|江|海|湾|岛|群岛|山|高原|森林|草原|荒漠|沙漠|三角洲|半岛|海岸|沼泽|省|市|县|州|Archipelago|Bay|Island|Lake|River|Mountain|Mount|National Park|Reserve|Forest|Wetland|Delta|Sea|Coast|Marsh|Province|County|Prefecture|Peninsula/i
+const nonPlacePattern = /政府|法案|科学院|博物馆|大学|部门|组织|联盟|公约|系统第|鸟类学家|生物学家|动物学家|分類學家|研究所|学会|协会|Act |Department|Government|University|Museum|Convention|Union|Committee|Society|Institute|Linnaeus|Reichenow/i
+
 const locationIndex = computed(() => {
   const indexed = new Map()
   const addLocation = location => {
-    if (!location?.name || location.lat == null || location.lng == null) return
+    if (!isUsableLocation(location)) return
     const normalized = {
       ...location,
       id: location.id || `loc-${location.name}`,
@@ -86,19 +105,11 @@ const locationIndex = computed(() => {
 })
 
 const birdGeoNodes = computed(() => {
-  return store.birdNodes
-    .filter(node => node.lat != null && node.lng != null)
-    .slice()
-    .sort((left, right) => {
-      return String(left.name || left.id).localeCompare(String(right.name || right.id), 'zh-Hans-CN')
-    })
-    .slice(0, maxBirdNodes)
+  return pickBalancedGeoNodes(store.birdNodes.filter(hasValidLatLng), maxBirdNodes)
 })
 
 const locationGeoNodes = computed(() => {
-  return Array.from(locationIndex.value.values())
-    .sort((left, right) => String(left.name || left.id).localeCompare(String(right.name || right.id), 'zh-Hans-CN'))
-    .slice(0, maxLocationNodes)
+  return pickBalancedGeoNodes(Array.from(locationIndex.value.values()), maxLocationNodes)
 })
 
 const habitatRoutes = computed(() => {
@@ -140,6 +151,79 @@ function latLngToVector(lat, lng, radius = globeRadius) {
   const z = radius * Math.sin(phi) * Math.sin(theta)
   const y = radius * Math.cos(phi)
   return new THREE.Vector3(x, y, z)
+}
+
+function hasValidLatLng(node) {
+  const lat = Number(node?.lat)
+  const lng = Number(node?.lng)
+  return Number.isFinite(lat) && Number.isFinite(lng) && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180
+}
+
+function isChinaRegion(node) {
+  const lat = Number(node?.lat)
+  const lng = Number(node?.lng)
+  return lat >= 18 && lat <= 54 && lng >= 73 && lng <= 135
+}
+
+function isUsableLocation(location) {
+  if (!location?.name || !hasValidLatLng(location)) return false
+  const name = String(location.name).trim()
+  const normalizedName = name.toLowerCase()
+  if (countryLocationNames.has(name) || countryLocationNames.has(normalizedName)) return false
+  if (name.length > 46) return false
+  const text = `${name} ${location.summary || ''}`
+  if (nonPlacePattern.test(text)) return false
+  return geoPlacePattern.test(text)
+}
+
+function sortByName(left, right) {
+  return String(left.name || left.id).localeCompare(String(right.name || right.id), 'zh-Hans-CN')
+}
+
+function spatialKey(node) {
+  const latBucket = Math.floor((Number(node.lat) + 90) / 10)
+  const lngBucket = Math.floor((Number(node.lng) + 180) / 10)
+  return `${latBucket}:${lngBucket}`
+}
+
+function spatiallyInterleave(nodes) {
+  const buckets = new Map()
+  nodes.slice().sort(sortByName).forEach(node => {
+    const key = spatialKey(node)
+    if (!buckets.has(key)) buckets.set(key, [])
+    buckets.get(key).push(node)
+  })
+  const orderedBuckets = Array.from(buckets.entries()).sort(([left], [right]) => left.localeCompare(right))
+  const result = []
+  let added = true
+  while (added) {
+    added = false
+    for (const [, bucket] of orderedBuckets) {
+      const next = bucket.shift()
+      if (!next) continue
+      result.push(next)
+      added = true
+    }
+  }
+  return result
+}
+
+function pickBalancedGeoNodes(nodes, limit) {
+  const validNodes = nodes.filter(hasValidLatLng)
+  const chinaNodes = validNodes.filter(isChinaRegion).sort(sortByName)
+  const restNodes = validNodes.filter(node => !isChinaRegion(node))
+  const picked = []
+  const seen = new Set()
+
+  const addNode = node => {
+    if (!node?.id || seen.has(node.id) || picked.length >= limit) return
+    seen.add(node.id)
+    picked.push(node)
+  }
+
+  chinaNodes.forEach(addNode)
+  spatiallyInterleave(restNodes).forEach(addNode)
+  return picked
 }
 
 function getNodeTypeLabel(node) {
@@ -283,6 +367,14 @@ function rebuildDataObjects() {
   const birdPointGeometry = new THREE.SphereGeometry(birdPointRadius, 14, 14)
   const locationPointGeometry = new THREE.SphereGeometry(locationPointRadius, 10, 10)
   const activePointGeometry = new THREE.SphereGeometry(activePointRadius, 16, 16)
+  const birdHitGeometry = new THREE.SphereGeometry(birdHitRadius, 12, 12)
+  const locationHitGeometry = new THREE.SphereGeometry(locationHitRadius, 10, 10)
+  const hitMaterial = new THREE.MeshBasicMaterial({
+    transparent: true,
+    opacity: 0,
+    depthTest: false,
+    depthWrite: false
+  })
 
   for (const node of geospatialNodes.value) {
     const isActive = node.id === props.centerNodeId
@@ -301,7 +393,23 @@ function rebuildDataObjects() {
     mesh.userData.node = node
     mesh.renderOrder = 20
     nodeGroup.add(mesh)
-    interactivePoints.push({ mesh, node })
+
+    const hitMesh = new THREE.Mesh(node.type === 'location' ? locationHitGeometry : birdHitGeometry, hitMaterial.clone())
+    hitMesh.position.copy(position)
+    hitMesh.userData.node = node
+    hitMesh.userData.point = null
+    hitMesh.renderOrder = 60
+    nodeGroup.add(hitMesh)
+    const point = {
+      mesh: hitMesh,
+      visualMesh: mesh,
+      node,
+      isActive,
+      baseScale: 1,
+      hitRadius: isActive ? activePointRadius + 1.6 : (node.type === 'location' ? locationHitRadius : birdHitRadius)
+    }
+    hitMesh.userData.point = point
+    interactivePoints.push(point)
 
     const spriteMaterial = new THREE.SpriteMaterial({
       map: glowTexture,
@@ -318,6 +426,8 @@ function rebuildDataObjects() {
     sprite.scale.set(scale, scale, 1)
     sprite.renderOrder = 19
     nodeGroup.add(sprite)
+    interactivePoints[interactivePoints.length - 1].glowSprite = sprite
+    interactivePoints[interactivePoints.length - 1].baseGlowScale = scale
   }
 
   const routes = buildRoutes(geospatialNodes.value)
@@ -390,6 +500,8 @@ function onPointerMove(event) {
     globeGroup.rotation.y = dragState.rotationY + dx * 0.006
     globeGroup.rotation.x = Math.max(-0.85, Math.min(0.85, dragState.rotationX + dy * 0.004))
     hoveredNode.value = null
+    hoverLabelStyle.value = {}
+    setHoverPoint(null)
     return
   }
 
@@ -411,40 +523,67 @@ function isMeshFacingCamera(mesh) {
   camera.getWorldPosition(cameraPosition)
   const surfaceNormal = nodePosition.sub(globePosition).normalize()
   const cameraDirection = cameraPosition.sub(globePosition).normalize()
-  return surfaceNormal.dot(cameraDirection) > 0.05
+  return surfaceNormal.dot(cameraDirection) > 0.015
+}
+
+function projectPointToScreen(point, rect) {
+  const projected = new THREE.Vector3()
+  point.visualMesh.getWorldPosition(projected)
+  projected.project(camera)
+  if (projected.z < -1 || projected.z > 1) return null
+  return {
+    screenX: (projected.x + 1) * rect.width / 2,
+    screenY: (-projected.y + 1) * rect.height / 2
+  }
 }
 
 function getPointerHit(event) {
   if (!camera || !stageRef.value) return null
-  const rect = stageRef.value.getBoundingClientRect()
+  const rect = renderer?.domElement?.getBoundingClientRect?.() || stageRef.value.getBoundingClientRect()
   const mouseX = event.clientX - rect.left
   const mouseY = event.clientY - rect.top
-  const projected = new THREE.Vector3()
-  let best = null
+  if (mouseX < 0 || mouseX > rect.width || mouseY < 0 || mouseY > rect.height) return null
 
   camera.updateMatrixWorld()
   globeGroup?.updateMatrixWorld(true)
 
+  const worldToScreen = rect.height / Math.max(1, camera.top - camera.bottom) * camera.zoom
+  let best = null
   for (const point of interactivePoints) {
-    if (!isMeshFacingCamera(point.mesh)) continue
-    point.mesh.getWorldPosition(projected)
-    projected.project(camera)
-    if (projected.z < -1 || projected.z > 1) continue
-    const screenX = (projected.x + 1) * rect.width / 2
-    const screenY = (-projected.y + 1) * rect.height / 2
-    const distance = Math.hypot(mouseX - screenX, mouseY - screenY)
-    const threshold = point.node.type === 'location' ? 11 : 18
-    if (distance > threshold) continue
-    const score = distance + (point.node.type === 'location' ? 2 : 0)
-    if (!best || score < best.score) best = { ...point, score, screenX, screenY }
+    if (!point?.visualMesh) continue
+    if (!isMeshFacingCamera(point.visualMesh)) continue
+    const screenPoint = projectPointToScreen(point, rect)
+    if (!screenPoint) continue
+    const distance = Math.hypot(mouseX - screenPoint.screenX, mouseY - screenPoint.screenY)
+    const radius = Math.min(16, Math.max(6, point.hitRadius * worldToScreen + 2.2))
+    if (distance > radius) continue
+    const score = distance
+    if (!best || score < best.score) {
+      best = { point, node: point.node, ...screenPoint, distance, score }
+    }
   }
-
   return best
+}
+
+function setHoverPoint(point) {
+  if (activeHoverPoint === point) return
+  if (activeHoverPoint?.glowSprite) {
+    const scale = activeHoverPoint.baseGlowScale || 4
+    activeHoverPoint.glowSprite.scale.set(scale, scale, 1)
+    activeHoverPoint.glowSprite.material.opacity = activeHoverPoint.isActive ? 0.34 : 0.13
+  }
+  activeHoverPoint = point || null
+  if (activeHoverPoint?.glowSprite) {
+    const scale = (activeHoverPoint.baseGlowScale || 4) * 1.9
+    activeHoverPoint.glowSprite.scale.set(scale, scale, 1)
+    activeHoverPoint.glowSprite.material.opacity = 0.58
+  }
 }
 
 function updateHover(event) {
   const hit = getPointerHit(event)
-  hoveredNode.value = hit?.object?.userData?.node || null
+  hoveredNode.value = hit?.node || null
+  setHoverPoint(hit?.point || null)
   if (!stageRef.value || !hoveredNode.value) {
     hoverLabelStyle.value = {}
     return
@@ -459,6 +598,7 @@ function updateHover(event) {
 function onPointerLeave() {
   hoveredNode.value = null
   hoverLabelStyle.value = {}
+  setHoverPoint(null)
 }
 
 function onClick(event) {

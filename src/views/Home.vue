@@ -1,19 +1,28 @@
 <template>
   <div class="home-page" :class="{ 'home-page--migration': isMigrationMode }">
     <div class="home-hero">
+      <div class="home-hero-copy">
+        <span class="home-kicker">Avian graph observatory</span>
+        <h2>{{ isMigrationMode ? '夜间迁徙观测台' : '鸟类知识图谱控制台' }}</h2>
+        <p>{{ isMigrationMode ? '用暗色模式观察地点、物种与迁徙连接的夜间分布。' : '从物种出发，沿着分布地点、栖息地、保护等级和分类层级展开全球鸟类关系。' }}</p>
+      </div>
       <div class="search-section">
-        <div class="search-wrapper">
-          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <circle cx="11" cy="11" r="8" />
-            <path d="M21 21l-4.35-4.35" />
-          </svg>
-          <input
-            v-model="searchQuery"
-            type="text"
-            class="search-input"
-            placeholder="搜索鸟类中文名、英文名或学名…"
-            @input="handleSearch"
-          />
+        <div class="search-shell">
+          <span class="search-chip">Search</span>
+          <div class="search-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="11" cy="11" r="8" />
+              <path d="M21 21l-4.35-4.35" />
+            </svg>
+            <input
+              v-model="searchQuery"
+              type="text"
+              class="search-input"
+              placeholder="搜索鸟类中文名、英文名或学名…"
+              @input="handleSearch"
+            />
+          </div>
+          <span class="search-chip muted">{{ store.totalBirdCount.toLocaleString() }} species</span>
         </div>
         <div v-if="searchResults.length" class="search-dropdown">
           <button
@@ -32,53 +41,23 @@
 
     <div class="home-layout">
       <aside class="home-sidebar">
+        <section class="field-panel">
+          <span class="field-label">Current field lens</span>
+          <strong>{{ isMigrationMode ? 'Migration atlas' : 'Knowledge network' }}</strong>
+          <p>{{ isMigrationMode ? '地球视角用于观察夜间迁徙连接。' : '图谱视角用于展开实体关系与分类层级。' }}</p>
+        </section>
         <section class="panel insight-panel">
           <h3 class="panel-title">数据加载状态</h3>
           <div class="metric-grid">
-            <div class="metric-card">
-              <span class="metric-value">{{ isMigrationMode ? observationPointCount : store.totalBirdCount }}</span>
-              <span class="metric-label">{{ isMigrationMode ? '观测点' : '鸟类索引' }}</span>
-            </div>
-            <div class="metric-card">
-              <span class="metric-value">{{ isMigrationMode ? migrationRouteCount : store.loadedBirdCount }}</span>
-              <span class="metric-label">{{ isMigrationMode ? '栖息连接' : '已进图物种' }}</span>
-            </div>
-            <div class="metric-card">
-              <span class="metric-value">{{ isMigrationMode ? store.totalBirdCount : store.nodeCount }}</span>
-              <span class="metric-label">{{ isMigrationMode ? '鸟类物种' : '当前节点' }}</span>
-            </div>
-            <div class="metric-card">
-              <span class="metric-value">{{ isMigrationMode ? loadedGeoBirdCount : store.linkCount }}</span>
-              <span class="metric-label">{{ isMigrationMode ? '已定位物种' : '当前关系' }}</span>
-            </div>
-            <div class="metric-card">
-              <span class="metric-value">{{ store.totalRelationCount }}</span>
-              <span class="metric-label">数据总关系</span>
-            </div>
-            <div class="metric-card">
-              <span class="metric-value">{{ nonTaxonomyRelationCount }}</span>
-              <span class="metric-label">实体关系(分布/栖息/保护)</span>
+            <div v-for="card in homeMetricCards" :key="card.label" class="metric-card">
+              <span class="metric-value">{{ card.value }}</span>
+              <span class="metric-label">{{ card.label }}</span>
             </div>
           </div>
           <p class="panel-note">{{ loadSummary }}</p>
         </section>
 
-        <section class="panel guide-panel">
-          <h3 class="panel-title">探索方式</h3>
-          <template v-if="isMigrationMode">
-            <p class="panel-note">夜间模式展示全球鸟类迁徙图：拖拽旋转视角，亮青色节点表示鸟类长期栖息位置。</p>
-            <p class="panel-note">绿色地点节点来自地点坐标索引，连线表示鸟类与多个分布地或栖息地的静态关联。</p>
-            <p class="panel-note">搜索或点击节点时，前端会请求 `nodes/[node_id].json`，继续补充该物种的一度地点关系。</p>
-          </template>
-          <template v-else>
-            <p class="panel-note">白天模式保留原 3D 知识图谱，展示鸟类与界、门、纲、目、科分类骨架。</p>
-            <p class="panel-note">搜索或点击节点时，前端才会继续请求 `nodes/[node_id].json`，把该节点的一度邻域织入当前图谱。</p>
-            <p class="panel-note">图谱中分布、栖息地、保护等级、威胁因素等关系需点击具体鸟类节点后方可查看。</p>
-          </template>
-          <p v-if="centerNodeId" class="panel-note highlight">当前中心节点：{{ focusedNodeName || centerNodeId }}<br/>再次点击中心节点可跳转详情页。</p>
-        </section>
-
-        <section v-if="isMigrationMode && focusedDisplayNode" class="panel node-detail-panel">
+        <section v-if="focusedDisplayNode" class="panel node-detail-panel">
           <h3 class="panel-title">数据点信息</h3>
           <div class="node-detail-head">
             <span>{{ focusedNodeType }}</span>
@@ -116,6 +95,7 @@
       <section class="graph-panel">
         <div class="graph-header">
           <div>
+            <span class="view-kicker">{{ isMigrationMode ? 'Night migration atlas' : 'Daylight knowledge network' }}</span>
             <h2>{{ isMigrationMode ? '全球鸟类迁徙图' : '3D 分片异步鸟类知识图谱' }}</h2>
             <p class="graph-summary">{{ graphSummary }}</p>
           </div>
@@ -142,9 +122,24 @@
               </button>
             </div>
           </div>
+          <div class="toolbar-group taxonomy-toolbar">
+            <span class="toolbar-label">分类层级</span>
+            <div class="pill-group">
+              <button
+                v-for="item in taxonomyLevelItems"
+                :key="item.level"
+                type="button"
+                class="pill"
+                :class="{ active: activeTaxonomyLevels.includes(item.level) }"
+                @click="toggleTaxonomyLevel(item.level)"
+              >
+                {{ item.label }}
+              </button>
+            </div>
+          </div>
           <div class="toolbar-group compact">
-            <span class="toolbar-label">标签策略</span>
-            <p class="toolbar-copy">悬停查看实体名称与分类，当前节点和主要分类线会显示关系标签。</p>
+            <span class="toolbar-label">颜色分类</span>
+            <p class="toolbar-copy">原实体筛选保留；目/科/属/种为新增分类层级筛选。</p>
           </div>
           <div class="toolbar-actions">
             <button type="button" class="pill reset-btn" @click="resetContextFilters">重置视图</button>
@@ -175,6 +170,7 @@
             <SigmaCanvas
               v-else
               :active-types="activeContextTypes"
+              :active-taxonomy-levels="activeTaxonomyLevels"
               :dark-mode="uiStore.darkMode"
               :center-node-id="centerNodeId"
               :focused-node-id="focusedNodeId"
@@ -206,13 +202,14 @@ const containerRef = ref(null)
 const searchQuery = ref('')
 const searchResults = ref([])
 const activeContextTypes = ref(['taxonomy', 'location', 'habitat', 'status', 'threat'])
+const activeTaxonomyLevels = ref(['order', 'family'])
 const centerNodeId = ref('')
 const focusedNodeId = ref('')
 const selectedGlobeNode = ref(null)
 const isMigrationMode = computed(() => uiStore.darkMode)
-const maxMigrationRoutes = 320
-const maxMigrationLocationNodes = 160
-const maxLocationsPerBird = 4
+const maxMigrationRoutes = 860
+const maxMigrationLocationNodes = 560
+const maxLocationsPerBird = 3
 
 const focusedNode = computed(() => store.getNodeById(focusedNodeId.value))
 const focusedDisplayNode = computed(() => focusedNode.value || selectedGlobeNode.value)
@@ -221,7 +218,17 @@ const focusedNodeType = computed(() => {
   const typeLabels = { bird: '鸟类', location: '地点', habitat: '栖息地', status: '保护等级', threat: '威胁因素', taxonomy: '分类' }
   return typeLabels[focusedDisplayNode.value?.type] || ''
 })
-const focusedNeighborCount = computed(() => store.getIncidentLinks(focusedNodeId.value).length)
+const focusedNeighborCount = computed(() => {
+  const node = focusedDisplayNode.value
+  if (!node) return 0
+  const loadedCount = store.getIncidentLinks(node.id).length
+  if (loadedCount) return loadedCount
+  if (Array.isArray(node.locations)) return node.locations.length
+  if (node.type === 'location') {
+    return store.birdNodes.filter(bird => Array.isArray(bird.locations) && bird.locations.includes(node.name)).length
+  }
+  return 0
+})
 const focusedNodeSubtitle = computed(() => {
   const node = focusedDisplayNode.value
   if (!node) return ''
@@ -244,7 +251,7 @@ const canOpenFocusedDetail = computed(() => {
   const node = focusedDisplayNode.value
   if (!node) return false
   if (node.type === 'bird') return Boolean(node.id)
-  if (node.type === 'location') return Boolean(store.getNodeById(node.id))
+  if (node.type === 'location') return Boolean(node.id)
   return false
 })
 
@@ -340,17 +347,61 @@ const nonTaxonomyRelationCount = computed(() => {
   return count || 0
 })
 
+const topRelationMetrics = computed(() => {
+  const labels = {
+    distributed_in: '分布关系',
+    belongs_to_species: '种分类',
+    belongs_to_family: '科分类',
+    belongs_to_genus: '属分类',
+    belongs_to_order: '目分类',
+    lives_in: '栖息关系',
+    has_status: '保护等级',
+    threatened_by: '威胁关系'
+  }
+  return Object.entries(store.meta?.counts?.relationTypes || {})
+    .filter(([, value]) => Number(value) >= 1000)
+    .map(([key, value]) => ({ label: labels[key] || key, value: Number(value) }))
+    .sort((left, right) => right.value - left.value)
+    .slice(0, 4)
+})
+
+const homeMetricCards = computed(() => {
+  if (isMigrationMode.value) {
+    return [
+      { label: '观测点', value: observationPointCount.value },
+      { label: '栖息连接', value: migrationRouteCount.value },
+      { label: '鸟类物种', value: store.totalBirdCount },
+      { label: '数据总关系', value: store.totalRelationCount }
+    ].map(card => ({ ...card, value: Number(card.value || 0).toLocaleString() }))
+  }
+
+  return topRelationMetrics.value.map(card => ({
+    label: card.label,
+    value: card.value.toLocaleString()
+  }))
+})
+
 const legendItems = computed(() => [
   { label: '鸟类', color: '#4FC3F7', mode: 'graph' },
   { label: '地点', color: '#81C784', mode: 'graph' },
   { label: '栖息地', color: '#FFB74D', mode: 'graph' },
   { label: '保护等级', color: '#E57373', mode: 'graph' },
   { label: '威胁因素', color: '#BA68C8', mode: 'graph' },
-  { label: '分类', color: '#90A4AE', mode: 'graph' },
+  { label: '目', color: '#38bdf8', mode: 'graph' },
+  { label: '科', color: '#22c55e', mode: 'graph' },
+  { label: '属', color: '#f59e0b', mode: 'graph' },
+  { label: '种', color: '#ef4444', mode: 'graph' },
   { label: '鸟类观测点', color: '#22d3ee', mode: 'migration' },
   { label: '地点节点', color: '#7cff6b', mode: 'migration' },
   { label: '栖息连接', color: '#7cff6b', mode: 'migration' }
 ].filter(item => isMigrationMode.value ? item.mode === 'migration' : item.mode === 'graph'))
+
+const taxonomyLevelItems = [
+  { level: 'order', label: '目' },
+  { level: 'family', label: '科' },
+  { level: 'genus', label: '属' },
+  { level: 'species', label: '种' }
+]
 
 const filterableTypeItems = [
   { type: 'taxonomy', label: '分类' },
@@ -421,6 +472,19 @@ async function selectSearchResult(item) {
 }
 
 async function handleNodeClick(node, isCenter) {
+  if (isMigrationMode.value) {
+    selectedGlobeNode.value = node
+    store.setActiveNode(node.id)
+    if (node.type === 'bird') {
+      router.push(`/bird/${node.id}`)
+      return
+    }
+    if (node.type === 'location') {
+      router.push(`/location/${node.id}`)
+      return
+    }
+  }
+
   selectedGlobeNode.value = node
   store.setActiveNode(node.id)
 
@@ -478,6 +542,10 @@ function openFocusedDetail() {
   }
   if (node.type === 'location' && store.getNodeById(node.id)) {
     router.push(`/location/${node.id}`)
+    return
+  }
+  if (node.type === 'location') {
+    router.push(`/location/${node.id}`)
   }
 }
 
@@ -489,8 +557,18 @@ function toggleContextType(type) {
   activeContextTypes.value = [...activeContextTypes.value, type]
 }
 
+function toggleTaxonomyLevel(level) {
+  if (activeTaxonomyLevels.value.includes(level)) {
+    const next = activeTaxonomyLevels.value.filter(item => item !== level)
+    activeTaxonomyLevels.value = next.length ? next : [level]
+    return
+  }
+  activeTaxonomyLevels.value = [...activeTaxonomyLevels.value, level]
+}
+
 function resetContextFilters() {
   activeContextTypes.value = ['taxonomy', 'location', 'habitat', 'status', 'threat']
+  activeTaxonomyLevels.value = ['order', 'family']
   centerNodeId.value = ''
   focusedNodeId.value = ''
   selectedGlobeNode.value = null
@@ -514,7 +592,7 @@ onMounted(async () => {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 24px;
   min-height: calc(100vh - 40px);
   padding: 0 0 14px;
   animation: pageIn 0.4s ease-out;
@@ -535,16 +613,134 @@ onMounted(async () => {
 .home-hero {
   position: relative;
   z-index: 10;
-  display: flex;
-  justify-content: center;
-  padding: 28px 18px 0;
+  display: grid;
+  grid-template-columns: minmax(260px, 0.85fr) minmax(420px, 1.15fr);
+  align-items: end;
+  gap: 24px;
+  padding: 32px 0 0;
+}
+
+.home-hero::before {
+  content: "";
+  position: absolute;
+  left: 8%;
+  top: 24px;
+  width: 180px;
+  height: 70px;
+  opacity: 0.22;
+  pointer-events: none;
+  color: var(--accent);
+  background:
+    radial-gradient(circle at 10% 58%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 38% 32%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 68% 50%, currentColor 0 2px, transparent 2.5px),
+    linear-gradient(16deg, transparent 0 18%, currentColor 18.3% 19.2%, transparent 19.5% 100%),
+    linear-gradient(-10deg, transparent 0 45%, currentColor 45.3% 46.2%, transparent 46.5% 100%);
+}
+
+.home-hero-copy {
+  position: relative;
+  padding: 30px 30px 28px;
+  border: 1px solid var(--panel-border);
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent) 14%, transparent), transparent 44%),
+    var(--card-bg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.home-hero-copy::after {
+  content: "";
+  position: absolute;
+  right: -42px;
+  bottom: -62px;
+  width: 190px;
+  height: 150px;
+  border: 2px solid color-mix(in srgb, var(--accent) 42%, transparent);
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 60% 82% 42% 76%;
+  transform: rotate(-18deg);
+  opacity: 0.32;
+}
+
+.home-kicker {
+  display: inline-flex;
+  margin-bottom: 12px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.home-hero-copy h2 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: var(--heading-color);
+  font-size: clamp(30px, 3.4vw, 52px);
+  font-weight: 900;
+  line-height: 1.02;
+}
+
+.home-hero-copy p {
+  position: relative;
+  z-index: 1;
+  max-width: 58ch;
+  margin: 14px 0 0;
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.72;
 }
 
 .search-section {
   position: relative;
   z-index: 12;
   width: 100%;
-  max-width: 720px;
+  max-width: none;
+}
+
+.search-section::before {
+  content: "";
+  display: none;
+}
+
+.search-shell {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--panel-border);
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent-2) 12%, transparent), transparent 46%),
+    var(--surface-strong);
+  box-shadow: var(--shadow);
+}
+
+.search-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 14px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 18%, transparent);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.search-chip.muted {
+  color: var(--text-secondary);
+  background: color-mix(in srgb, var(--card-bg) 82%, transparent);
 }
 
 .search-wrapper {
@@ -564,12 +760,12 @@ onMounted(async () => {
 
 .search-input {
   width: 100%;
-  padding: 18px 24px 18px 56px;
-  border: 2px solid rgba(15, 118, 110, 0.2);
-  border-radius: 999px;
-  background: var(--card-bg);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 20px rgba(31, 64, 76, 0.08);
+  padding: 18px 22px 18px 58px;
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--panel-border));
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--card-bg) 92%, transparent);
+  backdrop-filter: blur(8px);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.42);
   color: var(--text-color);
   font-size: 17px;
   outline: none;
@@ -660,18 +856,69 @@ onMounted(async () => {
 .home-layout {
   position: relative;
   z-index: 1;
-  display: flex;
-  gap: 18px;
+  display: grid;
+  grid-template-columns: minmax(300px, 360px) minmax(0, 1fr);
+  gap: 22px;
 }
 
 .home-sidebar {
   position: relative;
   z-index: 10;
-  width: 320px;
-  flex-shrink: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 14px;
+}
+
+.field-panel {
+  position: relative;
+  overflow: hidden;
+  padding: 22px;
+  border-radius: 24px;
+  color: oklch(0.96 0.018 170);
+  background:
+    radial-gradient(circle at 85% 18%, rgba(250, 204, 21, 0.18), transparent 28%),
+    linear-gradient(135deg, #0a2f35, #0f766e 54%, #12303b);
+  box-shadow: 0 22px 58px rgba(15, 118, 110, 0.24);
+}
+
+.field-panel::after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  bottom: -36px;
+  width: 132px;
+  height: 92px;
+  border: 2px solid rgba(255, 255, 255, 0.28);
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 62% 82% 48% 72%;
+  transform: rotate(-18deg);
+}
+
+.field-label {
+  display: block;
+  margin-bottom: 12px;
+  color: rgba(236, 253, 245, 0.68);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.field-panel strong {
+  display: block;
+  font-size: 25px;
+  line-height: 1.08;
+}
+
+.field-panel p {
+  position: relative;
+  z-index: 1;
+  margin: 12px 0 0;
+  color: rgba(236, 253, 245, 0.75);
+  font-size: 13px;
+  line-height: 1.7;
 }
 
 .graph-panel {
@@ -680,30 +927,49 @@ onMounted(async () => {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
   min-height: 720px;
-  padding: 20px;
+  padding: 18px;
   border-radius: 24px;
   border: 1px solid var(--graph-border);
-  background: var(--graph-bg);
+  background:
+    radial-gradient(circle at 12% 10%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 24%),
+    linear-gradient(180deg, rgba(255,255,255,0.62), rgba(255,255,255,0.1)),
+    var(--graph-bg);
   box-shadow: var(--graph-shadow);
   animation: panelIn 0.5s ease-out;
 }
 
 .panel {
-  padding: 16px;
+  position: relative;
+  padding: 18px;
+  overflow: hidden;
+}
+
+.panel::after {
+  content: "";
+  position: absolute;
+  inset: 12px 12px auto auto;
+  width: 62px;
+  height: 22px;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 15% 50%, var(--accent) 0 2px, transparent 2.5px),
+    radial-gradient(circle at 50% 50%, var(--accent-2) 0 2px, transparent 2.5px),
+    radial-gradient(circle at 85% 50%, var(--accent) 0 2px, transparent 2.5px);
+  opacity: 0.16;
 }
 
 .home-page--migration .graph-panel {
   padding: 18px;
-  border-radius: 8px;
+  border-radius: 14px;
   border: 1px solid rgba(38, 255, 230, 0.18);
   background: linear-gradient(135deg, rgba(2, 6, 23, 0.88), rgba(8, 18, 33, 0.78));
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.48), 0 0 42px rgba(34, 211, 238, 0.1);
 }
 
 .home-page--migration .panel {
-  border-radius: 8px;
+  border-radius: 14px;
   border: 1px solid rgba(38, 255, 230, 0.18);
   background: linear-gradient(180deg, rgba(2, 8, 23, 0.9), rgba(8, 20, 35, 0.76));
   box-shadow: inset 0 0 22px rgba(38, 255, 230, 0.05), 0 0 24px rgba(34, 211, 238, 0.08);
@@ -713,6 +979,18 @@ onMounted(async () => {
   margin: 0 0 12px;
   font-size: 15px;
   color: var(--heading-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.panel-title::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
 }
 
 .panel-note {
@@ -749,20 +1027,35 @@ onMounted(async () => {
 .metric-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 12px;
 }
 
 .metric-card {
-  padding: 12px;
-  border-radius: 16px;
-  background: var(--accent-soft);
+  position: relative;
+  padding: 16px 14px;
+  border-radius: 18px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.32), transparent),
+    var(--accent-soft);
   border: 1px solid var(--panel-border);
+  overflow: hidden;
+}
+
+.metric-card::after {
+  content: "";
+  position: absolute;
+  right: -18px;
+  top: -24px;
+  width: 72px;
+  height: 72px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
 }
 
 .metric-value {
   display: block;
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 950;
   color: var(--accent);
 }
 
@@ -917,7 +1210,13 @@ onMounted(async () => {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 16px;
+  gap: 18px;
+  padding: 18px;
+  border-radius: 18px;
+  background:
+    linear-gradient(120deg, color-mix(in srgb, var(--accent) 12%, transparent), transparent 54%),
+    color-mix(in srgb, var(--card-bg) 76%, transparent);
+  border: 1px solid var(--panel-border);
 }
 
 .graph-header h2 {
@@ -973,7 +1272,7 @@ onMounted(async () => {
   gap: 12px;
   align-items: flex-start;
   padding: 12px 14px;
-  border-radius: 16px;
+  border-radius: 14px;
   background: var(--graph-toolbar-bg);
   border: 1px solid var(--graph-toolbar-border);
 }
@@ -987,6 +1286,10 @@ onMounted(async () => {
 
 .toolbar-group.wide {
   flex: 1 1 280px;
+}
+
+.toolbar-group.taxonomy-toolbar {
+  flex: 0 1 250px;
 }
 
 .toolbar-group.compact {
@@ -1019,7 +1322,7 @@ onMounted(async () => {
 
 .pill {
   padding: 6px 12px;
-  border-radius: 999px;
+  border-radius: 10px;
   border: 1px solid var(--graph-pill-border);
   background: var(--graph-pill-bg);
   color: var(--graph-pill-text);
@@ -1048,7 +1351,7 @@ onMounted(async () => {
   width: 100%;
   flex: 1;
   min-height: 620px;
-  border-radius: 16px;
+  border-radius: 18px;
   overflow: hidden;
   border: 1px solid var(--graph-canvas-border);
   background: #1a1a1a;
@@ -1081,10 +1384,10 @@ onMounted(async () => {
   left: 16px;
   z-index: 20;
   padding: 10px 20px;
-  border-radius: 999px;
+  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   background: rgba(15, 118, 110, 0.85);
-  color: #fff;
+  color: oklch(0.99 0.01 170);
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
@@ -1105,7 +1408,7 @@ onMounted(async () => {
   transform: translateX(-50%);
   z-index: 20;
   padding: 8px 20px;
-  border-radius: 999px;
+  border-radius: 10px;
   background: rgba(0, 0, 0, 0.65);
   color: #e2e8f0;
   font-size: 13px;
@@ -1152,8 +1455,12 @@ onMounted(async () => {
 }
 
 @media (max-width: 1080px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+  }
+
   .home-layout {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .home-sidebar {
@@ -1165,6 +1472,14 @@ onMounted(async () => {
 }
 
 @media (max-width: 860px) {
+  .search-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .search-chip {
+    justify-content: flex-start;
+  }
+
   .home-sidebar {
     grid-template-columns: 1fr;
   }
@@ -1176,5 +1491,45 @@ onMounted(async () => {
   .graph-canvas {
     min-height: 520px;
   }
+}
+
+.graph-header h2 {
+  font-size: clamp(22px, 2vw, 28px);
+  font-weight: 850;
+}
+.view-kicker {
+  display: inline-flex;
+  margin-bottom: 6px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.legend span {
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--card-bg) 66%, transparent);
+  border: 1px solid var(--panel-border);
+}
+.graph-toolbar,
+.graph-canvas,
+.home-page--migration .graph-canvas { border-radius: 14px; }
+.graph-toolbar {
+  padding: 16px;
+  border-radius: 14px;
+}
+.graph-canvas {
+  min-height: 680px;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 22%, transparent), 0 24px 70px rgba(2, 8, 23, 0.18);
+}
+.toolbar-label {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.pill {
+  padding: 8px 14px;
+  font-weight: 700;
 }
 </style>

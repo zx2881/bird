@@ -13,7 +13,7 @@ function toNumber(value) {
 
 function makeAssetUrl(path) {
   if (/^https?:\/\//.test(path)) return path
-  const base = import.meta.env.DEV ? '' : import.meta.env.BASE_URL
+  const base = import.meta.env.BASE_URL || '/'
   return `${base}${path}`
 }
 
@@ -181,7 +181,7 @@ function inflateSummaryItems(summary) {
   })
 }
 
-const PREVIEW_TAXONOMY_LEVELS = new Set(['kingdom', 'phylum', 'class', 'order', 'family'])
+const PREVIEW_TAXONOMY_LEVELS = new Set(['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species'])
 
 function trimGraphPreviewPayload(payload) {
   const keepNodeIds = new Set()
