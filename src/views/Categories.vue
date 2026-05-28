@@ -37,7 +37,7 @@
     <template v-else>
       <Transition name="tab-fade" mode="out-in">
         <div v-if="activeTab === 'birds'" key="birds" class="bird-grid">
-          <div v-for="bird in filteredBirds" :key="bird.id" class="bird-card scroll-reveal visible" @click="goToBird(bird)">
+          <div v-for="bird in visibleBirds" :key="bird.id" class="bird-card scroll-reveal visible" @click="goToBird(bird)">
             <div class="bird-card-img">
               <div class="bird-card-img-bg" :style="{ background: statusGradient(bird.status) }"></div>
               <img :src="bird.imageUrl || `https://picsum.photos/seed/${bird.id}/300/200`" :alt="bird.name" loading="lazy" @error="onImgError" />
@@ -66,6 +66,9 @@
             </div>
           </div>
           <div v-if="!filteredBirds.length" class="empty-state">没有匹配的鸟类</div>
+          <div v-else-if="visibleBirds.length < filteredBirds.length" class="load-more-state">
+            已显示 {{ visibleBirds.length }} / {{ filteredBirds.length }}，继续向下滚动加载更多
+          </div>
         </div>
 
         <div v-else-if="activeTab === 'locations'" key="locations" class="location-grid">
@@ -161,7 +164,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useGraphStore } from '../stores/graphStore.js'
 
@@ -171,6 +174,7 @@ const store = useGraphStore()
 const searchQuery = ref('')
 const activeTab = ref('birds')
 const selectedTaxonId = ref('')
+const visibleBirdLimit = ref(40)
 const searchTerm = computed(() => searchQuery.value.trim().toLowerCase())
 
 const tabs = computed(() => [
@@ -235,12 +239,18 @@ const allRelations = computed(() => {
 
 const filteredBirds = computed(() => {
   const q = searchTerm.value
-  if (!q) return store.birdNodes
-  return store.birdNodes.filter(bird => {
+  const birds = store.summaryBirds.map(bird => ({
+    ...bird,
+    ...(store.getNodeById(bird.id) || {})
+  }))
+  if (!q) return birds
+  return birds.filter(bird => {
     const fields = [bird.name, bird.englishName, bird.latinName].filter(Boolean)
     return fields.some(f => f.toLowerCase().includes(q))
   })
 })
+
+const visibleBirds = computed(() => filteredBirds.value.slice(0, visibleBirdLimit.value))
 
 const filteredLocations = computed(() => {
   const q = searchTerm.value
@@ -281,7 +291,10 @@ function isHighlighted(group) {
   return highlightedKeys.value.has(`${group.source.id}->${group.target.id}->${group.link.relation}`)
 }
 
-function onSearchInput() { selectedTaxonId.value = '' }
+function onSearchInput() {
+  selectedTaxonId.value = ''
+  visibleBirdLimit.value = 40
+}
 
 function statusClass(s) { return { CR: 'status-cr', EN: 'status-en', VU: 'status-vu', NT: 'status-nt', LC: 'status-lc' }[s] || 'status-lc' }
 function statusLabel(s) { return { CR: '极危', EN: '濒危', VU: '易危', NT: '近危', LC: '无危' }[s] || s }
@@ -304,9 +317,30 @@ function goToEntity(entity) {
   }
 }
 
+function loadMoreBirds() {
+  if (activeTab.value !== 'birds') return
+  if (visibleBirdLimit.value >= filteredBirds.value.length) return
+  visibleBirdLimit.value = Math.min(filteredBirds.value.length, visibleBirdLimit.value + 40)
+}
+
+function handleWindowScroll() {
+  if (activeTab.value !== 'birds') return
+  const remaining = document.documentElement.scrollHeight - window.innerHeight - window.scrollY
+  if (remaining < 360) loadMoreBirds()
+}
+
+watch(activeTab, () => {
+  visibleBirdLimit.value = 40
+})
+
 onMounted(async () => {
   if (!store.loaded) await store.loadData()
   if (!store.previewLoaded) await store.loadGraphPreview()
+  window.addEventListener('scroll', handleWindowScroll, { passive: true })
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleWindowScroll)
 })
 </script>
 
@@ -575,6 +609,13 @@ onMounted(async () => {
 .section-title { margin: 0 0 16px; font-size: 17px; font-weight: 700; color: var(--heading-color); padding-left: 4px; border-left: 3px solid var(--accent); padding: 2px 0 2px 14px; }
 
 .empty-state { padding: 48px; text-align: center; color: var(--text-secondary); font-size: 15px; }
+.load-more-state {
+  grid-column: 1 / -1;
+  padding: 16px;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
 .empty-tip { padding: 24px; text-align: center; color: var(--text-secondary); font-size: 14px; }
 
 @keyframes card-enter {

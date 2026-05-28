@@ -260,24 +260,25 @@ function initEndangermentChart() {
   endangermentChart?.dispose()
   endangermentChart = echarts.init(endangermentChartRef.value)
   const colors = { CR: '#dc2626', EN: '#b45309', VU: '#ea580c', NT: '#ca8a04', LC: '#16a34a', '未知': '#94a3b8' }
+  const data = endangermentData.value
+    .filter(([key]) => key !== '未知')
+    .map(([key, value]) => ({
+      name: endangermentLabels[key] || key,
+      value,
+      itemStyle: { color: colors[key] || '#16a34a' }
+    }))
   endangermentChart.setOption({
-    tooltip: { trigger: 'axis', formatter: '{b}: {c} 种' },
-    xAxis: { type: 'category', data: endangermentData.value.filter(([k]) => k !== '未知').map(([k]) => endangermentLabels[k] || k),
-      axisLabel: { color: 'var(--text-secondary, #64748b)', fontSize: 12 },
-      axisLine: { lineStyle: { color: 'var(--panel-border, #e2e8f0)' } },
-      axisTick: { show: false } },
-    yAxis: { type: 'value', axisLabel: { color: 'var(--text-secondary, #64748b)' },
-      splitLine: { lineStyle: { color: 'var(--panel-border, #e2e8f0)', type: 'dashed' } } },
-    grid: { left: '3%', right: '6%', bottom: '3%', top: '8%', containLabel: true },
+    tooltip: { trigger: 'item', formatter: '{b}: {c} 种 ({d}%)' },
     series: [{
-      type: 'bar', animationDelay: function (idx) { return idx * 80 },
-      data: endangermentData.value.filter(([k]) => k !== '未知').map(([k, v]) => ({
-        value: v, itemStyle: {
-          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-            { offset: 0, color: colors[k] || '#16a34a' }, { offset: 1, color: (colors[k] || '#16a34a') + '88' }
-          ]), borderRadius: [8, 8, 0, 0]
-        }
-      })), barMaxWidth: 56, label: { show: true, position: 'top', color: 'var(--text-color, #12303b)', fontSize: 12, fontWeight: 600 }
+      type: 'pie',
+      radius: ['36%', '72%'],
+      center: ['50%', '52%'],
+      animationType: 'scale',
+      animationEasing: 'elasticOut',
+      data,
+      label: { color: 'var(--text-secondary, #64748b)', fontSize: 12, formatter: '{b}\n{d}%' },
+      itemStyle: { borderRadius: 8, borderColor: 'var(--card-bg, #fff)', borderWidth: 3 },
+      emphasis: { label: { fontSize: 16, fontWeight: 'bold' }, scaleSize: 12 }
     }]
   })
 }
@@ -446,6 +447,7 @@ onBeforeUnmount(() => {
 .charts-bento { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 
 .chart-card {
+  min-height: 430px;
   padding: 22px;
   border: 1px solid var(--panel-border);
   border-radius: 24px;
@@ -466,7 +468,12 @@ onBeforeUnmount(() => {
   color: var(--accent);
 }
 .chart-card-badge.danger { background: rgba(220,38,38,0.1); color: #dc2626; }
-.chart-canvas { width: 100%; height: 360px; flex: 1; }
+.chart-canvas {
+  width: 100%;
+  height: 360px;
+  min-height: 360px;
+  flex: 0 0 360px;
+}
 
 .reveal-card { opacity: 0; transform: translateY(28px); transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
 .reveal-card.revealed { opacity: 1; transform: translateY(0); }

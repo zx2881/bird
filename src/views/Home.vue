@@ -35,50 +35,15 @@
         <section class="panel insight-panel">
           <h3 class="panel-title">数据加载状态</h3>
           <div class="metric-grid">
-            <div class="metric-card">
-              <span class="metric-value">{{ isMigrationMode ? observationPointCount : store.totalBirdCount }}</span>
-              <span class="metric-label">{{ isMigrationMode ? '观测点' : '鸟类索引' }}</span>
-            </div>
-            <div class="metric-card">
-              <span class="metric-value">{{ isMigrationMode ? migrationRouteCount : store.loadedBirdCount }}</span>
-              <span class="metric-label">{{ isMigrationMode ? '栖息连接' : '已进图物种' }}</span>
-            </div>
-            <div class="metric-card">
-              <span class="metric-value">{{ isMigrationMode ? store.totalBirdCount : store.nodeCount }}</span>
-              <span class="metric-label">{{ isMigrationMode ? '鸟类物种' : '当前节点' }}</span>
-            </div>
-            <div class="metric-card">
-              <span class="metric-value">{{ isMigrationMode ? loadedGeoBirdCount : store.linkCount }}</span>
-              <span class="metric-label">{{ isMigrationMode ? '已定位物种' : '当前关系' }}</span>
-            </div>
-            <div class="metric-card">
-              <span class="metric-value">{{ store.totalRelationCount }}</span>
-              <span class="metric-label">数据总关系</span>
-            </div>
-            <div class="metric-card">
-              <span class="metric-value">{{ nonTaxonomyRelationCount }}</span>
-              <span class="metric-label">实体关系(分布/栖息/保护)</span>
+            <div v-for="card in homeMetricCards" :key="card.label" class="metric-card">
+              <span class="metric-value">{{ card.value }}</span>
+              <span class="metric-label">{{ card.label }}</span>
             </div>
           </div>
           <p class="panel-note">{{ loadSummary }}</p>
         </section>
 
-        <section class="panel guide-panel">
-          <h3 class="panel-title">探索方式</h3>
-          <template v-if="isMigrationMode">
-            <p class="panel-note">夜间模式展示全球鸟类迁徙图：拖拽旋转视角，亮青色节点表示鸟类长期栖息位置。</p>
-            <p class="panel-note">绿色地点节点来自地点坐标索引，连线表示鸟类与多个分布地或栖息地的静态关联。</p>
-            <p class="panel-note">搜索或点击节点时，前端会请求 `nodes/[node_id].json`，继续补充该物种的一度地点关系。</p>
-          </template>
-          <template v-else>
-            <p class="panel-note">白天模式保留原 3D 知识图谱，展示鸟类与界、门、纲、目、科分类骨架。</p>
-            <p class="panel-note">搜索或点击节点时，前端才会继续请求 `nodes/[node_id].json`，把该节点的一度邻域织入当前图谱。</p>
-            <p class="panel-note">图谱中分布、栖息地、保护等级、威胁因素等关系需点击具体鸟类节点后方可查看。</p>
-          </template>
-          <p v-if="centerNodeId" class="panel-note highlight">当前中心节点：{{ focusedNodeName || centerNodeId }}<br/>再次点击中心节点可跳转详情页。</p>
-        </section>
-
-        <section v-if="isMigrationMode && focusedDisplayNode" class="panel node-detail-panel">
+        <section v-if="focusedDisplayNode" class="panel node-detail-panel">
           <h3 class="panel-title">数据点信息</h3>
           <div class="node-detail-head">
             <span>{{ focusedNodeType }}</span>
@@ -142,9 +107,24 @@
               </button>
             </div>
           </div>
+          <div class="toolbar-group taxonomy-toolbar">
+            <span class="toolbar-label">分类层级</span>
+            <div class="pill-group">
+              <button
+                v-for="item in taxonomyLevelItems"
+                :key="item.level"
+                type="button"
+                class="pill"
+                :class="{ active: activeTaxonomyLevels.includes(item.level) }"
+                @click="toggleTaxonomyLevel(item.level)"
+              >
+                {{ item.label }}
+              </button>
+            </div>
+          </div>
           <div class="toolbar-group compact">
-            <span class="toolbar-label">标签策略</span>
-            <p class="toolbar-copy">悬停查看实体名称与分类，当前节点和主要分类线会显示关系标签。</p>
+            <span class="toolbar-label">颜色分类</span>
+            <p class="toolbar-copy">原实体筛选保留；目/科/属/种为新增分类层级筛选。</p>
           </div>
           <div class="toolbar-actions">
             <button type="button" class="pill reset-btn" @click="resetContextFilters">重置视图</button>
@@ -175,6 +155,7 @@
             <SigmaCanvas
               v-else
               :active-types="activeContextTypes"
+              :active-taxonomy-levels="activeTaxonomyLevels"
               :dark-mode="uiStore.darkMode"
               :center-node-id="centerNodeId"
               :focused-node-id="focusedNodeId"
@@ -206,6 +187,7 @@ const containerRef = ref(null)
 const searchQuery = ref('')
 const searchResults = ref([])
 const activeContextTypes = ref(['taxonomy', 'location', 'habitat', 'status', 'threat'])
+const activeTaxonomyLevels = ref(['order', 'family'])
 const centerNodeId = ref('')
 const focusedNodeId = ref('')
 const selectedGlobeNode = ref(null)
@@ -340,17 +322,61 @@ const nonTaxonomyRelationCount = computed(() => {
   return count || 0
 })
 
+const topRelationMetrics = computed(() => {
+  const labels = {
+    distributed_in: '分布关系',
+    belongs_to_species: '种分类',
+    belongs_to_family: '科分类',
+    belongs_to_genus: '属分类',
+    belongs_to_order: '目分类',
+    lives_in: '栖息关系',
+    has_status: '保护等级',
+    threatened_by: '威胁关系'
+  }
+  return Object.entries(store.meta?.counts?.relationTypes || {})
+    .filter(([, value]) => Number(value) >= 1000)
+    .map(([key, value]) => ({ label: labels[key] || key, value: Number(value) }))
+    .sort((left, right) => right.value - left.value)
+    .slice(0, 4)
+})
+
+const homeMetricCards = computed(() => {
+  if (isMigrationMode.value) {
+    return [
+      { label: '观测点', value: observationPointCount.value },
+      { label: '栖息连接', value: migrationRouteCount.value },
+      { label: '鸟类物种', value: store.totalBirdCount },
+      { label: '数据总关系', value: store.totalRelationCount }
+    ].map(card => ({ ...card, value: Number(card.value || 0).toLocaleString() }))
+  }
+
+  return topRelationMetrics.value.map(card => ({
+    label: card.label,
+    value: card.value.toLocaleString()
+  }))
+})
+
 const legendItems = computed(() => [
   { label: '鸟类', color: '#4FC3F7', mode: 'graph' },
   { label: '地点', color: '#81C784', mode: 'graph' },
   { label: '栖息地', color: '#FFB74D', mode: 'graph' },
   { label: '保护等级', color: '#E57373', mode: 'graph' },
   { label: '威胁因素', color: '#BA68C8', mode: 'graph' },
-  { label: '分类', color: '#90A4AE', mode: 'graph' },
+  { label: '目', color: '#38bdf8', mode: 'graph' },
+  { label: '科', color: '#22c55e', mode: 'graph' },
+  { label: '属', color: '#f59e0b', mode: 'graph' },
+  { label: '种', color: '#ef4444', mode: 'graph' },
   { label: '鸟类观测点', color: '#22d3ee', mode: 'migration' },
   { label: '地点节点', color: '#7cff6b', mode: 'migration' },
   { label: '栖息连接', color: '#7cff6b', mode: 'migration' }
 ].filter(item => isMigrationMode.value ? item.mode === 'migration' : item.mode === 'graph'))
+
+const taxonomyLevelItems = [
+  { level: 'order', label: '目' },
+  { level: 'family', label: '科' },
+  { level: 'genus', label: '属' },
+  { level: 'species', label: '种' }
+]
 
 const filterableTypeItems = [
   { type: 'taxonomy', label: '分类' },
@@ -489,8 +515,18 @@ function toggleContextType(type) {
   activeContextTypes.value = [...activeContextTypes.value, type]
 }
 
+function toggleTaxonomyLevel(level) {
+  if (activeTaxonomyLevels.value.includes(level)) {
+    const next = activeTaxonomyLevels.value.filter(item => item !== level)
+    activeTaxonomyLevels.value = next.length ? next : [level]
+    return
+  }
+  activeTaxonomyLevels.value = [...activeTaxonomyLevels.value, level]
+}
+
 function resetContextFilters() {
   activeContextTypes.value = ['taxonomy', 'location', 'habitat', 'status', 'threat']
+  activeTaxonomyLevels.value = ['order', 'family']
   centerNodeId.value = ''
   focusedNodeId.value = ''
   selectedGlobeNode.value = null
@@ -987,6 +1023,10 @@ onMounted(async () => {
 
 .toolbar-group.wide {
   flex: 1 1 280px;
+}
+
+.toolbar-group.taxonomy-toolbar {
+  flex: 0 1 250px;
 }
 
 .toolbar-group.compact {

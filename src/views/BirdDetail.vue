@@ -11,7 +11,7 @@
         class="switch-input"
         placeholder="搜索中文名、英文名或学名…"
       />
-      <div class="switch-list">
+      <div ref="switchListRef" class="switch-list" @scroll="handleSwitchScroll">
         <button
           v-for="item in switchResults"
           :key="item.id"
@@ -187,8 +187,10 @@ const store = useGraphStore()
 
 const birdId = ref(route.params.id)
 const switchQuery = ref('')
+const switchLimit = ref(40)
 const summaryExpanded = ref(false)
 const detailMapRef = ref(null)
+const switchListRef = ref(null)
 let detailMapInstance = null
 
 const endangermentLabels = {
@@ -266,9 +268,21 @@ const displaySummary = computed(() => {
 const switchResults = computed(() => {
   const query = switchQuery.value.trim()
   if (!query) {
-    return store.summaryBirds.slice(0, 20)
+    return store.summaryBirds.slice(0, switchLimit.value)
   }
-  return store.findBirdMatches(query, 20)
+  return store.findBirdMatches(query, switchLimit.value)
+})
+
+function handleSwitchScroll(event) {
+  const el = event.currentTarget
+  if (!el || el.scrollHeight - el.scrollTop - el.clientHeight > 120) return
+  if (switchLimit.value >= store.summaryBirds.length) return
+  switchLimit.value = Math.min(store.summaryBirds.length, switchLimit.value + 40)
+}
+
+watch(switchQuery, () => {
+  switchLimit.value = 40
+  if (switchListRef.value) switchListRef.value.scrollTop = 0
 })
 
 const incidentLinks = computed(() => store.getIncidentLinks(birdId.value))
@@ -419,6 +433,7 @@ onBeforeUnmount(() => {
   gap: 8px;
   max-height: 68vh;
   margin-top: 14px;
+  overflow-x: hidden;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--panel-border) transparent;
@@ -437,7 +452,6 @@ onBeforeUnmount(() => {
 .switch-item:hover {
   border-color: var(--accent);
   background: var(--accent-soft);
-  transform: translateX(4px);
 }
 .switch-item.active {
   border-color: var(--accent);

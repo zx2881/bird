@@ -26,6 +26,10 @@ const props = defineProps({
   focusedNodeId: {
     type: String,
     default: ''
+  },
+  activeTaxonomyLevels: {
+    type: Array,
+    default: () => ['order', 'family']
   }
 })
 
@@ -68,11 +72,24 @@ const TYPE_COLORS = {
 }
 
 function nodeColor(rawNode) {
+  if (rawNode.type === 'taxonomy') {
+    return TAXONOMY_COLORS[rawNode.taxonomyLevel] || TYPE_COLORS.taxonomy
+  }
   return TYPE_COLORS[rawNode.type] || '#eaf3ff'
 }
 const LINK_COLOR_DARK = 'rgba(210, 230, 255, 0.46)'
 const LINK_COLOR_LIGHT = 'rgba(210, 230, 255, 0.4)'
-const HIGH_TAXONOMY_LEVELS = new Set(['kingdom', 'phylum', 'class', 'order', 'family'])
+const FOCUSED_LINK_COLOR = 'rgba(125, 211, 252, 0.88)'
+const HIGH_TAXONOMY_LEVELS = new Set(['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species'])
+const TAXONOMY_COLORS = {
+  kingdom: '#64748b',
+  phylum: '#78909c',
+  class: '#90a4ae',
+  order: '#38bdf8',
+  family: '#22c55e',
+  genus: '#f59e0b',
+  species: '#ef4444'
+}
 const TAXONOMY_LABELS = {
   kingdom: '界',
   phylum: '门',
@@ -89,6 +106,12 @@ function isPreviewNode(node) {
 
 function isHighTaxonomyNode(node) {
   return node?.type === 'taxonomy' && HIGH_TAXONOMY_LEVELS.has(node.taxonomyLevel)
+}
+
+function isActiveTaxonomyNode(node) {
+  if (node?.type !== 'taxonomy') return false
+  if (['kingdom', 'phylum', 'class'].includes(node.taxonomyLevel)) return true
+  return props.activeTaxonomyLevels.includes(node.taxonomyLevel)
 }
 
 function getFocusedNeighborIds() {
@@ -111,7 +134,7 @@ function isNodeVisible(node) {
   }
 
   if (node.type === 'taxonomy') {
-    return props.activeTypes.includes('taxonomy') && (isHighTaxonomyNode(node) || store.getIncidentLinks(node.id).length > 0)
+    return props.activeTypes.includes('taxonomy') && isActiveTaxonomyNode(node) && (isHighTaxonomyNode(node) || store.getIncidentLinks(node.id).length > 0)
   }
   if (isPreviewNode(node)) return true
   return props.activeTypes.includes(node.type)
@@ -181,6 +204,13 @@ function shouldShowLinkLabel(link) {
     return neighborIds.has(sourceId) && neighborIds.has(targetId)
   }
   return false
+}
+
+function isFocusedLink(link) {
+  if (!props.focusedNodeId) return false
+  const sourceId = endpointId(link.source)
+  const targetId = endpointId(link.target)
+  return sourceId === props.focusedNodeId || targetId === props.focusedNodeId
 }
 
 function buildLinkLabelObject(link) {
@@ -603,13 +633,16 @@ function ensureGraph() {
     .showNavInfo(false)
     .enableNodeDrag(true)
     .nodeOpacity(1)
-    .linkOpacity(0.48)
-    .linkWidth(link => (shouldShowLinkLabel(link) ? 1.15 : 0.56))
-    .linkColor(() => (props.darkMode ? LINK_COLOR_DARK : LINK_COLOR_LIGHT))
-    .linkDirectionalParticles(0)
+    .linkOpacity(link => (props.focusedNodeId ? (isFocusedLink(link) ? 0.9 : 0.12) : 0.48))
+    .linkWidth(link => (isFocusedLink(link) ? 2.8 : (shouldShowLinkLabel(link) ? 1.15 : 0.56)))
+    .linkColor(link => (isFocusedLink(link) ? FOCUSED_LINK_COLOR : (props.darkMode ? LINK_COLOR_DARK : LINK_COLOR_LIGHT)))
+    .linkDirectionalParticles(link => (isFocusedLink(link) ? 1 : 0))
+    .linkDirectionalParticleWidth(link => (isFocusedLink(link) ? 2.6 : 0))
+    .linkDirectionalParticleSpeed(0.004)
     .linkLabel(link => relationLabel(link))
     .linkHoverPrecision(6)
     .linkThreeObject(link => buildLinkLabelObject(link))
+    .linkThreeObjectExtend(true)
     .linkPositionUpdate((sprite, { start, end }, link) => {
       if (!sprite || !start || !end) return
       const midX = (start.x + end.x) / 2
@@ -912,7 +945,8 @@ watch(
     props.activeTypes.join(','),
     props.darkMode,
     props.centerNodeId,
-    props.focusedNodeId
+    props.focusedNodeId,
+    props.activeTaxonomyLevels.join('|')
   ],
   () => {
     if (!graph) return
