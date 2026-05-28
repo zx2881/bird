@@ -18,11 +18,11 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import math
 import re
-import shutil
 from collections import defaultdict
 from datetime import datetime
 from hashlib import md5
@@ -43,8 +43,13 @@ RELATION_LABELS = {
     "has_status": "保护等级",
     "threatened_by": "受威胁于",
     "belongs_to": "属于",
+    "belongs_to_kingdom": "属于界",
+    "belongs_to_phylum": "属于门",
+    "belongs_to_class": "属于纲",
     "belongs_to_family": "属于科",
+    "belongs_to_genus": "属于属",
     "belongs_to_order": "属于目",
+    "belongs_to_species": "属于种",
 }
 
 ENTITY_TYPE_TO_NODE_TYPE = {
@@ -77,6 +82,135 @@ STATUS_LABELS = {
     "NE": "未评估",
 }
 
+TAXONOMY_RANKS = ("kingdom", "phylum", "class", "order", "family", "genus", "species")
+
+TAXONOMY_PARENT = {
+    "species": "genus",
+    "genus": "family",
+    "family": "order",
+    "order": "class",
+    "class": "phylum",
+    "phylum": "kingdom",
+}
+
+TAXONOMY_RANK_LABELS = {
+    "kingdom": "界",
+    "phylum": "门",
+    "class": "纲",
+    "order": "目",
+    "family": "科",
+    "genus": "属",
+    "species": "种",
+}
+
+TAXONOMY_COUNT_KEYS = {
+    "kingdom": "kingdoms",
+    "phylum": "phyla",
+    "class": "classes",
+    "order": "orders",
+    "family": "families",
+    "genus": "genera",
+    "species": "species",
+}
+
+DEFAULT_BIRD_TAXONOMY = {
+    "kingdom": ("Animalia", "动物界"),
+    "phylum": ("Chordata", "脊索动物门"),
+    "class": ("Aves", "鸟纲"),
+}
+
+COUNTRY_LOCATION_NAMES = {
+    "中国",
+    "中华人民共和国",
+    "日本",
+    "韩国",
+    "朝鲜",
+    "蒙古",
+    "俄罗斯",
+    "俄羅斯",
+    "印度",
+    "尼泊尔",
+    "不丹",
+    "缅甸",
+    "越南",
+    "老挝",
+    "泰国",
+    "柬埔寨",
+    "菲律宾",
+    "印度尼西亚",
+    "马来西亚",
+    "新加坡",
+    "澳大利亚",
+    "新西兰",
+    "美国",
+    "加拿大",
+    "墨西哥",
+    "巴西",
+    "阿根廷",
+    "智利",
+    "秘鲁",
+    "南非",
+    "肯尼亚",
+    "坦桑尼亚",
+    "埃塞俄比亚",
+    "英国",
+    "法国",
+    "德国",
+    "意大利",
+    "西班牙",
+    "葡萄牙",
+    "荷兰",
+    "波兰",
+    "挪威",
+    "瑞典",
+    "芬兰",
+    "丹麦",
+    "China",
+    "Japan",
+    "South Korea",
+    "North Korea",
+    "Mongolia",
+    "Russia",
+    "India",
+    "Nepal",
+    "Bhutan",
+    "Myanmar",
+    "Vietnam",
+    "Laos",
+    "Thailand",
+    "Cambodia",
+    "Philippines",
+    "Indonesia",
+    "Malaysia",
+    "Singapore",
+    "Australia",
+    "New Zealand",
+    "United States",
+    "United States of America",
+    "Canada",
+    "Mexico",
+    "Brazil",
+    "Argentina",
+    "Chile",
+    "Peru",
+    "South Africa",
+    "Kenya",
+    "Tanzania",
+    "Ethiopia",
+    "United Kingdom",
+    "France",
+    "Germany",
+    "Italy",
+    "Spain",
+    "Portugal",
+    "Netherlands",
+    "Poland",
+    "Norway",
+    "Sweden",
+    "Finland",
+    "Denmark",
+}
+
 SUMMARY_SECTION_MARKERS = (
     "特征",
     "特徵",
@@ -106,7 +240,11 @@ FOREIGN_LANGUAGE_MARKERS = (
 def read_csv(path: Path) -> List[Dict[str, str]]:
     with path.open("r", encoding="utf-8-sig", newline="") as file:
         return [
-            {key: (value or "").strip() for key, value in row.items()}
+            {
+                key: str((value or "")).strip() if not isinstance(value, list) else ""
+                for key, value in row.items()
+                if key is not None
+            }
             for row in csv.DictReader(file)
         ]
 
@@ -182,6 +320,50 @@ def status_text(code: str) -> str:
     return f"{label}（{code.upper()}）"
 
 
+def is_country_location_name(name: str) -> bool:
+    text = (name or "").strip()
+    if not text:
+        return False
+    if text in COUNTRY_LOCATION_NAMES:
+        return True
+    lowered = text.lower()
+    return lowered in {item.lower() for item in COUNTRY_LOCATION_NAMES}
+
+
+def load_full_bird_summaries() -> Dict[str, str]:
+    summaries: Dict[str, str] = {}
+    for raw_dir in (DATA_DIR / "wikipedia_raw", DATA_DIR / "wikipedia_checkpoint"):
+        if not raw_dir.exists():
+            continue
+        for path in raw_dir.glob("*.json"):
+            try:
+                payload = json.loads(path.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+
+            bird_id = payload.get("bird_id") or path.stem
+            zh_payload = payload.get("zh") or {}
+            en_payload = payload.get("en") or {}
+            extract = zh_payload.get("extract") or en_payload.get("extract") or ""
+            if extract:
+                summaries[bird_id] = normalize_summary_text(extract)
+    return summaries
+
+
+def taxonomy_display_value(bird: Dict, rank: str) -> Tuple[str, str]:
+    default_latin, default_cn = DEFAULT_BIRD_TAXONOMY.get(rank, ("", ""))
+    latin_name = (bird.get(rank) or default_latin or "").strip()
+    chinese_name = (bird.get(f"{rank}Cn") or default_cn or "").strip()
+
+    if rank == "species":
+        latin_name = latin_name or bird.get("latinName", "").strip()
+        chinese_name = chinese_name or bird.get("name", "").strip()
+    elif rank == "genus":
+        latin_name = latin_name or (bird.get("latinName", "").split(" ", 1)[0] or "").strip()
+
+    return latin_name, chinese_name
+
+
 def should_preview_locations(values: Iterable[str]) -> bool:
     items = compact(values)
     if not items or len(items) > 3:
@@ -205,8 +387,6 @@ def needs_summary_completion(summary: str, node_type: str) -> bool:
     if re.search(r"(…|\.{3,})\s*$", text):
         return True
     if any(marker in text for marker in SUMMARY_SECTION_MARKERS):
-        return True
-    if node_type == "bird" and len(text) > 90:
         return True
     if node_type == "location" and (len(text) > 80 or any(marker in text for marker in FOREIGN_LANGUAGE_MARKERS)):
         return True
@@ -482,10 +662,18 @@ def add_unique_link(links: List[Dict], link_set: set[str], source: str, target: 
     link_set.add(key)
 
 
-def build_graph() -> Dict:
-    birds_rows = read_csv(DATA_DIR / "birds.csv")
-    locations_rows = read_csv(DATA_DIR / "locations.csv")
-    relations_rows = read_csv(DATA_DIR / "relations.csv")
+def build_graph(skip_raw_summaries: bool = False) -> Dict:
+    birds_path = DATA_DIR / "birds.csv"
+    locations_path = DATA_DIR / "locations.csv"
+    relations_path = DATA_DIR / "relations.csv"
+    source_paths = [birds_path, locations_path, relations_path]
+    source_mtime = max(path.stat().st_mtime for path in source_paths)
+    source_datetime = datetime.fromtimestamp(source_mtime)
+
+    birds_rows = read_csv(birds_path)
+    locations_rows = read_csv(locations_path)
+    relations_rows = read_csv(relations_path)
+    full_bird_summaries = {} if skip_raw_summaries else load_full_bird_summaries()
 
     require_columns(DATA_DIR / "birds.csv", birds_rows, ["id", "name", "english_name", "latin_name", "summary", "lat", "lng"])
     require_columns(DATA_DIR / "locations.csv", locations_rows, ["id", "name", "summary", "lat", "lng"])
@@ -509,7 +697,8 @@ def build_graph() -> Dict:
             "latinName": row["latin_name"],
             "type": "bird",
             "status": "",
-            "summary": row["summary"],
+            "summary": full_bird_summaries.get(row["id"], row["summary"]),
+            "shortSummary": row["summary"],
             "locations": [],
             "habitats": [],
             "threats": [],
@@ -524,8 +713,14 @@ def build_graph() -> Dict:
             "familyCn": row.get("family_cn", "").strip(),
             "genusCn": row.get("genus_cn", "").strip(),
             "speciesCn": row.get("species_cn", "").strip(),
+            "kingdomId": "",
+            "phylumId": "",
+            "classId": "",
             "orderId": "",
             "familyId": "",
+            "genusId": "",
+            "speciesId": "",
+            "taxonomyIds": {},
             "expandable": True,
             "x": None,
             "y": None,
@@ -538,6 +733,8 @@ def build_graph() -> Dict:
     locations_by_id: Dict[str, Dict] = {}
     locations_by_name: Dict[str, Dict] = {}
     for row in locations_rows:
+        if is_country_location_name(row["name"]):
+            continue
         node = {
             "id": row["id"],
             "name": row["name"],
@@ -589,6 +786,8 @@ def build_graph() -> Dict:
             continue
 
         if object_type == "Location":
+            if is_country_location_name(object_name):
+                continue
             object_node = locations_by_id.get(object_id) or locations_by_name.get(object_name)
             if not object_node:
                 errors.append(f"relations.csv 第 {index} 行无法找到地点实体: {object_id or object_name}")
@@ -660,65 +859,88 @@ def build_graph() -> Dict:
 
     taxonomy_nodes: Dict[str, Dict] = {}
     taxonomy_index = {
+        "ranks": {rank: {} for rank in TAXONOMY_RANKS},
         "orders": {},
         "families": {},
+        "birds_by_taxon": defaultdict(list),
         "birds_by_order": defaultdict(list),
         "birds_by_family": defaultdict(list),
+        "children_by_parent": defaultdict(list),
         "family_children_by_order": defaultdict(list),
     }
 
     for bird in birds_by_id.values():
-        order_latin = bird.get("order", "")
-        family_latin = bird.get("family", "")
-        order_name = bird.get("orderCn") or order_latin
-        family_name = bird.get("familyCn") or family_latin
+        rank_nodes: Dict[str, Dict] = {}
 
-        order_node = None
-        family_node = None
+        for rank in TAXONOMY_RANKS:
+            latin_name, chinese_name = taxonomy_display_value(bird, rank)
+            display_name = chinese_name or latin_name
+            if not display_name:
+                continue
 
-        if order_name or order_latin:
-            order_node = ensure_taxonomy_node(nodes, taxonomy_nodes, "order", order_latin, order_name or order_latin)
-            taxonomy_index["orders"][order_node["id"]] = order_node
-            incoming_birds[order_node["id"]].append(bird["name"])
-            taxonomy_index["birds_by_order"][order_node["id"]].append(bird["id"])
-            bird["orderId"] = order_node["id"]
+            rank_node = ensure_taxonomy_node(nodes, taxonomy_nodes, rank, latin_name, display_name)
+            rank_nodes[rank] = rank_node
+            taxonomy_index["ranks"][rank][rank_node["id"]] = rank_node
+            taxonomy_index["birds_by_taxon"][rank_node["id"]].append(bird["id"])
+            incoming_birds[rank_node["id"]].append(bird["name"])
+            bird[f"{rank}Id"] = rank_node["id"]
+            bird["taxonomyIds"][rank] = rank_node["id"]
 
-        if family_name or family_latin:
-            family_node = ensure_taxonomy_node(nodes, taxonomy_nodes, "family", family_latin, family_name or family_latin)
-            taxonomy_index["families"][family_node["id"]] = family_node
-            incoming_birds[family_node["id"]].append(bird["name"])
-            taxonomy_index["birds_by_family"][family_node["id"]].append(bird["id"])
-            bird["familyId"] = family_node["id"]
+            if rank == "order":
+                taxonomy_index["orders"][rank_node["id"]] = rank_node
+                taxonomy_index["birds_by_order"][rank_node["id"]].append(bird["id"])
+            elif rank == "family":
+                taxonomy_index["families"][rank_node["id"]] = rank_node
+                taxonomy_index["birds_by_family"][rank_node["id"]].append(bird["id"])
 
-        if family_node:
+        lowest_rank = next((rank for rank in reversed(TAXONOMY_RANKS) if rank in rank_nodes), "")
+        if lowest_rank:
             add_unique_link(
                 links,
                 existing_link_keys,
                 bird["id"],
-                family_node["id"],
+                rank_nodes[lowest_rank]["id"],
+                f"belongs_to_{lowest_rank}",
+                RELATION_LABELS[f"belongs_to_{lowest_rank}"],
+                f"依据 birds.csv 中的{TAXONOMY_RANK_LABELS[lowest_rank]}字段补充。",
+            )
+
+        for child_rank, parent_rank in TAXONOMY_PARENT.items():
+            child_node = rank_nodes.get(child_rank)
+            parent_node = rank_nodes.get(parent_rank)
+            if not child_node or not parent_node:
+                continue
+            add_unique_link(
+                links,
+                existing_link_keys,
+                child_node["id"],
+                parent_node["id"],
+                f"belongs_to_{parent_rank}",
+                RELATION_LABELS[f"belongs_to_{parent_rank}"],
+                f"依据 birds.csv 分类字段补充：{child_node['name']} 属于{TAXONOMY_RANK_LABELS[parent_rank]} {parent_node['name']}。",
+            )
+            if child_node["id"] not in taxonomy_index["children_by_parent"][parent_node["id"]]:
+                taxonomy_index["children_by_parent"][parent_node["id"]].append(child_node["id"])
+
+        family_node = rank_nodes.get("family")
+        order_node = rank_nodes.get("order")
+        if family_node and order_node and family_node["id"] not in taxonomy_index["family_children_by_order"][order_node["id"]]:
+            taxonomy_index["family_children_by_order"][order_node["id"]].append(family_node["id"])
+
+        if "family" in rank_nodes:
+            add_unique_link(
+                links,
+                existing_link_keys,
+                bird["id"],
+                rank_nodes["family"]["id"],
                 "belongs_to_family",
                 RELATION_LABELS["belongs_to_family"],
                 "依据 birds.csv 中的 family / family_cn 字段补充。",
             )
 
-        if family_node and order_node:
-            add_unique_link(
-                links,
-                existing_link_keys,
-                family_node["id"],
-                order_node["id"],
-                "belongs_to_order",
-                RELATION_LABELS["belongs_to_order"],
-                "依据 birds.csv 中的 order / order_cn 与 family / family_cn 字段补充。",
-            )
-            if family_node["id"] not in taxonomy_index["family_children_by_order"][order_node["id"]]:
-                taxonomy_index["family_children_by_order"][order_node["id"]].append(family_node["id"])
-
-    for order_node in taxonomy_index["orders"].values():
-        order_node["memberCount"] = len(compact(taxonomy_index["birds_by_order"][order_node["id"]]))
-
-    for family_node in taxonomy_index["families"].values():
-        family_node["memberCount"] = len(compact(taxonomy_index["birds_by_family"][family_node["id"]]))
+    for rank_nodes in taxonomy_index["ranks"].values():
+        for rank_node in rank_nodes.values():
+            rank_node["memberCount"] = len(compact(taxonomy_index["birds_by_taxon"][rank_node["id"]]))
 
     complete_node_summaries(nodes, incoming_birds)
 
@@ -727,8 +949,8 @@ def build_graph() -> Dict:
             "title": "全球鸟类分布与生物多样性保护知识图谱",
             "mode": "chunked-static-data",
             "description": "由 data/birds.csv、data/locations.csv、data/relations.csv 自动构建为静态分片数据。",
-            "updated_at": datetime.now().date().isoformat(),
-            "generated_at": datetime.now().isoformat(timespec="seconds"),
+            "updated_at": source_datetime.date().isoformat(),
+            "generated_at": source_datetime.isoformat(timespec="seconds"),
             "source_files": [
                 "data/birds.csv",
                 "data/locations.csv",
@@ -947,10 +1169,17 @@ def serialize_overview_node(node: Dict) -> Dict:
                 "latinName": node.get("latinName", ""),
                 "order": node.get("order", ""),
                 "family": node.get("family", ""),
+                "genus": node.get("genus", ""),
+                "species": node.get("species", ""),
                 "orderCn": node.get("orderCn", ""),
                 "familyCn": node.get("familyCn", ""),
+                "genusCn": node.get("genusCn", ""),
+                "speciesCn": node.get("speciesCn", ""),
                 "orderId": node.get("orderId", ""),
                 "familyId": node.get("familyId", ""),
+                "genusId": node.get("genusId", ""),
+                "speciesId": node.get("speciesId", ""),
+                "taxonomyIds": node.get("taxonomyIds", {}),
             }
         )
     elif node["type"] == "taxonomy":
@@ -1021,21 +1250,54 @@ def serialize_preview_node(node: Dict) -> Dict:
     if node["type"] == "bird":
         data.update(
             {
+                "englishName": node.get("englishName", ""),
+                "latinName": node.get("latinName", ""),
+                "summary": node.get("summary", "")[:200] if node.get("summary") else "",
+                "lat": node.get("lat"),
+                "lng": node.get("lng"),
+                "status": node.get("status", ""),
+                "locations": node.get("locations", []),
+                "habitats": node.get("habitats", []),
+                "threats": node.get("threats", []),
                 "familyId": node.get("familyId", ""),
                 "orderId": node.get("orderId", ""),
+                "genusId": node.get("genusId", ""),
+                "speciesId": node.get("speciesId", ""),
             }
         )
     elif node["type"] == "taxonomy":
         data.update(
             {
+                "latinName": node.get("latinName", ""),
                 "taxonomyLevel": node.get("taxonomyLevel", ""),
+                "memberCount": node.get("memberCount", 0),
             }
         )
 
-    return {key: value for key, value in data.items() if value not in ("", None)}
+    return {key: value for key, value in data.items() if value not in ("", None, [])}
 
 
-def extract_chunk(node_id: str, nodes: Dict[str, Dict], links: List[Dict], adjacency: Dict[str, List[Dict]], taxonomy: Dict) -> Optional[Dict]:
+def write_json_if_changed(path: Path, payload: Dict, compact_json: bool = False) -> bool:
+    separators = (",", ":") if compact_json else None
+    content = json.dumps(payload, ensure_ascii=False, separators=separators)
+    if path.exists():
+        try:
+            if path.read_text(encoding="utf-8") == content:
+                return False
+        except OSError:
+            pass
+    path.write_text(content, encoding="utf-8")
+    return True
+
+
+def extract_chunk(
+    node_id: str,
+    nodes: Dict[str, Dict],
+    links: List[Dict],
+    adjacency: Dict[str, List[Dict]],
+    taxonomy: Dict,
+    generated_at: str,
+) -> Optional[Dict]:
     center = nodes.get(node_id)
     if not center:
         return None
@@ -1049,27 +1311,22 @@ def extract_chunk(node_id: str, nodes: Dict[str, Dict], links: List[Dict], adjac
         included_link_keys.add(link["key"])
 
     if center["type"] == "bird":
-        family_id = center.get("familyId")
-        order_id = center.get("orderId")
-        if family_id and family_id in nodes:
-            included_node_ids.add(family_id)
-            for link in adjacency.get(family_id, []):
-                if link["source"] == family_id or link["target"] == family_id:
-                    other_id = link["target"] if link["source"] == family_id else link["source"]
-                    if other_id == order_id:
-                        included_node_ids.add(other_id)
-                        included_link_keys.add(link["key"])
-        if order_id and order_id in nodes:
-            included_node_ids.add(order_id)
+        for taxon_id in center.get("taxonomyIds", {}).values():
+            if taxon_id in nodes:
+                included_node_ids.add(taxon_id)
+        for taxon_id in list(included_node_ids):
+            if taxon_id == node_id or nodes.get(taxon_id, {}).get("type") != "taxonomy":
+                continue
+            for link in adjacency.get(taxon_id, []):
+                if link["source"] in included_node_ids and link["target"] in included_node_ids:
+                    included_link_keys.add(link["key"])
 
-    if center["type"] == "taxonomy" and center.get("taxonomyLevel") == "family":
-        order_id = None
+    if center["type"] == "taxonomy":
         for link in adjacency.get(node_id, []):
-            if link["relation"] == "belongs_to_order":
-                order_id = link["target"] if link["source"] == node_id else link["source"]
-                break
-        if order_id:
-            included_node_ids.add(order_id)
+            if link["relation"].startswith("belongs_to_"):
+                included_node_ids.add(link["source"])
+                included_node_ids.add(link["target"])
+                included_link_keys.add(link["key"])
 
     included_nodes = [serialize_node(nodes[item_id]) for item_id in included_node_ids]
     included_links = [
@@ -1084,7 +1341,7 @@ def extract_chunk(node_id: str, nodes: Dict[str, Dict], links: List[Dict], adjac
         "meta": {
             "centerNodeId": node_id,
             "centerNodeType": center["type"],
-            "generatedAt": datetime.now().isoformat(timespec="seconds"),
+            "generatedAt": generated_at,
             "includedNodeCount": len(included_nodes),
             "includedLinkCount": len(included_links),
             "layoutMode": "precomputed-static",
@@ -1105,8 +1362,7 @@ def write_output_files(graph: Dict) -> None:
     taxonomy = graph["taxonomy"]
     meta = graph["meta"]
 
-    if OUTPUT_DIR.exists():
-        shutil.rmtree(OUTPUT_DIR)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     NODES_DIR.mkdir(parents=True, exist_ok=True)
     if LEGACY_OUTPUT_PATH.exists():
         LEGACY_OUTPUT_PATH.unlink()
@@ -1123,6 +1379,20 @@ def write_output_files(graph: Dict) -> None:
         (node for node in nodes.values() if node["type"] == "taxonomy" and node.get("taxonomyLevel") == "order"),
         key=lambda item: (item["name"], item["id"]),
     )
+    taxonomy_nodes = sorted(
+        (node for node in nodes.values() if node["type"] == "taxonomy"),
+        key=lambda item: (TAXONOMY_RANKS.index(item.get("taxonomyLevel", "species")), item["name"], item["id"]),
+    )
+    taxonomy_counts = {
+        TAXONOMY_COUNT_KEYS[rank]: len([node for node in taxonomy_nodes if node.get("taxonomyLevel") == rank])
+        for rank in TAXONOMY_RANKS
+    }
+
+    taxonomy_link_count = sum(1 for link in links if link["relation"].startswith("belongs_to_"))
+
+    relation_type_counts = {}
+    for link in links:
+        relation_type_counts[link["relation"]] = relation_type_counts.get(link["relation"], 0) + 1
 
     summary_payload = {
         "meta": {
@@ -1131,6 +1401,10 @@ def write_output_files(graph: Dict) -> None:
                 "birds": len(bird_nodes),
                 "orders": len(order_nodes),
                 "families": len(family_nodes),
+                "totalRelations": len(links),
+                "taxonomyRelations": taxonomy_link_count,
+                "relationTypes": relation_type_counts,
+                **taxonomy_counts,
             },
         },
         "columns": ["id", "name", "englishName", "latinName"],
@@ -1138,13 +1412,25 @@ def write_output_files(graph: Dict) -> None:
             [bird["id"], bird["name"], bird.get("englishName", ""), bird.get("latinName", "")]
             for bird in bird_nodes
         ],
+        "locations": [
+            {
+                "id": loc["id"],
+                "name": loc["name"],
+                "lat": loc.get("lat"),
+                "lng": loc.get("lng"),
+            }
+            for loc in sorted(
+                (node for node in nodes.values() if node["type"] == "location"),
+                key=lambda item: (item["name"], item["id"]),
+            )
+        ],
     }
-    (OUTPUT_DIR / "summary.json").write_text(json.dumps(summary_payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    write_json_if_changed(OUTPUT_DIR / "summary.json", summary_payload, compact_json=True)
 
     skeleton_links = [
         serialize_link(link)
         for link in links
-        if link["relation"] == "belongs_to_order"
+        if link["relation"].startswith("belongs_to_")
         and nodes[link["source"]]["type"] == "taxonomy"
         and nodes[link["target"]]["type"] == "taxonomy"
     ]
@@ -1152,42 +1438,37 @@ def write_output_files(graph: Dict) -> None:
         "meta": {
             **meta,
             "counts": {
-                "orders": len(order_nodes),
-                "families": len(family_nodes),
+                **taxonomy_counts,
                 "links": len(skeleton_links),
             },
             "layoutMode": "precomputed-static",
         },
-        "nodes": [serialize_node(node) for node in [*order_nodes, *family_nodes]],
+        "nodes": [serialize_node(node) for node in taxonomy_nodes],
         "links": skeleton_links,
     }
-    (OUTPUT_DIR / "taxonomy_skeleton.json").write_text(json.dumps(skeleton_payload, ensure_ascii=False), encoding="utf-8")
+    write_json_if_changed(OUTPUT_DIR / "taxonomy_skeleton.json", skeleton_payload)
 
     preview_links = [
         serialize_overview_link(link)
         for link in links
-        if link["relation"] in {"belongs_to_family", "belongs_to_order"}
+        if link["relation"].startswith("belongs_to_")
     ]
     preview_payload = {
         "meta": {
             **meta,
             "counts": {
                 "birds": len(bird_nodes),
-                "orders": len(order_nodes),
-                "families": len(family_nodes),
-                "nodes": len(order_nodes) + len(family_nodes) + len(bird_nodes),
+                **taxonomy_counts,
+                "nodes": len(taxonomy_nodes) + len(bird_nodes),
                 "links": len(preview_links),
             },
             "layoutMode": "precomputed-static",
             "scope": "startup-graph-preview",
         },
-        "nodes": [serialize_preview_node(node) for node in [*order_nodes, *family_nodes, *bird_nodes]],
+        "nodes": [serialize_preview_node(node) for node in [*taxonomy_nodes, *bird_nodes]],
         "links": preview_links,
     }
-    (OUTPUT_DIR / "graph_preview.json").write_text(
-        json.dumps(preview_payload, ensure_ascii=False, separators=(",", ":")),
-        encoding="utf-8",
-    )
+    write_json_if_changed(OUTPUT_DIR / "graph_preview.json", preview_payload, compact_json=True)
 
     overview_birds = [serialize_overview_bird(node) for node in bird_nodes]
     overview_payload = {
@@ -1207,16 +1488,34 @@ def write_output_files(graph: Dict) -> None:
     )
 
     adjacency = build_adjacency(links)
-    chunk_ids = [node["id"] for node in bird_nodes] + [node["id"] for node in family_nodes] + [node["id"] for node in order_nodes]
+    chunk_ids = [node["id"] for node in bird_nodes] + [node["id"] for node in taxonomy_nodes]
+    written_node_paths = set()
     for node_id in chunk_ids:
-        payload = extract_chunk(node_id, nodes, links, adjacency, taxonomy)
+        payload = extract_chunk(node_id, nodes, links, adjacency, taxonomy, meta["generated_at"])
         if not payload:
             continue
-        (NODES_DIR / f"{node_id}.json").write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+        node_path = NODES_DIR / f"{node_id}.json"
+        write_json_if_changed(node_path, payload)
+        written_node_paths.add(node_path)
+
+    for stale_path in NODES_DIR.glob("*.json"):
+        if stale_path not in written_node_paths:
+            stale_path.unlink()
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Build static bird knowledge graph data chunks.")
+    parser.add_argument(
+        "--skip-raw-summaries",
+        action="store_true",
+        help="Skip scanning wikipedia_raw and wikipedia_checkpoint JSON files; use birds.csv summaries only.",
+    )
+    return parser.parse_args()
 
 
 def main() -> None:
-    graph = build_graph()
+    args = parse_args()
+    graph = build_graph(skip_raw_summaries=args.skip_raw_summaries)
     nodes = graph["nodes"]
     birds_by_id = {node_id: node for node_id, node in nodes.items() if node["type"] == "bird"}
 

@@ -12,7 +12,42 @@ function toNumber(value) {
 }
 
 function makeAssetUrl(path) {
-  return `${import.meta.env.BASE_URL}${path}`
+  if (/^https?:\/\//.test(path)) return path
+  const base = import.meta.env.DEV ? '' : import.meta.env.BASE_URL
+  return `${base}${path}`
+}
+
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '')
+const USE_API = Boolean(API_BASE_URL)
+const NODE_EXPANSION_LIMITS = [80, 160, 300]
+
+function makeApiUrl(path) {
+  if (API_BASE_URL.endsWith('/api') && path.startsWith('/api/')) {
+    return `${API_BASE_URL}${path.slice(4)}`
+  }
+  return `${API_BASE_URL}${path}`
+}
+
+function dataEndpoint(staticPath, apiPath) {
+  return USE_API ? makeApiUrl(apiPath) : staticPath
+}
+
+const COUNTRY_LOCATION_NAMES = new Set([
+  '中国', '中华人民共和国', '日本', '韩国', '朝鲜', '蒙古', '俄罗斯', '俄羅斯', '印度', '尼泊尔', '不丹',
+  '缅甸', '越南', '老挝', '泰国', '柬埔寨', '菲律宾', '印度尼西亚', '马来西亚', '新加坡',
+  '澳大利亚', '新西兰', '美国', '加拿大', '墨西哥', '巴西', '阿根廷', '智利', '秘鲁',
+  '南非', '肯尼亚', '坦桑尼亚', '埃塞俄比亚', '英国', '法国', '德国', '意大利', '西班牙',
+  '葡萄牙', '荷兰', '波兰', '挪威', '瑞典', '芬兰', '丹麦',
+  'china', 'japan', 'south korea', 'north korea', 'mongolia', 'russia', 'india', 'nepal', 'bhutan',
+  'myanmar', 'vietnam', 'laos', 'thailand', 'cambodia', 'philippines', 'indonesia', 'malaysia',
+  'singapore', 'australia', 'new zealand', 'united states', 'united states of america', 'canada',
+  'mexico', 'brazil', 'argentina', 'chile', 'peru', 'south africa', 'kenya', 'tanzania', 'ethiopia',
+  'united kingdom', 'france', 'germany', 'italy', 'spain', 'portugal', 'netherlands', 'poland',
+  'norway', 'sweden', 'finland', 'denmark'
+])
+
+function isCountryLocation(node) {
+  return node?.type === 'location' && COUNTRY_LOCATION_NAMES.has(String(node.name || '').trim().toLowerCase())
 }
 
 function normalizeNode(node) {
@@ -22,14 +57,31 @@ function normalizeNode(node) {
     englishName: node.englishName || '',
     latinName: node.latinName || '',
     summary: node.summary || '',
+    shortSummary: node.shortSummary || '',
     imageUrl: node.imageUrl || '',
     status: node.status || '',
+    kingdom: node.kingdom || '',
+    phylum: node.phylum || '',
+    class: node.class || '',
     order: node.order || '',
     family: node.family || '',
+    genus: node.genus || '',
+    species: node.species || '',
+    kingdomCn: node.kingdomCn || '',
+    phylumCn: node.phylumCn || '',
+    classCn: node.classCn || '',
     orderCn: node.orderCn || '',
     familyCn: node.familyCn || '',
+    genusCn: node.genusCn || '',
+    speciesCn: node.speciesCn || '',
+    kingdomId: node.kingdomId || '',
+    phylumId: node.phylumId || '',
+    classId: node.classId || '',
     orderId: node.orderId || '',
     familyId: node.familyId || '',
+    genusId: node.genusId || '',
+    speciesId: node.speciesId || '',
+    taxonomyIds: node.taxonomyIds || {},
     taxonomyLevel: node.taxonomyLevel || '',
     locations: uniqueStrings(node.locations),
     habitats: uniqueStrings(node.habitats),
@@ -58,16 +110,35 @@ function mergeNodeData(existing, incoming) {
   }
 
   if (!incoming.summary && existing.summary) merged.summary = existing.summary
+  if (!incoming.shortSummary && existing.shortSummary) merged.shortSummary = existing.shortSummary
   if (!incoming.englishName && existing.englishName) merged.englishName = existing.englishName
   if (!incoming.latinName && existing.latinName) merged.latinName = existing.latinName
   if (!incoming.imageUrl && existing.imageUrl) merged.imageUrl = existing.imageUrl
   if (!incoming.status && existing.status) merged.status = existing.status
+  if (!incoming.kingdom && existing.kingdom) merged.kingdom = existing.kingdom
+  if (!incoming.phylum && existing.phylum) merged.phylum = existing.phylum
+  if (!incoming.class && existing.class) merged.class = existing.class
   if (!incoming.order && existing.order) merged.order = existing.order
   if (!incoming.family && existing.family) merged.family = existing.family
+  if (!incoming.genus && existing.genus) merged.genus = existing.genus
+  if (!incoming.species && existing.species) merged.species = existing.species
+  if (!incoming.kingdomCn && existing.kingdomCn) merged.kingdomCn = existing.kingdomCn
+  if (!incoming.phylumCn && existing.phylumCn) merged.phylumCn = existing.phylumCn
+  if (!incoming.classCn && existing.classCn) merged.classCn = existing.classCn
   if (!incoming.orderCn && existing.orderCn) merged.orderCn = existing.orderCn
   if (!incoming.familyCn && existing.familyCn) merged.familyCn = existing.familyCn
+  if (!incoming.genusCn && existing.genusCn) merged.genusCn = existing.genusCn
+  if (!incoming.speciesCn && existing.speciesCn) merged.speciesCn = existing.speciesCn
+  if (!incoming.kingdomId && existing.kingdomId) merged.kingdomId = existing.kingdomId
+  if (!incoming.phylumId && existing.phylumId) merged.phylumId = existing.phylumId
+  if (!incoming.classId && existing.classId) merged.classId = existing.classId
   if (!incoming.orderId && existing.orderId) merged.orderId = existing.orderId
   if (!incoming.familyId && existing.familyId) merged.familyId = existing.familyId
+  if (!incoming.genusId && existing.genusId) merged.genusId = existing.genusId
+  if (!incoming.speciesId && existing.speciesId) merged.speciesId = existing.speciesId
+  if (!Object.keys(incoming.taxonomyIds || {}).length && Object.keys(existing.taxonomyIds || {}).length) {
+    merged.taxonomyIds = existing.taxonomyIds
+  }
   if (!incoming.taxonomyLevel && existing.taxonomyLevel) merged.taxonomyLevel = existing.taxonomyLevel
   if (incoming.x == null && existing.x != null) merged.x = existing.x
   if (incoming.y == null && existing.y != null) merged.y = existing.y
@@ -110,6 +181,23 @@ function inflateSummaryItems(summary) {
   })
 }
 
+const PREVIEW_TAXONOMY_LEVELS = new Set(['kingdom', 'phylum', 'class', 'order', 'family'])
+
+function trimGraphPreviewPayload(payload) {
+  const keepNodeIds = new Set()
+  const nodes = (payload.nodes || []).filter(node => {
+    const keep = node.type !== 'taxonomy' || PREVIEW_TAXONOMY_LEVELS.has(node.taxonomyLevel)
+    if (keep) keepNodeIds.add(node.id)
+    return keep
+  })
+
+  return {
+    ...payload,
+    nodes,
+    links: (payload.links || []).filter(link => keepNodeIds.has(link.source) && keepNodeIds.has(link.target))
+  }
+}
+
 export const useGraphStore = defineStore('graph', () => {
   const meta = ref(null)
   const nodes = ref([])
@@ -120,6 +208,7 @@ export const useGraphStore = defineStore('graph', () => {
   const skeletonLoaded = ref(false)
 
   const summaryBirds = ref([])
+  const summaryLocations = ref([])
   const nodeMap = ref(new Map())
   const summaryMap = ref(new Map())
   const linkMap = ref(new Map())
@@ -128,6 +217,7 @@ export const useGraphStore = defineStore('graph', () => {
 
   const loadedChunkIds = ref(new Set())
   const pendingChunkIds = ref(new Set())
+  const nodeExpansionLimits = ref(new Map())
   const lastMutation = ref(null)
   const activeNodeId = ref('')
   const focusRequest = ref({ id: '', nonce: 0 })
@@ -152,6 +242,7 @@ export const useGraphStore = defineStore('graph', () => {
   const nodeCount = computed(() => nodes.value.length)
   const linkCount = computed(() => links.value.length)
   const totalBirdCount = computed(() => summaryBirds.value.length)
+  const totalRelationCount = computed(() => meta.value?.counts?.totalRelations ?? 0)
   const loadedBirdCount = computed(() => birdNodes.value.length)
   const loadedChunkCount = computed(() => loadedChunkIds.value.size)
 
@@ -161,6 +252,21 @@ export const useGraphStore = defineStore('graph', () => {
 
   function isChunkPending(nodeId) {
     return pendingChunkIds.value.has(nodeId)
+  }
+
+  function getNodeExpansionLimit(nodeId) {
+    return nodeExpansionLimits.value.get(nodeId) || 0
+  }
+
+  function nextNodeExpansionLimit(nodeId) {
+    const current = getNodeExpansionLimit(nodeId)
+    return NODE_EXPANSION_LIMITS.find(limit => limit > current) || NODE_EXPANSION_LIMITS[NODE_EXPANSION_LIMITS.length - 1]
+  }
+
+  function setNodeExpansionLimit(nodeId, limit) {
+    const next = new Map(nodeExpansionLimits.value)
+    next.set(nodeId, limit)
+    nodeExpansionLimits.value = next
   }
 
   function addSetValue(setRef, value) {
@@ -199,7 +305,11 @@ export const useGraphStore = defineStore('graph', () => {
   }
 
   async function fetchJson(path) {
-    const response = await fetch(makeAssetUrl(path))
+    const url = makeAssetUrl(path)
+    const isSummary = path.endsWith('summary.json')
+    const response = await fetch(isSummary ? `${url}?v=${Date.now()}` : url, {
+      cache: isSummary ? 'no-store' : 'default'
+    })
     if (!response.ok) {
       throw new Error(`Failed to load ${path}: ${response.status} ${response.statusText}`)
     }
@@ -240,6 +350,7 @@ export const useGraphStore = defineStore('graph', () => {
     for (const payload of payloads || []) {
       for (const rawNode of payload.nodes || []) {
         const incoming = normalizeNode(rawNode)
+        if (isCountryLocation(incoming)) continue
         const existing = nodeMap.value.get(incoming.id)
         const merged = existing ? mergeNodeData(existing, incoming) : incoming
         nodeMap.value.set(merged.id, merged)
@@ -299,10 +410,11 @@ export const useGraphStore = defineStore('graph', () => {
     if (initialPromise) return initialPromise
 
     loading.value = true
-    initialPromise = fetchJson('data/summary.json').then(summary => {
+    initialPromise = fetchJson(dataEndpoint('data/summary.json', '/api/summary')).then(summary => {
       const birds = inflateSummaryItems(summary)
       summaryBirds.value = birds
       summaryMap.value = new Map(birds.map(bird => [bird.id, bird]))
+      summaryLocations.value = summary.locations || []
       summaryLoaded.value = true
 
       meta.value = summary.meta || null
@@ -315,36 +427,56 @@ export const useGraphStore = defineStore('graph', () => {
     return initialPromise
   }
 
-  async function loadNodeChunk(nodeId) {
+  async function loadNodeChunk(nodeId, options = {}) {
     if (!nodeId) return null
     await loadInitialData()
 
-    if (hasLoadedChunk(nodeId)) {
+    const nextLimit = USE_API ? (options.limit || nextNodeExpansionLimit(nodeId)) : 0
+    const maxLimit = NODE_EXPANSION_LIMITS[NODE_EXPANSION_LIMITS.length - 1]
+    const loadedEnough = USE_API
+      ? hasLoadedChunk(nodeId) && getNodeExpansionLimit(nodeId) >= maxLimit && !options.force
+      : hasLoadedChunk(nodeId)
+
+    if (loadedEnough) {
       activeNodeId.value = nodeId
       requestNodeFocus(nodeId)
       return getNodeById(nodeId)
     }
 
-    if (chunkPromises.has(nodeId)) return chunkPromises.get(nodeId)
+    const requestKey = USE_API ? `${nodeId}:${nextLimit}` : nodeId
+    if (chunkPromises.has(requestKey)) return chunkPromises.get(requestKey)
 
     addSetValue(pendingChunkIds, nodeId)
 
-    const promise = fetchJson(`data/nodes/${encodeURIComponent(nodeId)}.json`)
+    const apiPath = `/api/nodes/${encodeURIComponent(nodeId)}${USE_API ? `?limit=${nextLimit}` : ''}`
+    const promise = fetchJson(dataEndpoint(`data/nodes/${encodeURIComponent(nodeId)}.json`, apiPath))
       .then(chunk => {
         mergeGraphData(chunk, {
           chunkId: nodeId,
           centerId: chunk.meta?.centerNodeId || nodeId
         })
+        if (USE_API) setNodeExpansionLimit(nodeId, nextLimit)
         activeNodeId.value = chunk.meta?.centerNodeId || nodeId
         requestNodeFocus(activeNodeId.value)
         return chunk
       })
+      .catch(err => {
+        if (err.message && err.message.includes('404')) {
+          addSetValue(loadedChunkIds, nodeId)
+          if (getNodeById(nodeId)) {
+            activeNodeId.value = nodeId
+            requestNodeFocus(nodeId)
+          }
+          return null
+        }
+        throw err
+      })
       .finally(() => {
         removeSetValue(pendingChunkIds, nodeId)
-        chunkPromises.delete(nodeId)
+        chunkPromises.delete(requestKey)
       })
 
-    chunkPromises.set(nodeId, promise)
+    chunkPromises.set(requestKey, promise)
     return promise
   }
 
@@ -405,9 +537,10 @@ export const useGraphStore = defineStore('graph', () => {
 
     previewLoading.value = true
 
-    previewPromise = fetchJson('data/graph_preview.json')
+    previewPromise = fetchJson(dataEndpoint('data/graph_preview.json', '/api/graph/preview'))
       .then(preview => {
-        mergeGraphData(preview, {
+        const trimmedPreview = trimGraphPreviewPayload(preview)
+        mergeGraphData(trimmedPreview, {
           chunkId: previewChunkId,
           centerId: null
         })
@@ -546,6 +679,7 @@ export const useGraphStore = defineStore('graph', () => {
     summaryLoaded,
     skeletonLoaded,
     summaryBirds,
+    summaryLocations,
     nodeMap,
     summaryMap,
     linkMap,
@@ -553,6 +687,7 @@ export const useGraphStore = defineStore('graph', () => {
     degreeMap,
     loadedChunkIds,
     pendingChunkIds,
+    nodeExpansionLimits,
     lastMutation,
     activeNodeId,
     focusRequest,
@@ -570,10 +705,12 @@ export const useGraphStore = defineStore('graph', () => {
     nodeCount,
     linkCount,
     totalBirdCount,
+    totalRelationCount,
     loadedBirdCount,
     loadedChunkCount,
     hasLoadedChunk,
     isChunkPending,
+    getNodeExpansionLimit,
     buildIndexes,
     loadData,
     loadInitialData,

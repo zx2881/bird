@@ -1,7 +1,10 @@
 <template>
   <div class="detail-page">
     <aside class="detail-sidebar panel">
-      <h3 class="sidebar-title">切换物种</h3>
+      <h3 class="sidebar-title">
+        <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h12M4 10h12M4 16h12"/></svg>
+        切换物种
+      </h3>
       <input
         v-model="switchQuery"
         type="text"
@@ -20,122 +23,154 @@
           <span class="switch-name">{{ item.name }}</span>
           <span class="switch-meta">{{ item.englishName || '暂无英文名' }}</span>
         </button>
+        <p v-if="!switchResults.length" class="switch-empty">未找到匹配物种</p>
       </div>
     </aside>
 
     <section class="detail-content-area">
-      <button class="back-btn" @click="router.back()">← 返回图谱</button>
+      <button class="back-btn" @click="router.back()">
+        <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="12 4 6 10 12 16"/></svg>
+        返回图谱
+      </button>
 
-      <div v-if="bird" class="detail-card-inner">
-        <div class="detail-top-bar">
-          <div class="detail-header">
-            <h2 class="detail-bird-name">{{ bird.name }}</h2>
-            <span v-if="bird.status" class="detail-status" :class="statusClass(bird.status)">
-              {{ endangermentLabels[bird.status] || bird.status }}
-            </span>
+      <Transition name="detail-enter" mode="out-in">
+        <div v-if="bird" :key="birdId" class="detail-card-inner">
+          <div class="detail-hero" :class="`hero-${bird.status || 'lc'}`">
+            <div class="detail-hero-bg" :style="{ background: statusGradient(bird.status) }"></div>
+            <img
+              v-if="bird.imageUrl"
+              :src="bird.imageUrl"
+              :alt="bird.name"
+              class="detail-hero-img"
+              @error="onDetailImgError"
+            />
+            <div class="detail-hero-placeholder" v-else>
+              <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1" opacity="0.5">
+                <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+              </svg>
+              <span>{{ bird.name }}</span>
+            </div>
+            <div class="detail-hero-overlay"></div>
+            <div class="detail-hero-content">
+              <div class="detail-header">
+                <h2 class="detail-bird-name">{{ bird.name }}</h2>
+                <div class="detail-header-row">
+                  <span v-if="bird.status" class="detail-status" :class="`hero-status-${bird.status || 'lc'}`">
+                    {{ endangermentLabels[bird.status] || bird.status }}
+                  </span>
+                  <span v-if="bird.englishName" class="detail-english-inline">{{ bird.englishName }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-taxonomy-path">
+            <div
+              v-for="(item, i) in taxonomyItems"
+              :key="item.label"
+              class="taxonomy-node"
+              :class="{ 'taxonomy-node-last': i === taxonomyItems.length - 1, 'taxonomy-node-missing': !item.value || item.value === '暂无' }"
+            >
+              <div class="taxonomy-dot" :class="{ 'taxonomy-dot-active': i === taxonomyItems.length - 1 }">
+                <span class="taxonomy-dot-label">{{ item.label }}</span>
+              </div>
+              <span class="taxonomy-node-value">{{ item.value || '暂无' }}</span>
+              <svg v-if="i < taxonomyItems.length - 1" class="taxonomy-connector" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </div>
+          </div>
+
+          <div class="detail-summary-section">
+            <p class="detail-summary-text">{{ displaySummary }}</p>
+            <button
+              v-if="bird.summary && bird.summary.length > 100"
+              class="expand-btn"
+              @click="summaryExpanded = !summaryExpanded"
+            >
+              {{ summaryExpanded ? '收起 ▲' : '展开全文 ▼' }}
+            </button>
+          </div>
+
+          <div class="detail-stats-row">
+            <div class="stat-card" :style="{ animationDelay: '0.05s' }">
+              <span class="stat-number">{{ bird.locations?.length || 0 }}</span>
+              <span class="stat-label">分布地点</span>
+            </div>
+            <div class="stat-card" :style="{ animationDelay: '0.1s' }">
+              <span class="stat-number">{{ bird.habitats?.length || 0 }}</span>
+              <span class="stat-label">栖息地类型</span>
+            </div>
+            <div class="stat-card" :style="{ animationDelay: '0.15s' }">
+              <span class="stat-number">{{ bird.threats?.length || 0 }}</span>
+              <span class="stat-label">威胁因素</span>
+            </div>
+            <div class="stat-card" :style="{ animationDelay: '0.2s' }">
+              <span class="stat-number">{{ store.getNodeDegree(birdId) }}</span>
+              <span class="stat-label">当前关联</span>
+            </div>
+          </div>
+
+          <div class="detail-info-grid">
+            <div class="info-item">
+              <span class="info-label">英文名</span>
+              <span class="info-value">{{ bird.englishName || '暂无' }}</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">学名</span>
+              <span class="info-value"><em>{{ bird.latinName || '暂无' }}</em></span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">所属洲别</span>
+              <span class="info-value">{{ store.getBirdContinent(birdId) }}</span>
+            </div>
+            <div class="info-item info-item-full">
+              <span class="info-label">主要分布</span>
+              <span class="info-value">{{ formatList(bird.locations) }}</span>
+            </div>
+            <div class="info-item info-item-full">
+              <span class="info-label">栖息地</span>
+              <span class="info-value">{{ formatList(bird.habitats) }}</span>
+            </div>
+            <div class="info-item info-item-full">
+              <span class="info-label">威胁因素</span>
+              <span class="info-value">{{ formatList(bird.threats) }}</span>
+            </div>
+          </div>
+
+          <div class="detail-map-section">
+            <h3 class="section-title">
+              <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              分布位置
+            </h3>
+            <div v-if="bird.lat != null && bird.lng != null" ref="detailMapRef" class="detail-map"></div>
+            <p v-else class="empty-tip">当前切片中暂无可用坐标。</p>
+          </div>
+
+          <div class="detail-relations-section">
+            <h3 class="section-title">
+              <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="5" r="3"/><path d="M3 16c0-3.5 3.13-6 7-6s7 2.5 7 6"/></svg>
+              当前已加载关系
+            </h3>
+            <div v-if="incidentLinks.length" class="relation-chip-row">
+              <span
+                v-for="link in incidentLinks"
+                :key="link.key"
+                class="relation-chip"
+                :class="`chip-${relationChipType(link.relation)}`"
+              >
+                <span class="chip-type">{{ link.label || link.relation }}</span>
+                <span class="chip-sep"></span>
+                <span class="chip-target">{{ relationOtherName(link) }}</span>
+              </span>
+            </div>
+            <p v-else class="empty-tip">当前没有已载入的相邻关系。</p>
           </div>
         </div>
 
-        <div class="detail-image-wrap">
-          <div class="detail-image-bg" :style="{ background: statusGradient(bird.status) }"></div>
-          <img
-            v-if="bird.imageUrl"
-            :src="bird.imageUrl"
-            :alt="bird.name"
-            class="detail-image"
-            @error="onDetailImgError"
-          />
-          <div v-else class="detail-image-placeholder">
-            <span>{{ bird.name }}</span>
-          </div>
-          <div v-if="bird.status" class="detail-image-status" :class="statusClass(bird.status)">
-            {{ statusLabel(bird.status) }}
-          </div>
+        <div v-else key="loading" class="loading-state">
+          <span class="loading-spinner"></span>
+          正在加载物种详情…
         </div>
-
-        <div class="detail-summary-section">
-          <p class="detail-summary-text">{{ displaySummary }}</p>
-          <button
-            v-if="bird.summary && bird.summary.length > 100"
-            class="expand-btn"
-            @click="summaryExpanded = !summaryExpanded"
-          >
-            {{ summaryExpanded ? '收起' : '展开全文' }}
-          </button>
-        </div>
-
-        <div class="detail-stats-row">
-          <div class="stat-card">
-            <span class="stat-number">{{ bird.locations?.length || 0 }}</span>
-            <span class="stat-label">分布地点</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-number">{{ bird.habitats?.length || 0 }}</span>
-            <span class="stat-label">栖息地类型</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-number">{{ bird.threats?.length || 0 }}</span>
-            <span class="stat-label">威胁因素</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-number">{{ store.getNodeDegree(birdId) }}</span>
-            <span class="stat-label">当前关联</span>
-          </div>
-        </div>
-
-        <div class="detail-info-grid">
-          <div class="info-item">
-            <span class="info-label">英文名</span>
-            <span class="info-value">{{ bird.englishName || '暂无' }}</span>
-          </div>
-          <div class="info-item">
-            <span class="info-label">学名</span>
-            <span class="info-value"><em>{{ bird.latinName || '暂无' }}</em></span>
-          </div>
-          <div class="info-item">
-            <span class="info-label">所属目</span>
-            <span class="info-value">{{ bird.orderCn || bird.order || '暂无' }}</span>
-          </div>
-          <div class="info-item">
-            <span class="info-label">所属科</span>
-            <span class="info-value">{{ bird.familyCn || bird.family || '暂无' }}</span>
-          </div>
-          <div class="info-item">
-            <span class="info-label">主要分布</span>
-            <span class="info-value">{{ formatList(bird.locations) }}</span>
-          </div>
-          <div class="info-item">
-            <span class="info-label">栖息地</span>
-            <span class="info-value">{{ formatList(bird.habitats) }}</span>
-          </div>
-          <div class="info-item">
-            <span class="info-label">威胁因素</span>
-            <span class="info-value">{{ formatList(bird.threats) }}</span>
-          </div>
-          <div class="info-item">
-            <span class="info-label">所属洲别</span>
-            <span class="info-value">{{ store.getBirdContinent(birdId) }}</span>
-          </div>
-        </div>
-
-        <div class="detail-map-section">
-          <h3 class="section-title">分布位置</h3>
-          <div v-if="hasMapPoints" ref="detailMapRef" class="detail-map"></div>
-          <p v-else class="empty-tip">当前切片中暂无可用坐标。</p>
-        </div>
-
-        <div class="detail-relations-section">
-          <h3 class="section-title">当前已加载关系</h3>
-          <div class="relation-chip-row">
-            <span v-for="link in incidentLinks" :key="link.key" class="relation-chip">
-              {{ relationText(link) }}
-            </span>
-          </div>
-          <p v-if="!incidentLinks.length" class="empty-tip">当前没有已载入的相邻关系。</p>
-        </div>
-      </div>
-
-      <div v-else class="loading-state">正在加载物种详情…</div>
+      </Transition>
     </section>
   </div>
 </template>
@@ -191,13 +226,33 @@ function statusLabel(status) {
 
 function statusGradient(status) {
   const gradients = {
-    CR: 'linear-gradient(135deg, #fecaca, #ef4444)',
-    EN: 'linear-gradient(135deg, #fed7aa, #f97316)',
-    VU: 'linear-gradient(135deg, #fef08a, #eab308)',
-    NT: 'linear-gradient(135deg, #bbf7d0, #22c55e)',
-    LC: 'linear-gradient(135deg, #bbf7d0, #16a34a)'
+    CR: 'linear-gradient(135deg, #7f1d1d 0%, #dc2626 40%, #fca5a5 100%)',
+    EN: 'linear-gradient(135deg, #7c2d12 0%, #ea580c 40%, #fdba74 100%)',
+    VU: 'linear-gradient(135deg, #713f12 0%, #ca8a04 40%, #fde047 100%)',
+    NT: 'linear-gradient(135deg, #14532d 0%, #16a34a 40%, #86efac 100%)',
+    LC: 'linear-gradient(135deg, #0f2b33 0%, #0f766e 60%, #5eead4 100%)'
   }
-  return gradients[status] || 'linear-gradient(135deg, #e2e8f0, #94a3b8)'
+  return gradients[status] || 'linear-gradient(135deg, #1e293b 0%, #475569 60%, #94a3b8 100%)'
+}
+
+function relationChipType(relation) {
+  const map = {
+    'distributed_in': 'lives',
+    'lives_in': 'lives',
+    'has_status': 'status',
+    'threatened_by': 'threat',
+    'belongs_to_order': 'taxonomy',
+    'belongs_to_family': 'taxonomy',
+    'belongs_to_genus': 'taxonomy',
+    'belongs_to_species': 'taxonomy'
+  }
+  return map[relation] || 'default'
+}
+
+function relationOtherName(link) {
+  const otherId = link.source === birdId.value ? link.target : link.source
+  const other = store.getNodeById(otherId)
+  return other?.name || otherId
 }
 
 function onDetailImgError(event) {
@@ -269,6 +324,18 @@ const mapPoints = computed(() => {
 
 const hasMapPoints = computed(() => mapPoints.value.length > 0)
 
+const taxonomyItems = computed(() => {
+  const node = bird.value || {}
+  return [
+    ['界', node.kingdomCn || node.kingdom || '动物界'],
+    ['门', node.phylumCn || node.phylum || '脊索动物门'],
+    ['纲', node.classCn || node.class || '鸟纲'],
+    ['目', node.orderCn || node.order],
+    ['科', node.familyCn || node.family],
+    ['属', node.genusCn || node.genus],
+    ['种', node.speciesCn || node.species || node.name]
+  ].map(([label, value]) => ({ label, value: value || '暂无' }))
+})
 function formatList(values) {
   return Array.isArray(values) && values.length ? values.join('、') : '暂无'
 }
@@ -387,329 +454,313 @@ onBeforeUnmount(() => {
 <style scoped>
 .detail-page {
   display: flex;
-  gap: 18px;
+  gap: 20px;
   min-height: 60vh;
 }
 
 .detail-sidebar {
   width: 280px;
   flex-shrink: 0;
-  padding: 16px;
+  padding: 18px;
 }
 
 .sidebar-title {
-  margin: 0 0 12px;
-  font-size: 15px;
+  margin: 0 0 14px;
+  font-size: 14px;
+  font-weight: 700;
   color: var(--heading-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .switch-input {
   width: 100%;
-  padding: 10px 12px;
+  padding: 10px 14px;
   border-radius: 12px;
   border: 1px solid var(--panel-border);
   background: var(--nav-bg);
   color: var(--text-color);
   font-size: 13px;
   outline: none;
+  transition: all 0.25s ease;
 }
+.switch-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(15,118,110,0.08); }
+.switch-input::placeholder { color: var(--text-secondary); opacity: 0.6; }
 
 .switch-list {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  max-height: 72vh;
-  margin-top: 12px;
+  max-height: 68vh;
+  margin-top: 14px;
   overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--panel-border) transparent;
 }
 
 .switch-item {
-  padding: 10px 12px;
+  padding: 12px 14px;
   border-radius: 14px;
   border: 1px solid var(--panel-border);
   background: var(--card-bg);
   color: inherit;
   text-align: left;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
 }
-
-.switch-item:hover,
+.switch-item:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateX(4px);
+}
 .switch-item.active {
   border-color: var(--accent);
   background: var(--accent-soft);
+  box-shadow: 0 0 0 3px rgba(15,118,110,0.1);
 }
+.switch-name { display: block; font-size: 14px; font-weight: 700; color: var(--heading-color); }
+.switch-meta { display: block; margin-top: 4px; font-size: 11px; color: var(--text-secondary); }
+.switch-empty { padding: 20px; text-align: center; font-size: 13px; color: var(--text-secondary); }
 
-.switch-name {
-  display: block;
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--heading-color);
-}
-
-.switch-meta {
-  display: block;
-  margin-top: 4px;
-  font-size: 12px;
-  color: var(--text-secondary);
-}
-
-.detail-content-area {
-  flex: 1;
-}
+.detail-content-area { flex: 1; min-width: 0; }
 
 .back-btn {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  padding: 8px 16px;
-  margin-bottom: 12px;
+  gap: 6px;
+  padding: 9px 18px;
+  margin-bottom: 14px;
   border: 1px solid var(--panel-border);
   border-radius: 999px;
   background: var(--nav-bg);
   color: var(--text-color);
-  font-size: 13px;
+  font-size: 13px; font-weight: 500;
   cursor: pointer;
+  transition: all 0.25s ease;
 }
+.back-btn:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+
+.detail-enter-enter-active { transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.16,1,0.3,1); }
+.detail-enter-leave-active { transition: opacity 0.2s ease, transform 0.2s ease; }
+.detail-enter-enter-from { opacity: 0; transform: translateY(16px); }
+.detail-enter-leave-to { opacity: 0; transform: translateY(-8px); }
 
 .detail-card-inner {
-  padding: 24px;
-  border-radius: 24px;
+  border-radius: var(--radius-xl);
   background: var(--card-bg);
   border: 1px solid var(--panel-border);
   box-shadow: var(--shadow);
-}
-
-.detail-top-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 18px;
-}
-
-.detail-header {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  flex-wrap: wrap;
-}
-
-.detail-bird-name {
-  margin: 0;
-  font-size: 28px;
-  font-family: "Alegreya", "Source Han Serif SC", "Noto Serif SC", serif;
-  color: var(--heading-color);
-}
-
-.detail-status {
-  padding: 4px 12px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 700;
-  color: #fff;
-}
-
-.status-cr { background: #dc2626; }
-.status-en { background: #b45309; }
-.status-vu { background: #ea580c; }
-.status-nt { background: #ca8a04; }
-.status-lc { background: #16a34a; }
-
-.detail-image-wrap {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  margin-bottom: 20px;
-  border-radius: 18px;
   overflow: hidden;
-  background: #e2e8f0;
 }
 
-.detail-image-bg {
-  position: absolute;
-  inset: 0;
-  opacity: 0.2;
-}
-
-.detail-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.detail-image-placeholder {
+.detail-hero {
   position: relative;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  height: 100%;
-  font-size: 28px;
-  font-weight: 700;
-  color: rgba(15, 23, 42, 0.72);
+  height: 340px;
+  overflow: hidden;
+}
+.detail-hero-bg { position: absolute; inset: 0; }
+.detail-hero-img { width: 100%; height: 100%; object-fit: cover; position: relative; z-index: 1; }
+.detail-hero-placeholder {
+  position: relative; z-index: 1;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  width: 100%; height: 100%;
+  font-size: 22px; font-weight: 700; color: rgba(255,255,255,0.8);
+  gap: 12px;
+}
+.detail-hero-overlay {
+  position: absolute; inset: 0; z-index: 2;
+  background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0.75) 100%);
+}
+.detail-hero-content {
+  position: absolute; bottom: 0; left: 0; right: 0; z-index: 3;
+  padding: 32px 28px 28px;
+}
+.detail-header { display: flex; flex-direction: column; gap: 10px; }
+.detail-bird-name {
+  margin: 0; font-size: 34px; font-weight: 800;
+  font-family: "Alegreya","Source Han Serif SC","Noto Serif SC",serif;
+  color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  line-height: 1.15;
+}
+.detail-header-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.detail-status {
+  padding: 5px 16px; border-radius: 999px;
+  font-size: 12px; font-weight: 700; color: #fff;
+  backdrop-filter: blur(6px);
+}
+.hero-status-CR { background: rgba(220,38,38,0.85); }
+.hero-status-EN { background: rgba(234,88,12,0.85); }
+.hero-status-VU { background: rgba(202,138,4,0.85); }
+.hero-status-NT { background: rgba(22,163,74,0.85); }
+.hero-status-LC { background: rgba(15,118,110,0.85); }
+.detail-english-inline {
+  font-size: 15px; color: rgba(255,255,255,0.85); font-style: italic;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.3);
 }
 
-.detail-image-status {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  padding: 6px 16px;
-  border-radius: 999px;
-  font-size: 13px;
-  font-weight: 700;
-  color: #fff;
+.detail-taxonomy-path {
+  display: flex; align-items: flex-start; gap: 0;
+  padding: 20px 24px; overflow-x: auto;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--panel-border);
+  scrollbar-width: thin; scrollbar-color: var(--panel-border) transparent;
+}
+.taxonomy-node {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 8px; flex-shrink: 0; position: relative;
+}
+.taxonomy-dot {
+  width: 36px; height: 36px; border-radius: 50%;
+  background: var(--card-bg); border: 2px solid var(--panel-border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 10px; font-weight: 700; color: var(--text-secondary);
+  transition: all 0.3s ease;
+}
+.taxonomy-dot-active {
+  background: var(--accent); border-color: var(--accent);
+  color: #fff; box-shadow: 0 0 0 4px var(--accent-soft);
+  width: 42px; height: 42px;
+}
+.taxonomy-node-missing .taxonomy-dot { opacity: 0.4; }
+.taxonomy-dot-label { font-size: 11px; }
+.taxonomy-node-value {
+  font-size: 12px; color: var(--text-color); font-weight: 500;
+  max-width: 72px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.taxonomy-node-missing .taxonomy-node-value { color: var(--text-secondary); }
+.taxonomy-connector {
+  position: absolute; top: 14px; left: calc(100% - 4px);
+  color: var(--text-secondary); opacity: 0.5;
 }
 
-.detail-summary-section {
-  margin-bottom: 20px;
-}
-
-.detail-summary-text {
-  margin: 0 0 10px;
-  color: var(--text-color);
-  line-height: 1.7;
-  font-size: 15px;
-}
-
+.detail-summary-section { padding: 20px 28px 12px; }
+.detail-summary-text { margin: 0 0 10px; color: var(--text-color); line-height: 1.78; font-size: 15px; }
 .expand-btn {
-  padding: 6px 14px;
-  border-radius: 999px;
+  padding: 7px 16px; border-radius: 999px;
   border: 1px solid var(--panel-border);
-  background: rgba(255, 255, 255, 0.72);
-  color: var(--accent);
-  cursor: pointer;
+  background: var(--nav-bg); color: var(--accent);
+  font-size: 13px; font-weight: 500;
+  cursor: pointer; transition: all 0.2s ease;
 }
+.expand-btn:hover { border-color: var(--accent); background: var(--accent-soft); }
 
 .detail-stats-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin-bottom: 20px;
+  gap: 14px;
+  padding: 8px 28px 20px;
 }
-
 .stat-card {
-  padding: 16px;
-  border-radius: 14px;
-  background: var(--accent-soft);
-  text-align: center;
+  padding: 20px 16px; border-radius: var(--radius-lg);
+  background: var(--accent-soft); text-align: center;
   border: 1px solid var(--panel-border);
+  transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+  animation: stat-pop-in 0.45s cubic-bezier(0.16,1,0.3,1) backwards;
 }
-
-.stat-number {
-  display: block;
-  font-size: 28px;
-  font-weight: 800;
-  color: var(--accent);
-  line-height: 1.1;
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  border-color: var(--accent);
 }
-
-.stat-label {
-  display: block;
-  margin-top: 4px;
-  font-size: 12px;
-  color: var(--text-secondary);
+@keyframes stat-pop-in {
+  from { opacity: 0; transform: scale(0.9) translateY(8px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
 }
+.stat-number { display: block; font-size: 32px; font-weight: 800; color: var(--accent); line-height: 1.1; font-variant-numeric: tabular-nums; }
+.stat-label { display: block; margin-top: 6px; font-size: 12px; color: var(--text-secondary); font-weight: 500; }
 
 .detail-info-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-bottom: 20px;
+  gap: 14px;
+  padding: 0 28px 20px;
 }
-
 .info-item {
-  padding: 14px 16px;
-  border-radius: 14px;
-  background: var(--accent-soft);
-  border: 1px solid var(--panel-border);
+  padding: 16px 18px; border-radius: var(--radius-lg);
+  background: var(--accent-soft); border: 1px solid var(--panel-border);
+  transition: all 0.25s ease;
 }
-
-.info-label {
-  display: block;
-  margin-bottom: 6px;
-  font-size: 12px;
-  color: var(--text-secondary);
-}
-
-.info-value {
-  font-size: 14px;
-  color: var(--text-color);
-  font-weight: 500;
-}
+.info-item:hover { border-color: var(--accent); }
+.info-item-full { grid-column: 1 / -1; }
+.info-label { display: block; margin-bottom: 6px; font-size: 11px; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; }
+.info-value { font-size: 14px; color: var(--text-color); font-weight: 500; line-height: 1.6; }
 
 .detail-map-section,
 .detail-relations-section {
-  margin-bottom: 18px;
+  padding: 0 28px 24px;
 }
-
 .section-title {
-  margin: 0 0 12px;
-  font-size: 16px;
+  margin: 0 0 14px; font-size: 16px; font-weight: 700;
   color: var(--heading-color);
+  display: flex; align-items: center; gap: 8px;
 }
 
 .detail-map {
   width: 100%;
-  height: 260px;
-  border-radius: 16px;
+  height: 280px;
+  border-radius: var(--radius-lg);
   overflow: hidden;
   border: 1px solid var(--panel-border);
 }
 
-.relation-chip-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
+.relation-chip-row { display: flex; flex-wrap: wrap; gap: 10px; }
 .relation-chip {
-  display: inline-flex;
-  align-items: center;
-  padding: 10px 14px;
-  border-radius: 999px;
-  background: var(--accent-soft);
+  display: inline-flex; align-items: center; gap: 0;
+  border-radius: 999px; font-size: 13px; color: var(--text-color);
   border: 1px solid var(--panel-border);
-  font-size: 13px;
-  color: var(--text-color);
+  background: var(--card-bg);
+  overflow: hidden;
+  transition: all 0.25s ease;
 }
+.relation-chip:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.chip-type {
+  padding: 8px 12px; font-size: 11px; font-weight: 600;
+  color: #fff; letter-spacing: 0.02em;
+}
+.chip-sep { width: 1px; align-self: stretch; background: var(--panel-border); }
+.chip-target { padding: 8px 14px; font-weight: 500; }
 
-.empty-tip,
-.loading-state {
-  color: var(--text-secondary);
-  font-size: 14px;
-}
+.chip-lives .chip-type { background: var(--success); }
+.chip-habitat .chip-type { background: #0284c7; }
+.chip-status .chip-type { background: #f59e0b; }
+.chip-threat .chip-type { background: var(--danger); }
+.chip-taxonomy .chip-type { background: #7c3aed; }
+.chip-default .chip-type { background: var(--accent); }
+.chip-lives { border-color: rgba(22,163,74,0.3); }
+.chip-habitat { border-color: rgba(2,132,199,0.3); }
+.chip-status { border-color: rgba(245,158,11,0.3); }
+.chip-threat { border-color: rgba(220,38,38,0.3); }
+.chip-taxonomy { border-color: rgba(124,58,237,0.3); }
 
+.empty-tip { color: var(--text-secondary); font-size: 14px; }
 .loading-state {
-  padding: 60px;
-  text-align: center;
+  padding: 80px 40px; text-align: center; color: var(--text-secondary);
+  display: flex; flex-direction: column; align-items: center; gap: 14px; font-size: 15px;
 }
+.loading-spinner {
+  width: 32px; height: 32px; border-radius: 50%;
+  border: 3px solid var(--panel-border);
+  border-top-color: var(--accent);
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
 
 @media (max-width: 980px) {
-  .detail-page {
-    flex-direction: column;
-  }
-
-  .detail-sidebar {
-    width: 100%;
-  }
-
-  .switch-list {
-    max-height: 240px;
-  }
+  .detail-page { flex-direction: column; }
+  .detail-sidebar { width: 100%; }
+  .switch-list { max-height: 240px; }
 }
 
 @media (max-width: 760px) {
-  .detail-stats-row {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .detail-info-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .detail-image-wrap {
-    height: 220px;
-  }
+  .detail-hero { height: 240px; }
+  .detail-hero-content { padding: 24px 20px; }
+  .detail-bird-name { font-size: 26px; }
+  .detail-stats-row { grid-template-columns: repeat(2, 1fr); padding: 8px 20px 16px; }
+  .detail-info-grid { grid-template-columns: 1fr; padding: 0 20px 16px; }
+  .detail-taxonomy-path { padding: 14px 16px; }
+  .detail-summary-section { padding: 16px 20px 8px; }
+  .detail-map-section, .detail-relations-section { padding: 0 20px 20px; }
 }
 </style>

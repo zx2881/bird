@@ -8,7 +8,8 @@
   4. relations.csv 的 object_id (Location/Bird 类型) 是否存在对应实体
   5. predicate 是否在 RELATION_LABELS 范围内
   6. 坐标是否在合理范围内
-  7. 必填字段是否有空值
+  7. 核心必填字段是否有空值
+  8. 可选字段缺失情况汇总
 
 用法:
   python scripts/validate_data.py
@@ -19,7 +20,7 @@ from __future__ import annotations
 import csv
 import sys
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
@@ -27,12 +28,17 @@ DATA_DIR = ROOT / "data"
 RELATION_LABELS = {
     "distributed_in", "lives_in", "has_status",
     "threatened_by", "belongs_to",
+    "belongs_to_kingdom", "belongs_to_phylum", "belongs_to_class",
+    "belongs_to_order", "belongs_to_family", "belongs_to_genus",
+    "belongs_to_species",
 }
 
 ENTITY_TYPES = {"Bird", "Location", "Habitat", "Status", "Threat", "Taxon"}
 
-BIRDS_REQUIRED = ["id", "name", "english_name", "latin_name"]
-LOCATIONS_REQUIRED = ["id", "name", "lat", "lng"]
+BIRDS_REQUIRED = ["id", "name", "english_name"]
+BIRDS_OPTIONAL_TRACKED = ["latin_name"]
+LOCATIONS_REQUIRED = ["id", "name"]
+LOCATIONS_OPTIONAL_TRACKED = ["lat", "lng"]
 RELATIONS_REQUIRED = [
     "subject_id", "subject", "predicate", "object_id",
     "object", "subject_type", "object_type",
@@ -76,6 +82,9 @@ def check_coordinates(path: Path, rows: List[Dict[str, str]]) -> List[str]:
         lng_raw = row.get("lng", "").strip()
         if not lat_raw and not lng_raw:
             continue
+        if not lat_raw or not lng_raw:
+            errors.append(f"{path.name} 第 {idx} 行: 坐标不完整 (lat={lat_raw}, lng={lng_raw})")
+            continue
         try:
             lat = float(lat_raw) if lat_raw else None
             lng = float(lng_raw) if lng_raw else None
@@ -89,6 +98,15 @@ def check_coordinates(path: Path, rows: List[Dict[str, str]]) -> List[str]:
     return errors
 
 
+def summarize_missing_values(path: Path, rows: List[Dict[str, str]], fields: List[str]) -> List[str]:
+    warnings = []
+    for field in fields:
+        missing_count = sum(1 for row in rows if not row.get(field, "").strip())
+        if missing_count:
+            warnings.append(f"{path.name}: 可选字段 '{field}' 有 {missing_count} 行为空")
+    return warnings
+
+
 def check_required_values(path: Path, rows: List[Dict[str, str]], required: List[str]) -> List[str]:
     errors = []
     for idx, row in enumerate(rows, start=2):
@@ -98,36 +116,40 @@ def check_required_values(path: Path, rows: List[Dict[str, str]], required: List
     return errors
 
 
-def validate_birds() -> List[str]:
+def validate_birds() -> Tuple[List[str], List[str]]:
     path = DATA_DIR / "birds.csv"
     if not path.exists():
-        return [f"{path.name} 不存在"]
+        return [f"{path.name} 不存在"], []
     headers, rows = read_csv(path)
     errors = []
-    errors.extend(check_required_headers(path, headers, BIRDS_REQUIRED))
+    warnings = []
+    errors.extend(check_required_headers(path, headers, BIRDS_REQUIRED + BIRDS_OPTIONAL_TRACKED + ["lat", "lng"]))
     errors.extend(check_unique_ids(path, rows, "id"))
     errors.extend(check_coordinates(path, rows))
     errors.extend(check_required_values(path, rows, BIRDS_REQUIRED))
-    return errors
+    warnings.extend(summarize_missing_values(path, rows, BIRDS_OPTIONAL_TRACKED + ["lat", "lng"]))
+    return errors, warnings
 
 
-def validate_locations() -> List[str]:
+def validate_locations() -> Tuple[List[str], List[str]]:
     path = DATA_DIR / "locations.csv"
     if not path.exists():
-        return [f"{path.name} 不存在"]
+        return [f"{path.name} 不存在"], []
     headers, rows = read_csv(path)
     errors = []
-    errors.extend(check_required_headers(path, headers, LOCATIONS_REQUIRED))
+    warnings = []
+    errors.extend(check_required_headers(path, headers, LOCATIONS_REQUIRED + LOCATIONS_OPTIONAL_TRACKED))
     errors.extend(check_unique_ids(path, rows, "id"))
     errors.extend(check_coordinates(path, rows))
     errors.extend(check_required_values(path, rows, LOCATIONS_REQUIRED))
-    return errors
+    warnings.extend(summarize_missing_values(path, rows, LOCATIONS_OPTIONAL_TRACKED))
+    return errors, warnings
 
 
-def validate_relations() -> List[str]:
+def validate_relations() -> Tuple[List[str], List[str]]:
     path = DATA_DIR / "relations.csv"
     if not path.exists():
-        return [f"{path.name} 不存在"]
+        return [f"{path.name} 不存在"], []
 
     birds_path = DATA_DIR / "birds.csv"
     locations_path = DATA_DIR / "locations.csv"
@@ -194,17 +216,23 @@ def validate_relations() -> List[str]:
             if object_id not in birds_ids:
                 errors.append(f"relations.csv 第 {idx} 行: Bird object_id '{object_id}' 在 birds.csv 中不存在")
 
-    return errors
+    return errors, []
 
 
 def main() -> int:
     all_errors: List[str] = []
-    all_errors.extend(validate_birds())
-    all_errors.extend(validate_locations())
-    all_errors.extend(validate_relations())
+    all_warnings: List[str] = []
+
+    for errors, warnings in (validate_birds(), validate_locations(), validate_relations()):
+        all_errors.extend(errors)
+        all_warnings.extend(warnings)
 
     if not all_errors:
-        print("所有校验通过 OK")
+        print("所有硬性校验通过 OK")
+        if all_warnings:
+            print("\n可选字段提示:")
+            for warning in all_warnings:
+                print(f"  - {warning}")
         return 0
 
     print(f"发现 {len(all_errors)} 个问题:\n")

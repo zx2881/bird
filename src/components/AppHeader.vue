@@ -5,7 +5,7 @@
       <h1>全球鸟类多样性知识探索平台</h1>
     </div>
     <nav class="header-nav">
-      <router-link to="/" class="nav-link" exact-active-class="nav-link--active">
+      <router-link to="/home" class="nav-link" exact-active-class="nav-link--active">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
           <polyline points="9 22 9 12 15 12 15 22"/>
@@ -27,11 +27,13 @@
         </svg>
         <span>类别</span>
       </router-link>
-      <router-link to="/editor" class="nav-link" active-class="nav-link--active">
+      <router-link to="/semantic-search" class="nav-link" active-class="nav-link--active">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+          <circle cx="11" cy="11" r="8"/>
+          <path d="M21 21l-4.35-4.35"/>
+          <path d="M11 8v6M8 11h6"/>
         </svg>
-        <span>编辑</span>
+        <span>语义搜索</span>
       </router-link>
       <button class="nav-link theme-btn" @click="uiStore.toggleDarkMode()" :title="uiStore.darkMode ? '切换亮色' : '切换暗色'">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -50,6 +52,9 @@ const uiStore = useUIStore()
 
 <style scoped>
 .app-header {
+  position: sticky;
+  top: 14px;
+  z-index: 80;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,6 +66,12 @@ const uiStore = useUIStore()
   background: var(--header-bg, linear-gradient(135deg, rgba(255, 247, 234, 0.92), rgba(233, 243, 245, 0.88)));
   box-shadow: 0 20px 45px var(--header-shadow, rgba(31, 64, 76, 0.12));
   backdrop-filter: blur(18px);
+}
+
+:global([data-theme="dark"]) .app-header {
+  border-color: rgba(94, 234, 212, 0.22);
+  background: linear-gradient(135deg, rgba(2, 8, 23, 0.94), rgba(8, 18, 33, 0.88));
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.46), 0 0 22px rgba(34, 211, 238, 0.1);
 }
 .header-left { flex: 1; }
 .eyebrow { margin: 0 0 4px; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent, #0f766e); }

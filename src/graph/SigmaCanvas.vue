@@ -18,6 +18,14 @@ const props = defineProps({
   darkMode: {
     type: Boolean,
     default: false
+  },
+  centerNodeId: {
+    type: String,
+    default: ''
+  },
+  focusedNodeId: {
+    type: String,
+    default: ''
   }
 })
 
@@ -74,42 +82,178 @@ const UNIFORM_LAYOUT_RADIUS = 960
 const DETAIL_CLUSTER_RADIUS = 30
 const DETAIL_CLUSTER_JITTER = 18
 
-const PREVIEW_NODE_COLOR = '#eaf3ff'
-const DETAIL_NODE_COLOR = '#9fc0ff'
 const BACKGROUND_DARK = '#0b1018'
 const BACKGROUND_LIGHT = '#101827'
-const LINK_COLOR = 'rgba(229, 239, 255, 0.18)'
+
+const TYPE_COLORS = {
+  bird: '#4FC3F7',
+  location: '#81C784',
+  habitat: '#FFB74D',
+  status: '#E57373',
+  threat: '#BA68C8',
+  taxonomy: '#90A4AE'
+}
+
+function nodeColor(rawNode) {
+  return TYPE_COLORS[rawNode.type] || '#eaf3ff'
+}
+const LINK_COLOR_DARK = 'rgba(210, 230, 255, 0.46)'
+const LINK_COLOR_LIGHT = 'rgba(210, 230, 255, 0.4)'
+const HIGH_TAXONOMY_LEVELS = new Set(['kingdom', 'phylum', 'class', 'order', 'family'])
+const TAXONOMY_LABELS = {
+  kingdom: '界',
+  phylum: '门',
+  class: '纲',
+  order: '目',
+  family: '科',
+  genus: '属',
+  species: '种'
+}
 
 function isPreviewNode(node) {
   return node?.type === 'bird' || node?.type === 'taxonomy'
 }
 
+function isHighTaxonomyNode(node) {
+  return node?.type === 'taxonomy' && HIGH_TAXONOMY_LEVELS.has(node.taxonomyLevel)
+}
+
+function getFocusedNeighborIds() {
+  if (!props.focusedNodeId) return new Set()
+  const neighborIds = new Set()
+  neighborIds.add(props.focusedNodeId)
+  for (const link of store.getIncidentLinks(props.focusedNodeId)) {
+    const otherId = link.source === props.focusedNodeId ? link.target : link.source
+    neighborIds.add(otherId)
+  }
+  return neighborIds
+}
+
 function isNodeVisible(node) {
   if (!node) return false
+
+  if (props.focusedNodeId) {
+    const neighborIds = getFocusedNeighborIds()
+    return neighborIds.has(node.rawNode?.id || node.id)
+  }
+
+  if (node.type === 'taxonomy') {
+    return props.activeTypes.includes('taxonomy') && (isHighTaxonomyNode(node) || store.getIncidentLinks(node.id).length > 0)
+  }
   if (isPreviewNode(node)) return true
   return props.activeTypes.includes(node.type)
 }
 
 function nodeRadius(node) {
   if (!node) return 1.72
-  if (isPreviewNode(node.rawNode || node)) return 1.82
+  const raw = node.rawNode || node
+  const id = raw.id || node.id
+
+  if (props.focusedNodeId) {
+    if (id === props.focusedNodeId) return 5.6
+    const neighborIds = getFocusedNeighborIds()
+    if (neighborIds.has(id)) return 3.2
+  }
+
+  if (id === props.centerNodeId) return 2.8
+  if (isPreviewNode(raw)) return 1.82
   return 1.42
 }
 
 function sphereSegments(node) {
-  return isPreviewNode(node.rawNode || node) ? 7 : 6
+  const raw = node.rawNode || node
+  const id = raw.id || node.id
+
+  if (props.focusedNodeId && id === props.focusedNodeId) return 16
+  if (props.focusedNodeId && getFocusedNeighborIds().has(id)) return 12
+  if (id === props.centerNodeId) return 12
+  return isPreviewNode(raw) ? 7 : 6
 }
 
 function hitRadius(node) {
   if (!node) return 5
-  if (isPreviewNode(node.rawNode || node)) return 5.2
+  const raw = node.rawNode || node
+  const id = raw.id || node.id
+
+  if (props.focusedNodeId) {
+    if (id === props.focusedNodeId) return 14
+    const neighborIds = getFocusedNeighborIds()
+    if (neighborIds.has(id)) return 9
+  }
+
+  if (id === props.centerNodeId) return 8
+  if (isPreviewNode(raw)) return 5.2
   return 4.5
 }
 
 function linkDistance(link) {
   if (!link) return 64
-  if (link.relation === 'belongs_to_family' || link.relation === 'belongs_to_order') return 56
+  if (link.relation?.startsWith('belongs_to_')) return 56
   return 42
+}
+
+function relationLabel(link) {
+  return link?.label || link?.relation || ''
+}
+
+function endpointId(endpoint) {
+  return typeof endpoint === 'object' ? endpoint?.id : endpoint
+}
+
+function shouldShowLinkLabel(link) {
+  if (props.focusedNodeId) {
+    const neighborIds = getFocusedNeighborIds()
+    const sourceId = endpointId(link.source)
+    const targetId = endpointId(link.target)
+    return neighborIds.has(sourceId) && neighborIds.has(targetId)
+  }
+  return false
+}
+
+function buildLinkLabelObject(link) {
+  if (!shouldShowLinkLabel(link)) return null
+  const text = relationLabel(link)
+  if (!text) return null
+
+  const canvas = document.createElement('canvas')
+  const context = canvas.getContext('2d')
+  const fontSize = 36
+  context.font = `700 ${fontSize}px "Source Han Sans SC", Arial, sans-serif`
+  const width = Math.ceil(context.measureText(text).width + 32)
+  canvas.width = Math.max(80, width)
+  canvas.height = 56
+  context.font = `700 ${fontSize}px "Source Han Sans SC", Arial, sans-serif`
+  context.textAlign = 'center'
+  context.textBaseline = 'middle'
+  context.fillStyle = props.darkMode ? 'rgba(8, 20, 35, 0.88)' : 'rgba(248, 250, 252, 0.92)'
+  context.strokeStyle = props.darkMode ? 'rgba(125, 211, 252, 0.55)' : 'rgba(15, 118, 110, 0.4)'
+  context.lineWidth = 2.5
+  roundRect(context, 1, 1, canvas.width - 2, canvas.height - 2, 16)
+  context.fill()
+  context.stroke()
+  context.fillStyle = props.darkMode ? '#f8fafc' : '#12303b'
+  context.fillText(text, canvas.width / 2, canvas.height / 2 + 2)
+
+  const texture = new THREE.CanvasTexture(canvas)
+  texture.colorSpace = THREE.SRGBColorSpace
+  const material = new THREE.SpriteMaterial({ map: texture, transparent: true, depthWrite: false })
+  const sprite = new THREE.Sprite(material)
+  sprite.scale.set(canvas.width * 0.22, canvas.height * 0.22, 1)
+  return sprite
+}
+
+function roundRect(context, x, y, width, height, radius) {
+  context.beginPath()
+  context.moveTo(x + radius, y)
+  context.lineTo(x + width - radius, y)
+  context.quadraticCurveTo(x + width, y, x + width, y + radius)
+  context.lineTo(x + width, y + height - radius)
+  context.quadraticCurveTo(x + width, y + height, x + width - radius, y + height)
+  context.lineTo(x + radius, y + height)
+  context.quadraticCurveTo(x, y + height, x, y + height - radius)
+  context.lineTo(x, y + radius)
+  context.quadraticCurveTo(x, y, x + radius, y)
+  context.closePath()
 }
 
 function stableHash(value) {
@@ -263,8 +407,10 @@ function buildNodeObject(node) {
   }
 
   if (!node.__sphereMaterial) {
-    node.__sphereMaterial = new THREE.MeshBasicMaterial({
+    node.__sphereMaterial = new THREE.MeshStandardMaterial({
       color: node.color,
+      roughness: 0.38,
+      metalness: 0.12,
       transparent: true,
       opacity: node.opacity
     })
@@ -304,6 +450,32 @@ function buildNodeObject(node) {
     node.__hitMesh.material = node.__hitMaterial
   }
 
+  const isFocused = props.focusedNodeId && node.id === props.focusedNodeId
+  if (isFocused) {
+    if (!node.__glowRing) {
+      const ringGeometry = new THREE.TorusGeometry(radius * 1.6, radius * 0.3, 12, 40)
+      node.__glowRingMaterial = new THREE.MeshStandardMaterial({
+        color: '#ffffff',
+        roughness: 0.15,
+        metalness: 0.5,
+        emissive: '#aaddff',
+        emissiveIntensity: 0.8,
+        transparent: true,
+        opacity: 0.75,
+        depthWrite: false
+      })
+      node.__glowRing = new THREE.Mesh(ringGeometry, node.__glowRingMaterial)
+      node.__glowRing.renderOrder = 999
+      node.__glowRing.material.depthTest = true
+      node.__glowRing.material.depthWrite = false
+      node.__group.add(node.__glowRing)
+    }
+    node.__glowRing.visible = true
+    node.__glowRing.scale.set(1, 1, 1)
+  } else if (node.__glowRing) {
+    node.__glowRing.visible = false
+  }
+
   return node.__group
 }
 
@@ -321,6 +493,10 @@ function buildTooltip(node) {
   if (raw.latinName) lines.push(`<div style="opacity:.82;">${raw.latinName}</div>`)
   if (raw.orderCn || raw.order) lines.push(`<div style="opacity:.7;">目：${raw.orderCn || raw.order}</div>`)
   if (raw.familyCn || raw.family) lines.push(`<div style="opacity:.7;">科：${raw.familyCn || raw.family}</div>`)
+  if (raw.genusCn || raw.genus) lines.push(`<div style="opacity:.7;">属：${raw.genusCn || raw.genus}</div>`)
+  if (raw.type === 'taxonomy' && raw.taxonomyLevel) {
+    lines.push(`<div style="opacity:.7;">分类层级：${TAXONOMY_LABELS[raw.taxonomyLevel] || raw.taxonomyLevel}</div>`)
+  }
 
   return lines.join('')
 }
@@ -793,12 +969,17 @@ function materializeGraphData() {
     nextNode.name = rawNode.name || rawNode.englishName || rawNode.id
     nextNode.rawNode = rawNode
     nextNode.type = rawNode.type
-    nextNode.color = previewNode ? PREVIEW_NODE_COLOR : DETAIL_NODE_COLOR
-    nextNode.opacity = previewNode ? 0.98 : 0.92
+    nextNode.color = nodeColor(rawNode)
+    nextNode.opacity = rawNode.id === props.centerNodeId ? 1 : 0.88
     nextNode.distance = 0
     nextNode.homeX = home.x
     nextNode.homeY = home.y
     nextNode.homeZ = home.z
+
+    if (props.focusedNodeId && rawNode.id === props.focusedNodeId) {
+      nextNode.color = '#ffffff'
+      nextNode.opacity = 1
+    }
 
     if (!isWakeNode(nextNode.id)) {
       pinNodeToHome(nextNode)
@@ -819,6 +1000,7 @@ function materializeGraphData() {
       source: link.source,
       target: link.target,
       relation: link.relation,
+      label: link.label,
       distance: linkDistance(link)
     }))
 
@@ -842,16 +1024,27 @@ function ensureGraph() {
     .showNavInfo(false)
     .enableNodeDrag(true)
     .nodeOpacity(1)
-    .linkOpacity(0.2)
-    .linkWidth(() => 0.36)
-    .linkColor(() => LINK_COLOR)
+    .linkOpacity(0.48)
+    .linkWidth(link => (shouldShowLinkLabel(link) ? 1.15 : 0.56))
+    .linkColor(() => (props.darkMode ? LINK_COLOR_DARK : LINK_COLOR_LIGHT))
     .linkDirectionalParticles(0)
+    .linkLabel(link => relationLabel(link))
+    .linkHoverPrecision(6)
+    .linkThreeObject(link => buildLinkLabelObject(link))
+    .linkPositionUpdate((sprite, { start, end }, link) => {
+      if (!sprite || !start || !end) return
+      const midX = (start.x + end.x) / 2
+      const midY = (start.y + end.y) / 2
+      const midZ = (start.z + end.z) / 2
+      Object.assign(sprite.position, { x: midX, y: midY, z: midZ })
+    })
     .nodeLabel(buildTooltip)
     .nodeThreeObject(node => buildNodeObject(node))
     .nodeThreeObjectExtend(true)
     .onNodeClick(node => {
       if (!node?.rawNode) return
-      emit('node-click', node.rawNode)
+      const isCenter = node.id === props.centerNodeId
+      emit('node-click', node.rawNode, isCenter)
     })
     .onNodeHover(node => {
       if (!graphRef.value) return
@@ -883,7 +1076,7 @@ function ensureGraph() {
     ) {
       return 0.05
     }
-    if (link.relation === 'belongs_to_family' || link.relation === 'belongs_to_order') return 0.18
+    if (link.relation?.startsWith('belongs_to_')) return 0.16
     return 0.12
   })
   graph.d3Force('dragRepulse', createDragRepulseForce())
@@ -902,6 +1095,17 @@ function ensureGraph() {
   controls.maxDistance = 4200
 
   bindDragSafetyNet()
+  const scene = graph.scene()
+  scene.add(new THREE.AmbientLight('#8899bb', 0.52))
+  const keyLight = new THREE.DirectionalLight('#ffffff', 0.72)
+  keyLight.position.set(0, 0, 1800)
+  scene.add(keyLight)
+  const fillLight = new THREE.DirectionalLight('#8899cc', 0.36)
+  fillLight.position.set(800, -400, -600)
+  scene.add(fillLight)
+  const rimLight = new THREE.DirectionalLight('#aaccff', 0.28)
+  rimLight.position.set(-600, 200, 400)
+  scene.add(rimLight)
   resizeGraph()
 }
 
@@ -1109,11 +1313,13 @@ function focusNode(nodeId) {
   const targetY = Number.isFinite(node.y) ? node.y : node.homeY
   const targetZ = Number.isFinite(node.z) ? node.z : node.homeZ
 
+  const zoomDistance = props.focusedNodeId ? 120 : 210
+
   graph.cameraPosition(
     {
       x: targetX,
       y: targetY,
-      z: targetZ + 210
+      z: targetZ + zoomDistance
     },
     { x: targetX, y: targetY, z: targetZ },
     750
@@ -1154,7 +1360,9 @@ watch(
     store.lastMutation?.serial || 0,
     store.activeNodeId,
     props.activeTypes.join(','),
-    props.darkMode
+    props.darkMode,
+    props.centerNodeId,
+    props.focusedNodeId
   ],
   () => {
     if (!graph) return
@@ -1171,6 +1379,11 @@ watch(() => store.focusRequest.nonce, () => {
 watch(() => store.fitRequest.nonce, () => {
   if (!graph) return
   scheduleZoomToFit(40)
+})
+
+watch(() => props.focusedNodeId, (newId) => {
+  if (!graph || !newId) return
+  focusNode(newId)
 })
 
 onBeforeUnmount(() => {

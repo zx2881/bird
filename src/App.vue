@@ -1,6 +1,6 @@
 <template>
-  <div class="shell">
-    <AppHeader />
+  <div class="shell" :class="{ 'shell-landing': isLanding }">
+    <AppHeader v-if="!isLanding" />
     <main class="app-main">
       <router-view v-slot="{ Component }">
         <Transition name="page" mode="out-in">
@@ -12,13 +12,17 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { computed, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
 import AppHeader from './components/AppHeader.vue'
 import { useGraphStore } from './stores/graphStore.js'
 import { useUIStore } from './stores/uiStore.js'
 
+const route = useRoute()
 const graphStore = useGraphStore()
 const uiStore = useUIStore()
+
+const isLanding = computed(() => route.name === 'Landing')
 
 onMounted(async () => {
   uiStore.initTheme()
@@ -29,7 +33,13 @@ onMounted(async () => {
 <style>
 .shell {
   position: relative;
+  isolation: isolate;
   min-height: 100vh;
+  padding: 20px 24px;
+}
+
+.shell-landing {
+  padding: 0;
 }
 
 .app-main {
