@@ -1,19 +1,28 @@
 <template>
   <div class="home-page" :class="{ 'home-page--migration': isMigrationMode }">
     <div class="home-hero">
+      <div class="home-hero-copy">
+        <span class="home-kicker">Avian graph observatory</span>
+        <h2>{{ isMigrationMode ? '夜间迁徙观测台' : '鸟类知识图谱控制台' }}</h2>
+        <p>{{ isMigrationMode ? '用暗色模式观察地点、物种与迁徙连接的夜间分布。' : '从物种出发，沿着分布地点、栖息地、保护等级和分类层级展开全球鸟类关系。' }}</p>
+      </div>
       <div class="search-section">
-        <div class="search-wrapper">
-          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <circle cx="11" cy="11" r="8" />
-            <path d="M21 21l-4.35-4.35" />
-          </svg>
-          <input
-            v-model="searchQuery"
-            type="text"
-            class="search-input"
-            placeholder="搜索鸟类中文名、英文名或学名…"
-            @input="handleSearch"
-          />
+        <div class="search-shell">
+          <span class="search-chip">Search</span>
+          <div class="search-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="11" cy="11" r="8" />
+              <path d="M21 21l-4.35-4.35" />
+            </svg>
+            <input
+              v-model="searchQuery"
+              type="text"
+              class="search-input"
+              placeholder="搜索鸟类中文名、英文名或学名…"
+              @input="handleSearch"
+            />
+          </div>
+          <span class="search-chip muted">{{ store.totalBirdCount.toLocaleString() }} species</span>
         </div>
         <div v-if="searchResults.length" class="search-dropdown">
           <button
@@ -32,6 +41,11 @@
 
     <div class="home-layout">
       <aside class="home-sidebar">
+        <section class="field-panel">
+          <span class="field-label">Current field lens</span>
+          <strong>{{ isMigrationMode ? 'Migration atlas' : 'Knowledge network' }}</strong>
+          <p>{{ isMigrationMode ? '地球视角用于观察夜间迁徙连接。' : '图谱视角用于展开实体关系与分类层级。' }}</p>
+        </section>
         <section class="panel insight-panel">
           <h3 class="panel-title">数据加载状态</h3>
           <div class="metric-grid">
@@ -193,9 +207,9 @@ const centerNodeId = ref('')
 const focusedNodeId = ref('')
 const selectedGlobeNode = ref(null)
 const isMigrationMode = computed(() => uiStore.darkMode)
-const maxMigrationRoutes = 320
-const maxMigrationLocationNodes = 160
-const maxLocationsPerBird = 4
+const maxMigrationRoutes = 860
+const maxMigrationLocationNodes = 560
+const maxLocationsPerBird = 3
 
 const focusedNode = computed(() => store.getNodeById(focusedNodeId.value))
 const focusedDisplayNode = computed(() => focusedNode.value || selectedGlobeNode.value)
@@ -458,6 +472,19 @@ async function selectSearchResult(item) {
 }
 
 async function handleNodeClick(node, isCenter) {
+  if (isMigrationMode.value) {
+    selectedGlobeNode.value = node
+    store.setActiveNode(node.id)
+    if (node.type === 'bird') {
+      router.push(`/bird/${node.id}`)
+      return
+    }
+    if (node.type === 'location') {
+      router.push(`/location/${node.id}`)
+      return
+    }
+  }
+
   selectedGlobeNode.value = node
   store.setActiveNode(node.id)
 
@@ -565,7 +592,7 @@ onMounted(async () => {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 24px;
   min-height: calc(100vh - 40px);
   padding: 0 0 14px;
   animation: pageIn 0.4s ease-out;
@@ -586,9 +613,11 @@ onMounted(async () => {
 .home-hero {
   position: relative;
   z-index: 10;
-  display: flex;
-  justify-content: center;
-  padding: 34px 18px 4px;
+  display: grid;
+  grid-template-columns: minmax(260px, 0.85fr) minmax(420px, 1.15fr);
+  align-items: end;
+  gap: 24px;
+  padding: 32px 0 0;
 }
 
 .home-hero::before {
@@ -598,7 +627,7 @@ onMounted(async () => {
   top: 24px;
   width: 180px;
   height: 70px;
-  opacity: 0.16;
+  opacity: 0.22;
   pointer-events: none;
   color: var(--accent);
   background:
@@ -609,24 +638,109 @@ onMounted(async () => {
     linear-gradient(-10deg, transparent 0 45%, currentColor 45.3% 46.2%, transparent 46.5% 100%);
 }
 
+.home-hero-copy {
+  position: relative;
+  padding: 30px 30px 28px;
+  border: 1px solid var(--panel-border);
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent) 14%, transparent), transparent 44%),
+    var(--card-bg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.home-hero-copy::after {
+  content: "";
+  position: absolute;
+  right: -42px;
+  bottom: -62px;
+  width: 190px;
+  height: 150px;
+  border: 2px solid color-mix(in srgb, var(--accent) 42%, transparent);
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 60% 82% 42% 76%;
+  transform: rotate(-18deg);
+  opacity: 0.32;
+}
+
+.home-kicker {
+  display: inline-flex;
+  margin-bottom: 12px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.home-hero-copy h2 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: var(--heading-color);
+  font-size: clamp(30px, 3.4vw, 52px);
+  font-weight: 900;
+  line-height: 1.02;
+}
+
+.home-hero-copy p {
+  position: relative;
+  z-index: 1;
+  max-width: 58ch;
+  margin: 14px 0 0;
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.72;
+}
+
 .search-section {
   position: relative;
   z-index: 12;
   width: 100%;
-  max-width: 820px;
+  max-width: none;
 }
 
 .search-section::before {
-  content: "Avian Knowledge Command";
-  position: absolute;
-  left: 28px;
-  top: -22px;
+  content: "";
+  display: none;
+}
+
+.search-shell {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--panel-border);
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent-2) 12%, transparent), transparent 46%),
+    var(--surface-strong);
+  box-shadow: var(--shadow);
+}
+
+.search-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 14px;
   color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 18%, transparent);
   font-size: 11px;
   font-weight: 900;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.11em;
   text-transform: uppercase;
-  opacity: 0.9;
+  white-space: nowrap;
+}
+
+.search-chip.muted {
+  color: var(--text-secondary);
+  background: color-mix(in srgb, var(--card-bg) 82%, transparent);
 }
 
 .search-wrapper {
@@ -646,12 +760,12 @@ onMounted(async () => {
 
 .search-input {
   width: 100%;
-  padding: 20px 28px 20px 60px;
-  border: 1px solid rgba(15, 118, 110, 0.22);
-  border-radius: 999px;
-  background: var(--card-bg);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 20px 55px rgba(15, 118, 110, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.58);
+  padding: 18px 22px 18px 58px;
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--panel-border));
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--card-bg) 92%, transparent);
+  backdrop-filter: blur(8px);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.42);
   color: var(--text-color);
   font-size: 17px;
   outline: none;
@@ -742,18 +856,69 @@ onMounted(async () => {
 .home-layout {
   position: relative;
   z-index: 1;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(300px, 360px) minmax(0, 1fr);
   gap: 22px;
 }
 
 .home-sidebar {
   position: relative;
   z-index: 10;
-  width: 350px;
-  flex-shrink: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 14px;
+}
+
+.field-panel {
+  position: relative;
+  overflow: hidden;
+  padding: 22px;
+  border-radius: 24px;
+  color: oklch(0.96 0.018 170);
+  background:
+    radial-gradient(circle at 85% 18%, rgba(250, 204, 21, 0.18), transparent 28%),
+    linear-gradient(135deg, #0a2f35, #0f766e 54%, #12303b);
+  box-shadow: 0 22px 58px rgba(15, 118, 110, 0.24);
+}
+
+.field-panel::after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  bottom: -36px;
+  width: 132px;
+  height: 92px;
+  border: 2px solid rgba(255, 255, 255, 0.28);
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 62% 82% 48% 72%;
+  transform: rotate(-18deg);
+}
+
+.field-label {
+  display: block;
+  margin-bottom: 12px;
+  color: rgba(236, 253, 245, 0.68);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.field-panel strong {
+  display: block;
+  font-size: 25px;
+  line-height: 1.08;
+}
+
+.field-panel p {
+  position: relative;
+  z-index: 1;
+  margin: 12px 0 0;
+  color: rgba(236, 253, 245, 0.75);
+  font-size: 13px;
+  line-height: 1.7;
 }
 
 .graph-panel {
@@ -764,12 +929,12 @@ onMounted(async () => {
   flex-direction: column;
   gap: 16px;
   min-height: 720px;
-  padding: 22px;
-  border-radius: 28px;
+  padding: 18px;
+  border-radius: 24px;
   border: 1px solid var(--graph-border);
   background:
-    linear-gradient(145deg, color-mix(in srgb, var(--accent) 10%, transparent), transparent 34%),
-    linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.12)),
+    radial-gradient(circle at 12% 10%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 24%),
+    linear-gradient(180deg, rgba(255,255,255,0.62), rgba(255,255,255,0.1)),
     var(--graph-bg);
   box-shadow: var(--graph-shadow);
   animation: panelIn 0.5s ease-out;
@@ -784,10 +949,15 @@ onMounted(async () => {
 .panel::after {
   content: "";
   position: absolute;
-  inset: 0 auto 0 0;
-  width: 4px;
-  background: linear-gradient(180deg, var(--accent), var(--accent-2));
-  opacity: 0.72;
+  inset: 12px 12px auto auto;
+  width: 62px;
+  height: 22px;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 15% 50%, var(--accent) 0 2px, transparent 2.5px),
+    radial-gradient(circle at 50% 50%, var(--accent-2) 0 2px, transparent 2.5px),
+    radial-gradient(circle at 85% 50%, var(--accent) 0 2px, transparent 2.5px);
+  opacity: 0.16;
 }
 
 .home-page--migration .graph-panel {
@@ -1038,11 +1208,11 @@ onMounted(async () => {
   position: relative;
   z-index: 12;
   display: flex;
-  align-items: stretch;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 18px;
   padding: 18px;
-  border-radius: 20px;
+  border-radius: 18px;
   background:
     linear-gradient(120deg, color-mix(in srgb, var(--accent) 12%, transparent), transparent 54%),
     color-mix(in srgb, var(--card-bg) 76%, transparent);
@@ -1102,7 +1272,7 @@ onMounted(async () => {
   gap: 12px;
   align-items: flex-start;
   padding: 12px 14px;
-  border-radius: 16px;
+  border-radius: 14px;
   background: var(--graph-toolbar-bg);
   border: 1px solid var(--graph-toolbar-border);
 }
@@ -1152,7 +1322,7 @@ onMounted(async () => {
 
 .pill {
   padding: 6px 12px;
-  border-radius: 999px;
+  border-radius: 10px;
   border: 1px solid var(--graph-pill-border);
   background: var(--graph-pill-bg);
   color: var(--graph-pill-text);
@@ -1181,7 +1351,7 @@ onMounted(async () => {
   width: 100%;
   flex: 1;
   min-height: 620px;
-  border-radius: 16px;
+  border-radius: 18px;
   overflow: hidden;
   border: 1px solid var(--graph-canvas-border);
   background: #1a1a1a;
@@ -1214,10 +1384,10 @@ onMounted(async () => {
   left: 16px;
   z-index: 20;
   padding: 10px 20px;
-  border-radius: 999px;
+  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   background: rgba(15, 118, 110, 0.85);
-  color: #fff;
+  color: oklch(0.99 0.01 170);
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
@@ -1238,7 +1408,7 @@ onMounted(async () => {
   transform: translateX(-50%);
   z-index: 20;
   padding: 8px 20px;
-  border-radius: 999px;
+  border-radius: 10px;
   background: rgba(0, 0, 0, 0.65);
   color: #e2e8f0;
   font-size: 13px;
@@ -1285,8 +1455,12 @@ onMounted(async () => {
 }
 
 @media (max-width: 1080px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+  }
+
   .home-layout {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .home-sidebar {
@@ -1298,6 +1472,14 @@ onMounted(async () => {
 }
 
 @media (max-width: 860px) {
+  .search-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .search-chip {
+    justify-content: flex-start;
+  }
+
   .home-sidebar {
     grid-template-columns: 1fr;
   }
@@ -1311,10 +1493,9 @@ onMounted(async () => {
   }
 }
 
-.graph-header h2 { font-size: 21px; }
 .graph-header h2 {
-  font-size: clamp(24px, 2vw, 31px);
-  font-weight: 950;
+  font-size: clamp(22px, 2vw, 28px);
+  font-weight: 850;
 }
 .view-kicker {
   display: inline-flex;
@@ -1327,16 +1508,16 @@ onMounted(async () => {
 }
 .legend span {
   padding: 4px 8px;
-  border-radius: 999px;
+  border-radius: 8px;
   background: color-mix(in srgb, var(--card-bg) 66%, transparent);
   border: 1px solid var(--panel-border);
 }
 .graph-toolbar,
 .graph-canvas,
-.home-page--migration .graph-canvas { border-radius: 20px; }
+.home-page--migration .graph-canvas { border-radius: 14px; }
 .graph-toolbar {
   padding: 16px;
-  border-radius: 20px;
+  border-radius: 14px;
 }
 .graph-canvas {
   min-height: 680px;

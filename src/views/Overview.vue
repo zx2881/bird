@@ -414,14 +414,15 @@ onBeforeUnmount(() => {
 
 .hero-section {
   position: relative;
-  text-align: center;
-  padding: 28px 24px 26px;
-  border-radius: 30px;
+  text-align: left;
+  padding: 42px 46px;
+  border-radius: 28px;
   border: 1px solid var(--panel-border);
   background:
-    radial-gradient(circle at 18% 20%, var(--leaf-soft), transparent 32%),
-    radial-gradient(circle at 82% 18%, var(--sky-soft), transparent 30%),
-    linear-gradient(135deg, color-mix(in srgb, var(--card-bg) 88%, transparent), color-mix(in srgb, var(--accent) 10%, transparent));
+    linear-gradient(90deg, color-mix(in srgb, var(--card-bg) 92%, transparent) 0 55%, transparent 55.2%),
+    radial-gradient(circle at 78% 18%, var(--sky-soft), transparent 30%),
+    radial-gradient(circle at 64% 78%, var(--leaf-soft), transparent 36%),
+    linear-gradient(135deg, color-mix(in srgb, var(--card-bg) 86%, transparent), color-mix(in srgb, var(--accent) 12%, transparent));
   box-shadow: var(--shadow);
   overflow: hidden;
 }
@@ -429,17 +430,18 @@ onBeforeUnmount(() => {
 .hero-section::after {
   content: "";
   position: absolute;
-  right: 34px;
-  top: 28px;
-  width: 180px;
-  height: 82px;
-  opacity: 0.16;
+  right: 40px;
+  top: 36px;
+  width: min(34vw, 430px);
+  height: 150px;
+  opacity: 0.18;
   color: var(--accent);
-  border: 2px solid currentColor;
-  border-left-color: transparent;
-  border-bottom-color: transparent;
-  border-radius: 62% 80% 48% 72%;
-  transform: rotate(-18deg);
+  background:
+    linear-gradient(14deg, transparent 0 16%, currentColor 16.4% 17%, transparent 17.4% 100%),
+    linear-gradient(-12deg, transparent 0 54%, currentColor 54.4% 55%, transparent 55.4% 100%),
+    radial-gradient(circle at 12% 62%, currentColor 0 3px, transparent 3.6px),
+    radial-gradient(circle at 42% 34%, var(--accent-2) 0 3px, transparent 3.6px),
+    radial-gradient(circle at 78% 48%, currentColor 0 3px, transparent 3.6px);
 }
 .overview-kicker {
   display: inline-flex;
@@ -452,13 +454,13 @@ onBeforeUnmount(() => {
 }
 .hero-title {
   margin: 0 0 8px;
-  font-size: clamp(30px, 4vw, 46px); font-weight: 900;
-  background: linear-gradient(135deg, var(--heading-color) 0%, var(--accent) 100%);
-  background-clip: text; -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -0.02em;
+  max-width: 760px;
+  font-size: clamp(36px, 4.8vw, 66px);
+  font-weight: 900;
+  color: var(--heading-color);
+  letter-spacing: 0;
 }
-.hero-subtitle { margin: 0; font-size: 15px; color: var(--text-secondary); max-width: 520px; margin: 0 auto; line-height: 1.6; }
+.hero-subtitle { margin: 0; font-size: 16px; color: var(--text-secondary); max-width: 620px; line-height: 1.7; }
 
 .stats-bento { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
 .stat-card {
@@ -466,19 +468,19 @@ onBeforeUnmount(() => {
   border-radius: 20px;
   background: var(--card-bg);
   border: 1px solid var(--panel-border);
-  min-height: 164px;
+  min-height: 176px;
   box-shadow: var(--shadow);
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
   animation: statSlideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
   cursor: default;
 }
-.stat-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.08); border-color: var(--accent); }
+.stat-card:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(0,0,0,0.08); border-color: var(--accent); }
 .stat-card:hover .stat-spark { opacity: 1; }
 .stat-card-glow {
   position: absolute; top: 0; left: 0; right: 0; height: 120px;
   pointer-events: none; opacity: 0.6;
 }
-.stat-card-inner { position: relative; z-index: 1; min-height: 164px; padding: 26px 18px 22px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; }
+.stat-card-inner { position: relative; z-index: 1; min-height: 176px; padding: 28px 18px 22px; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end; gap: 12px; }
 .stat-icon-wrap {
   width: 48px; height: 48px; border-radius: 16px;
   display: flex; align-items: center; justify-content: center;
@@ -486,8 +488,8 @@ onBeforeUnmount(() => {
 }
 .stat-icon-wrap svg { width: 24px; height: 24px; }
 .stat-card:hover .stat-icon-wrap { transform: scale(1.08); }
-.stat-body { text-align: center; }
-.stat-value { display: block; font-size: clamp(30px, 2.5vw, 40px); font-weight: 950; line-height: 1.05; letter-spacing: -0.02em; transition: transform 0.3s ease; }
+.stat-body { text-align: left; }
+.stat-value { display: block; font-size: clamp(32px, 2.8vw, 46px); font-weight: 950; line-height: 1.05; letter-spacing: 0; transition: transform 0.3s ease; }
 .stat-card:hover .stat-value { transform: scale(1.04); }
 .stat-label { display: block; margin-top: 4px; font-size: 13px; color: var(--text-secondary); font-weight: 500; }
 .stat-spark {
@@ -504,7 +506,7 @@ onBeforeUnmount(() => {
   min-height: 430px;
   padding: 22px;
   border: 1px solid var(--panel-border);
-  border-radius: 22px;
+  border-radius: 16px;
   background: var(--card-bg);
   box-shadow: var(--shadow);
   transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.25s ease;
@@ -515,7 +517,7 @@ onBeforeUnmount(() => {
 .chart-card-header {
   margin: -4px -4px 18px;
   padding: 12px 14px;
-  border-radius: 16px;
+  border-radius: 12px;
   background: color-mix(in srgb, var(--accent-soft) 70%, transparent);
   border: 1px solid var(--panel-border);
 }
@@ -542,7 +544,7 @@ onBeforeUnmount(() => {
 .map-section {
   padding: 22px;
   border: 1px solid var(--panel-border);
-  border-radius: 22px;
+  border-radius: 16px;
   background: var(--card-bg);
   box-shadow: var(--shadow);
 }
@@ -558,7 +560,7 @@ onBeforeUnmount(() => {
 .quick-link {
   display: flex; align-items: center; gap: 14px;
   padding: 20px 18px;
-  border-radius: 16px;
+  border-radius: 14px;
   background: var(--card-bg);
   border: 1px solid var(--panel-border);
   box-shadow: 0 1px 3px rgba(0,0,0,0.02);

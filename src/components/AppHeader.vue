@@ -42,7 +42,7 @@
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path :d="uiStore.darkMode ? 'M12 3v1m0 16v1m-9-9h1m16 0h1M4.2 4.2l.7.7m14.1 14.1l.7.7M4.2 19.8l.7-.7m14.1-14.1l.7-.7M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10' : 'M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z'"/>
         </svg>
-        <span>{{ uiStore.darkMode ? '亮色' : '暗色' }}</span>
+        <span class="theme-label">{{ uiStore.darkMode ? '亮色' : '暗色' }}</span>
       </button>
     </nav>
   </header>
@@ -61,17 +61,17 @@ const uiStore = useUIStore()
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 22px;
+  gap: 18px;
   margin-bottom: 18px;
-  padding: 16px 18px 16px 22px;
+  padding: 12px 14px 12px 16px;
   border: 1px solid var(--header-border, rgba(255, 255, 255, 0.55));
-  border-radius: 22px;
+  border-radius: 18px;
   background:
-    linear-gradient(90deg, color-mix(in srgb, var(--accent) 18%, transparent) 0 29%, transparent 29.2% 100%),
-    linear-gradient(135deg, rgba(255, 255, 255, 0.45), transparent 45%),
+    linear-gradient(90deg, color-mix(in srgb, var(--accent) 10%, transparent) 0 34%, transparent 34.2% 100%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.30), transparent 48%),
     var(--header-bg, linear-gradient(135deg, rgba(255, 247, 234, 0.92), rgba(233, 243, 245, 0.88)));
   box-shadow: 0 18px 42px var(--header-shadow, rgba(31, 64, 76, 0.12));
-  backdrop-filter: blur(18px);
+  backdrop-filter: blur(14px);
   overflow: hidden;
 }
 
@@ -107,9 +107,9 @@ const uiStore = useUIStore()
   grid-row: 1 / span 2;
   display: grid;
   place-items: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 18px;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
   color: var(--accent);
   background:
     radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.85), transparent 28%),
@@ -118,25 +118,25 @@ const uiStore = useUIStore()
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.55), 0 12px 30px color-mix(in srgb, var(--accent) 16%, transparent);
 }
 .brand-wing {
-  width: 24px;
-  height: 18px;
+  width: 22px;
+  height: 16px;
   border: 2px solid currentColor;
   border-left-color: transparent;
   border-bottom-color: transparent;
   border-radius: 60% 80% 45% 70%;
   transform: rotate(-18deg);
 }
-.eyebrow { margin: 0 0 4px; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent, #0f766e); }
-.app-header h1 { margin: 0; font-family: "Alegreya Sans", "Source Han Sans SC", "Noto Sans SC", sans-serif; font-size: clamp(22px, 2.6vw, 34px); font-weight: 950; line-height: 1.02; color: var(--heading-color, inherit); text-shadow: 0 1px 0 rgba(255,255,255,0.24); }
+.eyebrow { margin: 0 0 3px; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent, #0f766e); }
+.app-header h1 { margin: 0; font-family: inherit; font-size: clamp(18px, 1.9vw, 26px); font-weight: 850; line-height: 1.08; color: var(--heading-color, inherit); text-shadow: 0 1px 0 rgba(255,255,255,0.18); }
 .header-nav { display: flex; gap: 8px; align-items: center; }
 .nav-link {
-  display: flex; align-items: center; gap: 7px; padding: 9px 15px; border-radius: 999px;
+  display: flex; align-items: center; justify-content: center; gap: 7px; min-height: 42px; padding: 9px 13px; border-radius: 12px;
   border: 1px solid var(--nav-border, rgba(18, 48, 59, 0.1));
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.22), transparent),
     var(--nav-bg, rgba(255, 255, 255, 0.68));
-  color: var(--text-color, #12303b); text-decoration: none; font-size: 14px; cursor: pointer;
-  transition: all 0.2s ease; font-family: inherit;
+  color: var(--text-color, #12303b); text-decoration: none; font-size: 13px; cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, color 0.18s ease; font-family: inherit;
   white-space: nowrap;
 }
 .nav-link:hover { transform: translateY(-1px); border-color: rgba(15, 118, 110, 0.26); box-shadow: 0 10px 18px rgba(18, 48, 59, 0.08); }
@@ -148,10 +148,24 @@ const uiStore = useUIStore()
   box-shadow: 0 10px 24px color-mix(in srgb, var(--accent) 16%, transparent);
 }
 .nav-icon { width: 16px; height: 16px; }
-.theme-btn { border-color: var(--nav-border, rgba(18, 48, 59, 0.1)); }
+.theme-btn {
+  width: 42px;
+  padding-inline: 0;
+  border-color: var(--nav-border, rgba(18, 48, 59, 0.1));
+}
+.theme-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
 @media (max-width: 720px) {
-  .app-header { flex-direction: column; padding: 16px 20px; }
+  .app-header { flex-direction: column; padding: 14px; top: 10px; }
   .header-left { width: 100%; }
   .header-nav { width: 100%; justify-content: center; flex-wrap: wrap; }
+  .nav-link { flex: 1 1 auto; min-width: 96px; }
+  .theme-btn { flex: 0 0 42px; min-width: 42px; }
 }
 </style>
