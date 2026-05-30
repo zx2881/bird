@@ -1,5 +1,37 @@
 <template>
   <div class="detail-page">
+    <button class="help-float-btn" @click="helpGuide.open('location-detail')" title="使用说明">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/>
+        <line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+    </button>
+
+    <HelpModal subtitle="地点详情页 · 功能介绍">
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          地点详情页功能
+        </h3>
+        <ul>
+          <li><strong>位置信息：</strong>顶部展示地点名称、所属大洲、经纬度坐标和关联的鸟类数量统计。</li>
+          <li><strong>分布地图：</strong>Leaflet 地图标注该地点的位置，支持缩放和拖拽查看周边区域。</li>
+          <li><strong>该地鸟类：</strong>列出分布于该地点的所有鸟类物种卡片，包含照片、名称和保护等级标签。点击卡片跳转鸟类详情页。</li>
+          <li><strong>关联关系：</strong>若该地点关联了栖息地类型或威胁因素，展示对应的关系列表。</li>
+        </ul>
+      </div>
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h12M4 10h12M4 16h12"/></svg>
+          侧边栏导航
+        </h3>
+        <ul>
+          <li>左侧边栏支持搜索和快速切换到其他分布地点。</li>
+        </ul>
+      </div>
+    </HelpModal>
+
     <aside class="detail-sidebar panel">
       <h3 class="sidebar-title">
         <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
@@ -143,10 +175,13 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import L from 'leaflet'
 import { useGraphStore } from '../stores/graphStore.js'
+import { useHelpGuide } from '../composables/useHelpGuide.js'
+import HelpModal from '../components/HelpModal.vue'
 
 const route = useRoute()
 const router = useRouter()
 const store = useGraphStore()
+const helpGuide = useHelpGuide()
 
 const locId = ref(route.params.id)
 const switchQuery = ref('')
@@ -263,6 +298,7 @@ onMounted(async () => {
   await ensureCurrentLoaded(locId.value)
   await nextTick()
   initMap()
+  setTimeout(() => helpGuide.checkFirstVisit('location-detail'), 800)
 })
 
 onBeforeUnmount(() => {
@@ -582,5 +618,34 @@ onBeforeUnmount(() => {
   .detail-summary-section { padding: 16px 20px 8px; }
   .detail-map-section, .detail-relations-section { padding: 0 20px 20px; }
   .relation-bird-grid { grid-template-columns: 1fr; }
+}
+
+.help-float-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 100;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.9), rgba(124, 58, 237, 0.9));
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.35);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.help-float-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 24px rgba(139, 92, 246, 0.5);
+  border-color: rgba(139, 92, 246, 0.5);
+}
+.help-float-btn svg {
+  width: 22px;
+  height: 22px;
 }
 </style>

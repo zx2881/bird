@@ -10,7 +10,7 @@
           <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
           <polyline points="9 22 9 12 15 12 15 22"/>
         </svg>
-        <span>首页</span>
+        <span>图谱</span>
       </router-link>
       <router-link to="/overview" class="nav-link" active-class="nav-link--active">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -35,12 +35,19 @@
         </svg>
         <span>语义搜索</span>
       </router-link>
+      <div class="header-divider" />
       <button class="nav-link theme-btn" @click="uiStore.toggleDarkMode()" :title="uiStore.darkMode ? '切换亮色' : '切换暗色'">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path :d="uiStore.darkMode ? 'M12 3v1m0 16v1m-9-9h1m16 0h1M4.2 4.2l.7.7m14.1 14.1l.7.7M4.2 19.8l.7-.7m14.1-14.1l.7-.7M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10' : 'M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z'"/>
         </svg>
         <span>{{ uiStore.darkMode ? '亮色' : '暗色' }}</span>
       </button>
+      <router-link to="/" class="nav-link back-btn">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        <span>返回首页</span>
+      </router-link>
     </nav>
   </header>
 </template>
@@ -83,6 +90,25 @@ const uiStore = useUIStore()
 }
 .nav-icon { width: 16px; height: 16px; }
 .theme-btn { border-color: var(--nav-border, rgba(18, 48, 59, 0.1)); }
+
+.header-divider {
+  width: 1px;
+  height: 24px;
+  background: var(--nav-border, rgba(18, 48, 59, 0.12));
+  margin: 0 4px;
+  align-self: center;
+}
+
+.back-btn {
+  border-color: rgba(15, 118, 110, 0.2);
+  color: var(--accent);
+  font-weight: 600;
+}
+.back-btn:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
 @media (max-width: 720px) {
   .app-header { flex-direction: column; padding: 16px 20px; }
   .header-nav { width: 100%; justify-content: center; flex-wrap: wrap; }

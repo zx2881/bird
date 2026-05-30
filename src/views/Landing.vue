@@ -108,6 +108,100 @@
       </div>
     </section>
 
+    <section class="conservation" ref="conservationRef">
+      <div class="section-header" data-reveal>
+        <h2 class="section-title">为什么鸟类保护至关重要</h2>
+        <p class="section-sub">鸟类不仅是自然之美的象征，更是地球生态健康的晴雨表</p>
+      </div>
+      <div class="conservation-grid">
+        <div class="conservation-stat-card" data-reveal="1">
+          <div class="conservation-stat-glow" aria-hidden="true"></div>
+          <span class="conservation-stat-number">1,481</span>
+          <span class="conservation-stat-label">种全球受威胁鸟类</span>
+          <p class="conservation-stat-desc">约占已知鸟类的 13%，被 IUCN 列为 CR/EN/VU 等级</p>
+        </div>
+        <div class="conservation-stat-card" data-reveal="2">
+          <div class="conservation-stat-glow" aria-hidden="true"></div>
+          <span class="conservation-stat-number">68%</span>
+          <span class="conservation-stat-label">种群数量下降</span>
+          <p class="conservation-stat-desc">过去 50 年间，全球超过 2/3 的鸟类种群呈下降趋势</p>
+        </div>
+        <div class="conservation-stat-card" data-reveal="3">
+          <div class="conservation-stat-glow" aria-hidden="true"></div>
+          <span class="conservation-stat-number">1,200+</span>
+          <span class="conservation-stat-label">已灭绝鸟类物种</span>
+          <p class="conservation-stat-desc">自 1500 年以来，人类活动导致的鸟类灭绝速度是自然速率的 100 倍</p>
+        </div>
+      </div>
+
+      <div class="conservation-topics" data-reveal="4">
+        <div class="conservation-topic">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M2 22L12 12M22 2L12 12"/>
+              <path d="M12 12l-3.5 3.5M12 12l-7 7"/>
+              <circle cx="8" cy="8" r="2"/>
+              <path d="M14 2h8v8"/>
+            </svg>
+          </div>
+          <div class="topic-content">
+            <h4>栖息地丧失</h4>
+            <p>森林砍伐、湿地填埋、草原开垦使鸟类失去赖以生存的家园。全球每年消失的森林面积相当于一个葡萄牙，湿地退化速度是森林的三倍。候鸟迁徙路线上的停歇地正以惊人的速度缩减。</p>
+          </div>
+        </div>
+        <div class="conservation-topic">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+            </svg>
+          </div>
+          <div class="topic-content">
+            <h4>气候变化</h4>
+            <p>全球变暖导致鸟类物候紊乱——迁徙时间错位、繁殖季节提前、食物链断裂。温度每升高 1°C，约有 100 种鸟类的适宜栖息范围将显著缩小。极地和高山鸟类受到的冲击尤为严重。</p>
+          </div>
+        </div>
+        <div class="conservation-topic">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+          <div class="topic-content">
+            <h4>非法捕猎与贸易</h4>
+            <p>每年数以百万计的鸟类被非法捕捉用于宠物贸易、食物和传统医药。东南亚地区的鸣禽贸易每年涉及超过 1,000 万只鸟，许多物种因过度捕捉而濒临野外灭绝。</p>
+          </div>
+        </div>
+        <div class="conservation-topic">
+          <div class="topic-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4-4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+            </svg>
+          </div>
+          <div class="topic-content">
+            <h4>环境污染</h4>
+            <p>农药、重金属和塑料污染直接毒害鸟类或通过食物链富集。每年有超过 100 万只海鸟因误食塑料而死亡。杀虫剂的使用使昆虫数量锐减，以昆虫为食的鸟类面临严重的食物短缺。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="conservation-cta" data-reveal="5">
+        <div class="conservation-cta-bg" aria-hidden="true"></div>
+        <div class="conservation-cta-content">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/>
+            <path d="M8 12l3 3 5-5"/>
+          </svg>
+          <div>
+            <h4>我们能做什么</h4>
+            <p>支持保护地建设与湿地修复，参与公民科学项目（如 eBird），减少塑料使用，选择可持续农产品，传播鸟类保护知识——每个人的行动都能为鸟类带来希望。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div class="section-divider" aria-hidden="true">
       <svg viewBox="0 0 1440 80" preserveAspectRatio="none" fill="none">
         <path d="M0 80 L0 40 Q180 0 360 40 Q540 80 720 40 Q900 0 1080 40 Q1260 80 1440 40 L1440 80 Z" fill="currentColor"/>
@@ -150,6 +244,7 @@ import { ref, reactive, onMounted, onUnmounted } from 'vue'
 
 const graphCanvas = ref(null)
 const statsRef = ref(null)
+const conservationRef = ref(null)
 const reducedMotion = ref(false)
 
 const animatedStats = reactive({
@@ -746,6 +841,165 @@ onUnmounted(() => {
 }
 
 /* ═══════════════════════════════════════════
+   Conservation
+   ═══════════════════════════════════════════ */
+.conservation {
+  padding: 100px 24px 80px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.conservation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 48px;
+  margin-bottom: 56px;
+}
+
+.conservation-stat-card {
+  position: relative;
+  padding: 38px 24px 32px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.022);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.35s ease, box-shadow 0.35s ease;
+}
+.conservation-stat-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(220, 38, 38, 0.25);
+  box-shadow: 0 20px 56px rgba(0, 0, 0, 0.3);
+}
+.conservation-stat-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(220, 38, 38, 0.07), transparent 65%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.conservation-stat-card:hover .conservation-stat-glow {
+  opacity: 1;
+}
+.conservation-stat-number {
+  display: block;
+  font-family: "Alegreya", "Source Han Serif SC", serif;
+  font-size: 48px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #f87171, #dc2626);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+.conservation-stat-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--heading-color, #f1f5f9);
+  margin-bottom: 10px;
+}
+.conservation-stat-desc {
+  font-size: 13px;
+  line-height: 1.65;
+  color: rgba(226, 232, 240, 0.45);
+  margin: 0;
+}
+
+.conservation-topics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-bottom: 48px;
+}
+.conservation-topic {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.018);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: left;
+  transition: all 0.3s ease;
+}
+.conservation-topic:hover {
+  border-color: rgba(94, 234, 212, 0.15);
+  background: rgba(255, 255, 255, 0.028);
+}
+.topic-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 13px;
+  background: rgba(94, 234, 212, 0.1);
+  color: #5eead4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.topic-icon svg {
+  width: 22px;
+  height: 22px;
+}
+.topic-content h4 {
+  margin: 0 0 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--heading-color, #f1f5f9);
+}
+.topic-content p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: rgba(226, 232, 240, 0.45);
+}
+
+.conservation-cta {
+  position: relative;
+  padding: 36px 40px;
+  border-radius: 24px;
+  background: rgba(94, 234, 212, 0.03);
+  border: 1px solid rgba(94, 234, 212, 0.1);
+  overflow: hidden;
+}
+.conservation-cta-bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 50%, rgba(94, 234, 212, 0.06), transparent 60%);
+  pointer-events: none;
+}
+.conservation-cta-content {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: left;
+}
+.conservation-cta-content svg {
+  width: 28px;
+  height: 28px;
+  color: #5eead4;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.conservation-cta-content h4 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--heading-color, #f1f5f9);
+}
+.conservation-cta-content p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.75;
+  color: rgba(226, 232, 240, 0.52);
+}
+
+/* ═══════════════════════════════════════════
    Section Divider (Stripe-style wave)
    ═══════════════════════════════════════════ */
 .section-divider {
@@ -856,6 +1110,17 @@ onUnmounted(() => {
     padding: 28px 24px 26px;
   }
 
+  .conversation-grid,
+  .conservation-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .conservation-topics {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
   .stats-container {
     gap: 0;
   }
@@ -922,6 +1187,22 @@ onUnmounted(() => {
 
   .feature-card p {
     font-size: 13px;
+  }
+
+  .conservation-stat-card {
+    padding: 28px 20px 24px;
+  }
+
+  .conservation-stat-number {
+    font-size: 36px;
+  }
+
+  .conservation-topic {
+    padding: 18px;
+  }
+
+  .conservation-cta {
+    padding: 24px 20px;
   }
 
   .section-divider svg {
