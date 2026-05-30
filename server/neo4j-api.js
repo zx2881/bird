@@ -132,15 +132,34 @@ async function getSummary() {
     ORDER BY coalesce(b.name, b.englishName, b.id)
   `)
 
+  const relationRows = await cypher(`
+    MATCH ()-[r]->()
+    WITH coalesce(r.relation, type(r)) AS relation, count(r) AS count
+    RETURN relation, count
+    ORDER BY relation
+  `)
+
+  const locationRows = await cypher(`
+    MATCH (l:Location)
+    RETURN l.id AS id, l.name AS name, l.lat AS lat, l.lng AS lng
+    ORDER BY coalesce(l.name, l.id)
+  `)
+
+  const relationTypes = Object.fromEntries(relationRows.map(([relation, count]) => [relation, count]))
+  const totalRelations = Object.values(relationTypes).reduce((sum, count) => sum + count, 0)
+
   return {
     meta: {
       source: 'neo4j',
       counts: {
-        birds: rows.length
+        birds: rows.length,
+        totalRelations,
+        relationTypes
       }
     },
     columns: ['id', 'name', 'englishName', 'latinName'],
-    items: rows.map(([id, name, englishName, latinName]) => [id, name, englishName || '', latinName || ''])
+    items: rows.map(([id, name, englishName, latinName]) => [id, name, englishName || '', latinName || '']),
+    locations: locationRows.map(([id, name, lat, lng]) => ({ id, name, lat, lng }))
   }
 }
 

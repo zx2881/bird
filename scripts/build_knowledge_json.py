@@ -18,11 +18,11 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import math
 import re
-import shutil
 from collections import defaultdict
 from datetime import datetime
 from hashlib import md5
@@ -662,11 +662,18 @@ def add_unique_link(links: List[Dict], link_set: set[str], source: str, target: 
     link_set.add(key)
 
 
-def build_graph() -> Dict:
-    birds_rows = read_csv(DATA_DIR / "birds.csv")
-    locations_rows = read_csv(DATA_DIR / "locations.csv")
-    relations_rows = read_csv(DATA_DIR / "relations.csv")
-    full_bird_summaries = load_full_bird_summaries()
+def build_graph(skip_raw_summaries: bool = False) -> Dict:
+    birds_path = DATA_DIR / "birds.csv"
+    locations_path = DATA_DIR / "locations.csv"
+    relations_path = DATA_DIR / "relations.csv"
+    source_paths = [birds_path, locations_path, relations_path]
+    source_mtime = max(path.stat().st_mtime for path in source_paths)
+    source_datetime = datetime.fromtimestamp(source_mtime)
+
+    birds_rows = read_csv(birds_path)
+    locations_rows = read_csv(locations_path)
+    relations_rows = read_csv(relations_path)
+    full_bird_summaries = {} if skip_raw_summaries else load_full_bird_summaries()
 
     require_columns(DATA_DIR / "birds.csv", birds_rows, ["id", "name", "english_name", "latin_name", "summary", "lat", "lng"])
     require_columns(DATA_DIR / "locations.csv", locations_rows, ["id", "name", "summary", "lat", "lng"])
@@ -942,8 +949,8 @@ def build_graph() -> Dict:
             "title": "全球鸟类分布与生物多样性保护知识图谱",
             "mode": "chunked-static-data",
             "description": "由 data/birds.csv、data/locations.csv、data/relations.csv 自动构建为静态分片数据。",
-            "updated_at": datetime.now().date().isoformat(),
-            "generated_at": datetime.now().isoformat(timespec="seconds"),
+            "updated_at": source_datetime.date().isoformat(),
+            "generated_at": source_datetime.isoformat(timespec="seconds"),
             "source_files": [
                 "data/birds.csv",
                 "data/locations.csv",
@@ -1236,7 +1243,27 @@ def serialize_preview_node(node: Dict) -> Dict:
     return {key: value for key, value in data.items() if value not in ("", None, [])}
 
 
-def extract_chunk(node_id: str, nodes: Dict[str, Dict], links: List[Dict], adjacency: Dict[str, List[Dict]], taxonomy: Dict) -> Optional[Dict]:
+def write_json_if_changed(path: Path, payload: Dict, compact_json: bool = False) -> bool:
+    separators = (",", ":") if compact_json else None
+    content = json.dumps(payload, ensure_ascii=False, separators=separators)
+    if path.exists():
+        try:
+            if path.read_text(encoding="utf-8") == content:
+                return False
+        except OSError:
+            pass
+    path.write_text(content, encoding="utf-8")
+    return True
+
+
+def extract_chunk(
+    node_id: str,
+    nodes: Dict[str, Dict],
+    links: List[Dict],
+    adjacency: Dict[str, List[Dict]],
+    taxonomy: Dict,
+    generated_at: str,
+) -> Optional[Dict]:
     center = nodes.get(node_id)
     if not center:
         return None
@@ -1280,7 +1307,7 @@ def extract_chunk(node_id: str, nodes: Dict[str, Dict], links: List[Dict], adjac
         "meta": {
             "centerNodeId": node_id,
             "centerNodeType": center["type"],
-            "generatedAt": datetime.now().isoformat(timespec="seconds"),
+            "generatedAt": generated_at,
             "includedNodeCount": len(included_nodes),
             "includedLinkCount": len(included_links),
             "layoutMode": "precomputed-static",
@@ -1301,8 +1328,7 @@ def write_output_files(graph: Dict) -> None:
     taxonomy = graph["taxonomy"]
     meta = graph["meta"]
 
-    if OUTPUT_DIR.exists():
-        shutil.rmtree(OUTPUT_DIR)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     NODES_DIR.mkdir(parents=True, exist_ok=True)
     if LEGACY_OUTPUT_PATH.exists():
         LEGACY_OUTPUT_PATH.unlink()
@@ -1353,14 +1379,19 @@ def write_output_files(graph: Dict) -> None:
             for bird in bird_nodes
         ],
         "locations": [
-            {"id": loc["id"], "name": loc["name"]}
+            {
+                "id": loc["id"],
+                "name": loc["name"],
+                "lat": loc.get("lat"),
+                "lng": loc.get("lng"),
+            }
             for loc in sorted(
                 (node for node in nodes.values() if node["type"] == "location"),
                 key=lambda item: (item["name"], item["id"]),
             )
         ],
     }
-    (OUTPUT_DIR / "summary.json").write_text(json.dumps(summary_payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    write_json_if_changed(OUTPUT_DIR / "summary.json", summary_payload, compact_json=True)
 
     skeleton_links = [
         serialize_link(link)
@@ -1381,7 +1412,7 @@ def write_output_files(graph: Dict) -> None:
         "nodes": [serialize_node(node) for node in taxonomy_nodes],
         "links": skeleton_links,
     }
-    (OUTPUT_DIR / "taxonomy_skeleton.json").write_text(json.dumps(skeleton_payload, ensure_ascii=False), encoding="utf-8")
+    write_json_if_changed(OUTPUT_DIR / "taxonomy_skeleton.json", skeleton_payload)
 
     preview_links = [
         serialize_overview_link(link)
@@ -1403,22 +1434,37 @@ def write_output_files(graph: Dict) -> None:
         "nodes": [serialize_preview_node(node) for node in [*taxonomy_nodes, *bird_nodes]],
         "links": preview_links,
     }
-    (OUTPUT_DIR / "graph_preview.json").write_text(
-        json.dumps(preview_payload, ensure_ascii=False, separators=(",", ":")),
-        encoding="utf-8",
-    )
+    write_json_if_changed(OUTPUT_DIR / "graph_preview.json", preview_payload, compact_json=True)
 
     adjacency = build_adjacency(links)
     chunk_ids = [node["id"] for node in bird_nodes] + [node["id"] for node in taxonomy_nodes]
+    written_node_paths = set()
     for node_id in chunk_ids:
-        payload = extract_chunk(node_id, nodes, links, adjacency, taxonomy)
+        payload = extract_chunk(node_id, nodes, links, adjacency, taxonomy, meta["generated_at"])
         if not payload:
             continue
-        (NODES_DIR / f"{node_id}.json").write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+        node_path = NODES_DIR / f"{node_id}.json"
+        write_json_if_changed(node_path, payload)
+        written_node_paths.add(node_path)
+
+    for stale_path in NODES_DIR.glob("*.json"):
+        if stale_path not in written_node_paths:
+            stale_path.unlink()
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Build static bird knowledge graph data chunks.")
+    parser.add_argument(
+        "--skip-raw-summaries",
+        action="store_true",
+        help="Skip scanning wikipedia_raw and wikipedia_checkpoint JSON files; use birds.csv summaries only.",
+    )
+    return parser.parse_args()
 
 
 def main() -> None:
-    graph = build_graph()
+    args = parse_args()
+    graph = build_graph(skip_raw_summaries=args.skip_raw_summaries)
     nodes = graph["nodes"]
     birds_by_id = {node_id: node for node_id, node in nodes.items() if node["type"] == "bird"}
 

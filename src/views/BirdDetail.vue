@@ -44,7 +44,7 @@
         class="switch-input"
         placeholder="搜索中文名、英文名或学名…"
       />
-      <div class="switch-list">
+      <div ref="switchListRef" class="switch-list" @scroll="handleSwitchScroll">
         <button
           v-for="item in switchResults"
           :key="item.id"
@@ -223,8 +223,10 @@ const helpGuide = useHelpGuide()
 
 const birdId = ref(route.params.id)
 const switchQuery = ref('')
+const switchLimit = ref(40)
 const summaryExpanded = ref(false)
 const detailMapRef = ref(null)
+const switchListRef = ref(null)
 let detailMapInstance = null
 
 const endangermentLabels = {
@@ -268,13 +270,14 @@ function statusGradient(status) {
 
 function relationChipType(relation) {
   const map = {
+    'distributed_in': 'lives',
     'lives_in': 'lives',
-    'has_habitat': 'habitat',
-    'faces_threat': 'threat',
+    'has_status': 'status',
+    'threatened_by': 'threat',
     'belongs_to_order': 'taxonomy',
     'belongs_to_family': 'taxonomy',
     'belongs_to_genus': 'taxonomy',
-    'located_in': 'lives'
+    'belongs_to_species': 'taxonomy'
   }
   return map[relation] || 'default'
 }
@@ -301,9 +304,21 @@ const displaySummary = computed(() => {
 const switchResults = computed(() => {
   const query = switchQuery.value.trim()
   if (!query) {
-    return store.summaryBirds.slice(0, 20)
+    return store.summaryBirds.slice(0, switchLimit.value)
   }
-  return store.findBirdMatches(query, 20)
+  return store.findBirdMatches(query, switchLimit.value)
+})
+
+function handleSwitchScroll(event) {
+  const el = event.currentTarget
+  if (!el || el.scrollHeight - el.scrollTop - el.clientHeight > 120) return
+  if (switchLimit.value >= store.summaryBirds.length) return
+  switchLimit.value = Math.min(store.summaryBirds.length, switchLimit.value + 40)
+}
+
+watch(switchQuery, () => {
+  switchLimit.value = 40
+  if (switchListRef.value) switchListRef.value.scrollTop = 0
 })
 
 const incidentLinks = computed(() => store.getIncidentLinks(birdId.value))
@@ -455,6 +470,7 @@ onBeforeUnmount(() => {
   gap: 8px;
   max-height: 68vh;
   margin-top: 14px;
+  overflow-x: hidden;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--panel-border) transparent;
@@ -473,7 +489,6 @@ onBeforeUnmount(() => {
 .switch-item:hover {
   border-color: var(--accent);
   background: var(--accent-soft);
-  transform: translateX(4px);
 }
 .switch-item.active {
   border-color: var(--accent);
@@ -685,11 +700,13 @@ onBeforeUnmount(() => {
 
 .chip-lives .chip-type { background: var(--success); }
 .chip-habitat .chip-type { background: #0284c7; }
+.chip-status .chip-type { background: #f59e0b; }
 .chip-threat .chip-type { background: var(--danger); }
 .chip-taxonomy .chip-type { background: #7c3aed; }
 .chip-default .chip-type { background: var(--accent); }
 .chip-lives { border-color: rgba(22,163,74,0.3); }
 .chip-habitat { border-color: rgba(2,132,199,0.3); }
+.chip-status { border-color: rgba(245,158,11,0.3); }
 .chip-threat { border-color: rgba(220,38,38,0.3); }
 .chip-taxonomy { border-color: rgba(124,58,237,0.3); }
 

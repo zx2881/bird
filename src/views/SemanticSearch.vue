@@ -51,6 +51,7 @@
           <path d="M9.5 11h3M11 9.5v3" />
         </svg>
       </div>
+      <span class="semantic-kicker">Knowledge query desk</span>
       <h2 class="page-title">语义搜索</h2>
       <p class="page-desc">用自然语言探索鸟类知识图谱，AI 理解语义并返回精准答案</p>
     </div>
@@ -456,12 +457,38 @@ onMounted(() => {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 4px;
+  position: relative;
+}
+.semantic-page::before {
+  content: "";
+  position: absolute;
+  inset: 112px auto auto 2%;
+  width: 170px;
+  height: 68px;
+  opacity: 0.13;
+  pointer-events: none;
+  color: var(--accent);
+  background:
+    radial-gradient(circle at 12% 60%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 44% 36%, currentColor 0 2px, transparent 2.5px),
+    radial-gradient(circle at 80% 56%, currentColor 0 2px, transparent 2.5px),
+    linear-gradient(14deg, transparent 0 20%, currentColor 20.5% 21.5%, transparent 22% 100%);
 }
 
 /* ── Hero ── */
 .page-hero {
+  position: relative;
   text-align: center;
   margin-bottom: 28px;
+  padding: 28px 24px 26px;
+  border-radius: 30px;
+  border: 1px solid var(--panel-border);
+  background:
+    radial-gradient(circle at 18% 22%, var(--leaf-soft), transparent 30%),
+    radial-gradient(circle at 84% 18%, var(--sky-soft), transparent 30%),
+    linear-gradient(135deg, color-mix(in srgb, var(--card-bg) 86%, transparent), color-mix(in srgb, var(--accent) 9%, transparent));
+  box-shadow: var(--shadow);
+  overflow: hidden;
 }
 .hero-icon {
   display: inline-flex;
@@ -475,10 +502,19 @@ onMounted(() => {
   margin-bottom: 12px;
 }
 .hero-icon svg { width: 24px; height: 24px; }
+.semantic-kicker {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
 .page-title {
-  font-family: "Alegreya", "Source Han Serif SC", serif;
+  font-family: "Alegreya Sans", "Source Han Sans SC", sans-serif;
   font-size: 34px;
-  font-weight: 700;
+  font-weight: 900;
   margin: 0 0 8px;
   color: var(--heading-color);
   letter-spacing: -0.02em;
@@ -494,6 +530,13 @@ onMounted(() => {
 .search-box {
   margin-bottom: 24px;
   position: relative;
+  padding: 22px;
+  border: 1px solid var(--panel-border);
+  border-radius: 24px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.32), transparent 42%),
+    var(--card-bg);
+  box-shadow: var(--shadow);
 }
 .search-row {
   position: relative;
@@ -517,16 +560,16 @@ onMounted(() => {
 }
 .search-input {
   width: 100%;
-  padding: 18px 56px 18px 52px;
-  border: 2px solid var(--panel-border);
-  border-radius: 20px;
+  padding: 20px 60px 20px 56px;
+  border: 1px solid var(--panel-border);
+  border-radius: 18px;
   background: var(--card-bg);
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
   outline: none;
   transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 18px 48px rgba(15,118,110,0.08);
   backdrop-filter: blur(8px);
 }
 .search-input::placeholder { color: var(--text-secondary); opacity: 0.6; }
@@ -575,7 +618,7 @@ onMounted(() => {
   right: 0;
   background: var(--card-bg);
   border: 1px solid var(--panel-border);
-  border-radius: 16px;
+  border-radius: 14px;
   box-shadow: 0 16px 48px rgba(0,0,0,0.1);
   z-index: 30;
   overflow: hidden;
@@ -648,8 +691,8 @@ onMounted(() => {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 10px 22px;
-  border-radius: 14px;
+  padding: 12px 24px;
+  border-radius: 999px;
   border: 1px solid var(--panel-border);
   background: var(--card-bg);
   color: var(--text-color);
@@ -720,6 +763,11 @@ onMounted(() => {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+}
+
+.hot-tag {
+  border-radius: 999px;
+  box-shadow: 0 10px 24px rgba(2, 8, 23, 0.08);
 }
 .hot-tag {
   padding: 6px 15px;

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build:data": "python scripts/build_knowledge_json.py",
+    "build:data:fast": "python scripts/build_knowledge_json.py --skip-raw-summaries",
     "rebuild:preview": "python scripts/rebuild_summary_preview.py",
     "build:search-index": "python scripts/build_lightweight_index.py",
     "fetch:bird-images": "python scripts/fetch_bird_images.py",
