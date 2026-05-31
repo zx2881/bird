@@ -1,5 +1,48 @@
 <template>
-  <div class="home-page" :class="{ 'home-page--migration': isMigrationMode }">
+  <div class="home-page">
+    <button class="help-float-btn" @click="helpGuide.open('home')" title="使用说明">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/>
+        <line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+    </button>
+
+    <HelpModal subtitle="3D 知识图谱 · 操作说明">
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="6" r="3.5"/><circle cx="17" cy="5" r="3"/><circle cx="12" cy="16" r="3.5"/><line x1="7" y1="6" x2="12" y2="16"/><line x1="17" y1="5" x2="12" y2="16"/></svg>
+          3D 知识图谱操作
+        </h3>
+        <ul>
+          <li><strong>旋转/缩放：</strong>鼠标拖拽旋转视角，滚轮缩放，右键平移。画布展示了鸟类与分类、地点、栖息地、保护等级等实体的 3D 关联网络。</li>
+          <li><strong>点击节点：</strong>点击任意节点织入该实体的一度邻域关系；再次点击中心节点可跳转至详情页查看完整信息。</li>
+          <li><strong>搜索鸟类：</strong>顶部搜索框支持中文名、英文名和学名检索，选择匹配结果后自动在画布中心展开该物种。</li>
+          <li><strong>上下文过滤：</strong>工具栏可选显示/隐藏分类、地点、栖息地、保护等级、威胁因素等不同类型的节点。</li>
+          <li><strong>聚焦模式：</strong>点击节点后进入聚焦视图，显示当前节点的所有关联；点击「返回全图」退出聚焦。</li>
+        </ul>
+      </div>
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+          导出功能
+        </h3>
+        <ul>
+          <li>左侧边栏支持导出当前可见子图：<strong>PNG 截图</strong>保存当前画布视图，<strong>JSON 数据</strong>导出节点与关系，<strong>GraphML</strong>导出为图分析工具可读格式。</li>
+        </ul>
+      </div>
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          加载机制
+        </h3>
+        <ul>
+          <li>首屏仅加载鸟类与界门纲目科的分类骨架，属和种在点击节点后按需织入，避免一次性加载全部数据。</li>
+          <li>左侧面板显示当前数据加载状态，包括已入图物种数、节点数和关系数。</li>
+        </ul>
+      </div>
+    </HelpModal>
+
     <div class="home-hero">
       <div class="home-hero-copy">
         <span class="home-kicker">Avian graph observatory</span>
@@ -49,9 +92,21 @@
         <section class="panel insight-panel">
           <h3 class="panel-title">数据加载状态</h3>
           <div class="metric-grid">
-            <div v-for="card in homeMetricCards" :key="card.label" class="metric-card">
-              <span class="metric-value">{{ card.value }}</span>
-              <span class="metric-label">{{ card.label }}</span>
+            <div class="metric-card">
+              <span class="metric-value">{{ store.totalBirdCount }}</span>
+              <span class="metric-label">鸟类索引</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">{{ store.loadedBirdCount }}</span>
+              <span class="metric-label">已进图物种</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">{{ store.nodeCount }}</span>
+              <span class="metric-label">当前节点</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">{{ nonTaxonomyRelationCount }}</span>
+              <span class="metric-label">实体关系</span>
             </div>
           </div>
           <p class="panel-note">{{ loadSummary }}</p>
@@ -192,10 +247,13 @@ import SigmaCanvas from '../graph/SigmaCanvas.vue'
 import { useGraphExport } from '../composables/useGraphExport.js'
 import { useGraphStore } from '../stores/graphStore.js'
 import { useUIStore } from '../stores/uiStore.js'
+import { useHelpGuide } from '../composables/useHelpGuide.js'
+import HelpModal from '../components/HelpModal.vue'
 
 const router = useRouter()
 const store = useGraphStore()
 const uiStore = useUIStore()
+const helpGuide = useHelpGuide()
 const { exportPNG, exportJSON, exportGraphML } = useGraphExport()
 
 const containerRef = ref(null)
@@ -584,6 +642,7 @@ function clearFocus() {
 onMounted(async () => {
   await store.loadInitialData()
   void store.loadGraphPreview()
+  setTimeout(() => helpGuide.checkFirstVisit('home'), 800)
 })
 </script>
 
@@ -1493,43 +1552,32 @@ onMounted(async () => {
   }
 }
 
-.graph-header h2 {
-  font-size: clamp(22px, 2vw, 28px);
-  font-weight: 850;
+.help-float-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 100;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.9), rgba(124, 58, 237, 0.9));
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.35);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.view-kicker {
-  display: inline-flex;
-  margin-bottom: 6px;
-  color: var(--accent);
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+.help-float-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 24px rgba(139, 92, 246, 0.5);
+  border-color: rgba(139, 92, 246, 0.5);
 }
-.legend span {
-  padding: 4px 8px;
-  border-radius: 8px;
-  background: color-mix(in srgb, var(--card-bg) 66%, transparent);
-  border: 1px solid var(--panel-border);
-}
-.graph-toolbar,
-.graph-canvas,
-.home-page--migration .graph-canvas { border-radius: 14px; }
-.graph-toolbar {
-  padding: 16px;
-  border-radius: 14px;
-}
-.graph-canvas {
-  min-height: 680px;
-  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 22%, transparent), 0 24px 70px rgba(2, 8, 23, 0.18);
-}
-.toolbar-label {
-  color: var(--accent);
-  font-weight: 800;
-}
-
-.pill {
-  padding: 8px 14px;
-  font-weight: 700;
+.help-float-btn svg {
+  width: 22px;
+  height: 22px;
 }
 </style>

@@ -161,38 +161,16 @@ def check_ollama() -> bool:
         return False
 
 
-def get_entity_summary_fast(entity_id: str, entity_type: str = "", name: str = "") -> str:
-    if summary_data and entity_type == "bird":
-        cols = summary_data.get("columns", [])
-        idx_map = {c: i for i, c in enumerate(cols)}
-        for item in summary_data.get("items", []):
-            if item[idx_map.get("id", 0)] == entity_id:
-                parts = []
-                en = item[idx_map.get("englishName", 2)] or ""
-                la = item[idx_map.get("latinName", 3)] or ""
-                if en:
-                    parts.append(en)
-                if la:
-                    parts.append(la)
-                return " ".join(parts)
-    return ""
-
-
-def get_entity_summary(entity_id: str, entity_type: str = "") -> str:
-    chunk = load_node_chunk(entity_id)
-    if not chunk:
-        return ""
-    for node in chunk.get("nodes", []):
-        if node["id"] == entity_id:
-            return node.get("summary", "")
-    return ""
-
-
-def load_node_chunk(node_id: str) -> dict | None:
-    if node_id in node_cache:
-        return node_cache[node_id]
-    chunk_path = NODES_DIR / f"{node_id}.json"
-    if not chunk_path.exists():
+def get_query_embedding(text: str) -> np.ndarray | None:
+    if not ollama_available:
+        return None
+    try:
+        resp = requests.post(OLLAMA_EMBED_URL,
+                             json={"model": EMBED_MODEL, "prompt": text}, timeout=30)
+        resp.raise_for_status()
+        return np.array(resp.json()["embedding"], dtype=np.float32)
+    except Exception as e:
+        print(f"[!] 向量化失败: {e}")
         return None
     try:
         with open(chunk_path, "r", encoding="utf-8-sig") as f:

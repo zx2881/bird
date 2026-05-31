@@ -1,5 +1,48 @@
 <template>
   <div class="semantic-page">
+    <button class="help-float-btn" @click="helpGuide.open('semantic-search')" title="使用说明">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/>
+        <line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+    </button>
+
+    <HelpModal subtitle="语义搜索 · 功能介绍">
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          搜索模式
+        </h3>
+        <ul>
+          <li><strong>搜索：</strong>输入自然语言查询（如"鄱阳湖有什么濒危鸟类"），系统在知识图谱中匹配相关实体和关系路径并返回结果。支持搜索鸟类、地点、分类层级等不同类型实体。</li>
+          <li><strong>智能问答：</strong>点击"智能问答"按钮，AI 基于知识图谱内容生成自然语言回答。</li>
+          <li><strong>热门搜索：</strong>点击预设的热门查询快速体验语义搜索功能。</li>
+        </ul>
+      </div>
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></svg>
+          结果筛选与详情
+        </h3>
+        <ul>
+          <li><strong>筛选侧边栏：</strong>按实体类型（鸟类、地点、分类、栖息地、威胁、保护等级）筛选搜索结果。</li>
+          <li><strong>结果卡片：</strong>每条结果展示实体名称、类型标签、学名/英文名、关联度和匹配关系路径。点击卡片跳转详情页。</li>
+          <li><strong>共享实体：</strong>当同一实体通过多条路径匹配时，标记为"共享"并显示关联的查询实体。</li>
+        </ul>
+      </div>
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          搜索历史
+        </h3>
+        <ul>
+          <li>自动保存最近 20 条搜索历史，聚焦输入框时展示，支持一键复用和清除。</li>
+          <li>输入时提供实时搜索建议，基于已有实体名称自动补全。</li>
+        </ul>
+      </div>
+    </HelpModal>
+
     <div class="page-hero">
       <div class="hero-icon">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
@@ -225,13 +268,16 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useDebounceFn } from '@vueuse/core'
 import { useGraphStore } from '../stores/graphStore.js'
+import { useHelpGuide } from '../composables/useHelpGuide.js'
+import HelpModal from '../components/HelpModal.vue'
 
 const router = useRouter()
 const store = useGraphStore()
+const helpGuide = useHelpGuide()
 const searchRowRef = ref(null)
 
 const query = ref('')
@@ -400,6 +446,10 @@ function applyFilters(results, filters) {
     return true
   })
 }
+
+onMounted(() => {
+  setTimeout(() => helpGuide.checkFirstVisit('semantic-search'), 800)
+})
 </script>
 
 <style scoped>
@@ -1273,5 +1323,34 @@ function applyFilters(results, filters) {
   }
   .action-btn .btn-icon { width: 13px; height: 13px; }
   .hot-tag { font-size: 12px; padding: 5px 12px; }
+}
+
+.help-float-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 100;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.9), rgba(124, 58, 237, 0.9));
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.35);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.help-float-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 24px rgba(139, 92, 246, 0.5);
+  border-color: rgba(139, 92, 246, 0.5);
+}
+.help-float-btn svg {
+  width: 22px;
+  height: 22px;
 }
 </style>

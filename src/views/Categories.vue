@@ -1,5 +1,38 @@
 <template>
   <div class="categories-page">
+    <button class="help-float-btn" @click="helpGuide.open('categories')" title="使用说明">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/>
+        <line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+    </button>
+
+    <HelpModal subtitle="知识图谱浏览器 · 功能介绍">
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          浏览模式
+        </h3>
+        <ul>
+          <li><strong>鸟类：</strong>以卡片形式展示所有鸟类物种，包含照片、学名、IUCN 保护等级标签、分布地点数、栖息地数和关联实体数。点击卡片跳转详情页。</li>
+          <li><strong>地点：</strong>列表展示所有分布地点，包含所属大洲和经纬度坐标。点击跳转地点详情页。</li>
+          <li><strong>关系：</strong>逐条展示图谱中的三元组关系（鸟→关系→实体），点击源/目标可跳转详情或展开图谱。</li>
+          <li><strong>分类树：</strong>按目→科层级浏览鸟类分类体系，点击任意目或科可筛选查看该分类下的所有鸟类卡片。</li>
+        </ul>
+      </div>
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          搜索与标签
+        </h3>
+        <ul>
+          <li>顶部搜索框支持按中文名、英文名、学名过滤。搜索按钮旁实时显示匹配结果总数。</li>
+          <li>关系列表支持高亮匹配关键词的关系项，方便快速定位。</li>
+        </ul>
+      </div>
+    </HelpModal>
+
     <div class="cat-hero">
       <span class="cat-kicker">Species catalogue</span>
       <h2 class="page-title">知识图谱浏览器</h2>
@@ -176,9 +209,12 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useGraphStore } from '../stores/graphStore.js'
+import { useHelpGuide } from '../composables/useHelpGuide.js'
+import HelpModal from '../components/HelpModal.vue'
 
 const router = useRouter()
 const store = useGraphStore()
+const helpGuide = useHelpGuide()
 
 const searchQuery = ref('')
 const activeTab = ref('birds')
@@ -345,11 +381,7 @@ watch(activeTab, () => {
 onMounted(async () => {
   if (!store.loaded) await store.loadData()
   if (!store.previewLoaded) await store.loadGraphPreview()
-  window.addEventListener('scroll', handleWindowScroll, { passive: true })
-})
-
-onBeforeUnmount(() => {
-  window.removeEventListener('scroll', handleWindowScroll)
+  setTimeout(() => helpGuide.checkFirstVisit('categories'), 800)
 })
 </script>
 
@@ -763,5 +795,34 @@ onBeforeUnmount(() => {
   .location-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
   .tabs-bar { flex-wrap: wrap; justify-content: center; }
   .tab-btn { padding: 8px 16px; font-size: 13px; }
+}
+
+.help-float-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 100;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.9), rgba(124, 58, 237, 0.9));
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.35);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.help-float-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 24px rgba(139, 92, 246, 0.5);
+  border-color: rgba(139, 92, 246, 0.5);
+}
+.help-float-btn svg {
+  width: 22px;
+  height: 22px;
 }
 </style>

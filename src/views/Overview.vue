@@ -1,5 +1,39 @@
 <template>
   <div class="overview-page">
+    <button class="help-float-btn" @click="helpGuide.open('overview')" title="使用说明">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/>
+        <line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+    </button>
+
+    <HelpModal subtitle="数据概览 · 功能介绍">
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+          数据概览页功能
+        </h3>
+        <ul>
+          <li><strong>统计卡片：</strong>顶部展示鸟类物种总数、分布地点数、知识关系数、受威胁物种数和目/科分类统计。</li>
+          <li><strong>按大洲统计：</strong>环形图展示各洲鸟类数量占比，可查看每个大洲的具体物种数。</li>
+          <li><strong>IUCN 濒危等级：</strong>柱状图展示 CR（极危）、EN（濒危）、VU（易危）、NT（近危）、LC（无危）各等级的鸟类数量。红色高亮表示受威胁物种数。</li>
+          <li><strong>栖息地类型分布：</strong>南丁格尔玫瑰图展示前 15 种栖息地类型的鸟类数量分布。</li>
+          <li><strong>关系类型分布：</strong>环形图展示"分布于"、"栖息于"、"保护等级"、"受威胁于"等关系类型的数量占比。</li>
+          <li><strong>全球分布地图：</strong>Leaflet 地图展示有坐标数据的鸟类分布点，密集区域使用聚合圆点表示，点击可跳转详情。</li>
+        </ul>
+      </div>
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          快捷入口
+        </h3>
+        <ul>
+          <li>页面底部提供三个快捷跳转：<strong>浏览类别</strong>、<strong>语义搜索</strong>、<strong>3D 知识图谱</strong>。</li>
+        </ul>
+      </div>
+    </HelpModal>
+
     <div class="hero-section">
       <div class="hero-intro">
         <span class="overview-kicker">Biodiversity intelligence</span>
@@ -120,10 +154,16 @@ import { useRouter } from 'vue-router'
 import * as echarts from 'echarts'
 import L from 'leaflet'
 import { useGraphStore } from '../stores/graphStore.js'
+<<<<<<< HEAD
 import { isReliableMapCoord, toLatLng, DEFAULT_WORLD_VIEW, applyLeafletMapLimits, addOsmTileLayer } from '../utils/mapCoords.js'
+=======
+import { useHelpGuide } from '../composables/useHelpGuide.js'
+import HelpModal from '../components/HelpModal.vue'
+>>>>>>> 02fadee7c082527fcf2190611da0ed769e0ae50f
 
 const router = useRouter()
 const store = useGraphStore()
+const helpGuide = useHelpGuide()
 
 const continentChartRef = ref(null)
 const habitatChartRef = ref(null)
@@ -376,6 +416,7 @@ onMounted(async () => {
     window.addEventListener('resize', handleResize)
     observeRevealCards()
   }, 300)
+  setTimeout(() => helpGuide.checkFirstVisit('overview'), 800)
 })
 
 onBeforeUnmount(() => {
@@ -608,5 +649,34 @@ onBeforeUnmount(() => {
   .stats-bento { grid-template-columns: 1fr 1fr; }
   .stat-value { font-size: 24px; }
   .hero-title { font-size: 22px; }
+}
+
+.help-float-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 100;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.9), rgba(124, 58, 237, 0.9));
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.35);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.help-float-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 24px rgba(139, 92, 246, 0.5);
+  border-color: rgba(139, 92, 246, 0.5);
+}
+.help-float-btn svg {
+  width: 22px;
+  height: 22px;
 }
 </style>

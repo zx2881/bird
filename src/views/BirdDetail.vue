@@ -1,5 +1,38 @@
 <template>
   <div class="detail-page">
+    <button class="help-float-btn" @click="helpGuide.open('bird-detail')" title="使用说明">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/>
+        <line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+    </button>
+
+    <HelpModal subtitle="鸟类详情页 · 功能介绍">
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="6" r="3.5"/><circle cx="17" cy="5" r="3"/><circle cx="12" cy="16" r="3.5"/></svg>
+          鸟类详情页功能
+        </h3>
+        <ul>
+          <li><strong>物种信息：</strong>顶部展示鸟类中文名、英文名和学名，以及 IUCN 保护等级、分布地点数、栖息地数和关联实体数统计。</li>
+          <li><strong>分类路径：</strong>显示从界到种的完整七级分类层级，点击任意层级可跳转对应详情。</li>
+          <li><strong>分布地图：</strong>若该物种有坐标数据，展示 Leaflet 地图标注分布位置。</li>
+          <li><strong>关联关系：</strong>展示该物种与地点、栖息地、威胁因素等实体的所有关系，点击可跳转。</li>
+          <li><strong>摘要信息：</strong>从 Wikipedia 抓取或 CSV 导入的物种描述文本。</li>
+        </ul>
+      </div>
+      <div class="help-section">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h12M4 10h12M4 16h12"/></svg>
+          侧边栏导航
+        </h3>
+        <ul>
+          <li>左侧边栏支持搜索和快速切换到其他鸟类物种，搜索结果实时显示中文名和英文名。</li>
+        </ul>
+      </div>
+    </HelpModal>
+
     <aside class="detail-sidebar panel">
       <h3 class="sidebar-title">
         <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h12M4 10h12M4 16h12"/></svg>
@@ -180,11 +213,17 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import L from 'leaflet'
 import { useGraphStore } from '../stores/graphStore.js'
+<<<<<<< HEAD
 import { isReliableMapCoord, toLatLng, applyLeafletMapLimits, addOsmTileLayer, fitMapToPoints } from '../utils/mapCoords.js'
+=======
+import { useHelpGuide } from '../composables/useHelpGuide.js'
+import HelpModal from '../components/HelpModal.vue'
+>>>>>>> 02fadee7c082527fcf2190611da0ed769e0ae50f
 
 const route = useRoute()
 const router = useRouter()
 const store = useGraphStore()
+const helpGuide = useHelpGuide()
 
 const birdId = ref(route.params.id)
 const switchQuery = ref('')
@@ -457,7 +496,13 @@ watch(
 
 onMounted(async () => {
   await ensureCurrentBirdLoaded(birdId.value)
+<<<<<<< HEAD
   scheduleDetailMapRefresh()
+=======
+  await nextTick()
+  initDetailMap()
+  setTimeout(() => helpGuide.checkFirstVisit('bird-detail'), 800)
+>>>>>>> 02fadee7c082527fcf2190611da0ed769e0ae50f
 })
 
 onBeforeUnmount(() => {
@@ -778,62 +823,32 @@ onBeforeUnmount(() => {
   .detail-map-section, .detail-relations-section { padding: 0 20px 20px; }
 }
 
-.detail-sidebar {
-  border-radius: 16px;
+.help-float-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 100;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.9), rgba(124, 58, 237, 0.9));
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.35);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
-
-.sidebar-title::before,
-.section-title::before {
-  content: "";
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin-right: 8px;
-  border-radius: 999px;
-  background: var(--accent);
-  box-shadow: 0 0 0 4px var(--accent-soft);
-  vertical-align: 0.08em;
+.help-float-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 24px rgba(139, 92, 246, 0.5);
+  border-color: rgba(139, 92, 246, 0.5);
 }
-
-.detail-card-inner {
-  position: relative;
-  border-radius: 26px;
-  overflow: hidden;
-}
-
-.detail-card-inner::before {
-  content: "";
-  position: absolute;
-  inset: 0 0 auto;
-  z-index: 3;
-  height: 5px;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--accent-warm));
-}
-
-.detail-hero::after {
-  content: "";
-  position: absolute;
-  inset: 18px 22px auto auto;
-  z-index: 2;
-  width: 136px;
-  height: 54px;
-  pointer-events: none;
-  opacity: 0.22;
-  color: rgba(255, 255, 255, 0.86);
-  background:
-    radial-gradient(circle at 12% 62%, currentColor 0 2px, transparent 2.5px),
-    radial-gradient(circle at 46% 34%, currentColor 0 2px, transparent 2.5px),
-    radial-gradient(circle at 82% 54%, currentColor 0 2px, transparent 2.5px),
-    linear-gradient(14deg, transparent 0 22%, currentColor 22.5% 23.8%, transparent 24.2% 100%);
-}
-
-.detail-hero-placeholder svg {
-  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.22));
-}
-
-.stat-card,
-.info-item,
-.detail-map {
-  border-radius: 18px;
+.help-float-btn svg {
+  width: 22px;
+  height: 22px;
 }
 </style>
