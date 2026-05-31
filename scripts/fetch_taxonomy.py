@@ -115,6 +115,19 @@ def configure_csv_field_size_limit() -> None:
             limit //= 10
 
 
+def read_csv_headers(path: Path) -> List[str]:
+    if not path.exists():
+        return []
+    with path.open("r", encoding="utf-8-sig", newline="") as file:
+        reader = csv.DictReader(file)
+        fieldnames = reader.fieldnames or []
+        if not fieldnames:
+            raise ValueError(f"{path.name} 为空，或无法读取 CSV 表头。")
+        if any("\x00" in field for field in fieldnames):
+            raise ValueError(f"{path.name} 包含 NUL 字节，文件已损坏，无法解析。")
+        return [field.strip() for field in fieldnames]
+
+
 def _api_get(url: str, opener=None, timeout: int = 25, max_retries: int = 3) -> dict:
     request = Request(
         url,
@@ -185,7 +198,11 @@ def taxonomy_relation_object_id(rank: str, scientific_name: str, chinese_name: s
     return f"taxonomy-{rank}-{normalized or digest}"
 
 
-def load_csv_rows(path: Path, headers: List[str]) -> List[Dict[str, str]]:
+def load_csv_rows(
+    path: Path,
+    headers: List[str],
+    optional_headers: Sequence[str] | None = None,
+) -> List[Dict[str, str]]:
     if not path.exists():
         return []
     with path.open("r", encoding="utf-8-sig", newline="") as file:
@@ -195,10 +212,21 @@ def load_csv_rows(path: Path, headers: List[str]) -> List[Dict[str, str]]:
             raise ValueError(f"{path.name} 为空，或无法读取 CSV 表头。")
         if any("\x00" in field for field in fieldnames):
             raise ValueError(f"{path.name} 包含 NUL 字节，文件已损坏，无法解析。")
+        optional_header_set = set(optional_headers or [])
         missing_headers = [header for header in headers if header not in fieldnames]
-        if missing_headers:
-            joined = ", ".join(missing_headers[:8])
-            suffix = "..." if len(missing_headers) > 8 else ""
+        required_missing_headers = [
+            header for header in missing_headers if header not in optional_header_set
+        ]
+        compatible_missing_headers = [
+            header for header in missing_headers if header in optional_header_set
+        ]
+        if compatible_missing_headers:
+            joined = ", ".join(compatible_missing_headers[:8])
+            suffix = "..." if len(compatible_missing_headers) > 8 else ""
+            print(f"[compat] {path.name} 缺少旧表头兼容列: {joined}{suffix}，仅在内存中按空值补齐。")
+        if required_missing_headers:
+            joined = ", ".join(required_missing_headers[:8])
+            suffix = "..." if len(required_missing_headers) > 8 else ""
             raise ValueError(f"{path.name} 缺少必要列: {joined}{suffix}")
         rows = []
         for row in reader:
@@ -643,7 +671,7 @@ def main() -> None:
 
     configure_csv_field_size_limit()
     client = TaxonomyClient(opener=opener, delay=args.delay)
-    birds_rows = load_csv_rows(birds_path, BIRDS_HEADERS)
+    birds_rows = load_csv_rows(birds_path, BIRDS_HEADERS, optional_headers=TAXONOMY_COLUMNS)
     relations_rows = load_csv_rows(relations_path, RELATIONS_HEADERS)
     existing_relation_keys = {
         (row["subject_id"], row["predicate"], row["object_id"])
